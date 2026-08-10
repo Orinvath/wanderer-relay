@@ -54,3 +54,14 @@ Steps:
 4. Commit, report results to REPORTS.md.
 
 Scope ends there.
+
+## Directive 006 — Release closes the epoch too
+
+Lonnie's decision: the moment a host lets go — release or expiry, any reason — the epoch closes and their name comes off. An open epoch always names the actual current holder.
+
+1. Commit before changes.
+2. Implement for voluntary release, matching the expiry behavior.
+3. Update affected tests, run full suite.
+4. Commit, report to REPORTS.md.
+
+Scope ends there.
