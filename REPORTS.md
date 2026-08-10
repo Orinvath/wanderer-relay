@@ -90,3 +90,29 @@ ca26095  Phase 0 scaffold
    period a Phase 1 concern, or wanted now?
 
 Scope ended here. Nothing else touched.
+
+
+---
+
+## Directive 004 — Automated cycle proof — DONE
+
+Directive 004 executed via watcher — 2026-08-10T21:05:36Z (14:05:36 local, UTC-7).
+
+Provenance, since the point of this directive is proof rather than the sentence itself:
+
+```text
+1562    systemd --user
+750148   └─ bash /home/nobara-user/relay-watcher/watch.sh
+750170       └─ claude -p "Read DIRECTIVES.md in the wanderer-relay repo…"
+750446           └─ this run
+```
+
+The timer fired, the watcher saw DIRECTIVES.md change
+(`ec603938…` → `a457b182…`), launched Claude, and Claude reached this file and wrote
+to it. That last step is the one that failed on the previous cycle at 13:44 local, when
+the headless run had no write permission and stopped one step short. The full loop now
+closes unattended.
+
+Working tree was clean at start, so the commit-before-change rule had nothing to commit.
+
+Scope ended here. Nothing else.
