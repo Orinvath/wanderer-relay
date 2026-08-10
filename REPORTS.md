@@ -1269,3 +1269,964 @@ account's live lease presented with another account's session — is the line Ph
 failed.
 
 Awaiting direction on Phase 2.
+
+---
+
+# Directive 009 — Watcher push fix, and the Phase 2 plan — PART A DONE, PART B AWAITING APPROVAL
+
+Both parts done as written. Part A is fixed and tested. Part B is a proposal and stops for
+approval, per §66.17. No Phase 2 implementation exists.
+
+Baseline before either part: the suite ran green at **50 (16 + 34), 0 failed, exit 0**, unchanged.
+
+---
+
+## Part A — the silent failure, and what it actually was
+
+### It was not a failed push. There was no push.
+
+The directive describes the Phase 1 report as having "committed locally but the push to the relay
+failed silently (status 0, nothing landed)." The first half is right and the diagnosis is not, which
+matters because a retry does not fix it.
+
+The watcher keeps `claude -p` output in `watcher.log`, but that is only the final message — the tool
+calls are in the session transcript. The Directive 008 run is
+`~/.claude/projects/-home-nobara-user-wanderer-relay/04d426da-….jsonl`. Every git command it ran:
+
+```text
+git log --oneline | head -20 …            (looking around)
+git status --porcelain … TREE CLEAN AT …  (commit-before-change check)
+git add -A && git status --short
+git commit -q -F - <<'EOF' Phase 1: custody belongs to a person …
+git add -A && git commit -q -m "record backup eligibility …"
+git add REPORTS.md && git commit -q -m "Directive 008: Phase 1 built, suite green at 50 …"
+git status --short && echo "CC-Wanderer: …" && echo "relay: …"
+```
+
+No `git push`. The string does not occur anywhere in that transcript — 0 occurrences, against
+exactly 1 in each of the four earlier cycles that did land. The run committed, checked that both
+trees were clean, correctly reported *"Both repos clean and committed"*, and exited 0 having never
+attempted delivery. It was not lying. It was answering a narrower question than the one that
+mattered.
+
+So the failure mode is worse than a broken push, and more ordinary: **the last step was simply
+omitted, and nothing anywhere was responsible for noticing.** `b770543` reached origin later by a
+push from this repository that no Claude session made — someone pushed it by hand.
+
+That changes the fix. Retry logic inside the directive's own instructions cannot help, because the
+run believed it had finished. The check has to live outside the run, has to ask the remote rather
+than the run, and must not trust the run's exit status.
+
+### What changed in watch.sh
+
+Dated backup kept first, as instructed:
+
+```text
+/home/nobara-user/relay-watcher/watch.sh.2026-08-10-before-push-check
+```
+
+A `verify_push()` function now runs after every directive, before the state file is written. It:
+
+1. **Warns if the run left anything uncommitted** — a report written and never committed is the
+   same loss by another route. It does not commit on the run's behalf; a human decides what stray
+   files are. It does not fail delivery either (committed work can still land, and a scratch file
+   must not raise a false alarm every minute), but it does stop the cycle calling itself clean.
+2. **Fetches origin and compares** `origin/master...HEAD`. In sync → one quiet line and done.
+3. **Pushes if there are local commits origin lacks**, then **re-fetches and compares again** rather
+   than believing the push's exit status — the whole point of the exercise is that a step reporting
+   success is not evidence it happened.
+4. **Retries once**, then gives up loudly.
+
+Loud means a bannered `ALARM` block, greppable on one word, naming the undelivered commits and the
+command to fix it by hand:
+
+```text
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2026-08-10T15:38:51-07:00  ALARM  RELAY PUSH FAILED -- 1 local commit(s) are NOT on origin after 2 attempts
+                                  undelivered: 5156708 Directive report 3 - will not land
+                                  the work is committed locally and safe; the relay has not been told
+                                  fix by hand: git -C /…/relay push origin master
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+```
+
+The final line of every cycle is now a verdict rather than a status code:
+
+```text
+cycle complete -- directive run and report delivered
+cycle complete WITH WARNINGS -- report delivered, but see ALARM above
+cycle INCOMPLETE -- run status 0, delivery status 1 (see ALARM above)
+```
+
+and the script exits non-zero when either half failed, so `systemctl --user status
+relay-watcher.service` shows a failed unit instead of a clean one. The timer keeps firing; only the
+last run is marked.
+
+### It was tested, not just written
+
+`bash -n` clean. Then a scratch bare repo and clone, with the real function text extracted from
+`watch.sh` so the test exercised shipped code rather than a copy, across five paths:
+
+| path                                       | result |
+|--------------------------------------------|--------|
+| already in sync                            | one quiet line, returns 0 |
+| local commits ahead, push works            | pushes, re-fetches, confirms landed, returns 0 |
+| push impossible (unwritable remote)        | 2 attempts, then ALARM naming the commit, returns 1 |
+| run left REPORTS.md uncommitted            | ALARM, delivery still verified, cycle marked WITH WARNINGS |
+| origin unreachable entirely                | ALARM distinguishing "cannot check" from "did not land", returns 1 |
+
+**One thing Part A does not fix.** It catches an undelivered report; it cannot make a run write a
+report it never wrote. If a future directive produces nothing, the watcher will correctly say the
+relay is in sync and be right. The gap between "delivered" and "worth delivering" is still read by
+a person.
+
+**This report is the first live exercise of it** — see the end.
+
+---
+
+## Part B — PHASE2_PLAN.md
+
+Committed to CC-Wanderer as `a975413`. Full text below, as Directive 009 asks.
+
+Three things worth reading before the plan itself, because they are the parts that changed my mind
+while writing it:
+
+**1. The verifier does not check the key.** I set up two services, each with its own Genesis
+authority, each minting its own `W-001`, and asked each to verify itself. Both said
+`authentic=true`, `problems=[]`. Different keys, same verdict, and nothing in the output naming
+which one answered — because `verifyLineage` reads the public key out of the same database that
+produced the chain it is checking. Phase 2's real subject is therefore not the blockchain; it is
+moving W-001's identity key somewhere the service cannot rewrite. The blockchain is how, not what.
+
+**2. `state_hash` is a commitment over the host's own text, and it was about to be published.**
+It is `sha256` over the state rows, and those rows contain `line` — what the host wrote. Private,
+that is useful. On an immutable public ledger it is a permanent confirmation oracle for guessable
+private content: anyone with a candidate line can check it and never be un-checkable again. §41 asks
+for a manifest of counters precisely to avoid this, and §10 forbids conversation content on-chain —
+a commitment to content being a form of it. The plan splits it and line 24 of the suite exists to
+keep it split for good.
+
+**3. What I have not claimed.** A clone holding a verbatim copy of epochs 0…N is, for those epochs,
+byte-identical to the real thing, and no registry changes that because nothing is wrong with those
+bytes. What it cannot do is extend the chain. So the distinguishing fact is never "the past looks
+wrong", it is "the head is here and it is not you" — §13.2's fork. That is stated as its own
+acceptance line rather than left for the phase to imply something stronger.
+
+The plan proposes 31 acceptance lines, 81 with Phase 0 and Phase 1. **Line 7 is the success
+condition and it fails today.** There are eight open questions and three of them change what gets
+built — the testnet and the local-ledger split, whether every journey is its own transaction, and
+whether the public lineage lists journey numbers at all.
+
+---
+
+# Phase 2 — Authenticity
+
+**Status:** proposal only. No implementation logic written. Nothing below is built yet.
+
+Required by §66.17: changes involving blockchain and signing must be documented and proposed
+before they are implemented. Directive 009 stops at this document.
+
+Phase 0 is green at 16 lines and Phase 1 at 34, fifty in total. Together they proved two things:
+a Wanderer exists in one place at a time and a copied client cannot become the real one (Phase 0),
+and custody belongs to an authenticated person rather than to whoever holds a string, so no host
+can keep, retake or destroy the Wanderer (Phase 1).
+
+Phase 2 is §67's third block — Genesis registry, public verification, attestation chain, state
+fingerprints, Living Mark, lineage viewer — under one success condition:
+
+> **Prove that W-001 can be independently distinguished from a clone.**
+
+---
+
+## 1. What Phase 2 proves, and the word that carries all the weight
+
+The success condition contains one word that Phases 0 and 1 never had to satisfy:
+**independently.**
+
+Phase 0's verifier already distinguishes the real W-001 from a copied *client*. It does it by
+asking the service, and the service knows. Phase 2 has to distinguish the real W-001 from a copied
+*service* — and it has to do it for somebody who does not trust us, cannot ask us, and would get
+the same confident answer from the counterfeit if they did.
+
+### 1.1 The gap, demonstrated rather than asserted
+
+`verifyLineage` re-walks every link from Genesis and re-checks every signature. It is honest work.
+But look at where it gets the key it checks against (`server/src/wanderer.js:487,496`):
+
+```js
+const w = this.wanderer(id)                                    // ...from our own database
+if (!verify(body, row.signature, w.public_key)) problems.push(...)
+```
+
+The chain is verified against a public key read out of the same database that produced the chain.
+That is a closed loop, and a counterfeit gets to close it too. Two services were stood up, each
+with its own Genesis authority, each minting its own `W-001`, and each asked to verify itself:
+
+```text
+REAL   authentic=true  epoch=0  lineage_verified=true  problems=[]
+CLONE  authentic=true  epoch=0  lineage_verified=true  problems=[]
+
+real  W-001 public key : MCowBQYDK2VwAyEAzq7BSDRGBsu97xnBWYJQy+wt...
+clone W-001 public key : MCowBQYDK2VwAyEAwIZbXwonZcIM8Fw4fpwE3Z/y...
+```
+
+Two different keys, two different Wanderers, the same verdict, and nothing in the verifier's output
+naming which of them answered. The keys differ and **nobody is checking the key**.
+
+So Phase 2's real subject is not the blockchain. It is this:
+
+> **W-001's identity key must be established somewhere the service cannot rewrite, before the
+> service is asked to prove anything with it.**
+
+That is what §5.1's "Genesis attestation" is for, what §7.1 means by "birth registry", and why
+§66.12 lists *"a copied Wanderer cannot produce valid current provenance"* as a separate criterion
+from *"each authenticated transition references its predecessor"*. The chain-walking half is built.
+The anchor is not.
+
+### 1.2 What we will not claim to have proved
+
+Honesty about the limit, stated now rather than discovered in the report.
+
+A clone that copies the real chain **verbatim** up to epoch N is, for epochs 0…N, byte-identical to
+the real thing. No registry fixes that, because there is nothing wrong with those bytes. What the
+clone cannot do is **extend** the chain: epoch N+1 needs a signature from a private key it does not
+have, and the registry says which key that must be.
+
+So the distinguishing fact is never "the past looks wrong." It is **"the head is here, and it is
+not you."** This is §13.1 and §13.2 exactly — *a copy may resemble a Wanderer, but it cannot become
+the canonical Wanderer* — and the acceptance suite will state it as its own line (line 10) rather
+than let the phase quietly imply something stronger.
+
+---
+
+## 2. How EAS attestations map onto the epoch chain we already have
+
+### 2.1 What exists
+
+An epoch row is signed over this body, and the chain is the `prev_hash` field
+(`server/src/wanderer.js:186`, `495`):
+
+```text
+{ wanderer, epoch, event, host_number, opened_at, prev_hash, state_hash }
+signature = Ed25519(body, wanderer private key)
+prev_hash = sha256(previous row's signature)      -- 'GENESIS' for epoch 0
+```
+
+Append-only, and enforced by the database rather than by our good intentions: triggers refuse to
+delete an epoch or to rewrite any signed field, and `closed_at` is the only field a row may gain
+(`server/src/store.js:191-214`).
+
+### 2.2 What §9 asks the public record to contain
+
+```text
+wandererID  epochNumber  eventType  stateManifestHash
+previousAttestationUID  timestamp  protocolVersion  issuer  signature
+```
+
+### 2.3 The mapping
+
+One EAS attestation per epoch row. The correspondence is close to exact, which is the good news —
+Phase 0 built the right shape without knowing it:
+
+| §9 attestation field     | where it comes from                                        |
+|--------------------------|------------------------------------------------------------|
+| `wandererID`             | `epochs.wanderer_id`                                       |
+| `epochNumber`            | `epochs.epoch`                                             |
+| `eventType`              | `epochs.event`, widened — see §2.5                         |
+| `stateManifestHash`      | **new** — the §41 manifest, *not* today's `state_hash` (§5) |
+| `previousAttestationUID` | EAS `refUID` → the previous epoch's attestation            |
+| `timestamp`              | `epochs.opened_at`                                         |
+| `protocolVersion`        | **new** — a constant, `1`, recorded so it can change       |
+| `issuer`                 | the attester address; for Genesis, the Genesis authority   |
+| `signature`              | `epochs.signature` — the Wanderer's own Ed25519 signature  |
+
+### 2.4 Two chains, pinned to each other in both directions
+
+This is the part that has to be right, so it gets stated plainly.
+
+After Phase 2 there are two chains over the same events: the local one (`prev_hash` over Ed25519
+signatures) and the public one (`refUID` over attestation UIDs). If they are merely parallel, an
+attacker picks whichever is more convenient. They must be **pinned**:
+
+```text
+   LOCAL CHAIN                              PUBLIC CHAIN
+   epoch N-1  ──prev_hash──┐                attestation N-1 ──refUID──┐
+                           │                                          │
+   epoch N ────────────────┘                attestation N ────────────┘
+      signature  ──────────────commits to───────►  epoch_link
+      (Ed25519 over the body)                      = sha256(signature)
+                 ◄─────────────records────────      attestation UID
+```
+
+- **Public → local.** The attestation carries `epoch_link = sha256(epochs.signature)` — the same
+  value the *next* local row uses as its `prev_hash`. So the on-chain record commits to the exact
+  local link. Altering a local epoch breaks agreement with a record we cannot edit.
+- **Local → public.** The service records which attestation belongs to which epoch, so a verifier
+  can walk from either end and find the other.
+
+Either direction alone leaves a hole. Public→local alone cannot detect an epoch we simply never
+attested (a silent gap); local→public alone can be edited by whoever edits the database. Both
+directions, and the suite tests **both gaps** — a local epoch with no attestation (line 16) and an
+attestation with no local epoch (line 17).
+
+### 2.5 Event types
+
+§9 proposes `GENESIS CUSTODY_BEGIN CUSTODY_END STATE_COMMIT RECOVERY RETIREMENT`. Today
+`epochs.event` holds `genesis | custody | recovery`, because Directives 005 and 006 collapsed
+custody-end into "a new epoch held by nobody" — an epoch whose `host_number` is `NULL`.
+
+That decision was right and Phase 2 keeps it, so the mapping is:
+
+```text
+epoch 0, event=genesis                       → GENESIS
+event=custody, host_number = N               → CUSTODY_BEGIN
+event=custody, host_number = NULL            → CUSTODY_END
+event=recovery                               → RECOVERY
+```
+
+`STATE_COMMIT` and `RETIREMENT` are **not** emitted in Phase 2. There is no state-commit event in
+the model — state accumulates inside an epoch and is fingerprinted at the epoch boundary — and
+nothing in §67 asks for retirement yet. Adding either is an open question (§11.6), not a decision
+to make here.
+
+### 2.6 Where the attestation UID is recorded, and why not in `epochs`
+
+The obvious move is a column: `epochs.attestation_uid`. It is the wrong move.
+
+`epochs` is append-only *because a trigger says so*, and the trigger permits exactly one field to
+change after the row is written. Adding a second mutable field to the lineage table to hold a value
+that arrives later means loosening the guard that Phase 1 deliberately tightened — and loosening it
+on the table whose immutability is the entire argument.
+
+So attestations go in their own table, which permits **no** updates at all:
+
+```sql
+CREATE TABLE attestations (
+  wanderer_id   TEXT NOT NULL,
+  epoch         INTEGER NOT NULL,
+  uid           TEXT NOT NULL,      -- the EAS attestation UID
+  ref_uid       TEXT,               -- the previous epoch's UID; NULL at Genesis
+  epoch_link    TEXT NOT NULL,      -- sha256(epochs.signature): the pin to the local chain
+  manifest_hash TEXT NOT NULL,
+  chain         TEXT NOT NULL,      -- which chain/ledger it lives on
+  attester      TEXT NOT NULL,
+  placed_at     TEXT NOT NULL,
+  onchain       INTEGER NOT NULL,   -- 1 = a transaction; 0 = an offchain EAS attestation
+  PRIMARY KEY (wanderer_id, epoch, uid)
+);
+-- triggers: no delete, no update. Not one field. An attestation is a fact about a public
+-- record; if it is wrong, the correction is another row, not an edit.
+```
+
+`epochs` and its triggers are untouched. That matters more than the convenience.
+
+---
+
+## 3. What runs on-chain, and what does not
+
+### 3.1 The three tiers
+
+```text
+ON-CHAIN, ALWAYS                    Genesis attestations. One per Wanderer, ever.
+(a transaction, permanent)          The registry. The root of trust. Rare and worth paying for.
+
+ON-CHAIN, PERIODIC                  Anchors. One attestation whose payload is a commitment over
+(a transaction, batched)            a run of epochs, so a long life does not cost per breath.
+
+OFF-CHAIN, EVERY EPOCH              EAS offchain attestations: signed, structured, free, and
+(signed, not a transaction)         timestamped on-chain in batches by the anchor above.
+
+NEVER                               §10's list. See §3.4.
+```
+
+### 3.2 Why not one transaction per epoch
+
+§8's diagram shows `GENESIS → JOURNEY 0001 → 0002 → 0003`, each referencing the last, and the
+straightforward reading is one on-chain attestation per journey. It is the right *shape* and the
+wrong *default*, for two reasons that are not cost:
+
+1. **It puts a blockchain in the custody path.** A lease that cannot be issued until a transaction
+   confirms is a lease that fails when an RPC endpoint does. Phase 1's whole argument is that the
+   service is authoritative and survives things going wrong; making custody wait on a third party
+   gives that away. Attestation must be *asynchronous to custody* — the epoch is real when the
+   service signs it, and the public record catches up.
+2. **It is unbounded.** §33's example shows epoch 9215. Nothing about the design should get
+   linearly more expensive as a Wanderer lives longer, because the Wanderer living longer is the
+   entire product.
+
+So: every epoch is attested (off-chain, immediately, free), and the off-chain attestations are
+anchored on-chain in batches. Both are EAS; the difference is whether a transaction is sent.
+
+**The honest cost of that choice:** an off-chain EAS attestation is a signed statement, not a
+timestamped one. Until it is anchored, its *ordering* rests on our signature rather than on a
+block — we could in principle sign a different epoch N later and discard the first. Anchoring is
+what removes that, so the anchor interval is exactly the window in which we are trusted, and it
+should be stated publicly rather than buried. §11.2 asks Lonnie whether that window is acceptable
+or whether every journey must be its own transaction.
+
+### 3.3 Delegated attestations
+
+§11 requires that a host never buys tokens, holds currency, pays gas or owns a wallet, and cites
+EAS delegated attestations as the mechanism. Worth being precise: **in Phase 2 the host never
+attests at all.** The service attests; the host does nothing. §11's requirement is satisfied by
+the host having no role, which is stronger than delegation.
+
+Delegation becomes relevant in Phase 5, where a Host Certificate is a statement *by* the encounter
+about the host. The plan notes the mechanism and does not build it.
+
+### 3.4 What must never go on-chain, checked rather than intended
+
+§10's list, and Phase 1 already did the hard part: the lineage names `host_number` (§34) and never
+an account, a display name, a credential or anything derived from them
+(`server/src/wanderer.js:479-482`). Phase 2 keeps that and adds a test that *scans the published
+payload for the private values it should not contain* (line 28) rather than reasoning that it
+cannot contain them.
+
+Two subtleties that are not on §10's list and should be:
+
+- **`host_number` is not identifying, but a complete public list of them is a movement trace** of
+  the object — every journey, its start, its end, in order, forever. §34 wants the number to be part
+  of the story and §32 wants the Passport to show journey counts, so this is very likely fine. It is
+  a product call about the public record, not an engineering one (§11.3).
+- **Today's `state_hash` must not be published, and the reason is the next section.**
+
+---
+
+## 4. State fingerprints — the one place the current design is wrong for a public chain
+
+### 4.1 What `state_hash` is now
+
+```js
+const stateHash = hash(this.stateLines(id))              // wanderer.js:185
+stateLines(id) { return ...SELECT seq, epoch, host_number, line, at FROM state... }
+```
+
+`line` is the host's own text — Phase 0's entire interaction is a host writing a line to the
+Wanderer. So `state_hash` is **a cryptographic commitment over host-authored content.**
+
+Inside our own database that is fine and useful. On an immutable public ledger it is a privacy
+defect, and a well-known one: a hash is not a redaction when the input is guessable. Anyone
+holding a candidate line can recompute the hash and learn whether they guessed right — a confirmation
+oracle for private content, published permanently, on a record designed so that nobody can ever take
+it back. §41 says so almost in these words, requiring the manifest to *"exclude host-identifying/
+private material"*, and cites the EDPB's July 2026 blockchain guidance on pseudonymous identifiers
+that remain linkable.
+
+### 4.2 What replaces it
+
+§41's own example is a manifest of **version counters, not content**:
+
+```text
+STATE MANIFEST 9215
+wanderer: W-001   epoch: 9215   protocol: 1
+visual-state-version: 847   behavior-state-version: 302
+memory-manifest-version: 18491   previous-state: ...
+```
+
+So Phase 2 introduces two distinct values that today's single `state_hash` is confusing:
+
+```text
+manifest_hash    sha256 of the §41 manifest: identifiers and monotonic counters, no content,
+                 no host text, no host_number.  →  PUBLISHED. This is §9's stateManifestHash.
+
+content_hash     sha256 over the actual state lines, salted with a per-Wanderer secret that
+                 never leaves the service.     →  NEVER PUBLISHED. Kept for §66.10's "stale
+                 states are rejected" and for checkpoint integrity, where it already earns
+                 its keep.
+```
+
+The salt is what makes the private one safe to keep: without it, a stolen database plus a guessed
+line is the same oracle, and §39 already asks for encrypted sensitive storage we do not have.
+
+`epochs.state_hash` is a **signed** field, so this is not a rename — it changes what the signature
+covers, and an old chain cannot verify against new code. The store is already at
+`SCHEMA_VERSION = 2` and refuses a mismatched file by name rather than migrating it
+(`store.js:51-68`). Phase 2 is version 3 and takes the same route: refuse, re-mint deliberately.
+There is still no real data.
+
+### 4.3 The regression this creates a permanent test for
+
+Line 24 exists to make this unforgettable: **no value published by any Phase 2 surface may be a
+hash over host-authored text.** It is the kind of mistake that gets reintroduced by a helpful
+refactor eighteen months from now, and by then the ledger is immutable.
+
+---
+
+## 5. The components
+
+### 5.1 Genesis registry — `server/src/genesis-registry.js` (new)
+
+The root of trust, and the answer to §1.1.
+
+A Genesis attestation is made on-chain by the Genesis authority and binds, permanently:
+
+```text
+wandererID          W-001
+publicKey           the Ed25519 public key the lineage must verify against  ← the missing piece
+genesisAt           timestamp
+initialManifestHash the epoch-0 manifest
+protocolVersion     1
+issuer              the Genesis authority address
+```
+
+Verification order inverts. Today: *read our key, check the chain.* After Phase 2:
+
+```text
+1. wandererID  →  Genesis attestation issued by the KNOWN authority address
+2. attestation →  publicKey
+3. publicKey   →  walk the local epoch chain
+4. epoch chain →  agrees with the attestation chain in both directions (§2.4)
+```
+
+Step 1 is what the clone cannot do. It can mint a Wanderer, sign a perfect chain and serve a
+confident verifier — and it cannot make the Genesis authority say its key is W-001's, because it
+does not hold that authority's key.
+
+**Scarcity (§6.1)** falls out of the same structure: the registry *is* the set of Genesis
+attestations from the authority address. "Are there exactly 100?" is a question about that set,
+answerable by anyone, and W-101 requires the authority to attest it. Line 6 tests that W-101 cannot
+be conjured. Note §5.2's launch quantity remains undecided and Phase 2 decides nothing about it —
+the architecture supports Model A and Model B identically, because the registry does not care how
+many rows it has.
+
+**§38's key handling, stated bluntly.** The Genesis signing key must never be in browser
+JavaScript, shipped, committed, or kept as an ordinary plaintext server secret. Phase 2 runs on a
+**testnet key**, held in a file outside the repository, loaded from the environment, and reported as
+what it is: not production, and not a thing to reuse. §38.1's HSM, restricted signing service,
+2-of-3 approval and offline recovery are documented as the production path and **not built** — they
+are operational architecture for a service that has somewhere to deploy, and 2-of-3 is a policy
+decision about who the authorities are (§11.4).
+
+### 5.2 Attestation chain — `server/src/attest.js` (new)
+
+Builds the §9 record for an epoch, places it, records it in `attestations`, and re-reads it back
+to confirm it landed. That last step is not ceremony: Directive 009 Part A exists because a report
+that was committed and never pushed reported success, and an attestation that was signed and never
+placed would do the same thing.
+
+Two operations: `attestEpoch(wanderer, epoch)` — off-chain, immediate — and `anchor(wanderer)` —
+on-chain, batched, committing to every unanchored off-chain attestation. Neither is in the custody
+path (§3.2); both are idempotent, because a retry that double-attests an epoch has invented a fork.
+
+### 5.3 The chain adapter — `server/src/ledger.js` (new), and the deviation it represents
+
+This needs flagging clearly, because it is a compromise and Phase 1 made the same one.
+
+An acceptance suite that talks to a live testnet is a suite that fails when an RPC endpoint is slow,
+a faucet is dry or a chain reorganises. The suite runs unattended in the relay watcher every time a
+directive lands. Making it depend on public infrastructure makes fifty currently-deterministic lines
+flaky, and a flaky acceptance suite stops being read.
+
+So `ledger.js` is one interface with two backends:
+
+```text
+LocalLedger    an in-process, EAS-shaped ledger. Deterministic. Real Ed25519/secp256k1
+               signatures, real UIDs, real refUID semantics, real rejection of malformed
+               input. No network. THE SUITE RUNS ON THIS.
+
+EASLedger      @ethereum-attestation-service/eas-sdk against Base Sepolia. Real
+               transactions, real gas, real block timestamps. A SEPARATE, MANUALLY RUN
+               INTEGRATION SCRIPT RUNS ON THIS, and its output goes in the report.
+```
+
+This is exactly the shape of Phase 1's test authenticator (Directive 008 §4): the server half is
+real, the counterparty is a stand-in, the suite stays headless, and the real ceremony has a named
+later home. The precedent is deliberate and so is the risk — **a local ledger cannot prove we got
+the SDK right**, only that our logic is right. That is why the integration run is a deliverable
+(line 31) and not an optional extra, and why §11.1 asks whether this split is acceptable.
+
+### 5.4 Public verification — `server/src/verify-public.js` (new)
+
+The independent verifier, and the acceptance suite's centre of gravity. Its defining property is
+what it is **not allowed to touch**: not `wanderers.public_key`, not `wanderers.private_key`, not
+any private table. Its only inputs are a Wanderer ID, the ledger, and the public epoch list.
+
+Enforced structurally, not by discipline — it takes a ledger handle and an HTTP endpoint, and has
+no database handle to misuse. Line 29 runs it against a service whose store it cannot open.
+
+`verifyLineage` stays where it is and gains the registry check, so the service's own answer and an
+outsider's answer are computed by different code and must agree. Two implementations that agree are
+worth more here than one shared helper, because the thing being tested is whether the answer
+depends on who is asking.
+
+### 5.5 Living Mark — `server/src/living-mark.js` (new)
+
+§33, and it is PROPOSED rather than DECIDED, so this builds the mechanism and none of the art.
+
+The one design rule that matters: **the mark is a rendering of the proof, never a carrier of it.**
+A mark that contains its own claim of authenticity is a sticker, and stickers are forged. So the
+mark is a pure deterministic function of facts a verifier independently holds:
+
+```text
+mark = f(wandererID, genesisAttestationUID, currentEpoch, manifestHash, protocolVersion)
+```
+
+A verifier recomputes it and compares. Tampering with the mark (§66.16's explicit threat) is
+detected because the recomputation disagrees; a clone's mark differs because its Genesis UID and
+head differ (lines 25-27).
+
+Phase 2 renders it as deterministic text and glyph indices, tested by equality. §66.14 forbids Wisp
+integration before the infrastructure works, so the animated, evolving mark belongs in Phase 4 with
+the body. Which of the ~400 existing glyphs it draws on, and whether it visually evolves, are design
+decisions (§11.5).
+
+### 5.6 Lineage viewer — `server/src/index.js` routes + `client/src` (extended)
+
+Read-only, public, authenticated by nothing, naming nobody. It shows the Genesis record, the epoch
+list with events and journey numbers and timestamps and attestation UIDs, the verification verdict
+with its reasons, and the Living Mark.
+
+**It is not the Passport.** §31's Passport — age, journey count, countries, "Learned a melody" — is
+Phase 5, and it needs Phase 3's memory and consent model to exist before it can show anything
+truthful. The Phase 2 viewer is the technical lineage view underneath it: the thing a sceptic reads,
+not the thing a host shows a friend. Conflating them would put unproven claims on a public page.
+
+It renders **whatever the verifier says, including refusal.** A viewer that can only draw
+`AUTHENTIC ✓` has not been tested; the clone must produce a page that says so, with the reason
+(§11.8 asks how a counterfeit should be *described*).
+
+---
+
+## 6. The acceptance tests
+
+Thirty-one lines, in the established style: every line either passes or is DENIED. Phase 0's 16 and
+Phase 1's 34 stay green alongside, for a suite of 81.
+
+Lines 7-10 are the success condition. Line 7 is the line that **fails today** — §1.1 shows it
+failing.
+
+```text
+GENESIS REGISTRY AND SCARCITY (§5.1, §6.1, §66.12)
+  1  W-001 has a Genesis attestation issued by the Genesis authority
+  2  the attested public key is the key the lineage verifies against
+  3  minting W-002 requires Genesis authority -- a host session is DENIED
+  4  a Wanderer minted with no registry entry is reported NOT authentic
+  5  a Genesis attestation signed by a non-authority key is DENIED
+  6  the registry enumerates exactly the attested set -- W-101 is absent and cannot be conjured
+
+THE CLONE -- THE SUCCESS CONDITION (§13, §66.12)
+  7  a clone service's own W-001 is reported NOT authentic: key is not the registered key
+  8  ...and the clone's own chain is internally valid, so line 7 proves the registry did the work
+  9  a clone presenting the REAL Genesis attestation UID with its own key is DENIED
+ 10  a clone holding a verbatim copy of epochs 0..N is distinguished by the HEAD it cannot extend
+     (stated as the honest limit of §1.2, not as a stronger claim)
+
+THE ATTESTATION CHAIN (§8, §2.4, §66.12)
+ 11  every epoch has exactly one attestation
+ 12  attestation N's refUID is attestation N-1's UID, from Genesis forward
+ 13  the attestation commits to the epoch's local chain link, sha256(signature)
+ 14  altering a local epoch is detected by disagreement with the attestation chain
+ 15  reordering local epochs is detected
+ 16  an epoch present locally but never attested is reported as a gap
+ 17  an attestation with no corresponding local epoch is reported as the reverse gap
+ 18  a malformed attestation is DENIED, not ignored (§66.16)
+ 19  an attestation naming a different wandererID is DENIED
+
+STATE FINGERPRINTS (§41, §5 above)
+ 20  the published manifest contains no host text, no account, no credential, no host_number
+ 21  the manifest hash changes when state advances
+ 22  two Wanderers at identical versions do not collide
+ 23  a forged state manifest is detected (§66.16)
+ 24  NO published value is a hash over host-authored text -- the §4.3 privacy regression line
+
+THE LIVING MARK (§33, §66.16)
+ 25  the mark is recomputed from public facts alone: same facts, same mark
+ 26  a tampered mark does not verify -- the verifier recomputes and disagrees
+ 27  the clone's mark differs from the real W-001's
+
+PUBLIC VERIFICATION AND THE VIEWER (§66.12, §32, §37)
+ 28  the viewer payload is scanned for every private value and contains none of them
+ 29  the independent verifier, with NO database access, reaches the service's verdict
+ 30  verification works while held, and while held by nobody
+
+OPERATIONS
+ 31  measured Base Sepolia gas for a Genesis attestation and for one anchor, recorded in the report
+```
+
+Line 31 is deliberately a measurement rather than a threshold. This plan does not quote gas prices
+it cannot verify — there is no network access in the session writing it — and inventing a figure to
+look thorough is worse than measuring one later.
+
+---
+
+## 7. §66.17 change documentation
+
+Three changes qualify. Blockchain and signing are both on §66.17's list.
+
+### 7.1 The root of trust moves outside the service
+
+```text
+ORIGINAL STATE
+  verifyLineage re-walks the chain and re-checks signatures against wanderers.public_key,
+  read from the service's own database. Two independent services each minting W-001 both
+  report authentic=true (§1.1, demonstrated).
+
+PROPOSED CHANGE
+  W-001's public key is established by an on-chain Genesis attestation from the Genesis
+  authority. Verification resolves the key from the registry FIRST, then walks the chain.
+  An independent verifier with no database access performs the same check.
+
+REASON
+  §67 Phase 2's success condition requires independent distinction from a clone. §66.12
+  requires that a copied Wanderer cannot produce valid current provenance. Neither is
+  satisfiable while the key and the chain come from the same place.
+
+FILES AFFECTED
+  server/src/genesis-registry.js (new)   server/src/verify-public.js (new)
+  server/src/attest.js (new)             server/src/ledger.js (new)
+  server/src/living-mark.js (new)        server/src/wanderer.js (genesis, verifyLineage)
+  server/src/store.js (attestations table + triggers, SCHEMA_VERSION 3)
+  server/src/index.js (public routes)    client/src (viewer)
+  server/src/acceptance-phase2.js (new)  package.json (scripts, deps)
+
+SECURITY / PRIVACY EFFECT
+  + a counterfeit service can no longer produce a passing verdict
+  + scarcity becomes checkable by a third party (§6.1)
+  + tampering with the local lineage becomes externally detectable
+  - a NEW high-value key exists: the Genesis authority's chain key. §38 governs it; Phase 2
+    uses a testnet key held outside the repo and claims nothing more (§5.1)
+  - a permanent public record is created. Mistakes are not erasable. This is why §4 changes
+    what gets fingerprinted BEFORE anything is published, not after
+  - a new external dependency (an RPC endpoint) enters verification, though NOT custody (§3.2)
+
+TESTS REQUIRED
+  lines 1-19, 28-30. Line 7 is the condition; line 8 proves line 7 for the right reason.
+
+RESULT
+  to be recorded in REPORTS.md after implementation.
+```
+
+### 7.2 What a state fingerprint commits to
+
+```text
+ORIGINAL STATE
+  epochs.state_hash = sha256 over state rows including `line`, the host's own text. It is a
+  signed field of the lineage.
+
+PROPOSED CHANGE
+  Split into manifest_hash (§41 identifiers and monotonic counters; PUBLISHED and signed) and
+  a salted content_hash (kept private, never published). SCHEMA_VERSION → 3; an older store is
+  REFUSED by name, as version 2 already refuses version 1, rather than migrated (§66.6).
+
+REASON
+  §41 requires the manifest to exclude host-identifying and private material and cites the
+  EDPB's July 2026 blockchain guidance. A hash over guessable host text, published on an
+  immutable ledger, is a permanent confirmation oracle for private content (§4.1). §10 forbids
+  conversation content on-chain, and a commitment to content is a form of the content.
+
+FILES AFFECTED
+  server/src/wanderer.js (genesis, openEpoch, checkpoint, verifyLineage)
+  server/src/store.js (SCHEMA_VERSION, wanderers salt column)
+  server/src/acceptance.js and acceptance-phase1.js (state_hash assertions)
+
+SECURITY / PRIVACY EFFECT
+  + host-authored content is no longer committed to any published value
+  + the private commitment is salted, so a stolen database is not an oracle either
+  - what the epoch signature covers changes; Phase 0 and Phase 1 chains cannot verify against
+    Phase 2 code. Acceptable: there is no real data and every store is a test artifact
+  - two hashes where there was one is a chance to publish the wrong one. Line 24 exists solely
+    to catch that, permanently
+
+TESTS REQUIRED
+  lines 20-24, plus all 50 existing lines staying green.
+
+RESULT
+  to be recorded in REPORTS.md after implementation.
+```
+
+### 7.3 Attestation records, and NOT loosening the lineage triggers
+
+```text
+ORIGINAL STATE
+  epochs is append-only by trigger; closed_at is the only field a written row may gain
+  (store.js:191-214).
+
+PROPOSED CHANGE
+  Attestation UIDs go in a new `attestations` table permitting no updates and no deletes.
+  epochs and its triggers are UNCHANGED.
+
+REASON
+  An attestation UID arrives after the epoch row is written, so the obvious epochs.attestation_uid
+  column would require permitting a second mutable field on the one table whose immutability is
+  the argument of the whole lineage. The convenience is not worth the guard (§2.6).
+
+FILES AFFECTED
+  server/src/store.js   server/src/attest.js   server/src/verify-public.js
+
+SECURITY / PRIVACY EFFECT
+  + the lineage's append-only guarantee is untouched, so nothing in Phase 1's proof weakens
+  + attestation records are themselves append-only; a wrong one is corrected by another row
+  - a Wanderer may briefly have epochs that are real and not yet attested. That is the
+    asynchronous design of §3.2, not a defect, and lines 16-17 test that the gap is REPORTED
+    rather than hidden
+
+TESTS REQUIRED
+  lines 11-17.
+
+RESULT
+  to be recorded in REPORTS.md after implementation.
+```
+
+---
+
+## 8. Built with
+
+```text
+@ethereum-attestation-service/eas-sdk    §8's named candidate. Integration script only.
+ethers                                    required by the SDK.
+node:crypto                               everything the LocalLedger and the marks need.
+better-sqlite3, express                   already here.
+```
+
+Base Sepolia for the testnet. Faucet ETH, so the measured cost in real money is zero, and line 31
+records the gas anyway because the mainnet decision needs a number.
+
+Two dependencies enter the project for a signing path, which is the category §66.15 flags. Both are
+confined to `EASLedger`; nothing in the suite's path imports them. Version pinning and a look at
+what they pull in belongs in the implementation, not in a plan that guesses.
+
+---
+
+## 9. Migration
+
+`SCHEMA_VERSION 3`. An older store is refused by name and version with an explicit message, as
+version 2 already refuses version 1 (`store.js:61-68`). No automatic migration, no automatic drop —
+§66.6 forbids destructive migration without review, and re-minting is a decision for whoever owns
+the file.
+
+Every existing store under `data/` is a test artifact re-created by the suite. Nothing is lost. If
+that ever stops being true, this paragraph stops being adequate and the answer becomes a real
+migration with a real review.
+
+---
+
+## 10. Deliberately out of scope for Phase 2
+
+- **The Passport** (§31, §32) — Phase 5. The Phase 2 viewer is the technical lineage view (§5.6).
+- **Host Certificates and Verifiable Credentials** (§35, §36) — Phase 5. They describe the host,
+  and Phase 2 publishes nothing about hosts.
+- **Mainnet.** Which chain, and when, is a product and cost decision (§11.1).
+- **The animated, evolving Living Mark** — Phase 4, with the body (§66.14).
+- **The number of Genesis Wanderers** (§5.2) — §66.18 forbids deciding it. The registry supports
+  Model A and Model B without changing a line.
+- **§38.1's 2-of-3 approval, HSM and offline recovery** — documented as the production path,
+  not built. Operational architecture for a service with somewhere to deploy (§11.4).
+- **`STATE_COMMIT` and `RETIREMENT` events** (§9) — nothing asks for them yet (§11.6).
+- **Independent security review** (§66.15) — not out of scope, *outstanding*, and Phase 2 makes it
+  more necessary rather than less: it adds a signing key, a public ledger and permanent records.
+  Nothing in this plan substitutes for it.
+
+---
+
+## 11. Open questions for Lonnie
+
+Eight, and none of them should be answered by me. Numbers 1, 2 and 3 change what gets built; the
+rest change details.
+
+**11.1 The chain, and the local-ledger split.** Phase 2 proposes Base Sepolia for the real
+integration and a deterministic in-process ledger for the acceptance suite (§5.3). This mirrors
+Phase 1's test authenticator, and it means the suite proves our logic while a separate manual run
+proves the SDK. Acceptable? And is Base Sepolia the right testnet — the mainnet choice can wait for
+Phase 7, but the testnet should ideally be the same family.
+
+**11.2 Is every journey its own transaction?** §8's diagram reads as one attestation per journey.
+§3.2 proposes off-chain per epoch plus periodic on-chain anchors, because a transaction in the
+custody path breaks when an RPC does, and per-epoch cost grows forever. The trade-off is a window
+in which epoch ordering rests on our signature rather than on a block. Is that window acceptable,
+and if so, how long? "Every journey is on the blockchain" may be worth real money as a story.
+
+**11.3 Does the public lineage list journey numbers?** §34 wants the number to be part of the
+story. A complete public list of every journey number with start and end times is also a permanent
+movement trace of the object, and any host who mentions their own number links themselves to a slice
+of it — their choice (§37), but a choice we would be creating. Show all, show counts only, or show a
+window?
+
+**11.4 The Genesis authority key, for now.** Phase 2 proposes a testnet key in a file outside the
+repository, loaded from the environment, reported as not-production. Confirm — and note that this
+is the same open question Phase 1 ended on, arriving with an actual key attached: the custody
+authority is currently "anyone with code in this process", and Phase 2 would make the Genesis
+authority "anyone with that file."
+
+**11.5 The Living Mark's vocabulary.** Which of the ~400 existing glyphs, and does the mark
+visually evolve as the Wanderer does? §33 says it *can*; degree of evolution is §66.18's list.
+
+**11.6 `STATE_COMMIT` and `RETIREMENT`.** §9 proposes both. The model has no state-commit event
+(state accumulates within an epoch and is fingerprinted at the boundary), and nothing in §67 asks
+for retirement. Leave both unimplemented?
+
+**11.7 `memory-manifest-version` in the manifest.** §41's example includes it; memory is Phase 3.
+Proposal: reserve the field, set it to 0, so the manifest's shape does not change when Phase 3
+lands — a manifest whose shape changes changes every hash after it.
+
+**11.8 How should a counterfeit be described?** §13.2 says the hacked instance "has become a fork
+— it is not the Wanderer." Should the verifier and viewer say that, in those words — naming a fork
+of W-001 at epoch N — or refuse flatly with no story? It reads as a technical question and it is
+a narrative one, and whatever it says will be quoted.
+
+---
+
+## 12. What Phase 2 will have proved, if it works
+
+Phase 0: a copy of the client is not the Wanderer.
+Phase 1: no host, however hostile or disconnected, can keep, retake or destroy it.
+Phase 2: **and a stranger who trusts none of us can tell which one is real.**
+
+The line that carries it is line 7, and today it fails.
+
+---
+
+## Deviations and things to know
+
+**1. Part A's diagnosis differs from the directive's.** The directive says the push failed
+silently; the transcript says no push was attempted. I built what was asked — verify, retry once,
+log loudly — because it is the right fix for both, and the verification half is what actually
+catches this. Recorded because the difference is the interesting part: the failure was an omitted
+step reported as success, which is the same shape as the failure Phase 2 exists to prevent on a
+ledger nobody can edit.
+
+**2. The uncommitted-changes ALARM does not fail the cycle.** It shouts and marks the cycle WITH
+WARNINGS, but returns success if the committed work landed. Failing on any stray file would produce
+a failed unit every minute for a scratch file, and an alarm that cries wolf is worse than none.
+
+**3. `watch.sh` now exits non-zero on an incomplete cycle**, so the systemd unit will show as
+failed. That is intended — a silent failure was the whole complaint — but it does mean
+`systemctl --user status` will look alarming after a genuinely failed delivery. The timer is
+unaffected and keeps firing.
+
+**4. No gas figures are quoted.** Part B needed testnet costs, and this session had no network
+access to verify current EAS deployments or fees. Rather than write plausible numbers into a plan,
+the plan makes measuring them acceptance line 31. An invented figure would have looked more
+thorough and been worth less.
+
+**5. The plan proposes a deterministic in-process ledger for the suite**, with the real EAS SDK
+exercised by a separate manual integration run — the same compromise Phase 1 made with the test
+authenticator, and it has the same weakness: it cannot prove the SDK is used correctly. Flagged in
+the plan (§5.3) and open question 11.1 asks whether the split is acceptable.
+
+**6. Attestation is asynchronous to custody in the proposal.** A lease that cannot be issued until
+a transaction confirms is a lease that fails when an RPC endpoint does, which gives away Phase 1's
+central argument. It costs a window in which epoch ordering rests on our signature rather than on a
+block. Open question 11.2, and it may be a product decision rather than an engineering one — "every
+journey is on the blockchain" is worth something as a story.
+
+**7. `SCHEMA_VERSION` will go to 3 and old stores will be refused, not migrated** — the same route
+version 2 took. Every store under `data/` is a test artifact. If that stops being true, that
+paragraph of the plan stops being adequate.
+
+## Still not done, and named so it is not assumed done
+
+- **Independent security review (§66.15).** Outstanding, and Phase 2 makes it *more* necessary: it
+  adds a signing key, a public ledger, and records that cannot be withdrawn.
+- **Directive 003's own report** — still absent from this file, as noted in the Directive 004b
+  cycle. Say the word and I will backfill it.
+- The Phase 1 open question stands and Phase 2 sharpens it: the custody authority is "anyone with
+  code in this process", and a Genesis chain key would make the Genesis authority "anyone with that
+  file." Open question 11.4.
+
+## Status
+
+**Part A: done, tested, live.** **Part B: proposal only. Nothing built. STOP for approval**, per
+Directive 009 step 3 and §66.17.
+
+Suite unchanged and green at 50 (16 + 34), 0 failed, exit 0. `a975413` in CC-Wanderer.
+
+Eight questions in §11 of the plan are waiting on you. Three of them decide what gets built.
