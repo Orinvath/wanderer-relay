@@ -2253,3 +2253,290 @@ Directive 009 step 3 and §66.17.
 Suite unchanged and green at 50 (16 + 34), 0 failed, exit 0. `a975413` in CC-Wanderer.
 
 Eight questions in §11 of the plan are waiting on you. Three of them decide what gets built.
+
+---
+
+# Directive 010 + amendment — real WebAuthn, then Phase 2 on a real chain
+
+**Status: both parts built, all three suites green. Phase 0 16 + Phase 1 39 + Phase 2 32 = 87
+passed, 0 failed, exit 0.** `c6c0251` in CC-Wanderer (Part A `6f323ee`, Part B `c6c0251`).
+
+Two deviations, both recorded in the suite output itself rather than only here. Neither is a
+failure; one of them is a loss of coverage and is written up as such.
+
+---
+
+## 0. The two verifications the directive demanded FIRST
+
+Both amendments say the same thing: prove the tool works on this machine before building on it,
+and if it does not, report rather than work around. So nothing below was written until these
+passed.
+
+**Real WebAuthn in a real browser — PASSED.** Google Chrome 151.0.7922.71 is on this machine.
+Driven through `puppeteer-core` and the CDP `WebAuthn.*` virtual authenticator, it produced a real
+credential (194-byte attestation object) and a real assertion (71-byte signature) over
+`http://localhost`, with `clientDataJSON` written by the browser. A probe then established exactly
+which of the suite's attacks the real stack can perform:
+
+```
+counter on 3 successive assertions: 2 3 4
+getCredentials exposes: credentialId, isResidentCredential, rpId, privateKey, userHandle,
+                        signCount, backupEligibility, backupState, userName, userDisplayName
+after rewinding signCount to 0, next assertion signs: 1
+localhost page claiming rp.id=evil.example -> DOMException
+page on http://evil.example making a credential for rp.id=evil.example -> q2avNh8u7Xr6iDnCoq...
+```
+
+**Anvil + real EAS contracts — PASSED.** Foundry was not installed; it is now (anvil/forge/cast
+1.7.1). The real `SchemaRegistry.sol` and `EAS.sol` deploy to Anvil from the published
+`@ethereum-attestation-service/eas-contracts` artifacts, and the real SDK drives them:
+
+```
+chain id: 31337
+SchemaRegistry deployed: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+EAS deployed:            0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+EAS version reported by the contract: 1.4.0
+schema registered, attestation placed, read back, decoded, attester matches
+VERIFY-EAS: OK
+```
+
+Two obstacles were hit during verification and are worth recording because both are the kind of
+thing that silently produces a wrong answer rather than an error:
+
+1. **The EAS SDK's ESM bundle does not load at all** under Node's ESM resolver — it has a broken
+   named import of `lodash`. Its CommonJS build is the same published SDK and is used instead.
+   This is a packaging detail, not a substitute for the SDK.
+2. **`ethers` caches `eth_getTransactionCount` for ~250ms, and Anvil mines faster than that**, so
+   two sends in a row both claimed nonce 0 and the second was rejected with "nonce has already been
+   used". `NonceManager` fixes it. The same cache later made a naive gas measurement silently
+   return zero — see §4.
+
+---
+
+## 1. Part A — the test authenticator is deleted
+
+`server/src/test-authenticator.js` is **gone**, not deprecated. It held an exportable private key,
+which is the one property a real authenticator exists to make impossible, and the file said so
+itself. Both suites now drive Chrome's own WebAuthn implementation (`server/src/browser.js`).
+
+**The login surface arrived early, from Phase 4**, because the amendment asked for it and because a
+ceremony no person can perform is a ceremony nobody has tested. `server/src/login.js` serves a
+minimal page that runs the real ceremony in the browser; `client/src/login.js` is the CLI that
+waits for it. The handoff uses two values that travel differently:
+
+- the **ticket** goes in the URL, where it is visible in shell history and window titles;
+- the **claim** never leaves the CLI and is the only thing that redeems the session.
+
+Whoever reads the ticket can at most deliver a session *into* the handoff. Only the process holding
+the claim can take one out, once, before it expires. Line 15 of the Phase 1 suite drives the whole
+thing end to end — real page, real ceremony, real platform passkey, session arriving in the
+terminal — and lines 16 and 17 attack the handoff.
+
+### What changed about what is proved, and it is not all in our favour
+
+Three attacks moved, and two of them got **stronger**:
+
+| attack | before | now |
+|---|---|---|
+| phishing origin | software authenticator wrote a false origin | a page **really served** at `http://evil.example` runs the whole ceremony with our live challenge; Chrome writes that origin itself; the **server** refuses it |
+| assert a localhost passkey from that origin | expressible | the **browser refuses** — a credential is bound to its RP ID. The attack cannot be mounted at all |
+| foreign RP ID from a localhost page | expressible | the **browser refuses** with `SecurityError` |
+| rewound sign counter | a fake number in a fake message | the **authenticator's own counter**, wound back through CDP, signed by Chrome |
+
+The server's refusal on the first one reads well, and it is the real error text:
+
+```
+5  Real ceremony performed at a phishing origin, relayed to us  DENIED
+   (registration was not verified: Unexpected registration response origin
+    "http://evil.example:35191", expected "http://localhost:35191")
+
+9  Sign counter goes backwards (cloned authenticator)  DENIED
+   (assertion was not verified: Response counter value 1 was lower than expected 2)
+```
+
+### DEVIATION 1 — a rule that is now untested
+
+**Chrome's virtual authenticator always advances its sign counter.** The commonest passkey in the
+world — a synced one — reports 0 for ever, and `webauthn.js` deliberately accepts that, because
+refusing it would lock out most passkeys that exist. The real stack **cannot produce that case**:
+the floor is 1, and rewinding to 0 before every assertion makes it sign a constant 1, which the
+counter rule correctly treats as a clone signal.
+
+So that line is gone. The server rule is **unchanged and now untested**. The old software
+authenticator could fake it; per Directive 010 this suite does not. It is printed as a DEVIATION in
+the suite output every run, so it cannot quietly become "covered". If you want it back, the honest
+options are a different browser engine, or a test that calls the counter policy directly and is
+labelled as not being a browser ceremony — say which and I will build it.
+
+Three smaller things the real browser forced, each a genuine property rather than a workaround:
+
+- **An origin has a port in it.** Each service now tells its relying party the origin it is actually
+  listening on, and the restart test comes back up on the *same port* — otherwise every credential
+  in the browser would belong to a different relying party than the service that issued it.
+- **WebAuthn refuses to run in an unfocused tab**, and each authenticator has its own tab (one tab
+  per authenticator: Chrome allows only one `internal` virtual authenticator per browser, and a tab
+  holding several makes credential selection ambiguous). The suite brings the right tab forward.
+- **Stopping a service dead now means dropping the browser's keep-alive sockets**, which is what the
+  restart test is testing. The test client reconnects once on a dead pooled socket, as any real
+  client does; a *refusal* is never retried.
+
+---
+
+## 2. Part B — Phase 2, and no test doubles for the ledger either
+
+`PHASE2_PLAN.md` §5.3 proposed a deterministic in-process ledger for the suite with the real SDK
+exercised only by a separate manual run. **Directive 010 rejected that, and it is not built.** There
+is one backend: EAS's own contracts, driven by EAS's own SDK. The acceptance suite starts a real
+Anvil node, deploys the real contracts to it, and runs against them. Base Sepolia differs by the
+RPC URL and by nothing else — there is no branch anywhere in the attestation path.
+
+Built: `ledger.js`, `genesis-registry.js`, `attest.js`, `manifest.js`, `living-mark.js`,
+`verify-public.js`, `viewer.js`, schema version 3, and `acceptance-phase2.js`.
+
+### The success condition
+
+> W-001 must be independently distinguishable from a clone.
+
+The clone in the suite is not a broken copy. It is a complete, honest counterfeit: its own service,
+its own database, its own W-001, its own key, its own perfectly signed chain — everything a
+determined counterfeiter holding our source code would have. What it does not have is the Genesis
+authority's key.
+
+```
+ 5  The clone's own chain is internally valid — so the next line is the registry's work ✓
+    the clone's verifier says AUTHENTIC about the clone, over 2 links
+ 6  The clone, judged by the independent verifier   DENIED  (NOT THE WANDERER)
+    it says: This is not W-001. It is not registered by the Genesis authority,
+             so it was never W-001 to diverge from.
+ 7  A clone presenting the REAL Genesis UID with its own key  DENIED
+    (epoch 0 is not signed by the key the Genesis authority attested)
+ 8  And the real W-001, judged by the same verifier with no database ✓  3 links, 3 attestations
+```
+
+Line 5 is what makes line 6 mean anything: the clone is internally flawless, so line 6 is the
+registry doing the work and not a bug in the clone. Line 7 is the cleverer clone that stops claiming
+its own Genesis and presents the *real* UID — it gets past the authority check and dies one step
+later, on the key it cannot have.
+
+The verifier (`verify-public.js`) **has no database handle at all**. Not the private key, not the
+public key, not the salt — it cannot reach them structurally, rather than by being careful. Its
+inputs are a Wanderer ID, a chain, an authority address and a public HTTP endpoint. Line 27 asserts
+that property against the source text so a helpful refactor cannot quietly hand it one.
+
+### §11.8 — how a counterfeit is described
+
+In the spec's own words, and the wording distinguishes two different things, because it will be
+quoted:
+
+- something that **never was** W-001: *"This is not W-001. It is not registered by the Genesis
+  authority, so it was never W-001 to diverge from."*
+- something that **was and diverged**: *"This has become a fork of W-001 at epoch N — it is not the
+  Wanderer."*
+
+Calling the first one "a fork at epoch 0" would describe a relationship it does not have.
+
+---
+
+## 3. The state-fingerprint change, which was a real defect
+
+`epochs.state_hash` was `sha256(the host's own written lines)` and it was about to be published.
+**A hash is not a redaction when the input is guessable**: anyone holding a candidate line could
+recompute it and learn whether they guessed right — a confirmation oracle for private content,
+published permanently, on a record designed so nobody can withdraw it.
+
+Two values now, going to two places:
+
+- **`manifest_hash`** — over §41's manifest of identifiers and monotonic counters. No host text, no
+  account, no credential, no host number. **Published.** This is what an epoch now signs.
+- **content hash** — over the actual lines, **salted** with a per-Wanderer secret. **Never
+  published.** Keeps earning its keep in checkpoint integrity and §40 recovery. The salt is what
+  makes it safe to keep at all: without it, a stolen database plus a guessed line is the same
+  oracle, aimed at whoever steals the file instead of whoever reads the chain.
+
+`memory-manifest-version` is reserved at 0 as directed (§11.7), along with the visual and behaviour
+counters — a manifest whose *shape* changes when Phase 3 or Phase 4 lands would change every hash
+after it, and those hashes are on a ledger nobody can edit.
+
+Line 23 is the permanent regression guard §4.3 asked for: it recomputes every content hash, salted
+and unsalted, over every prefix of the state and every individual line, and scans the entire
+published record **and the rendered viewer HTML** for any of them. Zero found. This is the mistake a
+well-meaning refactor reintroduces in eighteen months.
+
+Schema is version 3. Old stores are **refused by name and version, not migrated** — the same route
+version 2 took, and §66.6 forbids destructive migration without review. Every store under `data/` is
+a test artifact.
+
+---
+
+## 4. Operations, and the gas figure that is not the one asked for
+
+### DEVIATION 2 — gas is measured on the local chain, not Base Sepolia
+
+Plan line 31 asked for **measured Base Sepolia gas**. It is not measured, because that needs a
+funded testnet key and there is none on this machine. What is measured is gas on the real EAS
+contracts on the local chain — the same bytecode, therefore the same gas:
+
+```
+32  Gas for a Genesis attestation and for an anchor is measured, not guessed  ✓
+    Genesis 482050 gas, anchor 321288 gas — read off the receipts
+```
+
+**No currency figure is quoted, because gas *price* was not measured.** Same principle as the
+Directive 009 report: an invented number looks more thorough and is worth less. Give me a funded
+Base Sepolia key and line 31 becomes the real thing.
+
+The first attempt at this measurement silently returned zero, because it diffed block numbers and
+ethers caches `eth_blockNumber` inside the window Anvil mines in. It now reads `gasUsed` off the
+receipt. Worth recording as the second time in this directive that a cache produced a plausible
+wrong answer rather than an error.
+
+### The key, stated plainly
+
+Testnet key from the environment, outside the repository, as §11.4 directed. On a local dev chain it
+falls back to Anvil's first well-known account, which is a *publicly known private key on a
+throwaway chain* and is reported as exactly that. §38.1's HSM, restricted signing service, 2-of-3
+approval and offline recovery are documented as the production path and are **not built**. Today the
+Genesis authority is "whoever holds that file", and that is the honest description.
+
+---
+
+## 5. Things to know, and one open tension
+
+**1. Journey numbers, §11.3, and a conflict the directive could not have foreseen.** You said counts
+only. Implemented: nothing on the ledger carries a journey number (see the epoch schema in
+`ledger.js`), and the viewer shows `"N in total"` and never which ones (line 29).
+
+But the **verification feed still carries them**, and it has to: `host_number` is inside the Ed25519
+signature over each epoch, so a lineage served without it cannot be verified by anybody, which would
+defeat the whole phase. So "counts only" holds for the permanent record and for the human-facing
+page, and does not hold for the machine-readable feed a verifier reads. If you want it to hold
+there too, the fix is to take `host_number` out of what is signed — a change to the lineage format
+and therefore a re-mint, and I have not made it on my own authority.
+
+**2. Attestation is asynchronous to custody, as approved (§11.2).** Custody never waits for an RPC.
+The cost is a window in which epoch ordering rests on our signature rather than on a block; the
+anchor closes it. `anchor()` is callable every epoch, so the per-journey-on-chain story remains
+available as a launch decision.
+
+**3. `STATE_COMMIT` and `RETIREMENT` are not emitted**, per §11.6. The event mapping is explicit in
+`attest.js` rather than the model being bent to fit §9.
+
+**4. The Living Mark is a placeholder and says so in its own output.** Mechanism only: it is a pure
+function of public facts, so a verifier recomputes and compares. The glyph vocabulary and whether it
+evolves are yours (§11.5, §66.18). A mark that carried its own claim of authenticity would be a
+sticker, and stickers are forged.
+
+**5. The viewer is not the Passport.** §31's Passport is Phase 5 and needs Phase 3's memory and
+consent model before it can show anything truthful.
+
+**6. A local chain is not a public one.** No reorgs, no gas market, no congestion, no adversarial
+validators. What the suite proves is the contracts, the SDK, and our use of both.
+
+## Still not done, and named so it is not assumed done
+
+- **Independent security review (§66.15).** Still outstanding, and Phase 2 makes it *more*
+  necessary: it adds a signing key, a public ledger, and records that cannot be withdrawn.
+- **The synced-passkey counter rule** — untested, per Deviation 1.
+- **Base Sepolia gas** — unmeasured, per Deviation 2.
+- **Directive 003's own report** — still absent from this file, as noted in the 004b and 009 cycles.
+  Say the word and I will backfill it.
