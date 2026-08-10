@@ -34,3 +34,7 @@ Set up automatic relay polling on this machine:
 This directive should be picked up by the watcher, not by manual invocation.
 Append to REPORTS.md: "Directive 004 executed via watcher" plus the timestamp of execution.
 Nothing else.
+
+## Directive 004b — Retrigger
+
+Directive 004 remains unexecuted. Execute it now: append to REPORTS.md "Directive 004 executed via watcher" with execution timestamp. Nothing else.
