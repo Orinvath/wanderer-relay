@@ -65,3 +65,15 @@ Lonnie's decision: the moment a host lets go — release or expiry, any reason �
 4. Commit, report to REPORTS.md.
 
 Scope ends there.
+
+## Directive 007 — Phase 1 begins: Custody
+
+Phase 0 is complete. Proceed to Phase 1 per WANDERER_SPEC.md section 67:
+accounts, passkeys, custody leasing, server-authoritative state, forced expiration, release, transfer, recovery. The Wanderer must survive hostile or disconnected hosts.
+
+Per spec 66.17, custody and authentication changes require proposal before implementation:
+
+1. Read the spec's Phase 1 requirements and all sections governing accounts, passkeys, custody, and recovery.
+2. Write PHASE1_PLAN.md in CC-Wanderer: the components, how passkeys (WebAuthn) integrate with the existing lease/epoch model, what "hostile or disconnected host" scenarios must be survived, and the acceptance tests that will prove each.
+3. Commit the plan. Copy its full text into REPORTS.md.
+4. STOP. No implementation until the plan is approved.
