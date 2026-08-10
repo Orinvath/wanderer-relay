@@ -38,3 +38,19 @@ Nothing else.
 ## Directive 004b — Retrigger
 
 Directive 004 remains unexecuted. Execute it now: append to REPORTS.md "Directive 004 executed via watcher" with execution timestamp. Nothing else.
+
+## Directive 005 — Expiry closes the epoch
+
+Decisions from Lonnie on the two open questions from test 13:
+
+Q1: Lease expiry closes the epoch immediately. The Wanderer must never sit in a stale epoch — an expired lease means the epoch transitions at that moment, holder becomes none, verifier reflects it. Implement this.
+
+Q2: No cooling period, no re-lease restriction. Testing requires unrestricted lease/release/re-lease by the same hosts. Host-selection and hostage-prevention rules are Phase 1 product decisions — build nothing for them now.
+
+Steps:
+1. Commit before changes.
+2. Implement Q1. Update affected acceptance tests.
+3. Run full suite, all tests.
+4. Commit, report results to REPORTS.md.
+
+Scope ends there.
