@@ -110,3 +110,23 @@ Per spec 66.17, this touches blockchain and signing — plan first:
 1. Write PHASE2_PLAN.md: components, how EAS attestations map onto the existing epoch chain, what runs on-chain vs off, costs/testnet strategy, and the acceptance tests.
 2. Commit, copy full text to REPORTS.md, verify the push landed.
 3. STOP for approval before implementing.
+
+## Directive 010 — Phase 2 approved with amendments
+
+Lonnie's overriding decision: NO test doubles for the ledger. Build it real. The deterministic in-process ledger from plan section 5.3 is rejected. Instead: run a real local Ethereum node (Anvil) with the real EAS contracts deployed to it, and run the acceptance suite against that — the identical production code path used for Base Sepolia, differing only in RPC URL. Verify Anvil + EAS contract deployment actually works on this machine before building on it; if it fails, report, don't work around.
+
+Answers to the 8 questions:
+11.1: Real SDK everywhere per the above. Base Sepolia confirmed as the testnet.
+11.2: Off-chain per epoch, periodic on-chain anchors. Custody never blocks on an RPC. Per-journey-on-chain as marketed story is a launch decision; design must support both.
+11.3: Counts only in the public lineage. A published ledger cannot be unpublished; showing more can be enabled later.
+11.4: Confirmed — testnet key outside repo, from environment, reported not-production.
+11.5: Placeholder Living Mark. Glyph vocabulary and evolution degree are Lonnie's, later.
+11.6: STATE_COMMIT and RETIREMENT: leave unimplemented.
+11.7: Reserve memory-manifest-version at 0.
+11.8: The verifier names it in the spec's words: a fork of W-001 at epoch N, not the Wanderer.
+
+Then:
+1. Commit before changes.
+2. Build Phase 2 per the amended plan.
+3. Full suite green (Phase 0+1 tests intact plus Phase 2), all against the real local chain.
+4. Commit, report, verify the push landed.
