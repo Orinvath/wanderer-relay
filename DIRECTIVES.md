@@ -97,3 +97,16 @@ Implement Phase 1 per the approved plan:
 3. Commit, report results and any deviations to REPORTS.md.
 
 Scope: the approved plan only.
+
+## Directive 009 — Watcher push fix, then Phase 2 plan
+
+Part A — fix the silent failure:
+The Phase 1 report committed locally but the push to the relay failed silently (status 0, nothing landed). Amend watch.sh: after committing to REPORTS.md, verify the push succeeded; on failure, retry once, then log the failure loudly to watcher.log. Keep a dated backup of watch.sh before editing.
+
+Part B — Phase 2 plan (authenticity, per spec section 67):
+Genesis registry, public verification, attestation chain, state fingerprints, Living Mark, lineage viewer. Success condition: W-001 independently distinguishable from a clone.
+
+Per spec 66.17, this touches blockchain and signing — plan first:
+1. Write PHASE2_PLAN.md: components, how EAS attestations map onto the existing epoch chain, what runs on-chain vs off, costs/testnet strategy, and the acceptance tests.
+2. Commit, copy full text to REPORTS.md, verify the push landed.
+3. STOP for approval before implementing.
