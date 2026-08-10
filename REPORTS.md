@@ -990,3 +990,282 @@ Product decisions, per §66.18, and one dependency question.
 8. **One Wanderer or several.** The store has held many since Phase 0 and Phase 1 needs only
    W-001. Should an account be able to hold two Wanderers at once, or is one-at-a-time a rule
    worth building in now?
+
+---
+
+## Directive 008 — Phase 1 implemented: Custody — DONE
+
+**Commits:** `e488beb` (Phase 1), `c9c7936` (backup-flag correction) in CC-Wanderer.
+Tree was clean at `16c6c07` before any change, so the commit-before-change rule was satisfied
+with nothing to lose.
+
+**Suite: 50 lines, 50 passed, 0 failed.** Phase 0's sixteen stayed green alongside Phase 1's
+thirty-four, as the directive required. One command: `npm run accept`.
+
+---
+
+### What was built
+
+Phase 1's whole argument is two sentences.
+
+**A host stops being a string.** `POST /lease {host: 'host-a'}` was the entire admission
+procedure — free text, typed by the caller, believed by the service. §15's first line, *Host
+authentication → Custody granted*, had no first line. There is now an account underneath the
+name, a passkey underneath the account, and a session proving the account is present.
+
+**A lease stops being a bearer token.** This is the more serious of the two and it was not
+visible in Phase 0's suite, because every attack there was performed by host-a *after* host-a's
+lease had died. `checkLease` asked whether a lease was genuine, known, live and current. It never
+asked **who was presenting it**. So a live lease, if it leaked — copied off a disk, read out of a
+log, taken from a compromised client — *was* custody. Phase 0 shipped a bearer credential. It was
+correct for what Phase 0 proved and it is not correct for a phase whose success condition names
+hostile hosts. A lease now names the account it was issued to and must be presented **with** a
+live session belonging to that account. Two independent things must be stolen instead of one, and
+the second cannot be stolen by copying.
+
+The epoch idea is untouched. Phase 1 put a gate in front of it and a name underneath it.
+
+`checkLease` went from five questions to seven; the two new ones are first and fifth:
+
+```text
+0.  settle any lease that has run out          (unchanged — expiry moves the epoch)
+1.  is a live session presented?               NEW — no session, no custody
+2.  is the lease ours at all?                  (signature)
+3.  do we know it?                             (issued, unedited)
+4.  has its own life run out?                  (server clock only)
+5.  does the session's account own this lease? NEW — the lease is not a bearer token
+6.  is it the question being asked now?        (epoch — Phase 0's central line)
+7.  has it been given up?                      (still unreachable; still kept)
+```
+
+**What the lineage names also changed.** `epochs.host` held a caller-supplied string and that
+string was inside the signature. It is now §34's host number — an integer, per Wanderer, allocated
+at lease, never reused (Directive 008 §7). The account stays in private tables, is never signed
+and never served. That mattered now rather than in Phase 2 because Phase 2 puts these records
+towards a blockchain, where a mistake is not erasable.
+
+**Files.** New: `accounts.js` (accounts, sessions, audit), `webauthn.js` (the two ceremonies),
+`test-authenticator.js` (the client half, test-only), `acceptance-phase1.js` (the suite).
+Modified: `store.js`, `wanderer.js`, `index.js`, `config.js`, `client/src/index.js`,
+`acceptance.js`.
+
+### The eight answers, as implemented
+
+1. **Recovery** — multi-passkey enrolment only. Lines 10–12 prove enrol-second, revoke-first,
+   authenticate-with-second, and that revocation kills live sessions. No other route back in exists.
+2. **Anonymity** — passkey and nothing else. An account is an opaque id and a status. The
+   `display_name` column exists per the approved plan and is **never written to** by any Phase 1
+   code path; the WebAuthn user handle is the opaque account id, so no name reaches the
+   authenticator either.
+3. **`@simplewebauthn/server`** — installed, v13.3.2. Ours is the policy around it: challenge
+   lifetime and single use, account binding, sign-counter meaning, when a session is issued.
+4. **Login surface** — the software test authenticator, suite headless, browser ceremony deferred
+   to Phase 4.
+5. **RP ID / origin** — `localhost`, in `config.js`, per-service overridable.
+6. **Operator** — service-local method calls with **no HTTP routes at all**. Line 27 does not test
+   that operator routes refuse a host; it tests that there are none to find.
+7. **Host numbers** — per-Wanderer, allocated at lease, never reused. Line 34 shows account A
+   appearing as host 1 and host 2 with nothing in the public record linking them.
+8. **No limit on Wanderers per account** — nothing was built that imposes one.
+
+
+### Full test output
+
+```text
+> node server/src/acceptance.js && node server/src/acceptance-phase1.js
+
+
+PHASE 0 — PROVE THE SCARCE OBJECT
+
+   1  Genesis: W-001 minted, first record signed           ✓ 
+   2  Lease A: host-a holds it                             ✓ epoch 1, host 1
+   3  Interaction: a line enters state through the service ✓ 
+   4  Host A can see what it holds                         ✓ 
+   5  Release: host-a gives it up                          ✓ 
+   6  Release alone closes the epoch: a verifier sees it held by nobody ✓ epoch 1 → 2, held by null
+   7  Transition and Lease B: epoch moves, host-b holds it ✓ epoch 2 → 3
+   8  Host A reconnects and looks                          DENIED  (lease is for epoch 1; the current epoch is 3)
+   9  Host A replays its old lease to write                DENIED  (lease is for epoch 1; the current epoch is 3)
+  10  Host A presents copied local state as current        DENIED  (lease is not signed by this Wanderer)
+  11  Host A runs a modified client claiming custody       DENIED  (lease is not signed by this Wanderer)
+  12  Host A forges a lease                                DENIED  (lease is not signed by this Wanderer)
+  13  Verifier: authentic, current holder, lineage from Genesis ✓ holder host 2, 4 links
+
+      host-b sees 1 line(s) carried forward from host-a
+
+      host-c holds it for 3s (until 2026-08-10T22:24:39.876Z) — epoch 1, held by host 1 — waiting it out
+  14  Expiry alone closes the epoch: a verifier sees it held by nobody ✓ epoch 1 → 2, held by null
+  15  Expired holder is refused without releasing          DENIED  (lease has expired)
+  16  Custody moves on with no release from the expired holder ✓ epoch 2 → 3
+      host-d sees 1 line(s) carried forward from host-c
+
+  16 passed, 0 failed
+
+
+PHASE 1 — CUSTODY BELONGS TO A PERSON, AND A LEASE IS NOT A BEARER TOKEN
+
+      W-001 minted by Genesis authority — epoch 0
+
+  ACCOUNTS AND PASSKEYS
+
+   1  Account created, passkey registered, attestation verified ✓ account acct_58eab7bd…
+   2  Passkey authenticates, session issued                    ✓ session expires 2026-08-10T22:39:41.058Z
+   3  Registration challenge is single-use — replayed          DENIED  (challenge has already been used)
+   4  Assertion replayed with the same challenge               DENIED  (challenge has already been used)
+   5  Assertion from the wrong origin / RP ID                  DENIED  (assertion was not verified: Unexpected authentication response origin "http://evil.example", expected "http://localhost"; assertion was not verified: Unexpected RP ID hash)
+   6  Assertion signed by a different key for a known credential ID DENIED  (assertion was not verified)
+   7  Sign counter goes backwards (cloned authenticator)       DENIED  (assertion was not verified: Response counter value 1 was lower than expected 2)
+   8  Synced passkey reporting counter 0 every time            ✓ (not an attack — most passkeys never advance a counter)
+   9  Account B registers a passkey onto account A             DENIED  (a passkey can only be enrolled onto the authenticated account)
+  10  Second passkey authenticates after the first is revoked  ✓ 1 live session(s) ended with the passkey
+  11  Revoked credential is used                               DENIED  (that passkey has been revoked)
+  12  Revocation kills live sessions                           DENIED  (session was revoked)
+
+  CUSTODY BOUND TO AN ACCOUNT
+
+  13  Lease claimed with a live session                        ✓ epoch 1, host 1
+      the session that asked for custody was rotated as it was granted
+  14  Lease claimed with no session                            DENIED  (no session presented)
+  15  Account A's live lease presented with account B's session DENIED  (that lease was issued to a different account)
+  16  A live lease presented with no session at all            DENIED  (no session presented)
+  17  Session hits its absolute timeout, lease still live      DENIED  (session reached its absolute timeout)
+      the lease itself had not expired — it runs until 2026-08-10T22:25:41.173Z
+  18  A second account asks while it is held                   DENIED  (W-001 is held by host 1 until 2026-08-10T22:25:41.135Z)
+
+  SERVER-AUTHORITATIVE STATE
+
+  19  State survives service restart — epoch, custody, lineage intact ✓ epoch 1, host 1, 2 links
+  20  Client's copy deleted entirely; W-001 unaffected         ✓ 1 line(s) still canonical with nothing left on the host
+  21  Write against a stale state version                      DENIED  (state has moved on: you wrote against version 0, it is at 1)
+      state is at version 1; the write claimed version 0
+  22  Lease with a client-edited expires_at                    DENIED  (lease is not signed by this Wanderer)
+
+  FORCED EXPIRATION, RELEASE, TRANSFER
+
+      host 1 holds it for 3s (until 2026-08-10T22:24:46.670Z) — then disconnects and is never heard from again
+  23  Disconnected holder runs out; epoch closes at the expiry moment ✓ epoch 1 → 2, closed at 2026-08-10T22:24:46.670Z — the lease's own moment, not ours
+  24  Operator forces expiry mid-lease; holder refused immediately ✓ epoch 1 → 2; holder: lease is for epoch 1; the current epoch is 2
+      account A re-leased with no cooling period — it is host 2 now, and was host 1 before
+  25  Custody transfers with no cooperation from the previous holder ✓ host 2 → host 3, epoch 5, 1 line(s) carried forward
+  26  Previous holder after transfer                           DENIED  (lease is for epoch 3; the current epoch is 5)
+  27  A host session calls an operator route                   DENIED  (404; 404; 404)
+  28  A host session attempts Genesis                          DENIED  (genesis requires Genesis authority; a host credential is not one; genesis requires Genesis authority; a host credential is not one)
+
+  RECOVERY
+
+  29  Recovery from the last valid canonical checkpoint restores state ✓ 1 line(s) lost, 1 restored from checkpoint at version 1
+  30  Recovery is a signed lineage event; verifier reports it  ✓ W-001 / epoch 6 / RECOVERY EVENT — chain still verifies from Genesis
+  31  Recovery rewrites nothing: prior epochs and hashes unchanged ✓ 6 prior link(s) signed-identical; the store refuses a rewrite outright
+  32  Custody recovered after a host vanished mid-epoch        ✓ host 2 holds it; the vanished host 1's line is still there
+
+  PRIVACY AND LINEAGE
+
+  33  Public verifier exposes no account, name, or credential  ✓ 9 private identifiers checked against 2775 bytes of public record
+  34  Lineage names host numbers only; the same account twice is not
+      linkable in the public record ✓ account A appears as host 1 and host 2, and as nothing else
+
+  34 passed, 0 failed
+
+```
+
+---
+
+### Deviations
+
+Ten, and none of them silent.
+
+**1. Phase 0's suite could not stay literally unchanged, and did not.**
+PHASE1_PLAN.md §6 said "Phase 0's sixteen lines stay, unchanged". That was not achievable and
+should not have been written: the plan itself removes the host string that Phase 0's file typed
+in, and changes what the verifier reports. **The sixteen assertions are the same sixteen, in the
+same order, in the same words, proving the same things.** What changed is the mechanics —
+`host-a` enrols a passkey and logs in, and reads as `host 1` where the lineage is concerned.
+
+The attacks got **harder**, which is the part worth reading. In Phase 0, host A came back with
+nothing but a dead lease. It now comes back with a dead lease *and a perfectly live session* — it
+is still logged in, still authenticated impeccably. So none of the five attacks can die for want
+of a credential. Each still dies on the line Phase 0 said it would: the epoch it names is not the
+question being asked.
+
+**2. A real bug, found by line 15 and fixed.**
+The first implementation returned the lease as `{ok: true, ...lease, session}`. A host handing
+that object straight back presented `ok` and `session` as though they were signed fields, so
+**every genuine lease failed its own signature check** — and failed it *identically to a forgery*.
+The suite caught it because line 15 reported "lease is not signed by this Wanderer" where it
+should have reported "issued to a different account". Lines 15, 19, 20, 21 and 22 were all
+passing or crashing for the wrong reason. The lease is now returned as its own object,
+`{ok, lease, session}`, and what is signed and what is presented are the same bytes.
+
+**3. `/verify` now returns the lineage array.** Plan §10 puts "public verification beyond the
+existing verifier" in Phase 2. Lines 23, 30, 31, 33 and 34 cannot be proved without it — a claim
+that the public record exposes nothing needs the public record. Every field returned is already
+inside a signature and none of it names anybody. Flagged because it is a step into Phase 2's
+territory, small and deliberate.
+
+**4. Sessions are NOT revoked when custody ends.** §39 lists "invalidation after custody ends",
+and the first implementation did it. It is wrong twice: Directive 005 Q2 requires unrestricted
+lease/release/re-lease by the same host, and logging someone out for handing something back
+breaks that; and it would have weakened Phase 0's attacks to nothing by refusing them at the
+session line before they ever reached the epoch. **The custody credential is the lease**, and it
+is dead the instant the epoch moves — that is the invalidation §39 asks for. The session is
+authentication, not custody, and has its own two timeouts. Line 24 of the suite is the demonstration.
+
+**5. Genesis authority was added.** Line 28 (§66.12) requires that a host cannot mint a Wanderer,
+and Phase 0's `/genesis` was open to anyone. It is now guarded by a service-local secret, held by
+whoever stands up the service, generated randomly if not supplied — so an unattended service can
+mint nothing. The plan's threat table named this; its component list did not.
+
+**6. The store refuses an old schema rather than migrating it.** Plan §8 said `data/cli.db` would
+be re-minted. Implemented as a refusal with an explicit message rather than an automatic drop,
+because §66.6 forbids destructive migration without review. Verified: the old Phase 0 store is
+refused by name and version.
+
+**7. Append-only is now enforced by the database, not just respected by the code.** Triggers
+refuse to delete an epoch, to rewrite any signed field of one, or to touch the audit log at all.
+`closed_at` is the single field an epoch may gain. Beyond the plan's letter; §66.10 asks that
+transitions be auditable, and an audit trail the application layer may quietly rewrite is not one.
+Line 31 proves the refusal rather than assuming it.
+
+**8. The test authenticator's private key is exportable.** A real authenticator's is not — that is
+the entire point of §16. The CLI has nowhere to keep a key between invocations, so `enrol`/`login`
+store it in the host's own file and **say so on every use**. The server half is real; this half is
+a stand-in, and the property returns with the browser ceremony in Phase 4 (Directive 008 §4). It
+does not affect the suite, which drives the ceremonies in-process.
+
+**9. The periodic sweep is built but has no numbered acceptance line.** The plan's 34 lines do not
+include one. It is implemented (`startSweep`), wired into the standalone service, and changes no
+answer — only when a row gets written. Lazy settling on observation is still what the suite proves.
+
+**10. Line 6 needed its counter raised to prove anything.** "Assertion signed by a different key
+for a known credential ID" was initially refused for counter regression rather than for the
+signature — the right answer for the wrong reason. The impostor now presents a counter above the
+stored one, so the signature is what fails.
+
+### Still not done, and named so it is not assumed done
+
+- **Independent security review (§66.15).** Not a deviation, a standing requirement. Nothing here
+  substitutes for it, and it is required before real users.
+- Rate limiting, anomaly detection, encrypted transport, encrypted storage (§39) — deployment
+  concerns, and there is no deployment.
+- Host selection (§48, §65-C) — the transfer is built; who is chosen is not, and nothing here
+  presumes any of the five mechanisms. The operator names the account, and that seam is deliberately trivial.
+- Operator-mediated account recovery, recovery codes, email/SMS reset — each a takeover path, each
+  a product decision (Directive 008 §1).
+- Visit duration (§19.1, §65-B) — `LEASE_SECONDS` remains a test value with no product meaning.
+
+### Open question
+
+Only one, and it is not blocking.
+
+**Should the operator have a credential yet?** Directive 008 §6 settled that the custody authority
+is a service-local call with no remote surface, and that is what was built — but it means the
+authority is currently *anyone with code running in the process*, which is the correct answer for
+a service with nowhere to deploy and the wrong one the moment there is somewhere. It does not need
+answering until there is. Raised now so it is not discovered later.
+
+Phase 1's success condition, in the spec's words: **the Wanderer must survive hostile or
+disconnected hosts.** Lines 15, 17, 23, 24, 25 and 32 are the ones that say it. Line 15 — one
+account's live lease presented with another account's session — is the line Phase 0 would have
+failed.
+
+Awaiting direction on Phase 2.
