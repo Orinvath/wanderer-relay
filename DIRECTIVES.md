@@ -28,3 +28,9 @@ Set up automatic relay polling on this machine:
 3. Verify claude CLI headless mode works on this machine before wiring the timer; if it fails, report the failure instead of building around it.
 4. Commit-before-change rule applies to all directives executed this way, always.
 5. Report setup result and one full automated cycle test to REPORTS.md.
+
+## Directive 004 — Automated cycle proof
+
+This directive should be picked up by the watcher, not by manual invocation.
+Append to REPORTS.md: "Directive 004 executed via watcher" plus the timestamp of execution.
+Nothing else.
