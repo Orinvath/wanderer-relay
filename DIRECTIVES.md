@@ -130,3 +130,13 @@ Then:
 2. Build Phase 2 per the amended plan.
 3. Full suite green (Phase 0+1 tests intact plus Phase 2), all against the real local chain.
 4. Commit, report, verify the push landed.
+
+## Directive 010 amendment — no test doubles applies to past features too
+
+Lonnie's rule is retroactive. The Phase 1 test authenticator (exportable-key stand-in) is now also rejected.
+
+Build the real login surface now instead of deferring to Phase 4: a minimal local page performs the real WebAuthn ceremony in a real browser and hands the session to the CLI (the plan's option A). The server-side verification already built stays.
+
+For the automated suite, drive the real browser's own WebAuthn implementation via its automation interface (Chromium DevTools virtual authenticator) — real browser, real WebAuthn stack, no hand-rolled substitute. Verify this works on this machine before building on it; report if it doesn't.
+
+Priority order: real-auth replacement first, then Phase 2 build.
