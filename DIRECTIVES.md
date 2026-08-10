@@ -77,3 +77,23 @@ Per spec 66.17, custody and authentication changes require proposal before imple
 2. Write PHASE1_PLAN.md in CC-Wanderer: the components, how passkeys (WebAuthn) integrate with the existing lease/epoch model, what "hostile or disconnected host" scenarios must be survived, and the acceptance tests that will prove each.
 3. Commit the plan. Copy its full text into REPORTS.md.
 4. STOP. No implementation until the plan is approved.
+
+## Directive 008 — Phase 1 plan approved, answers to all 8 questions
+
+PHASE1_PLAN.md is approved. Answers, all approved by Lonnie:
+
+1. Recovery: multi-passkey enrolment only; test authenticators for now. Real recovery routes are a pre-launch product decision.
+2. Anonymity: passkey and nothing else. No email, no name. Identity policy decided later.
+3. @simplewebauthn/server: approved.
+4. Login surface: defer real browser ceremony to Phase 4. Phase 1 runs on the test authenticator; suite stays headless.
+5. RP ID/origin: localhost. Production domain is Phase 7.
+6. Operator: service-local administrative call, no remote surface.
+7. Host numbers: per-Wanderer, allocated at lease, never reused. A returning account gets a new number. Confirmed.
+8. No limit on Wanderers per account during testing. Product rule later.
+
+Implement Phase 1 per the approved plan:
+1. Commit before changes.
+2. Build. Run the full acceptance suite (Phase 0 tests must stay green alongside the new Phase 1 tests).
+3. Commit, report results and any deviations to REPORTS.md.
+
+Scope: the approved plan only.
