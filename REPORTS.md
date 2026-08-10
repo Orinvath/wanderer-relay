@@ -237,3 +237,136 @@ release was left alone — this is a question, not a deviation. Should release c
 same way, so that an epoch always names whoever is actually holding it?
 
 Scope ended here. Nothing else touched.
+
+
+---
+
+## Directive 006 — Release closes the epoch too — DONE
+
+Implemented. Full suite, run just now, exit code 0:
+
+```text
+PHASE 0 — PROVE THE SCARCE OBJECT
+
+   1  Genesis: W-001 minted, first record signed           ✓ 
+   2  Lease A: host-a holds it                             ✓ epoch 1
+   3  Interaction: a line enters state through the service ✓ 
+   4  Host A can see what it holds                         ✓ 
+   5  Release: host-a gives it up                          ✓ 
+   6  Release alone closes the epoch: a verifier sees it held by nobody ✓ epoch 1 → 2, held by null
+   7  Transition and Lease B: epoch moves, host-b holds it ✓ epoch 2 → 3
+   8  Host A reconnects and looks                          DENIED  (lease is for epoch 1; the current epoch is 3)
+   9  Host A replays its old lease to write                DENIED  (lease is for epoch 1; the current epoch is 3)
+  10  Host A presents copied local state as current        DENIED  (lease is not signed by this Wanderer)
+  11  Host A runs a modified client claiming custody       DENIED  (lease is not signed by this Wanderer)
+  12  Host A forges a lease                                DENIED  (lease is not signed by this Wanderer)
+  13  Verifier: authentic, current holder, lineage from Genesis ✓ holder host-b, 4 links
+
+      host-b sees 1 line(s) carried forward from host-a
+
+      host-c holds it for 3s (until 2026-08-10T21:38:39.049Z) — epoch 1, held by host-c — waiting it out
+  14  Expiry alone closes the epoch: a verifier sees it held by nobody ✓ epoch 1 → 2, held by null
+  15  Expired holder is refused without releasing          DENIED  (lease has expired)
+  16  Custody moves on with no release from the expired holder ✓ epoch 2 → 3
+      host-d sees 1 line(s) carried forward from host-c
+
+  16 passed, 0 failed
+```
+
+### The question from Directive 005, answered directly
+
+That report ended by showing the odd case. Same check, re-run against the code as it now stands:
+
+```text
+after a VOLUNTARY release (no expiry involved):
+  verifier current_epoch: 2   held_by: null
+  the epoch row still open names host: null   closed_at: null
+  release said: epoch 1 given up, epoch 2 now open
+```
+
+Before, the open row named `"host-a"` while the verifier reported `held_by: null`. Those two now
+say the same thing, which was the whole of the decision.
+
+### What changed
+
+Release did one thing: mark the lease given up. The epoch went on standing open in the departed
+host's name until somebody new arrived. Release is now a transition, exactly as expiry became one
+in 005 — the epoch closes as the host lets go, and the next opens **held by nobody**.
+
+The two paths are now the same act with different triggers, and the code says so: both close the
+open epoch and open an unheld one through the single `openEpoch` that has always been the only
+place custody changes hands. One difference of substance remains, and it is real rather than an
+oversight: **an expiry is stamped with the lease's own `expires_at`, because custody ended before
+anyone noticed; a release is stamped with the moment it arrives, because for a release those are
+the same moment.** Both record when custody actually ended.
+
+Checked against the database, a lineage containing both kinds of letting go:
+
+```text
+epoch  host      opened_at                 closed_at
+0      null      …:05.052Z                 …:05.068Z
+1      host-a    …:05.068Z                 …:05.075Z   ← released
+2      null      …:05.075Z                 …:05.085Z
+3      host-a    …:05.085Z                 …:05.088Z   ← same host again, released again
+4      null      …:05.088Z                 …:05.092Z
+5      host-a    …:05.092Z                 …:05.095Z
+6      null      …:05.095Z                 …:05.097Z
+7      host-e    …:05.097Z                 …:08.097Z   ← EXPIRED at :08.097
+8      null      …:08.097Z                 …:08.708Z   ← opens at :08.097, not at :08.708 when noticed
+9      host-f    …:08.708Z                 …:08.712Z
+10     null      …:08.712Z
+```
+
+Every epoch names its actual holder, or nobody. `authentic true, problems 0` throughout.
+
+### Two consequences worth having on the record
+
+**1. A released host is now refused by the epoch check rather than the released check.** Release
+moves the epoch, so a returning host is told `lease is for epoch 1; the current epoch is 3` before
+anything looks at whether they handed it back. That is the same defence lines 8 and 9 have always
+rested on, and it is the stronger of the two — but it does mean `checkLease`'s fifth test, "has it
+been given up?", is now unreachable: a lease's epoch can only be the open one while that lease is
+live, and both ways of ceasing to be live now move the epoch. **I left the line in place rather
+than deleting it.** It costs nothing, and removing a defence because the ordering currently makes
+it redundant is how orderings come to be depended on silently. Say if you would rather it go.
+
+**2. Every handover now costs two epochs, not one.** A→B used to be epoch 1→2; it is now 1→2→3,
+with 2 held by nobody for however long the gap lasts. That is the decision working as intended —
+the unheld interval is a real thing that now has a real record — but epoch numbers are no longer a
+count of visits, and anything later that reads them as one will be wrong.
+
+### Deviations, one
+
+**The suite is 16 lines, not 15.** One line added, line 6: a verifier, holding no lease and told
+nothing by anybody, seeing the epoch closed by the release alone — asked before host-b arrives, so
+what it sees cannot be the next host's doing. It is deliberately the same proof in the same words
+as line 14 does for expiry, since the two behaviours are now the same behaviour. Line 7's
+assertion moved from `A.epoch + 1` to the epoch after the gap, for the same reason line 15's did
+in 005: the transition being asserted now consumes an epoch of its own.
+
+### Checked beyond the suite
+
+- **Re-releasing an already-released lease** is refused, as is looking with it.
+- **Q2 from Directive 005 still holds** — no restriction was introduced by accident. host-a
+  releases and takes it straight back, twice in a row (epochs 3 and 5 above), unimpeded.
+- **State survives every unheld epoch.** host-f, ten epochs and two kinds of letting go after
+  host-a wrote the line, still sees it.
+- **Repeated observation during a gap is stable.** Five rounds of verify + look left the epoch
+  where it was; looking does not open epochs, which matters because both closing paths write on
+  what is otherwise a read.
+
+### Commits in CC-Wanderer
+
+```text
+b2f3387  letting go closes the epoch, however a host lets go
+4d8dbd1  a lease running out closes the epoch at the moment it runs out
+0749d3a  acceptance test 13: a lease that runs out, and custody moving on without the holder
+6baeb76  a service can be given a lease length, so a test can watch one expire
+9e0f8d5  Phase 0: identity, custody, state, verifier, and the acceptance test
+ca26095  Phase 0 scaffold
+```
+
+Working tree was clean at start in both repos, so the commit-before-change rule had nothing to
+commit.
+
+Scope ended here. Nothing else touched.
