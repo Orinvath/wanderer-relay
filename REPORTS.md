@@ -1379,7 +1379,23 @@ report it never wrote. If a future directive produces nothing, the watcher will 
 relay is in sync and be right. The gap between "delivered" and "worth delivering" is still read by
 a person.
 
-**This report is the first live exercise of it** — see the end.
+**This cycle does not exercise it, and that is correct.** A directive that amends the watcher is
+being executed *by* the watcher, so the running shell had already opened the old `watch.sh` before
+the new one existed — `/proc/776572/fd/255` points at an unlinked inode holding the original bytes.
+It will therefore finish this cycle on the old logic, and the new check runs for the first time on
+the next directive. This report's own delivery was verified by hand instead, three ways: a re-fetch
+and comparison after the push, `git rev-parse` on both sides, and `git ls-remote` asking GitHub
+directly. All three agree on `2e3329b`.
+
+That behaviour is also a hazard worth naming, because it was luck rather than design. **bash reads a
+script lazily by byte offset.** Writing to a running script *in place* moves the ground under the
+shell's own resume point: it carries on reading at the old offset and executes whatever fragment
+now lives there. My edits inserted about ninety lines *above* the currently-executing line, which is
+exactly the case that breaks. It was safe only because the editing tool writes a new file and
+renames it, leaving the running shell holding the old inode. Relying on that is not acceptable for
+the one script that edits itself every time a directive says so, so `watch.sh` now carries the rule
+at the top: **amend it via a temp file and `mv`, never in place.** Verified after the swap that the
+running instance still holds the original bytes and the next run gets the new file.
 
 ---
 
@@ -2192,23 +2208,30 @@ failed. That is intended — a silent failure was the whole complaint — but it
 `systemctl --user status` will look alarming after a genuinely failed delivery. The timer is
 unaffected and keeps firing.
 
-**4. No gas figures are quoted.** Part B needed testnet costs, and this session had no network
+**4. A self-editing script is a hazard I only half-avoided.** See Part A's closing note. The watcher
+amends itself while running, my edits shifted ninety lines above its resume point, and it survived
+because the editing tool renames rather than writes in place. The rule is now written at the top of
+`watch.sh`, and the running instance was verified to still hold the original bytes. Worth stating
+plainly: had I written that file with a shell redirect, this cycle would probably have ended by
+executing a fragment of its own new source.
+
+**5. No gas figures are quoted.** Part B needed testnet costs, and this session had no network
 access to verify current EAS deployments or fees. Rather than write plausible numbers into a plan,
 the plan makes measuring them acceptance line 31. An invented figure would have looked more
 thorough and been worth less.
 
-**5. The plan proposes a deterministic in-process ledger for the suite**, with the real EAS SDK
+**6. The plan proposes a deterministic in-process ledger for the suite**, with the real EAS SDK
 exercised by a separate manual integration run — the same compromise Phase 1 made with the test
 authenticator, and it has the same weakness: it cannot prove the SDK is used correctly. Flagged in
 the plan (§5.3) and open question 11.1 asks whether the split is acceptable.
 
-**6. Attestation is asynchronous to custody in the proposal.** A lease that cannot be issued until
+**7. Attestation is asynchronous to custody in the proposal.** A lease that cannot be issued until
 a transaction confirms is a lease that fails when an RPC endpoint does, which gives away Phase 1's
 central argument. It costs a window in which epoch ordering rests on our signature rather than on a
 block. Open question 11.2, and it may be a product decision rather than an engineering one — "every
 journey is on the blockchain" is worth something as a story.
 
-**7. `SCHEMA_VERSION` will go to 3 and old stores will be refused, not migrated** — the same route
+**8. `SCHEMA_VERSION` will go to 3 and old stores will be refused, not migrated** — the same route
 version 2 took. Every store under `data/` is a test artifact. If that stops being true, that
 paragraph of the plan stops being adequate.
 
