@@ -184,3 +184,18 @@ Then:
 2. Build Phase 3 per the plan as amended by these rulings.
 3. Full suite green (all prior phases intact plus Phase 3), real components throughout per the standing no-test-doubles rule.
 4. Commit, report, verify the push landed.
+
+## Directive 014 — Append section 69 to the spec
+
+Append to the end of spec/WANDERER_SPEC.md in CC-Wanderer, exactly as written, changing nothing else in the file:
+
+# 69. FUTURE OPPORTUNITY — ART GRANT
+
+The Wanderer qualifies as conceptual new-media art: one scarce being,
+custody as ritual, lineage as artwork. Candidate funders: Creative
+Capital, Knight Foundation, regional arts councils.
+
+TODO: draft project statement. Anchor: established painter extending
+practice into a living digital artwork.
+
+Commit before change per standing rule. This does not interrupt the Phase 3 build — queue it if a build run is in progress.
