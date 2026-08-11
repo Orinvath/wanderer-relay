@@ -287,3 +287,9 @@ The flaky admission test is not a measurement problem — it exposed two design 
 3. The test then asserts: the mechanical walls hold (unchanged, deterministic), and the loop yields admitted lessons that pass the judge. Admission rate stays reported as a measured number.
 
 Commit before changes. Full suite green (Ollama is running). Report.
+
+## Directive 022 — Fix the cumulative-rule test
+
+Approved by Lonnie: rewrite line 20's third candidate so it carries no canary and reaches rule 3 (cumulative reconstruction). The rule itself does not change — only the test now genuinely exercises it. Confirm the refusal reads rule: cumulative.
+
+Commit before changes. Full suite green. Report.
