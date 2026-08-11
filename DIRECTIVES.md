@@ -140,3 +140,16 @@ Build the real login surface now instead of deferring to Phase 4: a minimal loca
 For the automated suite, drive the real browser's own WebAuthn implementation via its automation interface (Chromium DevTools virtual authenticator) — real browser, real WebAuthn stack, no hand-rolled substitute. Verify this works on this machine before building on it; report if it doesn't.
 
 Priority order: real-auth replacement first, then Phase 2 build.
+
+## Directive 011 — Journey numbers resolved by spec; close loose ends
+
+Resolution: Spec section 34 rules. Journey numbers are public story elements ("Host 1,847 of W-001") — only host identity stays private, and identity is never on the ledger. The verification feed carrying numbers is correct. The public viewer may also show journey numbers per spec; update it to do so. No re-mint.
+
+Loose ends:
+1. Commit before changes.
+2. Update viewer to show journey numbers per spec 34.
+3. Backfill the missing Directive 003 report into REPORTS.md.
+4. Run full suite, confirm green.
+5. Commit, report, verify push landed.
+
+Outstanding items staying open by decision: Base Sepolia gas (needs funded key), synced-passkey counter test, independent security review — all pre-launch, none now.
