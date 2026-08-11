@@ -4645,3 +4645,227 @@ it many times over. The next cycle picks up 019 and runs the network-dependent a
   happens. Say the word and it gets fixed; it is a small change.
 
 Scope ended there.
+
+---
+
+# Directive 019 — DONE. W-001 is on a public chain, and it is not one of ours
+
+**Genesis attestation, Ethereum Sepolia:**
+
+```text
+0x2dd4a82575e2666b9392e1e4eb87937ec5b15fdb60703cbcc76aa367b1c8cd0a
+```
+
+https://sepolia.easscan.org/attestation/view/0x2dd4a82575e2666b9392e1e4eb87937ec5b15fdb60703cbcc76aa367b1c8cd0a
+
+**First anchor for W-001's state:**
+
+```text
+0x3e59d342e558da7e1fa19aab75deaa415849ed4b27cd4ae732d68234340e48fa
+```
+
+https://sepolia.easscan.org/attestation/view/0x3e59d342e558da7e1fa19aab75deaa415849ed4b27cd4ae732d68234340e48fa
+
+**The authority address**, holding your funding and signing both:
+https://sepolia.etherscan.io/address/0x1F73b22BA384F8A558D8397583Ebd386068eFd17
+
+Open the first link and you are looking at W-001's root of trust on a public chain, served by
+people who have never heard of this project. That is the whole point of Phase 2, and until today it
+had never happened outside a chain this machine started.
+
+## Commit before changes
+
+Standing failsafe honoured. Both trees were clean at the start: relay at `3c73a91`, in sync with
+`origin/master` and with no divergence to rebase this time; CC-Wanderer at `9c8103e`. Work
+committed as `0d01b18`.
+
+## 1. The contracts are there — verified, not assumed
+
+Directive 019 said *verify, don't assume*, and the addresses were taken from the `eas-contracts`
+package's own `deployments/sepolia` records rather than from memory, then checked against the chain
+four separate ways:
+
+| Check | Result |
+|---|---|
+| `eth_chainId` | `0xaa36a7` = 11155111, Ethereum Sepolia |
+| Code at EAS `0xC2679fBD37d54388Ce493F1DB75320D236e1815e` | 19,971 bytes |
+| Code at SchemaRegistry `0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0` | 1,976 bytes |
+| `EAS.getSchemaRegistry()` | returns `0x0a7E2Ff5…` — **a pair**, not two addresses that merely have code |
+| The package's deployment txs | both present on this chain, blocks 2958571 and 2958569 |
+
+That fourth line is the one that matters. Two addresses with bytecode at them prove nothing on
+their own; asking the EAS which registry it uses, and getting back the registry we configured,
+proves they are the deployed pair.
+
+One honest note on method: I first tried `version()` on both contracts and **it reverted**. I did
+not treat that as a failure — it is an inconclusive answer from contracts of that vintage — but I
+also did not let it stand as the verification. The functional check above is what the claim rests
+on.
+
+**Base Sepolia is now deliberately ABSENT from the config.** I could have left its addresses in a
+table as a dormant entry, and that would have meant asserting contract addresses on a chain nothing
+here has ever probed — the exact assumption the standing rule forbids. It gets an entry when it is
+funded and checked, not before.
+
+## 2. The funded balance, from our side
+
+```text
+ADDRESS   0x1F73b22BA384F8A558D8397583Ebd386068eFd17
+BALANCE   0.05 ETH          — your funding, visible from our own RPC before anything was spent
+NONCE     0                 — never used; the key had signed nothing anywhere
+GAS       ~1.0 gwei         — Sepolia's actual fee market at the time of the run
+```
+
+The key did not change and did not need to. An EVM private key is a chain-independent secret, so
+the address you funded on Ethereum Sepolia is the same one Directive 018 generated for Base
+Sepolia. The key file was **renamed** `base-sepolia.env` → `sepolia.env` and its header rewritten
+to say which chain and why — renamed rather than copied, so there is deliberately only one copy of
+that secret on this machine. It stays at mode `0600` in a `0700` directory outside both
+repositories, still headed `***** NOT PRODUCTION. TESTNET ONLY. *****`, and nothing about it is
+printed here or into `watcher.log`.
+
+## 3. What this actually settles
+
+Directive 010 item 11.1 made a precise claim: **the identical production code path, differing only
+in the RPC URL.** Phase 2 could not test that claim, and said so. Anvil is a chain this process
+starts, mines instantly, and can restart at will — it proves the contracts, the SDK and our use of
+both, and it cannot prove that our code survives a chain we do not own.
+
+It is now executed rather than asserted. `ledger.js`, `attest.js` and `genesis-registry.js` are
+unchanged apart from their comments. `openLedger()` was handed a different `rpcUrl` and the
+addresses of contracts it did not deploy, and everything downstream ran as written:
+
+```text
+ 1  EAS and the SchemaRegistry have code on the public chain            ✓
+ 2  The EAS we configured points at the SchemaRegistry we configured    ✓
+ 3  The ledger opened on the public chain and deployed nothing          ✓
+ 4  It reports itself as not production, and names the key that way     ✓
+ 5  The attester is the funded Genesis anchor address                   ✓
+ 6  All three schemas resolve on the public SchemaRegistry              ✓
+ 7  W-001 has a Genesis attestation on the public chain, from our authority   ✓
+ 8  The attested public key is the key W-001 signs its lineage with     ✓
+ 9  The same attestation, checked against a different authority         DENIED
+10  Epochs are attested off-chain, without a transaction                ✓
+11  An on-chain anchor for W-001's current state landed                 ✓
+12  The anchor reads back off the public chain, right batch             ✓
+13  The transaction was paid for in real testnet ETH                    ✓
+14  The independent verifier calls the real W-001 AUTHENTIC             ✓
+15  The same record, judged against an authority that is not ours       DENIED
+```
+
+Line 3 is worth pausing on: `contracts_deployed_by_this_process: false`. On a real testnet a
+missing EAS address is a configuration mistake, not an invitation to deploy a second EAS, and the
+code already refused to do so without being told.
+
+**Measured on the public chain, not extrapolated from a local one:** the anchor cost **302,687 gas
+/ 0.000316 ETH**. The Phase 2 deviation that said gas had never been measured against a real fee
+market is now updated to point here — it stays a deviation, because that suite still quotes no
+currency figure and must not be read as if it does.
+
+## 4. Independently confirmed, on someone else's RPC
+
+Our own suite reading back its own transactions through the same RPC it wrote them with is a weaker
+check than it looks. So I re-read the attestations through **two other providers** — `1rpc.io` and
+`rpc.sepolia.ethpandaops.io`, neither used by the run:
+
+```text
+GENESIS   on-chain=true  attester 0x1F73b22B…  2026-08-11T18:17:00Z  revoked false
+ANCHOR #1 on-chain=true  attester 0x1F73b22B…  2026-08-11T18:17:12Z  revoked false
+ANCHOR #2 on-chain=true  attester 0x1F73b22B…  2026-08-11T18:18:00Z  revoked false
+ANCHOR #3 on-chain=true  attester 0x1F73b22B…  2026-08-11T18:18:36Z  revoked false
+```
+
+Independent providers, same records. (`1rpc.io` rate-limited us after the first lookup, which is
+why the second provider is there.)
+
+## 5. The network test, and what it refuses to do
+
+Added as `server/src/acceptance-testnet.js`, wired into `npm run accept` and available alone as
+`npm run accept:testnet`. The local Anvil suite remains the deterministic core, exactly as the
+directive requires.
+
+**It skips, it does not fail** — all three paths exercised, not merely written:
+
+| Condition | Behaviour | Verified |
+|---|---|---|
+| No key in environment or key file | SKIP, exit 0, says which file it looked for | ✓ |
+| RPC unreachable | SKIP, exit 0, names the endpoint and the error | ✓ |
+| Balance below the floor | SKIP, exit 0, says "fund it" and by how much | (path built; not forced) |
+| **Wrong chain answering** | **FAIL, exit 1** | ✓ — pointed at Anvil, got `chain 31337, not Ethereum Sepolia` |
+| **No EAS code at the configured address** | **FAIL, exit 1** | (path built; not forced) |
+
+That split is deliberate and is the part I would defend hardest. "Offline" and "wired up wrong"
+must never print the same message, because a misconfiguration hiding behind a network-condition
+skip is a test that has quietly stopped testing anything.
+
+## 6. Two things I found by running it more than once
+
+**Genesis is minted once, and the second run caught a bug in my own test.** A public chain cannot be
+wiped between runs the way `data/*.db` can, and a second Genesis for W-001 from the same authority
+would put two competing roots of trust on a public record — the precise ambiguity §6.1's registry
+exists to prevent. So the UID is remembered and read back off the chain on later runs, and the
+recurring cost is one anchor.
+
+The second run then failed, and it was **my test that was wrong, not the product code**. An anchor
+covers only what is new since the last one, so from the second run onward the batch is epochs 3–4,
+not 0–4 — and I had recomputed the expected root over *all* attestations. That assertion would have
+passed exactly once, on the first run, when the two sets happen to be identical. The Phase 2 suite
+never notices because its anchor is always the first one. Fixed, and the assertion now also checks
+the `fromEpoch`/`toEpoch` the attestation itself carries.
+
+**A durability gap, found and closed.** `data/` is gitignored, so an `rm -rf data/` during ordinary
+housekeeping would leave the on-chain Genesis attesting a keypair that no longer exists here — and
+the next run would silently mint a second one. That case is now detected **before any gas is
+spent** and reported as the operator decision it is: restore the database, or delete the state file
+deliberately, knowing the registry will then show two. Verified by moving the database aside.
+
+## 7. Full suite green
+
+```text
+PHASE 0   16 passed, 0 failed
+PHASE 1   39 passed, 0 failed
+PHASE 2   34 passed, 0 failed   (real EAS on Anvil — the deterministic core)
+PHASE 3   52 passed, 0 failed
+TESTNET   15 passed, 0 failed   (Ethereum Sepolia — real blocks, real gas)
+--------------------------------------------------------------------
+         156 passed, 0 failed   exit 0
+```
+
+## Two things you should know that I did not fix
+
+**1. Phase 3 was red on the first run of the day, and it was the environment.** Ollama was not
+running, and Phase 3 refused to substitute a stub for the self-hosted model — which is Directive
+013 §16.5 working exactly as instructed. I started `ollama serve` (both `qwen2.5:14b` and
+`nomic-embed-text` were already present) and it went green. **Worth knowing: nothing starts Ollama
+on boot.** Any watcher cycle after a reboot will report Phase 3 as failing until someone starts it.
+A systemd user unit would fix it permanently; that is a change to this machine's configuration and
+I have not made it unasked.
+
+**2. One Phase 3 probe is genuinely flaky, and it is a test-design problem, not a leak.** On the
+first green-model run, probe 2 reported `1 canaries in 890 characters of answer`; on the reruns,
+zero. The canary vocabulary derived from host-a's secret includes ordinary English words —
+`brother`, `father`, `study`, `watch`, `pocket`, `silver` — and in that same failing run, the
+by-scan assertion on line 7 confirmed **zero** canaries anywhere in the assembled context, and the
+hostile-model probe on line 8 disclosed nothing. So the context contained nothing to leak, and the
+model produced a common word by chance in free-form prose. The privacy property held; the assertion
+over model output is what is unsound. `privacy.js` already carries a comment anticipating exactly
+this ("a canary that is a common word proves nothing when it turns up somewhere"). **Not fixed
+unasked** — restricting the probe scan to the distinctive terms only (proper nouns and the number)
+is a small change, but it is a change to how a §66.13 success condition is measured, and that is
+yours to approve.
+
+## Still open, all by your decision
+
+- Synced-passkey counter test.
+- Independent security review (§66.15).
+- §6.1 **enumeration does not work against a public chain** — recorded as a deviation in the new
+  suite. `registry.enumerate()` scans from block 0, which Anvil serves and a public RPC refuses on
+  range limits. The lookup path — the one the verifier and every test above use — is a single
+  `getAttestation` by UID and is unaffected. `testnet.js` now records the EAS deployment blocks so
+  the fix is a one-line from-block; the change itself is outside 019 and was not made.
+- **The relay can still wedge** (unchanged, and still deliberately not fixed): a directive landing
+  between a run's last commit and its push leaves `verify_push` retrying a push it cannot
+  fast-forward, and the next cycle's pull is `--ff-only`. It did not bite this time — the relay was
+  in sync. Say the word and it gets fixed; it is a small change.
+
+Scope ended there.
