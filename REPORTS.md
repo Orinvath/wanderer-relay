@@ -4220,3 +4220,44 @@ Modified: `server/src/wanderer.js`, `store.js`, `manifest.js`, `index.js`, `conf
 `package.json`.
 
 Committed to CC-Wanderer as `0dc4116`.
+
+---
+
+# Directives 014, 015, 016 — spec sections 69 and 70 — DONE, WITH A NUMBERING COLLISION TO DECIDE
+
+All three arrived on the relay while the Phase 3 build was running, and all three say to queue
+behind a run in progress. They were executed after the suite finished green, in one commit:
+CC-Wanderer `ddb965a`.
+
+The three blocks are appended to the end of `spec/WANDERER_SPEC.md` **exactly as written**, with
+nothing else in the file touched: §69's art-grant note, §70's IP-protection note, and 016's prior-art
+citation placed inside §70 immediately after the existing TODO line, as directed.
+
+Commit-before-change: CC-Wanderer was clean, having just committed the Phase 3 build.
+
+## The one thing that needs your word
+
+**The spec already had a 69, a 70 and a 71.**
+
+```text
+2872:  # 69. CURRENT STANDARDS / RESEARCH BASIS
+2894:  # 70. CORE DESIGN PRINCIPLES
+2944:  # 71. PROJECT DEFINITION
+```
+
+So the file now contains two sections numbered 69 and two numbered 70. I did not renumber, because
+the directives say "exactly as written, changing nothing else in the file" three times between them,
+and because section numbers are the spec's addressing scheme — every directive, every report and
+every §66.17 change note refers to this document by number, and reassigning one is a decision about
+your document rather than a typo fix. §66.18 puts that outside what I decide.
+
+It should not sit like this for long. A reference to "§70" is now ambiguous between CORE DESIGN
+PRINCIPLES and IP PROTECTION, and 016's own instruction — *"append to spec section 70 (IP
+Protection)"* — was already ambiguous by the time I read it.
+
+**The fix is one line and I will make it on your word:** renumber the two new sections to **72** and
+**73**, leaving the existing 69, 70 and 71 alone. Nothing references the new ones yet, so nothing
+breaks. Say the word and it is done in the next cycle.
+
+Content-wise the notes are untouched and unreviewed by me — they are yours, they are TODOs, and
+neither one asks for anything to be built.
