@@ -275,3 +275,15 @@ Base Sepolia was unavailable on the working faucet. Lonnie funded the Genesis an
 3. Relay wedge fix: APPROVED. Make verify_push handle the non-fast-forward case: pull --rebase then push, once; on failure log loudly and leave the tree clean for the next cycle.
 
 Commit before changes. Full suite green. Report.
+
+## Directive 021 — Reflection redesign, Lonnie's rulings
+
+The flaky admission test is not a measurement problem — it exposed two design faults. Fix both:
+
+1. The drafter writes lessons, not observations. An observation describes the host ("a host keeps his late wife's telescope"). A lesson states something true about people. Lonnie's canonical example of the required depth: NOT "objects hold connection" — objects hold nothing. The lesson is "objects can trigger memories for people; they mean more to people than the thing itself." The drafting prompt must demand this: distill what the encounter taught about people, never describe the host.
+
+2. A judge refusal is not a bin, it is a revision loop: refused candidates go back for rephrase/strip and are re-judged, until admitted or genuinely irreducible. Cap iterations at a sane constant.
+
+3. The test then asserts: the mechanical walls hold (unchanged, deterministic), and the loop yields admitted lessons that pass the judge. Admission rate stays reported as a measured number.
+
+Commit before changes. Full suite green (Ollama is running). Report.
