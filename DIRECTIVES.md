@@ -267,3 +267,11 @@ Base Sepolia was unavailable on the working faucet. Lonnie funded the Genesis an
 5. Run the real-network anchor: Genesis attestation + one anchor for W-001's current state.
 6. Add the network-dependent test (skips cleanly offline); local Anvil suite remains the deterministic core.
 7. Full suite green. Commit, report — include the on-chain attestation UID and explorer link so Lonnie can see W-001's record on the public testnet.
+
+## Directive 020 — Approvals from Lonnie
+
+1. Ollama autostart: DECLINED. Stays manual for now — Lonnie starts it when needed. Watcher cycles that hit Phase 3 with Ollama down should report "environment: model not running" clearly rather than a bare red.
+2. Privacy probe fix: APPROVED. Restrict the model-output canary scan to distinctive terms only (proper nouns, the number). The context-assembly scan stays exactly as is — it checks everything.
+3. Relay wedge fix: APPROVED. Make verify_push handle the non-fast-forward case: pull --rebase then push, once; on failure log loudly and leave the tree clean for the next cycle.
+
+Commit before changes. Full suite green. Report.
