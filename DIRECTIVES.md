@@ -293,3 +293,11 @@ Commit before changes. Full suite green (Ollama is running). Report.
 Approved by Lonnie: rewrite line 20's third candidate so it carries no canary and reaches rule 3 (cumulative reconstruction). The rule itself does not change — only the test now genuinely exercises it. Confirm the refusal reads rule: cumulative.
 
 Commit before changes. Full suite green. Report.
+
+## Directive 023 — The judge must state its reasons
+
+Lonnie's ruling: every evaluator refusal must carry the judge's stated reason — why this candidate DISCLOSES, in its own words. Log the reason alongside each refusal in the reflection record and surface them in test output, so refusal patterns can be read and the system designed from evidence rather than guesses.
+
+The judge's permissiveness does not change — this is visibility only.
+
+Commit before changes. Full suite green (Ollama running). Report, including the actual reasons it gives for refusing the family-trust lesson and its kin, so Lonnie can read the judge's mind before ruling on its strictness.
