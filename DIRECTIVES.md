@@ -165,3 +165,22 @@ Per spec 66.17, memory and consent boundaries require proposal before implementa
 3. Distinguish clearly: engineering decisions (yours to propose) vs product decisions (Lonnie's — flag them as questions, decide nothing product-shaped).
 4. Commit the plan, copy full text to REPORTS.md, verify the push landed.
 5. STOP for approval before implementing.
+
+## Directive 013 — Phase 3 approved: all ten decisions (Lonnie's rulings)
+
+16.1: Private raw material is the HOST'S, not the Wanderer's. At departure the Wanderer keeps nothing raw; it all remains on the host's machine. Departure gift: a montage of their memories together, theirs to keep or share.
+16.2: A returning host IS remembered — the private material never left their machine, so on arrival she accesses it there again. All memories timestamped so she knows how long she's been gone.
+16.3: NO veto on lessons. She learns; that is the covenant. A hosting disclaimer states it before arrival — decline it and she doesn't come. Teaching her is what makes W-001 unique.
+16.4: "Forget what I told you" erases private material only. Lessons stay — they contain nothing private by construction.
+16.5: SELF-HOSTED model on the Wanderer service — our server, our model (open weights, e.g. via Ollama/vLLM on the service host). One active Wanderer = one conversation at a time; a single GPU serves it. No third-party inference provider. Private text transits only our own server.
+16.6: Protected core built with placeholder text clearly marked LONNIE'S VOICE PENDING. He writes the real core.
+16.7: Memory count is CUMULATIVE — only climbs. Lived experience doesn't un-happen.
+16.8: ONE consent covers carry + public page. All shared gifts pass human moderation review before publication or travel — no adult content, no hate.
+16.9: Never forgets on its own. Salience ranks recall; nothing drops. Per spec: identity accumulates.
+16.10: Location is NOT optional — it is part of her adventure and part of the disclaimer. City-level coarse only, never precise. Announced while present, except the host may delay the post until after departure (anti-tracking). Build the carry + publish mechanism now.
+
+Then:
+1. Commit before changes.
+2. Build Phase 3 per the plan as amended by these rulings.
+3. Full suite green (all prior phases intact plus Phase 3), real components throughout per the standing no-test-doubles rule.
+4. Commit, report, verify the push landed.
