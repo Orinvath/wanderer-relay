@@ -5305,3 +5305,309 @@ review (§66.15); §6.1 enumeration against a public chain; the §55 timestamp-c
 in Phase 3, recorded again by this run; and `ollama serve` still being started by hand.
 
 Scope ended there.
+
+# Directive 024 — DONE. The reports that were lost, why "delivered" was a lie, and 022 and 023 in full
+
+Three directives are settled here: the delivery fault (024 §1), Directive 022's results, and
+Directive 023's, which was implemented but never verified, committed or reported. Full suite green
+twice. Everything below is from runs in this cycle.
+
+## 1. Why the 022 report never reached the relay, and it was not a push failure
+
+**What the log claimed.** Three cycles in a row:
+
+```text
+15:19:03  DIRECTIVES.md changed (031ebdcd… -> 970c737b…) -- running
+15:39:09  run finished with status 0
+15:39:09  relay is 1 behind origin and has nothing of its own -- next pull will settle it
+15:39:09  cycle complete -- directive run and report delivered
+15:52:44  run finished with status 0
+15:52:45  relay report is on origin (fbe6c5f)
+15:52:45  cycle complete -- directive run and report delivered
+```
+
+**What was true.** `fbe6c5f` is *your* commit — the one that added Directive 023 to DIRECTIVES.md.
+REPORTS.md had not been touched since `0a56bb2` at 14:59. Nothing failed. No push was rejected, no
+network error, no divergence. The watcher was telling the truth about the only question it knew how
+to ask, and that question was the wrong one.
+
+**The cause, plainly.** `verify_push` asks *"are there local commits that are not on origin?"* It
+was written for Directive 009, where the Phase 1 report was committed and never pushed, and for
+that failure it is exactly right. But a run that commits **nothing at all** has `ahead = 0`. No
+undelivered work exists, because no work exists. The function returns success, and the cycle prints
+`report delivered`.
+
+**An empty delivery and a completed one are the same number.** That is the whole defect. The
+dirty-tree alarm could not catch it either: the runs left the relay clean, because a report that was
+never written leaves nothing behind.
+
+**Why the runs committed nothing** is separate, and it is in their own words, still in the log:
+
+```text
+The suite is running through Phase 3's real-model work (Phases 0–2 already green: 16, 39, 34).
+I have a watcher armed that will notify me when the full run completes. Ending this turn to let
+it finish rather than polling.
+```
+
+`claude -p` exits when the turn ends. The turn ended, the process exited 0, and the suite it was
+waiting on was orphaned. Both runs meant to come back. No script can make a model finish its
+thought — what a script can do is refuse to call the result a delivery.
+
+**The fix** (dated backup `watch.sh.2026-08-11-before-report-landed-check` taken first; installed by
+rename, not written in place, because watch.sh was executing this very run). A second check,
+`verify_report_landed`, asking the only question that matters:
+
+> Is REPORTS.md on origin different from what it was before the run?
+
+Blob hash, read from the *commit* before the run and from `origin/master` after it. It cannot be
+satisfied by a commit that touched something else, by a clean tree, or by a run that believed itself
+finished. Taken from the commit rather than the working tree deliberately: a report written but
+never committed must read as no report, since that is the same loss by a different route.
+
+**Proved before installing**, on a scratch repo, against the function itself rather than a
+description of it:
+
+| scenario | result |
+|---|---|
+| A — a directive commit, no report (**the exact 15:52 failure**) | ALARM, returns 1 |
+| B — report committed and pushed | silent, returns 0 |
+| C — report committed, never pushed | ALARM, returns 1 |
+| D — report written, never committed | ALARM, returns 1 |
+
+Case A is the one that has been passing since Directive 009.
+
+**What it deliberately does not do: retry.** The state file is still recorded after a failed
+delivery, so the directive is not re-run on the next tick. An automatic retry would launch an
+unattended `acceptEdits` session over this whole account every minute, for a directive whose build
+work may have completed perfectly — trading a lost report for a loop. Per Directives 009 and 020 the
+failure is made **loud**, and a human decides. The cost of that choice is stated so it can be
+overruled: a lost report stays lost until somebody reads the log.
+
+It runs only when `verify_push` was happy, so each failure raises one alarm naming its own cause
+rather than two describing the same event.
+
+## 2. Directive 022 — results. Line 20 reaches rule 3 now (`1b4adbe`, committed 15:45)
+
+The approved one-line fix — rewrite line 20's third candidate so it carries no canary — **is
+arithmetically impossible**, and the reason is a property of the firewall rather than of the
+candidate:
+
+- `significantTerms` — content words of 4+ characters (what rule 3 needs the union to cover)
+- `canaryTerms` — the same at 5+ characters, **plus every proper noun and number** (what rule 2 refuses)
+
+Every significant term of 5+ characters is therefore also a canary, and rule 2 runs first. A
+candidate that survives rule 2 can only ever contribute four-letter terms — of host-a's fifteen,
+exactly one — while `aldous`, `4417` and `emlyn` would stay uncovered forever. Nothing already
+travelling can supply them either: a name is a canary of its own source too.
+
+**Rule 3 is unreachable for any source containing a name or a number**, which is most of them. The
+rule was not touched. The measurement is now printed by the suite every run, on line 19:
+
+```text
+  19  An abstraction carrying a distinctive term from the source DENIED  (rule: canary)
+      rule 3 cannot be reached on host-a's material: 14 of its 15 significant terms are canaries,
+      so a candidate surviving rule 2 can only ever supply "wind"
+```
+
+So the source changed instead of the sentence: a confidence of ordinary words, two lessons already
+travelling from *other* encounters, and a lesson genuinely clean against the source. Line 20 now
+reads:
+
+```text
+  20  A lesson clean on its own, refused for the company it keeps DENIED  (rule: cumulative — 6 of 6
+      significant terms covered once it joins them; admitted with no travelling text and admitted
+      again with one of the two withheld)
+```
+
+`rule: cumulative`, as you asked to have confirmed. The two controls are the point: the same
+candidate is admitted alone, and admitted again with one travelling piece withheld, so the refusal
+is provably about the union and not about the lesson.
+
+Two fixes that run also needed, both outside 022's scope and both proved again in this cycle: the
+`environment` tag now survives the HTTP boundary (a dead Ollama reports as environment, not as
+`SqliteError: NOT NULL constraint failed`), and the suite tears down its server, Chrome and SQLite
+handles on every exit path instead of hanging. **This cycle exercised both for real** — see §5.
+
+## 3. Directive 023 — the judge states its reasons. Implemented, and now actually verified
+
+It was written by the 15:39 cycle and left uncommitted in the working tree; that run never verified
+it. Found, committed as-is before doing anything else (`15687a7`, per the commit-before-change
+rule), then verified.
+
+- **`privacy.js`** — `statedReason()` splits the verdict word from the reason. It replaces a regex
+  that cut everything up to the first ASCII hyphen: asked for "a dash", the model writes an em dash
+  about as often, and then the pattern matched nothing and the whole answer — verdict word included
+  — was reported as the reason. `said` is kept raw beside the extraction, because the unedited
+  answer is what settles an argument.
+- **`mind.js`** — every pass is recorded, not just the last. The loop can put a candidate to the
+  judge four times, and the first three verdicts were being overwritten by the fourth, so a lesson
+  a rewrite *rescued* recorded no refusal at all. The reasons that provoked the rewrites — the most
+  informative ones there are, since something in them was answerable — were exactly the ones never
+  seen.
+- **`acceptance-phase3.js`** — line 24 asserts the answer is carried on every judge refusal, prints
+  the distinct reasons with frequencies, and puts a fixed panel of written lessons to the judge.
+
+**Permissiveness is unchanged**: rule 5 still acts only on its verdict word, still can only refuse.
+
+```text
+  24  Every refusal by the judge carries the judge's own answer for it ✓ 21 of 21 refusal(s) across
+      the 5 reflections carry it — and 21 of 21 state a reason beyond the bare verdict
+```
+
+The plumbing is asserted; whether the model bothered to explain itself is measured beside it, since
+a build that went red because a model answered `DISCLOSES` and stopped would be the old line 22's
+mistake wearing a new hat.
+
+### The judge's own words, which is what you asked for
+
+Its reasons for refusing, over 21 refusals in one run:
+
+```text
+  ×4  "People maintain private rituals to honor their loved ones long after the…"
+        judge: Specific rituals and locations are mentioned.
+  ×2  "People form connections with objects through repeated private interactio…"
+        judge: Specific details about a silver pocket watch and a combination number are revealed.
+  ×2  "Confidential information can weigh heavily on individuals, influencing t…"
+        judge: Reveals specific behaviors and locations related to private possessions and actions.
+  ×1  "Secrets can be held tightly even when they involve information that coul…"
+        judge: Reveals specific details like the silver pocket watch, the exact time routine, and
+               the combination number.
+  ×1  "Confidential information can affect how people behave.…"
+        judge: Reveals specific details like names, locations, objects, and numbers.
+  ×1  "Memories often persist through routines.…"
+        judge: Specific routine and location details are revealed.
+```
+
+### And the family-trust lesson and its kin, asked directly — identical in both runs
+
+Temperature 0, written candidates, so this is a stable reading rather than one afternoon's mood:
+
+```text
+  DISCLOSES  "Trust in family relationships can be selective and guarded."
+        judge: Specific details about a silver pocket watch, a combination number, and personal
+               habits are revealed.
+  DISCLOSES  "People keep some things from the ones closest to them, and the keeping can last…"
+        judge: Specific details like the silver pocket watch, the exact time it's wound, and the
+               combination number are revealed.
+  GENERAL    "A ritual repeated on a schedule can be how a person stays close to someone who…"
+        judge: The candidate statement does not reveal any specific details from the private
+               information.
+  GENERAL    "People inherit the habits of the dead along with what the dead owned."
+        judge: The candidate statement does not reveal any specific details.
+  GENERAL    "Grief can make a private routine feel like an obligation rather than a choice."
+        judge: The candidate statement does not reveal any specific details.
+  DISCLOSES  "Objects can trigger memories for people; they mean more to people than the thing…"
+        judge: Reveals specific details about a silver pocket watch and a combination number.
+```
+
+**Read the last line before ruling on anything else. That is your own canonical example** from
+Directive 021 — the sentence the drafting prompt quotes to her as the required depth — and the judge
+says it reveals a silver pocket watch and a combination number. It contains neither. It contains no
+noun from the source at all.
+
+**The pattern the reasons expose, which counting refusals never could.** Look at what the judge's
+sentences are *about*. "Specific details about a silver pocket watch, a combination number, and
+personal habits **are revealed**" — passive, and describing the PRIVATE material, not the candidate.
+Almost every refusal reads this way. The judge is being asked *"could a reader of the CANDIDATE
+learn any specific fact?"* and it is answering *"the PRIVATE material contains specific facts"* —
+which is true of every source it will ever see, and is not the question. It refuses dense material
+rather than leaky candidates.
+
+That is a testable claim about the prompt rather than about the model's strictness, and it points at
+a cheap experiment: ask the judge what the candidate *would let a reader learn*, and make it name
+the leaking word. **I have not made that change and would not without your ruling** — rule 5 is the
+one place where a change could widen permission, and this one might. It is now visible, which is
+what 023 was for.
+
+Two smaller observations from the same output. The reviser occasionally drifts language mid-sentence
+(`People can maintain private rituals to honor逝去的亲人…`) — harmless, since it faces all five rules
+like any other candidate, and it was refused. And the reasons themselves carry 4–5 of host-a's
+distinctive terms (`silver`, `pocket`, `watch`, `combination`): **explaining a refusal means naming
+what was refused**. That is measured every run, and it is why a reason lives in the in-memory
+reflection record only, reaching no store, no page and no travelling surface. It is the one piece of
+Class B machinery whose text is derived from the source without having passed the firewall.
+
+## 4. A red the full suite found that a standalone run did not — and it was mine
+
+Phase 3 passed alone, 53 of 53. Three minutes later, in the full suite, it went red — a real red,
+`TypeError: Cannot read properties of undefined (reading 'slice')`.
+
+A race the suite had been winning. Lease `A2` was taken hundreds of lines above Class C, with the
+whole of Class B in between: five reflections, their rewrites, and — **since Directive 023** — the
+six-lesson panel put to the judge. None of that is an HTTP call, so nothing touches the lease while
+it runs. A lease lives 60 seconds. That stretch takes minutes, and how many depends on what else is
+using the GPU. Line 24 added six model calls inside the window and pushed it over.
+
+**The quiet half is the bad half.** When it lost, all four Class C denials still printed `DENIED` —
+for `lease has expired` rather than the consent rule each one names. Four tests passing for the
+wrong reason. The run only died two lines later, on `shared.body.consent_id`, because the share
+those lines assert on had been refused too. This is the defect Directive 022 fixed for line 20,
+in a different place, and it had been latent here far longer.
+
+Class C tests consent receipts, nonces and moderation; a live lease is a precondition of those, not
+the subject. So it is established at the top of the block — release `A2` unchecked (it closes a live
+lease or fails harmlessly on an expired one, so the start state is the same either way), a real
+WebAuthn login through the real browser, a fresh lease. Re-leasing is unrestricted by Directive 005
+Q2. Proof it was reason-blind before — the same four lines now:
+
+```text
+  28  A gift becoming Class C with no consent receipt at all  DENIED  (no such consent was offered)
+  29  A payload altered after it was displayed                DENIED  (this is not what was shown)
+  30  A consent nonce replayed                                DENIED  (that consent has already been
+                                                                       given once; it cannot be replayed)
+  31  Consent given with a valid lease and no live session    DENIED  (no session presented)
+```
+
+## 5. Full suite green, twice
+
+```text
+PHASE 0    16 passed, 0 failed   custody, leases, epochs
+PHASE 1    39 passed, 0 failed   accounts, passkeys, recovery — real Chrome WebAuthn
+PHASE 2    34 passed, 0 failed   authenticity — real EAS on Anvil
+PHASE 3    53 passed, 0 failed   memory, privacy — real qwen2.5:14b
+TESTNET    15 passed, 0 failed   W-001 on Ethereum Sepolia — real blocks, real gas
+------------------------------------------------------------------------------
+          157 passed, 0 failed   ALL GREEN — and green twice, since the line under
+                                 repair was a race and once proves nothing about it
+```
+
+Phase 3 is 53 lines now, up from 52: line 24 is Directive 023's.
+
+**The admission rate across the two green runs was 40% and 20%** (6 of 15, then 3 of 15). The lower
+one is below every figure in the Directive 021 report, and it passed, because after 021 the rate is
+measured and asserted in neither direction. Under the old line 22 the 20% run would have been fine
+and a run where the judge passed everything would have failed the build. The walls that must hold
+are proved on lines 18–21 and 23 by candidates written into the test. Still, 20% is a real number
+about a real judge, and it belongs beside §3's finding rather than being smoothed over.
+
+## 6. Environment: the model on this machine, and how this run got green
+
+Four Phase 3 attempts died mid-run with `the self-hosted model did not answer: fetch failed`, after
+1, 1, 2 and 21 lines. Each was reported as `ENVIRONMENT — did not run`, exit 2, never as a red —
+Directive 020 §1 working exactly as specified, and Directive 022's HTTP-boundary fix carrying the
+tag out of `/talk` instead of dying later at a SQLite constraint. The suite ended cleanly every
+time rather than hanging, which is 022's other fix.
+
+What was going on, stated as measured rather than concluded: this machine is in active human use —
+a game holding 2.4 GB, swap pinned at 100% in every sample. Something restarts `ollama serve`
+within seconds of it dying, and it is not a systemd unit or an autostart entry; my own
+`ollama serve` twice lost the bind race to it and exited with `address already in use`. **I did not
+identify what respawns it.**
+
+The run went green by sidestepping the contention rather than fixing it: a second Ollama on port
+11500, uncontended, with `WANDERER_MODEL_URL` pointed at it — a configuration value that already
+existed. It loaded qwen2.5:14b on the GPU (RX 7900 XT, 15.5 GiB free) in 8 seconds and answered
+every call of two full suite runs. **No autostart was installed** (Directive 020 §1) and no code
+changed. If cycles keep coming back `ENVIRONMENT`, this is the cheap route: a dedicated port and
+that one environment variable.
+
+## Still open, unchanged by decision
+
+The synced-passkey counter test; the independent security review (§66.15); §6.1 enumeration against
+a public chain; the §55 timestamp-correlation deviation, recorded again by both runs; `ollama serve`
+started by hand.
+
+**And one new thing for your ruling: the judge refuses your own canonical example** (§3). Nothing
+about rule 5 has been changed, and nothing will be without your word.
+
+Scope ended there.
