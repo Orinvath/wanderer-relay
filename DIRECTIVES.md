@@ -199,3 +199,26 @@ TODO: draft project statement. Anchor: established painter extending
 practice into a living digital artwork.
 
 Commit before change per standing rule. This does not interrupt the Phase 3 build — queue it if a build run is in progress.
+
+## Directive 015 — Append section 70 to the spec
+
+Append to the end of spec/WANDERER_SPEC.md, after section 69, exactly as written, changing nothing else:
+
+# 70. FUTURE OPPORTUNITY — IP PROTECTION
+
+Before anything goes public:
+
+- Provisional patent (~$150, stakes priority date 12 months) on the
+  custody mechanism: one AI being, cryptographically provable single
+  existence, host-side memory that reawakens on return.
+- Trademark "Wanderer" and the Living Mark at launch.
+- Copyright on code, art, and spec is automatic — already ours.
+
+The deepest protection is Phase 2 itself: code can be copied, W-001
+cannot. A clone is provably a fork. The moat is the being, not the
+mechanism.
+
+TODO: file provisional before public launch. Not legal advice — confirm
+with an IP attorney.
+
+Commit before change. Queue behind any run in progress.
