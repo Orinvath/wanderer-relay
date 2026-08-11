@@ -4327,3 +4327,121 @@ Also still open by your decision: Base Sepolia gas (needs a funded key), the syn
 test, and the independent security review (§66.15) — which Phase 3 made more pressing, not less.
 
 Scope ended there. No files in CC-Wanderer were touched by this cycle.
+
+---
+
+# Directive 017 — DONE. Sections 72 and 73, and the watcher no longer re-runs itself
+
+Both halves are built and committed. CC-Wanderer `9c8103e`, watcher installed by rename at
+`2026-08-11 09:03`. Neither change touches product code.
+
+## Commit before changes
+
+Both trees were already clean, so there was nothing to commit on their behalf: the relay at
+`ce19f4f` (your Directive 017 commit, `HEAD == origin/master`), CC-Wanderer at `ddb965a` (the
+014-016 appends). The rule was satisfied by the trees, not skipped.
+
+## 1. Renumbering — art grant is now 72, IP protection is now 73
+
+Two heading lines changed in `spec/WANDERER_SPEC.md` and nothing else in the file:
+
+```diff
+-# 69. FUTURE OPPORTUNITY — ART GRANT
++# 72. FUTURE OPPORTUNITY — ART GRANT
+-# 70. FUTURE OPPORTUNITY — IP PROTECTION
++# 73. FUTURE OPPORTUNITY — IP PROTECTION
+```
+
+`git diff --stat` for the commit is `1 file changed, 2 insertions(+), 2 deletions(-)`. The existing
+69 (CURRENT STANDARDS), 70 (CORE DESIGN PRINCIPLES) and 71 (PROJECT DEFINITION) are untouched, and
+016's prior-art citation stays exactly where it was, inside what is now 73 — I moved the heading
+above it, not the block. No top-level section number is duplicated any more; the only repeated
+number the file now contains is `66`, which is the pre-existing `66.1`-`66.19` subsection scheme and
+was never a collision.
+
+Nothing pointed at the old numbers. I grepped both trees for `section 69/70/72/73` and `§69/§70/
+§72/§73` outside the spec: no hits. No code reads `WANDERER_SPEC.md` at all — no hits for the
+filename in any `.js` or `.json`. So the renumber breaks no reference, which is what made it a
+one-line fix rather than a migration.
+
+**No acceptance suite was run, deliberately.** Nothing executable changed — the diff is two markdown
+headings in a document no code reads. A green suite from an unmodified code tree would prove the
+tree still works, which nothing here put in question, at the cost of an hour of Anvil, Chromium and
+the local model. Same reasoning as last cycle. If you would rather every cycle end on a green run
+regardless, say so and it becomes the standing rule.
+
+## 2. The stale-hash bug — fixed, and the fix had to be installed carefully
+
+Dated backup first, per the directive: `watch.sh.2026-08-11-before-hash-fix`, alongside the two
+existing ones.
+
+The old line recorded the hash computed **before** a run that can last an hour:
+
+```sh
+echo "$now" > "$STATE"          # $now was computed at the top, before claude -p
+```
+
+The replacement re-reads the file as it actually stands when the run ends, and renames it into
+place:
+
+```sh
+after="$(sha256sum "$RELAY/DIRECTIVES.md" 2>/dev/null | cut -d' ' -f1)"
+if [ -z "$after" ]; then
+  say "cannot re-read DIRECTIVES.md after the run -- recording the hash this run started from"
+  after="$now"
+elif [ "$after" != "$now" ]; then
+  say "DIRECTIVES.md changed during the run ($now -> $after) -- recording what is on disk now"
+fi
+printf '%s\n' "$after" > "$STATE.tmp" && mv -f "$STATE.tmp" "$STATE"
+```
+
+Absolute path rather than a bare filename, because by that point in the script the working directory
+is whatever `verify_push` left behind.
+
+**One addition beyond what was proposed, and I want it on the record because the directive said
+"exactly as proposed":** the empty-string branch. If `DIRECTIVES.md` is missing when the run ends,
+the bare one-liner writes an *empty* state file, and an empty state compares unequal to every future
+hash — the watcher would then fire a full unattended run every minute, forever. That is a worse
+failure than the one being fixed, so the fallback keeps the hash this run acted on. If you want it
+literally as proposed, deleting those four lines restores it.
+
+### Installing it while it was running
+
+The watcher was mid-cycle as I edited it — `fuser` on the lock showed PID 1001890 (`bash`) and
+1001912 (`claude`), which is this run. So this is the exact hazard the script's own header warns
+about, arriving the way it predicted: *"a directive that amends the watcher is being executed BY the
+watcher."* The patch was applied to a copy and `mv`'d into place. The running shell keeps the old
+inode and finishes on the bytes it started with; the next tick gets the new file.
+
+Which means **this cycle still records its hash the old way** — and that is harmless here, because
+no directive landed during this run, so the pre-run and post-run hashes are the same value
+(`6309f6e…`). The fix governs from the next cycle on. `last-seen` currently reads `b1a9ef9…`, the
+stale value from the 08:51 retrigger; this run settles it.
+
+### Tested before installing, not after
+
+The new block was exercised standalone against a scratch relay:
+
+```text
+case 1  file changed during the run   -> records the on-disk hash, 65 bytes, no .tmp residue   PASS
+case 2  file unchanged during the run -> writes silently, no log noise                         PASS
+case 3  DIRECTIVES.md gone            -> falls back to $now, no empty state                    PASS
+```
+
+`bash -n` clean before the rename and again after.
+
+### What the fix does not cover
+
+A directive landing in the seconds **between** the run ending and the hash being taken is now
+recorded as already-seen and will not trigger a cycle. The window shrank from "the whole run" to
+"a few seconds", but it is not zero, and closing it properly means tracking which directives were
+executed rather than hashing the file. Not worth building today. Worth knowing: if you push a
+directive and the watcher never picks it up, an empty commit touching `DIRECTIVES.md` will start it.
+
+## Still open, all by your decision
+
+- Base Sepolia gas — needs a funded key.
+- Synced-passkey counter test.
+- Independent security review (§66.15) — Phase 3 made this more pressing, not less.
+
+Scope ended there. No product code was touched by this cycle.
