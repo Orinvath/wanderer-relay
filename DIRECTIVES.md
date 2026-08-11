@@ -245,3 +245,13 @@ Lonnie approved both:
 2. Fix the watcher stale-hash bug exactly as proposed: re-read DIRECTIVES.md after the run completes, written via temp file renamed into place. Dated backup of watch.sh first.
 
 Commit before changes, both trees. Report.
+
+## Directive 018 — Base Sepolia: real testnet anchoring
+
+Lonnie approved. Steps:
+
+1. Generate a fresh testnet keypair for the Genesis anchor role. Store the private key outside the repo (environment/local file per the existing key-handling pattern), marked NOT PRODUCTION. Report the public address in REPORTS.md — address only, never the key.
+2. Faucets need a human: report the address and the current working Base Sepolia faucet URL(s), then stop and wait for funding.
+3. After Lonnie confirms funding (next directive), run the real-network anchor check against Base Sepolia and add it to the suite as an explicitly network-dependent test that skips cleanly when offline — the local Anvil suite stays the deterministic core.
+
+Commit before changes. Report.
