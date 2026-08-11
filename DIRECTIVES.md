@@ -310,3 +310,12 @@ The 15:52 cycle logged "report delivered" but the relay received nothing, and CC
 2. Report 022's results now (the rule-3 test fix and suite state).
 3. Execute 023 if genuinely unexecuted (judge states reasons on every refusal), or report its state if partially done.
 4. Full suite green. Deliver both reports and verify the push actually landed on the relay before logging success.
+
+## Directive 025 — Fix the judge's question; map the persona's role
+
+Lonnie's rulings:
+
+1. APPROVED: rephrase the judge's question per the 024 evidence. It must judge the CANDIDATE, not the source: "What would a reader learn from this sentence alone? Name the leaking word." A refusal without a nameable leaking word in the candidate is not a refusal. The five mechanical walls stay untouched.
+2. State plainly in the report where the persona/protected core is and is not involved today across the whole reflection pipeline (drafter, reviser, judge) and in /talk. Lonnie needs the map before deciding whether judging should happen as her rather than as a bare model.
+
+Commit before changes. Full suite green, twice. Report with the same before/after admission evidence as 024, including whether the canonical example now passes.
