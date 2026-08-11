@@ -4445,3 +4445,111 @@ directive and the watcher never picks it up, an empty commit touching `DIRECTIVE
 - Independent security review (§66.15) — Phase 3 made this more pressing, not less.
 
 Scope ended there. No product code was touched by this cycle.
+
+---
+
+# Directive 018 — steps 1 and 2 DONE. Address below, waiting on funding
+
+018 landed on the relay at `c2c698b` **while this run was already working on 017** — which is the
+exact case 017's watcher fix exists for, arriving within the hour it was fixed. I had it in hand, it
+is bounded, and it stops on its own at the funding step, so I executed it rather than leaving it for
+the next cycle.
+
+Steps 1 and 2 are done. **Step 3 is not started** — it is explicitly gated on your confirmation of
+funding, in a next directive.
+
+## Commit before changes
+
+Relay clean at `d585fc1` (the 017 report, verified on origin). CC-Wanderer clean at `9c8103e`.
+Nothing to commit on their behalf.
+
+## 1. The Genesis anchor keypair
+
+```text
+PUBLIC ADDRESS   0x1F73b22BA384F8A558D8397583Ebd386068eFd17
+NETWORK          Base Sepolia, chain 84532 (0x14a34, confirmed live against sepolia.base.org)
+BALANCE NOW      0x0 — unfunded, which is what step 2 is about
+```
+
+Freshly generated, used for nothing else, and **NOT PRODUCTION** — stated in the file's own header
+as well as here.
+
+The private key is at `/home/nobara-user/.wanderer-keys/base-sepolia.env`, mode `0600` in a `0700`
+directory, **outside the repository** per §38 and Directive 010 §11.4. It is not in CC-Wanderer, not
+in the relay, and not in any file either repo tracks — `.gitignore` covering `.env` and `*.key` was
+not relied on, because a key that is only untracked is one `git add -f` from being permanent.
+
+**The key was never printed to stdout, deliberately.** The watcher appends this run's entire output
+to `watcher.log`, so anything I echo is written to disk in the clear and stays there. The generator
+wrote the key straight to its file and printed only the address; a separate check then re-derived
+the address from the saved file to prove the file is the key that matches — `0x1F73…Fd17`, checksum
+valid. The generator script was written inside CC-Wanderer only because `ethers` will not resolve
+from `/tmp`, and it was deleted in the same command; `git status` is clean, confirmed.
+
+It slots into the existing pattern with no code change — `ledger.js` already reads
+`WANDERER_CHAIN_KEY` and `WANDERER_RPC_URL` from the environment, and already refuses to run on a
+non-local chain without a key. Nothing in either repo was modified by this directive.
+
+```sh
+set -a; . /home/nobara-user/.wanderer-keys/base-sepolia.env; set +a
+```
+
+## 2. Faucets — this is your step, and it needs a browser and an account
+
+**Fund `0x1F73b22BA384F8A558D8397583Ebd386068eFd17` on Base Sepolia.** A Genesis attestation plus one
+anchor is far below 0.001 ETH; any single faucet drip is more than enough.
+
+Taken from Base's own canonical list (`docs.base.org/base-chain/tools/network-faucets`, fetched
+today) rather than from memory, and each URL probed just now:
+
+| Faucet | URL | Probe |
+|---|---|---|
+| Coinbase Developer Platform | `https://portal.cdp.coinbase.com/products/faucet` | 200 |
+| Alchemy (Base's linked one) | `https://basefaucet.com/` | 200 |
+| Chainstack | `https://faucet.chainstack.com/` | 200 |
+| QuickNode | `https://faucet.quicknode.com/drip` | 200 |
+| ethfaucet.com | `https://ethfaucet.com/networks/base` | 200 |
+| Bware Labs | `https://bwarelabs.com/faucets` | **530 — down right now** |
+
+**A 200 means the page answered, not that it will dispense.** I could not verify dispensing, and
+that is the honest limit of this check: every one of these gates on a human — a signed-in account,
+a captcha, and in several cases a minimum mainnet ETH balance on the connected wallet. That is
+precisely why the directive routes this to you.
+
+One process note: `WebSearch` was **denied** in this session, since the watcher runs with
+`--allowedTools Edit,Write,Bash` only. I used `curl` through Bash against Base's own documentation
+instead, which is a better source than a search result anyway. Flagging it because "current working
+URLs" implies a search, and this cycle could not do one. If you want future cycles to search, the
+watcher's `--allowedTools` list is where that is decided.
+
+## 3. Not started, by instruction
+
+The network-dependent anchor test waits for your word that the address is funded. When it comes:
+the test goes into the suite as explicitly network-dependent and skips cleanly when offline or
+unfunded, and the local Anvil suite stays the deterministic core. Directive 010 §11.1's identical
+production code path means this should be an RPC URL and a key, and no branch in the attestation
+path — 018 is the first time that claim gets tested against a chain we do not control.
+
+## One last redundant cycle is coming, and then they stop
+
+This run is executing on the **old** `watch.sh` — the fix was renamed into place mid-run, so the
+running shell holds the old inode by design. It will therefore record the hash from before 018
+arrived, and the next tick will see a difference and start a cycle over work already done. That
+cycle will read 018, find the key generated and the report filed, and settle the state file with the
+new code. **One wasted cycle, and it is the last of them.**
+
+Also cleared this cycle: the divergence that came with 018. My 017 report and your 018 commit were
+made against the same parent, so the push was rejected — `ahead 1, behind 1`. Rebased and pushed;
+`d585fc1` is on origin. Worth noting the watcher would **not** have recovered from that on its own:
+`verify_push` retries a push it cannot fast-forward, and the pull at the top of the next cycle is
+`--ff-only`. A directive arriving between a run's last commit and its push wedges the relay until a
+human rebases. Not fixing it unasked — but it is the same family of bug as the one 017 just closed,
+and it now has a name.
+
+## Still open, all by your decision
+
+- **Base Sepolia gas — now waiting specifically on you: fund the address above.**
+- Synced-passkey counter test.
+- Independent security review (§66.15).
+
+Scope ended there. No product code was touched by this cycle.
