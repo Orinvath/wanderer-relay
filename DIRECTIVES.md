@@ -222,3 +222,17 @@ TODO: file provisional before public launch. Not legal advice — confirm
 with an IP attorney.
 
 Commit before change. Queue behind any run in progress.
+
+## Directive 016 — Prior art note for spec section 70
+
+Append to spec section 70 (IP Protection), after the existing TODO line, exactly as written:
+
+PRIOR ART FOUND (Aug 2026 search): US Patent 12,483,411 (issued Nov 2025)
+covers blockchain-managed AI agent identity through life cycle including
+ownership transfer between users. Overlaps our custody/authentication
+layer. NOT covered by it: single scarce being, host-side memory that
+stays behind and reawakens on return, epoch/lease custody ritual.
+Provisional must claim the specific mechanism, not the broad idea.
+Hand this citation to the IP attorney.
+
+Commit before change. Queue behind any run in progress.
