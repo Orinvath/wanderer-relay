@@ -94,6 +94,98 @@ Scope ended here. Nothing else touched.
 
 ---
 
+## Directive 003 — Relay watcher — DONE, BACKFILLED 2026-08-10 (Directive 011)
+
+**This entry was written seven directives late, and that is the first thing it has to report.**
+Directive 003 step 5 asked for the setup result and one full automated cycle test in this file. No
+such entry was ever written, because the two runs that could have written it had no permission to
+write anything — the same failure Directive 004 hit and the reason 004b existed. By the time writes
+worked, the cycle had moved on and nobody went back. Directive 011 says go back.
+
+It is therefore **reconstructed from artefacts rather than remembered**: file mtimes, the units
+themselves, `watcher.log`, `~/.bash_history`, the systemd journal, and the session transcript at
+`~/.claude/projects/-home-nobara-user/32dcd1af-….jsonl`. Every claim below has one of those behind
+it. Where the record does not say why something was done, this entry says so rather than supplying a
+reason after the fact.
+
+### What happened, in order
+
+All times local (PDT, UTC-7) on 2026-08-10.
+
+| time | what | evidence |
+|---|---|---|
+| 13:31 | Directive 003 lands in the relay (`0855f6d`) | git |
+| ~13:35 | **Step 3 first: headless CLI verified.** `claude -p` returns cleanly | transcript, 20:35Z |
+| 13:35 | `watch.sh` written | file-history v1, 20:35Z |
+| 13:35:38 | **Installing the timer is DENIED** by the permission classifier | transcript, 20:35:38Z |
+| 13:35:54 | Stops and reports the block: *"blocked, and I'm not going to route around it"* | transcript |
+| 13:37 | On Lonnie's instruction — *"Write the two unit files as plain files. Do not enable anything."* — both units written, each carrying a NOT ENABLED header and its own install command | file mtimes, unit text |
+| 13:40:19 | **Lonnie installs and enables it by hand**: `cp …{service,timer} ~/.config/systemd/user/` then `systemctl --user enable --now relay-watcher.timer` | `~/.bash_history` 988–991 |
+| 13:40:20 | `Started relay-watcher.timer — Check the Wanderer relay every 60 seconds` | systemd journal |
+| 13:40:20 | First automated run fires, sees `none -> d8b24c1…`, launches Claude | `watcher.log` line 1 |
+| 13:42:38 | That run reports it **could not execute 003 at all** — sandboxed to the relay directory, `Edit` on REPORTS.md denied — and exits **status 0** | `watcher.log` |
+| 13:42:39 | Next run picks up Directive 004, proves the provenance chain, and is blocked at the same wall; correctly names the cause as plain `claude -p` in `watch.sh` with no permission flags | `watcher.log` |
+| 13:53 | Lonnie: *"Authorized: … `--permission-mode acceptEdits --allowedTools "Edit,Write,Bash" --add-dir /home/nobara-user`. This is my deliberate decision."* | transcript, 20:53Z |
+| 13:55 | Flags added; previous version kept as `watch.sh.before-permissions` | transcript, file |
+| 14:05:36 | **The full cycle closes unattended** — timer → watcher → Claude → REPORTS.md → commit | the Directive 004 entry below |
+
+### The setup, as it stands
+
+```text
+/home/nobara-user/relay-watcher/watch.sh                    the watcher
+/home/nobara-user/relay-watcher/last-seen                   state: sha256 of DIRECTIVES.md
+/home/nobara-user/relay-watcher/watcher.log                 every run
+/home/nobara-user/relay-watcher/running.lock                flock, one run at a time
+~/.config/systemd/user/relay-watcher.{service,timer}        enabled, running
+```
+
+Each run: `git pull --ff-only` the relay; hash `DIRECTIVES.md`; if unchanged, exit silently so the
+log stays readable; if changed, log the transition and hand the newest directive to `claude -p`.
+The state file is written **after** the run, so a crash leaves the directive to be picked up again
+rather than silently skipped. `flock -n` means a directive that outlives the interval is not started
+twice — the run that skips says so in the log.
+
+### Four deviations from the directive as written
+
+**1. The interval is 60 seconds, not 5 minutes.** Step 1 said every 5 minutes. `watch.sh` said
+"every minute" from its first version and the timer shipped `OnBootSec=60 / OnUnitActiveSec=60`.
+The record contains no reason, so I am not inventing one. It is safe rather than merely faster:
+`OnUnitActiveSec` measures from the end of the last run, so a ten-minute directive does not queue
+nine runs behind it, and the lock catches anything that slips past. **It has never been reported
+until this line.**
+
+**2. It fires on the file's content hash, not the repo's commit hash.** Step 1 said "track
+last-seen commit hash in a state file". Hashing the commit would mean the run's *own* report commit
+to REPORTS.md retriggers the watcher, which loops forever. Hashing `DIRECTIVES.md` itself was the
+deliberate fix and is documented in the script.
+
+**3. Step 2 — "enabled and started" — was not done by Claude.** The permission classifier refused
+to let a session stand up a persistent service that auto-executes instructions fetched from a remote
+repository. Per step 3's rule the block was reported, not routed around; Lonnie installed and
+enabled it by hand three minutes later. **What the automated loop does was never in doubt and is
+worth restating: text pushed to a GitHub repository is executed on this machine, unattended, as this
+user, with `Edit,Write,Bash` and the whole home directory in scope. Lonnie was told that, twice,
+and chose it deliberately on 2026-08-10.** That sentence is in `watch.sh` for whoever reads it next.
+
+**4. Step 4's commit-before-change rule has nothing to commit to here.** `relay-watcher/` is not a
+git repository. It is honoured with named copies instead — `watch.sh.before-permissions`, and later
+`watch.sh.2026-08-10-before-push-check` under Directive 009.
+
+### What this backfill does not do
+
+It does not re-run the cycle test. The cycle test Directive 003 asked for was performed and is
+already in this file — the Directive 004 entry immediately below, timestamped 14:05:36, with the
+process tree that proves the run was the watcher's rather than a person's. Reproducing it here
+would be a second copy of the same evidence.
+
+It also does not carry the watcher's later history: the delivery failure and the `verify_push` fix
+are Directive 009's, and are reported there. Read in order, 003 → 009 is the whole story of this
+loop — and the shape of the first failure is the one worth keeping: **a run that did nothing and
+exited 0.**
+
+
+---
+
 ## Directive 004 — Automated cycle proof — DONE
 
 Directive 004 executed via watcher — 2026-08-10T21:05:36Z (14:05:36 local, UTC-7).
@@ -2540,3 +2632,114 @@ validators. What the suite proves is the contracts, the SDK, and our use of both
 - **Base Sepolia gas** — unmeasured, per Deviation 2.
 - **Directive 003's own report** — still absent from this file, as noted in the 004b and 009 cycles.
   Say the word and I will backfill it.
+
+
+---
+
+# Directive 011 — Journey numbers are public; loose ends closed — DONE
+
+All five steps done. **Phase 0 16 + Phase 1 39 + Phase 2 34 = 89 passed, 0 failed, exit 0**, every
+Phase 2 line against the real EAS contracts on a real local chain.
+
+Step 1, stated because the rule is a failsafe and silence about it is the wrong kind of quiet: both
+trees were clean at the start of this cycle, so **commit-before-change had nothing to commit**. The
+last commits in each were the Directive 010 pair, already on origin.
+
+---
+
+## 1. The viewer now names journey numbers
+
+You settled it on the spec rather than on my reading of it, and the spec is unambiguous. §34: *"Every
+successful custody period receives a Journey/Host number… Host 1,847 of W-001… This number becomes
+part of the story of the encounter. It should not reveal the host's identity unless the host chooses
+to do so."*
+
+That sentence divides the world exactly where §11.3's "counts only" blurred it. The **number** is
+public story. The **identity** is the host's to give. I had been treating the number as a proxy for
+the identity, which §34 does not, and the cost of my reading was a page that could not tell the
+story the object exists to tell.
+
+What changed is only the rendering. The `Journey` column is new; every epoch held by somebody reads
+`Host 1,846`, `Host 1,847`, and every epoch held by nobody — genesis, and each one opened by a
+release or an expiry — reads an em dash, because a zero would be a claim rather than an absence. The
+summary line reads `1,847 in total; held now by Host 1,847`. Numbers are formatted the way §34 writes
+them, separator included.
+
+**Nothing moved onto the ledger and nothing moved into the public record.** `host_number` was never
+in an attestation and still is not: the epoch schema in `ledger.js` is unchanged, `publicRecord()` is
+byte-for-byte the same JSON it served yesterday, and no re-mint was needed or performed, as you said.
+The only file that changed behaviour is `viewer.js`. The two comments that told the old story — one
+in `viewer.js`, one over `publicRecord()` — were rewritten rather than left to mislead the next
+reader into re-hiding the numbers.
+
+**The tension reported at the end of the Directive 010 cycle is closed, and closed the other way
+round from how I framed it.** I said the feed carrying `host_number` conflicted with "counts only"
+and that resolving it meant removing the field from the signature and re-minting. On §34's terms
+there was never a conflict: the feed is correct, the signature is correct, and the viewer was the
+part that was wrong. The cheap fix was the right one.
+
+### The three acceptance lines
+
+The old line 29 asserted the opposite of what is now true, so it is gone rather than weakened —
+a test kept alive by loosening it is worse than no test:
+
+```text
+29  The viewer shows journey numbers, in SS34's words          ✓ 1 journey number(s) named on the page, e.g. "Host 1 of W-001"
+30  A journey number is written the way SS34 writes it         ✓ the page says "Host 1,847", not "Host 1847"
+31  ...and still names no host: number is not identity (SS34)  ✓ 4 private values checked against 3023 bytes of rendered page
+```
+
+Line 31 is the one that matters in a year. Numbers are now on a public page, and the invariant that
+must never rot is that nothing beside them identifies anyone: it checks the rendered HTML against
+the private key, the state salt, the account id and the `acct_` prefix, and against the words
+*account*, *credential* and *passkey*. Line 30 exists because W-001 has had one host, so §34's own
+separator would otherwise go untested until its thousandth — the record is copied, given host 1,847,
+and re-rendered.
+
+The §4.3 regression line (23) already scanned the rendered viewer HTML for content hashes over
+host-authored text; it still finds zero, with the new column in place.
+
+---
+
+## 2. Directive 003's report, backfilled
+
+It is in this file now, in its chronological place between 002 and 004, marked as backfilled.
+
+It is **reconstructed from artefacts, not remembered**, and says so in its first paragraph: file
+mtimes, the unit files, `watcher.log`, `~/.bash_history`, the systemd journal, and the session
+transcript. I would rather it be visibly late than quietly indistinguishable from one written on the
+day.
+
+Three things in it were never in this file before:
+
+- **The interval is 60 seconds. The directive said 5 minutes.** Nine months of "the 5-minute
+  watcher" would have been wrong in every conversation about it. The record contains no reason for
+  the change, so the entry says that rather than supplying one.
+- **The change detector hashes the file's content, not the repo's commit** — deliberately, because
+  hashing the commit would let the run's own report retrigger the watcher forever. The directive
+  asked for the commit hash.
+- **Claude did not enable the timer.** The permission classifier refused to let a session stand up a
+  service that auto-executes instructions fetched from a remote repository; the block was reported
+  rather than worked around, and you installed and enabled it by hand three minutes later
+  (`~/.bash_history` 988–991, journal 13:40:20). Your two authorising decisions are quoted verbatim
+  from the transcript, with times, in the place someone will look for them.
+
+The cycle test 003 asked for is not re-run: it was performed, and it is the Directive 004 entry
+sitting directly beneath the backfill, process tree and all. A second copy would not be more true.
+
+---
+
+## 3. What this cycle did not touch
+
+Open by your decision, unchanged, and listed so none of them can drift into looking done:
+
+- **Base Sepolia gas** — needs a funded testnet key.
+- **The synced-passkey counter rule** — untestable against a real authenticator, still untested, and
+  still printed as a DEVIATION on every run so it cannot go quiet.
+- **Independent security review (§66.15)** — outstanding, and Phase 2 made it more necessary rather
+  than less.
+
+Nothing else was changed. `STATE_COMMIT` and `RETIREMENT` remain unimplemented (§11.6), the Living
+Mark remains a placeholder that says so (§11.5), and the viewer is still not the Passport.
+
+Scope ended there.
