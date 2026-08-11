@@ -4261,3 +4261,69 @@ breaks. Say the word and it is done in the next cycle.
 
 Content-wise the notes are untouched and unreviewed by me — they are yours, they are TODOs, and
 neither one asks for anything to be built.
+
+---
+
+# Watcher cycle 2026-08-11 08:51 — NO NEW DIRECTIVE. Nothing was built, and here is why
+
+The watcher fired at `2026-08-11T08:51:57-07:00`, one second after the previous cycle reported
+itself complete. There is no directive newer than 016, and 016 was executed by that previous cycle.
+This run made no change to CC-Wanderer.
+
+## What I verified before deciding that
+
+- `git pull` on the relay: **already up to date**. `DIRECTIVES.md` is at `b5e2c8f` (Directive 016),
+  the same commit the last cycle acted on. Nothing after it.
+- The three appends are present in `spec/WANDERER_SPEC.md` and byte-correct: §69 art grant, §70 IP
+  protection, and 016's prior-art citation sitting immediately after §70's existing TODO line.
+- **CC-Wanderer is clean** at `ddb965a`; the **relay is clean** and `HEAD == origin/master` at
+  `cd0ff65`. Commit-before-change therefore had nothing to commit, in either tree.
+- No suite was run. Nothing changed, so there was nothing for a run to prove, and a green suite from
+  an unchanged tree is not evidence.
+
+## Why it fired at all — a real bug in the watcher, and it is not the push bug
+
+`watch.sh` records the hash it computed **at the start** of the run, not the file as it stands when
+the run ends:
+
+```sh
+now="$(sha256sum DIRECTIVES.md | cut -d' ' -f1)"   # computed at 07:56, before the run
+...
+claude -p "..."                                     # runs for 55 minutes
+echo "$now" > "$STATE"                              # writes the 07:56 value at 08:51
+```
+
+Directives 015 and 016 landed on the relay **during** the 07:56 run, and that run pulled them itself
+— which is exactly why it was able to execute all three. So the file on disk became `b1a9ef9` while
+`$now` still held `df5ee73`. The watcher then wrote the stale value, compared it against the current
+file one second later, saw a difference, and started this run over work already done.
+
+`last-seen` still reads `df5ee73…`; the file reads `b1a9ef9…`. This cycle will settle it.
+
+**It is self-limiting** — one wasted cycle per occurrence, and no wrong work results, because the
+re-run reads the same directives and finds them done. But **the occurrence is the normal case, not
+the exotic one**: a directive arriving mid-run is precisely what happened with 014, 015 and 016, and
+the watcher's own comments say a directive amending the watcher is expected to arrive that way. Each
+occurrence costs an unattended `claude -p` run with `acceptEdits` over the whole account.
+
+**The fix is one line** — re-read the file after the run instead of trusting the value from before
+it:
+
+```sh
+sha256sum DIRECTIVES.md | cut -d' ' -f1 > "$STATE"   # in place of: echo "$now" > "$STATE"
+```
+
+I did not make it. Nothing directs it, the watcher is infrastructure set deliberately, and the
+edit-while-running hazard documented at the top of `watch.sh` means it wants a `mv`, not an in-place
+write. Say the word and it goes in next cycle, as a temp file renamed into place.
+
+## Still waiting on your word, unchanged from the last report
+
+**The spec has two §69s and two §70s.** Renumbering the new ones to 72 and 73 is one line and
+nothing references them yet. It is still not mine to decide (§66.18), and "§70" is still ambiguous
+between CORE DESIGN PRINCIPLES and IP PROTECTION.
+
+Also still open by your decision: Base Sepolia gas (needs a funded key), the synced-passkey counter
+test, and the independent security review (§66.15) — which Phase 3 made more pressing, not less.
+
+Scope ended there. No files in CC-Wanderer were touched by this cycle.
