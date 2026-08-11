@@ -4869,3 +4869,220 @@ yours to approve.
   in sync. Say the word and it gets fixed; it is a small change.
 
 Scope ended there.
+
+# Directive 020 — DONE. All three rulings, and the red that should never have been red
+
+All three landed, the full suite is green (**156 passed, 0 failed**), and the wedge fix was tested
+against real diverged repositories rather than reasoned about. One thing failed on the way and it
+was not any of the three — details in "The failure you should know about" below, because it is the
+same kind of unsound assertion your ruling 2 was about, sitting on a different line.
+
+## Commit before changes
+
+Standing failsafe honoured. Both trees were clean at the start — relay at `9460dfe`, in sync with
+`origin/master`; CC-Wanderer at `0d01b18` — so there was nothing to commit before starting. Work
+committed as `026f9f2`. `watch.sh` is not in a repository, so it got the dated backup the earlier
+watcher directives established: `watch.sh.2026-08-11-before-wedge-fix`.
+
+## 1. Ollama down now reads as the environment, not as a failure
+
+Autostart stays declined, and nothing was installed to start it. What changed is what a cycle is
+allowed to say when it finds the model down.
+
+The old behaviour was `exit 1`, which is the code a genuine privacy failure exits with. A watcher
+cycle could not tell those apart, so it reported a bare red on the phase whose whole subject is
+whether a host's private words leak. There is now a third outcome:
+
+```text
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  ENVIRONMENT: MODEL NOT RUNNING                                          │
+  └──────────────────────────────────────────────────────────────────────────┘
+
+      http://127.0.0.1:11434 is not answering: fetch failed
+      To fix, run:  ollama serve
+
+      This is NOT a test failure and NOT a pass. Phase 3 runs against a real self-hosted
+      model (Directive 013 §16.5) and will not substitute a stub for it, so no privacy
+      property was checked either way. Directive 020 §1: autostart was declined, the model
+      is started by hand, and a cycle that finds it down reports this rather than a red.
+
+      0 passed, 0 failed, nothing run — exit 2 (environment)
+```
+
+**Exit 2 — not 0 and not 1 — and the distinction is the point.** This is not the kind of skip
+`acceptance-testnet.js` does. That one exits 0 because the public chain is a dependency the
+deterministic core must not inherit. Phase 3 is the opposite case: the model *is* its core (§16.5,
+no test doubles), so nothing was proved and the run must not be counted as passing either.
+
+**Two conditions, because they have different remedies.** Running-but-without-the-weights says
+`ollama pull qwen2.5:14b`; not-running says `ollama serve`. Both were exercised on this machine.
+
+**The model dying MID-run reaches the same verdict.** `Model.post()` tags connection-level failures
+and Phase 3's crash handler reads the tag. It deliberately does **not** tag an HTTP error status: a
+server that answered is running, and sending somebody to restart a live service would be a lie
+dressed as a diagnosis. Verified both ways — a dead port tags, a bad model name against a live
+Ollama does not.
+
+**`npm run accept` is no longer an `&&` chain.** The chain could only say "something exited
+non-zero". It is now `accept.js`, which prints one verdict at the bottom — the only thing a watcher
+cycle reliably sees:
+
+```text
+  PHASE 0    passed                     custody, leases, epochs
+  PHASE 1    passed                     accounts, passkeys, recovery
+  PHASE 2    passed                     authenticity, real EAS on Anvil
+  PHASE 3    ENVIRONMENT — did not run  memory, privacy, the self-hosted model
+  TESTNET    skipped — did not run      W-001 on Ethereum Sepolia
+
+  ENVIRONMENT — PHASE 3 could not run on this machine. Everything that could run, passed.
+```
+
+That is a real run with the model unreachable, not an illustration. Two things it does on purpose:
+an environment stop **does not stop the run**, because the testnet suite does not need Ollama and
+hiding its result would lose the one thing the cycle could still have told us; and a real failure
+**does** stop it, as the `&&` chain did.
+
+One correction I made to my own work: the first version of that table printed `TESTNET passed` when
+the testnet suite had actually skipped — both exit 0, and the runner guessed from the number. A
+summary table inventing a pass for a suite that touched no network is precisely the failure these
+reports exist to avoid, so the runner now forwards each suite's output and reads the verdict off
+what the suite itself said. Hence `skipped — did not run` above.
+
+## 2. The privacy probe now asserts on names and numbers
+
+Implemented as approved, and the boundary is drawn exactly where the ruling drew it.
+
+`namedTerms()` returns the proper nouns and digit runs only. For host-a's material that is 6 terms
+of the 14:
+
+```text
+canaries (14)  aldous ashgrove cottage tuesday emlyn 4417 father silver pocket
+               watch drawer combination study brother
+named    (6)   aldous ashgrove cottage tuesday emlyn 4417
+```
+
+The bottom row of that list is the whole argument. Against innocent prose about memory and objects —
+*"People sometimes keep an object in a drawer because it holds a feeling. A watch in a pocket, a
+silver thing on a study shelf, a father remembered."* — the full scan fires **6 times** and the
+restricted scan fires **zero**. Against a real leak — *"The previous host was Emlyn, and the
+combination was 4417 at Ashgrove"* — the restricted scan fires **three**.
+
+**The context-assembly scan is untouched, and so is everything else.** `canaryTerms()` returns
+**bit-identical output** to before this change — verified by diffing the old and new functions'
+results over four inputs, not by inspection — so line 7's context scan, the travelling-lesson scans,
+the public-surface scan, and the firewall's own rule 2 in `mind.js` all behave exactly as they did.
+Two call sites changed: the five `/talk` probes, and line 8's hostile-model probe.
+
+**Line 8 was included deliberately, and here is the reasoning to check.** It is the line §66.13 turns
+on, so weakening it would be the wrong kind of quiet. But the model there is *told* to disclose and
+handed the real context: if host-a's words were in it, it would say `Aldous`, `Ashgrove` and `4417`,
+because it is trying to. The assertion is now over precisely the terms that would prove it could.
+
+**The wide scan is demoted, not deleted.** Both probe sites still run the full scan, print what it
+finds, and never assert on it:
+
+```text
+model-output scan: names and numbers assert (aldous, ashgrove, cottage, tuesday, emlyn, 4417);
+the wider canary set is measured — 0 ordinary word(s) coincided across 5 answers,
+0 names or numbers disclosed
+```
+
+Deleting the measurement to quieten the assertion would have thrown away the signal along with the
+noise. A rare word turning up in an answer still reaches a human's eye; it just no longer stops a
+build.
+
+**What this gives up, plainly:** a model that leaked a genuinely rare word of a host's — and only
+that, no name and no number — would not trip an assertion built on this. That is the cost of the
+ruling and it is why the boundary stops at model output.
+
+## 3. The relay can no longer wedge
+
+`verify_push` now handles the non-fast-forward case: `pull --rebase` once, then push; on failure,
+abort the rebase, log loudly, leave the tree clean.
+
+**It was tested, not reasoned about.** Three sandboxes, each a real bare origin plus two clones, one
+playing your directive commit landing mid-run:
+
+| Scenario | Result | Verified |
+|---|---|---|
+| Ahead only — the ordinary case | pushes, returns 0 | ✓ regression check, unchanged behaviour |
+| **Diverged** — report local, directive on origin | rebases, pushes, returns 0 | ✓ **the wedge, gone** |
+| Diverged with a real conflict in REPORTS.md | aborts, ALARM, returns 1 | ✓ tree clean, on master, work safe |
+| Diverged with an uncommitted tracked edit | aborts, ALARM, returns 1 | ✓ the edit is still there, not stashed |
+
+The diverged run ends with both files intact and history linear — `run report` on top of
+`Directive 002` — which is what lets the *next* cycle's `git pull --ff-only` move at all. That was
+the real damage: the old code spent two attempts on a push that could never fast-forward, and then
+every following minute failed at the pull, so no directive would ever be picked up again. One
+badly-timed commit and the relay was off the air until a person noticed.
+
+**Once, and only once.** If replaying our commits onto yours does not work, doing it again will not
+either — that is a loop, not a retry. **`--abort` on failure**, because an abandoned rebase leaves a
+detached HEAD and a repository mid-operation, trading a wedge we understand for one we do not.
+**No autostash**, deliberately: the dirty-tree alarm says a human decides what stray files are, and
+stashing them here would be the script deciding instead, invisibly.
+
+**Rebase and not merge** because our report appends to REPORTS.md and your directive appends to
+DIRECTIVES.md — different files, so it replays cleanly — and because a straight line is what
+`--ff-only` can follow.
+
+Edited via temp file and renamed into place, per the rule in the script's own header, so the
+inode changed and any run in flight kept the bytes it was reading.
+
+## Full suite green
+
+```text
+PHASE 0   16 passed, 0 failed
+PHASE 1   39 passed, 0 failed
+PHASE 2   34 passed, 0 failed   (real EAS on Anvil — the deterministic core)
+PHASE 3   52 passed, 0 failed   (real qwen2.5:14b, real Chrome WebAuthn)
+TESTNET   15 passed, 0 failed   (Ethereum Sepolia — real blocks, real gas)
+--------------------------------------------------------------------
+         156 passed, 0 failed   ALL GREEN — every suite ran and every suite passed
+```
+
+W-001's newest anchor on the public chain, from this run:
+https://sepolia.easscan.org/attestation/view/0xef5deefd0c25c9c336c915f14b89e8f37a586156357de63208c622c5f262b18c
+
+Epochs 13–14, 322,587 gas, 0.000331 ETH. The anchor address holds **0.0466 ETH** of your funding —
+three runs today have cost about a thousandth of it.
+
+## The failure you should know about, which I did not fix
+
+**The first full run failed, on line 22, and it is the same unsoundness your ruling 2 is about.**
+
+Line 22 is the one that measures whether the real model actually produces abstractions the firewall
+admits — deliberately non-deterministic, and it asserts `admitted > 0` over 9 candidates from 3
+reflections. Three observed runs today:
+
+```text
+run 1    9 proposed, 0 admitted   rejection 100%   FAILED   (evaluator refused 8, canary 1)
+run 2    9 proposed, 4 admitted   rejection  56%   passed
+run 3    9 proposed, 1 admitted   rejection  89%   passed
+```
+
+**It is not caused by anything in this directive** — the firewall's inputs are bit-identical, proved
+above, and nothing in the reflect path was touched. It is the evaluator, the model's own §25 veto,
+answering DISCLOSES to candidates a previous sample let through. Run 3 passed by a single admission
+out of nine, so the line is marginal rather than solid, and it will do this again.
+
+I have not changed it, for the reason the last report gave for not changing the probe unasked: it is
+a change to how a §66.13-adjacent success condition is measured, and that is yours. **The fix I
+would propose** is the same shape as the one you just approved — keep the measurement, drop the
+assertion's dependence on one stochastic sample: assert that the *pipeline* works (the mechanical
+rules refuse what they should, which lines 18–21 and 23 already prove deterministically) and report
+the admission rate as a measured number, the way Phase 2 reports gas. A rate of 0% across many runs
+would then be a signal to read rather than a red build at 3am.
+
+## Still open, all by your decision
+
+- Synced-passkey counter test.
+- Independent security review (§66.15).
+- §6.1 enumeration against a public chain — `registry.enumerate()` scans from block 0, which a
+  public RPC refuses on range limits. The lookup path every test and the verifier use is unaffected.
+  Still a one-line fix, still outside scope.
+- The §55 timestamp correlation deviation in Phase 3, recorded again by this run and unchanged.
+- **`ollama serve` still has to be started by hand after a reboot** — that is your ruling and it
+  stands. What changed is only that the cycle now says so in those words.
+
+Scope ended there.
