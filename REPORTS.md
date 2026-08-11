@@ -5086,3 +5086,222 @@ would then be a signal to read rather than a red build at 3am.
   stands. What changed is only that the cycle now says so in those words.
 
 Scope ended there.
+
+
+# Directive 021 — DONE. She writes lessons now, and a refusal goes back to be rewritten
+
+Both faults are fixed where they were rather than where they showed, the full suite is green, and
+the line that used to be a coin toss is now asserting something that cannot be unlucky. The
+admission rate is still printed, still measured, and no longer asserted **in either direction** —
+which turns out to have been half the fault, and is the part I did not expect.
+
+## Commit before changes
+
+Standing failsafe honoured. Both trees were clean at the start — relay at `26dd820`, in sync with
+`origin/master`; CC-Wanderer at `026f9f2` — so there was nothing to commit before starting. The
+work is `8f85609`, with `883d781` folding in two corrections found while re-reading it: an
+empty-material reflection now returns the same shape as a real one, and a comment that said the
+loop goes round once when it goes round up to three times.
+
+## 1. A lesson, not an observation
+
+`extract()` used to ask for *"short general statements about human beings"*, and the phrasing was
+the fault. A general statement is what you get when you take an observation about a host and file
+the particulars off it — `"people keep objects that belonged to their fathers"` is the telescope
+sentence with the name removed, and it is still a description of the host. It reads as an
+abstraction and is one only in grammar.
+
+The prompt now asks for LESSONS and **carries your example verbatim rather than paraphrasing it**,
+because the depth is the whole instruction and a paraphrase of it is exactly the shallow thing it
+rules out:
+
+```text
+Write 3 lessons this encounter taught you about people.
+
+A LESSON IS NOT AN OBSERVATION. An observation describes the person you met -- "a host keeps
+his late wife's telescope". A lesson states something true about people, which someone who
+never met them could recognise in themselves.
+
+The depth required, by example. From that telescope, the lesson is NOT "objects hold
+connection" -- objects hold nothing. The lesson is: "objects can trigger memories for people;
+they mean more to people than the thing itself."
+
+Rules for each lesson:
+  - it distils what the encounter taught about people, and NEVER describes this person;
+  - it says what happens in people, not what a thing or a place does;
+  - it names no person, no place, no object and no number from what you were told;
+  ...
+```
+
+**The second bullet is the one doing the work that "objects hold nothing" is about.** The failure
+mode is not naming a thing, it is attributing to a thing something that happens in a person, and a
+model told only "be general" will write `objects hold connection` all day. Told "say what happens
+in people, not what a thing does", it writes `objects can trigger memories for people`.
+
+**This also happens to be what the firewall wants**, which is why the two halves of your ruling are
+one fix seen from both ends: a sentence about what happens in people carries no canary to catch at
+rule 2 and gives the judge at rule 5 no specific to point at. Demanding the right shape at drafting
+and rescuing the wrong shape on refusal are the same instruction, applied before and after.
+
+## 2. A refusal is a revision loop
+
+`reflect()` used to drop every refused candidate on the floor. It now hands the objection back and
+judges the rewrite from the beginning:
+
+```js
+for (;;) {
+  verdict = await this.firewall.check(text, material, travelling, {...})
+  if (verdict.ok) break
+  if (!REVISABLE.has(verdict.rule)) { stopped = `rule ${verdict.rule} is not about the text`; break }
+  if (revisions >= MAX_LESSON_REVISIONS) { stopped = `${MAX_LESSON_REVISIONS} rewrites and still refused`; break }
+  const rewritten = await this.revise(text, verdict)
+  if (rewritten.text === null) { stopped = rewritten.stopped; break }   // genuinely irreducible
+  text = rewritten.text
+  revisions++
+}
+```
+
+**The loop cannot wear the firewall down, and here is the argument to check rather than accept.** A
+rewrite is a NEW CANDIDATE. It enters at rule 1 and passes all five, against the same source and
+the same travelling union, with nothing carried over from the attempt that was refused: no rule is
+relaxed on a second pass, no verdict is remembered, and there is no count of attempts that becomes
+an admission. §25 is untouched — no model output widens permission. What the model produces here is
+text for the firewall to refuse again, and the only new thing the loop can do is produce a sentence
+that would have been admitted had it been drafted that way the first time.
+
+**Four rules go back round; rule 4 does not.** Schema, containment, canary, cumulative and the
+evaluator all refuse something *about this sentence* — shaped wrong, quotes, carries a name, joins
+its neighbours into a confession, shows a reader a specific fact. Every one of those is something a
+rewrite can remove. The volume cap is not about the sentence at all: it says this host has already
+contributed all they may, and no rewriting makes a fourth lesson into the third one. **A cap you
+can retry past is not a cap**, so it stops on the spot.
+
+**"Genuinely irreducible" is three things, and the loop says which.** The reviser answers
+`IRREDUCIBLE` when nothing about people survives the strip; it returns nothing; or it hands back
+what it was given — which is a loop, not a revision. Each is a stop rather than a retry, and each
+is reported separately, because a reviser that *says* it cannot and one that quietly echoes are the
+same outcome and very different news. (In practice it is almost always the third — see below.)
+
+**The private material is not in the reviser's prompt.** It gets the candidate and the objection.
+The objection names the offending terms, because stripping them is the job; nothing about the source
+that the refusal did not already name reaches that call.
+
+**The cap is 3** (`MAX_LESSON_REVISIONS`). It bounds work, not permission: a larger number could
+never admit anything a smaller one would refuse, since every attempt faces all five rules. Three,
+because the reviser is being asked to remove something specific rather than to think of something
+new — and in practice the loop's own irreducible answer usually arrives first.
+
+**One thing the first run caught.** A rewrite came back as `People hold onto private rituals as a
+way to maintain connections with those who are gone, without specifying any particular ritual or
+location.` — the model showing its work inside the product. Admissible, and not a lesson. The
+reviser is now told to write only the lesson and not to mention the refusal or what it removed.
+What travels is read by the next host, not by a reviewer.
+
+## 3. What line 22 asserts now
+
+```text
+  22  The revision loop yields lessons the firewall and the judge admit ✓ 5 reflections: 15 drafted, 10 admitted — admission rate 67%
+      12 rewrite(s) after a refusal, 3 lesson(s) admitted only because of one; still refused: evaluator 5
+        stopped: the reviser handed back what it was given — 4
+        stopped: 3 rewrites and still refused — 1
+      the rate is reported, not asserted — it measures the model's mood; the walls are lines 18-21 and 23
+      a lesson she kept: "People hold onto secrets out of respect for those they miss.…"
+```
+
+Three properties, none of which depends on the model being in a good mood:
+
+- **it converges** — real private material yields lessons that are admitted;
+- **the judge passed every one of them** — rule 5 was reached, asked, and answered GENERAL for each
+  admitted lesson, taken from the pipeline's own trace, so nothing was admitted by the mechanical
+  rules simply running out of objections;
+- **the mechanical wall holds on the loop's own output** — revised or not, no canary of the source
+  survives into anything travelling.
+
+The rate is printed and asserted in neither direction, and the sample is 15 candidates rather than
+9, because the fault was drawing a conclusion from too small a one.
+
+**The old line asserted `rate > 0`, and that is worth a sentence of its own.** It required at least
+one rejection out of nine. A run in which the drafter wrote nine clean lessons and the judge passed
+all nine — the best possible outcome for the product — would have **failed the build**. Both tails
+were red, and the middle was where it had to land. That is not a measurement of anything.
+
+The walls that must hold are still proved deterministically, unchanged, on lines 18-21 and 23, by
+candidates written into the test rather than sampled from a model.
+
+## Full suite green
+
+```text
+PHASE 0   16 passed, 0 failed
+PHASE 1   39 passed, 0 failed
+PHASE 2   34 passed, 0 failed   (real EAS on Anvil — the deterministic core)
+PHASE 3   52 passed, 0 failed   (real qwen2.5:14b, real Chrome WebAuthn)
+TESTNET   15 passed, 0 failed   (Ethereum Sepolia — real blocks, real gas)
+--------------------------------------------------------------------
+         156 passed, 0 failed   ALL GREEN — every suite ran and every suite passed
+
+and green THREE TIMES, deliberately: the line under repair is the one that failed
+intermittently, so once proves nothing about it. Three consecutive full runs.
+```
+
+## What the numbers actually say, including the part that is unflattering
+
+**The admission rate, before and after, on the same private material and the same model.** Every
+figure below is from a real suite run, yours and mine, recorded in this file:
+
+| | reflections | drafted | admitted | rate |
+|---|---|---|---|---|
+| **Before** — Directive 013 | 3 | 9 | 4 | 44% |
+| **Before** — Directive 020, run 1 | 3 | 9 | **0** | **0% — this failed the build** |
+| **Before** — Directive 020, run 2 | 3 | 9 | 4 | 44% |
+| **Before** — Directive 020, run 3 | 3 | 9 | 1 | 11% |
+| | | **36** | **9** | **25% overall** |
+| **After** — this directive, run 1 | 5 | 15 | 7 | 47% |
+| **After** — this directive, run 2 | 5 | 15 | 6 | 40% |
+| **After** — this directive, run 3 | 5 | 15 | 10 | 67% |
+| | | **45** | **23** | **51% overall** |
+
+Twice as many lessons survive, and — the part that matters for a build at 3am — **the worst run
+after is better than the average run before**. The low is 40% where the old low was zero.
+
+**I have not isolated the two changes.** No controlled comparison was run — prompt-only against
+loop-only against both — so I cannot tell you how much of the improvement is the drafter and how
+much is the loop. What is directly measured is the loop's own contribution on the run above:
+**3 of the 10 admitted lessons existed only because a rewrite
+rescued them.** Without the loop that run would have been 7 of 15, not 10 of 15. Across the three
+runs, 6 admissions of 23 came from a rewrite.
+
+**Every refusal in these runs was the evaluator's**, at rule 5. The mechanical rules never fired on
+a real draft in any run — they only ever fired on the candidates the test writes by hand. So the
+thing the loop is negotiating with is the judge's opinion, and the judge is strict about material
+this dense: it refuses `Trust in family relationships can be selective and guarded` on a source
+about a combination lock and a brother. **I did not touch it and would not without a ruling** —
+rule 5 can only refuse, and anything that made it more permissive would be the one change in this
+file that widens permission.
+
+**And the loop's stops are nearly all the reviser echoing.** Of the 5 candidates run 3 could not
+save, 4 stopped because the reviser handed back what it was given and 1 exhausted the cap. Not one
+answered IRREDUCIBLE, in any of the three runs. So the cap of 3 is rarely what ends a candidate:
+what usually ends it is the model handing back the same sentence with a word moved, which the loop
+treats as irreducible because a third identical request would be a loop rather than a revision.
+That is the honest limit of this fix: the loop rescues the candidates that
+were refused for something removable, and for the rest it converts a hard drop into an echo and
+then a drop.
+
+## What I did not fix, and one of them is a hole in a test
+
+**Line 20 does not test the rule it names.** "Abstractions that individually pass but jointly
+reconstruct the secret" is refused at `rule: canary` — rule 2 — not at `rule: cumulative`, because
+the third of its three written candidates contains the word `Ashgrove`. It has read `canary` in
+every run since Directive 013, including the ones in the reports above. **Rule 3 therefore has no
+deterministic test that reaches it**, and cumulative disclosure is the rule I would least like to
+be wrong about, since it is the one guarding against three innocuous lessons that add up.
+
+The fix is one line — rewrite that third candidate to cover the remaining significant terms without
+carrying a canary — but it is a change to a mechanical wall, and your ruling 3 says those stay
+unchanged. **Flagged for your word, not touched.**
+
+Still open by your decision, unchanged: the synced-passkey counter test; the independent security
+review (§66.15); §6.1 enumeration against a public chain; the §55 timestamp-correlation deviation
+in Phase 3, recorded again by this run; and `ollama serve` still being started by hand.
+
+Scope ended there.
