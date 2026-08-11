@@ -153,3 +153,15 @@ Loose ends:
 5. Commit, report, verify push landed.
 
 Outstanding items staying open by decision: Base Sepolia gas (needs funded key), synced-passkey counter test, independent security review — all pre-launch, none now.
+
+## Directive 012 — Phase 3 plan: Memory
+
+Phases 0-2 complete. Proceed to Phase 3 per WANDERER_SPEC.md section 67: memory.
+
+Per spec 66.17, memory and consent boundaries require proposal before implementation:
+
+1. Read all spec sections governing memory, retention, forgetting, consent, and what carries between hosts (sections 26 and related).
+2. Write PHASE3_PLAN.md: components, how memory attaches to the existing epoch/custody model, what is stored vs discarded, how consent is captured and enforced, how the reserved memory-manifest-version field comes into use, and the acceptance tests proving each rule.
+3. Distinguish clearly: engineering decisions (yours to propose) vs product decisions (Lonnie's — flag them as questions, decide nothing product-shaped).
+4. Commit the plan, copy full text to REPORTS.md, verify the push landed.
+5. STOP for approval before implementing.
