@@ -236,3 +236,12 @@ Provisional must claim the specific mechanism, not the broad idea.
 Hand this citation to the IP attorney.
 
 Commit before change. Queue behind any run in progress.
+
+## Directive 017 — Renumber spec additions; fix watcher stale-hash
+
+Lonnie approved both:
+
+1. Renumber our two spec additions: art grant becomes section 72, IP protection becomes section 73 (prior-art note stays inside it). Nothing else in the file changes.
+2. Fix the watcher stale-hash bug exactly as proposed: re-read DIRECTIVES.md after the run completes, written via temp file renamed into place. Dated backup of watch.sh first.
+
+Commit before changes, both trees. Report.
