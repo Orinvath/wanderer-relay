@@ -255,3 +255,15 @@ Lonnie approved. Steps:
 3. After Lonnie confirms funding (next directive), run the real-network anchor check against Base Sepolia and add it to the suite as an explicitly network-dependent test that skips cleanly when offline — the local Anvil suite stays the deterministic core.
 
 Commit before changes. Report.
+
+## Directive 019 — Funded. Switch testnet to Ethereum Sepolia, run the real anchor
+
+Base Sepolia was unavailable on the working faucet. Lonnie funded the Genesis anchor address 0x1F73b22BA384F8A558D8397583Ebd386068eFd17 with 0.05 ETH on ETHEREUM SEPOLIA (tx 0x596c9af30e51f80597c1dc2a8a50ea444dc10191...).
+
+1. Commit before changes.
+2. Verify the EAS contracts exist on Ethereum Sepolia and record their addresses (they are deployed there — verify, don't assume, per standing rule).
+3. Point the testnet config at Ethereum Sepolia instead of Base Sepolia.
+4. Confirm the funded balance is visible on-chain from our side.
+5. Run the real-network anchor: Genesis attestation + one anchor for W-001's current state.
+6. Add the network-dependent test (skips cleanly offline); local Anvil suite remains the deterministic core.
+7. Full suite green. Commit, report — include the on-chain attestation UID and explorer link so Lonnie can see W-001's record on the public testnet.
