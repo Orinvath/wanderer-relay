@@ -301,3 +301,12 @@ Lonnie's ruling: every evaluator refusal must carry the judge's stated reason �
 The judge's permissiveness does not change — this is visibility only.
 
 Commit before changes. Full suite green (Ollama running). Report, including the actual reasons it gives for refusing the family-trust lesson and its kin, so Lonnie can read the judge's mind before ruling on its strictness.
+
+## Directive 024 — Reconcile: reports lost, 023 unexecuted
+
+The 15:52 cycle logged "report delivered" but the relay received nothing, and CC-Wanderer shows a commit for 022 only — no 023.
+
+1. Investigate and state plainly why the 022 report never reached the relay despite the cycle claiming delivery. Fix the cause in watch.sh or the delivery step (dated backup first). The loud-failure rule from Directive 009/020 applies: a claimed delivery that did not land is the exact failure that must never be silent.
+2. Report 022's results now (the rule-3 test fix and suite state).
+3. Execute 023 if genuinely unexecuted (judge states reasons on every refusal), or report its state if partially done.
+4. Full suite green. Deliver both reports and verify the push actually landed on the relay before logging success.
