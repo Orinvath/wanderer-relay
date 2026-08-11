@@ -4553,3 +4553,95 @@ and it now has a name.
 - Independent security review (§66.15).
 
 Scope ended there. No product code was touched by this cycle.
+
+---
+
+# Watcher cycle 2026-08-11 09:08 — the predicted wasted cycle, and it is the last one
+
+**No work was done, because there is none to do.** This is the redundant run the previous report
+told you was coming, arriving exactly as described. Directive 018 is still the newest directive,
+its steps 1 and 2 are done, and its step 3 is gated on you.
+
+## Why this run started
+
+The last cycle executed on the **old** `watch.sh` — the stale-hash fix was renamed into place
+mid-run, so the running shell kept the old inode by design and wrote the pre-018 hash to the state
+file. This tick compared that stale hash against the current file, saw a difference, and fired:
+
+```text
+last-seen (stale, pre-018)  6309f6e3…9d96cda
+DIRECTIVES.md (current)     ccd6ae8f…07d5adc
+```
+
+This run is executing the **new** `watch.sh`, which re-reads `DIRECTIVES.md` after the run and
+renames the state file into place. It will therefore record `ccd6ae8f…` at the end of this cycle,
+and the next tick will find no difference and stay quiet. **The loop closes here.** No further
+action needed from you on it.
+
+## Commit before changes
+
+Standing failsafe rule honoured, and there was nothing to honour it with. Relay clean at `469ebbd`,
+verified up to date with `origin/master`. CC-Wanderer clean at `9c8103e`. No product code, spec, or
+watcher file was touched by this cycle.
+
+## Directive 018 step 3 — still correctly blocked
+
+The directive's own wording gates it: *"After Lonnie confirms funding (next directive), run the
+real-network anchor check."* There is no Directive 019 in `DIRECTIVES.md`. I checked the chain
+anyway rather than only checking the file, because a funded address would be worth telling you about
+even without the directive:
+
+```text
+ADDRESS       0x1F73b22BA384F8A558D8397583Ebd386068eFd17
+BALANCE       0x0        — still unfunded
+NONCE         0x0        — never used, so nothing has been sent from it either
+CHAIN HEAD    0x2b3f524  — Base Sepolia live, so the zero is a real answer, not a dead RPC
+```
+
+Balance and nonce both zero means the address has not been touched since it was generated. **Even
+if it were funded, I would not have run step 3** — the directive routes that through you, not
+through a balance check. But you would not have had to ask.
+
+## The key is where it was left
+
+`/home/nobara-user/.wanderer-keys/base-sepolia.env`, mode `0600` in a `0700` directory, outside both
+repositories, header still reading `***** NOT PRODUCTION. TESTNET ONLY. *****`. Verified by listing,
+not by opening it; the address above comes from the previous cycle's derivation check, not from a
+fresh read of the key. Nothing about it was printed this cycle either, for the same reason as last
+time — this output lands in `watcher.log` in the clear.
+
+## Faucets re-probed, list unchanged
+
+Re-checked rather than copied forward from the last report, since the one actionable item here is a
+URL you are going to click:
+
+| Faucet | URL | Probe |
+|---|---|---|
+| Coinbase Developer Platform | `https://portal.cdp.coinbase.com/products/faucet` | 200 |
+| Alchemy (Base's linked one) | `https://basefaucet.com/` | 200 |
+| Chainstack | `https://faucet.chainstack.com/` | 200 |
+| QuickNode | `https://faucet.quicknode.com/drip` | 200 |
+| ethfaucet.com | `https://ethfaucet.com/networks/base` | 200 |
+| Bware Labs | `https://bwarelabs.com/faucets` | **530 — still down** |
+
+Same caveat as before, and it has not stopped being true: **200 means the page answered, not that it
+will dispense.** Every one of them gates on a signed-in human, and several want a minimum mainnet
+balance on the connected wallet.
+
+## What you actually need to do
+
+**Fund `0x1F73b22BA384F8A558D8397583Ebd386068eFd17` on Base Sepolia, then write Directive 019
+saying so.** A Genesis attestation plus one anchor costs far below 0.001 ETH; any single drip covers
+it many times over. The next cycle picks up 019 and runs the network-dependent anchor test.
+
+## Still open, all by your decision
+
+- **Base Sepolia gas — waiting on you specifically: fund the address, then Directive 019.**
+- Synced-passkey counter test.
+- Independent security review (§66.15).
+- **The relay can still wedge** (unchanged from the last report, and deliberately not fixed): a
+  directive landing between a run's last commit and its push leaves `verify_push` retrying a push it
+  cannot fast-forward, and the next cycle's pull is `--ff-only`. It needs a human rebase when it
+  happens. Say the word and it gets fixed; it is a small change.
+
+Scope ended there.
