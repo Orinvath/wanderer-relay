@@ -9707,3 +9707,100 @@ enjoyed herself — and by his ruling, that should show.
 
 **16 SETTLED · 25 SETTLED (as one) · 30 SETTLED (TELLS).** Open: **29** (and possibly two),
 **24** (with the delight proposal), 23, 14, 15, 17, 18, 19, 28.
+
+---
+
+# DIRECTIVE 046 — DONE, PLAN ONLY. The ledger rebuilt on SDT. Standing rules recorded.
+
+Clean at `e975119`, revert point `5fba21d`, work `dc64c43`. Chamber untouched, nothing in `server/`
+changed. The three standing rules are now in `HANDOFF.md` above the older ones.
+
+## §1 — sources read before anything was written
+
+| Claim | Source |
+|---|---|
+| the three needs | Ryan & Deci (2000), *American Psychologist* 55(1), 68–78 |
+| satisfaction and frustration measured separately | Chen et al. (2015), *Motivation and Emotion* 39, 216–236 — the **BPNSFS** |
+| the affect pair | Watson, Clark & Tellegen (1988), *JPSP* 54(6), 1063–1070 |
+| affect ↔ personality | Costa & McCrae (1980) and the subsequent literature |
+
+Ryan & Deci's own abstract: *"the postulate of three innate psychological needs — competence,
+autonomy, and relatedness — which when satisfied yield enhanced self-motivation and mental health
+and when thwarted lead to diminished motivation and well-being."*
+
+## §2 — four corrections, as point 3 requires
+
+1. **The scale's title is "Need" singular** — *Basic Psychological Need Satisfaction and Frustration
+   Scale*, 24 items.
+2. **"Thwarted" is the 2000 word; "frustration" is the 2015 one.** The distinction matters and is
+   load-bearing here: per the scale's own documentation, *"the absence of psychological need
+   satisfaction does not by definition imply its frustration"*, while *"the presence of need
+   frustration does imply low need satisfaction."*
+3. **The quoted need definitions are faithful in substance but I could not confirm them verbatim** in
+   the 2000 paper I read. They are consistent with SDT's vocabulary — *effectance* is White's term,
+   cited by Ryan & Deci for competence — so they are recorded in the plan as accurate paraphrase
+   rather than as quotation.
+4. **The affect gloss does not match PANAS.** The directive says *"positive emotional states like
+   interest, joy, and trust"*. **"Interested" is a PANAS item; "joy" and "trust" are not.** The ten
+   PA items are *interested, excited, strong, enthusiastic, proud, alert, inspired, determined,
+   attentive, active*. Watson et al. describe PA as **pleasurable engagement with the environment**
+   and NA as **general distress**.
+
+## §3 — the rebuilt ledger
+
+**Eight numbers per journey, each 0 to 1.** The six drafted pressures are replaced entirely. Nothing
+else crosses over — no text, no transcript, no word anybody said.
+
+```
+   AUTONOMY      satisfaction   frustration
+   COMPETENCE    satisfaction   frustration
+   RELATEDNESS   satisfaction   frustration
+   POSITIVE AFFECT        NEGATIVE AFFECT
+```
+
+**Six need numbers rather than three signed ones, because the research says so.** A journey where she
+was simply not much of anything is *low satisfaction*; one where she was pressured, belittled or shut
+out is *frustration*. Collapsing them to one axis would discard the distinction the instrument exists
+to make. **Two affect numbers for the same reason** — PA and NA are largely uncorrelated, so a
+journey can be high on both, low on both, or either alone.
+
+## §4 — what is documented, and what is not
+
+**Documented, and used:**
+
+| Ledger entry | Aspects | Basis |
+|---|---|---|
+| positive affect | Extraversion — enthusiasm, assertiveness | Extraversion ↔ PA, robust and repeatedly replicated |
+| negative affect | Neuroticism — volatility, withdrawal | Neuroticism ↔ NA, likewise |
+
+**NOT documented — and so not invented, per standing rule 1:**
+
+**There is no published mapping from need satisfaction or need frustration to individual Big Five
+aspects.** SDT's literature relates need states to well-being and ill-being outcomes — vitality,
+depressive symptoms, anxiety — not to change in specific personality aspects. A separate literature
+exists on personality change over the life course; I did not verify a source connecting the three
+needs to DeYoung's ten aspects.
+
+**So the need half of the ledger — six of the eight numbers — has no researched aspect mapping, and I
+have not written one.** The numbers are defined and measurable; which aspects they press, and in
+which direction, is an open gap and is brought to Lonnie.
+
+## §5 — the clock is unchanged
+
+Point 4 keeps Part Four exactly as built: frustration held across many journeys presses one way,
+satisfaction the other, on the same slow clock — 24 journeys before anything moves, 18 of any 24 to
+count as held, 72 to a cap, a single host able to move nothing. **What changed is what is measured,
+not how slowly it acts.**
+
+## §6 — where the code and the plan now disagree
+
+`server/src/traits.js` still carries the six drafted pressures and its `PRESSURES` map, built and
+under test. This directive is plan only, so that code is unchanged and is **now superseded** by the
+ledger above. It will need replacing when the ledger is built, and the suite's pressure inputs with
+it. The seventh pressure proposed in the 045 report is withdrawn — the six it would have joined no
+longer exist.
+
+## §7 — decisions
+
+**24** is answered for the *what* by research; its aspect-mapping half is the gap in §4 and is open.
+23, 29, 14, 15, 17, 18, 19, 28 unchanged.

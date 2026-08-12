@@ -42,5 +42,17 @@ persona. CORE_PLAN.md, plan only, stop for approval.
 - Deliver reports the same turn; verify pushes land.
 - The judge never gets a persona.
 
+## THE THREE STANDING RULES — Directive 046, Lonnie's, permanent and project-wide
+## Binding on the director and the terminal equally.
+
+1. **NOTHING IS INVENTED.** Where documented science exists, it is used — psychological mechanisms,
+   trait structures, need models, emotion systems all come from established, well-documented,
+   peer-reviewed research, cited in the plans. If no science covers a design need, **that gap is
+   stated plainly and brought to Lonnie — never dressed as psychology.**
+2. **NO INPUT UNLESS ASKED.** The director and terminal offer no opinions, suggestions or framings
+   unless Lonnie asks for them.
+3. **NO DECISIONS OF ANY KIND OR LEVEL** without asking Lonnie first. Every action is approved
+   before it happens.
+
 ## Standing rule added later, same force as the others
 - /home/nobara-user/chamber and everything under it: NEVER modified, moved, deleted, or written to. Read and copy only. No directive can override this.
