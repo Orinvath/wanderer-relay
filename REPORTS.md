@@ -6904,3 +6904,232 @@ is now a person standing at the gate deciding what she may carry out of a house.
 nothing of her own to say, and that is yours.
 
 Scope ended there.
+
+
+---
+
+# DIRECTIVE 033 — THE SCREEN MUST NOT LIE
+
+**Executed:** 2026-08-12 UTC (the evening of 2026-08-11 local) · CC-Wanderer commit `5d04508` ·
+full suite **184 passed, 0 failed**, twice — Phase 0 16, Phase 1 39, Phase 2 34, Phase 3 **80**,
+Testnet 15. ALL GREEN both times, the public-chain suite included rather than skipped.
+
+The ruling, in full: *moderate() decides after the consent re-check, not before. A failed re-check
+means the row was never approved. Line 66's tamper case must show the truth on the screen.*
+
+It is done, and it is three lines of the suite rather than one, because the ruling contains two
+claims and the second one needed proving with a mouse.
+
+## §1 — commit before changes
+
+Both trees were clean. CC-Wanderer stood at `7e1d228` ("Directive 032: the gate finally has a screen
+in front of it"), the relay at `ce79f65`, and `git status` was empty in each. Nothing was
+uncommitted and nothing was at risk, so the failsafe rule had nothing to capture — which is the
+right outcome for it rather than a skipped step.
+
+No dated backup was needed. 033 changes the ORDER of two calls and adds no column, no table and no
+schema step, so `user_version` stays at 5 and `data/testnet.db` — the file holding the keypair
+W-001's Genesis attestation names on a public chain, and the one file in this project that cannot be
+rebuilt — was never opened by this work.
+
+## §2 — the fault, stated exactly, because it is smaller and worse than it sounds
+
+`moderate()` did three things in this order: **mark the row decided**, then re-derive the material
+as it actually is now, then **ask the consent whether it still covers that material**. For every
+gift that has ever been approved on this service the third answer was yes, so the order never
+mattered. There is exactly one case where it says no: a gifted picture whose BYTES ARE SWAPPED IN
+THE TABLE between the moment its host consented and the moment a person approves it. Phase 3 line 66
+performs that swap by writing to the database directly, because that is the only way to perform it —
+no host route can reach the bytes after the receipt is issued, and the re-check exists precisely so
+that anyone who can reach them cannot get their substitute carried.
+
+The re-check worked. It always worked. Nothing travelled, nothing published, no picture was ever
+carried, and the host's consent was never violated. What was wrong was the **record**: the row said
+
+    decision = approved     moderator = <the person's name>     decided_at = <the moment>
+
+for a gift that did not move, and it said it for ever, because a decided row cannot be decided
+again. The gift was also **stranded** — the one person entitled to decide it had, according to the
+table, already decided it, so the ordinary refusal path answered *"that item was already approved by
+acceptance moderator"* and there was no way to record what should have been recorded.
+
+For three directives that was an untidiness nobody could see. Directive 032 built the screen, and on
+the screen it became a **lie told to a person**: press Approve on a tampered picture and you were
+shown a red banner saying it failed AND a green line in *already decided* with your own name against
+it. The two halves of one page disagreeing, in front of the one human the entire gate depends on.
+032's report flagged it and did not fix it, on the grounds that the run's evidence was about the
+screen; this is the ruling on that flag, carried out.
+
+**Who could trigger it: unchanged, and it is not a host.** Reaching the bytes of a pending sight
+requires write access to the service's database. A host cannot do it by authenticating better, by
+holding a lease, or by any route the public app answers. This was never a hole in the gate. It was
+the gate's own paperwork being wrong about what it had done.
+
+## §3 — the fix: two questions, one write
+
+An approval is two questions asked of two different modules:
+
+1. **May this person decide this at all?** — `moderation.js`: does the item exist, is it still
+   undecided, is `approved`/`refused` a decision, and is the moderator a named human rather than
+   `auto`, `model`, `system` or the empty string (Directive 013 §16.8).
+2. **Does the host's consent still hold over the material as it is right now?** — `consent.js`,
+   through `wanderer.js`, over the re-hashed pixels rather than the stored hash (Directive 030).
+
+The row is now written only once BOTH have answered yes. That required splitting the asking of
+question 1 from the act of recording it, because `decide()` was the only way to ask it and asking it
+meant writing it:
+
+- **`moderation.js` gains `check(id, decision, moderator)`** — every rule `decide()` enforces and
+  not one write, returning the row and the trimmed moderator name. `decide()` now calls it and then
+  writes. The rules did not move and did not change: they live in one place still, and `decide()`
+  re-runs them rather than trusting its caller, because a guard that only runs when somebody
+  remembers to call it is not a guard.
+- **`wanderer.moderate()` reordered** — `check()`, then (for a refusal) `decide()`, or (for an
+  approval) re-derive the material, re-check the consent, and only then `decide()` and commit.
+- The consent re-check now reads `row.consent_id` and `row.text` from the row `check()` returned,
+  where it used to read them from `decide()`'s return value. Same values, one fewer read of a table
+  we had just written.
+
+`decide()`'s own contract is unchanged, so `moderation.decide()` called directly — as the operator
+could — still behaves exactly as it did.
+
+## §4 — what a failed re-check now returns, and what the person is told
+
+    { ok: false, decided: false, status: 'pending', travelling: false, published: false,
+      why: 'not approved — the consent no longer holds: the item does not match the bytes that
+            were consented to. It is still waiting for a decision.' }
+
+Three deliberate words in there. **`not approved`** replaces the old message's opening word, which
+was `approved, but…` — a sentence that began by asserting the thing it went on to deny.
+**`status: 'pending'`** because that is now true of the row. And **"It is still waiting for a
+decision"** because the moderator's next move matters: the gift is not stranded, it is on their
+queue, and refusing it is the obvious and now-possible thing to do.
+
+The screen (`moderator.js`) prints `why` in its red banner unchanged — it was already built to show
+the reason a decision failed, and this is that mechanism finally telling the truth. **No change to
+`moderator.js` was needed or made.**
+
+## §5 — the evidence, in the suite's own words
+
+Three lines, all from the run below. Line 66 is the ruling's tamper case, line 67 is the half of the
+ruling that says *"never approved"* rather than merely *"not carried"*, and line 80 is *"must show
+the truth on the screen"* — the same swap performed by a person clicking a button in real Chrome.
+
+```
+  66  A picture swapped in the row between the consent and the approval DENIED  (not approved — the
+      consent no longer holds: the item does not match the bytes that were consente)
+  67  A gift the consent check saved is still the moderator's to decide ✓ refused by a person, with
+      their stated reason, after the swap was caught
+  80  Approve pressed on the page for a picture swapped under it DENIED  (not approved — the consent
+      no longer holds: the item does not match the bytes that were consented to. It)
+      the screen says it failed, the item is still waiting on it, and nothing is in the decided
+      table claiming otherwise
+```
+
+**Line 66** now asserts seven things where it asserted three. The three it always had: the approval
+is refused, the caption is not in the travelling store, the picture's `carried_at` is still null.
+The four Directive 033 adds: `decided_at`, `decision` and `moderator` are all still NULL on the row;
+the item is still in `reviewQueue()`; it is NOT in `reviewDecided()`; and `statusFor()` — the
+consent-level status the host's own `/me` reads — still says `pending`.
+
+**Line 67 is new.** It refuses that same row, through the ordinary path, with a moderator's name and
+their stated reason, and checks it lands in the decided history and leaves the queue. Under the old
+ordering this call could not have happened at all: the row was already `approved`, and
+`moderation.js` would have answered *"that item was already approved by acceptance moderator"*. It
+is the difference between a record that is wrong and a gift that is lost.
+
+**Line 80 is new, and it is the ruling's last sentence.** Host F gives a picture through the real
+routes; its bytes are swapped in the table; a person opens the page in real Chrome with their name
+in the box and clicks **Approve** on that item. What is then asserted, in the browser and in the
+database:
+
+- the banner is the RED one and it says *not approved*
+- the row's `decided_at`, `decision` and `moderator` are all still NULL
+- the item is **still in the waiting list on the page** — read out of the rendered DOM, not out of
+  the database
+- **nothing about it is in the *already decided* table on the page** — the specific lie, gone
+- nothing with that caption is in the travelling store or in the public record
+- the memory counter did not move (§16.7: a refused approval is not a memory transition, and a
+  public number that ticked on one would leak that something had been attempted)
+- `carried_at` is still null on the sight
+- and host F's own `/me` — the §59 surface Directive 032 §2 calls "the host-facing state" — reads
+  `moderation: "pending"`, which is the truth: nobody has decided their gift yet. Not `approved` for
+  a thing that never travelled, and not `refused` by a decision no person made.
+
+## §6 — the full suite, twice
+
+```
+  PHASE 0    passed    custody, leases, epochs                          16 passed, 0 failed
+  PHASE 1    passed    accounts, passkeys, recovery                     39 passed, 0 failed
+  PHASE 2    passed    authenticity, real EAS on Anvil                  34 passed, 0 failed
+  PHASE 3    passed    memory, privacy, the self-hosted model           80 passed, 0 failed
+  TESTNET    passed    W-001 on Ethereum Sepolia                        15 passed, 0 failed
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+Real throughout, per the standing no-test-doubles rule: a real Anvil node with the real EAS
+contracts deployed to it, the real Ethereum Sepolia record of W-001 read back off the public chain,
+Chrome's own WebAuthn implementation for the passkeys, Chrome itself for the moderator's screen, the
+real self-hosted models (`qwen2.5:14b` technical, `qwen2.5vl:7b` voice-and-eyes), and real image
+files that were on this disk before the suite existed. Phase 0 and Phase 1 both approve a gift
+through `moderate()` on their way past, so the reordering is exercised by three suites rather than
+one.
+
+## §7 — Phase 3 is eighty lines now, and the numbering moved
+
+Adding line 67 shifted everything after it by one. The suite's line markers were already drifting
+from the numbers it prints — the sight block emits several lines per marker — so they have all been
+corrected to the numbers the run actually produces, and the file's header now says eighty lines.
+**The tamper case is still line 66**, which is the number this directive names and the number the
+032 report used, so nothing you have already read has been renumbered under you. What moved:
+
+- the old lines 61-68 keep their assertions and are now printed as 61-72 (markers corrected)
+- the old **72-78**, the moderator's screen from Directive 032, are now **73-79**
+- the new lines are **67** and **80**
+
+Anything in an earlier report citing a Phase 3 line above 66 is one lower than the number that suite
+prints today.
+
+## §8 — what did not change, deliberately
+
+- **What the gate permits.** No change to `decide()`'s rules, to what counts as a human moderator,
+  to consent, to the firewall, to the models, or to what approval does once both questions say yes.
+  This is an ordering fix and a record fix.
+- **`moderator.js`.** Not one line. The screen already showed the reason a failed decision gave; the
+  reason is what changed.
+- **The re-check itself.** Still performed over the bytes AS THEY ARE NOW, re-hashed rather than
+  compared against anything stored (Directive 030). That is the property line 66 exists for and it
+  is untouched.
+- **The schema.** Nothing added, nothing migrated, `user_version` still 5.
+
+## §9 — one residual I am naming rather than fixing, and one still open from 032
+
+**A narrower window of the same shape survives, and it is not the one that was ruled on.** The
+decision is now written after the consent re-check, but still BEFORE `memory.commit()` and
+`sights.carry()`. Those are local database writes with no model and no network in them, so the only
+way they fail is a bug or a disk error — but if one did, the row would again read `approved` for
+something that did not travel. The fix is to wrap the three writes in one `db.transaction()`, which
+this codebase uses in nine other places and which would make the whole approval atomic rather than
+merely correctly ordered. I have **not** done it: it is a change to the approval path that this
+directive did not ask for, and this run's evidence is about the ordering that was ruled on. It is a
+one-line wrap when you want it.
+
+**Still open from 032, unchanged and still yours:** a rejected picture's bytes stay in the table.
+The row is the record of the refusal and deleting the pixels would delete that record's subject;
+nothing serves them, nothing carries them, and the host's own §59 revocation still erases them from
+the file. But the service does retain material a person said no to. If you would rather a rejection
+erase the pixels on the spot and keep only the fact of the refusal, that is your call.
+
+**Carried forward, unchanged, none new:** the §55 timestamp-correlation deviation (a travelling
+memory keeps its commit time and the lineage publishes epoch open/close times, so the two correlate);
+§6.1 enumeration still not exercised against the public chain (it scans from block 0, which Anvil
+serves and a public RPC refuses); the synced-passkey counter test; the independent security review
+(§66.15), which the moderator's screen is exactly the kind of surface for even bound to loopback;
+and, from 025, whether the **drafter** should draft as her.
+
+And the one that is not a model question and never was: **§16.6's core is still placeholder text
+reading `LONNIE'S VOICE PENDING`.** The screen in front of her gate now tells the person standing at
+it the truth. She still has nothing of her own to say, and that is yours.
+
+Scope ended there.
