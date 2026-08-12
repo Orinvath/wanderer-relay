@@ -504,3 +504,14 @@ Stop for approval. Product decisions Lonnie's.
 ## Directive 038 — Status query
 
 Directive 037's report never landed on the relay. State your status directly to REPORTS.md now: was 037 executed, partially executed, or not started? If the plan exists, deliver it. If something blocked you, name it. Commit and push, verify it lands.
+
+## Directive 039 — Seed the builder: the Roe is the dice roll, written down
+
+Lonnie approved, with the El-Fish principle as the standard: the roe file WAS the randomness, recorded — same roe, same fish, every render. Apply it here: every random draw in creature generation comes from the Roe's recorded values (seeded, deterministic). Same Roe = same being, every time she appears. Her body must be stable to itself.
+
+Clarified intent: this is NOT about preventing twins. Two Avatars may be twins from similar genomes — they diverge through lived experience, and that divergence is the design. The fix is only that SHE looks like HER on every render.
+
+1. Commit before changes.
+2. Build the seeded builder in CC-Wanderer (our copy — chamber stays untouched): reproduce the existing tendril creature deterministically from a Roe, same ranges, same look.
+3. Proof 1 from the plan: the same Roe renders the same creature twice, asserted in the suite.
+4. Full suite green. Report, deliver same turn.
