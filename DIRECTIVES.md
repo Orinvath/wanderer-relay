@@ -397,3 +397,9 @@ Lonnie's ruling: build the review surface now. Everything gifted — text and pi
 3. Access: local/operator-only, consistent with the existing service-local admin pattern — no public route, no host account can reach it.
 4. Real browser verification of the full path per standing rule: gift → pending → approve on the page → travels/publishes; and gift → reject → nothing moves.
 5. Full suite green, report, deliver this turn.
+
+## Directive 033 — The screen must not lie
+
+Approved: moderate() decides after the consent re-check, not before. A failed re-check means the row was never approved. Line 66's tamper case must show the truth on the screen.
+
+Commit before changes. Full suite green, report, deliver this turn.
