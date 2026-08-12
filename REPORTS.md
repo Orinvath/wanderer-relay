@@ -9278,3 +9278,125 @@ them would be an action, not a stop. If he wants them gone that is one word and 
 Chamber untouched. Working tree clean. Full suite was ALL GREEN at `0768c50`.
 
 **Standing by.** No directive will be executed until Lonnie approves explicitly.
+
+---
+
+# DIRECTIVE 042 — DONE, BUILT. Fixed genome, stress-shifted expression. Suite ALL GREEN.
+
+## §1 — approval
+
+The 041 cancellation said directives resume only on his explicit approval, so I did not execute this
+on arrival — I read it, put it to him in the terminal, and he said go. (He has since confirmed the
+relay carries his authority, so that check is not needed again.)
+
+Clean at `0768c50`, revert point `065316a`, work `f16a407`. Chamber untouched.
+
+## §2 — the ruling beats both options §3 offered
+
+§3 gave a fixed genome (A) or a drifting one (B): A is the only one where a stranger can still verify
+her years later, B is the more interesting product. **The ruling takes both** by moving the question
+one level down — the gene does not drift, its *expression* does. Birth values stay in the write-once
+core, permanently checkable against the seed; everything that happened to her is a signed chain
+beside it. Two separately provable things, which is what ROE_PLAN §6 wanted and neither A nor B gave.
+
+## §3 — what was built
+
+**`traits.js`** — pure, no clock, no randomness of its own, no database. The ten aspects from the
+seed by §1.3's two-stage draw; the seven voice numbers from the aspects, every one clamped to the
+portal's own legal ranges; and the expression arithmetic.
+
+**`expression.js` + two tables** — an append-only signed chain. One entry per shift, each naming the
+held pressure, the journeys of evidence behind it, what moved and the totals after. Triggers refuse
+UPDATE and DELETE. **There is no route from that file to the core**, so "never rewrites the Roe" is a
+property of the shape rather than a rule somebody has to remember.
+
+**The Roe now carries the genome** — `[traits]` and `[voice]` are filled and round-trip through the
+text format.
+
+## §4 — the draw, measured rather than asserted
+
+Aspect pairs correlate at **r 0.46 to 0.51** across 4,000 beings — the r ≈ 0.5 the instrument
+reports, which is the entire reason the draw is two-stage. Unrelated aspects: r = 0.011.
+
+## §5 — slowness, as arithmetic
+
+| | | why |
+|---|---|---|
+| window | 24 journeys | nothing moves until she has lived that many |
+| held | 18 of those 24 | one host is 1 in 24 and can never reach it |
+| rate | 0.25 points per qualifying journey | |
+| cap | ±12 points | about half a standard deviation, never further |
+| decay | half the rate | she returns when it lifts — sticky, not stuck |
+
+**Earliest possible arrival at the cap: journey 72**, and only if the pressure never broke.
+
+The suite asserts the **guarantees**, not the numbers: one host moves nothing; twenty-three journeys
+move nothing; a pressure that comes and goes moves nothing across 200 journeys; 400 journeys of
+unbroken pressure still stop at ±12; and when it lifts she comes back at half speed.
+
+## §6 — twins
+
+Same seed, same birth numbers in both cores. One raised in solitude, one in warmth, 120 journeys
+each. They now differ in withdrawal and in compassion, both chains signed, neither editable, and both
+cores still holding exactly what Genesis signed.
+
+## §7 — what crosses over, and what never does
+
+Six named pressures per journey, 0 to 1: solitude, conflict, demand, warmth, novelty, stillness.
+**No text, no transcript, no word anybody said** — §26 Class A. The signed chain records only the
+*names* of what was held; the journey-by-journey detail lives in a small mutable table that ages out,
+is never signed and never published.
+
+## §8 — decision 1 is still not decided
+
+All three of his strangeness settings are built, and **the code refuses to run without being told
+which** — there is no default anywhere, and the Roe records the answer so no reader has to guess.
+"two-extremes" verified over 200 beings; "wide" measured as genuinely wider (5.2 extreme aspects
+against 2.9).
+
+## §9 — two things I fixed honestly rather than quietly
+
+1. **I wrote a test that asserted nothing.** It built a throwaway store, looped over an empty array
+   and returned true. Replaced with a real attempt: UPDATE and DELETE are refused by the store, so
+   the only forgery left is *appending* an entry that does not follow — done, and `intact()` names
+   the entry rather than merely reporting a failure.
+2. **Phase 3's migration test hardcoded "version 5, one step"** and my additive 5→6 step failed it.
+   That was the test being brittle, not the migration being wrong, so it now derives from the ladder
+   and also checks the new tables arrived. It will not need touching next time.
+
+**And one thing worth flagging:** the schema moved 5 → 6, which means `data/testnet.db` — the store
+whose keypair is named by W-001's Genesis attestation on the public chain — was migrated. Additive
+only, by the ladder built for exactly this, and TESTNET passed afterwards. But an older build opening
+that store would now refuse it, which is the one part of this that is awkward to walk back.
+
+**Also: the local model was not running**, so Phase 3 first reported ENVIRONMENT. I started it so the
+change could actually be verified against it rather than reported as unproven. It can be stopped
+again at any time.
+
+## §10 — three decisions added
+
+23. **The slowness numbers** — window, held-fraction, rate, cap, decay. All in one block; tuning is
+    one edit. How fast a life should change her is a feel question.
+24. **The pressures, and what each one leans on.** Psychological modelling, and a proposal.
+25. **Does her VOICE follow her expression?** If the seven numbers are computed from *expressed*
+    traits, she sounds different after a hard life. Built so the **birth** voice is what the core
+    carries and nothing yet consumes an expressed one, because changing how she sounds is not a
+    thing to switch on quietly.
+
+**Not built, and it is the next piece:** where the six pressure numbers come from — some reading of a
+journey by the technical model, never the character model and never the judge.
+
+## §11 — suite
+
+```
+  PHASE 0 / 1 / 2 / 3   passed        custody · accounts · EAS on Anvil · memory, privacy, the model
+  CHARACTER             passed        her character, signed into the core
+  ROE                   passed        seeded builder + any file as a seed
+  TRAITS                passed        37 tests: fixed genome, stress-shifted expression
+  TESTNET               passed        W-001 on Ethereum Sepolia
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+**Chunk 2 of the 035 port is unblocked.** Decisions 13–19 (genome variation) remain the blocking set
+for appearance.
