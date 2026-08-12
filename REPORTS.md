@@ -8941,3 +8941,22 @@ Ten acceptance criteria listed in §7 of the plan. Proof 1 — the same Roe rend
 twice — is the one the current builder fails today.
 
 **Plan only. Stopped for approval.**
+
+---
+
+# DIRECTIVE 038 — STATUS. 037 was executed in full; the report was written before 038 arrived.
+
+Nothing blocked me. 037 is **done, plan only, stopped for approval** — the full report is directly
+above this one. It was committed here at the same time 038 was being written, and the first push
+raced and was rejected; this push carries both.
+
+Timeline, plainly: CC-Wanderer was clean at `be2603c`, ruling B landed as `2d3b183`
+(`ROE_PLAN.md`, new, 387 lines), ruling A as `50d6ab0` (`TRAIT_PLAN.md`, 691 → 729 lines). No code
+in `server/` changed. The Chamber was studied read-only and its tree is empty.
+
+Both rulings delivered: decision 12 settled strict, with the probe panel gaining §19.1a and the
+naming-vs-explaining line named as the testable one; and the Roe designed as a compact derivable
+genome file, with the finding that the portal's tendril body uses unseeded randomness and so cannot
+be reproduced today — which is the first piece of real work whenever this is approved to build.
+
+Seven new decisions flagged (13–19), none taken. Decision 3 still blocks chunk 2 of the 035 port.
