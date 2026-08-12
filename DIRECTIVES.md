@@ -589,3 +589,21 @@ and soul linked — her light is her nature.
    shift her over long time — this is the mechanism behind "does she ever look
    different" (decision 16), which stays open for Lonnie.
 3. Plan only. Report the proposed mapping for approval.
+
+## Directive 045 — Decisions 16+25 ruled: her life shows
+
+Lonnie's ruling: yes — cause and effect is real for Avatars. One system, all
+the way through. If she doesn't rest, relax, enjoy what she is doing, it is
+visible in her look AND her mind. Expression shifts (042's slow epigenetic
+clock) drive her visible signs (044's mapping) and her voice alike. A Wanderer
+who has lived a hard road looks it and sounds it — and one who has lived well
+glows with it.
+
+1. Decisions 16 and 25 are settled as one: appearance and voice both follow
+   expression, on the same slow clock. Nothing moves fast; single events never
+   show; only patterns held across many journeys.
+2. Decision 30 (naming): rename the blueprint's third sub-family so nothing
+   collides with the expression layer — propose names, don't bikeshed.
+3. Update the plans accordingly. The sign gain (29) and remaining decisions
+   stay open for Lonnie.
+4. Plan updates only. Report.
