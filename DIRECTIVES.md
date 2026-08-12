@@ -429,3 +429,7 @@ Boundaries that stand regardless:
 - Phase 3's memory model and privacy walls override portal equivalents where they collide — flag collisions rather than silently choosing.
 - Product decisions remain Lonnie's: if a port choice changes what she IS rather than how she works, stop and ask.
 - Commit before changes. Real components only. Full suite green. Report and deliver same turn; large work may be split across multiple directives at your discretion — state the plan of record first.
+
+## Directive 035 addendum — the portal is read-only
+
+Explicit and permanent: the chamber project (/home/nobara-user/chamber and everything under it) is READ-ONLY for this port. Copy what you need into CC-Wanderer — never move, edit, delete, or write anything in the portal's tree. The portal must remain exactly as it stands, byte for byte.
