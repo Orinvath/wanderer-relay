@@ -570,3 +570,22 @@ Form 1.
 3. The blueprint's build method and traps sections are binding engineering
    guidance for building forms 2-6.
 4. Plan update only — no form building yet. Report.
+
+## Directive 044 — Decisions 26+27 ruled: one system, the soul shows
+
+Lonnie's ruling: the blueprint's visual Traits/Behaviors/Expressions and the
+personality system are ONE SYSTEM. Visual properties are DRIVEN BY the ten
+personality aspects: a volatile being flickers, a warm one glows steady. Body
+and soul linked — her light is her nature.
+
+1. Vocabulary (decision 26 resolved by the merge): "trait" means the ten
+   personality aspects, period. The blueprint's wearable visual properties are
+   renamed VISIBLE SIGNS in all plans — each sign (aura, glow, flare, movement
+   quality...) maps to the aspect(s) that drive it.
+2. Update ROE_PLAN.md + TRAIT_PLAN.md: design the aspect-to-sign mapping —
+   which of the ten drive which visible signs, including the blueprint's
+   eye-saccade parameters (a scared eye vs a calm eye is Withdrawal/Volatility
+   showing). Personality epigenetic expression shifts (042) therefore VISIBLY
+   shift her over long time — this is the mechanism behind "does she ever look
+   different" (decision 16), which stays open for Lonnie.
+3. Plan only. Report the proposed mapping for approval.
