@@ -33,6 +33,9 @@ vision as one system) maps onto the Wanderer's protected core. Spirale approved 
 persona. CORE_PLAN.md, plan only, stop for approval.
 
 ## Standing rules (Lonnie's, permanent)
+- THE PORTAL IS NEVER TOUCHED. /home/nobara-user/chamber and everything under it is never
+  modified, moved, deleted or written to — not for any directive, any fix, any reason. Read and
+  copy only. (Directive 035 addendum; binds every future directive automatically.)
 - No test doubles, ever. Real components only.
 - Commit before any change.
 - Product decisions are Lonnie's alone. Flag, never decide.
