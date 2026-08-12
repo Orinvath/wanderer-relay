@@ -7660,3 +7660,108 @@ their own `personas.js`; that `core` is write-once at the storage layer and coll
 and that Spirale exists in three non-identical copies, one of which has a real person's private
 memory appended to it (§5). The plan is the same plan; it is just grounded in the current files
 rather than in what the tree looked like when it was built.
+
+
+---
+
+# DIRECTIVE 035 — CHUNK 1 DELIVERED. Her character travels whole, inside the signed core.
+
+## §0 — plan of record, stated first as the directive asks
+
+The full working set, and the order I will bring it over. Chunk 1 is done and in this report;
+the rest are named so the shape is visible before it is built.
+
+| | | |
+|---|---|---|
+| **1. Her character** | body, questions, recognitions, voice id + seven numbers | **DONE, this turn** |
+| 2. Her growth | the signed overlay — what she becomes, beside what Genesis signed | **blocked on a decision, below** |
+| 3. Her speaking | system prompt assembled from core + overlay; questions and recognitions selected the way the portal cycles and shuffles them | next |
+| 4. Her life between questions | presence, instincts, arrival | after that |
+| 5. Her senses | vision, speech energy, hearing | Phase 4, client-side — flagged below |
+
+Chunk 1 first because everything else hangs off it: nothing can speak as her until there is an
+her to speak as, and the value of the whole thing is that a stranger can verify who she is.
+
+## §1 — commit before changes
+
+Tree clean at `dd41e77` before anything was touched. Chunk 1 is `c0d5b87`.
+
+## §2 — what was built
+
+**`server/src/character.js`** — the portal's own `.md` format, parsed. Frontmatter, body, and the
+`## Questions` / `## Recognitions` sections, matching `parsePersona()` + `splitBody()` so a file
+Lonnie writes for one works in the other. Out-of-range effect numbers are clamped and unknown keys
+ignored, as the portal does. Recognition lines are unquoted — `"Hey there!"` becomes `Hey there!`,
+because CORE_PLAN §5 found she would otherwise speak punctuation.
+
+**`server/src/core.js`** — the core document now carries a `character` block (personality,
+questions, recognitions) and a `voice` block (id + the seven numbers), signed at Genesis with
+everything else. `voice_status` reads `SPIRALE (DEVELOPMENT) — LONNIE'S VOICE PENDING`.
+
+**`server/src/wanderer.js`** — `genesis(id, authority, character)`. Minted without one, the core is
+byte-for-byte what it was.
+
+**`server/src/index.js`** — the `/genesis` route deliberately does NOT accept a character, and says
+why: a caller who could post a persona would be writing her personality from outside the service,
+which is §24's fifth prohibition arriving through the front door. Installing a character is a
+service-local act (§61), the file read from this machine.
+
+## §3 — the collision, flagged not silently chosen
+
+The portal keeps what it learned about you in a `## Memory` block **inside the persona file**, and
+the copy at `data/wisp.personas.json` has eight dated lines about a real person in it.
+
+Phase 3 says raw material stays with its host. §26 makes that Class A. **Phase 3 wins**, and the
+parser enforces it: a `## Memory` block is discarded unread, and the parser says out loud that one
+was present. Line 6 of the suite proves the block leaves no trace — using a synthetic line, not the
+real person's words. The dirty file is named in a comment as the one to avoid and appears nowhere
+as a path to open; line 7 asserts that.
+
+## §4 — the suite
+
+New: `acceptance-character.js`, 17 lines, all passing. It uses the real parser, the real
+`personas/Spirale.md`, the real store, real Genesis authority and the real signature — no doubles.
+
+Her character cannot be swapped: line 13 goes at the database directly, bypassing every guard in
+the code, and the store's trigger refuses it. Lines 15 and 16 show a host and the model getting the
+same refusal from the same function.
+
+```text
+  PHASE 0    passed      custody, leases, epochs
+  PHASE 1    passed      accounts, passkeys, recovery
+  PHASE 2    passed      authenticity, real EAS on Anvil
+  PHASE 3    passed      memory, privacy, the self-hosted model
+  CHARACTER  passed      her character, signed into the core
+  TESTNET    passed      W-001 on Ethereum Sepolia
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+## §5 — STOPPED, and asking. This is the one that needs Lonnie.
+
+Chunk 2 is the overlay, and I cannot build its write path without an answer, because the question
+is what she IS rather than how she works — which 035 says to stop on.
+
+**May her questions and recognitions grow?**
+
+They are the two parts of her that most plausibly change with hosts: she could pick up a question
+from someone. But a question is text she will later say **to a stranger**, so a host who taught her
+one has put words in her mouth. Three answers, all buildable:
+
+1. **Frozen.** What Genesis signed is what she asks, for ever. Simplest, and verifiable by anyone.
+2. **Grows, gated.** New questions enter through the same moderation screen gifted material already
+   passes, and land in the overlay rather than the core.
+3. **Grows freely** within the overlay.
+
+She is frozen today, which is decision 1 by default — so this is not urgent, but it is a decision
+being made by silence if it goes unanswered.
+
+The other four CORE_PLAN §7 questions still stand: whether her character evolves at all and how;
+whose voice literally, since the voice id is not portable and the seven numbers are; whether arrival
+is scripted; and whether she gets the instinct layer.
+
+## §6 — one flag on the far end of the plan
+
+Chunk 5 — vision, speech energy, hearing — is client-side. It needs a client that can hear and see,
+and the Wanderer's client is Phase 4. I will not be able to finish the port inside the server; the
+last chunk lands wherever the real client does.
