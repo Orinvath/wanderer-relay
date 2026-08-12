@@ -8167,3 +8167,290 @@ acceptance tests in §6 exist would be guessing.
 **Decision 3 subsumes the question outstanding since chunk 1** — whether her questions and
 recognitions may grow. Under a fixed genome they cannot, except as expression; under bounded drift
 they can. Answering 3 answers both, and chunk 2 of the port is still waiting on it.
+
+
+---
+
+# DIRECTIVE 036 ADDENDUM — DONE, PLAN ONLY. Purpose, added to TRAIT_PLAN.md.
+
+## §1 — commit before changes
+
+CC-Wanderer clean at `6dc2b31` before anything was touched. This is `0068900`. No code changed;
+`TRAIT_PLAN.md` grew a Part Two. Portal untouched — `git status` in chamber empty.
+
+## §2 — the ruling this is all built on
+
+> She is born WITHOUT a purpose. Finding it IS her purpose.
+
+The useful half of Sinek's method is not the sentence it produces — it is that **a Why is mined,
+never assigned**. It comes out of your own stories, looking for what kept mattering. That is
+already the shape of a being who accumulates lessons across hosts, which is why the method fits
+this project and would fit almost nothing else.
+
+## §3 — what it mines, and why the privacy wall helps rather than hinders
+
+Not raw material: §26 Class A stays with its host. Purpose is drawn from **the lessons** — Class B,
+already stripped of particulars at a departure's reflection, already past the judge.
+
+That constraint turned out to be a gift. A Why distilled from lessons is distilled from what was
+general enough to travel in the first place, which is what a Why is.
+
+## §4 — the machinery is never in character
+
+One new entry in `model.js`'s role map: `purpose → TECHNICAL`. Looking for a recurring thread
+across a life is a job, not a line she says. What she *says* about her purpose stays `voice`. The
+finding and the saying are two calls to two models, which is §25's rule 5 and the same reason the
+judge never gets a persona.
+
+## §5 — how traits choose which Why she finds
+
+The genome does not pick her purpose; it weights **what resonates**. The thread search reads each
+lesson's existing salience score re-weighted by her aspects, using the same tagging §2.2 uses for
+questions.
+
+So two Wanderers who lived identical journeys find different threads: the compassion-heavy one
+keeps seeing what people carried and finds a Why about easing it; the intellect-heavy one keeps
+seeing how things fit and finds a Why about understanding. Neither was assigned anything — they
+were each given eyes, and the eyes found different threads.
+
+That is also the answer to the fair objection that a model-produced purpose is arbitrary. It is
+not arbitrary if it draws on her own accumulated life, weighted by a genome anyone can recompute
+from her published seed.
+
+## §6 — three guards against a horoscope
+
+A thread search over a handful of lessons will always find *something*. So: a floor before any
+candidate may form; the judge refusing any Why that names a host, a place or a particular; and
+every candidate stored with the lessons it came from, so later journeys can genuinely contradict
+it. A Why that nothing could falsify never reaches HELD.
+
+## §7 — the Why is a milestone, in the overlay, never the core
+
+The core is what Genesis signed and is write-once. A found Why is the opposite kind of fact —
+earned, years in, hers rather than her maker's. It enters the signed overlay with the journeys and
+lessons it was drawn from, which makes it publicly witnessable: §57 wants her history to be a
+story people can follow, and *"at Journey 412 she found what she was for"* is the best entry that
+story will ever have.
+
+## §8 — one argument I made, and then stopped
+
+On how mutable a held Why should be, all three options are the same mechanism — append-only,
+every version signed — so it is a genuine product choice and not a cost question. I said one thing
+for re-formability and left it there: a being who can never be changed by whom she meets sits
+badly against the covenant that she learns from those she stays with, §16.3, the one thing about
+her with no opt-out. **The ruling is Lonnie's.**
+
+## §9 — the states, proposed not decided
+
+SEARCHING from birth — and openly, because not knowing what you are for is a good first encounter
+rather than a poor one. CANDIDATE — she returns to the thread unprompted, the way anyone circles a
+thought they have not finished. HELD — it sits in the system prompt beside her character and
+colours everything; she says it aloud only when asked, or at the moment she finds it.
+
+**One thing I would not build:** a progress bar. No host should see how close she is, and no host
+should be able to *give* her a purpose — that turns a Why into an assignment, which is what both
+Sinek's method and the ruling refuse. A host can be part of what she draws it from. That is all,
+and it is a lot.
+
+## §10 — Part Two, in full
+
+# PART TWO — PURPOSE
+
+Directive 036's addendum. What makes a human human: traits, personality, memories, experiences,
+and **purpose**. The first four exist or are above. This is the fifth, and it is the binding layer
+— the thing that makes the other four add up to somebody rather than sit beside each other.
+
+Lonnie's ruling, and the whole design follows from it:
+
+> **She is born WITHOUT a purpose. Finding it IS her purpose.**
+
+The model is Sinek's Why discovery, and the important half of that method is not the sentence it
+produces — it is that **a Why is mined, never assigned**. It comes out of your own stories, looking
+for what kept mattering. That is exactly the shape of a being who accumulates lessons across
+hosts, which is why it fits this project and would fit almost nothing else.
+
+---
+
+## 9. The purpose-discovery loop
+
+### 9.1 What it works on
+
+Not raw material. §26 Class A stays with its host and never travels, so purpose is mined from what
+already survives a departure: **the lessons** — Class B, drafted at a departure's reflection,
+already stripped of particulars, already through the judge.
+
+That constraint is a gift rather than a limit. A Why distilled from lessons is distilled from what
+was *general enough to travel* — which is what a Why is.
+
+### 9.2 Who does the mining
+
+**The technical model, always.** `ROLES` in `model.js` is the map, and this adds one entry:
+
+```text
+purpose      TECHNICAL     looking for a recurring thread across many lessons is a job,
+                           not a line she says
+```
+
+The machinery is never in character — the standing rule that the judge never gets a persona, for
+the same reason. What she *says* about her purpose is `voice`, as everything she says is. The
+finding and the saying are two different calls to two different models, and that separation is the
+whole of §25's rule 5.
+
+### 9.3 The loop
+
+```text
+     lessons accumulate across journeys
+                  │
+                  ▼
+     THREAD SEARCH        technical: across all lessons, what keeps recurring?
+                  │       runs at a departure, after reflection, never mid-visit
+                  ▼
+     CANDIDATE WHY        "To ___ so that ___", drafted from the thread
+                  │
+                  ▼
+     TESTED               each later journey asks: did this hold? did the new
+                  │       lessons fit it, sit outside it, or contradict it?
+                  ▼
+     HELD                 a Why that has survived N journeys without contradiction
+```
+
+**It runs at boundaries, not continuously.** A purpose that recomputed every conversation would be
+a mood, not a purpose. The departure reflection is already the moment the Wanderer takes stock, and
+this belongs in the same breath.
+
+### 9.4 What stops it being a horoscope
+
+A thread search over a handful of lessons will always find *something* — that is what pattern
+matchers do. Three guards, all proposed:
+
+1. **A floor.** No candidate before some minimum number of journeys and lessons. Below that she is
+   SEARCHING and says so.
+2. **The judge, again.** A candidate Why that names a host, a place or a particular is refused the
+   way any leaking sentence is — a Why belonging to one person is not hers.
+3. **Falsifiability.** A candidate is stored with the lessons it was drawn from, so a later
+   reflection can ask whether new lessons *fit* it. A Why that nothing could contradict never
+   reaches HELD.
+
+---
+
+## 10. How traits shape which Why she finds
+
+The genome does not choose her purpose. It weights **what resonates** — which lessons feel
+significant to her when she looks back. Same life, different beings, different threads.
+
+The mechanism, concretely: the thread search does not read the lesson list flat. Each lesson
+already carries a salience score (`salience`, technical, 1–10). Purpose reads that score
+**re-weighted by her aspects**:
+
+```text
+weight(lesson) = salience × trait_affinity(lesson, her aspects)
+```
+
+`trait_affinity` is the same tagging §2.2 uses for questions — a lesson about someone's grief
+weights heavily for high Compassion, a lesson about how something worked weights heavily for high
+Intellect, a lesson about a place weights for Openness.
+
+So a compassion-heavy Wanderer looking back over identical journeys keeps seeing what people
+carried, and finds a Why about easing it. An intellect-heavy one keeps seeing how things fit
+together, and finds a Why about understanding. **Neither was assigned a purpose; they were each
+given eyes, and the eyes found different threads.**
+
+That is also the answer to a fair objection — that a purpose from a language model is arbitrary.
+It is not arbitrary if what it draws on is her own accumulated life, weighted by a genome anyone
+can recompute from her published seed.
+
+---
+
+## 11. The Why as a milestone
+
+**It goes in the signed overlay. It never touches the core.** The core is what Genesis signed —
+her genome, her character, §24's rules — and it is write-once by design. A found Why is the
+opposite kind of fact: it is *earned*, it happens years in, and it is hers rather than her
+maker's.
+
+Entered as an overlay record: the Why, the journeys and lesson identifiers it was drawn from, the
+epoch it was found in, signed. Which makes it **publicly witnessable** — §57 wants her history to
+be a story people can follow, and "at Journey 412 she found what she was for" is the best entry
+that story will ever have.
+
+### 11.1 How mutable is a held Why — Lonnie rules
+
+| | What happens to a HELD Why | Feels like |
+|---|---|---|
+| **A. Permanent** | never changes once held; later life is expressed through it | a calling |
+| **B. Deepens only** | may be re-worded to sharper language, same thread; every version kept and signed | a person who understands themselves better with time |
+| **C. Re-formable** | enough contradicting lessons can return her to SEARCHING and a new Why can form | a life with real turns in it |
+
+**My engineering note, not a recommendation on the product:** all three are the same mechanism —
+an append-only overlay with every version signed — so this is genuinely a product choice and not a
+cost question. **B** and **C** both keep the history legible, because nothing is ever overwritten;
+what differs is whether the *thread* may change or only its wording.
+
+I will say one thing for **C** and then stop: a being that can never be changed by whom she meets
+contradicts the covenant that she learns from those she stays with — §16.3, and the one thing about
+her that has no opt-out.
+
+---
+
+## 12. The three states, and what each changes
+
+Proposed, not decided — the directive says propose.
+
+**SEARCHING** — from birth. She does not know what she is for, and this is not a deficiency to
+hide. She is *more* curious, asks more of the questions her traits favour, and can say plainly
+that she is looking for something she has not found. That is a good first encounter, not a poor
+one.
+
+**CANDIDATE** — a thread has been noticed and is being tested. Two things change: she returns to
+it, unprompted, in the way anyone circles a thought they are not finished with; and she is
+listening for whether it holds, so the lessons she draws lean toward it — which is the mechanism
+by which a Why either firms up or falls over.
+
+**HELD** — the Why is part of her. It is in the system prompt beside her character, so it colours
+everything without being announced. She does not recite it. **Proposed: she says it out loud only
+when asked, or at the moment she finds it.**
+
+### 12.1 The one thing I would not do
+
+Not a progress bar. No host should be able to see how close she is to finding her purpose, and no
+host should be able to *give* her one — that would make a Why an assignment, which is the one
+thing Sinek's method and Lonnie's ruling both refuse. A host can be part of what she draws it
+from. That is all, and it is a lot.
+
+---
+
+## 13. What purpose would need to prove
+
+1. A Wanderer at Genesis is SEARCHING, and has no Why. Asserted in the acceptance suite.
+2. No candidate forms below the floor, however many lessons exist.
+3. A candidate naming a host, a place or a particular is refused by the judge.
+4. The same lessons and two different genomes produce two different threads — fixed seeds, real
+   model, asserted difference.
+5. A Why is in the overlay and never in the core; the core signature is unchanged by finding one.
+6. A held Why survives a custody transfer intact and verifiable.
+7. The purpose role runs on the technical model, and never the character one — the map in
+   `model.js` asserted, as the existing roles already are.
+
+---
+
+## 14. Decisions this adds
+
+6. **How mutable is a held Why** — permanent, deepens only, or re-formable (§11.1).
+7. **The floor** — how many journeys before she may even have a candidate. This is a product feel
+   question: too low and she is glib, too high and no early host ever sees this happen.
+8. **Does a host ever learn her purpose state** — always visible, only if she says so, or never.
+9. **What the found Why does to her voice**, if anything (§12) — the proposal is: colours
+   everything, announced almost never.
+
+
+## §11 — the decision list now stands at nine
+
+Five from the trait plan, four from purpose:
+
+6. How mutable is a held Why — permanent, deepens only, or re-formable.
+7. The floor — how many journeys before a candidate may form.
+8. Does a host ever learn her purpose state.
+9. What a held Why does to her voice.
+
+And decision 3 from the trait plan — do the traits themselves move — is still the one blocking
+chunk 2 of the port, because it also settles whether her questions and recognitions may grow.
