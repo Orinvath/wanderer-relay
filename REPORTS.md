@@ -7647,3 +7647,16 @@ Numbered as they would join Phase 3's suite; no line is written yet.
   answer to "remember this person", and Phase 3's answer is `client/src/host-memory.js`.
 - Do **not** port `generatePersona()`. A model authoring the Wanderer's character is precisely what
   §66.18 and Directive 013 §16.6 reserve for Lonnie.
+
+## §9 — the 034 correction, which arrived mid-run
+
+`d05410f` landed on the relay while this report was being written: *"You built the portal's character
+system with Lonnie — you already know every piece of it. Skip the study; step 1 is unnecessary."*
+
+Noted, and it changes nothing about what is delivered. I had already read the files by the time it
+arrived, and I would not undo that — the reading turned up three things I would not have written
+from memory: that `Somewhere/src` is one live tree among dozens of dated snapshots that each carry
+their own `personas.js`; that `core` is write-once at the storage layer and collides with §23 (§4);
+and that Spirale exists in three non-identical copies, one of which has a real person's private
+memory appended to it (§5). The plan is the same plan; it is just grounded in the current files
+rather than in what the tree looked like when it was built.
