@@ -7765,3 +7765,70 @@ is scripted; and whether she gets the instinct layer.
 Chunk 5 — vision, speech energy, hearing — is client-side. It needs a client that can hear and see,
 and the Wanderer's client is Phase 4. I will not be able to finish the port inside the server; the
 last chunk lands wherever the real client does.
+
+
+---
+
+# DIRECTIVE 035 ADDENDUM — DONE. The portal is read-only, and is no longer a dependency either.
+
+## §1 — commit before changes
+
+CC-Wanderer clean at `c0d5b87` before anything was touched. This work is `0450955`.
+
+## §2 — the portal was already untouched, and is verified so
+
+`git status` in `/home/nobara-user/chamber` is empty and its HEAD is `3efee2b` — the same commit
+it sat at before chunk 1 and after it. Nothing in the port has ever written there. Chunk 1 read
+one file, `personas/Spirale.md`, and read is all it did.
+
+## §3 — what changed, and why it is more than obedience
+
+Read-only was already true. What was NOT true is that the port did not **depend** on the portal:
+the character suite opened `personas/Spirale.md` from the chamber tree every time it ran. That is
+a read, so it was permitted — but it meant this project could not stand up on a machine without
+the portal on it, and archiving or moving the portal would have broken the suite.
+
+So the addendum's own instruction is followed literally: **copy what you need in.**
+
+- `characters/Spirale.md` — her file, copied byte for byte. `md5` matches the portal's original.
+- `characters/PROVENANCE.md` — where she came from, when, and that she is the CLEAN copy; the
+  `data/wisp.personas.json` copy with real private memory in it is named as the one that must
+  never be brought over.
+- The suite reads our copy. **Nothing in `server/` or `client/` reads from the portal at runtime
+  or at test time**, and line 2 of the character suite asserts that as a test rather than leaving
+  it as a promise.
+
+The portal could be archived tomorrow and nothing here would notice.
+
+## §4 — the standing rule is recorded where it binds
+
+Added to `HANDOFF.md`, at the top of the standing rules, so it is read at the start of every future
+directive rather than living only in the directive that created it:
+
+> THE PORTAL IS NEVER TOUCHED. /home/nobara-user/chamber and everything under it is never
+> modified, moved, deleted or written to — not for any directive, any fix, any reason. Read and
+> copy only.
+
+## §5 — the suite
+
+The character suite is 18 lines now — the new one is the assertion that the port has no portal
+dependency. Everything green:
+
+```text
+  PHASE 0    passed      custody, leases, epochs
+  PHASE 1    passed      accounts, passkeys, recovery
+  PHASE 2    passed      authenticity, real EAS on Anvil
+  PHASE 3    passed      memory, privacy, the self-hosted model
+  CHARACTER  passed      her character, signed into the core
+  TESTNET    passed      W-001 on Ethereum Sepolia
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+Portal re-checked after the commit: still clean, still `3efee2b`.
+
+## §6 — still waiting on Lonnie, unchanged from the last report
+
+Chunk 2 (the overlay) stays blocked on one question: **may her questions and recognitions grow?**
+Frozen, grows-through-the-moderation-screen, or grows freely. She is frozen today, so silence
+decides it by default — which is why it is being asked rather than built around.
