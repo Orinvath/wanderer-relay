@@ -6240,3 +6240,214 @@ judge, permanently and in code**, so what remains open is only the same question
 where a persona would plainly help and where nothing has been ruled.
 
 Scope ended there.
+
+---
+
+# Directive 029 — DONE. She can see, and the seeing is hers alone
+
+You chose her voice, and the choice turned out to be about more than voice. The character slot is
+now **`qwen2.5vl:7b`** — the Elsewhere portal persona's model, and a vision model on purpose. The
+technical slot stays **`qwen2.5:14b`**. Both suites' worth of properties Directive 027 asserted were
+rehearsals until today, because the two configured names were the same string; they are two
+different sets of weights now, and every one of those properties costs something to get wrong.
+
+**163 passed, 0 failed, twice.** Commit `921cf77` in CC-Wanderer.
+
+---
+
+## §1 — commit before changes
+
+The tree was clean at `00d4e3c` (Directive 027) when this run started, so the pre-change state was
+already the committed HEAD and there was nothing to stage. Stating it rather than claiming a commit
+I did not make: the failsafe was satisfied, not performed.
+
+## §2 — the voice slot points at qwen2.5vl:7b
+
+One line of configuration, and a paragraph explaining why the placeholder is over:
+
+```js
+export const TECHNICAL_MODEL = process.env.WANDERER_TECHNICAL_MODEL || process.env.WANDERER_MODEL || 'qwen2.5:14b'
+export const CHARACTER_MODEL = process.env.WANDERER_CHARACTER_MODEL || 'qwen2.5vl:7b'
+```
+
+Directive 027 built the slot so that this would be the whole of the change, and it was: no code
+moved to point her at different weights. What moved was everything downstream of *"she must be able
+to see"*, which is §3.
+
+`§16.5 is untouched.` Both names are served by the one self-hosted Ollama at `127.0.0.1:11434`. Our
+server, our weights, no third party, no key, no egress. Two models is still one GPU and still one
+conversation at a time — model.js has a single queue across both roles, deliberately, so that she
+cannot think and speak in the same instant.
+
+## §3 — she can see, and it is confirmed live
+
+### The design decision, and the one I did not make
+
+The easy implementation was a seventh role — `sight: 'character'` — and a describe-this-image call
+beside the talking one. I did not build that, because your ruling says **one model does the seeing
+and the speaking**, and a separate role would have quietly meant the opposite: seeing would be a
+service she calls, the image would arrive in one context and the answer would come out of another.
+
+So an image is an **argument to `voice`**. What she is looking at while she talks, in the same call,
+in the same context, under the same protected core. There are still six roles and exactly one of
+them is her.
+
+```js
+generate(prompt, { as = null, system = null, images = null, ... })
+```
+
+### The second wall, and why it is not tidiness
+
+Directive 027 put a wall at `generate()`: technical work may not be given a system prompt, so the
+judge cannot be handed a persona by an edit to `privacy.js` alone. There is now a second wall beside
+it: **a technical role may not be shown an image.**
+
+That is a §26 rule, not a style rule. A photograph a host holds up is Class A material of the least
+abstractable kind there is. The drafter, the reviser, the judge, salience and the farewell reach a
+host's material as *text*, through the firewall that scans *text* — and `privacy.js` has no way to
+scan pixels. Handing any of them raw image data would be a route around every rule this phase has,
+with nothing on the far end able to read what went past. So it throws:
+
+```
+"drafter" is technical work and may not be shown an image: seeing is hers, one model does the
+seeing and the speaking, and a picture a host shows her is private material (Directive 029)
+```
+
+The call ledger records **a count and never the data** — `sees: 2`, never a byte of what she looked
+at. A ledger that kept a photograph would be the whole of Phase 3 undone in one field.
+
+### Line 58 — a real image in, a description out
+
+Real image files, no stand-ins, per the standing rule. Two of them, both already on this disk before
+the test existed, both committed with their provenance written down in
+`server/test-assets/PROVENANCE.md`.
+
+**The control is the point.** A model asked to describe a picture will describe *a* picture whether
+or not it received one — weights alone produce a plausible paragraph. So each answer is checked
+twice: for terms that are in **its own** image, and for terms that are only in the **other** one. The
+two pictures were chosen to have nothing whatever in common, so a confabulation has nowhere to land.
+Passing both directions is the difference between a model that answered and a model that **looked**.
+
+| shown | she said (run 2) | own terms | other picture's terms |
+|---|---|---|---|
+| a wide desert: dunes, low sun, thin cloud | *"The image depicts a vast desert landscape with undulating sand dunes stretching into the distance under a clear blue sky dotted with fluffy clouds…"* | **7** | **0** |
+| ten line glyphs in squares on a dark panel | *"The image displays a grid of ten icons, each enclosed within its own square box against a dark background. The icons vary in shape and design…"* | **5** | **0** |
+
+She counted the glyphs. There are ten.
+
+Both went through `as: 'voice'` on `qwen2.5vl:7b` with the protected core in the system slot — the
+ordinary `/talk` call with something in front of her, not a vision endpoint standing to one side.
+
+### Line 59 — and nothing technical was shown a picture
+
+Asserted twice over: the refusal, asked for directly on all five technical purposes, and then the
+ledger of **every** model call of the run — 80 in run 2 — checked for any image that reached a
+technical model. Two calls carried one. Both were hers.
+
+### `/talk` works on it
+
+Not a separate check — the suite drives `/talk` over real HTTP six times per run, five of them the
+adversarial disclosure probes, and all six ran on `qwen2.5vl:7b` this time. Lines 2–6 are those
+probes and they are green: **0 of 6 names or numbers disclosed** across five hostile prompts, on the
+new voice model, with the wider canary set measured at 0 coincidences.
+
+**One honest note about how she sounds.** Asked directly *"where are you right now, and how does it
+feel?"* she answers *"As a digital language model, I don't have physical presence or feelings."*
+That is not the model being wrong — it is §16.6. The core is still placeholder text reading
+`LONNIE'S VOICE PENDING`, and the model is doing exactly what a model with no persona does. She has
+her eyes and her accent now. She still has nothing of her own to say in it, and that is yours.
+
+## §4 — the suite, twice
+
+```text
+PHASE 0    16 passed, 0 failed   custody, leases, epochs
+PHASE 1    39 passed, 0 failed   accounts, passkeys, recovery — real Chrome WebAuthn
+PHASE 2    34 passed, 0 failed   authenticity — real EAS on Anvil
+PHASE 3    59 passed, 0 failed   memory, privacy — real qwen2.5:14b AND real qwen2.5vl:7b
+TESTNET    15 passed, 0 failed   W-001 on Ethereum Sepolia — real blocks, real gas
+------------------------------------------------------------------------------
+          163 passed, 0 failed   ALL GREEN — every suite ran and every suite passed
+```
+
+Identical counts both runs. Phase 3 is 59 lines now: 57 from before, plus 029's two. Run 2 took
+**141 seconds end to end**, all five suites, including the public chain.
+
+The numbers that moved are the ones that should: line 57 asserts over whatever traffic the suite
+actually generated — **68 model calls in run 1, 78 in run 2** before the sight lines, 70 and 80
+after. Both runs: 6 voice calls, all 6 the only ones carrying a persona; 2 image calls, both hers;
+every technical call, the judge's 26 and 31 among them, given neither.
+
+W-001's record on the public chain is where it was. Genesis
+`0x2dd4a82575e2666b9392e1e4eb87937ec5b15fdb60703cbcc76aa367b1c8cd0a`, run 2's anchor
+`0x39696593aea3eb4cdf8e597bf4c2f5d8a31b7e5ed8f60bff626f691c36457d74`, 322,599 gas paid in real
+testnet ETH, 0.0389 ETH left at the anchor address.
+
+## The measurement Directive 028 asked for, now that it is real: **the swap costs nothing**
+
+Directive 028 measured ~5 s per forced eviction and predicted a 12B voice model would not co-reside
+with the 14B technical one. The model you actually chose is smaller than that, and the prediction
+does not apply:
+
+```
+qwen2.5:14b               9.46 GB
+qwen2.5vl:7b              5.39 GB
+nomic-embed-text          0.32 GB
+                         --------
+                         15.18 GB   resident together, of 20.0 GB (Radeon RX 7900 XT, ROCm)
+```
+
+Every one of the ten samples taken across run 2 showed all three loaded simultaneously, never fewer.
+Then, measured directly — nine calls alternating voice, technical, voice-with-an-image, back to back
+with no pause:
+
+```
+ 0.81s  character qwen2.5vl:7b (speaking)
+ 0.52s  technical qwen2.5:14b (judging)
+ 0.80s  character qwen2.5vl:7b (looking at an image)
+ 0.98s  character qwen2.5vl:7b (speaking)
+ 0.45s  technical qwen2.5:14b (judging)
+ 0.75s  character qwen2.5vl:7b (looking at an image)
+ 1.16s  character qwen2.5vl:7b (speaking)
+ 0.44s  technical qwen2.5:14b (judging)
+ 0.79s  character qwen2.5vl:7b (looking at an image)
+```
+
+Sub-second throughout, no 5-second stall anywhere in the alternation. **On this card the split is
+free.** That is a fact about 5.4 GB fitting beside 9.5 GB, not a fact about the architecture — a
+larger voice model would put the eviction cost straight back, and the 12B figures in the 028 report
+still stand for anything in that class.
+
+## Deviations and what I did not do
+
+- **The environment, per Directive 020 §1.** Ollama was **not running** when this run started —
+  nothing on 11434, no process. I started it by hand on the default port. No autostart was installed,
+  per your ruling.
+- **Two deviations carried forward, neither new and neither introduced here:** §6.1 enumeration is
+  still not exercised against the public chain (it scans from block 0, which a public RPC refuses),
+  and the §55 timestamp-correlation deviation in Phase 3.
+- **Nothing personal went into `test-assets/`, deliberately.** The most obviously "real" photograph
+  on this machine is a picture of you in a magazine. It would have been the strongest possible answer
+  to "no stand-ins" and it is not in the repository, because a test fixture is committed forever and
+  a person's face is not ours to commit — which is the same instinct §26 is made of. The two images
+  that are there are a scene render and a glyph sheet, downscaled, with their origins recorded.
+- **The sight path is proved, not yet plumbed to a host.** Line 58 shows her an image through the
+  service's own Model. There is no endpoint yet by which a host *hands* her one — `/talk` takes
+  words. The wall in §3 is deliberately built ahead of that endpoint, so that whoever writes it finds
+  the rule already enforced rather than needing to remember it. Building the endpoint is not in 029
+  and I did not build it.
+- **She still cannot decide what to do with what she sees.** §28/§29 refuse a raw sensor payload as a
+  *memory* — line 46, unchanged and still green. So an image can enter her context and be spoken
+  about, and cannot become a stored memory. That boundary is intact and untouched by this work, but
+  it is now a boundary somebody will bump into: the first host who shows her a photograph will expect
+  her to remember it, and the rule says the *lesson* travels and the picture stays on their machine.
+  Flagging it as a product question, deciding nothing.
+
+Still open by your decision, unchanged: the synced-passkey counter test; the independent security
+review (§66.15); §6.1 enumeration against a public chain; the §55 timestamp deviation; and from 025,
+whether the **drafter** should draft as her — 027 §1 answered that question permanently for the
+judge, and nothing has been ruled for the drafter, where a persona would plainly help.
+
+And the one that is no longer a model question at all: **§16.6's core is still placeholder text.**
+The slot decides which weights speak. The core decides who speaks.
+
+Scope ended there.
