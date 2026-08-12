@@ -338,3 +338,15 @@ Lonnie's rulings:
 3. Report which locally-runnable open models are the proven, commonly-used choices for persistent-character roleplay (research, don't guess) so Lonnie can choose her voice model when ready. Report only — install nothing.
 
 Commit before changes. Full suite green. Report.
+
+## Directive 028 — Fix early turn-ending, then redo 027
+
+Part A — the disease, not the symptom (third occurrence: 023, 025, now 027):
+Runs end their turn believing they will come back. Fix watch.sh (dated backup first): the prompt given to the headless run must state plainly that this is a SINGLE TURN — there is no later; work not committed and pushed to the relay this turn is lost; the final action of every run is: write REPORTS.md, commit, push, verify the push landed. Additionally: when the ALARM condition fires, the watcher re-invokes once with a recovery prompt ("your previous run completed work but delivered no report — find it in the working tree and deliver it now"), then stops. One retry, never loops.
+
+Part B — Directive 027 again (check first what already got done; the failed run may have left commits in CC-Wanderer):
+1. Judge never gets a persona — permanent.
+2. Split model roles: character model slot for her voice (/talk), technical model (qwen2.5:14b) for drafter/reviser/judge/scoring/farewell. Placeholder = same model both slots. Ollama swaps on demand — verify swap behavior works, report timing.
+3. Researched shortlist of proven local character-roleplay models for Lonnie to choose her voice from. Report only, install nothing.
+
+Full suite green. Deliver everything this turn.
