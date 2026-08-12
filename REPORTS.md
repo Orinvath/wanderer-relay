@@ -7133,3 +7133,517 @@ reading `LONNIE'S VOICE PENDING`.** The screen in front of her gate now tells th
 it the truth. She still has nothing of her own to say, and that is yours.
 
 Scope ended there.
+
+---
+
+# DIRECTIVE 034 — DONE. Her character taken apart in the portal, and the core planned around it
+
+Plan only, as instructed. `CORE_PLAN.md` is committed in CC-Wanderer as `dd41e77`. No file in
+`server/` was touched, no implementation was written, and Spirale was found on this machine — with
+one complication about *which copy of her* that is worth the paragraph it gets below.
+
+## §0 — commit before changes
+
+CC-Wanderer was clean at `5d04508` (Directive 033) when this run started, so there was nothing
+uncommitted to protect. The only new object is the plan itself.
+
+## §1 — what I read, and which tree is the live one
+
+The portal is at `/home/nobara-user/chamber/Somewhere`. It is surrounded by dozens of dated
+snapshots — `src.backup-20260729-102338-before-material-system`, `Somewhere-gemini`,
+`Somewhere-wisptest`, and more — every one of which contains its own `personas.js`. I read
+`Somewhere/src` and treated the rest as history, because a plan built on a snapshot would describe
+a character system that was replaced weeks ago.
+
+Read end to end: `personas.js`, `useChat.js`, `vision.js`, `voiceFx.js`, `piper.js`,
+`conversationLog.js`, `memoryStream.js`, `presence.js`, `arrivalScript.js`, `instinct.js`,
+`brains.js`, `speechEnergy.js`, `stt.js`, `hostedVoices.js`, and the parts of `ChatPanel.jsx` that
+run them together — which turned out to be the file that matters most, because the character system
+is not in any one module. It is in how `ChatPanel` schedules them.
+
+## §2 — the finding that shaped the plan
+
+Lonnie's premise is right, and it is stronger than it reads:
+
+> the Avatar's character is not a persona text alone — it is the portal's whole persona SYSTEM
+> working together
+
+The persona *text* is roughly a fifth of what makes her someone. Four other things carry as much
+weight, and all four ship inside the same file:
+
+- the **voice block** — a Piper voice id and seven effect numbers that go through `voiceFx.js` into
+  the Web Audio chain, and out of that same processed signal `speechEnergy.js` drives her *body*.
+  Change `reverb` and the shape of her light changes. Her voice is not a skin on top of her; it is
+  wired to how she looks while speaking.
+- the **questions** — asked on the idle loop, only into an occupied room, shuffled so none repeats
+  until all have been asked, and the answer is captured as a fact about the person.
+- the **recognitions** — the flicker when you come back. The persona's written lines are *preferred
+  over a model call*, because a canned line is instant and a generated one arrives after the moment
+  has passed. A written character is faster than a thought one, and there that is the feature.
+- the **memory note** — what she has learned about you, appended one dated line at a time, read back
+  into her system prompt under a heading that insists, in the prompt, that all of it is about *them*
+  and none of it is hers.
+
+A persona body pasted into a system prompt with none of those attached answers correctly and is
+nobody. So the Wanderer's core cannot be a paragraph in `core.js`; it has to be a document with the
+same parts, wired to runtime behaviour the way the portal wires them. That is what the plan
+proposes.
+
+## §3 — the cut, in one line each
+
+The portal keeps all of it in one editable file. The Wanderer cannot, so the file gets cut three
+ways: **core** (persona body, voice id + seven numbers, questions, recognitions — signed at Genesis,
+refused to every delta), **dynamic** (lessons, gifted sights — already built), and **neither**
+(the per-person memory note and the conversation log, which under §16.1 belong on the host's own
+machine and reach no table here).
+
+The load-bearing row is the last one. In the portal, what she remembers *about you* lives inside the
+persona file and is therefore inside her character. In the Wanderer it must not be — and the
+architecture already forbids it. Porting `storeMemory()` as it stands would undo Phase 3 in a single
+function, and the plan says so by name so that nobody ports it by reflex when the time comes.
+
+## §4 — the wall I hit, which is a real one and is not mine to knock down
+
+`store.js` keys `core` by `wanderer_id` and raises on UPDATE and on DELETE. A second version cannot
+be inserted either — the primary key collides. **The protected core, as built, is write-once and
+permanently so.**
+
+That is exactly right for §24, and it collides head-on with §23, which wants questions and preferred
+phrases to drift over years. Both cannot be true of one table. The plan lays out the three ways
+through — a frozen core with a signed *evolution overlay*; a versioned core only Genesis may append
+to; or a genuinely frozen character — and stops there, because §66.18 names "degree of personality
+evolution" as a product decision. My engineering preference, offered as a proposal and nothing more,
+is the overlay: it needs no change to the existing triggers, keeps `intact()` meaningful, and makes
+"what Genesis signed" and "what she has become" two separately verifiable things.
+
+## §5 — Spirale: found, and the copy that must not be used
+
+**Found locally.** `/home/nobara-user/chamber/Somewhere/personas/Spirale.md` — 53 lines: frontmatter
+(voice `en_US-hfc_female-medium`, pitch −1, waver 0.37, chorus 1, reverb 0.47, size 2.7, tone 1,
+air 1), four paragraphs of body, 20 questions, 10 recognitions. `personas.js` itself calls her file
+"the standard to match".
+
+She exists in three places on this machine and they are **not the same file**:
+
+| Where | State |
+|---|---|
+| `personas/Spirale.md` | clean: frontmatter + body + Questions + Recognitions, **no `## Memory`** |
+| `data/wisp.personas.json` (`p1785054846805`) | identical **plus 8 dated `## Memory` lines about the Builder** |
+| `personas/_library.json` | two earlier drafts, one a single scratch sentence |
+
+The `data/` copy has accumulated real private memory about a real person over two days in July. That
+is precisely the Class A material this phase exists to keep out of anything that travels, and it is
+sitting inside a file that looks like a persona and would be the obvious thing to copy. The plan
+names `personas/Spirale.md` as the one to use and says why. Nothing from the `data/` copy's memory
+block is in the plan, and none of it is in this report.
+
+Two things about her content that are Lonnie's and not mine: her recognition lines are quoted in the
+file (`"Hey there!"`), so the Wanderer's parser must strip quotes or she will speak punctuation; and
+several of her questions are pitched at a child, which is fine for a development persona and touches
+§42, which is open.
+
+And because she is the **development** persona: installing her does not make `voice_status` read
+"written". It becomes something like `SPIRALE (DEVELOPMENT) — LONNIE'S VOICE PENDING`, so the
+existing acceptance assertion on that field keeps meaning what it means today.
+
+## §6 — the suite
+
+No source file changed, so nothing in the suite could have changed. I ran it in full anyway, on the
+real model with Ollama up, because a plan-only run that reports a suite state without looking is the
+same claim the last several directives were spent making impossible.
+
+```text
+  PHASE 0    passed    16 passed, 0 failed     custody, leases, epochs
+  PHASE 1    passed    39 passed, 0 failed     accounts, passkeys, recovery
+  PHASE 2    passed    34 passed, 0 failed     authenticity, real EAS on Anvil
+  PHASE 3    passed    80 passed, 0 failed     memory, privacy, the self-hosted model
+  TESTNET    passed    15 passed, 0 failed     W-001 on Ethereum Sepolia
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+184 lines, all green, on the real local chain and the real public testnet, with the real model. The
+two standing deviations are unchanged and are still the ones already reported: Phase 2's measured
+public-testnet gas, and §6.1 enumeration needing a from-block before it works against a public RPC.
+Neither is touched by this directive.
+
+## §7 — what I did not do
+
+No implementation, per §4 of the directive. `core.js` is untouched, `ROLES` is untouched, Spirale is
+not installed anywhere, and the character block exists only as a proposal in the plan. The eleven
+acceptance lines the plan describes are described, not written.
+
+Five things are flagged for Lonnie rather than decided: whether her character evolves at all and by
+which of the three mechanisms; whether questions and recognitions are core or learnable (if they can
+be learned, they need a firewall of their own — a question is text she will say to a stranger, and a
+host who taught her one has put words in her mouth); which voice, literally, since the seven effect
+numbers port to any synthesizer and the Piper voice id does not; whether the arrival is scripted the
+way the portal's best moment is; and whether the instinct layer — real, built, model-free, and a
+large part of why the portal avatar feels alive — comes across at all, which is §65.J autonomy.
+
+## §8 — CORE_PLAN.md, in full
+
+# CORE_PLAN — her character, taken apart in the portal and mapped onto the Wanderer
+
+**Status: plan only.** Directive 034 §4 says plan and do not implement, so nothing in this document
+has been built and no file in `server/` was touched to write it. Everything below that describes the
+portal is a reading of code on this machine, with paths, and everything that describes the Wanderer
+is either a mapping onto code that exists today or a proposal marked as one.
+
+Read for this: `/home/nobara-user/chamber/Somewhere/src/chat/` — `personas.js`, `useChat.js`,
+`vision.js`, `voiceFx.js`, `piper.js`, `conversationLog.js`, `memoryStream.js`, `presence.js`,
+`arrivalScript.js`, `instinct.js`, `brains.js`, `speechEnergy.js`, `stt.js`, `hostedVoices.js`, and
+the wiring in `ChatPanel.jsx` that runs them together. `Somewhere/src` is the live tree; the dozens
+of `src.backup-*` and `Somewhere-*` siblings are dated snapshots and were not read as sources.
+
+---
+
+## 1. Lonnie's premise, restated, because it is the whole shape of the plan
+
+> the Avatar's character is not a persona text alone — it is the portal's whole persona SYSTEM
+> working together
+
+That is correct and it is stronger than it sounds. In the portal the persona text is roughly a fifth
+of what makes her feel like someone. Four other things carry as much: the voice block that ships in
+the same file, the questions she asks unprompted, the recognition lines she blurts when you come
+back, and the memory note she writes about you and reads back to herself. A persona body pasted into
+a system prompt with none of those attached produces something that answers correctly and is nobody.
+
+So the Wanderer's core cannot be a paragraph in `core.js`. It has to be a **document with the same
+parts**, and the parts have to be wired to runtime behaviour the way the portal wires them.
+
+---
+
+## 2. The portal's character system, part by part
+
+### 2.1 The persona file is the being — one file, five parts
+
+`personas.js:30-78`. A persona is a single `.md`:
+
+```
+---
+voice: en_US-hfc_female-medium     <- which throat speaks
+pitch/waver/chorus/reverb/size/tone/air   <- seven numbers that make it hers
+---
+
+<body>            the character, verbatim, into the system prompt
+
+## Questions      what she asks when nobody has spoken
+## Recognitions   what she blurts when you come back
+## Memory         what she has learned about the person she is with
+```
+
+`parsePersona()` splits frontmatter from body; `splitBody()` splits the body at `## headings` into
+`{ personality, questions, recognitions, memory }`. `applyPersona()` then does all of it **in one
+act** (`personas.js:102-121`): sets the voice id, clamps the seven effects into the panel's ranges,
+installs the personality as the system prompt, loads the question and recognition sets, and restores
+the memory note. Sound and character arrive together and cannot be applied apart.
+
+Two details worth carrying: unknown or out-of-range frontmatter values are **ignored or clamped**, so
+a hand-edited file cannot corrupt the runtime (`FX_RANGES` + `clamp`, `personas.js:21-25`); and
+`setPersona()` **clears the conversation** (`useChat.js:308-312`) because on a small model the
+previous character's lines outvote the new system prompt.
+
+### 2.2 The voice, which is identity and not decoration
+
+Two halves. `piper.js` synthesizes the words on the device (VITS in a dedicated worker, model cached
+in OPFS, worker recycled every 5 lines because the library leaks a session per utterance). Then
+`voiceFx.js:40-103` runs that plain WAV through a Web Audio chain built from the same seven numbers:
+detune, an LFO waver, a two-tap chorus, a convolver reverb on a synthesized impulse, a lowpass for
+softness and a high shelf for air. The **same processed output** is tapped by `speechEnergy.js`, and
+the avatar's body reads that per frame — glow, tendrils, core brightness. Her voice therefore drives
+her body directly: change `reverb` and the light changes shape.
+
+This is §54 already built: *"the voice should remain recognizable while still allowing accumulated
+subtle change"* — recognizable because seven numbers travel with her, subtle change because they are
+numbers and not a recording.
+
+### 2.3 Questions — the initiative that makes her not-a-chatbot
+
+`ChatPanel.jsx:468-476` on the idle loop: if the persona carries questions, **and** someone is
+actually present (`presence.js`, activity in the last N seconds), a coin-flip picks a question over a
+musing. `nextQuestion()` walks a shuffled order and reshuffles only when the set is exhausted
+(`personas.js:87-96`), so nothing repeats until everything has been asked. The question is pushed
+into the history as something she said (`recordAvatarLine`), **and the answer is captured**:
+`awaitingAnswer` holds the question, and whatever the person says next is written to memory as
+`asked "<q>", they said: <a>` (`ChatPanel.jsx:757-767`).
+
+The whole engagement loop is gated on presence for one reason stated in the code: no asking an empty
+room.
+
+### 2.4 Recognitions — the flicker, not the greeting
+
+`ChatPanel.jsx:625-640`. On a genuine return (away ≥10 min, was here before, latched so a mousemove
+storm cannot re-trigger it) she says one recognition line. The persona's own lines are **preferred
+over a model call** — `hasRecognitions() ? nextRecognition() : await acknowledge()` — because a
+canned line is instant and in character while a generated one takes seconds and arrives after the
+moment has passed. A written character is faster than a thought one, and here that is the feature.
+
+### 2.5 The memory note — how she remembers a person
+
+Three pieces, and every one of them is a scar from a bug the comments describe:
+
+- **When.** Not per turn. `ChatPanel.jsx:556-585` distils only after a quiet spell (25 s since the
+  last exchange, checked every 15 s), because a second model call right after a reply competed with
+  speech synthesis for the GPU and the voice audibly lagged.
+- **What.** `MEMORY_NUDGE` (`useChat.js:336-349`) shows her what she already remembers *so she does
+  not repeat it* and asks for **one new** note about the person, third person, facts first, name
+  above all, or literally `NOTHING NEW`. Anything answering in the first person is discarded by
+  regex (`useChat.js:355-361`) — she kept writing down her own feelings and burying the facts.
+- **Where.** `storeMemory()` (`personas.js:165-184`) **appends, never rewrites**: one dated line per
+  memory, prefixed `About them:` unless it already starts with a pronoun, deduped, written back into
+  the persona file's `## Memory` section and into the library so it survives a reload. The old
+  rewrite-the-block behaviour made every pass a summary of a summary and eventually leaked the
+  instruction text into her memory.
+
+Then `setMemory()` puts the **whole** accumulated note back into the live system prompt
+(`useChat.js:286-296`) under a heading that says, in the prompt itself, that every line below is
+about *them* and none of it is hers — because she had been answering as though the person's life were
+her own.
+
+### 2.6 The system prompt, assembled
+
+`systemContent()`, `useChat.js:286-296`: `identity` + `memory block` + `character rule` + `base
+rules`. `identity` is the persona body, or `REALITY_ONLY` when the persona is switched off. The
+character rule (`CHAR_ON`) contains the line that matters most for a being with senses:
+
+> your CHARACTER never overrides your SENSES: if the character would imagine one thing and your
+> senses below say another, your senses are the truth.
+
+The shipped MVP path (`CHAR_ON_MVP`, `BASE_RULES_MVP`) deliberately drops the world/body/compass
+sections — partly for speed, but explicitly so the system message stays **static** and the model
+server can cache it across turns.
+
+### 2.7 Sight, woven in rather than bolted on
+
+`vision.js` + `brains.js:211-247`. One model sees and speaks (`qwen2.5vl:7b`). The image goes to
+`/api/chat` **with a system line** telling it these are its own eyes — sent to `/api/generate` with
+no framing, a local model starts narrating at the visitor ("You find yourself..."). `cleanSight()`
+strips caption-language ("the image shows…" → the thing itself, "the viewer" → "me", "the camera" →
+"my eye"). `rememberSight()` files what was seen into the memory stream with an importance, tagged
+with where she was and which way she faced.
+
+### 2.8 The rest of the runtime character
+
+- **memoryStream.js** — Generative-Agents memory: everything experienced is stored with an
+  importance 1-10; recall scores `recency×0.3 + importance×0.4 + relevance×0.3`. Already the parent
+  of `memory.js:189-216` in this repo.
+- **instinct.js** — attention, drives (curiosity/sociability/restlessness), action. **No model
+  calls.** This is what gives her a life between questions (§21) at zero inference cost.
+- **arrivalScript.js** — the arrival is *scripted*, beat by beat, not generated, and beats with no
+  text are silent. Some moments are written, and the model is not asked to improvise them.
+- **conversationLog.js** — every line, both sides, timestamped, one file per session, and the file
+  records **who she was**: persona name, mind, model (`noteWhoSpeaks`). It never leaves the machine.
+
+---
+
+## 3. What is fixed core, what is dynamic, and what is neither
+
+The portal keeps all of it in one file that anyone can edit. The Wanderer cannot: §24 says a host may
+not permanently override protected personality foundations, and `core.js` already refuses any delta
+naming `personality`. So the portal's single file has to be cut in three.
+
+| Portal piece | Wanderer | Why |
+|---|---|---|
+| Persona body | **CORE**, signed at Genesis | §24 personality foundations; §66.18 says the persona is Lonnie's |
+| `voice:` id + 7 fx numbers | **CORE**, as data | §54: the voice serves identity and must stay recognizable |
+| `## Questions` | **CORE** seed; evolution is a product question (§4.4) | §23 lists *questions* under MIND as mutable; §66.18 reserves "degree of personality evolution" |
+| `## Recognitions` | **CORE** seed, same question | as above |
+| `## Memory` (about a person) | **NOT core, and not travelling** — host-side | §16.1: the raw material is the host's. This is `client/src/host-memory.js` |
+| memoryStream lessons | **DYNAMIC**, Class B, `memories` table | already built |
+| gifted sights | **DYNAMIC**, Class C | already built, `sight.js` |
+| conversation log | **host-side only** | §27, and the portal already treats it that way |
+| instinct / drives / arrival script | **later phase** — behaviour, not core text | §21; flagged, not planned here |
+
+The load-bearing line of that table is row 5. In the portal, the thing she remembers *about you*
+lives inside the persona file and is therefore inside her character. **In the Wanderer it must not
+be**, and the architecture already forbids it: `mind.js` keeps host words in an in-memory `Encounter`
+that is never serialised, and `memory.js` has no private store to import. The portal's `## Memory`
+maps to the host's own machine, and what enters the Wanderer from an encounter is only what the
+firewall admits as a lesson. Porting `storeMemory()` as-is would undo Phase 3 in one function.
+
+---
+
+## 4. The core document, proposed
+
+### 4.1 Shape
+
+`coreDocument()` (`core.js:41-70`) gains a `character` block beside the existing `identity` and
+`protected_rules`:
+
+```js
+character: {
+  persona:       '<the body — Lonnie\'s text>',
+  voice: { id: 'en_US-hfc_female-medium',
+           pitch: -1, waver: 0.37, chorus: 1, reverb: 0.47, size: 2.7, tone: 1, air: 1 },
+  questions:     [ ... ],
+  recognitions:  [ ... ],
+  rules: {
+    character_never_overrides_senses: true,   // §2.6's line, kept verbatim in the prompt
+    language: 'English only, plain characters',
+  },
+}
+```
+
+Everything in it is signed at Genesis with the rest of the core, travels in `assemble()`'s `core`
+field exactly as today, and is verified by `intact()` — a stranger can already ask whether her
+character is the one Genesis signed, and that answer keeps working with no new verification code.
+
+`voice_status` stays until Lonnie's own text replaces the development content (§5).
+
+### 4.2 The guard
+
+`PROTECTED` (`core.js:31-39`) gains nothing new *as a concept* — `personality` already covers this —
+but the guard is name-based, so the plan adds the new names to the same list so that a delta naming
+`persona`, `voice`, `questions`, `recognitions` or `character` is refused with the same message and
+by the same function, host or model, no filtering (`core.js:112-124`).
+
+The reason to be explicit rather than to rely on `personality`: a host delta would never say
+`personality`, it would say `questions`. A guard that only refuses the abstract noun refuses nothing
+anybody would actually send.
+
+### 4.3 Where it reaches the model
+
+Exactly one place, and it is already built. `mind.js:188-217` `speak()` composes the system prompt
+from `core` and calls `generate(..., { as: 'voice' })`; `model.js:191-201` **throws** if any
+non-character role is passed a `system` prompt or an image. So:
+
+- the persona body, the questions and the recognitions enter through the `voice` role and cannot
+  enter anywhere else without the call failing;
+- the judge stays impersonal permanently (Directive 027 §1) with no new enforcement needed;
+- the drafter and reviser go on seeing the private material and never the character.
+
+Concretely, `speak()`'s system array grows the persona body where the `VOICE_PENDING` placeholder
+line sits today, plus the `character_never_overrides_senses` line, and nothing else moves.
+
+### 4.4 Questions and recognitions at runtime
+
+The portal's cycle logic (`shuffle` + `cycle`, `personas.js:87-96`) ports as-is into the service —
+it is fifteen lines, deterministic, no model call. Two Wanderer-specific rules, both from the spec
+rather than from me:
+
+- **A question is asked into an occupied room only.** The portal gates on `presence.js`; the
+  Wanderer's equivalent is an open epoch with a live session, which `wanderer.js` already knows.
+- **The answer is a host's private words.** The portal writes the answer straight into the persona
+  file. The Wanderer must route it through `observe()` into the `Encounter` like any other turn —
+  it is Class A material that happens to have been solicited.
+
+### 4.5 The immutability problem, named rather than solved
+
+`store.js:338-344` and `509-518`: `core` is keyed by `wanderer_id`, and both UPDATE and DELETE raise.
+A second version cannot be written either — the primary key collides. **The core as built is
+write-once, permanently.**
+
+That is exactly right for §24 and it collides with §23, which wants questions and preferred phrases
+to drift over years. Both cannot be true of the same table. The three ways out, none of which I may
+choose (§66.18: "degree of personality evolution" is named as a product decision):
+
+1. **Frozen core, evolving overlay.** The core is the immutable foundation; an `evolution` table
+   holds additions (new questions she picked up, phrases she now prefers), signed by the service, and
+   the prompt is core + overlay. §24 stays literally true — foundations are never overridden.
+2. **Versioned core.** `PRIMARY KEY (wanderer_id, version)`, triggers refuse UPDATE/DELETE of an
+   existing row, only the Genesis authority may append a version, the manifest records the bump.
+3. **Truly frozen.** Character never changes. §23 evolution lives entirely in memories and body.
+
+Engineering recommendation, offered as a proposal only: **(1)**. It requires no change to the
+existing triggers, keeps `intact()` meaningful, and makes "what Genesis signed" and "what she has
+become" two separately verifiable things — which is also the more interesting artwork.
+
+---
+
+## 5. Spirale, located
+
+**Found, locally, and it is the real file.**
+`/home/nobara-user/chamber/Somewhere/personas/Spirale.md` — 53 lines: frontmatter (voice
+`en_US-hfc_female-medium`, pitch −1, waver 0.37, chorus 1, reverb 0.47, size 2.7, tone 1, air 1),
+four paragraphs of body, 20 questions, 10 recognitions. This is the file `personas.js` calls "the
+standard to match" in the comment at line 11-14.
+
+Three copies exist and they are not the same, which matters:
+
+| Where | State |
+|---|---|
+| `personas/Spirale.md` | the clean file: frontmatter + body + Questions + Recognitions, **no `## Memory`** |
+| `data/wisp.personas.json` (`p1785054846805`) | identical **plus 8 dated `## Memory` lines about the Builder** |
+| `personas/_library.json` (`p1785052380239`, `p1784935281984`) | earlier drafts, one a single scratch sentence |
+
+**Use `personas/Spirale.md`, and only it.** The `data/` copy has accumulated real private memory
+about a real person ("Builder enjoys tinkering and fixing gadgets in Destin today") — that is exactly
+the Class A material this whole phase exists to keep out of a travelling core. It must not be copied
+into `core.js`, into the repo, or into any report. The clean `.md` carries none of it.
+
+Two notes on the content, neither of which is mine to act on:
+
+- The recognition lines are quoted (`"Hey there!"`) — the quotes are stripped by `oneLine`-style
+  parsing in the portal; the Wanderer's parser must do the same or she will speak punctuation.
+- Several questions are pitched at a child ("If all of the stars decided to turn into cupcakes…").
+  Fine for a development persona; §42 (children) is a live product question and this is not the file
+  to settle it in.
+
+Spirale is the **development** persona, per the directive. `voice_status` therefore does not become
+"written" when she is installed — it becomes something like `SPIRALE (DEVELOPMENT) — LONNIE'S VOICE
+PENDING`, so nothing downstream can mistake a working core for a decided one, and the acceptance
+suite's existing assertion on that field keeps its meaning.
+
+---
+
+## 6. The acceptance tests this would need
+
+Numbered as they would join Phase 3's suite; no line is written yet.
+
+1. **The character is in the core, signed.** `intact()` passes on a core containing the character
+   block; flipping one character of the persona body in the DB makes it fail.
+2. **The character travels whole.** `assemble()` hands the next host the identical block, byte for
+   byte, for every host — a character is not per-host state.
+3. **A host cannot edit her.** A delta naming `persona`, `voice`, `questions`, `recognitions` or
+   `character` is refused, with the same refusal for `source: 'model'` as for `source: 'host'`.
+4. **The core is unwritable at the storage layer.** UPDATE and DELETE on `core` still raise, and a
+   second row for the same wanderer is rejected.
+5. **Only her voice gets her character.** For each of `drafter`, `reviser`, `judge`, `salience`,
+   `farewell`: passing the character block as `system` throws. Assert on `model.ledger`
+   (`persona: true` appears only against `role: 'character'`).
+6. **She asks, and does not repeat.** All N questions are drawn before any is drawn twice; the set
+   reshuffles after exhaustion.
+7. **A question's answer is Class A.** Answering a solicited question puts the words in the
+   `Encounter` and in no table; the canary scan over the travelling context finds nothing from it.
+8. **Recognitions are instant.** A recognition line is produced with **zero** model calls
+   (`model.calls` unchanged across the call).
+9. **The voice block survives a checkpoint and a recovery** unchanged, including the seven numbers.
+10. **She is not the portal.** The travelling store contains no per-person memory note: a full
+    encounter, departure, and a new host's `assemble()` yields lessons only.
+11. **Live, on the real model** (standing no-doubles rule): `speak()` with the Spirale core produces
+    a reply in her register and in English-only plain characters, and the same call with an image
+    still answers about the image (Directive 029's path is unchanged by the core growing).
+
+---
+
+## 7. Product questions for Lonnie — decided nothing, flagging five
+
+1. **Does her character evolve at all, and how?** §4.5's three options. §66.18 names this one
+   explicitly, so it is his.
+2. **Are questions and recognitions part of the protected core, or learned?** They are the two parts
+   of the portal system that most plausibly grow with her — she could pick up a question from a host.
+   If they can be learned, they need a firewall of their own: a question is text she will say to a
+   stranger, and a host who taught her one has put words in her mouth.
+3. **Whose voice, literally?** Spirale's Piper voice is a local en_US model. The Wanderer's client is
+   Phase 4; the seven effect numbers are portable to any synthesizer, the voice **id** is not.
+4. **Is the arrival scripted?** The portal's best moment is written, not generated. §20 (arrival) and
+   §50 (departure) are the Wanderer's equivalents, and a scripted core beat is a persona decision.
+5. **The instinct layer — a life between questions (§21).** Real, built, model-free, and a large
+   piece of what makes the portal avatar feel alive. Whether the Wanderer gets drives and attention
+   is "amount of Wanderer autonomy", §65.J and §66.18, and is not proposed here.
+
+---
+
+## 8. Engineering decisions I would make, all reversible, none taken
+
+- Port the cycle/shuffle logic verbatim rather than rewriting it; it is correct and it is tested by
+  use.
+- Keep the character block as **data inside the signed core**, never as a separate file loaded at
+  runtime — the whole value of the core is that a stranger can verify it.
+- Reuse `splitBody()`'s `.md` format for authoring so Lonnie can write her in the same file format he
+  already uses in the portal, and parse it into the core document at Genesis time.
+- Do **not** port `storeMemory()`, `distillMemory()`, or the persona library. They are the portal's
+  answer to "remember this person", and Phase 3's answer is `client/src/host-memory.js`.
+- Do **not** port `generatePersona()`. A model authoring the Wanderer's character is precisely what
+  §66.18 and Directive 013 §16.6 reserve for Lonnie.
