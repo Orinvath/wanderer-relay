@@ -607,3 +607,37 @@ glows with it.
 3. Update the plans accordingly. The sign gain (29) and remaining decisions
    stay open for Lonnie.
 4. Plan updates only. Report.
+
+## Directive 046 — The ledger rebuilt on real science; standing rules added
+
+STANDING RULES (Lonnie's, permanent, project-wide, binding on the director and
+the terminal equally — added to HANDOFF.md):
+
+1. NOTHING IS INVENTED. Where documented science exists, it is used —
+   psychological mechanisms, trait structures, need models, emotion systems
+   all come from established, well-documented, peer-reviewed research, cited
+   in the plans. If no science covers a design need, that gap is stated
+   plainly and brought to Lonnie — never dressed as psychology.
+2. NO INPUT UNLESS ASKED. The director and terminal offer no opinions,
+   suggestions, or framings unless Lonnie asks for them.
+3. NO DECISIONS OF ANY KIND OR LEVEL without asking Lonnie first. Every
+   action is approved before it happens.
+
+THE LEDGER, rebuilt on Self-Determination Theory (Deci & Ryan):
+
+1. The three main stressor/flourishing dimensions ARE the three researched
+   basic psychological needs, replacing the six drafted pressures entirely:
+   AUTONOMY ("the experience of volition"; "author of your own choices")
+   COMPETENCE ("a sense of mastery, effectance and efficacy")
+   RELATEDNESS ("a sense of having caring relationships in one's life")
+   Each scored two ways per the research: SATISFACTION / FRUSTRATION
+   (per the Basic Psychological Needs Satisfaction and Frustration scale).
+2. The emotion pair: POSITIVE AFFECT / NEGATIVE AFFECT (PANAS lineage;
+   "positive emotional states like interest, joy, and trust").
+3. VERIFY against SDT primary sources (Deci & Ryan's own published work)
+   before building — confirm the titles and definitions above are faithful,
+   report any correction.
+4. Expression shifts (042): need frustration held across many journeys
+   presses aspects one way; satisfaction the other. Same slow clock.
+5. Update TRAIT_PLAN.md with citations. Update HANDOFF.md with the three
+   standing rules. Plan only. Report the rebuilt ledger.
