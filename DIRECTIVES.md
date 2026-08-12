@@ -553,3 +553,20 @@ The model is human epigenetics:
 This unblocks port chunk 2 and the trait genome build. Update TRAIT_PLAN.md,
 implement the trait genome with the expression layer per plan, full suite green,
 report same turn.
+
+## Directive 043 — Decision 13 ruled: all six forms
+
+Lonnie's ruling with the source document: Avatar_System_Blueprint.pdf (v2) is
+the single source of truth for the Avatar system. It is committed to this relay
+repo alongside this directive. All six forms are kept:
+1 Comet/Wisp (BUILT — the ported creature), 2 Rising Plume, 3 Veiled Figure,
+4 Flame-bud/Teardrop, 5 Lotus Bloom, 6 Filament Wing. Form 6 does NOT replace
+Form 1.
+
+1. Copy the blueprint from this relay repo into CC-Wanderer/spec/.
+2. Update ROE_PLAN.md: the form gene selects among all six; each form's parts
+   follow the blueprint's LOCKED architecture (Eye, Head, Body, Sparks; 5 eye
+   shapes x 5 head shapes; aesthetic law: no solid objects, all math).
+3. The blueprint's build method and traps sections are binding engineering
+   guidance for building forms 2-6.
+4. Plan update only — no form building yet. Report.
