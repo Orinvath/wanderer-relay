@@ -38,3 +38,6 @@ persona. CORE_PLAN.md, plan only, stop for approval.
 - Product decisions are Lonnie's alone. Flag, never decide.
 - Deliver reports the same turn; verify pushes land.
 - The judge never gets a persona.
+
+## Standing rule added later, same force as the others
+- /home/nobara-user/chamber and everything under it: NEVER modified, moved, deleted, or written to. Read and copy only. No directive can override this.
