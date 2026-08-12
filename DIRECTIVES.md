@@ -359,3 +359,11 @@ Lonnie's ruling: her voice model is qwen2.5vl:7b — already on this machine, th
 2. Point the voice/character slot at qwen2.5vl:7b.
 3. Verify /talk works on it, and verify the model answers a vision-format request (image in, description out) so her sight path is confirmed live before it's ever needed — a real image, no stand-ins, per standing rule.
 4. Full suite green, report, deliver this turn.
+
+## Directive 030 — Sight follows the gift rule
+
+Lonnie's ruling on the flagged product question: what she sees defaults to Class A — stays with the host, lesson travels. But a host can explicitly GIFT a sight ("look at the Grand Canyon — share this"): then the image itself becomes shared material she carries and can show onward, through the same single consent and human moderation gate as every shared gift (Directive 013 §16.8).
+
+1. Commit before changes.
+2. Implement: sight ingestion honors the existing consent mechanism — ungifted sights can be spoken about but never stored (unchanged); gifted sights enter shared memory as carried, moderated material.
+3. Full suite green, report, deliver this turn.
