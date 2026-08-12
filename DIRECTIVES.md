@@ -328,3 +328,13 @@ The 025 work is done and measured (per the run log): implementation committed, c
 2. Include §2: where the persona/protected core is and is not involved today across drafter, reviser, judge, and /talk.
 3. If §2 was never done, do it now (it is read-and-report only).
 4. Verify the push lands. If the run believes it will "come back," it will not — deliver everything in this run.
+
+## Directive 027 — Two models: character and technical
+
+Lonnie's rulings:
+
+1. The judge is never given a persona. Rule 5 stays impersonal, permanently — walls are walls.
+2. Architecture: split the model roles. Her VOICE (/talk, and eventually everything spoken as her) runs on a character model. All TECHNICAL work — drafter, reviser, judge, scoring, farewell assembly — runs on a plain instruct model, never in character. Two configured model names on the same self-hosted service; keep qwen2.5:14b as the technical model, add a separate configured slot for the character model (placeholder = same model for now, so nothing breaks before Lonnie chooses her voice model).
+3. Report which locally-runnable open models are the proven, commonly-used choices for persistent-character roleplay (research, don't guess) so Lonnie can choose her voice model when ready. Report only — install nothing.
+
+Commit before changes. Full suite green. Report.
