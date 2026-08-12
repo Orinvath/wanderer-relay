@@ -319,3 +319,12 @@ Lonnie's rulings:
 2. State plainly in the report where the persona/protected core is and is not involved today across the whole reflection pipeline (drafter, reviser, judge) and in /talk. Lonnie needs the map before deciding whether judging should happen as her rather than as a bare model.
 
 Commit before changes. Full suite green, twice. Report with the same before/after admission evidence as 024, including whether the canonical example now passes.
+
+## Directive 026 — Deliver the missing 025 report
+
+The 025 work is done and measured (per the run log): implementation committed, canonical example GENERAL, kin 0/6 refused, genuine leaks 4/4 caught. But no report reached REPORTS.md, and §2 (the persona map) is unaccounted for.
+
+1. Write the full 025 report to REPORTS.md now: the implementation, the before/after table, the two self-caught prompt corrections.
+2. Include §2: where the persona/protected core is and is not involved today across drafter, reviser, judge, and /talk.
+3. If §2 was never done, do it now (it is read-and-report only).
+4. Verify the push lands. If the run believes it will "come back," it will not — deliver everything in this run.
