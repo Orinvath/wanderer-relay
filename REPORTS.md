@@ -7832,3 +7832,338 @@ Portal re-checked after the commit: still clean, still `3efee2b`.
 Chunk 2 (the overlay) stays blocked on one question: **may her questions and recognitions grow?**
 Frozen, grows-through-the-moderation-screen, or grows freely. She is frozen today, so silence
 decides it by default — which is why it is being asked rather than built around.
+
+
+---
+
+# DIRECTIVE 036 — DONE, PLAN ONLY. TRAIT_PLAN.md, and five decisions waiting.
+
+## §1 — commit before changes
+
+CC-Wanderer clean at `0450955` before anything was touched. The plan is `6dc2b31`. Nothing in
+`server/` or `client/` changed — this is a design document and it says so in its first line.
+
+## §2 — the portal
+
+Read once, read-only: `personas.js:267`, `generatePersona()`, to ground §4 of the plan in what it
+actually does rather than what I remember. `git status` in `/home/nobara-user/chamber` is empty
+and its HEAD is unchanged. Nothing was written there.
+
+## §3 — the shape I landed on, in one line
+
+**Traits are the genome. The character document is the expressed being. The core signs both.**
+
+Chunk 1 already built the last part of that chain — a character, signed, unswappable. This plan is
+the front of it: seed → ten aspects → expression rules → the same character document. It changes
+nothing that exists; an authored Wanderer still works exactly as it does today.
+
+## §4 — the two findings that shaped it
+
+**Ten independent draws would be a mistake.** All-midpoints is nobody, which the directive says —
+but ten *uniform* draws is also nobody, because real people are not independent on these axes.
+DeYoung's aspects come in pairs that correlate around r ≈ 0.5, and throwing that away discards the
+structure that makes the instrument worth adopting. So the draw is two-stage: a domain score, then
+two aspects that each share half of it. Coherent beings rather than ten loose dials.
+
+**A normal draw makes mostly middling people.** Realistic, and forgettable, and §2 of the spec
+wants an encounter worth telling someone about. So a signature rule is proposed: every Wanderer
+guaranteed at least two aspects outside the 15th/85th percentile, redrawn deterministically until
+true. Notably curious, notably blunt, notably anxious — never merely average. **How strange they
+may be is a dial, and the dial is Lonnie's.**
+
+## §5 — the boundary at §66.18, held
+
+Four of the five expression channels — the seven voice numbers, questions, recognitions, speech
+patterns — are assembled from parts and are fully verifiable from the seed. No model touches them.
+
+The persona **body** is prose, and prose is where §66.18 lives. Three options are laid out and the
+third — model-generated at Genesis, which is what the portal does — is **not proposed**, because it
+puts model authorship inside the signed core. That is the line the directive drew and it is not
+mine to move.
+
+## §6 — the trait seed is published on purpose
+
+Genesis already makes a keypair and a private salt; neither can serve. A third value, `trait_seed`,
+made at Genesis and **published**, so anyone can recompute her ten aspects and check they are the
+ones the core claims. A trait system nobody can verify is only an assertion about her.
+
+## §7 — TRAIT_PLAN.md, in full
+
+# TRAIT_PLAN — ten aspects as genes
+
+**Status: plan only.** Directive 036 says plan and stop for approval. Nothing here is built, no
+file in `server/` was changed to write it, and every product decision is left open and marked.
+
+The premise, in Lonnie's words: the Avatar system was always meant to be **grown, not authored**.
+Spirale is a stand-in. The shipping Wanderer comes out of this.
+
+---
+
+## 0. The shape of the whole thing, in one line
+
+**Traits are the genome. The character document is the expressed being. The core signs both.**
+
+```text
+GENESIS SEED  ──►  TEN ASPECTS  ──►  EXPRESSION  ──►  CHARACTER DOCUMENT  ──►  SIGNED CORE
+ (already                (genome)      (rules,          (body, questions,       (chunk 1,
+  exists)                              deterministic)    recognitions, voice)     built)
+```
+
+Chunk 1 already built the last two boxes and proved a character can be signed and cannot be
+swapped. This plan is the first three, and it changes nothing that exists — a Wanderer minted
+with an authored character still works exactly as it does today.
+
+---
+
+## 1. Ten numbers from the Genesis seed
+
+### 1.1 The seed is already there
+
+Genesis mints a keypair and a 32-byte `state_salt`. Neither is suitable as the trait seed: the
+private key must never be an input to anything public, and the salt is deliberately never
+published (`manifest.js`). **Proposal: a third value, `trait_seed`, made at Genesis with the same
+generator, published, and signed into the core.**
+
+Published on purpose. Anyone can then recompute her ten aspects from her seed and check they are
+the ones the core claims — the same property the lineage has. A trait system nobody can verify is
+just an assertion about her.
+
+### 1.2 Why not simply draw ten uniform numbers
+
+Two reasons, and they are the whole of the design.
+
+**All-midpoints is nobody — and so is uniform.** The directive names the first. The second is
+subtler: ten independent uniform draws give a being with no shape, because real people are not
+independent on these axes. Someone high in Enthusiasm is usually high in Assertiveness; that is
+what makes them read as *a person* rather than ten dials.
+
+**DeYoung's own structure says so.** The ten aspects are two per domain and the pair correlates
+around r ≈ 0.5. Drawing them independently throws away exactly the structure that makes the
+instrument worth adopting.
+
+### 1.3 The draw, proposed
+
+Two stages, deterministic from the seed:
+
+```text
+for each of the 5 domains:
+    domain score  ~  N(0, 1)                     the family resemblance
+    for each of its 2 aspects:
+        aspect  =  0.7 · domain  +  0.7 · N(0, 1)     shared half, own half
+```
+
+The two weights give aspect-pairs the r ≈ 0.5 the literature reports, and leave each aspect its
+own character. Scores are then mapped to 0–100 by percentile, so "73 Compassion" means what it
+means on the instrument.
+
+### 1.4 And a rule that stops her being average
+
+A normal draw produces mostly middling beings. Middling is realistic and it is not memorable, and
+§2 of the spec wants an encounter worth telling someone about.
+
+**Proposal — the signature rule:** every Wanderer is guaranteed **at least two aspects outside the
+15th/85th percentile**, redrawn from the seed until true. Deterministic, verifiable, and it means
+every one of them is *notably* something — notably curious, notably blunt, notably anxious.
+
+**FLAG — this is a product decision, not mine.** How strange are they allowed to be? The rule
+above is one setting of a dial that runs from "everyone is plausible and slightly dull" to "every
+Wanderer is a caricature". Three settings to choose between: no rule (realistic, some are
+forgettable), two extremes (proposed), or a deliberately wide draw where most aspects are extreme.
+
+---
+
+## 2. How ten numbers become HER
+
+This is the part that must not be hand-waved, so each channel gets named rules.
+
+### 2.1 The seven voice numbers
+
+The most direct mapping in the system, because the portal's seven numbers are already
+psychological rather than acoustic. Proposed:
+
+| Voice number | Driven by | Reading |
+|---|---|---|
+| `pitch` | Enthusiasm ↑, Withdrawal ↓ | brightness of the voice |
+| `waver` | Volatility ↑ | an unsteady voice is an unsettled one |
+| `chorus` | Openness ↑ | thickness, several-things-at-once |
+| `reverb` | Withdrawal ↑, Assertiveness ↓ | distance; how far away she sounds |
+| `size` | Assertiveness ↑ | how much room she takes up |
+| `tone` | Politeness ↑, Volatility ↓ | softness |
+| `air` | Compassion ↑ | breath, warmth |
+
+Every result is clamped to the portal's own `FX_RANGES` — chunk 1's parser already does that, and
+the same clamp applies here, so a generated voice can never be one the synthesizer chokes on.
+
+### 2.2 Her questions
+
+Not generated free-form. **A bank of question *kinds*, each tagged with the aspects it belongs
+to**, and her ten numbers choose the mix:
+
+| Aspect | The kind of question it asks |
+|---|---|
+| Openness | imaginative, hypothetical — *if the stars turned into cupcakes…* |
+| Intellect | why and how — reaching for the mechanism |
+| Compassion | about the person: how they feel, what they carry |
+| Enthusiasm | about delight, what they love |
+| Orderliness | concrete and practical, about their day |
+| Withdrawal | tentative, oblique — asked sideways |
+| Assertiveness | direct, and sometimes challenging |
+
+Spirale's own twenty are almost entirely Openness and Compassion — which is why she reads as she
+does, and which is a useful check that the mapping describes something real.
+
+### 2.3 Her recognitions
+
+Effusiveness from Enthusiasm, warmth from Compassion, formality from Politeness, brevity from
+Withdrawal. *"HEY! You're back!"* and *"…oh. You're here."* are the same recognition at two ends
+of the same two dials.
+
+### 2.4 Speech patterns
+
+Sentence length (Withdrawal shortens), hedging (Politeness and Volatility add it), exclamation
+(Enthusiasm), formality (Orderliness), and how often she asks anything at all (Assertiveness).
+These are the parts that make her *sound* like herself between the authored lines.
+
+### 2.5 The persona body — the hard one
+
+The four channels above are assembled from parts and are verifiable. The **body text** is prose,
+and prose is where §66.18 lives.
+
+Three ways, and the choice is Lonnie's:
+
+1. **Assembled from an authored phrase bank.** He writes the fragments once — several per aspect,
+   per pole — and expression picks and orders them. Fully deterministic, verifiable from the seed,
+   no model anywhere near the core. Reads more uniform across Wanderers.
+2. **Model-drafted offline, then frozen.** A model drafts from the ten numbers, Lonnie reads it,
+   and what he approves is signed. The model never writes into the core; it writes a proposal for
+   a human. Best prose, needs him in the loop for every Wanderer.
+3. **Model-generated at Genesis.** What the portal does. **Not proposed** — it puts model
+   authorship inside the signed core, which is exactly what §66.18 and the directive's own
+   boundary refuse.
+
+**Recommended: 1 for the scaffolding, 2 for the shipping being.** Assembly proves the pipeline end
+to end with nobody's judgment in it; his review is what makes an actual character.
+
+---
+
+## 3. Do the traits themselves ever move?
+
+The overlay from CORE_PLAN is the mechanism either way. The question is what it is allowed to
+carry, and it is a question about what she IS.
+
+| | What is fixed | What moves | Feels like |
+|---|---|---|---|
+| **A. Genome fixed, expression drifts** | the ten numbers, signed at Genesis, for ever | how they show — vocabulary, which questions surface, phrasing | a person whose nature is constant and whose manner matures |
+| **B. Bounded drift** | the seed and the birth numbers, both still verifiable | aspects may move within ±N points over many hosts | a person genuinely changed by who they meet |
+| **C. Free drift** | only the seed | anything | continuity of identity becomes hard to argue |
+
+**My engineering preference, offered as one and nothing more: A.** It keeps "what Genesis signed"
+checkable for ever, it gives §23 its drift without endangering §24, and it is the only one of the
+three where a stranger can still verify she is who she says she is years later. **B** is
+buildable — birth numbers signed,every movement an overlay entry, so both are provable — and is the
+more interesting product. **C** I would argue against, and it is still not my call.
+
+**FLAG:** this is CORE_PLAN §7 question 1 arriving in a sharper form, and it is still open. It
+also subsumes the question I have been waiting on since chunk 1 — whether questions and
+recognitions may grow — because under A they cannot except as expression, and under B they can.
+
+---
+
+## 4. The portal's generator, and the line this does not cross
+
+`personas.js:267` — `generatePersona(brief)` asks a model for the body, then the voice id, then
+twenty questions, then ten recognitions, from one line of input. The **idea** is exactly right and
+is the ancestor of this whole plan: *very little input, a whole character out*.
+
+What changes is the input and the authority.
+
+| | Portal | Wanderer |
+|---|---|---|
+| Input | a sentence a person typed | ten numbers from a published seed |
+| Author | the model | expression rules, and Lonnie for prose |
+| Verifiable | no | yes — recompute from the seed |
+| Where it lives | browser storage, editable | the signed core |
+
+So: keep the lineage, drop the mechanism. The portal generates *a* character; this generates
+*that* Wanderer, and can prove it did.
+
+---
+
+## 5. The body — what is in scope now
+
+Not the geometry. What **is** in scope now is the **contract**: the ten aspects are the input to
+body generation as well as to character, and naming which aspects drive which body parameters now
+costs nothing and stops the two systems being invented separately later.
+
+Proposed contract, to be filled in when the body is built:
+
+```text
+aspects ──► tendril count / length / curl      (Openness, Enthusiasm)
+        ──► motion: darting vs drifting        (Assertiveness, Withdrawal)
+        ──► colour and glow                    (Enthusiasm, Compassion)
+        ──► steadiness of the light            (Volatility)
+        ──► which of the five Avatar types     (the dominant domain)
+```
+
+The five types and the El-Fish lineage are Phase 4 client work — the body has to be drawn
+somewhere, and there is nowhere yet. **Out of scope now; the interface is not.**
+
+---
+
+## 6. What this would need to prove, when it is built
+
+1. The same seed gives the same ten aspects, on any machine, for ever.
+2. The ten aspects are signed into the core and cannot be altered — the chunk 1 test, extended.
+3. Anyone can recompute the aspects from the published seed and get what the core claims.
+4. Two different seeds give recognisably different beings — not a statistical claim: fixed seeds,
+   asserted differences in voice numbers and question mix.
+5. The signature rule holds: no Wanderer is entirely middling.
+6. A generated voice always lands inside `FX_RANGES`.
+7. Aspect pairs correlate at roughly r ≈ 0.5 across many seeds — the draw is doing what §1.3 says.
+8. An authored character (Spirale) still works, unchanged, alongside a generated one.
+
+---
+
+## 7. Decisions waiting on Lonnie
+
+1. **How strange may they be?** §1.4 — no signature rule, two extremes, or a wide draw.
+2. **Where does the persona body come from?** §2.5 — assembled from his phrase bank, or
+   model-drafted and approved by him.
+3. **Do traits move?** §3 — A, B or C.
+4. **Does W-001 keep Spirale, or is she regenerated from a seed?** She is signed into the core
+   today and the core is write-once, so this is a re-mint decision, not an edit.
+5. **Ten aspects, or the five domains?** Ten is the adopted foundation and is right for expression;
+   whether a *host* ever sees ten numbers, five, or none at all is a product question about how
+   legible she should be.
+
+## 8. What I would do, all reversible, none done
+
+- Put `trait_seed` and the ten aspects in the core document beside `character`, so one signature
+  covers genome and expression together.
+- Keep expression **pure**: seed in, character document out, no clock, no randomness of its own,
+  so it can be re-run and checked.
+- Build §6.1 through §6.4 as the acceptance suite before any of the expression rules are tuned,
+  because tuning without them is guessing.
+- Leave the authored path exactly as it is. Generated and authored are two ways to fill the same
+  block, and the second must not break the first.
+
+
+## §8 — what I did not do
+
+No implementation, no schema change, no new dependency, no test. The suite is untouched and was
+last run green in full at `0450955`. The expression rules in §2 of the plan are proposals with
+numbers in them precisely so they can be argued with — none is tuned, because tuning before the
+acceptance tests in §6 exist would be guessing.
+
+## §9 — five decisions, and one of them subsumes the question I have been holding
+
+1. How strange may they be — signature rule off, at two extremes, or wider still.
+2. Where the persona body comes from — his phrase bank, or model-drafted and approved by him.
+3. Do traits move — fixed genome with drifting expression, bounded drift, or free.
+4. Does W-001 keep Spirale, or is she re-minted from a seed. The core is write-once, so this is a
+   re-mint decision rather than an edit.
+5. Ten aspects or five domains — and whether a host ever sees any numbers at all.
+
+**Decision 3 subsumes the question outstanding since chunk 1** — whether her questions and
+recognitions may grow. Under a fixed genome they cannot, except as expression; under bounded drift
+they can. Answering 3 answers both, and chunk 2 of the port is still waiting on it.
