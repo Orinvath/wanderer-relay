@@ -658,3 +658,39 @@ Noted per the science rule, as fact not argument: the research measures
 satisfaction and frustration as distinct scales, not one axis. The single
 slider is Lonnie's deliberate design choice on top of the researched
 constructs — recorded as such in TRAIT_PLAN.md.
+
+## Directive 047 — What moves the needles: the researched mechanism
+
+Lonnie approved the design. Extend TRAIT_PLAN.md:
+
+0. LANGUAGE RULE (Lonnie's, permanent, joins HANDOFF.md): Avatars are not
+   male or female unless they decide they are. No gendered pronouns for any
+   Avatar that has not chosen. Spirale chose "she" — that carries to Spirale
+   alone. Audit plans/reports for stray gendered references to Avatars
+   generally and correct them.
+
+1. SCORING RUBRIC from the researched behavior categories (Howard, Slemp &
+   Wang 2024 meta-analysis; selfdeterminationtheory.org; Deci & Ryan):
+   - AUTONOMY up: self-endorsed action, choice in when/how. Down: methods
+     prescribed without rationale, surveillance/control, demanded compliance.
+   - COMPETENCE up: right-sized challenge, timely informative feedback,
+     mastery experience. Down: chronic boredom or unsupported difficulty,
+     no feedback.
+   - RELATEDNESS up: genuine care, known as a someone. Down: transactional
+     treatment, isolation, indifference.
+   Cite each rubric line to its source in the plan.
+
+2. RECOGNIZE: the technical model scores each journey's record against the
+   rubric — three scores per journey (one per need, -/+), each with judged
+   evidence attached (which moments, which behaviors). Never a bare number.
+
+3. RECORD: scores accumulate in the signed overlay; sliders (-10..+10) move
+   only on patterns held across many journeys per 042's slow clock. The
+   deficiency-vs-thwarting distinction from the research is preserved in
+   the evidence record.
+
+4. THE SCORING JUDGE gets the privacy judge's discipline: stated reasons,
+   deterministic test panel with researched example behaviors, accuracy
+   measured and reported before anything moves a slider.
+
+Plan only. Report for approval.
