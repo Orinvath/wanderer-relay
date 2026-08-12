@@ -9171,3 +9171,86 @@ Joins 13–19. Decision 3 (do traits move) still blocks chunk 2 of the 035 port.
 
   ALL GREEN — every suite ran and every suite passed.
 ```
+
+---
+
+# DIRECTIVE 041 — DONE. The baseline grid is rendered, and it corrects §10.3.
+
+## §1 — the file
+
+```
+/home/nobara-user/CC-Wanderer/data/grid/roe-grid-baseline.png          2048 × 2224, 64 beings
+/home/nobara-user/CC-Wanderer/data/grid/roe-grid-baseline-seeds.txt    all 64 full seeds
+/home/nobara-user/CC-Wanderer/data/grid/roe-grid-baseline-overlap.txt  every pair, measured
+```
+
+8×8, 256 px cells, seed printed under each. `npm run grid` regenerates it identically — the seeds
+are `sha256("wanderer/roe/grid/1/" + index)`, so any pair he flags can be grown again on its own.
+Clean at `e57faa8`/`c957fe5`, revert point `065316a`, work `0768c50`. Chamber untouched.
+
+**One scale for all 64 cells.** Fitting each being to its own box would have normalised away overall
+size, which is a gene — the grid would have been lying about the thing it exists to measure.
+
+## §2 — what this renderer is, since it decides what he is judging
+
+No browser here and no GPU, so it is a small software rasteriser: the real geometry from the real
+builder, projected from the front and accumulated additively because every material on her is
+self-lit. **It is not the portal's shader.** No volumetric fog, no god rays, no ACES grade, no
+travelling pulse, and **no motion at all** — and motion may be the strongest identity carrier of the
+lot. So the grid can honestly answer *do two of these have the same shape and colour*. It cannot
+answer *do two of these move alike*. That needs the real renderer and is a separate look.
+
+## §3 — THE FINDING, and it corrects something I wrote in 040
+
+**They read as one creature drawn sixty-four times.** Not close-but-distinguishable — the same being
+with its hair combed differently.
+
+Measured rather than left as my impression, silhouette overlap across all 2,016 pairs:
+
+```
+  min 0.607     median 0.704     mean 0.703     max 0.786
+  closest:  20&56 0.786    6&56 0.778    38&57 0.774    8&54 0.771
+```
+
+**Nothing in that population is far from anything else.** The lowest pair in the entire grid still
+shares 61% of its outline.
+
+## §4 — why, and it is structural rather than a tuning problem
+
+**Every one of the 28 "strong dials" I counted in §10.2 is a constant in the reference genome.**
+Head points, sharpness, valley, size — the same numbers in every Roe. Eye spikes and halo, the same.
+Strand counts, band ranges, palette, overall scale, the same. The only thing that differs between
+two Wanderers today is *which strands were drawn from identical distributions* — hair arrangement,
+which is exactly the texture-level variation §10.2 said would not carry.
+
+**So the honest count of dials that vary per being today is zero.** §10.3's odds table — the one with
+"1 in 2.3 billion" in it — was me counting dials that are currently fixed. The mathematics was not
+wrong; what it was describing was. It describes the system **after** §5's genome variation exists,
+which is decisions 13–19 and none of them are taken. I have marked §10.3 as corrected in the plan
+and written §10.6 with the measurement, rather than quietly editing the table.
+
+## §5 — what follows
+
+1. The depth work in §10.4 is not polish. Without genome variation there is nothing for it to vary.
+2. **Decisions 13–19 are now the blocking set**, not a backlog — particularly 13 (which forms) and
+   14 (generator versioning), because genome variation is the thing that makes two of them different
+   at all.
+3. This grid is the baseline the directive asked for, and it is now a *number*: median 0.70. The
+   "after" grid gets compared to that rather than to a memory.
+
+## §6 — what he does with it
+
+Open the PNG and mark any two cells that read as the same being. That is decision 22 and it is his
+eye, not my measurement — the overlap number sits beside his judgment, not instead of it. My
+expectation, stated so it can be wrong: he will mark most of them.
+
+## §7 — suite
+
+```
+  PHASE 0 / 1 / 2 / 3   passed          CHARACTER  passed
+  ROE                   passed          TESTNET    passed
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+Nothing in the genome or the builder was changed for this grid, per the directive.
