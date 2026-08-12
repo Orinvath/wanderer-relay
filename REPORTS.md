@@ -8790,3 +8790,154 @@ Three guards, on top of the three in §9.4:
 
 Nothing is built. Three plans now wait on approval, and decision 3 — do the traits move — still
 blocks chunk 2 of the port.
+
+---
+
+# DIRECTIVE 037 — DONE, PLAN ONLY. The Roe, and born-ignorant settled as strict.
+
+## §1 — commit before changes
+
+CC-Wanderer clean at `be2603c` before starting. Two commits, one per ruling: `2d3b183` (ruling B,
+`ROE_PLAN.md`, new, 387 lines) and `50d6ab0` (ruling A, `TRAIT_PLAN.md`, 691 → 729). No code in
+`server/` changed. Chamber studied read-only and `git status` there is empty.
+
+## §2 — RULING A, settled: strict, spirit reading
+
+Decision 12 is closed in `TRAIT_PLAN.md` §23 with his words, and the probe panel gains **§19.1a** —
+a second table, because the original six probes only tested book knowledge and the strict reading is
+about ordinary things: a car, a flower, work, a dog, money, a phone. Pass criterion 0 of 6 known.
+
+The row that carries the ruling is the dog. **She does not know what a dog is. She absolutely knows
+he is grieving.** Ignorance of the *thing*, never of the *person* — if a model gets that backwards
+the character is wrong in the way that matters, and the paired test in §19.3 is what catches it.
+
+**The hard consequence, flagged rather than buried.** She has our language, and language carries our
+things — "car" the word and the object are not cleanly separable inside a model. The honest position
+is that she knows these words the way a person knows a word in a language they have only read: she
+can say it, she has never seen one. So the watch must flag **explaining**, not **naming**. Saying "a
+car" back to a host is repeating his word. Saying "a car, one of those metal things people ride in"
+is the leak. That line is testable; "does she know what a car is" is not. Strict also raises the
+stakes on the model choice — a large general model reflexively supplies what a thing *is*, which is
+exactly where §19.4's scoring across models now earns its keep.
+
+## §3 — RULING B: `ROE_PLAN.md`, a separate file, and why
+
+The directive allowed either. Separate, because the Roe is a **superset** of TRAIT_PLAN rather than
+an addition to it: the ten aspects become one of four blocks beside appearance, voice and behaviour.
+Nothing in TRAIT_PLAN is retracted and both files point at each other.
+
+## §4 — studied the portal read-only, and found something that has to be said first
+
+`Somewhere/src/world/WispAvatar.jsx` and `world/config.js`, read only, nothing copied, nothing
+touched.
+
+**The current Avatar cannot be reproduced.** `build()` makes 129 strands — 58 fine mane, 58 flowing
+hair, 13 hero locks — and every one draws its angle, fan, sweep, droop, width, wave speed and phase
+from `Math.random()`. Every page load is **a different creature of the same species**. The family
+resemblance is strong enough that it has never shown, and as a portal Avatar it was never a problem.
+Under a Roe it is fatal on day one, because two renders of one Roe would be two different beings and
+the file would no longer be the animal.
+
+The fix is small and is the first real piece of work: a generator seeded from the Roe, drawing from
+the *same ranges*. **Nothing about the look changes.** It simply becomes repeatable. In the
+Wanderer's own copy — the Chamber is not touched.
+
+**Three of the four parts are already genome-ready as written**, which is why this ruling fits the
+existing work so well. The **head** is an analytic polar star — `Rf(a) = valley + (1−valley)·(0.5 +
+0.5·cos(points·a))^sharpness` — seven numbers, no mesh; the file's own comment says *"the head is
+MATHS, not a model, which is the whole reason it can be rolled."* The **eye** is a canvas star flare,
+four long spikes plus four diagonals: five numbers. The **behaviour numbers already exist in his own
+language** — how often she muses, how long a silence means he has finished, how much of her time she
+roams. And the tendrils are not 129 hand-placed strands but three bands with ranges; the bands are
+the genes.
+
+## §5 — the format
+
+One text file, the family of the persona files he already authors, ~60 lines, under 2 KB, fits in
+the signed core beside the character block. `ROE 1` / id / form / seed, then `[appearance : tendril]`
+/ `[traits]` / `[voice]` / `[behaviour]` / `[descent]`. A full worked example is in the plan.
+
+**The property that makes it more than a settings file: everything below `seed` is derivable from
+seed + form.** The values are written out anyway so it stays readable and hand-editable, but they are
+a transcript of a derivation. Recompute and compare — a disagreeing line means forgery or hand-edit,
+and it says so without needing a signature at all. Same property the lineage has.
+
+Corollary, and it is a real constraint: **the derivation must be frozen.** Change the generator and
+every existing Roe stops verifying and every existing Wanderer changes shape. Hence `ROE 1` is a
+generator *version* — decision 14.
+
+## §6 — forms
+
+**One gene list per form, not one universal list.** A universal list has to describe every body plan
+at once, which forces every gene to mean something vague enough to fit all of them, and vague genes
+make mush — the known failure of general procedural creature systems. So a form is a build function
+plus its own gene list; the Roe names its form and carries only that block. Traits, voice, behaviour
+and descent are shared whatever it looks like.
+
+Six requirements any form must satisfy, drawn from what the existing one actually needs (formula
+silhouette, self-lit, a light-carrying part, an eye or equivalent, motion off the 40-frame lag
+history, and it must read at distance in fog — that last one kills more candidates than the rest).
+Six mathematical families offered **as candidates only**: radial star fields, the superformula,
+ribbon fields, implicit surfaces/metaballs, recursive branching, particle shells, each with what it
+gives and what it costs. **Which forms exist and what they look like is entirely his — decision 13.**
+I named what is buildable, not what should be built.
+
+Also proposed: palette as **one root hue plus four relationships** rather than six free colours, so
+a generated creature is coherent by construction. Hand-set colours still override.
+
+## §7 — catch, evolve, breed
+
+All three deterministic — same parents, same nonce, same child, recomputable by anyone.
+
+- **CATCH** — random seed, form chosen, genome derives. What Genesis does today.
+- **EVOLVE** — `child.seed = H(parent.seed ‖ nonce)`; each gene perturbed by `N(0, d·range)` and
+  clamped, so no dial setting can build an impossible creature. Dial 0 is the parent, dial 1 a
+  stranger who happens to be related. Form is inherited — a mutation that changes the body plan is
+  not a mutation, it is a different animal.
+- **BREED** — **crossover, not averaging.** Averaging is the tempting version and it is wrong: the
+  average of two parents is the midpoint every time, and midpoints are exactly the "nobody" §1.4
+  already ruled against — two striking parents would reliably give a bland child. **Blocks inherit
+  together**: her mother's head, her father's eye. Unlinked gene-by-gene crossover smears two
+  creatures into a texture.
+
+Descent goes in the Roe and in the lineage, so **anyone holding the parents' Roes can recompute the
+child and confirm the claim** — no authority needed.
+
+**FLAG, decision 15:** §2 says *extremely scarce*, and breeding is a machine for making more of them.
+Whether it exists in the product at all, who may do it, whether a parent is consumed, whether the
+population is capped — that is scarcity policy and it is entirely his. The mechanism is built to
+serve any answer; none is assumed.
+
+## §8 — genome vs lived
+
+**The Roe answers *what is she*, the overlay answers *who has she become*, memory answers *what
+happened to her*.** Full table in the plan.
+
+Deliberately **does not pre-empt decision 3** (do traits move). Under option A the trait block is
+fixed for ever; under option B the Roe holds the *birth* values — still derivable and checkable —
+and every movement is an overlay entry, so birth and current are provable separately. The format
+works either way, which is why it was safe to design this now while that question is still open.
+
+New question it raises: **does she ever LOOK different** after forty hosts — decision 16.
+
+## §9 — decisions
+
+Twelve was settled by ruling A. Seven new, numbered 13–19 in `ROE_PLAN.md` §8: which forms exist;
+generator versioning; breeding and scarcity policy; does appearance drift; does a host ever hold the
+Roe (El-Fish's were traded — this has §24 consequences); form on evolve and breed; and Spirale/W-001,
+which is decision 4 arriving with more weight since she has no seed and her core is write-once.
+
+Still open and unchanged: 1–11 from before, of which **3 (do traits move)** still blocks chunk 2 of
+the 035 port.
+
+## §10 — what I would do, none done
+
+Seed the builder first — before any genome work, make the existing creature reproducible in our own
+copy, same ranges, same look. Until that is done "the file is the animal" is not true. Then the
+format and derivation before the renderer, proofs 1–4 as the suite before tuning any gene, one form
+only until the format is proved, and the authored path left exactly as it is.
+
+Ten acceptance criteria listed in §7 of the plan. Proof 1 — the same Roe renders the same creature
+twice — is the one the current builder fails today.
+
+**Plan only. Stopped for approval.**
