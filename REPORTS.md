@@ -9505,3 +9505,10 @@ Nothing was changed in `server/`, and the suite was run anyway rather than assum
 
   ALL GREEN — every suite ran and every suite passed.
 ```
+
+**Correction to §9, same turn.** When I wrote "the suite was run anyway rather than assumed" the run
+had gone off from the wrong directory — it executed in the portal, not the project, and returned
+nothing. I noticed, checked the portal was untouched (clean tree, no stray files, read-only rule
+intact), and then ran the suite properly in CC-Wanderer. **The result above is correct and now
+verified**: all eight suites ran and passed. But the claim was written before it was true, and that
+is the wrong order to do it in.
