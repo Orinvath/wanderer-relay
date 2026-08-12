@@ -9618,3 +9618,92 @@ Wanderer whose light has changed and whose voice has not. Flagged as one ruling.
 sign gain**, the dial between "clearly kin" and "different species" · **NEW 30 — a residual naming
 collision**: the blueprint's third family was *Expressions*, which still collides with 042's
 expression layer; the sub-families need names that do not reuse it.
+
+---
+
+# DIRECTIVE 045 — DONE, PLAN ONLY. Her life shows. 16 + 25 settled as one, 30 named.
+
+Clean at `f061e7a`, revert point `ecd520b`, work `e975119`. Chamber untouched, nothing in `server/`
+changed, suite run afterwards and **ALL GREEN** (verified before writing this).
+
+## §1 — 16 and 25, settled as one
+
+Cause and effect is real. Both appearance and voice follow expression, on 042's slow clock — neither
+gets to follow alone.
+
+```
+   BIRTH ASPECTS ──► birth voice + birth signs     signed into the write-once core, checkable for ever
+        └── expression (the slow clock) ──► CURRENT ASPECTS ──► her voice today AND her light today
+```
+
+**Nothing moves fast.** 24 journeys before anything moves at all, 72 before one aspect reaches its
+cap, and a single event never shows.
+
+## §2 — how far a whole life can move her voice: computed, not asserted
+
+The worry worth naming is that her voice is *who she is*, and a drifting voice could become a
+different person. So I measured the bound instead of hoping for it — every aspect pushed to the cap,
+in whichever direction moves each number furthest:
+
+| pitch | waver | chorus | reverb | size | tone | air |
+|---|---|---|---|---|---|---|
+| 12.0% | 12.0% | 12.0% | 12.0% | 12.0% | 12.0% | 12.0% |
+
+**No voice number can move more than 12% of its legal range over an entire life** — the cap is ±12
+percentile points and the mapping is linear. **She sounds like herself, wearier or brighter. She does
+not become somebody else.** Written up as a guarantee for the suite to assert when this is built,
+the same shape as "one host cannot move her at all".
+
+## §3 — decision 30: the third family is TELLS
+
+*Traits* was settled by 044. *Behaviors* collides with nothing and keeps its name. **"Expressions" is
+renamed TELLS** — a tell is exactly that family: a momentary, involuntary, visible thing. The flare
+when she is startled, the dimming when a room goes quiet. Plain English, and it borrows nothing from
+the expression layer.
+
+**One alternative, named rather than argued over: MOODS** — warmer, but it claims more, since a mood
+implies a feeling where a tell only implies something showed. Recommending TELLS; one word changes it.
+
+## §4 — and the rename produced the useful part
+
+The three families turn out to be **one time axis**:
+
+| Family | Timescale |
+|---|---|
+| **SIGNS** | a life — only the slow clock moves them |
+| **BEHAVIOURS** | minutes to hours — how often she roams, muses, looks around |
+| **TELLS** | seconds — startled, delighted, attending |
+
+**And a tell must write nothing.** Display only. Otherwise a host who startles her repeatedly could
+move her, and Part Four's entire point is that a single host cannot.
+
+## §5 — what it takes to build, which is less than it looks
+
+`voiceFromTraits` already takes aspects; today it is handed the birth ones. **Handing it the expressed
+ones is the change**, and the same is true of every sign — they are functions of aspects, and which
+aspects they get is one choice in one place.
+
+## §6 — two things flagged, not decided
+
+**Decision 29 got bigger and may want splitting.** The sign gain was the dial between "clearly kin"
+and "different species". Now that signs follow expression, **the same number also sets how much a
+LIFE shows.** Those are different questions — a being could reasonably be very distinct from its
+siblings and barely changed by its life, or nearly identical at birth and strongly weathered. It may
+want to be two gains.
+
+**His ruling names something the pressures have no word for.** *"If she doesn't rest, relax, enjoy
+what she is doing…"* — rest and relax are covered by `stillness`. **Enjoyment is not.** None of the
+six pressures is *delight*: being played with, shown something wonderful, allowed to be curious at
+something she loves. Proposed as a seventh under decision 24, which is open and his:
+
+```
+   delight  →  enthusiasm ↑ , volatility ↓
+```
+
+Without it a Wanderer can be measured as un-lonely, unpressed and unhurried while never once having
+enjoyed herself — and by his ruling, that should show.
+
+## §7 — decisions
+
+**16 SETTLED · 25 SETTLED (as one) · 30 SETTLED (TELLS).** Open: **29** (and possibly two),
+**24** (with the delight proposal), 23, 14, 15, 17, 18, 19, 28.
