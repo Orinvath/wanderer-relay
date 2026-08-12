@@ -9512,3 +9512,109 @@ nothing. I noticed, checked the portal was untouched (clean tree, no stray files
 intact), and then ran the suite properly in CC-Wanderer. **The result above is correct and now
 verified**: all eight suites ran and passed. But the claim was written before it was true, and that
 is the wrong order to do it in.
+
+---
+
+# DIRECTIVE 044 — DONE, PLAN ONLY. Visible signs: one system, her light is her nature.
+
+Clean at `8754699`, revert point `5fc6fe4`, work `f061e7a`. Chamber untouched. Nothing in `server/`
+changed. Suite run afterwards and **ALL GREEN** (verified before this was written, this time).
+
+## §1 — vocabulary, settled
+
+**Trait** means one of the ten personality aspects, full stop. The blueprint's wearable visual
+properties are **VISIBLE SIGNS**, renamed in both plans. Decision 26 closed.
+
+Decision 27 closed **the interesting way: one system.** Aspects drive signs, and the direction is
+fixed — **a visible sign never has a gene of its own to be rolled independently.** It is the ten
+aspects, showing.
+
+## §2 — the mapping (TRAIT_PLAN Part Five)
+
+Nine sign channels: glow steadiness, aura reach, the eye's flare, the saccade, colour, scale, pulse,
+spark character, motion quality.
+
+| Aspect | What shows |
+|---|---|
+| **Volatility** | *unsteadiness* — glow flickers rather than holds, pulse irregular, holds short and uneven, startles more, sparks twinkle fast |
+| **Withdrawal** | *drawing in* — aura short, dimmer, smaller, roams less, colour deeper, eye looks less far |
+| **Compassion** | *warmth* — steady warm-shifted glow, soft wide halo, sparks toward gold, unhurried |
+| **Politeness** | *restraint* — every amplitude smaller, flare short and even, motion smooth |
+| **Industriousness** | *sustained motion* — rarely fully at rest, pulse continuous |
+| **Orderliness** | *regularity* — even strand distribution, even flare, metronomic pulse, narrow colour spread |
+| **Enthusiasm** | *brightness* — brighter core, longer flare spikes, faster pulse, more sparks |
+| **Assertiveness** | *reach and size* — larger, longer hero locks, eye reaches further, decisive darts |
+| **Intellect** | *attention* — long holds, studying rather than scanning, core brightens while attending |
+| **Openness** | *several things at once* — wide colour spread, more hue travel, glances wander further |
+
+**The saccade**, since the blueprint hands it over with numbers, and his own example was *a scared
+eye versus a calm eye*:
+
+| Parameter | Avatar 1 | Driven by |
+|---|---|---|
+| `EYE_LOOK` | 0.13 | Assertiveness ↑, Withdrawal ↓ |
+| `DART_SPEED` | 5.5 calm; **22 reads as scared** | Volatility ↑, Withdrawal ↑ |
+| `HOLD_MIN/MAX` | 1.2 – 5.5 s | Intellect ↑ lengthens; Volatility ↑ shortens and widens the spread |
+| `STARTLE_CHANCE` | 6% | Volatility ↑, Withdrawal ↑ |
+
+The blueprint says the *randomised* hold is what stops the eye reading as a scanning machine — so
+aspects set the **centre and the spread**, never a fixed value.
+
+## §3 — a check that passed, rather than a claim
+
+If body and soul are one system then an aspect must push her **voice** and her **light** the same
+way, or she sounds calm and looks frightened. Checked against §2.1's voice table, **written long
+before this ruling**: volatility wavers *and* flickers; withdrawal sounds far away *and* pulls in;
+assertiveness takes up room in both; compassion is breath *and* warm glow; openness is chorus *and*
+wide colour; enthusiasm is pitch *and* brightness; politeness is softness *and* restraint.
+
+**All seven line up.** Some evidence the mapping describes something real rather than being assembled
+to please.
+
+## §4 — THE PART THAT MATTERS MOST: this is the missing link for §10.6
+
+§10.6 measured the baseline grid and found 64 beings reading as one creature, because **every
+appearance dial is a constant.** But **aspects are not constants** — they are drawn per being and
+have been since 042 shipped.
+
+**So the moment a sign is driven by an aspect, appearance starts varying per being — without waiting
+on decisions 14–19.** Colour, scale, glow steadiness, flare geometry, spark character and the whole
+saccade become individual immediately.
+
+Stated carefully, because §10.3 already taught me not to count dials that do not move: this is the
+**mechanism**. How far it actually pushes two beings apart depends on a **gain** per sign, and the
+gain is his — **new decision 29**. At gain zero nothing changes; at gain one every sign spans its
+full range across the population.
+
+It is measurable the same way: re-render the grid with signs wired and compare against the baseline's
+median 0.70 overlap. **Subject to decision 28 first** — that baseline was drawn additively, against
+the blueprint's own trap, and should be re-rendered honestly before the comparison is trusted.
+
+## §5 — two weak spots, named rather than papered over
+
+**Industriousness and Orderliness are the thinnest.** Their signs are real but quiet and neither
+reads across a room, while every other aspect has a loud channel. Either they get a stronger one, or
+two of the ten simply do not show — defensible for a spirit, but it should be a choice.
+
+**And most of these channels do not exist yet.** Glow steadiness, aura reach and spark character have
+no gene block; colour is six fixed values rather than relationships. The mapping is a design for
+channels largely still to be built.
+
+## §6 — decision 16 now has a mechanism, and stays open
+
+Because signs are driven by aspects and expression moves the aspects, **a Wanderer who has lived a
+hard life LOOKS like it** — dimmer, smaller, less steady — on Part Four's slow clock: 24 journeys
+before anything moves, 72 before one aspect reaches its cap.
+
+**16 stays open.** The ruling supplies the *how*, not the *whether*.
+
+**And 16 and 25 are one question in two coats.** 25 asks whether her *voice* follows expression; 16
+asks whether her *appearance* does. If body and soul are linked, answering them differently gives a
+Wanderer whose light has changed and whose voice has not. Flagged as one ruling.
+
+## §7 — decisions
+
+**26 SETTLED** · **27 SETTLED (one system)** · **16 open, now with a mechanism** · **NEW 29 — the
+sign gain**, the dial between "clearly kin" and "different species" · **NEW 30 — a residual naming
+collision**: the blueprint's third family was *Expressions*, which still collides with 042's
+expression layer; the sub-families need names that do not reuse it.
