@@ -9054,3 +9054,120 @@ wherever she is drawn. Everything that decides what she IS is in the builder.
 
 Decision 3 (do traits move) still blocks chunk 2 of the 035 port. Decisions 13–19 block genome
 variation and therefore evolve and breed.
+
+---
+
+# DIRECTIVE 040 — DONE. Ruling 2 BUILT (any file is a seed), ruling 1 planned. Suite ALL GREEN.
+
+## §1 — commit before changes
+
+Clean at `7d4570a`, revert point `efe541c`. Ruling 2 built as `e57faa8`, ruling 1 planned as
+`c957fe5`. Chamber untouched, its tree empty. 039 was delivered, so the directive permitted building
+the any-file mapping alongside — that is what happened.
+
+## §2 — RULING 2, BUILT: any file is a seed
+
+```text
+   any bytes  ──►  SHA-256( "wanderer/roe/1/file" ‖ bytes )  ──►  seed  ──►  Roe  ──►  a being
+```
+
+**The mapping is a hash, and the reason is TOTALITY.** Every byte string on earth, including the
+empty one, has a SHA-256 — so there is no file that fails, no format to detect, nothing to validate,
+and every 32-byte seed grows a valid Roe. "Always produces a renderable being" is therefore
+structural, not defended case by case. A mapping that *read* the file — colours out of a PNG, notes
+out of a WAV — would immediately owe an answer to "what if it isn't a PNG", and that answer is this
+function with extra steps in front of it.
+
+Domain-separated, so a file's Roe-seed is not its ordinary checksum. Streamed, so any size works and
+no file is ever held in memory whole.
+
+**Ten tests, real files on this machine, no fabricated bytes**: a 571 KB photograph, an image of
+glyphs, `package.json`, the 21 KB plan, the empty file, and one byte against another. Proved: every
+file grows a being; every file a *different* being; the same file always the same one; the empty
+file still grows a whole creature; one byte of difference is a stranger; the streamed and in-memory
+doors are one mapping and not two that agree today; a file-grown Roe records that it came from a
+file; and it round-trips through the text format like any other.
+
+## §3 — RULING 1: the census, counted rather than estimated
+
+| Part | Numbers |
+|---|---|
+| band: mane / hair / hero | 28 / 22 / 22 |
+| shared strand curve | 24 |
+| head / eye / motion / palette | 7 / 5 / 9 / 6 |
+| **total** | **123** |
+
+**123 numbers today, before any depth work.** Counted from the genome, not guessed.
+
+## §4 — but the number that matters is not 123
+
+**A dial only prevents a lookalike if you can SEE it.** Most of those 123 are wave phases, sway
+frequencies, taper exponents and spark spacing — real, and invisible at three metres in fog, which
+is where she is usually seen. Counting them toward uniqueness is arithmetic that flatters itself.
+
+Split honestly, **28 carry the silhouette**: the head's points/sharpness/valley/size, the eye's
+spike count and halo, each band's strand count and the centres of fan/sweep/droop/width, the overall
+scale and flow character, and the palette's hue/spread/depth. The other 95 decide whether she feels
+alive, not whether two of them read as the same being.
+
+## §5 — the odds, with the assumption named
+
+S = strong dials (28), k = *just-noticeable* levels per dial. Distinct beings ≈ k^S.
+
+| k | distinct beings | a lookalike PAIR appears around | a new being's odds of a twin at N = 10,000 |
+|---|---|---|---|
+| 3 (pessimistic) | 2.3 × 10¹³ | 5.6 million beings | **1 in 2.3 billion** |
+| 4 | 7.2 × 10¹⁶ | 320 million | 1 in 7.2 × 10¹² |
+| 6 | 6.2 × 10²¹ | 93 billion | 1 in 6.2 × 10¹⁷ |
+
+**A Powerball jackpot is about 1 in 292 million.** So on the pessimistic row, with today's genome
+and ten thousand Wanderers alive, a new one's chance of a lookalike is about **eight times rarer
+than winning the lottery**. His target is already met — *if* k is 3 or better.
+
+**And the honest half.** k is a guess, and the model assumes the 28 are independent, which they are
+not. If in practice only the head's point count, the strand counts and the overall scale really
+register at a glance, effective S is about 6, k^S is 729, and **lookalikes turn up at around thirty
+beings.** The risk is the assumption, not the arithmetic.
+
+## §6 — so the depth must be perceptual, not numerical
+
+Seven hundred more numbers all pushing on the same silhouette buy nothing. El-Fish's ~800 attributes
+worked because fish differ in ways an eye is built to catch: proportion, fin shape, and above all
+**markings**.
+
+**The genome has no pattern axis whatsoever today** — that is the single highest-yield gap. Proposed
+per part: body gets markings (banding, speckle, around-the-body gradient, tip glow), asymmetry, band
+count as a gene, per-band twist; head gets a second family axis (lobe asymmetry, secondary ripple,
+edge treatment, convex/concave dish, tilt); eye gets pupil size, lopsidedness, flicker, colour
+distance, travel; and movement — probably the strongest identity carrier at distance, since a person
+recognises a friend by their walk before their face — gets darting-vs-drifting, dwell, how she turns,
+whether she leads with the head.
+
+## §7 — how k gets measured, because it cannot be reasoned out
+
+Render a grid of seeds; **Lonnie marks the pairs that read as the same being.** That gives k
+empirically, per part. Which two look alike is a judgment only he can make. Decision 22.
+
+## §8 — three decisions added, none taken
+
+20. **Should similar files give similar beings?** As built they do not — one pixel is a stranger. A
+    structure-preserving mapping (warm photo → warm being) is legible and charming and much weaker
+    as a uniqueness guarantee, since similar inputs would cluster. Art question, his.
+21. **The file is provable, and it cuts both ways.** Anyone holding the same file can prove it made
+    this being — **provenance** for one of his paintings, a **confirmation oracle** for a private
+    photo. Domain separation does not fix it; only a salt would, and a salt breaks "the same file
+    grows the same being", which is the whole feature. Named rather than quietly accepted.
+22. **How k is measured** — the grid of renders above.
+
+Joins 13–19. Decision 3 (do traits move) still blocks chunk 2 of the 035 port.
+
+## §9 — suite
+
+```
+  PHASE 0 / 1 / 2 / 3   passed        custody · accounts · EAS on Anvil · memory, privacy, model
+  CHARACTER             passed        her character, signed into the core
+  ROE                   passed        36 tests: seeded builder + any file as a seed
+  TESTNET               passed        W-001 on Ethereum Sepolia
+
+  ALL GREEN — every suite ran and every suite passed.
+```
