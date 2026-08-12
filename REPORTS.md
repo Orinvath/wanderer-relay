@@ -9804,3 +9804,41 @@ longer exist.
 
 **24** is answered for the *what* by research; its aspect-mapping half is the gap in §4 and is open.
 23, 29, 14, 15, 17, 18, 19, 28 unchanged.
+
+---
+
+# DIRECTIVE 046 AMENDMENT — DONE, PLAN ONLY. The slider model recorded; the rest left undefined.
+
+Revert point `5fba21d`… work `3898fd6`. Chamber untouched, nothing in `server/` changed.
+
+## §1 — recorded
+
+Three needs, **one slider each, centre 0, range −10 to +10.** Frustration moves a need negative,
+satisfaction positive; the current position drives expression, and Part Four's slow clock is
+unchanged. This replaces §41's six need numbers with three. **The affect pair is not addressed by the
+amendment and is unchanged** — positive and negative affect remain two numbers.
+
+## §2 — the science note, recorded as fact and not as argument
+
+Per standing rule 1: the research measures satisfaction and frustration as **two distinct scales**
+rather than one axis — *"the absence of psychological need satisfaction does not by definition imply
+its frustration"*, while *"the presence of need frustration does imply low need satisfaction."*
+**The single slider is Lonnie's deliberate design choice on top of the researched constructs**, and is
+written into `TRAIT_PLAN.md` §46 in exactly those terms.
+
+## §3 — undefined, and with the team
+
+**How a stay moves a slider is not defined.** I asked once; Lonnie's answer was that the team needs
+to discuss it, as none of this is defined yet. **So nothing is assumed, nothing is chosen and nothing
+is built** — §46.1 records it as open.
+
+For the record, since it came up: a **journey** in the built system is one stay with one person. The
+code allocates §34's Journey number (`host_number`) at each lease and never reuses it. So "24
+journeys" means 24 separate stays.
+
+Also unchanged from §42: **there is no published mapping from the three needs to individual Big Five
+aspects**, and none has been written.
+
+## §4 — status
+
+Holding. No further work on the ledger until the team has defined it.
