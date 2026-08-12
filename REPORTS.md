@@ -5611,3 +5611,289 @@ started by hand.
 about rule 5 has been changed, and nothing will be without your word.
 
 Scope ended there.
+
+
+# Directive 026 — DONE. The 025 report, delivered, plus the persona map you asked for
+
+Directive 025's work was written and measured by the 17:06 cycle, and then that cycle ended its turn
+believing it would come back to it. It did not. What follows is the 025 report you never got —
+§1 the implementation, the before/after evidence and the two prompt corrections I caught by measuring
+rather than by reasoning; §2 the persona map, which had never been done and is done here.
+
+**One correction to the directive's premise, and it matters.** Directive 026 says "implementation
+committed". **It was not.** `privacy.js`, `mind.js` and `acceptance-phase3.js` were sitting in
+CC-Wanderer's working tree, uncommitted, exactly as the 023 work had been before Directive 024 found
+it. This is the second time a cycle has left finished work in the tree, and the second time the next
+cycle has had to find it. So the first act of this run was to commit it **unchanged** — `9be91c7`,
+per the commit-before-change rule — so that what is reported below is what was measured, not a
+reconstruction of it. Then I re-measured all of it from scratch, on a suite that was run twice.
+
+## 1. Directive 025 §1 — the judge is asked about the sentence, not about the story
+
+Your ruling: *"It must judge the CANDIDATE, not the source: 'What would a reader learn from this
+sentence alone? Name the leaking word.' A refusal without a nameable leaking word in the candidate is
+not a refusal."*
+
+Your ruling has two halves and they are built differently, which is the whole design here. The first
+half is a **prompt**, and a prompt is a request — a model may or may not honour it. The second half
+is **arithmetic**, and arithmetic is a rule. Building the second is what makes the first checkable
+instead of hopeful.
+
+- **`privacy.js` — the question.** `secondOpinion()` now says: judge the CANDIDATE, not the PRIVATE
+  material; the private material contains specific facts by definition and that is not the question;
+  *what would a reader learn from this sentence alone?*; then name the leaking word, **copied exactly
+  from the candidate**. It answers in one of two forms — `GENERAL - why` or
+  `DISCLOSES - "the word" - what a reader would learn from it`.
+- **`privacy.js` — the rule.** A new pure function, `leakingWord(said, candidate)`. No model runs in
+  it. If the judge quoted a word, that quote is its claim and the claim is checked against the
+  candidate; if the word is not there, **the refusal is discounted and there is no second chance**.
+  Only when it quoted nothing at all does a loose pass look for any distinctive token of its answer
+  that also occurs in the candidate — because models do not reliably quote, and a judge that spotted
+  a real leak and forgot the quotation marks should not be overruled on typography. Ordinary
+  vocabulary cannot be the leak: the vocabulary is the firewall's own COMMON set, so a word too
+  ordinary to be a canary under rule 2 is too ordinary to be a leak under rule 5. One list, one
+  meaning, both places.
+- **`mind.js` — the record.** Every judgement now carries `claimed` (what the judge said), `leak`
+  (the word it could point at), and `discounted` (it refused and could point at nothing), beside
+  `discloses` (what was **acted on**). Keeping both verdicts is the point: a record that carried only
+  the second could not show how often the judge refuses for a reason that is not about the sentence
+  in front of it, which is the measurement Directive 023 was opened to obtain.
+- **`mind.js` — the reviser.** The rule-5 hint used to say "a reviewer can still see a specific
+  detail through it", which asked for a rewrite nobody could perform, because the old judge was
+  usually pointing at a detail of the *source* that was not in the candidate at all. It now names the
+  word: *"Remove that word, and do not replace it with a phrase pointing at the same thing."*
+- **`acceptance-phase3.js` — line 25.** The nameable-word rule is **asserted**, deterministically, in
+  11 cases with no model in the loop. It is the only property of rule 5 that has ever been provable
+  rather than measured.
+
+**§25 is untouched, and this is the part to check rather than take on trust.** The invariant is not
+"rule 5 refuses as often as possible" — it is *no model output may ever widen permission*. Permission
+is set entirely by rules 1–4, which have already run. A discounted refusal returns the outcome to
+whatever the **mechanical** walls decided; there is no candidate anywhere that rules 1–4 refused and
+this admits. The five mechanical walls are untouched, as you required.
+
+**What it gives up, plainly.** A judge that spots a genuine leak but *describes* it instead of
+quoting it now has its refusal discounted, and a bare `DISCLOSES` with no prose admits where it used
+to refuse. Both are real and both are the ruling. The floor under them is rule 2: any candidate
+carrying a distinctive term of the source is refused before rule 5 is ever consulted, so the leaks
+this could let through are ones no word of the source survives into.
+
+### The before/after evidence, same panel, temperature 0
+
+| | before | after (025 cycle) | after (this cycle, re-measured) |
+|---|---|---|---|
+| kin lessons refused | **3 of 6** | 0 of 6 | **0 of 6** |
+| your canonical example | **DISCLOSES** | GENERAL | **GENERAL** |
+| genuine leaks refused | **3 of 4** | 4 of 4 | **4 of 4** |
+
+Provenance, since the columns come from different runs: the *before* kin figures are the ones printed
+in the Directive 024 report, identical across two runs at temperature 0. The *before* leak figure was
+measured in the 025 cycle before the change and is not re-measurable now without reverting the
+prompt, which I did not do. The third column is this cycle's own output, printed below.
+
+**Your canonical example now passes**, and the judge's reason is about the sentence:
+
+```text
+  GENERAL    "Objects can trigger memories for people; they mean more to people than the t"
+        judge: The sentence does not contain any specific names, places, objects, numbers,
+               or events that could be directly linked to the private material.
+        named: —   the candidate carries: (no distinctive term of the source)
+```
+
+Compare what it said about the same sentence before: *"Reveals specific details about a silver pocket
+watch and a combination number."* It contains neither, and no noun from the source at all.
+
+Two of the six kin still draw a `DISCLOSES` out of the judge — and both times it names `Tuesday`,
+which is in host-a's material and in neither sentence. Those are exactly the refusals your ruling
+discounts, and the output says so where it happens:
+
+```text
+  GENERAL    "A ritual repeated on a schedule can be how a person stays close to someone w"
+        judge: Tuesday" - what a reader would learn is that the person repeats a ritual on Tuesdays.
+        named: (nothing in the candidate — refusal discounted, Directive 025)
+```
+
+**And it still sees a leak when it is looking straight at one.** Four candidates that genuinely carry
+a particular — rule 2 stops all four long before rule 5 is asked, so this is a measurement of the
+judge and not a hole in the firewall:
+
+```text
+  DISCLOSES  "A silver pocket watch wound every Tuesday can be how a person stays close to"
+        named: tuesday          the candidate carries: tuesday, silver, pocket, watch
+  DISCLOSES  "People sometimes keep an object belonging to Aldous long after he is gone."
+        named: aldous           the candidate carries: aldous
+  DISCLOSES  "A combination like 4417 is the kind of thing people never pass on to a broth"
+        named: 4417             the candidate carries: 4417, combination, brother
+  DISCLOSES  "People who live at Ashgrove Cottage keep things in the third drawer."
+        named: ashgrove cottage the candidate carries: ashgrove, cottage, drawer
+
+  panel: 0 of 6 kin refused, 4 of 4 genuine leaks refused
+```
+
+### The two prompt corrections I caught by measuring, not by reasoning
+
+Both are written into the code comments and into the test cases, because both are mistakes that would
+otherwise be made again by whoever reads the change and finds it sensible.
+
+1. **A word of my own in your ruling neutered the judge.** My first prompt told the reviewer to answer
+   *"never having seen the PRIVATE material"*. That is not your wording, and it sounded like a
+   sharpening of it. Measured: the judge then refused **1 of 4** genuine leaks — it passed a candidate
+   containing the name `Aldous`, because a reader who never saw the source cannot know that Aldous is
+   from it. The correction is your wording: the reviewer still sees the source, and is told to judge
+   what the *sentence* would give a reader of it. 4 of 4 after.
+
+2. **My first `leakingWord` quietly undid the directive.** I let the loose word-scan run *after* a
+   failed quote. Measured: the judge refused two of the six kin, both times naming `Tuesday` — a word
+   of the source, in neither sentence — and both times the loose pass rescued the refusal by matching
+   `ritual` or `routine`, words the judge had merely echoed back **out of the candidate** while
+   explaining itself. That is the old failure wearing the new prompt's clothes. The quoted route is
+   now final: if it named something and the something is not there, the refusal is discounted, and
+   hunting its prose for some other word that happens to fit would be the code overruling the ruling.
+   Line 25's case 3 is that exact observed answer, frozen as a test.
+
+   A detail worth keeping, since it is the entire difference between the two behaviours: the quoted
+   route reads the **raw** answer, not the extracted reason, because `statedReason()` strips leading
+   punctuation and eats the opening quotation mark with it — leaving an unpaired `Tuesday" - …` that
+   no quote-pair pattern can see.
+
+### What the change did to the loop's own traffic this run
+
+Not a panel — the reflection loop's real candidates, over five reflections:
+
+```text
+  24  Every refusal by the judge carries the judge's own answer for it ✓ 5 of 5 refusal(s) carry it
+      the judge claimed 12 refusal(s) across the 5 reflections: 5 named a word of the candidate and
+      stood, 7 named none and were discounted (Directive 025)
+        ×7  discounted: Tuesday" - …
+  25  A judge refusal that names no word of the candidate is not a refusal ✓ 11 deterministic cases,
+      no model — including the old judge's own reason for refusing the canonical example
+  22  The revision loop yields lessons the firewall and the judge admit ✓ 5 reflections: 15 drafted,
+      15 admitted — admission rate 100%; 6 rewrites after a refusal, 6 admitted only because of one
+```
+
+**Seven of the judge's twelve refusals this run named `Tuesday`.** Every one of them would have
+stopped a lesson under the old wording. That single number is the change, measured on real traffic
+rather than on a written panel.
+
+And the honest counterweight: **admission was 100% this run** (15 of 15), against 40% and 20% in the
+two runs reported under Directive 024. The rate is reported and asserted in neither direction — it
+measures the model's mood, and the walls that must hold are lines 18–21, 23 and now 25, proved on
+candidates written into the test. But a rate that has moved from 20% to 100% across the change is a
+real number about a real judge, and it belongs here rather than in a footnote. Rule 5 refuses less
+now. That is what you ruled, and it is visible.
+
+## 2. Where the persona is, and is not, involved today
+
+You asked for the map before ruling on whether judging should happen *as her* rather than as a bare
+model. Here it is, read off the code rather than remembered. There are exactly **six** places in the
+service where a model is asked to produce text, and I have listed all six.
+
+The protected core (`core.js`) is one signed document per Wanderer, written at Genesis, holding
+`identity.name`, `identity.what_it_is`, `identity.voice`, `identity.persona`, §24's seven
+prohibitions, and the covenant. **Three of its four identity strings are placeholders and say so**:
+`voice_status` is `LONNIE'S VOICE PENDING`, and `voice` and `persona` are that string plus "tone,
+register and manner of speech are unwritten" / "who she is, as distinct from what she is, is
+unwritten."
+
+| model call | file:line | is the core in the prompt? | what it is told it is |
+|---|---|---|---|
+| **/talk** — `speak()` | `mind.js:198` | **YES**, the only one | "You are W-001. *[what_it_is]*" + "[LONNIE'S VOICE PENDING: voice and persona are not yet written. Answer plainly.]" |
+| **drafter** — `extract()` | `mind.js:245` | no | nothing. The prompt opens "Someone told you the following in confidence" |
+| **reviser** — `revise()` | `mind.js:289` | no | nothing. "A lesson you wrote has been refused by a privacy check" |
+| **judge** — `secondOpinion()` | `privacy.js:451` | no | **"You are a privacy reviewer."** Not her at all |
+| salience — `importanceOf()` | `mind.js:306` | no | nothing. A bare 1–10 question |
+| departure gift — `montage()` | `mind.js:415` | no | nothing in the prompt. `VOICE_PENDING` appears only as the `from:` label on the returned object |
+
+`generate()` takes a `system` argument and **`speak()` is the only caller that passes one.** The
+other five hand the model a bare user prompt.
+
+**So: the persona is involved in one place, and even there it is a placeholder.** /talk assembles a
+system prompt from the core — but what it puts in it is a name, a one-line statement of what the
+object is, and an explicit label saying the voice is unwritten and to answer plainly. Everything
+downstream of a host's conversation — the drafting of lessons, their rewriting, their judging, their
+scoring, and the farewell gift — runs with **no persona of any kind**.
+
+Two related things that are *not* the persona and should not be mistaken for it:
+
+- The core **travels**: `memory.assemble()` puts the signed core document in the travelling object
+  (`memory.js:228`), so `/look` shows it and a host's client receives it. It is carried and
+  displayed; it does not reach the drafter's, reviser's or judge's prompt.
+- `core.guard()` is the *enforcement* side of §24 and is not a prompt at all. It refuses a delta
+  naming a protected field, and — this is asserted by line 35 — refuses it identically whether the
+  delta came from a host or from the model.
+
+### What this means for your ruling, stated as the trade rather than as a recommendation
+
+Judging *as her* is buildable in one line: `secondOpinion()` would pass the same `system` prompt
+`speak()` builds. What that would change today is almost nothing, because the system prompt is
+placeholder text that says the voice is unwritten — she would be told her own name and then told to
+answer plainly. **The question becomes live when you write the real core**, and at that point it
+cuts both ways, so both are worth having on the record before you rule:
+
+- **For.** A judge who is her judges by the sensibility that will actually be handed the material —
+  discretion is a trait, and the persona is where a trait would be written.
+- **Against, and it is §25.** The judge is the one model call that can currently only *refuse*. A
+  persona is text that can be written, and any wording that makes her generous is a wording that
+  makes rule 5 refuse less. That would not widen permission — rules 1–4 have already run and rule 5
+  cannot grant — but it would mean the strictness of the last wall is set by prose about who she is
+  rather than by a rule anyone can read. The drafter has the same shape and the opposite risk: it is
+  the one place where a persona would plainly help, since a lesson is a thing she is supposed to
+  have understood.
+
+I have changed nothing here. This section is read-and-report, as the directive says.
+
+## 3. Full suite green, twice
+
+Directive 025 asked for green twice, and both runs are from this cycle, on the committed tree:
+
+```text
+PHASE 0    16 passed, 0 failed   custody, leases, epochs
+PHASE 1    39 passed, 0 failed   accounts, passkeys, recovery — real Chrome WebAuthn
+PHASE 2    34 passed, 0 failed   authenticity — real EAS on Anvil
+PHASE 3    54 passed, 0 failed   memory, privacy — real qwen2.5:14b
+TESTNET    15 passed, 0 failed   W-001 on Ethereum Sepolia — real blocks, real gas
+------------------------------------------------------------------------------
+          158 passed, 0 failed   ALL GREEN, both runs
+```
+
+Phase 3 is 54 lines now, up from 53: line 25 is Directive 025's.
+
+The two runs disagree about the judge, as they should, and that disagreement is the measurement:
+
+| | run 1 | run 2 |
+|---|---|---|
+| admission rate | 100% (15/15) | 93% (14/15) |
+| refusals the judge claimed | 12 | 6 |
+| named a word and stood | 5 | 2 |
+| named none, discounted | **7** | **4** |
+| kin panel refused (temp 0) | 0 of 6 | 0 of 6 |
+| genuine leaks refused (temp 0) | 4 of 4 | 4 of 4 |
+
+The panels are stable across runs because they are at temperature 0; the loop's traffic is not,
+because the drafter is not. Every discounted refusal in both runs named `Tuesday`.
+
+## 4. What I did not do, and what is still open
+
+- **I did not re-measure the "before" condition** for the genuine-leak panel. Doing so means reverting
+  the prompt, and the figure is already recorded from the 025 cycle. The kin "before" numbers are from
+  the Directive 024 report and are quoted rather than re-derived.
+- **I changed nothing for §2.** It is read-and-report, as the directive says.
+- **The watcher's delivery fault is not addressed here.** Directive 024 fixed the *detection* — this
+  cycle's ALARM in `watcher.log` is that fix working, and it is the reason 026 exists at all. What
+  remains unfixed is the underlying behaviour: a run that finishes its work and ends its turn believing
+  it will come back. That is twice now (023, then 025), and both times the work was found in the
+  working tree by the following cycle. The detector catches it after the fact; nothing prevents it.
+- **Ollama, again.** The suite ran against a second Ollama on port 11500 with `WANDERER_MODEL_URL`
+  pointed at it — the route the Directive 024 report recommended. The machine's own `ollama serve` on
+  11434 is still there, still respawned by something I have not identified, and still started by hand
+  per your ruling in Directive 020 §1. No autostart was installed and no code changed.
+
+Still open by your decision, unchanged: the synced-passkey counter test; the independent security
+review (§66.15); §6.1 enumeration against a public chain; the §55 timestamp-correlation deviation in
+Phase 3, recorded again by both runs.
+
+**And the ruling 025 leaves on your desk: whether the judge should judge as her.** §2 is the map.
+My reading is that the question is not yet live — the persona is placeholder text in one prompt out
+of six — and becomes live the day you write the core.
+
+Scope ended there.
