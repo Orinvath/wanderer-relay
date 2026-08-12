@@ -641,3 +641,20 @@ THE LEDGER, rebuilt on Self-Determination Theory (Deci & Ryan):
    presses aspects one way; satisfaction the other. Same slow clock.
 5. Update TRAIT_PLAN.md with citations. Update HANDOFF.md with the three
    standing rules. Plan only. Report the rebuilt ledger.
+
+## Directive 046 amendment — the slider model
+
+Lonnie's design ruling: each of the three needs is ONE SLIDER, center 0,
+range -10 to +10:
+
+    AUTONOMY      -10 ---------- 0 ---------- +10
+    COMPETENCE    -10 ---------- 0 ---------- +10
+    RELATEDNESS   -10 ---------- 0 ---------- +10
+
+Frustration moves a need negative; satisfaction moves it positive. The
+current position drives expression (042's slow clock unchanged).
+
+Noted per the science rule, as fact not argument: the research measures
+satisfaction and frustration as distinct scales, not one axis. The single
+slider is Lonnie's deliberate design choice on top of the researched
+constructs — recorded as such in TRAIT_PLAN.md.
