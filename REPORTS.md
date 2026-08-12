@@ -8960,3 +8960,97 @@ genome file, with the finding that the portal's tendril body uses unseeded rando
 be reproduced today — which is the first piece of real work whenever this is approved to build.
 
 Seven new decisions flagged (13–19), none taken. Decision 3 still blocks chunk 2 of the 035 port.
+
+---
+
+# DIRECTIVE 039 — DONE, BUILT. The Roe is the dice roll, written down. Full suite ALL GREEN.
+
+## §1 — commit before changes
+
+Clean at `50d6ab0`, revert point `6028114`, the work is `7d4570a`. Chamber read to write this and
+otherwise untouched; its tree is empty.
+
+## §2 — what changed, in one line
+
+**Every random draw in creature generation now comes from the Roe's seed.** Same Roe, same being,
+every render. Nothing else changed: the ranges are the portal's ranges transcribed digit for digit,
+the draw *order* is the portal's order, the maths is the portal's maths. She is the same creature.
+She is now the same creature twice.
+
+## §3 — three files
+
+**`server/src/roe.js`** — the seeded generator and the genome. sfc32, seeded from SHA-256 of the
+seed: a handful of integer operations, so the same stream on any machine and any Node for ever, no
+dependency, and no visible structure — which matters, because the strand angles come out of it and
+a patterned generator would comb her hair into stripes. Then the **reference tendril genome**: the
+three bands (58 fine mane, 58 flowing hair, 13 hero locks) with every range as authored, the shared
+strand curve, the head's seven numbers, the eye's five, and the motion block. And the Roe file
+itself — 27 lines, 2,009 bytes, readable and hand-editable, round-trips exactly.
+
+**`server/src/creature.js`** — our copy of `buildWisp()`, with the draws seeded. **No three.js**,
+and not to dodge a dependency: a builder that needs a screen cannot be tested, and the whole point
+is being able to build her and compare her to herself. So the three things the original leans on
+are here as plain arithmetic — centripetal Catmull-Rom in three.js's own CubicPoly form, arc-length
+reparameterised sampling (parameter-spaced points visibly bunch on the curves), and sRGB→linear on
+colour set, which three.js has done since r152, so the colours interpolated here are the values the
+portal actually interpolates.
+
+**`server/src/acceptance-roe.js`** — 26 tests, real components throughout, no fixtures. Every
+assertion is the builder measured against itself or against the Roe it came from.
+
+## §4 — proof 1, asserted four ways
+
+The directive names it, so it is not one assertion:
+
+1. the same Roe, built twice, hashes the same — `db1f0989…`
+2. **61,320 vertices compared one by one**, not merely a hash; colours too; and all 871 spark
+   anchors in the same places on the same strands
+3. **a cold second Node process** builds the same creature — a build memoised inside one process
+   would have passed everything above and still been the old bug
+4. **the file is the animal** — serialize, parse back, build from the parsed file: same creature
+
+## §5 — what else it proves
+
+61,320 vertices and 871 spark anchors are **derived from the genome in the test**, not typed twice,
+so the test checks the builder against the genome rather than against a number I wrote in two
+places. Sixty seeds sweep: every vertex a real number, every creature the same size (no seed drops
+or doubles a strand), furthest vertex 4.30 — none of them flies off. The head is identical for every
+seed, because it has no draws in it. And a regression guard: **no `Math.random(` survives anywhere
+in the creature path**, so the bug `ROE_PLAN` §2 found cannot come back unnoticed. That check strips
+comments first — both files *discuss* the unseeded draw, and a test that cannot tell prose from code
+would have to be answered by deleting the explanation.
+
+## §6 — twins
+
+Nothing here asserts two beings must differ. 039 is explicit that twins are fine and that divergence
+is lived, so the suite only asserts that **one being does not drift from itself**. A different seed
+does grow a different creature, and it is noted as being of the same species — same bands, same
+61,320 vertices — which is exactly the twin case working correctly.
+
+## §7 — what is deliberately NOT in this
+
+**Genome variation between beings.** The appearance genes are the *reference* genome — the portal's
+own constants. Deriving a different genome from a seed, so two Wanderers have different bands rather
+than different draws, is `ROE_PLAN` §5 and waits on decisions 13–19. The traits, voice and behaviour
+blocks are carried through the file **untouched and marked pending**, because TRAIT_PLAN's draw is
+decision 1 and writing it would be settling it. Nothing was decided here.
+
+Also not built: the eye's canvas texture and the shaders. Those are rasterisation and belong
+wherever she is drawn. Everything that decides what she IS is in the builder.
+
+## §8 — suite
+
+```
+  PHASE 0    passed      custody, leases, epochs
+  PHASE 1    passed      accounts, passkeys, recovery
+  PHASE 2    passed      authenticity, real EAS on Anvil
+  PHASE 3    passed      memory, privacy, the self-hosted model
+  CHARACTER  passed      her character, signed into the core
+  ROE        passed      the seeded builder: same Roe, same being
+  TESTNET    passed      W-001 on Ethereum Sepolia
+
+  ALL GREEN — every suite ran and every suite passed.
+```
+
+Decision 3 (do traits move) still blocks chunk 2 of the 035 port. Decisions 13–19 block genome
+variation and therefore evolve and breed.
