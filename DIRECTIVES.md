@@ -387,3 +387,13 @@ TODO at launch: register the account, define posting cadence, connect
 the moderated shared-material pipeline as its source.
 
 Commit before change. Queue behind any run in progress.
+
+## Directive 032 — The moderator's screen
+
+Lonnie's ruling: build the review surface now. Everything gifted — text and pictures — passes human review before it travels or publishes.
+
+1. Commit before changes.
+2. Build a minimal local moderation page on the service: list the pending queue (text gifts and sights), show each item whole, approve / reject per item. Rejected items do not travel, do not publish, and the host-facing state reflects it honestly.
+3. Access: local/operator-only, consistent with the existing service-local admin pattern — no public route, no host account can reach it.
+4. Real browser verification of the full path per standing rule: gift → pending → approve on the page → travels/publishes; and gift → reject → nothing moves.
+5. Full suite green, report, deliver this turn.
