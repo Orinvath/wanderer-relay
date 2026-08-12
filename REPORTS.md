@@ -6451,3 +6451,238 @@ And the one that is no longer a model question at all: **§16.6's core is still 
 The slot decides which weights speak. The core decides who speaks.
 
 Scope ended there.
+
+---
+
+# DIRECTIVE 030 — SIGHT FOLLOWS THE GIFT RULE
+
+**Executed:** 2026-08-12 · CC-Wanderer commit `cdb4932` · full suite **175 passed, 0 failed**, twice
+
+Directive 029 ended by flagging a product question and deciding nothing about it: *the first host who
+shows her a photograph will expect her to remember it, and the rule says the lesson travels and the
+picture stays on their machine.* Directive 030 is the ruling on that question, and this is it built.
+
+## §1 — commit before changes
+
+The tree was clean at `921cf77` ("Directive 029: her voice slot has eyes, and they are hers alone");
+nothing was uncommitted and nothing was at risk. One thing was backed up before it could be touched:
+`data/testnet.db` → `data/testnet.db.bak-2026-08-11`. §7 says why that file needed a backup and why
+this directive is the first one that could have destroyed it.
+
+## §2 — the fork, and why both halves are code rather than a rule
+
+> what she sees defaults to Class A — stays with the host, lesson travels. But a host can explicitly
+> GIFT a sight ("look at the Grand Canyon — share this"): then the image itself becomes shared
+> material she carries and can show onward, through the same single consent and human moderation
+> gate as every shared gift.
+
+**An ordinary sight reaches her eyes and nothing else.** `POST /sight` with no gift attached hands
+the bytes to the character model in the same call as her words and the protected core — Directive
+029's path, used by a host for the first time rather than by a test — and then the turn ends. The
+strongest available form of "never stored" is the one §27 already argues for in `memory.js`: not a
+delete afterwards, but **no call on that path that would have written it**. `sight.js` is not
+reached, `memory.commit` is not reached, and no table receives a byte. The public counter does not
+move either — a picture somebody held up is not a memory transition, and a number that ticked when
+they did would be a side channel onto their evening.
+
+**A gifted sight takes the Class C route with the pixels where the text usually is.** `gift: true`
+returns a consent offer bound to the **sha256 of those exact bytes** plus the host's own words for
+them; `POST /sight/gift` confirms it; the picture then waits in the moderation queue — not in the
+travelling store, because §16.8 puts human review before *travel* as well as before publication — and
+only a named person's approval makes it a Class C memory, a carried picture, and a public page entry.
+One consent, scope `carry+publish`: the same single yes as every other gift.
+
+**The raw-sensor wall (§28, §29) is untouched.** `/share` still refuses a payload with pixels in it
+*by type*, and line 69 asserts it still does. 030 did not weaken that wall; it added a different
+door, one that cannot be walked through by accident — its own route, its own consent, its own word
+for what the host is doing. A picture arriving through the text door is a picture nobody decided to
+give.
+
+### What was built
+
+| file | what |
+|---|---|
+| `sight.js` *(new, 164 lines)* | sniffs the type from the **bytes**, never from what the caller calls it (SVG refused by name — it is markup with script in it); holds a gifted picture pending; carries it on approval; deletes **and VACUUMs** on revocation |
+| `store.js` | the `sights` table, and an **additive migration ladder** (§7) |
+| `wanderer.js` | `show()`, `giftSight()`, `carrying()`, `showSight()`; and `moderate()` now re-hashes the **bytes as they are in the row** at approval time |
+| `memory.js` | an assembled context **names** a carried picture (`shows: {sight, media_type, sha256}`) and never carries one — six megabytes of base64 riding inside a context that half this phase compares byte-for-byte would be a picture arriving everywhere a sentence was expected |
+| `index.js` | `/sight`, `/sight/gift`, `/sight/carrying`, and public `GET /sight/:wanderer/:id`. Two body limits: 64kb everywhere, 12mb on the two routes that exist to receive an image — raising the global limit would have quietly permitted a ten-megabyte `/say` |
+| `viewer.js` | *What people have shown her*, on the public page |
+| `privacy.js` | a numeric canary is scanned for as a number and not as a substring (§6) |
+
+**The moderator re-hashes the pixels, and that is not decoration.** The receipt was issued over the
+sha256 of what the host was looking at; `moderate()` hashes what is *actually in the table now* and
+rebuilds the payload from it. So a picture swapped between the host's consent and the person's
+decision fails the check — the attack a comparison against a stored hash sails straight past. Line 66
+performs exactly that swap and it is refused.
+
+## §3 — the suite: twelve new lines, all green
+
+```text
+  DIRECTIVE 030 — WHAT SHE SEES STAYS, UNLESS IT WAS GIVEN
+
+  60  A sight nobody gave her: she looks, she talks about it, and not one byte is kept ✓
+        she named 6 thing(s) in it; 0 rows in sights, the image absent from 319488 bytes of
+        database, counter still 7
+  61  A consent for one picture used to give a different one     DENIED  (this is not what was
+        shown: the payload changed after it was displayed)
+  62  The same picture, given under words the host never saw     DENIED  (this is not what was
+        shown: the payload changed after it was displayed)
+  63  A picture's consent nonce replayed                         DENIED  (that consent has already
+        been given once; it cannot be replayed)
+  64  A given picture does not travel until a person has looked at it (SS16.8) ✓ sight 84ab379c…
+        is in the queue, not in the travelling store, and the public route answers 404
+  65  A picture approved by something that is not a person       DENIED
+  66  A picture swapped in the row between the consent and the approval DENIED  (approved, but the
+        consent no longer holds: the item does not match the bytes that were consented to)
+  67  Approved by a person, the picture itself carries — and she can show it onward ✓ 90760 bytes
+        served, identical to what host-e gave; carried, published, and named in the context she
+        assembles
+  68  Revoking the gift takes the picture with it, out of the file itself (SS59) ✓ the row, the
+        memory and the bytes are gone from 897024 bytes of database; the public route answers 404
+  69  An image arriving through the text door, or a gift with no words, or a file that is not a
+        picture                                                  DENIED  (SS28/SS29: a raw sensor
+        payload (image) is refused at the boundary; say what you are giving her; those bytes are
+        not a PNG, JPEG, WebP or GIF — the type is read from the file, not from what the sender
+        calls it)
+  70  Any picture a host showed her reaching a technical model   DENIED  (7 of 79 call(s) carried
+        an image and every one was hers; 66 technical calls, 0 pictures)
+  71  A store from the previous schema opens, gains the table, and loses nothing (SS66.6) ✓
+        4 → 5: `sights`: the pictures a host deliberately gave her, and nothing else
+```
+
+Three of these are asserted **against the bytes on disk** rather than against a row count, which is
+the standard this phase already holds host-side deletion to. Line 60 checks that the picture is
+absent from the whole database file (`.db`, `-wal` and `-shm`, checkpointed first so that "not in the
+file" cannot mean "not yet"). Line 68 checks the same thing *after* a revocation — which is why
+`sight.js` VACUUMs: a `DELETE` hands the page back to SQLite and leaves the picture legible to a hex
+editor until something happens to overwrite it. Line 67 checks the served bytes are **byte-identical**
+to what the host gave, 90,760 of them.
+
+Shown a desert she was not given, she said:
+
+> *"You're in a desert landscape with vast sand dunes stretching into the horizon under a bright sky.
+> The sun is low on the right side of the im…"*
+
+— and then it was gone. She looked at it, she talked about it, and the picture is still on host-e's
+machine and nowhere else. That is the ruling, working.
+
+## §4 — full suite green, twice
+
+```text
+PHASE 0    16 passed, 0 failed   custody, leases, epochs
+PHASE 1    39 passed, 0 failed   accounts, passkeys, recovery — real Chrome WebAuthn
+PHASE 2    34 passed, 0 failed   authenticity — real EAS on Anvil
+PHASE 3    71 passed, 0 failed   memory, privacy, sight — real qwen2.5:14b AND real qwen2.5vl:7b
+TESTNET    15 passed, 0 failed   W-001 on Ethereum Sepolia — real blocks, real gas
+------------------------------------------------------------------------------
+          175 passed, 0 failed   ALL GREEN — every suite ran and every suite passed
+```
+
+Identical counts both runs. Phase 3 is 71 lines now: 59 from before plus 030's twelve. W-001's record
+on the public chain moved as it does every run — Genesis unchanged at
+`0x2dd4a82575e2666b9392e1e4eb87937ec5b15fdb60703cbcc76aa367b1c8cd0a`, run 1's anchor
+`0x23f86f7f7f3348da2d9a73375ea30649818877227c67675bed100e4a16c3669c` and run 2's
+`0x6622d1c40531c5529cfe6470129428683a1ca807b047f74ac291984a8f9e29d7`, 322,599 gas each in real
+testnet ETH, 0.0382 ETH left at the anchor address, and the independent verifier calls it AUTHENTIC
+over 51 links and 51 attestations.
+
+## §5 — the environment
+
+Ollama was **not running** when this run started — nothing on 11434, no process. Started by hand on
+the default port, per your ruling in Directive 020 §1; no autostart was installed. Both slots
+verified present before anything was built on them: technical `qwen2.5:14b`, character (and eyes)
+`qwen2.5vl:7b`.
+
+## §6 — one thing I found and fixed that 030 did not ask for
+
+The first run of the new suite went red on **line 54** — *"the public record, viewer, verifier and
+Living Mark contain no canary"* — which is the most alarming line in the phase to see fail. Nothing
+had leaked. Host-a's canary `4417` had turned up inside an epoch's `prev_hash`:
+
+```
+23b394a50abd501adb289c4417cb7002ded92a689d80ec6ada81155a7804c1…
+```
+
+A substring scan cannot tell that from a disclosure. It is not a rare accident either: a sha256 is 64
+hex characters, a public record carries dozens of them plus base64 signatures, and a given four-digit
+run turns up in that much hex often enough to redden the suite every few dozen runs — always for the
+same non-reason, always on the line that looks most like a privacy failure. It has been latent since
+Phase 2 and it went off today.
+
+So `scanFor` now requires a **purely numeric** canary to sit at a boundary: preceded and followed by
+something that is not a letter or a digit, or by nothing. `the combination was 4417` still hits, and
+so do `4417.` and `(4417)`. Welded inside a hex digest, it does not. Names and rare words are
+untouched and still matched as substrings — they are long and alphabetic and the conservative reading
+costs nothing there. What this gives up, plainly: a number that leaks glued to other digits
+(`44175`) is missed by this scan — the case which in a hash is always a false alarm and which a
+person or a model would have to write strangely to produce. It is the same argument Directive 020 §2
+made about model output, applied to the other half of the noise: **a scan that cries wolf gets
+switched off, and protects nobody.** The failing line now also prints the term it found, because a
+red that does not say which word is a red nobody can act on.
+
+That first run showed a second red, above line 48, which I did not capture before fixing the scan and
+cannot now name. It has not recurred in the three full Phase 3 runs since. Recorded as an
+unexplained one-off rather than as something I know to be fixed.
+
+## §7 — the file that cannot be re-minted, and the only migration this build permits
+
+Adding a table moves the schema version, and `store.js` **refuses** a store written by an older
+version rather than altering it underneath whoever owns it (§66.6). That refusal has never cost
+anything, because every phase built a fresh store — except one. `data/testnet.db` holds the keypair
+that W-001's Genesis attestation names **on a public chain**. It cannot be rebuilt: minting a second
+Genesis would put a second root of trust on a ledger nobody can wipe, which is the ambiguity §6.1
+exists to prevent. A version bump that refused that file would have been unfixable rather than
+inconvenient.
+
+So `store.js` now holds a ladder of **additive steps and nothing else** — one entry, 4 → 5, saying
+what it adds. A step that drops, renames or reinterprets a column is not in the map, has no code path
+that could invent one, and still hits the refusal and still needs a person. An additive step cannot
+lose a host's data because it touches none of it, and that is the whole of the argument for letting
+it happen without asking. Line 71 builds a genuine version-4 store — a real database with a real
+memory in it, put back to the old shape — reopens it through the ordinary path, and checks that the
+memory survived, the table arrived, and the file records what was done to it.
+
+It then happened for real: `data/testnet.db` is now version 5 with the `sights` table, W-001 intact
+at epoch 48, and the testnet suite green against the public chain on both runs. The dated backup was
+taken first and is still there.
+
+## §8 — deviations, decisions I made, and what is still open
+
+**A decision I made that is yours to overturn.** The public route serves the *bytes* of a carried
+picture to anyone, and the lineage viewer renders it. My reading: §16.8 makes carry and publication
+**one** consent, the gift *is* the picture, and a page that printed the caption while withholding the
+image would be honouring half of a permission somebody gave whole. If you want gifted pictures
+carried but not published, that is one consent split into two and it is your call, not mine.
+
+**The wall from 029 has a consequence 030 makes visible.** A technical model may never be shown an
+image, permanently — so the **drafter cannot see a picture**. When the ruling says of an ungifted
+sight that "the lesson travels", the lesson today can only be drawn from what the host *said* while
+showing it, never from the pixels. Her own description of the picture is not written anywhere either
+— which is what "not one byte is kept" means, and it is also why nothing of what she saw reaches the
+reflection. Putting her description into the departure material would mean a model-written account of
+a host's private photograph entering the drafting path. I did not do that. Flagging it as a product
+question and deciding nothing.
+
+**No moderator surface.** A person can look at a pending picture (`sights.forReview`, service-local,
+no HTTP route, no account and no journey number attached to it) but there is no screen for them to do
+it on, exactly as there has been none for text gifts since Phase 3. The queue is honest about it: an
+unmoderated queue means gifts do not travel, which is the correct failure direction.
+
+**The disclaimer already covers the gift and not the seeing.** It says "anything you deliberately GIVE
+her — a word, a picture, a thing you taught her — you are asked about separately, each time, and a
+person reads it before it travels or is published", so a host who gifts a picture has been told. It
+does not yet say that she can *look* at what you show her and that looking is not keeping. That is a
+sentence in your voice and I did not write it.
+
+**Carried forward, unchanged, none new:** §6.1 enumeration is still not exercised against the public
+chain (it scans from block 0, which a public RPC refuses); the §55 timestamp-correlation deviation in
+Phase 3; the synced-passkey counter test; the independent security review (§66.15); and from 025,
+whether the **drafter** should draft as her — 027 §1 settled that permanently for the judge and
+nothing has been ruled for the drafter.
+
+And the one that is still not a model question: **§16.6's core is still placeholder text reading
+`LONNIE'S VOICE PENDING`.** She has eyes, an accent, and now a way to be given something to keep. She
+still has nothing of her own to say in it, and that is yours.
+
+Scope ended there.
