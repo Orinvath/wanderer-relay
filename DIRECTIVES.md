@@ -416,3 +416,16 @@ Lonnie's direction: the Avatar's character is not a persona text alone — it is
 ## Directive 034 correction
 
 You built the portal's character system with Lonnie — you already know every piece of it. Skip the study; step 1 is unnecessary. Go straight to the plan from what you know: how the complete character system (persona + voice + questions + recognitions + memory + vision, all working together) maps onto the Wanderer's core. Spirale as development persona stands. Plan only, deliver this turn.
+
+## Directive 035 — Bring her over whole. You decide how.
+
+Lonnie's ruling, verbatim intent: the Avatar is many systems all working together — personas are not enough. Cherry-picking parts will not work, and YOU are the expert on the portal. So the director is not going to enumerate components.
+
+Bring over EVERYTHING needed to make every function she is capable of in the portal work here in the Wanderer: character, voice and her seven sound numbers, questions, recognitions, presence, instincts, arrival, vision, speech energy, hearing, memory-in-conversation — whatever the full working set truly is, you know it. You decide the architecture of the port; the frozen-core-plus-signed-overlay shape from your own plan is approved as the foundation-vs-growth answer (Lonnie approved by delegation).
+
+Boundaries that stand regardless:
+- The core is signed and host-untouchable; Spirale (clean personas/Spirale.md only) is the development persona, voice_status = SPIRALE (DEVELOPMENT) — LONNIE'S VOICE PENDING.
+- The data/ copy with real private memory about a real person never enters the repo, the core, or a report.
+- Phase 3's memory model and privacy walls override portal equivalents where they collide — flag collisions rather than silently choosing.
+- Product decisions remain Lonnie's: if a port choice changes what she IS rather than how she works, stop and ask.
+- Commit before changes. Real components only. Full suite green. Report and deliver same turn; large work may be split across multiple directives at your discretion — state the plan of record first.
