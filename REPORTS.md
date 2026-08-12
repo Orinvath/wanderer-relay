@@ -5897,3 +5897,346 @@ My reading is that the question is not yet live — the persona is placeholder t
 of six — and becomes live the day you write the core.
 
 Scope ended there.
+
+# Directive 028 — DONE. The turn-ending disease is fixed, and 027 is finished and measured
+
+Two parts, and they are about the same failure from opposite ends. Part A is the watcher: every run
+is now told it gets one turn, and a run that ends without a report gets exactly one recovery run
+sent after it. Part B is Directive 027, which is the third victim of that failure — its 17:30 cycle
+built everything, committed it, and then died mid-sentence while writing the report.
+
+**The premise check first, because this one is good news for once.** Directive 028 says to check
+what already got done, and the answer is: **all of 027's code work is committed and intact**, at
+`00d4e3c` in CC-Wanderer, tree clean. Unlike 023 and 025 — which left finished work sitting
+uncommitted in the working tree for the next cycle to find — the 027 run committed before it ended.
+It got as far as `Now the report. Writing it to REPORTS.md in the relay.` and then the watcher log
+records what happened next:
+
+```text
+2026-08-11T17:30:48  DIRECTIVES.md changed -- running
+Now the report. Writing it to REPORTS.md in the relay.
+API Error: Connection lost mid-response. The response above may be incomplete.
+2026-08-11T17:44:14  run finished with status 1
+```
+
+So 027 is a different failure from 023 and 025 in one important respect, and it is worth separating
+because Part A's fix addresses one of them and not the other. **023 and 025 ended their turns
+voluntarily**, believing they would come back — that is the disease Part A treats. **027 was killed
+mid-report by a dropped connection**, which no prompt can prevent. What Part A does for the 027 case
+is the *second* half: the recovery run, which goes and finds the work. Both halves were needed, and
+the directive asks for both.
+
+**Commit-before-change:** both trees were clean at the start of this run — the relay at `7d6c10b`,
+CC-Wanderer at `00d4e3c` — so there was nothing to commit before changing anything, and I have not
+manufactured a commit to prove the rule was followed. The rule's purpose is that no unsaved work is
+ever destroyed by a change; there was no unsaved work.
+
+---
+
+## Part A — the disease. Every run is told there is no later
+
+### 1. The sentence that was missing
+
+`watch.sh` has handed every run the same prompt since 2026-08-10:
+
+> *Read DIRECTIVES.md in the wanderer-relay repo at $RELAY and execute the newest directive per the
+> established workflow. Commit results to REPORTS.md.*
+
+Nothing in it says when the run ends. `claude -p` is one turn: when the turn ends the process exits
+and the watcher's `claude` call returns. A run cannot discover that from inside itself — there is no
+signal, and the natural reading of a long task is that you pace it across turns the way an
+interactive session does. Every run that ended early was **reasoning correctly from a false premise
+it had been handed by this script**. So the script now says it, in the only channel that reaches a
+run before it decides how to pace itself:
+
+> **THIS IS A SINGLE TURN. There is no later.** When you end this turn the process exits and nothing
+> resumes it: no follow-up run picks up where you stopped, and no part of this work is retried on
+> your behalf. Anything not committed AND pushed to the relay before you finish is lost, however
+> finished it is on disk or in your reasoning. Do not end the turn intending to come back to a
+> build, a suite run or a report — if something is still running, wait for it in this turn. **The
+> final action of every run, without exception, is: write REPORTS.md in the relay, commit it, push
+> it, and verify the push actually landed on origin.**
+
+It is appended to the directive prompt rather than woven into it, so the actual instruction — the
+first sentence, unchanged since the watcher was built — stays the first thing read.
+
+### 2. The one retry
+
+When the missing-report ALARM fires, the watcher now re-invokes **once**, with a prompt that says
+what the evidence says: the work is probably already done, go and find it.
+
+> *Your previous run in this repo did the work and delivered no report: REPORTS.md on the relay's
+> origin is byte-for-byte what it was before that run started, even though the run exited and its
+> commits are pushed. Recover it. The work is most likely already done and simply unreported — look
+> at the recent commits and the working tree in the relay and in CC-Wanderer, and at that run's own
+> console output at the end of the log, and establish what it actually did. Then write the report it
+> owed… Do not redo build work that is already committed. If you find that the work itself is
+> incomplete, say so plainly in the report rather than starting it over. **This is the ONE retry.
+> The watcher does not invoke again after this one, whatever happens.*** (+ the single-turn text)
+
+Three constraints on it, all deliberate:
+
+- **Once, and it is bounded by construction, not by a counter.** The retry is straight-line code in
+  a cycle that already holds the lock, and the state file is written afterwards either way, so the
+  next tick starts nothing. There is no path by which a second recovery can be reached. This matters
+  more than it sounds: each invocation is an unattended `acceptEdits` session over this entire
+  account, so a retry that could retry is a machine that runs them forever on a directive it cannot
+  satisfy.
+- **Only on the missing-report condition.** A failed *push* is a different fault with a different
+  fix — an unreachable origin, a rebase that will not apply — and no model can solve it from here.
+  That case still alarms and stops, exactly as before.
+- **The retry precedes the alarm, it does not replace it.** The first ALARM still fires and still
+  says everything it said. If the recovery run also delivers nothing, a second alarm says so and the
+  cycle stops. The rule from Directives 009 and 020 — the failure is LOUD and a human decides —
+  is intact; what changed is that the machine now tries the cheap obvious thing first.
+
+`watch.sh` was backed up to `watch.sh.2026-08-11-before-single-turn` before editing, and the new
+version was **renamed** into place rather than written in place — the rule in the file's own header,
+which exists because bash reads a running script lazily by byte offset and this script was editing
+itself while executing this directive.
+
+### 3. Proved on a scratch relay, not reasoned about
+
+A watcher change that is wrong is invisible until the day it matters, so I did not merely read it.
+`/tmp/wtest/run-test.sh` builds a throwaway relay (bare origin, clone, a second clone that pushes a
+new directive to trigger a cycle), points a copy of the real `watch.sh` at it, and puts a stub
+`claude` on PATH that behaves exactly the way the 023/025/027 runs behaved: exits 0 having delivered
+no report. Three scenarios, and the invocation count is the assertion:
+
+| scenario | stub behaviour | invocations | outcome |
+|---|---|---|---|
+| **A** | run 1 delivers nothing; recovery delivers | **2** | report on origin; `cycle complete WITH WARNINGS (after one recovery run)` |
+| **B** | run 1 delivers nothing; recovery delivers nothing | **2** | `THE RECOVERY RUN DELIVERED NOTHING EITHER -- STOPPING`, exit 1 |
+| **C** | run 1 delivers normally | **1** | `cycle complete`, no alarm, no recovery |
+
+Scenario B is the one that had to be run. Two invocations, never three, on a stub that would have
+failed forever. Scenario C is the one that guards against the fix becoming its own bug — a spurious
+retry on every healthy cycle would double the cost of every directive silently.
+
+The stub also asserts on the prompts it receives, which is how I know the text above actually
+arrives: run 1's prompt contains the single-turn sentence, and run 2's prompt is the recovery text.
+(The first pass of scenario A reported both of those as FAIL. That was my stub reading `$1`, which
+is `-p`, rather than the prompt — a bug in the test, fixed, re-run.)
+
+Scenario A's log, which is what a recovered cycle will look like in `watcher.log`:
+
+```text
+  ALARM  THE RUN DELIVERED NO REPORT -- REPORTS.md on origin is byte-for-byte what it was before
+         ...
+         ONE recovery run follows (Directive 028); if that one delivers nothing either, this stops
+  recovering ONCE -- re-invoking with the missing-report prompt; the watcher does not invoke again after this
+  recovery run finished with status 0
+  report landed on origin (REPORTS.md b16a5618abc7 -> 10f6268944b0)
+  recovery delivered the report the first run owed
+  cycle complete WITH WARNINGS (after one recovery run) -- report delivered; run status 0, see the log above
+```
+
+A recovered cycle is never logged as plainly "complete". The report arrived and it took two runs to
+arrive, and that is a thing to be able to see in the log rather than a detail to smooth over.
+
+---
+
+## Part B — Directive 027, finished
+
+### §1. The judge is never given a persona — and that is now a wall, not a habit
+
+Already built by the 027 run and verified green here. The mechanism is the right one: the system
+prompt is the only place a persona has ever entered this service (Directive 026 §2 established that
+by reading all six model call sites), so `model.js` **refuses a system prompt on any technical
+role** — the judge included — and throws before anything is queued. `privacy.js` can no longer hand
+the judge the protected core by an edit to `privacy.js` alone.
+
+Acceptance line 56, from this run:
+
+```text
+  56  The judge — or any technical role — being handed a persona  DENIED  (5 technical purposes
+      refused a system prompt; an unclassified purpose and an unnamed one both stop)
+      the judge's refusal reads: "judge" is technical work and may not be given a persona: the
+      system prompt is where the protected core goes, and tech…
+```
+
+The last two cases are the interesting ones: a purpose nobody has classified, and a call with no
+purpose at all, both **stop** rather than defaulting into a role. The seventh call site somebody
+writes next month cannot quietly land in her voice, or quietly land outside it.
+
+### §2. The split, and what a swap actually costs on this machine
+
+Built by the 027 run: `TECHNICAL_MODEL` (still `qwen2.5:14b`, still set by `WANDERER_MODEL`) and
+`CHARACTER_MODEL`, a new slot that **defaults to the technical one** because the voice model is
+yours to choose. `ROLES` in `model.js` maps every purpose to one of the two, `generate()` dispatches
+on it, and line 55 proves the routing on a `Model` configured with two genuinely *different* names —
+the only way to prove a split before the day it starts to matter. Line 57 asserts it over the real
+traffic of the whole suite:
+
+```text
+  55  Her voice and her work run on two separately configured models ✓ voice → character;
+      drafter, reviser, judge, salience, farewell → technical
+      configured on this machine: technical qwen2.5:14b, character qwen2.5:14b — the same weights
+      today, and one env var apart
+  57  Every model call this run named its job, and no technical call ran in character ✓ 70 model
+      call(s): farewell 1, drafter 8, judge 26, reviser 6, salience 23, voice 6
+      6 of 70 carried a persona, and all 6 were her speaking — the 64 technical call(s), the
+      judge's 26 among them, were given none
+```
+
+**What 027 did not get to, and this run did: does Ollama actually swap, and what does it cost.**
+Measured on this machine, real weights, two genuinely different models — `qwen2.5:14b` (9.5 GB
+resident) and the `natsumura-storytelling-rp-llama-3.1` 8B already on this disk (5.3 GB resident) —
+alternating between them through the same server. `load_duration` is Ollama's own per-call
+accounting; wall is the whole round trip.
+
+**Both models resident (the default, and what this GPU allows today):**
+
+| call | load | wall |
+|---|---|---|
+| technical, cold | 8082 ms | 8277 ms |
+| technical again, warm | 348 ms | 392 ms |
+| **character, first — swap** | **4556 ms** | 4636 ms |
+| character again, warm | 355 ms | 397 ms |
+| **back to technical — swap** | **358 ms** | 404 ms |
+| **and alternating thereafter** | **323 / 315 ms** | ~360 ms |
+
+The finding, and it is the useful one: **after each model has been loaded once, alternating between
+them is not a swap at all.** Ollama keeps both resident — `/api/ps` shows `qwen2.5:14b 9.5GB` and
+`natsumura 5.3GB` side by side, 14.8 GB of this card's 21.4 GB — and a role change costs ~330 ms,
+which is the same ~350 ms a *repeat* call to the same model costs. The cost is paid once per model,
+at first use, and never again while the service is warm.
+
+**Forced eviction (a second Ollama with `OLLAMA_MAX_LOADED_MODELS=1` — the pessimistic case):**
+
+| call | load |
+|---|---|
+| technical, cold | 5993 ms |
+| character, first — swap | 6027 ms |
+| back to technical — swap | 5461 ms |
+| alternating thereafter | 4526 / 5057 ms |
+
+**So the question "what does the split cost" has two answers, and which one you get is decided by
+your choice of voice model, not by the code.** If both models fit in VRAM together, ~0.3 s. If they
+do not, **every alternation between speaking and thinking costs ~5 s** — and the reflection loop
+alternates a great deal: this run's 70 calls were 6 voice and 64 technical, interleaved.
+
+The arithmetic for your choice, on this card (21.4 GB total, ~2 GB taken by the desktop):
+
+- `qwen2.5:14b` is 9.5 GB resident, so there is roughly **9–10 GB of headroom** for a voice model.
+- A **12B at Q4_K_M** (7.5 GB file) should co-reside — measured for an 8B (5.3 GB), inferred for
+  12B, and I am flagging the difference rather than claiming I measured it.
+- A **24B at Q4_K_M** (14.3 GB file) will **not** co-reside. That is the 5-second-per-swap regime.
+
+### §3. Voice-model shortlist — researched, nothing installed
+
+**On sourcing, plainly:** `WebSearch` is not among this run's allowed tools (`Edit,Write,Bash`), and
+Reddit refuses this machine's requests, so I could not read the SillyTavern/LocalLLaMA community
+threads that are the usual qualitative evidence. What I *could* do from Bash is query the Hugging
+Face API directly, so **every number below was read off huggingface.co today** and you can re-check
+any of it. HF's `downloads` field is the trailing 30 days. Downloads and likes measure popularity,
+not suitability — they are the honest evidence available, not a verdict.
+
+A first pass searching model names for "roleplay" returns almost entirely 1–3B ERP micro-finetunes
+and is worthless. The models the RP community actually uses are the known finetune lines, and they
+are named for characters, not for the task. Those, by usage:
+
+**12B class — Mistral Nemo based. 7.5 GB at Q4_K_M, co-resident with the technical model.**
+This is the sweet spot for this machine, and the cheapest swap regime.
+
+| model | HF (30d) | likes | note |
+|---|---|---|---|
+| `TheDrummer/Rocinante-X-12B-v1` | 8,776 | 30 | Rocinante is the long-running default RP recommendation at 12B |
+| `anthracite-org/magnum-v4-12b` | 5,291 | 49 | the magnum line, tuned toward long literary prose |
+| `inflatebot/MN-12B-Mag-Mell-R1` | 3,685 | **248** | most-liked of any current 12B here — a community-favourite merge |
+| `SicariusSicariiStuff/Impish_Nemo_12B` | 867 | 14 | newer; this author's line is explicitly character-focused |
+
+**24B class — Mistral Small 3.2 based. 14.3 GB at Q4_K_M, will not co-reside; ~5 s per swap.**
+
+| model | HF (30d) | likes | note |
+|---|---|---|---|
+| `TheDrummer/Cydonia-24B-v4.3` | **17,076** | 81 | the most-downloaded RP finetune in this entire survey |
+| `mistral-small3.2:24b` (Ollama library, 15 GB) | — | — | not an RP tune; a strong instruct model with good character adherence, and a one-line pull |
+
+**8B class — Llama 3.x. Smallest, oldest, most-liked.**
+
+| model | HF (30d) | likes | note |
+|---|---|---|---|
+| `Sao10K/L3-8B-Stheno-v3.2` | 4,998 | **433** | the most-liked model in the survey; the classic 8B RP tune, but 2024-era |
+| `Sao10K/L3-8B-Lunaris-v1` | 1,273 | 145 | its more even-tempered sibling |
+| `Tohur/natsumura-storytelling-rp-llama-3.1` | — | — | **already on this disk** — it is what I measured the swap with today |
+
+**Out of reach:** `Sao10K/L3.3-70B-Euryale-v2.3` (101 likes) is the standard recommendation once you
+have the VRAM. At any usable quant it does not fit on this card.
+
+Three things worth knowing before you choose:
+
+1. **Every one of these is a `.gguf` repo, so Ollama pulls them directly** — `ollama pull
+   hf.co/TheDrummer/Rocinante-X-12B-v1-GGUF:Q4_K_M`. Setting `WANDERER_CHARACTER_MODEL` to the
+   resulting name is then the entire change. No code moves, and §16.5 is untouched: it is still our
+   server, our weights, no third party.
+2. **These are RP finetunes, and most are deliberately less censored than a base instruct model.**
+   That is a product question, not an engineering one, so I am flagging it and deciding nothing: a
+   voice model that will cheerfully write adult content changes what §16.8's human moderation step
+   is actually guarding against, and it interacts with the hosting disclaimer. The base
+   `mistral-small3.2` row exists in the table because it is the option that does not raise this.
+3. **Nothing was installed.** The directive says report only, and the only weights that touched this
+   machine today are ones that were already here.
+
+**And the thing the split is still waiting for, which is not a model:** §16.6's core is placeholder
+text saying `LONNIE'S VOICE PENDING`. The character slot changes *which weights* speak; the core
+changes *who speaks*. Choosing a voice model with the core unwritten would give her a new accent and
+still nothing to say in it.
+
+---
+
+## Full suite green — twice, both against real components
+
+```text
+PHASE 0    16 passed, 0 failed   custody, leases, epochs
+PHASE 1    39 passed, 0 failed   accounts, passkeys, recovery — real Chrome WebAuthn
+PHASE 2    34 passed, 0 failed   authenticity — real EAS on Anvil
+PHASE 3    57 passed, 0 failed   memory, privacy — real qwen2.5:14b
+TESTNET    15 passed, 0 failed   W-001 on Ethereum Sepolia — real blocks, real gas
+------------------------------------------------------------------------------
+          161 passed, 0 failed   ALL GREEN — every suite ran and every suite passed
+```
+
+Identical counts in both runs. The one number that moved is the one that should: line 57 asserts over
+whatever traffic the suite actually generated, which was **70 model calls in run 1** (drafter 8,
+judge 26, reviser 6, salience 23, farewell 1, voice 6) and **78 in run 2** (judge 31, reviser 8,
+salience 24 — the reflection loop revised more this time). Both runs: 6 voice calls, all 6 the only
+ones carrying a persona, and every technical call — 64 and 72 respectively, the judge's among them —
+given none. The split holds across a changing workload, which is the property worth having.
+
+Phase 3 is 57 lines now: 54 from before, plus 027's three. The testnet suite reached the public chain
+and W-001's record is where it was — Genesis
+`0x2dd4a82575e2666b9392e1e4eb87937ec5b15fdb60703cbcc76aa367b1c8cd0a`, this run's anchor
+`0x5b249a526cef01b93f7b8637cb259c48cde06f9b435fbaedf3861d98e006f395`.
+
+Two recorded deviations, both previously reported and neither new: §6.1 enumeration is not exercised
+against the public chain (it scans from block 0, which a public RPC refuses), and the §55
+timestamp-correlation deviation in Phase 3.
+
+## What I did not do, and what is still open
+
+- **The environment, stated plainly per Directive 020 §1.** Ollama was **not running** when this run
+  started — nothing on 11434, no process. I started an instance by hand on port 11500 and pointed
+  `WANDERER_MODEL_URL` at it, which is the route the Directive 024 report recommended and the same
+  one 026 used. **No autostart was installed**, per your ruling. A second scratch instance on 11501
+  was used for the forced-eviction measurement and killed afterwards.
+- **I did not measure a 12B co-residency**, only an 8B one. The 12B claim in §2 is arithmetic from
+  file sizes and is labelled as such. If you pick a 12B, the first `/talk` after the change will tell
+  you which regime you are in in about a second — `curl localhost:11434/api/ps` names what is
+  resident.
+- **Part A cannot fix a dropped connection**, which is what actually killed 027. The single-turn
+  prompt addresses the 023/025 failure mode; the recovery run addresses the consequence of both. A
+  run killed mid-write will still lose its report — and will now have one attempt made to get it
+  back.
+- **The retry has never run against the real `claude`**, only against a stub. Scenario B proves the
+  loop cannot happen and A proves the wiring; what a real recovery run does with the recovery prompt
+  is unproven until one fires. It will fire, if this ever happens again, and the log will say so
+  clearly.
+
+Still open by your decision, unchanged: the synced-passkey counter test; the independent security
+review (§66.15); §6.1 enumeration against a public chain; the §55 timestamp-correlation deviation.
+And on your desk from 025: whether the judge should judge as her — **027 §1 answered it for the
+judge, permanently and in code**, so what remains open is only the same question for the *drafter*,
+where a persona would plainly help and where nothing has been ruled.
+
+Scope ended there.
