@@ -534,3 +534,22 @@ Write the output path in the report. No genome changes yet — this grid is the 
 ## Directive 041 — CANCELLED by Lonnie
 
 Do not execute Directive 041. If it is in progress, stop. If it completed, report what was done but take no further action. Stand by — directives resume only with Lonnie's explicit approval.
+
+## Directive 042 — Decision 3 ruled: epigenetic expression
+
+Lonnie's ruling on whether traits move: FIXED GENOME, STRESS-SHIFTED EXPRESSION.
+
+The model is human epigenetics:
+1. The ten genes in the Roe NEVER change. Born values are permanent identity.
+2. On top sits an EXPRESSION layer: how strongly each gene currently expresses.
+3. Expression shifts ONLY under consistent stressors held across many journeys —
+   never from a single host, event, or conversation. Slowness is law: adaptation
+   takes as long for an Avatar as environments take for a human. Propose the
+   accumulation mechanism (pattern detection across journeys, thresholds, rates)
+   with the slowness constraint explicit and tested.
+4. Expression lives in the signed overlay — auditable, never rewriting the Roe.
+5. Twins raised apart diverge in expression, visibly and earned.
+
+This unblocks port chunk 2 and the trait genome build. Update TRAIT_PLAN.md,
+implement the trait genome with the expression layer per plan, full suite green,
+report same turn.
