@@ -367,3 +367,23 @@ Lonnie's ruling on the flagged product question: what she sees defaults to Class
 1. Commit before changes.
 2. Implement: sight ingestion honors the existing consent mechanism — ungifted sights can be spoken about but never stored (unchanged); gifted sights enter shared memory as carried, moderated material.
 3. Full suite green, report, deliver this turn.
+
+## Directive 031 — Spec section 74: her public presence
+
+Append to the end of spec/WANDERER_SPEC.md, after section 73, exactly as written, changing nothing else:
+
+# 74. PUBLIC PRESENCE — HER OWN ACCOUNT
+
+The Wanderer has her own social account (Instagram first). The feed is
+her travels: gifted sights ("look where I took her"), city-level
+location announcements, journey milestones. Every post passes the human
+moderation gate.
+
+The mechanism is the incentive: hosts gain the status moment of showing
+where they took her, followers gain her story, and the follower base
+becomes the natural pool of future hosts.
+
+TODO at launch: register the account, define posting cadence, connect
+the moderated shared-material pipeline as its source.
+
+Commit before change. Queue behind any run in progress.
