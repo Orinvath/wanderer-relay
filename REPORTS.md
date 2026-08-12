@@ -6686,3 +6686,221 @@ And the one that is still not a model question: **§16.6's core is still placeho
 still has nothing of her own to say in it, and that is yours.
 
 Scope ended there.
+
+
+# DIRECTIVE 032 — THE MODERATOR'S SCREEN
+
+**Executed:** 2026-08-12 · CC-Wanderer commits `0e542c4` (Directive 031) and `7e1d228` (032) ·
+full suite **182 passed, 0 failed**, twice — Phase 0 16, Phase 1 39, Phase 2 34, Phase 3 **78**,
+Testnet 15. ALL GREEN both times, the public-chain suite included rather than skipped.
+
+Since Phase 3 there has been a rule with no way to obey it. Directive 013 §16.8 says a person reads
+every shared gift before it travels or is published, and `moderation.js` has enforced that from the
+day it was written by refusing to let anything past without a human's name. What it never had was a
+place for the human to stand: `wanderers.moderate()` is a method on an object inside the process, so
+the only person who could review a gift was somebody willing to open a REPL against the live
+service. An unmoderated queue fails in the correct direction — gifts do not travel — but a gate
+nobody can open is a gate that stays shut, and the honest name for that is not moderation. Both 030
+and 013 ended by saying so in the report and building nothing. This is the screen.
+
+## §0 — Directive 031, which was still outstanding
+
+031 landed in the relay while the 030 run was finishing and was never executed: the spec still ended
+at section 73. Section 74 is now appended verbatim, nothing else in the file touched (`0e542c4`).
+
+It is the first section that names an outward surface for the moderated pipeline — her own account,
+gifted sights, city-level locations, journey milestones — and it says of every post that it passes
+the human moderation gate. That is the gate 032 has just made operable, so the two arrived in the
+right order: the feed 74 describes has, from today, somewhere its material can be approved from.
+
+## §1 — commit before changes
+
+The tree was clean at `cdb4932` ("Directive 030: a sight stays with its host, unless they gave it").
+Nothing was uncommitted and nothing was at risk. No dated backup was needed this time: 032 adds a
+surface and one query and does **not** move the schema, so `data/testnet.db` — the file holding the
+keypair W-001's Genesis attestation names on a public chain, and the one file in this project that
+cannot be rebuilt — is untouched at version 5.
+
+## §2 — where the screen is, and why it is not a route on the service
+
+Directive 032 §3: *local/operator-only, consistent with the existing service-local admin pattern —
+no public route, no host account can reach it.*
+
+Read the way Directive 008 §6 settled it for the §61 custody authority, that sentence decides the
+architecture. The screen is a **second express app on a second listener bound to 127.0.0.1**
+(`moderator.js`, `index.js`), and not one line of it is mounted on the app a host's client talks to.
+The strongest form of "a host cannot reach this" is not a check they fail. It is the absence of
+anywhere to send the request — a host who authenticates perfectly, holds a live lease and guesses
+every path there is gets 404 from the only server their client knows about.
+
+Line 72 proves that from the **routing table** rather than from a list of guesses: every path the
+public app will answer is enumerated (30 of them today), none matches `moder|admin|review|queue|
+operator`, and the same host then tries five plausible routes holding a live lease and a live
+session and is refused 404 five times.
+
+## §3 — what a moderator sees, and what they are not shown
+
+**The whole item.** The entire text, never truncated, in a `pre-wrap` block; and for a gifted sight
+the **picture itself**, rendered, not described. A caption beside a filename is not a review of a
+photograph. The pixels are inlined into the page as a `data:` URI rather than served from a route,
+which keeps a property `sight.js` has claimed since 030 and would otherwise have lost: **a pending
+picture has no URL.** A route serving un-reviewed material over HTTP would have been the tidier
+design and also the first way to fetch un-reviewed material out of this service.
+
+**And of the person, nothing.** No account, no journey number, no place, no session. `moderation.js`
+already shaped its queue that way and `sights.forReview` already shaped the picture that way; the
+screen adds nothing to either. Line 75 checks the rendered HTML contains neither host F's account
+nor their session, and that the queue object behind it carries no `account` or `host_number` key at
+all. They are deciding about the material.
+
+**No JavaScript, and that is a security property rather than a style.** This is the one surface in
+the system whose entire content is untrusted by definition — text a stranger wrote, pixels a
+stranger sent. So it is plain HTML with plain forms, everything escaped, and a CSP of
+`default-src 'none'` permitting images from `data:` and nothing else: no script, no network, no
+font, no frame, `form-action 'self'`. Sent as a header as well as a meta tag, because a header
+applies before the parser reaches the tag. An SVG "picture" is already refused by `sight.js` (§28)
+for exactly this reason; this is the same argument applied to the page that has to display one.
+
+**The name is required here too.** The field at the top of the page is submitted with every
+decision and goes to `moderation.decide()`, which refuses `auto`, `model`, `system` and the empty
+string. Line 76 is a real click on the real Approve button with the box empty: refused, item still
+in the queue, nothing travelling. A screen that let that through would be the automatic approval
+§16.8 forbids, wearing a mouse pointer.
+
+## §4 — three guards, each checked against the failure it exists for
+
+| guard | what it stops | how line 73/74 checks it |
+|---|---|---|
+| the **bind** | anything off this machine opening the socket | `server.address().address` read off the real listener → `127.0.0.1` |
+| the **socket** | a proxy or a forged header claiming to be local | a **real off-machine request**, valid key, `X-Forwarded-For: 127.0.0.1` → **403** |
+| the **key** | anyone at this machine who was not at its console | absent → 403; wrong key **of the same length** → 403; right key → 200 |
+
+The socket check is the one worth explaining. `trust proxy` is off deliberately and
+`fromThisMachine()` reads `req.socket.remoteAddress` and never a header — a surface that believed
+`X-Forwarded-For` would hand itself to anyone who could type `127.0.0.1` into one, the day somebody
+puts a proxy in front of it. Rather than assert that, the suite makes the request: a second listener
+on `0.0.0.0`, reached over this machine's LAN address `192.168.0.193`, carrying a **valid operator
+key** and the forged header — the exact request such a mistake would have served — and it is refused
+with *"the moderation surface answers this machine only"*. The listener is closed again immediately;
+if this machine had no non-loopback address the suite would fall back to calling the predicate and
+record that as a deviation, and it did not need to.
+
+The key is compared with `timingSafeEqual` after a length check, and it is generated the way the
+Genesis authority is: `randomBytes(32)` at startup, printed to the console of the machine the
+service runs on, sent nowhere. It is also what makes cross-site requests to the page harmless — a
+malicious page can send a form POST to `127.0.0.1:8788` but cannot read the key, and without it the
+POST is a 403.
+
+## §5 — the real-browser proof, both ways
+
+Directive 032 §4, in real Chrome, over the whole path. Lines 75–78:
+
+```
+  72  A host with a live lease reaching the moderation surface on the service DENIED  (404; 404; 404; 404; 404)
+      30 routes on the service a host's client can reach; not one of them is this screen
+  73  The screen reached without the key, with a wrong key, or from off this machine DENIED  (403; 403)
+  74  And with the operator key, on this machine, it opens       ✓ bound to 127.0.0.1:37377; wrong key of the same length → 403
+      a real off-machine request from 192.168.0.193, valid key, X-Forwarded-For: 127.0.0.1 → 403 "the moderation surface answers this machine only"
+  75  The page lists everything waiting, and shows each item whole in a real browser ✓ Chrome decoded the gifted picture at 1024×512, the size of the file host-f gave; 87 characters of text shown untruncated
+      and of the person: nothing — no account, no session, no journey number reaches the page (SS16.8 is about the material)
+  76  Approve pressed on the page with nobody's name in the box  DENIED  (Directive 013 SS16.8 requires a HUMAN moderation review; name the person)
+  77  Gift → pending → approved on the page → it travels and it publishes ✓ approved by the name in the box; 585139 bytes now served publicly, identical to host-f's file
+      the page said: "Approved by Lonnie (acceptance). It travels with her now, and it is on the public page."
+  78  Gift → rejected on the page → it does not travel, does not publish, and the host is told ✓ host-f's own /me now reads "refused", travelling false; counter still 10
+      the queue is empty; both decisions are on the screen under "already decided", named and dated
+```
+
+Host F arrives in Porto, gives her a sentence (*"I taught her to say obrigada the way my grandmother
+did"*) and a photograph of their street, and then a person opens the page.
+
+**"Whole" is asserted rather than assumed.** The text is compared character for character against
+what the host sent. The picture is judged by whether the browser **decoded** it: `naturalWidth` is
+the width Chrome read out of the pixels, and it is 1024×512 — the size of the file on disk. A
+caption beside a broken image passes a check for an `<img>` tag and fails this one.
+
+**Approve, and everything moves at once, because it is one consent (§16.8).** The click is a real
+click, in Chrome, on a submit button in a form. Afterwards: the moderation row reads `approved` by
+**the name that was typed into the box** and not by anything this suite could supply; the caption is
+a Class C travelling memory; the sight row is carried; the public route serves **585,139 bytes
+identical to host F's file** to a caller with no credential; the picture is in `publicRecord` and
+rendered on the lineage page; the counter moved by exactly one; and the item is off the queue.
+
+**Reject, and nothing moves — including in what the host is told.** Not in the travelling store, not
+in the public record, and the counter does **not** move: a refusal is not a memory transition, and a
+public number that ticked on one would leak that something had been refused. The fourth thing is the
+only one the host can see and it is the one Directive 032 §2 asks for by name — `POST /me`, the §59
+surface a departed host can still reach, now reads `moderation: "refused", travelling: false` where
+it had read `pending`. Both decisions then appear on the screen under *already decided*, named and
+dated, so a moderator who refreshes can see their click landed.
+
+## §6 — what changed outside the new file
+
+Deliberately little, so that the screen cannot be a second place where a rule differs:
+
+- **`moderator.js`** (new) — the page and the surface. Every decision it makes is
+  `wanderers.moderate()`, the same call the suite has made since Phase 3.
+- **`wanderer.js`** — `reviewQueue()` joins the text queue to the pictures (`moderation.js` stays the
+  human gate over material of any kind, `sight.js` stays the only place pixels live, and the join
+  happens in the one call that hands a reviewer a whole item); `reviewDecided()` reads the history.
+- **`moderation.js`** — `decided(limit)`, the recently-decided query. No change to `decide()`.
+- **`index.js`** — builds the second app and returns it, mounts nothing, and binds it to
+  `127.0.0.1:MODERATOR_PORT` in the run-directly block, printing the URL with its key.
+- **`config.js`** — `MODERATOR_PORT` (8788), and why it is a different port rather than a route.
+
+No change to consent, to the firewall, to the models, or to what `moderate()` does on approval.
+
+## §7 — the failure my own test found first, and the line that will make the next one loud
+
+The first run of the new lines failed in a way worth recording, because the failure described
+anything except itself: an empty page, and a stack trace about `closest` being called on `undefined`.
+The cause was six lines above and nothing to do with the screen — host E takes custody again on line
+71 to be refused four ways and **never lets go**, so host F could not lease, every gift they tried
+was a 403, and the queue a person then opened was correctly empty. She can only be in one place at a
+time; that is the whole of Phase 0, working exactly as designed, arriving as a puppeteer error.
+
+Fixed by releasing E's lease, and then guarded: if host F cannot take custody the suite now throws
+`host-f could not take custody, so nothing below was tested`. A red that names the wrong thing costs
+more than the bug it hides.
+
+## §8 — deviations, decisions I made, and what is still open
+
+**Nothing new in the deviation list.** The one deviation Phase 3 records is the §55
+timestamp-correlation limitation carried unchanged from 030. The off-machine check did not need its
+fallback.
+
+**A decision I made that is yours to overturn: a rejected picture's bytes stay in the table.** The
+row is the record of the decision — who refused it and when — and deleting the pixels would delete
+that record's subject. Nothing serves them, nothing carries them, `carried_at` stays null for ever,
+and the host's own §59 revocation still erases them from the file (030, line 65). But it does mean
+the service retains material a person said no to, until the host asks for it back. If you would
+rather a rejection erase the pixels on the spot and keep only the fact of the refusal, that is one
+line and it is your call, not mine.
+
+**A wart 032 makes visible rather than causes.** `moderate()` marks the row decided *before* it
+re-checks the consent, so the one case where an approval fails afterwards — a picture swapped in the
+table between the host's consent and the approval, which line 66 of Phase 3 performs by direct
+tampering — leaves a row reading `approved` for something that never travelled. A host cannot
+trigger it; only somebody with write access to the database can. But it is now printed on a person's
+screen under *already decided*, and a screen that tells a moderator they approved something that did
+not move is lying to them politely. The fix is to decide after the consent re-check rather than
+before. Not done here: it changes the approval path, it is pre-existing since 030, and this run's
+suite results are evidence about the screen. Flagged for a ruling.
+
+**Limits of the screen as built, named rather than discovered later.** One page, no paging and no
+filter: a queue of five hundred items is five hundred inlined pictures in one response, which is
+fine for the queue this service will have for a long time and is not fine for ever. There is no
+notification — a host learns their gift was refused by asking `/me`, and nothing tells them to ask.
+Rejection takes an optional reason which is stored and shown to the operator but is not surfaced to
+the host. All three are product questions, none of them urgent, none decided here.
+
+**Carried forward, unchanged, none new:** §6.1 enumeration is still not exercised against the public
+chain; the §55 timestamp-correlation deviation; the synced-passkey counter test; the independent
+security review (§66.15) — and this screen is exactly the kind of surface that review exists for,
+even bound to loopback; and, from 025, whether the **drafter** should draft as her.
+
+And the one that is still not a model question and never was: **§16.6's core is still placeholder
+text reading `LONNIE'S VOICE PENDING`.** She can see, she can be given something to keep, and there
+is now a person standing at the gate deciding what she may carry out of a house. She still has
+nothing of her own to say, and that is yours.
+
+Scope ended there.
