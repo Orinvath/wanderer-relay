@@ -9400,3 +9400,108 @@ journey by the technical model, never the character model and never the judge.
 
 **Chunk 2 of the 035 port is unblocked.** Decisions 13–19 (genome variation) remain the blocking set
 for appearance.
+
+---
+
+# DIRECTIVE 043 — DONE, PLAN ONLY. Blueprint adopted, all six forms, decision 13 settled.
+
+## §1 — the blueprint
+
+Copied to `CC-Wanderer/spec/Avatar_System_Blueprint.pdf`, byte for byte, md5
+`17044033dfc8f8494bda30d43db5736c` matching the relay's copy. **All 20 pages read before a word of
+the plan was written** — I do not plan from a document I have not read.
+
+Clean at `f16a407`, revert point `1898a58`, work `8754699`. Chamber untouched. Nothing in `server/`
+changed and no form was built.
+
+## §2 — one conflict, named rather than quietly resolved
+
+The blueprint says of Form 6: *"CANDIDATE — may replace Form 1"*, twice. **The directive says all six
+are kept and Form 6 does not replace Form 1.** The directive is the later ruling and it wins — but I
+have written that down in the plan rather than letting the code silently contradict the document he
+just called the single source of truth. The blueprint's own next-steps list opens with *decide Form 6
+vs Form 1*; that is now answered, and answered "both".
+
+## §3 — audited what is built against the four LOCKED parts
+
+Our head **matches the blueprint's Avatar 1 numbers exactly** — Ro 1.0, Ri 0.46, P 4, K 3.2, T 0.20,
+W 0.78, N 5.0, size 0.56, curve 0.40. The port was faithful. Three real gaps:
+
+1. **The eye SHAPE gene does not exist.** What our genome calls `eye` is the *flare* — which the
+   blueprint explicitly classes as **a trait any eye shape can wear**, not a shape. The five actual
+   shapes (orb, four-point star, teardrop, lens, diamond) are unwritten.
+2. **Four of the five head shapes are unwritten.** We have the star.
+3. **No spark gene block.** We collect the 871 anchors; the blueprint specifies ~220 points, size
+   1.4–3.4, jitter 0.06, drift ±0.02, twinkle — none of that is a gene yet.
+
+We also do not carry the head's seating (`position z −0.02`, slightly intersecting the body).
+
+## §4 — and this is the best news the uniqueness problem has had
+
+§10.6 found the baseline beings read as one creature because **every strong dial is a constant**. The
+blueprint hands over two genes that are not: **eye shape × head shape, five each, freely pairable —
+25 immediately distinguishable combinations before a single continuous dial moves.** That is the
+cheapest and largest uniqueness win available, and it is already in the architecture rather than
+needing to be invented.
+
+It also specifies the **saccade** with numbers — reach, dart speed, hold 1.2–5.5s, startle 6% — which
+is exactly the *movement as identity* axis §10.4 argued was probably the strongest carrier at
+distance.
+
+## §5 — the traps are binding, and one convicts my own work
+
+**The baseline grid renderer accumulates the BODY additively**, and the blueprint names that as a
+known failure: *"Never additive for the body"*, *"additive stacks to white"*. It is very likely part
+of why all 64 cells bleach to a white core and read alike.
+
+**The §10.6 measurement stands** — silhouette overlap was computed from coverage, not brightness —
+**but the picture he was asked to judge is drawn wrong.** It should be re-rendered with normal
+blending, flat colour and soft edges before it is used as the before/after baseline. Flagged and not
+fixed, because 043 is plan-only. **Decision 28.**
+
+The other binding traps are recorded in the plan: the head must be OPAQUE and glow from its own
+shader; a radial brightness gradient reads as a lit solid; thickness must be one analytic curve or it
+creases; low star exponent reads as a plus sign; thin tapering strands read as spider legs; and do
+not invent shape that is not in the drawing.
+
+## §6 — the build method reorders the work
+
+*"Randomise a seed LAST, once one gene set holds up."* So **genome variation does not come first**.
+Per form: archetype, front and side (both exist for all six), the one 3D object the two silhouettes
+imply, described as maths, real 3D early — cross-ribbons, not billboards — animated on the GPU as one
+merged geometry, tuned to the drawing rather than to a generic idea, and randomised only after.
+
+That answers part of decisions 13–19: a form's appearance genes get written when that form is built.
+**§4.3's candidate mathematical families are superseded** — the forms are chosen and locked front and
+side, so the question is no longer "what family might work" but "what maths makes *this* drawing".
+
+## §7 — two collisions of vocabulary that need his word
+
+The blueprint's next-steps names **5 Traits, 5 Behaviors, 5 Expressions** still to define, and gives
+one example: *aura/glow is a trait*. So in the blueprint a **trait is a wearable visual property**.
+
+`TRAIT_PLAN.md` uses **trait** for the ten personality aspects and **expression** for how strongly
+they currently show — built, signed and green as of 042. **Two different systems are now wearing the
+same two words.**
+
+- **Decision 26 — "trait" and "expression" each mean two things.** Renaming is cheap now and
+  expensive later; which side moves is his.
+- **Decision 27 — are the blueprint's Traits/Behaviors/Expressions the same system as TRAIT_PLAN's,
+  or a separate visual layer?** A visual trait like *aura* could plausibly be driven by a personality
+  aspect, which would be a lovely connection — or be entirely independent. Nothing assumed.
+
+## §8 — decisions
+
+**13 SETTLED.** 14–19 unchanged and open. New: **26** (the word "trait"), **27** (whether the two
+systems are one), **28** (the grid was drawn against a trap).
+
+## §9 — suite
+
+Nothing was changed in `server/`, and the suite was run anyway rather than assumed:
+
+```
+  PHASE 0 / 1 / 2 / 3   passed        CHARACTER  passed
+  ROE                   passed        TRAITS     passed        TESTNET  passed
+
+  ALL GREEN — every suite ran and every suite passed.
+```
