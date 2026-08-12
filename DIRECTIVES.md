@@ -350,3 +350,12 @@ Part B — Directive 027 again (check first what already got done; the failed ru
 3. Researched shortlist of proven local character-roleplay models for Lonnie to choose her voice from. Report only, install nothing.
 
 Full suite green. Deliver everything this turn.
+
+## Directive 029 — Voice slot gets eyes
+
+Lonnie's ruling: her voice model is qwen2.5vl:7b — already on this machine, the same model as the Elsewhere portal persona: she must be able to see, and one model does seeing and speaking. The technical slot stays qwen2.5:14b.
+
+1. Commit before changes.
+2. Point the voice/character slot at qwen2.5vl:7b.
+3. Verify /talk works on it, and verify the model answers a vision-format request (image in, description out) so her sight path is confirmed live before it's ever needed — a real image, no stand-ins, per standing rule.
+4. Full suite green, report, deliver this turn.
