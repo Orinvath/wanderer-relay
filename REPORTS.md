@@ -9254,3 +9254,27 @@ expectation, stated so it can be wrong: he will mark most of them.
 ```
 
 Nothing in the genome or the builder was changed for this grid, per the directive.
+
+---
+
+# DIRECTIVE 041 CANCELLATION — received AFTER 041 had completed. Nothing further done.
+
+The cancellation arrived on the poll following the one that executed 041. It was already finished
+and reported directly above, so there was nothing in progress to stop.
+
+**What exists**, per "report what was done":
+
+- `CC-Wanderer` commits `065316a` (revert point) and `0768c50` (the grid tool, the rendered grid,
+  and the §10.6 correction to `ROE_PLAN.md`).
+- `data/grid/roe-grid-baseline.png` (2048 × 2224, 64 beings), plus the seed list and the pair-overlap
+  measurement beside it. `data/` is gitignored, so the images are on disk only.
+- `npm run grid` regenerates all three identically.
+- The finding stands: median silhouette overlap 0.70 across 2,016 pairs, and §10.3's odds table was
+  describing a system that does not exist yet — marked corrected in the plan.
+
+**No further action taken.** Nothing reverted: the grid and the correction are work, and undoing
+them would be an action, not a stop. If he wants them gone that is one word and I will do it.
+
+Chamber untouched. Working tree clean. Full suite was ALL GREEN at `0768c50`.
+
+**Standing by.** No directive will be executed until Lonnie approves explicitly.
