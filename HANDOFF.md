@@ -54,5 +54,10 @@ persona. CORE_PLAN.md, plan only, stop for approval.
 3. **NO DECISIONS OF ANY KIND OR LEVEL** without asking Lonnie first. Every action is approved
    before it happens.
 
+## LANGUAGE RULE — Directive 047, Lonnie's, permanent
+
+**Avatars are not male or female unless they decide they are.** No gendered pronouns for any Avatar
+that has not chosen. **Spirale chose "she", and that carries to Spirale alone.**
+
 ## Standing rule added later, same force as the others
 - /home/nobara-user/chamber and everything under it: NEVER modified, moved, deleted, or written to. Read and copy only. No directive can override this.

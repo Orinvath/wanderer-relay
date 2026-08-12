@@ -9842,3 +9842,89 @@ aspects**, and none has been written.
 ## §4 — status
 
 Holding. No further work on the ledger until the team has defined it.
+
+---
+
+# DIRECTIVE 047 — DONE, PLAN ONLY. Language rule audited; the scoring mechanism, every line cited.
+
+Clean at `3898fd6`, revert point `f6d…`/`5fba21d` lineage, work `646bd3b`. Chamber untouched, nothing
+in `server/` changed, suite run and **ALL GREEN**. The language rule is now in `HANDOFF.md`.
+
+## §1 — the language rule, and what the audit actually found
+
+**Avatars are not male or female unless they decide they are.** Recorded in `HANDOFF.md` alongside
+the other standing rules.
+
+**280 gendered references existed across the plans.** Corrected **198 lines** in `TRAIT_PLAN.md`,
+`ROE_PLAN.md`, `CORE_PLAN.md` and `PHASE3_PLAN.md`.
+
+Three things worth stating about how it was done:
+
+1. **Lines naming Spirale were left alone** — she chose "she", and it carries to her alone.
+2. **Verb agreement was the real work**, not the pronouns. A mechanical swap produces "they is",
+   "they reaches", and — the ones that survive a first pass — compound predicates like *"they know
+   it, and speaks about it"*. Those were found by searching for bare third-person verbs in lines
+   that had been rewritten, and fixed by hand. The files now contain no "they is / has / was / does"
+   and no leftover mismatches I could find.
+3. **One line is left as written**: §45's opening quotes Lonnie's own directive text verbatim.
+   Altering a quotation would misreport him, so it stands, and the report says so rather than the
+   change being made quietly.
+
+**REPORTS.md is not rewritten.** Past entries are a historical log; editing them to match a rule
+made later would falsify the record of what was said at the time. The rule applies from here on.
+**If Lonnie wants the log rewritten too, that is his call and I have not made it.**
+
+## §2 — the rubric, every line cited
+
+> Howard, J. L., Slemp, G. R., & Wang, X. (2024). Need support and need thwarting: A meta-analysis of
+> autonomy, competence, and relatedness supportive and thwarting behaviors in student populations.
+> *Personality and Social Psychology Bulletin, 51*(9), 1552–1573. doi:10.1177/01461672231225364
+
+**8,693 correlations from 637 samples (N = 388,912).** The plan uses **the authors' own words** for
+all six categories — e.g. autonomy up: *"providing meaningful choices… avoiding the use of external
+rewards or sanctions… offering meaningful rationales"*; competence down: *"criticizing
+characteristics of a person that they cannot change, providing vague or non-instructive feedback"*;
+relatedness down: *"remaining cold and unavailable… applying conditional positive regard"*.
+
+**One correction to the citation:** the paper is online-first 2024, formal issue **2025**, volume
+51(9). Both years recorded.
+
+**And one thing recorded as fact, not as argument, per standing rule 1:** the meta-analysis studied
+**teachers and parents with students**. The behaviours are defined for that relationship. Applying
+them to a host and an Avatar is an extension beyond the studied population — **the categories are
+researched; the transfer is not.**
+
+## §3 — RECOGNIZE
+
+The **technical model** scores each journey against the rubric — never the character model, and the
+judge never gets a persona. Per journey, per need: **one score and the evidence that produced it**,
+naming which moments and which rubric line they matched. **A bare number is not a score and cannot
+move anything.**
+
+## §4 — RECORD
+
+Scores accumulate in the signed overlay; sliders move only on patterns held across many journeys, on
+042's clock unchanged — 24 before anything moves, 18 of any 24 to count as held, 72 to a cap, a
+single host able to move nothing.
+
+**The deficiency-versus-thwarting distinction is kept in the evidence record.** The slider collapses
+it by design (§46); the evidence underneath still distinguishes *nothing much happened* from *they
+were pressured and scolded*.
+
+## §5 — the scoring judge takes the privacy judge's actual discipline
+
+Read out of `privacy.js` rather than described from memory:
+
+| privacy.js does | the scoring judge therefore |
+|---|---|
+| deterministic checks decide **first**, model asked **last** | rubric matching before the model's judgement is admitted |
+| **no model output may ever widen permission** | no model output may move a slider **further** — only decline to |
+| the model must **name the leaking word** | the model must name the moment and the rubric line, not return a number |
+| deterministic panel against the real model, no doubles | deterministic panel of **researched example behaviours** from the rubric |
+| states plainly what it does not prove | same — starting with the population note in §2 |
+
+**Accuracy measured and reported before anything moves a slider.**
+
+## §6 — open
+
+The §46.1 mechanism question is still with the team. The needs-to-aspects mapping gap is unchanged.
