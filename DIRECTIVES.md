@@ -770,3 +770,25 @@ lesson-to-outlook derivation has no science, state so plainly — the
 refraction gap (decision 35) and this derivation likely share that flag.
 
 PLAN ONLY: update TRAIT_PLAN.md. Report for approval. No implementation.
+
+## Directive 050 — Voice follows mood; two permanent corrections
+
+CORRECTIONS (Lonnie's, permanent, join HANDOFF.md language rules):
+1. The Avatar is "it" unless that Avatar has chosen otherwise. This was
+   already ruled (047.0) and violated since — audit the plans and reports
+   again; the director has been reminded too.
+2. NEVER assume a form. Not every Avatar glows, has tendrils, or shares
+   body parts. "Visible signs" means whatever THAT form expresses per its
+   form's sign set (blueprint: six forms, different anatomy). All sign
+   language in the plans must be form-neutral.
+
+RULING — decision 25 closed: mood drives the voice, scaled by outlook.
+Mechanism (uses only what exists): mood applies small offsets to the seven
+voice numbers (pitch, waver, chorus, reverb, size, tone, air) before each
+utterance, through the existing effects chain. Outlook multiplies offset
+depth and recovery rate, identically to the light — same guarantee: the
+voice always returns to its born numbers; no life permanently marks it.
+
+PLAN ONLY: add the mood-to-voice-offsets section to TRAIT_PLAN.md
+(mapping proposed for approval, not decided), apply both corrections
+across the plans. Report. No implementation.
