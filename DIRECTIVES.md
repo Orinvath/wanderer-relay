@@ -888,3 +888,24 @@ information contradicts something old, the old is updated.
    already preserves every original wording for anyone who needs it.
 
 Report confirmation. Nothing else.
+
+## Directive 055-pre — Source discrepancy check before the capability directive
+
+Question from Lonnie, answer to REPORTS.md (read-only task, chamber untouched
+as always — nothing changes, nothing moves, only reading):
+
+The director reads the portal from the public GitHub elsewhere repo (pushed
+at project start). You read the live disk. The director could not find the
+Stage panel organization in the snapshot's Gui.jsx sections and had to dig
+for it; you had already confirmed Multiplane is a Stage item.
+
+Report:
+1. Compare the elsewhere GitHub repo's HEAD against the live chamber disk:
+   are they identical, or does the disk differ from what was pushed
+   (uncommitted work, files excluded at publish time, anything)?
+2. State where the Stage panel and its item set (multiplane, painted
+   skies, music, cutouts) live in the code, definitively, so the
+   director's map matches yours.
+3. If the GitHub copy is missing or behind anything, list exactly what —
+   Lonnie will decide whether to update GitHub (by pushing a fresh copy;
+   chamber itself is never touched).
