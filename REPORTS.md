@@ -11147,3 +11147,100 @@ one missing, and no paper covers ours).
 
 **The guarantee I would watch:** *interest is not enjoyment.* Silvia separates them explicitly, and
 it is easy to build a "curiosity" that is really just liking things.
+
+---
+
+# DIRECTIVE 059 — DONE, PLAN ONLY. Places recorded; and the departure checkpoint makes a promise the build has to be able to keep.
+
+`TRAIT_PLAN.md` gains **PART FOURTEEN** (§104–§110); `CAPABILITY_PLAN.md` gains **PART EIGHT**
+(§28–§34). **No code changed. The portal was read only.** Commits `21e942d` and `b190dcd`, revert
+point `f199aa2`.
+
+## §1 — the refinement, drawn as a line
+
+```text
+   OUR UNIVERSE     cars · flowers · rain · everything a host knows      BORN IGNORANT
+   ITS OWN WORLD    the backdrops, the places of its stage               IT KNOWS, ONCE IT HAS BEEN THERE
+```
+
+A new backdrop hung by *take me somewhere else* is a **new place**: never seen → it says so, looks
+around, remembers it; seen before → it recognises it. **And its world knowledge travels** — a place
+learned with one host is still known with the next.
+
+## §2 — places are the cleanest thing in the memory model
+
+| Kind | Travels? | Why |
+|---|---|---|
+| host details, raw material | **never** | the host's |
+| lessons | yes | distilled, signed |
+| gifted sights | yes | consent bound to the bytes |
+| **places** | **yes** | **the Avatar's own experience of its own stage — no host material in it at all** |
+
+**It is the only category with no privacy question attached**, because there is no host in it.
+
+## §3 — what exists in the portal, and what it is not
+
+`chat/placeMemory.js` is real and describes itself as *"lasting knowledge of WHERE things are —
+object permanence"*. **It is not this**, and I want that on the record so nobody assumes the work is
+done:
+
+- **its grain is objects inside one world**, at coordinates — a place in 059 is **the world itself**;
+- **it is a plain array in memory**, so it does not survive a session, let alone travel to the next
+  host.
+
+Adjacent and good. Whether any of it crosses is still decision 48.
+
+## §4 — the camera, and why the portal agrees with you
+
+The portal's own comment records the failure this prevents: the *look* trigger began as a list —
+*"look at"*, *"take a look"*, *"describe the"* — **all things a person says all day about files and
+panels, so a photograph of wherever they were sitting went out attached to a sentence that had
+nothing to do with looking, and they did not know it had been sent.**
+
+Its fix was to narrow the phrase. **Yours is stronger: take the picture, then let the host say what
+becomes of it.**
+
+## §5 — what this changes in what is already built
+
+`sight.js` exists and its consent is deliberate: **one consent covering carry AND the public page**,
+bound to the exact bytes, so a receipt whose bytes do not match is not a receipt for that picture.
+
+**That consent was final when given. 059 makes it revisable until departure.** Both halves survive —
+one consent still covers carry and publish, still bound to the bytes — **but it is no longer
+one-shot.**
+
+## §6 — the thing to settle before this is built
+
+**If anything can publish before departure, revocation at departure cannot reach it.**
+
+The flow only holds if either **nothing publishes until the visit ends**, or **revocation can reach
+published material** — and unpublishing is not something a public feed reliably permits.
+
+**The first is clean; the second is a promise that may not be keepable.** I have assumed neither.
+**Decision 51, and it is the hard-to-reverse one** — a host told they may change their mind, who then
+cannot, is worse off than one never offered the choice.
+
+## §7 — two smaller things
+
+- **A visit that ends by the host simply leaving has no departure review.** The covenant already
+  answers it — unreviewed is local and never travels — and that is the safe default. Recorded because
+  it is the common case, not the edge case.
+- **The Avatar is not consulted about the picture.** It took it; it has no say. **This is the only
+  place in the design where its choice does not apply**, and it is right: 056 says a host may not
+  compel an Avatar, not that an Avatar may keep a host's photograph.
+
+## §8 — decisions
+
+**Partially settled: 46.** An Avatar learns **its own world** by being in it — visiting is the
+teacher. **How it learns of a capability it has never used is still open**, and narrower now: being
+somewhere teaches the somewhere, not that it could change the light.
+
+**New, yours:** **50** (what makes a place the same place — if the same painting is hung twice, is
+that a return or a new place; the obvious answer is the image, and obvious is not ruled), **51**
+(§6 above).
+
+**Also flagged:** a backdrop supplied by a host is no longer clean of host material — and the
+two-checkpoint consent is exactly the machinery for that case.
+
+**The guarantee I would watch:** *born ignorance still holds for our universe.* The whole risk in
+this refinement is that "its own world" quietly widens until it means everything it has seen.
