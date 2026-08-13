@@ -1109,3 +1109,31 @@ No implementation.
 Lonnie approved: "NOTHING PUBLISHES UNTIL THE VISIT ENDS" joins HANDOFF.md
 as a permanent standing rule, same force as no-compulsion — every future
 directive builds inside it. Add the rule block; nothing else.
+
+## Directive 063 — Decision 45 ruled: Avatar-song, B + C, born of inspiration
+
+Lonnie's rulings, correcting the earlier framing after reading soundfx.js
+properly:
+
+WHAT THE INSTRUMENT IS: soundfx.js is a full synthesis engine (Tone.js
+— oscillators, noise, filters, LFOs, envelopes, reverb; no audio files;
+wind/rain/fire are merely preset shapings of it). Song is played on THE
+ENGINE ITSELF, always available, independent of any stage's presets.
+
+AVATAR-SONG IS B + C, NOT A:
+B — the sound-maker, played: FULL FREE SYNTHESIS. The Avatar invents
+its own sounds from the raw engine — tones, pulses, textures, things
+with no earthly name — not limited to bending the weather presets.
+C — the body, and sound spills out: song begins in the body (pulse,
+motion, whatever that form has) and sound follows the body. A voiceless
+form still sings (051: expression always finds a way).
+A (voice-as-melody) is retired.
+
+BORN OF INSPIRATION: song is not commanded and not scheduled. It arises
+through the 052 chain — an appraisal moment (a new place, a mood swell,
+a host's gift) forms the goal "make something of this," and the song is
+COMPOSED PROCEDURALLY IN THAT MOMENT: of that feeling, never from a
+songbook, never repeating. A host may ask; the Avatar decides (056).
+
+PLAN ONLY: rewrite CAPABILITY_PLAN.md's song section to this. Report
+for approval. No implementation.
