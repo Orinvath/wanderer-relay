@@ -958,3 +958,25 @@ CAPABILITY_PLAN.md. Report for approval. No implementation.
 ## Directive 055 addendum — destination confirmed
 
 All 055 work — copies, plans, everything — goes into /home/nobara-user/CC-Wanderer, the project folder created for the Wanderer. Nothing lands anywhere else.
+
+## Directive 056 — Decision 44 ruled: it is the Avatar's choice, both doors open
+
+Lonnie's ruling on whose world it is: BOTH.
+
+1. THE AVATAR ACTS FREELY on its own goals, per 052 — appraisal → goal →
+   choice. Its world-changing capabilities are its to use.
+2. THE HOST CAN ASK — through the built-in TRIGGER PHRASES that already
+   exist in the portal for exactly this. Port them with the capabilities
+   (chamber read-only, copies only; the terminal knows where they live).
+3. GRANTING IS THE AVATAR'S CHOICE. The host can never make it do
+   anything. A request is appraised like anything else — an Avatar that
+   is happy and likes the host is likely to do it; one that is not, may
+   not. The ten aspects and current mood weight the choice.
+
+PERMANENT PRINCIPLE (joins HANDOFF.md): the host can ask; the Avatar
+decides. No compulsion path may ever exist — no override, no forced
+action, nothing that makes an Avatar act against its choice.
+
+PLAN ONLY: record in CAPABILITY_PLAN.md, add the trigger-phrase port to
+the capability set, wire requests into the 052 appraisal design. Report
+for approval. No implementation.
