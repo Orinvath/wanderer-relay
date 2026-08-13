@@ -954,3 +954,7 @@ synthesis. Propose what Avatar-song IS; proposals only, Lonnie decides.
 
 PLAN ONLY: capability port plan + Avatar-song proposal in
 CAPABILITY_PLAN.md. Report for approval. No implementation.
+
+## Directive 055 addendum — destination confirmed
+
+All 055 work — copies, plans, everything — goes into /home/nobara-user/CC-Wanderer, the project folder created for the Wanderer. Nothing lands anywhere else.
