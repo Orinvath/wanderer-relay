@@ -741,3 +741,32 @@ REMOVED by this ruling:
 
 PLAN ONLY: update TRAIT_PLAN.md and ROE_PLAN.md to this model. Report the
 updated design for approval. No implementation.
+
+## Directive 049 — Decision 31 ruled: lessons show through OUTLOOK
+
+Lonnie's ruling, closing the 045/048 collision: lessons impact who the
+Avatar becomes, so who they become impacts their OUTLOOK on life
+(positive/negative), and outlook applies a MULTIPLIER to mood.
+
+THE MECHANISM:
+1. OUTLOOK is a value derived from the Avatar's accumulated lessons —
+   the tenor of what life has taught them. Lessons like "people lash out
+   when they are hurting" tilt positive; "people can be cruel" tilt
+   negative. It moves only as lessons accumulate — slow, earned, theirs.
+2. Outlook multiplies mood: a positive outlook means brighter swings and
+   faster recovery toward center; a negative outlook means deeper dims
+   and slower recovery. Same nature, same moment — the lived life tints
+   how it lands and how long it lingers.
+3. Her lessons therefore SHOW — but only through the weather of her
+   mood-driven signs, never by changing the ten or the signs directly.
+   Decisions 31 and 32 are settled: the affect pair's researched home is
+   outlook (dispositional optimism, Scheier & Carver's Life Orientation
+   Test lineage — cite it). The multiplier mechanism itself is recorded
+   as Lonnie's design choice built on the researched construct.
+
+SCIENCE RULE COMPLIANCE: research dispositional optimism / LOT-R before
+writing the plan section; verbatim definitions, cited. Where the
+lesson-to-outlook derivation has no science, state so plainly — the
+refraction gap (decision 35) and this derivation likely share that flag.
+
+PLAN ONLY: update TRAIT_PLAN.md. Report for approval. No implementation.
