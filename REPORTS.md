@@ -11244,3 +11244,56 @@ two-checkpoint consent is exactly the machinery for that case.
 
 **The guarantee I would watch:** *born ignorance still holds for our universe.* The whole risk in
 this refinement is that "its own world" quietly widens until it means everything it has seen.
+
+---
+
+# DIRECTIVE 061 — DONE, PLAN ONLY. Both rulings recorded. 51 turns a promise into something the build can keep.
+
+**DECISION 50 — A PLACE IS THE IMAGE.** `TRAIT_PLAN.md` §107, rewritten from an open question into
+the ruling. The same image loaded — any day, any host, any session — is a return: *I have been here
+before.* The host is not part of a place's identity, so an Avatar does not lose a room because it is
+standing in it with somebody new.
+
+**Why it fits the rest of the model:** a place carries no host material at all (§106 — it is the only
+memory category with no privacy question attached), so there is nothing in a place that a change of
+host could invalidate. Identity by image is not a shortcut; it is the only property of a place that
+is entirely the Avatar's own.
+
+**Added as a guarantee (64):** identity is asserted on the image and nothing else — not a name, not a
+slot, not a world file. Same image, different host, different session → recognised. Different image
+in the same slot → not recognised.
+
+**DECISION 51 — NOTHING PUBLISHES UNTIL THE VISIT ENDS.** `CAPABILITY_PLAN.md` §31, likewise
+rewritten from the open consequence into the ruling. The order is now fixed:
+
+```text
+   DURING THE VISIT   approvals accumulate · every one revisable · NOTHING LEAVES
+   AT DEPARTURE       the review — the last word on every image
+   AFTER DEPARTURE    moderation gate ──► publish
+```
+
+**This is what makes the departure review real.** A review that could only reach the images that had
+not gone out yet would be a review in name. Because publication waits, every approval given during a
+visit is still one the host can take back. And revocation never has to chase anything — the
+alternative was unpublishing, which a public feed does not reliably permit. The moderation gate of
+013 and 032 is unchanged and now runs last.
+
+**What this rules out, and I wrote it into the plan rather than leaving it implied:** nothing may be
+built that shares an image mid-visit — no live feed, no as-it-happens post, no preview link that
+resolves for anyone but the host. A future capability that wants to publish during a visit does not
+get tuned into compliance; it contradicts this and comes back to you.
+
+**Added as a guarantee (65):** nothing leaves during a visit, asserted on the wire rather than on a
+flag — including images already approved at capture.
+
+**Decisions after 061.** 50 and 51 are closed. 46 stays partially settled: visiting teaches an Avatar
+its own world, but how it learns of a capability it has never used is still open. 45, 48 and 49
+unchanged.
+
+**One thing I did not do, and it is yours to say.** 056 and 057 each became a permanent rule block in
+`HANDOFF.md`. 51 reads like the same kind of thing — a rule every future directive has to build
+inside of — but 061 said record it in the plans, so that is all I did. Say the word and it becomes a
+standing rule.
+
+**Commits:** `f3f7e99` marker, `8690463` decision 50, `80039b9` decision 51. Plan only, no
+implementation, nothing in the portal touched.
