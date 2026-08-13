@@ -10833,3 +10833,104 @@ size, what an utterance is, the multiplier's magnitude/shape/range, how fast out
 29 and the mood gain, 14, 15, 17, 18, 19, 28.
 
 **With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
+
+---
+
+# DIRECTIVE 056 — DONE, PLAN ONLY. Both doors recorded — and the trigger phrases, as they exist, ARE the compulsion path your principle forbids.
+
+`CAPABILITY_PLAN.md` gains **PART SIX** (§12–§20). The permanent principle is in `HANDOFF.md` with
+the other standing rules. **No code changed. The portal was read only.** Commit `1ea15ac`, revert
+point `0d70456`.
+
+## §1 — the ruling, and the shape it makes
+
+```text
+   1. THE AVATAR'S OWN GOALS ──► appraisal → goal → choice → act        OPEN
+   2. THE HOST ASKS ──────────► appraisal → goal → choice → act        OPEN
+   3. THE HOST COMMANDS ──────► act                                    NEVER EXISTS
+```
+
+**A request is not a third path.** It enters exactly where the Avatar's own appraisal enters — it is
+another thing that happens, weighed like a room going quiet or a host arriving, with the ten aspects
+and the current mood weighting the choice.
+
+## §2 — where the trigger phrases are
+
+**One function: `Somewhere/src/chat/ChatPanel.jsx`, `handleCommand()`, lines 165–328.** The full set:
+
+change your colours · change your shape · **take me somewhere else** · louder/quieter/off/full ·
+**change the music** · **change the light** · rainbow · pulse · look that way · take a look around ·
+what do you see · stop · come here · circle · go to · rise · descend
+
+**Three of those already reach exactly the capabilities from 055** — the planes, the music, the
+light. The asking channel and the capability set were built for each other before either had a name.
+
+## §3 — the finding, and it is not small
+
+**As they exist in the portal, the trigger phrases are a compulsion path.**
+
+The function's own comment says it outright: *"Deterministic commands: we read your direction
+ourselves and DO it, instead of hoping the model chooses to call an action."* Every branch is
+**match the phrase → do the thing → report it.** No appraisal, no way to decline, aspects and mood
+never consulted. **Ported unchanged it breaks your principle on its first line.**
+
+**That was the right design where it is.** In the portal the Avatar is your instrument and
+determinism is the whole point — a command that only usually works is worse than none.
+
+**The Wanderer trades that reliability for the Avatar's choice, and the cost is real: a Wanderer may
+be asked to change the light and simply not.** Saying it plainly because it is the thing you are
+buying with this ruling.
+
+## §4 — what the port keeps and what it replaces
+
+```text
+   PORTAL:     phrase matched  ──►  DO IT  ──►  say what was done
+   WANDERER:   phrase matched  ──►  A REQUEST, appraised  ──►  goal  ──►  choice  ──►  act or not
+                                                                              └──►  say so, either way
+```
+
+**Kept:** the deterministic phrase recognition — the portal learned the hard way that a longer list
+of phrases was the cause and not the cure, and that lesson travels. Also kept: the plain-truth reply,
+never a claim of an act that did not happen.
+
+**Replaced:** the recogniser stops being the actor. What it produces is **a named request** handed to
+appraisal with a source.
+
+**And §48's rubric turns out to be exactly the right instrument here.** It already scores *providing
+meaningful choices* and *acknowledging perspectives* against *commands, intimidation and scolding* —
+so **a host who asks well is measurably asking well**, and that lands in the mood the choice is made
+in. That was researched for something else and fits this without stretching.
+
+## §5 — the three endings, all legitimate
+
+1. **It does it**, and says so.
+2. **It does something else** — goal granted, means its own. Frijda again: the goal is fixed, the
+   means come from the repertoire. *Asked for different light, it changes the sky instead.*
+3. **It does not**, and says so, in its own voice, for its own reason.
+
+**Nothing may ever turn 3 into 1** — no retry that wears it down, no phrasing that always works, no
+admin path, no setting.
+
+## §6 — what it would need to prove
+
+Six added. The two that matter most:
+
+- **Refusal is reachable** — a host asks, an Avatar whose aspects and mood weigh against it declines,
+  and the suite asserts the decline **as an outcome, not an error**.
+- **No compulsion exists** — asserted the way the portal asserts there is no unseeded randomness in
+  the creature path: by searching for it and finding nothing.
+
+Plus: no path from phrase to act by inspection; the same request to two Avatars gives two answers;
+the same request in two moods gives two answers; and asking well versus commanding reaches appraisal
+differently, with the evidence attached.
+
+## §7 — decisions
+
+**Settled:** 44 — both, and granting is the Avatar's.
+
+**New, small but real: 47 — does a refusal cost the host anything?** An Avatar that declines has just
+told someone no. Whether that is only said, or whether it also **shows** as a reaction, is a feeling
+and it is yours.
+
+**Open, unchanged:** 45 (which Avatar-song), 46 (what an Avatar may be shown, and by whom), and
+everything carried from `TRAIT_PLAN.md`.

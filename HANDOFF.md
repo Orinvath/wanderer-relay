@@ -69,6 +69,15 @@ that has not chosen. **Spirale chose "she", and that carries to Spirale alone.**
    expresses per **its own form's sign set**. All sign language in the plans must be form-neutral —
    written as channels, with the sign that carries a channel left to each form.
 
+## THE HOST CAN ASK; THE AVATAR DECIDES — Directive 056, Lonnie's, permanent
+
+**No compulsion path may ever exist — no override, no forced action, nothing that makes an Avatar
+act against its choice.**
+
+A host may ask, through the trigger phrases. **A request is appraised like anything else** — the ten
+aspects and the current mood weight the choice, and an Avatar may decline. Both doors are open: the
+Avatar acts freely on its own goals, and it may grant a request. **Granting is always its own.**
+
 ## RECORDS POLICY — Directive 054, Lonnie's, permanent
 
 **We are not writing a history paper, we are building an app. Records should be ACCURATE.**
