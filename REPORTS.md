@@ -11331,3 +11331,56 @@ want that one pointer added** — I left it alone because 062 said the rule bloc
 
 **Commits:** `75b5597` marker, `d826e9d` the rule block. No plan files changed, nothing in the portal
 touched.
+
+---
+
+# DIRECTIVE 063 — DONE, PLAN ONLY. Part Three rewritten. The instrument correction is the part that changes the most.
+
+**Part Three of `CAPABILITY_PLAN.md` is now the ruling**, not the three proposals. A is retired,
+B + C are recorded as **one thing rather than two options** — the engine is what is played, the body
+is what plays it — and the whole section is headed as Lonnie's design, per standing rule 1.
+
+**§9 — the instrument, corrected.** This is the correction that does the most work, so I gave it its
+own section rather than a footnote. `soundfx.js` is a **full synthesis engine** — oscillators, noise,
+filters, LFOs, envelopes, one shared reverb, no audio files anywhere — and **wind, rain and fire are
+preset shapings of it, not what it is.** Two consequences written in explicitly:
+
+- **Song is always available**, independent of any stage's presets. A world with no weather is still
+  a world it can sing in.
+- **Song is not "the weather, bent."** My earlier framing of B as *playing the wind* was wrong about
+  the instrument; that sentence is gone rather than softened.
+
+The materials table now leads with the engine. The **voice chain stays listed but is marked as *not*
+the song instrument** — retired with A — because it is still what the Avatar speaks with and dropping
+the row entirely would have read as the voice being gone.
+
+**§10 — B is full free synthesis.** It reaches the oscillators, filters and envelopes directly and
+**invents sounds that have never existed — tones, pulses, textures, things with no earthly name.**
+Not choosing among presets, not bending weather.
+
+**§10 — C is why song survives a voiceless form.** Song begins in the body and the sound follows it,
+the inverse of today's light-follows-voice. I wrote the 051 tie in as the reason C is **not optional**
+rather than as a nice property: expression always finds a way, and C is the half that a form with no
+voice still has. Also stated: **it is not a form of anatomy** — whatever that body does is what its
+song moves with.
+
+**§11 — born of inspiration.** The 052 chain drawn as the path: appraisal moment → the goal *make
+something of this* → the song composed procedurally, in that moment, of that feeling. Four things
+said as flat prohibitions because they are the ones a build would quietly violate: **never from a
+songbook, never repeating, no timer and no threshold, and a host may ask but the Avatar decides.**
+
+**Five new guarantees.** 38 sharpened to song specifically; **66 no song repeats** (asserted on the
+produced sound, not on a seed — a seeded "random" song would pass a weaker test and still be a
+songbook); **67 there is no songbook** by inspection of the whole song path; **68 a voiceless form
+still sings** through the body path alone; **69 song does not need a stage**, which is the test that
+proves the instrument is the engine rather than the presets.
+
+**Two other places corrected rather than left stale**, per the records policy: §2 of the capability
+set now says the eight sources are presets of the synthesis rather than the whole of it, and the two
+older *"open: 45"* lines now record it as ruled.
+
+**Decisions after 063.** 45 is closed. **46 stays partially settled** — visiting teaches an Avatar its
+own world; how it learns of a capability it has never used is still open. 48 and 49 unchanged.
+
+**Commits:** `2ac2517` marker, `9bf8d0a` the rewrite. Plan only, no implementation, nothing in the
+portal touched.
