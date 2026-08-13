@@ -11022,3 +11022,128 @@ character model and the technical model never speaks.
 
 **Open, unchanged:** 45 (which Avatar-song), 46 (what an Avatar may be shown, and by whom), and
 everything carried from `TRAIT_PLAN.md`.
+
+---
+
+# DIRECTIVE 058 — DONE, PLAN ONLY. I got the CB5T paper and read it. It specifies the aspects too — decision 43 was not as open as I reported.
+
+`TRAIT_PLAN.md` gains **PART THIRTEEN** (§91–§103). **No code changed. The portal was read only.**
+Commit `3c8391e`, revert point `b0e3648`.
+
+## §1 — the paper, actually read
+
+I obtained DeYoung (2015) **in full** and read it, rather than working from summaries. Verbatim, on
+the frame:
+
+> *"Cybernetics, the study of goal-directed, adaptive systems, is the best framework for an
+> integrative theory of personality."*
+
+## §2 — the 052 chain already was a cybernetic loop
+
+DeYoung's own cycle, verbatim: *"(1) goal activation, (2) action selection, (3) action, (4) outcome
+interpretation, (5) goal comparison."*
+
+```text
+   CB5T:   goal activation → action selection → action → outcome interpretation → goal comparison
+                  │               │              │              │                      │
+   052:          GOAL    →      CHOICE     →    ACT    →    APPRAISAL  ────────────────┘
+```
+
+**Our appraisal is his stages 4 and 5.** The architecture you ruled in 052 was already this loop
+before this directive named it — the strongest outside check the design has had.
+
+## §3 — the finding that changes a status I reported
+
+**CB5T's Table 1 gives the mechanism for each domain AND for each of the ten aspects, in DeYoung's
+own words. All ten of ours are in it.**
+
+> **Assertiveness** — *"Incentive reward sensitivity: drive toward goals."*
+> **Enthusiasm** — *"Consummatory reward sensitivity: enjoyment of actual or imagined goal attainment."*
+> **Volatility** — *"Active defense to avoid or eliminate threats."*
+> **Withdrawal** — *"Passive avoidance: Inhibition of goals, interpretations, and strategies, in response to uncertainty or error."*
+> **Intellect** — *"Detection of logical or causal patterns in abstract and semantic information."*
+> **Openness** — *"Detection of spatial and temporal correlational patterns in sensory and perceptual information."*
+> **Industriousness** — *"Prioritization of non-immediate goals."*
+> **Orderliness** — *"Avoidance of entropy by following rules set by self or others."*
+> **Compassion** — *"Emotional attachment to and concern for others."*
+> **Politeness** — *"Suppression and avoidance of aggressive or norm-violating impulses and strategies."*
+
+**I reported decision 43 as having no source at all. That was true of what I had found; it is not
+true of what exists.** The source that gave us the ten aspects also says what each one does.
+
+**What is now covered:** what each aspect *is*, functionally, at exactly our level of granularity.
+**What is not:** the magnitude — nothing says how much a 73 in Compassion outweighs a 22 in
+Politeness. **43 narrows from "no source at all" to "the functions are named, the arithmetic is
+ours."** First of the four no-science gaps to move.
+
+## §4 — two corrections to the directive, and one expectation that did not hold
+
+1. **Extraversion.** *"Goal activation"* is DeYoung's name for **stage 1 of the cycle**, not for the
+   Extraversion mechanism. The domain's own words are *"behavioral exploration and engagement with
+   specific rewards."* Your substance is right; the term is borrowed from the cycle.
+2. **Conscientiousness.** *"Impulse control"* is **not** Conscientiousness in CB5T — suppression of
+   impulses is **Politeness**, under Agreeableness, and protection from impulses is the **Stability**
+   metatrait. Conscientiousness is *"protection of non-immediate or abstract goals and strategies
+   from disruption."*
+3. **The flag you expected is not needed.** You wrote *"where CB5T specifies the domain but not the
+   aspect split, flag it as our extension."* **It specifies both, for all ten.** Nothing to flag.
+
+## §5 — Agreeableness is 056's missing mechanism
+
+*"Altruism and cooperation; coordination of goals, interpretations, and strategies with those of
+others"* **is** a request-weighing mechanism, in the source's own words. **The host-can-ask design
+and CB5T meet without either being bent** — which is why an Avatar that likes its host is likelier to
+grant, exactly as you ruled.
+
+## §6 — curiosity, and one alignment I am claiming as ours
+
+Berlyne's collative variables (novelty, complexity, uncertainty, conflict); Loewenstein verbatim —
+*"a form of cognitively induced deprivation that arises from the perception of a gap in knowledge or
+understanding"*; Silvia's two appraisals — **novelty-complexity** and **coping potential**, a
+structure he found specific to interest and **not** to enjoyment.
+
+**And Silvia's two appraisals line up with DeYoung's two aspects:**
+
+```text
+   novelty-complexity  ←→  OPENNESS     "detection of ... patterns in sensory and perceptual information"
+   coping potential    ←→  INTELLECT    "detection of ... patterns in abstract and semantic information"
+```
+
+*Can I see a pattern here?* against *can I make sense of it?* **Neither author says this — it is our
+extension and it is flagged as such** — but if it holds, the two aspects of the curiosity domain are
+the two appraisals of interest, which is the cleanest thing in the design.
+
+## §7 — the one architectural consequence, and it is not cheap
+
+*"An Avatar alone in a quiet room wonders about it."*
+
+**Part Eleven's chain was event-driven** — its input was experience. **Wondering at nothing requires
+appraisal to run when nothing has happened**, so appraisal becomes **continuous rather than
+triggered**. That is a change in the shape of the system, not an addition to it, and it is cheap to
+write in a plan and not cheap to build.
+
+Reactions still never fire actions, and born ignorance still holds: an Avatar alone may wonder about
+the room, never about a thing it has never been shown.
+
+## §8 — something that already exists, reported not proposed
+
+**The portal already has a curiosity drive.** `chat/instinct.js` describes itself as the fast,
+always-on layer under the slow mind, with *"DRIVES — curiosity, sociability, restlessness: inner
+needs that RISE on their own and EASE when acted on"*, plus salience-based attention with novelty in
+it. It names its own lineage: Blumberg's Silas, Steve Grand's Creatures, Oudeyer's curiosity.
+
+**It is not in the 055 capability set and I have assumed nothing.** Whether any of it crosses is
+yours — **decision 48**.
+
+## §9 — decisions
+
+**Substantially closed:** 43, as above.
+
+**New, yours:** **48** (does anything from the portal's instinct layer cross), **49** (what counts as
+an information gap for a being with an Avatar's memory — Loewenstein presumes a knower who can notice
+one missing, and no paper covers ours).
+
+**Open, unchanged:** 42, 35, 36, 45, 46, 38, 39, and the rest.
+
+**The guarantee I would watch:** *interest is not enjoyment.* Silvia separates them explicitly, and
+it is easy to build a "curiosity" that is really just liking things.
