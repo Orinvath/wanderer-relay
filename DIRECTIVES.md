@@ -792,3 +792,20 @@ voice always returns to its born numbers; no life permanently marks it.
 PLAN ONLY: add the mood-to-voice-offsets section to TRAIT_PLAN.md
 (mapping proposed for approval, not decided), apply both corrections
 across the plans. Report. No implementation.
+
+## Directive 051 — Decision 37 ruled: expression always finds a way
+
+Lonnie's ruling: the Avatar uses what it has to express itself. A form
+may lack a channel (no color, no size change) — the feeling is never
+lost, it REROUTES into the channels that form does have: movement,
+behavior, rhythm, whatever the body offers. Every Avatar is fully
+expressive with what it has to work with.
+
+Design consequence for the plans: mood-to-sign mapping is defined
+per-form as a ROUTING, not a fixed table — each form declares its
+available channels, and the full expressive load distributes across
+them. No channel requirement, no muted feelings. A form with fewer
+channels expresses MORE through each one it has.
+
+PLAN ONLY: record in TRAIT_PLAN.md's channels section. Report. No
+implementation.
