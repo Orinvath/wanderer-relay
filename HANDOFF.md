@@ -91,6 +91,30 @@ A host may ask, through the trigger phrases. **A request is appraised like anyth
 aspects and the current mood weight the choice, and an Avatar may decline. Both doors are open: the
 Avatar acts freely on its own goals, and it may grant a request. **Granting is always its own.**
 
+## NOTHING PUBLISHES UNTIL THE VISIT ENDS — Directive 062, Lonnie's, permanent
+
+**No shared material leaves the machine before the visit is over.** Decision 51, ruled in 061 and
+made standing law here. Same force as no-compulsion: **every future directive builds inside it.**
+
+```text
+   DURING THE VISIT   approvals accumulate · every one revisable · NOTHING LEAVES
+   AT DEPARTURE       the review — the last word on every image
+   AFTER DEPARTURE    moderation gate ──► publish
+```
+
+**This is what makes the departure review real.** A review that could only reach the material that
+had not gone out yet would be a review in name. Because publication waits, **every approval given
+during a visit is still one the host can take back**, and revocation never has to chase anything
+already public.
+
+**What it rules out:** nothing may be built that shares material mid-visit — no live feed, no
+as-it-happens post, no preview link that resolves for anyone but the host. **A capability that wants
+to publish during a visit is not a tuning question; it contradicts this rule and goes back to
+Lonnie.**
+
+The moderation gate of 013 and 032 is unchanged and runs last. Unreviewed material stays local and
+never travels, per the privacy covenant.
+
 ## RECORDS POLICY — Directive 054, Lonnie's, permanent
 
 **We are not writing a history paper, we are building an app. Records should be ACCURATE.**
