@@ -11297,3 +11297,37 @@ standing rule.
 
 **Commits:** `f3f7e99` marker, `8690463` decision 50, `80039b9` decision 51. Plan only, no
 implementation, nothing in the portal touched.
+
+---
+
+# DIRECTIVE 062 — DONE. Decision 51 is standing law in HANDOFF.md, alongside no-compulsion.
+
+**The block is in**, placed with the other permanent rules in `HANDOFF.md`, headed *NOTHING PUBLISHES
+UNTIL THE VISIT ENDS — Directive 062, Lonnie's, permanent*, and stating in its first line that it has
+the same force as no-compulsion and that every future directive builds inside it.
+
+**What the block carries:**
+
+- **The order**, as the diagram — approvals accumulate and nothing leaves during the visit; the
+  departure review is the last word; the moderation gate of 013 and 032 runs after that, unchanged.
+- **Why it exists** — a review that could only reach the material that had not gone out yet would be
+  a review in name; because publication waits, every approval is still one the host can take back,
+  and revocation never has to chase anything already public.
+- **What it rules out**, in the rule itself rather than left to be inferred: no live feed, no
+  as-it-happens post, no preview link that resolves for anyone but the host. **A capability that
+  wants to publish mid-visit is not a tuning question — it contradicts the rule and comes back to
+  you.** That sentence is the working half; it is what a future directive will actually collide with.
+- **Unreviewed stays local and never travels**, per the privacy covenant, restated so the rule is
+  readable on its own.
+
+**Widened deliberately from images to material.** 059 and 061 were written about camera images
+because that is what prompted them, but your ruling covered *all shared material* and a standing rule
+that said "images" would invite the next capability to argue it was not an image. The rule says
+material.
+
+**Nothing else touched.** `CAPABILITY_PLAN.md` §31 still records this as decision 51 ruled by 061,
+which remains true; it does not yet say the rule was promoted to standing law. **Say the word if you
+want that one pointer added** — I left it alone because 062 said the rule block and nothing else.
+
+**Commits:** `75b5597` marker, `d826e9d` the rule block. No plan files changed, nothing in the portal
+touched.
