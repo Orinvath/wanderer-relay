@@ -10524,3 +10524,81 @@ multiplier's magnitude/shape/range; how fast outlook moves; 33, 34, 29 and the m
 
 **Still waiting from 050:** whether the 352 rewritten lines of past reports should stand or be
 restored, and whether Part Four's collapsed "kept for the record" block should be corrected too.
+
+---
+
+# DIRECTIVE 053 — DONE, PLAN ONLY. The split recorded; 049 and 050 stand; 38 and 39 come back.
+
+`TRAIT_PLAN.md` gains **PART TWELVE — THE PERMANENT SPLIT** (§85–§90), and §29, §30 and §78 are
+rescoped to it. **No code changed.** Commit `e4b0fb8`, revert point `1774422`.
+
+## §1 — the split
+
+```text
+   ┌─────────────────────────────────────────────────────────────────────────┐
+   │  ACTIONS          appraisal → emotion → GOAL → choice of act            │
+   │  chosen           from this Avatar's capabilities, here, now            │
+   ├─────────────────────────────────────────────────────────────────────────┤
+   │  REACTIONS        mood × outlook → the signs and the voice              │
+   │  automatic        no goal, no want, no choice — it just happens         │
+   └─────────────────────────────────────────────────────────────────────────┘
+              BOTH RUN AT ONCE — the involuntary tell underneath,
+                        the chosen act on top
+```
+
+Your own example is now the clearest sentence in the whole plan and is written in as a test: **a sad
+Avatar's voice wavers on its own while it chooses to sing to cheer itself up.**
+
+The distinction is recorded as you made it — **a reaction has no goal in it**, which is precisely why
+052's *"expression is not wiring"* never reached it. 052 governs what an Avatar **does**, and a blush
+is not something anybody does.
+
+## §2 — what this restores
+
+- **049 and 050 stand exactly as ruled.** The §71 voice-offset mapping **proceeds**, pending only its
+  own open numbers — the offset size, and what an utterance is.
+- **048 §55 stands** — mood drives the visible signs, in the reaction layer.
+- **38 and 39 are NOT dissolved.** I reported them as possibly dissolved by 052; your ruling puts
+  them back, and they are reaction-layer questions: the sign gain, the mood gain, how the load
+  distributes across a form's channels, whether every channel can absorb every load.
+- **051's routing is live again, scoped to reactions** — *a form with fewer channels expresses more
+  through each* is a reaction mechanism.
+
+**Still removed, unchanged:** channel routing as the mechanism of chosen action, and any authored
+table deciding what an Avatar *does* about what it feels.
+
+## §3 — one thing I want on the record
+
+**Your ruling changes a sentence in a written ruling, rather than adding to it.** 052 says the
+channels list survives *"never as mood-to-sign wiring."* 053 restores exactly that wiring for
+reactions. That sentence now reads as *never as the mechanism of chosen action*.
+
+I have written it down in §88 rather than quietly reconciling the two, because a later reader would
+otherwise find them in flat contradiction. **It is your change to make and I have not extended it** —
+nothing else in 052 is narrowed.
+
+## §4 — what it would need to prove
+
+Five guarantees added. **32 is the one that proves the split is real rather than one system with two
+names:** disable the action layer and the reactions still show; disable reactions and the Avatar
+still acts.
+
+Also: both layers run in the same moment, neither suppressing the other (your example, as a test); a
+reaction never reads, writes or consults a goal, asserted by inspection; **an action is never fired
+by mood alone** — mood feeds appraisal and nothing else; and reactions still always return to
+baseline.
+
+## §5 — decisions
+
+**Settled:** 40 — two permanent systems, both live, both running at once.
+
+**Reinstated as open:** 38 and 39, as reaction-layer questions.
+
+**Open and unchanged:** 35, 36, 42, 43 — the four no-science gaps; **41 (capabilities), now the
+largest open item on the action side** — an Avatar still cannot sing, play music or change its
+surroundings, because none of those exist; the §71 offset size and what an utterance is; the
+multiplier's magnitude, shape and range; how fast outlook moves; 33, 34, 29 and the mood gain; 14,
+15, 17, 18, 19, 28.
+
+**Still waiting from 050:** whether the 352 rewritten lines of past reports should stand or be
+restored, and whether Part Four's collapsed "kept for the record" block should be corrected too.
