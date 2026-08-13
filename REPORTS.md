@@ -10734,3 +10734,102 @@ already published and current.**
 **My read, stated as a fact rather than a recommendation: a fresh push is not needed to fix the Stage
 panel question** — the file was always there and always correct. **Whether to publish the personas or
 the props is yours**, and the worlds folder should stay out either way while those keys are in it.
+
+---
+
+# DIRECTIVE 055 — DONE, PLAN ONLY. The first capability set recorded, every item verified against the live portal; three Avatar-song proposals, none chosen.
+
+`CAPABILITY_PLAN.md` created in CC-Wanderer. **No code changed. The portal was read only** — its
+working tree still shows exactly the same three untracked/modified files under `Somewhere/data/` that
+were there before I started, and nothing else. Commit `a66fdb5`, revert point `3763e03`.
+
+## §1 — what crosses, verified rather than remembered
+
+**The Stage panel**, in the order it is actually assembled:
+
+```text
+   Worlds  ·  Painted Sky  ·  Planes  ·  Props  ·  Music Score
+```
+
+The plane light rows travel inside Planes where they live, and the master switch keeps taking the
+music with it — both confirmed in the code, both written into the plan. **Props ports as a real
+capability with nothing in it**: the prop folder exists in the portal, was never published, and there
+is no prop art in the Wanderer.
+
+**Sound FX** — Wind, Rain, Thunder, Water, Ocean Waves, Birds, Insects, Fire, plus the Space they all
+sit in.
+
+**The light bundle** — Lights, God Rays, Light in the Air, Wisps, as one.
+
+## §2 — the fact that changes what "changing the sound" means
+
+**None of the eight sounds is a recording.** The file's own opening claim, and it holds: every one is
+noise shaped a different way — brown noise through a moving bandpass is wind, white noise through a
+highpass is rain — so **the world carries no audio files for any of it and none of it ever repeats.**
+
+So an Avatar changing the world's sound is not picking a track. **It is reaching into live
+synthesis** — which is also why proposal B below costs nothing to build.
+
+## §3 — one consequence of the bundling, reported not decided
+
+**In the portal, Wisps is a World panel item.** It sits with the world's furniture, while God Rays
+and Light in the Air sit with the light and Lights is built into the Light panel. Your ruling puts
+all four in one bundle, which **moves Wisps out of the company it currently keeps.**
+
+Your call, already made — written down only so the change of membership is visible, the same way the
+multiplane question was.
+
+## §4 — what Avatar-song could be: three proposals, and I picked none
+
+**Stated first, per standing rule 1: there is no research here to cite.** No published work describes
+what a non-human sings like. All three are design.
+
+**The strongest thing I found is that it is already half-built.** The portal already brightens the
+Avatar's core, opens its halo and swells its scale **with the energy of its own voice**. Sound and
+light are already one system in it. **The Avatar is visibly singing every time it speaks — nobody has
+called it that yet.**
+
+| | What song is | Costs | The risk |
+|---|---|---|---|
+| **A** | **the voice without words** — the seven numbers sustained and moved, held tones, nothing said underneath | small — needs a tone for the chain to shape | closest of the three to human singing, which is the thing you ruled out |
+| **B** | **the world, played** — it reaches into the same synthesis that makes wind and fire and shapes it deliberately; its instrument is the weather | **nothing new at all** — that synthesis is already bundle 2 | a host may not tell singing from weather. **That may be the point or it may be a failure, and that is a feeling, so it is yours** |
+| **C** | **the body, and sound is what spills out** — song starts in the pulse and glow and motion, and voice follows light instead of light following voice | the most to build | hardest to make beautiful rather than strange |
+
+**C is the only one a form with no voice could still do**, which matters under 051 where a form may
+lack a channel and the feeling reroutes.
+
+Whichever is chosen: **song is an action** — decided, never triggered by a mood; **never a
+recording**; and **it ends**, leaving a memory rather than a changed Avatar.
+
+## §5 — the question I did not answer, and would want answered first
+
+**Whose world is it?**
+
+Every capability here changes the place the host is standing in — sky, light, sound, music, which
+world is loaded. That is what makes them expressive under 052, and it is **the first time an Avatar's
+choices reach outside itself.**
+
+Does an Avatar change the host's world freely, ask first, work only inside some boundary of its own,
+or does the host grant it? **Nothing in the plan assumes an answer.** **Decision 44, and it is the
+hard-to-reverse one** — I would want it settled before any of this is built.
+
+## §6 — two things the port drags with it
+
+- **Some acts are not slider moves.** The Lights section can **add and delete** lights; Worlds can
+  **load a different world**. The plan proposes every capability carry a reversible/irreversible
+  flag, and a test that asserts the flag exists before either is reachable.
+- **Born ignorance now applies to doing, not just saying.** An Avatar that has never been shown rain
+  cannot choose rain. **The probe panel has no action-shaped probes and would need them** —
+  *"it did something no host ever showed it"* is a leak in a channel that did not exist before.
+
+## §7 — decisions
+
+**New, all yours:** **44** (whose world is it — the one to settle first), **45** (which Avatar-song),
+**46** (what an Avatar may be shown, and by whom — born ignorance means capabilities must be taught,
+and nothing says how).
+
+**Carried forward, unchanged:** 42, 43, 35, 36 (the four no-science gaps), 38 and 39, the §71 offset
+size, what an utterance is, the multiplier's magnitude/shape/range, how fast outlook moves, 33, 34,
+29 and the mood gain, 14, 15, 17, 18, 19, 28.
+
+**With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
