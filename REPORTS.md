@@ -10303,3 +10303,87 @@ what an utterance is.
 how fast outlook moves, 33, 34, 29 and the mood gain, 14, 15, 17, 18, 19, 28.
 
 **With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
+
+---
+
+# DIRECTIVE 051 — DONE, PLAN ONLY. Expression reroutes; and it kills a bug before it existed.
+
+`TRAIT_PLAN.md` §29.1 records the ruling, §29.2 adds four guarantees, §30 is reframed. **No code
+changed.** Commit `b698808`, revert point `18064e5`.
+
+## §1 — the ruling
+
+```text
+   THE EXPRESSIVE LOAD                    what the aspect or the mood is asking to show
+            │
+            ▼
+   [ this form's declared channels ]      each form declares what it has
+            │
+            ▼
+   distributed across all of them         the total is conserved — nothing is dropped
+```
+
+Written into the plan as three rules a suite can hold: **no channel requirement** (declining COLOUR
+is a legitimate form, not a deficient one); **no muted feelings** (two forms at the same mood are
+equally expressive — differently, not less); **fewer channels means more through each**.
+
+The mapping table of §30 is no longer wiring. It is now read as **the load** — "Volatility drives
+STEADINESS down" means *volatility asks unsteadiness to show*, and in a form with no STEADINESS it
+shows in whatever that form has.
+
+## §2 — what this ruling caught
+
+Worth saying plainly, because it is the useful part. Without it, the obvious implementation is a
+fixed per-channel table — and **a form lacking three of nine channels would simply have shown
+three-ninths less feeling.** Quietly. Nothing would have failed, no test would have gone red, and
+the result would have been a form that reads as emotionally flat and nobody able to say why.
+
+Your ruling forbids exactly that outcome, so it is now a test rather than a trap.
+
+## §3 — what it would need to prove
+
+Four guarantees added, continuing §59, §68 and §73:
+
+19. **Conservation** — the same aspects and mood through a nine-channel form and a four-channel form
+    produce the same total expressive load, measured.
+20. **Nothing is dropped** — a form declaring no COLOUR still shows everything COLOUR was asked to
+    show, somewhere else. Asserted per missing channel, not in aggregate.
+21. **Fewer channels push harder** — the four-channel form's per-channel amplitude is demonstrably
+    greater at identical mood.
+22. **Declining a channel is legal** — a four-channel form renders, signs and passes everything
+    else; no path anywhere assumes nine.
+
+## §4 — the gap this opens, stated rather than filled
+
+**Test 19 needs a measure of "expressive load", and there is no such measure.** The ruling says the
+load is conserved and distributes across what a form has; it does not say by what rule, and I am not
+inventing one. Per standing rule 1: **the ruling is clear, and the number that would prove it is
+undefined.**
+
+Two things follow, both yours:
+
+- **NEW, 38 — how does the load distribute?** Even across whatever exists, weighted by how
+  expressive each channel is, or authored per form. **This includes the measure itself.**
+- **NEW, 39 — can every channel absorb every kind of load?** RHYTHM standing in for COLOUR is easy
+  to say and may not read. Whether a re-route has a preferred order is unstated.
+
+**One boundary named rather than worried about:** a form declaring *no* channels would have nowhere
+to put the load. Nothing in the blueprint suggests one, and EYE CHARACTER and ATTENTION are
+universal anyway, so it is a boundary and not a risk.
+
+## §5 — decisions
+
+**Settled:** 37 — a form may decline a channel, and the feeling reroutes rather than being lost.
+
+**New, all yours:** 38 (how the load distributes, including the missing measure), 39 (whether every
+channel can absorb every load).
+
+**Open and unchanged:** 35 and 36 (the two no-science gaps), the §71 voice-offset mapping and offset
+size, what an utterance is, the multiplier's magnitude/shape/range, how fast outlook moves, 33, 34,
+29 and the mood gain, 14, 15, 17, 18, 19, 28.
+
+**With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
+
+**Still waiting on you from 050:** whether the 352 rewritten lines of past reports in this file
+should stand or be restored, and whether Part Four's collapsed "kept for the record" block should be
+corrected too or left as written.
