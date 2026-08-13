@@ -10645,3 +10645,92 @@ the §71 offset size and what an utterance is; the multiplier's magnitude, shape
 outlook moves; 33, 34, 29 and the mood gain; 14, 15, 17, 18, 19, 28.
 
 **With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
+
+---
+
+# DIRECTIVE 055-pre — DONE, READ ONLY. GitHub is a faithful subset of the disk; nothing has drifted. The Stage panel is where you'd never find it by reading the section tables.
+
+Nothing changed, nothing moved, chamber untouched. No commits in CC-Wanderer — there was nothing to
+change.
+
+## §1 — the two copies, compared
+
+**The published copy is `~/elsewhere-publish` → `github.com/Orinvath/elsewhere.git`.** One commit,
+*"Initial publish for remote review"*, **2026-08-10 11:50**. Local HEAD and `origin/master` are the
+same hash (`e61ad43`), working tree clean — **nothing is sitting unpushed.**
+
+**The headline: not one published file has drifted from the disk.** A full recursive comparison of
+`chamber` against `elsewhere-publish` finds **exactly one file whose contents differ, and it is
+`.gitignore`** — deliberately, because the publish copy carries a stricter one. Everything else that
+was published still matches the live disk byte-for-byte three days later.
+
+**`Gui.jsx` is identical**, md5 `76100b6620de7fa6915ac847e5e58b28` on both sides. So the director has
+the same file I do, and the Stage panel is in it.
+
+**Nothing exists in the GitHub copy that is absent from disk** — the repo is a strict subset, never
+ahead, never stale.
+
+*(Per your correction: the comparison is `github.com/Orinvath/elsewhere` at its current HEAD against
+the live chamber disk, and nothing else. I had also looked at chamber's own git state before the
+correction arrived — that is out of scope and is not reported here.)*
+
+## §2 — where the Stage panel actually lives, definitively
+
+**`Somewhere/src/world/Gui.jsx`**, and the same line numbers hold in both copies:
+
+| What | Line |
+|---|---|
+| the panel itself — `createPanel({ titleText: 'Stage', ... })` | **1932** |
+| `buildStageBody()` — the one place its contents are assembled | **2773** |
+| `makeWorldsSection()` | 1319 |
+| `makePaintedSkySection()` | 1448 |
+| `makePlanesSection()` — **the multiplane layers** | 1511 |
+| `makeStageSection()` — the props/cutouts, section titled **Props** | 1599 |
+| `makeSoundSection()` — section titled **Music Score** | 2014 |
+
+**The Stage panel's item set, in the order it is built (Gui.jsx:2773–2780):**
+
+```text
+   Worlds  ·  Painted Sky  ·  Planes  ·  Props  ·  Music Score
+```
+
+**Why the director could not find it in the sections.** The Stage panel is **not in the section
+schema arrays**. `WORLD_SECTIONS` and `LIGHT_SECTIONS` are declarative tables near the top of the
+file that drive the World and Light panels — and the Stage panel is not one of them. It is
+**assembled imperatively** by the five builder functions above. Searching the schema tables for
+"Stage" finds nothing; searching for `titleText: 'Stage'` or `buildStageBody` finds it immediately.
+
+Three more things that belong to Stage, in case the map needs them:
+
+- **Its master switch takes the music with it** (Gui.jsx:1938–1947) — the whole panel's title toggle
+  stops and resumes the piece, not just the props.
+- **The plane light rows — Sky Influence, Sun Shading — sit INSIDE the Planes folder**, not with the
+  world lighting (`PLANE_LIGHT_ROWS`, Gui.jsx:467–472), with a comment saying exactly that.
+- **The planes themselves are defined in `Somewhere/src/world/stage.js`**, which is what lets the
+  Stage panel list them as objects and load a painting into each.
+
+## §3 — what GitHub does not have
+
+Nothing is *behind*; these are files that were **never published**, all of them excluded by the
+publish `.gitignore`. Listed so you can decide, per the directive, whether a fresh push is wanted:
+
+| Not on GitHub | What it is |
+|---|---|
+| `Somewhere/public/worlds/` | **the exported worlds** — Bridge and Cathedral. **These carry the live `sk-proj-` key, and the publish `.gitignore` excludes them with the comment saying so.** Keeping them off GitHub is right. |
+| `Somewhere/data/` | personas json and the conversation logs |
+| `Somewhere/personas/*.md` | **Spirale.md, Moon-spirit.md, Peter Pan.md** — the persona sources |
+| `Somewhere/public/stage/props/` | the stage prop art |
+| `Somewhere/public/clouds/baked`, `clouds/intel` | baked cloud data |
+| `Somewhere/public/pathtracer/` | the borrowed path-tracing renderer, deliberately re-fetchable |
+| `Somewhere/dist/` | build output |
+| `Wanderer/`, `worlds/` | the Wanderer project folder and the older worlds folder |
+| `CLAUDE.md`, `ASSETS.md`, `CHANGELOG.md`, `FEASIBILITY.md`, `PLATFORM.md`, `TODO.md`, `.claude/` | the project docs and gate |
+| ~90 `*.backup-*` files and `Somewhere.backup-*` / `src.backup-*` folders | the timestamped backups |
+
+**Only two of those look like they could matter to a reviewer reading the code**: the three persona
+markdown files, and the stage props art. **Everything the director needs to read the Stage panel is
+already published and current.**
+
+**My read, stated as a fact rather than a recommendation: a fresh push is not needed to fix the Stage
+panel question** — the file was always there and always correct. **Whether to publish the personas or
+the props is yours**, and the worlds folder should stay out either way while those keys are in it.
