@@ -69,5 +69,16 @@ that has not chosen. **Spirale chose "she", and that carries to Spirale alone.**
    expresses per **its own form's sign set**. All sign language in the plans must be form-neutral —
    written as channels, with the sign that carries a channel left to each form.
 
+## RECORDS POLICY — Directive 054, Lonnie's, permanent
+
+**We are not writing a history paper, we are building an app. Records should be ACCURATE.**
+
+**Plans and reports are living documents serving the build.** When newer information contradicts
+something old, **the old is updated** — superseded or contradicted content is corrected to current
+truth, not preserved as history. **Git history already preserves every original wording** for anyone
+who needs it.
+
+Applies to `DIRECTIVES.md`, `REPORTS.md` and every plan in `/home/nobara-user/CC-Wanderer`.
+
 ## Standing rule added later, same force as the others
 - /home/nobara-user/chamber and everything under it: NEVER modified, moved, deleted, or written to. Read and copy only. No directive can override this.

@@ -10602,3 +10602,46 @@ multiplier's magnitude, shape and range; how fast outlook moves; 33, 34, 29 and 
 
 **Still waiting from 050:** whether the 352 rewritten lines of past reports should stand or be
 restored, and whether Part Four's collapsed "kept for the record" block should be corrected too.
+
+---
+
+# DIRECTIVE 054 — DONE. Records policy adopted; the last 050 question is closed.
+
+Confirmation, as asked. **No code changed.** CC-Wanderer commit `4590525`, revert point `e4b0fb8`.
+
+## §1 — all three, done
+
+1. **The 352 rewritten report lines STAND as corrected.** No restoration. Nothing to do and nothing
+   done.
+2. **Part Four's collapsed block is corrected.** It now reads in current language throughout — *"the
+   life it has had"*, *"everything that happened to it"*, *"it returns when the pressure lifts"*,
+   *"changing how it sounds"*. Four plural uses remain and are correct English: the numbers that
+   produce them, they live in one block, two Wanderers who differ, the seven numbers if they are
+   computed.
+3. **The policy is in `HANDOFF.md`**, under **RECORDS POLICY — Directive 054**, in the same block as
+   the other permanent rules, and scoped to `DIRECTIVES.md`, `REPORTS.md` and every plan.
+
+## §2 — one line that had to go with it
+
+The block carried a note from 048 saying it was *"tombstoned rather than deleted so the record of how
+the design got here survives; say the word and it goes entirely."* **That note promised the opposite
+of this policy**, so it is replaced rather than left standing next to it. The summary line changed
+with it: *"Original text, kept collapsed for the record"* is now *"The removed design, corrected to
+current language (Directive 054)."*
+
+## §3 — what this settles
+
+**Both open questions from 050 are closed.** Nothing from that directive is waiting on you.
+
+**And it settles how I handle this from here:** when a ruling contradicts something already written,
+I correct the written thing rather than layering a note on top of it. Git holds the originals. I will
+keep naming which written ruling a new one narrows — as in §88 for 053 — because that is a change to
+your words rather than to mine, but the plans themselves will read as current truth.
+
+## §4 — decisions
+
+**Unchanged.** 35, 36, 42, 43 (the four no-science gaps); 41 (capabilities); 38, 39 (reaction-layer);
+the §71 offset size and what an utterance is; the multiplier's magnitude, shape and range; how fast
+outlook moves; 33, 34, 29 and the mood gain; 14, 15, 17, 18, 19, 28.
+
+**With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
