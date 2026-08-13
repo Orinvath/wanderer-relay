@@ -873,3 +873,18 @@ questions still apply to the reaction layer. The §71 offset mapping
 proceeds pending its open numbers.
 
 PLAN ONLY: record the split in TRAIT_PLAN.md. Report. No implementation.
+
+## Directive 054 — Records policy: accuracy over history
+
+Lonnie's ruling on the 050 open question: we are not writing a history
+paper, we are building an app. Records should be ACCURATE. When newer
+information contradicts something old, the old is updated.
+
+1. The 352 rewritten report lines STAND as corrected. No restoration.
+2. Part Four's collapsed "kept for the record" block: correct it too.
+3. STANDING POLICY (joins HANDOFF.md): plans and reports are living
+   documents serving the build. Superseded or contradicted content is
+   updated to current truth, not preserved as history. Git history
+   already preserves every original wording for anyone who needs it.
+
+Report confirmation. Nothing else.
