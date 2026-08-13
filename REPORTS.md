@@ -10387,3 +10387,140 @@ size, what an utterance is, the multiplier's magnitude/shape/range, how fast out
 **Still waiting on you from 050:** whether the 352 rewritten lines of past reports in this file
 should stand or be restored, and whether Part Four's collapsed "kept for the record" block should be
 corrected too or left as written.
+
+---
+
+# DIRECTIVE 052 — DONE, PLAN ONLY. Goal-driven expression recorded; the best research fit yet, and one collision I did not resolve.
+
+`TRAIT_PLAN.md` gains **PART ELEVEN — GOAL-DRIVEN EXPRESSION** (§75–§84). §29 and §30 are demoted to
+a description of what bodies can do, per the ruling. **No code changed.** Commit `cb8730c`, revert
+point `84e1cc9`.
+
+## §1 — the architecture
+
+```text
+   SITUATION ──►  APPRAISAL  ──►  EMOTION  ──►  GOAL  ──►  CHOICE OF ACTION
+                      ▲                       (an urge toward       from what this Avatar
+   MOOD (3 needs) ────┘                        an end, never a       can actually do, here,
+                      ▲                        fixed behaviour)      right now
+   TEN ASPECTS ───────┴─────────────────────────────────────────►  and they weight HOW it acts
+```
+
+## §2 — the research, and it fits better than anything so far
+
+Four primary sources read: **Lazarus (1991)** *American Psychologist* 46(8) 819–834;
+**Scherer (2009)** *Cognition and Emotion* 23(7) 1307–1351; **Frijda, Ridderinkhof & Rietveld
+(2014)** *Frontiers in Psychology* 5:518; **Gross (1998)** *Review of General Psychology* 2(3)
+271–299.
+
+**Frijda, verbatim, is your architecture in his own words:**
+
+> *"It is the appraisal that imparts the purpose by giving rise to a state of action readiness to
+> change one's relation to its object."*
+
+> *"states of action readiness presumably consist of subthreshold preparatory potentiations for
+> establishing, enhancing, modifying, or maintaining some self-object relationship"*
+
+> *"every adult has a huge repertoire of relational action skills"*
+
+Appraisal sets the purpose, the purpose is a relationship to be changed or kept, the means come from
+whatever repertoire the actor has. **This is the strongest research fit of any ruling in this plan.**
+
+**And your own example is a documented literature.** "Cheer itself up" is Gross's field, and your
+three examples land in his five families exactly: *changing its environment* → situation
+modification; *playing music* → situation modification / attentional deployment; *singing* →
+response modulation. The two families you did not name — **situation selection** (leaving a room,
+seeking a host out) and **cognitive change** (reinterpreting what happened) — are recorded as
+available, not assumed.
+
+**One correction, per the standing rule.** The anger sentence in your directive is faithful in
+substance — anger as a goal with interchangeable means is exactly what the 2014 paper argues, and it
+contains the closely related *"this has to end, in any possible way"* — but **I read Frijda's own
+2014 paper and the 2014 Frijda interview and could not locate that exact sentence in either.**
+Recorded as accurate paraphrase rather than quotation.
+
+## §3 — the collision I did not resolve, and the one thing I most need from you
+
+**Three live rulings say mood reaches the body by a mapping**: 048 (mood drives the visible signs),
+049 (outlook multiplies its depth and recovery), 050 (mood offsets the seven voice numbers by a
+proposed table). **052 says expression is not wiring, authored mappings or controlled channels** —
+and §71's voice-offset table is an authored mapping.
+
+Two readings, and I have assumed neither:
+
+- **A — the involuntary layer goes too.** An Avatar shows what it feels only by what it chooses to
+  do. Nothing is legible until it acts, and the tells lose their mechanism.
+- **B — the involuntary layer survives beneath the deliberate one.** Mood still moves signs and
+  voice as tells; goal-driven action is the deliberate layer on top. 049 and 050 stand.
+
+**Both are consistent with the science** — Frijda's readiness states are involuntary, Gross's
+regulation is deliberate, and the literature holds them together without conflict. **Decision 40,
+and it is yours.** 049 and 050 are written as live design and I have left them that way pending your
+answer.
+
+## §4 — where the science stops, stated plainly as you asked
+
+**The research gives the chain. It does not give the algorithm.**
+
+| Step | Researched | Not researched |
+|---|---|---|
+| appraisal | the dimensions and core relational themes | no function from situation to appraisal values |
+| emotion | that a *pattern* of appraisals is an emotion | no computable mapping |
+| goal | that the goal is fixed and means vary | **no generator** — Frijda gives a taxonomy, not a rule |
+| choice | that people select from a repertoire | **nothing** — how one action is picked is a planning problem no emotion theory touches |
+| the aspects' role | personality relates to emotional response broadly | **I did not verify** any source mapping Big Five aspects to appraisal weights or action preference |
+
+**Four of the five arrows are this project's own work and I have written none of them.** That is now
+the third and fourth time this shape has appeared, after 35 and 36: the research names the parts, the
+project has to author what goes between them.
+
+## §5 — the size of what this implies
+
+**An Avatar cannot choose an action it does not have.** The entire current repertoire is:
+
+```text
+   speak · ask a question · recognise a returning host · muse aloud ·
+   look around · roam · fall silent
+```
+
+**Playing music, changing its environment and singing do not exist**, and neither does an environment
+to act on — no situation model, no object it can affect, no notion of what is available *here*.
+Not an objection to the ruling; it is what the ruling implies, written down so the size is visible:
+a capability set, a situation model, the goal former, the action chooser, and a way for an action to
+actually happen and be seen. **Decision 41, and it may be decision 33 wearing a second coat.**
+
+## §6 — the firewall still applies, and gains a new hole to watch
+
+Goal formation and action choice are model work, so Part Three governs them: **the technical model
+never the character model, and the judge never gets a persona.** Born ignorance holds in action form
+— **an Avatar that has never been shown what music is cannot choose to play music**, however well the
+goal former works. **A new leak shape is named now:** *"it did something no host ever showed it."*
+The §19.1 probe panel has no action-shaped probes because until this ruling there were no actions.
+
+## §7 — what it would need to prove
+
+Five guarantees added. **23 is the one that says whether this was built or merely described:** the
+same appraisal, run twice with different capabilities available, produces the **same goal** and
+**different actions**. Also: two Avatars with identical mood and capabilities but different aspects
+choose measurably differently; no table anywhere maps a mood to an action, asserted by inspection;
+an Avatar never chooses an action it does not have or has not been shown; and fewer capabilities
+means a different choice, never no choice.
+
+## §8 — one thing deliberately absent
+
+There is **no list in the plan of what an Avatar might do when it is sad.** *We build the capacity to
+want and to act; never the actions* — writing that list is the authored expression table under a new
+name. The absence is deliberate.
+
+## §9 — decisions
+
+**New, all yours:** **40** (the §3 collision — the one I most need), **41** (capabilities), **42**
+(the goal former and action chooser), **43** (how aspects weight appraisal and choice).
+
+**Open and unchanged:** 35, 36; 38 and 39 (which 052 may have dissolved along with routing — **not
+assumed either way**); the §71 offset mapping and size, pending 40; what an utterance is; the
+multiplier's magnitude/shape/range; how fast outlook moves; 33, 34, 29 and the mood gain; 14, 15, 17,
+18, 19, 28.
+
+**Still waiting from 050:** whether the 352 rewritten lines of past reports should stand or be
+restored, and whether Part Four's collapsed "kept for the record" block should be corrected too.
