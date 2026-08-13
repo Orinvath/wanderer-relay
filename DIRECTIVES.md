@@ -694,3 +694,50 @@ Lonnie approved the design. Extend TRAIT_PLAN.md:
    measured and reported before anything moves a slider.
 
 Plan only. Report for approval.
+
+## Directive 048 — THE LENS MODEL: aspects first. Replaces the old design.
+
+Lonnie's ruling, superseding Directives 042 and 046-047's slow-clock design:
+the ten aspects are not shaped by anything — they ARE the Avatar, and they
+shape everything. The prior model (treatment patterns shifting expression
+across 24+ journeys) is REMOVED.
+
+THE FLOW, in order:
+
+1. THE TEN ASPECTS — first, above everything. Born in the Roe, fixed. They
+   are who the Avatar is, present before any memory forms. Canon terminology
+   and definitions: the frozen list from understandmyself.com / DeYoung,
+   Quilty & Peterson 2007, already in this relay's record. They determine
+   what experiences the Avatar seeks and enjoys (a shy Avatar reads in
+   rather than going out dancing), how events land, and how it responds.
+
+2. EXPERIENCE — what happens in a journey, sought and colored by the aspects.
+
+3. MOOD — the three needs (Autonomy, Competence, Relatedness, canon SDT
+   definitions already on record) repurposed as a REAL-TIME mood gauge:
+   they move immediately during a journey, gauge how the Avatar is doing
+   right now, and DRIVE THE VISIBLE SIGNS (glow, flicker, movement — the
+   044 mapping now reads from mood, not slow expression). Mood passes.
+   Mood never shapes who the Avatar is.
+
+4. MEMORY — formed through aspects and mood. The store: host details,
+   environment, experiences, gifted sights. Existing privacy covenant
+   unchanged (private stays with the host; gifted/public material enters
+   long-term memory, always accessible to the Avatar).
+
+5. LESSONS — distilled FROM memory, refracted through the aspects: the
+   same event yields different lessons in different Avatars (forgiving:
+   "people lash out when they are hurting"; unforgiving: "people can be
+   cruel"). Memories can fade; lessons carry. Lessons are the only lasting
+   growth — who the Avatar becomes.
+
+REMOVED by this ruling:
+- The epigenetic expression layer as character change (042): nothing
+  shifts the ten or their expression. The 24-journey clock, thresholds,
+  and stressor-pattern machinery are removed from the plans.
+- The journey-scoring judge as character mechanism (047): the SDT rubric
+  and its citations are KEPT, repurposed as the mood gauge's vocabulary
+  for reading moments in real time.
+
+PLAN ONLY: update TRAIT_PLAN.md and ROE_PLAN.md to this model. Report the
+updated design for approval. No implementation.
