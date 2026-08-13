@@ -809,3 +809,43 @@ channels expresses MORE through each one it has.
 
 PLAN ONLY: record in TRAIT_PLAN.md's channels section. Report. No
 implementation.
+
+## Directive 052 — GOAL-DRIVEN EXPRESSION: replaces channel routing entirely
+
+Lonnie's ruling, superseding Directive 051's routing design: expression is
+not wiring, authored mappings, or controlled channels. Avatars are
+procedural in the truest sense — they DECIDE how to express what they
+feel through a goal-oriented system. Sad from being ignored, an Avatar's
+goal might be to cheer itself up — and it might do that by playing music,
+changing its environment, or singing. We build the capacity to want and
+to act; never the actions.
+
+THE RESEARCHED FOUNDATION (science rule: verify primary sources, cite
+verbatim in the plan):
+1. APPRAISAL THEORY / ACTION TENDENCIES — Frijda (1986, 2007), Lazarus,
+   Scherer. The chain: appraisal (what does this situation mean for MY
+   wellbeing and goals) → emotion → action tendency: an urge toward a
+   GOAL, never a fixed behavior. Frijda verbatim: anger is "the
+   motivation to stop another's harmful action in any possible way, by
+   yelling at him, ignoring him, blocking, or threatening him." Goal
+   fixed, means chosen from what is available.
+2. EMOTION REGULATION — Gross. Acting deliberately on one's own state
+   (cheering oneself up) is documented, researched behavior.
+
+THE ARCHITECTURE:
+appraisal → emotion → goal → CHOICE of action from that Avatar's actual
+capabilities in its current situation. The ten aspects weight BOTH the
+appraisal (what matters to it) and the choice (how it acts). Mood (the
+three needs) feeds appraisal. Capabilities are whatever the Avatar's
+form and situation genuinely offer — no authored expression tables.
+
+REMOVED: Directive 051's channel routing as the expression mechanism.
+The channels list survives only as a description of what bodies can do,
+never as mood-to-sign wiring.
+
+FLAG HONESTLY: where the goal-formation and action-choice mechanisms
+exceed what the science specifies, state the gap plainly per standing
+rule — the research gives the chain, not the algorithm.
+
+PLAN ONLY: redesign TRAIT_PLAN.md's expression sections around this.
+Report for approval. No implementation.
