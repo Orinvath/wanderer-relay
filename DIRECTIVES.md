@@ -1103,3 +1103,9 @@ visit ends, and revocation never has to chase something already public.
 
 PLAN ONLY: record both in the memory and capability plans. Report.
 No implementation.
+
+## Directive 062 — Decision 51 becomes standing law
+
+Lonnie approved: "NOTHING PUBLISHES UNTIL THE VISIT ENDS" joins HANDOFF.md
+as a permanent standing rule, same force as no-compulsion — every future
+directive builds inside it. Add the rule block; nothing else.
