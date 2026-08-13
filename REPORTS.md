@@ -10934,3 +10934,91 @@ and it is yours.
 
 **Open, unchanged:** 45 (which Avatar-song), 46 (what an Avatar may be shown, and by whom), and
 everything carried from `TRAIT_PLAN.md`.
+
+---
+
+# DIRECTIVE 057 — DONE, PLAN ONLY. It says why; and I had the sky language wrong in four places, now corrected.
+
+`CAPABILITY_PLAN.md` gains **PART SEVEN** (§21–§27); `TRAIT_PLAN.md` Part Eleven carries the
+speakable form. Both permanent rules are in `HANDOFF.md`. **No code changed.** Commits `61a6d93` and
+`5478e9f`, revert point before them.
+
+## §1 — the ruling
+
+**The host must never think the Avatar is broken.** A refusal never arrives bare:
+
+> *"not right now, I am sad"* · *"not right now — I like this place and would like to stay here for
+> now."*
+
+**A bare no is indistinguishable from a bug.** The reason is the whole difference between an Avatar
+that declined and an Avatar that failed — and a host can tell them apart without knowing anything
+about how it works.
+
+**The reaction layer is untouched.** Whether the moment also shows is mood moving and signs
+following, exactly as it already was. Nothing added for refusals.
+
+## §2 — every goal now has a third output
+
+```text
+   appraisal → emotion → GOAL ──┬──► choice of act
+                                └──► its speakable form: what it wants, and why
+```
+
+**A goal that cannot be said is not finished.** Recorded in the 052 sections, not just here.
+
+**One thing I made explicit because it decides who builds it:** the speakable form is in the Avatar's
+own voice, shaped by the same seven numbers as everything else it says — so it is **produced by the
+character model**, while the appraisal and the choice behind it stay with the technical model. **The
+judge still never gets a persona.**
+
+## §3 — the three moments that must speak
+
+| Moment | What it says |
+|---|---|
+| **it declines** | that it will not, and why |
+| **it acts on its own goal** | what it is doing and what it wants from it — nobody asked; it says anyway |
+| **it substitutes means** | that it heard, what it did instead, and why that was its way |
+
+**The third would look most like a fault if it were silent.** Asked for one thing, doing another,
+without a word, is broken as far as anyone watching can tell. With the reason said, it is a being
+with its own way of doing things.
+
+## §4 — I had the language wrong, in four places
+
+Your note caught real errors in my own plans, not just a vocabulary preference. Corrected:
+
+| Was | Now |
+|---|---|
+| Painted Sky described as *"the painting the sky itself wears"* | **a stage backdrop — the furthest painting, which may contain a sky** |
+| *"the sky systems"* among what does not cross | *"the skydome systems"* |
+| *"changes the place the host is standing in — the sky, the light…"* | *"— the backdrops, the light…"* |
+| the means-substitution example: *"asked for different light, it changes the sky instead"* | **"asked for brighter light, it dims and starts music instead — its own way"** |
+
+**That last one was the worst of the four**, because it was my illustration of the whole idea and it
+described an act the Avatar cannot perform. The replacement uses only things that exist. Both plans
+now use the bounded vocabulary — **stage, light bundle, sound fx, voice** — and nothing else.
+
+## §5 — one thing I deliberately did not write
+
+**There are no refusal lines anywhere in the plans.** 057 requires that every goal *can* be spoken;
+it does not supply the sentences. **A list of things to say when declining would be an authored
+expression table wearing words**, which is the thing 052 removed. Recorded in both plans as a
+deliberate absence.
+
+## §6 — the guarantee I would build most carefully
+
+**That the reason given is the real one.** An Avatar that declines because relatedness is low must
+not say it is busy. This is checkable — **§49's evidence record already exists for exactly this** —
+and if it is not checked, a reason generated to sound good with nothing behind it is precisely the
+assistant reflex Part Three was built to catch.
+
+Five guarantees added in all: no refusal is ever bare; the reason matches the appraisal; a freely
+chosen act announces itself; a substitution says both halves; the speakable form comes from the
+character model and the technical model never speaks.
+
+## §7 — decisions
+
+**Settled:** 47 — a refusal costs the host nothing, because it is never bare.
+
+**Open, unchanged:** 45 (which Avatar-song), 46 (what an Avatar may be shown, and by whom), and
+everything carried from `TRAIT_PLAN.md`.
