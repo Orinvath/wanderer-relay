@@ -1087,3 +1087,19 @@ it has never used remains open.)
 
 PLAN ONLY: add PLACES to the memory model, the two-checkpoint consent
 flow to the capability plan. Report for approval. No implementation.
+
+## Directive 061 — Decisions 50 + 51 ruled
+
+DECISION 50 — A PLACE IS THE IMAGE. The Avatar does not lose its memory
+of a place because it is with a new host. The same image loaded — any
+day, any host — is a RETURN: "I have been here before." Place identity
+is the image itself; place memories are long-term and travel, per 059.
+
+DECISION 51 — NOTHING PUBLISHES UNTIL THE VISIT ENDS. Lonnie's standing
+ruling (already given for location posts) now covers all shared
+material: publication happens only after departure, which is what makes
+the departure review real — every approval is still revisable until the
+visit ends, and revocation never has to chase something already public.
+
+PLAN ONLY: record both in the memory and capability plans. Report.
+No implementation.
