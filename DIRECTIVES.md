@@ -909,3 +909,19 @@ Report:
 3. If the GitHub copy is missing or behind anything, list exactly what —
    Lonnie will decide whether to update GitHub (by pushing a fresh copy;
    chamber itself is never touched).
+
+## Directive 055-pre correction — the exact repo to compare
+
+Correction from Lonnie: do NOT look for whether chamber is a git repo, and
+do NOT touch or reason about any other repos the team may have. The
+comparison is exactly this and nothing else:
+
+THE DIRECTOR'S SOURCE: https://github.com/Orinvath/elsewhere — master,
+current HEAD (single commit "Initial publish for remote review", pushed
+from /home/nobara-user/elsewhere-publish at project start).
+
+Compare THAT repo's contents against the live chamber disk (read-only,
+as always) and report what the GitHub copy is missing or differs on —
+so Lonnie can decide whether to push a fresh copy for the director.
+Answer the Stage panel location question from the original 055-pre in
+the same report.
