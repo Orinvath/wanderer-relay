@@ -10060,3 +10060,125 @@ returns toward centre. *Mood passes* is the ruling; the rate is a number nobody 
 have not chosen one.
 
 **Unchanged and open:** 29 (one question again, not two), 14, 15, 17, 18, 19, 28.
+
+---
+
+# DIRECTIVE 049 — DONE, PLAN ONLY. Outlook recorded, four sources read, the gap it predicted confirmed.
+
+`TRAIT_PLAN.md` gains **PART NINE — OUTLOOK: HOW A LIFE SHOWS** (§62–§69). **No code changed.**
+Commit `79f3a05`, revert point `002754e`.
+
+## §1 — the ruling, and the three things it does not touch
+
+```text
+   LESSONS  ──►  OUTLOOK  ──►  × MOOD  ──►  THE VISIBLE SIGNS
+   slow, earned   the tenor      brighter swings and faster recovery, or
+                  of what life    deeper dims and slower — the same nature,
+                  has taught      the same moment, tinted by the life
+```
+
+The collision I reported after 048 is closed. **A hard life is not a dimmer Avatar; it is an Avatar
+whose every dim lands deeper and lifts slower.** Written into the plan as three rules the suite must
+hold: outlook never reaches the ten aspects, it never changes a sign directly, and it moves on
+lessons rather than on journeys — so the slowness Part Four used to supply now comes from how slowly
+lessons accumulate.
+
+## §2 — the science, read before the section was written
+
+| Read | For |
+|---|---|
+| **Scheier, Carver & Bridges (1994)**, *JPSP 67*(6), 1063–1078 | the construct and the instrument |
+| **Carver, Scheier & Segerstrom (2010)**, *Clin Psychol Rev 30*(7), 879–889, doi:10.1016/j.cpr.2010.01.006 | the definition used |
+| Carver's own LOT-R page, University of Miami | the scale as its authors publish it |
+| **Herzberg, Glaesmer & Hoyer (2006)**, *Psychological Assessment 18*(4), 433–438 | one dimension or two |
+| **Parra-Gaete & Hermosa-Bosano (2023)**, *Front. Psychol. 14*, 1233900 | optimism ↔ the affect pair |
+
+**Verbatim, from the 2010 abstract:** *"Optimism is an individual difference variable that reflects
+the extent to which people hold generalized favorable expectancies for their future."*
+
+**Verbatim, from Carver's own page:** the LOT was *"developed to assess individual differences in
+generalized optimism versus pessimism."*
+
+Ten items, four of them fillers (2, 5, 6, 8), six scored, coded so high values imply optimism.
+
+**The construct is about expectancies for the future, not about how a moment felt** — which is the
+shape your ruling wants: the tenor of what life has taught them, carried into what they expect next.
+
+## §3 — three things recorded as fact, none of them an objection
+
+**1. The single outlook value stands exactly where the single mood slider stands.** Scheier and
+Carver score the LOT-R as one dimension. Herzberg, Glaesmer and Hoyer, in a confirmatory factor
+analysis of **46,133 people aged 18 to 103**, found it **bidimensional** — an Optimism factor and a
+Pessimism factor, separate though negatively correlated. **Your one value, positive to negative, is a
+design choice on top of the researched construct**, recorded as such. Second time this same shape has
+come up, after the BPNSFS and the three sliders.
+
+**2. "The affect pair's researched home is outlook" is a correlation, not an identity.** PANAS
+positive/negative affect and dispositional optimism are **distinct constructs that are related**. The
+relationship is real — optimism with positive affect *r* = 0.5, pessimism with negative affect
+*r* = 0.51, both *p* < 0.001 — but that is **one pilot study of 107 young adults**, and I did not
+find a meta-analysis of LOT-R against PANAS subscales. Decision 32 is settled by your ruling;
+**moving the affect pair under outlook is recorded as a design decision informed by a documented
+correlation**, not as a finding.
+
+**3. The multiplier has no source, exactly as your directive said.** Recorded in your own words.
+There is no published finding that optimism scales the amplitude or recovery rate of affective
+response by a factor. What the literature does report — better well-being under adversity, more
+engagement coping, less avoidance coping — is **consistent with** brighter swings and faster
+recovery, and is not a measurement of them.
+
+## §4 — you predicted the gap, and it is worse than one gap
+
+> *"the refraction gap (decision 35) and this derivation likely share that flag."*
+
+They share it, and they are two halves of one missing piece:
+
+```text
+   an EVENT ──[ ? refraction, 35 ]──► a LESSON ──[ ? derivation, 36 ]──► OUTLOOK
+```
+
+- **35, unchanged:** no verified source maps Big Five aspects onto the *content* of learned
+  generalisations.
+- **36, new:** no verified source maps a body of learned generalisations onto an optimism score.
+  **The literature measures optimism by asking people six questions; it does not derive it from what
+  they have learned.**
+
+**I have not written either rule.** The research supplies the two ends — the ten aspects at one, the
+optimism construct at the other — and the honest statement is that the arrow between them is this
+project's own and has to be authored. Both halves land on the same technical model, and the judge
+still never gets a persona.
+
+## §5 — what the ruling did not say, and I did not assume
+
+- **its magnitude** — how much brighter, how much slower.
+- **its shape** — you name both swing and recovery; whether one dial does both jobs is unstated.
+- **its range** — everything in the plan assumes outlook only **scales**, never inverts, because a
+  multiplier that flips would make a joyful moment read as a dim one and that is not what you said.
+- **how fast outlook itself moves** — how many lessons make a tenor.
+- **whether the VOICE is multiplied the way the light is.** The ruling names mood-driven signs. This
+  is the last piece of decision 25 and it is still open.
+
+## §6 — the test I would watch
+
+Five new guarantees are written into the plan. One matters more than the rest:
+
+**A sign must still always return — at every outlook, including the most negative.** Slower recovery
+is not *no* recovery. If it becomes no recovery, a life has permanently marked the light after all
+and the ruling is contradicted by its own multiplier. **That is where a plausible implementation of
+"slower recovery" quietly turns into permanent dimming**, and it is the test I would write first.
+
+The other four: outlook never touches the ten; outlook with mood pinned at centre changes no sign at
+all; the same moment lands differently under different outlooks; and no single host can move outlook.
+
+## §7 — decisions
+
+**Settled:** 31 (lessons show, through outlook and no other route), 32 (the affect pair lives under
+outlook), and 16 in its 048 shape.
+
+**Half settled:** 25 — the light is multiplied, the voice is unstated.
+
+**Open and named:** 35 and **36** (both gaps, no science, not invented); the multiplier's magnitude,
+shape and range; how fast outlook moves; whether the voice follows; 33, 34, 29 and the mood gain, 14,
+15, 17, 18, 19, 28.
+
+**With your team, not asked again:** how far a moment moves a mood slider and how fast it returns.
