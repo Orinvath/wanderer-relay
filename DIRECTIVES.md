@@ -980,3 +980,33 @@ action, nothing that makes an Avatar act against its choice.
 PLAN ONLY: record in CAPABILITY_PLAN.md, add the trigger-phrase port to
 the capability set, wire requests into the 052 appraisal design. Report
 for approval. No implementation.
+
+## Directive 057 — Decision 47 ruled: it says why, goals on its sleeve
+
+Lonnie's ruling: the host must never think the Avatar is broken. A
+refusal always comes WITH ITS REASON, spoken in the Avatar's own voice —
+"not right now, I am sad", "not right now — I like this place and would
+like to stay here for now."
+
+THE PRINCIPLE: the Avatar wears its goals on its sleeve. It is verbal
+about what it wants and why — when it declines, when it acts on its own
+goals, when it does something other than what was asked. Its inner life
+is not hidden machinery; it speaks it.
+
+Design consequence: every 052 goal carries a speakable form — the Avatar
+can always say what it is pursuing in its own voice. Refusals, freely
+chosen acts, and means-substitutions (asked for brighter light, it
+dims and starts music instead — its own way) all come with the reason
+said aloud.
+
+LANGUAGE NOTE, permanent: there is no sky system. "Painted Sky" is a
+stage BACKDROP — a painting that may contain a sky. Capability language
+in all plans uses only what exists: stage (worlds, backdrops, planes,
+props, music score), light bundle, sound fx, voice.
+
+Whether the moment ALSO shows as a reaction stays governed by the
+existing reaction layer (mood moves, signs follow — nothing new added
+for refusals specifically).
+
+PLAN ONLY: record in CAPABILITY_PLAN.md and the 052 sections. Report
+for approval. No implementation.
