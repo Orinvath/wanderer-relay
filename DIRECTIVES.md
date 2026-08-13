@@ -1010,3 +1010,44 @@ for refusals specifically).
 
 PLAN ONLY: record in CAPABILITY_PLAN.md and the 052 sections. Report
 for approval. No implementation.
+
+## Directive 058 — Aspects come with behaviors: CB5T + curiosity
+
+Lonnie's ruling: aspects are not adjectives — they come with BEHAVIORS.
+The researched foundation is Cybernetic Big Five Theory (DeYoung 2015,
+Journal of Research in Personality) — from the same author as our ten
+aspects: personality as a goal-directed adaptive system, each domain a
+functional MECHANISM in the goal cycle.
+
+THE MECHANISMS (verify against the CB5T paper, cite verbatim in plan):
+- EXTRAVERSION (Enthusiasm/Assertiveness): goal activation and
+  responsiveness to reward cues — the approach drive.
+- NEUROTICISM (Withdrawal/Volatility): sensitivity to threat and
+  outcome interpretation — the defensive system.
+- OPENNESS/INTELLECT (Intellect/Openness): cognitive exploration —
+  the curiosity drive.
+- CONSCIENTIOUSNESS (Industriousness/Orderliness): goal persistence,
+  impulse control, plan execution.
+- AGREEABLENESS (Compassion/Politeness): cooperation, weighing others'
+  goals alongside one's own.
+
+CURIOSITY AS THE FIRST WIRED DRIVE (researched: Berlyne 1954/1960
+arousal by novelty/complexity/uncertainty; Loewenstein 1994 Information
+Gap Theory; Silvia's two appraisals — complexity and comprehensibility):
+curiosity enters through the EXISTING 052 appraisal chain as an emotion
+whose action tendency is exploration. The Avatar continuously appraises
+its world for information gaps; Intellect and Openness set the gain. An
+Avatar alone in a quiet room wonders about it — intrinsically, no host
+event needed.
+
+DESIGN: each aspect pair becomes a documented mechanism in the 052 goal
+system — Extraversion gates goal activation, Neuroticism gates threat
+appraisal, Conscientiousness gates persistence and impulse control,
+Agreeableness gates how host requests and others' goals are weighed
+(feeds 056), Openness/Intellect gates the curiosity drive. The ten
+individual aspects weight their pair's mechanism per the 2007 profiles.
+Where CB5T specifies the domain but not the aspect split, flag it as
+our extension per the science rule.
+
+PLAN ONLY: extend TRAIT_PLAN.md's 052 sections. Report for approval.
+No implementation.
