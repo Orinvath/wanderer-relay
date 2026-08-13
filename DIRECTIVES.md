@@ -849,3 +849,27 @@ rule — the research gives the chain, not the algorithm.
 
 PLAN ONLY: redesign TRAIT_PLAN.md's expression sections around this.
 Report for approval. No implementation.
+
+## Directive 053 — Decision 40 ruled: reactions are not goals
+
+Lonnie's ruling on the 049/052 collision: mood-derived expression is
+REACTION, not goal-driven behavior. Reactions are not wants or needs —
+there is no goal. They happen automatically, like a blush.
+
+TWO SYSTEMS, PERMANENT SPLIT:
+1. REACTIONS — mood (scaled by outlook) shows involuntarily in the
+   Avatar's signs and voice. The 049/050 design stands exactly as ruled:
+   automatic, unchosen, always returns to baseline. Not touched by 052.
+2. ACTIONS — what the Avatar DOES about what it feels: goal-driven,
+   chosen from its capabilities, per 052. Appraisal → emotion → goal →
+   choice.
+
+Both run at once, as in humans: the involuntary tell underneath, the
+chosen act on top. A sad Avatar's voice wavers on its own (reaction)
+WHILE it chooses to sing to cheer itself up (action).
+
+Decisions 38/39 are therefore NOT dissolved — the sign/mood gain
+questions still apply to the reaction layer. The §71 offset mapping
+proceeds pending its open numbers.
+
+PLAN ONLY: record the split in TRAIT_PLAN.md. Report. No implementation.
