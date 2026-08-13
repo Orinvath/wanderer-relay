@@ -925,3 +925,32 @@ as always) and report what the GitHub copy is missing or differs on —
 so Lonnie can decide whether to push a fresh copy for the director.
 Answer the Stage panel location question from the original 055-pre in
 the same report.
+
+## Directive 055 — Decision 41: the first capability set, kept light
+
+Lonnie's ruling on scope. The port brings ONLY:
+
+1. THE STAGE PANEL — the verified item set as built (Gui.jsx builders):
+   Worlds · Painted Sky · Planes · Props · Music Score. Planes'
+   light rows (Sky Influence, Sun Shading) travel inside Planes where
+   they live; the panel's master switch keeps taking the music with it.
+   (Props section ports as capability; no prop art exists yet.)
+2. SOUND FX — soundfx.js (Wind, Rain, Thunder, Water, Ocean Waves,
+   Birds, Insects, Fire).
+3. THE LIGHT BUNDLE — Lights + God Rays + Light in the Air + Wisps,
+   one bundle per Lonnie's ruling: they are all light.
+
+Nothing else crosses. Chamber read-only; copies only.
+
+These become the Avatar's first ACTION CAPABILITIES under 052/053:
+things it can CHOOSE to do in pursuit of its goals — change its stage,
+its light, its sound, its music. Never fired by mood alone; always
+through appraisal → goal → choice.
+
+SINGING: an Avatar does not sing like a human sings. Singing is
+Avatar-native: whatever musical expression its own voice and form make
+possible. Built from what the Avatar already has — no human song
+synthesis. Propose what Avatar-song IS; proposals only, Lonnie decides.
+
+PLAN ONLY: capability port plan + Avatar-song proposal in
+CAPABILITY_PLAN.md. Report for approval. No implementation.
