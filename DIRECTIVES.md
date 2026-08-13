@@ -1051,3 +1051,39 @@ our extension per the science rule.
 
 PLAN ONLY: extend TRAIT_PLAN.md's 052 sections. Report for approval.
 No implementation.
+
+## Directive 059 — PLACES: the Avatar knows its own world; camera images get two consent checkpoints
+
+Lonnie's ruling, refining born-ignorance: Avatars are not new to their
+own worlds. Born-ignorance applies to OUR universe (cars, flowers, rain
+— host territory). Its own world/space it KNOWS once it has been there.
+
+PART 1 — ITS OWN PLACES, tracked in long-term memory:
+The planes/backdrops/worlds of its stage. When "Take me somewhere else"
+(trigger phrase) loads a new plane image, that is a new PLACE. Never
+seen it → it ACKNOWLEDGES that, looks around, and REMEMBERS it. Seen it
+before → it recognizes it. Its world knowledge travels with it.
+
+PART 2 — EXTERNAL (CAMERA) IMAGES, two consent checkpoints:
+The Avatar cannot tell someone's home from the Grand Canyon — so the
+HOST decides, not the Avatar:
+
+1. AT CAPTURE: when the host tells the Avatar to "look" through the
+   camera, the host gets an approve/deny SHARE prompt for that image.
+   Approved → eligible for long-term memory, public in the history.
+   Denied → local memory only, stays with the host at departure.
+2. AT DEPARTURE: the host reviews ALL images captured during the visit
+   — a list with per-image approval toggles — and may revoke or grant
+   any of them, in case they changed their mind about a particular
+   image. Departure settings are final for that visit's images.
+
+Approved images flow through the existing moderation gate before
+anything publishes (013/032 unchanged). Denied/unreviewed images follow
+the privacy covenant: local, never travel.
+
+This partially settles decision 46: the Avatar learns its own world by
+BEING IN IT — visiting is the teacher. (How it learns of capabilities
+it has never used remains open.)
+
+PLAN ONLY: add PLACES to the memory model, the two-checkpoint consent
+flow to the capability plan. Report for approval. No implementation.
