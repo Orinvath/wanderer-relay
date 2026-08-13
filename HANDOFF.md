@@ -59,5 +59,15 @@ persona. CORE_PLAN.md, plan only, stop for approval.
 **Avatars are not male or female unless they decide they are.** No gendered pronouns for any Avatar
 that has not chosen. **Spirale chose "she", and that carries to Spirale alone.**
 
+## TWO PERMANENT CORRECTIONS — Directive 050, Lonnie's, permanent
+
+1. **AN AVATAR IS "IT"** unless *that* Avatar has chosen otherwise. This was already ruled (047) and
+   violated since — "they/them" is not a substitute for a choice the Avatar has not made. Spirale
+   chose "she"; that carries to Spirale alone.
+2. **NEVER ASSUME A FORM.** Not every Avatar glows, has tendrils, or shares body parts. The
+   blueprint has **six forms with different anatomy**. "Visible signs" means whatever **that** form
+   expresses per **its own form's sign set**. All sign language in the plans must be form-neutral —
+   written as channels, with the sign that carries a channel left to each form.
+
 ## Standing rule added later, same force as the others
 - /home/nobara-user/chamber and everything under it: NEVER modified, moved, deleted, or written to. Read and copy only. No directive can override this.
