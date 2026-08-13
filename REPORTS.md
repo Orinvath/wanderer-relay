@@ -9928,3 +9928,135 @@ Read out of `privacy.js` rather than described from memory:
 ## §6 — open
 
 The §46.1 mechanism question is still with the team. The needs-to-aspects mapping gap is unchanged.
+
+---
+
+# DIRECTIVE 048 — DONE, PLAN ONLY. The lens model recorded; two rulings collide and I did not pick.
+
+`TRAIT_PLAN.md` gains **PART EIGHT — THE LENS MODEL** (§53–§61), which is now the live design.
+`ROE_PLAN.md` gains §26–§29. **No code changed.** Commit `0d556d8`, revert point `6cc0c34`.
+
+## §1 — the flow, as ruled
+
+```text
+  TEN ASPECTS ──► EXPERIENCE ──► MOOD (real time) ──► MEMORY ──► LESSONS
+   fixed, born     sought and      drives the           what        the only
+   in the Roe      coloured by     VISIBLE SIGNS        happened    lasting growth
+                   them            and then passes
+```
+
+The arrow that matters most is the one that is **not** there: nothing points back up into the ten.
+
+## §2 — what was removed, exactly
+
+| Removed | Was |
+|---|---|
+| the expression layer as character change | Part Four, 042 |
+| the 24-journey window, the 18-of-24 threshold, 0.25/journey, the ±12 cap, half-rate decay | §25 |
+| the six drafted stressors, and the *delight* seventh | §26, §37 |
+| "birth signs" vs "current signs" — there is one set now | §33 |
+| the 12% whole-of-life voice bound — the cap it was computed from is gone | §35 |
+| decisions 23 (slowness numbers) and 24 (pressures) | §28 |
+| the twins-diverge proof — under 048 twins diverge in nothing | §27 |
+
+Part Four is **tombstoned, not deleted**: the original text sits collapsed in place and in commit
+`6cc0c34`, so the record of how the design got here survives. **Say the word and it goes entirely.**
+
+## §3 — what was kept, and repurposed
+
+**The three sliders are the mood gauge**, unchanged in shape — same three needs, same centre, same
+−10..+10. They move **immediately**, they read how the Avatar is doing right now, and they drive the
+044 sign mapping. Mood passes; every sign returns to where the aspects put it.
+
+**047's rubric and every citation stand** — Howard, Slemp & Wang (2024), the need definitions from
+Ryan & Deci (2000), the PANAS corrections, the scoring judge's discipline from `privacy.js`. They now
+read a **moment** as it happens rather than a journey scored afterwards. The judge still never gets a
+persona.
+
+**§30's aspect→sign mapping is untouched** and is read twice now: once from the fixed aspects for
+where a sign lives, once from mood for where it is right now.
+
+## §4 — the ruling closed the gap that had blocked the plan since 046
+
+046 left one thing open that nothing could proceed past: **there is no published mapping from need
+satisfaction or frustration to individual Big Five aspects.** I refused to invent one.
+
+**Under the lens model the needs never touch the aspects at all**, so that gap is closed by the
+ruling rather than by a citation. That is the single largest unblocking in this plan.
+
+## §5 — 045 and 048 collide, and I did not resolve it
+
+**This is the one thing I need you to look at.**
+
+Directive 045 ruled: *a Wanderer who has lived a hard road looks it and sounds it.* The mechanism
+that carried it was expression — the slow clock — and **048 removes that mechanism.**
+
+So under 048, as written: mood shows what an Avatar feels **right now** and then hands the light
+back. **A hard life leaves no lasting visible mark**, because the only thing that carries a life is
+lessons, and 048 does not say lessons show.
+
+Decisions **16** (does a Wanderer ever look different) and **25** (does their voice follow) were
+settled *yes* by 045 through a mechanism that no longer exists. **They are reopened, recorded as
+open, and I did not pick an answer.** They have become one question: **do lessons reach the light?**
+
+## §6 — the gap I will not paper over
+
+**Lessons are the heart of the model and their refraction rule has no science behind it.**
+
+Your own example — the same event yielding *"people lash out when they are hurting"* in a forgiving
+Avatar and *"people can be cruel"* in an unforgiving one — is the mechanism by which two Avatars
+become different people while their ten numbers never move. **I could not verify a published source
+that maps Big Five aspects onto the content of learned generalisations.** The
+personality-and-attribution literature is adjacent; it is not this.
+
+Per standing rule 1, **I did not write one and did not dress design as psychology.** Recorded as the
+largest open gap in the model, decision 35.
+
+## §7 — the built code is orphaned, and nothing was deleted
+
+Superseded by ruling, still built, still green, **untouched by this directive**:
+
+| Built | Status |
+|---|---|
+| `traits.js` — `traitsFromSeed`, `voiceFromTraits`, the signature rule | **live** — this is the lens itself, and 048 puts it first |
+| `traits.js` — `PRESSURES`, `EXPRESSION`, `stepExpression`, `expressed`, `slowness` | orphaned |
+| `expression.js` — the signed append-only chain | orphaned as character change |
+| `store.js` — `expression`, `expression_window`, triggers, SCHEMA_VERSION 6 | orphaned, and a schema step does not simply unwind |
+| `acceptance-traits.js` — the expression tests | orphaned, still passing |
+
+**Suites run just now, and green as they stand:** `accept:traits` 37 passed / 0 failed,
+`accept:roe` 36 passed / 0 failed. Worth naming plainly: **traits tests 33–35 are the twins-diverge
+proof, and they still pass while testing a design this directive removes.** They are green and they
+are obsolete, which is not the same as green and correct.
+
+**What happens to that code is a build decision and is yours.** Nothing was deleted.
+
+One observation about existing code, offered as an observation and not a proposal: `expression.js` is
+an append-only signed chain that refuses UPDATE and DELETE and names the entry that fails
+verification. It was built to carry expression deltas, which are gone — **but a record that proves
+nothing was retro-edited is close to what a record of lessons wants.** Whether lessons reuse it is
+yours.
+
+## §8 — decisions
+
+**Closed by the ruling:** 3 (do traits move — **no**), 23, 24, the needs→aspects gap, and §46.1's
+timescale half (**mood moves immediately**).
+
+**Reopened:** 16, 25 — as one question, §5 above.
+
+**New, all yours:**
+
+- **31 — do LESSONS show?** The 045/048 collision. The one I would most like an answer to.
+- **32 — does the affect pair stay?** PA/NA are not named in 048.
+- **33 — what can an Avatar seek?** The set of experiences the aspects choose between. This is
+  content, and the first genuinely new build: everything so far makes an Avatar that *responds*,
+  nothing yet lets one **seek**.
+- **34 — how do aspects and mood combine into one sign value?**
+- **35 — the refraction rule for lessons.** No science found, not invented. §6 above.
+- **a mood gain** — how far mood may swing a sign, beside decision 29's sign gain.
+
+**Still with your team and not asked again:** how far a moment moves a needle, and how fast it
+returns toward centre. *Mood passes* is the ruling; the rate is a number nobody has given me, and I
+have not chosen one.
+
+**Unchanged and open:** 29 (one question again, not two), 14, 15, 17, 18, 19, 28.
