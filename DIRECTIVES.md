@@ -1409,3 +1409,25 @@ raw audio to later hosts, only addressed speech becomes kept words.
 
 Update spec section 29 to this ruling. Record in the plans. Report.
 No implementation.
+
+## Directive 076 — What −10 means: the need takes over
+
+Lonnie's ruling, adopting the researched Sims pattern (urgency
+bucketing per GameAIPro: "a starving Sim will never even consider
+watching TV"; Sims 3 temperature high "when the Sim is doing badly"):
+
+At −10, THE NEED TAKES OVER THE WHOLE BEING:
+1. EXCLUSION: trivial goals are excluded from consideration entirely —
+   the bottomed need dominates the goal system until answered.
+2. DESPERATION: goal-seeking narrows to whatever could feed the need,
+   chosen through 052 as always (no compulsion, no scripted behavior —
+   the takeover is in the scoring, not in authored acts).
+3. ERRATIC CHOOSING: temperature runs at its high end — choices
+   scatter; being at the bottom degrades choosing itself.
+4. NO FAILURE STATE: no death, no breakdown event, no fail condition.
+   Those were Sims gameplay; nothing forces them on an Avatar. The
+   bottom is a state to be lived in and climbed out of, fully covered
+   by the existing reaction layer (its signs and voice show it) and
+   the always-returns guarantee.
+
+Record in TRAIT_PLAN.md with citations. Report. No implementation.
