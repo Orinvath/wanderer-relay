@@ -11435,3 +11435,53 @@ carried forward from `TRAIT_PLAN.md`.
 
 **Commits:** `ec26ed4` marker, `548d4d1` the capability plan, `e6bdd4c` the trait plan. Plan only, no
 implementation, nothing in the portal touched.
+
+---
+
+# DIRECTIVE 065 — DONE, PLAN ONLY. The exclusion is in Part Ten. Two stale lines in TRAIT_PLAN.md left untouched, listed below for your call.
+
+**Part Ten of `CAPABILITY_PLAN.md` records the exclusion**, written as a wall rather than a note,
+because its whole job is that no future directive reaches for that file. Your reason is recorded as
+the basis: **none of it ever worked.**
+
+**All three exclusions listed separately**, because they fail differently:
+
+```text
+   ✗ the code                                not copied, not adapted, not referred to
+   ✗ the attention / drives / action design  the SHAPE is excluded, not just the file
+   ✗ its wording                             its names and phrasings do not travel either
+```
+
+**The third is the one I expect to leak**, and I said so in the plan: code is easy to leave behind,
+but a borrowed vocabulary walks in unnoticed and brings the design with it. The line I wrote to catch
+it — **if a future plan finds itself reaching for that file's words, it is reaching for the file.**
+
+**Where the behaviour comes from instead**, as a table so there is no fourth source: the 052 goal
+chain, the 058 CB5T mechanisms, and the curiosity drive as researched (Berlyne, Loewenstein, Silvia).
+**"Built fresh" is recorded as part of the ruling rather than as a note on style** — all three are
+designs on paper with no implementation anywhere, and none may acquire one by adaptation from the
+excluded file.
+
+**Three guarantees, 74–76.** The file never appears; **the shape never appears either** — no
+attention/drives/action layer reconstructed under other names, which is the guarantee that catches a
+rebuild-in-disguise; and every living-behaviour path traces to 052, 058 or the curiosity research and
+to nothing else.
+
+**One boundary I drew explicitly rather than leaving to inference:** `placeMemory.js` is a different
+file. §109 of `TRAIT_PLAN.md` observes it as adjacent to places; **065 says nothing about it, and I
+did not extend the exclusion to it.**
+
+**Nothing else touched, per "Nothing else."** That leaves two lines in `TRAIT_PLAN.md` that now read
+false, and I am reporting them instead of editing them:
+
+- **§102's decision list** still carries *"48 — does anything from `instinct.js` cross?"* as open.
+- **§109** still ends *"whether any of it crosses is part of decision 48, unchanged."*
+
+Neither is load-bearing — no guarantee depends on them, unlike the 064 case — but both point a future
+reader at a closed question. **Say the word and I will correct them; I have not.**
+
+**Decisions after 065.** 48 closed. **Still open: 49** (what counts as an information gap), plus the
+list carried forward from `TRAIT_PLAN.md`.
+
+**Commits:** `5945563` marker, `7dac815` the exclusion. Plan only, no implementation, nothing in the
+portal touched.
