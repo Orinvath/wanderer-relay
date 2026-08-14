@@ -1314,3 +1314,29 @@ Redraft Proposal 1 as FORMULAS: which aspects feed each rate, in which
 direction, anchored where — the aspect-to-rate map is the proposal,
 for Lonnie's approval. Flag every choice the research doesn't dictate.
 Report. No implementation.
+
+## Directive 072 — All four ruled: permissive, and aspects gate impact
+
+1. PERMISSIVE, by Lonnie's standing pattern: all ten aspects feed every
+   rate — the aspects ARE the Avatar; everything flows from them.
+   Guarantee 50 reads permissive. CB5T licenses set relative WEIGHT
+   (licensed links weigh more), never exclusion.
+2. THE BAND is per-Avatar like everything else — 071's law supersedes
+   070's fixed knob. Openness carries the strongest license.
+3. POLITENESS corrected by Lonnie, and science-confirmed (Peterson's
+   assessment text: exceptionally low Politeness "challenge and
+   confront authority — and they are not obedient. If they are
+   respectful, it is grudgingly"; the aspect literature: "resistance
+   to the kinds of social compliance that would require
+   self-suppression"): low Politeness does not suffer being bossed and
+   recover slowly — IT NEVER ABSORBS THE HIT. It does not defer, does
+   not care to please, so autonomy barely drops; it may confront. High
+   Politeness complies and takes the cost. GENERAL LAW from this:
+   aspects gate IMPACT (how much an event costs this Avatar) as well
+   as recovery — the drop and the rebound are both aspect-computed.
+4. WITHDRAWAL on temperature: participates like all ten; weight per
+   the proposal.
+
+Redraft the map under impact-gating (every need's DROP is aspect-
+computed per event type, per the same mechanism reasoning, citations
+carried). Report for approval. No implementation.
