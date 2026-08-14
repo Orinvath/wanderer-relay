@@ -1170,3 +1170,22 @@ implementation begins, not inherited.
 
 PLAN ONLY: record the exclusion in CAPABILITY_PLAN.md so no future
 directive reaches for it. Report. Nothing else.
+
+## Directive 066 — Decision 49 ruled: the trigger is uncertainty itself
+
+Lonnie's ruling: the truest trigger of curiosity is UNCERTAINTY — the
+unknown. Not an enumerated list of gap types. Anything the Avatar can
+notice it does not know or cannot predict is a live curiosity trigger:
+an unseen place, an unknown word, an unexplained mood, an untried
+sound — and every unknown beyond any list we could write.
+
+This is the researched position verbatim (Berlyne: novelty, complexity,
+UNCERTAINTY, surprise; Loewenstein: the gap between known and desired
+knowledge). No enumeration — uncertainty itself, wherever it appears.
+The ten aspects (Intellect/Openness gain, per 058) decide which
+uncertainties itch enough to chase; mood and goals decide when.
+
+Decision 49 closed.
+
+PLAN ONLY: record in TRAIT_PLAN.md's curiosity section. Report.
+Nothing else.
