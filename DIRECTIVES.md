@@ -1270,3 +1270,29 @@ Lonnie's rulings:
 Decisions 41/42 closure stays open until the numbers are approved.
 
 Report the source-grounded redraft. No implementation.
+
+## Directive 070 addendum — the source numbers, researched now
+
+The director's research delivers the documented values; use these as the
+source table for the Proposal 1 redraft:
+
+- SCALE: Sims needs run -100..+100 (StrategyWiki, Sims 2 Needs); our
+  -10..+10 is the same shape at 1/10.
+- RELATEDNESS ANCHOR: Sims 4 Social decay baseline is 38 HOURS full to
+  empty (documented in the motive-decay modding literature quoting the
+  game's tuning). Scaled: ~0.53 pts/hour on our scale, ~12.6 pts/day —
+  roughly full-to-empty twice per three-day visit if wholly ignored.
+- NONLINEAR DECAY: the Sims tuning files decay by BAND (slower near the
+  bottom — sweetdevil-sims tuning guide showing per-interval Decay
+  values). Adopt banded decay; propose our bands.
+- PERSONALITY MODULATES DECAY in the Sims lineage (documented in the
+  motive-mods literature: trait-varied rates). Our aspects modulating
+  decay is therefore the proven pattern — propose which aspects touch
+  relatedness decay and by how much, flagged as our tuning on their
+  pattern.
+- COMPETENCE/AUTONOMY: no Sims clock analog exists — consistent with
+  the 070 ruling (no drift / event-driven). State plainly per the
+  science rule.
+
+Cite each line. Redraft Proposal 1 from this table on the three-day
+clock. Report for approval.
