@@ -11907,3 +11907,103 @@ one.
 3. **The four band multipliers** — they preserve your anchor, but their relative steepness is mine.
 4. **Proposal 2's temperature values remain `[OURS]` end to end** — no published Sims 3 figure
    exists. Unchanged from the earlier report, and still the numbers most likely to move first.
+
+---
+
+# DIRECTIVE 071 — DONE, PLAN ONLY. Rates are formulas now. The map is the proposal — and it collides with a written guarantee and with 070's one-knob rule. Both flagged, neither settled.
+
+`TRAIT_PLAN.md` §120 header, Proposals 1, 2 and 3, and two new guarantees.
+No implementation. Commits: `7800ad6` marker, `c3d3be9` the work.
+
+## What 071 did to the research
+
+**It did not override it — it moved it.**
+
+```text
+   BEFORE   38 hours was the rate.
+   AFTER    38 hours is where the formula PASSES THROUGH — the value at the midpoint of every
+            aspect feeding it. Per your law, essentially no Avatar is ever there.
+```
+
+**The anchor is a point on a curve nobody stands on**, and that is the right shape: **the lineage's
+number was always a population average, and an Avatar is not a population.**
+
+## The form
+
+```text
+   RATE = ANCHOR × ∏ mᵢ^(−aᵢ)      aᵢ = this Avatar's standing, −1…0…+1
+                                    mᵢ = the aspect's LEVER at its extreme
+```
+
+Multiplicative rather than additive, for three engineering reasons, all mine: **a rate can never
+reach zero or go negative**; an aspect that halves a rate at one extreme doubles it at the other; and
+**aspects compose without any of them knowing the others exist.**
+
+## THE BIG FLAG — 071 and guarantee 50 press on each other
+
+**071 says the ten aspects compute every rate. Guarantee 50 says each aspect gates its own mechanism
+and no other.** Those cannot both be read at full strength.
+
+```text
+   STRICT (drafted)   an aspect feeds a rate only where CB5T's own words license it.
+                      Guarantee 50 survives intact.
+   PERMISSIVE         all ten feed every rate. Your law read most literally.
+                      Guarantee 50 would need rewording.
+```
+
+**I drafted STRICT** — it leaves a written guarantee standing, and **a lever with no mechanism behind
+it is invention wearing a coefficient.** **This is the most consequential flag in the proposal and it
+is entirely yours.**
+
+## The map
+
+**Relatedness decay — Compassion alone.** *"Emotional attachment to and concern for others"* is the
+only mechanism that IS the thing this need measures. **×1.5**: +1 empties in ≈25 h, midpoint 38 h,
+−1 ≈57 h. **Enthusiasm and Withdrawal rejected with reasons** — using them would read *extraverts are
+sociable* into a mechanism that does not say it.
+
+**Autonomy recovery — Assertiveness ×1.4 (clean), Politeness ×1.3 (a reading, and I say so).**
+Politeness is about suppressing one's *own* impulses, which is adjacent to being directed by somebody
+else without being the same thing. **If it looks like a stretch to you, it should come out.** No
+anchor exists here at all — no Sims analogue for autonomy — so its midpoint is mine.
+
+**Temperature — and this one CB5T licenses better than anything else in the plan.**
+Conscientiousness's domain mechanism is *"protection of non-immediate or abstract goals and
+strategies from disruption"*, and **a high temperature is precisely disruption of the chosen goal by
+noise.** So **Industriousness ×1.4** and **Orderliness ×1.3** cool it, **Volatility ×1.5** heats it.
+**That fit was found, not argued for.** Withdrawal has a claim I did not grant — inhibition is not
+noise; an inhibited Avatar does *less*, a hot one chooses *erratically*. Yours to rule.
+
+## THE SECOND FLAG — 070 and 071 point opposite ways
+
+**070 ruled one knob: the band stays fixed, only mood moves. 071 rules that every rate is computed
+from the aspects** — which would make the band per-Avatar and hand the design two moving knobs again.
+
+**I left it fixed at 10%**, because 070 ruled it explicitly and 071 does not mention it. **But this is
+a real conflict between two of your rulings and it is not mine to settle.** If it does become
+per-Avatar, **Openness** is the only clean license.
+
+## One fixed number survives 071 deliberately
+
+**The temperature's hard ceiling.** Past it, choices read as *broken* rather than *distressed*, and
+**057 forbids a host thinking the Avatar is broken.** That is a canon requirement rather than a rate,
+so it caps the formula from outside. **Flagged as an exception on purpose** rather than left to look
+like something I missed.
+
+## Two new guarantees
+
+**92 — no constant is anybody's rate.** By inspection: nothing stores a per-Avatar rate and nothing
+has a default to fall back on. **A stored rate is the authored table again, one level down.**
+**93 — two Avatars share a rate only if they share the aspects**, and the anchor appears in nobody's
+behaviour.
+
+## FOR YOU — four
+
+1. **Strict or permissive** — does an aspect need a CB5T license to feed a rate, or do all ten feed
+   everything? Guarantee 50 depends on the answer.
+2. **The band — 070 or 071?**
+3. **Politeness on autonomy** — keep or cut.
+4. **Withdrawal on temperature** — grant or refuse.
+
+**Still open from before and unchanged: what happens at −10**, and the temperature anchors, which
+remain the emptiest numbers in the plan.
