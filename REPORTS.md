@@ -12126,3 +12126,103 @@ turns into "we can't." Written into the plan so the next reader hits it before t
 - **The three tier values** (×1.5 / ×1.15 / ×1.03) — the whole map's character rides on the ratio.
 - **What happens at −10.**
 - **The temperature anchors** (0.15 / 1.2) — still the emptiest numbers in the plan.
+
+---
+
+# DIRECTIVE 074 — DONE. BOTH PARTS. The derivation reproduced your own provisional fence from first principles, and the harness is built and green — but it will not show you the three needs, and I want to explain why rather than quietly ship a fake.
+
+`TRAIT_PLAN.md` §120.2 (the derivation) · `server/src/harness.js` · `server/src/acceptance-harness.js`
+· `accept.js` · `package.json`. Commits: `e3b91e5` marker, `1fbe272` part 1, `dc6f179` part 2.
+
+## PART 1 — the derivation, and it cancels the thing that was blocking it
+
+Your two failure modes as arithmetic, using constants already fixed by earlier rulings:
+**span 20** (074), **band 5** (banded decay, sourced), **resolution 0.25** — the smallest change
+visible on a −10..+10 readout, and `[OURS]`, a property of the *display* rather than the creature.
+
+```text
+   NOT BROKEN   R_max · e_max ≤ 5        no single event crosses a whole band
+   NOT DEAD     R_min · e_min ≥ 0.25     the least reactive Avatar still visibly moves
+
+   divide →     R_max / R_min  ≤  20 / E        E = the spread of event sizes
+```
+
+**The base event size cancels**, which is what makes the bound derivable at all.
+
+**And the finding I would not have guessed: reactivity spread and event-size spread share ONE budget
+of 20 points.** The wider the range of event sizes, the narrower the legal range of reactivity.
+At E = 10 every Avatar reacts almost identically and reactivity stops being worth computing —
+**that row is in the plan because it is the number that kills the design.**
+
+**Proposed E = 4** (a passing remark vs a real rebuff) → **reactivity ×0.447 … ×2.24.** E is the one
+live choice; everything else follows from the scale.
+
+### Your fence was the same derivation all along
+
+**073's provisional ×0.25 … ×4 is, to two decimals, the E = 1 row — `[1/√20, √20]` = ×0.224 … ×4.47.**
+You chose it before this derivation existed. **The acceptance suite asserts it**, so if the formula
+and the fence ever part company, something says so.
+
+### Tier weights are now solved, not picked
+
+```text
+   ln P = ln(√5) / 2.26           →   PRIMARY ×1.43   SECONDARY ×1.13   BACKGROUND ×1.03
+   check: 1.43 × 1.13² × 1.03⁷ = 2.236 = the ceiling exactly
+```
+
+They were nearly right; the primary comes down from 1.5. **What stays `[OURS]` inside them is the
+exponent shape (1 : 0.35 : 0.08) and E**, both named in the plan rather than buried.
+
+### Two clamps, two quantities — and only one is derived
+
+```text
+   REACTIVITY   how hard an event LANDS      ×0.447 … ×2.24   DERIVED
+   RATE         how fast a need MOVES alone  ×0.25  … ×4      PROVISIONAL (073), unchanged
+```
+
+The band-crossing argument bounds a **jump**. It does not bound a **rate** — decay four times faster
+empties a need in 9.5 h instead of 38, which is still perfectly legible. **073 stands where it is.**
+
+## PART 2 — the harness is built, and the suite is green
+
+`npm run harness` → **http://127.0.0.1:4599/?key=…** printed to the console. `&seed=` for a different
+Avatar, `&signature=wide` for an extreme one. Ten live sliders; every derived number recomputes as
+you drag, including an **E** slider so you can watch the budget trade against itself.
+
+**Full suite: `PHASE 0 · 1 · 2 · CHARACTER · ROE · TRAITS · HARNESS · TESTNET` all passed.**
+PHASE 3 is the pre-existing **ENVIRONMENT — did not run** case (the self-hosted model is not up on
+this machine); that is the suite's documented third outcome, not a failure, and nothing I touched is
+near it. **HARNESS: 19 of 19.**
+
+Guarded exactly as the moderator's screen is — **127.0.0.1 bind, socket checked from
+`req.socket.remoteAddress` and never a header, operator key, and 404 rather than 401** so nothing
+admits it is there. **It is not wired into `index.js`**, deliberately: that would have put an import
+of the harness into the creature path, and **the suite goes looking to prove there isn't one.** These
+formulas are a proposal under your review; a copy in a test instrument must not become the thing an
+Avatar runs on by accident.
+
+## THE ONE THING I DID NOT BUILD, AND WHY
+
+**You asked for the three needs moving in real time as actions and interactions land. THERE IS NO
+NEEDS LEDGER IN THE CODEBASE.** Part Six is plan-only and every number in it is an unapproved
+proposal — I checked before building rather than after.
+
+**So the panel does not show needs as values, and that is a refusal rather than an oversight.** Three
+sliders at invented positions drifting at invented rates would be a test double of exactly the kind
+the standing rules forbid — **and worse than useless here, because the entire purpose of this
+instrument is to judge numbers by watching them, and you cannot judge a number by watching one I made
+up.**
+
+**What it shows instead is everything that IS derivable today**, per Avatar: reactivity, how long
+relatedness takes to empty, autonomy recovery, the impact multipliers per event, the candidate band,
+and the temperature floor and ceiling. **That is the instrument 073's numbers were waiting on** — you
+can already drag Withdrawal and watch how hard the world lands on this being. The suite asserts the
+absence, so **the day somebody adds a fake need value, it objects.**
+
+## FOR YOU
+
+1. **E = 4** — the one live choice in the derivation, and it sets how much personality is even
+   possible. **The E slider is on the panel so you can see what each value does before ruling.**
+2. **Resolution 0.25** — mine, and a display property. If the readout changes, this moves.
+3. **Do you want the needs ledger built next?** It is the only thing standing between this panel and
+   the behavioural testing 073 defers to. **Not started — it is Avatar machinery and unapproved.**
