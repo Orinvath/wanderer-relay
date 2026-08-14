@@ -1155,3 +1155,18 @@ Decision 46 is fully closed (places by visiting — 059; capabilities
 inherent — this ruling).
 
 PLAN ONLY: record in CAPABILITY_PLAN.md. Report. No implementation.
+
+## Directive 065 — Decision 48 ruled: instinct.js does NOT cross
+
+Lonnie's ruling: none of instinct.js ever worked. It is not to be part
+of the Wanderer system. Nothing from it crosses — not the code, not
+the attention/drives/action design, not its wording. Decision 48 is
+closed.
+
+The Wanderer's living behavior comes solely from what has been ruled
+and designed in this project: the 052 goal chain, the 058 CB5T
+mechanisms, and the curiosity drive as researched — built fresh when
+implementation begins, not inherited.
+
+PLAN ONLY: record the exclusion in CAPABILITY_PLAN.md so no future
+directive reaches for it. Report. Nothing else.
