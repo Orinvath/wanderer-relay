@@ -1358,3 +1358,31 @@ unknown until observed. So:
 Report confirmation. The tier values (question 2) and the -10 /
 temperature-anchor questions remain open for Lonnie. No
 implementation.
+
+## Directive 074 — Scale-derived multipliers, and the slider harness
+
+Lonnie's two rulings:
+
+1. THE DESIGN: one fixed scale (-10..+10, universal, never varies) and
+   ONE REACTIVITY MULTIPLIER PER AVATAR, computed from its aspects,
+   scaling how hard events land. Resilience is the researched license
+   (Neuroticism/stress-reactivity literature — Bolger & Zuckerman
+   lineage: high Neuroticism = harder hit by the same stressor;
+   Withdrawal/Volatility carry it, all ten participate per 072).
+   THE MULTIPLIER'S BOUNDS DERIVE FROM THE SCALE ITSELF: too small =
+   nothing visibly moves (dead), too large = one event slams rail to
+   rail (broken). The legal range is what keeps every Avatar visibly
+   alive within the scale — derived, not invented. Recompute the tier
+   weights and clamp as consequences of this derivation; show the
+   derivation. Cite the resilience research.
+
+2. THE TEST HARNESS: build a live on-screen slider panel for testing —
+   the three needs (and mood/temperature readouts) visible in real
+   time, moving as actions and interactions land. Local/operator-only
+   like the moderation screen. This is the behavioral-testing
+   instrument the provisional numbers wait on: watch the sliders,
+   judge the feel, adjust on evidence.
+
+Part 1 PLAN (derivation for approval). Part 2 MAY BE IMPLEMENTED —
+the harness is test tooling, not Avatar machinery; suite stays green.
+Report both.
