@@ -11815,3 +11815,95 @@ ache halves over the span of a single visit.
 - **Your two approvals are recorded at the mechanism level**, not just inside a proposal: the drift
   split in §116, and in §121 that **closure of 41 and 42 waits on these numbers** — the proposals are
   now the last thing standing between those two decisions and the end of them.
+
+---
+
+# DIRECTIVE 070 ADDENDUM — DONE, PLAN ONLY. Proposal 1 rebuilt on your source table. Banded decay replaced a mechanism I had invented, and only ONE aspect survives the guarantee-50 test.
+
+`TRAIT_PLAN.md` §120.1 and Proposal 1. No implementation.
+Commits: `5d4931c` marker, `f6d1b67` the redraft. (The earlier 070 report is above; this supersedes
+its Proposal 1.)
+
+## Provenance, stated once
+
+The addendum's values came from the director's research. **I independently confirmed the 38-hour
+Social figure.** The scale, the banded tuning and the trait-varied rates are **cited as delivered**,
+with their named sources, and marked documented-but-unofficial where that is what they are.
+
+## The scale settles a flag open since §113
+
+**Ours is −10..+10, signed, higher is met** — the Sims −100..+100 at 1/10. I had been carrying
+Zubek's [0,100] with a note that the direction was yours and unassumed; **that is now answered and
+Zubek's range is out of the plan.** A signed scale is the better one here: **"in deficit" means below
+zero rather than below a threshold somebody has to pick.**
+
+## The anchor, and the sanity check that says it transfers
+
+**38 hours full-to-empty → 0.53 pts/hour → 12.6 pts/day → full-to-empty roughly twice in a
+three-day visit if wholly ignored.** That last line is why the number transfers at all: relatedness
+is a live concern inside a visit without being fatal in an afternoon.
+
+## BANDED DECAY — your best line, and it deleted something of mine
+
+**The Sims tuning decays by band, slower near the bottom. That is the documented form of the thing I
+had invented as an asymptotic floor.** Saturation falls out of the shape; nobody bolts a floor onto
+the end.
+
+**The bands are constrained, not free — they must preserve the 38-hour anchor**, or banding would
+quietly overwrite the one sourced number in the proposal:
+
+```text
+   +10 → +5   contented   ×1.8    5.2 h
+   +5  →  0   wanting     ×1.3    7.3 h
+    0  → −5   deficit     ×0.95   9.9 h
+   −5  → −10  aching      ×0.6   15.7 h
+                          total ≈ 38.1 h  — the anchor, preserved
+
+   top half drains in 12.5 h · bottom half takes 25.6 h
+   A NIGHT: 8 h from full → ≈ +3. Wakes wanting company, not in deficit. No plateau needed.
+```
+
+Multipliers are mine; the banded shape and the total are yours.
+
+## Unheld — now an extra band rather than an invented exponential
+
+`[OURS]` **×0.15 on the two lower bands while unheld**: 0→−5 takes 66 h, −5→−10 takes 105 h,
+**bottom reached at about a week** — 069's ruling landing where it was aimed, expressed as *a slower
+band* instead of an exponential whose exponent I picked.
+
+**Still yours: what happens AT −10.** Banding saturates the approach but does not distinguish a month
+from a year once the bottom is reached. Either −10 is a true floor it rests at, or the last band is
+slower still.
+
+## WHICH ASPECTS MODULATE DECAY — the answer is mostly NO, and that is the finding
+
+The pattern is proven in the lineage, so the only question is which of our ten may use it — and
+**guarantee 50 constrains it hard: each aspect gates its own mechanism and no other.** Checked
+against CB5T's own words:
+
+- **Compassion — YES.** DeYoung: *"Emotional attachment to and concern for others."* **It is the only
+  aspect whose own mechanism IS attachment to others.** Applying it to the need that measures exactly
+  that is its mechanism doing its job, not a second job.
+- **Enthusiasm — no.** *"Consummatory reward sensitivity"* is about enjoying attainment. Using it
+  here would be reading "extraverts are sociable" into a mechanism that does not say it.
+- **Withdrawal — no.** *"Passive avoidance... in response to uncertainty or error."* Nothing about
+  solitude. That one would break guarantee 50 outright.
+- **Everything else — no.**
+
+**Proposed `[OURS]`: Compassion modulates relatedness decay ±30%** — high empties in ≈29 h, low in
+≈54 h. **The magnitude is a tuning choice on your pattern. The restriction to one aspect is not a
+choice — it is guarantee 50 holding**, and I would rather report a narrow answer than a plausible
+one.
+
+## Competence and autonomy
+
+**No Sims clock analogue exists for either** — recorded as a sourced *absence*, consistent with your
+070 ruling. There is no rate to cite because there is no such need in the lineage to have one.
+
+## FOR YOU
+
+1. **What happens at −10** — a true resting floor, or a slower final band.
+2. **Compassion at ±30%** — the magnitude, not the choice of aspect.
+3. **The four band multipliers** — they preserve your anchor, but their relative steepness is mine.
+4. **Proposal 2's temperature values remain `[OURS]` end to end** — no published Sims 3 figure
+   exists. Unchanged from the earlier report, and still the numbers most likely to move first.
