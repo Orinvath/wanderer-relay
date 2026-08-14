@@ -11561,3 +11561,78 @@ not touched it**, since 067 named §45 and nothing else. Say the word if you wan
 
 **Commits:** `13de2a3` marker, `617bbaa` the correction. Plan only, no implementation, nothing in the
 portal touched.
+
+---
+
+# DIRECTIVE 068 — DONE, PLAN ONLY. The goal-former has an architecture, and two of the four sources were read in full rather than cited from memory.
+
+`TRAIT_PLAN.md`, **PART FIFTEEN, §111–§121.** No implementation. No other file touched.
+Commits: `80b984e` (marker before), `4d14596` (the work).
+
+## The citations are real, and I went and got them
+
+068 said *cite each*, so I fetched and read them rather than recalling them:
+
+- **Graham, "An Introduction to Utility Theory", Game AI Pro Vol. 1 Ch. 9 (2013)** — read in full,
+  quoted verbatim in the plan. **One thing worth knowing: David "Rez" Graham was lead AI programmer
+  on The Sims 4.** The directive's "GameAIPro utility-theory chapters" and its "Sims 4 lead AI
+  programmer's published description" **are the same source.** Recorded as one, not counted twice.
+- **Zubek, "Needs-Based AI", Game Programming Gems 8 (2010)** — read in full, quoted verbatim.
+- **Dill** — cited by Graham as `[Dill 11]` for bucketing. Named as via-Graham, not read directly.
+- **Evans, Sims 3 Boltzmann** — AIIDE 2007 and GDC 2010 **talks**. The Sims 1 and 2 chose among the
+  four highest-rated options; Sims 3 moved to Boltzmann. **I could not reach a primary text of
+  Evans's own** — corroborated only in secondary coverage. Written down with that provenance
+  visible rather than smoothed over.
+
+## One thing in the directive is ours, and the science rule made me say so
+
+**No source read says the temperature is driven by mood.** The Sims 3 precedent is a
+temperature-modulated Boltzmann; **binding it to our mood system is your design decision in 068**,
+on top of a real mechanism. The plan says exactly that. It is a very good move — it makes
+**decisiveness itself a living sign**, with nobody authoring a "distressed behaviour" — but it is
+not a finding and it is not dressed as one.
+
+## Where the lineage could not be taken unchanged
+
+**064 already ruled against Zubek's advertisement market.** In the Sims, objects advertise what the
+agent can do. **We ruled the opposite: capabilities are inherent.** So the market became a filter —
+the Avatar carries its own set, and the world only says yes or no to each. Same decoupling,
+ownership reversed, and it lands on a guarantee that already existed (72, *inherent is not
+available*).
+
+**Scoring: I took Zubek's third function, and for one of your reasons rather than his.** It scores
+**how much a gap closes**, not how good the end state is. That is 066 done in arithmetic — a gap
+defined by its shape, not its subject.
+
+**The six conflict rows are a table in the plan.** Every one is a place where building the lineage
+straight would quietly break something you already ruled: compulsion (056), silent AI vs goals on
+the sleeve (057), reactions entering the choice queue (053), objects teaching capabilities (064),
+authored per-object interactions (§83), and one model doing everything (§81).
+
+## The proposals — nothing approved, three drafted
+
+**Decay rates**, **the temperature curve** (floor 0.15 so a content Avatar can still surprise;
+ceiling 1.2 because above it the choices read as *broken*, and 057 forbids that), and **the
+candidate window** (a percentage band rather than a fixed top-N). Queued next: the §71 offset,
+the outlook multiplier and speed, the Roe generation distribution, and inertia.
+
+## FOR YOU — five things, none of them decided
+
+1. **The timebase makes or breaks Proposal 1.** My decay minutes assume a visit measured in tens of
+   minutes. **If a typical visit is five minutes, every number is wrong by an order of magnitude.**
+2. **Does decay run between visits?** An Avatar that gets lonely while nobody is there at all is a
+   different creature from one that only gets lonely in a silence it can hear. **Character question,
+   entirely yours.**
+3. **Which needs drift, and toward what resting value.** I proposed relatedness yes, competence no,
+   autonomy on events rather than the clock — **flagged as a real question, not an obvious answer.**
+4. **The band and the temperature are two knobs onto one behaviour.** I recommend the band stays
+   fixed and only mood moves; you may want the opposite. Tuning both at once will confuse the look.
+5. **Is decision 42 CLOSED?** Its architecture is fixed and the magnitudes remain. **I recorded it
+   as "architecture fixed; closure not claimed" rather than closing it myself.** Also worth a second
+   look: **41** — the capability set was a definition question and is now the literal input to the
+   scoring stage.
+
+## Records policy
+
+Three older lines in the same file said 42 was open with no generator; per 054 they were updated to
+current truth in the same commit. **`CAPABILITY_PLAN.md` was not touched** — 068 named `TRAIT_PLAN.md`.
