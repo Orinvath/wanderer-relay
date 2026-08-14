@@ -12007,3 +12007,82 @@ behaviour.
 
 **Still open from before and unchanged: what happens at −10**, and the temperature anchors, which
 remain the emptiest numbers in the plan.
+
+---
+
+# DIRECTIVE 072 — DONE, PLAN ONLY. Impact-gating changed the architecture, not a number. Your Politeness correction was right, and it showed my earlier rejection of Enthusiasm was only half right.
+
+`TRAIT_PLAN.md` Proposals 1–3, guarantee 50 reworded, guarantees 94 and 95 added.
+No implementation. Commits: `7bdcd4a` marker, `7f55bf6` the map, `9c88ffd` the guarantees —
+**separate so you can revert either alone.**
+
+## Ruling 3 was the big one
+
+Until now aspects shaped **how fast a need moved on its own.** Now they shape **how far it moves when
+something happens.** Two Avatars can meet the identical event and **pay different prices for it** —
+which is much closer to what personality actually is than a difference in recovery speed.
+
+## Your Politeness correction — I had it exactly backwards
+
+```text
+   I HAD IT   high Politeness → smaller hit from being directed          WRONG
+   IT IS      LOW Politeness NEVER ABSORBS THE HIT — does not defer, does not care to please,
+              autonomy barely drops, it may confront.
+              HIGH Politeness COMPLIES AND TAKES THE COST.
+```
+
+**My version had compliance protecting autonomy. It is the opposite: compliance is how the cost gets
+paid.** An Avatar that does what it is told is spending something; one that does not, is not. Both
+your sources are carried in the plan — Peterson's assessment text and the aspect literature's
+*"resistance to the kinds of social compliance that would require self-suppression."*
+
+## And impact-gating vindicated half of an earlier rejection
+
+Under 071 I refused Enthusiasm on relatedness, saying it would read *extraverts are sociable* into a
+mechanism that doesn't say it. **That was right about decay and wrong as a whole answer.**
+Enthusiasm — *"consummatory reward sensitivity: enjoyment of actual or imagined goal attainment"* —
+has no claim on how fast a need **empties**, and a direct one on **how much a warm exchange gives
+back.** **Impact-gating is what let the correct half through.** It now sits PRIMARY on refill for
+both relatedness and competence.
+
+## The cleanest license in the whole map, and it was found not argued
+
+**Competence impact → Withdrawal.** DeYoung's words: *"Passive avoidance: Inhibition of goals,
+interpretations, and strategies, in response to uncertainty **or error**."* **A failure is the error
+case, named in the source.**
+
+## Weight, not exclusion
+
+```text
+   PRIMARY     ×1.5    DeYoung's words name this mechanism directly
+   SECONDARY   ×1.15   an adjacent mechanism with a real but weaker claim
+   BACKGROUND  ×1.03   the remaining aspects — present, never absent
+```
+
+**Guarantee 50 is reworded rather than deleted**, and it is still un-gameable: the test is now that a
+licensed link **outweighs** every unlicensed one — which **a map weighting everything equally would
+fail, and so would one that reintroduced exclusion by setting a background weight to zero.**
+
+## The band conflict is closed
+
+**071 won.** The band is per-Avatar, anchored at Graham's sourced 10%, **Openness PRIMARY** as you
+ruled, Intellect secondary. Recorded that 070's fixed knob was **superseded, not forgotten** — and
+that my original 20% was invention and is gone.
+
+## ONE THING I WANT YOU TO SEE — the permissive reading creates a compounding problem
+
+Seven background aspects at ×1.03 reach ×1.34 together; with a primary and two secondaries the
+product can run past ×2.5 either way. **Proposed clamp: the total stays within ×0.25 … ×4 of the
+anchor** `[OURS]`.
+
+**Without a clamp, an extreme Avatar's rates stop being recognisably the same design** — and with the
+permissive reading, extreme Avatars are exactly what the system will produce. **Flagged rather than
+assumed; the clamp range is yours.**
+
+## FOR YOU
+
+1. **The clamp** — whether to have one, and at what range.
+2. **The three tier values** (×1.5 / ×1.15 / ×1.03) — mine, and the whole map's character rides on
+   the ratio between them.
+3. **Still open from before: what happens at −10**, and the temperature anchors, which remain the
+   emptiest numbers in the plan.
