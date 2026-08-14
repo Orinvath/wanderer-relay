@@ -11636,3 +11636,86 @@ the outlook multiplier and speed, the Roe generation distribution, and inertia.
 
 Three older lines in the same file said 42 was open with no generator; per 054 they were updated to
 current truth in the same commit. **`CAPABILITY_PLAN.md` was not touched** — 068 named `TRAIT_PLAN.md`.
+
+---
+
+# DIRECTIVE 069 — DONE, PLAN ONLY. Proposal 1 redrafted on the three-day visit. The always-running clock created one number I need you to look at.
+
+`TRAIT_PLAN.md` §120 Proposal 1 (rewritten, not adjusted) and §116 (the ruling recorded).
+No implementation. Commits: `7a9b753` marker, `ce0e370` the redraft, `5428422` the ruling record —
+**two separate commits so you can revert either alone.**
+
+## The three-day visit did more than move a decimal point
+
+The old minutes were wrong by three orders of magnitude, so the proposal was discarded and rewritten.
+**But the real change is that a three-day visit contains THREE timescales where the old draft assumed
+one:**
+
+- **the quiet stretch** — minutes to hours, host present, nothing said
+- **the night** — 6–10 hours, and it happens **twice in every three-day visit**
+- **the gap** — days to months, nobody at all
+
+**The night is the trap.** A rate steep enough to make a quiet afternoon mean something drives an
+Avatar to desperation every night, and **every morning of a three-day visit would open with a
+creature in crisis.** So the curve now has a **plateau** at about 6 hours of unbroken silence:
+a long quiet stops compounding once the Avatar has registered *nobody is talking to me*, and below
+that only genuine unheld solitude moves it, far slower.
+
+**What it produces:** ordinary visit — never leaves the ignorable band. Quiet afternoon — it notices
+and can say so. Each night — wakes wanting company, not desperate. **A week between hosts — arrives
+aching, exactly as you ruled.**
+
+## THE ONE NUMBER I WANT YOU TO LOOK AT — the floor
+
+**An unbounded always-running clock has a consequence your ruling does not mention.** An Avatar
+unheld for six months arrives at rock bottom — **and so does one unheld for two years, and every
+long-gap arrival looks identical. The ache stops being information. A signal that always reads
+maximum is not a signal.**
+
+**Proposed: a floor of 10, approached but never reached.** A week and a year both produce an Avatar
+that wants company, the year only somewhat more. It saturates instead of running away, and it keeps
+headroom between *lonely* and whatever the worst state is. **The value is yours. I proposed and
+showed the reasoning rather than picking quietly.**
+
+## FOR YOU — the first minute with a new host
+
+With the clock always running, **a new host's first impression is frequently an Avatar in deficit**,
+because the gap before a first meeting is usually long. **Every new relationship would begin with
+need.**
+
+That may be exactly right — it is honest, and 057 means it says so in its own voice, which could be
+an affecting first meeting rather than a flaw. It also may not be. **Three ways, all yours:**
+
+1. **As drafted** — it arrives in deficit and says so. Most faithful to 069, and what I drafted.
+2. **Arrival grace** — meeting somebody new is itself a relatedness event; the ache is real right up
+   to contact and is then partly answered by the contact. Nothing faked; the need is met by the
+   thing that meets it.
+3. **A gentler floor** — high enough that a long gap never reaches aching at all.
+
+## Two things that turned out to cost nothing
+
+1. **No daemon.** Nothing of ours runs while an Avatar is unheld, so between-visit decay is
+   **elapsed time resolved at pickup** — one subtraction from two timestamps. **069 needs no
+   background process and no server holding a creature's inner state in memory.**
+2. **The record already exists.** W-001's custody is server-authoritative with an epoch and lease, so
+   the machine already knows when an Avatar was held, by whom, and when released. That also means
+   **solitude accrues only while genuinely unheld** — an Avatar that spent the gap with somebody
+   else is not lonely for it, and the ledger already knows the difference. Written as guarantee 91.
+
+**Nothing in the privacy covenant is touched** — the ache is the Avatar's own state, not host
+material. It travels because it is its own.
+
+## Recorded beyond the proposal, in its own commit
+
+**069 is a ruling, not just a number**, so §116 now carries it at the mechanism level: *the clock
+always runs; a visit is three days.* **It rules out any design where an Avatar is instantiated fresh
+for a visit, or stored and restored unchanged** — a creature that felt nothing in the months nobody
+held it would only exist when observed, and 069 says it does not. Guarantees **90** (the gap is felt,
+and the difference must trace to elapsed time rather than a "returning after a while" branch) and
+**91** were added with it.
+
+## Unchanged
+
+**Proposals 2 (temperature) and 3 (band) stand as drafted**, per your instruction, pending your
+remaining answers. Still open and still yours: **the resting values**, **whether competence should
+have a clock at all**, and **the floor.**
