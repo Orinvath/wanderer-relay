@@ -1231,3 +1231,19 @@ a proposal for Lonnie; nothing self-approves.
 PLAN ONLY: write the goal-former section into TRAIT_PLAN.md with
 citations, then begin the numbers proposals. Report for approval.
 No implementation.
+
+## Directive 069 — Timebase and the always-running clock
+
+Lonnie's rulings on the first two open questions:
+
+1. TIMEBASE: a typical visit is THREE DAYS. Redraft all decay-rate
+   numbers (Proposal 1) on that clock — visits are days, not minutes.
+2. THE CLOCK ALWAYS RUNS. Decay continues between visits: an Avatar
+   alone between hosts genuinely experiences that alone-ness building.
+   It may arrive at the next host already aching for company — that is
+   real, and it is character. Time never stops for an Avatar.
+
+Redraft Proposal 1 on the three-day visit and the always-running clock;
+keep proposals 2 (temperature) and 3 (band) as drafted pending Lonnie's
+remaining answers. Report the redrafted numbers for approval. No
+implementation.
