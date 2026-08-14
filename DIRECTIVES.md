@@ -1189,3 +1189,8 @@ Decision 49 closed.
 
 PLAN ONLY: record in TRAIT_PLAN.md's curiosity section. Report.
 Nothing else.
+
+## Directive 067 — Correct the stale line
+
+Approved: update CAPABILITY_PLAN.md §45 to record decision 49 as ruled
+(uncertainty is the trigger, per 066). Nothing else.
