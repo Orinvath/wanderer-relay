@@ -1340,3 +1340,21 @@ Report. No implementation.
 Redraft the map under impact-gating (every need's DROP is aspect-
 computed per event type, per the same mechanism reasoning, citations
 carried). Report for approval. No implementation.
+
+## Directive 073 — The clamp: provisional at ×0.25–×4, tuned by testing
+
+Lonnie's ruling: there is no way to know where to draw the line until
+the behaviors are tested — how extreme an Avatar acts at each level is
+unknown until observed. So:
+
+1. The clamp is ADOPTED at the proposed ×0.25 … ×4 range,
+   PROVISIONALLY.
+2. Mark it in the plan, prominently: PROVISIONAL — EXPECTED TO BE
+   ADJUSTED AFTER BEHAVIORAL TESTING. The range is a starting fence,
+   not a ruling on where extremity should live. Behavioral testing
+   will reveal what each level actually looks like; the range moves
+   on evidence then, by Lonnie's call.
+
+Report confirmation. The tier values (question 2) and the -10 /
+temperature-anchor questions remain open for Lonnie. No
+implementation.
