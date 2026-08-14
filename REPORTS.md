@@ -11719,3 +11719,99 @@ and the difference must trace to elapsed time rather than a "returning after a w
 **Proposals 2 (temperature) and 3 (band) stand as drafted**, per your instruction, pending your
 remaining answers. Still open and still yours: **the resting values**, **whether competence should
 have a clock at all**, and **the floor.**
+
+---
+
+# DIRECTIVE 070 — DONE, PLAN ONLY. Every number now carries its provenance. One sourced value proved one of mine wrong and deleted a mechanism I had invented.
+
+`TRAIT_PLAN.md` §120 (rewritten with provenance), §116 and §121 (the rulings recorded).
+No implementation. Commits: `9240ea7` marker, `3aa6d5c` the redraft, `50acd41` the rulings —
+**separate commits so you can revert either alone.**
+
+## Every value now carries a tag
+
+```text
+   [SOURCED]   a source states this number  ─ cited, and the scaling to our clock shown
+   [DERIVED]   arithmetic from a sourced number, nothing added
+   [OURS]      NO SOURCE GIVES THIS. Our tuning choice, said plainly rather than dressed up.
+```
+
+§120.1 lists **everything numeric in the four sources, useful or not** — the gaps matter as much as
+the values.
+
+## THE FIND — and it removed something rather than adding it
+
+**The closest documented analogue to relatedness is the Sims Social motive: about 38 hours from full
+to empty.** That is **−2.6 per hour** on a 0–100 scale.
+
+**I had drafted −10 per hour. Nearly four times too fast** — and I had then invented a plateau to
+stop that number wrecking every night of a three-day visit.
+
+```text
+   AN 8-HOUR NIGHT   at −2.6/hr (sourced)  = −21.  100 → 79.  Wakes mildly wanting company.
+                     at −10/hr  (mine)     = −80.  100 → 20.  Wakes in crisis.
+                                                    ↑ the plateau existed only to stop this
+```
+
+**The plateau is gone.** It was compensating for a number I made up — which is the tell that the
+number was wrong rather than the curve incomplete. **One sourced value deleted a mechanism.**
+
+**Provenance flagged honestly:** the 38 hours is community-extracted game tuning, **not published by
+EA/Maxis**. Real, documented, unofficial — recorded that way rather than dressed up as a published
+figure.
+
+## Proposal 3 corrected outright
+
+**Graham gives the band: *"things that scored within, say, 10% of it."* I had proposed 20% with no
+reason but my own.** It is now **10%, `[SOURCED]`**, and the plan says plainly that my 20% was
+invention and 070 is why it is gone. Graham and Zubek both also give the top-N alternative (top five,
+top three); the band is still the better fit for us, but its width is now theirs.
+
+## The three gaps, named rather than filled quietly
+
+1. **No source publishes need decay RATES.** Zubek treats decay as a per-need tuning knob and
+   personality dial and gives no values.
+2. **No published Sims 3 temperature value**, and Evans's own text was already unreachable.
+   **Proposal 2 is `[OURS]` end to end** — the mechanism is sourced, every number in it is mine.
+3. **SDT quantifies nothing of this kind.** It says which needs exist and what satisfying them does.
+   **No rate, no scale, no time constant anywhere.** That was always going to be true and now it is
+   written down.
+
+## What I did find in the affect literature, and it is load-bearing
+
+**Verduyn & Lavrijsen (2015), *Motivation and Emotion*** — 233 participants, 27 emotions:
+**sadness ≈120 hours**, hatred ≈60, joy ≈35, **disgust and shame ≈30 minutes.**
+
+1. **Sadness outlasts a visit.** 120 hours against our 72. **A genuinely sad Avatar is still sad when
+   the visit ends.** Measured human emotion, not a flourish — and it means **mood must not be built
+   to return to baseline within a session.**
+2. **It is the sharpest evidence yet for the 053 split.** Things that resolve in half an hour and
+   things that run for days **are not the same kind of thing** — Part Twelve's reaction/mood division
+   arriving from measurement rather than from architecture.
+
+It does **not** give a decay rate for a need and I have not pretended it does. It bounds how fast
+mood may return, and it is cited in that queued proposal.
+
+## The one thing no source can ever cover
+
+**069 created a condition the literature does not have: an Avatar with nobody at all.** Every
+needs-based agent ever published lives in a populated world. **The unheld rate is `[OURS]` and cannot
+be otherwise.**
+
+The sourced in-visit rate cannot just be extended into it — at −2.6/hour an unheld Avatar empties in
+38 hours, so **a two-day gap and a two-year gap would be identical.** Proposed instead: an
+exponential approach to the floor with a **half-life of about three days — one visit-length**, so the
+ache halves over the span of a single visit.
+
+```text
+   1 day unheld ≈ 78    3 days ≈ 52    1 week ≈ 25 (aching, as you ruled)    1 month ≈ 10 (the floor)
+```
+
+## FOR YOU
+
+- **The floor of 10 is still the number I most want looked at**, unchanged from 069.
+- **Proposal 2's three temperature values are honest guesses with reasons and nothing more.** They
+  are the numbers most likely to move the moment anything runs.
+- **Your two approvals are recorded at the mechanism level**, not just inside a proposal: the drift
+  split in §116, and in §121 that **closure of 41 and 42 waits on these numbers** — the proposals are
+  now the last thing standing between those two decisions and the end of them.
