@@ -1194,3 +1194,40 @@ Nothing else.
 
 Approved: update CAPABILITY_PLAN.md §45 to record decision 49 as ruled
 (uncertainty is the trigger, per 066). Nothing else.
+
+## Directive 068 — The goal-former: Sims utility architecture adopted
+
+Lonnie approved the researched foundation: the goal-former is UTILITY
+AI as proven in The Sims lineage (documented sources: GameAIPro
+utility-theory chapters; Zubek's needs-based AI; the Sims 4 lead AI
+programmer's published description; Sims 3 Boltzmann selection by
+Richard Evans). Cite each in the plan.
+
+THE MECHANISM, mapped to our ruled systems:
+1. SCORING: when appraisal (052) raises feelings/needs, candidate goals
+   and the actions that could serve them are gathered from the Avatar's
+   inherent capabilities (064) and current situation, and each is
+   SCORED: how much it would satisfy the active need/feeling, weighted
+   by current mood sliders (satiation dampens, deficit boosts — the
+   Sims motive-multiplication).
+2. PERSONALITY WEIGHTS: the ten aspects weight scores per their 058
+   CB5T mechanisms (approach, threat, exploration, persistence,
+   cooperation) — the Sims trait-weighting slot, filled by our canon.
+3. SELECTION: weighted-random among top scorers — believable, not
+   robotic. MOOD SETS TEMPERATURE (Sims 3): content → near-optimal
+   picks; distressed → more erratic picks. Decisiveness itself is a
+   living sign.
+4. DECAY: needs drift on their own over time (loneliness grows in
+   silence) — rates are numbers to propose.
+5. URGENCY BUCKETS: a desperate need excludes trivial goals entirely.
+6. Where Sims mechanics and our rulings conflict, RULINGS WIN (no
+   compulsion, goals-on-sleeve, reactions-not-goals all untouched).
+
+AUTHORING ORDER: with this architecture fixed, draft the numbers
+proposals against it — decay rates, temperature curve, offset sizes,
+outlook multiplier/speed, Roe generation distribution. Each arrives as
+a proposal for Lonnie; nothing self-approves.
+
+PLAN ONLY: write the goal-former section into TRAIT_PLAN.md with
+citations, then begin the numbers proposals. Report for approval.
+No implementation.
