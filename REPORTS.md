@@ -12226,3 +12226,73 @@ absence, so **the day somebody adds a fake need value, it objects.**
 2. **Resolution 0.25** — mine, and a display property. If the readout changes, this moves.
 3. **Do you want the needs ledger built next?** It is the only thing standing between this panel and
    the behavioural testing 073 defers to. **Not started — it is Avatar machinery and unapproved.**
+
+---
+
+# DIRECTIVE 075 — DONE, PLAN ONLY. Spec 29 rewritten to your ruling. The portal is the reference and it is missing exactly one thing: the toggle the ruling is actually about.
+
+`spec/WANDERER_SPEC.md` §29 · `spec/AMENDMENT-29-listening.md` · `CAPABILITY_PLAN.md` Part Eleven.
+No implementation. Chamber read-only throughout — nothing under it was opened for writing.
+Commits: `af29c34` the spec, `260b99e` the plan.
+
+## What the ruling actually corrected
+
+**A mode had been chosen for the host twice.** §29 originally decided push-to-talk. The amendment
+argued for always-listening instead, and argued it well. **Both were the same mistake in opposite
+directions**, and the spec now says so in those words: the choice is not ours to make.
+
+**It is the same shape as 056 pointed the other way** — the host can ask, the Avatar decides; and the
+way a host reaches it is the host's. **Neither side gets to settle the other's.**
+
+## The reference exists and is better than I expected
+
+Read-only from the portal: `stt.js` (two engines), `ChatPanel.jsx` (the name filter and the
+controls), `conversationLog.js` (both sides, each line timed).
+
+**The name filter is already written the way the ruling needs it** — matches anywhere in the
+sentence, `None` answers everything, an empty name behaves as `None`. And it carries one exception
+worth porting deliberately rather than rediscovering: **while the Avatar is waiting on an answer to
+its own question, the next thing spoken IS the answer, name or no name.** Nobody answers a question
+by repeating who they are answering.
+
+**Typing is already unfiltered there**, for the reason you gave — it keeps the way in open to anyone
+who cannot speak. **Noted in the plan that this is not a mic feature and must not be ported as one.**
+
+## THE ONE GAP — and it is the control the ruling is about
+
+**The portal does not have a mode toggle.** It picks for the host **by device**: computer listens
+continuously, phone presses to talk, decided once at load from `navigator.userAgentData.mobile`.
+
+```text
+   THE PORTAL TODAY   the platform decides, and the host cannot change it
+   075 REQUIRES       the host decides, and may change it at any time
+```
+
+So this is **a port plus one thing that does not exist yet.** **Flagged, not designed** — where the
+toggle lives, what it is called and what it defaults to are interface decisions and they are yours.
+
+**The device split is not thereby wrong** — it is a sensible default, and the portal's own notes say
+the reason for it has weakened (the small offline ear mishears you; the browser ear can already be
+asked for by hand). **A default the host can override is what 075 describes; a decision the host
+cannot see is not.**
+
+## The privacy half, and why I made it explicit
+
+**The requirements hold in every mode.** Written as its own clause because if they followed the mode,
+**a host could switch privacy off by switching a mode** — and a mode would have become a consent
+control by accident.
+
+## One consequence worth your attention
+
+The portal's conversation log lives in browser storage, and its own note says *"when the app version
+exists this becomes a real file in a user folder."* **The installed client is a standing fact, so
+that is now.** The log is host material under §26 and Class A — **where that file goes is not a
+detail**, and it is a port-time decision. Flagged.
+
+## Records
+
+The amendment file is **kept and marked RULED — but not as proposed**, with what it got right and
+what it got wrong listed at the top, so nobody reads its "why this is better than push-to-talk"
+section as live. **Six guarantees added (96–101).** 100 is the one a working implementation can fail
+quietly: the filter can be applied at the point of *reply* while the transcript has already been
+written down — **the test is the absence of a trace, not the absence of an answer.**
