@@ -1247,3 +1247,26 @@ Redraft Proposal 1 on the three-day visit and the always-running clock;
 keep proposals 2 (temperature) and 3 (band) as drafted pending Lonnie's
 remaining answers. Report the redrafted numbers for approval. No
 implementation.
+
+## Directive 070 — Rulings on the three, and numbers must come from sources
+
+Lonnie's rulings:
+
+1. THE DRIFT SPLIT IS APPROVED as proposed: relatedness decays on the
+   clock, competence does not drift, autonomy moves on events only.
+2. ONE KNOB: the candidate band stays fixed; only mood moves the
+   temperature. Approved as recommended.
+3. NUMBERS FROM RESEARCH, NOT INVENTION: before any numbers proposal
+   is finalized, extract what the documented sources actually used —
+   The Sims' published/documented values (need scales, decay rates,
+   temperature behavior in the Sims 3 Boltzmann selection, top-N/band
+   sizes from the GameAIPro chapters and Zubek), and anything the SDT
+   or affect literature quantifies. Where a source gives a number,
+   start from it and scale to our three-day timebase, citing it. Where
+   no source gives a number, say so plainly per the science rule and
+   mark the value as our tuning choice. Redraft the proposals in that
+   form.
+
+Decisions 41/42 closure stays open until the numbers are approved.
+
+Report the source-grounded redraft. No implementation.
