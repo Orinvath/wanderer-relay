@@ -12086,3 +12086,43 @@ assumed; the clamp range is yours.**
    the ratio between them.
 3. **Still open from before: what happens at −10**, and the temperature anchors, which remain the
    emptiest numbers in the plan.
+
+---
+
+# DIRECTIVE 073 — DONE, PLAN ONLY. The clamp is in, marked provisional, with one line added so nothing quietly comes to depend on it.
+
+`TRAIT_PLAN.md` Proposal 1. No implementation.
+Commits: `bf01135` marker, `4eadbc4` the clamp.
+
+## What it says now
+
+The clamp sits in a call-out box rather than a sentence, because a provisional number buried in prose
+becomes a permanent number:
+
+```text
+   THE CLAMP — ×0.25 … ×4 of the anchor
+   ⚠ PROVISIONAL — EXPECTED TO BE ADJUSTED AFTER BEHAVIOURAL TESTING
+
+      NOW      ×0.25 … ×4     a fence, so nothing runs away before anything can be watched
+      LATER    testing shows what each level actually looks like
+      THEN     the range moves on evidence — Lonnie's call, not the fence's
+```
+
+Your reasoning is carried in it verbatim: **there is no way to know where the line belongs until the
+behaviours are tested**, and the range is **a starting fence, not a ruling on where extremity should
+live.**
+
+## One line I added, and why
+
+> **Nothing in this design may come to depend on the current range.** A behaviour that only works
+> because the clamp sits at ×4 is a behaviour built on a number we have already said will move.
+
+**A provisional number stops being provisional the moment something is built on top of it** — the
+range would then be load-bearing and moving it would break things, which is how "we'll tune it later"
+turns into "we can't." Written into the plan so the next reader hits it before they lean on it.
+
+## Still open, and recorded as still open
+
+- **The three tier values** (×1.5 / ×1.15 / ×1.03) — the whole map's character rides on the ratio.
+- **What happens at −10.**
+- **The temperature anchors** (0.15 / 1.2) — still the emptiest numbers in the plan.
