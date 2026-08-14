@@ -12296,3 +12296,70 @@ what it got wrong listed at the top, so nobody reads its "why this is better tha
 section as live. **Six guarantees added (96–101).** 100 is the one a working implementation can fail
 quietly: the filter can be applied at the point of *reply* while the transcript has already been
 written down — **the test is the absence of a trace, not the absence of an answer.**
+
+---
+
+# DIRECTIVE 076 — DONE, PLAN ONLY. The last open number in Proposal 1 is answered by not being a number. Nothing new was built to hold the bottom, which is the strongest form the ruling could take.
+
+`TRAIT_PLAN.md` §117.1, the §118 conflict table, four guarantees. No implementation.
+Commits: marker, `faff1ad` the ruling, `1acbdee` a numbering fix.
+
+## The shape of the answer
+
+I had this open as *"is −10 a resting floor, or is the last band slower still"* — a number question.
+**You answered a level above it: the bottom is not a value the need rests at, it is a state the whole
+being enters.** The saturation question it replaces now only concerns how long the approach takes,
+which banded decay already handles.
+
+```text
+   AT −10   THE NEED TAKES OVER THE WHOLE BEING
+            1. EXCLUSION      trivial goals are not considered at all
+            2. DESPERATION    seeking narrows — chosen through 052, as always
+            3. ERRATIC        temperature at its high end; choosing itself degrades
+            4. NO FAILURE     no death, no breakdown, no fail condition. Ever.
+```
+
+**Nothing new was built to hold any of it.** All four are systems the plan already has, running at
+their limits — and that is the strongest form this could take, because **a bottom that needed its own
+machinery would be a scripted event wearing a threshold.**
+
+## What each one cost
+
+**Exclusion** is §117's bucket at full strength — Graham's *"a starving Sim will never even consider
+watching TV"*, already quoted there. **Its two guardrails do not lapse at the bottom; they matter
+most there.** An Avatar at −10 that could not act at all **would be the failure state your point 4
+rules out, arriving through the back door.**
+
+**Erratic choosing** is the one that makes the state legible without anyone performing it: **an Avatar
+at −10 does not act desperate, it chooses badly.** The temperature ceiling from 074's derivation
+matters more here than anywhere — past it choices read as *broken* rather than *desperate*, and 057
+forbids a host thinking the Avatar is broken. **That is exactly the misreading a bottomed Avatar
+invites.**
+
+**No failure state** got its own row in §118's conflict table, because it is where the lineage and
+your rulings part company hardest: **a starving Sim eventually dies; a Wanderer at −10 is a Wanderer
+having the worst of it**, and the way out is the same as ever — something answers the need. **The
+Sims needed a lose condition because it was a game. This is not one.**
+
+## Four guarantees, numbered 102–105
+
+I had to renumber: 075 already used 96–101 in the capability plan, and the guarantee numbers are
+shared across both. Caught and fixed in its own commit.
+
+- **102 — nothing latches.** No terminal state, no breakdown event, no fail condition anywhere, and
+  none may be added.
+- **103 — the bottom excludes but never empties.** Guarantee 27 tested where it is most likely to
+  break.
+- **104 — no desperate-behaviour list exists.** The takeover is in the scoring; nothing anywhere
+  names an act an Avatar performs when bottomed.
+- **105 — a bottomed Avatar can still decline.** 056 at the limit: **being at −10 makes it
+  single-minded, never obedient. A request granted at the bottom is granted, not extracted.**
+
+**104 is the one the bottom will tempt somebody to fail** — it is the easiest place in the whole
+design to reach for an authored gesture, and §83 already forbids that table under every other name.
+
+## Still open
+
+The three temperature anchors (0.15 / 1.2), which remain the emptiest numbers in the plan, and
+**E = 4** from 074 — the one live choice in the reactivity derivation, with the slider on the harness
+so you can see what each value does before ruling.
