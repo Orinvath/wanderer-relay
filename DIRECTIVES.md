@@ -1386,3 +1386,26 @@ Lonnie's two rulings:
 Part 1 PLAN (derivation for approval). Part 2 MAY BE IMPLEMENTED —
 the harness is test tooling, not Avatar machinery; suite stays green.
 Report both.
+
+## Directive 075 — Amendment 29 ruled: the portal's microphone system, entire
+
+Lonnie's ruling: the microphone works and is controlled EXACTLY as in
+the Elsewhere portal. Not one fixed mode — the host chooses:
+
+- TOGGLE between push-to-talk and open/always listening;
+- TYPING always available as an alternative to speaking;
+- the conversation LOG, as the portal has it;
+- the LISTENING NAME (the word it answers to), host-changeable, with
+  the respond-to-everything option;
+- the microphone's own on/off switch, independent of mode;
+- visible listening state throughout.
+
+Port the portal's mic/chat control system as the reference (chamber
+read-only, copies only — the terminal knows where it lives). The
+client is an installed app — standing fact; the amendment's privacy
+requirements hold regardless of mode: listening is not recording, no
+audio written to disk, no ambient archive, raw audio discarded, no
+raw audio to later hosts, only addressed speech becomes kept words.
+
+Update spec section 29 to this ruling. Record in the plans. Report.
+No implementation.
