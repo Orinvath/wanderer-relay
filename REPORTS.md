@@ -11538,3 +11538,26 @@ size, what an utterance is, the multiplier's magnitude/shape/range, how fast out
 
 **Commits:** `63f39d1` marker, `a1194b3` the ruling. Plan only, no implementation, nothing in the
 portal touched.
+
+---
+
+# DIRECTIVE 067 — DONE. §45 corrected. The plans now agree on every ruled decision.
+
+**`CAPABILITY_PLAN.md` §45 records 49 as ruled**, with the substance rather than just the status, so
+a reader landing there does not have to go looking: *what counts as an information gap* is answered
+by **the trigger being uncertainty itself** — anything an Avatar can notice it does not know or
+cannot predict, **with no enumeration of gap types** — and it points at `TRAIT_PLAN.md` §101.1 for
+the full ruling.
+
+**"Still open" now carries only the authoring list** — 42, 35 and 36, 38 and 39, the §71 offset size,
+what an utterance is, the multiplier's magnitude/shape/range, how fast outlook moves, 33, 34, 29 and
+the mood gain, 14, 15, 17, 18, 19, 28. **No numbered decision is listed as open in either plan any
+more.**
+
+**Nothing else touched.** The two `TRAIT_PLAN.md` lines I flagged under 065 were already corrected by
+066 — §103 records 48 and 49 as ruled, and §109's *"part of decision 48, unchanged"* is the only
+remaining mention of a closed decision as though it were live. **That one is still there and I have
+not touched it**, since 067 named §45 and nothing else. Say the word if you want it.
+
+**Commits:** `13de2a3` marker, `617bbaa` the correction. Plan only, no implementation, nothing in the
+portal touched.
