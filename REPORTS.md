@@ -11485,3 +11485,56 @@ list carried forward from `TRAIT_PLAN.md`.
 
 **Commits:** `5945563` marker, `7dac815` the exclusion. Plan only, no implementation, nothing in the
 portal touched.
+
+---
+
+# DIRECTIVE 066 — DONE, PLAN ONLY. 49 closed. The ruling is written so that the absence of a list is the enforceable part.
+
+**§101.1 of `TRAIT_PLAN.md` records it**, inside the curiosity section: the truest trigger of
+curiosity is **uncertainty — the unknown**. Anything an Avatar can notice it does not know or cannot
+predict is a live trigger.
+
+**Your four examples are recorded as examples, and labelled as such**, because that is exactly where
+this gets built wrong:
+
+```text
+   an unseen place · an unknown word · an unexplained mood · an untried sound
+   · and EVERY unknown beyond any list we could write
+```
+
+**The sentence I wrote to hold the line:** *the moment anyone writes the list, the list becomes the
+limit.* No gap-type registry, no taxonomy of the unknown, no switch on the kind of thing not known.
+
+**Recorded as the sources' own position, not an extension of it**, per the science rule — §97 already
+carried both: Berlyne names **uncertainty** in the collative variables alongside novelty, complexity
+and surprise; Loewenstein defines the gap by **the shape of not-knowing**, never by its subject.
+**066 rules that we take them at their word instead of narrowing them into a list of our own.**
+
+**What decides now that the trigger doesn't**, as a three-line division of labour: **any uncertainty
+is a trigger** (066, no list) · **the ten aspects decide which ones itch** (Intellect/Openness gain,
+058) · **mood and goals decide when** (the 052 chain). The reason I stated for why no enumeration is
+needed: **a list would be doing the aspects' job.** The selection already lives in the personality,
+so an Avatar high in Intellect chases different unknowns from one high in Openness, and neither needs
+the design to have anticipated the unknown in advance.
+
+**Three new guarantees, 77–79.** No gap-type list exists anywhere by inspection; **an unanticipated
+unknown still triggers** — present an uncertainty of a kind nobody designing this ever thought of and
+curiosity still arises; and the aspects do the selecting, traceable to Intellect/Openness and to
+nothing in the trigger. **78 is the one to watch** — it is the only test a quietly-enumerated
+implementation cannot pass.
+
+**Two small corrections inside the same section**, both required by the ruling: §101's open item
+*"whether a gap is a gap"* is struck as ruled, and §98's diagram now reads **APPRAISED for
+UNCERTAINTY** rather than *for information gaps*, since a diagram saying "gaps" is where an
+enumeration would quietly reappear. §103 records 48 and 49 as ruled.
+
+**Nothing outside TRAIT_PLAN.md touched, per "Nothing else."** `CAPABILITY_PLAN.md` §45 still lists
+49 as open; **say the word and I will correct it.**
+
+**Decisions after 066.** 44, 45, 46, 47, 48, 49, 50, 51 all closed. **What remains is the authoring
+list, not rulings:** 42 (the goal former and action chooser), 35 and 36, 38 and 39, the §71 offset
+size, what an utterance is, the multiplier's magnitude/shape/range, how fast outlook moves, 33, 34,
+29 and the mood gain, 14, 15, 17, 18, 19, 28.
+
+**Commits:** `63f39d1` marker, `a1194b3` the ruling. Plan only, no implementation, nothing in the
+portal touched.
