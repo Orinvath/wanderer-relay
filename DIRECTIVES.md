@@ -1296,3 +1296,21 @@ source table for the Proposal 1 redraft:
 
 Cite each line. Redraft Proposal 1 from this table on the three-day
 clock. Report for approval.
+
+## Directive 071 — Supersedes the 070 addendum: no set numbers, aspects compute everything
+
+Lonnie's law: NOTHING is a set number for any Avatar. Every rate —
+decay, recovery, gain, temperature — is COMPUTED FROM THAT AVATAR'S
+TEN ASPECTS. The formula is universal; the numbers are each being's
+own.
+
+The researched values (Sims Social 38h baseline, banded decay,
+personality-modulated rates — sources per the addendum) survive only
+as the formula's internal anchor and pattern: aspects in → this
+Avatar's rates out. No per-Avatar constants, no defaults an Avatar
+"has" — a midpoint Avatar essentially never exists in practice.
+
+Redraft Proposal 1 as FORMULAS: which aspects feed each rate, in which
+direction, anchored where — the aspect-to-rate map is the proposal,
+for Lonnie's approval. Flag every choice the research doesn't dictate.
+Report. No implementation.
