@@ -1137,3 +1137,21 @@ songbook, never repeating. A host may ask; the Avatar decides (056).
 
 PLAN ONLY: rewrite CAPABILITY_PLAN.md's song section to this. Report
 for approval. No implementation.
+
+## Directive 064 — Decision 46 closed: it inherently knows what it can do
+
+Lonnie's ruling: an Avatar inherently knows its own capabilities — a
+body knows it has hands. No discovery mechanic, no teaching step, no
+capability tutorial. From Genesis, the Avatar's full capability set
+(its stage, its light, its sound-maker, its song, its voice, its
+trigger-answerable actions) is part of its self-knowledge, available
+to the 052 goal system from the first moment.
+
+Born-ignorance is untouched: it knows WHAT IT CAN DO, not what our
+world is. It knows it can make sound; it does not know what "rain"
+means to us until shown.
+
+Decision 46 is fully closed (places by visiting — 059; capabilities
+inherent — this ruling).
+
+PLAN ONLY: record in CAPABILITY_PLAN.md. Report. No implementation.
