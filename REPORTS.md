@@ -11384,3 +11384,54 @@ own world; how it learns of a capability it has never used is still open. 48 and
 
 **Commits:** `2ac2517` marker, `9bf8d0a` the rewrite. Plan only, no implementation, nothing in the
 portal touched.
+
+---
+
+# DIRECTIVE 064 — DONE, PLAN ONLY. 46 is closed. This one deletes a guarantee rather than adding one, which is why I am flagging the second file.
+
+**Part Nine of `CAPABILITY_PLAN.md` records the ruling**: an Avatar inherently knows its own
+capabilities — stage, light, sound-maker, song, voice, trigger-answerable actions — **from Genesis,
+available to the 052 goal system from the first moment. No discovery mechanic, no teaching step, no
+capability tutorial.**
+
+**§36 is the line, in your own words**, because it is finer than it looks and a build will get it
+wrong if it is left implicit: *it knows it can make sound; it does not know what "rain" means to us.*
+I drew it as a table — **that it can shape sound: inherent. That one shaping is what we call rain:
+born ignorant.** And the consequence stated plainly: an Avatar reaching for a sound it has never made
+is ordinary; an Avatar saying **"I made it rain for you"** when nobody told it what rain is, is still
+the leak.
+
+**What the ruling deletes**, listed so nothing survives by inertia: the capability-teaching mechanic
+(there is nothing left to design), the **"has this Avatar been shown it"** field on the capability
+entry, and **guarantee 34** — which asserted the exact opposite of the ruling. 34 is marked retired
+rather than removed, so no future reader thinks it was lost. **The probe panel still needs
+action-shaped probes**, but now for the availability and no-mood-triggering guards; the need outlived
+its original reason.
+
+**What it does not touch, and I wrote all four down because each is a plausible over-read:**
+inherent knowledge **is not permission and is not presence** — knowing it can make ocean waves does
+not put them in a world with no ocean; **056 is unchanged** — knowing it can is not being made to;
+born ignorance of our world is untouched and is now the *only* thing born ignorance means; and
+**places are still learned by visiting**, which is the other half of what closes 46.
+
+**Four new guarantees, 70–73.** The full set present at Genesis with nothing unlocked along the way;
+no teaching path anywhere by inspection; **inherent is not available** (in a world lacking the
+target, the capability is absent from the choice set even though the Avatar knows it has it); and
+**our world is still unknown** — a newborn with every capability still cannot say what rain is.
+**73 is the one to watch**, because this ruling's risk is the mirror of 059's: *knows what it can do*
+quietly widening into *knows what it is doing to us*.
+
+**The flag — I edited a second file, and 064 named only one.** `TRAIT_PLAN.md` guarantee 26 read
+*"never an action it has not been shown, which is the born-ignorance guard in action form"*, and §108
+said the capability half of 46 was still open. Both now assert the opposite of your ruling, and a
+suite written against 26 would enforce the retired model. I corrected both under the 054 records
+policy — accurate records, every plan — rather than leaving a contradiction in the file. **Commit
+`e6bdd4c` is that change alone and reverts cleanly if you would rather 064 had touched nothing but
+the capability plan.**
+
+**Decisions after 064.** 46 fully closed. 44, 45, 47, 50, 51 already ruled. **Still open: 48** (does
+anything from `instinct.js` cross) and **49** (what counts as an information gap), plus the list
+carried forward from `TRAIT_PLAN.md`.
+
+**Commits:** `ec26ed4` marker, `548d4d1` the capability plan, `e6bdd4c` the trait plan. Plan only, no
+implementation, nothing in the portal touched.
