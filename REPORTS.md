@@ -12363,3 +12363,69 @@ design to reach for an authored gesture, and §83 already forbids that table und
 The three temperature anchors (0.15 / 1.2), which remain the emptiest numbers in the plan, and
 **E = 4** from 074 — the one live choice in the reactivity derivation, with the slider on the harness
 so you can see what each value does before ruling.
+
+---
+
+# DIRECTIVE 077 — THE HARNESS, HANDED OVER. One command, nothing else needs to be running. And one thing it will not let you do, said plainly up front.
+
+## 1. How to launch it
+
+**Nothing else has to be started first.** No service, no Ollama, no Anvil — **the harness is standalone
+and reads nothing but the ten aspects.** From a terminal:
+
+```
+cd /home/nobara-user/CC-Wanderer
+npm run harness
+```
+
+It prints its own address with a fresh key each run, like this:
+
+```
+slider harness (this machine only): http://127.0.0.1:4599/?key=jU1-bWKzlERz7CzK...
+add &seed=whatever for a different Avatar, &signature=wide for an extreme one
+```
+
+**Open that whole line's URL, key and all.** The key changes every launch, so copy it from the
+console each time — without it the page answers 404. **Ctrl-C in that terminal stops it.**
+
+- **A different Avatar:** add `&seed=anything` to the address — any word works, same word gives the
+  same being every time.
+- **An extreme Avatar:** add `&signature=wide` (or `&signature=two-extremes`).
+- **If 4599 is busy:** `HARNESS_PORT=4611 npm run harness`.
+
+**Verified on this machine just now** — it launched, printed the URL, and served the page with the
+real genome in it.
+
+## 2. What you will see — and the one thing you cannot do
+
+**Left side: the ten aspects as live sliders**, at a real Avatar's real values (drawn by the same
+genome builder the creature uses). **Right side: every number the trait plan derives from them**,
+recomputing the instant you drag anything — reactivity, how long relatedness takes to empty, autonomy
+recovery, the impact multipliers, the candidate band, the temperature floor and ceiling. Drag
+Withdrawal up and watch how much harder the world lands on this being.
+
+**You cannot poke a need or fire a test event, and I want to be straight about that rather than have
+you hunt for a button that isn't there.** There is no needs ledger in the codebase yet — Part Six is
+plan-only and every number in it is still an unapproved proposal — so there is nothing real to nudge.
+Three sliders sitting at invented positions would be a test double, and worthless for judging by eye.
+**What the panel gives you instead is the rates and the costs**: not "relatedness is at −4 right now",
+but "for this Avatar, relatedness empties in 47 hours and a rebuff costs it 0.8×". The needs
+themselves drop in beside these numbers when that ledger exists.
+
+## 3. The knobs that are live in this build
+
+| Knob | Where it is | What it does |
+|---|---|---|
+| **The ten aspects** | ten sliders, left column, each with its value at the right | everything on the page recomputes from these |
+| **Event spread E** | **the eleventh slider, below the ten** (1–10) | **the one live choice in the derivation.** Watch the legal reactivity range tighten as you raise it — at 10 every Avatar reacts nearly identically |
+| **Seed** | `&seed=` in the address | a different Avatar entirely |
+| **Signature** | `&signature=wide` in the address | how extreme the draw is allowed to be |
+
+**Not live in this build, and worth knowing before you look for them:** the **temperature anchors
+(0.15 / 1.2)**, the **band multipliers**, the **tier levers** and the **rate clamp** are constants in
+`server/src/harness.js` — they show on screen as computed values but there is no on-screen control
+for them. **Say the word and I will put any of them on a slider.**
+
+**One thing on the readout to watch:** if an Avatar's reactivity would exceed the legal range, the
+line reads **"clamped"** in orange. That is 073's fence catching it, and seeing it appear is exactly
+the behavioural evidence the provisional range is waiting on.
