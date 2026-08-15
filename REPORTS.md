@@ -13467,3 +13467,65 @@ real patch file with its reasoning, and all six build logs are kept.
 The sleepingrobots write-up's actual patch — the diff, not the description of it. I worked from a
 summary of what the three patches *were about*, which was enough to get patch 1 right by reading
 the header and not enough for patch 2. **That is the thing to go and find.**
+
+---
+
+# DIRECTIVE 089 — THE WALL IS DOWN. gsplat builds AND renders on the Radeon 7900 XT. Verified by rendering a frame, not by a successful compile.
+
+```
+RENDERED (1, 256, 256, 3) on cuda:0
+finite: True   range: 0.0 .. 0.7774
+```
+
+That is real Gaussian splat rasterization — 200 splats, a real camera, a real 256×256 image — **on
+your AMD card**, all values finite and in a sensible range. **A build that compiles is not
+evidence; a frame that comes out is.** Build time 2m54s at `MAX_JOBS=3`.
+
+## Your patch diff was right where I was wrong
+
+`GLM_FORCE_PURE` was indeed the load-bearing flag — **skip GLM's CUDA codepaths, not take them.**
+I had it exactly backwards with `-DGLM_FORCE_CUDA`. And "on BOTH cxx and hipcc" mattered too.
+
+## Two things the write-up did not cover, found here
+
+**1. Ubuntu's GLM is not good enough.** `libglm-dev` on 22.04 is **0.9.9**, and with 0.9.9 the
+build fails on `mat3*vec3`, `outerProduct` and a const `operator[]` **even with all the correct
+defines applied and verified at the compiler**. That is what I was stuck against for two rounds.
+
+The clue was in your diff — "system GLM headers to **/usr/local/include**". apt puts them in
+`/usr/include`. `/usr/local/include` means *source-installed*, i.e. a newer one. **GLM 1.0.1
+cleared every one of those errors at a stroke.**
+
+**2. The wave32 pass has to change the tile TYPE, not just the partition.** My first sed caught
+`cg::tiled_partition<64>` and missed `cg::thread_block_tile<64>` on the very same line — so the
+tile was *declared* 64 wide while being *made* 32 wide. That gives:
+
+> `static assertion failed: Tile size is either not a power of 2 or greater than the wavefront size`
+
+Easy to miss because the obvious token next to it is already fixed. **22 files touched.**
+
+## The four fixes, recorded
+
+All in `~/worldgen/patches/README.md`, with the reasoning and the symptom each one cures:
+
+1. **GLM 1.0.1 to `/usr/local/include`, bundled GLM deleted** — in the `Containerfile`.
+2. **`-D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=0 -DGLM_FORCE_PURE`** on both compilers.
+3. **wave32**, including the declared tile type — `patches/03-wave32.sh`, re-runnable.
+4. **gfx942 → gfx1100** — setup.py detects arch with `rocminfo`, absent in the container, and
+   falls back to CDNA.
+
+Plus two runtime imports (`rich`, `jaxtyping`) baked into the image.
+
+**Everything is reproducible.** The environment is a `Containerfile`, the patches are a script and
+a recorded diff, and all nine build logs are kept.
+
+## Where 088 now stands
+
+- **Environment: DONE**, PyTorch 2.6 / HIP 6.4, card seen as gfx1100.
+- **gsplat: DONE — builds and renders.** The named risk from 086 is cleared.
+- **Model suite: not started.** Next, and the first thing that spends bandwidth again.
+- **`generate.sh`: still unwired** — its four stage commands still point at entry points that do
+  not exist. Untouched and honest about it.
+- **One real painting end to end: not yet.**
+
+The Wanderer suite is untouched. Nothing here has been claimed as working that I have not run.
