@@ -1622,3 +1622,34 @@ install NOTHING yet):
 
 This is a survey only. No installs, no downloads, no environment
 changes.
+
+## Directive 086 — 085 was incomplete: the AMD path exists. Assess it.
+
+The director failed to research before relaying 085's dead-end conclusion.
+Lonnie pushed; the research now shows AMD paths exist:
+
+1. Matrix3D on ROCm — AMD's OWN published pipeline (rocm.blogs.amd.com,
+   "Efficient and Portable 3D Explorable World Generation on AMD GPUs"):
+   image → FLUX panorama → MoGe depth → 3D mesh → explorable 3DGS world,
+   using the ROCm gsplat fork (github.com/ROCm/gsplat). Their run was on
+   MI250 datacenter cards.
+2. HY-World 2.0 ported to consumer AMD via ROCm Docker (sleepingrobots.com
+   writeup): flash-attention CK build, patched ROCm gsplat (GLM headers,
+   CUDA defines, wave32 constants). Proof the CUDA wall is climbable on
+   RDNA hardware.
+3. OpenSplat: trains splats on AMD natively (slower, CPU-capable).
+
+SURVEY ONLY, still nothing installed:
+1. Identify our exact GPU architecture (RDNA generation, gfx target) and
+   whether ROCm's supported-hardware list and the ROCm gsplat fork cover
+   it.
+2. Assess Matrix-3D's pipeline components (FLUX — already runs here per
+   085's note on the validated Flux recipe — MoGe, Wan video, PanoLRM,
+   gsplat) against this card and 20GB VRAM: which stages run, which are
+   CUDA-bound, what the wave32-style patches would mean here.
+3. Disk/RAM budget for the ~30GB+ model suite.
+4. Verdict: feasible on this machine (with how much environment work),
+   feasible-but-painful, or genuinely not — with the specific blocker
+   named if not. Cite what you verify.
+
+Report for Lonnie's decision.
