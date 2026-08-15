@@ -13529,3 +13529,49 @@ a recorded diff, and all nine build logs are kept.
 - **One real painting end to end: not yet.**
 
 The Wanderer suite is untouched. Nothing here has been claimed as working that I have not run.
+
+---
+
+# DIRECTIVE 090 — Most of the model suite was already on this machine. ~24 GB of bandwidth not spent. Stopped at one thing I will not choose for you: which painting.
+
+## The good news first: almost nothing needs downloading
+
+Before pulling anything I looked at what is already here, and the answer is **most of it**:
+
+| | Where | |
+|---|---|---|
+| **FLUX.1-dev**, full diffusers layout (transformer, both text encoders) | `~/models/FLUX.1-dev` | **~24 GB, already local** |
+| **`equirectangular_flux_lora_v3.safetensors`** — the panorama LoRA from your validated recipe | `~/ComfyUI/models/loras/` | already local |
+| **`hjart_style_v1.safetensors`** — your own style LoRA | `~/ComfyUI/models/loras/` | already local |
+| ComfyUI with the GGUF, tiled-diffusion and seamless-tiling nodes | `~/ComfyUI` | already local |
+
+**The whole panorama stage is already on this disk.** Given I burned 8 GB of your cap by accident
+two directives ago, checking first was the least I could do, and it paid for itself several times
+over.
+
+**Still to fetch: MoGe (depth), 1–2 GB.** That is the only real download left, and it is small
+enough that I will not stop to ask about it — it is nothing like the 24 GB question.
+
+## What I will not do
+
+**Pick your painting.**
+
+I searched the disk and what I found is AI-generated images, ComfyUI outputs and downloads —
+Midjourney files, test renders, `journey_test.png`, things in `~/Downloads`. **Nothing I can
+honestly identify as one of your paintings**, and choosing which image represents your work is
+exactly the kind of visual call that is yours and never mine.
+
+**So: put a painting in `~/worldgen/in/` and tell me, or just name the file and I will fetch it.**
+The moment there is one, the end-to-end run happens.
+
+## Where 088/090 stands
+
+- **Environment: done**, verified on the card.
+- **gsplat: done** — builds and renders on the 7900 XT.
+- **Panorama models: already local**, nothing to pull.
+- **MoGe: to fetch**, small.
+- **`generate.sh` wiring: next**, and now genuinely doable — the panorama stage can point at your
+  real FLUX and your real LoRAs rather than at something hypothetical.
+- **One painting end to end: waiting on you**, and only on you.
+
+The Wanderer suite is untouched and still green. Nothing claimed as working that I have not run.
