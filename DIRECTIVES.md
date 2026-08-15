@@ -1687,3 +1687,12 @@ off at the end. SEQUENTIAL STAGE BATCHING, never concurrent:
 Report environment result honestly (the gsplat step is the named
 risk — if it walls, stop and report, don't thrash), then pipeline
 usage: the exact command Lonnie runs with a painting.
+
+## Directive 088 — Go: pull the image, build the environment
+
+Lonnie approved the 23.7 GB container pull. Run Part 1 in full: image,
+gsplat from the ROCm fork with the three published patches carried to
+gfx1100, then the model suite. The gsplat wall rule stands — if it
+walls, stop and report, no thrashing. Then wire the four stage commands
+in generate.sh to the real environment and run one real painting end
+to end as the proof. Report honestly, including timings per stage.
