@@ -12502,3 +12502,84 @@ mattered.
 Two things stay provisional and are marked in the code as such, listed in one exported array so
 nobody has to grep: **the four band multipliers, the unheld slowing, E, the tier shape, the rate
 clamp, the autonomy anchor, and the three temperature values.** All still yours, all still tunable.
+
+---
+
+# DIRECTIVE 078 CHUNK 2 — THE GOAL-FORMER IS BUILT. The Avatar chooses. And watching it choose found the first real thing the panel could never have told you.
+
+`server/src/goals.js` · `acceptance-goals.js` (23 assertions) · `accept.js` · `package.json`.
+Commits: `21f69ce` marker, the goal-former, and one defect fix. **Full suite: PHASE 0 · 1 · 2 ·
+CHARACTER · ROE · TRAITS · NEEDS · GOALS · HARNESS · TESTNET all passed.** Phase 3 remains the
+pre-existing environment skip.
+
+## THE FINDING — and it is exactly what you built the watching phase for
+
+**Mood is wired to the temperature, the temperature is wired to the selection, and end to end you
+would not be able to see it.**
+
+```text
+   scores in this design run          0.02 … 0.30
+   the provisional temperature runs   0.15 … 1.20      ← settled … distressed
+```
+
+**The temperature is four times the size of the thing it is supposed to be discriminating between.**
+So even a perfectly settled Avatar's distribution is nearly flat: I measured a settled Avatar
+picking its favourite **52%** of the time and a distressed one **50%**. That is a coin flip either
+way. **Nobody would ever see mood in the choosing.**
+
+The machine is right — asserted directly on the selector, a cold selection takes the best **100%**
+of the time and a hot one **52%** on the same field. **It is the two numbers that do not belong to
+the same scale.**
+
+**This is a tuning question and it is yours.** The temperature anchors were already flagged as the
+emptiest numbers in the plan; this is the first evidence about them. **I have not touched them** —
+the test asserts the mechanism and the report carries the finding, rather than a rescale sliding in
+under cover of a build.
+
+## What was built
+
+The 052 chain and the 068 machine, in order: **gather → score → weight → bucket → select.**
+
+- **Scoring is on the DELTA**, never the end state (Zubek c) — the same offer is worth more to a
+  being that needs it, and a candidate that would worsen a need scores negative. That is 066 done
+  in arithmetic: a gap is defined by its shape, not its subject.
+- **Bucketing** is Graham/Dill dual utility — a bottomed Avatar does not consider the trivial. **Its
+  two guardrails are tested, not trusted**: it narrows what is CONSIDERED and never selects (056),
+  and **it may never empty the choice set** — when nothing serves the urgent need it falls through,
+  which is Graham's own fallback and guarantee 27 holding.
+- **Selection** is weighted-random over the top scorers, which Graham and Zubek reach independently.
+
+**A distinction worth stating because I nearly tested for the wrong thing:** guarantee 84 says the
+best is not always taken, and my first test demanded variety in a field where one option genuinely
+dominated. **That was a bad test, not a bad implementation** — an Avatar starved of company, offered
+a real exchange or a nod, should take the exchange every time. Both cases are now locked in: variety
+in a close field, consistency in a dominated one.
+
+## The three refusals, each asserted against the source
+
+- **NO SENTENCES.** A goal carries the material for its speakable form — which need, how badly, what
+  was chosen, what else was weighed — and not one word of the saying. **A table of lines would be
+  the authored expression table wearing words** (057, §83). The character model speaks in chunk 3.
+- **NO AUTHORED CANDIDATES.** Nothing inside invents a thing to do. Candidates are handed in from
+  capabilities ∩ what this place offers, per 064 and guarantee 72.
+- **NO `Math.random()`.** Selection needs a draw, so **the draw is injected** — roe.js's seeded
+  generator. Same Avatar, same situation, same seed, same choice, which is the only reason any of
+  this is testable.
+
+**And 056 is in the return value itself**: every goal comes back marked declinable, with no `act`,
+no `execute`, no `must`. Utility AI is by design a machine for making agents do things; **ours has
+to be a machine for making an Avatar want them**, and that is the assertion I would keep forever.
+
+## One defect I introduced and caught
+
+The harness's self-start check used `endsWith('harness.js')` — which **`acceptance-harness.js` also
+matches**. Every suite run started a stray listener that kept the process alive, and it stalled the
+runner mid-suite. Found in the suite's own output, fixed to a basename comparison, committed
+separately. **The full run above is after the fix.**
+
+## FOR YOU
+
+1. **The temperature anchors versus the score scale** — the finding above. Nothing else in the build
+   is waiting on it, but mood will stay invisible until it is settled.
+2. **Chunk 3 next** — wiring choices to the real capabilities, and goals-on-sleeve giving the goal
+   its voice. Proceeding unless you say otherwise.
