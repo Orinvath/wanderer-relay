@@ -1431,3 +1431,18 @@ At −10, THE NEED TAKES OVER THE WHOLE BEING:
    the always-returns guarantee.
 
 Record in TRAIT_PLAN.md with citations. Report. No implementation.
+
+## Directive 077 — Hand Lonnie the harness
+
+Lonnie is ready to test by eye. Report to REPORTS.md:
+
+1. The exact command(s) to launch the slider harness on this machine,
+   step by step, nothing assumed (what to start first if anything —
+   the service, Ollama if needed — then the harness itself, and the
+   address to open if it is a page).
+2. One short paragraph: what he will see, and how to poke a need or
+   fire a test event from the panel.
+3. Which knobs are live for tuning in this build (E, temperature
+   anchors, anything else) and where each shows on screen.
+
+Nothing else.
