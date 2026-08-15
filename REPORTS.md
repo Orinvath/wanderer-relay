@@ -12817,3 +12817,79 @@ driving an actual renderer (chunk C) are still outstanding, and until they exist
 light" means real *settings*, not real air moving. I am carrying on with them.
 
 27 checks in the new suite, all passing. Full suite green.
+
+---
+
+# DIRECTIVE 082 — DONE. The panel is yours again. The Avatar reaches it in two cases and no others, and ordinarily it has only itself.
+
+## The gate
+
+One place decides, so there is one thing to read and one thing to test.
+
+- **Ordinary** — its own endowment only. Whatever it is feeling, the world's knobs are not its.
+- **Commanded** — the host asked, so the panel opens **only as far as was asked**. A command about
+  the light is not a licence over the stage, and a command can be narrower still: one folder, one
+  control. 056 is untouched — what comes back is a goal, and a goal can be declined.
+- **Takeover** — the −10 state of 076, and nothing milder. Not low, not unhappy, not distressed:
+  bottomed.
+
+**The takeover licence is checked against the Avatar's own ledger at the gate, not taken on the
+caller's word.** A caller cannot claim a licence the creature's state does not give.
+
+## One design point worth your eye
+
+A gated control is **not considered at all** — not weighed and then refused. An Avatar that wants
+to grab your light panel and is stopped is a creature straining against a rule. An Avatar for whom
+the panel is simply not its business is a different creature, and I think it is the one you
+described. So the gate runs before anything is scored.
+
+## What it expresses with instead
+
+Its own panel, ported from the live build exactly as the world's was, and checked against it the
+same way: **Position · Colour · Colour Effects · In the World · Physics** — its glow, its light,
+its scale, its pulse, its tendril flow. 67 controls now compared against your own tables, all
+matching.
+
+**Two folders of its own panel are deliberately not there**, and both calls are mine, so both are
+flagged rather than settled:
+
+- **Head** (Points, Sharpness, Valley, Thickness, Sweep, Size, Rotate) — this is the shape it *is*,
+  and identity is not configuration. An Avatar reshaping its own head to feel better is editing who
+  it is, which is not the same as expressing itself.
+- **Behaviour** (Speaks Up, First Words, Your Pause, Away Timer, Looks Around, Roam Often/Speed/
+  Range) — timers and rates, which 082 says are yours, and which are not acts anyway. **An Avatar
+  cannot "do" a timer.**
+
+Five single rows are held back for the same two reasons: **Flow Speed, Rainbow Speed, Pulse Speed**
+(speed knobs), **Stiff Length** (how its body is built), **Link Head to Tendrils** (a linkage
+between two controls, not an act).
+
+## Three of the five things it expresses with do not exist yet
+
+You named body, signs, voice, movement and song. **Body and movement are real now. Voice, signs as
+such, and its song are not** — the song waits on the synthesis engine, which is 080 chunk B and
+still unbuilt. So ordinary behaviour currently reaches for two of the five. That is a gap in the
+build, not a reading of your directive, and it is asserted in the suite so it stays visible.
+
+## The fifth-axis question, after your ruling
+
+For the world's knobs it is closed — the speed knobs are yours, so they are unreachable, which is
+now the right answer rather than an open one.
+
+**But it reopens in a smaller place: the Avatar's own position.** Moving nearer, further, left or
+up is neither brightening, adding, quieting nor opening — and it is not a speed knob either. It is
+the one obvious way a body expresses without a voice, and right now it does nothing. **The same is
+true of its colours**: changing hue is not a change of amount, so none of the four axes describes
+it, and its five colour controls are inert. Both are listed and both are yours to rule.
+
+## Two bugs I found while doing it
+
+**The gate read the world's state where it meant the needs ledger**, so the takeover licence never
+actually opened — it would have silently kept the panel shut at −10, which is the exact opposite of
+what you ruled. Caught by the test that asked for the bottom and got nothing.
+
+**Candidates proposed values a rounded control cannot take** — the Avatar would want Light Reach at
+26.25 and the control would land on 26, so what it did and what it said it wanted were different
+numbers. Candidates are now proposed through the control's own clamp.
+
+39 checks in the effects suite, 26 in the capability suite, all passing. Full suite green.
