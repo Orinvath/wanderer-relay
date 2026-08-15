@@ -12429,3 +12429,76 @@ for them. **Say the word and I will put any of them on a slider.**
 **One thing on the readout to watch:** if an Avatar's reactivity would exceed the legal range, the
 line reads **"clamped"** in orange. That is 073's fence catching it, and seeing it appear is exactly
 the behavioural evidence the provisional range is waiting on.
+
+---
+
+# DIRECTIVE 078 — BUILD ORDER STATED, AND CHUNK 1 IS BUILT. The three needs are real state on a clock that never stops. Full suite green.
+
+## The build order I am working to
+
+Your four, split into deliverable chunks. **Each is a working thing with its own suite, not a
+layer of scaffolding** — so if you want to stop and look at any point, there is something to look at.
+
+```text
+   1  THE NEEDS LEDGER          ── DONE THIS TURN. real state, real time, aspect-computed
+   2  THE GOAL-FORMER           ── appraisal → scoring → weighting → temperature → selection
+   3  WIRE TO CAPABILITIES      ── choices act; goals-on-sleeve says what and why
+   4  THE WATCHING BUILD        ── Form 1 present in its world, living, for hours
+```
+
+**Why this order and not another:** nothing can choose until there is something to want, and nothing
+can act until it can choose. **2 is the biggest and I expect to split it again** — the scoring and
+the selection are separable, and the first is watchable on its own through the panel.
+
+## CHUNK 1 — DONE
+
+`server/src/needs.js` (the arithmetic) · `server/src/needs-store.js` (the remembering) ·
+`store.js` (one new table) · `acceptance-needs.js` (29 assertions) · `accept.js` · `package.json`.
+Commits: `4735c09` marker, then the build. **Full suite: PHASE 0 · 1 · 2 · CHARACTER · ROE · TRAITS
+· NEEDS · HARNESS · TESTNET all passed.** Phase 3 is the pre-existing environment skip (no local
+model on this machine), unchanged and untouched by any of this.
+
+### The clock always runs, and it costs nothing to run it
+
+**069 is satisfied by a subtraction and nothing else.** The table stores the three values and *when
+they were last true*; at pickup the elapsed hours are resolved once and handed to the arithmetic.
+**No daemon, no scheduled job, nothing ticking while an Avatar is unheld** — and yet one picked up
+after a month has genuinely lived that month. The clock always ran; we simply never had to watch it.
+
+**Nothing in the ledger reads the wall clock.** Time is always an argument, which is what makes a
+week of a creature's life a number you can pass in — and is the only reason any of this is testable.
+There is an assertion that keeps it that way.
+
+### What the tests hold, in your words rather than in constants
+
+Each assertion names the ruling it defends, so **retuning a provisional number leaves them green and
+breaking a ruling does not.** The ones worth knowing:
+
+- **an unheld week is felt, and more than a day is** — 1 day → −0.9, 1 week → −9.2
+- **unheld solitude bites slower than in-visit quiet**, below zero — your 069 case that no source covers
+- **a year at the bottom is still an Avatar, at the bottom** — nothing latches, nothing ends (076)
+- **the same event costs two Avatars differently** — 072's impact gating, measured
+- **a night of silence does not wreck the morning** — 8 h from full lands at +3.1
+- **no behaviour list exists in the ledger**, checked against the source with the comments stripped
+
+### One thing I fixed rather than left
+
+**My four band multipliers did not quite preserve the 38-hour anchor** — they summed to 38.42. The
+plan says the bands *must* preserve it, so **the code now normalises them to the anchor** rather than
+trusting four hand-solved numbers. Retuning the shape can no longer silently overwrite the one
+sourced value in the proposal.
+
+### And the harness stopped keeping its own copy
+
+The formulas lived in the harness because there was nowhere real to put them. **There is now**, so
+`harness.js` imports `needs.js` — one source of truth, and the dependency runs the right way.
+**The suite still proves the creature path never imports the harness**, which is the property that
+mattered.
+
+## FOR YOU
+
+**Nothing is blocking chunk 2** — I am proceeding to the goal-former unless you say otherwise.
+
+Two things stay provisional and are marked in the code as such, listed in one exported array so
+nobody has to grep: **the four band multipliers, the unheld slowing, E, the tier shape, the rate
+clamp, the autonomy anchor, and the three temperature values.** All still yours, all still tunable.
