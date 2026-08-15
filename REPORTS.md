@@ -13336,3 +13336,89 @@ Worlds land in `~/worldgen/out/<timestamp>/<painting-name>/`, the log is
 three published patches carried to gfx1100, then the model suite. The gsplat step is still the
 named risk from 086 — **if it walls I stop and report it rather than thrashing at it**, as you
 asked.
+
+---
+
+# DIRECTIVE 088 — IN PROGRESS, reported honestly mid-flight. The environment is up and verified on the card. gsplat is walking through the three published patches in order, and I have hit two of them so far. I also wasted 8 GB of your bandwidth and want that on the record first.
+
+## The mistake, first
+
+**I started the 23.7 GB pull twice.** A first attempt whose log redirect I thought had failed, and
+a second one — both downloaded concurrently. I noticed when a staging directory count came back as
+two, killed the duplicate, and removed its partial file.
+
+**Cost: about 8.2 GB of your monthly allowance, wasted for nothing.** I stopped the whole job in
+087 specifically to ask about this bandwidth, and then lost a chunk of it to carelessness. There is
+no excuse and the reclaimed 8.2 GB does not come back to your cap.
+
+## The environment is up, and it is verified rather than assumed
+
+```
+torch      2.6.0+gitdbfe118
+hip        6.4.43484-123eb5128
+available  True
+device     Radeon RX 7900 XT
+arch       gfx1100
+```
+
+That is PyTorch **inside the container, talking to your actual card**, naming it and reporting
+gfx1100. Not a claim from a docs page.
+
+- Image: 62.1 GB on disk, 455 GB still free.
+- **podman, not Docker** — Docker is not installed here. Same commands, benign difference.
+- `/dev/kfd` and `/dev/dri` are world-readable, so it needs no group changes and no root.
+- **`HSA_OVERRIDE_GFX_VERSION` is deliberately NOT set.** gfx1100 is genuinely supported;
+  pretending to be another card would only hide real errors later.
+
+## gsplat: three failures so far, each one real and each one further than the last
+
+**I built it unpatched on purpose**, so that what got patched would be what actually broke rather
+than what I assumed would break. That was worth doing — **the first two failures were not the
+published patches at all:**
+
+1. **`ModuleNotFoundError: torch`** — pip's build isolation hides torch from the compiler.
+   `--no-build-isolation`.
+2. **Same error again**, from a *nested* pip invocation that does not inherit the flag. Fixed by
+   bypassing pip and calling `setup.py build_ext` directly.
+3. **`fatal error: glm/gtc/type_ptr.hpp: No such file or directory`** — **the first real published
+   patch.** gsplat vendors glm under `cuda/csrc/third_party`, but the hipify step that rewrites
+   `cuda/` into `hip/` does not carry the vendored tree across, so every glm include dies. Fixed by
+   installing system glm in a derived image, which is exactly the documented "system GLM headers to
+   bypass hipify path corruption".
+4. **GLM compiled, but wrong** — `mat3 * vec3` invalid, `outerProduct` missing, `operator[]`
+   returning const. **The second published patch**, and I read the cause out of the header rather
+   than guessing it:
+
+   `glm/simd/platform.h` lines 120–133: hipcc defines `__CUDACC__` for compatibility, so GLM takes
+   its **CUDA** branch, then looks for `CUDA_VERSION` — which under HIP is never defined, and there
+   is no `cuda.h` to include. GLM therefore never sets a CUDA compiler value and silently drops to
+   a degraded mode with those operators missing.
+
+   **Fix: `-DGLM_FORCE_CUDA -DCUDA_VERSION=8000`.** The first skips the `cuda.h` include; the
+   second selects `GLM_COMPILER_CUDA80`, the newest branch this glm 0.9 knows. **Recorded as a
+   patch file** (`patches/02-glm-cuda-defines.patch`) with the reasoning in the comment, so it is
+   reproducible and correctable rather than a mystery edit.
+
+**That build is running now.** The third published patch — **wave32 constants** — I have located
+but not yet needed: `Utils.cuh` defaults `LOGICAL_WARP_SIZE = 64` and
+`RasterizeToPixels3DGSBwd.cu` has an explicit "wave64-optimized path". Those are CDNA's wavefront
+width; this card is 32. **I expect that to be the next failure and I have not pre-emptively patched
+it**, for the same reason as before: patch what actually breaks.
+
+## Timings so far
+
+| | |
+|---|---|
+| Download | ~6 min at ~73 MB/s (fast link — this was never the bottleneck) |
+| Unpacking 51 layers | ~25 min, CPU-bound on the 6-core |
+| Each gsplat build attempt | 2–4 min to reach its error, `MAX_JOBS=3` per your RAM constraint |
+
+## Status against the wall rule
+
+**It has not walled.** Every failure so far has been diagnosed, distinct, and further along than
+the one before — that is progress, not thrashing. **If the wave32 work turns into guesswork rather
+than a read-the-header fix, I stop there and report**, as you said.
+
+Still outstanding: finish gsplat, the model suite, wiring the four stage commands in
+`generate.sh` to real entry points, and one real painting end to end. **Nothing has been claimed as
+working that I have not run.** The Wanderer suite is untouched.
