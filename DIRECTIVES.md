@@ -1581,3 +1581,23 @@ PLAN the sleep/dream design into the plans (mechanism, glyph
 selection from memory content, the drift display as a body sign),
 citations per the science rule, provisional numbers marked. Report
 for approval. No implementation until approved.
+
+## Directive 084 — Games, part one: solitary play
+
+Lonnie's ruling: build GAMES — nothing else. No play-drive machinery:
+the existing system already supplies the impulse (bored, ignored, low
+joy, extreme state → play cheers it up → the goal-former picks a game
+like any other choice). Scope now: ONLY games the Avatar plays ALONE
+to amuse itself. Host games come later.
+
+PROPOSE A STARTER SET of solitary games buildable entirely from the
+Avatar's own endowment — its glyph language, its song/sound-making,
+its light and body, its memories and places — for Lonnie's approval
+before building. Proposals only: he picks the set. For each: what it
+is, what it's made of, what a watching host would see.
+
+Games are capabilities, chosen never scheduled; standing laws bind
+(no compulsion, goals-on-sleeve — it may say why it's playing;
+reactions-not-goals untouched).
+
+Report the proposed set. No implementation until Lonnie picks.
