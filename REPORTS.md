@@ -12646,3 +12646,85 @@ watching, and that is chunk 4.**
 the stage, light, sound and song the choices are supposed to act on do not exist on our side yet,
 so either they get ported over properly or I build only the deciding-and-recording half and the
 acting half waits. **That one is yours.**
+
+---
+
+# DIRECTIVE 080 chunk A — DONE. The world's real controls are in CC-Wanderer, and the suite checks them against your panel rather than against my word for it.
+
+## The build order for 080
+
+Four chunks, in this order, because each one needs the one before it:
+
+- **A. The capability set** — what there is to change: every control of the three bundles you
+  named, with its real key, kind, label, range and starting value. **Delivered this turn.**
+- **B. Sound FX** — the synthesis engine itself (Tone.js), the full sound-maker, which 063 also
+  made the song's instrument.
+- **C. The light bundle and the stage moves** — the controls of A driving real light and real
+  stage state.
+- **D. 078 chunk 3** — the goal-former's choices ACT on all of it, with goals-on-sleeve speech
+  carrying the why. The mic/chat control per 075 comes in here, where it is actually needed.
+
+## What chunk A is
+
+`server/src/capabilities.js` — 78 controls in the three bundles:
+
+- **Stage:** Worlds · Painted Sky · Planes · Props · Music Score, in the panel's own order.
+  Planes and Props are lists, so their controls exist once per item standing in the world, and
+  the stage is measured the way a set is measured — feet, not screen space.
+- **Sound FX:** Space, Wind, Rain, Thunder, Water, Ocean Waves, Birds, Insects, Fire.
+- **The light bundle:** Lights + God Rays + Light in the Air + Wisps, one bundle, as you grouped
+  them. Lights is a list too, seeded with the one white key light linked to the sun.
+
+Plus `WorldState` — the world as it stands. Set a control and it hands back **what moved, from
+what, to what**. That is the record of a visit's edits, and it is the material 057 needs for an
+Avatar to be able to say what it did. Nothing publishes from it; 062 still holds.
+
+## Nothing in it is invented, and the suite proves that rather than asserting it
+
+`acceptance-capabilities.js` **opens the live build** — `chamber/Somewhere/src/world/Gui.jsx` and
+`config.js`, read-only, nothing written — parses your own tables out of them, and compares control
+by control. 41 controls read straight out of the panel: every one is here, with the same range,
+the same kind and the same label. 56 starting values checked against `config.js`: every one is the
+value the live build starts at.
+
+That includes the ones that look wrong and are not. God Rays' Decay really does run 0.9 to 0.99.
+Dust Size really is "bigger means bigger" against a shader parameter that runs the other way. I
+left every one of them exactly as you have it — the panel is your design and the test compares
+this port to it, not to my judgement.
+
+**If the chamber is not on the machine, those checks say SKIPPED in the output rather than passing
+quietly.** A green tick for a check that never ran is the thing this project keeps refusing.
+
+26 checks, all passing. Full suite green: PHASE 0 · 1 · 2 · CHARACTER · ROE · TRAITS · NEEDS ·
+GOALS · CAPABILITIES · HARNESS · TESTNET. PHASE 3 is the same environment skip as always (no local
+model on this machine).
+
+## The scope line, stated rather than left as a gap
+
+Eight folder switches in your panel did not come across: Sky, Fog, Height Fog, Physical Sky,
+Clouds, Sky Shadows, Ocean, Screen Glow. They belong to the World and Objects panels, which 080
+did not name. That is a line somebody drew, not a control I lost, and the suite names all eight so
+it stays visible.
+
+## ONE THING IS YOURS, AND IT BLOCKS CHUNK D
+
+**No capability in this file says which need it serves, and I will not be the one to write that.**
+
+The goal-former scores a candidate by how much it would close a gap in relatedness, competence or
+autonomy. So for it to act on these controls, something has to say what raising a light, stilling
+the wind, hanging a different painting, or starting the song is **worth** to an Avatar. That is not
+arithmetic and it is not a port — it is a statement about what these things mean, which is a
+product decision and therefore yours alone.
+
+The suite asserts the absence, so that mapping cannot quietly appear in the catalogue without you
+having ruled it.
+
+Chunks B and C do not need the ruling — an engine that makes sound and a light that changes are
+real work either way, and I am carrying on with them. Chunk D is where it bites.
+
+**The question, when you want to answer it:** does an Avatar's wanting attach to *individual
+controls* (this slider serves competence), to *groups* (the whole of Sound FX is one kind of
+reaching-out), or to *what a change does* rather than what it touches — brightening versus
+darkening, adding versus taking away, regardless of which control did it? Those are three different
+worlds and I have not built any of them.
+
