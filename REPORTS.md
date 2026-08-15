@@ -12583,3 +12583,66 @@ separately. **The full run above is after the fix.**
    is waiting on it, but mood will stay invisible until it is settled.
 2. **Chunk 3 next** — wiring choices to the real capabilities, and goals-on-sleeve giving the goal
    its voice. Proceeding unless you say otherwise.
+
+---
+
+# DIRECTIVE 079 — DONE. The anchors are rescaled and DERIVED rather than picked, and mood is now something you can watch: 89% against 52%.
+
+`server/src/needs.js` (the anchors) · `acceptance-goals.js` (the assertion chunk 2 could not make).
+Commits: marker, then `2c9bb27`. **Full suite green** — PHASE 0 · 1 · 2 · CHARACTER · ROE · TRAITS
+· NEEDS · GOALS · HARNESS · TESTNET, with the usual Phase 3 environment skip.
+
+## Before and after
+
+```text
+                        BEFORE          AFTER
+   settled floor        0.15            0.009
+   distressed ceiling   1.20            0.172
+   ratio                1 : 8           1 : 17        ← the derivation asked for the wider ratio
+
+   THE SAME AVATAR, THE SAME CLOSE FIELD, 800 RUNS EACH:
+   settled    picks its favourite       52%     →     89%
+   distressed picks its favourite       50%     →     52%
+```
+
+**Before, those two numbers were a coin flip either way** — the machinery was correct and nobody
+watching would ever have seen it. **Now a settled Avatar is decisive and a distressed one scatters**,
+which is what 068 meant by decisiveness being a living sign.
+
+## They are derived, not chosen
+
+I did not pick numbers that looked right. **The widest gap that can exist inside the candidate
+window is the window's own width** — Graham's 10% band, so 0.10 × the best score, about **0.028** in
+a real close field. Both anchors fall out of that:
+
+```text
+   SETTLED     the best should win decisively    exp(−w/t) ≈ 0.05   →  t = w/3      ≈ 0.009
+   DISTRESSED  the field should nearly flatten   exp(−w/t) ≈ 0.85   →  t = w/0.1625 ≈ 0.172
+```
+
+**The whole derivation is written into the file**, next to the numbers, with the before/after
+measurement — so the next person to look does not have to wonder where 0.009 came from.
+
+## The mechanism test, and the one it replaced
+
+**Chunk 2 could only assert the mechanism** — that `select` applies temperature at all — because end
+to end there was nothing to see. Both are now asserted:
+
+- **the mechanism:** on the selector directly, a cold selection takes the best **100%** of the time
+  and a hot one **52%** on the identical field.
+- **end to end, which is new:** *"a settled Avatar is decisive, a distressed one scatters"* — and the
+  assertion carries the old numbers in its own output, `settled 89% vs distressed 52% — was 52% vs
+  50%`, so the regression would be legible rather than silent.
+- **and the menu did not change.** Same candidates both times, weighed differently. Guarantee 82 is
+  about the spread, never about what is on offer.
+
+## Still provisional, exactly as you said
+
+**Both values remain marked `[OURS -- provisional]` and are in the exported list.** Nothing about
+this rescale makes them settled — it makes them *the right size to judge*. **The real test is
+watching, and that is chunk 4.**
+
+**Chunk 3 continues** — and it is still waiting on the one question I put to you in the terminal:
+the stage, light, sound and song the choices are supposed to act on do not exist on our side yet,
+so either they get ported over properly or I build only the deciding-and-recording half and the
+acting half waits. **That one is yours.**
