@@ -1479,3 +1479,11 @@ Commit before changes. Full suite green throughout — new tests for
 each system. This is large: split across directives at your
 discretion, state the build order first, report each chunk. Deliver
 same turn per chunk.
+
+## Directive 079 — Rescale the temperature anchors to the real score scale
+
+Lonnie approved: rescale the temperature anchors to the goal-former's
+actual score scale so mood's effect on choosing is real and visible,
+not invisible. The rescaled values stay PROVISIONAL like every number —
+marked, tunable, judged later against watched behavior. Show the
+before/after and the mechanism test in the report. Chunk 3 continues.
