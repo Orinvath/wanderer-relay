@@ -1552,3 +1552,32 @@ goal candidates draw from the Avatar's own expressive endowment. The
 fifth-axis question dissolves for ordinary behavior (speed knobs are
 Lonnie's tools); within a host command, the Avatar does what was asked.
 Suite reworked to assert the gate. Report.
+
+## Directive 083 — Sleep and dreams: the Avatar dreams in its own language
+
+Lonnie's ruling: the Avatar SLEEPS and DREAMS.
+
+1. SLEEP: a real state on the always-running clock — rest is part of
+   its life (and the researched home of the idle question: a being
+   alone settles toward rest). Sleep pressure and timing are
+   aspect-computed like every rate (071), numbers provisional.
+2. DREAMING IS THE REFLECTION STEP, per the documented science (memory
+   consolidation: sleep is when the day's experience replays, sorts,
+   and binds — cite the consolidation literature). Lesson distillation
+   (048's flow) runs during sleep: the Avatar literally dreams its
+   lessons into being.
+3. DREAMS ARE SPOKEN IN THE 400-WORD GLYPH LANGUAGE — the ten-domain
+   vocabulary already built (glyphs/, domains 01–10). Dream content is
+   drawn from the day's memories and forming lessons, rendered as
+   glyphs.
+4. THE DREAM IS VISIBLE: glyphs DRIFT ABOVE the sleeping Avatar,
+   fading in and out — watchable by a host, part of its living
+   presence. (What travels/publishes follows the standing laws
+   unchanged; the dream display itself is presence, not publication.)
+5. Waking wonder may use the same script — the language is its inner
+   voice made visible. Design the wonder case as proposal.
+
+PLAN the sleep/dream design into the plans (mechanism, glyph
+selection from memory content, the drift display as a body sign),
+citations per the science rule, provisional numbers marked. Report
+for approval. No implementation until approved.
