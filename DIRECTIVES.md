@@ -1696,3 +1696,31 @@ gfx1100, then the model suite. The gsplat wall rule stands — if it
 walls, stop and report, no thrashing. Then wire the four stage commands
 in generate.sh to the real environment and run one real painting end
 to end as the proof. Report honestly, including timings per stage.
+
+## Directive 089 — The actual patch diff, from the source write-up
+
+The director fetched the full sleepingrobots write-up. The real patches,
+verbatim from the working port:
+
+PATCH 2 (your wall): HIP defines __CUDACC__ but NOT __CUDACC_VER_MAJOR__;
+GLM's platform.h sees version 0 and errors/degrades. The correct flags —
+on BOTH cxx and hipcc — are:
+  -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=0 -DGLM_FORCE_PURE
+Your -DCUDA_VERSION=8000 -DGLM_FORCE_CUDA were the wrong defines;
+GLM_FORCE_PURE (skip CUDA codepaths entirely) is the load-bearing one.
+
+PATCH 1 (you already got right): delete bundled GLM, system GLM headers
+to /usr/local/include, added to setup.py include path.
+
+PATCH 3 (wave32): sed-replace all warp-size 64 constants with 32 across
+Utils.cuh and every .cu file (rocprim::warp_reduce<float,64>,
+cg::tiled_partition<64>, threadIdx.x % 64, loop bounds).
+
+ALSO: the ROCm fork's setup.py detects arch via rocminfo, which fails in
+Docker (no GPU at build) and falls back to gfx942 — sed gfx942 -> gfx1100
+globally. Their working build order: patches, then gsplat compiles in
+~60 seconds.
+
+Retry the gsplat build with the correct patch 2 and the arch sed. Then
+continue 088: model suite, wire generate.sh, one real painting end to
+end. Wall rule still stands if a NEW wall appears.
