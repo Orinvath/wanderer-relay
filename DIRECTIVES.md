@@ -1724,3 +1724,12 @@ globally. Their working build order: patches, then gsplat compiles in
 Retry the gsplat build with the correct patch 2 and the arch sed. Then
 continue 088: model suite, wire generate.sh, one real painting end to
 end. Wall rule still stands if a NEW wall appears.
+
+## Directive 090 — Go: model suite, wire the pipeline, first painting
+
+Lonnie approved. Finish 088:
+1. Pull the model suite (weights may live on the second drive per 086).
+2. Wire generate.sh's four stage commands to the real entry points.
+3. Run ONE real painting end to end. Report timings per stage, where
+   the world landed, and how Lonnie views it.
+Wall rule stands for any new wall. Wanderer suite untouched.
