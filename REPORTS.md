@@ -13257,3 +13257,82 @@ step 4 and a smaller one of running out of RAM at step 6.
   hold VRAM. Every generation run means stopping Ollama.
 
 Nothing was installed, downloaded, or changed. Survey only.
+
+---
+
+# DIRECTIVE 087 — PART 2 IS BUILT AND TESTED. PART 1 IS STOPPED AT ONE QUESTION, and the question is bandwidth I failed to count in 086.
+
+## Why Part 1 has not started
+
+The container image that matches **the ROCm gsplat fork's own stated requirements** — ROCm 6.4.3,
+Ubuntu 22.04, Python 3.10, PyTorch 2.6.0 — is a **23.7 GB compressed download** (51 layers, ~50 GB
+on disk). I measured it with `skopeo inspect` rather than guessing.
+
+**In 086 I told you "~30 GB of weights" and you approved the setup day on that number. I never
+counted the container.** The real figure is **roughly 54 GB**, near enough double what I quoted.
+
+You have a monthly bandwidth cap and the standing rule is to confirm before multi-GB pulls. This
+is not me re-asking permission for the job — you gave that. **It is a cost I got wrong when you
+made the decision, and you should get to re-make it with the right number.** So nothing has been
+downloaded. **One word and it starts.**
+
+Everything else in Part 1 is ready to go: podman 5.8.4 is installed (no Docker — same commands,
+benign difference), and `/dev/kfd` and `/dev/dri/renderD128` are both world-accessible, so the
+container reaches the card without adding you to any group.
+
+## Part 2 — built, and tested where it can be tested
+
+**`/home/nobara-user/worldgen/generate.sh`** — its own git repo, so it is revertible and nothing
+was written into CC-Wanderer. **The Wanderer suite is untouched and still green.**
+
+**Your design, exactly as given.** Paintings in; each stage runs alone across the whole batch,
+then the container exits and the card is empty before the next stage starts. **The
+stage-per-container shape is what enforces the never-concurrent rule** — a process that has exited
+cannot hold VRAM, so this is structural rather than a promise.
+
+```
+paintings → FLUX panoramas (batch) → UNLOAD → depth (batch) → UNLOAD
+          → reconstruction (batch) → UNLOAD → splat worlds → out/<run-id>/
+```
+
+**Ollama** is stopped only if it is actually running, **announced before it happens**, and
+restarted from an EXIT/INT/TERM trap — so the wisp gets its brain back on success, on failure,
+**and on Ctrl-C**.
+
+**A failed painting** is recorded, skipped in every later stage, and named in the end summary; the
+batch carries on.
+
+### What I actually verified
+
+- **The failure path, against real podman failures** — not simulated. Two items, a bad image, both
+  fail at stage one, both skipped through stages two-to-four, both named in the summary, batch
+  completed, correct counts.
+- **A real bug, found by the dry run and fixed.** An empty failure map under `set -u` meant that a
+  run in which **nothing failed** would itself fail. The `=()` is load-bearing and the comment in
+  the file says so.
+- **What I have NOT verified: any stage has ever run.** No model has been loaded, because nothing
+  is downloaded. The batching, ordering, Ollama handling, logging and failure handling are tested;
+  the four stage commands are written out in plain sight in the file so they can be corrected when
+  the environment lands rather than being buried.
+
+## The command you run
+
+```
+cd ~/worldgen
+cp <your painting> in/
+./generate.sh
+```
+
+That is it. Or `./generate.sh painting.png` for one, `./generate.sh ~/some-folder` for a batch, and
+**`./generate.sh --dry-run` to watch exactly what it would do without it touching anything** — that
+last one works right now, today, before any download.
+
+Worlds land in `~/worldgen/out/<timestamp>/<painting-name>/`, the log is
+`~/worldgen/logs/run-<timestamp>.log`, and it is on screen and in the file at the same time.
+
+## What is waiting on you
+
+**The 23.7 GB container image.** Say go and Part 1 runs: image, gsplat from the ROCm fork with the
+three published patches carried to gfx1100, then the model suite. The gsplat step is still the
+named risk from 086 — **if it walls I stop and report it rather than thrashing at it**, as you
+asked.
