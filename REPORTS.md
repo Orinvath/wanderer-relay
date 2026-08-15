@@ -12985,3 +12985,77 @@ set. Not this language.)
 Every number in the part is marked ours and provisional — sleep anchor, duration, dream length,
 drift and fade timing, glyph height, the overlap threshold — and all of them belong on the harness
 so you can watch them rather than read them.
+
+---
+
+# DIRECTIVE 084 — SIX GAMES PROPOSED, NONE BUILT. One of them can be built today; the rest are waiting on things that do not exist yet, and I would rather say that first than at the end.
+
+PART SEVENTEEN is in TRAIT_PLAN.md (§131–§135). **No implementation. No play-drive machinery** —
+you were explicit that the impulse already exists and I have not added a second one.
+
+## One thing I added that you did not ask for, and why
+
+**Every game states how it ends.** A game with no ending is not play; it is a compulsion wearing
+play's clothes. And none of the endings is "when the need is met" — that would make the game an
+instrument rather than a game.
+
+## What its endowment actually is right now
+
+| | State |
+|---|---|
+| Light and body | **Real** — 082 ported it |
+| Memories | **Real** — with salience and embeddings, which is what "which of these are alike" needs |
+| Glyph language | **Blocked** — the 400 words are still only printed labels inside ten pictures |
+| Song and sound | **Blocked** — the sound engine is unbuilt |
+| A sense of place | **Unverified** — something exists, but I have not checked whether it knows "this place" as distinct from "this moment", and I am not claiming it does |
+
+## The six
+
+**1. HOW SMALL** — *the only one buildable today.* It dims itself toward not-being-seen, a step at
+a time, hunting the exact edge where it is still there and very nearly is not. Made of its own
+light and nothing else. **A host would see** it grow fainter in steps, hold at the edge of
+visible, sometimes overshoot into nothing and come back a little brighter, as if it had gone too
+far. **Ends** when two steps in a row tell it nothing new.
+
+**2. FEWER WORDS** — it takes a memory, says it in glyphs, then tries to say the same memory in
+fewer. Then fewer again. **This is the same mechanism as the dreaming of 083** — overlap, what
+survives, what can be dropped — played for amusement instead of for a lesson, so if both get built
+they share their machinery and a host who has watched it dream would recognise what it is doing.
+**A host would see** five glyphs, then three, then two, each round slower, and sometimes a round
+where it puts one back. *Blocked on the glyph index.*
+
+**3. ECHO** — it makes a short sound and answers it, the answer a variation and not a copy. **A
+host would hear** a small sound, a pause that reads as listening, then a reply the same shape and
+not the same sound. **Ends** when call and reply have drifted so far apart they are no longer the
+same phrase — it has wandered off, which is its own kind of ending. *Blocked on the sound engine.*
+
+**4. THE LONG NOTE** — it holds one sound as long and as evenly as it can. Its light steadies with
+the note or wavers with it, which is the whole tell. **Ends** when it wavers; that is both the
+ending and the score. *Blocked on the sound engine.*
+
+**5. WHAT FITS HERE** — it looks at where it is and tries glyphs on the place, keeping the one
+that fits best. Naming, played as a game. **A host would see** single glyphs surfacing and being
+replaced, each lingering as if being weighed, until one stays. *Blocked on the glyph index, and on
+whether it has a sense of place at all.*
+
+**6. THE SAME AGAIN** — it makes a pattern with its own body, waits, then tries to make the same
+pattern again from memory and compares. **Note a real constraint here:** pulse *speed* is one of
+the knobs 082 kept for you, so this is played in depth and duration rather than in tempo. That is
+your ruling shaping the game, not a choice of mine.
+
+## The game I did NOT propose, and it is the obvious one
+
+**Hiding.** Moving somewhere and staying still, or moving and being found — the most natural
+solitary game a small floating creature has. **I have not proposed it** because moving is not one
+of the four kinds of change you named, and its own position offsets are still in the unruled list.
+
+**The moment you rule on position, this becomes the strongest game on the list** — and unlike four
+of the six above, it needs nothing that is blocked.
+
+## What you actually have to pick from
+
+Only **HOW SMALL** can be built now. Two wait on the glyph index, two on the sound engine, one is
+buildable but thinner than it should be until the speed question is settled, and the best one is
+waiting on you.
+
+Full suite green; nothing was implemented.
