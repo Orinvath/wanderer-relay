@@ -13059,3 +13059,83 @@ buildable but thinner than it should be until the speed question is settled, and
 waiting on you.
 
 Full suite green; nothing was implemented.
+
+---
+
+# DIRECTIVE 085 — SURVEY DONE, NOTHING INSTALLED. The answer is neither, and the reason is not the one the numbers suggest.
+
+Read-only throughout. No installs, no downloads, no environment changes. Nothing was written to
+CC-Wanderer for this.
+
+## 1. GPU
+
+**There is no NVIDIA card in this machine.** `nvidia-smi` does not exist.
+
+- **AMD Radeon RX 7900 XT** (Navi 31, `1002:744c`), read from `lspci`.
+- **VRAM: 21,458,059,264 bytes — 20.0 GiB**, read from `rocm-smi`. About 1.7 GB was in use at the
+  time of the survey.
+
+## 2. Disk
+
+- **`/` and `/home` are the same partition** — `/dev/nvme0n1p4`, 930 G total, **495 G free**.
+- A second drive, `/dev/nvme1n1p2`, 1.6 T with **1.2 T free** — **but it is mounted `fuseblk`**
+  (NTFS/exFAT through FUSE). Fine for parking model weights; **not** a place to build a Python
+  environment or compile from source — no proper permissions or symlinks, and it is slow.
+- Disk is not the problem here. 495 G comfortably absorbs 30 GB of models.
+
+## 3. CUDA, drivers, conda
+
+- **No CUDA. None. There cannot be — it is an AMD card.**
+- **ROCm is only partly here.** Twenty ROCm/HIP packages are installed, but they are the LLVM and
+  clang pieces (`rocm-llvm`, `rocm-clang-libs`, `rocm-lld` at 7.1.1). **`hip-runtime-amd`,
+  `rocminfo` and `rocblas` are all NOT installed**, and `rocm-smi` could not even load
+  `libdrm_amdgpu.so`. What is present is a compiler toolchain, not a working compute runtime.
+- **No conda and no mamba.** HunyuanWorld's own install is a conda environment built from its
+  `docker/HunyuanWorld.yaml`.
+- **Python is 3.14.6 and it is the only Python on the machine.** PyTorch does not publish wheels
+  for 3.14. `torch` is not installed and could not be installed against this interpreter.
+- RAM 31 G total, ~13 G available at survey time. CPU is a **Ryzen 5 3600X, 6 cores** — slow for
+  building Real-ESRGAN, ZIM and Draco from source.
+- **Ollama was inactive** when I looked, so the VRAM was free. Your note stands for when it runs.
+
+## 4. Can it run them?
+
+**Neither, as published.** And the interesting part is *why*:
+
+HunyuanWorld-1.0 is tested against **PyTorch 2.5.0+cu124** — CUDA. The full model wants 32 GB of
+VRAM; **the lite version wants under 17 GB and is aimed at a 4090.**
+
+**So the VRAM is not what stops us.** 20 GB clears lite's 17 GB with room to spare. **What stops
+us is the vendor.** The whole pipeline is written for CUDA, and the 3D-Gaussian parts especially
+are CUDA kernels rather than portable code. An AMD card does not run them, however much memory it
+has. FlashWorld comes out of the same family and the same assumption.
+
+Three further blockers sit behind that one, and each would need solving even if the GPU were
+right: no conda, a Python too new for PyTorch, and a ROCm install that is a compiler without a
+runtime.
+
+## 5. What I recommend — and the part that is yours
+
+**My recommendation is: do not install either of these on this machine.** Not "it will be hard" —
+the pipeline is written for hardware this machine does not have, and the work to change that is
+porting CUDA kernels, which is a project rather than a setup.
+
+**Three paths, and choosing between them is yours:**
+
+1. **Drop it for now.** Costs nothing. The world-generation work continues on the Flux recipe you
+   already validated, which runs on this card.
+2. **Rent the GPU rather than buy it.** These models are run on hosted 4090/A100 boxes routinely;
+   an hour of rented time would tell you whether HunyuanWorld is even worth owning hardware for,
+   before any hardware is bought. **This is the one I would try first if you want to see it work.**
+3. **Buy an NVIDIA card.** A 4090-class card is what lite is aimed at. That is a real purchase and
+   it is entirely your call — I am not going to make a spending recommendation.
+
+**If you pick 2 or 3, the setup cost on this side is roughly:** conda installed (~500 MB), a
+Python 3.10 environment built from Hunyuan's own yaml, ~30 GB of weights, and three
+build-from-source dependencies on a 6-core CPU — call it an evening, most of it waiting.
+
+**One thing to keep in mind either way:** Ollama holds VRAM, and the wisp's brain is Ollama. On a
+20 GB card those two would be competing for the same memory, so generation and the Avatar could
+not both be running.
+
+Nothing was installed, changed, or downloaded.
