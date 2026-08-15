@@ -1507,3 +1507,26 @@ changes, real sound, real stage moves, real song — with
 goals-on-sleeve speech carrying the why. Standing laws all bind.
 
 Commit before changes, suite green throughout, report per chunk.
+
+## Directive 081 — Chunk D ruled: meaning attaches to the change, not the control
+
+Lonnie's ruling: world 3. No labels on knobs, no authored control-to-need
+table, no group table. The Avatar understands KINDS OF CHANGE — brightening
+vs darkening, adding vs taking away, filling silence vs making quiet,
+opening vs enclosing — and what such changes tend to do for a feeling.
+Which control achieves a change is irrelevant; the meaning lives in what
+the act DOES.
+
+Design consequences:
+1. Capabilities are described to the goal-former by their EFFECT AXES
+   (what kind of change each can produce), derived from what the controls
+   genuinely do — not by need-labels.
+2. The appraisal of worth (this change, for this feeling, now) happens in
+   the Avatar's judgment per 052 — aspect-weighted, mood-fed — not in a
+   lookup.
+3. Per the science rule: where research documents effect-to-feeling
+   tendencies (e.g. environmental psychology on light, sound and affect),
+   cite it; where the design exceeds the science, flag it as ours.
+4. Guarantee stands: no control-to-need table may ever appear.
+
+Build chunk D on this. Report. Suite green.
