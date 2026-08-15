@@ -1601,3 +1601,24 @@ Games are capabilities, chosen never scheduled; standing laws bind
 reactions-not-goals untouched).
 
 Report the proposed set. No implementation until Lonnie picks.
+
+## Directive 085 — Side task: machine survey for world-generation setup
+
+Lonnie is evaluating running an open-source image-to-3D-world model
+locally (HunyuanWorld-1.0-lite or FlashWorld — Tencent Hunyuan family).
+Before anything is installed, report to REPORTS.md (read-only survey,
+install NOTHING yet):
+
+1. GPU: name and VRAM (nvidia-smi).
+2. Free disk on /home and on any larger volume.
+3. CUDA/driver versions present; whether conda exists.
+4. Given ~30GB+ model downloads and the build-from-source dependencies
+   (Real-ESRGAN, ZIM, Draco), assess: can this machine run
+   HunyuanWorld-1.0-lite (needs 4090-class), FlashWorld, both, or
+   neither? Note that Ollama holds VRAM and would need stopping during
+   generation.
+5. Recommend which target fits this machine, with the setup steps and
+   disk cost, for Lonnie's decision.
+
+This is a survey only. No installs, no downloads, no environment
+changes.
