@@ -1446,3 +1446,36 @@ Lonnie is ready to test by eye. Report to REPORTS.md:
    anchors, anything else) and where each shows on screen.
 
 Nothing else.
+
+## Directive 078 — BUILD PHASE BEGINS: make it behave
+
+Lonnie's ruling: sliders and numbers tell him nothing — behavior is
+judged by WATCHING BEHAVIOR. Designing is done enough. Build, in the
+order that reaches watchable behavior fastest:
+
+1. THE NEEDS LEDGER: the three sliders become real state — decay on
+   the always-running clock (069), aspect-computed rates (071/072/074
+   formulas as proposed; every provisional number marked), impact
+   gating, the −10 takeover (076). Real state, real time.
+2. THE GOAL-FORMER: the 052/068 machine — appraisal, utility scoring,
+   aspect weights, mood temperature, weighted-random selection,
+   urgency bucketing. The Avatar starts CHOOSING.
+3. WIRE TO CAPABILITIES: its choices act on what it already has —
+   stage, light bundle, sound-maker, song (063), voice, speech.
+   Goals-on-sleeve (057): it says what it is doing and why.
+4. THE WATCHING BUILD: a way for Lonnie to simply WATCH — the ported
+   creature (Form 1) present in its world, living on the ledger,
+   choosing through the goal-former, hours at a time. The harness
+   panel may sit beside it as instrumentation, but the judgment
+   surface is the BEHAVING AVATAR.
+
+Rules unchanged and binding: all standing laws (no compulsion,
+goals-on-sleeve, reactions-not-goals, no authored behavior lists,
+nothing publishes mid-visit, chamber untouchable, no test doubles —
+real components only). Spirale remains the development persona. All
+provisional numbers stay marked and tunable live where feasible.
+
+Commit before changes. Full suite green throughout — new tests for
+each system. This is large: split across directives at your
+discretion, state the build order first, report each chunk. Deliver
+same turn per chunk.
