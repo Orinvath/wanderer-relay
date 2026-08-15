@@ -12893,3 +12893,95 @@ what you ruled. Caught by the test that asked for the bottom and got nothing.
 numbers. Candidates are now proposed through the control's own clamp.
 
 39 checks in the effects suite, 26 in the capability suite, all passing. Full suite green.
+
+---
+
+# DIRECTIVE 083 — PLANNED, NOT BUILT. Sleep answers the idle question without inventing anything, and the research handed us the distillation algorithm.
+
+PART SIXTEEN is in TRAIT_PLAN.md (§122–§130). **No code was written. Nothing is built until you
+approve it.** Full suite still green.
+
+## Three sources, and what each one actually changed
+
+**Rasch & Born (2013), *Physiological Reviews* 93, 681–766** — the field's standard review. A
+century of work establishes that sleep benefits retention, and current theory gives sleep an
+**active** role: memories undergo system consolidation during sleep. This is the licence for the
+whole directive: consolidation is what sleep is *for*, not something bolted onto downtime.
+
+**Lewis & Durrant (2011), *Trends in Cognitive Sciences* 15, 343–351** — and this one handed us
+the algorithm. Overlapping replay of **related** memories selectively strengthens **their shared
+elements**, and repeated reactivation in different combinations progressively builds schemata.
+
+So lesson distillation is not "summarise the day". **A lesson is what several memories have in
+common, found by replaying them together.** I did not have to invent that step, and what I would
+have invented would have been worse — I would have written a summariser.
+
+**Fosse, Fosse, Hobson & Stickgold (2003), *J. Cognitive Neuroscience* 15(1), 1–9** — the
+constraint that shapes everything. Of 299 sleep-mentation reports, **65% reflected aspects of
+recent waking life, but episodic replay appeared in no more than 1–2%.**
+
+A dream is **fragments**, not a scene played back. Any design that renders a dream as a retelling
+of the day contradicts its own source. Which is why your choice of medium is the right one and not
+merely a stylistic one: **a vocabulary of single glyphs is exactly what a fragment is.**
+
+## Sleep answers the idle question, and deletes an invented mechanism
+
+This is the part I want your eye on. We had an open problem — what a being does when nothing is
+happening and nobody is there — and every answer so far has been an authored behaviour.
+
+Sleep pressure answers it with nothing invented: **a being alone settles toward rest, because
+nothing is discharging the pressure.** Nobody writes "idle behaviour"; an idle Avatar simply gets
+sleepy, the same way one that has been up a long day does.
+
+**That is the second time a sourced mechanism has deleted an invented one here** — the first was
+the 38-hour anchor removing the plateau I had made up.
+
+Sleep pressure and duration are computed from the aspects like every other rate (071), through the
+same permissive map. One Avatar tires sooner than another because of who it is.
+
+## The dream, and how it is seen
+
+A dream is a short sequence of single glyphs, each an element that survived the overlap — a thing
+that recurred, a feeling that kept coming back. Held loosely, out of order, no grammar, **no
+sentences** (§83 stands). They drift above the sleeping Avatar and fade.
+
+**This is consistent with 082, and worth saying out loud:** a dream is the Avatar's own body
+speaking, so it belongs to its endowment, not to your panel. It is in fact **the first of the three
+missing pieces to arrive — the dream is a SIGN.**
+
+062 is untouched. The drift display is **presence, not publication** — seen by whoever is standing
+there, the way a glow is. What travels is the lesson, which is already Class B and already leaves
+at a departure.
+
+## ONE CONCRETE BLOCKER, and it is a job rather than a decision
+
+**The 400-word language exists only as printed labels inside ten PNGs.** Your sheets carry the
+word under each glyph — page 6 reads LOVE, SAD, HAPPY, FEAR, ANGER, PEACE, CALM, HOPE, DESPAIR,
+JOY and on down — but **nothing can look a word up, and nothing can address a single glyph**, since
+there is one image per domain rather than one per glyph.
+
+What it needs: the ten sheets transcribed into a word index, the sheets **copied** into
+CC-Wanderer, and each glyph addressed as sheet-plus-cell so nothing has to be cut apart. That last
+part means copying your artwork into another tree, so **it waits on your go.**
+
+(Separately: the ten glyphs inside chamber.html are the cipher keypad's, a different and smaller
+set. Not this language.)
+
+## FIVE THINGS ARE YOURS
+
+1. **Does sleep replace the departure reflection, or run alongside it?** §57 drafts lessons at a
+   departure; 083 puts distillation in sleep. If sleep replaces it, **a visit that ends before the
+   Avatar has slept produces no lesson at all** — which may be exactly right, or may be a hole.
+2. **Does it sleep while a host is present?** A being that goes to sleep on a visitor is a strong
+   statement about whose life it is. It might be the right statement.
+3. **Can a host wake it?** 056 says the host can ask and the Avatar decides — but declining to wake
+   is not the same kind of thing as declining a goal.
+4. **The waking-wonder case**, whole. Proposed in §128: one or two glyphs surfacing while awake,
+   the inner voice made visible. Open inside it — always visible or only with a host present, how
+   it reads as different from the sleep display, and whether the Avatar chooses to show it or
+   cannot help it.
+5. **Transcribing the 400 and copying the sheets.**
+
+Every number in the part is marked ours and provisional — sleep anchor, duration, dream length,
+drift and fade timing, glyph height, the overlap threshold — and all of them belong on the harness
+so you can watch them rather than read them.
