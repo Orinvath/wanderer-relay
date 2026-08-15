@@ -12728,3 +12728,92 @@ reaching-out), or to *what a change does* rather than what it touches — bright
 darkening, adding versus taking away, regardless of which control did it? Those are three different
 worlds and I have not built any of them.
 
+
+---
+
+# DIRECTIVE 081 — DONE. World 3 is built. The Avatar understands kinds of change, and one sourced finding reversed what I would have written.
+
+## What exists now
+
+`server/src/effects.js` sits between the controls and the choosing, and does three things.
+
+**It describes each control by what raising or lowering it DOES** — brightening or darkening,
+adding or taking away, filling silence or making quiet, opening or enclosing. This is physics read
+off your own build: a plane's Curve encloses because 100 wraps round the eye and 0 is a flat wall,
+which is your comment in `stage.js`, not my opinion. A control can do two things at once — a prop
+brought nearer both adds something and closes the space down — so these are directions, not labels.
+
+**It predicts what such a change tends to do for a feeling**, from research where research exists.
+
+**It appraises what that would be worth to THIS Avatar, now** — computed from the aspects and fed
+by mood, never looked up.
+
+## Guarantee 4 is tested structurally, not by me reading the file
+
+"No control-to-need table may ever appear" cannot be checked by looking and seeing no table — a
+table can be written as a function, spread across a switch, or hidden in names. So the test is:
+**two different controls producing the same kind and size of change must be worth exactly the same
+thing.** If any control ever acquires a private worth, that fails, whatever shape the favouritism
+was written in. Add a hundred new controls tomorrow and not a line of the worth calculation
+changes.
+
+## The research, and what it did to the design
+
+**Light — and this is the one that matters.** Küller, Ballal, Laike, Mikellides & Tonello (2006),
+*Ergonomics* 49(14), 1496–1507: 988 people, real workplaces, several latitudes and seasons. Mood
+was **lowest where the light was experienced as much too dark, rose to its highest where it was
+just right, and fell again where it became too bright.** Measured illuminance had no significant
+effect — it is the experienced level that moves mood, not the lux.
+
+So brightening is not simply good. **The same act is worth opposite things at opposite ends**, and
+the suite makes both worlds — a genuinely dark one and one already brighter than it wants to be —
+and demands the appraisal come out positive in the first and negative in the second. Left to
+myself I would have written "more light, more good", and it would have been wrong.
+
+**Sound.** Alvarsson, Wiens & Nilsson (2010), *IJERPH* 7(3), 1036–1046: after a stressful task,
+skin-conductance recovery tended to be faster under nature sound — a fountain and birds at 50 dB —
+than under traffic noise. **Their heart-rate-variability measure showed no effect, and I have kept
+that null in the file**, because a citation that reports only the half that suits us is not a
+citation. Note their level: moderate, not loud.
+
+**Space.** Stamps (2005), *Environment and Planning B* 32, 735–762, across 15,521 environments:
+judged enclosure follows horizontal size most strongly. That tells us what *reads* as enclosed —
+which is why room size and plane curve carry the weight they do. **What enclosure then does to a
+feeling is not in that paper, and that part is ours.**
+
+**Presence.** I found nothing on what adding or removing a thing from a scene does to a feeling.
+**Entirely ours, and flagged as such.**
+
+## Three things are yours, and I have not decided any of them
+
+**1. Nine controls make a kind of change you did not name.** Gusts, Heaviness, How Often, Rate,
+Swell, Drift Speed, Twinkle — these do not brighten, add, fill or open. They **quicken or still**,
+and you named four axes, not five. They currently produce **nothing** rather than being bent onto
+an axis they do not belong on, and the suite asserts the list so the gap stays visible. A fifth
+axis would take about an hour; inventing one myself would take five minutes and would be wrong.
+
+**2. Where the need deltas come from is ours.** The worth still has to reach relatedness,
+competence and autonomy somehow, and 081 ruled that out of the controls — so I took it from the
+**shape of the act**, uniformly: how much the act actually helps is competence, how large a step
+the Avatar took on its own judgment is autonomy, and relatedness only when the act is **offered to
+the host** rather than done alone. No paper says this. It obeys your guarantee and it is the most
+honest reading of "the meaning lives in what the act does" that I could build, **but it is mine and
+it is provisional.**
+
+**3. The best point on each axis is ours.** Küller gives the shape — rise, then fall — but no paper
+gives the point. It sits in the middle of the track, which is the weakest claim that keeps the
+sourced shape.
+
+## One limit of the model, named rather than left to be found later
+
+At the very top of an axis, pushing further registers as neither help nor harm, because there is
+nowhere left to go. The suite asserts this on purpose so nobody meets it as a bug.
+
+## What is still not done from 080
+
+The Avatar now chooses real controls of the real world and its choices change real state — but
+**nothing yet makes a sound or shines**. The synthesis engine (chunk B) and the light bundle
+driving an actual renderer (chunk C) are still outstanding, and until they exist "real sound, real
+light" means real *settings*, not real air moving. I am carrying on with them.
+
+27 checks in the new suite, all passing. Full suite green.
