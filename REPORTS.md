@@ -13422,3 +13422,48 @@ than a read-the-header fix, I stop there and report**, as you said.
 Still outstanding: finish gsplat, the model suite, wiring the four stage commands in
 `generate.sh` to real entry points, and one real painting end to end. **Nothing has been claimed as
 working that I have not run.** The Wanderer suite is untouched.
+
+## DIRECTIVE 088 — ADDENDUM, same turn: patch 2 did NOT work, and I am stopping there per the wall rule
+
+The build I said was running has finished, and it **failed with the same GLM errors as before**.
+
+I checked rather than assumed, and this is the useful part: **both defines are demonstrably
+reaching the compiler.** From the generated `build.ninja`:
+
+```
+-DCUDA_VERSION=8000
+-DGLM_FORCE_CUDA
+-D__HIP_PLATFORM_AMD__=1
+-DUSE_ROCM=1
+```
+
+They are there, and `mat3 * vec3`, `outerProduct` and non-const `operator[]` are **still**
+missing. **So my diagnosis was wrong** — or at best incomplete. The CUDA-version defines are not
+what is putting GLM into its degraded mode, whatever the write-up meant by that patch.
+
+**I am stopping here.** The next move would be me reading around inside GLM's constexpr and
+language-level detection guessing at which check hipcc is failing, and that is thrashing at it,
+which you told me not to do. It is also the honest limit of what I can claim: I fixed patch 1 by
+reading a header and being right; I tried the same on patch 2 and was wrong.
+
+### Where it actually stands
+
+- **Environment: DONE and verified** — PyTorch 2.6 / HIP 6.4 in the container, naming your card
+  and reporting gfx1100. That part is real and reusable whatever happens to gsplat.
+- **gsplat: WALLED at the GLM degraded-mode problem.** Patch 1 (system GLM headers) is correct and
+  in the image. Patch 2 as I understood it is applied, verified present at the compiler, and does
+  not fix it. Patch 3 (wave32) has never been reached.
+- **Model suite: not started.** Correctly — there is no point pulling 30 GB of weights until the
+  splat stage can build.
+- **`generate.sh`: unwired**, as reported before. Its four stage commands still point at entry
+  points that do not exist.
+- **The Wanderer suite is untouched.**
+
+Everything is recorded and reproducible: the derived image is a `Containerfile`, the patch is a
+real patch file with its reasoning, and all six build logs are kept.
+
+### What I would want before trying again
+
+The sleepingrobots write-up's actual patch — the diff, not the description of it. I worked from a
+summary of what the three patches *were about*, which was enough to get patch 1 right by reading
+the header and not enough for patch 2. **That is the thing to go and find.**
