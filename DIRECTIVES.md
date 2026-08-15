@@ -1653,3 +1653,37 @@ SURVEY ONLY, still nothing installed:
    named if not. Cite what you verify.
 
 Report for Lonnie's decision.
+
+## Directive 087 — GREEN-LIT: local world generation, fully automated pipeline
+
+Lonnie approved the setup day. Build the AMD/ROCm world-generation
+environment AND an automated pipeline around it.
+
+PART 1 — ENVIRONMENT (per your 086 survey, Docker route as you
+recommended):
+1. ROCm runtime + ROCm PyTorch in Docker (gfx1100 target).
+2. Python 3.10/3.12 env per the working port's pattern.
+3. gsplat from the ROCm fork with the published patches carried to
+   gfx1100; flash-attention falls back to SDPA — slower is accepted.
+4. Matrix-3D (or the component set your assessment favors) with the
+   full model suite to the system drive; weights may live on the
+   second drive.
+5. Low-job-count builds — the 6-core/31GB RAM constraint is real.
+Commit before changes. Wanderer suite untouched and stays green.
+
+PART 2 — THE PIPELINE, Lonnie's design, verbatim intent: he gives it
+a painting (or a batch of 20); it handles EVERYTHING — each stage
+loaded alone in VRAM, run across the whole batch, unloaded, next
+stage — painting(s) in, finished explorable splat world(s) handed
+off at the end. SEQUENTIAL STAGE BATCHING, never concurrent:
+   paintings → FLUX panoramas (batch) → unload → depth (batch) →
+   unload → video/reconstruction stages (batch) → unload → splat
+   worlds saved to an output folder.
+- One command, one watchable log, worlds land in a named folder.
+- Ollama: stopped at pipeline start if running, restarted after —
+  announced, never silent.
+- Stage failures: skip the item, continue the batch, report per item.
+
+Report environment result honestly (the gsplat step is the named
+risk — if it walls, stop and report, don't thrash), then pipeline
+usage: the exact command Lonnie runs with a painting.
