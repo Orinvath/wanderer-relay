@@ -1487,3 +1487,23 @@ actual score scale so mood's effect on choosing is real and visible,
 not invisible. The rescaled values stay PROVISIONAL like every number —
 marked, tunable, judged later against watched behavior. Show the
 before/after and the mechanism test in the report. Chunk 3 continues.
+
+## Directive 080 — Port the capabilities for real: choices act on real things
+
+Lonnie's ruling: go for it — the full port, not the narrator. Execute
+the 055 capability set as real code in CC-Wanderer:
+
+1. THE STAGE PANEL set: Worlds · Painted Sky · Planes · Props · Music
+   Score, as organized in the live build.
+2. SOUND FX: the synthesis engine (Tone.js) — the full sound-maker,
+   which is also the song instrument (063).
+3. THE LIGHT BUNDLE: Lights + God Rays + Light in the Air + Wisps,
+   one bundle.
+4. The mic/chat control system per 075 where chunk 3 needs it.
+
+Chamber read-only, copies only, everything into CC-Wanderer. Then
+finish chunk 3: the goal-former's choices ACT on these — real light
+changes, real sound, real stage moves, real song — with
+goals-on-sleeve speech carrying the why. Standing laws all bind.
+
+Commit before changes, suite green throughout, report per chunk.
