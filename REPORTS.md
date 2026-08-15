@@ -13139,3 +13139,121 @@ build-from-source dependencies on a 6-core CPU — call it an evening, most of i
 not both be running.
 
 Nothing was installed, changed, or downloaded.
+
+---
+
+# DIRECTIVE 086 — I GOT 085 WRONG, and here is the corrected survey. The verdict is feasible-but-painful, with one specific blocker named.
+
+## First, what I did wrong
+
+**In 085 I ran one search, saw that HunyuanWorld is built against PyTorch+cu124, and stopped.** I
+never searched for whether AMD or anybody else had ported it. Then I wrote "neither, and the
+vendor stops us" as though the evidence had said that, when the evidence had only said what the
+upstream repo requires.
+
+**That is exactly the standing rule I break least often and broke here:** find the practitioners
+who have already solved it, do not derive the answer from the official docs. Lonnie pushed back
+and was right to. Nothing below changes the machine — only what I bothered to find out about it.
+
+## 1. The exact card, read off the kernel
+
+| | |
+|---|---|
+| `gfx_target_version` | **110000 → gfx1100**, from `/sys/class/kfd/kfd/topology/nodes/*/properties` |
+| Architecture | **Navi 31, RDNA 3**, 168 SIMDs |
+| Confirmed by mesa | `AMD Radeon RX 7900 XT (radeonsi, navi31, ACO)` |
+
+**AMD officially supports this card.** Their own system-requirements page lists **RX 7900 XT,
+RDNA3, LLVM target gfx1100, supported** — the *same target as the 7900 XTX*, which is the card
+most of the community write-ups use. That is a verified fact and it is the opposite of what I
+implied last time.
+
+**Two caveats, both real:**
+
+- **Nobara/Fedora 44 is not on AMD's supported-distro list** (Ubuntu, RHEL, SLES, Debian, Rocky,
+  Oracle). Fedora ships its own ROCm packages — 20 are installed here — so this is workable but
+  unofficial. **It is also the strongest argument for doing this in Docker**, which is what the
+  successful consumer port did.
+- **What is installed here is a compiler, not a runtime.** `rocm-llvm`, `rocm-clang-libs`,
+  `rocm-lld` at 7.1.1 are present; **`hip-runtime-amd`, `rocblas` and `rocminfo` are not**.
+
+## 2. The ROCm gsplat fork — and the honest distinction
+
+**Out of the box it does not cover this card.** Its stated platform is **AMD Instinct MI300X**,
+ROCm 6.4.3/7.0.0, PyTorch 2.6/2.8, Python 3.10/3.12, Ubuntu 22.04/24.04. No mention of RDNA,
+gfx1100 or consumer cards. AMD's own Matrix3D run was on MI250 — datacenter silicon.
+
+**But it has been made to compile on consumer AMD**, exactly as your research says, after **three
+targeted patches**: system GLM headers to get round hipify path corruption, CUDA version defines
+to satisfy GLM's platform checks, and **wave32 constants**.
+
+**That third one is the whole story.** Datacenter CDNA cards run 64 threads to a wavefront; RDNA
+runs 32. The kernels are written with wave64 constants baked in. Patching them for wave32 is what
+makes a consumer card work — and it is a *known, published, three-file* change, not research.
+
+**The distinction I am not going to gloss over:** that port ran on **Strix Halo, RDNA 3.5**, not
+on gfx1100. Related silicon, same wavefront width, not the same chip. Nobody in what I found has
+published the same result on a 7900-class card, so the wave32 patch is very likely to carry across
+and I cannot promise it does.
+
+## 3. The pipeline, stage by stage
+
+| Stage | On this card |
+|---|---|
+| **FLUX panorama** | **Runs today.** Already validated here — it is the recipe the world work uses. |
+| **MoGe depth** | **Expected to run.** Pure PyTorch ViT; nothing in it suggests custom kernels. |
+| **Wan video / PanoLRM** | **Expected to run** — transformers on PyTorch. Their attention path is the open question, see below. |
+| **gsplat (the 3D Gaussians)** | **The hard one.** Custom kernels; needs the ROCm fork plus the three patches, retargeted to gfx1100. |
+| **flash-attention (CK backend)** | **THE NAMED BLOCKER — see below.** |
+
+### The specific blocker
+
+**Flash-attention's composable-kernel backend currently fails to build on gfx1100.**
+Dao-AILab/flash-attention **issue #2452**, opened 11 April 2026: compilation completes, then
+*linking* fails — the `..._gfx11.o` object files are never generated. **No assignee, no label, no
+comments, no linked fix.** The build system recognises `--offload-arch=gfx1100`; it just does not
+emit the kernels.
+
+**How much this actually costs, stated as an expectation and not a fact:** flash-attention is a
+speed optimisation, not a requirement — PyTorch's own scaled-dot-product attention is the usual
+RDNA3 fallback and the models run without CK. **I expect this to mean slower, not blocked.** I
+have not tested it and I am not going to claim it as verified.
+
+## 4. Disk and RAM
+
+- **Disk is fine.** 495 GB free on the system drive; a 30 GB model suite plus build scratch fits
+  several times over. (The 1.2 TB second drive is `fuseblk` — weights only, never a build tree.)
+- **VRAM fits.** 20.0 GiB against lite's under-17 GiB — *with Ollama stopped*.
+- **RAM is the tight one.** 31 GB total, about 13 GB free with Ollama down. Compiling
+  flash-attention and gsplat instantiates a very large number of kernel variants in parallel and
+  is memory-hungry; **a parallel build could run this machine out of RAM.** Build with a low job
+  count and expect it to take a long time — their two-hour build was on far more CPU than a
+  **6-core Ryzen 5 3600X**.
+
+## 5. Verdict: FEASIBLE BUT PAINFUL
+
+Not "no". The card is officially supported, the wave32 problem is solved and published, and the
+front half of the pipeline already runs here. What stands between us and it is environment work,
+and it is substantial:
+
+1. A real ROCm **runtime** (only the compiler is installed).
+2. A **Python 3.10 or 3.12** — the system has only 3.14, which PyTorch does not build wheels for.
+3. **ROCm PyTorch.**
+4. **gsplat from the ROCm fork with the three patches**, carried from RDNA3.5 to gfx1100 — likely
+   but unproven.
+5. **Flash-attention: expect to fall back to SDPA** and be slower.
+6. **Docker is the sensible route** — it sidesteps the unsupported-distro problem and is what the
+   working port used.
+
+Realistically: **a full day, most of it compiling**, with a genuine chance of hitting a wall at
+step 4 and a smaller one of running out of RAM at step 6.
+
+## What is yours to decide
+
+- **Whether a day of this is worth it**, given FLUX already produces the panoramas and the
+  multiplane approach is your current direction.
+- **Whether to do it in Docker** (I would) or against the system.
+- **The standing conflict:** on a 20 GB card the wisp's brain and the world generator cannot both
+  hold VRAM. Every generation run means stopping Ollama.
+
+Nothing was installed, downloaded, or changed. Survey only.
