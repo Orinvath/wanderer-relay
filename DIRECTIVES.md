@@ -1530,3 +1530,25 @@ Design consequences:
 4. Guarantee stands: no control-to-need table may ever appear.
 
 Build chunk D on this. Report. Suite green.
+
+## Directive 082 — CORRECTION: the panel is Lonnie's, not the Avatar's
+
+Lonnie's correction of a director conflation. The world-panel controls
+(stage, sound fx, light bundle knobs) are WORLD-BUILDING TOOLS — the
+Avatar does not play with them.
+
+THE AVATAR MAY ACT ON PANEL CONTROLS ONLY:
+1. When the HOST commands it via trigger phrase — and it consents
+   (056 unchanged: asked, it decides); or
+2. Under EXTREME STRESS — the −10 takeover state (076) is the license,
+   nothing milder.
+
+Its ordinary self-expression uses ITS OWN endowment — its body, signs,
+voice, movement, and its song (063) — never the world panel.
+
+Rework chunk D accordingly: the effect-axes appraisal machinery survives
+but gates onto panel actions only in the two licensed cases; ordinary
+goal candidates draw from the Avatar's own expressive endowment. The
+fifth-axis question dissolves for ordinary behavior (speed knobs are
+Lonnie's tools); within a host command, the Avatar does what was asked.
+Suite reworked to assert the gate. Report.
