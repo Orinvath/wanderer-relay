@@ -15043,7 +15043,7 @@ four placeholder names on the Adapting controls; and, still open from 102, the w
 
 # DIRECTIVE 106 — The slider is Glow. The ceiling was never real. She reaches 1.0000.
 
-Commit `f4a1e3c`. **GAMES suite now 36, full suite green.** HIDING is built. Its demo page is the
+Commit `17c025f`. **GAMES suite now 36, full suite green.** HIDING is built. Its demo page is the
 one piece not yet done, and it is next.
 
 ## The slider you were thinking of
