@@ -13818,3 +13818,26 @@ really proved is that the plumbing runs end to end** — environment, quantised 
 slicing, gsplat on the card, staging and failure handling. Those stand. **The output does not.**
 
 Rebuild of the panorama stage as outpainting, and of depth as cubemap faces, **awaiting his word.**
+
+### 093 CORRECTION, third part: the style is not his either
+
+Lonnie: *"the model it generated was not good either, it was not in the style of the image."*
+
+**Correct.** The stage loaded **only** `equirectangular_flux_lora_v3` and prompted with a generic
+`"equirectangular 360 panorama, seamless"`. **His own `hjart_style_v1.safetensors` was sitting in
+the same folder and I never loaded it.** With no style anchor and a bland prompt, FLUX fills in
+with its own default look.
+
+**This is the standing direction, and I walked straight past it:** the worlds are built from HIS
+paintings, his art IS the aesthetic, borrowed AI styles were dropped deliberately. I had the right
+LoRA on disk, listed it in the 090 report by name, and then did not use it.
+
+### The three faults together
+
+| | What is wrong | The fix |
+|---|---|---|
+| **Panorama** | Stretched to 2:1 and lightly restyled; no new scene ever generated | **Outpaint** — painting at true aspect in the centre, mask the sides, paint outward until the edges meet, handle the wrap seam |
+| **Style** | Generic prompt, his style LoRA never loaded | Load **`hjart_style_v1`** alongside the equirect LoRA |
+| **Depth** | MoGe is a perspective model, given a 360 image | **Cubemap** — six perspective faces, MoGe each, unproject with each face's own camera, merge |
+
+All three are in the same two stages. **Awaiting his word before rebuilding.**
