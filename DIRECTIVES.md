@@ -1915,3 +1915,19 @@ effort is DEAD — stop all work on it now.
 3. The Wanderer project is untouched by any of this and remains the
    work of record.
 Confirm stopped.
+
+## Directive 101 — Deliver the three owed reports
+
+The world-gen detour swallowed three ordered deliverables. Deliver them
+now, in order, each per its original directive:
+
+1. 082 — the panel-gating rework report (panel is Lonnie's; Avatar
+   touches it only on host trigger-phrase command or at −10; ordinary
+   expression from its own endowment; suite asserting the gate).
+2. 083 — the sleep and dreams PLAN (consolidation science cited, glyph
+   selection from memory content, the drift display as a body sign,
+   provisional numbers marked). Plan for approval, no implementation.
+3. 084 — the solitary games PROPOSALS (each: what it is, what it's made
+   of, what a watching host would see). Proposals only, Lonnie picks.
+
+Report all three to REPORTS.md. Nothing else starts until these land.
