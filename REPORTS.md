@@ -13867,3 +13867,65 @@ FLUX's defaults.
 
 **Not built. Awaiting his word.** The 3D fix (cubemap depth) is still queued behind this — there
 is no point building geometry from a panorama that is wrong.
+
+---
+
+# DIRECTIVE 094 — STOPPED AT A HARDWARE WALL, BEFORE improvising anything. The official worldgen pipeline needs a small GPU cluster and a second AI server. Their AMD-proven route is a different module, and choosing between them is yours.
+
+I cloned the official repo and read their own README rather than assuming. **No improvisation, no
+homebrew substitution, nothing installed.**
+
+## The wall, in their words
+
+From `hyworld2/worldgen/README.md`, **Prerequisites**:
+
+> - CUDA 12.8, Python 3.11+
+> - **≥4 GPUs recommended (tested with 8× H20)**
+> - **A running vLLM server hosting a VLM (e.g. Qwen3-VL-8B) for trajectory planning** (stages 1 & 2)
+
+Their own launch example is `CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ... --tensor-parallel-size 8`.
+
+**This machine has one 20 GB consumer GPU.** The five-stage worldgen flow wants **four to eight
+datacenter cards, plus a separate Qwen3-VL-8B server running alongside** for the trajectory
+planning — a second large model resident at the same time, which is precisely what a single 20 GB
+card cannot do. It also compiles two more things from source (`gsplat_maskgaussian`, and
+`navmesh`, which needs recastnavigation).
+
+**That is a hardware requirement, not a CUDA-vs-ROCm problem**, so the AMD guide's deviations do
+not reach it. This is the "genuinely new wall" case, so I stopped.
+
+## But there is a second, real path — and it is the one the AMD write-up actually ran
+
+The repo has **three** modules, not one: `panogen`, `worldgen`, and **`worldrecon`**.
+
+`worldrecon` is **WorldMirror 2.0**, and the root README describes it as:
+
+> a unified feed-forward model that simultaneously predicts depth, surface normals, camera
+> parameters, 3D point clouds, and 3DGS attributes **in a single forward pass**
+
+**Single forward pass. No trajectory planning, no vLLM server, no multi-GPU expansion stage.** And
+it is exactly what the sleepingrobots write-up demonstrated on consumer AMD — that piece was
+always WorldMirror, not the eight-GPU worldgen flow.
+
+**It also has a `gradio_app.py`** — their own interface, which would let Lonnie drive it by eye
+rather than through me.
+
+## What this changes about the input
+
+WorldMirror takes **multi-view images or a video**, not one still painting. So the shape of the
+job changes: instead of inventing a 360 from one canvas, it reconstructs a world from several
+views of one. **How to give it several views of a painting is a real question and it is his** —
+his other paintings of the same place, a slow pan across one large painting, or their `panogen`
+module first to make the panorama and views from it.
+
+## What I have NOT done
+
+Nothing installed, nothing downloaded, no weights fetched, no substitution invented. The homebrew
+`generate.sh` is untouched as instructed. The Wanderer suite is untouched.
+
+## The decision, and it is his
+
+**The official worldgen flow cannot run on this machine** — not slowly, not quantised, not with
+patches. **WorldMirror 2.0 can**, is official, is the AMD-proven piece, and comes with their own
+interface. **But it is a different tool answering a slightly different question, so I am not
+switching to it on my own authority.**
