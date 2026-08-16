@@ -13929,3 +13929,39 @@ Nothing installed, nothing downloaded, no weights fetched, no substitution inven
 patches. **WorldMirror 2.0 can**, is official, is the AMD-proven piece, and comes with their own
 interface. **But it is a different tool answering a slightly different question, so I am not
 switching to it on my own authority.**
+
+## DIRECTIVE 094, on worldgen — the panorama step is officially reachable, and it costs 57.7 GB of bandwidth. Stopping to ask before pulling that.
+
+Correction taken: WorldMirror is the multi-view reconstruction component and not our path. **Read
+their `panogen` README properly. Single image in, exactly as you said.**
+
+### Their own quickstart offers TWO backends, and only one can run here
+
+| Backend | Script | Verdict |
+|---|---|---|
+| **HunyuanImage-3** — "full reasoning pipeline with chain-of-thought recaptioning" | `pipeline.py` | **Out of reach.** HunyuanImage-3 is an ~80B mixture-of-experts model. Not on 20 GB. |
+| **Qwen-Image-Edit** — their words, *"a lighter diffusers-based backend"* | `pipeline_with_qwen_image.py` | **The one to use.** Their HY-Pano LoRA on a diffusers base — the same shape as everything already working here. |
+
+The second backend's base model is `Qwen/Qwen-Image-Edit-2509` (read out of their source, line 101,
+not guessed). **This is their official option, not a substitution of mine.**
+
+### The number you should decide on
+
+**`Qwen-Image-Edit-2509` is 57.7 GB** — five transformer shards of ~10 GB each, plus the rest. I
+measured it from HuggingFace's own file listing rather than estimating.
+
+**That is more than double the 23.7 GB container you approved, and it is the largest single pull
+this project has asked for.** After the 8 GB I wasted by double-starting a download, I am not
+pulling 57.7 GB on my own judgement.
+
+**Also worth knowing before you decide:** at 57.7 GB in bf16 this model will not fit the card as-is
+either. Their pipeline is diffusers-based, so the same quantisation and offload tricks that made
+FLUX work should apply — but that is an expectation, not something I have verified, and it is the
+next thing that could wall.
+
+### Nothing pulled, nothing installed
+
+The repo is cloned (source only, ~small). No weights, no environment, no changes. The homebrew
+`generate.sh` is untouched. The Wanderer suite is untouched.
+
+**Say go and I start the 57.7 GB.**
