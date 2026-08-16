@@ -15491,3 +15491,78 @@ never be something it chooses, only something set for it or arrived at through b
 **8. The four adapting controls carry names I invented** — Adapt, Invert, Speed, Strength — because
 they have no rows in his panel to copy from. They are shown nowhere. If they ever get rows, he names
 them.
+
+---
+
+# DIRECTIVE 109 — Colour means something now. Three corrections to the evidence first.
+
+Commits `6de23d4` (the plan) and `dda5025` (the wiring). **Full suite green.** Planned into
+`TRAIT_PLAN.md` as PART TWENTY-ONE.
+
+## Every source was fetched and read before anything was built on it
+
+Two of the three do not say quite what the directive summarised, and the differences matter.
+
+| Source | Verified |
+|---|---|
+| **Jonauskaitė & Mohr (2025)**, *Psychonomic Bulletin & Review* **32(4), 1457–1486** | A **systematic review** of 132 articles, 1895–2022, **42,266 participants, 64 countries**. All basic colour categories correspond systematically with **valence, arousal and power** |
+| **Jonauskaitė et al. (2020)**, *Psychological Science* **31(10)** | **4,598 people, 30 nations, 22 languages.** Universal patterns, **r = .88** — and nation predicts **above and beyond** the universal, more so between close languages and geographies |
+| **Valdez & Mehrabian (1994)**, *J. Exp. Psychol. General* **123(4), 394–409** | Saturation and brightness strong and consistent; **hue much weaker.** The measured equations are the usable part |
+
+### Correction 1 — the 42,000 / 64-country figure is the REVIEW's scope
+
+The directive reads as though there were a single study that size. There is not: there is a
+**128-year review** covering that many people across that many countries, and a **separate 30-nation
+study of 4,598**. Both are strong. Neither is what was described.
+
+### Correction 2 — the equations say more than "brighter is better"
+
+```
+Pleasure  =  .69·Brightness + .22·Saturation
+Arousal   = -.31·Brightness + .60·Saturation
+Dominance = -.76·Brightness + .32·Saturation
+```
+
+**Brightness LOWERS arousal, and lowers dominance hard.** A brighter Avatar reads more pleasant but
+**less intense and much less commanding**; a dim, saturated one reads unpleasant but aroused and
+dominant. **That is the second time the research has contradicted what would have been written
+unaided** — Küller's rise-then-fall was the first. Taking only the summary would have collapsed the
+Avatar's whole emotional range into "brighter is better".
+
+### Correction 3 — a tension between the sources, kept rather than smoothed
+
+The association work links **yellow to joy**. Valdez & Mehrabian measured **yellow and green-yellow
+as the LEAST pleasant hues to look at**; blue, blue-green, green and the purples were the most
+pleasant. **Both are true and they answer different questions** — what a colour SAYS is not what it
+DOES to the one wearing it. The design uses association for what a colour expresses, and the
+measured equations for what it costs. Neither answers the other.
+
+## Why this needed no new controls
+
+**Its own two dials ARE the researched variables.** Glow is brightness; Vividness is saturation. And
+the review's three dimensions — valence, arousal, power — are the same three the mood machinery
+already speaks. **The research landed on machinery that was already there.**
+
+## What was built
+
+**Warmth is now a kind of change** — cooling and warming — so a colour can be compared, weighed and
+wanted. Until now the Avatar could *touch* its colours but never *prefer* one, because nothing said
+what a colour change achieves.
+
+- **A colour is a position:** red at the warm end, cyan at the cool, grey neither.
+- **A colour move shifts HUE ONLY.** Saturation and lightness are left exactly as they were, and it
+  stays on its own side of the wheel. **109.5 in code: its born palette is its identity, and mood is
+  weather over it, never a rewrite.** Asserted.
+- **Hue is weighted LOW**, because Valdez measured it much weaker than brightness and saturation.
+  Copying the finding rather than guessing at it.
+- **Culture-specific readings are refused**, per 109.4 — only the universal patterns are used, and
+  the 2020 study's own finding that nation predicts above the universal is why that line is drawn.
+
+**What is ours and marked:** the warmth mapping's exact shape, and its comfort curve. The research
+orders warm against cool; it does not say there is a best point between them.
+
+## Owed and not yet done
+
+**The per-section colouring, and the stage.** 109 says to wire the per-section work with this as its
+meaning layer, and that remains — along with the stage itself, which Lonnie flagged and which is why
+the demo still reads as a cutout on a backdrop. **Next.**
