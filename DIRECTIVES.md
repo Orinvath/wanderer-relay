@@ -1860,3 +1860,28 @@ Build all five improvements into the v1 pipeline:
 Wall rule stands. Then rerun Lonnie's painting end to end through the
 improved v1 and report: timings, where the world landed, what changed
 visibly, what still fails.
+
+## Directive 098 — Rule Zero amended: iterate until it works; then fix the two failures
+
+PART 1 — Lonnie's amendment to RULE ZERO in CLAUDE.md. Append to the
+rule:
+
+RULE ZERO IS ITERATIVE: it does not end at the first pass. Keep
+applying it — stress-test, fix the flaws found, stress-test again —
+until the thing WORKS or is proven unworkable. A named flaw whose
+answer already exists in the source material means: GET THE ANSWER
+FIRST, before building. Never build on a known gap when the filling
+for it is fetchable.
+
+PART 2 — apply it immediately to the two failures:
+1. Fetch their actual cross-face/cross-layer depth alignment method
+   from the HY-World/HunyuanWorld source and apply it — replace the
+   improvised alignment. Measure the disagreement after; iterate until
+   the faces agree or the method itself is proven insufficient here.
+2. Fetch their training camera setup (how stage-5 builds view matrices
+   from the trajectory/panorama) and fix our training pass with it.
+   Verify training actually learns (loss moves, renders non-empty)
+   before running the full pass.
+3. Then rerun the painting end to end; report what changed visibly,
+   what still fails, timings.
+Wall rule stands for genuinely new walls.
