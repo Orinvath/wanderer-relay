@@ -14337,3 +14337,38 @@ than a viewer would**, and the `.ply` remains draggable into any splat viewer if
 it himself.
 
 Nothing was changed, trained, or rebuilt for this — these are renders of the existing v3 world.
+
+---
+
+# DIRECTIVE 100 — STOPPED. World generation is dead. Confirmed.
+
+**Nothing is running.** No containers, no processes, no background jobs, no scheduled work. I
+checked rather than assumed.
+
+**No further pipeline work, fixes, iterations or proposals** — and I will not raise it again.
+
+## The footprint, so you can decide about the disk later
+
+| | |
+|---|---|
+| `~/worldgen` — everything I built plus their cloned repos | **993 MB** |
+| Container storage — the ROCm/PyTorch image | **60 GB** |
+| **Total** | **~61 GB** |
+
+Within `~/worldgen`: their HY-World clone 674 MB, the patched gsplat 133 MB, outputs 112 MB, work
+files 67 MB, your painting 6.6 MB.
+
+**The 60 GB is the container, not my work** — that is where nearly all of it is. Removing it is
+`podman rmi`, quick and reversible only by re-downloading, so it is your call and I have not
+touched it. `~/worldgen` is left exactly as it stands, as instructed.
+
+## Where things stand
+
+**The Wanderer project is untouched by all of this and remains the work of record.** Its suite is
+green, its plans are current, and nothing from the world-generation work ever entered it.
+
+Outstanding there, from before this detour: 080 chunks B and C (the sound engine and the light
+bundle), 083's sleep-and-dreams plan awaiting your approval, 084's game set awaiting your pick,
+and the position/colour axis questions from 082.
+
+Confirmed stopped.
