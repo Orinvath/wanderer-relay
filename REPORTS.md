@@ -15109,3 +15109,61 @@ careful alike.** The band now starts at 0.90.
 **104 still holds — HIDING has joined nothing.** The demo page comes next so you can see it. Also
 open: the four placeholder names on the Adapting controls, whether HOW SMALL is kept at all, and
 the warmth axis from 102.
+
+---
+
+# DIRECTIVE 106 ADDENDUM — Hunted by measurement. It is **Sky Influence**.
+
+Commit `5cb7fe1`. **AVATAR suite now 29, full suite green.** New module `emitted.js` — the
+renderer's own colour pipeline, transcribed, so her output can be measured outside his renderer.
+
+## The answer
+
+**`avatarSkyInfluence` — labelled "Sky Influence", in her *In the World* folder.** Its stated job
+is how much the sky reaches her. **Nothing in that label mentions brightness.**
+
+Found by driving **every one of her controls across its whole range** and measuring what she gives
+off — no label was read. It came out top of the sweep on its own.
+
+## Why the maths goes dark, in his own words
+
+The pipeline is `gradeToSky` (WispAvatar.jsx:40) fed by `_skyDim` (line 687), and his own comment
+there names the side effect outright:
+
+> take its BRIGHTNESS as a real dimming factor against a daylight reference — so a dark sky
+> genuinely puts her out, rather than nudging her a few percent
+
+`_skyDim` is the sky's luminance against a daylight reference, **clamped to a floor of 0.08**. So
+at Sky Influence 100 under a dark sky she is multiplied down to 8% and lands at `#060b0a`.
+
+## Measured, against his own default sky and darker ones
+
+| Sky | dimming factor | she gives off | % of her |
+|---|---|---|---|
+| his default (`#f2a65a`/`#c97b84`) | 0.436 | `#4a5549` | **55.8%** |
+| dusk | 0.187 | `#131e1e` | 18.7% |
+| night | **0.080** (the floor) | `#060b0a` | **6.8%** |
+| near-black | 0.080 | `#060b0a` | 6.4% |
+
+**This is exactly why it could never be found by reading labels.** Under a bright sky the same
+slider barely halves her — **the darkness belongs to the sky, not to the slider.** One control, two
+completely different behaviours depending on a setting that is not hers.
+
+His guard is intact and asserted: **a sky switched off does not grade her at all.**
+
+## A second thing the measurement turned up, which you may not want
+
+**Her Sky Influence sits at 50 by default — so she is already being dimmed by about a third before
+anyone touches anything.** Ungraded she gives off 0.828; as she stands, 0.574. That is not a bug and
+I have changed nothing, but **it means "her own colours" are already the sky's colours, halfway**,
+and that bears on what "coming back to herself" means at the end of a game. **Yours to rule.**
+
+## For the record: the pairs
+
+Against his default sky, the darkest combinations measured were **Rainbow + Glow 0** at 0.061 and
+**Adapt + Strength 100 + Glow 0** at 0.113. Both are darker than Sky Influence alone under that
+sky — **but Glow's label does claim brightness**, so neither is the unlabelled one you meant.
+
+## Proceeding per 106
+
+HIDING is built and green. **Its demo page is still the outstanding piece**, and it is next.
