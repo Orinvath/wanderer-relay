@@ -14009,3 +14009,138 @@ Committed before the change and after it, per the standing rule. The Wanderer su
 
 **Still waiting on you: the 57.7 GB decision for the official panorama step.** RULE ZERO is
 precisely why that one is sitting with you rather than already spent.
+
+---
+
+# DIRECTIVE 096 — Five techniques worth stealing from 2.0, each with what is wrong with it. Nothing built.
+
+I read their code, not their marketing. Everything below is a technique I can point at in their
+repo. **Then I applied RULE ZERO to my own plan**, which killed one item outright and put real
+caveats on three others.
+
+---
+
+## 1. SPLAT SIZE FROM NEIGHBOURS, NOT FROM A GUESS  ·  the biggest win for the least work
+
+**Theirs:** `gs/utils.py` line 147 — `def knn(x: Tensor, K: int = 4)`. Splat scale comes from how
+far each point's nearest neighbours actually are.
+
+**Mine, in v1:** `extent / (n ** (1/3)) * 1.8` — one global number for every splat, from the
+cloud's overall size. **That is the direct cause of the giant soft blobs you saw.** Dense regions
+got splats far too large for their spacing.
+
+**Cost:** minutes. `knn` already ships inside the gsplat we built.
+
+### Rule Zero on it
+- **This alone will not make it look good.** It fixes blobbiness. The geometry underneath is still
+  wrong, so it would give you a *crisper* wrong world.
+- kNN over 369k points needs a moment of VRAM, but it is trivial next to the models.
+- **Evidence quality: strong.** It is standard 3DGS initialisation and it is in their code.
+
+---
+
+## 2. SKY HANDLED SEPARATELY  ·  the layering idea, in its cheapest useful form
+
+**Theirs:** `gs/sky_depth.py`, whose own docstring describes merging sky depth with real depth via
+a *"triple-condition mask (no GT depth AND sky-like normal AND sky rendering coverage)"*.
+
+**Why it matters here:** sky has no real distance. In v1 the depth model invented one, so the sky
+became solid geometry sitting a few metres away — a dome of blobs enclosing the camera. Splitting
+sky off and pushing it to a far shell is most of what "layering" buys, without their full
+sky/background/foreground stack.
+
+**Cost:** a mask and a rule. No new model *if* a simple test works.
+
+### Rule Zero on it
+- **The catch: how do I know what is sky?** Theirs uses predicted surface normals plus a
+  rendering pass. Mine has neither. The cheap substitute — "upper part of the image, low depth
+  confidence" — **is exactly the kind of homebrew approximation you have already rejected once.**
+- A proper answer means a segmentation model, which means another download and another VRAM
+  tenant.
+- **So this is the item most likely to turn into improvisation, and I would want you to see the
+  mask before it is trusted.**
+
+---
+
+## 3. A REAL 3DGS TRAINING PASS  ·  the thing v1 never had at all
+
+**Theirs:** stage 5 of their pipeline, "Gaussian Splatting optimization with depth/normal/mask
+regularization".
+
+**Mine:** none. v1 converted points to Gaussians and stopped. **That is why I told you it would
+look like a fine point cloud — it is one.** Training is what turns splats into a scene: positions,
+scales, rotations and opacity get optimised against the images.
+
+Our patched gsplat can do this; it is the library's main purpose.
+
+### Rule Zero on it
+- **Training needs many views to train against, and we have one panorama.** Training against
+  re-projections of a single image mostly teaches it to reproduce that image — **it cannot invent
+  what was never seen.** This is the honest ceiling.
+- **Time: minutes to tens of minutes per world**, on a 6-core with a 20 GB card. v1's whole run
+  was under a second at this stage. This is the single biggest time cost on the list.
+- **VRAM: real.** Training holds gradients for every Gaussian. 369k is fine; a denser world may
+  not be.
+- **Their regularisers need normals and masks we do not produce.** We would train with a weaker
+  signal than theirs.
+
+---
+
+## 4. VIEW-DEPENDENT COLOUR (higher SH degree)
+
+**Theirs:** `sh_degree: int = 3` in `gs/utils.py`.
+
+**Mine:** band-0 only — every splat one flat colour from every angle. Higher bands let a splat
+change with viewing direction, which is much of what makes a splat scene feel lit rather than
+painted-on.
+
+### Rule Zero on it
+- **Nearly pointless without item 3.** SH coefficients are *learned*. Without training there is
+  nothing to learn them from, so this is not a standalone improvement — **it is a rider on the
+  expensive item.**
+- Memory grows with the square of the degree: degree 3 is 16 coefficients per colour channel per
+  splat, against 1 today.
+
+---
+
+## 5. PERSPECTIVE DEPTH VIA CUBEMAP FACES  ·  already diagnosed, still the root fix
+
+Six flat views from the panorama, MoGe on each (which is what it is built for), unproject each with
+its own camera, merge.
+
+### Rule Zero on it
+- **The seams are a real problem I have not solved.** MoGe returns *relative* depth per image, so
+  six faces come back at six different scales and will not agree at the joins. Their pipeline has a
+  whole cross-layer alignment step for exactly this. **Mine would need one and I do not have their
+  method.**
+- Six inferences instead of one — still only ~2 minutes, MoGe is fast.
+- **Evidence quality: strong for the diagnosis, weak for my proposed cure.** That MoGe is the wrong
+  tool for an equirect is certain. That my alignment will hold is not.
+
+---
+
+## The item I am NOT proposing, because Rule Zero killed it
+
+**Their WorldStereo video-expansion stage.** It is what generates genuinely unseen parts of the
+world, and it is the thing that would most improve output. **It is a diffusion video model needing
+multiple datacenter GPUs.** Not adaptable, not quantisable into 20 GB. Naming it so you know what
+we are *not* getting.
+
+---
+
+## The quality ceiling, stated plainly
+
+**A tweaked v1 does not become HY-World 2.0.** Their output comes from an 80B image model, a
+video-diffusion expansion stage, and a VLM planning camera paths across eight cards. Ours is one
+painting, one depth pass, and a splat fit on a 20 GB consumer card.
+
+**What these five could realistically deliver:** a world that is sharp instead of blobby, whose sky
+sits behind everything rather than around your head, with real depth where the painting had depth
+— **and which still falls apart if you walk far from where the camera started**, because nothing
+ever saw behind anything.
+
+**My honest ranking if you want one:** 1 and 5 are the fixes without which nothing else matters.
+3 is the biggest visible gain and the biggest cost. 2 is valuable but is where I would most likely
+improvise, so it needs your eye on the mask. 4 only makes sense if you buy 3.
+
+**Nothing built. Nothing downloaded. Your pick.**
