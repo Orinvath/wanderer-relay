@@ -14298,3 +14298,42 @@ kNN pass 27 s, training 2 s for 300 iterations.
 3× face disagreement and a longer train would only fit the splats more faithfully to wrong
 geometry. **Fixing the alignment first is the right order**, and that needs your call between the
 two options above.
+
+---
+
+# DIRECTIVE 099 — Six angles rendered and opened on his screen. No paths to chase, no viewer to install.
+
+Rendered `out/v3/Test` from six cameras through our own patched gsplat — the same splats, kNN-sized,
+same code path the pipeline uses — and **opened them in Chrome directly**, plus a labelled montage
+of all six at once.
+
+## What is on his screen
+
+**Three tabs:** the montage of all six, the forward view full size, and the sky mask.
+
+| View | What he is looking at |
+|---|---|
+| **FORWARD** | Straight ahead from where the camera stands — the part of his painting that survived intact |
+| **LEFT / RIGHT** | A quarter turn each way. **This is where the face-seam tearing shows.** The left and right cube faces disagree with the front by roughly 2× and 2.7×, so anything crossing those boundaries is at the wrong distance — expect things to appear stretched, torn, or floating at the wrong depth |
+| **BEHIND** | The back of the circle. **Worst-affected**, because the scale error compounds all the way round the ring — the 14% closure error lands here |
+| **UP** | Straight up. Mostly the sky shell, which the sky split pushed out to a far distance rather than leaving where the depth model invented it |
+| **OVERVIEW** | Pulled back and slightly above, outside the world looking in. **This is the honest one** — it shows the whole thing as a shell of splats and makes the geometry errors visible all at once instead of hidden behind you |
+
+**The sky mask** is the third tab: white is what my improvised rule caught as sky. **That is the
+part I flagged as not their method** — two of their three conditions, in weaker form — and it is
+there to be judged, not trusted.
+
+## Where to look for the failure
+
+**The tearing is at the vertical seams between faces**, most visible in LEFT, RIGHT and BEHIND,
+and clearest of all in OVERVIEW where the shell's shape is exposed. **Anything that looks like the
+world is at two different distances at once is the alignment failure**, not a rendering artefact.
+
+## No live viewer offered
+
+The directive said not to build anything heavy, and a page that streams a 20 MB splat file with a
+camera rig is not trivial here. **Six real renders plus the montage answers the question faster
+than a viewer would**, and the `.ply` remains draggable into any splat viewer if he wants to fly
+it himself.
+
+Nothing was changed, trained, or rebuilt for this — these are renders of the existing v3 world.
