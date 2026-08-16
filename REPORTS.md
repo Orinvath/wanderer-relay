@@ -14869,3 +14869,66 @@ amount of fixing the page changes that.
 **Two things are his to decide, and I have not decided either:** whether to show this game
 differently so the play reads, or whether HOW SMALL is simply the wrong one to open with — **HIDING
 is next in his own order and is a game you can actually watch happen.**
+
+---
+
+# OFF-DIRECTIVE — Her whole panel is now in the Wanderer. Nothing is held back.
+
+Lonnie's ruling in the terminal, not a numbered directive: *"The whole avatar panel needs to be
+present including all settings, even the ones that are not active... better that they are here and
+ready to go when we need to do so."* Commit `d0e5f1b` (CC-Wanderer). **Full suite green** —
+CAPABILITIES 26, EFFECTS 47, and every other suite unchanged.
+
+## What was missing, measured rather than guessed
+
+Her panel in the live build is **46 rows across 7 folders**. The port had **27**. Missing:
+
+- **The whole Head folder** — points, sharpness, valley, thickness, sweep, size, rotate.
+- **The whole Behaviour folder** — how often she speaks up, first words, bridge chatter, your
+  pause, away timer, looks around, and all four roaming settings.
+- **Two odd rows** I had held back: Stiff Length and Link Head to Tendrils.
+- **And four that are in no folder at all**: `avatarAdapt`, `avatarAdaptInvert`, `avatarAdaptSpeed`,
+  `avatarAdaptStrength` — **the octopus controls**. They live in her preset and in `config.js` but
+  were never given panel rows, which is exactly why they were the four that never came across.
+
+**All 50 are now ported**, regenerated straight from `Gui.jsx` and `config.js` rather than typed by
+hand, so every range and default is his. The `SELF_EXCLUDED` and `SELF_ROWS_EXCLUDED` lists are now
+empty.
+
+## PRESENT IS NOT ACTIVE, and that distinction is deliberate
+
+A control is **here** the moment it is ported. It becomes something she can **weigh and choose**
+only when a kind of change names what it does. Her head shape, her timers, her colours and her
+adapting are all present and reachable — **and none of them produces a candidate**, because
+reshaping her own head is not the same sort of act as brightening, and nothing yet says what it is.
+
+**Two new assertions hold that line**, so it cannot drift either way: nothing is held back, and the
+silent ones are genuinely silent rather than quietly choosable.
+
+## Four labels are mine, and they are placeholders
+
+The four adapting settings have **no labels to copy, because they have no panel rows.** Their kinds
+and ranges are his — the two switches are his `false`/`false`, Strength carries his own comment
+*"percent — 100 means she becomes the world's colour entirely"*, and Speed is a rate he set to 0.35
+with **no range stated anywhere**, so it is carried as a typed number rather than given bounds I
+invented. **The four names — Adapt, Invert, Speed, Strength — are mine and are for him to rename.**
+
+## The preset system, checked before recommending anything
+
+His instruction was that the preset system comes over too. **It is in better shape than I expected
+and the reason is worth recording:** presets in the portal write **real files** (`Somewhere/data/`),
+with browser storage only as a cache — and they save settings **by what a setting is about**, not
+by which panel it sits in, because a control once moved between panels and quietly left one preset
+and joined another. **That design is why the four adapting settings are in her preset at all.**
+Porting it is the next piece and is not yet started.
+
+## The design agreed in the terminal, for the record
+
+The hiding game, in his words and his rulings: the octopus adaptation is **only active while she is
+playing** — otherwise she is her persona's own colours. The **body** does the blending itself and
+**reports up** what it looks like and how hidden it is; the mind does not drive it but is aware of
+it. It is a **two-way street** — she can also tell it what to do. **Coming back to her own colours
+is part of the game ending.**
+
+**Not started, and waiting on his go.** Also still open from earlier: whether HOW SMALL is kept at
+all, and the warmth axis question from 102.
