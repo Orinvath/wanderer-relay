@@ -2048,3 +2048,15 @@ decision to hide as a visible move, the hunt move by move, how-hidden
 readout, her own ending, and the coming home. Open it on his screen
 when ready and report. HIDING joins the capability set only on his
 approval on sight.
+
+## Directive 108 — Rule clarified: the copies are the Wanderer's to change
+
+Lonnie's clarification, for the record and HANDOFF.md: the untouchable
+rule protects the ORIGINAL Elsewhere files (the chamber). The COPIES in
+CC-Wanderer are the Wanderer's own working files — they may be edited
+as the work requires, no per-edit permission needed.
+
+So: apply the two-line uTint to the CC-Wanderer copy of
+wisp_avatar1.html (the same recolour the live body carries), put her
+real body in the hiding demo in place of the disc, open it in a real
+browser, then on Lonnie's screen. Report.
