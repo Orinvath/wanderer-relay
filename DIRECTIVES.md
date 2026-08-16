@@ -1984,3 +1984,26 @@ scheduled.
 
 Nothing joins the Avatar without his eyes on it first. Report when
 the first demo is ready to show.
+
+## Directive 105 — Port order ruled: the whole Avatar system, then the whole Stage system
+
+Lonnie's ruling: before the hiding game is built, complete the ports —
+she needs a real self and a real world to blend into.
+
+1. THE ENTIRE AVATAR PANEL/SYSTEM: the 50 rows are ported; finish the
+   system around them — the PRESET SYSTEM (real files as in the portal,
+   settings saved by what they are about), and anything else of hers
+   still behind (renderer pieces, adapt machinery the octopus controls
+   drive). Her panel in the Wanderer should be complete: load her
+   preset, see her whole self.
+2. THEN THE ENTIRE STAGE PANEL SYSTEM: verify what 080 actually ported
+   versus the live build the same way the Avatar panel was measured
+   (regenerate from source, not from memory) — Worlds, Painted Sky,
+   Planes, Props, Music Score, its presets, all of it. The stage is
+   what she blends INTO; the game is only testable against the real
+   thing.
+3. Chamber read-only, copies only, everything into CC-Wanderer. Suites
+   green. Report each system complete, with the measured row/feature
+   counts against the live build.
+
+The hiding game build waits until both reports land and Lonnie says go.
