@@ -1965,3 +1965,22 @@ citations carried), dream content distilled from the day's actual
 memories, rendered as drifting glyphs above the sleeping Avatar,
 fading in and out. The glyph index work it depends on is licensed.
 Standing laws bind. Suite green. Report.
+
+## Directive 104 — Games: build to DEMO, nothing added until Lonnie SEES each
+
+Lonnie's ruling: no game is added to the Avatar until he has SEEN it.
+
+Process: build each game as a demonstrable piece — runnable in
+isolation (harness-style page or the chunk-4 watching build when it
+exists), showing the Avatar actually playing it. Demo one game at a
+time to Lonnie; he approves or rejects each ON SIGHT; only approved
+games join the capability set.
+
+Order: start with what is buildable today and blocked by nothing —
+HOW SMALL and HIDING (both pure endowment, 102 unblocked hiding).
+THE SAME AGAIN third. The glyph games follow the 103 glyph index; the
+sound games follow 080 chunk B, which remains owed and should be
+scheduled.
+
+Nothing joins the Avatar without his eyes on it first. Report when
+the first demo is ready to show.
