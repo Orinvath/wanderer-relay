@@ -2007,3 +2007,23 @@ she needs a real self and a real world to blend into.
    counts against the live build.
 
 The hiding game build waits until both reports land and Lonnie says go.
+
+## Directive 106 — Lonnie's answer to the 0.80 ceiling: she can go dark
+
+Lonnie: one of her own sliders takes her completely black — her glow
+is not fixed. He does not recall which row (over a week since he
+touched it); find it among her 50 (candidates: whatever governs light
+strength/emission/brightness in her folders — regenerated from his
+Gui.jsx, so it is in the port).
+
+Verify against the real renderer: with that slider down, does her
+light actually go to nothing? If yes, the 0.80 ceiling was an artifact
+of hiding with colour alone — the true game uses BOTH: blend the
+colours AND dim the light, aspect-driven like everything (a bold
+Avatar hides half-lit; a careful one goes black). Remeasure best
+hiding with both together and report the new floor.
+
+Then the hiding game is GO as designed (102/105 record), with going
+dark part of her hiding vocabulary and coming back to her own light
+and colours part of the ending. Report the slider found, the measured
+result, and the game when demonstrable.
