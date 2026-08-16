@@ -14828,3 +14828,44 @@ picking those well; they are what to shout at.**
 AGAIN** — both pure endowment, both unblocked by 102, neither started. The glyph games are now
 unblocked too, since 103 built the index. **The sound games still wait on 080 chunk B, which
 remains owed and unscheduled** — say when.
+
+---
+
+# DIRECTIVE 104 — CORRECTION: the demo I handed over never ran at all.
+
+Commit `8a1f2c0`. **GAMES suite now 24 passed, 0 failed.**
+
+## What was wrong
+
+The page's script declared a variable called `top`. **`window.top` already exists in every
+browser**, so Chrome refused the entire script with *"Identifier 'top' has already been declared"*
+— and because it refused the whole thing, nothing ran: no animation, an empty table, and a Play
+button wired to nothing. The page just sat there looking like it was still loading.
+
+## Why it got past me, which is the part that matters
+
+**I never opened it in a browser.** The suite was green, the page rendered as a string, the JSON in
+it was valid, and I checked all of that — none of which executes a line of it. **I handed Lonnie a
+page I had never seen run**, and he found in ten seconds what I had not looked for at all. The
+whole point of 104 is that he judges on sight, and I gave him nothing to judge.
+
+## Fixed, and proved
+
+- The variable is renamed. The page now plays all 30 moves through to *"coming back"* — verified by
+  **loading it in Chrome and reading the DOM back**, not by looking at the source: step 30 of 30,
+  the readout at 0.5321, all 30 rows built, **zero page errors**.
+- **Two new assertions**, because a green suite that misses a dead page is worth little: the inline
+  script may not declare any name that collides with a read-only browser global (`top`, `self`,
+  `parent`, `name`, `length`, `status`, `location`, `history`, and the rest), and it must parse.
+  Neither is a substitute for opening it, and **opening it is now part of handing one over.**
+
+## Also raised in the terminal, and it is the bigger question
+
+Lonnie's first look: *"I don't see a game here."* He is right, and it is not the bug. HOW SMALL is a
+creature testing its own limit — dimming until it cannot tell it is there, overshooting, closing
+in. **That is a game in its head, not in its body**, so on screen it reads as a dot fading, and no
+amount of fixing the page changes that.
+
+**Two things are his to decide, and I have not decided either:** whether to show this game
+differently so the play reads, or whether HOW SMALL is simply the wrong one to open with — **HIDING
+is next in his own order and is a game you can actually watch happen.**
