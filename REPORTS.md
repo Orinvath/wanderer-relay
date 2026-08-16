@@ -15267,3 +15267,59 @@ So the real body can be served and run locally, read-only, without reaching the 
 
 **HIDING is built, green, and joined to nothing.** Its demo works but shows a disc. **Nothing else
 proceeds until he rules on the tint.**
+
+---
+
+# DIRECTIVE 108 — Her real body is in the demo. It is on his screen.
+
+Commit `ee65c28`. **GAMES suite 46, full suite green.** The rule clarification is recorded in
+`HANDOFF.md` as standing law.
+
+## The rule, recorded
+
+**The untouchable rule protects the ORIGINALS — the chamber.** The **copies** inside CC-Wanderer are
+the Wanderer's own working files and may be edited as the work requires, **with no per-edit
+permission.** Written into `HANDOFF.md` beside the others, with the reason: the terminal treated a
+copied file as if it were the original and stopped to ask before a two-line change, which cost a
+turn and made Lonnie decide something that was never his to decide.
+
+## The tint
+
+Applied to `avatar/wisp_avatar1.html` — **our copy**. Three lines in the end: the uniform declared,
+`vCol=aColor*uTint` in her vertex shader, and the palette reference she was built from, so a tint
+equal to it leaves her exactly as drawn. **The same shape the live `WispAvatar.jsx` has always
+carried** — her root-to-tip gradient kept and merely shifted, never flattened.
+
+Plus a setter so something outside can drive her: the colour asked for, divided by her build
+palette. **Her shape, her strands and her randomised build are untouched.**
+
+## Her body is now what the demo shows
+
+The disc is gone. **That is Avatar 1 out of the blueprint** — her tendrils, her star head, her eye
+core — standing in the archway of his near plane, taking the colour the game gives her.
+
+**She runs on three off disk.** Her file was written for a CDN at r128; the build here is 0.185.1,
+every API she uses still exists in it, and both module files are served locally. **Nothing on the
+page reaches the network.**
+
+## Two real faults the browser check caught, before he saw it
+
+1. **She did not draw at all the first time.** `three.module.js` imports a sibling, `three.core.js`,
+   and only the first was being served — so `THREE` was never set and her boot never ran. The page
+   looked fine and was empty where she should be. **Both are served now.**
+2. **Her own page background covered the painting.** Her standalone page paints its own gradient
+   ground and carries Front/Side buttons — furniture for looking at her alone. Embedded, the ground
+   is made transparent and the furniture hidden, **done as she is served so her file stays exactly
+   right for standalone use.**
+
+Verified by loading it headless and **looking at the screenshot** — not by reading the source. She is
+visibly there, glowing in the arch, painting showing through.
+
+## What is still not real, named on the page itself
+
+**She is over the painting, not standing in a world with it behind her.** This is her against a
+backdrop, not her in a place — no depth, no parallax, no stage. That is the next thing, not this one.
+
+## Waiting on him
+
+**HIDING has joined nothing.** 104 holds and the suite asserts it. **Approve or reject on sight.**
