@@ -13575,3 +13575,69 @@ The moment there is one, the end-to-end run happens.
 - **One painting end to end: waiting on you**, and only on you.
 
 The Wanderer suite is untouched and still green. Nothing claimed as working that I have not run.
+
+---
+
+# DIRECTIVE 091 — THE PAINTING DID NOT MAKE IT THROUGH. Three real bugs found by running it, two fixed, and the third has an answer already sitting on your disk.
+
+`Test.png` went in. **No world came out.** All four stages ran, the failure was at stage one every
+time, and the pipeline behaved exactly as designed around it — skipped the item, carried on, named
+it in the summary, put the card back.
+
+## What broke, in order
+
+**1. The container was handed a host path.** `{IN}` expanded to
+`/home/nobara-user/worldgen/in/Test.png`, which does not exist *inside* the container, where that
+folder is `/work/in`. Fixed — paths are translated now, and the comment in `generate.sh` says why.
+
+**2. FLUX ran out of video memory.** At 2048×1024 it asked for 4.50 GiB with 4.46 GiB free on the
+20 GB card — 11 GB already held by the model. **This is the 086 prediction landing exactly where I
+said it would**, just at a different stage than expected.
+
+I switched to sequential offload, which pages the model component by component instead of holding
+whole components resident. **That fixed the GPU.**
+
+**3. And moved the problem to system memory, where it was worse.** Sequential offload streams the
+model through host RAM. FLUX.1-dev in bf16 is ~24 GB; this machine has **31 GB with 18 already in
+use**. The kernel's OOM killer took the process — no traceback, just gone, which is why the log
+shows a clean stop at step 0 of 16 with no error.
+
+**I traded a GPU memory problem for a host memory problem and the host had less headroom.** That
+one is mine, and it is the kind of thing only running it would have shown.
+
+## The answer is already on your disk
+
+**`~/ComfyUI/models/unet/flux1-dev-Q6_K.gguf` — 9.8 GB, against 24 GB for the uncompressed one.**
+
+That is the quantised FLUX **your own validated world-gen recipe already uses**. At 9.8 GB it fits
+the card without sequential offload at all, which removes both failures at once — no host
+streaming, no OOM killer, and faster because nothing is paging.
+
+I pointed the stage at the full-fat model because that is what sits in `~/models/FLUX.1-dev` and
+looked canonical. **It was the wrong choice and your recipe already had the right one.**
+
+## What did work, and is worth keeping
+
+- **The pipeline's failure handling is real, proven on a real failure** — one bad item, skipped
+  through all four stages, named at the end, batch intact, Ollama untouched (it was not running).
+- **AOTriton flash attention kicked in automatically** — `Using AOTriton backend for Flash
+  Attention forward`. That is the SDPA fallback I said in 086 would cover for the CK build that
+  will not compile on gfx1100. **Predicted, and confirmed by the machine.**
+- **FLUX loads, the equirect LoRA loads, and generation starts** on an AMD card. Everything up to
+  the memory ceiling is working.
+
+## Timings
+
+| | |
+|---|---|
+| FLUX pipeline load (7 components, 196 weight shards) | ~2 s from page cache |
+| Reached first denoise step | ~40 s |
+| Killed | at step 0 of 16 |
+| Stages 2–4 | not reached |
+
+## What I want to do next, and it is one line of change
+
+**Point the panorama stage at `flux1-dev-Q6_K.gguf` and rerun.** Nothing else changes. It needs
+the GGUF loader path rather than the diffusers folder, which is a small edit to one stage.
+
+Everything is committed. The Wanderer suite is untouched.
