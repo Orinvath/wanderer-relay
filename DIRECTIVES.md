@@ -1791,3 +1791,15 @@ step by step, no improvisation:
 
 The homebrew generate.sh stays as-is, untouched, until the official
 flow is judged by his eye. Wanderer suite untouched.
+
+## Directive 094 clarification — wrong component: worldgen, not WorldMirror
+
+The multiple-views requirement belongs to WorldMirror 2.0 — the
+multi-view/video RECONSTRUCTION component. That is not our path.
+
+Use the WORLDGEN component: single image in. Per the repo's own
+quickstart: HunyuanPanoPipeline.from_pretrained('tencent/HY-World-2.0')
+→ pipeline('input.png') → panorama; then the five-stage worldgen flow
+(hyworld2/worldgen/README.md) takes the panorama to the navigable
+world. The sleepingrobots AMD port ran exactly this path. Proceed on
+worldgen.
