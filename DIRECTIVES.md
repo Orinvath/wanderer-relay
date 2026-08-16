@@ -1931,3 +1931,27 @@ now, in order, each per its original directive:
    of, what a watching host would see). Proposals only, Lonnie picks.
 
 Report all three to REPORTS.md. Nothing else starts until these land.
+
+## Directive 102 — THE GENERAL LAW OF THE AVATAR'S OWN BODY, and the two rulings
+
+Lonnie's ruling, stated as permanent law because he should never have to
+restate it (joins HANDOFF.md):
+
+THE AVATAR'S OWN BODY AND ENDOWMENT HAVE NO LIMITATIONS. Anything its
+body can do, it may do — whether it DOES is decided by its aspects,
+through the existing machinery (appraisal, goals, mood), like everything
+else. An antsy Avatar moves constantly; a calm, content one barely
+stirs. We never gate its own body; its ten gate everything by being who
+it is. (The panel gate of 082 is untouched — that is Lonnie's tooling,
+not its body.)
+
+Applied immediately:
+1. POSITION: ruled — its position is its own. Movement joins the
+   endowment (drift, approach, retreat, hide, wander), aspect-driven.
+2. COLOUR (082's second open question): same law — if its form has
+   colour, colour is its own.
+3. The games list updates: HIDING is unblocked; THE SAME AGAIN may use
+   its own pulse speed — the speed knobs that remain Lonnie's are the
+   PANEL's world-speed controls, never the Avatar's own body tempo.
+
+Record the law, apply the rulings, update the plans. Report.
