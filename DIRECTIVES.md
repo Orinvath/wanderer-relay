@@ -1762,3 +1762,32 @@ Lonnie approved. Point the panorama stage at his quantised FLUX
 (~/ComfyUI/models/unet/flux1-dev-Q6_K.gguf, GGUF loader path) and rerun
 the painting end to end. 092's RAM breakdown still wanted alongside.
 Report per 091: timings, VRAM, where the world landed, how he opens it.
+
+## Directive 094 — Replace the homebrew: the official HY-World 2.0 pipeline, step by step
+
+Lonnie's ruling: our pipeline was a homebrew approximation and its
+output failed his eye — all of it. Follow the OFFICIAL pipeline instead,
+step by step, no improvisation:
+
+1. THE TUTORIAL: HY-World 2.0 (github.com/Tencent-Hunyuan/HY-World-2.0)
+   — the documented worldgen flow (hyworld2/worldgen/README.md): image →
+   HunyuanPanoPipeline panorama → the five-stage navigable-world
+   pipeline, with its LAYERING (sky/background/foreground separated,
+   per-layer depth) — the step our homebrew lacked and the reason ours
+   read as a point cloud.
+2. THE AMD GUIDE: the sleepingrobots HY-World-2.0-on-AMD write-up is
+   the compatibility map — it IS this pipeline on consumer AMD. Our
+   patched gsplat and ROCm environment already satisfy its hard part.
+   Follow its deviations wherever official steps assume CUDA.
+3. Environment per their README (python 3.11 env) inside our container;
+   weights auto-download or to the second drive. VRAM discipline as
+   designed: stages sequential, nothing concurrent, quantized where
+   their docs allow.
+4. Wall rule stands: a genuinely new wall = stop and report with the
+   exact error, no thrashing, no homebrew substitutions — the point of
+   this directive is NO improvisation.
+5. Run Lonnie's painting through the official flow end to end. Report
+   timings, where the world landed, how he opens it.
+
+The homebrew generate.sh stays as-is, untouched, until the official
+flow is judged by his eye. Wanderer suite untouched.
