@@ -1841,3 +1841,22 @@ card — but its TECHNIQUES may transfer.
    (a tweaked v1 never becomes their 80B output).
 3. Report the plan WITH its flaws, item by item, for Lonnie to pick
    what gets built. Build nothing.
+
+## Directive 097 — Approved: build all five into v1
+
+Lonnie's ruling: Rule Zero was applied, the flaws are on record — go.
+Build all five improvements into the v1 pipeline:
+
+1. Splat size from k-nearest neighbours (their gs/utils.py knn approach).
+2. Sky split out via their triple-condition mask idea — improvised parts
+   flagged in the report for Lonnie's eye.
+3. The real 3DGS training pass on our patched gsplat (their stage-5
+   regularization approach as the guide); time cost reported per world.
+4. View-dependent colour (SH degree) — riding on 3.
+5. Perspective depth via six cubemap faces + MoGe, with your best
+   cross-face alignment; the unproven-alignment flaw stands — report
+   honestly how it held.
+
+Wall rule stands. Then rerun Lonnie's painting end to end through the
+improved v1 and report: timings, where the world landed, what changed
+visibly, what still fails.
