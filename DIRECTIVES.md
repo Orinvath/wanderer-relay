@@ -1955,3 +1955,13 @@ Applied immediately:
    PANEL's world-speed controls, never the Avatar's own body tempo.
 
 Record the law, apply the rulings, update the plans. Report.
+
+## Directive 103 — Sleep and dreams plan APPROVED: build it
+
+Lonnie approved the 083 plan as reported. Build sleep and dreams:
+sleep as a real clocked state (pressure aspect-computed, provisional
+numbers marked), dreaming as the reflection step (consolidation
+citations carried), dream content distilled from the day's actual
+memories, rendered as drifting glyphs above the sleeping Avatar,
+fading in and out. The glyph index work it depends on is licensed.
+Standing laws bind. Suite green. Report.
