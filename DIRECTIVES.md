@@ -1885,3 +1885,20 @@ PART 2 — apply it immediately to the two failures:
 3. Then rerun the painting end to end; report what changed visibly,
    what still fails, timings.
 Wall rule stands for genuinely new walls.
+
+## Directive 099 — Show Lonnie the world. Make it effortless.
+
+Lonnie needs to SEE it — no file paths, no viewers, no dragging.
+
+1. Render out/v3/Test/world.ply from several angles (camera at start
+   position: forward, left, right, behind, up, plus one pulled-back
+   overview) using our gsplat. Write them as PNGs.
+2. Put the images somewhere he sees them with zero effort — open them
+   on screen directly (xdg-open each, or a single montage image
+   opened full-size). Announce in the terminal what he is looking at:
+   one line per image, plain words, including where the face-seam
+   tearing shows so he knows what to look for.
+3. If a live viewer is trivially available (our harness pattern — a
+   local page that loads the ply), offer it as one clickable link
+   printed in the terminal. Do not build anything heavy for this.
+Report what was shown.
