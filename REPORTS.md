@@ -14228,3 +14228,73 @@ alignment may need their method rather than mine, and I would rather say that no
 another round.
 
 Nothing was claimed as working that I did not run. The Wanderer suite is untouched.
+
+---
+
+# DIRECTIVE 098 — Amendment placed. Training FIXED with their method and verified learning. The alignment method you told me to fetch does not exist in their source, and here is why.
+
+## Part 1 — RULE ZERO is now iterative
+
+Appended in `CC-Wanderer/CLAUDE.md`, directly under the original rule, in your words: iterative,
+stress-test → fix → stress-test until it works or is proven unworkable, and **a named flaw whose
+answer exists in the source means get the answer first**.
+
+I added one line of my own underneath: *"Stating a flaw is not discharging it."* Writing "my
+alignment is unproven" and then building on it anyway is exactly what the amendment stops — and
+the answer was in a repo already sitting on this disk.
+
+## Part 2, item 2 — TRAINING: FIXED, and verified before running anything long
+
+**Their method, fetched not invented.** `gs/extract_mesh.py:227` and `gs/sky_depth.py:157` both do
+the same thing: build a **camera-to-world** matrix, then `viewmat = torch.linalg.inv(c2w)`. And
+`gs/normalize.py:10` states the convention plainly — **c2w is OpenCV: x right, y DOWN, z forward.**
+
+**My bug, exactly:** I built a view matrix *by hand*, never inverted a c2w, and guessed the
+handedness. The cameras pointed nowhere, every render came back empty, and the "loss" was just the
+constant distance from black to the target.
+
+**Before (v1 of the trainer):**
+```
+iter     0/1500  loss 0.1674
+iter  1200/1500  loss 0.1674      <- flat. not learning.
+```
+**After (their construction):**
+```
+iter     0/300   loss 0.2532
+iter   299/300   loss 0.1720      <- moving. learning.
+```
+
+**The loss now falls.** I verified with a short 300-iteration run *before* committing to a long
+one, as you asked.
+
+## Part 2, item 1 — the alignment method is NOT in their source, and I want to be exact about that
+
+I searched their code for it — `grep` across `gs/` and `src/` for align / scale-shift / lstsq /
+median-depth. **What is there:** `lib_bilagrid.py` uses `torch.linalg.lstsq` for *colour* grids,
+`normalize.py` normalises *camera* poses, `sky_depth.py` merges sky depth into ground-truth depth
+by mask.
+
+**What is not there: any cross-face depth-scale alignment.** And the reason is structural —
+**their pipeline never has this problem.** They do not cut a panorama into six faces. They plan a
+camera trajectory and generate consistent keyframes with a video-diffusion model, so their views
+arrive already consistent. **The alignment step I was told to fetch is a fix for a problem only my
+approach creates.**
+
+So the honest position on item 1: **the answer is not fetchable because it does not exist**, and
+my 3× disagreement stands unfixed. That is a genuinely new wall of a different kind — not "I could
+not find it" but "it is not there" — so I have stopped rather than improvise a second time.
+
+**Two real options, and both are yours:** overlap the faces far more heavily so the shared-ray
+estimate has much more to work with, or drop cubemap faces and find a panorama-native depth model
+that returns one consistent depth for the whole sphere — which would remove the problem instead of
+patching it, and is the more honest fix.
+
+## Where it stands
+
+`out/v3/Test/world.ply` — 596,277 gaussians, kNN-sized, sky separated, **now genuinely trained**.
+kNN pass 27 s, training 2 s for 300 iterations.
+
+**I have not run the full pass or shown it to you**, because the geometry underneath still has the
+3× face disagreement and a longer train would only fit the splats more faithfully to wrong
+geometry. **Fixing the alignment first is the right order**, and that needs your call between the
+two options above.
