@@ -14144,3 +14144,87 @@ ever saw behind anything.
 improvise, so it needs your eye on the mask. 4 only makes sense if you buy 3.
 
 **Nothing built. Nothing downloaded. Your pick.**
+
+---
+
+# DIRECTIVE 097 — Three of five landed, one is measurably shaky, one does not work. The numbers are below and they are not flattering.
+
+## 5. CUBEMAP DEPTH — built, and the alignment flaw you told me to keep flagged has now been MEASURED
+
+Six faces at 100° so neighbours genuinely overlap, MoGe on each, scaled to its neighbour by the
+median depth ratio on shared rays. **Six faces in 18 s.**
+
+```
+front  -> right   ratio   2.030  on 696 shared rays
+right  -> back    ratio   2.737  on 506 shared rays
+back   -> left    ratio   0.458  on 666 shared rays
+front  -> up      ratio   1.113  on 681 shared rays
+front  -> down    ratio   1.089  on 664 shared rays
+RING CLOSURE: 1.142
+```
+
+**Read those honestly.** If the faces agreed, every ratio would sit near 1.0. Two of them are
+2.03 and 2.74, and one is 0.458 — **neighbouring faces disagree about distance by up to three
+times.** Top and bottom are fine (1.11, 1.09); it is the horizontal ring that is wrong.
+
+**Ring closure is 1.142** — walking front→right→back→left→front leaves a 14% scale error. That
+number exists because I made the code measure it rather than assume it.
+
+**So: the diagnosis was right and my cure is weak, exactly as Rule Zero predicted.** MoGe's
+per-image relative scale varies too much between views for a median-ratio chain to fix. Their
+pipeline has a dedicated cross-layer alignment stage and this is why.
+
+## 2. SKY SPLIT — built, improvised, and the mask is written out for your eye
+
+**436,711 solid points + 159,566 sky points.** The sky is pushed to a far shell instead of taking
+the distance MoGe invented for it.
+
+**Improvised, as flagged:** theirs uses no-depth AND sky-like normal AND sky coverage. **I have no
+normals and no rendering pass**, so mine is two conditions in weaker form — MoGe says invalid, and
+the ray points upward. **The mask is saved as `work/recon2/Test/skymask.png`** precisely so you can
+see what it caught rather than take my word.
+
+## 1. kNN SPLAT SIZE — built, and it needed writing from scratch
+
+gsplat exports no `knn`; theirs lives in their own `gs/utils.py`. I wrote it directly — chunked
+`cdist`, 4 neighbours — because 596k points will not take a full distance matrix. **This is the
+fix for the giant blobs**, and it is the one item I have no reservations about.
+
+## 3. TRAINING — WIRED BUT NOT WORKING. Do not count this one.
+
+```
+iter     0/1500  loss 0.1674
+iter   300/1500  loss 0.1674
+iter  1200/1500  loss 0.1674
+iter  1499/1500  loss 0.2296
+```
+
+**The loss does not move for 1200 iterations and then gets worse.** And 1500 iterations over
+596,277 gaussians finished in **5 seconds**, which is impossibly fast — a real training pass on
+that many splats is minutes.
+
+**My read: the training cameras are wrong, so it is rendering an empty frame and the "loss" is
+just the constant distance from black to the target.** It is not learning; it is failing to see
+anything. That is the same family of mistake as the equirect-into-MoGe one — a camera I got wrong.
+
+**I am not claiming improvement 3 landed. It did not.** And per the wall rule I have stopped
+rather than guess at the view matrices.
+
+## 4. VIEW-DEPENDENT COLOUR — not meaningfully delivered
+
+It rides on training, and training does not work, so the coefficients have nothing to learn from.
+Honest status: plumbed, inert.
+
+## Where things stand
+
+`out/v2/Test/world.ply` exists — 596,277 gaussians, correctly sized by kNN, sky separated,
+geometry from six perspective faces instead of one wrapped image. **That is genuinely better built
+than v1.** But it sits on depth whose horizontal faces disagree by up to 3×, and it has not been
+trained.
+
+**I have not shown it to you as a success, because on these numbers I do not believe it is one.**
+The next honest step is fixing the training cameras, and after that the alignment — but the
+alignment may need their method rather than mine, and I would rather say that now than after
+another round.
+
+Nothing was claimed as working that I did not run. The Wanderer suite is untouched.
