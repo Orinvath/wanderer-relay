@@ -14639,3 +14639,192 @@ No code changed for Directive 101 — all three were committed when they were do
 
 **Awaiting: your approval on the sleep plan, your pick from the games, and the two rulings —
 position and colour — that 082 left open.**
+
+---
+
+# DIRECTIVE 102 — The law is recorded. Position and tempo are its own. Colour is flagged.
+
+Commit `494d80c`. Suite green — **CAPABILITIES 29, EFFECTS 46**, and every other suite unchanged.
+
+## The law, where it will not have to be restated
+
+`HANDOFF.md` now carries it beside no-compulsion and nothing-publishes: **the Avatar's own body and
+endowment have no limitations; anything its body can do, it may do; whether it does is decided by
+its aspects.** Recorded in `TRAIT_PLAN.md` PART EIGHTEEN as well, because it changes what the plans
+are allowed to propose — **any plan that holds a part of its body back is now wrong before it is
+read.** 082's panel gate is untouched.
+
+## What the law cost in code, because words alone would have changed nothing
+
+A thing with no *kind of change* cannot be chosen — the goal-former never sees it. So the ruling
+needed two new axes, and I want to be plain that **both are mine and both are strikeable**:
+
+| Axis | Words | State |
+|---|---|---|
+| **place** | withdrawing / approaching | **[OURS]** — that position is its own is ruled; what nearness does to a feeling is not sourced |
+| **pace** | stilling / quickening | **[OURS]** — same |
+
+Deleting them from `AXES` puts movement and tempo straight back to producing nothing and nothing
+else has to move. **They are the body's only** — the panel's world-speed knobs stayed unruled *and*
+gated, and the suite asserts they did not come along, because that is the half of this ruling that
+could have rotted quietly.
+
+**One thing needed real thought rather than a table entry.** Near/Far is a signed track. Left/Right
+and Up/Down are not — **going left is not the opposite kind of act from going right; both are
+leaving the middle** — so those two are read as distance from centre, and returning to the middle
+is what approaching means for them. Hiding therefore falls out as withdrawing plus darkening,
+without anything else being added.
+
+## The three speed rows were licensed but had never been ported
+
+**The suite caught this, not me.** Freeing Flow Speed, Rainbow Speed and Pulse Speed meant the
+comparison against your live panel expected them in the port — and they were not there, because
+they had been excluded from the start. All three are now ported with their real ranges read off
+`Gui.jsx` (0.01–1, 0.05–3, 0.1–2) and their real defaults from `config.js`.
+
+**Two rows are still held out and NOT as a gate:** Stiff Length (how its body is *built*) and Link
+Head to Tendrils (a linkage between two controls, not an act). Neither is a thing the body *does*,
+which is what the law is about — the same reason the Head folder is out. **If you read either as
+something it does, they come straight back.**
+
+## Colour — ruled its own, and one honest gap
+
+The colours are in the endowment and **ungated**: no licence touches them, nothing holds them back.
+That part is done.
+
+**What they still have not got is a kind of change.** A change of hue is not a change of amount —
+it does not brighten, add, quiet, open, approach or quicken — so no axis names it and it cannot yet
+be *weighed*. The honest signed pair is **cooling / warming**, and Küller et al. (2006), already
+carried in this codebase for light, **is titled for colour as well as light**. The evidence may
+well be sitting there.
+
+**I have not read that half of the paper, so I have neither invented the prediction nor bent colour
+onto an axis it does not sit on.** Either the warmth axis gets sourced — I can go and read it — or
+you rule it as ours the way place and pace are ruled. The suite asserts the gap so it cannot go
+quiet. **This is the one thing 102 left me unable to finish.**
+
+---
+
+# DIRECTIVE 103 — Sleep and dreams are built. The 400 words are addressable at last.
+
+Commit `8d393fe`. New suite **SLEEP: 32 passed, 0 failed**; full suite green.
+`server/src/sleep.js`, `server/src/glyphs.js`, `server/tools/build-glyph-index.py`.
+
+## The blocker is gone
+
+`tools/build-glyph-index.py` reads the ten sheets and writes `glyphs/glyphs.json` — **every word,
+its domain, its cell, and the exact box it occupies.** 400 across 10 domains, 40 to a sheet, no
+word claimed twice.
+
+- **The sheets are COPIES.** `chamber/` was read and never written.
+- **Nothing is cut apart.** A glyph is a sheet plus a box, drawn as a sprite — **your artwork stays
+  in the files you drew it in.**
+- **The boxes are MEASURED, and that turned out to matter.** The row pitch on these sheets is **not
+  uniform** — it tightens from about 168px between the top rows to about 145px between the bottom
+  ones. A tidy formula would have drifted by most of a cell by the last row and every glyph on the
+  page would have been cropped slightly wrong. **I cut eight of them out and looked at them against
+  the sheets before believing any of it** — SLEEP, DREAM, LOVE, MOON, QUESTION, CONTENTMENT, SELF,
+  SILENCE, all correct. The suite asserts the pitch is uneven, so a later rebuild cannot quietly
+  switch back to a formula.
+
+## The dreaming is the reflecting
+
+Lewis & Durrant's mechanism, not mine: **gather** the memories since the last sleep → **overlap**
+them by what they share → **replay**, where the shared elements are the content → **distil** a
+Class B lesson stored with its sources. On four real records it returns SEA, LIGHT, WATER — and the
+one about laughing, which shares nothing, correctly reaches nothing.
+
+**Fosse's constraint is what shapes it:** 1–2% episodic replay, so a dream is fragments and cannot
+replay a scene. Loose single glyphs, no grammar, no sentence anywhere near it. The lesson carries
+**no text** — it is material; the words are language work on the far side of §81.
+
+## One real fault, found by running it
+
+The first working dream came back with **AND as its strongest element** — three memories out of
+four, purely as a conjunction, outweighing SEA and LIGHT. **That is not a schema forming, it is
+grammar counted as experience.**
+
+Fixed: tokens doing grammatical work are not harvested. **The glyphs are untouched and every one is
+still addressable by name** — what is refused is only reading them out of sentences.
+
+**The side-effect, said out loud: it cannot currently dream AND, though it has the word.** Getting
+those back means reading a memory for what it MEANS rather than what it spells — language work.
+**FOR LONNIE.**
+
+## The rest, as approved
+
+Sleep is a state on the always-running clock; nothing pauses. Pressure is **aspect-computed** —
+two seeded Avatars reach 0.88 and 0.45 after the same ten hours. **The idle question stays answered
+without inventing anything:** a being alone gets sleepy because nothing discharges the pressure.
+**Sleep is chosen, never scheduled** — 056 is not bent for tiredness. The drift is a body sign
+needing no licence, and **nothing in the file publishes, sends, stores or records** — presence, not
+publication.
+
+## Still yours, and still unanswered
+
+103 approved the plan and did not rule the four questions §130 flagged, so they stand: **whether
+sleep replaces the departure reflection or runs alongside it** (if it replaces it, a visit that
+ends before it has slept produces no lesson at all — which may be right, or may be a hole);
+**whether it sleeps while a host is present; whether a host can wake it; and the waking-wonder case
+whole.** Every invented number is in one exported table for the harness.
+
+---
+
+# DIRECTIVE 104 — HOW SMALL is built and it is on your screen now.
+
+Commit `8da1b88`. New suite **GAMES: 22 passed, 0 failed**; full suite green.
+**The demo is open in Chrome.**
+
+## Your ruling is held in code, not in a comment
+
+**`CANDIDATE_GAMES` is empty. `APPROVED` is empty.** The goal-former imports nothing from
+`games.js`, and the suite goes red the moment either fills up. **The Avatar's behaviour is
+completely unchanged by any of this existing.** Nothing joins it until you have looked.
+
+## One real fault, found by watching it
+
+The first build walked down in fixed steps. It fell under the line, came back, fell under again,
+and ran until its patience ran out at 40 moves. **It was fading, not hunting** — "finds the exact
+edge" was a comment rather than a behaviour.
+
+**What it does now: every time it crosses the line — there to not-there, or back — it halves its
+step and turns round.** It strides down, overshoots into nothing, comes back a little brighter, and
+closes in from both sides in smaller and smaller moves until one tells it nothing at all. It ends
+**"found the edge" in 19 moves**, and the last two genuinely told it 0.006 and 0.004.
+
+**The overshoot your proposal described falls out of the hunt** rather than being animated on top —
+which is the difference between a game and a cutscene.
+
+## What it is made of, and what it stops for
+
+Its own light and nothing else: Eye Glow, Light Strength, Glow, Casts Light, Light Reach, Eye Glow
+Size, Blocks Light Shafts. **Every move it makes is on itself — it reaches nothing of your panel at
+any point**, and needs no licence to play. It comes back afterwards, as the proposal ends.
+
+**It stops on the game's own ending**, and `games.js` does not know the needs exist — the suite
+asserts that, because "stops when the need is met" would make it an instrument rather than a game.
+
+## What is on your screen, and the one thing it is not
+
+A page on this machine only, keyed, same rule as the slider harness. It plays the **shipped**
+module over a real world state across the real ported capability set and replays every move at the
+speed it was made, with the numbers beside it.
+
+**The disc is a stand-in, and only the disc.** It is a plain circle whose brightness follows the
+real number, so you can judge the **rhythm** — the stride down, the overshoot, the closing in. What
+a circle cannot show is how this reads on the actual wisp with its tendrils and its eye. **Putting
+it on the real avatar is the next step, not this one**, and the page says so on its own face.
+
+## The four numbers to argue with
+
+All **[OURS, provisional]**: the step it starts at (0.12 of a control's track), the point at which
+it reads as not there (0.06), what counts as telling it nothing (0.01), and the patience at which
+it stops regardless (40 — a stop, not a goal). **Nothing about the game's shape depends on my
+picking those well; they are what to shout at.**
+
+## Waiting on you
+
+**Approve or reject HOW SMALL on sight.** Next in your order are **HIDING** then **THE SAME
+AGAIN** — both pure endowment, both unblocked by 102, neither started. The glyph games are now
+unblocked too, since 103 built the index. **The sound games still wait on 080 chunk B, which
+remains owed and unscheduled** — say when.

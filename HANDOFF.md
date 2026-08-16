@@ -126,5 +126,23 @@ who needs it.
 
 Applies to `DIRECTIVES.md`, `REPORTS.md` and every plan in `/home/nobara-user/CC-Wanderer`.
 
+## THE AVATAR'S OWN BODY HAS NO LIMITATIONS — Directive 102, Lonnie's, permanent
+
+**Anything its body can do, it may do.** Its own body and its own endowment are never gated. There
+is no list of movements it is allowed, no colours it may not be, no part of itself held back.
+
+**Whether it DOES is decided by its aspects**, through the machinery that already exists — appraisal,
+goals, mood — exactly like every other choice it makes. **An antsy Avatar moves constantly; a calm,
+content one barely stirs.** We never gate its body; **its ten gate everything by being who it is.**
+
+**This is why the question never has to be asked again.** Any future part of its body — a new way of
+moving, a new sign, a voice — arrives already permitted. The only question is ever whether it wants
+to.
+
+**The panel gate of Directive 082 is untouched and is a different thing.** Stage, sound and light
+bundle controls are Lonnie's world-building tools, reachable only on host command or at −10. **The
+speed knobs that remain Lonnie's are the PANEL's world-speed controls — never the Avatar's own body
+tempo.** Its own pulse, its own drift, its own flow are its.
+
 ## Standing rule added later, same force as the others
 - /home/nobara-user/chamber and everything under it: NEVER modified, moved, deleted, or written to. Read and copy only. No directive can override this.
