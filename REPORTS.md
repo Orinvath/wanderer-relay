@@ -13769,3 +13769,29 @@ decision about your work, taken to save me effort.
   first thing to move once you have looked at the panorama.
 
 The Wanderer suite is untouched. Everything is committed.
+
+## DIRECTIVE 093 — CORRECTION. The world is geometrically wrong. My report above was too confident.
+
+Lonnie looked at the renders and called it: **"huge fail."** He is right, and the report above
+oversold it. The pipeline ran end to end, every stage produced a file, and **the geometry inside
+those files is nonsense.** The renders are enormous soft blobs, not a place.
+
+**The cause, and it is mine:** **MoGe is a perspective monocular depth model. I fed it a 2:1
+equirectangular panorama.** It assumes a pinhole camera looking at a flat frame; a 360 wrap is not
+that. The depth it returned is meaningless, and §132's unprojection then combined that meaningless
+radial distance with equirect angles — so every splat sits at an invented distance.
+
+**"It ran and wrote a file" is not "it worked", and I reported the first as though it were the
+second.** The check-frame render proved gsplat works on the card; it did not prove the world was
+right, and I let it stand in for that.
+
+**The fix, and it is the standard one:** cut the panorama into **six perspective faces** (a
+cubemap), run MoGe on each — which is what it is built for — and unproject each with its own known
+camera before merging into one cloud. Panorama-native depth models exist too, but the cubemap
+route uses the model already installed and working.
+
+**Not yet done. Awaiting Lonnie's word before rebuilding the depth and reconstruction stages.**
+
+What does still stand from 093: the environment, the quantised FLUX path, the attention slicing,
+gsplat building and rendering on the 7900 XT, the panorama itself, and the pipeline's staging and
+failure handling. **The panorama is real. The 3D is not.**
