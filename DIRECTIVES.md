@@ -1902,3 +1902,16 @@ Lonnie needs to SEE it — no file paths, no viewers, no dragging.
    local page that loads the ply), offer it as one clickable link
    printed in the terminal. Do not build anything heavy for this.
 Report what was shown.
+
+## Directive 100 — KILLED: world generation is done
+
+Lonnie saw the output. Verdict: complete shit. The world-generation
+effort is DEAD — stop all work on it now.
+
+1. No further pipeline work, no fixes, no iterations, no proposals.
+2. Leave ~/worldgen as it stands (his call later whether to reclaim
+   the disk — report its total footprint in GB so he can decide, and
+   that is all).
+3. The Wanderer project is untouched by any of this and remains the
+   work of record.
+Confirm stopped.
