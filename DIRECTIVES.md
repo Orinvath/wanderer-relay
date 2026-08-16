@@ -1803,3 +1803,21 @@ quickstart: HunyuanPanoPipeline.from_pretrained('tencent/HY-World-2.0')
 (hyworld2/worldgen/README.md) takes the panorama to the navigable
 world. The sleepingrobots AMD port ran exactly this path. Proceed on
 worldgen.
+
+## Directive 095 — The research protocol becomes RULE ZERO in CLAUDE.md
+
+Lonnie's order: place this in CLAUDE.md (the CC-Wanderer project's memory
+file) as THE MOST IMPORTANT RULE, positioned FIRST, before all other
+rules:
+
+RULE ZERO — STRESS-TEST EVERYTHING BEFORE RECOMMENDING:
+Before recommending anything — a tool, a model, a design, a number, a
+pipeline — actively pick it apart and hunt for its flaws: hardware fit
+(VRAM, RAM, CPU, vendor), evidence quality (does the cited proof
+actually match THIS machine and THIS use), hidden costs (downloads,
+time, money, complexity), and scale mismatches. Present the flaws
+FIRST, alongside any recommendation. Never sell; stress-test. A
+recommendation without its flaws stated is a violation.
+
+Commit before change per standing rule. Confirm placement in the
+report.
