@@ -1821,3 +1821,23 @@ recommendation without its flaws stated is a violation.
 
 Commit before change per standing rule. Confirm placement in the
 report.
+
+## Directive 096 — Improve pipeline v1 with 2.0's techniques: plan, then Rule Zero it
+
+Lonnie's order. The first pipeline produced something real; it needs
+tweaks, not replacement. HY-World 2.0's full models don't fit this
+card — but its TECHNIQUES may transfer.
+
+1. Use PLANNING MODE: study HY-World 2.0's worldgen code/README and
+   HunyuanWorld 1.0's layering approach (repos public; read, download
+   nothing heavy). Plan how their techniques could improve OUR v1
+   pipeline within 20GB — candidates include semantic layering
+   (sky/background/foreground, per-layer depth), cross-layer depth
+   alignment, a 3DGS training/optimization pass on our existing
+   patched gsplat, and anything else the study surfaces.
+2. Then APPLY RULE ZERO to your own plan: pick it apart, hunt the
+   flaws — VRAM fit per addition, evidence quality, hidden downloads,
+   time cost per world, complexity, and the quality ceiling honesty
+   (a tweaked v1 never becomes their 80B output).
+3. Report the plan WITH its flaws, item by item, for Lonnie to pick
+   what gets built. Build nothing.
