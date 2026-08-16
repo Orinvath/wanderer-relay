@@ -1755,3 +1755,10 @@ containers, leftover pipeline stages, Ollama, harness — is holding
 memory it should have released, and what is simply his normal desktop
 load (browser etc.). If anything of ours is squatting, say so plainly
 and what releasing it takes. Read-only survey, kill nothing.
+
+## Directive 093 — Approved: the one-line fix, rerun the painting
+
+Lonnie approved. Point the panorama stage at his quantised FLUX
+(~/ComfyUI/models/unet/flux1-dev-Q6_K.gguf, GGUF loader path) and rerun
+the painting end to end. 092's RAM breakdown still wanted alongside.
+Report per 091: timings, VRAM, where the world landed, how he opens it.
