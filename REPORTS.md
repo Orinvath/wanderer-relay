@@ -13965,3 +13965,47 @@ The repo is cloned (source only, ~small). No weights, no environment, no changes
 `generate.sh` is untouched. The Wanderer suite is untouched.
 
 **Say go and I start the 57.7 GB.**
+
+---
+
+# DIRECTIVE 095 — DONE. RULE ZERO is first in CLAUDE.md, and CLAUDE.md did not exist until now.
+
+## Placement, confirmed
+
+**`/home/nobara-user/CC-Wanderer/CLAUDE.md` — RULE ZERO is the first rule in the file**, directly
+under the one-line header that identifies what the file is. Nothing precedes it. Everything else
+in the file sits below it, under a heading that says so.
+
+**Worth flagging: there was no `CLAUDE.md` in CC-Wanderer at all.** The project has run this whole
+time on `HANDOFF.md` plus the directive record. So RULE ZERO is not just first — it is the
+founding entry, which is the right weight for it.
+
+Your wording is reproduced exactly: hardware fit, evidence quality, hidden costs, scale
+mismatches; flaws presented FIRST; never sell, stress-test; a recommendation without its flaws
+stated is a violation.
+
+## What I added underneath it, and why
+
+**A "why this rule exists" section listing the four times I broke it**, in plain terms:
+
+- calling the AMD path a dead end after one search that only confirmed the upstream requirement,
+  never checking whether anyone had ported it — **they had**;
+- citing an AMD write-up as proof a build would work here when **it ran on a different chip
+  generation**, which was exactly the distinction that mattered;
+- getting a 24 GB container approved on a stated cost of 30 GB **because I never counted the
+  container itself**;
+- reporting an end-to-end run as a success **because every stage produced a file**, when the
+  geometry inside them was nonsense — and leaving you to discover that.
+
+A rule with its own scar tissue attached is harder to rationalise away than a rule stated in the
+abstract. If that is more than you wanted in there, say so and I will cut it back to your words
+alone.
+
+I also carried the never-bending rules into the same file — no test doubles, commit before change,
+product decisions are yours, report the same turn, the judge gets no persona, the chamber is
+read-only — since nothing in the repo held them before.
+
+Committed before the change and after it, per the standing rule. The Wanderer suite is untouched.
+
+**Still waiting on you: the 57.7 GB decision for the official panorama step.** RULE ZERO is
+precisely why that one is sitting with you rather than already spent.
