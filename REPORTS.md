@@ -14932,3 +14932,109 @@ is part of the game ending.**
 
 **Not started, and waiting on his go.** Also still open from earlier: whether HOW SMALL is kept at
 all, and the warmth axis question from 102.
+
+---
+
+# DIRECTIVE 105 — Both systems complete. Measured, not remembered.
+
+Commits `325edc8` (part 1) and `2f86894` (part 2). **Full suite green**, with a new AVATAR suite of
+24. Chamber read-only throughout; everything written lands in CC-Wanderer.
+
+---
+
+## PART 1 — HER SYSTEM
+
+### The panel: 51, and the 51st was found by the port itself
+
+Her panel is complete at **51 controls across 8 folders**. The 51st is `showAvatar` — not a row in
+his panel table (it is the header switch on her folder) but it **is** in her preset tag, and the
+preset store reported it missing the first time it saved her. **That is his tag scheme catching a
+gap on its first run**, which is the best possible argument for porting it.
+
+### His tags, ported verbatim
+
+**11 tags, 235 settings**, extracted from his `settingTags.js` rather than retyped. His design and
+his reason, in his own words there: a preset used to save *"whatever sections this panel builds"*,
+which made the **panel's layout the definition of the preset** — move a control and it quietly left
+one preset and joined another. **That already happened once, when the ground moved into Objects.**
+
+**This is why the four octopus settings still existed to be found.** They have no panel rows; under
+the old scheme they would have belonged to no preset at all.
+
+The suite asserts the point rather than admiring it: `avatarAdapt` sits in the *Adapting* folder and
+`avatarRoamSpeed` in *Behaviour* — **two folders, one tag**, so rearranging the panel cannot lose
+either.
+
+### Presets are real files
+
+`server/data/<name>.json`, per his rule: *"Saved things live in FILES, not just in a browser."*
+**What changed in the port and why:** his runs in a browser and writes to localStorage *and* posts
+to a dev server, fire-and-forget. **This side is the server — it owns the file**, so it is the file
+half only and a failed write fails loudly rather than leaving a browser copy quietly holding the
+only truth.
+
+Proved by round trip: save her, change her, load her back, **and she is herself again** — and
+loading her preset **leaves the stage alone**, because only the tags a preset carries are touched.
+
+**A bug the suite caught, worth recording:** my secret-filter missed `parentPin` — camelCase has no
+separator — which is *exactly* the key his own note about the parental PIN is about. Names are now
+split on their own capitals before being tested.
+
+### The octopus, running against one of his own paintings
+
+`adapt.js` carries his maths step for step. **It reads a real PNG here** — no canvas on this side,
+so it decodes the PNG itself with zlib — and was run against `worlds/layers/near.png`, 1200×960.
+
+**The load-bearing part of his design, which a careless port would have lost: she takes the world's
+HUE and keeps her own LIGHT.** A painting's average is dark; matching it raw would make her inherit
+the murk and stop glowing, and a bright world taken raw would blow her to white. So lightness is
+pulled to where she glows and only drifts a little either side, and saturation is floored so she
+never goes grey. Measured: painting `#746c65` at lightness 0.43 → she becomes `#c49264` at 0.58.
+**Inverted, she lands half a turn of the colour wheel away.** She drifts rather than snaps — his
+rate, his lerp, *"a chameleon, not a strobe."*
+
+**One finding for the game, reported and not acted on:** because she keeps her own light, **she
+never fully vanishes.** Best hiding measured was **0.80 of the way** to indistinguishable. That may
+be exactly right — a spirit that can be *nearly* lost is better than one that blinks out — but it
+is a real ceiling on the win condition and it is Lonnie's to rule.
+
+---
+
+## PART 2 — THE STAGE
+
+### Why it was never checked, and why that matters
+
+Her panel is a **declarative table**, so it can be regenerated from source and compared row by row —
+which is how 105 was carried out. **The Stage panel is not.** It is built imperatively in code
+(`el('div', 'wx-section' ...)`), so there was no table for the 080 suite to compare against, and
+**the Stage is the one panel that was never machine-checked. That is exactly where every gap was.**
+
+### What 080 actually ported versus the live build
+
+| Area | Live build | Ported by 080 | Missing |
+|---|---|---|---|
+| **Painted Sky** | 9 settings | 2 | **7** — horizon, height, light (Backlit / Sky Map), intensity, colour, lightCount, shadowCount |
+| **Planes** | per-plane record + 2 shading settings | 5 per-plane | **depthUrl**, and **planeSkyInfluence / planeSunShading** — both in his `planes` preset tag, so a preset expected them and nothing here had them |
+| **Props** | 10 fields per piece | 5 | **4** — its painting, its depth map, its on/off, its name. **A prop had no painting**: the port carried how big it is and where it stands, but not what it *is* |
+| **Worlds** | 2 | 2 | none |
+| **Music Score** | 3 | 3 | none |
+
+**Stage is now 31 controls, up from 17.** Sound (24) and Light (37) were already verified against
+their live tables by the 080 suite and are complete.
+
+### One thing that looks like a gap and is not
+
+Ten controls belong to **no preset tag**: `world` and the nine painted-sky settings. **That is his
+design, not an omission.** A preset saves *settings*; an **export saves the place** — `stage.js`'s
+own JSON carries planes, pieces, music and `paintedSky` in full, alongside copies of every painting
+and depth map. Two mechanisms, deliberately. **Nothing is lost; it travels by the other road.**
+
+---
+
+## Where this leaves the hiding game
+
+Both ports are complete and both suites are green. **She has a real self and a real world to blend
+into**, and the octopus runs against real paintings here rather than in the portal.
+
+**Waiting on Lonnie:** the go for the hiding game; whether the 0.80 hiding ceiling is right; the
+four placeholder names on the Adapting controls; and, still open from 102, the warmth axis.
