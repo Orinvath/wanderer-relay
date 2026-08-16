@@ -1733,3 +1733,15 @@ Lonnie approved. Finish 088:
 3. Run ONE real painting end to end. Report timings per stage, where
    the world landed, and how Lonnie views it.
 Wall rule stands for any new wall. Wanderer suite untouched.
+
+## Directive 091 — The painting is in. Run it.
+
+Lonnie placed a painting in ~/worldgen/in/. Go:
+1. Fetch MoGe (the small remaining model).
+2. Wire generate.sh's stages to the real entry points — his real FLUX
+   and LoRAs for the panorama stage.
+3. Run the painting end to end: panorama → depth → reconstruction →
+   splat world in out/.
+4. Report timings per stage, VRAM behavior, where the world file
+   landed, and exactly how Lonnie opens and explores it.
+Ollama stop/restart announced as designed. Wall rule stands.
