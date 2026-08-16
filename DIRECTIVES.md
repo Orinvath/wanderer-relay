@@ -2027,3 +2027,14 @@ Then the hiding game is GO as designed (102/105 record), with going
 dark part of her hiding vocabulary and coming back to her own light
 and colours part of the ending. Report the slider found, the measured
 result, and the game when demonstrable.
+
+## Directive 106 addendum — the darkness is a SIDE EFFECT, not a label
+
+Lonnie: the slider that takes her black is labeled as doing something
+else entirely — going dark is an unlabeled side effect he never
+corrected. So DO NOT hunt by label. Hunt empirically: drive her sliders
+against the real renderer (singly, and the few plausible pairs) and
+MEASURE her actual emitted light, hunting for whatever takes it to
+black as a side effect of its stated job. Report which control it is,
+what its label claims, and why the math goes dark. Then proceed per
+106.
