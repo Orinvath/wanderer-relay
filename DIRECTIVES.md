@@ -2060,3 +2060,41 @@ So: apply the two-line uTint to the CC-Wanderer copy of
 wisp_avatar1.html (the same recolour the live body carries), put her
 real body in the hiding demo in place of the disc, open it in a real
 browser, then on Lonnie's screen. Report.
+
+## Directive 109 — Colour means something: the researched mapping
+
+Lonnie asked what the science says; the science answers. Colour joins
+the Avatar's expressive vocabulary on documented research:
+
+THE EVIDENCE (cite each in the plan):
+- Colour-emotion associations are consistent worldwide: 128-year review
+  (Jonauskaite/Mohr lineage) and the 42,000-participant, 64-country
+  study — light/bright ↔ positive; dark ↔ negative; warm hues
+  (yellow/orange) ↔ high-arousal joy; blue/green/white ↔ positive calm;
+  grey ↔ negative low-arousal; red ↔ high intensity both ways.
+- The dimensions are ours already: valence, arousal, power — the same
+  axes the mood/affect machinery speaks.
+- Valdez & Mehrabian's measured equations: pleasure rises with
+  BRIGHTNESS, arousal with SATURATION — hue matters less than both.
+  Her Glow and Vividness controls ARE brightness and saturation: her
+  own dials sit on the researched emotion axes.
+
+THE DESIGN:
+1. Colour changes become nameable changes on the effect axes —
+   warmer/cooler, brighter/dimmer, more/less vivid — with researched
+   feeling-tendencies attached. The goal-former can now genuinely
+   prefer a colour because it DOES something.
+2. Reactions (involuntary): mood already drives her signs; the
+   colour dimension of those signs now follows the researched mapping
+   — content reads bright/warm, withdrawn dim/cool — scaled by
+   outlook, always returning to her born palette.
+3. Actions (chosen): she may choose colour like any act, weighed by
+   her ten. Blending-is-withdrawing (the hiding vocabulary) stands
+   unchanged beside it.
+4. Where the research is human-culture-bound, flag it: we adopt the
+   universal-pattern findings, not culture-specific readings.
+5. Her born palette remains identity (the Roe's); mood colours are
+   weather over it, never a rewrite.
+
+PLAN into TRAIT_PLAN.md with citations, then wire per-section
+colouring (the owed item) with this as its meaning layer. Report.
