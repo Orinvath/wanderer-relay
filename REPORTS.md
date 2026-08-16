@@ -13841,3 +13841,29 @@ LoRA on disk, listed it in the 090 report by name, and then did not use it.
 | **Depth** | MoGe is a perspective model, given a 360 image | **Cubemap** — six perspective faces, MoGe each, unproject with each face's own camera, merge |
 
 All three are in the same two stages. **Awaiting his word before rebuilding.**
+
+### 093 CORRECTION, fourth part: the outpaint rebuild also failed, and differently
+
+Lonnie, on seeing it: *"None of it is a world and what is shown is terribly wrong."*
+
+**He is right.** The rebuilt panorama is **his painting pasted on like a poster, hard-edged,
+floating in a photographic desert.** Three things went wrong and none of them is the thing I fixed:
+
+1. **The mask kept his painting pixel-exact**, so there is a visible rectangular border and no
+   blending whatsoever. It needed feathering and overlap to transition.
+2. **The equirect LoRA imposed its own look.** The surround is sunny photorealistic scrubland —
+   that model's house style — not his atmospheric painted world. At equal weight it beat his
+   style LoRA outright.
+3. **The prompt described a style but never his scene.** His painting is misted ruins and arches;
+   nothing told FLUX that, so it invented an unrelated desert and hung his picture in it.
+
+**So the first attempt stretched his painting, and the second framed it.** Neither extended it.
+
+**What I proposed to him, and it is not yet approved:** fill the entire circle with his own
+painting — repeated and softened round the back — as the starting image, then repaint over all of
+it at moderate strength with **only his style LoRA loaded**, dropping the equirect one that is
+forcing the desert. Every part of the circle would then originate in his imagery rather than in
+FLUX's defaults.
+
+**Not built. Awaiting his word.** The 3D fix (cubemap depth) is still queued behind this — there
+is no point building geometry from a panorama that is wrong.
