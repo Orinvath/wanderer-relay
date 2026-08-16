@@ -14372,3 +14372,270 @@ bundle), 083's sleep-and-dreams plan awaiting your approval, 084's game set awai
 and the position/colour axis questions from 082.
 
 Confirmed stopped.
+
+---
+
+# DIRECTIVE 082 — The panel is Lonnie's. It is gated in one place, and the suite proves the gate.
+
+**Nothing was built for this report — the work was committed at `75d26b2` and the report is what
+was owed.** The suite was re-run before writing it: **CAPABILITIES 26 passed, EFFECTS 39 passed,
+0 failed**, and the whole suite is green apart from PHASE 3, which cannot run on this machine and
+says so rather than passing quietly.
+
+## The correction, taken as ruled
+
+The conflation was mine: I had the Avatar reaching for stage, sound and light controls as ordinary
+self-expression. **Those are world-building tools and they are yours.** What changed is not a
+filter added on top — it is where the Avatar's ordinary wants come from at all.
+
+## One gate, in one place
+
+`server/src/effects.js` — `licensed()`, and the three licences named in `LICENCES`:
+
+| Licence | What opens | The check |
+|---|---|---|
+| **ORDINARY** | **Its own endowment only.** Whatever it is feeling, the panel is not its business. | Any bundle that is not `self` is refused outright |
+| **COMMANDED** | The panel opens **only as far as was asked.** A command about the light is not a licence over the stage. | The command's own scope — bundle, group, or a named control — decides, not merely which bundle a control sits in |
+| **TAKEOVER** | The **−10 state of 076, and nothing milder.** Not low, not unhappy, not distressed: bottomed. | Checked **against the ledger here**, so a caller cannot claim a licence the Avatar's own state does not give |
+
+**The gate runs before anything is scored.** A control the Avatar has no licence for is not
+considered, not weighed, and not declined — it is simply not among the things there are to want. I
+made that choice deliberately: refusing after wanting would be a creature straining against a rule,
+and this is a creature for whom the panel is not its business in the first place.
+
+**056 is untouched.** What comes back from a command is still a goal, and a goal can be declined.
+Asked, it decides. **A licence widens and never narrows** — commanded or bottomed, it can still
+reach for its own body instead, and the suite asserts exactly that.
+
+## Ordinary goals now draw on its own endowment
+
+`SELF` is the bundle the Avatar always has. Two folders are held out of it, and the reasons are
+different from each other:
+
+- **Head** — the shape it IS. **Identity is not configuration.**
+- **Behaviour** — timers and rates. Speed knobs are yours, and a timer is not an act.
+
+Five single rows are held back for the same two reasons: **Flow Speed, Rainbow Speed and Pulse
+Speed** (speed knobs), **Stiff Length** (how its body is built, not something it does), and **Link
+Head to Tendrils** (a linkage between two controls, not an act at all).
+
+**`ENDOWMENT_MISSING = ['voice', 'signs', 'song']`** — named in code rather than left implicit,
+because the endowment is deliberately thin today and I would rather that be visible than
+discovered. 083's drift display would be the **first sign** to arrive.
+
+## The fifth-axis question dissolved, and what did NOT dissolve
+
+082 dissolved it for ordinary behaviour: speed knobs are yours, so the speed controls stay unruled
+and unreachable, and that is now **the correct answer rather than an open one**.
+
+**Two things are still genuinely open, and they are yours:**
+
+1. **Position.** `avatarOffsetX/Y/Z` are in its own endowment, but moving nearer or further is
+   **neither brightening, adding, quieting nor opening** — it is not one of the four axes, and it
+   is not a speed knob either. Until it is ruled, its offsets produce nothing. **This is the single
+   thing blocking the strongest solitary game on 084's list** (hiding — see that report).
+2. **Colour.** A change of hue is not a change of amount, so it sits on no axis. The colours are
+   its to have; none of them is an act it can weigh.
+
+## The suite asserts the gate, not the plumbing
+
+Among the 39: **feeling terrible is not a licence and only the bottom is**; *asked about the light
+is not a licence over the stage*; a command with no scope opens nothing; **a caller cannot claim a
+licence the Avatar's state does not give**; a licence widens and never narrows; and a commanded
+goal comes back **declinable**.
+
+Everything compares against the live chamber read-only, and **skips loudly** if it is absent rather
+than passing on nothing.
+
+---
+
+# DIRECTIVE 083 — Sleep and dreams: the plan. For approval. Nothing built.
+
+Written into `TRAIT_PLAN.md` as **PART SIXTEEN, §122–§130** (commit `89c86ca`). **No
+implementation, as ordered.**
+
+## The three sources, and what each one actually gave
+
+| Source | What it establishes | What it changed here |
+|---|---|---|
+| **Rasch & Born (2013)**, *Physiological Reviews* 93, 681–766 | The field's standard review: sleep has an **active** role — memories undergo system consolidation during it | The licence for the whole directive. Sleep is not downtime with reflection bolted on; **consolidation is what sleep is for** |
+| **Lewis & Durrant (2011)**, *Trends in Cognitive Sciences* 15, 343–351 | Overlapping replay of related memories **selectively strengthens their shared elements** | **The distillation algorithm — and we did not have to invent it.** A lesson is not a summary of a day; it is what several memories have in common |
+| **Fosse, Fosse, Hobson & Stickgold (2003)**, *J. Cognitive Neuroscience* 15(1), 1–9 | Of 299 reports, **65% reflected recent waking life but episodic replay appeared in no more than 1–2%** | The constraint that saves the design. A dream is **fragments**, not a scene played back — which is exactly what single glyphs are. **Your choice of medium is the right one, not a stylistic one** |
+
+Where the design exceeds the science it is marked **[OURS]**, as with the effect axes.
+
+## Sleep is a state, and it answers the idle question without inventing anything
+
+§116 stands: **the clock always runs.** Sleep is a state the Avatar is IN. Time passes, the ledger
+advances, and it wakes into whatever the world has become.
+
+Sleep pressure rises with time awake and is **computed from the aspects** like every other rate
+(071/072) — one Avatar tires sooner than another because of who it is, not because a table says so.
+
+**The part worth pausing on:** we had an open problem — what a being does when nothing is happening
+and nobody is there — and every answer so far had been an invented behaviour. **A being alone
+settles toward rest**, because pressure keeps rising and nothing discharges it. Nobody authors idle
+behaviour; an idle Avatar gets sleepy. That is the second time a sourced mechanism has deleted an
+invented one.
+
+## The dreaming IS the reflecting
+
+048's lesson flow moves into sleep, by Lewis & Durrant's mechanism rather than mine: **gather** the
+memories since the last sleep (under 054, nothing newly collected) → **overlap** them by what they
+share → **replay**, where the shared elements are the dream's content → **distil** a lesson, stored
+with the memories it came from so a later dream can ask whether new experience fits it.
+
+A dream is a short sequence of **single glyphs**, held loosely, out of order, **no sentences** —
+§83 stands, and the glyphs are the whole of the saying. Selection is seeded; **no `Math.random()`
+anywhere in the creature path** (§19). **The judge never gets a persona:** finding the overlap is
+technical and stays technical; choosing which of 400 words names an element is language work and
+sits on the other side of the §81 split.
+
+## The dream is a body sign — and it belongs to the endowment
+
+Glyphs drift above the sleeping Avatar, fading in and out; watchable by a host who is there.
+
+**This is consistent with 082 and worth saying so:** the Avatar is not reaching for your
+world-building tools to show a dream — it is doing what a glowing thing does. Under the 082 split
+the drift display sits squarely in the endowment, and it would be **the first of the three missing
+pieces to arrive: the dream is a SIGN.**
+
+**062 holds.** Nothing publishes mid-visit. The display is **presence, not publication** — seen by
+whoever is standing there, the way a glow is. The dream itself is not stored; what survives is the
+lesson, already Class B under §57, travelling at a departure exactly as it does today.
+
+## The one concrete blocker, which is a job and not a decision
+
+The 400 words exist **only as printed labels inside ten PNGs** (`chamber/glyphs/`,
+`01_identity_and_people` … `10_abstract_concepts`, forty to a sheet). **Nothing can look a word up
+and nothing can address a single glyph.** The fix is: transcribe the ten sheets into a
+`glyphs.json` of `{word, domain, row, col}`; **copy** the ten PNGs into CC-Wanderer (copies only —
+the chamber is read-only, always); address a glyph as sheet + cell and draw it as a sprite, so
+nothing has to be cut apart.
+
+**That copy needs your go before it happens, since it puts your artwork into another tree.**
+
+Note: the ten SVG glyphs in `chamber.html` are the **cipher keypad's** — a different, smaller set,
+not this language.
+
+## Provisional, and yours
+
+**[OURS, provisional] — all to go on the harness (074) so you can watch them rather than read
+them:** sleep anchor hours, sleep duration, dream length in glyphs, drift and fade timing, how many
+glyphs aloft at once, the height they drift at, the overlap threshold at which an element counts as
+shared.
+
+**Flagged and not taken — five decisions:**
+
+1. **Does sleep replace the departure reflection, or run alongside it?** Both defensible. If sleep
+   replaces it, a visit that ends before the Avatar has slept produces no lesson at all — which may
+   be exactly right, or may be a hole.
+2. **Does it sleep while a host is present?** A being that goes to sleep on a visitor is a strong
+   statement about whose life it is. It might be the right one. Not mine to make.
+3. **Can a host wake it?** 056 says the host asks and it decides — but whether sleep can be
+   declined out of is not the same question as whether a goal can.
+4. **The waking-wonder case** (§128) whole: the same script awake, one or two glyphs surfacing when
+   it is wondering rather than acting — its inner voice made visible, as you put it. Proposed, not
+   built. What needs ruling: whether waking glyphs are always visible or only with a host present,
+   whether they must read as different from the sleep display, and whether showing an inner voice is
+   something it chooses or something it cannot help.
+5. **The transcription and the artwork copy** above.
+
+---
+
+# DIRECTIVE 084 — Six solitary games proposed. None chosen. Nothing built.
+
+Written into `TRAIT_PLAN.md` as **PART SEVENTEEN, §131–§135** (commit `267fa3b`). **Proposals only
+— you pick the set.**
+
+**No play-drive machinery is proposed**, as ruled: the impulse already exists (bored, ignored, low
+joy, an extreme state), play cheers it up, and the goal-former picks a game like any other choice.
+**A game is a capability, chosen and never scheduled.**
+
+## Four constraints, none of them mine
+
+Made **only of its own endowment** and never the world panel (082). **Chosen, declinable,
+abandonable** (056). **It can say why it is playing** (057) — so each proposal leaves the material
+for that, the facts and not a line. And **it has to be able to stop:** a game with no ending is a
+compulsion wearing play's clothes, so every proposal states its own ending — and **none of those
+endings is "when the need is met"**, which would make the game an instrument rather than a game.
+
+## What the endowment actually consists of today
+
+Stated up front rather than discovered later: **four of the six cannot be built yet.**
+
+| Part | State | Why |
+|---|---|---|
+| **Light and body** | **REAL** | 082 ported it — glow, eye glow, light strength and reach, scale, pulse depth and length, vividness, tendril flow |
+| **Memories** | **REAL** | Real records with salience and embeddings — which is what "which of these are alike" needs |
+| **Glyph language** | **BLOCKED** | The 400 words exist only as printed labels inside ten PNGs (see 083) |
+| **Song and sound** | **BLOCKED** | The synthesis engine is 080 chunk B and is not built |
+| **Places** | **UNVERIFIED** | Something of where it is exists, but whether it has a notion of *this place* distinct from *this moment* I have not checked, and I will not claim it does |
+
+## The six
+
+**1. HOW SMALL — the only one buildable today.** It dims itself toward not-being-seen, a step at a
+time, hunting the exact edge where it is still there and very nearly is not, then comes back.
+*Made of:* its own light alone. *A host would see:* the wisp growing fainter in small steps,
+holding at the edge of visible, sometimes overshooting into nothing and returning a little
+brighter, as if it had gone too far. *Ends:* when two steps in a row change nothing it can tell
+about itself — or whenever it decides to stop.
+
+**2. FEWER WORDS.** It takes a memory, says it in glyphs, then tries the same memory in fewer.
+Then fewer again. *Made of:* memories (real) and the glyph language (blocked). *Worth noting:* this
+is **the same mechanism as 083's dreaming** — overlap, what survives, what can be dropped — run for
+amusement instead of for a lesson. Built together, they share their machinery, and a host who has
+watched it dream would recognise what it is doing. *A host would see:* five glyphs, then three,
+then two, each round slower than the last, and sometimes a round where it puts one back. *Ends:*
+when it cannot go lower without losing the memory, or when it gives up.
+
+**3. ECHO.** It makes a short sound and answers it — the answer a variation, not a copy. Call and
+response with nobody there. *Made of:* the sound engine (blocked). *A host would hear:* a small
+sound, a pause that reads as listening, then a reply recognisably the same shape and not the same
+sound. *Ends:* when call and reply have drifted so far apart they are no longer the same phrase —
+the game has wandered off, which is its own kind of ending.
+
+**4. THE LONG NOTE.** It holds one sound as long and evenly as it can, and finds out how long that
+is. Steadiness rather than invention. *Made of:* the sound engine (blocked); its light may steady
+with the note or waver with it, which is the whole tell. *A host would see:* a held note and the
+wisp very still, its glow trembling slightly at the end. *Ends:* when it wavers — both the ending
+and the score.
+
+**5. WHAT FITS HERE.** It looks at where it is and tries glyphs on the place — this one, no; this
+one, closer — keeping the one that fits best. Naming, played as a game. *Made of:* the glyph
+language (blocked) and a sense of place (unverified). *A host would see:* single glyphs surfacing
+and being replaced, each lingering as if being weighed, until one stays. *Ends:* when nothing it
+tries beats what it already has.
+
+**6. THE SAME AGAIN.** It makes a pattern with its own body — a run of pulses — waits, then tries
+to make the same pattern again from memory, and compares. *Made of:* pulse depth and pulse length.
+**Pulse SPEED is not its own** — it is one of the speed knobs 082 kept for you — so the game is
+played in depth and duration rather than tempo. **That is a real constraint on it, not a choice I
+made.** *A host would see:* a little run of pulses, a gap, then the same run again, not quite the
+same. *Ends:* when it matches, or when it has tried enough times to know it will not.
+
+## The obvious one I have NOT proposed
+
+**Hiding** — moving somewhere and being found, or moving somewhere and staying still. The most
+natural solitary game a small floating creature has. **It cannot be proposed yet** because moving
+is not one of the four axes and the Avatar's own position offsets are still unruled — the open
+question flagged in the 082 report above. **The moment position is ruled this becomes the strongest
+game on the list, and it uses nothing that is blocked.**
+
+## What you pick, and what you do not have to
+
+**Only HOW SMALL can be built now.** FEWER WORDS and WHAT FITS HERE wait on the glyph index; ECHO
+and THE LONG NOTE wait on the sound engine (080 chunk B); THE SAME AGAIN can be built now but is
+thinner than it should be until the speed question is settled; HIDING waits on the position ruling.
+
+**Nothing here is a behaviour list.** Each is a capability the goal-former may choose, decline, or
+never reach for — and none of them is anything until you say which.
+
+## The three are delivered
+
+No code changed for Directive 101 — all three were committed when they were done (`75d26b2`,
+`89c86ca`, `267fa3b`) and it was the reports that were owed. The suite was re-run to confirm the
+082 claims rather than quoted from memory.
+
+**Awaiting: your approval on the sleep plan, your pick from the games, and the two rulings —
+position and colour — that 082 left open.**
