@@ -1745,3 +1745,13 @@ Lonnie placed a painting in ~/worldgen/in/. Go:
 4. Report timings per stage, VRAM behavior, where the world file
    landed, and exactly how Lonnie opens and explores it.
 Ollama stop/restart announced as designed. Wall rule stands.
+
+## Directive 092 — Question before the rerun: what is holding 18 GB of RAM?
+
+Lonnie asks why 18 of 31 GB host RAM was already in use at the 091 run.
+Report a breakdown to REPORTS.md: top resident processes by memory
+(names and sizes, not raw dumps), whether anything from our work —
+containers, leftover pipeline stages, Ollama, harness — is holding
+memory it should have released, and what is simply his normal desktop
+load (browser etc.). If anything of ours is squatting, say so plainly
+and what releasing it takes. Read-only survey, kill nothing.
