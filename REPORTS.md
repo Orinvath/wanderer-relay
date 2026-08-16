@@ -15038,3 +15038,74 @@ into**, and the octopus runs against real paintings here rather than in the port
 
 **Waiting on Lonnie:** the go for the hiding game; whether the 0.80 hiding ceiling is right; the
 four placeholder names on the Adapting controls; and, still open from 102, the warmth axis.
+
+---
+
+# DIRECTIVE 106 — The slider is Glow. The ceiling was never real. She reaches 1.0000.
+
+Commit `f4a1e3c`. **GAMES suite now 36, full suite green.** HIDING is built. Its demo page is the
+one piece not yet done, and it is next.
+
+## The slider you were thinking of
+
+**`avatarAdaptGlow` — "Glow", in her Color Effects folder, 0–100, default 66.** It was in the port
+all along; nobody had turned it.
+
+**Verified against the real renderer, not assumed.** In `WispAvatar.jsx` it is her lightness
+outright: the adapting path clamps her lightness to `glow ± 0.08` (line 641), and the rainbow path
+sets it to `glow / 100` directly (line 676). That colour becomes `uTint` on her body. **At Glow 0
+her lightness is at most 0.08 — she goes essentially black. You were right that her glow is not
+fixed.**
+
+## But the measurement contradicts the expectation, and the truth is better
+
+**Going black is WORSE hiding, not better** — measured against your own near plane:
+
+| Glow | her colour | hidden |
+|---|---|---|
+| 100 | `#f4eae1` | 0.507 |
+| 66 (default) | `#c49264` | 0.800 |
+| **40** | `#9e6b3c` | **0.867** |
+| 20 | `#684627` | 0.832 |
+| 0 (black) | `#1e140b` | 0.653 |
+
+**She hides by MATCHING, not by darkening.** The painting there sits at lightness 0.426; her best
+hiding is where her lightness lands on it. Going black is the right move **only where the world is
+dark** — which is what an octopus actually does, and it makes a better game than the one asked for,
+because a dark corner and a bright one now need different answers.
+
+**This is asserted in the suite**, so nobody later "fixes" the game by making her go black.
+
+## The ceiling was two defaults, not a limit
+
+**She reaches 1.0000 — her exact surroundings, `#746c65`.** At Glow 36 **and Vividness 0**.
+
+The 0.80 I reported under 105 was an artifact of *two* of her controls sitting where they were
+left: Glow at 66 held her too bright, and **Vividness at 45 held her too colourful**. I searched
+both together this time rather than one. **My 105 report named one ceiling and there was none —
+that was a measurement I did not push far enough.**
+
+## The game, built
+
+**She looks at what is behind her, decides to hide, and then hunts her own Glow and Vividness until
+she cannot tell herself from it.** Three of her own controls, no panel of yours touched, no licence
+needed.
+
+- **Deciding to hide is the biggest single move she makes** — 0.617 → 0.800 just by turning
+  adapting on. It is recorded as a move rather than done silently, or the play reads as starting
+  with the work already finished.
+- **Then she hunts**, keeping whichever move helps most: typically six or seven more to ~0.95–0.98.
+- **How thoroughly is WHO SHE IS.** Aspect-computed through the same map every other rate uses — a
+  careful, withdrawn Avatar pushes to 0.98; a bold, assertive one is content around 0.94 and stops.
+- **It stops on its own ending** — as hidden as someone like her cares to be, or no move helps.
+- **Coming back is part of the ending**: her own light, her own colours, adapting off.
+
+**A number I got wrong first time and the suite caught:** my thoroughness band started at 0.55.
+Since merely deciding to hide gives her 0.80 for free, **every Avatar finished in one move, bold and
+careful alike.** The band now starts at 0.90.
+
+## Still yours
+
+**104 still holds — HIDING has joined nothing.** The demo page comes next so you can see it. Also
+open: the four placeholder names on the Adapting controls, whether HOW SMALL is kept at all, and
+the warmth axis from 102.
