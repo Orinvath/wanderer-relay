@@ -15323,3 +15323,91 @@ backdrop, not her in a place — no depth, no parallax, no stage. That is the ne
 ## Waiting on him
 
 **HIDING has joined nothing.** 104 holds and the suite asserts it. **Approve or reject on sight.**
+
+---
+
+# WHERE THE HIDING TEST STANDS, AND THE TWO DECISIONS WAITING — in full
+
+Lonnie: *"that is not enough info to make an educated decision."* Correct — I put a two-line choice
+in front of him with none of this behind it. This is the detail.
+
+## 1 — WHAT IS BUILT AND WORKING
+
+**HIDING** (`server/src/games.js`), demo at `server/src/demo-hiding.js`, 46 assertions green.
+
+She stands against his real near plane. **Her own colours put her at 61.7% hidden.** She decides to
+hide — one move, and the largest single gain there is, to **80.0%**. Then she hunts: **Glow 66→58→50,
+Vividness 45→37→29→21**, reaching **95.0%**, which is where *this* Avatar stops because that is what
+someone with her aspects wants. Then she comes home to `#7fecd4`.
+
+**It is her real body** — Avatar 1 out of the blueprint, tendrils, star head and eye core, running on
+three off disk. **She has joined nothing.** The suite asserts that.
+
+## 2 — WHAT THE TEST DOES NOT SHOW, AND WHY IT LOOKS THE SAME
+
+**She takes ONE sample and wears ONE colour over her whole body.** That is the honest limit of what
+is built, and it is why the page looks unchanged from the last time he saw it — **nothing has changed,
+because his per-section note is not built.**
+
+Two further things it does not show: she is **over** the painting rather than standing in a world
+with it behind her (no depth, no parallax, no stage), and **her head, eye and sparks are not sampling
+separately** even though they could today.
+
+## 3 — HER BODY, MEASURED, SO THE NEXT PART IS COSTED HONESTLY
+
+Read out of her own build rather than remembered:
+
+| Part | How it is built | Can it take its own colour today? |
+|---|---|---|
+| **Tendrils** | **129 strands** — 58 mane (short fuzz at the head, electric blue on top), 58 hair (the flowing body and tail), 13 bold hero locks — **all merged into ONE geometry**, each vertex carrying its own baked colour | **No.** One tint for all 129 |
+| **Head** | Its own math star mesh with its own shader and its own `uColor` | **Yes, today** |
+| **Eye** | Its own sprite with its own material | **Yes, today** |
+| **Sparks** | ~220 points, own material | **Yes, today** |
+
+Each strand is placed by an **angle around her head** and runs root→tip with its own colour gradient
+already. **So the information needed to say which region a strand belongs to is already there** — it
+is simply not recorded per vertex.
+
+## 4 — WHAT THE PER-SECTION VERSION ACTUALLY TAKES
+
+**The easy half, buildable now, no rebuild of her:** head, eye and sparks each sample the painting at
+their own screen position and take their own colour. Three separate materials, three samples.
+
+**The hard half:** her tendrils. It needs
+1. **her build to record a region per vertex** — from the strand's angle and how far along it the
+   vertex sits;
+2. **an array of tints** in her shader instead of one;
+3. **the sampler to know where each region sits on screen**, which means her position projected
+   through the camera. The demo currently samples one fixed point and does not do this at all.
+
+**None of it is difficult. All of it changes how she is built**, in our copy.
+
+## 5 — THE THING WORTH SAYING BEFORE HE DECIDES
+
+**The more regions she has, the more she stops reading as one creature and starts reading as a
+painting-shaped smear.** An octopus gets away with it because it has a solid body; she is 129
+translucent strands over a background, and past some number of patches the eye loses her outline
+entirely — **which is either exactly what hiding should feel like, or the moment she stops being
+her.** That is a look judgment and it is his. **How many regions** is the number to argue about, and
+I would rather he set it than discover it.
+
+## 6 — THE DECISIONS
+
+**A. Does HIDING join her capability set?** Joining means the goal-former may pick it like any other
+choice, and she may decline it. Nothing else about her changes. **Or does it wait** until the
+colouring is right — it stays built and unused meanwhile. **Or is it rejected**, and I stop.
+
+**B. Is the per-section colouring built** — all of it, or the easy half first (head, eye and sparks
+sampling separately, tendrils staying one colour), or left as it is. **And if built: how many
+regions.**
+
+## 7 — STILL OPEN FROM EARLIER, UNANSWERED
+
+- **Is HOW SMALL kept at all?** He has never ruled on it.
+- **The four Adapting controls carry placeholder names I invented** — Adapt, Invert, Speed, Strength
+  — because they have no rows in his panel to copy from.
+- **Her Sky Influence defaults to 50**, so she is already about a third dimmed before anyone touches
+  anything, and "her own colours" are therefore already the sky's, halfway.
+- **The warmth axis from 102** — colour is hers and ungated, but no kind of change names it, so she
+  cannot yet *weigh* a colour change. Either it gets sourced from Küller's colour half, or he rules
+  it as ours.
