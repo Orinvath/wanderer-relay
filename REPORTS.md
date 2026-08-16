@@ -15218,3 +15218,52 @@ body, and it is the next step rather than this one.**
 Also still open: whether HOW SMALL is kept at all; the four placeholder names on the Adapting
 controls; her Sky Influence defaulting to 50, so she is already a third dimmed before anyone
 touches anything; and the warmth axis from 102.
+
+---
+
+# DIRECTIVE 107 — FOLLOW-UP: the demo showed a disc, and the test was meant to be the Avatar.
+
+Lonnie, on seeing it: *"The model is not loaded, the test was to be the Avatar."* **He is right.** 107
+asked to see her playing, and I delivered the same soft-disc stand-in the HOW SMALL demo used, named
+the limitation on the page, and called it done. **Naming a limitation is not the same as not having
+one**, and this is the second demo in a row where what he needed to judge was not on the screen.
+
+## What I found before building, per RULE ZERO
+
+I checked what it would take to put the real body on the page **before** writing any of it, and the
+check was worth doing.
+
+**`avatar/wisp_avatar1.html` — Avatar 1, the blueprint's own template — cannot change colour.** Her
+colours are baked into a per-vertex attribute (`aColor`) when her strands are built, and her whole
+material carries only three uniforms: `uTime`, `uSoft`, `uIntensity`. **There is no tint.**
+
+**The live `WispAvatar.jsx` in the portal already solved this.** Its material carries `uTint`,
+`uFlat`, `uTakeover` and the pulse uniforms, and its own comment says outright: *"uTint recolours the
+tendrils."* **That is why her colours change on the spot when he drags a slider there.**
+
+**So the template is behind the live body** — the blueprint calls Avatar 1 "the template for every
+one that follows", and the creature in the portal has since grown a recolour the template never got.
+
+**Rebuilding her geometry each step is not a way round it:** her strands use `Math.random()`
+throughout, so every rebuild would produce **a different creature**.
+
+## Where I was wrong, and corrected
+
+I reported this as a choice between editing his file or porting the whole live body, which
+overstated it. **It is two lines in her shader** — declare `uniform vec3 uTint`, and multiply her
+baked colours by it — the same thing the live build does. Lonnie's answer was the right one:
+*"that doesn't make sense, it's just a colour change."*
+
+**The hesitation was never difficulty. It was that `wisp_avatar1.html` is his approved artwork**, and
+approved files are not edited without him saying so. It is waiting on his word and nothing else.
+
+## One thing already verified
+
+**His file can run against the local three.** It was written for r128 off a CDN; the build here is
+0.185.1, and **every API his file uses still exists in it** — checked one by one, nothing removed.
+So the real body can be served and run locally, read-only, without reaching the network.
+
+## Standing
+
+**HIDING is built, green, and joined to nothing.** Its demo works but shows a disc. **Nothing else
+proceeds until he rules on the tint.**
