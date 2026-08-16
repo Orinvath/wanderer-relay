@@ -15167,3 +15167,54 @@ sky — **but Glow's label does claim brightness**, so neither is the unlabelled
 ## Proceeding per 106
 
 HIDING is built and green. **Its demo page is still the outstanding piece**, and it is next.
+
+---
+
+# DIRECTIVE 107 — The HIDING demo is on his screen.
+
+Commit `4a26e01`. **GAMES suite now 44, full suite green.** Opened in Chrome.
+
+## What is on the screen
+
+**Her, hiding in your own near plane.** The painting is the real file off the live build, served
+byte for byte off disk — nothing copied, nothing written, the chamber untouched — with her drawn
+over the exact spot she is sampling. **When she disappears, she disappears into your picture.**
+
+The sequence, per 107:
+
+1. **As she stands** — her own mint against your browns. 61.7% hidden.
+2. **She decides to hide** — one move, and the largest one she makes: 61.7% → 80.0%. It is on the
+   page as a move rather than done before the count starts, because that decision *is* most of the
+   hiding.
+3. **The hunt, move by move** — five more, each on Glow or Vividness, each with how-hidden beside
+   it, the row lighting up as it happens.
+4. **Her own ending** — *"as hidden as she cares to be"* at 95.0%. The mark on the bar is what
+   someone like her wants, computed from her ten aspects; a bolder Avatar stops earlier.
+5. **And she comes home** — her own colours, adapting off, back to 61.7%.
+
+**Every colour she wears is the real one**, run through the octopus maths and the renderer's own
+pipeline, so what the page paints is what her tendrils would carry.
+
+## The 104 lesson, applied
+
+**I opened it in a real browser before handing it over**, which is the thing I failed to do last
+time. Loaded headless, read the DOM back: **zero console errors**, the painting route serving 1.9 MB,
+all six move rows built, and the page ending on *"and she comes home"* with her own `#7fecd4`.
+
+The suite now checks this demo the same way: **no name that collides with a browser global**, the
+script parses, the table ships empty and is built from the real play, and the frame count matches
+the real move count. A green suite that misses a dead page is worth nothing.
+
+## The one honest limit, named on the page itself
+
+**Her colour is exact; her shape is not.** She is a soft disc, because her body is three.js and this
+is a server. What it cannot show you is her tendrils, her head and her eye — **that needs the real
+body, and it is the next step rather than this one.**
+
+## Waiting on you
+
+**HIDING has joined nothing.** 104 holds and the suite asserts it. **Approve or reject on sight.**
+
+Also still open: whether HOW SMALL is kept at all; the four placeholder names on the Adapting
+controls; her Sky Influence defaulting to 50, so she is already a third dimmed before anyone
+touches anything; and the warmth axis from 102.
