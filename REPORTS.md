@@ -14876,7 +14876,7 @@ is next in his own order and is a game you can actually watch happen.**
 
 Lonnie's ruling in the terminal, not a numbered directive: *"The whole avatar panel needs to be
 present including all settings, even the ones that are not active... better that they are here and
-ready to go when we need to do so."* Commit `d0e5f1b` (CC-Wanderer). **Full suite green** —
+ready to go when we need to do so."* Commit `957deb5` (CC-Wanderer). **Full suite green** —
 CAPABILITIES 26, EFFECTS 47, and every other suite unchanged.
 
 ## What was missing, measured rather than guessed
