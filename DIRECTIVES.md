@@ -2038,3 +2038,13 @@ MEASURE her actual emitted light, hunting for whatever takes it to
 black as a side effect of its stated job. Report which control it is,
 what its label claims, and why the math goes dark. Then proceed per
 106.
+
+## Directive 107 — Go: the HIDING demo for Lonnie's eyes
+
+Lonnie approved. Build the hiding-game demo page per 104's law —
+runnable, opened in a real browser before handover (the 104 lesson),
+showing her actually playing against a real stage painting: her
+decision to hide as a visible move, the hunt move by move, how-hidden
+readout, her own ending, and the coming home. Open it on his screen
+when ready and report. HIDING joins the capability set only on his
+approval on sight.
