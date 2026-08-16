@@ -13641,3 +13641,62 @@ looked canonical. **It was the wrong choice and your recipe already had the righ
 the GGUF loader path rather than the diffusers folder, which is a small edit to one stage.
 
 Everything is committed. The Wanderer suite is untouched.
+
+---
+
+# DIRECTIVE 092 — Nothing of ours is squatting. It is Chrome. Read-only survey, nothing killed.
+
+## Right now
+
+```
+total 31 GB   used 12 GB   free 16 GB   available 18 GB
+```
+
+**It has already come back down** — 12 GB used now against the 18 GB that was in use during the
+091 run. Nothing had to be released; the pipeline's own memory went when the container exited.
+
+## Where it goes
+
+| | | |
+|---|---|---|
+| **Chrome** | **6.5 GB across 39 processes** | **by far the largest single thing** |
+| Claude Code (this session) | 0.93 GB | one process |
+| KDE desktop — plasmashell, kwin, the rest | 0.6 GB across 27 processes | modest |
+| everything else | the remainder | ordinary system services |
+
+The biggest single process on the machine is a Chrome renderer tab at 1.0 GB; Claude Code is
+second at 0.93 GB.
+
+## Is anything of ours holding memory it should have released?
+
+**No.**
+
+- **Ollama: `inactive`.** Not running, holding nothing. (Which also means it was not the culprit
+  during the 091 run and the pipeline correctly reported "nothing to stop".)
+- **No pipeline processes left.** The only `python3` processes are Fedora's own —
+  `ds-inhibit`, `firewalld`, the update checker.
+- **No containers running.** One exists, `wanderer-phase0-postgres`, **Exited 3 days ago** —
+  a stopped container from the Wanderer test work. **A stopped container holds no memory.**
+- **The harness holds nothing** — it only runs during its own test.
+
+## So why was 18 GB in use during the run?
+
+**Chrome, this session, and the desktop, plus the pipeline itself while it worked.** Nothing had
+leaked and nothing was stuck. **The machine simply does not have much headroom once a browser with
+39 processes is open**, and I asked FLUX to stream 24 GB through what was left.
+
+**That was my mistake, not a leak.** The fix remains the same and is unchanged by this survey: use
+the 9.8 GB quantised FLUX you already have, which does not need host streaming at all.
+
+## One thing worth knowing, though it is disk and not memory
+
+**Podman storage is 60 GB** — the ROCm image. That is expected and it is what the environment is,
+but it is a large permanent resident on your drive and you should know it is there. There is still
+plenty free.
+
+## If you want the headroom anyway
+
+**Closing Chrome before a generation run frees about 6.5 GB** — more than a fifth of the machine.
+Not required with the quantised model, but it is the single biggest lever and it costs nothing.
+
+Nothing was killed, stopped, or changed.
