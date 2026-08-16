@@ -13700,3 +13700,72 @@ plenty free.
 Not required with the quantised model, but it is the single biggest lever and it costs nothing.
 
 Nothing was killed, stopped, or changed.
+
+---
+
+# DIRECTIVE 093 — IT WENT ALL THE WAY THROUGH. Your painting is an explorable splat world, made end to end on the Radeon 7900 XT.
+
+```
+panorama (2048, 1024) -> work/pano/Test.png        364 s
+depth    (1024, 2048, 3) -> work/depth/Test.npz     18 s
+369,270 points -> work/recon/Test/cloud.npz          0 s
+369,270 gaussians -> out/final/Test/world.ply        0 s
+rendered a check frame through gsplat -> preview.png
+```
+
+**`~/worldgen/out/final/Test/world.ply` — 20.7 MB, 369,270 Gaussians.** Plus `preview.png`, which
+is a frame of those actual splats rendered through gsplat on the card, so the file is proved rather
+than asserted.
+
+## How you open it
+
+**Drag `world.ply` onto https://superspl.at/editor** (or any splat viewer — PlayCanvas, Antimatter,
+SuperSplat). It is the standard 3DGS `.ply` layout, so anything that opens a splat opens this.
+Drag to look, scroll to move.
+
+**The whole run, from your painting, is one command:**
+```
+cd ~/worldgen && ./generate.sh
+```
+
+## What the quantised FLUX fixed, and what it did not
+
+Your GGUF loaded **in 15 s** and never came near the host memory ceiling that killed 091. But it
+did **not** fix the GPU side on its own — the card still died asking for 4.50 GiB.
+
+**That allocation was never the model. It was one attention matrix.** A 2048×1024 equirect is an
+8192-token sequence and the attention score matrix grows with its square. **Slicing it into chunks
+fixed it, and kept your panorama at full 2048×1024** — shrinking the output would have been a
+decision about your work, taken to save me effort.
+
+## Three more real bugs, all found by running it
+
+1. **GGUF weights carry no architecture config** — `from_single_file` went to HuggingFace for it,
+   which is a gated repo and returned 401. The config was already inside your FLUX folder;
+   pointing at it means the pipeline never touches the network.
+2. **Attention/VAE memory**, above.
+3. **gsplat was invisible to the splat stage** — it is an editable install living in
+   `src-gsplat`, which was not on the path. The `.ply` was written correctly anyway; only the
+   verification render failed. `PYTHONPATH` now carries it.
+
+## Timings and VRAM
+
+- **Panorama dominates: 364 s** — 16 steps at ~6.1 s/step, plus a tiled VAE decode. Slicing costs
+  speed; that is the trade for full resolution on 20 GB.
+- **Depth: 18 s.** MoGe is unmodified PyTorch and just works on ROCm.
+- **Reconstruction and splat: under a second each.** The unprojection is arithmetic.
+- **VRAM held.** Each stage ran in its own container and the card was empty between them — the
+  design doing its job.
+- **Ollama was not running**, so nothing was stopped; the announcement path is still untested
+  against a live Ollama.
+
+## What is honestly still rough
+
+- **The splat is a point cloud turned into Gaussians, not a trained one.** No optimisation pass —
+  splat size comes from point spacing. It will look like a detailed point cloud rather than a
+  polished 3DGS scene. Training is the obvious next step and was not in scope.
+- **`--strength 0.55` is my starting number, not your choice.** It decides how much of your
+  painting survives versus how convincingly it wraps to 360. **That dial is yours** and it is the
+  first thing to move once you have looked at the panorama.
+
+The Wanderer suite is untouched. Everything is committed.
