@@ -13795,3 +13795,26 @@ route uses the model already installed and working.
 What does still stand from 093: the environment, the quantised FLUX path, the attention slicing,
 gsplat building and rendering on the 7900 XT, the panorama itself, and the pipeline's staging and
 failure handling. **The panorama is real. The 3D is not.**
+
+### 093 CORRECTION, second part: the panorama is wrong too, and this one is worse
+
+Lonnie: *"the 360 was not even done right — it stretched the image to be the same image just
+stretched across a wider image. it should filled in the sides with the other elements not stretch
+what was there."*
+
+**Correct, and it is plainly visible in the file.** The stage does
+`Image.open(painting).resize((2048, 1024))` — **it squashes his painting to double width** — and
+then runs image-to-image at strength 0.55, which preserves composition by design. So the output is
+his painting, stretched, lightly restyled. **No new scene was ever generated.**
+
+**I set the stage the wrong job.** A 360 from one painting is an **outpainting** problem: place the
+painting at its true aspect in the centre of a 2:1 canvas, mask the empty sides, and have FLUX
+paint outward until the left and right edges meet round the back — with the wrap seam handled so
+it joins. Image-to-image cannot do that; it has no empty region to invent into.
+
+**So the correction above understated it.** Both halves were wrong: the panorama never became a
+panorama, and the depth model was the wrong kind for the image it was given. **The only thing 093
+really proved is that the plumbing runs end to end** — environment, quantised FLUX, attention
+slicing, gsplat on the card, staging and failure handling. Those stand. **The output does not.**
+
+Rebuild of the panorama stage as outpainting, and of depth as cubemap faces, **awaiting his word.**
