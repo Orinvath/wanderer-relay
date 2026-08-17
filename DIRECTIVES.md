@@ -2236,3 +2236,21 @@ to another project entirely.
 3. STANDING LAW (add to CLAUDE.md): nothing in CC-Wanderer may depend
    on any path outside CC-Wanderer. Audit for any other outside
    reaches and report them.
+
+## Directive 116 correction — that folder was CODEX's project. Hands off.
+
+Lonnie: /home/nobara-user/Wanderer/ was the Codex team's project, not
+ours. Ours is CC-Wanderer. So:
+
+1. CANCEL 116 item 1 — no investigating another team's folder, its
+   history, or its contents. Not ours, not our business, same law as
+   chamber.
+2. The real finding stands corrected: our depth build was quietly
+   REACHING INTO ANOTHER TEAM'S PROJECT for its packaging tool. That
+   it broke when they cleaned up is on us for the reach, not on
+   anyone for the cleanup.
+3. Proceed directly: install rolldown inside CC-Wanderer, restore
+   depth-on-load, and run the outside-reach audit (116 item 3) so we
+   never lean on anyone's folder again — chamber read-only excepted
+   as the one sanctioned read.
+Report the fix and the audit.
