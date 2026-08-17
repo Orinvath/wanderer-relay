@@ -2272,3 +2272,18 @@ second team's dead end, not under his direction — gone rightly). The
 both-directions audit is CLOSED: the project is fully self-contained,
 the two sanctioned exceptions stand (chamber read-only comparison; the
 funded key outside git). Record closure; nothing else.
+
+## Directive 118 — Nothing "works" until Lonnie SEES it work
+
+Lonnie: "It says it works but I haven't seen it." Claims of working
+that he has not witnessed are not verification — his eye is the
+standard (the 104/111 pattern, now general law for CLAUDE.md):
+A THING WORKS WHEN LONNIE HAS SEEN IT WORK. Reports may claim
+"measured" or "suite green"; only his eyes close the loop on anything
+user-facing.
+
+NOW: open the real Stage page on his screen — the rebuilt panel from
+his own builders (115), with depth-on-load live. Walk him through
+what to try in one short line each: load a painting, watch "depth ✓"
+appear, open the folders, press Play on Music Score. His verdict
+rules on each. Report what he approved and what failed his eye.
