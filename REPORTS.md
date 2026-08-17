@@ -16596,3 +16596,54 @@ superseded when the terminal took over polling. **It changes nothing about the a
 it is ours and it is outside the walls, so it stays on the inward list until it goes.
 
 **No commit.** Nothing in the project changed; this is a record entry only.
+
+---
+
+## Report — Directive 119 — the Stage draws the world; his eye rules next
+
+**His verdict on 118 was right and the fix was structural:** the panel drove a data store and
+nothing visible. *"Depth ✓ in a data store does not pass his eye; a plane appearing on screen
+does."*
+
+### HIS RENDERER, LIFTED
+
+`browser/multiplane.js` — out of his `MultiplaneLayers.jsx`, **verbatim**: `RADIAL_SEGMENTS`,
+`GROUND_Y`, `horizontalFov`, `maxAzimuth`, `arcDegrees`, `heightPerRadius`, `layerAspect`,
+`buildShell` with its curve-flattening, and **both shaders entire** — every uniform, every line.
+
+**His numbers, not my memory.** The first attempt used look limits from recall — yaw 35, **pitch
+20**. His file says **pitch 18**. Corrected against the source, and his parallax values (far 0.00,
+mid 0.10, near 0.20) came across the same way. **The shells are cut to those numbers, so a guess
+would have mis-cut every one of them.**
+
+### WHAT REACT WAS DOING, DONE IN PLAIN THREE
+
+`browser/stage-world.js`, in **his update order**, from his `useFrame`:
+
+1. rebuild the shell **only** when the camera's shape or the curve changes — never per frame
+2. **radius IS this layer's distance from the eye**
+3. the shell is concentric with the eye, so it travels with it
+4. counter-turn against where you look, by that layer's share
+
+**Three uniforms have no source on this page yet** — there is no sky dome and no avatar here.
+`uSkyAmount` and `uSunShading` are fed from **his own** `planeSkyInfluence` and `planeSunShading`
+controls; `uAvatarLight` is zero. **Stated in the file, not faked.** When the sky and the avatar are
+ported they replace three lines and nothing else.
+
+### THE PANEL DRIVES IT
+
+Loading a painting hangs it in the world. **Distance, Curve, Depth and each plane's switch redraw
+that shell as they move.**
+
+### LOOKED AT BEFORE SENDING — per 118
+
+Screenshot taken and read: **three shells drawn, no page errors**, his far/mid/near paintings
+standing at their depths with the panel floating over them. **Suite green.**
+
+**This is not "working" yet.** Under 118 only his eye closes that. **It is open on his screen now.**
+
+**What to try, one line each:** open **Planes** and drag **Distance** on Near Plane; drag **Curve**
+from 100 to 0 on the same plane; press **Load** and hang a different painting; turn a plane's switch
+off and on; drag on the world itself to look around.
+
+**Commit:** `bd10545`, on `4c2f1a0` taken before.
