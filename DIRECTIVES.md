@@ -2098,3 +2098,29 @@ THE DESIGN:
 
 PLAN into TRAIT_PLAN.md with citations, then wire per-section
 colouring (the owed item) with this as its meaning layer. Report.
+
+## Directive 110 — The ENTIRE Stage system working — then per-section colouring
+
+Lonnie's corrections and rulings:
+
+1. THE ENTIRE STAGE, as 105 ordered: every folder, every option of
+   the Stage Panel System from the live build — Worlds, Painted Sky,
+   Planes (all depth behavior), Props, Music Score (instruments,
+   player, all of it working as in the portal — verified by playing,
+   real audio out), presets, everything. The 105 report claimed Stage
+   complete at 31 controls, yet the hiding demo shows her over one
+   flat painting. RECONCILE FIRST: re-measure the port against the
+   live build folder by folder, option by option — report anything
+   missing by name — then USE it: the demo runs on the real staged
+   world (planes at depth, her among the layers). "Surroundings" for
+   hiding becomes what is behind her from the viewer's eye, per
+   layer.
+
+2. THEN PER-SECTION COLOURING, starting point 5 ZONES PER TENDRIL
+   (129 × 5 = 645 regions, plus head, eye, sparks sampling their own
+   patches). Starting point, not law — if the cost threatens, report
+   measured cost against cheaper counts; Lonnie's eye decides.
+
+Rule Zero on the tendril rebuild before building: mesh cost,
+per-frame sampling, memory — flaws first. Stage reconciliation report
+lands before colouring begins. Suites green.
