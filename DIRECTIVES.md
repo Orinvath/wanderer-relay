@@ -2169,3 +2169,19 @@ The standing rule extends: WHEN PORTING, THE PORTAL'S IMPLEMENTATION
 IS THE SPEC. No alternatives offered, no substitutions, no "same
 result different road" — his road, as built, always. Report both
 fixed.
+
+## Directive 113 — Both already answered; stop re-asking settled law
+
+1. THE FAITHFULNESS READ STAYS. Lonnie's law was always "nothing
+   changes in chamber, nothing touched — only copied/read." A
+   read-only comparison violates nothing. It keeps reading the live
+   files. This was answered law, not an open question — do not
+   resurface settled rules as decisions.
+2. ONE STAGE, as he already ordered twice (105, 110 "the entire Stage
+   system"): merge the three pages — Music Score, planes/props,
+   depth-on-load — into the one Stage panel as the portal has it.
+3. The fetch flaw (his code writing 503 error pages as audio,
+   half-filled folders counting as held): NOTED in the record as his
+   system's own shape, untouched. It is his code; flag it once in
+   FEASIBILITY/TODO for his someday and leave it.
+Report the merged Stage. Music verified by HIS ear on the real page.
