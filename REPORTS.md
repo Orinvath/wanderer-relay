@@ -16290,3 +16290,67 @@ holds; his panel says what a person sees, and the difference is every control I 
 correction was not to fix my panel — it was to stop having one.
 
 **Commit:** `73e40b3`, on `6ca726d` taken before. **The Stage is open on his screen.**
+
+---
+
+## Report — Directive 115, CORRECTION — I reported a panel I had never looked at, and it drew nothing
+
+**His order:** *"you need to test it before you send it to me to make sure it actually works, and by
+that I mean load it in chrome and take control of chrome and look yourself before you involve me."*
+
+**He was right, and the previous report was worthless.** Everything in it was measured through the
+DOM — classes present, sections in order, labels in his order, no invented controls, no page errors,
+a slider writing through, a painting in with `depth ✓`, Lullaby at peak 0.50. **Every one of those
+was true and the panel was invisible.** Its box was `0 × 0`. A screenshot showed an empty dark
+rectangle.
+
+### THE CAUSE
+
+Two rules in his own stylesheet, which I copied across and then did not read:
+
+```
+.design-gear { display: none; }                                    /* revealed only once you are through */
+body.is-inside .design-gear { display: flex; }
+body.is-inside .wx-panel.design-gui:not(.wx-hidden) { display: block; }
+```
+
+**His panel does not exist until you are through the portal**, and his `MainWorld` puts `is-inside`
+on the body when you go through. On this page there is no card to go through, so nothing ever set
+it. The panel built correctly, held every control, answered every query — **and drew nothing.**
+
+Set now, next to `setInsideWorld(true)`, and flagged the same way: **both are things his app supplies
+that a page on its own does not, and both come out the day a card exists here.**
+
+### WHAT I ACTUALLY SAW, having looked
+
+His panel, in his colours: **STAGE** with its master pill on the title line and his caret hard
+right; **Worlds** with the world-name field, Save, `load a world…` and Delete; **Painted Sky** with
+its own pill, `Painting none [LOAD]`, then Light `Backlit`, Intensity 1.00, Colour 0.00, Lights
+16.0, Cast Shadows 2.00, Horizon 0.35, Height 1.00; **Far, Mid and Near Plane** each with their own
+pill, their painting named beside a LOAD button — `far.png`, `mid.png`, `horizon_test…` — and
+Distance, Curve and Depth; **Sky Influence 70.0** and **Sun Shading 0.00** beneath all three;
+**Props** with LOAD PROPS; **Music Score** with its pill on the head, the piece menu, his line
+*"40 of 57 held — ↓ fetches on first play"*, and Volume 70.0.
+
+It scrolls inside itself (1404 of 708 shown), **his launcher hides and shows it**, and **his folds
+fold**.
+
+### THE LESSON, stated so it is not repeated
+
+**A passing measurement is not a working thing.** Every check I ran queried the DOM, and a DOM can
+be perfect while nothing is on screen. From here, anything handed to him is looked at first — the
+page opened, the screenshot read — and only then reported.
+
+### HIS SECOND QUESTION — answered from standing law, not passed to him
+
+*"we are looking at all this on the web but we are creating an app so should these tests be in a
+browser?"*
+
+**Yes, and the browser is not a stand-in — it is the runtime.** His four design principles are
+Realtime, **Browser-Based**, **No downloading**, Infinite. Elsewhere's front end is self-contained
+HTML opened in a browser; Somewhere is Vite and R3F in a browser; it is mobile-first because people
+arrive from Facebook on phones. **The panel itself is DOM and CSS — it has no existence outside a
+browser.** Testing it anywhere else would be the test double this project refuses. So a browser is
+correct, and looking at it in one is the only honest test there is.
+
+**Commit:** `65c867e`, on `73e40b3`.
