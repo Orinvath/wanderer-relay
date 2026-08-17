@@ -2302,3 +2302,13 @@ it drives nothing. Depth ✓ in a data store does not pass his eye;
 a plane appearing on screen does.
 
 When it renders, reopen it on his screen per 118. His eye rules.
+
+## Directive 119 addendum — Lonnie's additional eye findings
+
+1. PAINTED SKY DOES NOT SHOW either — same disease as the planes: the
+   backdrop must actually render behind everything, portal-exact.
+2. THE LIGHT BUNDLE MOVES INTO THE STAGE PANEL: bring the lights over
+   (Lights + God Rays + Light in the Air + Wisps, the 055/080 bundle)
+   and house them IN the Stage panel with the other folders. Portal
+   implementation is the spec for both their behavior and their rows.
+Same 118 law: reopen on his screen when it all renders; his eye rules.
