@@ -179,3 +179,30 @@ the report**, named as the one thing that differs, never quietly absorbed.
 **And prove the port against HIS OUTPUT, not against itself.** A ported depth map was checked by
 running a painting the portal had already mapped and comparing the two pixel for pixel. "It
 produced a map" is not the claim; "it produced HIS map" is.
+
+---
+
+# STANDING LAW ANSWERS FIRST — Directive 114, Lonnie's, permanent
+
+**This sits beside Rule Zero and binds the terminal and the director equally.**
+
+**BEFORE any question reaches Lonnie, check it against the standing rules and his prior rulings.**
+If an existing rule or ruling answers it — **apply the answer and proceed. Do not ask.**
+
+A question that reaches him must be **genuinely new**: no rule covers it, no ruling implies it, no
+pattern he has established decides it. **Re-asking settled law is a violation**, and it is costing
+this project real time.
+
+The director holds the ruling record and answers settled questions from it directly, without
+involving Lonnie. **Only the genuinely new reaches him, one at a time, in plain words.**
+
+### Why this rule exists
+
+Directive 112 asked him to rule on whether a read-only comparison against the live build was
+allowed. His law already said it: *"nothing changes in the chamber, nothing touched — only
+copied/read."* The answer was sitting in the rule, the question was asked anyway, and 113 had to be
+written to say so. That is the shape this stops.
+
+**Asking is not the safe default.** An unnecessary question costs the same thing a wrong decision
+costs — his time and his attention — and it hands back work he had already done. Checking the record
+first is the work.

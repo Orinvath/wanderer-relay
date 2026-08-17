@@ -16129,3 +16129,39 @@ passing quietly.
 **Commit:** `adf0abd`, on `128e37e` taken before.
 
 **The Stage is open on his screen.** The music is verified by meter, not by ear; that part is his.
+
+---
+
+## Report — Directive 114 — standing law answers first
+
+**Placed in both files, confirmed.**
+
+| file | where | line |
+|---|---|---|
+| `CC-Wanderer/CLAUDE.md` | immediately after the Rule Zero block, before "Everything else" — **beside Rule Zero**, as ordered | 63 |
+| `wanderer-relay/HANDOFF.md` | as a permanent law, after the porting law from 112 | 185 |
+
+**What it says, in both, identically.** Before any question reaches Lonnie it is checked against the
+standing rules and his prior rulings. If one answers it, **the answer is applied and the work
+proceeds — it is not asked.** A question that reaches him must be genuinely new: no rule covers it,
+no ruling implies it, no pattern he has established decides it. Re-asking settled law is a
+violation. The director answers settled questions from the ruling record without involving him; only
+the genuinely new reaches him, one at a time, in plain words.
+
+**Why it went beside Rule Zero rather than anywhere else.** They are the same rule pointed at two
+different costs. Rule Zero says *check the material before you spend his bandwidth, his disk or his
+trust on a recommendation.* This says *check the record before you spend his time on a question.*
+Both fail the same way — by treating asking, or asserting, as the safe default when the answer was
+already available and unread.
+
+**The case written into it, named rather than softened.** Directive 112 asked him to rule on whether
+a read-only comparison against the live build was allowed. His law already answered it — *"nothing
+changes in the chamber, nothing touched — only copied/read"* — and 113 had to be written to say so.
+That was my violation, it is recorded as the reason the rule exists, and it is the shape this stops.
+
+**One line added that is not in the directive**, and it is flagged rather than slipped in: *asking is
+not the safe default.* An unnecessary question costs the same thing a wrong decision costs — his time
+and his attention — and hands back work he had already done. If that framing is wrong it comes
+straight out.
+
+**Commit:** `b016245`, on `76aa5e8` taken before. Nothing else in the project changed.
