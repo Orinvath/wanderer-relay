@@ -16354,3 +16354,40 @@ browser.** Testing it anywhere else would be the test double this project refuse
 correct, and looking at it in one is the only honest test there is.
 
 **Commit:** `65c867e`, on `73e40b3`.
+
+---
+
+## Report — UNFILED FAILURE — depth-on-load is broken, and I only said so in the terminal
+
+**This should have been filed the moment it was found. It was not, and that breaks the same-turn
+rule.** Lonnie asked which relay folder was live so he could clear out old ones; while answering, I
+found the breakage, told him in the terminal, and never wrote it down. He had to ask whether a
+report existed. **The record is the product; a thing said aloud and not written did not happen.**
+
+### WHAT IS BROKEN
+
+**Depth-on-load produces nothing. Every painting comes in flat.** The Stage's `/transformers/…`
+route answers **500**.
+
+**Why.** The depth model's library has to be packaged into a single browser module before a page can
+load it, and the tool that does that packaging was reached at
+`/home/nobara-user/Wanderer/node_modules/rolldown` — **a folder outside this project, which is now
+gone.** Verified: the path does not exist, and the tool is not inside `CC-Wanderer` either.
+
+**When it broke.** Between the depth work landing (it was measured working — `Comp_Test.png`,
+4800×3840, mean difference 0.66 of 255 against his own map) and 2026-08-17 09:2x, when the folder
+disappeared. Nothing in the Wanderer changed; a dependency simply left.
+
+**Blast radius, checked:** only this. The music no longer touches that folder — it moved to esm.sh
+under the 112 correction — and every other surface reads from `data/`. **Depth is the only casualty.**
+
+### THE FIX, NOT MADE
+
+Install that one packaging tool **into this project** so nothing here depends on a folder it does
+not own. It is a build tool, small, and it removes the last outside reach in the codebase.
+
+**Not done, because Lonnie has not said yes** — and because the same question is worth asking once
+rather than assuming: whether that folder went deliberately, since it may have carried other things.
+
+**Standing rule restated, for me:** anything found broken is filed to this record in the same turn
+it is found, whether or not it came up in conversation. Telling him is not reporting.
