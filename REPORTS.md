@@ -16063,3 +16063,69 @@ local model, and it says so).
 
 **Commits:** `1a7b0a1` the correction, on `17e899f` and `1df2e3d` taken before each change.
 **Suite:** every phase passed; PHASE 3 did not run and says so rather than passing quietly.
+
+---
+
+## Report — Directive 113 — one Stage
+
+### 1. THE FAITHFULNESS READ STAYS.
+
+No work, and the correction taken: **that was settled law and I re-opened it as a question.**
+"Nothing changes in the chamber, nothing touched — only copied/read" already covered a read-only
+comparison. Asking again cost a turn and made Lonnie rule on something he had ruled on. The
+capability comparison goes on opening his live `Gui.jsx` and `config.js`, which is what makes it a
+comparison rather than a fixture.
+
+### 2. ONE STAGE. The three pages are one panel.
+
+**His order, from `buildStageBody`, kept exactly:**
+
+> **Worlds · Painted Sky · Planes · Props · Music Score**
+
+**And his master switch, with the behaviour his own comment insists on** — it takes the *music* as
+well as the props: *"it used to move only the props, and the music played on with the stage off.
+Turning the stage back on resumes the piece if Music Score's own switch is on."* Verified: switching
+the stage off stopped the transport.
+
+**Nothing is authored twice.** Every row is generated from the ported capability table — the same
+table the suite already checks against his live panel key by key and range by range. If a control
+moves there, it moves here, and the suite says so. The only special widget is the piece list,
+because the grouping by tag is his; it still carries its address like every other row, so it is the
+table's row wearing his widget.
+
+**Driven end to end in a real Chrome, not merely loaded:**
+
+| | |
+|---|---|
+| sections, in order | Worlds · Painted Sky · Planes · Props · Music Score |
+| controls rendered | **32** — 9 Painted Sky, 18 across the three planes, 3 Music Score, props as added |
+| a slider writes through | `plane:far.distance` → **1999**, read back off the world |
+| a prop added | `p1`, its nine controls with his own defaults behind them |
+| a painting in | one of his own: **`near.png · depth ✓`**, map stored under `plane:near.depthUrl` |
+| the music | **Lullaby playing, peak 0.5385**, transport started, through his module |
+| a world | saved, listed, and set to open by itself |
+| the master switch | stage off → **transport stopped** |
+| page errors | **none** |
+
+**What went, and where it went.** The two retired pages are deleted rather than left to rot — git
+holds them. The one piece of them still needed, serving the depth model's library as a single
+module, moved to `transformers.js` unchanged.
+
+**Two things fixed on the way, both mine, both found by running it:** the music rows were
+hand-written instead of generated, which quietly contradicted the "nothing authored twice" rule this
+panel is built on; and the page had no icon, so every load logged a 404 — and a 404 in the log is
+the first thing you look at when something is actually wrong.
+
+### 3. THE FETCH FLAW: recorded, untouched.
+
+`FEASIBILITY.md`, one entry, his code left exactly as it is — what happens, why a half-filled folder
+then counts as held, the measurement (`vsco2-trumpet-sus-f`, 10 upstream, 7 landed, asking again
+answers `already`), and the smallest honest fix **if he ever wants it**, stated as two additions,
+which is why it has not been made.
+
+**Suite:** every phase passed. PHASE 3 did not run — no local model here — and says so rather than
+passing quietly.
+
+**Commit:** `adf0abd`, on `bb8b0c0` taken before.
+
+**The Stage is open on his screen.** The music is verified by meter, not by ear; that part is his.
