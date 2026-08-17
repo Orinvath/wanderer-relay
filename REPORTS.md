@@ -15818,3 +15818,60 @@ samples, the built generator packages already installed, real audio out of a pag
 **And the standing lesson, recorded because it has now cost real time twice:** when something works
 in the portal, its dependencies resolved — so the first move is to find where, **not** to write down
 that they might be missing.
+
+---
+
+# DIRECTIVE 111 — The Music Score plays. It is on his screen. Nothing was fetched.
+
+Commit `907a73e`. **40 pieces ready to play, entirely off this disk.**
+
+## What it serves, and where each piece of it came from
+
+| | Source | Fetched? |
+|---|---|---|
+| **Tone 14.7.77** | `Wanderer/node_modules/tone` — the exact version his own `music.js` imports | **no** |
+| **The piece** | the built `@generative-music/piece-*` package, **bundled here by rolldown** with Tone left external | **no** |
+| **The instruments** | `chamber/music/samples` — his own `.ogg` files and his own `index.json`, read-only | **no** |
+
+**His build fetches the piece bundle from esm.sh; this does the same job locally**, which is the
+whole reason nothing has to be downloaded. Tone is left external so the page and the piece share one
+clock — his own comment warns that a piece bringing its own copy schedules on a clock nothing ever
+starts.
+
+**His `sampleLibrary` is transcribed**, not approximated: a folder's index lists its files, a file
+named like `c4.ogg` or `asharp3.ogg` becomes that note, a folder with no note names is one sound,
+and the pair rule holds — in `['lullaby__birds','birds']` the **second** is the folder.
+
+## What is proven, and what only his ears can settle
+
+**Proven in a real browser**, not by reading the source: Tone resolves through the import map, the
+piece bundles to 38 KB and imports, the instrument index and the `.ogg` files serve, **and the page
+loads with zero errors.**
+
+**Not proven: that it sounds right.** Headless Chrome has no audio device, so it is the wrong
+instrument for that question — I chased it for several attempts before saying so, which was time
+wasted on a check that could never have succeeded. **111 says verified by playing. That verification
+is his ear, and the page is open on his screen with a Play button.**
+
+## Two mistakes worth recording
+
+**The import map silently refused a relative value.** `"tone": "tone/index.js"` is not a legal
+mapping — it must be absolute or start with `./`. Chrome reported it as *"blocked by a null value"*
+and the page simply did not run. **And serving Tone as a single file was wrong too**: its ESM build
+is a tree of modules importing each other by relative path, so it is mounted as a folder.
+
+**A backtick in a comment ended the page — for the second time.** The page script lives inside a
+template literal, and one backtick closes it. It broke the Avatar demo the same way earlier today.
+**There is now a line in the file saying so**, because clearly I do not remember it otherwise.
+
+## Where 111 stands
+
+**Four of five built:** Worlds, Planes, Props, and the Music Score — library **and** player.
+
+**The fifth, depth-on-load, is the one item still open**, and only in one form: the weights are
+cached here (`Depth-Anything-V2-Small-hf`, 95 MB), but the portal uses the **ONNX** build that
+transformers.js loads in a browser, which is not cached. **Server-side generation against the cached
+weights needs no download; the browser path would.** That is a build choice for Lonnie, not a
+bandwidth question.
+
+Then the hiding demo moves onto the real staged world, and 110's per-section colouring begins.
