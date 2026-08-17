@@ -16391,3 +16391,44 @@ rather than assuming: whether that folder went deliberately, since it may have c
 
 **Standing rule restated, for me:** anything found broken is filed to this record in the same turn
 it is found, whether or not it came up in conversation. Telling him is not reporting.
+
+---
+
+## Report — depth-on-load FIXED, and the previous report was wrong about the fix
+
+**Lonnie, in one sentence:** *"the depth works in the portal just fine what is your problem?"*
+
+**There was no problem, and my last report proposed the wrong repair.** I asked to install a build
+tool into the project. That would have papered over my own substitution instead of removing it.
+
+### WHAT ACTUALLY HAPPENED
+
+| | |
+|---|---|
+| his `depth.js` | `const LIB = 'https://esm.sh/@huggingface/transformers@3.8.1'` |
+| what I had made it | `const LIB = '/transformers/transformers.web.js'` |
+| his URL, checked | **200** |
+
+His line works and always did. I replaced it because *"every Wanderer surface is served off this
+disk"* — **my rule, not his, and precisely the substitution Directive 112 forbade.** That local path
+then could not be loaded by a browser as-is, so it needed a packaging step; the packaging tool lived
+in a folder outside this project; the folder went; depth died. **Every part of that chain was
+downstream of one line I had no business changing.**
+
+### THE FIX IS A REMOVAL
+
+His line is restored, so `depth.js` is now **word for word his, not one line different**. The
+packaging module, both of its routes, and the outside dependency are **deleted, not replaced**.
+Checked: **nothing under `server/src` reaches outside this project any more.**
+
+**Verified through his own panel, not by inspection:** `near.png` loaded with his Load button reads
+**`near.png · depth ✓`**, and the map is stored under `plane:near.depthUrl`.
+
+### WHAT I SHOULD HAVE DONE
+
+Rule Zero's first question — *does this already work somewhere?* — had an obvious subject here: **his
+portal, which does this every day.** Instead of asking it I proposed adding a tool. The rule I
+already had for this is *fixes are removals; if I am adding something to compensate, I have not
+found the cause yet.* The cause was mine, one line, and deleting it took everything else with it.
+
+**Commit:** `cf412db`, on `a275330` taken before. Nothing else changed.
