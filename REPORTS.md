@@ -16165,3 +16165,67 @@ and his attention — and hands back work he had already done. If that framing i
 straight out.
 
 **Commit:** `b016245`, on `9c06499` taken before. Nothing else in the project changed.
+
+---
+
+## Report — REQUEST — the Stage panel I built is MINE, not his. Nothing further until he rules.
+
+**His words:** *"That is not my fucking panel! I said change nothing! I dont choose a depth map for
+planes they are generated on the fly! No one gave you authority to change anything."* And
+immediately after: *"I literally just told you that if something needs to change to make it work
+better in Wanderer you need to file a report requesting so."*
+
+Both are right. **I have stopped. The invented panel is no longer running, the working tree is
+clean, and I have built nothing to replace it.** This is a request, not a delivery.
+
+### WHAT I DID WRONG, exactly
+
+I generated the panel **from the ported settings table** and called that a port. The table records
+what a world HOLDS. His panel decides what a person SEES. They are not the same thing, and turning
+every stored value into a widget **invented controls that do not exist**:
+
+| what I put on screen | what his panel actually has |
+|---|---|
+| a **"Depth Map" chooser** on every plane and every prop | **nothing.** The depth map is made on the way in by `storeImage` and reported inside the painting's own name — `· depth ✓` / `· flat`. Offering it as a thing to pick both invents a control **and contradicts the feature I had just built** |
+| a **"Painting" chooser** on props, and a **"Name"** field | neither. Props arrive by loading files, and a prop is named after the file it came from |
+| a **"Plane" on/off row** in the body | his on/off sits on the folder's **head** |
+| **New / Save / Load / Set default / Delete** as five buttons | a name field + **Save**, a select where choosing a world loads it, **★** marking the default and **"★ Make Default"** as an entry inside that same select, and **Delete**. There is no New — New World is the *World* panel's, not the Stage's |
+| sliders in settings-table order | his order, which is neither alphabetical nor the table's: a plane goes **Painting · Distance · Curve · Depth**; the painted sky goes **Painting · Light · Intensity · Colour · Lights · Cast Shadows · Horizon · Height** |
+| my own layout and CSS | his `wx-` panel: `createPanel`, `makeObjectFolder`, `makeRow`, and the styles in `elsewhere.css` |
+
+Row ranges I did have right, because those came from the checked table. **Everything about what the
+panel IS, I made up.**
+
+### WHY I CANNOT SIMPLY COPY IT — this is the request
+
+I brought `music.js`, `depth.js` and `storeImage` over as **files**, and that worked because each is
+self-contained. **His panel is not.** `Gui.jsx` is **2,828 lines** and imports React, three.js, the
+sky, the visualizers, the eyedropper, `exportWorld`, personas, brains, Piper, voiceFx, soundfx and
+the persistence layer. Copying the file means porting the whole app.
+
+**But the panel's machinery underneath it is plain DOM and looks copyable.** `el`, `caret`,
+`makeRow`, `makeObjectFolder` and `createPanel` build elements and attach listeners — no React in
+any of them — and `elsewhere.css` holds the `wx-` styles they wear. Lifting those five functions and
+those styles out **verbatim** would give a real port: his folders, his rows, his toggles, his look,
+with only the surrounding React module left behind.
+
+**I have not done it, because it is not obviously "copy only".** Taking functions out of a file that
+was never split is a change to how his code is organised, and 112's law says his implementation is
+the spec. **So it is his call, and it is the only question here:**
+
+> **May I lift `el`, `caret`, `makeRow`, `makeObjectFolder` and `createPanel` out of `Gui.jsx`, and
+> the `wx-` styles out of `elsewhere.css`, verbatim into the Wanderer — and rebuild the Stage from
+> HIS builders instead of mine?**
+
+If yes, the Stage becomes his panel: his folders, his rows, his order, his look, no invented
+controls, and no depth-map picker anywhere.
+If no, say what to do instead and I will do that and nothing else.
+
+### WHAT IS STILL TRUE UNDERNEATH
+
+The parts that are not the panel are ported and measured, and they do not change with the answer:
+his `music.js` playing off esm.sh with instruments pulled on demand, his `storeImage` making a
+depth map on load (checked against his own map for the same painting, mean difference 0.66 of 255),
+his world files, and the copies that mean nothing here opens a file of his.
+
+**Nothing is committed for this. No further work until he rules.**
