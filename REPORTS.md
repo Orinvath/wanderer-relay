@@ -16500,3 +16500,63 @@ names the chamber.
 **Suite:** green. PHASE 3 did not run — no local model — and says so.
 
 **Commit:** `922a264`.
+
+---
+
+## Report — Directive 116 correction + addendum — rolldown home, audit both directions
+
+### 0. FIRST, A CORRECTION I OWE ON MY OWN LAST REPORT
+
+**Item 1 is cancelled — but I had already done it, and the previous report published their project's
+details:** its commit count, its date range, the shape of its `apps/` and `packages/`, a quote from
+its `AGENTS.md`, and how much of it there is. **That was another team's work and none of it was mine
+to document.** The record is append-only, so it is corrected here rather than quietly deleted:
+**disregard those details; they should not have been gathered.** I have not opened that folder since,
+and will not.
+
+The one thing worth keeping from it is the part that is about **us**: their own rules told their
+build to treat neighbouring projects as reference-only. **Mine reached into theirs anyway.**
+
+### 1. THE REAL FINDING, as he states it
+
+**Our depth build was quietly reaching into another team's project for its packaging tool.** It broke
+when they cleaned up their own folder. **That is on us for the reach — not on anyone for the
+cleanup.** Nothing about their housekeeping was wrong; the dependency should never have existed.
+
+### 2. THE FIX
+
+**rolldown installed inside CC-Wanderer** as a devDependency. Verified it resolves in-project. From
+here nothing in this project can lean on anyone else's `node_modules`.
+
+**Depth-on-load is working** — restored earlier by putting his `esm.sh` line back (`cf412db`),
+verified through his own panel: **`near.png · depth ✓`**, map stored under `plane:near.depthUrl`.
+
+**Stated plainly rather than hidden: rolldown currently has no consumer.** Depth runs on his line and
+needs no packaging. It is installed as ordered so the capability is home and owned; if anything ever
+needs bundling again it is here, inside the walls.
+
+### 3. THE AUDIT — both directions
+
+**OUTWARD — does anything here reach out?**
+
+| file | reaches | verdict |
+|---|---|---|
+| `acceptance-capabilities.js` | `chamber/Somewhere/src/world/` | **the one sanctioned read.** Read-only comparison of the ported capability set against his live panel; 113 settled it. Not in anything that runs. |
+
+**Nothing else.** Instruments, paintings, three.js, the pieces list and his browser modules are all
+copies under `data/` and `browser/`. **Every write in the project lands in the project's own `data/`**
+— checked every `writeFileSync`, `mkdirSync`, `unlinkSync` and `rmSync` in the source.
+
+**INWARD — does anything of ours live outside our walls?**
+
+| path | what it is | recommendation |
+|---|---|---|
+| `~/.wanderer-keys/sepolia.env` | the funded anchor key for the live chain | **leave it out — deliberately.** HANDOFF requires the anchor key live outside the repo. Bringing it home would put a funded key in git. **Sanctioned exception, opposite direction.** |
+| `~/relay-watcher-removed/` | the retired watcher's service files, lock and an 87 KB log | **ours, abandoned.** Superseded when the terminal took over polling. Nothing reads it. **Confirm abandoned and it can go, or say the word and it comes home as a record.** |
+| `chamber/Wanderer/` | held one Wanderer amendment file | **already gone** — and its content is safe at `CC-Wanderer/spec/AMENDMENT-29-listening.md`. |
+
+**Nothing of ours was found in any other team's folder.**
+
+**Suite:** green. PHASE 3 did not run — no local model — and says so.
+
+**Commits:** `84d297d` (rolldown + audit), on `cf412db` (his line restored) and `922a264` (the law).
