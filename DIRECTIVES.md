@@ -2254,3 +2254,13 @@ ours. Ours is CC-Wanderer. So:
    never lean on anyone's folder again — chamber read-only excepted
    as the one sanctioned read.
 Report the fix and the audit.
+
+## Directive 116 addendum — Lonnie's law: nothing of ours in their folders, either
+
+The audit runs BOTH directions: nothing in CC-Wanderer reaches outside
+its walls, AND nothing belonging to this project lives in any other
+team's folder. If the audit finds Wanderer files, tools, builds, or
+artifacts stored anywhere outside CC-Wanderer (other projects' folders,
+stray home-directory locations), report each by path so it can be moved
+home or confirmed abandoned. The project is self-contained in both
+directions, permanently.
