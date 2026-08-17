@@ -16229,3 +16229,64 @@ depth map on load (checked against his own map for the same painting, mean diffe
 his world files, and the copies that mean nothing here opens a file of his.
 
 **Nothing is committed for this. No further work until he rules.**
+
+---
+
+## Report — Directive 115 — the Stage is his panel now
+
+**What I had built is gone.** The panel generated from the settings table, with its invented
+depth-map pickers, is deleted — not adjusted.
+
+### LIFTED VERBATIM, as 115 allows
+
+| into | what |
+|---|---|
+| `browser/panel.js` | `el`, `caret`, the four number helpers `makeRow` needs, **`makeRow` whole — all six kinds**, `toggleLinks`, `applyLinks`, the open-folder memory, the panel's own drag / resize / keep-on-screen behaviour, `createPanel`, `makeObjectFolder` |
+| `browser/panel.css` | **112 `wx-` rules** and the `:root` tokens they use, out of `elsewhere.css` |
+
+**Nothing inside any of them is edited.** Four stubs stand in for what his scope has and a
+standalone page does not — `markSkyDirty`, `pickColour`, `isPicking`, the dropper glyph. **Only his
+colour row reaches them, and the Stage has no colour row**; they exist so `makeRow` could be copied
+whole rather than trimmed. If a colour row is ever wanted, those four are what to bring across, and
+the file says so.
+
+### THE PANEL, BUILT BY HIS OWN FUNCTIONS
+
+`browser/stage-panel.js` calls his builders to make his five sections. Verified in a real Chrome:
+
+| | |
+|---|---|
+| the panel | `wx-panel design-gui design-gui-4` — his classes throughout |
+| master switch | on the title line, and it **takes the music**, as his comment requires |
+| sections, his order | **Worlds · Painted Sky · Planes · Props · Music Score** |
+| Painted Sky | Painting · **Light · Intensity · Colour · Lights · Cast Shadows · Horizon · Height** — his order, which is neither alphabetical nor the table's |
+| Planes | three folders titled **Far Plane · Mid Plane · Near Plane**, each **Painting · Distance (ft) · Curve · Depth**, with **Sky Influence · Sun Shading** beneath all three |
+| Props | **Load Props**, several files at once, a folder per piece with a close × and its own on/off |
+| Music Score | on/off **on the head**, Piece, his status line, Volume |
+| Worlds | name + **Save**, a load menu with **★** on the default and **★ Make Default** inside it, **Delete** |
+| **invented controls** | **none** |
+
+**Depth-map pickers: gone.** A plane's map is made on the way in and reported in the painting's own
+name. The word on screen is his: `near.png  · depth ✓`.
+
+### THEN DRIVEN, THROUGH HIS ROWS
+
+Curve → **50** through his slider, `near.png` in as **`· depth ✓`** with the map stored, a prop
+folder appearing from a loaded file, **Lullaby at peak 0.4987**, transport started, a world **saved**.
+**No page errors.** Suite green; PHASE 3 skipped and says so.
+
+### THE ONE LINE HIS PANEL DOES NOT HAVE
+
+`setInsideWorld(true)`. His `music.js` refuses to play outside the world — *"a card does not play
+music"* — and in his app **MainWorld** says which side of that you are on, never the panel. On this
+page there is no card. Without the line his own guard stopped every piece before it started, which
+is exactly what the first run did. **Flagged rather than buried; remove it the day a card exists
+here.**
+
+### WHAT I GOT WRONG, plainly
+
+I read the ported settings table as if it were the panel. **It is not.** The table says what a world
+holds; his panel says what a person sees, and the difference is every control I invented. The
+correction was not to fix my panel — it was to stop having one.
+
+**Commit:** `73e40b3`, on `6ca726d` taken before. **The Stage is open on his screen.**
