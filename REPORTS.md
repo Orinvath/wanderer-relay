@@ -15566,3 +15566,106 @@ orders warm against cool; it does not say there is a best point between them.
 **The per-section colouring, and the stage.** 109 says to wire the per-section work with this as its
 meaning layer, and that remains — along with the stage itself, which Lonnie flagged and which is why
 the demo still reads as a cutout on a backdrop. **Next.**
+
+---
+
+# DIRECTIVE 110, PART 1 — THE STAGE RECONCILED. My 105 report was wrong.
+
+**Read folder by folder out of the live build's own code, not from memory.** No changes made yet —
+110 says this lands before colouring begins, and it does.
+
+## First: 105 claimed the Stage complete at 31 controls. It is not, and the claim was unsound
+
+**The Stage panel is not a table.** Every other panel in the live build is a declarative list that
+can be compared row by row — which is how the Avatar panel was checked, and why that check was
+trustworthy. **The Stage panel is built imperatively in code**, so there was nothing to compare
+against, and 105 counted what the port had rather than what the build has. **That is not a
+measurement.** This one is: every folder was read in `Gui.jsx` and `stage.js`.
+
+## The live Stage panel is exactly five folders
+
+`buildStageBody()` appends: **Worlds · Painted Sky · Planes · Props · Music Score.**
+
+**HDRI — the photographed sky — is NOT one of them.** It looks stage-shaped and it is not: it lives
+in the **Objects** panel. Saying so because it would otherwise be the obvious thing to port next by
+mistake.
+
+## What is missing, by name
+
+### A. Plane Distance has lost its per-plane ranges — REAL
+
+The live build gives each plane its own travel, so the slider is useful across its whole length:
+
+| Plane | Range (ft) |
+|---|---|
+| far | **1000 – 2000** |
+| mid | **500 – 1000** |
+| near | **50 – 500** |
+
+**The port carries Distance as a plain number with no range at all.** Nothing stops the near plane
+being set to 1800 ft, which the live build would clamp. `setPlaneDistance` clamps to the plane's own
+pair; the port does not know the pairs exist.
+
+### B. Every Prop control has lost its range, and two defaults are simply wrong — REAL
+
+Live `STAGE_ROWS`, all sliders:
+
+| Row | Live range | In the port |
+|---|---|---|
+| Height (ft) | **1 – 300** | no range |
+| Distance (ft) | **5 – 400** | no range |
+| Left / Right (ft) | **−300 – 300** | no range |
+| Off the Ground (ft) | **−50 – 200** | no range |
+| Flip | toggle | toggle ✓ |
+
+**And the defaults contradict his own code.** `stage.js addPiece` creates a piece at **heightFt 30,
+distance 60**. The port says **40 and 200**. Those are numbers I carried across wrongly and then
+described as verbatim.
+
+### C. The Music Score folder is a stub — REAL, and the largest gap
+
+The live folder is: an on/off that **actually starts and stops playback**, a **Piece list grouped by
+tag** built from `PIECES`, showing which pieces are **held locally versus fetched on first play**
+(marked ↓, with a count), a *— silence —* entry, and Volume 0–100. Playback runs through
+`playPiece` / `stopPiece` / `ensureInstruments` — **generative.fm generators, real instruments
+loaded on demand**.
+
+**The port has three settings and an EMPTY piece list.** `musicPiece` is a select with `opts: []`.
+**Nothing can be chosen, nothing plays, and no instrument exists here.** 110 asks for it working and
+verified by playing with real audio out — **that is a real build, not a port of three rows.**
+
+### D. The Worlds folder is actions, and none of them came across — REAL
+
+New World · Save (named) · Load · Set default · Delete. **The port has `showStage` and a `world`
+select with an empty list.** So there is no way to make, save, load or delete a world here.
+
+### E. Loading a painting also makes its depth map — REAL, and it is a behaviour not a control
+
+`storeImage(file)` returns **both the painting and a depth map generated on the way in**, and the
+panel reports *"depth ✓"* or *"flat"*. **The port has a `depthUrl` field and nothing that fills
+it.**
+
+### What IS correct
+
+**Painted Sky — all nine, with their real ranges.** Curve, Depth, and the two plane-shading settings
+carry their ranges correctly. Those were checked and are right.
+
+## The honest summary
+
+| Folder | Live | Ported | State |
+|---|---|---|---|
+| Worlds | 5 actions | 2 settings, empty list | **stub** |
+| Painted Sky | 9 | 9 | **complete** |
+| Planes | 5 per plane + 2 | 6 per plane + 2 | complete but **ranges missing** |
+| Props | 5 rows + painting | 9 fields | **no ranges, 2 wrong defaults** |
+| Music Score | list + player + volume | 3 settings, empty list | **stub — nothing plays** |
+
+**The Stage is not complete and the hiding demo could not have run on a real staged world**, which
+is exactly what Lonnie saw when he said the test needed the stage.
+
+## What I have NOT done, and why
+
+**No code changed.** 110 orders the reconciliation to land first, and the per-section colouring waits
+on the stage being real. **Also flagged before starting:** the Music Score folder is the one item
+here that is a genuine build rather than a port — audio playback, instrument loading and a piece
+library — and it is worth Lonnie knowing that before it is treated as one item among five.
