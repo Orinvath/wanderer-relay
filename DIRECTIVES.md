@@ -2185,3 +2185,21 @@ fixed.
    system's own shape, untouched. It is his code; flag it once in
    FEASIBILITY/TODO for his someday and leave it.
 Report the merged Stage. Music verified by HIS ear on the real page.
+
+## Directive 114 — STANDING LAW ANSWERS FIRST. Stop burning Lonnie's time.
+
+Lonnie's order, binding on the terminal and the director equally, added
+to CLAUDE.md and HANDOFF.md beside Rule Zero:
+
+BEFORE any question reaches Lonnie, check it against the standing rules
+and his prior rulings. If an existing rule or ruling answers it, APPLY
+THE ANSWER AND PROCEED — do not ask. Questions that reach him must be
+genuinely new: no rule covers them, no ruling implies them, no pattern
+he has established decides them. Re-asking settled law is a violation
+and it is costing the project real time.
+
+The director holds the ruling record and will answer settled questions
+from it directly without involving Lonnie. Only the genuinely new
+reaches him, and only one at a time, in plain words.
+
+Confirm placement in both files.
