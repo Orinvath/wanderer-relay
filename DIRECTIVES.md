@@ -2264,3 +2264,11 @@ artifacts stored anywhere outside CC-Wanderer (other projects' folders,
 stray home-directory locations), report each by path so it can be moved
 home or confirmed abandoned. The project is self-contained in both
 directions, permanently.
+
+## Directive 117 — Audit closed
+
+Lonnie already trashed ~/relay-watcher-removed/ himself (it was a
+second team's dead end, not under his direction — gone rightly). The
+both-directions audit is CLOSED: the project is fully self-contained,
+the two sanctioned exceptions stand (chamber read-only comparison; the
+funded key outside git). Record closure; nothing else.
