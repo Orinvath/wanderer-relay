@@ -15669,3 +15669,99 @@ is exactly what Lonnie saw when he said the test needed the stage.
 on the stage being real. **Also flagged before starting:** the Music Score folder is the one item
 here that is a genuine build rather than a port — audio playback, instrument loading and a piece
 library — and it is worth Lonnie knowing that before it is treated as one item among five.
+
+---
+
+# DIRECTIVE 111 — Three of five built. Two carry costs Lonnie has to approve first.
+
+Commits `7c706a0`, `6769cab`, `39db79b`. **Full suite green**, CAPABILITIES now 41. **Every claim
+below is measured against the live build, folder by folder — 110's standard, applied.**
+
+## BUILT — measured, asserted, done
+
+### 2. Planes — every range carried
+
+| Plane | Travel |
+|---|---|
+| far | 1000 – 2000 ft |
+| mid | 500 – 1000 ft |
+| near | 50 – 500 ft |
+
+**And clamping honours them per plane**, which is the part that makes a range more than decoration:
+`plane:near.distance` set to 99999 now lands at 500, not at some shared ceiling. The port had **no
+range at all** on this control.
+
+### 3. Props — real ranges, and my two wrong numbers corrected
+
+Height 1–300 · Distance 5–400 · Left/Right ±300 · Off the Ground −50–200 · Flip. `STAGE_ROWS`
+verbatim. **And the defaults: 30 ft high, 60 ft away — his own `addPiece`. I had written 40 and
+200** and then described the port as verbatim, which it was not.
+
+### 1. Worlds — all five actions, on real files
+
+**New · Save · Load · Set default · Delete**, writing `data/worlds/<name>.json`. A world carries the
+**shape of the stage** — which painting hangs on which plane at what distance with what relief,
+every prop with its size and position, the music — **plus the tagged settings**, because his own
+note says a world is the whole place gathered or it is not a world. **Names and paths only, never
+the pictures.** Deleting takes the world file and **leaves the paintings**, his rule, because
+another world may hang the same ones. The default is kept in `data/` so it follows the project
+rather than the browser.
+
+**One thing a save reports honestly:** it names **127 of his tagged settings it cannot find**,
+because they belong to panels not ported here yet — skydome, clouds, ocean, ground, screen. It
+writes 108 and *says* which are missing rather than writing fewer and staying quiet.
+
+### 4a. The Music Score LIBRARY — real
+
+**His 57 pieces, read from his own `pieces.json`**, grouped by his seven tags, with a silence entry.
+**40 of the 57 can play right now**; the rest are marked ↓ exactly as his panel marks them, because
+**27 instruments are held on this disk** and those pieces want others. His pair rule is read his way
+round — in `['lullaby__birds', 'birds']` the **second** is the folder — because reading it backwards
+asks for folders that never existed.
+
+**Good news measured, not assumed:** the instruments and generators are **already on this disk** —
+**38 MB of samples, 6 MB of generators**. Nothing needs downloading for the library.
+
+---
+
+## NOT BUILT — both need Lonnie's word, and here is why
+
+### 4b. Playing it — real audio out
+
+**Sound comes out of a browser.** The pieces run on **Tone.js** through a Web Audio graph; this side
+is a server with no audio context and no speakers. **Building a player here would be exactly the
+test double this project refuses**, so `music.js` says outright that the player is not here rather
+than exporting something that pretends.
+
+**The cost, measured:** his build imports Tone from `https://esm.sh/tone@14.7.77` — **it is not on
+this disk.** That is a **one-off fetch of roughly a megabyte**, small, but it is a download and the
+rule is that downloads are confirmed. The samples themselves cost nothing; they are already here.
+
+**And the verification is his ears, not mine.** 111 says *verified by playing, real audio out*. I
+can build the page, prove the graph runs and the instruments load, and open it — **I cannot hear
+it.** The last word on whether it plays is Lonnie's.
+
+### 5. The depth map on load — 50 MB
+
+`storeImage` generates the depth map by running **Depth Anything V2 Small in the browser**, and his
+own file states the size: **"fetching the depth model (about 50 MB, once)"**, pulled from a CDN via
+`@huggingface/transformers`.
+
+**Fifty megabytes against a monthly cap is not something I pull without asking.** It is also the
+only item of the five that needs a model at all.
+
+**Worth noting before he decides:** his comment says the map is made **once, when a painting is
+loaded, then saved beside it** — *"nobody visiting a world ever runs the model."* So the cost is
+one-off and only falls on whoever authors a world. **The paintings already on disk have their depth
+maps.** If the Wanderer never loads a *new* painting, this behaviour is never needed.
+
+---
+
+## Where that leaves 111
+
+**Three folders done and asserted. The music library done.** Waiting on two answers: **the ~1 MB
+Tone fetch** so the music can actually play and he can hear it, and **the 50 MB depth model** — or
+his ruling that depth-on-load is not needed here, given the paintings already have theirs.
+
+**The hiding demo moving onto the real staged world, and part 2's per-section colouring, follow
+these.**
