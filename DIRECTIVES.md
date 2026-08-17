@@ -2124,3 +2124,27 @@ Lonnie's corrections and rulings:
 Rule Zero on the tendril rebuild before building: mesh cost,
 per-frame sampling, memory — flaws first. Stage reconciliation report
 lands before colouring begins. Suites green.
+
+## Directive 111 — Finish what 105 claimed: the whole Stage, for real this time
+
+Lonnie's order, and his anger is on the record as earned: 105 claimed
+this complete and it was not. Build all five folders to match the live
+build exactly:
+
+1. WORLDS: all five actions working — New, Save (named), Load, Set
+   default, Delete.
+2. PLANES: every range carried from the live build.
+3. PROPS: real ranges, and the two wrong defaults corrected to his
+   code's own numbers (heightFt 30, distance 60).
+4. MUSIC SCORE: the real build, flagged and accepted — piece list
+   grouped by tag from PIECES, local-vs-fetched marking, silence
+   entry, volume, playPiece/stopPiece/ensureInstruments with
+   generative.fm instruments — VERIFIED BY PLAYING, real audio out.
+5. The depth-map-on-load behaviour: storeImage generating the depth
+   map on the way in, "depth ✓ / flat" reporting.
+
+COMPLETENESS CLAIMS ARE NOW HELD TO 110's STANDARD: measured against
+the live build folder by folder, gaps named or none exist. No
+completeness claim without the measurement shown. Then the hiding demo
+moves onto the real staged world and part 2 (per-section colouring)
+begins per 110. Suites green. Report.
