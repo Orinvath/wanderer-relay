@@ -2148,3 +2148,24 @@ the live build folder by folder, gaps named or none exist. No
 completeness claim without the measurement shown. Then the hiding demo
 moves onto the real staged world and part 2 (per-section colouring)
 begins per 110. Suites green. Report.
+
+## Directive 112 — Music FAILED Lonnie's ear-test; and depth-on-load is NOT a choice
+
+1. THE MUSIC DID NOT PLAY. Lonnie pressed Play on your page: silence.
+   Debug it on the real page in a real browser with audio (his machine
+   has ears even if headless Chrome does not) until sound actually
+   comes out, matching the portal's behaviour. Report what was wrong,
+   plainly.
+
+2. DEPTH-ON-LOAD: there is no build choice and should never have been
+   a question. Lonnie's standing instruction is PORT IT JUST AS IT IS
+   — the portal works a specific way for a reason. The portal uses the
+   browser-side transformers.js/ONNX path: use exactly that. Fetch the
+   ONNX build it needs (bandwidth is not a factor); wire it as the
+   portal does — storeImage generates the depth map on the way in,
+   "depth ✓ / flat" reported the same way.
+
+The standing rule extends: WHEN PORTING, THE PORTAL'S IMPLEMENTATION
+IS THE SPEC. No alternatives offered, no substitutions, no "same
+result different road" — his road, as built, always. Report both
+fixed.
