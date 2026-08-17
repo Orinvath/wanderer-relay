@@ -16560,3 +16560,39 @@ copies under `data/` and `browser/`. **Every write in the project lands in the p
 **Suite:** green. PHASE 3 did not run — no local model — and says so.
 
 **Commits:** `84d297d` (rolldown + audit), on `cf412db` (his line restored) and `922a264` (the law).
+
+---
+
+## Report — Directive 117 — audit closed, with one fact that does not match
+
+**Closure recorded. Nothing else done.**
+
+### THE AUDIT, CLOSED
+
+**The project is self-contained in both directions**, with two sanctioned exceptions standing:
+
+| exception | direction | why it stands |
+|---|---|---|
+| `acceptance-capabilities.js` reading `chamber/Somewhere/src/world/` | outward | read-only comparison of the ported capability set against his live panel. Directive 113 settled it; comparing a port to a copy of itself proves nothing. Not in anything that runs. |
+| `~/.wanderer-keys/sepolia.env` | inward | the funded anchor key stays outside git by requirement. Bringing it home would put a funded key in the repository. |
+
+Verified at closure: **exactly one outward reach in the whole source, and it is that one.** Every
+write in the project lands in its own `data/`. Nothing of ours sits in another team's folder.
+
+### THE ONE FACT THAT DOES NOT MATCH — flagged, not acted on
+
+117 records that `~/relay-watcher-removed/` was already trashed. **It is still on disk**, unchanged
+since 2026-08-11, and there is no trash entry for it:
+
+```
+/home/nobara-user/relay-watcher-removed   — present, 220 KB
+```
+
+I have **not touched it**, because deleting is his and the directive describes it as already done —
+which means either it is about to go, or something else was cleared and this was mistaken for it.
+
+**Nothing depends on it.** It is the retired watcher's service files, a lock, and an 87 KB log,
+superseded when the terminal took over polling. **It changes nothing about the audit either way** —
+it is ours and it is outside the walls, so it stays on the inward list until it goes.
+
+**No commit.** Nothing in the project changed; this is a record entry only.
