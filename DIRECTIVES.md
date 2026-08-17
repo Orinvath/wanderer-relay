@@ -2203,3 +2203,16 @@ from it directly without involving Lonnie. Only the genuinely new
 reaches him, and only one at a time, in plain words.
 
 Confirm placement in both files.
+
+## Directive 115 — Answered from standing law (114 protocol): lift his builders verbatim
+
+Settled rules answer your question; Lonnie was not asked. 112: his
+implementation is the spec. 108: copies into the Wanderer are the
+work's own; the chamber is only read. Therefore: YES — lift el, caret,
+makeRow, makeObjectFolder, createPanel and the wx- styles VERBATIM
+into CC-Wanderer, and rebuild the Stage from HIS builders: his folders,
+his rows, his order, his toggles, his look, no invented controls, no
+depth-map picker. The organisational concern is void — the chamber
+file is not being reorganised; a copy is being made, which is the
+standing pattern. Report the rebuilt Stage; his ear and eye verify on
+the real page.
