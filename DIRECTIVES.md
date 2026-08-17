@@ -2216,3 +2216,23 @@ depth-map picker. The organisational concern is void — the chamber
 file is not being reorganised; a copy is being made, which is the
 standing pattern. Report the rebuilt Stage; his ear and eye verify on
 the real page.
+
+## Directive 116 — The vanished folder: establish what it was, then fix depth inside our walls
+
+Lonnie's correction: he cleared folders for OTHER projects, not old relay
+folders. Whether /home/nobara-user/Wanderer/ was among what he removed,
+or went another way, is unestablished — and that folder may have belonged
+to another project entirely.
+
+1. ESTABLISH: what was /home/nobara-user/Wanderer/ — ours, another
+   team's, or a stray? Check any record that names it (old reports, git
+   remotes, shell history if readable, trash if it exists). Report what
+   it was and what else it carried, so Lonnie knows whether anything
+   else of value went with it.
+2. FIX APPROVED IN PRINCIPLE: install the packaging tool (rolldown)
+   INSIDE CC-Wanderer so depth-on-load stands on the project's own
+   feet — no reach outside the walls, per the standing pattern. Do it
+   after (1) is reported.
+3. STANDING LAW (add to CLAUDE.md): nothing in CC-Wanderer may depend
+   on any path outside CC-Wanderer. Audit for any other outside
+   reaches and report them.
