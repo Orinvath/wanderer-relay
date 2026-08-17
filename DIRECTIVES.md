@@ -2287,3 +2287,18 @@ his own builders (115), with depth-on-load live. Walk him through
 what to try in one short line each: load a painting, watch "depth ✓"
 appear, open the folders, press Play on Music Score. His verdict
 rules on each. Report what he approved and what failed his eye.
+
+## Directive 119 — Lonnie's eye verdict on the Stage page: panel yes, world MISSING
+
+Lonnie saw the page (screenshot on record with the director). Verdict:
+the panel is there and reads right — but it floats on an empty purple
+page. LOADING A PLANE SHOWS NOTHING. There is no world behind the
+panel: no renderer, no scene, no planes drawn.
+
+Fix: the Stage page must render the actual staged world — the plane
+images at their depths, exactly as the portal draws them (his
+implementation is the spec, 112). The panel drives a visible world or
+it drives nothing. Depth ✓ in a data store does not pass his eye;
+a plane appearing on screen does.
+
+When it renders, reopen it on his screen per 118. His eye rules.
