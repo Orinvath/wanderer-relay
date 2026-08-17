@@ -15875,3 +15875,96 @@ weights needs no download; the browser path would.** That is a build choice for 
 bandwidth question.
 
 Then the hiding demo moves onto the real staged world, and 110's per-section colouring begins.
+
+---
+
+## Report — Directive 112 — both fixed: the music plays, and depth is his path
+
+### 1. THE MUSIC. Why you heard silence.
+
+**Tone never loaded at all.** Not the piece, not the samples, not the transport — the sound engine
+itself never arrived, so the page's script died on its first line and never reached the code that
+wires the Play button. Pressing it did literally nothing.
+
+**The cause, exactly.** Your page does `import * as Tone from 'https://esm.sh/tone@14.7.77'`, and
+esm.sh answers with **one bundled module**. I served the installed package's **folder** instead —
+and Tone's own module tree imports its parts *without file extensions*: `./core/Global`,
+`./classes`, `./version`. A bundler supplies the `.js`. A browser never does. Every one of those
+requests 404'd.
+
+**Why I reported it working.** I checked that the page loaded and that the first request succeeded.
+The page's markup is static, so a dead script leaves it looking finished — the buttons are there,
+the piece list is there, nothing announces that nothing is wired. I had proved the page *renders*
+and called that proof it *runs*. Those are not the same claim and I made the wrong one.
+
+**The fix is a removal, not an addition:** the folder mount is gone. Tone is bundled locally into
+one module — the same tool the pieces already use — so the browser gets what esm.sh gives your
+page: one module, one copy of Tone, one clock.
+
+**And the rest is now yours rather than mine.** Since the spec is your implementation, your
+`music.js` is transcribed rather than reinvented: `ToneAudioBuffer.fromUrl` instead of raw decoded
+buffers (a piece that *reverses* an instrument cannot do it to a bare buffer), your IndexedDB
+render cache **with its `save`** (a piece that wants to keep its rendering was previously calling a
+method I had not given it), your `/music/samples/...` paths, and your stop-**and-cancel**.
+
+**Measured, not assumed.** An analyser tapped onto the master bus in a real Chrome, every ready
+piece played in turn:
+
+| | |
+|---|---|
+| **38 of 40 make sound** | context running, transport started, peaks 0.01–0.73 |
+| **Moment** — no sound | `No nearby samples found for midi 36`. A real gap in the instruments held on this disk: the piece wants a low note we do not have. Not the port. |
+| **Skyline** — not proved | still loading its instruments when my two-minute window closed. Neither working nor broken — untested, and said so. |
+
+One correction to my own method: a first sweep played all forty in **one** tab and reported 23 of
+40, with failures clustering at the end (`cannot connect to an AudioNode belonging to a different
+audio context`, `createBuffer failed`). That was my harness exhausting the tab, not the pieces.
+Re-run one piece per fresh browser, they play. **I nearly reported seventeen false failures.**
+
+### 2. DEPTH ON LOAD. You were right that it was never a choice.
+
+I raised a build question where the answer was already settled, and that is the failure worth
+naming: *the portal's implementation is the spec*, and asking which road to take is itself a
+substitution. Ported as it is:
+
+- **`browser/depth.js`** — your file. Depth Anything V2 Small, browser-side, WebGPU with the CPU
+  fallback, your progress reporting, your "returns null rather than throwing so a failed map never
+  stops a painting being used".
+- **`browser/stage-store.js`** — your `storeImage`, unchanged: upload the painting, make the map,
+  upload it beside, and never let a failed map be fatal.
+- **The endpoint** — `/api/stage/upload?name=&kind=`, answering `{ url }`, landing under
+  `stage/images` and `stage/props`. Your address, your shape.
+- **The words** — the panel writes `· depth ✓` or `· flat`. Yours.
+
+**One line differs in the whole port**, and it is stated rather than buried: the library is served
+off this disk instead of esm.sh, because every Wanderer surface is 127.0.0.1-only and serves its
+own dependencies. Same package, same version (3.8.1), fetched as you said to.
+
+**It needed the same fix Tone needed.** The published browser file imports `onnxruntime` by bare
+name; a browser cannot resolve that. The first run reported **every painting flat** because of it.
+Bundled into one module, as esm.sh does.
+
+**Proved against your own work, not against itself.** `Comp_Test.png`, 4800×3840 — a painting the
+portal has already made a depth map for. Run through this and compared with yours, pixel for pixel:
+
+| | |
+|---|---|
+| size | 4800×3840 both |
+| your map's mean | 83.8 |
+| this map's mean | 83.4 |
+| **mean difference** | **0.66 of 255** |
+| worst single pixel | 14 |
+
+Same model, same map. That is the check that separates *a* depth map from *your* depth map.
+
+**Both pages are open on your screen.** The music one to press Play on — an analyser says sound
+comes out, but only your ears say whether it sounds right. The depth one to load a painting into and
+look at the relief it comes in with; that judgement is yours and I have not made it.
+
+**Suite:** every phase passed. PHASE 3 did not run — no local model on this machine — and says so
+rather than passing quietly.
+
+**Commits:** `ef41284` the music, `56db7a4` the depth, on top of `c51ce56` taken before either.
+
+**Standing rule recorded:** when porting, your implementation is the spec — no alternatives, no
+substitutions, no same-result-different-road. Added to HANDOFF.md as a law rather than a note.

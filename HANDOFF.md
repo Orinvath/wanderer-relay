@@ -159,3 +159,23 @@ avatar files carried across, such as `avatar/wisp_avatar1.html`.
 **Why this had to be said:** the terminal treated a copied file as if it were the original and
 stopped to ask before a two-line change, which cost a turn and read as making Lonnie decide
 something that was never his to decide. Copy it, then own it.
+
+## THE PORTAL'S IMPLEMENTATION IS THE SPEC — Directive 112, Lonnie's, permanent
+
+**When porting anything from the live build, port it JUST AS IT IS.** The portal works the way it
+works for a reason. No alternatives offered, no substitutions, no "same result by a different road"
+— his road, as built, always.
+
+**Offering a choice is itself the violation.** Directive 111 ended with depth-on-load presented as a
+build decision for Lonnie to make. It was never a decision: the portal generates the depth map in
+the browser with transformers.js and ONNX, so that is what the Wanderer does. Asking which road to
+take spends his time deciding something already decided, which is the same cost as deciding it
+myself.
+
+**Where a difference is genuinely forced** — a Wanderer surface is 127.0.0.1-only and serves its own
+dependencies where his page reaches a CDN — the difference is **stated plainly in the port and in
+the report**, named as the one thing that differs, never quietly absorbed.
+
+**And prove the port against HIS OUTPUT, not against itself.** A ported depth map was checked by
+running a painting the portal had already mapped and comparing the two pixel for pixel. "It
+produced a map" is not the claim; "it produced HIS map" is.
