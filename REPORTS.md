@@ -16698,3 +16698,74 @@ starting it rather than after.**
 until the four are there**, so his time is spent once rather than four times.
 
 **Commit:** `986e17e`, on `bf87473` taken before.
+
+---
+
+## Report — Directive 120 — all four land, God Rays included. What it took.
+
+**Reported after it works, as ordered.**
+
+### WHAT GOD RAYS ACTUALLY WAS
+
+**It is not a component, and that is why there was no file to copy.** It is three passes woven into
+how the portal draws a frame:
+
+1. the world is drawn into a target for the picture — **his layers 0 and 1**
+2. if the rays are on, **the world is drawn again** into a smaller target with the camera set to
+   **layers 0 and 2** — layer 2 being **occluders**, things that exist only to block shafts and are
+   never displayed. *That* is what makes a wisp punch a dark gap in a beam instead of smearing into
+   a bright streak of its own.
+3. that source is **radial-blurred from the sun's projected screen position** into a third target,
+   and the picture **adds** it.
+
+**So the fix was to give this page the same shape.** It no longer renders straight to the canvas —
+it renders through targets, and a full-screen pass composites `world + rays * strength`, which is
+his own line 114.
+
+**Carried across whole:** his 93-line fragment shader, every uniform, his Dust Size inversion with
+his note on why the shader's frequency runs the other way, his sun-facing test and the smoothstep
+fade as it swings to the edge, and his resolution scaling of both ray targets.
+
+### THE OTHER THREE
+
+| | what came across |
+|---|---|
+| **Lights** | his `WorldLight`: the shadow frustum his `createLightEntry` sets (1024 map, ortho ±60, near 1 / far 300, bias 0, normalBias 0.1), the recentre on the camera that keeps the angle, and **his one-caster rule with his reason** — *"one more caster than there are cascades… the material fails to build and draws nothing at all"* |
+| **Light in the Air** | his `VolumetricLight`, both shaders entire — the per-pixel ray march through drifting noise that **stops at the painting's depth map**, so a shaft ends at the stone instead of smearing over it |
+| **Wisps** | his swarm with per-mote speed and fixed blend, his glow sprite **and** his solid occluder disc with his note on why it is solid, his drift with the clamped step and wrap-rather-than-respawn, and **the shadow twin on layer 2** — built now, so it is already correct for the rays |
+
+### THREE THINGS HAVE NO SOURCE ON THIS PAGE — named in the files, not faked
+
+- **the sun cascade rig** (`SunLight` + `sunShadows.js`) needs a sky with a sun. Every light here is
+  his `WorldLight`, which is what a lamp in a world is.
+- **her light on the motes and on the planes** needs the avatar. That block is left out rather than
+  given a stand-in position.
+- **`glowDirection`** reads the sky dome. The shafts take their heading from **the first light
+  linked to the sun**, falling back to his own default — the nearest true thing available.
+
+Each is a comment in the file saying where the real one goes.
+
+### HIS PANEL, AS HE ORDERED
+
+Twelve sections now, his bundle housed with the rest:
+
+> Worlds · Painted Sky · Planes *(Far, Mid, Near)* · Props · **Lights · God Rays · Light in the Air
+> · Wisps** · Music Score
+
+Built with **his rows** — `LIGHT_ROWS`, `God Rays`, `Light in the Air`, `Wisps` verbatim from
+`Gui.jsx` — and **his builders**, including his `applyLinks` so Link to Sun greys Azimuth and
+Elevation the way it does in his panel.
+
+### LOOKED AT BEFORE SENDING
+
+Twelve sections present; a light added; wisps and the volumetric mesh visible; **god rays measuring
+2.5 through the composite** with the sun in front of the eye; motes on screen; **no page errors**.
+**Suite green.**
+
+**It is open on his screen now.** Under 118, only his eye closes this.
+
+**What to try, one line each:** open **Lights** and press *Add Light*, then drag its **Azimuth**;
+switch **God Rays** on and pull **Strength** up; switch **Light in the Air** on and pull **Density**;
+switch **Wisps** on and raise **Count**; and drag on the world to look around.
+
+**Commit:** `45b2903`.
