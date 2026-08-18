@@ -2338,3 +2338,19 @@ in the live build, and port THAT exact geometry and rendering — not an
 approximation, not a plane-shaped stand-in. His implementation is the
 spec (112); his eye is the test (118). Report which component it truly
 was and what was wrong with the first attempt.
+
+## Directive 122 — Lonnie's eye: the toggles do not govern
+
+Two failures from his hands on the real page:
+
+1. THE STAGE MASTER SWITCH does not hide everything. In his portal the
+   master toggle takes the whole Stage with it — every folder, every
+   rendered thing. Here it does not.
+2. PAINTED SKY's own toggle does not turn the sky off. The radio is
+   cosmetic; the sky keeps rendering.
+
+The toggles must GOVERN, portal-exact: master kills all of Stage
+(rendering and audio both — the music follows the master, as his code
+comments say); each folder's toggle kills its folder's rendering. Trace
+his Gui.jsx wiring for both and port the governance, not just the
+switch graphics. His eye retests per 118.
