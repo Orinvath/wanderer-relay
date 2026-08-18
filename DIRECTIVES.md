@@ -2460,3 +2460,12 @@ portal the marker clears on completion (local-vs-fetched marking per
 111). Likely kin to the slowness bug (completion never signaled), so
 diagnose together: does completion ever fire, and does the marker
 listen? Fix cause, not symptom. His eye retests.
+
+## Directive 128 — FREEZE: the big bug first, nothing else
+
+Lonnie's order: a big bug is loose and it gets tracked down and fixed
+before ANYTHING else happens. All other work frozen — no marker second
+attempt, no 124 redraw, no 127 resize, no new features, nothing —
+until the bug he is seeing is found at its cause, fixed, and passes
+his eye. He is working it with you in the terminal; the relay record
+gets the diagnosis and fix when found.
