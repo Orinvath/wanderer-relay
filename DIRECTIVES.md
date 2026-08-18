@@ -2393,3 +2393,13 @@ sliders — moving them leaves stale/broken drawing (fix the actual
 cause per his pipeline law: remove the cause, never patch symptoms).
 Reproduce by dragging plane sliders as he did, find why the redraw
 lags or tears, fix, and it retests under his eye per 118.
+
+## Directive 125 — His eye on the full scene: THIS IS WHY. Approved.
+
+Second screenshot on record: shafts through the ruin, dust in the air,
+the painting turned into a place with weather. Lonnie: "Now you can see
+why it had to work the way I built it exactly! You get these great
+atmospheric effects!!" The light system passes his eye COMPLETE — and
+112 (his implementation is the spec) is vindicated as the law that made
+it possible. The plane-redraw bug (124) remains the one open item on
+the Stage; fix and retest under his eye.
