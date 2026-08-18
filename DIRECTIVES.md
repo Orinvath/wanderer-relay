@@ -2565,3 +2565,34 @@ research (cite all in the plan):
 
 PLAN ONLY into TRAIT_PLAN.md/MEMORY_PLAN.md with citations. Report for
 approval. No implementation.
+
+## Directive 134 — The remembering layer: five decisions closed, build approved
+
+Lonnie's rulings, with the documented patterns adopted (cite all):
+
+1. A REMINDING enters the mind, not the mouth: surfaced memories feed
+   appraisal like any experience (Proactive Memory Agent lineage —
+   inject-or-silent); whether it SPEAKS a reminding is its own chosen
+   act per goals-on-sleeve. Nothing scripted.
+2. THRESHOLD + FREQUENCY: retrieval at decision moments, surfacing
+   only above similarity threshold, top-k capped (LD-Agent pattern);
+   Park's documented anchors (importance 1-10 at write, recency decay
+   ~0.995/hour) as the starting numbers — provisional, tuned by
+   watched behavior like all numbers.
+3. CONFIDENCE DELTAS: Hindsight trajectory + refresh-on-read (a
+   surfaced-and-used memory strengthens and resets decay — the
+   documented spacing effect). Collapse only from strong repeated
+   contradiction; collapsed lessons held, never deleted.
+4. VISIBLE DOUBT — ALREADY ANSWERED BY THE SPEC, no new design: doubt
+   is a state like any other; it moves mood, mood shows through signs
+   per the standing machinery, aspects decide how this being carries
+   it. The glyph language may express it as inner voice per 083's
+   waking-wonder case. Nothing new is built for it.
+5. INTERRUPTION: never seizes control — surfacings enter the
+   goal-former as candidates; only urgency wins attention (the
+   documented distraction findings adopted).
+
+Surfacing cost measured on the real store before build proceeds, per
+the plan's own flaw. BUILD APPROVED on this: the three missing pieces
+(unbidden surfacing, lesson confidence, auditable recall-as-act).
+Suites green. Report.
