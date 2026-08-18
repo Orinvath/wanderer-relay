@@ -17579,3 +17579,44 @@ Suite green — 0 failed. **Commit `47f9b6e`**, marker before it.
 
 Open on 127.0.0.1:8795, load **The Sitting Pool**. The silhouettes should come up smooth, at any
 Curve. **Not verified until he has seen it.**
+
+---
+
+## Elsewhere loaded at his word — nothing touched it, but its Stage panel is dying as it builds
+
+He said the Stage in his own portal is not his and that someone touched it. **Checked, not assumed:**
+
+- **`git status` in the chamber:** the only changes against the last commit are **data**, not code —
+  `Somewhere/data/wisp.personas.json` modified, two conversation logs untracked, and
+  `Wanderer/AMENDMENT-29-listening.md` deleted. **No source file changed.**
+- **Last commit:** `3efee2b`, 2026-08-10, his own.
+- **File times:** **nothing under `Somewhere/src` has been touched in three days.**
+- This session has never written to the chamber. It has only ever copied and read.
+
+### But his Stage panel really is broken, and here is why
+
+Loading it, his app throws on **every** panel build:
+
+```
+TypeError: Cannot read properties of null (reading 'split')
+  > src/world/Gui.jsx:1533:54
+    const nameEl = el('span', 'wx-val', plane.url.split('/').pop())
+  > makePlanesSection  Gui.jsx:1518
+  > buildStageBody     Gui.jsx:2778
+```
+
+**A plane whose painting has been cleared has `url: null`, and that line assumes there is always
+one.** It throws inside `makePlanesSection`, which aborts `buildStageBody` — so **the Stage panel
+stops building partway and comes up incomplete.** That is what he is looking at.
+
+His own defaults in `stage.js` all carry a url (`/worlds/layers/far.png` and so on, each with
+**`curve: 100`**), so this only bites once a plane has been emptied and saved that way.
+
+### Not touched, and not mine to touch
+
+**The chamber is read-only and this is his portal.** The fix is one line in his file and it is his
+call whether, when, and how. Reported and left alone.
+
+*(Aside, since it settles a question asked in the terminal: those same defaults show `curve: 100`
+on all three planes, and the chamber's history has Curve added in `0916347`, 29 July, under his
+name — so Curve is his, and 100 is its default.)*
