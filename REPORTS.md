@@ -17467,3 +17467,59 @@ disappearing" or "it is not the world I saved".
 
 **I do not know whether this is the bug he is watching**, and the freeze says his bug first.
 Guessing wrong spends the freeze on the wrong thing. **Asked in the terminal; holding.**
+
+---
+
+## Directive 128 — the jaggies are triggered by LOADING a world. Reproduced; cause narrowed, not yet caught.
+
+**His words: "Everything is fine until I load a world, then it's all jaggy from there."** That is
+the clue that made it reproducible.
+
+### Reproduced, cleanly
+
+From a freshly started server (factory planes, clean picture), choosing **The Sitting Pool** from
+the dropdown produces the sawtooth silhouette he photographed, on the spot. Screenshots before and
+after on file.
+
+### What the load actually changes
+
+| | before load | after load |
+|---|---|---|
+| curve | 1.0 (100) | **0** |
+| depth strength | 18 | **60** |
+| has depth map | 0 | **1** |
+| canvas / target / texture size | unchanged | **unchanged** |
+
+### What has been RULED OUT — each tested, not reasoned about
+
+- **Render resolution.** Canvas 2000×1400 and target 2000×1400 both before and after.
+- **Texture handling.** Same filters, same mipmap settings, same anisotropy; and his own
+  `MultiplaneLayers` sets exactly the same two properties we do.
+- **The source painting.** Cropped and viewed directly: **clean, no teeth.**
+- **The depth map.** Forced its gate off entirely — **still jagged.** And the parallax it feeds is
+  multiplied by `uLook`, which is zero when the view is at rest, so Depth 0 / 18 / 60 make **no
+  difference at all** at rest. Depth is not it.
+- **The god-ray pipeline.** Bypassed it and drew the scene straight to the canvas — **still
+  jagged.** Not the three passes, not the composite.
+
+### What is left, and what it points at
+
+**Curve accounts for part of it and not all.** At Curve 0 the flattened shell shows heavy terracing
+down the left edge; at Curve 100 that side comes good — **but teeth remain on the arch to the
+right.** So Curve 0 makes it much worse and is not the whole story.
+
+The shell is **128 columns by one row**. That geometry and its flattening are **his `buildShell`,
+verbatim — I diffed it line for line and only the word `export` differs.**
+
+### Where this stands
+
+**I have not found the cause and I am not going to keep guessing at it alone.** What I can say with
+evidence: it is not resolution, not the texture, not the painting, not the depth map, and not the
+god-ray passes; it arrives with a world load; and Curve 0 — a value my own testing put into that
+saved file — makes it far worse.
+
+**One thing he can try in a second, which would tell us a lot:** set the near plane's **Curve to
+100** and re-save that world. If it comes good, the file is carrying my bad value. If teeth remain
+on the arch, the rest of the cause is still out there and I will keep going.
+
+**Freeze still on. Nothing else touched.**
