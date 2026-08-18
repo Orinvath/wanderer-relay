@@ -17523,3 +17523,59 @@ saved file — makes it far worse.
 on the arch, the rest of the cause is still out there and I will keep going.
 
 **Freeze still on. Nothing else touched.**
+
+---
+
+## Directive 128 — FOUND AND FIXED. The flattened plane had too few columns.
+
+**His pushback was right: a load should not change anything, and this was a bug, not a setting.**
+
+### The cause
+
+His flattening moves each column of the shell out to the **tangent** of its angle — a mapping that
+bends fastest toward the sides. The texture between two columns is interpolated **straight**, so
+every column carries a little of that bend as error, and **the error jumps at each column edge**.
+On a 3072-wide painting hanging fifty feet from the eye, that is the terraced, stair-stepped
+silhouette he photographed.
+
+**His own comment beside the constant says it:** *"smoothness of the curve; cheap, and banding
+shows if too low."* It was too low.
+
+**The arc at Curve 100 never had it.** A pure cylinder maps uniformly in angle, so there is no
+error to jump. **It only ever showed once a plane was flattened** — which is exactly why loading
+that world, whose near plane carries Curve 0, is when he saw it start.
+
+### The ladder, measured at his own setup
+
+| columns | result |
+|---|---|
+| **128** (his) | terraced |
+| 256 | still terraced |
+| **512** | clean |
+| **1024** | clean — **taken**, for headroom |
+
+2050 vertices against 258, and the shell is rebuilt **only when the camera's shape or the curve
+changes**, never per frame. The cost is not a real number. **Say the word if you want 512 instead.**
+
+### Ruled out first — each by test, not by reasoning
+
+- **Render resolution** — canvas and target both 2000×1400.
+- **Texture filtering** — identical to the two lines his own `MultiplaneLayers` sets.
+- **The painting** — cropped and viewed directly: clean.
+- **The depth map** — gate forced off, still jagged. Its parallax is multiplied by `uLook`, which
+  is **zero at rest**, so Depth 0 / 18 / 60 changed nothing at all.
+- **The god-ray passes** — bypassed entirely, scene drawn straight to the canvas: still jagged.
+- **The load itself** — the same values on a freshly built page, **with no load at all**, are just
+  as jagged. Loading was only ever restoring Curve 0.
+
+### One thing that is not a bug and should be said
+
+The **spiky, broken stonework along the arch** is **in his painting**. Cropped from the source at
+3072×1536 and looked at: that raggedness is painted. It survives the fix because it is his art.
+
+Suite green — 0 failed. **Commit `47f9b6e`**, marker before it.
+
+### For his eye (118)
+
+Open on 127.0.0.1:8795, load **The Sitting Pool**. The silhouettes should come up smooth, at any
+Curve. **Not verified until he has seen it.**
