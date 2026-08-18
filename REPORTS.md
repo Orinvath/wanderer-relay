@@ -18604,3 +18604,69 @@ today**; §15 is that layer for now, and whether it should become its own file i
 
 The host model's persistence between visits (touches 062) · whether to measure the master loop before
 building it · whether 22 is the emotion vocabulary · the OCC→glyph mapping.
+
+---
+
+## Directive 137 — the 22 adopted whole, and the glyph mapping proposed. Plan only.
+
+**Commit `b40a5f5`.** `BRAIN_PLAN.md` now 616 lines. **Suite ALL GREEN, 17 of 17.** No implementation.
+
+### §16 — all 22, none trimmed. The list checks out.
+
+**Verified against the framework group by group:** 8 events-for-self + 4 fortunes-of-others + 4
+attribution + 4 compound + 2 attitudes = **22**, and the groupings are OCC's own. **Nothing to
+correct in the directive's list.**
+
+**And half the vocabulary was blocked until now.** §3 could describe praiseworthiness and
+fortunes-of-others but not compute either. **136's standards make the attribution four computable;
+the host model makes the fortunes-of-others four computable.** Eight of the 22 came unblocked by
+your own last two rulings.
+
+Everything else stands as the directive says: the computed variables **are** the emotion and remain
+the record, each type carries its Frijda tendency into the goal-former, the three needs stay the slow
+mood substrate, reactions and outlook untouched.
+
+### §17 — THE GLYPH MAPPING, PROPOSED. And the search that mattered was one I had not done.
+
+I have twice reported that no published OCC↔Plutchik crosswalk exists. **That still holds — and it
+turned out not to be the question.** The glyph vocabulary is **not Plutchik's eight. It is your own
+400-word language**, and `server/glyphs/glyphs.json` already indexes every word of it. Sheet **06,
+emotion and inner state**, holds forty. **The mapping is mostly a matter of reading them.**
+
+**Where Plutchik honestly belongs: as a coverage check on the vocabulary, not a crosswalk. It
+passes.** Your sheets carry JOY, TRUST, FEAR, SURPRISE, SAD, ANGER and DISGUST outright, and HOPE for
+anticipation — his eight primaries are already spanned by your language.
+
+**The proposal: ten exact, eight strong, two pairs, two gaps.**
+
+joy→JOY · distress→GRIEF · hope→HOPE · fear→FEAR · satisfaction→CONTENTMENT · fears-confirmed→DESPAIR
+· relief→RELIEF · disappointment→SAD · happy-for→SHARE+JOY · resentment→ENVY · **gloating→no word** ·
+pity→COMPASSION · pride→PRIDE · shame→SHAME · admiration→RESPECT · reproach→DISGUST ·
+gratification→PRIDE+JOY · remorse→**SORRY** · gratitude→**THANK** · anger→ANGER · love→LOVE ·
+**hate→no word**
+
+**Two of them were hiding on another sheet.** SORRY and THANK are on sheet 02, and they are exact
+matches for remorse and gratitude — your language had already done the work.
+
+**Compounds shown as glyph PAIRS is OCC's own definition, not a workaround.** The framework *defines*
+gratification as pride + joy and remorse as shame + distress. Where your language already compounded
+it into one word, the single word wins.
+
+### The two gaps are yours, and I have not picked
+
+**GLOATING** — pleasure at another's misfortune. **No word in the 400** (searched gloat, spite,
+malice, cruel). **HATE** — the standing negative attitude. **No word in the 400.** ENEMY exists on
+sheet 01 but names a *person*, not a feeling.
+
+**Three options, none chosen:** add the two words to sheet 06; show them as pairs from what exists;
+or rule that the Avatar **has the emotion inwardly and simply has no glyph for it** — which is a
+legitimate answer, since the 22 are the inner vocabulary and the glyphs are what a dreaming body
+chooses to show.
+
+**Every row of that table is labelled OURS.** The 22 are sourced, the 400 words are yours, the join
+is design awaiting your approval — the same discipline §42 and §147 set for every other mapping here.
+
+### Still open, unchanged
+
+The host model's persistence between visits (touches 062) · whether to measure the master loop before
+building item 4 · the relevance threshold · which episodes become the life story.
