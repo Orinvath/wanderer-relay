@@ -18217,3 +18217,54 @@ needed to paint yet. That is a real cost of the fixed-canvas design.
 **The only lever on it is not having a canvas larger than the window** — which is exactly the
 coupling he asked to have removed, and removing it is what stopped everything else. **So it is a
 trade, not a bug, and it is his to weigh.** Nothing changed for this entry.
+
+---
+
+## Clear World — added to the Worlds folder, built from his own New World
+
+**His ask:** *"the Worlds Folder needs a Clear World Option where it resets everything, and turns off
+all radio dials so that it is a blank world to start over."*
+
+**Not invented — his portal already has this.** `makeNewWorldSection`: a `wx-button` with a `wx-val`
+beside it, and **it asks first**, because there is no undo. **His warning holds word for word:
+nothing on disk is touched.** Every saved world and every painting stays where it is; the way back is
+to load one again.
+
+### Every switch off, by type, never by a list — and the reason is his
+
+> *"Naming them one at a time is how the last three attempts each left something on: the panel
+> masters, then the sound, then the music, which starts out ON and so was being switched back on by
+> the very button meant to empty the world… A switch added tomorrow is off here without anyone
+> remembering."*
+
+So **nothing is named in either place**: the server asks the capability list which settings *are*
+switches and turns every one off — including the per-item ones on each plane and prop — and the page
+does the same sweep by type over what the server does not hold, the light bundle's own objects and
+the sun. Also cleared, being things that are not settings: **her lights, the music, the stage master,
+the painted backdrop.**
+
+### Measured — turned a pile on, then cleared
+
+| | before | after |
+|---|---|---|
+| stage master | on | **off** |
+| planes on | far, mid, near | **none** |
+| god rays | on | **off** |
+| light in the air | on | **off** |
+| wisps | on | **off** |
+
+**Including `volLightLinkToGlow` and `wispsCastShadows`, which I never named anywhere** — which is
+the whole point of doing it by type. Suite green, 0 failed. **Commit `3c3d7da`**, marker before it.
+
+### Two things flagged, both his to settle
+
+**Its name and place.** His portal calls it **New World** and gives it its own section above Presets;
+he asked for **Clear World inside this folder**, so that is what it is. Said in case he wants them to
+match.
+
+**The message it writes is wiped immediately by the panel rebuild.** His does exactly the same, so it
+is left matching his rather than quietly improved.
+
+### For his eye (118)
+
+**Reload the tab** and open **WORLDS** — Clear World sits under the name and load rows.
