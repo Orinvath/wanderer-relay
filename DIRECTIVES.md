@@ -2419,3 +2419,13 @@ his pipeline law. If his portal has the same failure, report that
 plainly — it may be his known flaw surfacing, and HIS call whether to
 fix it in both or leave the portal untouched. Retest under his ear:
 music must keep playing and keep fetching across a long session.
+
+## Directive 126 refinement — Lonnie's read: NEW downloads never start
+
+His observation sharpens the hunt: pieces already downloaded play fine;
+the failure is that NOT-YET-DOWNLOADED pieces never download. Focus
+there first: does the fetch ever fire for a new piece (network tab /
+server log), does it fire and fail silently, or does the
+half-filled-folder flaw make the system believe it already holds what
+it does not (so it never asks)? That last is his known flaw and prime
+suspect. Report the actual cause found.
