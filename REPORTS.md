@@ -17324,3 +17324,61 @@ again and how. I have not tried a second version of it.
 
 **Standing rule reaffirmed by him this turn: commit with every change.** The revert is its own
 commit and the tree is clean.
+
+---
+
+## The jagged edges — investigated. Saving and loading are innocent; the cause is mine.
+
+**His report:** jagged lines appeared; he had saved a world and set it default, so he asked whether
+save/load is at fault — *"or perhaps it is something you changed, investigate it."*
+
+**It is something I changed.**
+
+### What the saved world actually holds
+
+`The Sitting Pool.json`, his default, carries for the near plane:
+
+```
+depthStrength: 60      curve: 0      z: -50
+```
+
+**Those are the values my slider-dragging left behind** when I reproduced the plane-redraw bug for
+Directive 124. His own defaults are **Depth 18, Curve 100**. He saved the world while my test
+numbers were sitting in it, and set it as the default — so every load faithfully restores them.
+
+**Save and load are working correctly.** The file holds exactly what was set; nothing is corrupted,
+nothing is lost, and loading applies it as written. **They are restoring my mistake, not creating
+one.**
+
+### Which of the two numbers does it
+
+**Curve.** Tested at one fixed view, changing one thing at a time:
+
+| | |
+|---|---|
+| Curve 0, Depth 60 | jagged |
+| Curve 0, Depth 18 | **still jagged** — so it is not the depth |
+| Curve 100, Depth 60 | clean |
+| **Curve 100, Depth 18** | **clean** |
+
+At **Curve 0 the shell is flattened**, and the flattening leaves visible facets along
+high-contrast edges — the capital on the left and the silhouette against the sky are where it shows.
+
+### And this part is not mine — it is his own code, checked rather than assumed
+
+I diffed our `buildShell` against his `MultiplaneLayers.jsx` line for line: **identical, apart from
+the word `export`.** So the faceting at Curve 0 is his shell maths, unchanged. A flat shell at this
+distance simply facets. Whether that matters is his to judge — the control is legitimate and it is
+what an open landscape painted flat needs.
+
+### Nothing changed, and one question
+
+**I have not touched his saved world and have not set anything back.** Those are look values and
+they are his.
+
+**Which numbers does he want on the near plane of "The Sitting Pool"?** His own defaults are Curve
+100 and Depth 18; say the word, or any other pair, and I will set them and re-save.
+
+**Standing apology in the record:** dragging his sliders on the live page to reproduce 124 is what
+put those numbers there. I reported it at the time and did not restore them, and they went into a
+saved world before he saw this.
