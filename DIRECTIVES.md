@@ -2429,3 +2429,12 @@ server log), does it fire and fail silently, or does the
 half-filled-folder flaw make the system believe it already holds what
 it does not (so it never asks)? That last is his known flaw and prime
 suspect. Report the actual cause found.
+
+## Directive 127 — Browser size must not scale the world
+
+Lonnie's eye: resizing the browser SCALES THE IMAGES — the world
+changes size with the window. It must not: the world is the world;
+the window is a viewport onto it, exactly as his portal behaves.
+Trace how his portal handles resize (camera/FOV/viewport math) and
+port that behavior — window size never alters the world's scale.
+Retest under his eye alongside the plane-redraw fix (124).
