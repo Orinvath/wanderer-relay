@@ -17809,3 +17809,46 @@ close, or mine the moment he says.
 **Still waiting on the one thing that blocks 127:** when the window is wider than the painting was
 made for, do the sides show the world continuing past the painting, or is the view held to the
 painting's own arc so the window crops instead?
+
+---
+
+## Directive 131 — the window no longer widens the world. One honest limit left.
+
+**His law:** *"the plane and camera stay FIXED — browser SIZE is not even a consideration."*
+
+### The leak, found and removed at its cause
+
+**Every shell was cut to `arcDegrees(fov, camera.aspect)`** and rebuilt whenever the window's shape
+changed — so widening the browser widened the arc and **stretched the same painting across more of
+the view.** The painted sky did the same thing, and `uUvRatio` was `camera.aspect * 2`. **All three
+now read one fixed number and the window never touches it.**
+
+**16/9 is his, not a number I picked** — it is the default in his own `layerAspect`, the ratio the
+paintings are made for. It is called `WORLD_ASPECT`.
+
+### Measured, as pixels per degree of world
+
+| window | across | up |
+|---|---|---|
+| 1000 × 700 | 13.13 | 13.13 |
+| **1600 × 700** | **13.13** | **13.13** — *widening changes nothing now* |
+| **1000 × 1100** | **20.64** | **20.64** — *height still does* |
+
+Suite green, 0 failed. **Commit `a6f4400`**, marker before it.
+
+### The one thing left is not a bug I can choose my way out of
+
+The camera's vertical angle is **his fixed 50 degrees**, so a taller window spreads those same 50
+degrees over more pixels and everything gets bigger. **Holding size-per-pixel constant in both
+directions is impossible without a reference size to hold it against** — that is arithmetic, not a
+missing fix. Which reference is a look decision, and it is his:
+
+**(a) The world is a fixed 16:9 picture.** Nothing ever scales, at any window size or shape. A
+window that is not 16:9 has world in the middle and empty space at the edges. This is the only
+reading where the browser is *truly* not a consideration.
+
+**(b) The world's size is pinned to one reference window.** Nothing scales; a bigger window shows
+**more** world, a smaller one less — the hole gets bigger, the world does not. This needs him to
+say what that reference is.
+
+**Nothing further changed. His hands retest whenever he is ready.**
