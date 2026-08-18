@@ -2531,3 +2531,37 @@ portal's panels are the reference — how fields, inputs, and buttons
 look and how they are organized inside a folder. Rebuild the Worlds
 folder's rows to that design, his builders, his classes, his layout —
 nothing invented. His eye retests.
+
+## Directive 133 — THE REMEMBERING LAYER: full capability, project-agnostic
+
+ARCHITECTURE RULING (Lonnie's, permanent, joins HANDOFF.md): THE AVATAR
+COMES FIRST. The Avatar is a multi-project asset; it is developed to its
+fullest capability, never limited to suit any one project. Projects
+(Wanderer, Elsewhere, others) apply their OWN access rules at their own
+boundary — deployment policy, not capability design. No Avatar system is
+ever designed small to fit one product's laws.
+
+THE CAPABILITY — the missing piece of living memory, built on documented
+research (cite all in the plan):
+1. SURFACING, not searching: memories rise unbidden when experience
+   touches them, scored by RECENCY × IMPORTANCE × RELEVANCE — the
+   Generative Agents retrieval model (Park et al. 2023, the standard).
+   The Avatar FEELS REMINDED: "this place...", "this host is like one
+   I knew."
+2. REFLECTION folds into the existing sleep/dreams ruling (083):
+   consolidation already runs there; the research's reflection tier and
+   our dreaming are one mechanism. Extend the dream plan to distill
+   surfaced clusters into higher lessons.
+3. LESSONS GAIN CONFIDENCE (Hindsight lineage): each lesson carries a
+   confidence that moves by small deltas with reinforcing or
+   contradicting experience; large swings only from strong repeated
+   contradiction. Lessons live, strengthen, and honestly weaken.
+4. RETRIEVAL IS THE AVATAR'S OWN ACT over auditable structure (MOSS
+   lineage), not an opaque similarity pipe — consistent with the
+   existing evidence-first judge discipline.
+5. Project boundaries (what memory crosses hosts in the Wanderer, what
+   a child sees in Elsewhere) are each project's own gate at
+   deployment — OUT OF SCOPE for this capability plan.
+
+PLAN ONLY into TRAIT_PLAN.md/MEMORY_PLAN.md with citations. Report for
+approval. No implementation.
