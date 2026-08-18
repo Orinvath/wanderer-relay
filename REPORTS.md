@@ -17155,3 +17155,116 @@ playing, and choosing any piece from the list should fetch what it needs and sta
 going quiet.
 
 **Not verified until you have heard it.**
+
+---
+
+## Directive 126 second refinement — the downloads are fast; the wait is not the download
+
+**Timed, hop by hop, on the real page. The suspects in the directive are all clear — and the
+answer is somewhere none of them pointed.**
+
+### One piece, watched end to end
+
+`stream-of-consciousness`, three instruments it did not hold, **36 MB**:
+
+| | |
+|---|---|
+| piece chosen | 1.0s |
+| `snare-brush-stir` (21.2 MB) fetched | **1.0s → 4.3s** |
+| `snare-brush-hit-p` (3.3 MB) fetched | **4.3s → 8.8s** |
+| `ride-brush-p` (11.4 MB) fetched | **8.9s → 13.2s** |
+| samples handed to the piece | 15.7s |
+| **actually playing** | **113.6s** |
+
+**The download is 12 seconds. The remaining 98 seconds happen after every sample is already in
+hand.** Per file it is ~400 ms to download and ~300 ms to convert; no request was retried, none
+came back 503, nothing backed off, and every fetch went straight to the server. **Not one of the
+directive's four suspects is present.**
+
+### What the 98 seconds actually is — and it is his design working
+
+The generative piece renders its instruments the first time it is played. **His system already
+solves this**: `sampleLibrary.save()` keeps the rendered result in IndexedDB and
+`cachedRenderedInstruments()` hands it back on every later play. Tested by playing the same piece
+twice:
+
+| | |
+|---|---|
+| **first play** | **100.3s** |
+| **second play** | **1.7s** |
+
+**His cache works exactly as built.** The long wait is a **one-time cost per instrument set**, not
+a per-play cost, and not the network.
+
+### Why it read as "5–10 minutes"
+
+Three things stacked: the first-play render is genuinely a minute or two on a big piece; **the ↓
+never cleared** (the addendum below), so a finished fetch still looked like it was fetching; and
+his own `if (starting) return` **silently drops a second piece chosen while the first is still
+starting** — so a click during that window appears to do nothing at all. That line is his, verbatim
+in his `music.js`, and his panel calls `playPiece` from the same two places ours does. **Reported,
+not changed.**
+
+### Where his portal is not faster
+
+Both fetch strictly one file at a time, download then convert, with nothing overlapping — **his
+`vite.config.js` loop is the same shape.** There is real time to be won there (roughly half, by
+converting one file while the next downloads), but that is a change to how his system works and it
+is **not the cause of what he saw**, so it has not been made. Say the word if you want it.
+
+---
+
+## Directive 126 addendum — the ↓ marker never cleared
+
+**Cause: the marker was worked out once and never asked again.** The ↓ comes from
+`whichPiecesArePlayable()` at the moment the list is built. Nothing re-read it, so **completion was
+never told to anyone** — a piece kept its ↓ after its instruments had landed.
+
+The list build is now a named function, called again when a play resolves, on **both** paths — the
+one that plays the stored piece at build, and **the dropdown, which is the one that actually starts
+fetches and so is where the ↓ was being left behind.**
+
+**One trap, caught before shipping:** the obvious version of this loops forever. A piece that could
+not start would fail, re-list, see it still is not playing, and try again — fetching every time
+round, which is exactly the retry storm the refinement warns about. The re-read passes
+`mayPlay: false`. It refreshes the ↓; it does not have another go.
+
+Verified: **Drones** and **Last Transit** both lose their ↓ once they start, with the held count
+rising 50 → 51 in the same session.
+
+Suite green — 16 / 39 / 34 passed, 0 failed. **Commit:** `b5c7a6d`.
+
+---
+
+## Directive 127 — resizing the window does scale the world. Reproduced, and it needs your call.
+
+**Confirmed with his own eye's complaint, measured:** at 800×600 the far hills sit small in the
+frame; at **1600×600 the whole world is magnified** — the grass blades are visibly bigger, the
+horizon higher, the mountains larger. A wider window **enlarges** the world instead of showing more
+of it.
+
+### Why it happens
+
+The shell each painting hangs on is cut to `arcDegrees(fov, aspect)` — **the arc widens with the
+window's aspect** — and the painting is mapped across **the whole shell**. So a wider window
+stretches the same painting over more degrees, and every part of it covers more of your view. That
+is the magnification.
+
+### The part that stops me
+
+**This is his own maths, unchanged.** `arcDegrees` widening with aspect is his; mapping the
+painting across the shell is his; our port rebuilds the shell on aspect change exactly as his
+`useFrame` does. **Porting his resize behaviour verbatim reproduces precisely what he is objecting
+to** — so what he wants here is a change from what his portal does, not a correction of my port.
+
+And the change cannot be made without a look decision that is his:
+
+**When the window is wider than the painting was authored for, what should fill the sides?** Hold
+the painting's angular size fixed and it stops stretching — but then its edges come into view. Do
+they show the world continuing past the painting, or should the view be held to the painting's own
+arc so the window simply crops rather than reveals?
+
+**I have not chosen. Nothing is changed for 127 until he says.** The two screenshots are on file.
+
+**For his eye (118):** the music items are on 127.0.0.1:8795 — leave it playing, and choose a piece
+with a ↓; it should fetch, start, and lose its ↓. **Not verified until he has heard it.**
