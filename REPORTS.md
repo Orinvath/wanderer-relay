@@ -16824,3 +16824,72 @@ been said about the sky's. **I will port the dome's rendering either way — whe
 his call**, and inventing a home for it is the exact mistake 115 already cost us.
 
 **No commit.** Nothing changed in the project this turn; this is the establishment 121 asked for.
+
+---
+
+## Directive 122 — the toggles govern
+
+**Both failures reproduced before anything was touched, and both had a separate cause.**
+
+### 1. The master switch took nothing with it
+
+`showStage` was a value written to the server and read by **nothing**. In his build the master is
+read every frame by the parts themselves — `isStageVisible()` gates `MultiplaneLayers`, gates
+`StagePieces`, and the light in the air is `!!world.volLight && isStageVisible()` — and his own
+comment on the title toggle says it takes the music too: *"it used to move only the props, and the
+music played on with the stage off."*
+
+The world now holds it and the frame honours it. **One ordering detail decided whether this worked
+at all:** the wisps, the volumetric light and the lights each set their own `.visible` inside their
+own `frame()`, every tick. Gating them before those ran meant the master was overwritten a line
+later. The master is applied **after** each part has had its say.
+
+### 2. The Painted Sky had two sources of truth
+
+The switch read `on` from the section's own holder; the painting read `url` from the `state` object
+beside it. So loading a painting into a sky whose switch was off drew nothing while the switch still
+said on, and the switch moved a value the sky never saw. **Both now live in the same holder.**
+
+### 3. A third fault, found while proving the first two — the master never reached the world at all
+
+The world started **visible no matter what was stored**. A world saved with the stage off opened
+with the switch reading off and the stage drawn anyway: the panel was right and the world had never
+been told. His sections each call their own draw at build; the master now does the same. Seen with
+my own eyes both ways — switch off and the page dark, one click and the whole world back.
+
+### What was measured
+
+| | switch | planes | sky | wisps |
+|---|---|---|---|---|
+| painting loaded | on | 3 | 1 | 1 |
+| **PAINTED SKY off** | on | 3 | **0** | 1 |
+| PAINTED SKY on | on | 3 | 1 | 1 |
+| **MASTER off** | off | **0** | **0** | **0** |
+| closed and reopened | off | 0 | 0 | 0 |
+
+Suite green — 16 / 39 / 34 passed, 0 failed. PHASE 3 skipped for want of a local model, as always,
+and says so rather than passing quietly.
+
+**Commits:** `e1984b8` the two toggles govern · `5cfe914` the master's stored value reaches the
+world at startup. Marker `574decf` before either.
+
+### Rule Zero — one thing found and NOT changed, because it is his
+
+**The Painting picker's own handler can land after you have moved on.** It is `async`: it stores the
+file, waits for the server, and only then sets `on` and redraws. If the store is slow and the switch
+is touched in the meantime, the handler's redraw wins and puts the sky back on. This cost an hour of
+false readings — a test read the switch as inverted when it was the upload landing late.
+
+**It is the shape of his own handler and I have not touched it.** Flagged for Lonnie, not decided:
+whether a picker that finishes after you have changed your mind should still have its say. It only
+bites when storing takes longer than a person's patience, which on this machine it does.
+
+### For his eye (118)
+
+The stage is open on 127.0.0.1:8795 with the world showing. Three things to try:
+
+- **STAGE, top line** — the whole world goes dark, and the music stops with it.
+- **PAINTED SKY** — the backdrop alone goes; the planes stay exactly where they are.
+- **Turn the stage off, close the page, open it again** — it opens off, the way you left it.
+
+**Not verified until you have seen it.**
