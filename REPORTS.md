@@ -17441,3 +17441,29 @@ word `export`. A flat shell facets at this distance. **Not touched, and his to j
 
 Open on 127.0.0.1:8795. The silhouettes against the sky should be clean now, and the stonework
 should carry its detail. **Not verified until he has seen it.**
+
+---
+
+## Directive 128 — FREEZE acknowledged. Everything else is down.
+
+**Nothing else is being worked.** No second attempt at the marker, no 124 redraw follow-up, no 127
+resize, no features. Held until his bug is found at its cause, fixed, and passes his eye.
+
+### One thing found already, and it is destructive
+
+**"★ Make Default" marks a world and then nothing honours it.** `getDefaultWorld()` is read in
+exactly one place — to draw the ★ beside a name in the dropdown. **Nothing loads it.** Not at
+server start, not when the page opens.
+
+Measured just now, after a restart: he has `The Sitting Pool` saved and set as default, and the
+world came up as the **built-in starting planes** — far.png, mid.png, horizon_test.png at
+1000/500/50, Curve 100, Depth 18. **His painting was not there.** Every restart, and every fresh
+open, throws his world away and hands him the factory one.
+
+**That is a real bug and it is ours, not his.** It would read exactly as "my world keeps
+disappearing" or "it is not the world I saved".
+
+### Not fixed yet, deliberately
+
+**I do not know whether this is the bug he is watching**, and the freeze says his bug first.
+Guessing wrong spends the freeze on the wrong thing. **Asked in the terminal; holding.**
