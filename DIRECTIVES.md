@@ -2403,3 +2403,19 @@ atmospheric effects!!" The light system passes his eye COMPLETE — and
 112 (his implementation is the spec) is vindicated as the law that made
 it possible. The plane-redraw bug (124) remains the one open item on
 the Stage; fix and retest under his eye.
+
+## Directive 126 — Music fails over time: stops playing, stops fetching
+
+Lonnie's report from real use: the Music Score plays, then after a
+while STOPS — and/or will not download anything new. Two suspects his
+own code already names (the fetch flaw noted in FEASIBILITY: 503 error
+pages written as audio, half-filled folders counting as held) plus
+whatever the port added.
+
+Diagnose on the real page over real time: reproduce the stop (does a
+piece end and nothing follows? does the fetch queue jam? do failed
+downloads poison the cache?), find the actual cause, fix the cause per
+his pipeline law. If his portal has the same failure, report that
+plainly — it may be his known flaw surfacing, and HIS call whether to
+fix it in both or leave the portal untouched. Retest under his ear:
+music must keep playing and keep fetching across a long session.
