@@ -18431,3 +18431,99 @@ NEEDS, GOALS, CAPABILITIES, EFFECTS, AVATAR, SLEEP, **REMEMBER**, GAMES, HARNESS
 Every number above is provisional and flagged as such in the files (071): the threshold, the top-k,
 the decay, all four deltas, the strong bar, the run length, and the floor. **They are a starting
 point to be tuned by watched behaviour — the tuning is yours, and I have not guessed at it.**
+
+---
+
+## Directive 135 — the Avatar's mind, planned whole. `BRAIN_PLAN.md`, 411 lines. No implementation.
+
+**Commit `52cf862`.** Eight items unified with the systems already ruled; **nothing already ruled is
+reopened.** Avatar-first law (133) governs throughout — project gates are named as out of scope and
+left there. Suite **ALL GREEN, 17 of 17** (one note below).
+
+### RULE ZERO CAME FIRST, PER CLAUDE.md — five faults, two of which change what gets built
+
+**FLAW 1 — the OCC↔Plutchik correspondence the directive leans on: I could not find it.**
+135.2 says to map the emotion types to the glyphs *"per the documented OCC-Plutchik
+correspondences."* **I searched for that literature twice and it did not surface.** Plutchik is a
+psychoevolutionary structure of eight primaries; OCC is an appraisal typology of 22 — one is a
+structure of affect, the other a structure of *the reasons for* affect. No crosswalk.
+
+**So the join is OURS and must be labelled design, not psychology** — the same position §42 and §147
+already put the other sign mappings in. **Not a blocker; a mislabelling risk**, and the risk is that
+a later reader takes a design choice for a finding. The plan routes the mapping instead through
+**valence · arousal · power** — the axes §147 already verified (Jonauskaitė & Mohr 2025; Valdez &
+Mehrabian 1994) and the axes this build already speaks.
+
+**FLAW 2 — a circularity, and it is load-bearing.** OCC appraises against goals. But the goal-former
+is **downstream** of appraisal — appraisal is the box that starts it. It resolves only if appraisal
+reads **standing** goals (the three needs, the Purpose loop) and **never the momentary chosen one**.
+Written into the plan explicitly, because the §112 diagram puts APPRAISAL above GOAL and anyone
+implementing OCC would naturally reach downward for the wrong one.
+
+**FLAW 3 — "computationally tractable" is a reputation, not a proof.** OCC is the most-implemented
+framework, which is evidence it *can* be implemented. Every implementation named — FAtiMA, ALMA,
+FLAME, GAMYGDALA — chose its own intensities, decays and thresholds, **which OCC does not specify**.
+We inherit that: structure sourced, **numbers ours**, provisional under 071. And **the authors
+revisited the model themselves** — Clore & Ortony (2013), *Emotion Review* 5(4) — so 22 is a starting
+vocabulary, not a constant.
+
+**FLAW 4 — "EEG-verified automatic" overstates it.** The evidence supports novelty and relevance
+being processed early and largely automatically, ahead of the slower checks. That is enough for the
+architectural claim. It is **not** a verification of the four-check sequence as a whole, and the word
+should not travel into the build.
+
+**FLAW 5 — THE MASTER LOOP'S COST IS UNMEASURED, AND 134 SET THE PRECEDENT.** 135.4 asks for checks
+*"cycling continuously."* **134 refused to let the remembering layer be built until its cost was
+measured, and that measurement changed the design.** A continuously cycling four-check appraisal that
+consults memory, the host model and the needs ledger is the largest recurring cost in the Avatar.
+**Recommendation, yours to accept or refuse: measure one full cycle on the real store, at 134's
+sizes, before any of item 4 is built.** The harness exists — `measure-surfacing.js` would extend.
+
+### TWO REAL UNIFICATIONS, NEITHER INVENTED
+
+**Frijda's own distinction IS Directive 053's split.** Frijda (1986) separates **activation states**
+— diffuse, **no object**, no aim beyond relating or not relating — from **action tendencies**, which
+are object-directed. That is exactly your reaction/action cut: no goal, unchosen, like a blush versus
+it wants something, so it enters the goal-former. **Your ruling is unchanged. It gains a source
+under it**, which it did not have before.
+
+**McAdams' three levels ARE this build's three layers.** Dispositional traits = **the ten aspects**
+(DeYoung's BFAS is a Big Five instrument). Characteristic adaptations, goals and values = **the needs
+and the goal-former**. Integrative life narrative = **the self-model item 8 asks for, the missing
+level**. And his two load-bearing axes, **agency and communion**, are SDT's autonomy/competence and
+relatedness — **so the Purpose loop reads the life story with no translation layer.** Nothing new
+runs for it either: the dream is already the reflection step (083), and the story is a new reading of
+what already runs.
+
+### THE REST, IN ONE LINE EACH
+
+**Item 1** — refraction gets OCC; the ten weight the appraisal variables the same way §114 already
+weights the goal-former, which is why two Avatars in one room feel different things. **Item 3** — the
+relevance check is the front door, and this is the gate the build has needed: 013 §16.9 governs what
+happens to a memory **once it exists** and never said everything must be *experienced*. **Item 5** —
+the FAtiMA seam: machinery computes variables, the LLM renders words from them only, so **the
+variables are the record** and a feeling replays like 134's surfacing does. **Item 6** — the host
+model is not a feature request, it is structural: four of OCC's 22 types are fortunes-of-others and
+are **uncomputable** without a model of what the other wants. **Item 7** — tiering moves what is
+*scanned*, never what is *kept*; raw is never deleted, and 134's measured numbers are what it holds
+flat.
+
+### SEVEN GAPS, ALL FLAGGED AS OURS — the largest is STANDARDS
+
+**OCC requires goals, standards and attitudes.** Goals we have (the needs, Purpose). Attitudes we
+have (dispositions, the host model). **Standards we do not** — what this being thinks *ought* to be
+is not the ten (those are dispositions) and not the needs (those are wants). **A real hole, and the
+biggest one in the plan.** The other six: the OCC→glyph join, the relevance threshold, every
+intensity/gain/decay number, which episodes become the life story, whether the host model persists
+between visits (it touches 062), and the unmeasured loop cost.
+
+### FIVE DECISIONS LEFT TO YOU, NONE TAKEN
+
+The standards gap · whether the host model persists between visits · whether to measure before
+building item 4 · whether 22 is the vocabulary · the glyph mapping.
+
+### Suite
+
+**ALL GREEN — 17 of 17.** One honest note: the **first** full run reported PHASE 3 failed; the
+re-run passed, as did every suite. I did not capture the cause before it cleared and will not claim
+it was nothing — a docs-only commit cannot have caused it, but that is reasoning, not evidence.
