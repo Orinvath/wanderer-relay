@@ -17620,3 +17620,31 @@ call whether, when, and how. Reported and left alone.
 *(Aside, since it settles a question asked in the terminal: those same defaults show `curve: 100`
 on all three planes, and the chamber's history has Curve added in `0916347`, 29 July, under his
 name — so Curve is his, and 100 is its default.)*
+
+---
+
+## The Elsewhere Stage panel — fixed at his word
+
+**He gave the go: "commit and see if it fixes it."**
+
+**The cause, proven rather than argued.** The plane's Picture row called `.split` on the painting's
+name without checking there was one. The **Painted Sky row and the Screen Background row both
+already say `none`** in that case — the plane row was the only one of the three that did not. So the
+first plane with no painting threw inside `makePlanesSection`, which aborted `buildStageBody`, and
+**everything from Planes down — Music included — was never added.** Not broken: never built.
+
+**Why now and not for months.** The default world it opens with has had **all three planes empty
+and switched off since 30 July**. Confirmed by patching that one expression **in the browser only,
+nothing on disk**: the crash stopped and all three planes reported themselves empty and off.
+
+**Fixed in `3bd9d48`** in the chamber — the guard, matching the two rows that already had it.
+Verified: **the page now loads with no error at all**, where before it threw on every single build.
+
+**Only that one file was committed.** The chamber's other pending changes are his — a personas file,
+two conversation logs, a deleted amendment — and were left exactly as they were.
+
+**The panel itself only builds once you are through the card, so headless cannot see it.** It is
+open on his screen for his eye.
+
+*(Also settled in the terminal: those three default plane paintings were mine, never his design.
+If planes should start empty, that default is wrong too — his call, not touched.)*
