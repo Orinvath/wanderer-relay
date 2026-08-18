@@ -2641,3 +2641,31 @@ PLAN ONLY: BRAIN_PLAN.md unifying all eight with the existing ruled
 systems (nothing already ruled is reopened). Flag every gap the
 science leaves as ours. Rule Zero the plan itself before reporting.
 Report for approval. No implementation.
+
+## Directive 136 — Standards ruled + the Avatar as programmable asset
+
+Lonnie's rulings closing the standards gap and the platform question:
+
+1. STANDARDS (the oughts): the science adopted — seed plus growth,
+   never the dichotomy (constructivist consensus; Hamlin's early core;
+   moral-foundations dispositional weighting):
+   - THE SEED lives in the PERSONA (the character core layer — already
+     the authored tier by design). Each project seeds per its needs.
+   - GROWTH: standards are a tier of lesson — oughts distilled from
+     lived experience, per the existing refraction (now OCC).
+   - THE TEN ARE THE TILT: right and wrong differ by makeup. A
+     low-Politeness being never learns "defer"; a high-Compassion one
+     holds "hurting is wrong" as bedrock. Every Avatar's morality is
+     its own. No universal moral table is ever authored.
+2. THE AVATAR IS A PROGRAMMABLE ASSET — two dials, each SET or RANDOM
+   per deployment:
+   - ASPECTS: set (Elsewhere dials gentle/caring) or rolled (Wanderer
+     Roe at Genesis).
+   - PERSONA: authored, RANDOM, or GENERATED FROM THE ASPECTS — the
+     character generator reads the ten and builds a coherent persona
+     fitting that makeup, so seed and nature never contradict.
+   Record in the platform layer of the plans (133's Avatar-first law
+   governs; project gates own their settings).
+
+PLAN into BRAIN_PLAN.md / the platform docs, citations carried.
+Report for approval. No implementation.
