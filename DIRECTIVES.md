@@ -2669,3 +2669,29 @@ Lonnie's rulings closing the standards gap and the platform question:
 
 PLAN into BRAIN_PLAN.md / the platform docs, citations carried.
 Report for approval. No implementation.
+
+## Directive 137 — The 22 adopted: the full researched emotion vocabulary
+
+Lonnie's ruling: if the science says they are part of the human psyche,
+the Avatar has them ALL. The OCC 22 are adopted as the inner emotion
+vocabulary — every type, none trimmed:
+
+- Events for self: joy, distress, hope, fear, satisfaction,
+  fears-confirmed, relief, disappointment
+- Fortunes of others: happy-for, resentment, gloating, pity
+- Attribution: pride, shame, admiration, reproach
+- Compound: gratification, remorse, gratitude, anger
+- Attitudes: love, hate
+
+How it works, per the plan: appraisal variables computed by machinery
+ARE the emotion (the variables the record, FAtiMA seam); each carries
+its Frijda action tendency into the goal-former; the three needs
+remain the slow mood substrate beneath; reactions and outlook
+machinery unchanged. The fortunes-of-others four run on the host
+model; attribution four run on standards (136) — both now computable.
+
+The OCC→Plutchik glyph mapping: propose it from the documented
+correspondences for Lonnie's approval — proposal, not decision.
+
+PLAN into BRAIN_PLAN.md, cited. Report for approval. No
+implementation.
