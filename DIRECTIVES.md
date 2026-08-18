@@ -2506,3 +2506,9 @@ per-section colouring, the hiding verdict, and chunk 4.
    the window and judge what the world does at the edges — his call
    on the correct behavior gets made while looking at it, portal
    side-by-side if that helps him compare.
+
+## Directive 130 correction — no side-by-side; only what he asked
+
+Lonnie did not ask for a portal-beside-Wanderer comparison — that was
+the director's addition. Struck. Load the Wanderer Stage page for the
+resize test, announce it in one line, nothing else.
