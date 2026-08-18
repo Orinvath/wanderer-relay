@@ -16991,3 +16991,66 @@ Open on 127.0.0.1:8795. Four things to try:
 - **Any plane's Clear** — the painting comes off.
 
 **Not verified until you have seen it.**
+
+---
+
+## Directive 124 — moving a plane is not rebuilding it
+
+**Reproduced, cause removed, verified. And the light bundle passing his eye is on record.**
+
+### What was actually happening
+
+Every move of **Distance, Curve or Depth** called `setPlane` — which **removes the shell** and
+builds a new one **behind `await load(url)`**. So a drag tore the plane down and put it back on
+every single tick, and in the gap between each pair **the plane was simply gone.**
+
+Measured on a 41-step drag at the rate a hand actually moves: **the plane blinked out on the
+second tick.** On a cached painting that is a flicker. On the **6.7 MB painting he is working
+with** it is seconds of nothing at a time, with dozens of overlapping loads racing to decide which
+value won. That is the stale, broken drawing, and it got worse the better his paintings got.
+
+### The cause removed, not patched
+
+**His build never rebuilds for these three.** They are values his frame reads: the shell is scaled
+by the distance every tick, rebuilt only when the curve actually changes, and the depth is a
+uniform. They are set now, and the frame does what it already did. **Only the painting still goes
+through `setPlane`, because only the painting needs loading.**
+
+### One consequence, caught before shipping rather than after
+
+The light in the air was handed a **snapshot** of the nearest plane's distance, refreshed only
+when that layer became a *different object* — which worked **only because every tick used to
+rebuild it.** Removing the rebuild would have left the shafts stopping where the painting used to
+be. It gets the layer itself now.
+
+### Measured
+
+| | result |
+|---|---|
+| 41-step drag | **no drop-out**, plane drawn throughout |
+| Distance 500 → 50 | shell scale → 50, **air's stop distance → 50** |
+| Curve, Depth | both take live, no rebuild |
+| Props | checked — **do not share the fault**, their rows only write values |
+
+Suite green — 16 / 39 / 34 passed, 0 failed; PHASE 3 skipped for want of a local model and says so.
+**Commit:** `ed5dcb0` the fix; marker `816e335` before it.
+
+### ONE THING HE NEEDS TO KNOW — I moved his sliders to reproduce this
+
+He told me to reproduce it by dragging the plane sliders as he did, and I did that **on the live
+page he is working on.** Three of his values are now sitting where my drag left them, not where he
+put them:
+
+- **Near Plane** — Distance **50**, Curve **0**, Depth **60**
+- **Mid Plane** — Distance **1000**
+
+**I have not guessed them back.** Say the numbers and I will set them, or set them yourself —
+they are look values and they are his.
+
+### For his eye (118)
+
+Open on 127.0.0.1:8795. Drag **any plane's Distance, Curve or Depth**, fast and far: the painting
+should stay on screen the whole way and follow the slider, with no blink and nothing left stale.
+With **LIGHT IN THE AIR** on, the shafts should keep stopping against the painting as it moves.
+
+**Not verified until you have seen it.**
