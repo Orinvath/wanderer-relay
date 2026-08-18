@@ -17054,3 +17054,31 @@ should stay on screen the whole way and follow the slider, with no blink and not
 With **LIGHT IN THE AIR** on, the shafts should keep stopping against the painting as it moves.
 
 **Not verified until you have seen it.**
+
+---
+
+## Directive 125 — the atmosphere passes complete
+
+**Recorded.** Second screenshot: shafts through the ruin, dust in the air, his painting turned
+into a place with weather. Lonnie: *"Now you can see why it had to work the way I built it
+exactly! You get these great atmospheric effects!!"*
+
+**The light system passes his eye COMPLETE.** Sun, God Rays, Light in the Air, and the lights
+that read them — approved.
+
+**And 112 is what made it possible.** Every one of the faults behind Directive 123 was a place
+where I had substituted my own arrangement for his: a lamp instead of his glow, a heading of my
+own instead of his azimuth 180, a uniform of his left unsupplied, a switch of his cut out because
+the thing it pointed at was not there yet. Not one of them was a hard problem. They were all the
+same mistake, and *his implementation is the spec* is the rule that names it.
+
+**The one open item he lists — the plane-redraw bug — is fixed and reported under 124 in the
+entry above.** It is measured here and not yet seen by him: dragging a plane's Distance, Curve or
+Depth now moves the painting instead of tearing it down and loading it again, with no drop-out
+across a 41-step drag, and the shafts keep stopping against the painting as it moves.
+
+**Awaiting his eye on that one thing. Nothing else on the Stage is open.**
+
+Also standing, from 124 and unanswered: my reproduction left **Near Plane** at Distance 50, Curve
+0, Depth 60 and **Mid Plane** at Distance 1000. Those are look values and they are his — say the
+numbers and I will set them.
