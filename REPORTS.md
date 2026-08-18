@@ -16893,3 +16893,101 @@ The stage is open on 127.0.0.1:8795 with the world showing. Three things to try:
 - **Turn the stage off, close the page, open it again** — it opens off, the way you left it.
 
 **Not verified until you have seen it.**
+
+---
+
+## Directive 123 — his lights, studied first, then made to work
+
+**All five pass here. The fifth verdict is his, not mine.**
+
+### WHAT HIS LIGHTS ACTUALLY ARE — the study, before a line was written
+
+**Nothing in his world takes its direction from a lamp.** His whole light system hangs off **one
+pair of numbers** — `glowAzimuth` and `glowElevation` — read through **one function**,
+`glowDirection()`, which lives in `PainterlySky.jsx` **because the glow IS the sun.** His own note
+on the rows says it outright: *"Glow — the sun's halo, and it carries the sun's direction."*
+
+```
+glowAzimuth / glowElevation  ->  glowDirection()  ->  God Rays          (CustomPortal.jsx)
+                                                  ->  Light in the Air  (VolumetricLight.jsx)
+                                                  ->  every light with Link to Sun  (Lights.jsx)
+```
+
+That is the interrelation, and it is the whole answer: **the shafts, the air and the lamps are not
+three systems, they are three readers of one number.** The god rays are not even a component —
+they are three passes woven into how the portal draws a frame, and they read the glow themselves.
+
+**This page had no such source.** So each part had invented one, and every invention was wrong.
+That is what "the lights are not his lights" was.
+
+### WHAT WAS WRONG — three faults, and every one had to go before a single shaft appeared
+
+**1. The sun pointed backwards.** The rays took their heading from the first lamp with Link to Sun
+on, falling back to `(0, 0.3, 1)` — **behind the eye.** His own test is `facing > 0.001`, so the
+pass was computed and thrown away **every frame since it was written.** His default is azimuth
+180, elevation 8: low and straight ahead. Measured: **0.958 facing away, now 0.990 facing toward.**
+
+**2. `uWeight` was never supplied.** His shader declares it and multiplies **all 64 samples** by
+it. With no uniform behind it, it is zero — the pass ran, paid for two extra full renders of the
+world, and **added exactly nothing.** His value is `0.045`. This one would have survived any
+amount of slider-moving.
+
+**3. The light in the air answered to nothing.** Lonnie: *"it GLOWS WITH NO LIGHT IN THE SCENE.
+Physically and portal-wise false — you need light to see light in the air."* **He is right and this
+was the cause:** `uSunDir` kept the shader's own heading and the colour was taken flat, ignoring
+his `volLightLinkToGlow` — whose default is **on**, and was **off** here. It is lit **by** the glow
+now, so there is no light in the air without light.
+
+Also restored: **the first line of his `lightDirection`**, cut out when there was no sun to follow,
+which had quietly left *Link to Sun* a switch that did nothing at all.
+
+### THE OTHER TWO
+
+**Clear button.** There was no way to take a painting off a plane — Load only ever replaced. His
+own Clear, from the Background row of his panel, is now on **all four** painting rows. Props are
+untouched: each piece already carries **his ×**, which is his answer there, not a gap.
+
+**The dead control.** It was **his eyedropper button**: the glyph was an empty string and the two
+calls behind it were stubs, so it drew as a bare pill the width of a slider and answered to
+nothing. His glyph is in and **his own `eyedropper.js` is carried over whole** — it reads the pixel
+off the picture just drawn, in his place in the frame. An armed dropper takes the click instead of
+turning the view.
+
+### MEASURED
+
+| | mean brightness |
+|---|---|
+| both off | 103.35 |
+| **Light in the Air on** | **113.86**  (+10.5) |
+| **God Rays on** | **166.99**  (+63.6) |
+
+Sun direction now `(0, 0.139, -0.990)` — his. Dropper: armed, clicked the grass, returned
+`#cf9d65` into the row. Clear: 4 of 4 rows carry it; clearing Far took the drawn planes 3 → 2.
+Suite green — 16 / 39 / 34 passed, 0 failed; PHASE 3 skipped for want of a local model and says so.
+
+**Commits:** `643b327` the glow ported · `1d2b24f` the lights are his and the shafts render ·
+`2a90ef7` the dropper · `679926c` Clear. Marker `31cd0c0` before any of it.
+
+### ONE THING FOR LONNIE TO DECIDE, and I have not decided it
+
+His six glow rows are ported verbatim as a **Sun** folder at the head of the light bundle. In his
+app they live in the **World** panel's *Sun / Moon / Planet Disk* folder; this page has one panel,
+so there is no such place to put them. **Where that folder belongs, and what it should be called,
+is yours.** Say the word and it moves.
+
+**Also named rather than hidden:** the **visible sun disk** is not ported. His folder carries
+fourteen more rows — texture, warp, craters, phase — which draw `SunDisk.jsx`. The light system
+reads none of them; they are a thing you look at, not a thing that lights. It comes with its own
+port when you want it.
+
+### For his eye (118)
+
+Open on 127.0.0.1:8795. Four things to try:
+
+- **GOD RAYS** — shafts come down out of the sun and across the field.
+- **LIGHT IN THE AIR** — haze low across the grass, and it is lit by the sun, not by itself. Turn
+  **SUN → Sun Azimuth** and both should swing with it.
+- **The dropper beside any colour** — press it, then click anywhere in the picture.
+- **Any plane's Clear** — the painting comes off.
+
+**Not verified until you have seen it.**
