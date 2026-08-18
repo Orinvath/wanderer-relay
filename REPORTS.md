@@ -17852,3 +17852,31 @@ reading where the browser is *truly* not a consideration.
 say what that reference is.
 
 **Nothing further changed. His hands retest whenever he is ready.**
+
+---
+
+## The Stage's key is gone — it was mine and it guarded nothing
+
+**His word:** *"If it wasnt a security issue in the spec, remove it."* **It was not in the spec.**
+No directive asked for it; neither `HANDOFF.md` nor `CLAUDE.md` mentions it. I added it when I
+wrote that server, on my own instinct about locking down a local port.
+
+### What it actually guarded
+
+**The top-level page, and nothing else.** Every API route and every served asset was behind the
+this-machine check alone. **The key never protected any data** — it protected one HTML response
+that a request from this machine could ask for regardless.
+
+### What it cost him
+
+The key was **minted fresh on every start**, so each restart of that server broke the address he
+had open and handed him *"key required"* on a reload. That is the whole of its effect.
+
+### Checked before removing
+
+`guard` was on one route. **No acceptance test touches this server's key.** The **moderation
+surface keeps its key** — that one *is* in the spec, and Phase 3 tests that a wrong key is refused.
+
+The this-machine check is untouched. Page answers 200 with no key; suite green, 0 failed.
+**Commit `e120304`.** The Stage now opens at plain `http://127.0.0.1:8795/`, and that address does
+not change when the server restarts.
