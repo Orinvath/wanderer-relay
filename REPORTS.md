@@ -17963,3 +17963,25 @@ different shape, or its size is pinned to one reference window and a bigger wind
 
 **Reload the tab he has open** — same address, `http://127.0.0.1:8795/`. Drag it narrow: the
 painting should hold its shape and simply show less.
+
+---
+
+## The squish "fix" was a patch — undone at his word
+
+**His words:** *"Nope undo that right now! That is not a fix that is a patch!"*
+
+**He is right by his own rule:** *a fix removes the cause; anything added to compensate is a patch.*
+I **added** code — a UV remapping applied after the geometry was built — to counteract a mapping
+that was wrong in the first place. That is compensation, not removal. **Reverted in `94c79a0`.**
+Suite green, 0 failed; the Stage is back at `http://127.0.0.1:8795/`.
+
+**Second time in a row on this one item.** First I pinned the arc and broke the shell's coverage;
+then I patched the UVs on top of it. Both were me reaching for something to add.
+
+**I do not yet know what the removal is**, and I am not going to guess a third time on his screen.
+What is true so far, measured rather than assumed: the shell's arc must follow the camera or the
+world runs out at the edges, and the painting is mapped across whatever that arc happens to be —
+so the two are coupled, and the coupling is the cause. Removing it means the painting's placement
+should not be derived from the arc at all.
+
+**Nothing further changed. His direction on where to look next, or his word to keep digging.**
