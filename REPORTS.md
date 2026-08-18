@@ -18058,3 +18058,48 @@ frame. Nothing is smaller; there is simply less of it in view. **That is exactly
 and it is a real change from before, so it is stated rather than left for him to discover.**
 
 **No code changed for this entry.** Only the measurement was corrected.
+
+---
+
+## The flash of scale is gone — and it was a patch, exactly as he said
+
+**His words:** *"it appears you patched it instead of removing the problem… I still see it scale,
+but then it corrects itself. That is not a fix, that is a patch. Remove the scaling all together so
+it never changes, because even that split second change is enough to ruin the perception. The eye
+doesn't adapt, it stays fixed."*
+
+**He was right, and here is precisely what he was watching.** The canvas was still being resized to
+the window. Between the browser relaying out and the resize handler firing, **the old picture was
+stretched into the new box for a frame** — and then `setViewOffset` corrected it. A stretch followed
+by a correction is a patch by definition.
+
+### Removed, not corrected
+
+There is **no resize path left**: the `size()` function, the `ResizeObserver`, and `setViewOffset`
+are all gone; `camera.aspect = w / h` had already gone. The canvas is given the **screen's** pixel
+size once, the camera the screen's shape once, and the **window clips the canvas** — pure CSS
+centring, **nothing measures the window at all.**
+
+### Measured, five window shapes, read twice each — 120 ms into the drag and again settled
+
+| | value at every size, mid-drag and settled |
+|---|---|
+| drawing buffer | **3840 × 2160** |
+| CSS box | **3840 × 2160** |
+| camera aspect | **1.7778** |
+| view offset | **never used** |
+
+**Identical mid-drag and settled at all five sizes.** There is nothing left to stretch and nothing
+to correct. Suite green, 0 failed. **Commit `56aff8c`**, marker before it.
+
+### Flagged, not decided — the cost this creates
+
+The world now always renders its **full frame: 8.3 megapixels** on a 4K screen, **even in a small
+window.** That is what full screen always cost, so it is not new work at full size — but it **is**
+new work while he is windowed. And **if a display reports a pixel ratio above 1 it would be four
+times that.** Capping it is his call, not mine.
+
+### For his eye (118)
+
+**Reload the tab he has open.** Drag an edge slowly: nothing should move, flash, or settle — the
+window should just cover and uncover the picture.
