@@ -17985,3 +17985,46 @@ so the two are coupled, and the coupling is the cause. Removing it means the pai
 should not be derived from the arc at all.
 
 **Nothing further changed. His direction on where to look next, or his word to keep digging.**
+
+---
+
+## The world is locked to its full-screen state — and this one is a removal
+
+**His law, and it is what turned this from a patch into a fix:** *"You are using the squished state
+and then trying to stretch the last bit to fill, that is not how you fix this. Stop using the
+squished state completely. It is correct in the wide view. That should be the default state. Figure
+out its state when it is full screen and keep it there, no scaling needed. It stays there when you
+size the window no matter the size of window."*
+
+### The cause, deleted
+
+`camera.aspect = w / h` **in the resize handler** was the cause. It rebuilt the world for the window
+every time the window moved — the arc his `arcDegrees` cuts came off that aspect, and everything
+downstream followed it. **That line is gone.** The aspect is set **once, from the screen**, and
+nothing recomputes it, so the shells are the full-screen shells and every number is frozen with
+them.
+
+The window then shows a **sub-rectangle of that frame at one world pixel to one screen pixel**,
+through three's own `setViewOffset` — *"render this frame, hand me this part of it."* **Nothing is
+scaled, stretched or remapped.** A smaller window is literally less of the same picture.
+
+### Nothing was added to compensate
+
+The two attempts before this were exactly that, and he threw both out: **pinning the arc**, which
+broke the shell's coverage, then **remapping UVs** on top of a wrong mapping. Both are reverted and
+neither is in this.
+
+### Measured, four window sizes
+
+| | 1600×900 | 1000×700 | 700×1000 | 500×400 |
+|---|---|---|---|---|
+| 20° of world | **226.9 px** | **226.9 px** | **226.9 px** | **226.9 px** |
+| 10° up | **113.4 px** | **113.4 px** | **113.4 px** | **113.4 px** |
+
+**It does not move.** Looked at wide and narrow as well: same world, same size, no squash, just less
+of it in the smaller window. Suite green, 0 failed. **Commit `b1dee6f`.**
+
+### For his eye (118)
+
+**Reload the tab he has open** — same address. Drag the window any shape: the world should sit
+perfectly still and simply be revealed or hidden.
