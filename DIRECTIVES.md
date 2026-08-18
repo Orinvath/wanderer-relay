@@ -2496,3 +2496,13 @@ Open items carried forward: 129 camera feel (his hands judge), 127
 resize behavior (his call pending), 124 plane redraw, the ↓ indicator
 second attempt, Sun folder naming, then back to the main line — her
 per-section colouring, the hiding verdict, and chunk 4.
+
+## Directive 130 — Camera PASSES his hands. Next: resize, on his screen.
+
+1. CAMERA (129): Lonnie drove it and it felt good — PASSED, off the
+   list.
+2. RESIZE (127): load the Stage page on his screen now for the resize
+   test. One line in the terminal telling him it is up. He will drag
+   the window and judge what the world does at the edges — his call
+   on the correct behavior gets made while looking at it, portal
+   side-by-side if that helps him compare.
