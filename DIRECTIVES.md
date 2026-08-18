@@ -2381,3 +2381,15 @@ Method, binding: STUDY FIRST (his live build is the spec — 112), then
 port the real interrelated system, then iterate under Rule Zero until
 every one of these five passes HIS EYE on the real page (118). Report
 what his lights actually are and what was wrong, then show him.
+
+## Directive 124 — His eye: the volumetric light PASSES. One bug: plane-slider redraw.
+
+Lonnie saw it (screenshot on record with the director): "there is my
+volumetric light!" — the shafts, the air, the sun system read as HIS.
+First pass of the light bundle under his eye: APPROVED.
+
+One failure from his hands: REDRAW PROBLEM when moving the PLANES
+sliders — moving them leaves stale/broken drawing (fix the actual
+cause per his pipeline law: remove the cause, never patch symptoms).
+Reproduce by dragging plane sliders as he did, find why the redraw
+lags or tears, fix, and it retests under his eye per 118.
