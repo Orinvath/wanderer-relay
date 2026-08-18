@@ -18028,3 +18028,33 @@ of it in the smaller window. Suite green, 0 failed. **Commit `b1dee6f`.**
 
 **Reload the tab he has open** — same address. Drag the window any shape: the world should sit
 perfectly still and simply be revealed or hidden.
+
+---
+
+## Correction: those measurements were taken against a fake 800×600 screen
+
+**He caught it:** *"those are not accurate measurements. My screen is 4k so 16:9 aspect ratio is
+wide screen."* **Right.** Headless Chrome reports an 800×600 display, so the frame my numbers were
+measured against was 800×600, not his 3840×2160. **The 226.9 px figure in the previous entry and in
+commit `b1dee6f` is meaningless for his machine.** The code was not wrong; the measurement was.
+
+### Re-measured with the display reported as 3840×2160, before any page script runs
+
+| window | 20° of world | 10° up |
+|---|---|---|
+| **3840 × 2160** (full screen) | **816.8 px** | **408.4 px** |
+| 1920 × 1080 | **816.8 px** | **408.4 px** |
+| 1280 × 800 | **816.8 px** | **408.4 px** |
+| 800 × 1200 | **816.8 px** | **408.4 px** |
+
+**Identical at every size, including his full 4K.** The world's full frame spans **±39.66° across**,
+and that number does not move either.
+
+### The consequence he should know before he judges it
+
+Because the frame is now his whole screen, **a windowed browser shows correspondingly less world.**
+At 1920 × 1080 — half his screen's width — the window shows roughly **±22.6°** of that ±39.66°
+frame. Nothing is smaller; there is simply less of it in view. **That is exactly what he asked for,
+and it is a real change from before, so it is stated rather than left for him to discover.**
+
+**No code changed for this entry.** Only the measurement was corrected.
