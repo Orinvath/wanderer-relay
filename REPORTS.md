@@ -18183,3 +18183,37 @@ choice made knowing the trade, not mine made quietly.
 ### For his eye (118)
 
 **Reload the tab he has open** and drag an edge. Nothing should happen to the picture at all.
+
+---
+
+## Maximising: his read is right — nothing in the world responds to it
+
+**His observation:** *"If I drag an edge of the window it works fine, but should I double click the
+title bar to expand it to full screen it does the weird redraw. Perhaps that is an OS/App thing and
+not our world."*
+
+### Tested as a single jump, windowed → full screen → windowed again
+
+| across a maximise and un-maximise | |
+|---|---|
+| geometry rebuilt | **0** |
+| canvas buffer changed | **0** |
+| canvas position changed | **0** |
+| camera aspect changed | **0** |
+| device pixel ratio changed | **0** |
+
+**Nothing in the world reacts to a maximise.** No code of ours runs. **His read is correct.**
+
+### What I can and cannot claim
+
+I can say our side changes nothing — that is measured. **I cannot claim to know what the browser does
+internally**, and I will not pretend to.
+
+**But there is one way it could still trace back to a choice of ours, and it should be on the
+record:** the canvas is a fixed 8.3-megapixel surface, most of which sits outside a windowed browser.
+When maximising suddenly reveals a large new area, the compositor has a lot of surface it had not
+needed to paint yet. That is a real cost of the fixed-canvas design.
+
+**The only lever on it is not having a canvas larger than the window** — which is exactly the
+coupling he asked to have removed, and removing it is what stopped everything else. **So it is a
+trade, not a bug, and it is his to weigh.** Nothing changed for this entry.
