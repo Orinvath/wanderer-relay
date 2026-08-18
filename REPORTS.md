@@ -18142,3 +18142,44 @@ Suite green, 0 failed. **Commit `e73db2a`**, marker before it.
 ### For his eye (118)
 
 **Reload the tab he has open** and open **WORLDS**.
+
+---
+
+## The window causes nothing at all now — the canvas had still been moving with it
+
+**His words:** *"there is still a problem with the redraw when the window changes size… nothing
+changes in the world so there should be no need for a redraw… it is smoother now but it is still
+something that is happening that should not be happening at all."*
+
+### Measured first this time, instead of guessed at
+
+Counting everything that could be work caused by the window, across four resizes:
+
+| | before |
+|---|---|
+| geometry rebuilt | **0** |
+| render targets resized | **0** |
+| renderer resized | **0** |
+| canvas buffer changed | **0** |
+| **canvas position changed** | **4** — one per resize |
+
+**The world genuinely was not rebuilding.** What was left is that the canvas was **centred** — left
+and top at **50% of the window** — so **every resize moved it**, and moving it makes the browser
+composite an **8.3-megapixel layer** again. That was the something he could still see.
+
+### Removed
+
+**The canvas is pinned at 0,0.** Nothing about it is expressed in terms of the window any more, so a
+resize does not move it, re-lay it out, or repaint it. **Re-measured: all five counters are zero**,
+position `0px 0px`, no transform. Suite green, 0 failed. **Commit `018e333`.**
+
+### Flagged — and these two cannot both be had
+
+This changes **which part** of the world a smaller window shows: **the top-left of the frame rather
+than the middle of it.** Keeping the middle centred is precisely what was moving the canvas. **If he
+wants the centre kept instead, the movement necessarily comes back** — and that should be his
+choice made knowing the trade, not mine made quietly.
+
+### For his eye (118)
+
+**Reload the tab he has open** and drag an edge. Nothing should happen to the picture at all.
