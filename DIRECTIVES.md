@@ -2312,3 +2312,14 @@ When it renders, reopen it on his screen per 118. His eye rules.
    and house them IN the Stage panel with the other folders. Portal
    implementation is the spec for both their behavior and their rows.
 Same 118 law: reopen on his screen when it all renders; his eye rules.
+
+## Directive 120 — GOD RAYS: not optional, not a discussion. Bring it.
+
+Lonnie's order, verbatim intent: when he says bring it, BRING IT. God
+Rays is not a suggestion, not a flag-and-wait, not a scope question —
+it is CC's job to figure out how to bring the multi-pass render
+pipeline across and MAKE IT WORK, exactly as the other three. His
+implementation is the spec (112); difficulty is the coder's problem,
+not the director's decision. Report what it took AFTER it works, per
+Rule Zero iterate-until-it-works (098). All four land, then the page
+opens on his screen per 118.
