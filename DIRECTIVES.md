@@ -2522,3 +2522,12 @@ window is a hole you look through, nothing more. No fit-to-width, no
 image scaling, no viewport math that consults window size for world
 scale. Find where window size leaks into the render and remove the
 leak at its cause. His hands retest.
+
+## Directive 132 — The Worlds folder fails his eye: not his panel design
+
+Lonnie's side edit: the WORLDS folder in Stage looks bad — it is NOT
+his design. Study how HIS panels do it: the Presets sections in his
+portal's panels are the reference — how fields, inputs, and buttons
+look and how they are organized inside a folder. Rebuild the Worlds
+folder's rows to that design, his builders, his classes, his layout —
+nothing invented. His eye retests.
