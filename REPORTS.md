@@ -17308,3 +17308,19 @@ treats nothing-landed as an error. Full detail and the measurements are in the D
 above; the timings are in the second refinement.
 
 **Nothing new was changed for this entry.** It is the answer to the question as asked.
+
+---
+
+## Directive 126 addendum — REVERTED at his word
+
+**Lonnie: "revert that last one, it messed things up!"** Done, same turn.
+
+`b5c7a6d` — the ↓ marker re-read — is **reverted in `2becf41`**. The panel is back to what it was
+before that change: the piece list is built once and not re-read, and the temporary per-file fetch
+timing is gone with it. Nothing else was touched; the Directive 126 fetch fix (`ff20fdc`) stands.
+
+**So the marker not clearing is open again**, and it is his to say whether he wants it looked at
+again and how. I have not tried a second version of it.
+
+**Standing rule reaffirmed by him this turn: commit with every change.** The revert is its own
+commit and the tree is clean.
