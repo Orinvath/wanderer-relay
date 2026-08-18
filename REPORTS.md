@@ -18334,3 +18334,100 @@ whether a low, held lesson is **visible as doubted** · whether surfacing may **
 Avatar is doing.
 
 **Awaiting his approval before anything is built.**
+
+---
+
+## Directive 134 — the remembering layer, built. Suite all green, 17 of 17.
+
+**Measured first, as the directive required, then built.** Five commits, one per piece:
+`f6600da` the measurement · `fb5482c` the schema · `8e92a30` surfacing · `b17936e` lessons ·
+`14f1f26` the proof in the suite. Plus `4602a58`, below, which the suite caught.
+
+### The cost, on the real store — no doubles anywhere
+
+Real `Memory`, real `openStore`, real 768-dimension vectors from `nomic-embed-text`.
+
+| memories | write + embed | recall, no moment | recall, with moment (real cosine) |
+|---|---|---|---|
+| 100 | 4470ms | 2ms | 39ms |
+| 500 | 17631ms | 7ms | 49ms |
+| 2000 | 65295ms | 17ms | 66ms |
+| 5000 | 214608ms | 53ms | 107ms |
+| 10000 | 204868ms | 111ms | 170ms |
+
+One embedding of the moment costs **37ms median and does not grow with the store**. The scan costs
+about **14 microseconds per memory and does grow**. At ten thousand memories a surfacing is 170ms.
+
+**That is the finding the plan's own flaw asked for, and it decides the design:** surfacing belongs
+at **decision moments**, never on a tick — because 013 §16.9 says the store never shrinks, so a
+per-tick cost would climb for the whole life of the Avatar and never come back down.
+
+### The three pieces
+
+**1. Memories that arrive on their own — `surfacing.js`.** The difference from `recall()` is not the
+arithmetic, it is **who asks**. `recall()` answers a question someone put to it; surfacing puts no
+question — it tests the moment, and what comes back is a **reminding**.
+
+His five rulings, each kept where it can be checked rather than promised in a comment:
+
+- **It enters the mind, not the mouth.** The constructor is handed the store and the model and
+  **nothing else** — it has no handle on anything that speaks. Ruling 1 is a fact of the
+  constructor. Pattern: the Proactive Memory Agent's inject-or-stay-silent (arXiv:2607.08716).
+- **Threshold and top-k, at decision moments.** LD-Agent's shape (arXiv:2406.05925). Starting
+  numbers are Park et al. 2023's documented anchors (arXiv:2304.03442) — importance 1–10 at write
+  time, recency decaying ~0.995 per hour. **Provisional, every one.**
+- **It never seizes control.** It returns a list of candidates carrying an urgency, and stops.
+- **Silence is a result, not a failure** — that paper's own finding is that selective beats
+  always-on, and the suite proves an untouched moment surfaces nothing.
+- **It is auditable and re-runnable** (MOSS, arXiv:2607.04391). Every surfacing records what it
+  tested, the query the Avatar formulated, and the three scores behind each memory that rose.
+  `replay()` hands back the same result **without asking the model anything**.
+
+**2. Lessons that can be honestly wrong — `lessons.js`.** Hindsight's confidence trajectory taken
+(arXiv:2512.12818); its four-network schema **not** taken — we have our own store. Your ruling
+shapes every number: small deltas ordinarily (+0.03 reinforce), **contradiction costs more than
+agreement earns** (−0.12), and **collapse only from a RUN of strong contradictions** — one blow does
+not do it, and a reinforcement in between breaks the run. The run is **counted from the evidence
+itself**, so it can never disagree with the record it comes from.
+
+**A collapsed lesson is a MARK, never a delete.** It rests at the floor (0.05, not zero) and stays
+listed with its whole trajectory readable — 013 §16.9. A lesson that collapsed is a different thing
+from a lesson never learned, and the store can tell you which.
+
+**Refresh-on-read** is the documented spacing effect (Roediger & Karpicke 2006, "The Power of
+Testing Memory"): a lesson that surfaced and was **used** strengthens, rather than being spent.
+
+**3. Recall as the Avatar's own act.** `formulate()` turns the moment into the query the Avatar puts
+to itself, and the query is stored **beside its result** so the pair replays. That is MOSS's point:
+retrieval is the agent's act over auditable structure, not a hidden step.
+
+### Proved — `REMEMBER`, 13 checks, real store and real embeddings
+
+A memory rises unbidden when the moment touches it (2 of 5 rose, the harbour first). An untouched
+moment surfaces nothing. The surfacing replays identically with the three scores intact and **no
+model in the replay**. A reminding carries why it rose and an urgency and **nothing to say**. A
+lesson is born textless from what a dream distilled — words are language work on the other side of
+the split (083/081). One strong contradiction does not collapse it; a reinforcement breaks the run;
+three in a row collapse it; and the collapsed lesson is **still listed**. Exits 2, not 0, when the
+model is absent.
+
+### The suite caught something of mine — and it was a removal, not a patch
+
+`EFFECTS` failed on `plane:far.curve`. **Curve is the control you had removed** — *"no trace of it
+ends up in my world"* — and three traces were still sitting on my side: the effect-axis row naming
+it, a check asking a dead control what it did to the space axis, and two comments citing it as an
+example. **All three removed, nothing added** (`4602a58`). The space axis keeps its live-build check
+(`sfxSpaceSize`) and its plane control (`distance`), so nothing is proved less than before.
+
+**That is the second time this session the suite caught my leftovers rather than you having to.**
+
+### Suite
+
+`ALL GREEN — every suite ran and every suite passed.` 17 of 17: PHASE 0–3, CHARACTER, ROE, TRAITS,
+NEEDS, GOALS, CAPABILITIES, EFFECTS, AVATAR, SLEEP, **REMEMBER**, GAMES, HARNESS, TESTNET.
+
+### Nothing decided for you
+
+Every number above is provisional and flagged as such in the files (071): the threshold, the top-k,
+the decay, all four deltas, the strong bar, the run length, and the floor. **They are a starting
+point to be tuned by watched behaviour — the tuning is yours, and I have not guessed at it.**
