@@ -17752,3 +17752,16 @@ pointer exactly.
 **127** resize — reproduced, awaiting his call on what the edges should do. **124** plane redraw —
 fixed and reported; if he still sees it, it is separate. **The stuck ↓** — second attempt, and I
 have not started it.
+
+---
+
+## The default paintings were still in the Wanderer's own Stage
+
+**He looked and they were still there.** They were — I had taken them out of his portal and left
+this side seeding its own three planes with `far.png`, `mid.png` and `horizon_test.png`, so they
+came straight back the moment he opened the Stage.
+
+**Out now.** Only the distances are set, because those are the geometry he settled. Verified on a
+fresh server: all three planes report **no painting**. Suite green, 0 failed. Commit `b4c885f`.
+
+**Both sides now open empty** — his portal (`67d4750`) and the Wanderer Stage (`b4c885f`).
