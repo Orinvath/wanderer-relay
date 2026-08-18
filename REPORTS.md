@@ -18527,3 +18527,80 @@ building item 4 · whether 22 is the vocabulary · the glyph mapping.
 **ALL GREEN — 17 of 17.** One honest note: the **first** full run reported PHASE 3 failed; the
 re-run passed, as did every suite. I did not capture the cause before it cleared and will not claim
 it was nothing — a docs-only commit cannot have caused it, but that is reasoning, not evidence.
+
+---
+
+## Directive 136 — standards ruled, and the Avatar as a programmable asset. Plan only.
+
+**Commit `67c20d5`.** `BRAIN_PLAN.md` now 518 lines, two new parts. **Suite ALL GREEN, 17 of 17.**
+Nothing implemented.
+
+### RULE ZERO ON THE DIRECTIVE'S OWN SCIENCE — one of the three pillars did not survive checking
+
+The directive adopts **"Hamlin's early core."** **The largest replication of it failed.**
+
+**ManyBabies4 — Lucca et al. (2025), *Developmental Science* 28, e13581**: preregistered, multi-lab,
+**1,018 infants across 37 labs on five continents.** Result: **49.34% preferred Helpers over
+Hinderers — not different from chance**, and not different from the non-social control. Their own
+words: the effect is *"weaker, absent, and/or develops later than previously estimated."* Hamlin,
+Wynn & Bloom (2007, *Nature* 450) stands as the original finding; it is **contested, not settled.**
+
+**YOUR RULING IS UNAFFECTED — and it is stronger for losing that pillar.** The seed you ruled is
+**authored, in the persona**. It is your design, not a claim that a newborn Avatar arrives knowing
+right from wrong. **A design that does not depend on a contested result is a better design.** So the
+citation changed and nothing else did: Hamlin is recorded as what the early-core position *was*, with
+its replication status stated plainly, and **no weight in the plan rests on it.**
+
+**The two pillars that did survive carry the whole ruling:** the **constructivist** account carries
+GROWTH, and **Moral Foundations Theory** (Graham, Haidt & Nosek 2009; Graham et al. 2011) carries THE
+TILT — differential, stable weighting of the foundations is that theory's most-cited result.
+
+### §14 — STANDARDS. This closes the largest gap 135 flagged.
+
+**THE SEED lives in the persona** — already the authored tier by design. `character.js` parses your
+own `.md` format; standards seed in that same file, in that same voice. Each project seeds per its
+needs, which is 133 working as intended: full capability, project gates own the settings.
+
+**GROWTH is a TIER OF LESSON — no new store and no new mechanism.** `lessons.js` already holds
+beliefs distilled from lived experience with confidences that strengthen, weaken and collapse.
+**An ought is a lesson whose content is normative** — same dream distilling it, same OCC refraction,
+same readable trajectory. **It can be honestly wrong and it can honestly change**, which is exactly
+what a constructivist account requires, and the machinery was built under 134.
+
+**THE TEN ARE THE TILT.** The aspects weight which appraisals register hard enough to become an ought
+at all, and how hard it holds once it is one. Low-Politeness never learns *defer*; high-Compassion
+holds *hurting is wrong* as bedrock. **No universal moral table is ever authored.**
+
+**And it landed in a layer that was already there.** The literature places moral foundations inside
+**McAdams' characteristic adaptations** — level 2 of the three-level model that 135 §10 already
+mapped onto the needs and the goal-former. **Standards did not need a new home.**
+
+**What it unblocks:** OCC's praiseworthiness/blameworthiness branch becomes computable — a quarter of
+the framework §3 could describe but not run.
+
+### §15 — THE PLATFORM LAYER. Two dials recorded, and two consequences written down first.
+
+Aspects **set** (Elsewhere dials gentle/caring) or **rolled** (Wanderer Roe at Genesis); persona
+**authored**, **random**, or **generated from the aspects** so seed and nature never contradict.
+
+**1. The persona generator sits on the LLM seam, on the correct side.** Writing a persona is language
+work: the machinery supplies the computed input — the ten — and the model renders the words, exactly
+as dreams and utterances already work. **The generator never chooses the makeup; it only speaks it.**
+If it could invent what it describes, the seam breaks and the appraisal record stops being the record.
+
+**2. "RANDOM" must mean SEEDED, never `Math.random()`.** 062 §19 forbids it in the creature path, and
+the **Roe seeded builder already exists** — *same Roe, same being*, proved by the suite every run. A
+rolled Avatar must be reproducible from its Genesis seed or it cannot be the same being twice, which
+would break custody, the epochs, and every continuity claim beneath them.
+
+### Flagged, not decided
+
+Whether a generated persona is **written once at Genesis and then fixed**, or **re-derived** whenever
+the aspects are re-read — fixed is the conservative reading and matches how `character.js` is
+authored today, and the directive does not settle it. And **there is no separate platform document
+today**; §15 is that layer for now, and whether it should become its own file is yours.
+
+### Still open from 135, unchanged
+
+The host model's persistence between visits (touches 062) · whether to measure the master loop before
+building it · whether 22 is the emotion vocabulary · the OCC→glyph mapping.
