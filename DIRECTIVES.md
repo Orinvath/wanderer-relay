@@ -2484,3 +2484,15 @@ smoothness is a feel judgment only he can pass.
 Then in line, his order standing: 127 resize (reproduced, awaiting his
 call on the portal-matching behavior), 124 plane redraw if separate,
 and the stuck ↓ indicator (second attempt, differently).
+
+## Session close — his last picture
+
+Third screenshot on record with the director: the temple interior at
+dawn — sun through the center arch, mist on the floor, stars in the
+ceiling shadow. The Stage, the light bundle, and his paintings,
+working as one. The visual heart of the port stands under his eye.
+
+Open items carried forward: 129 camera feel (his hands judge), 127
+resize behavior (his call pending), 124 plane redraw, the ↓ indicator
+second attempt, Sun folder naming, then back to the main line — her
+per-section colouring, the hiding verdict, and chunk 4.
