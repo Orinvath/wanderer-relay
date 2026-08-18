@@ -17382,3 +17382,62 @@ they are his.
 **Standing apology in the record:** dragging his sliders on the live page to reproduce 124 is what
 put those numbers there. I reported it at the time and did not restore them, and they went into a
 saved world before he saw this.
+
+---
+
+## The jagged edges — CORRECTED. It was mine, and it was not the settings.
+
+**My first answer was wrong and he said so: he had the panel open on the very settings that world
+was saved from.** He was right. Here is the real cause, found by looking instead of reasoning.
+
+### First, what it is NOT — checked before claiming anything this time
+
+- **No code changed between his save and now.** `git diff` across the entire browser tree from the
+  commit current at 21:43 to HEAD is **empty**. The world was saved at 21:45; the last rendering
+  change was 21:30, before it.
+- **Save and load are faithful.** The file holds what was set and restores it as written.
+- **Not Curve, not Depth.** Those are his saved values and he is entitled to them.
+
+### What it actually is
+
+**The world has been drawn at half resolution and stretched back up.**
+
+`renderer.getSize()` answers in **CSS pixels**. The canvas is that **times the device pixel
+ratio** — 2 on his screen. The world's render target was sized from the CSS number alone, so
+everything was rendered into a 1000×700 target and the composite pass then stretched it across a
+2000×1400 canvas.
+
+On a soft landscape that reads as slightly soft. **On a hard silhouette against a bright sky it
+reads as exactly the stair-stepped sawtooth he photographed.**
+
+### It is my line, and his portal has the half I dropped
+
+```js
+const dpr = gl.getPixelRatio()
+const w = Math.max(2, Math.floor(size.width * dpr))
+```
+
+I wrote it without the `* dpr` when I ported God Rays under **Directive 120** — the day this page
+stopped drawing straight to the canvas and started going through targets. **It has been wrong ever
+since; it only became visible when he pointed the camera at a hard edge against a bright sky.**
+
+### Measured
+
+| | canvas buffer | world target |
+|---|---|---|
+| before | 2000 × 1400 | **1000 × 700** |
+| after | 2000 × 1400 | **2000 × 1400** |
+
+Same view, same crop, captured both ways: the stone texture and the wisps go from mush to crisp.
+Suite green — 0 failed; PHASE 3 skipped for want of a local model and says so.
+
+### One thing still separate, and still his
+
+There is a **milder zigzag on the flattened plane at Curve 0** that survives this fix. That one is
+his own `buildShell` — I diffed it against his line for line and it is identical apart from the
+word `export`. A flat shell facets at this distance. **Not touched, and his to judge.**
+
+### For his eye (118)
+
+Open on 127.0.0.1:8795. The silhouettes against the sky should be clean now, and the stonework
+should carry its detail. **Not verified until he has seen it.**
