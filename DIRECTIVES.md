@@ -2323,3 +2323,18 @@ implementation is the spec (112); difficulty is the coder's problem,
 not the director's decision. Report what it took AFTER it works, per
 Rule Zero iterate-until-it-works (098). All four land, then the page
 opens on his screen per 118.
+
+## Directive 121 — Lonnie's eye: the sky is WRONG — it reads curved like a plane
+
+Lonnie saw it: Painted Sky came over incorrectly. It renders curved
+like the planes — but in his portal THE SKY WAS A DIFFERENT BEAST from
+the planes entirely. His memory of it does not match what is on
+screen.
+
+The portal has multiple sky implementations (PaintedSky, PainterlySky,
+SkySurround, SkyEnvironment, HdriSky, PhysicalSky). Establish from HIS
+source which one the Stage panel's Painted Sky toggle actually drives
+in the live build, and port THAT exact geometry and rendering — not an
+approximation, not a plane-shaped stand-in. His implementation is the
+spec (112); his eye is the test (118). Report which component it truly
+was and what was wrong with the first attempt.
