@@ -18103,3 +18103,42 @@ times that.** Capping it is his call, not mine.
 
 **Reload the tab he has open.** Drag an edge slowly: nothing should move, flash, or settle — the
 window should just cover and uncover the picture.
+
+---
+
+## Directive 132 — the Worlds folder is his Presets layout again
+
+**Studied his own `makeSaveLoadSection`** — the Presets section in his portal's panels, which is the
+reference the directive names.
+
+### What was wrong: his layout lines were missing, all of them
+
+The four controls were being appended to a **bare div**, so they stacked however the row felt like
+stacking them. **His own comment says what that div is supposed to be:**
+
+> *"A 2×2 grid, so the alignment is structural rather than coincidental:*
+> ```
+>      name      SAVE
+>      load...   DELETE
+> ```
+> *The left column takes the remaining width and the right column sizes itself to the wider of the
+> two buttons, so both fields end up exactly as long as each other and so do both buttons."*
+
+**Restored: his five lines** — `display: grid`, `gridTemplateColumns: '1fr auto'`, `gap: 6px`,
+`alignItems: center`, and the row set to `block`.
+
+**And three of his details I had changed for no reason:** the field's placeholder is **`name`**, not
+`world name`; the pulldown's first entry is **`load…`**, not `load a world…`; and his
+`nameInput.type = 'text'`, which I had dropped entirely.
+
+### Measured and looked at
+
+Grid columns **142.66 px / 71.34 px**, gap **6 px**. The name field and the pulldown are **both
+143 px** wide; **Save and Delete are both 71 px**. Photographed the folder and read it: name beside
+SAVE, load beside DELETE, two clean columns.
+
+Suite green, 0 failed. **Commit `e73db2a`**, marker before it.
+
+### For his eye (118)
+
+**Reload the tab he has open** and open **WORLDS**.
