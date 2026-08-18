@@ -2451,3 +2451,12 @@ fetches routed through the dev server middleware instead of direct,
 and backoff loops. Compare against the portal fetching the same piece
 — if the portal is fast and ours is slow, the difference IS the bug.
 Report the timed evidence and the cause.
+
+## Directive 126 addendum — the download marker never clears
+
+Also from his eye: after a piece finishes downloading, its
+downloading-marker STAYS — the UI keeps showing it as fetching. In his
+portal the marker clears on completion (local-vs-fetched marking per
+111). Likely kin to the slowness bug (completion never signaled), so
+diagnose together: does completion ever fire, and does the marker
+listen? Fix cause, not symptom. His eye retests.
