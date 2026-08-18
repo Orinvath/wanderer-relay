@@ -17914,3 +17914,52 @@ both his laws at once. **It raises one question I will not answer for him: what 
 beyond the painting's edges** once the painting no longer stretches to fill it.
 
 **Nothing further changed. Waiting on him.**
+
+---
+
+## The squish is fixed — the painting has its own width now
+
+**His instruction:** *"the world is squished when the browser is not wide, the world needs to never
+change no matter the size of the viewing window."*
+
+### What I had tangled together, and the part that was actually wrong
+
+**How much shell exists** must follow the camera or its edges come inside the view and you see past
+the world. `arcDegrees(fov, aspect)` is *for* that and was already right — pinning it was the
+mistake he caught in 131.
+
+**How wide the painting sits on that shell** was the real fault. The shell's UVs spanned the
+painting across the **whole** arc, so a narrow window **squeezed the same picture into a narrower
+arc.** That is the squish.
+
+**The painting is given a fixed angular width instead**, by remapping the shell's own UVs about its
+centre. **The shell's size did not change and his shader is untouched.** A narrow window now shows a
+narrower slice of the **same unsquashed painting**. The painted sky gets the same treatment.
+
+16/9 is **his** number — the default in his own `layerAspect` — and it is used only to say how wide
+the painting is, **never** to size the shell.
+
+### Measured, three window shapes
+
+| | 1600×700 | 1000×700 | 700×1100 |
+|---|---|---|---|
+| painting spans | **175.54°** | **175.54°** | **175.54°** |
+| shell reaches past the view | yes | yes | yes |
+
+It used to narrow with the window; and the coverage my reverted attempt broke is intact in all
+three. **Looked at as well**, wide against narrow: the arch keeps its shape and you simply see less
+of it.
+
+Suite green, 0 failed. **Commit `6fdbddb`.**
+
+### Still open, and it is the reference question rather than the squish
+
+The camera's vertical angle is **his fixed 50 degrees**, so a taller window spreads those degrees
+over more pixels and everything reads larger. **That needs a reference size to hold it against, and
+which one is his call** — either the world is a fixed picture with empty space when the window is a
+different shape, or its size is pinned to one reference window and a bigger window shows more.
+
+### For his eye (118)
+
+**Reload the tab he has open** — same address, `http://127.0.0.1:8795/`. Drag it narrow: the
+painting should hold its shape and simply show less.
