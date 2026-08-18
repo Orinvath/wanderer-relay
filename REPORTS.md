@@ -17791,3 +17791,21 @@ the only thing blocking it:
 > own arc so the window crops instead of revealing?
 
 **Nothing changed for 127.** Waiting on him at the screen.
+
+---
+
+## Directive 130 correction — struck, and my own doing
+
+**The side-by-side was mine to refuse and I did not.** The director's 130 said "portal side-by-side
+if that helps him compare", I read that as licence, and I opened Elsewhere next to the Wanderer.
+**Lonnie never asked for it.** He said so plainly in the terminal before this correction landed.
+
+**Struck.** The Wanderer Stage alone is on his screen for the resize test. Nothing else was opened.
+
+**Elsewhere's dev server was left running rather than killed** — he may have that window in use,
+and pulling it out from under him to tidy up my own mistake would be a second one. It is his to
+close, or mine the moment he says.
+
+**Still waiting on the one thing that blocks 127:** when the window is wider than the painting was
+made for, do the sides show the world continuing past the painting, or is the view held to the
+painting's own arc so the window crops instead?
