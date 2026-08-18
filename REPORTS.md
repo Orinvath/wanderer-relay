@@ -17268,3 +17268,43 @@ arc so the window simply crops rather than reveals?
 
 **For his eye (118):** the music items are on 127.0.0.1:8795 — leave it playing, and choose a piece
 with a ↓; it should fetch, start, and lose its ↓. **Not verified until he has heard it.**
+
+---
+
+## Directive 126 refinement — "new downloads never start": answered
+
+**Filed late — this refinement's specific question was answered inside the 126 and second-refinement
+entries above rather than on its own. Here it is directly, with the measurements.**
+
+**His read was right about where to look and right about the suspect.**
+
+### Does the fetch ever fire for a new piece?
+
+**Yes — measured.** Choosing `stream-of-consciousness`, a piece holding none of its three
+instruments, fired three fetches back to back, each answering 200:
+`snare-brush-stir` 1.0s → 4.3s, `snare-brush-hit-p` 4.3s → 8.8s, `ride-brush-p` 8.9s → 13.2s.
+So the request path itself is sound.
+
+### Did it fire and fail silently?
+
+**Yes — that was the original fault, and it was worse than silent: it failed while reporting
+success.** `kasper-singing-bowls` — the instrument his chosen piece needed — kept its samples one
+level down in a subfolder, and the fetcher only ever looked at files, never folders. It downloaded
+nothing and answered **200 with `files: 0`**. `ensureInstruments` throws only when the answer is
+not ok, so nothing objected and the piece was allowed to start without its instrument. **That is
+"new downloads never start", exactly.**
+
+### Was it the half-filled-folder flaw — his prime suspect?
+
+**It was there, and it is why it could never recover.** The folder was created first and filled in
+place, so any failure part-way left some notes on disk — and a folder holding *any* `.ogg` counts
+as held, so **the next ask answered "already" and never completed it.** His suspicion was correct:
+the system believed it held what it did not, and stopped asking. Once that happened, no amount of
+trying again could ever fix it.
+
+**Both are fixed** — it descends into subfolders, checks every response before writing, converts
+everything in a temporary folder and moves it into place **only when all of it has made it**, and
+treats nothing-landed as an error. Full detail and the measurements are in the Directive 126 entry
+above; the timings are in the second refinement.
+
+**Nothing new was changed for this entry.** It is the answer to the question as asked.
