@@ -18268,3 +18268,69 @@ is left matching his rather than quietly improved.
 ### For his eye (118)
 
 **Reload the tab** and open **WORLDS** — Clear World sits under the name and load rows.
+
+---
+
+## Directive 133 — the remembering layer, planned. Nothing built.
+
+**`MEMORY_PLAN.md` written, with a pointer added at the end of `TRAIT_PLAN.md`. No implementation,
+as ordered.** Suite green, 0 failed. **Commit `99cb57c`.**
+
+### The ruling is recorded at the top of the plan
+
+**THE AVATAR COMES FIRST** — a multi-project asset, developed to its fullest capability, **never
+designed small to fit one product's laws.** Project boundaries — what crosses a host in the
+Wanderer, what a child sees in Elsewhere — are **each project's own gate at deployment**, and appear
+in the plan only to be ruled **out of scope**.
+
+### Two of the four pieces already exist — the plan extends, it does not reinvent
+
+- **`memory.js` already recalls the Generative-Agents way**: recency × 0.3 + importance × 0.4 +
+  relevance × 0.3, with the standing departure that **nothing is ever evicted** (013 §16.9). The
+  plan says outright that **the upstream `MAX = 400` and its eviction must not arrive through this
+  work either.**
+- **`sleep.js` already dreams and distils.** **Directive 083 settled that dreaming IS the reflection
+  step**, and the plan does not reopen it — it asks only that distillation also take **the clusters
+  that surfaced during the day**, since what kept coming back is what the day was about.
+
+**What is genuinely missing**, and is what the plan covers: memories that **arrive unbidden**;
+lessons that **carry a confidence and can honestly weaken**; and retrieval as **the Avatar's own
+act** over structure that can be re-run and inspected.
+
+### Every citation was verified, not recalled
+
+| | |
+|---|---|
+| **Park et al. 2023**, *Generative Agents* | arXiv:2304.03442 — recency (decay since last retrieval), importance (rated 1–10 at writing), relevance |
+| **Hindsight is 20/20** | arXiv:2512.12818 — opinions carry explicit confidence; each new fact judged **reinforce / weaken / contradict / neutral**; strong contradiction erodes confidence *and eventually the text*. *"Opinions become trajectories, not labels."* |
+| **MOSS** | arXiv:2607.04391 — the **agent, not a similarity pipeline**, drives retrieval over structure; symbolic and reproducible, **auditable by construction** |
+
+**Only the confidence trajectory is taken from Hindsight, not its four-network schema** — said
+plainly in the plan, because we have our own store with its own laws. And MOSS's discipline is named
+as the same discipline this project already applies elsewhere: **the judge never gets a persona**, so
+a recall that cannot be re-run would be the one place the Avatar's account of itself could not be
+checked.
+
+### Flaws first, per Rule Zero
+
+**Surfacing on every moment is a similarity search per tick against a store that by law never
+shrinks.** That cost grows with a life and **must be measured on the real store before any of this
+is built** — not estimated. A likely mitigation is named and **marked as a hypothesis, not a
+finding.**
+
+### Six things it would have to prove, all measurements
+
+Unbidden surfacing on the real store (no test doubles); the same moment surfacing the same memory
+with **a re-runnable audit row explaining why**; confidence rising by small deltas and collapsing
+only on repeated strong contradiction; **a collapsed lesson still held, never deleted**; sleep
+distilling a surfaced cluster with 083 unchanged; and the surfacing cost measured on a large store
+on this machine.
+
+### Five decisions listed as his, none assumed anywhere
+
+What a reminding **feels like** from outside · how strongly a memory must be touched, and how often
+the moment is tested · the **delta sizes**, and what counts as strong repeated contradiction ·
+whether a low, held lesson is **visible as doubted** · whether surfacing may **interrupt** what the
+Avatar is doing.
+
+**Awaiting his approval before anything is built.**
