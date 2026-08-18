@@ -2438,3 +2438,16 @@ the window is a viewport onto it, exactly as his portal behaves.
 Trace how his portal handles resize (camera/FOV/viewport math) and
 port that behavior — window size never alters the world's scale.
 Retest under his eye alongside the plane-redraw fix (124).
+
+## Directive 126 second refinement — downloads DO happen, but take 5-10 MINUTES
+
+Lonnie's sharper observation: new music may in fact be downloading —
+but a fetch that should take SECONDS is taking 5-10 MINUTES. So hunt
+the slowness, not absence: watch one new piece fetch end to end and
+time each hop. Suspects to check in order: retry storms against 503s
+(his known flaw — hammering before succeeding), samples fetched one
+tiny file at a time sequentially where the portal parallelizes,
+fetches routed through the dev server middleware instead of direct,
+and backoff loops. Compare against the portal fetching the same piece
+— if the portal is fast and ours is slow, the difference IS the bug.
+Report the timed evidence and the cause.
