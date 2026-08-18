@@ -17880,3 +17880,37 @@ surface keeps its key** — that one *is* in the spec, and Phase 3 tests that a 
 The this-machine check is untouched. Page answers 200 with no key; suite green, 0 failed.
 **Commit `e120304`.** The Stage now opens at plain `http://127.0.0.1:8795/`, and that address does
 not change when the server restarts.
+
+---
+
+## Directive 131 — my fix was wrong and is reverted
+
+**His verdict, with two screenshots:** *"the change was not made correctly. I said the camera focal
+length and the plane size never change from their default values. You changed the value and now the
+edges do not extend beyond the camera."*
+
+**He is right, and I had his own formula backwards.**
+
+`arcDegrees(fov, aspect)` takes the window's aspect **so the shell always reaches past what the eye
+can see** — that is what the arc is *for*. Pinning it to a fixed 16/9 made the shell too narrow for
+a tall window, so its edges came inside the view and he could see past the world. **I broke
+coverage while trying to stop scaling.**
+
+**Reverted in `51e6646`.** The shell is cut from the camera again, exactly as his code has it.
+Suite green, 0 failed. The Stage is back at `http://127.0.0.1:8795/`.
+
+### What I now understand the real distinction to be
+
+Two different things were tangled together in that one number:
+
+1. **How much shell exists** — must follow the camera, or the world runs out at the edges. **His
+   formula, and it was already right.**
+2. **How big the painting is on that shell** — the painting is mapped across the *whole* shell, so
+   when the shell widens the painting is stretched with it. **That is the scaling he keeps seeing,
+   and it is a separate thing from the arc.**
+
+Holding the painting at a fixed angular size on a shell that still covers the view would satisfy
+both his laws at once. **It raises one question I will not answer for him: what is on the shell
+beyond the painting's edges** once the painting no longer stretches to fill it.
+
+**Nothing further changed. Waiting on him.**
