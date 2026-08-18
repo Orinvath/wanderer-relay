@@ -2354,3 +2354,30 @@ The toggles must GOVERN, portal-exact: master kills all of Stage
 comments say); each folder's toggle kills its folder's rendering. Trace
 his Gui.jsx wiring for both and port the governance, not just the
 switch graphics. His eye retests per 118.
+
+## Directive 123 — Lonnie's full eye verdict: piss poor. STUDY HIS LIGHTS, then make it all work.
+
+His words on record: some of the worst work he has seen, and it stops
+when Rule Zero says DON'T stop — iterate until it works (098). No more
+excuses. IT IS NOT DONE UNTIL IT WORKS UNDER HIS EYE.
+
+The failures from his hands:
+1. CLEAR BUTTON MISSING on every load-image plane row. His portal has
+   it; bring it.
+2. THE LIGHTS ARE NOT HIS LIGHTS. Whatever was built, it is not his
+   system. STUDY THE LIGHTS IN HIS LATEST PORTAL — read the actual
+   components, how light sources, God Rays, and Light in the Air
+   interrelate — before writing another line.
+3. NO GOD RAYS render. No smoke-in-the-air effect renders.
+4. LIGHT IN THE AIR IS ESPECIALLY WRONG: it GLOWS WITH NO LIGHT IN THE
+   SCENE. Physically and portal-wise false — you need light to see
+   light in the air. It must respond to actual scene lights, as his
+   does.
+5. A SLIDER WITH NOTHING IN IT sits next to the color control — an
+   empty row. Find what it was supposed to be or remove it; his panel
+   has no dead controls.
+
+Method, binding: STUDY FIRST (his live build is the spec — 112), then
+port the real interrelated system, then iterate under Rule Zero until
+every one of these five passes HIS EYE on the real page (118). Report
+what his lights actually are and what was wrong, then show him.
