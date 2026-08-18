@@ -17765,3 +17765,29 @@ came straight back the moment he opened the Stage.
 fresh server: all three planes report **no painting**. Suite green, 0 failed. Commit `b4c885f`.
 
 **Both sides now open empty** — his portal (`67d4750`) and the Wanderer Stage (`b4c885f`).
+
+---
+
+## Directive 130 — camera passed; the Stage is up for the resize test
+
+**1. Camera (129) — PASSED his hands.** Recorded and off the list. His damping is in, ported from
+his own maath 0.10.8 copied off this disk, and he drove it and it felt right.
+
+**2. Resize (127) — on his screen now.** The Stage is up on **127.0.0.1:8795**, and his portal is
+up beside it on **localhost:5173/chamber.html** so he can compare the two while dragging the window.
+
+**What he is judging.** Widening the window today **magnifies** the world rather than showing more
+of it: the shell each painting hangs on is cut to `arcDegrees(fov, aspect)`, which widens with the
+window, and the painting is mapped across the whole shell — so the same picture is stretched over
+more of the view.
+
+**And it is his own maths, unchanged**, which is why this needs his eye rather than a fix: porting
+his resize behaviour verbatim reproduces exactly what he is objecting to. The open question, and
+the only thing blocking it:
+
+> **When the window is wider than the painting was made for, what fills the sides?** Hold the
+> painting's angular size fixed and it stops stretching — but its edges come into view. Do those
+> sides show the world continuing past the painting, or should the view be held to the painting's
+> own arc so the window crops instead of revealing?
+
+**Nothing changed for 127.** Waiting on him at the screen.
