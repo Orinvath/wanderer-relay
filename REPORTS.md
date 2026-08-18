@@ -16647,3 +16647,54 @@ from 100 to 0 on the same plane; press **Load** and hang a different painting; t
 off and on; drag on the world itself to look around.
 
 **Commit:** `bd10545`, on `fb49f88` taken before.
+
+---
+
+## Report — Directive 119 addendum — sky renders; the light bundle measured before it is promised
+
+### 1. PAINTED SKY — RENDERS. Looked at, not asserted.
+
+Same disease as the planes: a Painting row and six sliders driving nothing.
+
+**His `PaintedSky.jsx` carried over** — `SKY_RADIUS` 1800, 96 segments, his cylinder cut to the arc
+the eye can reach, `BackSide`, `depthWrite` off, `toneMapped: false` (*"the portal grades once at
+the end"*), and his per-frame hang **by the painting's own horizon, not its bottom edge**, with his
+comment on why intact. React's hooks became plain calls; `world.cameraFOV` became the camera's own
+fov — the same number, read from the camera this page owns.
+
+**His rows drive it live:** Load hangs the painting, Horizon and Height move it.
+
+**Seen:** with the three planes removed, one of his paintings stands as the backdrop filling the
+view. No page errors. Suite green.
+
+### 2. THE LIGHT BUNDLE — measured, so the estimate is not a guess
+
+Per Rule Zero, I read each one before saying anything about it. **They are not one job — they are
+four, and one of them is a different kind of job entirely:**
+
+| part | where it lives | size | shape |
+|---|---|---|---|
+| **Lights** | `Lights.jsx` | 153 lines | real three.js lights + his add/delete section. **Straightforward.** |
+| **Light in the Air** | `FogVolume.jsx` | 159 lines | a volumetric mesh with its own shader. **Straightforward — same shape as the planes.** |
+| **Wisps** | `Wisps.jsx` | 253 lines | particles with drift and shadow casting. **Straightforward.** |
+| **God Rays** | **inside `CustomPortal.jsx`'s render loop** | — | **not a component.** It is a multi-pass effect woven into the portal's own rendering pipeline: an occlusion pass, a radial-blur material, and a composite, driven from the portal's frame loop. |
+
+**The honest part: God Rays cannot be lifted the way the planes and the sky were.** There is no
+`GodRays.jsx` to copy. Porting it means bringing across the portal's multi-pass render loop, which
+is a larger and more entangled piece of work than the other three combined — and it is the piece
+most likely to change how everything else on the page is drawn.
+
+**I am not deciding anything about it.** Stating it now, before building, because the alternative is
+discovering it three-quarters of the way in and telling him late — which this project has paid for
+before.
+
+**Order I am proceeding in, unless he says otherwise:** Lights → Light in the Air → Wisps, each
+looked at as it lands. **God Rays last, and I will report what its port actually requires before
+starting it rather than after.**
+
+### 3. NOT REOPENED ON HIS SCREEN YET
+
+118 says his eye rules **when it all renders**. The sky is in; the bundle is not. **It stays closed
+until the four are there**, so his time is spent once rather than four times.
+
+**Commit:** `986e17e`, on `1f0a9d8` taken before.
