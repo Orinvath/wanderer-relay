@@ -17082,3 +17082,76 @@ across a 41-step drag, and the shafts keep stopping against the painting as it m
 Also standing, from 124 and unanswered: my reproduction left **Near Plane** at Distance 50, Curve
 0, Depth 60 and **Mid Plane** at Distance 1000. Those are look values and they are his — say the
 numbers and I will set them.
+
+---
+
+## Directive 126 — the music never fetched, so it never played
+
+**Diagnosed on the real page. Four faults in one function, and they compound.**
+
+### The piece he had chosen could not start at all
+
+`meditation` — the piece sitting in his panel with the music switched **on** — died on
+`no instruments for kasper-singing-bowls`. That instrument's folder existed on disk and was
+**completely empty**.
+
+**1. It only took files, never folders.** `kasper-singing-bowls` holds **no files at all**
+upstream — its six samples sit one level down, in `articulation1`. The line
+`if (it.type !== 'file') continue` therefore skipped **every single thing in it**.
+
+**This is his own line. His `vite.config.js` has it verbatim, so his portal has the same failure
+on the same instrument.** Reported plainly as the directive asks — *whether to fix it there too is
+his call; I have not touched the portal.*
+
+**2. It reported success having downloaded nothing.** Zero files landed and it still answered
+**200 with `files: 0`**. `ensureInstruments` throws only when the answer is not ok, so it carried
+on and let the piece start **without its instrument** — the failure then surfaced later and
+somewhere else. That is exactly why this looked like *"the music stops"* rather than *"the fetch
+never worked"*.
+
+**3. It wrote whatever came back.** `raw.githubusercontent.com` 503s intermittently from this
+machine and the error page was written to disk **as audio** for ffmpeg to choke on. (The flaw
+recorded in FEASIBILITY.md on 2026-08-17.)
+
+**4. A half-filled folder counted as held — and this is why it could not be waited out.** The
+folder was created first and filled in place, so any failure part-way left some notes on disk. A
+folder holding *any* `.ogg` counts as held, so **the next ask answered "already" and never
+completed it.** Once it happened, playing again could never fix it. **That is the "stops
+fetching".**
+
+### Fixed at the cause
+
+It descends into subfolders and lays the samples down flat, which is what his client reads. Every
+response is checked before it is written. Everything is converted in the temporary folder **first**
+and moved into place **only when every file has made it** — so a folder is complete or it is not
+there. Nothing landing is an error, said where it happens.
+
+### Measured
+
+| | before | after |
+|---|---|---|
+| `kasper-singing-bowls` fetch | 200, **0 files**, empty folder | **6 files + index, 8.8s** |
+| `meditation` | never started | **plays** |
+| **Continuous soak** | — | **10.5 minutes unbroken** — transport running the whole way, clock advancing 0 → 620s, sound present throughout (−11 to −20 dB), **zero errors, zero failed requests** |
+
+Also checked: of the 20 instruments his 57 pieces need that are not yet held, **`kasper-singing-bowls`
+was the only one with the nested shape** — the rest would always have fetched. No half-filled or
+aborted folders are left on disk.
+
+Suite green — 16 / 39 / 34 passed, 0 failed; PHASE 3 skipped for want of a local model and says so.
+**Commit:** `ff20fdc`; marker before it.
+
+### What I have NOT proved
+
+The stop I measured and fixed is definite. **Whether everything he heard was this one cause, I
+cannot prove from a 10.5-minute soak** — a piece that was already playing would also have stopped
+the moment he switched to `meditation`, which fits what he described. A long session under his own
+ear is the test, and that is his to run.
+
+### For his ear (118)
+
+Open on 127.0.0.1:8795, **MUSIC SCORE** on. Leave it playing while you work. It should keep
+playing, and choosing any piece from the list should fetch what it needs and start rather than
+going quiet.
+
+**Not verified until you have heard it.**
