@@ -2596,3 +2596,48 @@ Surfacing cost measured on the real store before build proceeds, per
 the plan's own flaw. BUILD APPROVED on this: the three missing pieces
 (unbidden surfacing, lesson confidence, auditable recall-as-act).
 Suites green. Report.
+
+## Directive 135 — THE AVATAR BRAIN: Rule Zero closed, plan the whole mind
+
+Lonnie ordered the Brain picked apart and every weakness hunted to its
+researched solution. Eight found, eight closed. PLAN the complete
+Brain on these (cite everything; Avatar-first law 133 governs — full
+capability, project gates elsewhere):
+
+1. REFRACTION gets its algorithm: THE OCC MODEL (Ortony/Clore/Collins
+   — "computationally tractable," the most-implemented emotion
+   framework: FAtiMA, FLAME, ALMA, GAMYGDALA lineage). Its appraisal
+   variables (desirability, praiseworthiness, blameworthiness, etc.)
+   evaluated against THIS Avatar's goals/standards; the ten weight the
+   variables; the variables dictate the lesson's tenor and content.
+2. EMOTION GRANULARITY: OCC's 22 emotion types become the inner
+   states, each carrying Frijda action tendencies; map to the Plutchik
+   glyph vocabulary per the documented OCC-Plutchik correspondences.
+   Mood (three needs) and affect pair stand beneath as the researched
+   substrate.
+3. ATTENTION: Scherer CPM's first station — the relevance/novelty
+   check (EEG-verified automatic) — is the front door: what passes
+   relevance enters experience; its ten set the gains.
+4. MASTER LOOP: CPM's sequential checks (relevance → implication →
+   coping → normative significance), cycling continuously; fast
+   automatic checks feed the reaction layer, slow deliberate ones feed
+   the goal-former — the existing 053 split, now with the documented
+   heartbeat and arbitration order.
+5. THE LLM SEAM: the FAtiMA pattern — machinery computes appraisal
+   variables; the LLM renders language FROM computed variables only.
+   Auditable: the variables are the record.
+6. HOST MODEL: per-host entity-relationship memory (knowledge-graph
+   lineage; OCC fortunes-of-others emotions require it), built from
+   lawful material, feeding relatedness appraisal and the remembering
+   layer.
+7. MEMORY COST: tiered consolidation — raw never deleted (law),
+   retrieval over dream-distilled tiers, cold storage beneath.
+   Surfacing cost measured, per 134.
+8. SELF-MODEL: narrative identity (McAdams) — the reflection tier
+   accumulates its evolving life story, feeding the Purpose loop
+   already designed.
+
+PLAN ONLY: BRAIN_PLAN.md unifying all eight with the existing ruled
+systems (nothing already ruled is reopened). Flag every gap the
+science leaves as ours. Rule Zero the plan itself before reporting.
+Report for approval. No implementation.
