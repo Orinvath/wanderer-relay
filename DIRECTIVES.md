@@ -2469,3 +2469,18 @@ attempt, no 124 redraw, no 127 resize, no new features, nothing —
 until the bug he is seeing is found at its cause, fixed, and passes
 his eye. He is working it with you in the terminal; the relay record
 gets the diagnosis and fix when found.
+
+## Directive 129 — Freeze lifted. First up: the camera is not his camera.
+
+The 128 freeze lifts. Lonnie's eye names the next fix: THE CAMERA. The
+Elsewhere portal's camera movement is much smoother than the Wanderer's.
+His portal camera is the spec (112): read how his camera actually moves
+— easing, damping, inertia, frame pacing, whatever makes it feel the
+way it feels — and port THAT, not an approximation. If the roughness is
+frame-pacing rather than camera math (the 124 redraw is still open and
+may be the same disease), say so with evidence. Retest under his hands:
+smoothness is a feel judgment only he can pass.
+
+Then in line, his order standing: 127 resize (reproduced, awaiting his
+call on the portal-matching behavior), 124 plane redraw if separate,
+and the stuck ↓ indicator (second attempt, differently).
