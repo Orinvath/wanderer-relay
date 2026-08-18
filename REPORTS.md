@@ -17698,3 +17698,57 @@ I twice cited the 29 July commit's author line as evidence the control was his. 
 reasoning and I said so:** every commit in that repo carries his name and email because that is the
 identity git is configured with, including for the ones I make. It showed only when the change
 landed, never that he approved it.
+
+---
+
+## Directive 129 — the camera is his camera now. One missing line, and it was the whole feel.
+
+**Studied first, as ordered.** His input maths and mine were **already identical**: 0.25 degrees
+per pixel, clamped to his `LOOK_LIMITS` of 35 and 18, drag threshold and all. **The difference is
+one line in `MainWorld.jsx`:**
+
+```js
+easing.dampE(state.camera.rotation, [pitch, yaw, 0], 0.25, delta)
+```
+
+In his build **the pointer moves a target and the camera is eased toward it** — frame-rate
+independent, with his own smooth time of **0.25**. This page set `camera.rotation` **straight from
+the pointer** every frame, so every twitch of the hand went into the picture unfiltered.
+
+### It is not frame pacing — the directive asked, so this is the answer with evidence
+
+**There was no damping at all.** Nothing to pace: the rotation was assigned from the raw pointer
+delta. The 124 redraw was a different disease (a rebuild behind a texture load) and is already
+fixed. Measured after one sharp 200 px drag, sampling the yaw every 60 ms:
+
+```
+7.65   14.0   14.0   19.9   24.3   27.6   30.1   31.9   31.9   33.6
+```
+
+**It keeps travelling after the pointer has stopped**, easing toward the clamp — where before it
+arrived on the first frame.
+
+### His library, not my arithmetic
+
+**maath 0.10.8 — the same version his portal uses — copied off this disk, not downloaded.** Nothing
+was fetched; his bandwidth was not touched. It is served from `data/lib/maath` with its own `three`
+import repointed at the copy this project already serves, so **Rule 116 holds: nothing reaches
+outside CC-Wanderer to run.**
+
+The shells' counter-turn reads `camera.rotation.y`, so the parallax now follows the **eased**
+rotation — which is what his does too.
+
+Suite green — 0 failed. **Commit `21d401b`**, marker before it.
+
+### For his hands (118)
+
+Open on 127.0.0.1:8795. **Drag to look around.** It should carry and settle rather than track the
+pointer exactly.
+
+**Smoothness is a feel judgment and only he can pass it. Measured here, not passed.**
+
+### Still in line, in his order
+
+**127** resize — reproduced, awaiting his call on what the edges should do. **124** plane redraw —
+fixed and reported; if he still sees it, it is separate. **The stuck ↓** — second attempt, and I
+have not started it.
