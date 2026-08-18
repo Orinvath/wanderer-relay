@@ -16769,3 +16769,58 @@ switch **God Rays** on and pull **Strength** up; switch **Light in the Air** on 
 switch **Wisps** on and raise **Count**; and drag on the world to look around.
 
 **Commit:** `45b2903`.
+
+---
+
+## Report — Directive 121 — which sky it truly is, and why his eye was right
+
+### WHICH COMPONENT THE TOGGLE DRIVES — traced, not assumed
+
+Followed from the panel to the screen through his source:
+
+| step | file | finding |
+|---|---|---|
+| the Painted Sky folder writes | `Gui.jsx` → `setPaintedSky` | into `stage.js` |
+| who reads that state | `stage.js` consumers | **`MainWorld.jsx`**, `SkySurround.jsx`, `SkyEnvironment.jsx`, `Ocean.jsx` |
+| what MainWorld renders from it | `MainWorld.jsx:361` | `{sky.on && sky.url && <PaintedSky url … horizon … height … />}` |
+| the others | | **`SkySurround`** is *"the painting, hung a second time — for reflections only"*; **`SkyEnvironment`** bakes it into the light; **`Ocean`** reads it for the water. **None of them is what you look at.** |
+
+**So the toggle drives `PaintedSky.jsx`, which is what I ported.** Not the wrong component.
+
+### AND MY PORT IS FAITHFUL — checked mechanically, not by eye
+
+Stripped both files of comments and compared line by line. `SKY_RADIUS` 1800, `RADIAL_SEGMENTS` 96,
+the cylinder cut to `arcDegrees`, `BackSide`, `depthWrite` off, `toneMapped` false, `renderOrder`
+−900, and the hang at `0.5 − horizon` all match. **The only differences are `world.cameraFOV` →
+`camera.fov` — and his `cameraFOV` default is `50`, which is exactly the camera this page uses — and
+variable names.**
+
+### SO WHAT WAS WRONG: **it is an arc, and in his build it is never alone**
+
+**His Painted Sky is a cylindrical arc across the front of the view.** His own comment says so:
+*"cut to the window the eye can actually reach… Asking a painting to span top to bottom is a dome
+projection and is what failed before; this covers only what can be looked at."*
+
+**It is not the sky. It is a painting hung in the sky.** In his world, what fills the rest — and what
+his memory of "the sky" actually is — is **`PainterlySky`**: a **sphere**, radius 400, `BackSide`,
+**painted per pixel along the view ray** — his words, *"no panorama, no seams, no resolution"*.
+`MainWorld` renders it on the line above: `{world.showWorld && <PainterlySky />}`.
+
+**That is the different beast he remembers, and it is genuinely a different beast** — a dome, not an
+arc; a shader, not a texture.
+
+**On this page the dome does not exist**, so his arc hangs alone with nothing behind or around it,
+and its curvature is naked against an empty background. **He is right that it reads wrong. He is
+right about his own build. And the first attempt was not a mis-port — it was a partial world.**
+
+### WHAT MAKES IT RIGHT
+
+**Port `PainterlySky` — the dome — so the arc has the sky it was cut to hang in.** It is his
+component, self-contained apart from its settings, and it is the thing his eye is looking for.
+
+**One thing is genuinely his to say, and I am not deciding it:** in his build the dome's controls
+live in the **SkyDome panel**, not the Stage. 119 moved the *light* bundle into Stage; nothing has
+been said about the sky's. **I will port the dome's rendering either way — where its folder lives is
+his call**, and inventing a home for it is the exact mistake 115 already cost us.
+
+**No commit.** Nothing changed in the project this turn; this is the establishment 121 asked for.
