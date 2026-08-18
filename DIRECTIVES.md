@@ -2512,3 +2512,13 @@ per-section colouring, the hiding verdict, and chunk 4.
 Lonnie did not ask for a portal-beside-Wanderer comparison — that was
 the director's addition. Struck. Load the Wanderer Stage page for the
 resize test, announce it in one line, nothing else.
+
+## Directive 131 — Resize verdict: still scaling. Browser size does not exist.
+
+Lonnie dragged it: the image STILL scales with the browser. His law:
+the plane and camera stay FIXED — browser SIZE is not even a
+consideration. The world renders identically at any window size; the
+window is a hole you look through, nothing more. No fit-to-width, no
+image scaling, no viewport math that consults window size for world
+scale. Find where window size leaks into the render and remove the
+leak at its cause. His hands retest.
