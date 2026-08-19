@@ -2695,3 +2695,28 @@ correspondences for Lonnie's approval — proposal, not decision.
 
 PLAN into BRAIN_PLAN.md, cited. Report for approval. No
 implementation.
+
+## Directive 138 — The two words are added; and the settled items relayed
+
+1. LONNIE'S RULING: ADD THE WORDS. GLOAT and HATE join sheet 06
+   (emotion and inner state) — the 400-word language grows to 402 by
+   its author's hand. Design the two glyphs in the language's own
+   visual conventions (propose the marks for his eye before they are
+   final — glyph artwork is his to approve). The mapping table then
+   stands complete: 22 of 22.
+
+2. SETTLED FROM STANDING LAW by the director per 114, relayed for the
+   record (these were listed as open; they are not):
+   - HOST MODEL PERSISTENCE: follows the memory covenant — sealed
+     with that host locally, reawakens on custody return, never
+     travels except through lessons. The covenant answered it.
+   - MEASURE BEFORE BUILDING the master loop: settled yes by Lonnie's
+     test-first precedent (134, the clamp rulings). Measure one full
+     cycle at 134's sizes before item 4 is built.
+   - PERSONA: written once at Genesis, fixed (determinism law — same
+     Roe, same being).
+
+Remaining genuinely open: the relevance threshold and which episodes
+enter the life story — both awaiting proposals with the build.
+
+Update BRAIN_PLAN.md. Report, with the two glyph marks proposed.
