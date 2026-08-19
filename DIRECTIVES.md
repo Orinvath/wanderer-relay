@@ -2959,3 +2959,11 @@ goes still too. The rest-pose sampling then matches what is drawn,
 because rest pose is what is drawn. Sway returns when she comes home
 to herself (the existing ending). Wire it into the hide/unhide path,
 suite-check it, same phone link. His eye retests.
+
+## Directive 153 — His eye: the SPARKS hide too
+
+Lonnie's ruling from the phone: the sparks join the hide — 110 already
+ruled they sample their own patches; whatever of them still announces
+her (motion, brightness, count) comes down with the rest when she
+hides, and returns when she comes home. Same phone link. His eye
+retests.
