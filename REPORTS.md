@@ -20360,3 +20360,26 @@ Joining goals and games to the *living* Avatar is **the same unbuilt seam as the
 sentence about a game.
 
 **FULL SUITE: ALL GREEN.**
+
+---
+
+## Directive 154 correction — the pass is the HIDING, nothing else
+
+**Recorded, and held in the code rather than only here.**
+
+What he watched and judged was **her hiding**. The build he watched it in has **not** been judged.
+Neither has her behaviour, nor the Brain running live, nor any number in any of it — **not the blend
+Strength, not the pace of her day, not the zone counts.** Those verdicts come when he tests them
+deliberately.
+
+**I checked what the record already claims before adding anything.** The 154 report named exactly
+the hiding — the camera rays, the head, the glow and eye, the stillness — and claimed a pass for
+nothing else; the stage-2 and stage-3 reports say *"his on-sight verdict rules"* rather than claiming
+one. **The record was not overclaiming.** This makes that explicit instead of relying on it having
+been careful.
+
+`games.js` now carries the scope **beside** the approval, because that file is where a later reader
+goes looking for what 104 granted — and **"IT WORKS" sitting alone in a header is exactly the
+sentence that grows into "the watching build passed" six months from now.**
+
+**FULL SUITE: ALL GREEN.**
