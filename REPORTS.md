@@ -19942,3 +19942,55 @@ there should be one, and chaining them removed the only moment the answer could 
 Said plainly rather than quietly amended.
 
 **FULL SUITE NOW: ALL GREEN.** Stage 2 — the hiding demo on the real staged world — continues.
+
+---
+
+## Directive 147 stage 2 — the hiding demo on the real staged world. ON HIS SCREEN. `effd98e`
+
+Suite run **first** this time, and green before the commit — the correction from stage 1 held.
+
+### What she stands in now
+
+The demo showed her over **one** painting: one sample, one colour for all of her. It now serves the
+**three real planes stacked at depth**, with her in front of them, and **every one of her 645
+patches takes its colour from what is behind that patch.**
+
+- **`Surroundings`** — 110 item 1 built as written: what is behind a point is the first plane
+  *behind her* that covers it. Planes in front are not surroundings; they hide **her**.
+- **`wispRegionPlacement`** — where each patch sits on her, averaged from her vertices as they are
+  built. "What is behind this patch" cannot be asked without it.
+- **`behind.json`** — what is behind every point of the stage, 64×64, in **one** answer. 645
+  patches asking one at a time would be 645 round trips for a thing that does not move.
+- **`setWispRegionColours(rgb, strength)`** — the caller says what colour each patch should read
+  as, in plain colours; the division by her palette stays inside her own file.
+
+### Measured, and it changes what "among the layers" can mean here
+
+**All three planes are full-frame opaque paintings.** Over a 40×40 grid, near covers **1600 of
+1600**. Nothing shows through, so a body between near and mid is not partly visible — it is gone.
+She therefore stands in front of all three, and the first plane behind her is **near, everywhere**.
+
+The per-layer walk is the right machinery and runs; against these paintings it finds near first
+every time. **Cut-out planes would make it visibly per-layer, and that is his to make.** Named on
+the page in the page's own words, not buried here.
+
+The grid holds **1,357 distinct colours across 4,096 points**, so the patches have real variety to
+answer to rather than a flat wash.
+
+### Seen, in the browser
+
+**She dissolves into the arch** — stone and mist through the tendrils, warm where the sky is warm,
+and only her core still reading as hers. Against the same frame an hour ago she was solid mint over
+a painting.
+
+### Two fixes on the way, both mine
+
+- the page's **Content-Security-Policy had no `connect-src`**, so it could not ask its own server
+  for anything; `fetch` failed silently and she stayed one colour;
+- `acceptance-games.js` asserted the page confesses *"she is over a painting rather than in a
+  place"*. **That gap is closed**, so the check **moved to the gap that remains** — the opaque
+  planes — rather than being dropped or loosened. When that is fixed it fails again and demands the
+  next honest sentence, which is what it is for.
+
+**FULL SUITE: ALL GREEN. It is open on his screen now — 104 and 118, his on-sight verdict rules.**
+Stage 3, the chunk-4 watching build, follows without stopping per 148.
