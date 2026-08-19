@@ -18961,3 +18961,53 @@ with a familiarity that **saturates**. Knowing someone is not a number that keep
 
 Tiered consolidation, then narrative identity feeding Purpose — and the **life-story episode rule**
 comes to you with it. The **relevance threshold** from chunk 3 is still waiting on your word.
+
+---
+
+## Directive 139, chunk 5 — TIERED CONSOLIDATION. Raw stays whole.
+
+**Commit `19b9864`** — `consolidation.js` + `acceptance-consolidation.js`, wired in as **TIERS**.
+**Suite ALL GREEN, 21 of 21.** 15 checks in the new suite, 0 failed.
+
+**Tiering changes where a memory is REACHED FROM. It never changes whether it is kept.**
+
+| tier | what is in it |
+|---|---|
+| **raw** | every memory as committed. **Never deleted, still whole, still readable** |
+| **distilled** | what the **dream** found — elements that recur across several memories. The warm tier, and what retrieval scans |
+| **lessons** | beliefs with confidence, already built under 134 |
+
+### No second mechanism
+
+`sleep.js` already distils overlapping elements and deliberately writes no text. Consolidation
+**keeps what the dream produced** and marks the memories it drew on. The suite asserts this file
+re-implements neither `overlap` nor `distil` — it imports them.
+
+### THE LAW — and a correction to my own check
+
+I first asserted *"nothing in the path deletes a memory."* **It failed, and it was right to.**
+`memory.js` deletes twice, and **both are lawful**: `forget()` is a **host revoking what they
+themselves gave**, and `restore()` is §40 recovery. **013's law is "never forgets ON ITS OWN"**,
+which is a narrower and more exact claim than "no delete exists anywhere."
+
+The check now asserts the true thing: **consolidation never deletes** — so tiering cannot lose a
+memory — and the only deletes in the memory path are those two. Proved alongside it: raw is still
+whole (8 of 8), a memory from the first day is still readable, and **a cold memory no dream ever
+found is still there.**
+
+### Absence is cold, deliberately
+
+**Only warm is ever written.** Nothing has to be written to demote a memory, so **no sweep can ever
+miss one**: 3 marks for 3 warm memories, and nothing at all written for the other 5.
+
+### Tiering is opt-in
+
+`recall()` with no tier given **behaves exactly as it always has** — every existing caller is
+untouched. Over the warm tier it considered **3 memories against raw's 8**, and still found the thing
+that recurs. Asking over raw still reaches what no dream ever found: **raw is not hidden, it is
+simply not the default scan.**
+
+### Next chunk
+
+The last piece: **narrative identity feeding Purpose** — and the **life-story episode rule** comes to
+you with it. The **relevance threshold** from chunk 3 is still waiting on your word.
