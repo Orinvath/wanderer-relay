@@ -2881,3 +2881,17 @@ BEGIN THE AVATAR TEST — the sequence standing in the record:
    on screen for hours. The judgment surface is the behaving Avatar.
 
 Standing laws all bind. Suites green. Report each stage.
+
+## Directive 148 — Standing order: a directive runs to COMPLETION
+
+Lonnie's order, joining CLAUDE.md beside Rule Zero: when a directive
+is executed, IT IS NOT STOPPED UNTIL THE COMPLETE DIRECTIVE IS DONE —
+every stage, every item, end to end. No pausing between stages to
+wait, no stopping after a sub-report unless the directive itself says
+stop, a wall (per the wall rule) is hit, or a decision genuinely
+requires Lonnie per 114. Progress reports land along the way; the work
+does not halt to write them.
+
+Applied now: 147 runs stage 1 → 2 → 3 without stopping — colouring,
+then the hiding demo on the staged world, then the chunk-4 watching
+build — reports as each lands, work continuous throughout.
