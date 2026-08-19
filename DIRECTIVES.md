@@ -2984,3 +2984,11 @@ nothing else. No other system (the watching build, her behavior, the
 Brain live, any number) has been judged; those verdicts come when he
 tests them deliberately. The record reads: HIDING passes on sight
 (pending sparks to the same standard). Nothing else claims a pass.
+
+## Directive 155 — Finish: the game stays simple
+
+Lonnie's word: the hiding game does not have to be complicated — she
+hides, the host finds her, she comes home. That loop IS the game. No
+win/lose design, no elaboration. Land the sparks (153) to the passed
+standard, then HIDING joins her capability set as-is, complete.
+Report when done.
