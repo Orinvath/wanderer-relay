@@ -2781,3 +2781,23 @@ PARKED — horizon item. Not scheduled. The Brain build (139) comes
 first. Nothing in Avatar 1.0 waits on this.
 
 Report the file written. Nothing else.
+
+## Directive 141 — Fault 4 ruled: THE ACCIDENT IS THE SCIENCE. It stands.
+
+Lonnie's ruling, with the research behind it: the birth-vs-episode
+interaction is CORRECT AS BUILT. Nothing enters the life story until
+living has confirmed it.
+
+The science (cite in the plan): Singer & Blagov's narrative identity
+model — memories become life-story material by linkage, not intensity:
+autobiographical memories tied to critical goals become life-story
+memories, and SELF-DEFINING only when "linked to an individual's
+enduring concerns," formed from "repetitive emotion-outcome sequences."
+Reinforcement IS the researched gate. A lesson born at 0.5 is a
+candidate; recurrence in what matters lifts it over the 0.55 bar. The
+Avatar's storyless first days are identity forming as identity
+actually forms.
+
+Both numbers stay provisional per the standing law, tuned by watched
+behavior. Record the ruling and citation. Two decisions remain open:
+the relevance threshold and the episode rule.
