@@ -2950,3 +2950,12 @@ Rebuild the sampling on camera rays (and since the camera moves, the
 sample must follow the camera — recompute on camera change, not a
 static grid). Include the head per 151. Iterate under Rule Zero until
 it reads right on his phone link.
+
+## Directive 152 — His ruling: the sway TURNS OFF when she hides
+
+Lonnie's fix for the named fault, by removing the cause: WHEN SHE
+HIDES, THE SWAY STOPS. Stillness is part of hiding — the real octopus
+goes still too. The rest-pose sampling then matches what is drawn,
+because rest pose is what is drawn. Sway returns when she comes home
+to herself (the existing ending). Wire it into the hide/unhide path,
+suite-check it, same phone link. His eye retests.
