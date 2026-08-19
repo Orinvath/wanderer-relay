@@ -19863,3 +19863,41 @@ rebuild 63.4ms against 60.1ms        3ms for the whole body
 
 **Not seen by him.** The regions exist; nothing looks different yet. Colouring them is the next
 step, and per 118 his eye closes it, not these numbers.
+
+---
+
+## Directive 147 stage 1 COMPLETE — every region takes its own colour. `307c0e7`.
+
+The regions existed and nothing coloured them. Now they do.
+
+### His rule is not changed, only repeated
+
+`Adapting` takes **one** sample for the whole body — she becomes an average of everything behind
+her, which is why she has always read as a tinted shape rather than a thing standing among the
+layers. `AdaptingPerSection` is **the same rule applied 645 times**: each region looks at its own
+patch, drifts by the same `1 - exp(-speed * delta * 6)`, blends toward it by the same Strength.
+
+**Proved, not asserted:** a body of ONE region gives **bit-for-bit** the same colour as his
+whole-body `Adapting` after 30 frames on the same patch. That is the check that this repeats his
+rule rather than offering a second opinion about how she adapts.
+
+### Measured — real painting, real body, medians over 20 frames
+
+```
+645 regions sampled          0.570 ms
+body repainted               0.414 ms
+per frame                    0.984 ms    of 16.7 — 5.9%
+
+distinct colours on her body      475    (it was 1)
+```
+
+Nothing rebuilds. `paint` writes into the colour buffer the body already carries, and caches per
+region, so **61,320 vertices cost 645 colour computations, not 61,320**.
+
+**FULL SUITE: ALL GREEN**, every suite ran.
+
+### Where this stands
+
+**Stage 1 is built and measured. It has NOT been seen.** What it looks like is his eye's alone per
+118, and the zone count stays his to move — `zones` is an option and the cost is identical at 3 or
+at 10. **Stage 2 is the hiding demo on the real staged world**, which is where he will see it.
