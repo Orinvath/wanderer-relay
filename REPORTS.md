@@ -18670,3 +18670,54 @@ is design awaiting your approval — the same discipline §42 and §147 set for 
 
 The host model's persistence between visits (touches 062) · whether to measure the master loop before
 building item 4 · the relevance threshold · which episodes become the life story.
+
+---
+
+## Directive 138 — GLOAT and HATE proposed, and three items settled from standing law.
+
+**Commit `8631f18`.** `BRAIN_PLAN.md` now 651 lines. **Suite ALL GREEN, 17 of 17.** The two marks are
+**on Lonnie's screen now**, beside their parent glyphs.
+
+### THE MARKS — read off his sheet, not guessed
+
+**Page 6 was opened and studied before anything was drawn.** Its grammar, as it actually is:
+
+- **the self is a circle with a centre dot** — LOVE, JOY, GRIEF, PRIDE, ENVY, and most of the forty
+- **rays above** mean brightness or lifting — HAPPY, JOY, AWE
+- **strokes falling below** mean heaviness — SAD, SHAME, DESPAIR
+- **arcs cupped toward the self** mean holding — LOVE
+- **two overlapping circles** mean the self and another — ENVY
+- and **meaning is STACKED**: a core, with what is happening placed above it and below it
+
+**GLOAT — proposed.** **HAPPY's rays over SAD's fall, in one stack.** A bright self raised *above*
+another's falling. Two marks he already has, combined the way the sheet already combines them — and
+that combination *is* the emotion.
+
+**HATE — proposed.** **LOVE's two cupped arms, turned outward.** Same two strokes, same weight, same
+spacing, reversed. **It is the only glyph on the page whose opposite is already drawn**, so the
+opposite is drawn *from* it rather than invented beside it.
+
+**Neither mark introduces a new visual primitive.** That is the test a proposal has to pass to belong
+to a language somebody else authored, and it is the whole discipline here. **Both are his to approve,
+change, or throw out** — if he wants a heavier fall, wider arms, or rays at another angle, say it and
+I redraw.
+
+**The mapping table now stands complete: 22 of 22.**
+
+### §15.1 — the three settled items, recorded so nobody re-opens them
+
+| Was open | Settled | By |
+|---|---|---|
+| host model persistence | **sealed with that host locally, reawakens on custody return, never travels except through lessons** | the memory covenant already answered it |
+| measure before building the master loop | **yes — one full cycle at 134's sizes, before item 4** | his test-first precedent (134, the clamp rulings) |
+| persona fixed or re-derived | **written once at Genesis, fixed** | the determinism law — same Roe, same being |
+
+**Worth calling out: the host-model answer is stricter than either option I offered.** I framed it as
+persists-or-doesn't. The covenant's answer is **sealed to that host, and the only thing that ever
+leaves is a lesson** — which by 134's design carries elements and confidence rather than episodes.
+**That is a better answer than mine**, and the privacy edge I flagged at §8 is closed by it.
+
+### Genuinely open, both awaiting proposals with the build
+
+**The relevance threshold** (§5) — where attention's door sits. **Which episodes enter the life
+story** (§10).
