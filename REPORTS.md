@@ -19641,3 +19641,45 @@ this file, which had never been reached. **Not verified by his eye.**
 Also done this round: the `TEMPORARY` console line removed (`d830592`); each tag group sorted by
 title as his does (`bc49bc5`, measured — 7 groups, none out of order); the chamber's `&& l.url`
 guard committed at last (`e63c9e1`).
+
+---
+
+## The suite, after the day's changes — three checks were wrong, not the build
+
+`1c13dd2`. Ran `accept.js` after everything above. **CAPABILITIES failed three checks, and none of
+them was a fault in the build.** All three had pinned the day they were written:
+
+| check | why it failed |
+|---|---|
+| `lib.total === 57` | he had Zed removed; 56 is correct now |
+| `lib.playable < lib.total` | **demanded something be missing** — the day every instrument was on disk it failed for being finished |
+| some piece's title ends with `↓` | same shape: required a marker to exist somewhere |
+
+**A check that fails when the work is done is not protecting anything.** Each is now the law it was
+reaching for, and reads the same whether the library is empty or complete:
+
+```
+lib.total >= 50                          a real library, which is what "the port had an empty
+                                         list and nothing could be chosen" was actually about
+p.playable === (p.wanting.length === 0)  both directions, every piece
+title ends '↓'  ===  !p.playable         both directions, every piece in every group
+```
+
+**The tests of the tests**, because rewriting a failing check until it passes is how a suite goes
+quietly useless. Each new predicate was run against a deliberately corrupted copy:
+
+```
+as it really is                       true   true
+a ↓ on a piece that CAN play          false   <- caught
+playable while wanting an instrument  false   <- caught
+no ↓ on a piece that cannot play      false   <- caught
+```
+
+**The old checks would have caught none of those three** — a ↓ in the wrong place satisfied "some
+piece has one" just as well as a ↓ in the right place.
+
+**FULL SUITE: ALL GREEN.** Every suite ran, none skipped.
+
+**Reported, not changed:** the server-side `library()` has no blank-folder rule, so a piece that
+makes its own instruments would read as wanting one forever there, the way Zed did in the browser.
+No piece does that any more, so it is latent. Named so it is not rediscovered.
