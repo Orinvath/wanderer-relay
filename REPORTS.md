@@ -19603,3 +19603,41 @@ plainly what it was written for, would move his desktop panel from `left: 8px, t
 
 **That is his desktop moving under him, so it is not a common-sense call — it is his.** Asked in
 the terminal, not decided here.
+
+---
+
+## The phone block wrapped — "if it make sense do it"
+
+It made sense, and doing it plainly would have broken the desktop. Both faults below came from
+measuring, not from reading. `49cc58b`.
+
+**The block is wrapped.** Everything from `left: 8px` to the panel's top was written for a small
+screen — 8px margins, launchers in **two rows** because seven do not fit across one, the panel
+pushed below both — and it was in no media query at all. It governed every screen.
+
+**The breakpoint is 1100px, not 640px.** Wrapping at 640 measured the desktop panel at `left: 796`
+— correct, because panels fan out by slot and the Stage's is the **fourth**, `16 + 260*3`. It needs
+1062px of window before its right edge is on screen, so **every window between 641 and 1062 got a
+panel hanging off the side.** The leak had been hiding that by pinning everything to 8px.
+
+**The width had the same fault as the height.** `min(250px, calc(100vw - 16px))` measures the
+screen before the scaling, so at 1.5× on a 360px phone the panel was drawn 375px wide and ran 27px
+off the side.
+
+```
+1440x900   left 796  right 1046  top 72   zoom 1    on screen
+1280x800   left 796  right 1046  top 72   zoom 1    on screen
+1024x768   left   8  right  258  top 128  zoom 1    on screen   <- was off the right edge at 640px
+ 820x900   left   8  right  258  top 128  zoom 1    on screen
+ 412x750   left  12  right  387  top 192  zoom 1.5  on screen, scrolls
+ 390x844   left  12  right  386  top 192  zoom 1.5  on screen
+ 360x640   left  12  right  356  top 192  zoom 1.5  on screen   <- was 387, 27px off the side
+```
+
+**What changes on his desktop, said plainly:** the panel moves from left 8, top 128 to left 796,
+top 72, and the launchers go from two rows to one. That is the desktop layout already written in
+this file, which had never been reached. **Not verified by his eye.**
+
+Also done this round: the `TEMPORARY` console line removed (`d830592`); each tag group sorted by
+title as his does (`bc49bc5`, measured — 7 groups, none out of order); the chamber's `&& l.url`
+guard committed at last (`e63c9e1`).
