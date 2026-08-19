@@ -2738,3 +2738,46 @@ BUILD, in the plan's own order, all standing laws binding:
 4. Suites green throughout, chunked reports, completeness claims only
    with measurement shown (111's standard), and nothing user-facing
    "works" until his eye sees it (118).
+
+## Directive 140 — Side deliverable: AVATAR_2.0_SEED.md, so the idea is not lost
+
+Write CC-Wanderer/spec/AVATAR_2.0_SEED.md — a horizon document, not a
+plan. Content, in Lonnie's framing:
+
+# AVATAR 2.0 — the geometric mind (seed, parked)
+
+## The idea
+Explore rebuilding Avatar subsystems on geometric reasoning — Vector
+Symbolic Architectures / hyperdimensional computing — instead of
+LLM-dependent machinery. Lonnie's thesis: brute-force AI works but
+costs the world; geometry computes meaning at watts, not gigawatts.
+An AI helped design it — the recursion is the point.
+
+## Why it is plausible here
+The Avatar is already half-geometric by design: the Roe is a vector
+genome; the memory provider lineage (holographic/HRR) is literally
+VSA math; the ten aspects are coordinates; effect axes treat meaning
+as algebra. The step is making a subsystem PURE geometry.
+
+## The researched ground (cite in full when picked up)
+- VSA/HDC is computationally universal; computing-in-superposition
+  (Kleyko et al. surveys; Kanerva)
+- Measured efficiency: HDC hardware at ~2,700x less energy than CPU,
+  ~23,000x less than GPU on its tasks (SOT-CAM macro, Georgia Tech)
+- Runs today: Torchhd library; robotics cognitive maps; single-pass
+  learning; noise robustness
+- Honest limits: wins are on simple tasks; no language fluency or
+  open-ended reasoning exists on pure VSA; representation capacity
+  has hard theoretical bounds (open research)
+
+## The bounded first experiment (when Lonnie says go)
+Pick ONE subsystem — memory surfacing or appraisal — rebuild it
+pure-VSA on Torchhd, measure against the current build: quality by
+Lonnie's eye, cost by the harness. Wright-brothers stage accepted;
+the point is learning what geometry can carry.
+
+## Status
+PARKED — horizon item. Not scheduled. The Brain build (139) comes
+first. Nothing in Avatar 1.0 waits on this.
+
+Report the file written. Nothing else.
