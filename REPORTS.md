@@ -20222,3 +20222,39 @@ read wrong**, and it is named here rather than left to be caught.
 
 **FULL SUITE: ALL GREEN**, and the suite gained a check that holds the camera ray in place so this
 cannot quietly revert to straight-back sampling. **His eye retests.**
+
+---
+
+## His word in session — the eye and glow hide, the head gets 15 regions. `c8cbc32`
+
+**Same phone link, already serving it.**
+
+### The head, 15 regions — his number
+
+One colour for the whole head made it **a flat plate against a background that is not flat** — the
+same fault the body had before 147, at a smaller scale. Cut **by angle around the star**, so each
+arm and each valley answers to what is behind **it**. Each wedge gets its own camera ray, out along
+its own direction, rather than the head's centre asked fifteen times over.
+
+### The glow and the eye
+
+The core sprite is her lantern and the eye sits in it. It was **the one thing still announcing her**
+against a wall she had otherwise matched — I named it as his call last report and he has made it.
+
+**And its pulse had to be damped with it.** `coreSprite.material.opacity` is rewritten every frame
+by the breathing pulse, so a glow told to hide was **un-hiding itself sixty times a second**. Found
+by reading the loop rather than the colour. A glow that takes the wall's colour and keeps the wall's
+brightness is still a lamp, so the brightness comes down with it.
+
+### Measured and seen
+
+```
+15 head zones · 15 rays · the glow at its own point (0.500, 0.555)
+```
+
+**The white core is gone** — she reads as a shape in the arch rather than a light in it.
+
+**FULL SUITE: ALL GREEN**, GAMES now 53 checks. Two of them are new: the head's fifteen, and that
+the pulse cannot put the brightness back. Neither can quietly regress.
+
+**His eye retests.**
