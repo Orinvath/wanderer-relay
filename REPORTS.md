@@ -19753,3 +19753,60 @@ The numbers stand as they are. **Nothing changed, and the question is not to be 
 With this, every open decision from the Stage work is settled: the resize corner (dead — there is
 no window), the button's name (New World), and these. What remains is his eye on the desktop panel
 when he is home.
+
+---
+
+## Directive 147 — stage 1, the Rule Zero pass on the mesh rebuild. IT DOES NOT THREATEN.
+
+**The directive asked for this before any building, and it is the whole answer: per-section
+colouring does not rebuild the mesh at all.**
+
+### Measured, real body, real Roe, medians over repeated runs
+
+```
+full rebuild of the body              60.1 ms   (min 57.3, max 89.1)
+rewriting every colour, 61,320 verts   0.21 ms  (max 7.1 on a cold pass)
+```
+
+**Three hundred times cheaper, and the 60ms is not paid** — because the geometry does not change.
+`buildCreature` produces `position`, `cross`, `along`, `wave`, `waveParams` and `colour` as separate
+arrays; a zone change touches **only `colour`**.
+
+### And the body is already zoned — this is a change of degree, not of kind
+
+`addStrand`, line 154, as it stands today:
+
+```js
+col.push(s[i] < 0.5
+  ? lerp3(opt.cRoot, opt.cMid, s[i] * 2)
+  : lerp3(opt.cMid, opt.cTip, (s[i] - 0.5) * 2))
+```
+
+**Colour is already computed per vertex from its distance along the strand, already blended between
+three stops with a split at the halfway point.** That is two zones. Five is the same loop with more
+stops in it — no new attribute, no new buffer, no rebuild.
+
+### The resolution is there for it
+
+```
+bands 3 · strands 129 · 61,320 vertices · 475 per strand
+at 5 zones: 95 vertices per zone
+```
+
+**645 regions is not a strain on a body that already carries 61,320 vertices.** Ninety-five vertices
+per zone is ample for a zone to have an edge that reads.
+
+### What this means for the directive
+
+**Nothing here threatens, so nothing needs to come to him as a cost.** The zone count remains his
+eye's to decide — 5 is the directive's number and the mesh has no opinion about it; the same
+measurement holds at 3 or at 10, because the cost is per vertex and the vertices do not change.
+
+**Nothing built. Measurement only, as instructed, before building.**
+
+### One record-keeping note
+
+**My own commits from earlier today used "Directive 147" for the Stage's music faults**, before the
+real 147 existed — my numbering, not the director's. The Stage work is the commits `cf5e659`,
+`0a685d4` and their reports above; **the real Directive 147 is this one, the Avatar test.** Named so
+the two are not read as one later.
