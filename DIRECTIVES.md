@@ -2911,3 +2911,10 @@ can open from his phone: the watching page through the tunnel that is
 already open on his word (or reopen it the same way if it lapsed).
 One line, just the URL, phone-usable. Keep the desktop closed per 149;
 the tunnel serves the page directly.
+
+## Directive 150 — Stop flagging the tunnel
+
+Lonnie's order to both of us: stop worrying about the tunnel being
+open. It stays up on his standing word; no more warnings, reminders,
+or close-offers from the terminal or the director. He closes it if
+and when he chooses. Settled law — never re-raised per 114.
