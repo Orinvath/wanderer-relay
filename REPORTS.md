@@ -20327,3 +20327,36 @@ Held in the suite **in all its parts** — drift, twinkle, count, brightness, an
 can quietly go missing on its own. **FULL SUITE: ALL GREEN.**
 
 **His eye retests.**
+
+---
+
+## Directive 154 — HIS EYE: IT WORKS. The pass is recorded. `8ccbe70`
+
+**His ruling, on the record:** he watched her hide from his phone and passed it — the camera-ray
+sampling, the 15-wedge head, the glow and eye going quiet, the stillness. **On-sight approval under
+104 GRANTED.** The sparks (153) landed before this and are reported above.
+
+### What "joins her capability set for real" means here
+
+Smaller than it sounds, because **104 already defined it**. `games.js` opened with its own law: each
+game is a demonstrable piece, he approves or rejects on sight, and *"nothing here is wired into the
+goal-former yet — `CANDIDATE_GAMES` is empty on purpose, and it stays empty until he says
+otherwise."*
+
+**He has said otherwise.** That gate was the whole of what "wired in" meant in that file, and it is
+now open **for this one game and no other** — a second joins when he has seen it too, and not
+before. The header had claimed the list was empty long after it held HIDING; it now says what is
+true and why. The hiding demo's page said the game *"has been added to nothing, and will not be
+until you say so"* — he has said so, and the page says that instead.
+
+### Said plainly, because it would be easy to read more into this than is there
+
+**The live Avatar — `wanderer.js`, the one that answers a host — still does not import the
+goal-former or the games at all.** It never has. So "her capability set" today means **the watching
+build and the demos**, where the goal-former really is asked and really does offer her this.
+
+Joining goals and games to the *living* Avatar is **the same unbuilt seam as the Brain's**, named in
+`BRAIN_PLAN` §18, and **no directive has ordered it**. I am not doing it on the strength of a
+sentence about a game.
+
+**FULL SUITE: ALL GREEN.**
