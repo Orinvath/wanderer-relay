@@ -20292,3 +20292,38 @@ rather than broken** — but a suite that fails one run in three is not telling 
 and that is worth knowing before it is trusted to gate anything.
 
 **His eye retests.**
+
+---
+
+## Directive 153 — the sparks hide too. `3bd1d9a`
+
+**Same phone link, already serving it.**
+
+Their **colour** already came from behind them — 110 ruled it and it was done. What still announced
+her was **everything else about them**, and his eye caught it: they **drift**, they **twinkle**, they
+are **bright**, and there are **220 of them**.
+
+**A still, matched body with a constellation dancing over it is not hidden.** Colour alone was never
+going to be enough, and I had treated "the sparks sample their own patches" as though it were the
+whole of them.
+
+All four come down together, driven by the same act as the sway:
+
+- **the drift stops** — 152's rule applied to the sparks;
+- **the twinkle flattens** — to a steady value, rather than stopping at a random phase;
+- **most are simply gone** — a stable share *by seed*, so it is always the same ones and they do not
+  flicker in and out as the hiding deepens;
+- **the rest are dimmer** — so a matched body is not lit from within.
+
+And **all four come back when she comes home**, in the same breath that returns her own colour and
+her sway.
+
+```
+hiding at 0.85   ->   spark hide 0.85, sway 0.15
+come home        ->   spark hide 0,    sway 1
+```
+
+Held in the suite **in all its parts** — drift, twinkle, count, brightness, and the return — so none
+can quietly go missing on its own. **FULL SUITE: ALL GREEN.**
+
+**His eye retests.**
