@@ -20121,3 +20121,58 @@ and when he chooses.
 The links already posted stand:
 - the Stage — the earlier tunnel
 - the watching page — https://warehouse-appreciated-mega-kitty.trycloudflare.com/?key=phone
+
+---
+
+## Directive 151 — what was wrong. Three faults, all mine. `e7ba7b5`
+
+**The phone link is live and already serving the fix** — same address, no need to change anything.
+
+### Verdict 1 — it WAS per-region, and that was not the problem
+
+Each patch really does read its own point; that part was real. **What was wrong is what each patch
+could see.**
+
+**1. Every patch was looking through a window the size of her whole body.** `sampleAt`'s default
+window is 0.06 of a 96-pixel boil — a 13×13 square, **fourteen per cent of the frame across**,
+averaged into one colour. That is the right window for *one whole-body sample*, which is what it was
+written for. For a patch it means 645 patches all read heavily overlapping averages of their
+neighbours and come out **the same soft wash**. The patches were real; their eyesight was not.
+Now sized to a patch: **2.9% instead of 14%**.
+
+**2. And the painting was boiled too far to answer them.** At his `SIZE=96`, a patch-sized window is
+barely two pixels. The layers are now read at **384 for this path alone** — `Adapting` and
+everything else still see his 96, untouched.
+
+```
+distinct colours available to the patches:   1,357 of 4,096   ->   33,646 of 36,864
+```
+
+**3. The blend could never match, only tint toward.** `vCol = aColor * tint` **multiplies** her
+root-to-tip gradient, and the tint was the target divided by *one* reference colour — so a patch
+told to match the wall came out **lighter at the root and darker at the tip**. It could not match by
+construction. Per-section now **blends**: `mix(own, behind, uBlend)`. At 1 the patch *is* that
+colour. The whole-body `uTint` path is untouched and still multiplies, as 108 wrote it.
+
+### Verdict 2 — the head
+
+It kept its own `uColor` while every tendril around it took the world. **A bright mint star in a
+body gone to stone** is exactly what makes a blend read as false. Now on the patch where the head
+actually is.
+
+**And the sparks**, which 110 named in the same breath and which were also still hers — each spark
+now carries its own place on her and is told what is behind **it**.
+
+### Seen, running
+
+Head and sparks gone to stone and mist; the tendrils carry the arch through them.
+
+### Named, not touched
+
+**Her core glow is still her own light.** 110 ruled head, eye and sparks; the core sprite is none of
+the three, and making her lantern take the wall's colour is a look decision and **his**.
+
+**FULL SUITE: ALL GREEN.** The GAMES check that pinned `vCol = aColor *` on one line now asserts the
+relationship, and **gained two checks** for what 151 ruled rather than being loosened.
+
+**His eye retests.**
