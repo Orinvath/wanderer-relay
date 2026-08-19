@@ -19138,3 +19138,28 @@ still not in the travelling store**, and a stranger still sees nothing of her.
 
 **The relevance threshold** (0.55 lets a tax lecture through; separation ~0.65–0.70) · **the episode
 rule** (confident / survived / strongest) · and now **the birth-versus-episode interaction** above.
+
+---
+
+## Directive 140 — `spec/AVATAR_2.0_SEED.md` written. Parked, as ordered.
+
+**Commit `937e43e`.** 86 lines, in your framing, at `CC-Wanderer/spec/AVATAR_2.0_SEED.md`. A horizon
+document, not a plan. **Nothing scheduled; nothing in Avatar 1.0 waits on it.**
+
+**One thing checked rather than parked.** The directive says cite in full when it is picked up, and
+that work is parked — **except the efficiency figure**, because a wrong number sitting in a document
+nobody opens for a year is a trap rather than a note.
+
+**It is accurate.** *HyDra: SOT-CAM Based Vector Symbolic Macro for Hyperdimensional Computing* —
+Georgia Institute of Technology, **arXiv:2504.14020**, also IEEE. Reported **2702× over CPU and
+23161× over an embedded GPU.** Your ~2,700× / ~23,000× is right, and **the paper is named in the file**
+so whoever picks this up does not have to find it again.
+
+**One caveat added to the limits**, because it bears on how a first experiment gets judged: **2702× is
+a custom SOT-MRAM hardware macro**, not something Torchhd on this machine would produce. The thesis
+may still be right; that number is not evidence for a software rebuild on its own, and the experiment
+should not be sold on it.
+
+**And a note left for whoever picks it up:** both candidate subsystems — surfacing and appraisal —
+are now **built and measured**, so the bounded experiment has a **real baseline to beat** rather than
+an argument. The numbers and the harnesses are named in the file.
