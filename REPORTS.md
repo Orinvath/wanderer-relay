@@ -19412,3 +19412,89 @@ come off that piece the moment it finishes**, and the held count on the status l
 one. A failed fetch should now name a reason on that line instead of going quietly blank.
 
 **His eye rules.** Awaiting his verdict — approved, or failed his eye.
+
+---
+
+## Directive 147 — the Stage played nothing, for as long as you cared to wait — APPROVED BY HIS EAR
+
+**His words to open it:** *"I select them and nothing plays, this was the issue it was taking 5-10
+minutes for them to play."* **His words to close it: "worked."**
+
+### It was never the downloading
+
+Measured before anything was touched. Ritual's six missing instruments: **11 files, 3.4 MB, seven
+seconds** end to end, and the sample store written. The listing call is ~0.25s, a file ~0.5s, a
+conversion ~0.4s. **The biggest instrument in the whole library is about a minute's worth.** The
+five-to-ten minutes was never a fetch.
+
+### Three faults, each hiding the next
+
+**1. THE LATCH — the page started the music before anyone had clicked.** A browser keeps sound shut
+until the person touches the page, and `Tone.start()` waits on exactly that: called with no touch
+behind it **its promise never settles — not slowly, never.** It sits inside `playPiece`, holding the
+`starting` guard, so from then on **every piece chosen was refused as `busy` the instant it was
+chosen**, and `attempt` reads `busy` as nothing worth saying and clears the status line. Silence, no
+marker moving, no error. It reads exactly like a download that will not finish.
+
+His portal cannot reach this, and **its own guard is the shape of the fix**: it will not resume until
+`!isStillTheCard()`, and leaving the card is a click. This page has no card, so entering the world
+now waits for the first touch of the page itself.
+
+**2. THE DUPLICATE.** The panel resumed the stored piece a second time, a moment after
+`setInsideWorld(true)` → `maybeStartWorldMusic` → `playPiece` had already started it. It lost the
+race with itself every time and wiped the only line that would have said so. **Removed, not
+sequenced** — his path was never missing anything.
+
+**3. THE KEPT COPIES CAME BACK THE WRONG SHAPE.** With the latch gone the real failure spoke:
+
+```
+[music] asked for Array(8) | handing back Array(27)
+[music] ritual  Error: ToneAudioBuffers has no buffer named: NaN
+```
+
+Read out of the piece's own source rather than guessed at:
+
+```js
+t = samples[renderedName] || samples[sourceName]
+u.get(Math.floor(window.generativeMusic.rng() * t.length))
+```
+
+It picks one recording at random, so **it needs a list**. `save` writes whatever it is handed as
+keys, and for a list those keys are `"0","1","2"`; `cachedRenderedInstruments` rebuilt **every**
+record as an object, so a list came back as `{0:…,1:…,2:…}` — **no `length`**. `rng() * undefined`
+is `NaN`. Rebuilt as a list when the keys are numbered.
+
+**This is why it looked like it had never worked.** It only failed the **second** time — the first
+play has nothing kept yet — and once kept, it failed for good. Clearing the store let it straight
+through, which is how the shape was **proved rather than argued**.
+
+Also fixed alongside: an instrument that is not notes was **one** recording, not all of them —
+`single` was overwritten by every file, so `vcsl-didgeridoo-sus` (1, 2, 3.ogg) was handed over as a
+one-entry list and every darbuka the same. Not the crash, but every random pick landed on the same
+sound.
+
+### What I got wrong, recorded
+
+- **I read the alias helper as the fault and changed it.** Wrong: `request` files the **source**
+  instrument, and the folder is the right key. **Reverted** before the fix commit. The piece's own
+  source settled it; my reading of it did not.
+- **I reported the duplicated piece list as my own bug.** It is his grouping — a piece carrying two
+  tags is listed under both, and his portal does the same. **Not touched.**
+- **I flagged the alias question as his product decision.** It was not: the note saying it was "left
+  alone deliberately" was **mine, in my own port**. His words: *"you should have made it work the
+  first time."* Correct. A known gap left standing is Rule Zero's own failure mode, and I wrote the
+  gap myself.
+
+### Commits
+
+- `cf5e659` the latch, and the duplicate start
+- `0a685d4` the kept instruments' shape, and the collapsed recordings
+- `16df464` reverting my wrong first attempt, kept in the record rather than tidied away
+
+### Verdict
+
+**APPROVED — his ear, on his machine.** Directive 118 satisfied: he heard it, and said so.
+
+Left open, reported and not decided: his list sorts each tag group by title and this one does not;
+and **Zed** names two instruments with no folder at all, so it asks for a blank one and is refused
+every time. Neither is mine to settle.
