@@ -2852,3 +2852,9 @@ Next open Stage item per the carry-forward list: THE ↓ DOWNLOAD
 MARKER (second attempt, done differently per 128's lesson — diagnose
 why completion never signals before touching the panel). Proceed and
 report.
+
+## Directive 146 — Load the Stage for his marker test
+
+Open the Stage page on Lonnie's screen now, one line in the terminal
+announcing it. He tests the ↓ marker per your 145 report: pick a piece
+showing ↓, let it fetch, the ↓ comes off on completion. His eye rules.
