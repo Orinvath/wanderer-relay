@@ -18846,3 +18846,69 @@ starting point to be tuned by watched behaviour — **yours to move.**
 The CPM attention front-door and the sequential loop, built on chunk 1's finding: **relevance at
 decision moments, the other three checks free behind it.** The **relevance threshold** proposal comes
 to you with it.
+
+---
+
+## Directive 139, chunk 3 — THE MASTER LOOP BUILT. And a threshold decision waiting on you.
+
+**Commit `611b564`** — `appraisal.js` + `acceptance-appraisal.js`, wired in as **LOOP**.
+**Suite ALL GREEN, 19 of 19.** 17 checks in the new suite, 0 failed.
+
+Scherer's four checks in his order, with **our measured heartbeat**: the front door at decision
+moments, the other three free behind it. **Nothing runs on a timer**, and the build itself proves it
+— front door 44ms, the other three checks 1ms, exactly as chunk 1 predicted.
+
+### THE SUITE CAUGHT THREE REAL ERRORS OF MINE — and all three were removals, not patches
+
+**1. A novelty bypass I invented.** I let a moment pass the door on sheer novelty. But a moment that
+matches nothing scores *maximum* novelty — so **everything unfamiliar got through and the door
+stopped being a door.** That rule was mine and unsourced, so it is **removed rather than tuned**.
+Novelty is still computed and still recorded, because Scherer's first check is novelty before it is
+anything else; it just does not open the door by itself. **Whether it should is yours, and I have no
+source for it.**
+
+**2. Desirability's sign came from need depletion.** A fully satisfied Avatar came out **feeling
+nothing about anything**, because there was no room left in any need. OCC's desirability is whether
+an event **helps or hinders** a goal; depletion says how *hard* it lands, never whether it is good or
+bad. The sign now comes from the event's **bearing — which is exactly what `effects.js` already
+computes** — and the wrong coupling is gone.
+
+**3. The gate was reading surfacing's blended score.** That score is recency × 0.3 + importance × 0.4
++ relevance × 0.3. With a store of recent, salient memories, **every moment cleared the bar on
+recency alone** — six of six noticed, including one about freight container prices. Those weights are
+right for *ranking what should rise* and wrong for asking *whether a moment touches anything*. The
+gate now reads **semantic relevance alone**, which surfacing already computed and now reports.
+
+### A DECISION FOR YOU — the relevance threshold, with the measurement behind it
+
+**Measured on the real model, against a real four-memory life:**
+
+| moment | relevance |
+|---|---|
+| standing at the harbour as the light turns orange | **0.87** |
+| a kitchen at night, someone making tea | **0.81** |
+| a lecture on tax law in a windowless room | 0.57 |
+| the price of freight containers in 1974 | 0.42 |
+| quadratic reciprocity in number theory | 0.37 |
+
+**The model discriminates cleanly** — the gap between "about this life" and "about nothing in it" is
+enormous. **But 0.55, which I inherited from surfacing, sits BELOW the tax-law moment by two
+hundredths.** At 0.55 the Avatar notices a tax lecture.
+
+**The separation sits somewhere around 0.65–0.70.** I have not moved it: **the build still runs at
+0.55 until you rule**, and the suite proves the *law* (the door discriminates) rather than asserting
+a number that is yours. The evidence table now measures the door's own signal, not a different one.
+
+### What else the suite proves
+
+An unnoticed moment **costs nothing downstream** — no feeling, no signs, no goals — **but is still
+written down**, so the record does not flatter the mind about where attention went. A feeling
+**replays from what was stored**, no model involved. One test moment came out **reproach + distress +
+anger at once**, showing GRIEF and carrying two tendencies into the goal-former: **both layers, same
+instant, 053 unchanged.** And the loop **produces no language anywhere** — asserted by inspection.
+
+### Next chunk
+
+The host model under the covenant (which unblocks the fortunes-of-others four), then tiered
+consolidation and narrative identity feeding Purpose. The **life-story episode rule** comes to you
+with the last of those.
