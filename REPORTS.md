@@ -19212,3 +19212,52 @@ should not contradict the record it lives beside.
 
 **The relevance threshold** (0.55 lets a tax lecture through; measured separation ~0.65–0.70) and
 **the episode rule** (confident / survived / strongest, with the numbers in the 139 chunk-6 report).
+
+---
+
+## Directive 142 — the attention door set to 0.67. And it stopped being surfacing's number too.
+
+**Commit `f60d3fc`.** `appraisal.js`, `BRAIN_PLAN.md` §5, and the suite. **ALL GREEN, 23 of 23** at
+the new setting.
+
+### The door is 0.67
+
+The middle of the measured separation. Below it a moment is **never experienced**. Recorded in the
+plan with the measurement beside it, and **still provisional under 071**.
+
+### A consequence I had to unpick before setting it
+
+**Appraisal was handing its threshold down to surfacing** — and since chunk 3 those two ask a
+**different question on a different signal**:
+
+| | asks | reads |
+|---|---|---|
+| **the door** | should this moment be experienced at all | **semantic relevance alone** |
+| **surfacing** | which memories should rise as remindings | **score** — deliberately blends recency and importance, so an old faint memory can still rise on having mattered |
+
+**Raising the shared number would have silently starved the remindings** as a side effect of moving
+the door. **Only the door was ruled, so only the door moved.** Surfacing keeps its own number, still
+provisional and **still unruled** — flagging it because it is now visibly a separate decision you
+have not been asked about.
+
+### One measured property of the door, for your eye
+
+Found while checking why a test moment stopped getting through. **Reported rather than tuned around:**
+
+| moment | relevance | |
+|---|---|---|
+| "the host turned away without a word" | **0.712** | experienced |
+| "the harbour, and the host turned away without a word" | **0.663** | **not** |
+
+**Two subjects in one moment average each other down**, so a compound moment can score *below both of
+its parts*. **Real life is full of compound moments.** The door is yours and 0.67 stands — this is
+evidence for you, not a reason for me to move it.
+
+### Noted, not built
+
+**The aspect-breathing refinement** — a high-Openness being noticing more than a withdrawn one — is
+recorded in the plan as a **future proposal**, not scheduled.
+
+### One decision remains
+
+**The episode rule** — confident / survived / strongest. The numbers are in the 139 chunk-6 report.
