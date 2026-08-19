@@ -20176,3 +20176,49 @@ the three, and making her lantern take the wall's colour is a look decision and 
 relationship, and **gained two checks** for what 151 ruled rather than being loosened.
 
 **His eye retests.**
+
+---
+
+## Directive 151 addendum — he was right, and it was not a small error. `46304dd`
+
+**The phone link is live and serving it** — same address.
+
+### What I had done
+
+Each patch was mapped by **where it sits on her** — its average position in her own body, across her
+bounding box, then read **straight back along the world axis**. That is a flat orthographic
+projection from dead centre. **It ignored the camera entirely**: rotate her and every patch went on
+sampling the same point, because nothing in the mapping knew a camera existed.
+
+**Parallax is the thing that makes a body look like it is standing in a place rather than pasted on
+one**, so this was not a detail — it was the reason it read wrong.
+
+### What it is now
+
+The patch is projected **through the camera** — `.project(camera)` — and where it lands is where the
+ray strikes the backdrop. The backdrop fills the camera's view, so the ray hits it exactly where the
+patch appears on screen, and it strikes **every plane at that same place whatever their depths**,
+which is why one projection answers for all of them.
+
+**The head and the sparks go through the same camera and the same ray.** The head is no longer
+assumed to sit at the middle of her; it is asked where it actually appears.
+
+**And it follows the camera** — he said recompute on change rather than hold a static grid, so it
+keeps asking, ten times a second. Cheap: the grid is already in the page, so a repaint is 645
+lookups and a texture write, not a fetch.
+
+### Measured, on the running page
+
+```
+645 patches projected      u 0.161..0.834   v 0.080..0.700
+the head                   0.500, 0.554     — its own point, not the assumed centre
+```
+
+### Named, not hidden
+
+**Her sway lives in the vertex shader**, so the positions projected are rest-pose. A tendril
+mid-swing samples where it rests rather than where it is drawn. **That is the next thing that will
+read wrong**, and it is named here rather than left to be caught.
+
+**FULL SUITE: ALL GREEN**, and the suite gained a check that holds the camera ray in place so this
+cannot quietly revert to straight-back sampling. **His eye retests.**
