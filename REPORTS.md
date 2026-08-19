@@ -19901,3 +19901,44 @@ region, so **61,320 vertices cost 645 colour computations, not 61,320**.
 **Stage 1 is built and measured. It has NOT been seen.** What it looks like is his eye's alone per
 118, and the zone count stays his to move — `zones` is an option and the cost is identical at 3 or
 at 10. **Stage 2 is the hiding demo on the real staged world**, which is where he will see it.
+
+---
+
+## Directive 147 stage 1 — her REAL body now takes 645 tints. Seen working. `734a6ae` `c2272f8`
+
+148 is in `CLAUDE.md` beside Rule Zero, and this ran under it: no stopping between stages.
+
+### The colouring reached her actual body, not just the model
+
+108 gave her a tint — **one colour for all of her**, her built-in gradient shifted by it. That is
+why she has always read as a tinted shape. In her own file (our copy, 108's, not the chamber's):
+
+- `aRegion` per vertex, from the distance along the strand the build already had;
+- the tints as a **645×1 float texture, not a uniform array** — 645 vec3 uniforms is past what many
+  GPUs will give, and a table is what a texture is for; nearest filtering, because it is a lookup
+  and not a gradient;
+- `window.setWispRegionTints(tints)`, **in the same units as `setWispTint`** — the colour asked for
+  divided by the palette she was built from — so her root-to-tip gradient survives and is merely
+  shifted, patch by patch;
+- **handing it nothing turns it off** and she goes back to one tint for all of her.
+
+### Seen, in the browser, her real body
+
+645 regions reported, no console errors, and a deliberately garish test — **red roots, green
+middles, blue tips** — came out exactly as asked. Turned off again, she is the wisp she was.
+
+**That pattern is a proof, not a look.** How she should actually be coloured is his eye's, per 118.
+
+### Two faults of mine, and the second is the worse one
+
+**1.** `acceptance-games.js` asserted the literal string `vCol=aColor*uTint`. Per-section colouring
+satisfies everything that check exists for and **failed it anyway** — the day's spelling pinned
+instead of the law, the same shape as the three music checks this morning. It now asserts the law in
+both forms *and* covers the new capability rather than being loosened to admit it.
+
+**2. I ran the suite and committed in the same command**, so `734a6ae` went in **while GAMES was
+red**. The suite is not a formality to run alongside a commit; it is the thing that decides whether
+there should be one, and chaining them removed the only moment the answer could have stopped me.
+Said plainly rather than quietly amended.
+
+**FULL SUITE NOW: ALL GREEN.** Stage 2 — the hiding demo on the real staged world — continues.
