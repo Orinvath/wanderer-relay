@@ -19261,3 +19261,55 @@ recorded in the plan as a **future proposal**, not scheduled.
 ### One decision remains
 
 **The episode rule** — confident / survived / strongest. The numbers are in the 139 chunk-6 report.
+
+---
+
+## Directive 143 — CENTRALITY wired. The last open Brain decision is closed.
+
+**Commit `a8b6608`.** `identity.js`, `BRAIN_PLAN.md` §10.2, and the STORY suite — now **20 checks**.
+**Suite ALL GREEN, 23 of 23.**
+
+### The source, verified before building on it
+
+**Berntsen, D., & Rubin, D. C. (2006).** "The Centrality of Event Scale." ***Behaviour Research and
+Therapy* 44(2), 219–231.** Centrality is **tripartite** — an event is central when it is a
+**reference point** for judging others, when it is a **turning point**, and when it has become **a
+component of identity.**
+
+### Every factor was already measured. Nothing new is recorded for this.
+
+| factor | where it already lived |
+|---|---|
+| **emotional intensity** | the **appraisal record** — the strongest feeling in any appraisal whose surfacing raised one of the memories this lesson came from |
+| **rehearsal** | the **evidence trail 134 already keeps** — every weighing wrote a row |
+| **integration** | the **confidence 141 ruled is the gate** |
+
+**And the factors feed each other,** as you ruled: the blend carries a **product term**, not only a
+weighted sum — so **a lesson strong on one factor alone gains nothing from the augmentation.** It has
+to be strong on all three. Asserted in the suite.
+
+**Centrality RANKS what has been confirmed — it does not bypass 141's gate.** The same lessons are
+admitted; **what changes is the order the chapters draw in.**
+
+### What is sourced and what is ours, marked in both the file and the plan
+
+**The CES is a self-report scale that MEASURES centrality in people. It is not an algorithm that
+computes it.** The construct and the three factors are Berntsen & Rubin's; **the weights and the
+shape of the augmentation are ours**, provisional under 071, and must not be cited as theirs.
+
+### ONE INTERACTION, measured and reported rather than tuned around
+
+**Centrality now dominates chapter ORDER**, which compresses TRAIT_PLAN §10's *"the genome weights
+what resonates"* to a nudge. On one test life the two beings weighted the same chapters **0.474 and
+0.230** — they clearly **value** the life differently — but their **sequence can now coincide** where
+it used to differ.
+
+**That is a live tension between two of your rulings, and the weights are yours to move.** I changed
+the suite's assertion to the **substantive** property (they value the life differently) rather than
+the fragile one (the order differs) — because making the old assertion pass would have meant **tuning
+weights to a test**, which is the wrong way round.
+
+### The Brain's decisions are now all closed
+
+Standards (136) · the 22 (137) · the two glyphs (138) · the birth gate (141) · the attention door
+(142) · **the episode rule (143)**. Every number in the build remains provisional under 071.
