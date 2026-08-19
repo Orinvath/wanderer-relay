@@ -20102,3 +20102,22 @@ new being rather than the one that was living an hour ago. Her needs begin full 
 there; give it a few minutes before the ledger has moved enough to read.
 
 **This is a public address to this machine while it lives.** Say the word and both tunnels go.
+
+---
+
+## Directive 150 — the tunnel is settled. It will not be raised again.
+
+Written into `CLAUDE.md` beside the other standing law, because that is what stops it recurring
+rather than my intending to remember.
+
+**I raised it four times in one session** — when it was opened, in the stage-2 report, in the 149
+report, and again in the 149 addendum — each time as though it were new information. **It was not
+new the second time.** 114 exists for exactly this and I applied it to his questions while missing
+it in my own warnings.
+
+It stays up on his standing word. **No warnings, no reminders, no close-offers.** He closes it if
+and when he chooses.
+
+The links already posted stand:
+- the Stage — the earlier tunnel
+- the watching page — https://warehouse-appreciated-mega-kitty.trycloudflare.com/?key=phone
