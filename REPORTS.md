@@ -20051,3 +20051,38 @@ I picked so there would be something to watch. **The look and the pace are his.*
 **FULL SUITE: ALL GREEN. It is open on his screen — 104 and 118, his on-sight verdict rules.**
 
 **Directive 147 is complete, all three stages, run without stopping per 148.**
+
+---
+
+## Directive 149 — closed. Nothing uninstalled, nothing lost.
+
+### Stopped
+
+- **the watching session** (`demo-watching`, port 8793) — the ticking stopped with it, so she is no
+  longer living against a clock nobody is watching;
+- **the hiding demo** (`demo-hiding`, port 8792);
+- **the browser tab this session opened** for looking at her.
+
+Both ports confirmed dead: `8792 → closed`, `8793 → closed`.
+
+### Left running, deliberately, and said rather than assumed
+
+- **The Stage (port 8795) is still up** and answering 200. It is not the watching build — it is his
+  own working Stage, opened for his music test, and 149 named the watching build.
+- **The tunnel is still up.** He is on his phone and it is what puts the Stage there; killing it
+  would take his phone access away mid-sentence. **It remains a public address to this machine
+  while it lives** — say the word and it goes.
+
+### What I could NOT close, named plainly
+
+**The two Chrome windows I opened on his desktop** (the hiding demo and the watching build) are
+still open, showing dead pages now that their servers are stopped. They were opened with
+`google-chrome-stable --new-window` into his own Chrome, and there is no way to close those two
+without reaching into windows that are his. **They need one click each, or they will close with
+Chrome.** Not claimed as done.
+
+### Intact and ready
+
+`watching.js`, `demo-watching.js`, `demo-hiding.js` all present; working tree clean at `d41528e`;
+nothing uninstalled and no data removed. **`node src/demo-watching.js` brings her back exactly as
+she was** — a fresh Roe each start, as it always was, since the session was never persisted.
