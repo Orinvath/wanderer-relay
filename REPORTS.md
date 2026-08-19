@@ -19399,3 +19399,16 @@ The suite is green and the cause is out, but **the marker is a thing you look at
 open Music Score, pick a piece showing **↓**, and let it fetch: **the ↓ should come off that piece as
 soon as it finishes**, and the count on the status line should go up by one. If a fetch fails you
 should now get a reason on that line instead of it going quietly blank.
+
+---
+
+## Directive 146 — the Stage is open on his screen, awaiting his eye on the ↓ marker.
+
+Server confirmed serving (200) before opening; page loaded in Chrome at `127.0.0.1:8795`. **No code
+changed this turn** — this is 145's fix going in front of him, per 118.
+
+**What he is testing:** open Music Score, pick a piece showing **↓**, let it fetch. The **↓ should
+come off that piece the moment it finishes**, and the held count on the status line should rise by
+one. A failed fetch should now name a reason on that line instead of going quietly blank.
+
+**His eye rules.** Awaiting his verdict — approved, or failed his eye.
