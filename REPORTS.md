@@ -19163,3 +19163,52 @@ should not be sold on it.
 **And a note left for whoever picks it up:** both candidate subsystems — surfacing and appraisal —
 are now **built and measured**, so the bounded experiment has a **real baseline to beat** rather than
 an argument. The numbers and the harnesses are named in the file.
+
+---
+
+## Directive 141 — fault 4 ruled correct. Recorded, with the citation verified.
+
+**Commit `a1375d2`.** `BRAIN_PLAN.md` §10.1 + sources, and the two suite comments that called it an
+open fault. **No behaviour changed; nothing needed to.** **Suite ALL GREEN, 23 of 23.**
+
+### The ruling, and it stands on real ground
+
+I reported it as a fault: a lesson is **born at 0.5**, the episode bar is **0.55** — two provisional
+numbers set in different files — so **nothing new can enter the life story until something reinforces
+it.**
+
+**Ruled correct as built.** And I verified the citation before writing it into the plan, because a
+ruling's evidence is exactly the thing that must not be taken on trust:
+
+> **Singer, J. A., Blagov, P., Berry, M., & Oost, K. M. (2013).** "Self-Defining Memories, Scripts,
+> and the Life Story: Narrative Identity in Personality and Psychotherapy." ***Journal of
+> Personality* 81(6).** — Autobiographical memories tied to **critical goals** become life-story
+> memories, and become **self-defining only when "linked to an individual's enduring concerns."**
+> Memories sharing **"repetitive emotion-outcome sequences"** yield the narrative scripts that filter
+> everything after.
+
+**Checked, and the directive quotes it accurately.**
+
+### What it means for the build
+
+**Life-story material is made by LINKAGE, not INTENSITY.** So **reinforcement is the researched
+gate**, not an accident of two numbers meeting across two files. A lesson born at 0.5 is a
+**candidate**; recurrence in what actually matters to this being is what lifts it over the bar.
+
+**And the storyless first days are identity forming as identity actually forms.** The end-to-end run
+already showed exactly that shape without being asked to: **nothing on day one · four lessons and
+still no story by day six · a story at thirteen days.** That is not a threshold mis-set. That is a
+life.
+
+### Recorded rather than just agreed
+
+The ruling and citation are in **`BRAIN_PLAN.md` §10.1** and the sources list. **The two suite
+comments that described it as an open fault awaiting your word now carry the ruling** — the code
+should not contradict the record it lives beside.
+
+**Both numbers stay provisional under 071**, tuned by watched behaviour.
+
+### Still open
+
+**The relevance threshold** (0.55 lets a tax lecture through; measured separation ~0.65–0.70) and
+**the episode rule** (confident / survived / strongest, with the numbers in the 139 chunk-6 report).
