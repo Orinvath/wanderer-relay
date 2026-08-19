@@ -2918,3 +2918,18 @@ Lonnie's order to both of us: stop worrying about the tunnel being
 open. It stays up on his standing word; no more warnings, reminders,
 or close-offers from the terminal or the director. He closes it if
 and when he chooses. Settled law — never re-raised per 114.
+
+## Directive 151 — His eye from the phone: the hiding blend is NOT GOOD ENOUGH, and the HEAD was left out
+
+Lonnie is watching her live. Two verdicts:
+
+1. THE BLEND QUALITY IS NOT THAT GREAT — the hiding does not pass his
+   eye as it stands. Diagnose what reads wrong: 110/147 ruled
+   per-section sampling against what is actually behind each region
+   from the viewer's eye; verify that is truly what runs (not one
+   global sample tinted per zone), check the blend Strength handling,
+   and iterate per Rule Zero until it reads right.
+2. THE HEAD IS MISSING from the blend — 110 ruled head, eye, and
+   sparks sample THEIR OWN patches. Include the head per the ruling.
+
+His eye retests on the phone link. Report what was wrong.
