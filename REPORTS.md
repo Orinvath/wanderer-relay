@@ -19994,3 +19994,60 @@ a painting.
 
 **FULL SUITE: ALL GREEN. It is open on his screen now — 104 and 118, his on-sight verdict rules.**
 Stage 3, the chunk-4 watching build, follows without stopping per 148.
+
+---
+
+## Directive 147 stage 3 — THE WATCHING BUILD. She is on his screen, living. `d41528e`
+
+078 item 4, ordered again as 147 stage 3, and run continuously from stage 2 per 148.
+
+**Her body is the page and the numbers are down the side** — "the judgment surface is the behaving
+Avatar", so nothing here is a dashboard with a picture on it.
+
+### Nothing in it is a stand-in
+
+Real Roe · `buildCreature` body · `needs.js` advancing on **wall-clock time** · `goals.js` asked
+what she wants over the real candidate `games.js` offers · the Brain, with a **real store, real
+embeddings, the same `Appraisal` the suite runs**.
+
+**She is not driven.** No authored behaviour list, no script. Her needs empty because time passes;
+she is *asked* what she wants; what she does follows. The only thing the file decides is how often
+to ask her.
+
+### The one thing I got wrong, and it is the one that mattered
+
+I first passed the appraisal **a bearing of +0.4 whenever she had a goal** — and watched her feel
+**JOY while her relatedness fell to 0.7**. That is me *telling* her the moment was good, which is
+exactly what the FAtiMA seam forbids: the machinery computes the variables and **nothing outside
+decides what she felt.**
+
+The bearing is now **measured from her own ledger** — how her lowest need moved this tick against
+last — and she feels **distress** as her relatedness drains. The truth of her state rather than my
+opinion of it.
+
+**And she remembers her own day.** Without it she has no past, nothing for a moment to relate to,
+and the door refuses everything forever — correct for a being with no history and useless to watch.
+Same `memory.commit` her life uses. Not feeding her answers.
+
+### Seen, running
+
+Her body in the arch, **taking the stone and the mist through her tendrils with her core still
+hers**; relatedness draining 10.0 → 7.8 over twelve moments; "hiding" wanted every time; "distress"
+felt every time after the first; brain open.
+
+### Two faults found by looking, both mine
+
+- her chrome was not stripped when embedded, so her own page's background covered the world;
+- `three.module.js` imports a **sibling**, and I served it unrewritten — the sibling request had no
+  key, the guard refused it, and **her whole module never ran**. The page then looked *exactly*
+  like she had blended perfectly into the world. **A thing that is invisible and a thing that is
+  absent look identical**, which is why the canvas was checked rather than the screenshot believed.
+
+### His, and named rather than decided
+
+The blend **Strength is 0.75** and the pace of her day is `HOURS_PER_TICK_DEFAULT`. Both are numbers
+I picked so there would be something to watch. **The look and the pace are his.**
+
+**FULL SUITE: ALL GREEN. It is open on his screen — 104 and 118, his on-sight verdict rules.**
+
+**Directive 147 is complete, all three stages, run without stopping per 148.**
