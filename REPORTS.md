@@ -19351,3 +19351,51 @@ later reader does not reopen it.
 Standards (136) · the 22 (137) · the two glyphs (138) · the birth gate (141) · the attention door
 (142) · the episode rule (143) · **the order-versus-experience tension (144)**. Every number remains
 provisional under 071, tuned by watched behaviour.
+
+---
+
+## Directive 145 — resize recorded closed; the ↓ marker diagnosed, then its cause removed.
+
+**Commit `da536ef`.** `music.js` and `stage-panel.js`. **Suite ALL GREEN, 23 of 23.**
+**RESIZE: recorded closed**, settled with you in session — the pinned-canvas fix stands.
+
+### The diagnosis came first, per 128's lesson. It was not the panel.
+
+**`playPiece` resolved IDENTICALLY in four different situations:** it played · it was dropped by the
+busy guard · it bailed out because the choice changed under it · it failed to fetch. **It returned
+`undefined` every time and put errors into `console.warn`.**
+
+So the caller could not tell success from silence, and the panel's `.then()` **cleared its status in
+all four cases.** **That is why completion never signalled: the promise carried no information at
+all.** Nothing the panel could have been rewritten to do would have fixed that.
+
+### The fix is a removal — the swallowing
+
+**The outcome already existed inside `playPiece` and was being thrown away on the way out.** It now
+says what happened and how many instruments were actually fetched. **No polling was added; nothing
+watches anything.**
+
+### Second fault, and the one you could see
+
+**The option list was written once at build and never revisited**, so a piece fetched on first play
+**kept its ↓ for the rest of the session.** It is now redrawn **when, and only when, something was
+really fetched** — the moment that could not previously be detected.
+
+### Third: a failed fetch used to look like a success
+
+It cleared the status line as though it had worked. **It now says so.**
+
+### Recorded, not changed
+
+**`aliasOf` is identical to `folderOf`**, so the alias branch in `whichPiecesArePlayable` tests the
+same thing twice. **Harmless** — the server's `index.json` only ever lists **folder** names
+(`writeIndexes` reads directories off disk), so the folder test is the deciding one and the alias
+test never could be. **Left alone: changing it would alter which pieces read as held, and that is a
+behaviour change nobody asked for.**
+
+### NOT YET SEEN BY YOUR EYE — 118
+
+The suite is green and the cause is out, but **the marker is a thing you look at.** Reload the Stage,
+open Music Score, pick a piece showing **↓**, and let it fetch: **the ↓ should come off that piece as
+soon as it finishes**, and the count on the status line should go up by one. If a fetch fails you
+should now get a reason on that line instead of it going quietly blank.
