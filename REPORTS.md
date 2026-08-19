@@ -18721,3 +18721,64 @@ leaves is a lesson** — which by 134's design carries elements and confidence r
 
 **The relevance threshold** (§5) — where attention's door sits. **Which episodes enter the life
 story** (§10).
+
+---
+
+## Directive 139, chunk 1 of the build — THE MASTER LOOP, MEASURED. The heartbeat is not built yet.
+
+**Commit `d4d5bd4`** — `server/src/measure-appraisal.js`. **Suite ALL GREEN, 17 of 17.** Step 1 was
+the gate on everything after it, so this is reported before a line of the loop exists, as ordered.
+
+### What was measured — no doubles anywhere
+
+Real `openStore`, real `Memory`, real **768-dimension embeddings from the local model**, real
+`Lessons` rows parsed back out of SQLite, the real needs ledger, and a real trait set. **Each of
+Scherer's four checks timed on its own**, so the *shape* of the cost is readable rather than one
+number nobody can act on. Medians of five runs at 134's sizes.
+
+| memories | relevance | implication | coping | normative | **TOTAL** | rose |
+|---|---|---|---|---|---|---|
+| 100 | 51ms | 0ms | 0ms | 1ms | **52ms** | 3 |
+| 500 | 60ms | 0ms | 0ms | 1ms | **60ms** | 3 |
+| 2000 | 58ms | 0ms | 0ms | 0ms | **58ms** | 3 |
+| 5000 | 108ms | 0ms | 0ms | 1ms | **109ms** | 3 |
+| 10000 | 190ms | 0ms | 0ms | 1ms | **191ms** | 3 |
+
+**Standards held:** 50 → 0ms · 200 → 1ms · **1000 → 5ms.** The normative check scans standards, not
+memories, and standards grow far slower — it is cheap and stays cheap.
+
+**The embedding inside check 1: 42ms, fixed**, store size irrelevant.
+
+**Trait signature: 178 / 180 / 182ms across all three.** `traitsFromSeed` refuses a default because
+decision 1 is yours — **so nothing here chose one; the cycle was measured under all three instead.**
+That also answers whether the choice costs anything. **It does not.**
+
+### THE FINDING — and it inverts the theory's own shape
+
+**RELEVANCE IS THE WHOLE COST.** Checks 2, 3 and 4 together come to **under 2ms at every size**.
+
+Scherer has the relevance check as the **fast, automatic** one and the later checks as **slow and
+deliberate**. In our implementation it is **exactly the other way round**, because ours has to embed
+the moment and scan a store that by law never shrinks — while implication, coping and normative are
+arithmetic over the three things that already rose.
+
+**What follows, and it is the reason for measuring first:** the front door cannot be run
+continuously, but **everything behind it is free**. Once relevance has passed, the rest of the cycle
+costs nothing — so the heartbeat should be **relevance at decision moments** (where surfacing already
+sits, for the same reason), with the remaining three checks running freely on whatever got through.
+**That is the same answer 134's measurement forced, arrived at independently.**
+
+**One more, worth your eye:** at a small store the 42ms embedding is about **80% of the whole cycle**.
+A moment that needs no semantic comparison could skip it entirely. **That is a design proposal, not a
+decision — flagged, not taken.**
+
+### Not measured, said plainly
+
+**The host model does not exist yet**, so OCC's four fortunes-of-others variables are **not costed
+here**. Four of the 22. Their cost is a per-host lookup rather than a store scan, and **it must be
+measured when it is built** — this file does not pretend otherwise (111's standard).
+
+### Next chunk
+
+Step 2 begins: OCC refraction and the 22 with their action tendencies. The two in-build proposals —
+**the relevance threshold** and **the life-story episode rule** — come to you as they arise.
