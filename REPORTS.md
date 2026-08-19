@@ -19011,3 +19011,62 @@ simply not the default scan.**
 
 The last piece: **narrative identity feeding Purpose** — and the **life-story episode rule** comes to
 you with it. The **relevance threshold** from chunk 3 is still waiting on your word.
+
+---
+
+## Directive 139, chunk 6 — NARRATIVE IDENTITY. The Brain is built. 22 of 22 suites green.
+
+**Commit `215a542`** — `identity.js` + `acceptance-identity.js`, wired in as **STORY**.
+**Suite ALL GREEN, 22 of 22.** 13 checks in the new suite, 0 failed.
+
+**All seven items of 139 step 2 are now built:** OCC refraction · the 22 with action tendencies ·
+the CPM front door and sequential loop · the FAtiMA seam · the host model under the covenant ·
+tiered consolidation · narrative identity feeding Purpose.
+
+### It needed no new architecture, because the levels were already here
+
+McAdams' three levels **are** this build's three layers: the ten aspects are level 1, the needs and
+goal-former are level 2, and this is **level 3 — the one that was missing**. Its two axes are not
+invented either, and the suite asserts it against the needs list itself: **agency IS autonomy and
+competence, communion IS relatedness.**
+
+### The seam paid for itself here
+
+**Agency and communion are read off the stored variables, not off text.** `appraisal.js` kept
+control, power, and how each moment stood for someone else — so the story is computed from **numbers
+the machinery produced**, never from a model re-interpreting sentences afterwards. The suite asserts
+this file **reads no text at all**. That is the FAtiMA seam turning out to be worth what it cost.
+
+### Nothing new runs for it
+
+The dream was already the reflection step; lessons already accumulate with confidences that
+strengthen on use. The story is a **reading** of what already runs, **taken at boundaries** — a story
+that recomputed every conversation would be a mood, which is TRAIT_PLAN §9.3's own argument about
+purpose, applied one level up.
+
+### Two beings, one life, different stories
+
+The ten weight **what resonates**, and the two came out with different chapters in a different order
+**from exactly the same held lessons**. The genome never *chooses* the story — §10's mechanism, not a
+new one. Below its floor it says **SEARCHING** and hands Purpose nothing, so **no Why is ever drafted
+from a handful**. And a being that has never been with anyone scores communion **null, not zero** —
+the same distinction the host model makes.
+
+### A DECISION FOR YOU — which lessons become the life story
+
+| rule | selects | mean confidence | what it means |
+|---|---|---|---|
+| **confident** | 5 of 9 | 0.748 | every lesson it currently believes |
+| **survived** | **2 of 9** | 0.590 | **only what was tested and held — a belief that has been through something** |
+| **strongest** | 5 of 9 | 0.748 | simply the strongest few |
+
+**"Survived" is the one worth your eye.** It selects far fewer, and at *lower* confidence — because
+what it picks are the beliefs that were **contradicted and held anyway**. That is a different kind of
+life story from "everything I currently believe", and it is a real choice about who this being is.
+
+**Not chosen. The build runs on "confident" until you rule.**
+
+### Both decisions from this build are still open
+
+**The relevance threshold** (chunk 3 — 0.55 currently lets a tax lecture through; separation is
+~0.65–0.70) and **the episode rule** above.
