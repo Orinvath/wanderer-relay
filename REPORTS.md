@@ -19810,3 +19810,56 @@ measurement holds at 3 or at 10, because the cost is per vertex and the vertices
 real 147 existed — my numbering, not the director's. The Stage work is the commits `cf5e659`,
 `0a685d4` and their reports above; **the real Directive 147 is this one, the Avatar test.** Named so
 the two are not read as one later.
+
+---
+
+## Directive 147 stage 1 — the regions are built. `86f9d16`.
+
+Rule Zero first, as 110 and 147 both demand. **All three legs it named came back clear**, and the
+build that followed is small because the data was nearly all there already.
+
+### Mesh cost — it does not rebuild
+
+```
+full rebuild of the body              60.1 ms
+rewriting every colour, 61,320 verts   0.21 ms
+```
+
+The build keeps position, cross, along, wave, waveParams and colour as **separate arrays**, so a
+zone change touches only colour. **And the body was already zoned:** `addStrand` has always coloured
+per vertex from distance along the strand, blending root → mid → tip with a split at halfway. That
+is two zones. **Five is the same loop with more stops** — no new geometry, and the same cost at 3
+zones or at 10.
+
+### Per-frame sampling — 645 against the one she takes today
+
+```
+one sample     0.0009 ms
+645 samples    0.444 ms     — 2.6% of a 60fps frame
+```
+
+### Memory
+
+The region is a **name, not a measurement**, so `Uint16` and not `Float32`: **123KB** for 61,320
+entries against 246KB as floats, on a body already carrying 736KB of colour.
+
+### What was built
+
+Each vertex now carries `region = strandIndex * zones + floor(along * zones)`. **`along` was already
+being computed in that loop** — the zone is a division of a number the build already had. `zones`
+defaults to 5 and is an option, because **110 says the count is a starting point and his eye decides
+it.**
+
+### Measured after
+
+```
+61,320 vertices, 61,320 regions      every vertex has one
+129 strands x 5 zones = 645          all 645 present, 0..644
+per zone: 11,460 / 12,696 / 11,616 / 12,696 / 12,852
+rebuild 63.4ms against 60.1ms        3ms for the whole body
+```
+
+**Determinism held: same Roe, same hash. Full suite ALL GREEN**, every suite ran.
+
+**Not seen by him.** The regions exist; nothing looks different yet. Colouring them is the next
+step, and per 118 his eye closes it, not these numbers.
