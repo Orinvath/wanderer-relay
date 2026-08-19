@@ -19737,3 +19737,19 @@ for. **"new world is better use that."**
 
 Renamed. `CC-Wanderer` commit above. What it does and where it sits are unchanged — **only the word
 on it.** It stays inside the Worlds folder, since he ruled on the name and not the place.
+
+---
+
+## The plane defaults are closed — his ruling
+
+Standing since 124: my reproduction left **Near Plane** at Distance 50, Curve 0, Depth 60 and
+**Mid Plane** at Distance 1000. Those are look values, and look values are his, so they were put to
+him rather than kept quietly.
+
+**His ruling: "it's not important so close it."**
+
+The numbers stand as they are. **Nothing changed, and the question is not to be asked again.**
+
+With this, every open decision from the Stage work is settled: the resize corner (dead — there is
+no window), the button's name (New World), and these. What remains is his eye on the desktop panel
+when he is home.
