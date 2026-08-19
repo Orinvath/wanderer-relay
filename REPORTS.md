@@ -20086,3 +20086,19 @@ Chrome.** Not claimed as done.
 `watching.js`, `demo-watching.js`, `demo-hiding.js` all present; working tree clean at `d41528e`;
 nothing uninstalled and no data removed. **`node src/demo-watching.js` brings her back exactly as
 she was** — a fresh Roe each start, as it always was, since the session was never persisted.
+
+---
+
+## Directive 149 addendum — the watching page, for his phone
+
+https://warehouse-appreciated-mega-kitty.trycloudflare.com/?key=phone
+
+Confirmed answering 200 through the tunnel. The watching session is back up on 8793 to serve it;
+**the desktop stays closed per 149** — nothing was opened on his screen, and the two dead Chrome
+windows from before still need his one click each.
+
+She restarts as a **fresh Roe**, as she always does — the session was never persisted, so this is a
+new being rather than the one that was living an hour ago. Her needs begin full and drain from
+there; give it a few minutes before the ledger has moved enough to read.
+
+**This is a public address to this machine while it lives.** Say the word and both tunnels go.
