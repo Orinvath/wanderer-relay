@@ -2895,3 +2895,11 @@ does not halt to write them.
 Applied now: 147 runs stage 1 → 2 → 3 without stopping — colouring,
 then the hiding demo on the staged world, then the chunk-4 watching
 build — reports as each lands, work continuous throughout.
+
+## Directive 149 — Close what was opened; Lonnie is away
+
+Lonnie is away from the machine (on his phone). Close anything the
+watching build opened on his desktop — browser pages, windows, the
+watching session itself. The build stays intact and ready; nothing
+uninstalled, nothing lost. When he is home and says so, it reopens
+for his verdicts. Confirm closed.
