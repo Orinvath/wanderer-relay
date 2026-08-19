@@ -2832,3 +2832,13 @@ watched behavior like all numbers. The story's chapters draw from the
 most central. This closes the last open Brain decision.
 
 Record, cite, wire. Suites green. Report.
+
+## Directive 144 — The tension ruled: experience separates them, not order
+
+Lonnie's ruling: chapter order is NOT what separates two beings — HOW
+THEY EXPERIENCED IT is. The same life may be told in the same sequence
+by two Avatars; what differs is what each felt, what each learned, and
+how much each chapter means to them (the measured 0.474 vs 0.230 IS
+the separation working). Centrality keeps chapter order; the lens
+keeps the experience. No weight changes. The suite's substantive
+assertion stands as the correct one. Tension closed.
