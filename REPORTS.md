@@ -20258,3 +20258,37 @@ brightness is still a lamp, so the brightness comes down with it.
 the pulse cannot put the brightness back. Neither can quietly regress.
 
 **His eye retests.**
+
+---
+
+## Directive 152 — when she hides, the sway stops. `656ff8b`
+
+**Same phone link, already serving it.**
+
+His ruling **removes a cause rather than compensating for one.** I had named the fault at the end of
+the addendum — the sampling projects rest-pose positions, so a swaying tendril sampled where it
+rests rather than where it was drawn. **My instinct would have been to chase the sway with the
+sampling.** His answer is better and simpler: **stillness is part of hiding.** The real octopus goes
+still too, and rest pose *is* what is drawn once she stops moving. **The mismatch is gone by not
+existing.**
+
+`uSway` scales the wave in the vertex shader, and hiding drives it: the more she is hidden, the
+stiller she is. **Coming home to herself gives it back** — putting her own colour back sets the sway
+to 1 in the same breath, because 152 makes them one act.
+
+```
+hiding at 0.85   ->   sway 0.15
+come home        ->   sway 1
+```
+
+Held in the suite **in both directions** — that the wave scales by it *and* that coming home returns
+it — so neither half can quietly go missing. **GAMES 54 passed, 0 failed.**
+
+### Said rather than hidden
+
+**The first full suite run after this failed at PHASE 3; the next two passed.** Nothing in this
+change touches PHASE 3, and its checks involve a real browser and a real model, so it is **flaky
+rather than broken** — but a suite that fails one run in three is not telling the truth reliably,
+and that is worth knowing before it is trusted to gate anything.
+
+**His eye retests.**
