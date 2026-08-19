@@ -19070,3 +19070,71 @@ life story from "everything I currently believe", and it is a real choice about 
 
 **The relevance threshold** (chunk 3 — 0.55 currently lets a tax lecture through; separation is
 ~0.65–0.70) and **the episode rule** above.
+
+---
+
+## Directive 139 — RULE ZERO PASS ON THE BRAIN. Four real faults, all mine, all fixed but one.
+
+**Commit `5ddf316`.** Adds `acceptance-brain.js` — **one whole life through every piece at once** —
+and `measure-tiers.js`, which tests a cost claim I had **asserted and never measured**.
+**Suite ALL GREEN, 23 of 23.**
+
+Every piece already had its own green suite. **That proved the parts and not the joins.** The flaws
+come first, per Rule Zero.
+
+### FAULT 1 — a dead coping variable
+
+`appraisal.js` read `takeover.depth`. **There is no such field** — takeover reports `active` and
+`needs`. With the nullish default it computed `1 - 0` **forever**, so **a third of Scherer's coping
+check was a constant that could never move.** It passed every test, because nothing asserted that it
+*varies*.
+
+Fixed against the real field (how many needs are at the floor), and **the suite now asserts it
+moves**: 1.00 with room, 0.00 with every need bottomed. A dead constant cannot come back unseen.
+
+### FAULT 2 — tiering cost more than it saved
+
+`warm()` called `memory.all()` — `SELECT *` over every raw row, **embeddings included** — then
+filtered it. So retrieval over the warm tier **paid the entire raw load** before its cheaper scan
+began. Measured: **−1ms, −3ms, −10ms** at 500 / 2000 / 5000. Replaced with one join.
+
+### FAULT 3 — and the tier was 100% of raw anyway, which no join could rescue
+
+I ran the dream over the **whole life**, when 083 says it distils **the day**. Over hundreds of
+memories `overlap()` finds elements shared across nearly all of them, so **everything got warmed**.
+
+**But distilling each day alone was wrong too** — almost nothing recurs inside one day, so **lessons
+were never born.** The source settles it, and neither of my versions was it: **Lewis & Durrant
+(2011)** — *"repeated reactivation IN DIFFERENT COMBINATIONS progressively builds schemata"* — the
+day is replayed **alongside what is already held.**
+
+**Now:** warm is **415 of 5000**, and tiering saves **+43ms at 5000 and growing**. The claim holds.
+
+### FAULT 4 — AND THIS ONE IS FOR YOU, NOT FIXED
+
+**A lesson is born at 0.5. The episode bar is 0.55.** Two provisional numbers I set in different
+files — and their interaction means **a newly born lesson can never enter the life story** until
+something reinforces it. In the end-to-end run: 4 lessons held, **0 episodes.**
+
+**I have not touched it.** Which lessons make a life is your decision and both numbers are yours.
+Three ways out, none chosen: lower the bar, raise birth confidence, or **rule that it is correct** —
+that nothing enters your life story until living has confirmed it, which is a defensible and rather
+beautiful answer.
+
+### Two things that look like failures and are not
+
+**The first day of a life distils nothing** — nothing has happened twice yet, and a schema needs
+repetition. **A short life has no story** and says SEARCHING rather than inventing one. Both are the
+design working; the end-to-end suite now asserts them as behaviours rather than tripping over them.
+
+### And the whole life runs
+
+A host arrives → moments are appraised → **a tax schedule is simply not experienced** → the day is
+slept on → lessons are born textless and tested → the warm tier stays a real subset → **the story
+forms at 13 days, 5 chapters** → Purpose is handed its threads. And **after all of it the host is
+still not in the travelling store**, and a stranger still sees nothing of her.
+
+### Still waiting on you
+
+**The relevance threshold** (0.55 lets a tax lecture through; separation ~0.65–0.70) · **the episode
+rule** (confident / survived / strongest) · and now **the birth-versus-episode interaction** above.
