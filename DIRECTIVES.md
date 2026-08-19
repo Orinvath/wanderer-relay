@@ -2842,3 +2842,13 @@ how much each chapter means to them (the measured 0.474 vs 0.230 IS
 the separation working). Centrality keeps chapter order; the lens
 keeps the experience. No weight changes. The suite's substantive
 assertion stands as the correct one. Tension closed.
+
+## Directive 145 — Resize CLOSED (settled by Lonnie in session); next item up
+
+Lonnie confirms the resize matter is settled from his side — the
+pinned-canvas fix stands as resolved with him. Record it closed.
+
+Next open Stage item per the carry-forward list: THE ↓ DOWNLOAD
+MARKER (second attempt, done differently per 128's lesson — diagnose
+why completion never signals before touching the panel). Proceed and
+report.
