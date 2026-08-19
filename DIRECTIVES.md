@@ -2810,3 +2810,25 @@ experienced. Provisional like every number, tuned by watched behavior.
 The aspect-breathing refinement (a high-Openness being noticing more)
 is noted as a future proposal, not built now. One decision remains:
 the episode rule.
+
+## Directive 143 — The episode rule: CENTRALITY, the researched blend
+
+Lonnie ruled: the life story is built the human way — the Berntsen &
+Rubin centrality model (Centrality of Event Scale lineage; cite it and
+the Rubin/Conway mechanism reviews). A confirmed lesson's episode
+candidacy is scored by the THREE MEASURED FACTORS TOGETHER:
+
+1. EMOTIONAL INTENSITY — how hard it hit (the appraisal record already
+   holds it);
+2. REHEARSAL — how often it has surfaced and been used (the
+   remembering layer already counts it);
+3. INTEGRATION — confidence through linkage to enduring concerns (the
+   134 machinery already measures it).
+
+Blended into one CENTRALITY score, with the researched augmentation:
+the factors feed each other (intense surfaces more; surfacing sustains
+intensity; both deepen integration). Weights provisional, tuned by
+watched behavior like all numbers. The story's chapters draw from the
+most central. This closes the last open Brain decision.
+
+Record, cite, wire. Suites green. Report.
