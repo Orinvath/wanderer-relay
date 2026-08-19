@@ -19712,3 +19712,17 @@ wrong, which is why it was worth doing rather than leaving named in a report.
 - **Note, not a task:** the ↓ marker cannot be exercised any more — every instrument is on disk, so
   no piece carries one. Directive 146's test would need the sample store emptied to run again.
 - **The tunnel is still open** on his word, and anyone holding the address has the full panel.
+
+---
+
+## The resize corner question is closed — his ruling
+
+He asked why it mattered. The answer was that the two could not both be had: a still picture on
+resize means a smaller window shows the top-left of the scene, and keeping the centre means the
+movement comes back.
+
+**His ruling ends it: "this will be an app there will be no window."**
+
+There is no edge to drag, so the stillness costs nothing and there is nothing to trade against it.
+The canvas stays pinned at 0,0 as `018e333` left it. **No decision needed, and none to be asked for
+again** — the premise was a browser one, and the Wanderer is not a browser.
