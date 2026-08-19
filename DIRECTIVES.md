@@ -2933,3 +2933,20 @@ Lonnie is watching her live. Two verdicts:
    sparks sample THEIR OWN patches. Include the head per the ruling.
 
 His eye retests on the phone link. Report what was wrong.
+
+## Directive 151 addendum — Lonnie has diagnosed the blend himself: the sample geometry is wrong
+
+His words: an accurate sample is drawn FROM THE CAMERA, through the
+patch, to what is directly behind the Avatar FROM THE CAMERA'S ANGLE.
+
+The build samples straight back along the world axis (a fixed 64x64
+grid of "behind"), which is only correct when the camera is dead
+center. The correct geometry: for each of her patches, cast the ray
+CAMERA → patch position → continued past her → the first plane behind
+her it strikes; sample THAT point's colour. Parallax is the whole
+point — what hides her is what the viewer would see through her.
+
+Rebuild the sampling on camera rays (and since the camera moves, the
+sample must follow the camera — recompute on camera change, not a
+static grid). Include the head per 151. Iterate under Rule Zero until
+it reads right on his phone link.
