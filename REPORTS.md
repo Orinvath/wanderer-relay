@@ -19726,3 +19726,14 @@ movement comes back.
 There is no edge to drag, so the stillness costs nothing and there is nothing to trade against it.
 The canvas stays pinned at 0,0 as `018e333` left it. **No decision needed, and none to be asked for
 again** — the premise was a browser one, and the Wanderer is not a browser.
+
+---
+
+## Clear World is New World — his ruling
+
+He was asked whether the button should match his portal, which calls it **New World** in its own
+section above Presets, against the **Clear World** inside the Worlds folder he originally asked
+for. **"new world is better use that."**
+
+Renamed. `CC-Wanderer` commit above. What it does and where it sits are unchanged — **only the word
+on it.** It stays inside the Worlds folder, since he ruled on the name and not the place.
