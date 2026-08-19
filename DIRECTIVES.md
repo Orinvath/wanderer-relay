@@ -2720,3 +2720,21 @@ Remaining genuinely open: the relevance threshold and which episodes
 enter the life story — both awaiting proposals with the build.
 
 Update BRAIN_PLAN.md. Report, with the two glyph marks proposed.
+
+## Directive 139 — The marks pass his eye. BUILD THE BRAIN.
+
+GLOAT and HATE approved as drawn — the language stands at 402, the
+mapping 22 of 22, every Brain decision closed.
+
+BUILD, in the plan's own order, all standing laws binding:
+1. MEASURE FIRST (settled): one full master-loop cycle costed at 134's
+   sizes on the real store, reported, before the heartbeat is built.
+2. Then the Brain per BRAIN_PLAN.md: OCC refraction, the 22 with
+   action tendencies, CPM attention front-door and sequential loop,
+   FAtiMA seam (variables are the record), host model under the
+   covenant, tiered consolidation, narrative identity feeding Purpose.
+3. The two in-build proposals come to Lonnie as they arise: the
+   relevance threshold and the life-story episode rule.
+4. Suites green throughout, chunked reports, completeness claims only
+   with measurement shown (111's standard), and nothing user-facing
+   "works" until his eye sees it (118).
