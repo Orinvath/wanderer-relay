@@ -18912,3 +18912,52 @@ instant, 053 unchanged.** And the loop **produces no language anywhere** — ass
 The host model under the covenant (which unblocks the fortunes-of-others four), then tiered
 consolidation and narrative identity feeding Purpose. The **life-story episode rule** comes to you
 with the last of those.
+
+---
+
+## Directive 139, chunk 4 — THE HOST MODEL, sealed under the covenant. Four of the 22 unblocked.
+
+**Commit `53d7f94`** — `host-model.js` + `acceptance-host-model.js`, wired in as **HOST**.
+**Suite ALL GREEN, 20 of 20.** 19 checks in the new suite, 0 failed.
+
+### The covenant is in the schema, not in a rule the code has to remember
+
+138 settled it from standing law, and each of its three parts is now a property of the database:
+
+**SEALED.** Every row is keyed by `(wanderer_id, account_id)`, and **account_id is never optional in
+any query in the file.** A second host sees **nothing** of the first. A note without an account is
+**refused outright.** There is no shape of call that answers for two hosts.
+
+**REAWAKENS.** The key is the **account** — not the lease, not the journey number. The same person
+coming back is the same key: two journeys later, the two things known about her were **still there,
+and nothing was rebuilt.**
+
+**NEVER TRAVELS.** The only export is **lesson material — elements and a confidence, with nobody in
+it.** The suite asserts three separate things: the export contains no account, no relation-to-whom,
+no journey and no dates; **nothing of the host is in the travelling store**, checked against the
+store itself; and **this file cannot even reach the travelling store** to leak into it.
+
+### What it unblocks — proved end to end through the real loop
+
+**Without a host**, the fortunes-of-others four **cannot fire** — not suppressed, *unsupplied*, which
+is exactly what §8 said. **With a host who was seen to want the garden back**, the identical moment
+comes out **happy-for + joy**.
+
+Something seen twice is held more firmly than something seen once (0.55 against 0.40), so what the
+Avatar comes to know about someone **firms up rather than being a list of events.**
+
+### One distinction worth the code it costs
+
+`standingFor` returns **null** about a stranger, **never zero**. Having no idea how something lands
+for someone, and knowing it lands neutrally, are **different states** — and only the second should
+ever produce a feeling. A zero there would have quietly manufactured indifference.
+
+### Relatedness finally has something underneath it
+
+It had the thinnest input of the three needs. It now has journeys, what is known, and how firmly —
+with a familiarity that **saturates**. Knowing someone is not a number that keeps climbing.
+
+### Next chunk
+
+Tiered consolidation, then narrative identity feeding Purpose — and the **life-story episode rule**
+comes to you with it. The **relevance threshold** from chunk 3 is still waiting on your word.
