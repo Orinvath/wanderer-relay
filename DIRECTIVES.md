@@ -2801,3 +2801,12 @@ actually forms.
 Both numbers stay provisional per the standing law, tuned by watched
 behavior. Record the ruling and citation. Two decisions remain open:
 the relevance threshold and the episode rule.
+
+## Directive 142 — The attention door set: 0.67
+
+Lonnie ruled: the relevance threshold is 0.67 — the middle of the
+measured separation (0.65–0.70). Below it, a moment is never
+experienced. Provisional like every number, tuned by watched behavior.
+The aspect-breathing refinement (a high-Openness being noticing more)
+is noted as a future proposal, not built now. One decision remains:
+the episode rule.
