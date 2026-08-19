@@ -2858,3 +2858,26 @@ report.
 Open the Stage page on Lonnie's screen now, one line in the terminal
 announcing it. He tests the ↓ marker per your 145 report: pick a piece
 showing ↓, let it fetch, the ↓ comes off on completion. His eye rules.
+
+## Directive 147 — Stage ruled complete enough. BEGIN THE AVATAR TEST.
+
+Lonnie's rulings, closing the Stage phase:
+1. The Worlds folder redesign: DONE, accepted.
+2. The Sun folder name: FINE AS IS — naming question closed, never
+   re-asked.
+3. THE STAGE IS COMPLETE ENOUGH. Remaining polish waits; the main
+   line resumes NOW.
+
+BEGIN THE AVATAR TEST — the sequence standing in the record:
+1. PER-SECTION COLOURING first (110 part 2, ruled): 5 zones per
+   tendril (129 × 5 = 645 regions + head, eye, sparks own patches),
+   Rule Zero on the mesh rebuild before building — measured cost
+   reported if it threatens, his eye decides final zone count.
+2. Then THE HIDING DEMO on the real staged world — her real body,
+   real planes at depth, blending per section. Opened on his screen;
+   HIS ON-SIGHT VERDICT rules per 104.
+3. Then CHUNK 4 — THE WATCHING BUILD (078 item 4): Form 1 living on
+   the ledger, goal-former, and the new Brain, in the staged world,
+   on screen for hours. The judgment surface is the behaving Avatar.
+
+Standing laws all bind. Suites green. Report each stage.
