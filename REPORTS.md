@@ -19574,3 +19574,32 @@ Three places now agree that no folder means nothing to fetch. Measured: 57 of 57
   for it. **Not touched.**
 - Each tag group in his list sorts by title; this one does not.
 - A `TEMPORARY` line in `music.js` still prints every instrument request to the console.
+
+---
+
+## Tidying the open list — "use common sense fix those things. if you are confused ask"
+
+Three done, one held back because it moves something he looks at every day.
+
+**The temporary line is out.** `d830592`. It said so itself, it did its job — "asked for Array(8) |
+handing back Array(27)" is what pointed at the render cache — and it had no business printing every
+instrument request for the life of the program.
+
+**Each tag group sorts by title, as his does.** `bc49bc5`. His `.sort((a, b) =>
+a.title.localeCompare(b.title))` had been dropped in the port, so a group came out in whatever
+order `pieces.json` holds. Measured at 412x750: 7 groups, none out of order, every group checked
+rather than one eyeballed.
+
+**The chamber fix is committed.** `e63c9e1`, in `chamber`, the `&& l.url` guard he authorised when
+turning on an empty near plane turned the background purple and took the icons with it. Git had
+refused me there before; it went through this time.
+
+### HELD BACK, AND ASKED
+
+The stylesheet's phone block — `left: 8px`, the two rows of launchers, `max-height`, the panel's
+top — **is not inside a media query**, so it governs the desktop as well. Wrapping it, which is
+plainly what it was written for, would move his desktop panel from `left: 8px, top: 128px` to the
+`left: 16px, top: 72px` written for it further up.
+
+**That is his desktop moving under him, so it is not a common-sense call — it is his.** Asked in
+the terminal, not decided here.
