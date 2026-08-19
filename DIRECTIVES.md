@@ -2967,3 +2967,12 @@ ruled they sample their own patches; whatever of them still announces
 her (motion, brightness, count) comes down with the rest when she
 hides, and returns when she comes home. Same phone link. His eye
 retests.
+
+## Directive 154 — HIS EYE: IT WORKS.
+
+Lonnie watched her hide from his phone and rules: IT WORKS. The
+camera-ray sampling, the 15-wedge head, the glow and eye going quiet,
+the stillness — the hide reads true to his eye. On-sight approval per
+104 is GRANTED pending only the sparks (153) landing to the same
+standard. Record the pass. Sparks report next, then the HIDING game
+joins her capability set for real.
