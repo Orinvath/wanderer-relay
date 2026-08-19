@@ -19683,3 +19683,32 @@ piece has one" just as well as a ↓ in the right place.
 **Reported, not changed:** the server-side `library()` has no blank-folder rule, so a piece that
 makes its own instruments would read as wanting one forever there, the way Zed did in the browser.
 No piece does that any more, so it is latent. Named so it is not rediscovered.
+
+---
+
+## The server-side view learns what the browser already knew
+
+`c93b2b7`. Named as latent in the last report, taken now rather than left in a document.
+
+A piece can name an instrument as `["zed__pad", ""]` — the empty half meaning it **makes** that
+sound rather than fetching one. The browser learned this when Zed could not play and could not
+clear its ↓. `music.js`'s `library()`, which is the same library seen from the server, had never
+been told: it read the blank as a folder name, found it unheld, and would mark the piece as wanting
+an instrument that was never going to arrive.
+
+`.filter(Boolean)` on the needs, and the two views of the same library now answer the same.
+
+**Measured:** 56 pieces, 56 playable, no blank name survives into `needs`. CAPABILITIES 41/41.
+
+**Nothing visible changed** — no piece in the list does this any more. It stops the next one being
+wrong, which is why it was worth doing rather than leaving named in a report.
+
+### What is left, and none of it is mine
+
+- **His eye on the desktop panel** once he is home: it moves to left 796, top 72, and the launchers
+  go from two rows to one.
+- **Three of his decisions, still open:** which corner a shrunk window keeps; whether Clear World
+  becomes New World; whether the near plane's Distance 50 / Depth 60 come back.
+- **Note, not a task:** the ↓ marker cannot be exercised any more — every instrument is on disk, so
+  no piece carries one. Directive 146's test would need the sample store emptied to run again.
+- **The tunnel is still open** on his word, and anyone holding the address has the full panel.
