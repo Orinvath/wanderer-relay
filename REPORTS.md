@@ -19498,3 +19498,79 @@ sound.
 Left open, reported and not decided: his list sorts each tag group by title and this one does not;
 and **Zed** names two instruments with no folder at all, so it asks for a blank one and is refused
 every time. Neither is mine to settle.
+
+---
+
+## Session work while he is at jury duty — the Stage on his phone
+
+**He bypassed the director:** *"I'm at jury duty, so I'm gonna bypass the director. make sure to
+report anything we do to them."* Everything below came straight from him and is recorded here.
+
+### Served to his phone
+
+A `cloudflared` tunnel to the Stage on 8795. **Flagged before it opened, and it matters:** the
+tunnel arrives on this machine, so `fromThisMachine` reads it as local — the "this machine only"
+lock does **not** hold against anyone who has the address. It is up while he is testing.
+
+### The panel on a phone — four goes, and the first three were guesses
+
+He asked for it **bigger**, having chosen that over full-width. Then: *"still small"*, *"now the
+panel doesn't scroll"*, and finally **his correction, which was the important one:**
+*"you are supposed to use rule zero on every change!"* He was right — three changes made on
+reasoning, two of which altered a declaration the browser never applied.
+
+What measuring found that reasoning had not:
+
+1. **The page had no viewport line at all.** A phone laid it out as a ~980px desktop and shrank the
+   whole rendering, which is why everything read small — and why a rule written for small screens
+   could never match: the page never claimed to be on one. My scaling had been inert.
+2. **The server was still running the old page.** Restarted; the current arrangement was saved
+   first as `before-viewport-restart` so nothing was lost.
+3. **The stylesheet already has a phone layout**, setting `max-height` on `.wx-panel.design-gui`,
+   which outweighs a bare `.wx-panel`. My limit was never applied at any point.
+4. **The panel does not start 72px down.** It starts below two rows of launchers, at
+   `max(16px, safe-area) + 112px` — 192px on screen once zoomed. My budget was 120px too generous
+   every time.
+
+Measured at five sizes, real page, panel's own box read back:
+
+```
+360x640   zoom 1.5   bottom 616   on screen   scrolls
+390x844   zoom 1.5   bottom 775   on screen   fits, no scroll needed
+412x750   zoom 1.5   bottom 726   on screen   scrolls
+820x900   zoom 1     bottom 515   on screen   unchanged
+1280x800  zoom 1     bottom 515   on screen   unchanged
+```
+
+**Approved by his eye** — his screenshot shows it scrolled.
+
+### The instruments
+
+On his word, the last two missing were pulled: `dry-guitar-vib` and `otherness`, **13 files each,
+about fifteen seconds apiece**. The store is 63 MB and every piece had what it needed.
+
+### Zed
+
+His screenshot: the only piece still marked, and under it *"could not play — could not fetch"*.
+**Read out of the piece rather than guessed:** `piece-zed@5.2.0` declares
+`[["zed__pad",""],["zed__noise",""]]` and imports `DuoSynth` and `NoiseSynth`. **It makes those two
+sounds.** The blank half is not missing data — it says there is nothing upstream to fetch. We read
+it as a folder name, so the mark could never come off and the fetch could never succeed.
+
+Three places now agree that no folder means nothing to fetch. Measured: 57 of 57 held,
+`ensureInstruments(zed)` returns `{fetched: 0}` and no longer throws.
+
+**Then he ruled: "remove zed".** Done — 56 pieces. His own copy in the chamber is untouched at 57.
+
+### Commits
+
+`f81e9d0` viewport · `738b081` `f304de5` `8538d83` the phone panel, ending measured ·
+`570fbef` the blank folder · `619020b` Zed removed
+
+### Open, and his
+
+- The stylesheet's phone block is **not inside a media query**, so it governs the desktop panel too
+  — desktop measures `top: 128px, left: 8px`, which is that block and not the `left: 16px` written
+  for it. **Not touched.**
+- Each tag group in his list sorts by title; this one does not.
+- A `TEMPORARY` line in `music.js` still prints every instrument request to the console.
