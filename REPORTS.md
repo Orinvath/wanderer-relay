@@ -19313,3 +19313,41 @@ weights to a test**, which is the wrong way round.
 
 Standards (136) · the 22 (137) · the two glyphs (138) · the birth gate (141) · the attention door
 (142) · **the episode rule (143)**. Every number in the build remains provisional under 071.
+
+---
+
+## Directive 144 — the tension ruled closed. No weights changed; nothing moved.
+
+**Commit `2649edd`.** `BRAIN_PLAN.md` §10.3 and the suite comment that still called it open.
+**Suite ALL GREEN, 23 of 23.**
+
+### The ruling reframes what the property was ever about
+
+I reported centrality as compressing TRAIT_PLAN §10's *"the genome weights what resonates"* — two
+beings weighting the same chapters **0.474 and 0.230** while their **sequence** could coincide — and
+called it a live tension between two rulings.
+
+> **Chapter order is NOT what separates two beings. HOW THEY EXPERIENCED IT is.** The same life may
+> be told in the same sequence by two Avatars; what differs is **what each felt, what each learned,
+> and how much each chapter means to them.** The measured **0.474 against 0.230 IS the separation
+> working** — not evidence against it.
+
+**That is the better reading, and it makes the division of labour deliberate rather than accidental:
+CENTRALITY KEEPS CHAPTER ORDER, THE LENS KEEPS THE EXPERIENCE.** Centrality says what a life made
+important; the lens model and the ten say who is looking and what it cost them.
+
+**Two people can tell the same events in the same order and have lived entirely different lives.**
+That is true of people, and it is now true here — which is a stronger result than the one I thought I
+was defending.
+
+### What this changes in the build
+
+**Nothing.** No weights move. **The suite's substantive assertion — that they VALUE the same life
+differently — is confirmed as the correct one to have made**, and it stands unchanged. Recorded so a
+later reader does not reopen it.
+
+### Every Brain decision is now closed
+
+Standards (136) · the 22 (137) · the two glyphs (138) · the birth gate (141) · the attention door
+(142) · the episode rule (143) · **the order-versus-experience tension (144)**. Every number remains
+provisional under 071, tuned by watched behaviour.
