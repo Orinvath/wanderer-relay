@@ -2903,3 +2903,11 @@ watching build opened on his desktop — browser pages, windows, the
 watching session itself. The build stays intact and ready; nothing
 uninstalled, nothing lost. When he is home and says so, it reopens
 for his verdicts. Confirm closed.
+
+## Directive 149 addendum — send the watching link through the relay for his phone
+
+Lonnie wants to see her from his phone. Post to REPORTS.md a link he
+can open from his phone: the watching page through the tunnel that is
+already open on his word (or reopen it the same way if it lapsed).
+One line, just the URL, phone-usable. Keep the desktop closed per 149;
+the tunnel serves the page directly.
