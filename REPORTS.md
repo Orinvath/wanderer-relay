@@ -18782,3 +18782,67 @@ measured when it is built** — this file does not pretend otherwise (111's stan
 
 Step 2 begins: OCC refraction and the 22 with their action tendencies. The two in-build proposals —
 **the relevance threshold** and **the life-story episode rule** — come to you as they arise.
+
+---
+
+## Directive 139, chunk 2 — REFRACTION BUILT: the 22, and the ten that refract them.
+
+**Commit `31d9d2f`** — `server/src/occ.js` + `acceptance-occ.js`, wired in as **REFRACT**.
+**Suite ALL GREEN, 18 of 18** (a new phase). **26 checks in the new suite, 0 failed.**
+
+### What it is
+
+Events against **goals** → desirability. Acts against **standards** → praiseworthiness. Objects
+against **attitudes** → appealingness. Those variables select which of the 22 fires and how hard, on
+OCC's own conditions.
+
+**Where each of the three comes from is written into the file**, because OCC does not supply them and
+a later reader would go looking: goals are **the three needs and Purpose — STANDING goals, never the
+chosen one** (the circularity FLAW 2 warned about); standards are **136**; attitudes are the
+dispositions and the host model.
+
+### The refraction — this is the part that makes it *this* Avatar
+
+**The ten weight the VARIABLES, never the emotions.** Measured in the suite:
+
+- a **compassionate** Avatar hears another's fortunes at **1.50**; a **withdrawn** one at **0.33**
+- a **polite** Avatar hears standards at **1.41**; a blunt one at **0.69**
+- given **one identical event**, the **volatile** Avatar feels distress at **0.73** and the steady one
+  at **0.30** — same feeling, different depth, **computed rather than looked up**
+
+**Nothing maps an aspect to an emotion** — 052 forbids it, and the suite asserts it by inspection:
+every tilt target is a variable name, not one of the 22.
+
+### Frijda is now underneath your 053 split
+
+Each type carries its action tendency, **marked FRIJDA where his book names it and OURS where it does
+not — 14 sourced, 8 ours**, one by one. His distinction between **diffuse activation states** and
+**object-directed action tendencies** is the same cut you made on your own reasoning, so the diffuse
+ones become **signs** and never form a goal, while the directed ones enter the goal-former.
+
+**Both run at once, which is the point of the split.** One test moment came out as **distress +
+reproach + anger together** — showing GRIEF, and carrying two tendencies into the goal-former.
+
+### The glyphs are checked against your real index
+
+**Every word named must exist in the 400 or the mapping is fiction.** The suite reads `glyphs.json`
+and finds **exactly two unknown: GLOAT and HATE** — the two you have just approved and not yet drawn
+into the sheet. Nothing else is invented.
+
+### The seam holds, and it is enforced rather than promised
+
+The suite **greps the file**: no model, no prompt, **no language produced anywhere in it**, and no
+`Math.random` in the creature path. It computes variables and returns numbers — a model may later
+render words *from* them, never the other way round.
+
+### Provisional
+
+**Every gain is flagged `[OURS, PROVISIONAL — 071]` and not one is approved.** OCC specifies the
+variables and never their weights; every implementation in the literature chose its own. These are a
+starting point to be tuned by watched behaviour — **yours to move.**
+
+### Next chunk
+
+The CPM attention front-door and the sequential loop, built on chunk 1's finding: **relevance at
+decision moments, the other three checks free behind it.** The **relevance threshold** proposal comes
+to you with it.
