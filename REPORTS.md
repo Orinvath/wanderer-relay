@@ -20383,3 +20383,38 @@ goes looking for what 104 granted — and **"IT WORKS" sitting alone in a header
 sentence that grows into "the watching build passed" six months from now.**
 
 **FULL SUITE: ALL GREEN.**
+
+---
+
+## Directive 155 — the game is the loop, and it is complete. `e9e2705`
+
+**His word for the whole game — and the middle of it was the part the game did not have.** She hid,
+and she came home, and **nothing ever found her.** The ending was always her running out of moves or
+deciding she was hidden enough — which is her *stopping*, not her being *found*.
+
+`found()` is the whole of the addition. It is the **same** coming home, because being found and
+giving up hiding are one act; it only says what happened rather than that she ran out.
+
+**No score, no win, no lose** — and the suite holds that too: a check that there is no `score`, no
+`won`, no `lost` on the run. **A game with a winner is a different game, and he did not ask for
+one.**
+
+### Measured — the loop end to end, real WorldState, his real painting
+
+```
+she hides             6 moves, 95.0% hidden
+the host finds her    ending: found
+she comes home        adapting off, her own #7fecd4 back
+```
+
+Sparks (153) landed before this and are reported. **HIDING is in `CANDIDATE_GAMES` and the
+goal-former offers it. As-is, complete.**
+
+### What I did not build, and it is his
+
+**The host-facing gesture** — the button, or the moment where a person says *"found you"*. `found()`
+is the capability; **where the finding happens on a screen is interface, and interface is his.** The
+game does not need it to be complete, because the loop is complete without deciding where the hand
+goes.
+
+**FULL SUITE: ALL GREEN**, GAMES 57 checks.
