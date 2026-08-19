@@ -2976,3 +2976,11 @@ the stillness — the hide reads true to his eye. On-sight approval per
 104 is GRANTED pending only the sparks (153) landing to the same
 standard. Record the pass. Sparks report next, then the HIDING game
 joins her capability set for real.
+
+## Directive 154 correction — the pass is HIDING ONLY
+
+Lonnie's scope correction: what was tested and passed is THE HIDING —
+nothing else. No other system (the watching build, her behavior, the
+Brain live, any number) has been judged; those verdicts come when he
+tests them deliberately. The record reads: HIDING passes on sight
+(pending sparks to the same standard). Nothing else claims a pass.
