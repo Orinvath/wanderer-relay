@@ -21761,3 +21761,103 @@ what the URL in his hand returned.** Same shape of mistake, second time today.
 **FULL SUITE GREEN**, TESTNET skipped as all session.
 
 **His eye is the test, and it closes when his phone shows five heads.**
+
+## Directive 174 — Four dead spaces: redesigned, and the squish measured
+
+**His verdict:** *"none of them are really good enough — look at the DIVERSITY OF
+THE STAR, how many different shapes it makes. The other four are just SQUISHING
+AND STRETCHING."*
+
+**He was right, and the fault had a name I could put a number on.** Squishing and
+stretching is an **affine map** — scale, stretch, shear, turn, flip. So the first
+thing built was not a shape, it was the **measurement**: whiten each outline by its
+own moments, which divides every affine map out, and see what survives. **0.00
+means the same head resized.** Everything below is that number.
+
+**THE CONTROL CAME FIRST**, because a measure that cannot fail proves nothing —
+that is the hole I put in my own wipe test at 161 and my ring test at 172. Each
+shape is fed its own stretched, squashed and sheared copies and the measure must
+call them identical. **It failed the first time at 0.0125.** Not a real difference:
+my rotation search only aligned at whole samples, and a star measured against *its
+own copy turned one degree* came out at 0.019. **Fixed by aligning properly, not
+by widening the threshold until the wrong answer fitted inside it.** Worst control
+now **0.00099**.
+
+### What was actually wrong, dial by dial
+
+- **`aspect` on the orb and the diamond, `width` on the drop** — pure affine.
+  **Gone.** Not renamed, not defaulted: removed, per *they go and stay gone*.
+- **A `lean` for the drop was designed and then thrown out** by the same test — a
+  shear is affine, so a leaning drop is the upright drop tilted. It looked like an
+  axis. It was not.
+- **`Ro` was being walked on the sheet** and the drawing divides by it, so **a whole
+  row was the same picture six times.** One of the dead rows he was looking at.
+- **`lobes` walked from a base whose `swell` was zero** draws one picture seven
+  times too — the plainest setting switches half a type's own dials off. Dials are
+  now walked from a **live middle** of each space.
+- **`bevel` had a cliff at zero**: my turned polygon started at a size that already
+  cut the corners, so the shape jumped to heavily truncated the instant the dial
+  left zero. Reformulated so the flats grow from nothing.
+
+### The new spaces — 26 dials, every one measured
+
+- **orb** — lobes, swell, egg, cut, round. A ball, a berry, an egg, a moon, a tile.
+- **lens** — rebuilt. The true vesica was *correct and dead*: two arcs have no
+  freedom left, so its only dial was how fat it is, which is the dial he threw out.
+  Now a width profile: hold, tip, lopsided, wasp, flutes. Rhombus, eye, needle,
+  hourglass, leaf.
+- **diamond** — corners, edge, bevel, skew, **swirl** (the edges lean all one way: a
+  pinwheel, a ratchet). It measured worst of the four and the reason was plain once
+  the number existed: corner count and edge bow **both run toward round**, so most
+  of the space collected in the same place. A leaning edge does not.
+- **teardrop** — taper, belly, shoulders, flutes, frill, sides, base.
+
+### Diversity now, against the standard he named
+
+| | before | now |
+|---|---|---|
+| **star** (the standard) | 0.338 | **0.341** untouched |
+| orb | 0.138 | **0.225** |
+| diamond | 0.050 | **0.163** |
+| lens | 0.077 | **0.122** |
+| teardrop | 0.071 | **0.103** |
+
+**All four are up — the diamond more than threefold — and NOT ONE OF THEM HAS
+CAUGHT THE STAR.** I am not going to dress that up.
+
+### The wall two of them ran into, and it is not the maths
+
+The surface is **one fan from the centre to the rim**, so it can only hold a shape a
+ray leaves exactly once. **The drop's best shapes — real spades, hearts, flames with
+deep tongues — fold it.** I tested moving the fan's centre down into the body before
+building anything: **it does not rescue them.** The same wall rules out a **crescent**,
+which is the single strongest idea the lens's nature offers.
+
+So **for the drop and the lens the ceiling is now the surface, not the outline.**
+Folded draws are rejected rather than drawn — a wall that showed them would be
+showing you a head you could never be given — and the share of each space that is
+buildable is printed on its own page (**58% and 60%**).
+
+### The one thing I will not decide
+
+**Your two rulings can collide here.** 170: *the five are five, each must be that
+head.* 174: *match the star's diversity.* A star is simply a more elaborate form
+than an orb — an orb's defining property is that it has **no** angular variation.
+Pushing the four hard enough to match 0.341 means adding features that may stop them
+being an orb, a lens, a drop and a diamond at all. **Where that line sits is yours.**
+One overlap already exists and is named in the code rather than hidden: **a lobed orb
+at low swell and a very blunt star are the same kind of picture.**
+
+### On his screen now
+
+Same link. **Five walls, one per type, the star among them** — the comparison he made,
+made directly — each with its measured number, then every dial walked wide underneath.
+**386 images, all verified loading through the tunnel; all five type pages 200.**
+
+Suite **green**, 44 avatar checks passing, TESTNET skipped (public testnet
+unreachable — it proved nothing). Commit `6f8c286`.
+
+**Still his, and nothing here is decided:** whether each of the five *is* that head,
+the per-type legal ranges, whether the point-up drop is right, whether the fences
+clip/reflect/resample, and now whether these four may stop being simple to catch the
+star.
