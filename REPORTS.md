@@ -20452,3 +20452,81 @@ Per 118, none of this is reported as working. **His verdict is the result**, per
 own words.** A failure is a result, not an argument.
 
 Nothing was built for this directive and nothing in the project changed.
+
+---
+
+## Directive 157 — the stepping is dithered; the Planes rows dropped the file name
+
+### 1. The banding — and there were TWO marchers, not one
+
+His eye was on the shafts. Both things that draw them march along a ray, and **only one of them
+had any offset at all**:
+
+| | before | after |
+|---|---|---|
+| `vol-light.js` — the dust in the air | white-noise hash, `fract(sin(dot(...)))` | interleaved gradient noise |
+| `god-rays.js` — the sun's streaks | **nothing. Every pixel started at the same phase.** | interleaved gradient noise |
+
+**god-rays is the one that had no dither at all**, and its 64 samples all lined up across the
+screen. If his eye was catching rings, that is the likelier of the two to have drawn them. I did
+not guess which he meant — both march, so both are fixed.
+
+**Why the old white noise was not enough.** It does scatter the ray starts, but white noise clumps:
+neighbouring pixels can draw nearly the same offset by chance, so the coverage is uneven and what
+survives reads as static. Interleaved gradient noise (Jimenez, Call of Duty: Advanced Warfare — the
+family Playdead used in INSIDE for exactly this) is built so any small patch of pixels covers 0..1
+**evenly rather than by luck**. That single property is the whole reason it hides stepping better.
+Three constants and two fracts: **cheaper than the sin/hash it replaces**, not dearer.
+
+### The "optionally frame-shifted" part — built, and left OFF, and here is the honest reason
+
+**Animating the pattern does not make the grain vanish on its own.** It only vanishes when frames
+are averaged together afterwards, which is what a temporal filter does — and **this page has no
+temporal filter**. Turn it on here and still grain becomes crawling grain, which on a slow shaft
+reads worse, not better.
+
+So it is off, item 1 keeps its own promise that behaviour is otherwise identical, and it is **one
+word in each file** (`ANIMATED_DITHER`) if he wants to see it. **His call, not mine.**
+
+### The haze gradient — not touched, and I will not pretend I checked it
+
+Item 1 said dither the haze gradient **if it bands**. Haze lives in the sky and fog settings
+(`physicalSkyHaze`, `heightFogHaze`), and **the Stage page has no sky dome** — its own source says
+so. There was nothing there for me to look at, so **nothing was changed on a guess**. If he sees
+banding in the haze on a page that does have a sky, that is a real finding and I will take it.
+
+### 2. Planes Load rows — the file name is gone
+
+`file.name` no longer appears in the Planes rows. What is left is the only part that was ever news:
+
+```
+empty plane        none
+painting, no depth flat
+painting + depth   depth ✓
+```
+
+The folder is already named for the plane, so the file name was saying nothing the row did not
+already say — while being the longest thing in it. **Progress messages stayed** (`storing…`, the
+depth status, `failed`): those are the control's own state, not a file name.
+
+**Named, not decided:** the **Painted Sky** row still shows its file name. The directive said
+*Planes*, so I changed *Planes*. **Whether Painted Sky should match is his.**
+
+### Two mistakes of mine, both caught before they reached him
+
+1. I wrote Python's `a if c else b` into a JavaScript template slot. Caught by parsing the module.
+2. I put **backticks** around a code quote inside a backtick template literal — which closes the
+   string. **Same trap as `demo-hiding.js` and `store.js` before it.** Caught the same way.
+
+Both were fixed before anything was committed. Neither reached the page.
+
+### Verified
+
+- Both modules parse; `uTime` is declared above the noise in each, so **flipping his switch cannot
+  break the shader**.
+- The running Stage is **serving the new code**, checked over the wire, not assumed.
+
+**FULL SUITE: ALL GREEN** — every suite ran and passed, PHASE 3 included.
+
+**Not claimed to work.** Per 118, the shafts are on his screen and **his eye rules**. I will record
+his verdict as he gives it.
