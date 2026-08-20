@@ -3147,3 +3147,17 @@ THE PARTS.
 5. PLAN ONLY: the parameter-space design per part, the gene mapping,
    the Form-1 regression requirement, into ROE_PLAN.md /
    AVATAR_SYSTEM_PLAN.md. Report for approval. No implementation.
+
+## Directive 169 — Build order approved: head/eye → sparks → body
+
+Lonnie approved the order: the shared head/eye shape generator first
+(the space his blueprint already wrote — one generator instantiated
+twice), then sparks, then the body's structural axes last with his
+drawings as the reach test. BUILD BEGINS on head/eye: the generator,
+its gene block, Form 1's coordinates reproducing her exactly (geometry
+regression in the suite), and the oatmeal measurement re-run on the
+new space — 0.70 is the number to beat. The remaining three decisions
+(legal ranges, body axes, enough-variation) come to him as each stage
+reaches them, with visuals where ranges are the question — ranges ARE
+the look, and his eye rules the look. Report per stage, run to
+completion per 148.
