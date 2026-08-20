@@ -3211,3 +3211,14 @@ capabilities (133 governs):
 
 PLAN into ROE_PLAN.md now (cited, flaws first); implementation queues
 after the head types and sparks per the approved order. Report.
+
+## Directive 172 — Answered from standing law: make the interface change. The teardrop gets traced.
+
+Lonnie's pipeline law answers this without him: FIX BY REMOVING THE
+CAUSE, NEVER BY PATCHING. The diagnosis is structural (radius-per-angle
+cannot draw a drop tip); the cause-fix is the traced-outline interface.
+Make it: the generator supports traced boundaries alongside queried
+ones, the teardrop drawn properly with a true point, type one's
+regression untouched (her head still vertex-exact). No more formula
+guesses inside the broken frame. Report with the corrected sheet;
+his eye rules all five types together.
