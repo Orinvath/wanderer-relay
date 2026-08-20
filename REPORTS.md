@@ -20887,3 +20887,117 @@ Chrome's rule, not a fault in the Wanderer** — and it now says so instead of h
 
 **Not claimed to work — his ear rules: pick a score with the music on, and it should sound without
 touching the world first.**
+
+---
+
+## Directives 165 · 166 · 167 — and the row text, which took five goes
+
+### THE PAINTING ROWS — his word in the terminal, and I got it wrong three times over
+
+His words: *"changing it to say 'none' is not the same as REMOVING them like I ask. When I say
+remove them, I mean I don't want them to show in the panel at all."*
+
+**He is right, and this is the whole shape of the failure:**
+
+| when | what he asked | what I did |
+|---|---|---|
+| 157 | take the file names off the plane rows | took the name off, **left a word in its place** |
+| 162 | strip every trailing string | *(superseded before I polled it)* |
+| 163 | keep the status | reported it already correct — **it was correct only against 163** |
+| now | remove them | **removed** |
+
+**"None" is not removal, it is renaming.** It was still a string on the end of the row, still
+stretching the row past the width of his panel, still the clutter he had asked about twice. The row
+is now `Painting · LOAD · CLEAR` **and nothing else** — no name, no status, no progress word.
+
+**Painted Sky had it worse and I had left it there.** That row was showing the painting's **actual
+file name** — the longest string anywhere in the panel, one row above the Planes he was pointing
+at, running off the same edge for the same reason. **Gone too.** I flagged it as "his call" back in
+157 and then left it sitting there; his rule as he has now stated it answers it, and it should not
+have needed him to say so twice.
+
+The progress text has nowhere to show because there is nowhere for it to show. **The painting
+appearing on the plane is the proof it worked**, and that was always the honest one.
+
+**Five attempts on one instruction, and that is on me.** The first one should have been the last.
+
+### 165 — Sky Influence and Sun Shading removed
+
+Both rows are gone from Planes. **What read them, checked before removing as he asked:**
+
+They were not dead in the way 158's were — **they do feed the shader**: `uSkyAmount` and
+`uSunShading` on the plane material. But his ruling is about what they were BUILT for. Sky
+Influence washes a plane with the colour of a **sky dome**, and there is no dome here — it was
+being taken against a plain white sky. Sun Shading shades it by the dome's sun, and there is no
+sun — the shader picks its own direction. **Both were moving a number against a stand-in.**
+
+**FLAGGED, and it is his:** the two values still exist and the shader still reads them, so the
+effect goes on running at whatever a world holds (**70% sky, 0% sun** by default) with no row to
+change it. **I did not rip the effect out, because that changes how every saved world looks and
+that is a look decision, not a cleanup.** Say the word and it goes.
+
+### 166 — never open a Chrome window. Standing law.
+
+**Written into `CLAUDE.md` beside the others.** Never a window, never a tab, for any reason —
+not to show him a change, not because a launch flag only applies to a new process. When a page
+has changed I say one line and stop:
+
+```
+Stage updated — reload
+```
+
+**It overrides "show me = open it on his screen" wherever the two disagree.** The window he saw go
+up had been launched before I read this directive, which does not undo it. **It has not happened
+since and it will not.**
+
+### 167 — worlds save as files: THEY ALREADY DO, and I should have said so instead of building
+
+**I studied his World Panel as instructed. Then I checked ours, found the thing he asked for
+already existed, and quietly decided that on my own instead of telling him. That was not my call.**
+
+**What is true, on his own disk, right now:**
+
+```
+server/data/worlds/Overlook.json      7008 bytes
+```
+
+His own saved world — **a real permanent file**, holding **108 tagged settings**, his three planes,
+and a list of the 127 tagged settings it could not find because those panels are not ported yet.
+`godRaysStrength`, `godRaysDensity`, `musicPiece`, `musicOn`, `wispCount` are all in it, by name.
+Save writes it, load reads it, delete removes it. **That is items 2 and 3 of this directive,
+already standing.**
+
+**What is genuinely NOT ported, and it is a different thing:** his **Export World** —
+`exportWorld.js`. That does not write a settings file; it writes **a whole folder that stands on
+its own**: `world.json` plus **copies of every file the world needs** — the paintings, the depth
+maps cut from them, the materials, the photographed sky, the music samples — with nothing pointing
+back at the project it came from. His comment on it: *"A preset saves settings. An export saves
+the PLACE."* It also carries her — persona, mind and voice.
+
+**THE QUESTION, and it is his:** is Export World what he wants ported? It is real work and most of
+what it gathers (sky, materials, primitives) belongs to subsystems not ported here. **I am not
+starting it on a guess.**
+
+**What I did build, because he asked for it outright:** the file round-trip suite check.
+Save to a file, then load that file into a **WorldState built fresh that has never held any of
+those values** — so everything it ends up holding can only have come off the disk. The earlier
+161 check used one object at both ends, which a save that wrote nothing would have passed.
+
+```
+a world is a REAL FILE on disk, in his shape          ✓  111 settings · 3 planes
+loading that FILE into a world that never held them   ✓  70 controls, read back off the disk
+the fresh world really was fresh                      ✓  a no-op load would fail
+the file is gone when the world is deleted            ✓
+```
+
+**Proved it bites:** dropped the god-rays keys from what the file writes; it failed and **named all
+nine of them.** Restored.
+
+### Verified
+
+- **FULL SUITE GREEN** — everything that ran, passed. **TESTNET SKIPPED**: the public testnet was
+  not reachable this run. That is a skip by design, not a pass, and it is unrelated to any of this.
+- **His saved worlds were not touched** — `Overlook`, `Test`, `before-viewport-restart` and the
+  default are all as they were. The test worlds delete themselves.
+
+**Stage updated — reload.**
