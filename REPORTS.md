@@ -20639,3 +20639,63 @@ so it reached nothing, but **it is a habit and I am naming it as one.**
   **open on his screen** for the retest.
 
 **Not claimed to work. 2, 3 and 5 await his eye. 4 awaits his word.**
+
+---
+
+## Directive 159 — the Worlds folder shut itself, and it was one word
+
+### What was wrong
+
+A section remembers whether it is open **under the name written on its own head**. The click
+handler stores `folderName(head)` — for this folder, **"Worlds"**. The line that builds it asked
+`startsOpen('Presets')` — **a name nothing ever stores.** So the answer was always no, and **every
+rebuild built it closed.**
+
+```
+he opens it   ->  remembered as "Worlds"
+it rebuilds   ->  asks for "Presets"   ->  not found  ->  closed
+```
+
+**Picking a world reloads and rebuilds, which is why picking is when he saw it — but any rebuild
+did it. Moving a plane slider closed it too.** He was seeing one symptom of a wider fault.
+
+### Where it came from — and it is my transcription, not his panel
+
+**His panel is correct.** In `Gui.jsx` the head says `Presets` and the line says `Presets`, and the
+two agree, which is exactly why his stays open:
+
+```
+his:   head.append(document.createTextNode('Presets '), caret())
+       startsOpen('Presets')          <- agree
+
+ours:  head.append(document.createTextNode('Worlds '), caret())
+       startsOpen('Presets')          <- do not
+```
+
+**The head was renamed to "Worlds" here; this line was not, and nothing could have complained.**
+Matching the portal's behaviour, as he asked, means making the key BE the head again. It now is.
+
+### Checked the rest, not just the one he saw
+
+Every other section: **Planes, Props, Lights, Music Score all agree** with their own heads.
+**Painted Sky** takes its key from the title it is handed, so it cannot desync. **This was the only
+one.**
+
+### The hazard is still there, and it is his call
+
+The fix is right, but **the cause is that a folder's name is written twice** — once on the head,
+once in the call — **with nothing tying them together.** Rename any head and that folder silently
+forgets itself again, exactly as this one did.
+
+**Deriving the key from the head would end it for good.** I have not done it: it means touching all
+six of his transcribed sections, and that is a change to his structure, **which is his and not
+mine.** Say the word and it is a small change.
+
+### Verified
+
+- The served page carries the fix, checked over the wire — and the modules are now `no-store`
+  since 158, so **his reload cannot show him a stale copy of this one.**
+- **FULL SUITE: ALL GREEN**, PHASE 3 included.
+- The Stage is **open on his screen.**
+
+**Not claimed to work — his eye retests.**
