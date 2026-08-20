@@ -21861,3 +21861,91 @@ unreachable — it proved nothing). Commit `6f8c286`.
 the per-type legal ranges, whether the point-up drop is right, whether the fences
 clip/reflect/resample, and now whether these four may stop being simple to catch the
 star.
+
+## Directive 174 addendum — The research, cited, and what the wrong order cost
+
+**He asked for the research FIRST.** The addendum landed on origin while 174 was
+already being executed, so the redesign was built before this was read. **What
+that cost is measured below, not glossed.** Full report:
+`CC-Wanderer/PROCEDURAL_SHAPE_RESEARCH.md`. **Parked per 175** — no sheets built,
+nothing wired into the generator.
+
+**The finding that matters, and it is measured rather than summarised.** Gielis'
+**superformula** (2003, *American Journal of Botany*; the equation Hello Games used
+in No Man's Sky) is a radius-per-angle function — **exactly our queried interface**,
+a drop-in. I fitted it against our own types with the same measure:
+
+| our type | closest superformula |
+|---|---|
+| **orb** | **0.0002 — indistinguishable** |
+| **diamond** | **0.0121 — very close** |
+| star (hers) | 0.0312 — close, not exact |
+
+**Two of the generators I hand-built are a subset of one published equation.** Per
+*actually adopt premade solutions*, the recommendation is to replace both with it —
+fewer moving parts for the same shapes. **Her star is NOT replaced:** 0.031 is a
+visible difference and her head is exact or it is nothing.
+
+**But the obvious conclusion is wrong, and this is the Rule Zero part.** I measured
+the superformula's own diversity over 32 draws: **0.229 — level with my orb and
+BELOW his star's 0.341**, with a closest pair of **0.004** against our 0.027. **The
+famous equation is not more diverse than what we have; it has its own large region
+where every draw is the same shape.** Adopting it is a *simplification*, not a fix.
+
+**The rest, each with its flaws first:** harmonic outline synthesis (Kuhl & Giardina
+1982; LOCO-EFA 2018) fits our traced side perfectly and would give lobes properly —
+but its coefficients are not dials a person can hold. **Metaballs** (Blinn 1982; used
+in Spore) are **the documented answer to the crescent and the deep-necked spade** —
+and they cost the vertex-exact regression that is her whole safety net. **Sims'
+directed-graph genotype (SIGGRAPH '94) and Spore's part graph (Hecker, GDC 2007)**
+are the *body's* answer, not the head's, and the closest published thing to what
+ROE_PLAN describes for MUTATE and CROSS. **L-systems** are the tendrils'.
+**Noise-driven deformation is named and NOT recommended** — it is the oatmeal
+generator exactly: infinite variation, all of it the same kind.
+
+Everything cited with links. Commit `ef561ce`.
+
+## Directives 175 & 176 — The Brain-completion plan. STOPPED FOR HIS WORD.
+
+**175 says plan first, his approval, then run to completion.** So this is a plan,
+**nothing is built**, and this is where it stops. Full plan:
+`CC-Wanderer/BRAIN_COMPLETION_PLAN.md`, commit `846e978`.
+
+**I surveyed the code before planning, and the news is good.**
+
+- **`Watching.tick()` already emits nearly the whole contract 175a asks for** —
+  needs, lowest, temperature, what she chose **and why**, bearing, what she felt, her
+  glyphs, whether it was noticed. **The contract is mostly naming and sealing what
+  exists, not writing a new mind.**
+- **The Brain path is already almost embodiment-agnostic.** I checked every module on
+  it: `goals.js`, `needs.js` and `appraisal.js` mention the creature **only in
+  comments**. There is **exactly one real coupling** — `effects.js` pulls colour
+  arithmetic out of `adapt.js`, the octopus. A utility in the wrong house.
+- **`Watching.view()` is where the wisp leaks**: it hands the page `body: {vertices,
+  regions, strands}`. That is the one line a sphere cannot satisfy.
+- **PHASE 3's flakes have a cause:** the unreliable checks assert on **how the local
+  model phrased something** instead of on the property under test.
+
+**The four stages, in order:** (1) the contract, with a suite check that **fails if
+any Brain module imports the creature, the shape or the octopus**; (2) the **glowing
+sphere as embodiment #0**, proved by 176's own test — *the same Brain session drives
+sphere and wisp with no code change*; (3) **proven live** — a long watch judged by
+him, the provisional numbers named up front (attention threshold, the bearing scale,
+hours per tick, salience) and tuned on watched behaviour, the seam under the real
+qwen2.5:14b, no doubles; (4) **hardened** — assert the property, never the phrasing,
+and where the model's judgement *is* the test, run N and require all N. TESTNET stays
+a skip that says it proved nothing.
+
+**Why that order:** tuning a mind still wearing a wisp tunes the wisp, and a contract
+with one implementation is just a description of that implementation. **Hardening is
+last only because it touches the same checks stage 3 leans on — it has no dependency
+and moves to first if he wants it there.**
+
+**What is his, and I am not deciding any of it:** whether to run this and in what
+order; **how a feeling becomes glow, colour, pulse and movement** — that is a look,
+and looks are his; and every provisional number in stage 3. Those come **with
+sheets, when those stages reach them**, not now as a wall of questions.
+
+**Parked, nothing lost:** heads, sparks, body axes, and the shape research.
+
+**Awaiting his word before any Brain work begins.**
