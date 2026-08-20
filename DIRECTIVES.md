@@ -3038,3 +3038,15 @@ Lonnie's eye: choosing a world from the Worlds folder preset
 auto-closes the folder. It should stay open — picking is not a reason
 to collapse the panel section he is working in. Match the portal's
 folder behavior (112). His eye retests.
+
+## Directive 161 — World presets must save EVERYTHING
+
+Lonnie's eye: God Rays settings are NOT saved in World presets —
+possibly Music too. Rule: a World preset saves the WHOLE stage state —
+every folder, every row, every toggle (God Rays, Light in the Air,
+Wisps, Sun, Planes, Painted Sky, Props, Music Score, all of it) — so
+save and load round-trip the complete world exactly. Audit what the
+preset currently captures against the full control set, close every
+gap, and suite-check the round trip (save, wipe, load, compare all
+values). His eye retests: save a world with rays and music set, reload
+it, everything returns.
