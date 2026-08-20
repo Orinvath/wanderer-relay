@@ -21457,3 +21457,28 @@ after that.
 
 **FULL SUITE GREEN**, TESTNET skipped as all session. Two commits: the space and its regression,
 then the sweep.
+
+---
+
+## Directive 169 addendum — the dial sheet, on his phone
+
+**https://cds-dome-deals-decisions.trycloudflare.com**
+
+**Rebuilt for a phone rather than shrunk to fit one.** Seven across at phone width is a 55-pixel
+cell — that is being told a shape exists, not looking at one. So **each step is its own image and
+the page reflows**: two up on a phone, all seven across on a desktop, and **every cell carries its
+own value underneath**, because on a phone he cannot count along a row to work out which step he is
+looking at. **Gold is hers.**
+
+**Six dials, 42 steps: points · sharpness · open centre · waist · falloff · thickness.**
+
+**Checked through the tunnel, not just locally:** the page returns 200, all **42 of 42** images
+return 200, and all 42 are referenced by the page.
+
+**One thing he should know rather than discover:** the tunnel he had was on the Stage, and **it
+exited on its own** while the desktop session was running — cloudflared updated itself and the
+process ended. **This is a new tunnel on a new URL**, serving only this sheet. The old Stage URL
+will not answer.
+
+**Nothing is decided.** The spans are deliberately too wide — the point is to show where it breaks,
+not where it is safe. **His range fences come back through the director.**
