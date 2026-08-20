@@ -3000,3 +3000,15 @@ awaiting his eye (the desktop panel move to left 796 / top 72, the
 one-row launchers, the Worlds folder redesign, and the current state
 of her and the stage). One line announcing it. His eye rules on the
 panel changes; report his verdicts as he gives them in the terminal.
+
+## Directive 157 — Dither the volumetric light; clean the Planes Load rows
+
+1. DITHER THE STEPPING (Lonnie's eye on the shafts; researched, the
+   standard fix): per-pixel noise offset to the ray sampling start
+   (blue noise / interleaved gradient noise — Playdead Inside lineage,
+   the documented raymarch-banding cure), optionally frame-shifted so
+   even the grain vanishes; output dither on the haze gradient if it
+   bands. Visual behavior otherwise identical. His eye retests.
+
+2. PLANES LOAD ROWS: remove the file names from the Load option
+   display — the row shows the control, not the loaded file's name.
