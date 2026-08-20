@@ -3314,3 +3314,12 @@ sphere offers — anything richer is the embodiment's elaboration.
 The watching build gains a sphere mode; Brain development and tuning
 run against the sphere by default. Suite: the same Brain session
 drives sphere and wisp without code change — the contract proof.
+
+## Directive 177 — Brain plan APPROVED. Run it, committing along the way.
+
+Lonnie approved the four stages as ordered (contract → sphere → proven
+live → hardened), with his condition explicit: COMMIT ALONG THE WAY —
+each meaningful step lands as its own commit, no big-bang deliveries.
+Run to completion per 148; stop only at walls or the decisions the
+plan already reserves for him (the feeling-to-sphere look with sheets,
+the stage-3 numbers on the watch). Report per stage.
