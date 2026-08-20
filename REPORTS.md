@@ -21711,3 +21711,53 @@ that is a reading, so it is one axis swap to flip and his to rule.**
 the fences clip or reflect.
 
 **FULL SUITE GREEN**, TESTNET skipped as all session.
+
+---
+
+## Directive 173 — he was on the right link. I put the wrong sheet on it.
+
+**https://cds-dome-deals-decisions.trycloudflare.com**
+
+### Not stale, not mobile. My filing.
+
+**Not the tunnel, not a cache, not a mobile render failure — and I checked before changing
+anything.** Fetched through the tunnel:
+
+```
+ROOT      <h1>Shape dials — where may each one go?      ← type one only
+/heads/   <h1>Five heads — is each of these that head?  ← the five
+```
+
+**The five-type sheet went to `/heads/` and the root kept the old type-one sheet.** The link he has
+— the one I posted for the phone in the 169 addendum — **is the root.** So he opened exactly the
+right link and got exactly what I left there. **His eye was right and the fault was my filing.**
+
+### Fixed so that any link he holds works
+
+- **the five are now at the ROOT**, which is the link on his phone
+- **`/heads/` still serves them too**, so the links posted in the 170 and 172 reports keep working
+- **type one's own dials moved to `/dials/`**, with a link each way — *"type one's own dials →"* and
+  *"← all five heads"* — so nothing is lost and neither sheet is a dead end
+
+### Verified through the tunnel, not locally
+
+```
+ROOT  <h1>Five heads — is each of these that head?
+orb · star · teardrop · lens · diamond   — all five named in the served HTML
+their five images                        — 200 each
+every image the page asks for            — 95 of 95 load
+dials/ 200   ·   heads/ 200
+```
+
+**Checked from outside, because "it works on this machine" is what put the wrong page on his link in
+the first place.**
+
+### The lesson, and it is the same one as the plane rows
+
+**I verified the thing I built and not the thing he opens.** In 157 I proved the server was serving
+new code and never asked what his browser showed. **Here I proved the five rendered and never asked
+what the URL in his hand returned.** Same shape of mistake, second time today.
+
+**FULL SUITE GREEN**, TESTNET skipped as all session.
+
+**His eye is the test, and it closes when his phone shows five heads.**
