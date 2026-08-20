@@ -2992,3 +2992,11 @@ hides, the host finds her, she comes home. That loop IS the game. No
 win/lose design, no elaboration. Land the sparks (153) to the passed
 standard, then HIDING joins her capability set as-is, complete.
 Report when done.
+
+## Directive 156 — Lonnie is home: load the Wanderer for the panel review
+
+Open the Wanderer on his desktop now — the page with the panel changes
+awaiting his eye (the desktop panel move to left 796 / top 72, the
+one-row launchers, the Worlds folder redesign, and the current state
+of her and the stage). One line announcing it. His eye rules on the
+panel changes; report his verdicts as he gives them in the terminal.
