@@ -3031,3 +3031,10 @@ panel changes; report his verdicts as he gives them in the terminal.
    rows secretly depend on them, say so in the report before removal.)
 
 His eye retests 2-5 on the same page.
+
+## Directive 159 — Picking a world must not close the Worlds folder
+
+Lonnie's eye: choosing a world from the Worlds folder preset
+auto-closes the folder. It should stay open — picking is not a reason
+to collapse the panel section he is working in. Match the portal's
+folder behavior (112). His eye retests.
