@@ -20418,3 +20418,37 @@ game does not need it to be complete, because the loop is complete without decid
 goes.
 
 **FULL SUITE: ALL GREEN**, GAMES 57 checks.
+
+---
+
+## Directive 156 — the Wanderer is on his screen
+
+Chrome is open on his desktop with both pages, because the four things named for his eye do not
+live on one page:
+
+| Window | What is in it |
+|---|---|
+| `127.0.0.1:8795` — **the Stage** | the panel at **left 796 / top 72**, the **one-row launchers**, the **Worlds folder** redesign, and the stage itself |
+| `127.0.0.1:8793` — **the watching build** | **her**, living, in the staged world |
+
+**Checked before opening it, not after.** The Stage server has been up since before the panel work
+landed, so I compared what it is actually SERVING against the file on disk rather than assuming:
+`/browser/panel.css` comes back with the 1100px wrap, the `--wx-phone-zoom` block and the one-row
+desktop launchers all present. The page he is looking at is the current work, not a stale copy.
+
+The Stage panel sits at 796 because the panels fan out by slot and the Stage's is the fourth —
+`left: calc(16px + (250px + 10px) * n)`. That is the measured position, not a chosen one.
+
+### Awaiting his eye — nothing here is claimed to work
+
+Per 118, none of this is reported as working. **His verdict is the result**, per item:
+
+1. the desktop panel at left 796 / top 72
+2. the launchers in one row
+3. the Worlds folder redesign
+4. the current state of her and the stage
+
+**I will record each verdict as he gives it in the terminal — approved, or failed his eye, in his
+own words.** A failure is a result, not an argument.
+
+Nothing was built for this directive and nothing in the project changed.
