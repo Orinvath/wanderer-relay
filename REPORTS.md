@@ -21482,3 +21482,75 @@ will not answer.
 
 **Nothing is decided.** The spans are deliberately too wide — the point is to show where it breaks,
 not where it is safe. **His range fences come back through the director.**
+
+---
+
+## Directive 170 — five heads, not five settings of one. And one of them I could not get right.
+
+**https://cds-dome-deals-decisions.trycloudflare.com/heads/**
+
+**His correction, and I had it wrong.** Stage 1 built one space and called his five drawings five
+coordinates in it. The sweep then produced a lens-ish and an orb-ish shape and **I reported that as
+"the space already reaches his named shapes."** That is **resemblance**, and his ruling says plainly
+that resemblance is not the ruling. **His five are five.** The framing is replaced, and the old
+framing is written into `shape.js` where the next reader will meet it.
+
+### What is built
+
+- **A head-type gene**, validated on the way in exactly as the form gene is — *"a Roe naming a head
+  nobody has built is a creature that cannot be grown, and it should say so here, not later."*
+- **Five separate outline generators**, each with its own dials, each derived from the property that
+  makes that silhouette *that shape and nothing else* — not from settings of the star.
+- **The recovery method written down as it runs**, five steps, ending at *"HIS EYE against his
+  drawing decides whether it is that head at all."*
+- **Type one is hers and is untouched: 96,000 vertices, largest disagreement 0.**
+
+### The check that matters
+
+Comparing the five outlines **with scale removed**, so a type cannot pass by being another type
+resized:
+
+```
+closest pair  star/diamond  differs by 0.176 of a radius
+```
+
+Plus: every type builds a finite, non-collapsed surface, and a check asserts the file still says
+**none of the four is claimed to match his drawings.**
+
+### I LOOKED, AND TWO OF MY FOUR WERE WRONG
+
+**This is the whole reason the sheet exists, and it did its job on me before it reached him.**
+
+- **the "lens" was a peanut.** `|sin a|^bulge` goes to zero at both poles of one axis and bulges
+  either side — two stacked lobes. **Replaced with the actual vesica**: two circular arcs, radius
+  `R = (L²+w²)/2w`, offset `d = R−w`. **True cusps, because that is what the arcs do there**, not
+  because a term was forced to zero. It is a proper almond now.
+- **the "teardrop" was a disc with a bite out of it.** Replaced. Then it was a **heart**. Replaced
+  again. **It is now a half-disc and it is still not a teardrop.**
+
+### THE TEARDROP IS NOT SOLVED, AND I AM SAYING SO RATHER THAN SHIPPING IT
+
+Three families tried, all failing the same way — either the narrow end folds into a **cusp or a
+dimple** instead of drawing out to a point, or the falloff eats the body:
+
+| tried | what it drew |
+|---|---|
+| `sin(a/2)^taper` with a pinch term | disc with a bite |
+| limaçon egg × half-angle power | heart |
+| `cos(a/2)^(2·taper)` | half-disc |
+
+**The diagnosis, and it is structural rather than a bad guess at a formula:** every outline here is
+sampled **as a radius per angle from a fixed centre**. A drop's tip wants the boundary **traced**,
+not measured outward — so the tip keeps becoming a cusp at the centre's angle instead of a point in
+space. **Fixing it properly means the generator interface changes** (an outline that can be traced,
+not only queried by angle), which is a real change and not a tweak.
+
+**It is on the sheet as it stands, marked, so his eye sees exactly what I see.**
+
+### For his eye — per type
+
+The page shows **the five together first**, then **each type's own dials walked wide**. Type one is
+gold and settled. **Range fences per type when he looks**, and before that: **is each of these that
+head at all?** For the teardrop the honest answer from here is no.
+
+**FULL SUITE GREEN**, TESTNET skipped as all session. Sparks stay next after heads.
