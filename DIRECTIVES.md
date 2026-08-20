@@ -3101,3 +3101,20 @@ Lonnie's words: he is not going to say it again. NEVER open a new
 Chrome window or tab. He reloads the page himself. When a page has
 changed, say so in one terminal line ("Stage updated — reload") and
 that is ALL. This joins CLAUDE.md as standing law beside the others.
+
+## Directive 167 — Worlds save as FILES, as his World Panel always did
+
+Lonnie's correction: in his portal, every setting was tagged precisely
+SO worlds could be saved into preset FILES — permanent storage. That
+file save/load was never brought over from his World Panel. Port it:
+
+1. Study his World Panel's file storage in the live build — how a
+   world is written to a file (format, tags, naming) and loaded back.
+   His implementation is the spec (112).
+2. The Wanderer's Worlds folder gains the same: save writes a real
+   world FILE (permanent, on disk, his format), load reads one —
+   alongside whatever quick-store exists now.
+3. Every tagged setting rides in the file exactly as the tag system
+   intends (161's full-state law applies to files identically).
+Suite: file round-trip (save file, wipe, load file, all values
+return). His eye retests with a real file.
