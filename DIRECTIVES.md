@@ -3191,3 +3191,23 @@ his blueprint drawings (each drawing described as math, the recovery
 method now written down as it runs). His eye rules each type's sheet;
 range fences per type when he looks. Sparks stay next in order after
 heads; report per stage.
+
+## Directive 171 — The El-Fish operations: MUTATION and CROSSOVER join the Roe
+
+Lonnie approved: the Roe gains the two El-Fish operations, as PLATFORM
+capabilities (133 governs):
+
+1. MUTATE(roe, strength?) → a NEW child Roe: the parent's genes nudged
+   within legal ranges. Deterministic given parent + chosen seed.
+2. CROSS(roeA, roeB) → a NEW child Roe: genes drawn from both parents
+   per documented genetic-algorithm practice (research the crossover
+   scheme; cite; flaws first — including the documented trap of
+   children outside legal ranges: clamp into the fences).
+3. IDENTITY LAW UNTOUCHED: a living being's Roe never changes. These
+   operations only birth new seeds. Lineage may be recorded (parent
+   ids in the child Roe) for family history.
+4. Ranges are the fences (169/170's per-type ranges as Lonnie sets
+   them); mutation and crossover live INSIDE them.
+
+PLAN into ROE_PLAN.md now (cited, flaws first); implementation queues
+after the head types and sparks per the approved order. Report.
