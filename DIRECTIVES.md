@@ -3072,3 +3072,16 @@ at-a-glance state that matters when Worlds save and load. What he
 wanted gone was only ever the FILE NAMES, and those are already gone
 (157). So: plane rows show Painting · LOAD · CLEAR · status — no file
 names, status restored. 162 is void. His eye confirms on the page.
+
+## Directive 164 — Music plays immediately. No click-first rule.
+
+Lonnie's ruling: if a score is selected and the Music radio is ON,
+music PLAYS — immediately, no clicking into the world first. Remove
+any code-level wait-for-gesture gate. Where the leftover blocker is
+the BROWSER's autoplay policy (Chrome refusing audio before a user
+gesture): the Wanderer is an APP by standing law — the packaged app
+disables that policy; implement the immediate-play behavior so it is
+already correct there, use the documented dev workaround for the dev
+page (launch flag or equivalent) so his testing hears it too, and say
+plainly in the report which part was our code and which was Chrome.
+His ear rules.
