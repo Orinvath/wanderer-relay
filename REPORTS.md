@@ -22108,3 +22108,61 @@ to have refused at least once, and across the eleven runs that count ran 1, 2, 4
 working perfectly.
 
 **Stage 4 continues.** Stage 3 is running live and waits on his eye.
+
+## Directive 177 stage 4 — A third of the privacy suite was silently not running
+
+Commit `8efc2a5`, full suite green. **This is the most serious thing I have found
+this session and it was found by accident**, while measuring the flake he asked
+about.
+
+### The fault
+
+**Two asset paths in PHASE 3 were relative to the working directory.** Run the
+phase on its own from `server/` and it threw at the sight test and **stopped at 48
+of its 73 lines** — **a third of the privacy suite did not run** — while the output
+above the error still read as a tidy column of passes.
+
+**It only ever worked because `accept.js` happens to be started from the repository
+root.** Nothing announced the difference. Now resolved from the module itself:
+**80 checks pass from either directory.**
+
+### A correction to what I told him earlier
+
+**My eleven-run flake measurement covered only the first two thirds of the phase.**
+Every one of those runs was dying at the same place. The one failure I reported was
+real and was in the early portion, so that finding stands — but **"eleven clean-ish
+runs" was a smaller claim than it sounded**, and I am saying so rather than leaving
+it.
+
+### A check that cannot run no longer counts as one
+
+Line 24 asserts that **every refusal the judge issued carries the judge's own answer
+for it**. Across the eleven runs the judge issued **1, 2, 4, 5, 5, 6, 6, 7, 8 and 10**
+refusals. **A run landed on one.** A run landing on zero would fail a build that is
+working perfectly — and quietly passing it would be **worse**, because then a real
+plumbing fault could hide behind a quiet judge.
+
+**It now SKIPS, loudly, in the same words the TESTNET skip uses: it proved nothing.**
+I proved the skip fires by forcing the refusal list empty and watching it.
+
+### The privacy scan, still open and not guessed at
+
+The at-rest scan — *"the service's own database holds no private word of host-a's"* —
+failed once in eleven. **It now prints the term, the file and the bytes around it**
+when it fires. Until it fires again with that detail I do not know whether it is an
+ordinary word coinciding (8 of its 14 terms are words like *father*, *watch*,
+*brother*) or **something genuinely left behind in a freed database page**, which
+would be a real privacy fault rather than a test problem. **Those are completely
+different findings and I am not going to guess which one it is.**
+
+### Where the four stages stand
+
+| | |
+|---|---|
+| **1 · the contract** | **done** — `5508689`, guard proved to bite |
+| **2 · the sphere** | **done** — `1eb7926`, `3d929cb`, `811822b`; three candidates await his eye |
+| **3 · proven live** | **running** — the watch is up under the real model; **ends at his eye** |
+| **4 · hardened** | **in progress** — two faults fixed above; the privacy scan still open |
+
+**Still his:** which of the three spheres she is, and the stage-3 numbers once he has
+watched her.
