@@ -21001,3 +21001,63 @@ nine of them.** Restored.
   default are all as they were. The test worlds delete themselves.
 
 **Stage updated — reload.**
+
+---
+
+## Directive 165, second pass — his ruling: GONE, not defaulted
+
+**His words:** *"those two sliders were never used and should be gone, not running at their default
+amount — it should be zero by way of GONE. You brought them over and hooked them up to things that
+I never approved. In the portal they were linked to the skydome, which is not part of this place,
+so you linked them to some arbitrary thing without telling me."*
+
+**He is right on every part of that, and the last clause is the one that matters.**
+
+My first pass removed the two ROWS and left the effect running — **and I reported that as a
+flag for him to rule on.** That was the wrong shape. The problem was never that the sliders were
+dead. **It was that they were LIVE, and wired by me to things he had never approved:**
+
+| his portal | what I wired it to here |
+|---|---|
+| the sky dome's own colour | **a flat white sky** |
+| the dome's sun direction | **a heading the shader picks for itself** |
+
+**Neither of those was his choice. Neither was ever put to him.** They went on grading his
+paintings — at 70% — against numbers I invented, and removing the rows would have left exactly
+that, with no way left to reach it.
+
+### What is gone now — all of it, in one pass
+
+- **the grade and the shading in the plane shader** — the code that multiplied his paintings
+  toward a sky colour, and the code that lit the depth relief from a made-up sun
+- **the four uniforms** that fed them
+- **the per-frame feed** that pushed the values in
+- **both controls in the world**, so nothing can hold or set them
+- **both entries in the save tags**, so no new world records them
+- **the two fields in the page's state**
+
+**Checked, not assumed:** nothing live anywhere in the source names `planeSkyInfluence`,
+`planeSunShading`, `uSkyAmount`, `uSunShading` or `uSky` any more. The only hits left are the
+comments saying where they went and why.
+
+**Old world files that still carry the two keys are harmless** — loading skips what the world does
+not know. His saved worlds were not touched.
+
+**They come back with the sky dome, from his own shader, unchanged.**
+
+### Verified
+
+- **FULL SUITE GREEN** — everything that ran, passed. **TESTNET SKIPPED**: the public testnet was
+  not reachable this run; a skip by design, and unrelated.
+- Every changed file syntax-checked.
+
+**Stage updated — reload.**
+
+### Still open, and waiting on him — Directive 167
+
+**I have not written a line of the export.** I started building it on my own reading of what he
+meant, he told me that reading was wrong, and I stopped. The half-written file was taken out of the
+project and kept aside rather than left lying in the tree or thrown away.
+
+**The question is with him and nothing proceeds until he answers it.** I have already misread this
+one once today; I am not going to guess at it twice.
