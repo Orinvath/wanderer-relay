@@ -22038,3 +22038,73 @@ model, no doubles. **It ends at his eye, per 118**, so its completion waits on h
 watching it. **Stage 4 (hardening) has no dependency and is in progress now**: I am
 measuring the PHASE 3 flake across repeated runs before changing anything, rather
 than guessing which checks are the unreliable ones.
+
+## Directive 178 + addendum — Spheres only. Rule Zero, three passes, before it reached him.
+
+**He was right and my own report proves it.** I wrote *"three spheres under her"* —
+I **appended** the spheres below the wisp instead of **replacing** her. He ordered
+the sphere so Brain work would stop dealing with the avatar, and what his eye met
+was the avatar. Commit `811822b`, full suite green.
+
+### The fix, and it is not a hidden wisp
+
+**Sphere mode does not hide her. IT DOES NOT BUILD HER.** No creature, no geometry,
+nothing of hers in the session or in anything it serves.
+
+**The sphere page is a SEPARATE page**, not the wisp page with things switched off.
+A page with the avatar still in it behind a flag is **one flag away from being the
+complaint again**. `watchingPage()` is untouched and stays in the codebase exactly
+as he asked — this surface simply does not serve it.
+
+**Every avatar route on this surface is off** and returns 404: `avatar1.html`,
+`layer-*.png`, `behind.json`, `three.module.js`. They are gated behind a flag
+nothing passes.
+
+### Rule Zero, as ordered — three passes, and each one found something
+
+**PASS 1 — what the tunnel serves.** Scanned the served page and the data feed for
+**fifteen** traces of her (avatar, iframe, layer, three, strand, tendril, patch,
+wisp, creature, vertices, plane, spark, hiding, octopus, behind): **zero**. Every
+URL the page fetches: exactly one, `state.json`.
+
+**PASS 2 — as HE would meet it.** Phone user-agent, the real tunnel URL, a
+**cache-busted fresh load**, viewport and layout checked for a narrow screen (no
+fixed widths, two columns at phone width), **the delivered script extracted and
+parsed** so a blank page from a syntax error was ruled out, and ticks confirmed
+**advancing** through the tunnel with the Brain open.
+
+**PASS 3 — the one that mattered most, and it is the 157/158 lesson.** The surface
+was sending **no cache headers at all**. What a server sends and what his browser
+shows are two different questions — last time I answered the first and reported the
+second. A reload could have handed him the old page **through no fault of the
+code**, and I would have "verified" it again. **`Cache-Control: no-store` is now on
+every response.**
+
+**And one more thing the passes caught:** my page carried a line saying *"nothing of
+the avatar is on this page"* — which put the word he is sick of straight back in
+front of him and read as **arguing with him on his own screen**. It is gone. The
+absence is the answer; it does not need announcing.
+
+**The old watch from the 19th is killed**, on his word. Its old link is dead — that
+is what retiring it means.
+
+**On his phone, same link:** https://sitting-bend-take-highly.trycloudflare.com/?key=sphere
+
+### Also done this stretch — stage 4's measurement, before the interruption
+
+I ran PHASE 3 **eleven times** to find the flake instead of guessing at it.
+**One failure in eleven**, and it was **not** the check I expected. It is the
+at-rest privacy scan — *"the service's own database holds no private word of
+host-a's"* — and the bare count told nobody anything, so **the check now prints the
+term, the file, and the bytes around it**. Until it fires again with that detail I
+do not know whether it is an ordinary word coinciding or something genuinely left
+in a freed database page, **and those are completely different findings** — one is
+a test that needs sharpening, the other is a privacy fault. **I am not guessing
+which.**
+
+**A second fragility is evidenced and not yet fixed:** one check requires the judge
+to have refused at least once, and across the eleven runs that count ran 1, 2, 4, 5,
+5, 6, 6, 7, 8, 10 — **a run landed on 1**. Zero refusals would fail a build that is
+working perfectly.
+
+**Stage 4 continues.** Stage 3 is running live and waits on his eye.
