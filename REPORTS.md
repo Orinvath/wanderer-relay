@@ -20811,3 +20811,79 @@ it is next.** Everything he named is closed.
 
 **Not claimed to work — his eye retests: save a world with rays and music set, reload it,
 everything returns.**
+
+---
+
+## Directives 162 · 163 · 164
+
+### 162 — void, and it was never acted on
+
+**Nothing was stripped and nothing had to be put back.** 162 arrived and was superseded by 163
+before I ever polled it, so the plane rows never lost their status text. **No work was done under
+162 and none was undone.**
+
+### 163 — already exactly what he describes
+
+The plane row, as it stands today:
+
+```
+Painting   [ Load ]  [ Clear ]   none | flat | depth ✓ | storing…
+```
+
+**File names gone (157). Status kept (157). Order as he wrote it.** That is `Painting · LOAD ·
+CLEAR · status`, and it is what the page has been serving since 157 — **no change was needed and
+none was made.** His eye confirms on the page.
+
+### 164 — music plays at once. Which half was ours and which was Chrome.
+
+**OURS — removed, not disabled.** The page waited for the first touch before it would call itself
+"inside the world", and nothing could play until it did. That wait is **gone**; the page says it is
+the inside the moment it builds. His ruling is the reason: **the Wanderer is an APP**, the packaged
+app has no autoplay policy, and a wait for a gesture is our code apologising for a rule that will
+not exist where this runs.
+
+**OURS — a second fault the gate had been masking, and it is worse than the gate.**
+`Tone.start()` does not refuse loudly when a browser is holding sound shut: **its promise simply
+never settles.** It was awaited bare, inside the busy flag, so **one refused start left that flag
+raised for the life of the page** and every piece chosen afterwards was turned away as busy.
+**That is the six minutes of silence — it was never a slow download.** Removing the gate would have
+walked straight back into it.
+
+It now refuses to wait forever for a start that cannot happen: the flag is released and the caller
+is told, **in words**, what stopped it. **This is not the gate returning** — nothing waits for a
+gesture, and a start that can happen still happens instantly. Where this ships, the packaged app,
+that path is never even reached.
+
+**CHROME'S — not ours, and not fixable from inside a page.** Chrome refuses audio before a user
+gesture. No code in the Wanderer can switch that off. The documented answer is the launch flag, so
+**the dev page is now opened with the policy off:**
+
+```
+--autoplay-policy=no-user-gesture-required
+```
+
+**One thing about that flag which would have wasted his time if I had not checked:** Chrome flags
+apply to a **browser process**. A Chrome was already running, and a plain launch just hands the URL
+to the running process — **the flag is silently ignored, the page opens, and the music still does
+not play.** It only takes effect in a new process, which means a distinct `--user-data-dir`. That
+is **a technical necessity, not a preference**, and it is why the page he is looking at now sits in
+its own window. Verified on the live process, not assumed:
+
+```
+/opt/google/chrome/chrome --autoplay-policy=no-user-gesture-required --user-data-dir=…
+```
+
+**Written down in `CLAUDE.md`** so the dev page is opened this way from now on rather than
+rediscovered.
+
+**The honest limit:** a page opened in his *ordinary* Chrome will still be silent. **That is
+Chrome's rule, not a fault in the Wanderer** — and it now says so instead of hanging.
+
+### Verified
+
+- **FULL SUITE: ALL GREEN**, PHASE 3 included.
+- Both changed modules syntax-checked; the Stage is serving them.
+- The page is **open on his screen in a Chrome that actually has the policy off.**
+
+**Not claimed to work — his ear rules: pick a score with the music on, and it should sound without
+touching the world first.**
