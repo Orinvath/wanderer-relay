@@ -20699,3 +20699,115 @@ mine.** Say the word and it is a small change.
 - The Stage is **open on his screen.**
 
 **Not claimed to work — his eye retests.**
+
+---
+
+## Directive 161 — a preset now saves the whole stage, because the panel finally tells the world
+
+### The cause: the save was never broken. The panel never spoke.
+
+His eye said God Rays were not saved and suspected Music too. **He was right about both, and about
+more than both.** But the fault was not in saving:
+
+> **The save was working perfectly — on the wrong values.**
+
+Four folders — **Sun, God Rays, Light in the Air, Wisps** — are built straight onto the live
+objects the renderer reads, so moving a row changed the picture instantly **and told the server
+nothing.** A preset saves the *world*; the world had never heard of his settings, so it wrote down
+its **defaults**, faithfully, every time. `musicOn` and `musicPiece` had the same fault (only
+`musicVolume` was wired), which is the "possibly Music too" in his own note.
+
+**That is why "does a world save?" passed for months while this was broken.** It did save. It saved
+the wrong thing.
+
+### The audit — what reached the world before, and what did not
+
+| folder | before | now |
+|---|---|---|
+| Planes, Painted Sky, Props | **reached the world** | unchanged |
+| Music **Volume** | **reached the world** | unchanged |
+| **God Rays** (9 rows) | never sent | **sent** |
+| **Light in the Air** (9 rows) | never sent | **sent** |
+| **Wisps** (10 rows) | never sent | **sent** |
+| **Sun** (3 rows) | never sent — **and the world had no place to put them** | **sent** |
+| Music **On / Piece** | never sent | **sent** |
+
+**A second fault found by the audit, not by his eye:** the Sun's three rows — `glowColor`,
+`glowAzimuth`, `glowElevation` — **were not in the world's control set at all.** His own tag list
+names them among the settings a world gathers, and the panel has had rows for them since 123, but
+the world would have **refused** them. Wiring alone would have failed silently. They are now real
+controls, with his labels, his ranges and his defaults from `config.js`.
+
+### The fix, both halves
+
+**Sending.** The four folders' holders are wrapped so a write does both: it still lands on the very
+object the frame reads, **and** it is sent on. Deliberately not the existing `bound()` helper —
+that keeps a private copy, which would leave the renderer and the panel reading **different
+objects.** There is still exactly one object, and it is his.
+
+**Coming back.** Sending is only half a round trip. Every flat control now arrives in the page's
+state, **derived from the capability list rather than hand-listed** — so a row added tomorrow is
+carried without anyone remembering — and is put back on whichever holder owns that name, onto the
+**raw** objects, never the sending views, because these values came *from* the world and sending
+them back would be an echo.
+
+Music restarts on a hand-loaded world by **his own rule, the one his toggle already uses** (on,
+with a piece, plays) — and not at first build, where sound is held until the page is touched.
+
+### The check he asked for — and it caught my own first attempt
+
+Not "does a world save": **that check already existed and passed while this was broken.** The new
+one changes **every** flat control away from its default, saves, **wipes every one to something
+else**, loads, and demands all of them came back. **67 controls, derived, not sampled.**
+
+It immediately failed — **three real findings, two of them faults in my own test:**
+
+1. my value picker chose the *same* number for both passes on a 1–3 slider, so **the "wipe" wrote
+   back what was already there** — a check that could not fail. Rewritten to guarantee two
+   distinct values.
+2. the Sun keys did not exist in the world (above).
+3. `world` — which names *which* preset is loaded — legitimately does not round-trip. **A world
+   recording which world it is would rename itself on every save.** It is the only exclusion, and
+   it is stated at the line.
+
+**Then I broke the suite on purpose to prove the check bites:** dropped one key, `godRaysStrength`,
+from the save tags. It failed and **named that exact key.** Restored.
+
+A second check guards the first: **the wipe really wiped**, so it can never pass by never having
+changed anything.
+
+### Verified live, not only in the suite — and my first probe was wrong
+
+Against the **running server**, not a test object:
+
+```
+set:      rays=2.4  density=1.1  music=on   sun=-90
+wiped:    rays=0.2  density=0.4  music=off  sun=170
+reloaded: rays=2.4  density=1.1  music=on   sun=-90
+```
+
+**The first time I ran this it appeared to fail** — nothing came back. The cause was my probe:
+I named the world `__roundtrip_probe`, which his own filename rule refuses, so **the save never
+happened and there was nothing to load.** The code was fine; my test was not. Named because I very
+nearly reported a fault that did not exist. The probe world was deleted; his Worlds list is
+untouched.
+
+### What I did NOT close, and it is his
+
+**The Lights folder.** His list named eight folders and Lights was not among them, and there is a
+reason it is different: **lights have no server side at all** — no item, no per-light keys,
+nothing. This is not a gap in the preset, it is a missing subsystem, and building it means item
+creation, removal and addressing, the way planes and props have. **Real work, and his call whether
+it is next.** Everything he named is closed.
+
+### Verified
+
+- **FULL SUITE: ALL GREEN**, PHASE 3 included. *(An earlier run failed PHASE 3 on two
+  model-wording checks — the known flake; it passed alone on rerun and green on the full rerun. I
+  am naming it rather than quietly rerunning until it was green.)*
+- CAPABILITIES **45 passed, 0 failed** — one check there pinned the light bundle's folder list and
+  **Sun now legitimately belongs to it**; updated with the reason at the line.
+- The Stage was **restarted** and is **open on his screen.**
+
+**Not claimed to work — his eye retests: save a world with rays and music set, reload it,
+everything returns.**
