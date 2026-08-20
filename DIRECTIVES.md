@@ -3118,3 +3118,32 @@ file save/load was never brought over from his World Panel. Port it:
    intends (161's full-state law applies to files identically).
 Suite: file round-trip (save file, wipe, load file, all values
 return). His eye retests with a real file.
+
+## Directive 168 — THE ELFISH CORRECTION: parameters, not predetermined forms
+
+Lonnie's architecture ruling: the flaw is that we predetermined the
+Avatars' looks before designing how they are built. Corrected now, the
+El-Fish way (the Roe's own namesake): SET PARAMETERS AND GENERATE ALL
+THE PARTS.
+
+1. Each part (Eye, Head, Body, Sparks — architecture unchanged) is
+   redesigned as a PARAMETERIZED GENERATOR: the dimensions that define
+   it (counts, tapers, spreads, symmetries, flare geometry, motion
+   character...) with legal ranges — a parameter space, not a fixed
+   shape.
+2. THE ROE DRIVES IT: genes select values in each part's space —
+   deterministic (same Roe, same being — law unchanged), every Avatar
+   grown from its seed, not picked from a catalog.
+3. THE BLUEPRINT FORMS BECOME REFERENCE POINTS: Form 1 (her) is
+   coordinates in the space and must remain producible exactly (the
+   regression proof). Forms 2-6's drawings become target points that
+   the space should be able to reach — evidence of range, not the
+   menu.
+4. RESEARCH FIRST (Rule Zero): the documented lineage of parametric
+   creature generation — El-Fish/AnimaTek's genetic approach, Karl
+   Sims' evolved creatures, Spore's parameterization — what worked,
+   what the known traps are (degenerate bodies, parameter soup,
+   ranges that produce mush). Flaws first.
+5. PLAN ONLY: the parameter-space design per part, the gene mapping,
+   the Form-1 regression requirement, into ROE_PLAN.md /
+   AVATAR_SYSTEM_PLAN.md. Report for approval. No implementation.
