@@ -21373,3 +21373,87 @@ variation is enough** · **build order** — head/eye (nearly written), sparks (
 [Karl Sims, Evolved Virtual Creatures](https://www.karlsims.com/evolved-virtual-creatures.html) ·
 [Hecker, My Liner Notes for Spore](https://chrishecker.com/My_Liner_Notes_for_Spore) ·
 [Compton, So you want to build a generator…](https://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
+
+---
+
+## Directive 169 stage 1 — the shape space is real, and her head is unchanged
+
+**Built, committed, full suite green. The stage ends at a decision that is his: the ranges.**
+
+### The generator
+
+**One space, instantiated twice** — `server/src/shape.js`. His blueprint's own maths, unchanged:
+
+```
+R(a)  = Ri + (Ro−Ri)·(0.5 + 0.5·cos(P·a))^K
+th(u) = T·exp(−(u/W)^N)·(1 − u^12)
+z    −= curve·(x² + y²)
+```
+
+**Why one generator and not two:** the blueprint says head and eye share the same five shapes and
+any head pairs with any eye. **If they share a vocabulary they must share the generator**, or that
+promise is kept by discipline instead of by construction — and there are two spaces to tune where
+one would do.
+
+### THREE OF HIS OWN DIALS WERE LITERALS IN THE CODE
+
+`creature.js` had `Ro = 1.0`, `W = 0.78`, `Nn = 5.0` **written into the function body**. They are
+parameters in his blueprint; no gene could ever reach them. **They are parameters now.** A suite
+check asserts that moving `W` actually changes the surface — *"which is what makes this a space and
+not a rename."*
+
+### THE REGRESSION — her head, vertex for vertex
+
+**It does not compare against a stored blob and it does not compare spelling.** It recomputes the
+pre-169 formula **literally, in the check, with the old literals**, and demands every vertex agree:
+
+```
+96,000 vertices, largest disagreement 0
+```
+
+**Exactly zero.** And it bites: nudging `W` from 0.78 to 0.7801 fails it at 0.0000449.
+
+### THE OATMEAL MEASUREMENT — re-run, and the number has not moved
+
+```
+2016 pairs — min 0.607   median 0.704   mean 0.703   max 0.786
+```
+
+**§10.6's figures were 0.61 / 0.70 / 0.70. This is the same population.** Which is the point:
+
+1. **It is a second regression.** The new generator moved neither her nor any of the 64.
+2. **It cannot improve yet, and not for want of trying.** Every gene is still a constant. **A space
+   nothing varies in is still one bowl of oatmeal.** 0.70 falls when genes get ranges to move in —
+   **and ranges are his.**
+
+### THE SHEET — sent to him, and what it already shows
+
+Six rows, one dial each, everything else at her values, **gold marking her own number**. Silhouettes
+deliberately, because silhouette is what the 0.70 measures and shading would flatter the shapes.
+**The spans are deliberately too wide: the point is to show where it breaks** — Hecker's *"the
+middle works, the edges break."*
+
+**What it demonstrates without anyone deciding anything:**
+
+- **the space already reaches more than one of his named shapes.** `P = 2` gives a **lens**; a wide
+  open centre gives an **orb**; hers is the four-point star. **Evidence of range, from the space
+  itself rather than from an argument.**
+- **the degenerate regions are visible, as regions** — the narrow-waist and heavy-thickness ends
+  show the profile pinching and breaking up. His blueprint warned about exactly this failure in
+  words; the sheet shows where it lives.
+
+**A defect in my sheet, not in the shapes:** the profile is drawn normalised against *her*
+thickness, so the largest `T` cells **overflow their box**. That is my drawing, not the creature.
+Named so he does not read it as a shape fault.
+
+### FOR HIS EYE — the decision this stage reached
+
+**Where may each of the six dials go?** Points · sharpness · open centre · waist · falloff ·
+thickness. **Ranges are the look and the look is his.** I have not proposed numbers, because a
+range I invented would become the creature's range by default.
+
+**Nothing else waits on him.** Sparks are next in his approved order, and the body's structural axes
+after that.
+
+**FULL SUITE GREEN**, TESTNET skipped as all session. Two commits: the space and its regression,
+then the sweep.
