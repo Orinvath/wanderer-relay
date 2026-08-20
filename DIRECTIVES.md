@@ -3271,3 +3271,29 @@ existing generator interface (queried and traced boundaries), and its
 flaws — Rule Zero per source. THEN propose each type's character axes
 grounded in the researched techniques, sheets for his eye. Cite
 everything.
+
+## Directive 175 — PRIORITY SHIFT: the Brain first. Bodies become embodiments.
+
+Lonnie's direction from the team: the BRAIN is what they want finished
+and working. The current Avatar bodies are ONE visual type among
+several the platform may need (whimsical wisp now; cartoon, pure-2D,
+talking-head later). So:
+
+1. BODY/GENERATION WORK PAUSES: the 174 research lands as a report and
+   parks (nothing lost); heads/sparks/body axes wait. No further body
+   work until his word.
+2. THE BRAIN BECOMES THE LINE — "finished and working" means:
+   a. EMBODIMENT-AGNOSTIC CONTRACT: define the Brain's interface —
+      percepts in, state/feelings/goals/chosen-acts/speech out — such
+      that ANY body (wisp, cartoon, 2D, talking head) can drive from
+      it. The wisp becomes embodiment #1, not the definition.
+   b. PROVEN LIVE: the watching build run long and judged, provisional
+      numbers tuned on watched behavior, the LLM seam exercised under
+      the real local model.
+   c. HARDENED: the flaky PHASE 3 suite fixed; the Brain's suites
+      trustworthy end to end.
+3. 133 stands refined: the BRAIN is the multi-project asset; embodiment
+   is per-project presentation.
+
+Report a Brain-completion plan (what "working" requires, in order)
+before executing. Plan first, his approval, then run to completion.
