@@ -3063,3 +3063,12 @@ status word, no "none", no "depth ✓", no progress text. His portal's
 panel design is the spec. Strip every trailing string from all plane
 rows. His eye retests — this closes only when his screenshot shows
 clean rows.
+
+## Directive 163 — Supersedes 162: the status text goes BACK
+
+Lonnie's ruling on learning what the text was: PUT IT BACK. The
+"none" / "depth ✓" / "storing…" status is wanted information — the
+at-a-glance state that matters when Worlds save and load. What he
+wanted gone was only ever the FILE NAMES, and those are already gone
+(157). So: plane rows show Painting · LOAD · CLEAR · status — no file
+names, status restored. 162 is void. His eye confirms on the page.
