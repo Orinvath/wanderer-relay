@@ -21554,3 +21554,86 @@ gold and settled. **Range fences per type when he looks**, and before that: **is
 head at all?** For the teardrop the honest answer from here is no.
 
 **FULL SUITE GREEN**, TESTNET skipped as all session. Sparks stay next after heads.
+
+---
+
+## Directive 171 — mutation and crossover, planned. And one place the research disagrees with the directive.
+
+**`ROE_PLAN.md` gains the plan. PLAN ONLY — implementation queues after heads and sparks, per his
+order. 133 honoured: these are platform capabilities, not Wanderer features.**
+
+### The scheme, and why it fits rather than why it is famous
+
+Our genes are **real-valued and bounded** — a taper, a radius, a count — not bit strings. The
+documented operator for exactly that is **SBX, simulated binary crossover** (Deb & Agrawal), built
+by taking single-point binary crossover's search behaviour into a continuous space, and paired in
+practice with **polynomial mutation**.
+
+**What made it the right one:** its distribution parameter controls **how close children stay to
+their parents** — *"smaller values return children that are very different from the parents, while
+larger values return children similar to the parents"*, and it *"can restrict children solutions to
+any arbitrary closeness to the parent solutions."*
+
+**A knob for family resemblance is exactly what a lineage needs**, and it is the one thing a plain
+average of two parents cannot give: **averaging always lands in the middle, so every child of two
+beings is blander than both.** That is the oatmeal problem arriving through the nursery.
+
+### THE ONE PLACE I DISAGREE WITH THE DIRECTIVE, flagged rather than obeyed quietly
+
+171 says: *"the documented trap of children outside legal ranges: **clamp into the fences**."*
+
+**The trap is real and I found it documented.** SBX and polynomial mutation both produce children
+outside the parents' interval by design, so a bounded genome needs a bound-constraint handling
+method. **But the literature is not kind to clamping specifically.** The three standard methods are
+**clipping (projection/saturation)**, **reflection**, and **resampling** — and comparative studies
+report the choice **significantly affects efficiency**, with **reflection and resampling
+outperforming clipping**.
+
+**The concrete failure, in our terms:** clipping sets an out-of-range gene to the fence exactly. Do
+that across a population and **beings pile up ON the fence** — every child that overshot sharpness
+becomes the same maximum-sharpness head. **That is a machine for making lookalikes, inside the
+system built to stop them, and §10.6 already measured what lookalikes cost us: 0.70.**
+
+> **I have not changed his instruction and I have not quietly followed it either.** Reflection costs
+> the same to write. **His call, and it is a real one.**
+
+### Two design findings that came out of the planning
+
+**Structural genes cannot be blended.** A head type is `orb` or `star`; **there is no half-orb.**
+Categorical genes are inherited whole from one parent; only continuous genes blend. **Blending a
+type index would invent heads he never drew — exactly the failure 170 was written to correct.**
+
+**Dials are type-conditional, so a cross between types is the dangerous case.** A star's sharpness
+means nothing to a lens. The child takes a type, then takes that type's dials from whichever parent
+shares it, and the type's own defaults where neither does. **That is where the first test goes.**
+
+### Identity law — untouched, and asserted rather than assumed
+
+**A living being's Roe never changes.** Both operations birth new seeds; neither writes to a parent.
+Lineage is recorded as parent ids in the child. **The suite must prove the parents came back
+unchanged**, not merely intend it.
+
+### What the suite must prove
+
+Same parents + same seed → the same child · **no child ever leaves the fences** · parents unchanged ·
+a cross of two types is a coherent being, not a chimera of dials · **and children do not pile onto
+the fences**, because that is the failure the research predicts and **a suite that does not look for
+it will not see it.**
+
+### Ordering fact, not a preference
+
+**Mutation and crossover live inside the per-type ranges from 169/170. Until he sets those ranges
+there is nothing to clamp to and nothing to reflect off**, so these cannot be finished before the
+ranges exist.
+
+### Open, and his
+
+**Clip, reflect or resample** at the fences · **how strong a default mutation is** — the difference
+between a family and a menagerie · **whether two different head types may cross at all.**
+
+**FULL SUITE GREEN**, TESTNET skipped as all session. Nothing implemented.
+
+**Sources:** [Deb & Kumar, Real-coded GAs with SBX](https://content.wolfram.com/sites/13/2018/02/09-6-1.pdf) ·
+[Deb & Sindhya, self-adaptive SBX](https://dl.acm.org/doi/10.1145/1276958.1277190) ·
+[Experimental comparison of boundary-constraint methods](https://elektron.elka.pw.edu.pl/~jarabas/ALHE/krakow1.pdf) ·
+[Patterns of convergence and bound constraint violation](https://arxiv.org/pdf/2305.12221)
