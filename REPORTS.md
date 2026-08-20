@@ -20530,3 +20530,112 @@ Both were fixed before anything was committed. Neither reached the page.
 
 **Not claimed to work.** Per 118, the shafts are on his screen and **his eye rules**. I will record
 his verdict as he gives it.
+
+---
+
+## Directive 158 — the dither passed; the four failures
+
+### 1. THE DITHER — HIS EYE: *"Holy Christ, it looks perfect now."* **PASSED.** Recorded.
+
+### 2. The plane file names — his eye was right and my check was the wrong check
+
+**The source had the names out. His screen still had them. Both were true**, and the gap between
+those two sentences is the whole failure.
+
+What I checked in 157: *"the running Stage is serving the new code, checked over the wire."* That
+answered **what the server sends**. His eye answered **what his browser shows**. Those are two
+different questions and **I only ever asked the first one, then reported as though I had asked
+both.** Same family as the watching page that looked perfect while her module had never run.
+
+**The mechanism, named rather than guessed.** That route sent an `ETag` and **no `Cache-Control`
+at all**. With no instruction, a browser is free to decide for itself how long to keep a copy of a
+module — so his page could go on running the file it fetched before the change, and there is
+nothing in what I checked that would have caught it.
+
+**The fix is on the route, not on this one file:** `Cache-Control: no-store` on every file the
+Stage serves out of `browser/`. A reload now always gets what is on disk — **for this change and
+every future one.** Verified over the wire after restarting the page's server:
+
+```
+Cache-Control: no-store
+```
+
+**Honest limit:** I can prove the route *permitted* his browser to hold a stale copy. I cannot
+prove after the fact that it *did*. What I can say is that the source is correct, the server is
+correct, and **the one thing that could still have shown him the old rows is now impossible.**
+
+### 3. Sun Color did nothing — and here is exactly why
+
+**In his app the colour never touches the shafts directly.** The SKY draws a coloured halo around
+the sun — `PainterlySky.jsx`: `vec3 src = uGlowColor * glowFalloff * uGlowIntensity` — and the god
+rays gather whatever is on screen toward the sun. **The shafts come out the colour of the halo,
+second hand.**
+
+**This page has no sky dome.** No halo, so nothing for the gather to pick up, so the colour had
+nowhere to land. **Moving it could not have changed anything, exactly as his eye said.**
+
+With no sky to port into, the colour now reaches the shafts the only other way it can: **the gather
+is tinted by it directly.** Same result, one step shorter. When the sky is ported, this comes out
+and the halo does it properly again — that is written at the line.
+
+**Which row I took "Sun Color" to mean:** after item 5's removals the Sun folder holds one colour,
+**Glow Color**. That is the one now governing. **If he meant a different row, say so and I will
+move it.**
+
+### 4. The dust drift — I checked the portal, and WE ALREADY MATCH IT EXACTLY
+
+He asked me to check the portal's dust motion and match it. **I checked. It is already matched,
+byte for byte** — not similar, identical:
+
+```
+his CustomPortal.jsx:  vec3 drift = vec3(0.0, uTime * uNoiseSpeed * 6.0, 0.0);
+our god-rays.js:       vec3 drift = vec3(0.0, uTime * uNoiseSpeed * 6.0, 0.0);
+```
+
+The whole sampling block is the same, and so are the defaults (`uNoiseScale 24`, `uNoiseSpeed
+0.06`, `uDustDetail 2`).
+
+**So it reads as downward-only because his portal's dust IS downward-only** — the drift moves on Y
+and on nothing else, in his own code.
+
+**Which means the directive's instruction is already satisfied, and anything further is a change to
+the look — which is his and not mine.** I have not touched it. **The question is with him in the
+terminal.**
+
+### 5. The three dead rows — removed, and what depended on them
+
+**Gone from the Sun folder:** Link to Sun Color, Glow Intensity, Glow Size.
+
+**Checked before removing, as he asked.** All three are read by things that were never ported:
+
+| row | its only reader | ported? |
+|---|---|---|
+| Glow Intensity | the sky shader's `uGlowColor * glowFalloff * uGlowIntensity` | **no** |
+| Glow Size | the same falloff | **no** |
+| Link to Sun Color | picks `sunColor`, which is his **Sun DISK**'s colour — his own label for it is "Disk Color" | **no** |
+
+**Nothing else depended on them. One near-miss worth naming:** `emitted.js` reads a
+`glowIntensity` — but that is a field on the **server's** world object, a different thing from the
+Sun folder's, and the folder never fed it. **No row and no code lost an input.**
+
+`glowColour()` had a branch choosing between the glow's colour and the disk's. With the link and
+the disk both gone there is nothing to choose between, so **the branch went too** — it now returns
+the glow's colour, which is the same answer his code gives with the link off, and that is his
+default. The choice returns with the disk.
+
+The file's own header claimed "six rows"; **it said three the moment it was three.**
+
+### My mistake, again, and it is the same one
+
+**A backtick inside a backtick template literal closes the string.** I did it in a shader comment
+for the third time — `store.js`, `demo-hiding.js`, and now here. Caught by parsing before commit,
+so it reached nothing, but **it is a habit and I am naming it as one.**
+
+### Verified
+
+- Full suite **ALL GREEN**, PHASE 3 included — including CAPABILITIES, which compares the ported
+  panel against his live one and **did not object to the three removals.**
+- The Stage server was **restarted**, so the no-cache route is actually in force, and the page is
+  **open on his screen** for the retest.
+
+**Not claimed to work. 2, 3 and 5 await his eye. 4 awaits his word.**
