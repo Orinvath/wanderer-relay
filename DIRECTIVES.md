@@ -3094,3 +3094,10 @@ Wanderer's world — they no longer do what they were built to do. REMOVE
 both rows (same class as the 158 dead ends). If anything currently
 reads their values, say so in the report before removal. His eye
 confirms clean Planes rows.
+
+## Directive 166 — STOP OPENING CHROME WINDOWS. Final warning.
+
+Lonnie's words: he is not going to say it again. NEVER open a new
+Chrome window or tab. He reloads the page himself. When a page has
+changed, say so in one terminal line ("Stage updated — reload") and
+that is ALL. This joins CLAUDE.md as standing law beside the others.
