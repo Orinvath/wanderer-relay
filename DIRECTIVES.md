@@ -3012,3 +3012,22 @@ panel changes; report his verdicts as he gives them in the terminal.
 
 2. PLANES LOAD ROWS: remove the file names from the Load option
    display — the row shows the control, not the loaded file's name.
+
+## Directive 158 — DITHER PASSES ("it looks perfect"). Four failures from his eye.
+
+1. THE DITHER: HIS EYE — "Holy Christ, it looks perfect now." PASSED.
+   Recorded.
+2. THE PLANE FILE NAMES ARE STILL THERE. Your report claimed removed
+   and served-over-the-wire; his eye says nothing was removed. His eye
+   rules (118). Reconcile — stale page, wrong rows, whatever it is —
+   until HIS screen shows them gone.
+3. SUN COLOR DOES NOTHING — changing it does not change the light's
+   colour. Diagnose against the portal (112) and make it govern.
+4. GOD RAYS DUST drifts ONLY DOWNWARD (or reads that way). Check the
+   portal's dust motion; match it.
+5. DEAD ENDS REMOVED, his ruling: LINK TO SUN COLOR, GLOW INTENSITY,
+   and GLOW SIZE all linked to the sun object that was never ported —
+   they lead nowhere. REMOVE all three from the Sun folder. (If other
+   rows secretly depend on them, say so in the report before removal.)
+
+His eye retests 2-5 on the same page.
