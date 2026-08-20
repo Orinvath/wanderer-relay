@@ -3256,3 +3256,18 @@ big it is. Rule Zero each proposed axis: does it produce DIFFERENT
 HEADS or the same head resized? Sheet per type, wide walks, his eye
 rules. Iterate until the diversity satisfies him per 098 — do not
 return with squish-and-stretch.
+
+## Directive 174 addendum — Research procedural character generation FIRST
+
+Lonnie's direction: before designing the new axes, RESEARCH procedural
+character/creature generation properly for ideas — the documented
+techniques that produce genuine shape diversity, not resizing:
+superformula/supershapes, metaball/implicit-surface composition,
+Spore's part-graph approach, L-systems, noise-driven surface
+deformation, Fourier/harmonic outline synthesis, and whatever else the
+literature and shipped games actually used. For each candidate: what
+diversity it demonstrably produces, its cost, its fit with the
+existing generator interface (queried and traced boundaries), and its
+flaws — Rule Zero per source. THEN propose each type's character axes
+grounded in the researched techniques, sheets for his eye. Cite
+everything.
