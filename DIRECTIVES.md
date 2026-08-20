@@ -3169,3 +3169,25 @@ existing tunnel and post the link to REPORTS.md, one line, the URL —
 phone-usable, the sheet readable at phone width (scale or split the
 grid if needed). His range fences come back through me when he has
 looked.
+
+## Directive 170 — Lonnie's correction: FIVE head types. This space is ONE of them.
+
+His ruling, correcting stage 1's framing: Avatar 1's head is ONE of
+the five head types — the five are DIFFERENT HEADS, not five variants
+of one formula. The star equation and its six dials are the variant
+space WITHIN type one only.
+
+So the head system is:
+1. A HEAD-TYPE GENE: picks one of the five types.
+2. PER-TYPE VARIANT SPACES: each type gets its own generator and its
+   own dials, exactly as type one now has. (The lens/orb the sweep
+   produced may resemble other types, but resemblance is not the
+   ruling — his five are five.)
+3. Same shared-with-eye principle applies per type; same regression
+   law: her exact head stays reproducible in type one.
+
+Build the head-type gene and the remaining four type generators from
+his blueprint drawings (each drawing described as math, the recovery
+method now written down as it runs). His eye rules each type's sheet;
+range fences per type when he looks. Sparks stay next in order after
+heads; report per stage.
