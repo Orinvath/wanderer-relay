@@ -21061,3 +21061,98 @@ project and kept aside rather than left lying in the tree or thrown away.
 
 **The question is with him and nothing proceeds until he answers it.** I have already misread this
 one once today; I am not going to guess at it twice.
+
+---
+
+## Directive 167 — the export, built to the shape of his. WORLD WORK CLOSED.
+
+**His ruling on how:** *"The World export in Elsewhere had a lot more in it than what is in
+Wanderer, so you shouldn't do a copy of it — you should use it as a template for how to save
+things in Wanderer."*
+
+**So this is not a transcription. It is his architecture, carrying what this place actually has.**
+
+### Why this is not the world file that already existed
+
+**A saved world is a settings FILE.** It names the paintings by their path, so it only means
+anything on a machine that still holds them. **An export is a FOLDER that stands on its own.** His
+words: *"A preset saves settings. An export saves the PLACE."*
+
+### The four things taken from his design — the whole of it
+
+1. **Every tagged setting**, gathered the way a save gathers them. His tags exist for this.
+2. **The stage**, as its own block.
+3. **The files found by WALKING the data, not by a list of field names** — his note and his reason:
+   *"so a field added later is carried without anyone remembering this."* A painting added to some
+   new kind of thing next month is carried without a line changing here.
+4. **Missing files reported, never thrown** — *"an export that names what it could not find is more
+   use than one that stops halfway."*
+
+Plus his rule on samples: **only the instruments the chosen piece actually plays**, which is the
+difference between a sane folder and the whole library.
+
+### Proved on his own world, not a test object
+
+Exported his **Overlook**:
+
+```
+exports/Overlook   10 files   19.6 MB   0 missing
+  world.json
+  stage/images/…-equ-a3feee52….png          the painting
+  stage/images/…-equ-a3feee52….depth.png    the depth map cut from it
+  stage/images/…-equ-a6081667….png
+  music/samples/native-american-flute-susvib/…   7 files, the piece's own instruments
+```
+
+**109 settings, 3 planes, and every file it names sitting under the folder.** The probe folder was
+removed afterwards; his saved worlds were not touched.
+
+### What his carries that this does not — named, not quietly dropped
+
+The sky, the materials each surface wears, the primitives, and **her** — persona, mind and voice.
+**None of those subsystems exist here.** Nothing is faked in their place and no empty blocks are
+written. **They join the export the day they are ported, and the walk will pick up their files
+without being told**, which is the whole point of taking his walk rather than a field list.
+
+### Checks — and the first one failed on my own test, not the code
+
+```
+an export writes a folder with its own world.json          ✓  109 settings
+every file it says it carries is really there              ✓  the folder stands on its own
+a painting it could not find is NAMED, not dropped         ✓
+an exported world is listed by name, with when it left     ✓
+```
+
+The second one failed first time: **my test world had no real painting to carry**, so it exported
+nothing and I had asserted it exported something. **My check was wrong, the export was right.**
+Pointed at a painting that actually exists and it passes honestly.
+
+### The control
+
+His own layout, his three parts: **a name field, an Export button, a status line** — the same
+wording, including his rule that missing files get shown rather than swallowed. It sits directly
+under Worlds because that is what it is nearest to. **Where it sits is his and it is one line to
+move.**
+
+### Verified
+
+- **FULL SUITE GREEN** — everything that ran, passed. **TESTNET SKIPPED**: the public testnet was
+  not reachable this run; a skip by design, unrelated to any of this.
+- **Nothing left behind** — no probe folders, and `Overlook`, `Test`, `before-viewport-restart`
+  and the default are exactly as they were.
+
+---
+
+## WORLD WORK IS CLOSED
+
+**His word: the world is good enough to go on with the Avatar, and it was only ever the room to put
+her in.** Nothing further on the world is in progress and nothing is half-finished.
+
+**Standing at the close, and none of it blocking:**
+
+- **the Lights folder** has no saved side at all — not a gap in the preset, a missing subsystem
+- **the sky dome, materials, primitives** — not ported; the export is already built to carry them
+- **PHASE 3** fails roughly one run in three on model wording; **TESTNET** skips when the public
+  testnet is unreachable. Both pre-date this work.
+
+**Next is Avatar 2.0. I am not starting it on a guess — his design, his direction.**
