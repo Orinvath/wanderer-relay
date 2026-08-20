@@ -21637,3 +21637,77 @@ between a family and a menagerie · **whether two different head types may cross
 [Deb & Sindhya, self-adaptive SBX](https://dl.acm.org/doi/10.1145/1276958.1277190) ·
 [Experimental comparison of boundary-constraint methods](https://elektron.elka.pw.edu.pl/~jarabas/ALHE/krakow1.pdf) ·
 [Patterns of convergence and bound constraint violation](https://arxiv.org/pdf/2305.12221)
+
+---
+
+## Directive 172 — the frame was the bug. Traced boundaries, and the teardrop has a point.
+
+**https://cds-dome-deals-decisions.trycloudflare.com/heads/**
+
+**His pipeline law answered it without him, and it was the right answer.** *Fix by removing the
+cause, never by patching.* Three formulae failed the same way because **the failure was never the
+formula.**
+
+### The cause, removed
+
+Every type answered one question: **"what is the radius at this angle"** — measured outward from a
+single centre. **A drop's tip is a cusp: two sides meeting at a point in space.** Asked from a
+centre, that point can only appear as the radius going to zero at one angle, which draws **a dimple
+or a bite** — exactly what the sheet kept showing me. **The frame was wrong, so nothing inside it
+could be right.**
+
+**The interface now has two ways of naming a rim:**
+
+```
+OUTLINE  — the radius at this angle          star · orb · lens · diamond
+TRACE    — the boundary point at this fraction of the way round     teardrop
+```
+
+**A type appears in exactly one table.** After the rim is named, everything else — the fan, the
+mirroring, the thickness, the curl — is **identical for both**, which is why her star came through
+untouched.
+
+**The curve is standard and needed no invention:** `x = cos t, y = sin t · |sin(t/2)|^taper`. At
+`t = 0` the two branches meet — **a true point**; at `t = π` it is round.
+
+### Her regression: still exactly zero
+
+```
+96,000 vertices, largest disagreement 0
+```
+
+**The interface grew; it replaced nothing.** A check asserts her star is *not* traced.
+
+### The point is MEASURED, not eyeballed
+
+```
+width 3% from the tip 0.090   vs   3% from the round end 0.399
+```
+
+**That ratio is what makes it a drop and not an egg**, and it is the thing the three queried
+formulae could not produce at any setting.
+
+### TWO FAULTS I FOUND IN MY OWN WORK DOING THIS
+
+**1. A check that had silently stopped testing anything.** When the teardrop became traced, the
+five-are-five comparison fell through to the star's formula for it. The teardrop's genes have no
+`Ri`/`P`/`K`, so **the whole ring came out NaN — and NaN loses every comparison, so the pair was
+never "closest" and the check passed while measuring nothing.** Same can't-fail hole I caught in my
+own wipe test earlier today. **It now asks each type the way that type answers, and throws if a rim
+is not finite.**
+
+**2. My sheet was drawing the world upside down.** The teardrop rendered point-DOWN while the
+geometry had it point-UP: screen y runs down, the world's runs up. **Every type until now was
+symmetric top to bottom, so it never showed.** The flip belonged in the sheet, not in the shape, and
+that is where it went.
+
+### For his eye — all five together
+
+**Orb · star (hers, gold) · teardrop · lens · diamond**, then each type's own dials walked wide.
+The teardrop now reads as a drop with the point up, **which is how his drawing reads to me — and
+that is a reading, so it is one axis swap to flip and his to rule.**
+
+**Still his, unchanged:** is each of these that head · the per-type ranges · and from 171, whether
+the fences clip or reflect.
+
+**FULL SUITE GREEN**, TESTNET skipped as all session.
