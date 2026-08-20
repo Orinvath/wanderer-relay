@@ -21268,3 +21268,108 @@ letting him rule.
 what was.**
 
 **Nothing is in progress. Avatar 2.0 begins on his direction.**
+
+---
+
+## Directive 168 — the El-Fish correction. PLAN ONLY, as ordered.
+
+**`AVATAR_SYSTEM_PLAN.md` written; `ROE_PLAN.md` §13 corrected. Nothing implemented. Full suite
+green.**
+
+### He was right, and the record shows exactly where the flaw entered
+
+`ROE_PLAN.md` §13–14 treats the blueprint's five eye shapes and five head shapes as **categorical
+genes — a menu of five, picked from.** That is a catalogue with a gene attached, not a generator.
+His ruling names it precisely: *"we predetermined the Avatars' looks before designing how they are
+built."*
+
+### RESEARCH FIRST — flaws before promises
+
+**El-Fish / AnimaTek (1993), the namesake.** A **"Roe"** per fish, **~800 genetic attributes**,
+nothing stored as a model — it **generated up to 256 animation frames** per fish.
+
+**Its documented failure is the one that matters most to us, and it is not a graphics failure.**
+Computer Gaming World faulted it for an *"inability to sustain the player's interest. Once the
+aquarium has been created and viewed, there just isn't much else happening"* — no ecosystem behind
+the fish. **Enormous visual variety, and still hollow, because the variety did not mean anything.**
+This project already answers that: 044 ties visible signs to the ten aspects, 045 says a hard road
+shows. **That became a requirement on the design, not a footnote.**
+
+**Karl Sims (1994).** Genotype as a **directed graph**, so one gene could mean "a limb, four times".
+His published outtakes are *"Virtual Creature Bloopers"* — creatures that **found and exploited the
+failure modes of the simulator.** Evolution was working perfectly, against a space that permitted
+nonsense. **Any range we declare legal will contain broken creatures, and the Roe will reach them.**
+
+**Spore / Chris Hecker, in his own liner notes.** *"the torso on fat creatures can shear"* — they
+prototyped fixes and **"had to punt."** *"Ellipsoidal metaballs would be cool and allow a wider
+range of shapes, but they seem like they'd be significantly slower"* — **range traded for speed,
+deliberately.** And the redeeming one: unintended limb webbing became bat wings — *"Bugs + Player
+Creativity = Features."*
+
+**Kate Compton — the mush trap, named.** *"I can easily generate 10,000 bowls of plain oatmeal…
+mathematically speaking they will all be completely unique. But the user will likely just see a lot
+of oatmeal."* And her warning about **exactly our method**: a parametric generator moves *"only
+along fixed one-dimensional numerical paths"* with *"no structure variability at all."*
+
+### THE FINDING THAT MATTERS MOST IS OURS, NOT THE LITERATURE'S
+
+**Directive 041's grid already measured this project into the oatmeal problem.** Sixty-four beings:
+
+> *"They read as one creature drawn sixty-four times."* Silhouette overlap across all 2,016 pairs —
+> **median 0.70, mean 0.70, lowest pair in the whole grid 0.61.**
+
+Because **every one of the 28 strong dials is a constant in the reference genome.** So the
+parameterisation is not an enthusiasm — **the current build has been measured saying it is 10,000
+bowls of the same oatmeal, and 0.70 is the number the new space has to beat.**
+
+### The design
+
+**The blueprint already did most of this and nobody noticed.** Its own law is *"Math defines WHERE;
+effect defines WHAT IT LOOKS LIKE"* and *"every shape is a formula."* **A formula with named
+constants IS a parameter space.** The constants were frozen at Avatar 1's values and the five
+drawings treated as the menu.
+
+- **Head** — the space is *already written*: `R(a) = Ri + (Ro−Ri)·(0.5+0.5·cos(P·a))^K` and the
+  thickness profile. `P` is how many points, `K` is sharpness, `Ri` is the open centre. The five
+  named shapes are **five coordinates**. It even ships a known-degenerate region: his hard rule
+  that thickness must be **one analytic curve**, because a spliced plateau leaves a crease ring.
+- **Eye** — **one architectural finding worth the whole pass:** the blueprint says head and eye
+  **share the same five shapes**, so they should share **ONE shape generator instantiated twice**,
+  not two that happen to agree. It halves the tuning surface, makes "any eye with any head" true by
+  construction, and is directly Compton's parameter-soup warning. The flare stays a **sign**, not a
+  shape — his word.
+- **Body** — the largest space, and the only one needing genuinely new work. Per-strand dimensions
+  are already parameters; what Forms 2–6 need is **structure, not more dials**: where strands
+  originate, which way the field carries them, radial vs bilateral, how many populations.
+  **Proposed, and honestly marked as unverified against his drawings.**
+- **Sparks** — smallest and fully specified already; the gap is only that no gene block exists.
+
+**Form 1 is the regression proof.** Her coordinates must reproduce her exactly, asserted by the
+suite, comparing **geometry not spelling** — the trap already caught once when a check pinned a
+shader's text instead of its law.
+
+### One correction to something I told him in the terminal
+
+I said there was **no gene picking which of the six forms a creature is.** **That was wrong.**
+`roe.js` has `form`, defaulting to `tendril`, validated on the way in — `FORMS` simply holds one
+legal value. The work is **giving the gene more to choose from**, not designing it. Smaller job than
+I described.
+
+### What is NOT known, said rather than assumed
+
+Where the five shapes sit in the space; whether the proposed body axes actually reach Forms 2–6;
+where the degenerate regions are; what spread is good enough. **Each has a method written down. None
+is guessed at, because a wrong mapping would look like a plan and be a fiction.**
+
+### FOR HIS APPROVAL — his alone
+
+**The legal ranges** (ranges *are* the look) · **which structural axes the body gets** · **how much
+variation is enough** · **build order** — head/eye (nearly written), sparks (smallest), or body
+(largest, and what the forms need).
+
+**Full suite green, TESTNET skipped as it has been all session. Nothing implemented.**
+
+**Sources:** [El-Fish](https://en.wikipedia.org/wiki/El-Fish) ·
+[Karl Sims, Evolved Virtual Creatures](https://www.karlsims.com/evolved-virtual-creatures.html) ·
+[Hecker, My Liner Notes for Spore](https://chrishecker.com/My_Liner_Notes_for_Spore) ·
+[Compton, So you want to build a generator…](https://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
