@@ -3297,3 +3297,20 @@ talking-head later). So:
 
 Report a Brain-completion plan (what "working" requires, in order)
 before executing. Plan first, his approval, then run to completion.
+
+## Directive 176 — The reference embodiment: a glowing sphere
+
+Lonnie's stand-in for Brain development: A GLOWING SPHERE as
+embodiment #0 — the minimal body that makes the mind visible while
+real embodiments vary by project. Its channels are the universal
+expressive minimum, driven ONLY through the embodiment contract
+(175a):
+- glow (brightness), colour (hue/vividness), pulse (rate/depth),
+  position (drift/approach/retreat/stillness), and speech/glyph
+  display where the Brain speaks.
+The wisp's richer channels (tendrils, sparks, hiding) remain
+embodiment #1's own; nothing in the Brain may REQUIRE more than the
+sphere offers — anything richer is the embodiment's elaboration.
+The watching build gains a sphere mode; Brain development and tuning
+run against the sphere by default. Suite: the same Brain session
+drives sphere and wisp without code change — the contract proof.
