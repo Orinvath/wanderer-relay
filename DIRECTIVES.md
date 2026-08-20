@@ -3161,3 +3161,11 @@ new space — 0.70 is the number to beat. The remaining three decisions
 reaches them, with visuals where ranges are the question — ranges ARE
 the look, and his eye rules the look. Report per stage, run to
 completion per 148.
+
+## Directive 169 addendum — Lonnie is on his phone: the dial sheet through the tunnel
+
+He is at court, mobile only. Serve the stage-1 dial sheet through the
+existing tunnel and post the link to REPORTS.md, one line, the URL —
+phone-usable, the sheet readable at phone width (scale or split the
+grid if needed). His range fences come back through me when he has
+looked.
