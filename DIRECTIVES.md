@@ -3050,3 +3050,16 @@ preset currently captures against the full control set, close every
 gap, and suite-check the round trip (save, wipe, load, compare all
 values). His eye retests: save a world with rays and music set, reload
 it, everything returns.
+
+## Directive 162 — THIRD ASK: the Planes rows show NO text after Clear. NONE.
+
+Lonnie's screenshot on record with the director, his words: "Planes
+still have their fucking names, how many times am I going to have to
+ask." What his eye sees: "none" / "none" / "dept…" after the Clear
+buttons — the STATUS text your 157 report chose to keep. To his eye it
+is the same clutter in the same place, and his ask was always the same:
+the row is Painting · LOAD · CLEAR and NOTHING ELSE. No file name, no
+status word, no "none", no "depth ✓", no progress text. His portal's
+panel design is the spec. Strip every trailing string from all plane
+rows. His eye retests — this closes only when his screenshot shows
+clean rows.
