@@ -3085,3 +3085,12 @@ already correct there, use the documented dev workaround for the dev
 page (launch flag or equivalent) so his testing hears it too, and say
 plainly in the report which part was our code and which was Chrome.
 His ear rules.
+
+## Directive 165 — Remove Sky Influence and Sun Shading from Planes
+
+Lonnie's ruling: SKY INFLUENCE and SUN SHADING in the Planes folder
+were designed against the sky dome, which does not exist in the
+Wanderer's world — they no longer do what they were built to do. REMOVE
+both rows (same class as the 158 dead ends). If anything currently
+reads their values, say so in the report before removal. His eye
+confirms clean Planes rows.
