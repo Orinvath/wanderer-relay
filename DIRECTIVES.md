@@ -3222,3 +3222,14 @@ ones, the teardrop drawn properly with a true point, type one's
 regression untouched (her head still vertex-exact). No more formula
 guesses inside the broken frame. Report with the corrected sheet;
 his eye rules all five types together.
+
+## Directive 173 — His eye on the sheet: IT SHOWS ONLY TYPE ONE AGAIN
+
+Lonnie opened the sheet link and sees "just the first head again" —
+not the five. Either the tunnel serves a stale page, the new sheet
+never replaced the old at that URL, or the five-view failed to render
+on mobile. Reconcile NOW: serve the actual five-type sheet (orb, star,
+teardrop, lens, diamond + per-type dials) at the link, verified by
+fetching it through the tunnel yourself and confirming the five are
+in the served HTML, then post the confirmed link to REPORTS.md. His
+eye is the test — it closes when his phone shows five heads.
