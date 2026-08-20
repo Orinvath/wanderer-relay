@@ -3233,3 +3233,26 @@ teardrop, lens, diamond + per-type dials) at the link, verified by
 fetching it through the tunnel yourself and confirming the five are
 in the served HTML, then post the confirmed link to REPORTS.md. His
 eye is the test — it closes when his phone shows five heads.
+
+## Directive 174 — His eye: NOT GOOD ENOUGH. Four dead spaces. Match the star's diversity.
+
+Lonnie's verdict on the five-head sheet, his words: none of them are
+really good enough — look at the DIVERSITY OF THE STAR, how many
+different shapes it makes. The other four are just SQUISHING AND
+STRETCHING. He does not need a premium intelligence to produce what a
+two-year-old could.
+
+The star's space is the standard: its dials change CHARACTER (points,
+sharpness, openness, waist — different BEINGS fall out of it). The
+other four types' dials are mere scale knobs — width, height, taper.
+That is the oatmeal trap again, one level down: a type whose variants
+are all the same shape resized IS a frozen shape.
+
+REDESIGN the orb, teardrop, lens, and diamond spaces so each has
+character axes of the star's rank — dials that change WHAT THE SHAPE
+IS within its type (surface behavior, edge character, internal
+structure, asymmetries, whatever each type's nature offers), not how
+big it is. Rule Zero each proposed axis: does it produce DIFFERENT
+HEADS or the same head resized? Sheet per type, wide walks, his eye
+rules. Iterate until the diversity satisfies him per 098 — do not
+return with squish-and-stretch.
