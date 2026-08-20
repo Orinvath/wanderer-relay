@@ -22166,3 +22166,50 @@ different findings and I am not going to guess which one it is.**
 
 **Still his:** which of the three spheres she is, and the stage-3 numbers once he has
 watched her.
+
+## Directive 177 stage 4 — Two faults fixed and proved in the wild. One left open, honestly.
+
+**Eight more runs, this time the WHOLE phase** (80 checks each, from the directory
+that does not truncate it). Commit `8efc2a5` already carries the fixes.
+
+### The judge-refusal fix proved itself within five runs
+
+I predicted a run where the judge happens to refuse nothing would fail a build that
+is working perfectly. **It happened twice in eight** — runs 5 and 7, *"the judge
+refused nothing across the 5 reflections."*
+
+**Under the old check those were two red builds on a healthy system.** Now they say,
+in the same words the TESTNET skip uses: **SKIPPED, IT PROVED NOTHING** — the
+plumbing is untested this run, and **it is not vindicated by a quiet judge.**
+
+### The privacy scan did NOT reproduce, and I am not going to pretend otherwise
+
+**Nineteen runs now** — eleven partial (the truncated ones) and eight full. **One
+failure, in run 6 of the partials.** It has not fired since.
+
+**So I cannot tell him what it was.** The diagnostic is armed and waiting: the next
+time it fires it will print **the term, the file, and the bytes around it**, which
+is the difference between *"an ordinary word coincided"* (8 of its 14 terms are
+words like **father**, **watch**, **brother**) and *"host-a's words are sitting in a
+freed database page"* — a real privacy fault.
+
+**I will not call the suite hardened while an unexplained failure on the privacy
+phase is unaccounted for.** A green run that I cannot explain is not the same as a
+green run I understand, and this is the one phase where that distinction matters
+most.
+
+### Stage 4 as it stands
+
+| | |
+|---|---|
+| PHASE 3 running only two thirds of itself | **fixed** — 80 checks from either directory |
+| a check that failed when the judge was quiet | **fixed** — and it fired naturally twice in eight |
+| the at-rest privacy scan, 1 failure in 19 | **open, armed, not guessed at** |
+
+### The four stages
+
+**1 contract · done. 2 sphere · done. 3 proven live · running, ends at his eye.
+4 hardened · two of three, with the third named rather than buried.**
+
+**Still his:** which of the three spheres she is, and the stage-3 numbers once he has
+watched her.
