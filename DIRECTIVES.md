@@ -3323,3 +3323,18 @@ each meaningful step lands as its own commit, no big-bang deliveries.
 Run to completion per 148; stop only at walls or the decisions the
 plan already reserves for him (the feeling-to-sphere look with sheets,
 the stage-3 numbers on the watch). Report per stage.
+
+## Directive 178 — HIS EYE: THE PAGE SHOWS THE AVATAR. He asked for a SPHERE.
+
+Lonnie opened the sphere link and saw THE AVATAR — the wisp — on the
+page. He ordered a sphere stand-in (176) precisely to stop dealing
+with the avatar body during Brain work. Whatever the report intended
+("three spheres under her"), what his eye met was the avatar again.
+
+FIX THE PAGE: the sphere view shows SPHERES ONLY — no wisp, no
+tendrils, no avatar rendering anywhere on it. The wisp build stays in
+the codebase untouched but OFF this page. Retire the old watch that
+has been running since the 19th (his word is given by this anger —
+kill it). Serve the corrected page at the same link, verified through
+the tunnel that no avatar geometry is in what is served. One terminal
+line when ready: "sphere page fixed — reload."
