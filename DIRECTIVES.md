@@ -3338,3 +3338,12 @@ has been running since the 19th (his word is given by this anger —
 kill it). Serve the corrected page at the same link, verified through
 the tunnel that no avatar geometry is in what is served. One terminal
 line when ready: "sphere page fixed — reload."
+
+## Directive 178 addendum — Rule Zero, ten times if it takes it
+
+Lonnie's order on the fix: APPLY RULE ZERO AS MANY TIMES AS IT TAKES —
+stress-test the fixed page against his exact complaint before it
+reaches him: open what the TUNNEL serves, confirm zero avatar geometry,
+zero wisp code, spheres only, then check it AGAIN as he would see it
+(phone-width, the actual URL, fresh load, cache busted). Iterate until
+it cannot be wrong. Do not cost him another look at a broken page.
