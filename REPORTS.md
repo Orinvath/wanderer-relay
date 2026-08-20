@@ -21949,3 +21949,92 @@ sheets, when those stages reach them**, not now as a wall of questions.
 **Parked, nothing lost:** heads, sparks, body axes, and the shape research.
 
 **Awaiting his word before any Brain work begins.**
+
+## Directive 177 — Stage 1 and Stage 2 done. The mind no longer knows what it is wearing.
+
+Committing along the way as he asked: `043032d`, `5508689`, `1eb7926`, `3d929cb`.
+**Full suite green after each**, TESTNET skipped (unreachable — it proved nothing).
+
+### Stage 1 — the contract
+
+**The one principle everything else follows from:** *the Brain says what she IS;
+it never says what a body should DO.* "Her relatedness is low, she wants company,
+she felt a small joy" is something a wisp, a sphere, a cartoon and a talking head
+can each show their own way. *"Raise tendril three"* is a wisp instruction wearing
+a mind's clothes, and a sphere has no tendril to raise.
+
+**Enforced, not intended.** An expression is built only from a closed list of
+fields and **anything else is refused by name**. A body instruction would have to
+arrive as a new field, and new fields do not get through.
+
+**The one real coupling is gone.** `effects.js` — on the Brain's path — was
+importing colour arithmetic from `adapt.js`, the octopus. That arithmetic was
+never the octopus's, it was just housed there, so **the fix was a removal**: it
+lives on its own now and neither side depends on the other.
+
+**`view()` no longer hands the page `body: {vertices, regions, strands}`.** A
+sphere has no answer to that question and the mind should never have been asking
+it. **The body describes itself.**
+
+**The guard reads the files**, the same way the chamber rule does, and fails if
+anything on the Brain's path ever imports a body. **I proved it bites**: adding an
+import of the creature to `goals.js` fails it by name.
+
+**One thing the contract caught immediately and correctly:** a per-tick
+`brainError` used to be written onto what she said. It is refused now — **a
+harness fault is not an utterance.** It moved to the session where it belongs.
+
+### Stage 2 — the glowing sphere, and I did not pick the look
+
+**The sphere REFUSES to be constructed without a named mapping. There is no
+default, on purpose:** a default is a decision wearing a shrug, and how a feeling
+becomes light is a look.
+
+**So instead of choosing, I built three, and they are live side by side on his
+phone right now:**
+
+| | what the sphere is showing |
+|---|---|
+| **the ledger** | how she is **doing** — brightness is how well her needs are met, the colour is which need is lowest |
+| **the feeling** | what she is **feeling** — it only lights when a moment got through her attention, and stays dark when it did not |
+| **the wanting** | what she is **after** — the colour is what she chose, the brightness how much she wanted it |
+
+**They are genuinely three, and the suite asserts it** — the same six ticks read
+three different ways. On one real moment the ledger and the feeling both had her
+**retreating** while the wanting had her **approaching**. That is the choice, and
+it is a real one.
+
+**176's own test passes:** *the same Brain session drives sphere and wisp with no
+code change.* It is true because there is **only one piece of code** — both bodies
+read the same shared floor. Six real ticks × three mappings × two bodies, **zero
+disagreements**, and the wisp's tendrils, sparks and hiding stay hers.
+
+**Her three channels are declared and left NULL.** Filling them in would be me
+inventing her look, and it is not mine to invent.
+
+### On his phone
+
+**https://sitting-bend-take-highly.trycloudflare.com/?key=sphere** — Brain open,
+ticking, three spheres under her.
+
+**HIS OLD WATCH WAS NOT KILLED.** It has been running since the 19th and I found it
+before touching anything, so the sphere build went up **alongside** it on its own
+port. Nothing was destroyed and the old link still works. **Say the word and I
+retire it.**
+
+**The sphere section is APPENDED, not slotted in.** His panel is not rearranged —
+placement and naming are his, and additive means it costs nothing to move.
+
+### What is his
+
+1. **Which of the three she is.** Two of them go after he rules.
+2. **Where the sphere section sits**, if anywhere.
+3. **Her tendrils, sparks and hiding**, which are still null and waiting.
+
+### Where I am
+
+**Stage 3 (proven live) has begun** — the watch is running under the real local
+model, no doubles. **It ends at his eye, per 118**, so its completion waits on him
+watching it. **Stage 4 (hardening) has no dependency and is in progress now**: I am
+measuring the PHASE 3 flake across repeated runs before changing anything, rather
+than guessing which checks are the unreliable ones.
