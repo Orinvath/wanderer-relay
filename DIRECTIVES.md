@@ -3638,3 +3638,13 @@ Lonnie's rulings, superseding the Director's recommendations:
    q80 for consistency, or leave and let on-the-fly handle the future;
    whichever is less code, report which was done.
 Suite green. Report.
+
+## Directive 190 — Post the vocabulary for the seventeen (data retrieval, no decisions)
+
+The backup repo is private; the Director cannot read it. Post to the
+relay, verbatim from the sheets: the full word list of the glyph
+language (all sheets, each word with its sheet/category), so the
+Director and Lonnie can map the seventeen silent states (ALONE ·
+BRIGHT · FREE · GLAD · HELD · HIDE · LOSS · LOST · NEED · PROUD ·
+SMALL · SORROW · STILL · STRONG · TIRED · WONDER · WRONG) onto words
+the language actually owns. Pure data; choose nothing.
