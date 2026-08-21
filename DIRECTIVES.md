@@ -3347,3 +3347,15 @@ reaches him: open what the TUNNEL serves, confirm zero avatar geometry,
 zero wisp code, spheres only, then check it AGAIN as he would see it
 (phone-width, the actual URL, fresh load, cache busted). Iterate until
 it cannot be wrong. Do not cost him another look at a broken page.
+
+## Directive 178 — Lonnie is home: put the watch and the sphere choice in front of him
+
+He is at his desktop. Per the no-windows law (166): start whatever
+servers the live watch and the three-sphere comparison need, and print
+the address(es) as one terminal line each — he opens them himself.
+What he needs in front of him:
+1. THE LIVE WATCH (177 stage 3) — her, running on the Brain, ready
+   for his eye.
+2. THE THREE SPHERES — whatever page or view shows the three options
+   so he can rule which she is.
+One line per address, nothing opened for him, and say which is which.
