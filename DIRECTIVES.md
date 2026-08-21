@@ -3700,3 +3700,20 @@ saying resolves to real marks. Standing rule for all future mapping work,
 joining CLAUDE.md: CHECK THE WHOLE VOCABULARY FIRST — a mapping that
 spells out what the language already says in one word is a defect.
 Report the twelve restored.
+
+## Directive 193 — The four rulings: the dictionary closes
+
+Lonnie ruled all four:
+1. capable = CONFIDENCE (single mark).
+2. bottomed(-10) = DESPAIR — polysemy law carries both senses
+   (fears-confirmed vs the bottomed state); dyad partner/context
+   selects, senses documented in the entry.
+3. relief = RELIEF. The standing rule hardens: USE THE WORD IF IT
+   EXISTS — always.
+4. urge:burst = EXCITEMENT (Frijda free activation; the urge fires
+   from high-energy joy, so the mark is the thing itself, not a
+   neighbour). Nothing is unspeakable; nothing new drawn.
+Apply the seven clean swaps from your 192 report (LONELINESS ·
+TOGETHER · WEAKNESS · SAFETY · TIREDNESS · HIDDEN · SEARCH) plus
+these four. Dictionary edits only; suite re-proves every saying.
+The language stands complete. Report.
