@@ -3447,3 +3447,17 @@ the mind or the body — that is a PERSONA, which they do not have. The
 language is: "the Avatar," "the mind," "the body," "it." All future
 reports, code comments, docs, and displays comply. Existing docs
 corrected as they are touched.
+
+## Directive 183 — THE LOOP LAW: never poll an empty queue overnight
+
+Lonnie found the burn: the 60-second relay poll ran all night at ~500
+tokens a tick with nothing in the queue. Law, joining CLAUDE.md:
+
+1. The polling loop runs ONLY during an active working session with
+   Lonnie. When he ends a session, or when the queue has been empty
+   for 30 minutes, THE LOOP STOPS ITSELF and says so in one line.
+2. Never leave the loop running unattended overnight. A stopped loop
+   costs nothing; a pending directive waits patiently on the relay
+   and is picked up on the next manual start.
+3. On loop start, state the per-tick cost estimate in one line so the
+   burn is always visible.
