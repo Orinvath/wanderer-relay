@@ -3387,3 +3387,14 @@ live watch and the three-sphere view per 178.
      direction: toward, away, still — 137 law)
    Rebuild the sphere display on the three channels. Rule Zero the
    rebuilt design BEFORE building it. His eye rules on sight.
+
+## Directive 180 addendum — the display must SAY what the channels mean
+
+Lonnie's eye on the rebuilt spheres: they pulse, and differently — but
+NOTHING SAYS WHAT PULSING MEANS. A display he cannot read is not a
+display. Add a legend to the page: the three channels named in plain
+words (color = what she is feeling · pulse = how she is doing · motion
+= what she is after), visible without hunting. And whatever
+distinguishes the three spheres from each other must be stated on the
+page too — he should never have to ask the panel what it is showing
+him. His eye retests.
