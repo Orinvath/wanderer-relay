@@ -3368,3 +3368,22 @@ wants at home. The no-windows law applies to unrequested openings and
 to when he is away. When he says "show me" / "load it" at home: open
 the page(s), one window, announce in one line. Applied now: open the
 live watch and the three-sphere view per 178.
+
+## Directive 180 — RULE ZERO VIOLATION on the sphere display; the three-channel fix
+
+1. THE VIOLATION, named by Lonnie from one look: all three data
+   streams (how she is doing, what she is feeling, what she is after)
+   were displayed AS COLOR — one channel, three meanings, unreadable
+   by construction. Rule Zero was not applied: the flaw is visible in
+   seconds, and the ruled record already contained the answer. Log it
+   in the self-audit lineage (the partial-done pattern's cousin:
+   building without stress-testing the design).
+2. THE FIX, from the record's own laws — one meaning per channel:
+   - COLOR = FEELING (109's researched mapping; brightness/saturation
+     are the emotion axes — already law)
+   - PULSE/TEMPO = HOW SHE IS DOING (arousal as the body's heartbeat:
+     slow-steady well, quick-shallow strained — the reactions layer)
+   - MOTION = WHAT SHE IS AFTER (Frijda action tendencies as literal
+     direction: toward, away, still — 137 law)
+   Rebuild the sphere display on the three channels. Rule Zero the
+   rebuilt design BEFORE building it. His eye rules on sight.
