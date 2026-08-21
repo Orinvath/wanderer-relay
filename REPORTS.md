@@ -22697,3 +22697,72 @@ matching code is written**, because the maths will be right and the table is whe
 the errors will live.
 
 **Nothing built. Awaiting the Director's spec on his word.**
+
+## Directive 186 — The personality read-out is built. Sanity results below.
+
+Commit `c3b4e53`. All checks pass, TESTNET skipped. **PROFILES** joins the suite.
+
+**Built to spec, no design calls.** `profiles.js` is the approved table as pure data:
+24 signatures, each carrying its citation, source axis, scale assumption and tier,
+with **unspecified cells NULL and never 50** — "unspecified" and "average" are
+different claims. `profile-match.js` is a pure function: correlation over specified
+cells only, **run once at birth**, cached beside the mind, **zero lines in the
+per-tick path**, served in the one request the page already makes.
+
+**Rendering:** its own group in the overlay beneath the Big Five, above the live
+needs. Tier C renders italic and greyed and says *weakly documented*; thin matches
+render faded. Every row is a **direction and a distance**.
+
+### THE SANITY SUITE — 12 of 12, and it earned its place
+
+| | |
+|---|---|
+| obvious psychopath | **resembles psychopathy** (with grandiose narcissism, 0.95) |
+| gentle, high-compassion | **resembles light triad, resilient, healthy** |
+| volatile, withdrawn | **resembles borderline** at 0.98 |
+| every rankable centroid | **17 of 17 recover themselves at r = 1.000** |
+| Form 1 | identical read-out across three runs |
+| under four cells | **7 of 24 never rank** — they flag as corners |
+| near ties | collapse at **0.03** correlation units |
+
+### TWO FAULTS IT CAUGHT THAT WERE ALREADY PASSING GREEN
+
+**1. A gentle, compassionate mind put PARANOID at the top of its list.** The
+arithmetic was right — it is the strong **opposite** of paranoid, and the ordering is
+by strength — and the label was a disaster waiting to be read off a screen. **A name
+never travels without its direction now.**
+
+**2. A perfect 1.00 earned on a single cell.** Correlation is scale-free, so a mind
+average across a signature's cells except one matches any shape sharing that spike
+**perfectly** — a probe set only to volatility 96 correlates **1.00** with the dark
+composite. **Overall spread does not catch it** (0.53, unremarkable). Every match now
+counts the cells it actually earned and **marks itself thin under three**.
+
+**Both were green before I looked at why.** A passing check that passes for the wrong
+reason is the failure mode this project keeps naming, and it nearly shipped twice in
+one file.
+
+### The claim, unchanged
+
+**Shape resembles shape.** Never a diagnosis, never a boolean, never a label alone —
+impairment and distress are a life, and a Roe does not have one.
+
+### Also this stretch
+
+**183** — the loop law is in CLAUDE.md and the loop is stopped.
+**GLOAT and HATE** — 138 ruled the two words in and 139 approved the marks; they were
+drawn and then **never placed**, so the language read 400 for months. His eye caught
+it the moment the emulator needed to draw a glyph. **They are in sheet 06 now and the
+language stands at 402**, the mapping complete for the first time. Five checks broke
+on the change and every one was right to: four had the old size written down as a
+literal, and the fifth proves the glyph boxes were **measured** off his artwork rather
+than computed — my new row is computed, so it now runs over his eight rows only.
+
+### Standing, for the Director
+
+**184's library is now built for the read-out.** What remains open from 185 is
+unchanged: nothing here classifies without his word on the wording, and the Emulator
+itself still exercises only part of the mind — **sleep, dreaming, speaking, surfacing,
+lessons, consolidation, identity and the host model are constructed every run and
+never called.** He has ruled that the Emulator should do everything the mind was meant
+to do; that is the next build and it is not started.
