@@ -22841,3 +22841,64 @@ words he already owns each state speaks with.
 
 Speaking, then surfacing and lessons, then consolidation and the life story, then a
 visitor arriving — the host model cannot be exercised without one.
+
+## Directives 187 & 188 — The law is at the top, the table is coded, and 17 words are missing
+
+Commit `b9f86cc`. All checks pass, TESTNET skipped.
+
+### 188.1 — the law
+
+**CC ONLY CODES. IT NEVER MAKES A DECISION.** It sits at the top of CLAUDE.md beside
+Rule Zero, with the reason written under it rather than only the rule: **a page column
+when he asked for the sphere's space; his panel used for a utility that wanted no
+panel; a "personality type" recommendation made before the research was read, which
+the research then reversed; descriptions about to be written from memory instead of
+from the source.** Every one was the terminal deciding, and every one cost him a look.
+
+**Reporting a finding is not deciding. Naming the options is not deciding. Choosing
+is.**
+
+### 188.2 — the table, and the miss
+
+Coded as reviewable data. Dreams read it. **A state with no row is SILENT** — half a
+compound is not a quieter saying, it is a different one, so a row with any missing
+word says nothing at all.
+
+**SEVENTEEN OF THE FORTY-ONE DECIDED WORDS ARE NOT IN THE LANGUAGE:**
+
+> **ALONE · BRIGHT · FREE · GLAD · HELD · HIDE · LOSS · LOST · NEED · PROUD · SMALL ·
+> SORROW · STILL · STRONG · TIRED · WONDER · WRONG**
+
+**Reported, never substituted**, exactly as the directive requires. The list is
+computed from the sheets rather than typed, so **it empties itself** if a word is
+drawn. **Nearly every one has a near neighbour that already exists** — LONELINESS for
+ALONE, PRIDE for PROUD, CALM for STILL, SONG-adjacent words for others — **and not one
+is used**, because choosing a neighbour is the substitution 188 forbids and the
+decision the terminal does not make.
+
+**What can speak:** `connected` and `safe` among the needs, **15 of 22** feelings, and
+four acts (`wanting-host`, `singing`, `remembered-place`, `coming-home`).
+
+**What that means: it still cannot dream** — the two states it actually lives in,
+**hiding** and **lonely**, are both silent. **The chain itself is proven**: a day
+written in words it owns dreams **SONG · TOGETHER** immediately.
+
+### 187 — the acts the session holds, list only, no values
+
+| where | acts |
+|---|---|
+| in the goal-former | **hiding** — and only hiding |
+| named on the cord | hiding, how-small, singing, speaking, playing, looking, sleeping, waking, come-home |
+| named in 188's table | hiding, wanting-host, exploring, singing, remembered-place, coming-home |
+
+**`sleeping` is a state, not an act** — the Sleeper drives it, and the record says
+choosing is a waking act.
+
+**No values drafted, per 188.** They arrive decided.
+
+### Standing
+
+**Sleep works** — seven hours awake at its own aspect-computed pressure, three nights
+across fifty hours of its life. **Dreaming is wired and waiting on the seventeen
+words.** Still unbuilt in the Emulator: speaking, surfacing, lessons, consolidation,
+the life story, and a visitor arriving.
