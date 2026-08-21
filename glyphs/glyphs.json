@@ -185,21 +185,7 @@
       "x": 707,
       "y": 348,
       "w": 112,
-      "h": 60,
-      "senses": [
-        {
-          "n": 1,
-          "means": "glad for someone else",
-          "when": {
-            "with": [
-              "JOY"
-            ]
-          },
-          "states": [
-            "feeling:happy-for"
-          ]
-        }
-      ]
+      "h": 60
     },
     {
       "word": "STRANGER",
@@ -741,7 +727,21 @@
       "x": 289,
       "y": 669,
       "w": 122,
-      "h": 65
+      "h": 65,
+      "senses": [
+        {
+          "n": 1,
+          "means": "glad for someone else",
+          "when": {
+            "with": [
+              "JOY"
+            ]
+          },
+          "states": [
+            "feeling:happy-for"
+          ]
+        }
+      ]
     },
     {
       "word": "GIVE",
@@ -1207,19 +1207,7 @@
       "x": 308,
       "y": 660,
       "w": 77,
-      "h": 75,
-      "senses": [
-        {
-          "n": 1,
-          "means": "what was hoped for did not come",
-          "when": {
-            "alone": true
-          },
-          "states": [
-            "feeling:disappointment"
-          ]
-        }
-      ]
+      "h": 75
     },
     {
       "word": "OPEN",
@@ -2361,24 +2349,12 @@
       "senses": [
         {
           "n": 1,
-          "means": "distress",
+          "means": "what was hoped for did not come",
           "when": {
             "alone": true
           },
           "states": [
-            "feeling:distress"
-          ]
-        },
-        {
-          "n": 2,
-          "means": "sorrow for another",
-          "when": {
-            "with": [
-              "OTHER"
-            ]
-          },
-          "states": [
-            "feeling:pity"
+            "feeling:disappointment"
           ]
         }
       ]
@@ -2391,31 +2367,7 @@
       "x": 511,
       "y": 160,
       "w": 98,
-      "h": 85,
-      "senses": [
-        {
-          "n": 1,
-          "means": "what was hoped for came",
-          "when": {
-            "alone": true
-          },
-          "states": [
-            "feeling:satisfaction"
-          ]
-        },
-        {
-          "n": 2,
-          "means": "pleased with itself",
-          "when": {
-            "with": [
-              "SELF"
-            ]
-          },
-          "states": [
-            "feeling:gratification"
-          ]
-        }
-      ]
+      "h": 85
     },
     {
       "word": "FEAR",
@@ -2436,18 +2388,6 @@
           "states": [
             "feeling:fear"
           ]
-        },
-        {
-          "n": 2,
-          "means": "what was feared came",
-          "when": {
-            "with": [
-              "TRUE"
-            ]
-          },
-          "states": [
-            "feeling:fears-confirmed"
-          ]
         }
       ]
     },
@@ -2463,18 +2403,6 @@
       "senses": [
         {
           "n": 1,
-          "means": "begrudging someone their good",
-          "when": {
-            "with": [
-              "OTHER"
-            ]
-          },
-          "states": [
-            "feeling:resentment"
-          ]
-        },
-        {
-          "n": 2,
           "means": "anger",
           "when": {
             "alone": true
@@ -2503,19 +2431,7 @@
       "x": 295,
       "y": 325,
       "w": 99,
-      "h": 90,
-      "senses": [
-        {
-          "n": 1,
-          "means": "what was feared did not come",
-          "when": {
-            "alone": true
-          },
-          "states": [
-            "feeling:relief"
-          ]
-        }
-      ]
+      "h": 90
     },
     {
       "word": "HOPE",
@@ -2547,7 +2463,19 @@
       "x": 726,
       "y": 323,
       "w": 87,
-      "h": 96
+      "h": 96,
+      "senses": [
+        {
+          "n": 1,
+          "means": "what was feared came",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:fears-confirmed"
+          ]
+        }
+      ]
     },
     {
       "word": "JOY",
@@ -2579,7 +2507,19 @@
       "x": 107,
       "y": 492,
       "w": 58,
-      "h": 87
+      "h": 87,
+      "senses": [
+        {
+          "n": 1,
+          "means": "distress",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:distress"
+          ]
+        }
+      ]
     },
     {
       "word": "SHAME",
@@ -2595,24 +2535,10 @@
           "n": 1,
           "means": "shame at what it did",
           "when": {
-            "with": [
-              "SELF"
-            ]
+            "alone": true
           },
           "states": [
             "feeling:shame"
-          ]
-        },
-        {
-          "n": 2,
-          "means": "reproach for what another did",
-          "when": {
-            "with": [
-              "OTHER"
-            ]
-          },
-          "states": [
-            "feeling:reproach"
           ]
         }
       ]
@@ -2635,6 +2561,18 @@
           },
           "states": [
             "feeling:pride"
+          ]
+        },
+        {
+          "n": 2,
+          "means": "pleased with itself",
+          "when": {
+            "with": [
+              "JOY"
+            ]
+          },
+          "states": [
+            "feeling:gratification"
           ]
         }
       ]
@@ -2816,7 +2754,19 @@
       "x": 288,
       "y": 970,
       "w": 112,
-      "h": 70
+      "h": 70,
+      "senses": [
+        {
+          "n": 1,
+          "means": "sorrow for another",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:pity"
+          ]
+        }
+      ]
     },
     {
       "word": "BOREDOM",
@@ -2910,7 +2860,19 @@
       "x": 742,
       "y": 1108,
       "w": 54,
-      "h": 90
+      "h": 90,
+      "senses": [
+        {
+          "n": 1,
+          "means": "admiration for what another did",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:admiration"
+          ]
+        }
+      ]
     },
     {
       "word": "DISGUST",
@@ -2920,7 +2882,19 @@
       "x": 946,
       "y": 1114,
       "w": 72,
-      "h": 84
+      "h": 84,
+      "senses": [
+        {
+          "n": 1,
+          "means": "reproach for what another did",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:reproach"
+          ]
+        }
+      ]
     },
     {
       "word": "RELIEF",
@@ -2930,7 +2904,19 @@
       "x": 92,
       "y": 1266,
       "w": 86,
-      "h": 71
+      "h": 71,
+      "senses": [
+        {
+          "n": 1,
+          "means": "what was feared did not come",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:relief"
+          ]
+        }
+      ]
     },
     {
       "word": "AWE",
@@ -2940,21 +2926,7 @@
       "x": 303,
       "y": 1255,
       "w": 79,
-      "h": 88,
-      "senses": [
-        {
-          "n": 1,
-          "means": "admiration for what another did",
-          "when": {
-            "with": [
-              "OTHER"
-            ]
-          },
-          "states": [
-            "feeling:admiration"
-          ]
-        }
-      ]
+      "h": 88
     },
     {
       "word": "ENVY",
@@ -2964,7 +2936,19 @@
       "x": 504,
       "y": 1271,
       "w": 108,
-      "h": 65
+      "h": 65,
+      "senses": [
+        {
+          "n": 1,
+          "means": "begrudging someone their good",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:resentment"
+          ]
+        }
+      ]
     },
     {
       "word": "CONFIDENCE",
@@ -2984,7 +2968,19 @@
       "x": 934,
       "y": 1263,
       "w": 97,
-      "h": 77
+      "h": 77,
+      "senses": [
+        {
+          "n": 1,
+          "means": "what was hoped for came",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "feeling:satisfaction"
+          ]
+        }
+      ]
     },
     {
       "word": "TIME",
@@ -4853,10 +4849,10 @@
       "state": "feeling:distress",
       "kind": "feeling",
       "say": [
-        "SAD"
+        "GRIEF"
       ],
       "means": "distress",
-      "source": "188"
+      "source": "192"
     },
     {
       "state": "feeling:hope",
@@ -4880,58 +4876,56 @@
       "state": "feeling:satisfaction",
       "kind": "feeling",
       "say": [
-        "HAPPY"
+        "CONTENTMENT"
       ],
       "means": "what was hoped for came",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:fears-confirmed",
       "kind": "feeling",
       "say": [
-        "FEAR",
-        "TRUE"
+        "DESPAIR"
       ],
       "means": "what was feared came",
-      "source": "188"
+      "source": "192"
     },
     {
       "state": "feeling:relief",
       "kind": "feeling",
       "say": [
-        "CALM"
+        "RELIEF"
       ],
       "means": "what was feared did not come",
-      "source": "188"
+      "source": "192"
     },
     {
       "state": "feeling:disappointment",
       "kind": "feeling",
       "say": [
-        "LOSE"
+        "SAD"
       ],
       "means": "what was hoped for did not come",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:happy-for",
       "kind": "feeling",
       "say": [
-        "FRIEND",
+        "SHARE",
         "JOY"
       ],
       "means": "glad for someone else",
-      "source": "188"
+      "source": "192"
     },
     {
       "state": "feeling:resentment",
       "kind": "feeling",
       "say": [
-        "ANGER",
-        "OTHER"
+        "ENVY"
       ],
       "means": "begrudging someone their good",
-      "source": "188"
+      "source": "192"
     },
     {
       "state": "feeling:gloating",
@@ -4946,11 +4940,10 @@
       "state": "feeling:pity",
       "kind": "feeling",
       "say": [
-        "SAD",
-        "OTHER"
+        "COMPASSION"
       ],
       "means": "sorrow for another",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:pride",
@@ -4965,41 +4958,38 @@
       "state": "feeling:shame",
       "kind": "feeling",
       "say": [
-        "SHAME",
-        "SELF"
+        "SHAME"
       ],
       "means": "shame at what it did",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:admiration",
       "kind": "feeling",
       "say": [
-        "AWE",
-        "OTHER"
+        "RESPECT"
       ],
       "means": "admiration for what another did",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:reproach",
       "kind": "feeling",
       "say": [
-        "SHAME",
-        "OTHER"
+        "DISGUST"
       ],
       "means": "reproach for what another did",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:gratification",
       "kind": "feeling",
       "say": [
-        "HAPPY",
-        "SELF"
+        "PRIDE",
+        "JOY"
       ],
       "means": "pleased with itself",
-      "source": "191.3"
+      "source": "192"
     },
     {
       "state": "feeling:remorse",

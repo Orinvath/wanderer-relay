@@ -23187,3 +23187,81 @@ re-run.
 state renders; unmapped states are silent and never approximated; **no word
 outside the 402 can be emitted**; every mark of every saying resolves to a real
 box in his own artwork; and no file but the dictionary maps a state to marks.
+
+## Directive 192 — the twelve restored to their single marks: DONE, suite green
+
+Dictionary-only edit as ruled. Commit `d1510c0`, pushed. Full suite green, and
+`DICTIONARY.md` in the relay is regenerated from the restored data.
+
+### The twelve, restored
+
+| feeling | was saying | now says |
+|---|---|---|
+| distress | SAD | **GRIEF** |
+| satisfaction | HAPPY | **CONTENTMENT** |
+| fears-confirmed | FEAR · TRUE | **DESPAIR** |
+| relief | CALM | **RELIEF** |
+| disappointment | LOSE | **SAD** |
+| happy-for | FRIEND · JOY | **SHARE · JOY** |
+| resentment | ANGER · OTHER | **ENVY** |
+| pity | SAD · OTHER | **COMPASSION** |
+| shame | SHAME · SELF | **SHAME** |
+| admiration | AWE · OTHER | **RESPECT** |
+| reproach | SHAME · OTHER | **DISGUST** |
+| gratification | HAPPY · SELF | **PRIDE · JOY** |
+
+**Ten of the twelve are now a single mark.** The two that stayed as pairs are
+`happy-for` and `gratification` — the compounds OCC itself defines as two
+feelings at once, and the language holds no single word for either. The suite
+proves those are the only pairs left among the 22.
+
+**Nothing else moved.** No mark was drawn, the alphabet is still 402, and the
+psychology in `occ.js` is untouched — only the word it reads changed, and it
+reads it from the dictionary.
+
+### The rule is in CLAUDE.md
+
+At the top, standing: *where the language owns a single mark for a meaning, the
+single mark speaks; a dyad that spells out what one word already says is a
+defect; read all 402 before mapping anything.*
+
+### 191.1's own example had to be replaced, and that is worth noting
+
+191 illustrated polysemy with SAD alone / SAD·OTHER. 192 removes that example:
+the language owns COMPASSION, so sorrow-for-another is said with the one mark it
+already has. **The law is untouched — it just has a better example.** PRIDE now
+carries it: PRIDE alone is pride in what it did, PRIDE·JOY is pleased with
+itself. Seven marks still carry more than one sense; HOST carries three.
+
+---
+
+## THE SAME DEFECT EXISTS IN NINE MORE ROWS — none touched, all for his ruling
+
+192 ruled on the twelve feelings. Applying its rule to **every** remaining
+saying, as the standing rule requires, finds nine more that spell out what the
+language already says in one word. **I have changed none of them** — they were
+not named in the directive, and two of them need a choice between two equally
+real words, which is his.
+
+| state | says now | the single mark that exists |
+|---|---|---|
+| `need:lonely` | LONELINESS · COMFORT · OTHER | **LONELINESS** |
+| `need:connected` | TOGETHER · FRIEND | **TOGETHER** |
+| `need:failing` | WEAKNESS · CONFUSION | **WEAKNESS** |
+| `need:capable` | STRENGTH · CONFIDENCE | **STRENGTH** or **CONFIDENCE** — two real candidates |
+| `need:safe` | HOME · CALM | **SAFETY** — exists, and was not used |
+| `need:exhausted` | TIREDNESS · SLEEP | **TIREDNESS** |
+| `need:bottomed` | DARK · DESPAIR | **DESPAIR** — but DESPAIR now speaks `fears-confirmed`, so this one needs a ruling either way |
+| `act:hiding` | HIDDEN · SILENCE | **HIDDEN** |
+| `act:exploring` | CURIOSITY · FAR | **SEARCH** — exists, and was not used |
+
+**Twelve compounds survive the check honestly** and are listed for completeness:
+`need:controlled` (CANNOT·FREEDOM), the three custody moments (HOST·COME /
+LEAVE / RETURN), `takeover:active` (CANNOT·CHOOSE), `urge:toward` (GO·NEAR),
+`urge:away` (GO·FAR), `urge:orient` (TURN·SEE), `act:wanting-host` (OTHER·COME),
+`act:remembered-place` (PLACE·FAR), and the two OCC compounds. The language
+holds no single word for any of them.
+
+**Say the word and the nine change in one edit** — it is data, and the suite
+re-proves every saying afterwards. `urge:burst` is still unspeakable and still
+waiting on the same ruling as before.

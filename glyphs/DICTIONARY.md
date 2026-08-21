@@ -1,15 +1,18 @@
 # The dictionary — one mark, many senses
 
-Directive 191, posted for review. The ten sheets are the ALPHABET and did not change; every
-saying below is built from marks Lonnie has already drawn. This is generated from
+Directives 191 and 192, posted for review. The ten sheets are the ALPHABET and did not change;
+every saying below is built from marks Lonnie has already drawn. This is generated from
 `glyphs/glyphs.json`, which is the dictionary itself — if a row here is wrong, that file is
 where it is corrected.
 
-**50 states, all of them speaking. 11 marks carry more than one sense. 1 state could not be spoken and was not approximated.**
+**192 is law over every row: where the language owns a single mark for a meaning, the single
+mark speaks. A dyad that spells out what one word already says is a defect.**
+
+**50 states, all of them speaking. 7 marks carry more than one sense. 1 state could not be spoken and was not approximated.**
 
 ## The marks that carry more than one sense
 
-This is polysemy doing real work — the same mark, meaning different things by the company it keeps.
+Polysemy doing real work — the same mark meaning different things by the company it keeps.
 
 | mark | sense | said | means |
 |---|---|---|---|
@@ -20,16 +23,8 @@ This is polysemy doing real work — the same mark, meaning different things by 
 | GO | 2 | with FAR | to open the distance |
 | HOME | 1 | with CALM | nothing is wanting |
 | HOME | 2 | alone | coming home |
-| SAD | 1 | alone | distress |
-| SAD | 2 | with OTHER | sorrow for another |
-| HAPPY | 1 | alone | what was hoped for came |
-| HAPPY | 2 | with SELF | pleased with itself |
-| FEAR | 1 | alone | fear |
-| FEAR | 2 | with TRUE | what was feared came |
-| ANGER | 1 | with OTHER | begrudging someone their good |
-| ANGER | 2 | alone | anger |
-| SHAME | 1 | with SELF | shame at what it did |
-| SHAME | 2 | with OTHER | reproach for what another did |
+| PRIDE | 1 | alone | pride in what it did |
+| PRIDE | 2 | with JOY | pleased with itself |
 | CURIOSITY | 1 | with FAR | going out to see |
 | CURIOSITY | 2 | alone | wanting to know |
 | TIREDNESS | 1 | with SLEEP | worn down, needing sleep |
@@ -56,22 +51,22 @@ This is polysemy doing real work — the same mark, meaning different things by 
 | state | says | means | from |
 |---|---|---|---|
 | `feeling:joy` | **JOY** | joy | 188 |
-| `feeling:distress` | **SAD** | distress | 188 |
+| `feeling:distress` | **GRIEF** | distress | 192 |
 | `feeling:hope` | **HOPE** | hope | 188 |
 | `feeling:fear` | **FEAR** | fear | 188 |
-| `feeling:satisfaction` | **HAPPY** | what was hoped for came | 191.3 |
-| `feeling:fears-confirmed` | **FEAR · TRUE** | what was feared came | 188 |
-| `feeling:relief` | **CALM** | what was feared did not come | 188 |
-| `feeling:disappointment` | **LOSE** | what was hoped for did not come | 191.3 |
-| `feeling:happy-for` | **FRIEND · JOY** | glad for someone else | 188 |
-| `feeling:resentment` | **ANGER · OTHER** | begrudging someone their good | 188 |
+| `feeling:satisfaction` | **CONTENTMENT** | what was hoped for came | 192 |
+| `feeling:fears-confirmed` | **DESPAIR** | what was feared came | 192 |
+| `feeling:relief` | **RELIEF** | what was feared did not come | 192 |
+| `feeling:disappointment` | **SAD** | what was hoped for did not come | 192 |
+| `feeling:happy-for` | **SHARE · JOY** | glad for someone else | 192 |
+| `feeling:resentment` | **ENVY** | begrudging someone their good | 192 |
 | `feeling:gloating` | **GLOAT** | pleased at someone else's bad | 188 |
-| `feeling:pity` | **SAD · OTHER** | sorrow for another | 191.3 |
+| `feeling:pity` | **COMPASSION** | sorrow for another | 192 |
 | `feeling:pride` | **PRIDE** | pride in what it did | 191.3 |
-| `feeling:shame` | **SHAME · SELF** | shame at what it did | 191.3 |
-| `feeling:admiration` | **AWE · OTHER** | admiration for what another did | 191.3 |
-| `feeling:reproach` | **SHAME · OTHER** | reproach for what another did | 191.3 |
-| `feeling:gratification` | **HAPPY · SELF** | pleased with itself | 191.3 |
+| `feeling:shame` | **SHAME** | shame at what it did | 192 |
+| `feeling:admiration` | **RESPECT** | admiration for what another did | 192 |
+| `feeling:reproach` | **DISGUST** | reproach for what another did | 192 |
+| `feeling:gratification` | **PRIDE · JOY** | pleased with itself | 192 |
 | `feeling:remorse` | **SORRY** | remorse | 188 |
 | `feeling:gratitude` | **THANK** | gratitude | 188 |
 | `feeling:anger` | **ANGER** | anger | 188 |
