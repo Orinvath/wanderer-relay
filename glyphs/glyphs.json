@@ -857,9 +857,7 @@
           "n": 1,
           "means": "held by someone",
           "when": {
-            "with": [
-              "FRIEND"
-            ]
+            "alone": true
           },
           "states": [
             "need:connected"
@@ -1187,7 +1185,19 @@
       "x": 925,
       "y": 501,
       "w": 84,
-      "h": 79
+      "h": 79,
+      "senses": [
+        {
+          "n": 1,
+          "means": "going out to see",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "act:exploring"
+          ]
+        }
+      ]
     },
     {
       "word": "FIND",
@@ -1451,18 +1461,6 @@
       "senses": [
         {
           "n": 1,
-          "means": "nothing is wanting",
-          "when": {
-            "with": [
-              "CALM"
-            ]
-          },
-          "states": [
-            "need:safe"
-          ]
-        },
-        {
-          "n": 2,
           "means": "coming home",
           "when": {
             "alone": true
@@ -2155,21 +2153,7 @@
       "x": 314,
       "y": 970,
       "w": 55,
-      "h": 77,
-      "senses": [
-        {
-          "n": 1,
-          "means": "able, and knowing it",
-          "when": {
-            "with": [
-              "CONFIDENCE"
-            ]
-          },
-          "states": [
-            "need:capable"
-          ]
-        }
-      ]
+      "h": 77
     },
     {
       "word": "WEAKNESS",
@@ -2185,9 +2169,7 @@
           "n": 1,
           "means": "not able, and not sure why",
           "when": {
-            "with": [
-              "CONFUSION"
-            ]
+            "alone": true
           },
           "states": [
             "need:failing"
@@ -2273,7 +2255,19 @@
       "x": 98,
       "y": 1262,
       "w": 72,
-      "h": 78
+      "h": 78,
+      "senses": [
+        {
+          "n": 1,
+          "means": "nothing is wanting",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "need:safe"
+          ]
+        }
+      ]
     },
     {
       "word": "TOUCH",
@@ -2467,13 +2461,25 @@
       "senses": [
         {
           "n": 1,
+          "means": "at the bottom of a need",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "need:bottomed"
+          ],
+          "selectedBy": "context"
+        },
+        {
+          "n": 2,
           "means": "what was feared came",
           "when": {
             "alone": true
           },
           "states": [
             "feeling:fears-confirmed"
-          ]
+          ],
+          "selectedBy": "context"
         }
       ]
     },
@@ -2631,10 +2637,7 @@
           "n": 1,
           "means": "wanting the comfort of someone",
           "when": {
-            "with": [
-              "COMFORT",
-              "OTHER"
-            ]
+            "alone": true
           },
           "states": [
             "need:lonely"
@@ -2684,18 +2687,6 @@
       "senses": [
         {
           "n": 1,
-          "means": "going out to see",
-          "when": {
-            "with": [
-              "FAR"
-            ]
-          },
-          "states": [
-            "act:exploring"
-          ]
-        },
-        {
-          "n": 2,
           "means": "wanting to know",
           "when": {
             "alone": true
@@ -2786,7 +2777,19 @@
       "x": 718,
       "y": 953,
       "w": 100,
-      "h": 96
+      "h": 96,
+      "senses": [
+        {
+          "n": 1,
+          "means": "free activation -- energy going out at nothing in particular",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "urge:excitement"
+          ]
+        }
+      ]
     },
     {
       "word": "TIREDNESS",
@@ -2802,13 +2805,12 @@
           "n": 1,
           "means": "worn down, needing sleep",
           "when": {
-            "with": [
-              "SLEEP"
-            ]
+            "alone": true
           },
           "states": [
             "need:exhausted"
-          ]
+          ],
+          "selectedBy": "context"
         },
         {
           "n": 2,
@@ -2818,7 +2820,8 @@
           },
           "states": [
             "sleep:sleepy"
-          ]
+          ],
+          "selectedBy": "context"
         }
       ]
     },
@@ -2958,7 +2961,19 @@
       "x": 722,
       "y": 1264,
       "w": 92,
-      "h": 79
+      "h": 79,
+      "senses": [
+        {
+          "n": 1,
+          "means": "able, and knowing it",
+          "when": {
+            "alone": true
+          },
+          "states": [
+            "need:capable"
+          ]
+        }
+      ]
     },
     {
       "word": "CONTENTMENT",
@@ -4560,9 +4575,7 @@
           "n": 1,
           "means": "making itself unfindable",
           "when": {
-            "with": [
-              "SILENCE"
-            ]
+            "alone": true
           },
           "states": [
             "act:hiding"
@@ -4598,21 +4611,7 @@
       "x": 734,
       "y": 1134,
       "w": 83,
-      "h": 81,
-      "senses": [
-        {
-          "n": 1,
-          "means": "at the bottom of a need",
-          "when": {
-            "with": [
-              "DESPAIR"
-            ]
-          },
-          "states": [
-            "need:bottomed"
-          ]
-        }
-      ]
+      "h": 81
     },
     {
       "word": "SOUND",
@@ -4740,12 +4739,10 @@
       "of": "relatedness",
       "end": "low",
       "say": [
-        "LONELINESS",
-        "COMFORT",
-        "OTHER"
+        "LONELINESS"
       ],
       "means": "wanting the comfort of someone",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "need:connected",
@@ -4753,11 +4750,10 @@
       "of": "relatedness",
       "end": "high",
       "say": [
-        "TOGETHER",
-        "FRIEND"
+        "TOGETHER"
       ],
       "means": "held by someone",
-      "source": "188"
+      "source": "193"
     },
     {
       "state": "need:failing",
@@ -4765,11 +4761,10 @@
       "of": "competence",
       "end": "low",
       "say": [
-        "WEAKNESS",
-        "CONFUSION"
+        "WEAKNESS"
       ],
       "means": "not able, and not sure why",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "need:capable",
@@ -4777,11 +4772,10 @@
       "of": "competence",
       "end": "high",
       "say": [
-        "STRENGTH",
         "CONFIDENCE"
       ],
       "means": "able, and knowing it",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "need:controlled",
@@ -4810,31 +4804,28 @@
       "state": "need:bottomed",
       "kind": "need",
       "say": [
-        "DARK",
         "DESPAIR"
       ],
       "means": "at the bottom of a need",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "need:safe",
       "kind": "need",
       "say": [
-        "HOME",
-        "CALM"
+        "SAFETY"
       ],
       "means": "nothing is wanting",
-      "source": "188"
+      "source": "193"
     },
     {
       "state": "need:exhausted",
       "kind": "need",
       "say": [
-        "TIREDNESS",
-        "SLEEP"
+        "TIREDNESS"
       ],
       "means": "worn down, needing sleep",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "feeling:joy",
@@ -5076,14 +5067,22 @@
       "source": "191.4"
     },
     {
+      "state": "urge:excitement",
+      "kind": "urge",
+      "say": [
+        "EXCITEMENT"
+      ],
+      "means": "free activation -- energy going out at nothing in particular",
+      "source": "193"
+    },
+    {
       "state": "act:hiding",
       "kind": "act",
       "say": [
-        "HIDDEN",
-        "SILENCE"
+        "HIDDEN"
       ],
       "means": "making itself unfindable",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "act:wanting-host",
@@ -5099,11 +5098,10 @@
       "state": "act:exploring",
       "kind": "act",
       "say": [
-        "CURIOSITY",
-        "FAR"
+        "SEARCH"
       ],
       "means": "going out to see",
-      "source": "191.3"
+      "source": "193"
     },
     {
       "state": "act:singing",
@@ -5219,15 +5217,5 @@
       "source": "191.4"
     }
   ],
-  "unspeakable": [
-    {
-      "state": "urge:burst",
-      "kind": "urge",
-      "why": "the undirected discharge -- energy going out at nothing in particular. The other four urges are directions and compose plainly; this one is not a direction. EXCITEMENT and ENERGY both exist but name a state rather than the going-out.",
-      "nearest": [
-        "EXCITEMENT",
-        "ENERGY"
-      ]
-    }
-  ]
+  "unspeakable": []
 }

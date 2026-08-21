@@ -23265,3 +23265,89 @@ holds no single word for any of them.
 **Say the word and the nine change in one edit** — it is data, and the suite
 re-proves every saying afterwards. `urge:burst` is still unspeakable and still
 waiting on the same ruling as before.
+
+## Directives 193 and 194 — the language closes. Suite green.
+
+Commit `9b5c82e`, pushed. `DICTIONARY.md` and `glyphs.json` in the relay are
+regenerated. **51 states, every one of them speaking, nothing unspeakable, and
+not one new mark drawn for any of it.**
+
+### 193 — the four rulings and the seven swaps
+
+| state | was | now |
+|---|---|---|
+| `need:lonely` | LONELINESS · COMFORT · OTHER | **LONELINESS** |
+| `need:connected` | TOGETHER · FRIEND | **TOGETHER** |
+| `need:failing` | WEAKNESS · CONFUSION | **WEAKNESS** |
+| `need:capable` | STRENGTH · CONFIDENCE | **CONFIDENCE** (193.1) |
+| `need:safe` | HOME · CALM | **SAFETY** |
+| `need:exhausted` | TIREDNESS · SLEEP | **TIREDNESS** |
+| `need:bottomed` | DARK · DESPAIR | **DESPAIR** (193.2) |
+| `act:hiding` | HIDDEN · SILENCE | **HIDDEN** |
+| `act:exploring` | CURIOSITY · FAR | **SEARCH** |
+| `urge:excitement` | *(unspeakable)* | **EXCITEMENT** (193.4) |
+
+`feeling:relief` was already RELIEF from 192, so 193.3 needed no change there —
+it is now the standing rule instead.
+
+### 193.2 — DESPAIR carries both senses, and the builder had to be taught how
+
+DESPAIR now speaks two states: the bottom of a need, and a fear come true. **Both
+are said the same way — the mark alone — so company cannot separate them, only
+context.**
+
+The sense-builder merged senses whose company matched, which would have **quietly
+deleted one of the two senses the ruling requires the entry to document.** It now
+treats a sense as the same sense only when the company AND the meaning match, and
+marks the pair `selectedBy: "context"` in the entry.
+
+The reader follows: asked what DESPAIR means with no context at all, **it answers
+nothing rather than picking one.** Given the state it is being said in, it
+answers exactly. The suite proves all three behaviours.
+
+`TIREDNESS` turns out to carry the same shape — worn-down-needing-sleep, and
+plain tired — and is documented the same way.
+
+### 194 — `burst` is gone
+
+The fifth urge is `excitement` in every home it had: the urge list in `cord.js`,
+the three feelings whose tendency is free activation in `occ.js` (joy, pride,
+gratification), the body's motion in the watch page, and the dictionary row.
+Frijda's concept is untouched and still cited — free activation, energy going out
+at nothing in particular. Only the name is human now.
+
+**One place was deliberately NOT edited: the S3 spec text inside Directive 181 in
+`DIRECTIVES.md`.** That is the directive log — the record of what was said at the
+time — and editing it would rewrite history rather than update a spec. Flagged
+rather than done; say the word if you want the log amended.
+
+Two other hits on the word `burst` were left alone: `AVATAR_SYSTEM_PLAN.md` uses
+"radial burst" and "wing-burst" for Avatar shapes, which has nothing to do with
+the urge.
+
+### The state of the language
+
+- **51 states, all speaking. 0 unspeakable.**
+- **6 marks carry more than one sense** — HOST (three), DESPAIR, TIREDNESS,
+  PRIDE, GO, CANNOT.
+- **12 sayings still take more than one mark**, each because the language holds
+  no single word: `need:controlled` (CANNOT·FREEDOM), `takeover:active`
+  (CANNOT·CHOOSE), the three custody moments (HOST·COME / LEAVE / RETURN),
+  `urge:toward` (GO·NEAR), `urge:away` (GO·FAR), `urge:orient` (TURN·SEE),
+  `act:wanting-host` (OTHER·COME), `act:remembered-place` (PLACE·FAR), and OCC's
+  own two compounds (SHARE·JOY, PRIDE·JOY).
+- **The alphabet is still exactly 402.**
+
+### The suite — 31 checks
+
+`acceptance-dictionary.js` grew four: nothing is unspeakable; the fifth urge is
+EXCITEMENT and `burst` is gone from the language; no saying spells out what one
+mark already says; and DESPAIR carries both senses, separated by context, and
+refuses to guess without it. Full run green.
+
+### One miss to report
+
+**193 and 194 went in as a single commit, not two.** The rule is one change per
+commit so they can be stepped through and reverted individually; I staged both
+sets of edits before committing. The commit message names both, and nothing is
+wrong in the tree, but the revert point for 194 alone does not exist.

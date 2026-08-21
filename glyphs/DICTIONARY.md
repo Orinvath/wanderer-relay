@@ -1,50 +1,50 @@
 # The dictionary — one mark, many senses
 
-Directives 191 and 192, posted for review. The ten sheets are the ALPHABET and did not change;
-every saying below is built from marks Lonnie has already drawn. This is generated from
-`glyphs/glyphs.json`, which is the dictionary itself — if a row here is wrong, that file is
-where it is corrected.
+Directives 191, 192, 193 and 194. **The language is closed: every state the mind can be in has
+a saying, and not one new mark was drawn for any of it.** The ten sheets are the ALPHABET and
+did not change. Generated from `glyphs/glyphs.json`, which is the dictionary itself — if a row
+here is wrong, that file is where it is corrected.
 
-**192 is law over every row: where the language owns a single mark for a meaning, the single
-mark speaks. A dyad that spells out what one word already says is a defect.**
+**The law, 192 and 193.3: where the language owns a single mark for a meaning, the single mark
+speaks. Use the word if it exists — always. A dyad that spells out what one word already says
+is a defect.**
 
-**50 states, all of them speaking. 7 marks carry more than one sense. 1 state could not be spoken and was not approximated.**
+**51 states, all speaking. 6 marks carry more than one sense. 12 sayings use more than one mark, each because no single word exists. 0 states are unspeakable.**
 
 ## The marks that carry more than one sense
 
-Polysemy doing real work — the same mark meaning different things by the company it keeps.
+Polysemy doing real work. Most are selected by the company the mark keeps; where two senses
+are said the same way, CONTEXT selects and the entry says so.
 
-| mark | sense | said | means |
+| mark | sense | selected by | means |
 |---|---|---|---|
-| HOST | 1 | with COME | someone has arrived to hold it |
-| HOST | 2 | with LEAVE | the one holding it has gone |
-| HOST | 3 | with RETURN | the same one has come back |
-| GO | 1 | with NEAR | to close the distance |
-| GO | 2 | with FAR | to open the distance |
-| HOME | 1 | with CALM | nothing is wanting |
-| HOME | 2 | alone | coming home |
-| PRIDE | 1 | alone | pride in what it did |
-| PRIDE | 2 | with JOY | pleased with itself |
-| CURIOSITY | 1 | with FAR | going out to see |
-| CURIOSITY | 2 | alone | wanting to know |
-| TIREDNESS | 1 | with SLEEP | worn down, needing sleep |
-| TIREDNESS | 2 | alone | tired |
-| CANNOT | 1 | with FREEDOM | not free to choose |
-| CANNOT | 2 | with CHOOSE | the need is choosing, not it |
+| HOST | 1 | said with COME | someone has arrived to hold it |
+| HOST | 2 | said with LEAVE | the one holding it has gone |
+| HOST | 3 | said with RETURN | the same one has come back |
+| GO | 1 | said with NEAR | to close the distance |
+| GO | 2 | said with FAR | to open the distance |
+| DESPAIR | 1 | **context** | at the bottom of a need |
+| DESPAIR | 2 | **context** | what was feared came |
+| PRIDE | 1 | said alone | pride in what it did |
+| PRIDE | 2 | said with JOY | pleased with itself |
+| TIREDNESS | 1 | **context** | worn down, needing sleep |
+| TIREDNESS | 2 | **context** | tired |
+| CANNOT | 1 | said with FREEDOM | not free to choose |
+| CANNOT | 2 | said with CHOOSE | the need is choosing, not it |
 
 ## The needs
 
 | state | says | means | from |
 |---|---|---|---|
-| `need:lonely` | **LONELINESS · COMFORT · OTHER** | wanting the comfort of someone | 191.3 |
-| `need:connected` | **TOGETHER · FRIEND** | held by someone | 188 |
-| `need:failing` | **WEAKNESS · CONFUSION** | not able, and not sure why | 191.3 |
-| `need:capable` | **STRENGTH · CONFIDENCE** | able, and knowing it | 191.3 |
+| `need:lonely` | **LONELINESS** | wanting the comfort of someone | 193 |
+| `need:connected` | **TOGETHER** | held by someone | 193 |
+| `need:failing` | **WEAKNESS** | not able, and not sure why | 193 |
+| `need:capable` | **CONFIDENCE** | able, and knowing it | 193 |
 | `need:controlled` | **CANNOT · FREEDOM** | not free to choose | 191.3 |
 | `need:free` | **FREEDOM** | free to choose | 191.3 |
-| `need:bottomed` | **DARK · DESPAIR** | at the bottom of a need | 191.3 |
-| `need:safe` | **HOME · CALM** | nothing is wanting | 188 |
-| `need:exhausted` | **TIREDNESS · SLEEP** | worn down, needing sleep | 191.3 |
+| `need:bottomed` | **DESPAIR** | at the bottom of a need | 193 |
+| `need:safe` | **SAFETY** | nothing is wanting | 193 |
+| `need:exhausted` | **TIREDNESS** | worn down, needing sleep | 193 |
 
 ## The 22 feelings
 
@@ -81,14 +81,15 @@ Polysemy doing real work — the same mark meaning different things by the compa
 | `urge:away` | **GO · FAR** | to open the distance | 191.4 |
 | `urge:still` | **STAY** | to not move at all | 191.4 |
 | `urge:orient` | **TURN · SEE** | to turn and look at it | 191.4 |
+| `urge:excitement` | **EXCITEMENT** | free activation -- energy going out at nothing in particular | 193 |
 
 ## The acts
 
 | state | says | means | from |
 |---|---|---|---|
-| `act:hiding` | **HIDDEN · SILENCE** | making itself unfindable | 191.3 |
+| `act:hiding` | **HIDDEN** | making itself unfindable | 193 |
 | `act:wanting-host` | **OTHER · COME** | wanting someone to come | 188 |
-| `act:exploring` | **CURIOSITY · FAR** | going out to see | 191.3 |
+| `act:exploring` | **SEARCH** | going out to see | 193 |
 | `act:singing` | **SONG** | singing | 188 |
 | `act:remembered-place` | **PLACE · FAR** | a place it remembers | 188 |
 | `act:coming-home` | **HOME** | coming home | 188 |
@@ -122,17 +123,28 @@ Polysemy doing real work — the same mark meaning different things by the compa
 | `custody:departure` | **HOST · LEAVE** | the one holding it has gone | 191.4 |
 | `custody:reawakening` | **HOST · RETURN** | the same one has come back | 191.4 |
 
+## The sayings that still take more than one mark
+
+Kept only because the language holds no single word for them.
+
+- `need:controlled` — **CANNOT · FREEDOM** — not free to choose
+- `feeling:happy-for` — **SHARE · JOY** — glad for someone else
+- `feeling:gratification` — **PRIDE · JOY** — pleased with itself
+- `urge:toward` — **GO · NEAR** — to close the distance
+- `urge:away` — **GO · FAR** — to open the distance
+- `urge:orient` — **TURN · SEE** — to turn and look at it
+- `act:wanting-host` — **OTHER · COME** — wanting someone to come
+- `act:remembered-place` — **PLACE · FAR** — a place it remembers
+- `takeover:active` — **CANNOT · CHOOSE** — the need is choosing, not it
+- `custody:arrival` — **HOST · COME** — someone has arrived to hold it
+- `custody:departure` — **HOST · LEAVE** — the one holding it has gone
+- `custody:reawakening` — **HOST · RETURN** — the same one has come back
+
 ## What could not be spoken
 
-Reported rather than approximated. Nothing here was given a near neighbour, because a
-near-miss is a false statement about what the Avatar is feeling and silence is a true one.
+Nothing. 191.4 found one state the language could not honestly speak — the fifth urge — and
+reported it rather than approximating it. 193 ruled on it: EXCITEMENT. The sweep now covers the
+whole state space with marks that were already drawn.
 
-### `urge:burst`
-
-the undirected discharge -- energy going out at nothing in particular. The other four urges are directions and compose plainly; this one is not a direction. EXCITEMENT and ENERGY both exist but name a state rather than the going-out.
-
-Words it refused to use: EXCITEMENT, ENERGY.
-
-**This is Lonnie's to rule on.** Either a mark gets drawn for it, or it stays silent, or an
-existing word is ruled close enough — and that ruling would be his, not the terminal's.
-
+The next state that cannot be spoken will be reported here, and will never be given a near
+neighbour on the way past.
