@@ -22493,3 +22493,102 @@ neither.** The old habit was quietly asserting, in every file, the exact thing t
 design exists to deny.
 
 **Reload** — the page reads correctly and nothing on it is gendered.
+
+# REPORT FOR THE DIRECTOR — THE MIND EMULATOR
+
+Written at Lonnie's request. Not a directive report: this is the state of a tool
+that came into existence sideways, and what it does and does not yet answer.
+
+## 1. What it is, and how it became that
+
+The watching build was a demonstration. Lonnie's ruling turned it into
+infrastructure: **"I like this readout for the mind. Make it the default Mind
+Emulator that we test minds with."**
+
+**It is a bench for minds, not a demo of one.** It runs the real Brain — real local
+model, no doubles — draws a mind from a seed, and shows both **what the mind IS**
+and **what it is doing**, at once, on one screen.
+
+## 2. What it shows
+
+**THE MAKEUP — what kind of mind is under test.** The ten aspects as sliders lying
+over the sphere's own space: a rail for the possible range, a marker where this mind
+sits. Beneath them the Big Five. These are **fixed at birth from the seed and never
+move** — identity, not state.
+
+**THE BEHAVIOUR — the Avatar itself**, as embodiment #0, on the three channels of
+180: **colour is what it is feeling, pulse is how it is doing, motion is what it is
+after**, everything arriving down 181's cord. Alongside: the needs ledger, what it
+chose and why, and what it felt.
+
+## 3. Two findings the emulator produced immediately, which is the case for it
+
+**IT CAN ONLY WANT ONE THING.** `CANDIDATE_GAMES` holds exactly one act — hiding.
+When relatedness bottomed out and the takeover fired, the goal-former scored hiding
+at **0** and chose it anyway, because its own rule is that an act which does nothing
+for a starving need is taken only when there is nothing else. **A mind that seeks
+connection by hiding is not a personality; it is an empty menu.** Lonnie caught this
+within a minute of the readout existing.
+
+**EVERY RESTART IS A DIFFERENT MIND.** Nothing yet pins a seed or replays one.
+For a bench meant to compare minds, that is the next missing piece.
+
+## 4. The research on personality typing — asked for, and skipped once
+
+Lonnie asked whether the aspects classify into personality types. **I built the Big
+Five bars and did not do the research; he had to ask twice.** Done now.
+
+**The four-type claim** — Gerlach, Farb, Revelle & Nunes Amaral, *Nature Human
+Behaviour* 2018: Gaussian mixture models over 1.5M responses giving *average,
+reserved, role model, self-centred*. **It is contested in its own journal** by a
+formal Matters Arising, and a commentary found **only ~42% of people fell into any
+cluster**, with the deeper objection that a skewed distribution containing no
+clusters at all can produce convincing ones.
+
+**The three-prototype tradition** — Block's *resilient / overcontrolled /
+undercontrolled*, replicated by Asendorpf and colleagues across American, Dutch and
+Icelandic samples, and shown by Chapman & Goldberg to predict outcomes forty years
+on. **Its own authors state the structure is fuzzy, not discrete** — gradients of
+similarity to prototypes, not boxes.
+
+**LONNIE'S OBJECTION IS CORRECT AND CHANGES THE ANSWER.** Three or four types is a
+poor description of the space; the personality disorders alone outnumber them. The
+route that actually scales is already standard: **DSM-5's Alternative Model (AMPD)
+and its PID-5** describe pathology as **five maladaptive domains and 25 facets**,
+stated explicitly as *maladaptive variants of the Big Five* — the same five axes
+this project already draws minds on, plus the ten categorical disorders in three
+clusters. **That is the bridge from our ten aspects into a large, catalogued
+personality space, and it is a research job, not a labelling job.**
+
+**Nothing has been built from any of it. No type name goes on a mind without his
+word** — and note that "role model" and "self-centred" are value judgements about a
+being, which is a different act from measuring one.
+
+## 5. How the build went, plainly
+
+**It took far more attempts than it should have, and he said so.** The faults, in
+order, all mine:
+
+1. A page **column** when he had asked for the readout **on the screen with the
+   sphere**.
+2. Reading "like our panels" as **use the Elsewhere panel** — wrong on two counts:
+   it is a utility, and he had not asked for a panel at all.
+3. **Three separate 403s** in one import chain — a module asking for its neighbour
+   without the access key, each failure silently killing the whole page script. I
+   fixed them one at a time instead of seeing the shape and fixing all of them.
+4. A half-finished revert that left **an orphan closing tag** in the markup.
+5. Deleting the line that **declares the variable the paint loop reads**, so the
+   sphere died on its first frame.
+
+**The common thread is the one Lonnie named: I checked that files returned 200 and
+called it verified.** Rule Zero exists to catch precisely that, and it was not
+applied to the thing that mattered — what the browser actually does. The checks now
+run against the served bytes: tags balanced, script parsed, every URL requested the
+way a browser would request it.
+
+## 6. What is his
+
+1. **What acts to build**, so the goal-former has something to choose between.
+2. **Whether a mind can be pinned to a seed** and replayed.
+3. **Whether the emulator classifies at all**, and if so on which model.
+4. Whether the Big Five bars stay, given they are the same ten paired up.
