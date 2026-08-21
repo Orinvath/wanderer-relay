@@ -3717,3 +3717,12 @@ Apply the seven clean swaps from your 192 report (LONELINESS ·
 TOGETHER · WEAKNESS · SAFETY · TIREDNESS · HIDDEN · SEARCH) plus
 these four. Dictionary edits only; suite re-proves every saying.
 The language stands complete. Report.
+
+## Directive 194 — "burst" is dead: the urge is EXCITEMENT everywhere
+
+Lonnie's ruling: no human says "burst" — the word fails. The fifth
+urge renames to EXCITEMENT in every home it has: the nervous system
+spec (S3: toward · away · still · orient · excitement), code
+identifiers, the dictionary row, docs as touched. Frijda citation
+stays attached to the concept (free activation) — the NAME is now the
+human one. Suite green. Report.
