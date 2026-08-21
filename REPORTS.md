@@ -22975,3 +22975,68 @@ loader needs to know: it stores whatever url it was handed.
 
 **Nothing in the world was changed.** The JPEGs sit beside the originals and nothing
 loads them yet. The batch is reversible by deleting 119 files.
+
+
+## Directive 189 — image handling for the Stage: DONE, suite green
+
+All five rulings coded. Commits `15eef78`, `8bb1668`, `cd29bad`, pushed to
+`Orinvath/wanderer`. Full suite green (24 checks, TESTNET skipped as always).
+
+### What was built
+
+**The gate — `server/src/stage-image.js`.** One place. Give it bytes and a name,
+it answers with the bytes and the name to write. Everything else calls it; there
+is no second implementation anywhere.
+
+**Wired at the door — `demo-stage.js:300`.** The upload endpoint now runs the
+gate between the raw body and the write, exactly as the spec said, and answers
+with the name the gate chose. The browser stores whatever url the endpoint
+returns, so nothing downstream needed changing at all.
+
+### The rulings, one by one
+
+**1. Originals: untouched.** All 122 PNG masters are on disk, byte-identical,
+and nothing serves them any more. See ruling 4 for why that needed care.
+
+**2. Everything compresses to q80, including depth maps.** Measured on this
+stage: **488MB of PNG becomes 36MB served — 7.3%.**
+
+**3. Alpha passes through, detected mechanically — and the obvious test was
+wrong.** `hasAlpha` is the test anyone would reach for, and it would have been a
+silent bug: **59 of the 122 stage PNGs carry an alpha channel and only 3 actually
+use it.** Trusting `hasAlpha` would have refused to compress 56 opaque paintings
+— 380MB left on disk while the rule appeared to be working. The real test is
+whether any pixel is less than fully opaque. It selects exactly the three files
+Lonnie identified by eye: `perspective_far`, `perspective_mid`, `perspective_near`.
+
+**4. Old `.png` references — PREFERENCE, not fallback.** The spec said fall back
+to the jpg. Written literally that would have done nothing: both files exist side
+by side, so a request for `.png` would find the master and go on serving 30MB
+forever — which ruling 1 forbids. The route now prefers the light copy whenever
+one exists and only serves the PNG when it does not. Saved worlds are never
+edited; they ask for what they always asked for. Both routes (`/stage/:kind/:file`
+and `/his/:file`) do this.
+
+**5. The 119 at q92: regenerated at q80** — via `tools/compress-stage.mjs`, which
+imports the gate rather than reimplementing it, so old files and new files are
+the same kind of file. 119 compressed, 3 left alone, 0 failed.
+
+### Two things for Lonnie, decided by him and not by me
+
+**q80 is his number, judged by eye.** He was shown the same patch of a 5376x3584
+painting at full pixel size, flipping between the original and 92/85/80/75, plus
+a second patch of smooth gradient where JPEG breaks first. He said 80 was usable.
+
+**mozjpeg is available and is deliberately switched OFF.** At the same q80 it
+makes the file 0.80MB where the plain encoder makes 1.34MB — **another 40% off
+the whole stage**. But it is not the same picture: measured against the original,
+mozjpeg-at-80 lands where the plain encoder lands at about 70, and 70 is a
+setting he looked at and did not choose. What he judged was the plain encoder,
+so that is what ships. **Turning it on is worth ~14MB more and needs his eye on
+a crop first** — it is one flag in `stage-image.js`.
+
+### New dependency
+
+`sharp` 0.35.3 (19MB installed). It does the transparency test and the encode in
+one library, with no shelling out to an external binary the app would have to
+carry.
