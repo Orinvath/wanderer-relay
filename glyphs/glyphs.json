@@ -1,0 +1,4109 @@
+{
+ "note": "built by tools/build-glyph-index.py from the ten sheets; boxes measured, words transcribed by eye",
+ "sheets": [
+  {
+   "domain": "01_identity_and_people",
+   "file": "01_identity_and_people.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "02_communication_and_relation",
+   "file": "02_communication_and_relation.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "03_action_and_motion",
+   "file": "03_action_and_motion.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "04_nature_and_place",
+   "file": "04_nature_and_place.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "05_body_and_health",
+   "file": "05_body_and_health.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "06_emotion_and_inner_state",
+   "file": "06_emotion_and_inner_state.png",
+   "w": 1122,
+   "h": 1581,
+   "cols": 5,
+   "rows": 9
+  },
+  {
+   "domain": "07_time_and_quantity",
+   "file": "07_time_and_quantity.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "08_logic_and_questions",
+   "file": "08_logic_and_questions.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "09_culture_and_society",
+   "file": "09_culture_and_society.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  },
+  {
+   "domain": "10_abstract_concepts",
+   "file": "10_abstract_concepts.png",
+   "w": 1122,
+   "h": 1402,
+   "cols": 5,
+   "rows": 8
+  }
+ ],
+ "glyphs": [
+  {
+   "word": "SELF",
+   "domain": "01_identity_and_people",
+   "row": 0,
+   "col": 0,
+   "x": 104,
+   "y": 169,
+   "w": 68,
+   "h": 100
+  },
+  {
+   "word": "OTHER",
+   "domain": "01_identity_and_people",
+   "row": 0,
+   "col": 1,
+   "x": 287,
+   "y": 190,
+   "w": 109,
+   "h": 68
+  },
+  {
+   "word": "PERSON",
+   "domain": "01_identity_and_people",
+   "row": 0,
+   "col": 2,
+   "x": 518,
+   "y": 177,
+   "w": 76,
+   "h": 87
+  },
+  {
+   "word": "CHILD",
+   "domain": "01_identity_and_people",
+   "row": 0,
+   "col": 3,
+   "x": 732,
+   "y": 192,
+   "w": 62,
+   "h": 72
+  },
+  {
+   "word": "ADULT",
+   "domain": "01_identity_and_people",
+   "row": 0,
+   "col": 4,
+   "x": 920,
+   "y": 175,
+   "w": 92,
+   "h": 89
+  },
+  {
+   "word": "ELDER",
+   "domain": "01_identity_and_people",
+   "row": 1,
+   "col": 0,
+   "x": 114,
+   "y": 335,
+   "w": 47,
+   "h": 90
+  },
+  {
+   "word": "GROUP",
+   "domain": "01_identity_and_people",
+   "row": 1,
+   "col": 1,
+   "x": 283,
+   "y": 356,
+   "w": 117,
+   "h": 54
+  },
+  {
+   "word": "FAMILY",
+   "domain": "01_identity_and_people",
+   "row": 1,
+   "col": 2,
+   "x": 505,
+   "y": 345,
+   "w": 102,
+   "h": 79
+  },
+  {
+   "word": "FRIEND",
+   "domain": "01_identity_and_people",
+   "row": 1,
+   "col": 3,
+   "x": 707,
+   "y": 348,
+   "w": 112,
+   "h": 60
+  },
+  {
+   "word": "STRANGER",
+   "domain": "01_identity_and_people",
+   "row": 1,
+   "col": 4,
+   "x": 925,
+   "y": 345,
+   "w": 80,
+   "h": 79
+  },
+  {
+   "word": "ALLY",
+   "domain": "01_identity_and_people",
+   "row": 2,
+   "col": 0,
+   "x": 99,
+   "y": 506,
+   "w": 76,
+   "h": 76
+  },
+  {
+   "word": "ENEMY",
+   "domain": "01_identity_and_people",
+   "row": 2,
+   "col": 1,
+   "x": 299,
+   "y": 501,
+   "w": 85,
+   "h": 86
+  },
+  {
+   "word": "LEADER",
+   "domain": "01_identity_and_people",
+   "row": 2,
+   "col": 2,
+   "x": 518,
+   "y": 488,
+   "w": 76,
+   "h": 94
+  },
+  {
+   "word": "FOLLOWER",
+   "domain": "01_identity_and_people",
+   "row": 2,
+   "col": 3,
+   "x": 734,
+   "y": 502,
+   "w": 58,
+   "h": 79
+  },
+  {
+   "word": "MALE",
+   "domain": "01_identity_and_people",
+   "row": 2,
+   "col": 4,
+   "x": 928,
+   "y": 500,
+   "w": 81,
+   "h": 78
+  },
+  {
+   "word": "FEMALE",
+   "domain": "01_identity_and_people",
+   "row": 3,
+   "col": 0,
+   "x": 107,
+   "y": 657,
+   "w": 59,
+   "h": 94
+  },
+  {
+   "word": "NAME",
+   "domain": "01_identity_and_people",
+   "row": 3,
+   "col": 1,
+   "x": 302,
+   "y": 672,
+   "w": 78,
+   "h": 66
+  },
+  {
+   "word": "INDIVIDUAL",
+   "domain": "01_identity_and_people",
+   "row": 3,
+   "col": 2,
+   "x": 527,
+   "y": 657,
+   "w": 58,
+   "h": 94
+  },
+  {
+   "word": "COMMUNITY",
+   "domain": "01_identity_and_people",
+   "row": 3,
+   "col": 3,
+   "x": 715,
+   "y": 658,
+   "w": 97,
+   "h": 89
+  },
+  {
+   "word": "CROWD",
+   "domain": "01_identity_and_people",
+   "row": 3,
+   "col": 4,
+   "x": 920,
+   "y": 660,
+   "w": 91,
+   "h": 91
+  },
+  {
+   "word": "PARENT",
+   "domain": "01_identity_and_people",
+   "row": 4,
+   "col": 0,
+   "x": 102,
+   "y": 824,
+   "w": 66,
+   "h": 74
+  },
+  {
+   "word": "MOTHER",
+   "domain": "01_identity_and_people",
+   "row": 4,
+   "col": 1,
+   "x": 295,
+   "y": 825,
+   "w": 90,
+   "h": 76
+  },
+  {
+   "word": "FATHER",
+   "domain": "01_identity_and_people",
+   "row": 4,
+   "col": 2,
+   "x": 519,
+   "y": 825,
+   "w": 73,
+   "h": 76
+  },
+  {
+   "word": "SIBLING",
+   "domain": "01_identity_and_people",
+   "row": 4,
+   "col": 3,
+   "x": 703,
+   "y": 844,
+   "w": 120,
+   "h": 37
+  },
+  {
+   "word": "SON",
+   "domain": "01_identity_and_people",
+   "row": 4,
+   "col": 4,
+   "x": 936,
+   "y": 825,
+   "w": 58,
+   "h": 74
+  },
+  {
+   "word": "DAUGHTER",
+   "domain": "01_identity_and_people",
+   "row": 5,
+   "col": 0,
+   "x": 105,
+   "y": 982,
+   "w": 62,
+   "h": 69
+  },
+  {
+   "word": "PARTNER",
+   "domain": "01_identity_and_people",
+   "row": 5,
+   "col": 1,
+   "x": 291,
+   "y": 984,
+   "w": 104,
+   "h": 63
+  },
+  {
+   "word": "GUEST",
+   "domain": "01_identity_and_people",
+   "row": 5,
+   "col": 2,
+   "x": 518,
+   "y": 975,
+   "w": 75,
+   "h": 79
+  },
+  {
+   "word": "HOST",
+   "domain": "01_identity_and_people",
+   "row": 5,
+   "col": 3,
+   "x": 720,
+   "y": 976,
+   "w": 86,
+   "h": 75
+  },
+  {
+   "word": "NEIGHBOR",
+   "domain": "01_identity_and_people",
+   "row": 5,
+   "col": 4,
+   "x": 921,
+   "y": 979,
+   "w": 89,
+   "h": 68
+  },
+  {
+   "word": "TEACHER",
+   "domain": "01_identity_and_people",
+   "row": 6,
+   "col": 0,
+   "x": 96,
+   "y": 1127,
+   "w": 79,
+   "h": 66
+  },
+  {
+   "word": "STUDENT",
+   "domain": "01_identity_and_people",
+   "row": 6,
+   "col": 1,
+   "x": 303,
+   "y": 1127,
+   "w": 76,
+   "h": 65
+  },
+  {
+   "word": "HEALER",
+   "domain": "01_identity_and_people",
+   "row": 6,
+   "col": 2,
+   "x": 517,
+   "y": 1126,
+   "w": 77,
+   "h": 72
+  },
+  {
+   "word": "MAKER",
+   "domain": "01_identity_and_people",
+   "row": 6,
+   "col": 3,
+   "x": 737,
+   "y": 1124,
+   "w": 52,
+   "h": 74
+  },
+  {
+   "word": "TRAVELER",
+   "domain": "01_identity_and_people",
+   "row": 6,
+   "col": 4,
+   "x": 942,
+   "y": 1124,
+   "w": 47,
+   "h": 73
+  },
+  {
+   "word": "WORKER",
+   "domain": "01_identity_and_people",
+   "row": 7,
+   "col": 0,
+   "x": 109,
+   "y": 1259,
+   "w": 52,
+   "h": 81
+  },
+  {
+   "word": "ARTIST",
+   "domain": "01_identity_and_people",
+   "row": 7,
+   "col": 1,
+   "x": 295,
+   "y": 1260,
+   "w": 92,
+   "h": 80
+  },
+  {
+   "word": "SPEAKER",
+   "domain": "01_identity_and_people",
+   "row": 7,
+   "col": 2,
+   "x": 501,
+   "y": 1266,
+   "w": 107,
+   "h": 70
+  },
+  {
+   "word": "LISTENER",
+   "domain": "01_identity_and_people",
+   "row": 7,
+   "col": 3,
+   "x": 707,
+   "y": 1266,
+   "w": 104,
+   "h": 70
+  },
+  {
+   "word": "OBSERVER",
+   "domain": "01_identity_and_people",
+   "row": 7,
+   "col": 4,
+   "x": 912,
+   "y": 1258,
+   "w": 107,
+   "h": 89
+  },
+  {
+   "word": "SEE",
+   "domain": "02_communication_and_relation",
+   "row": 0,
+   "col": 0,
+   "x": 94,
+   "y": 156,
+   "w": 100,
+   "h": 102
+  },
+  {
+   "word": "HEAR",
+   "domain": "02_communication_and_relation",
+   "row": 0,
+   "col": 1,
+   "x": 319,
+   "y": 159,
+   "w": 63,
+   "h": 94
+  },
+  {
+   "word": "SPEAK",
+   "domain": "02_communication_and_relation",
+   "row": 0,
+   "col": 2,
+   "x": 501,
+   "y": 165,
+   "w": 100,
+   "h": 89
+  },
+  {
+   "word": "LISTEN",
+   "domain": "02_communication_and_relation",
+   "row": 0,
+   "col": 3,
+   "x": 715,
+   "y": 162,
+   "w": 107,
+   "h": 94
+  },
+  {
+   "word": "ASK",
+   "domain": "02_communication_and_relation",
+   "row": 0,
+   "col": 4,
+   "x": 943,
+   "y": 161,
+   "w": 69,
+   "h": 96
+  },
+  {
+   "word": "ANSWER",
+   "domain": "02_communication_and_relation",
+   "row": 1,
+   "col": 0,
+   "x": 94,
+   "y": 325,
+   "w": 100,
+   "h": 99
+  },
+  {
+   "word": "TELL",
+   "domain": "02_communication_and_relation",
+   "row": 1,
+   "col": 1,
+   "x": 321,
+   "y": 324,
+   "w": 89,
+   "h": 100
+  },
+  {
+   "word": "SHOW",
+   "domain": "02_communication_and_relation",
+   "row": 1,
+   "col": 2,
+   "x": 508,
+   "y": 318,
+   "w": 86,
+   "h": 105
+  },
+  {
+   "word": "CALL",
+   "domain": "02_communication_and_relation",
+   "row": 1,
+   "col": 3,
+   "x": 729,
+   "y": 324,
+   "w": 69,
+   "h": 100
+  },
+  {
+   "word": "GREET",
+   "domain": "02_communication_and_relation",
+   "row": 1,
+   "col": 4,
+   "x": 931,
+   "y": 333,
+   "w": 93,
+   "h": 90
+  },
+  {
+   "word": "YES",
+   "domain": "02_communication_and_relation",
+   "row": 2,
+   "col": 0,
+   "x": 103,
+   "y": 498,
+   "w": 81,
+   "h": 81
+  },
+  {
+   "word": "NO",
+   "domain": "02_communication_and_relation",
+   "row": 2,
+   "col": 1,
+   "x": 308,
+   "y": 497,
+   "w": 83,
+   "h": 83
+  },
+  {
+   "word": "MAYBE",
+   "domain": "02_communication_and_relation",
+   "row": 2,
+   "col": 2,
+   "x": 509,
+   "y": 496,
+   "w": 85,
+   "h": 84
+  },
+  {
+   "word": "THANK",
+   "domain": "02_communication_and_relation",
+   "row": 2,
+   "col": 3,
+   "x": 716,
+   "y": 496,
+   "w": 96,
+   "h": 89
+  },
+  {
+   "word": "SORRY",
+   "domain": "02_communication_and_relation",
+   "row": 2,
+   "col": 4,
+   "x": 930,
+   "y": 493,
+   "w": 95,
+   "h": 77
+  },
+  {
+   "word": "HELP",
+   "domain": "02_communication_and_relation",
+   "row": 3,
+   "col": 0,
+   "x": 110,
+   "y": 651,
+   "w": 67,
+   "h": 91
+  },
+  {
+   "word": "SHARE",
+   "domain": "02_communication_and_relation",
+   "row": 3,
+   "col": 1,
+   "x": 289,
+   "y": 669,
+   "w": 122,
+   "h": 65
+  },
+  {
+   "word": "GIVE",
+   "domain": "02_communication_and_relation",
+   "row": 3,
+   "col": 2,
+   "x": 505,
+   "y": 651,
+   "w": 93,
+   "h": 89
+  },
+  {
+   "word": "TAKE",
+   "domain": "02_communication_and_relation",
+   "row": 3,
+   "col": 3,
+   "x": 717,
+   "y": 658,
+   "w": 96,
+   "h": 79
+  },
+  {
+   "word": "KEEP",
+   "domain": "02_communication_and_relation",
+   "row": 3,
+   "col": 4,
+   "x": 934,
+   "y": 659,
+   "w": 85,
+   "h": 83
+  },
+  {
+   "word": "SEND",
+   "domain": "02_communication_and_relation",
+   "row": 4,
+   "col": 0,
+   "x": 87,
+   "y": 827,
+   "w": 118,
+   "h": 53
+  },
+  {
+   "word": "RECEIVE",
+   "domain": "02_communication_and_relation",
+   "row": 4,
+   "col": 1,
+   "x": 293,
+   "y": 827,
+   "w": 118,
+   "h": 52
+  },
+  {
+   "word": "MEET",
+   "domain": "02_communication_and_relation",
+   "row": 4,
+   "col": 2,
+   "x": 499,
+   "y": 818,
+   "w": 106,
+   "h": 68
+  },
+  {
+   "word": "FOLLOW",
+   "domain": "02_communication_and_relation",
+   "row": 4,
+   "col": 3,
+   "x": 735,
+   "y": 807,
+   "w": 59,
+   "h": 86
+  },
+  {
+   "word": "LEAD",
+   "domain": "02_communication_and_relation",
+   "row": 4,
+   "col": 4,
+   "x": 956,
+   "y": 804,
+   "w": 43,
+   "h": 91
+  },
+  {
+   "word": "JOIN",
+   "domain": "02_communication_and_relation",
+   "row": 5,
+   "col": 0,
+   "x": 92,
+   "y": 970,
+   "w": 101,
+   "h": 72
+  },
+  {
+   "word": "LEAVE",
+   "domain": "02_communication_and_relation",
+   "row": 5,
+   "col": 1,
+   "x": 293,
+   "y": 977,
+   "w": 110,
+   "h": 47
+  },
+  {
+   "word": "TOGETHER",
+   "domain": "02_communication_and_relation",
+   "row": 5,
+   "col": 2,
+   "x": 505,
+   "y": 960,
+   "w": 93,
+   "h": 83
+  },
+  {
+   "word": "APART",
+   "domain": "02_communication_and_relation",
+   "row": 5,
+   "col": 3,
+   "x": 709,
+   "y": 960,
+   "w": 111,
+   "h": 81
+  },
+  {
+   "word": "NEAR",
+   "domain": "02_communication_and_relation",
+   "row": 5,
+   "col": 4,
+   "x": 928,
+   "y": 958,
+   "w": 98,
+   "h": 84
+  },
+  {
+   "word": "FAR",
+   "domain": "02_communication_and_relation",
+   "row": 6,
+   "col": 0,
+   "x": 65,
+   "y": 1127,
+   "w": 156,
+   "h": 33
+  },
+  {
+   "word": "SAME",
+   "domain": "02_communication_and_relation",
+   "row": 6,
+   "col": 1,
+   "x": 314,
+   "y": 1111,
+   "w": 70,
+   "h": 69
+  },
+  {
+   "word": "DIFFERENT",
+   "domain": "02_communication_and_relation",
+   "row": 6,
+   "col": 2,
+   "x": 516,
+   "y": 1110,
+   "w": 71,
+   "h": 70
+  },
+  {
+   "word": "TRUST",
+   "domain": "02_communication_and_relation",
+   "row": 6,
+   "col": 3,
+   "x": 735,
+   "y": 1112,
+   "w": 59,
+   "h": 72
+  },
+  {
+   "word": "DOUBT",
+   "domain": "02_communication_and_relation",
+   "row": 6,
+   "col": 4,
+   "x": 938,
+   "y": 1107,
+   "w": 78,
+   "h": 77
+  },
+  {
+   "word": "AGREE",
+   "domain": "02_communication_and_relation",
+   "row": 7,
+   "col": 0,
+   "x": 106,
+   "y": 1249,
+   "w": 76,
+   "h": 76
+  },
+  {
+   "word": "REFUSE",
+   "domain": "02_communication_and_relation",
+   "row": 7,
+   "col": 1,
+   "x": 310,
+   "y": 1248,
+   "w": 77,
+   "h": 76
+  },
+  {
+   "word": "PROMISE",
+   "domain": "02_communication_and_relation",
+   "row": 7,
+   "col": 2,
+   "x": 503,
+   "y": 1249,
+   "w": 98,
+   "h": 77
+  },
+  {
+   "word": "WARN",
+   "domain": "02_communication_and_relation",
+   "row": 7,
+   "col": 3,
+   "x": 719,
+   "y": 1241,
+   "w": 91,
+   "h": 83
+  },
+  {
+   "word": "TEACH",
+   "domain": "02_communication_and_relation",
+   "row": 7,
+   "col": 4,
+   "x": 937,
+   "y": 1249,
+   "w": 79,
+   "h": 75
+  },
+  {
+   "word": "GO",
+   "domain": "03_action_and_motion",
+   "row": 0,
+   "col": 0,
+   "x": 109,
+   "y": 167,
+   "w": 77,
+   "h": 86
+  },
+  {
+   "word": "COME",
+   "domain": "03_action_and_motion",
+   "row": 0,
+   "col": 1,
+   "x": 306,
+   "y": 169,
+   "w": 74,
+   "h": 82
+  },
+  {
+   "word": "STAY",
+   "domain": "03_action_and_motion",
+   "row": 0,
+   "col": 2,
+   "x": 524,
+   "y": 168,
+   "w": 64,
+   "h": 85
+  },
+  {
+   "word": "MOVE",
+   "domain": "03_action_and_motion",
+   "row": 0,
+   "col": 3,
+   "x": 698,
+   "y": 177,
+   "w": 128,
+   "h": 66
+  },
+  {
+   "word": "STOP",
+   "domain": "03_action_and_motion",
+   "row": 0,
+   "col": 4,
+   "x": 940,
+   "y": 160,
+   "w": 47,
+   "h": 100
+  },
+  {
+   "word": "START",
+   "domain": "03_action_and_motion",
+   "row": 1,
+   "col": 0,
+   "x": 111,
+   "y": 323,
+   "w": 65,
+   "h": 94
+  },
+  {
+   "word": "WALK",
+   "domain": "03_action_and_motion",
+   "row": 1,
+   "col": 1,
+   "x": 319,
+   "y": 332,
+   "w": 51,
+   "h": 87
+  },
+  {
+   "word": "RUN",
+   "domain": "03_action_and_motion",
+   "row": 1,
+   "col": 2,
+   "x": 510,
+   "y": 332,
+   "w": 81,
+   "h": 90
+  },
+  {
+   "word": "CLIMB",
+   "domain": "03_action_and_motion",
+   "row": 1,
+   "col": 3,
+   "x": 723,
+   "y": 337,
+   "w": 79,
+   "h": 80
+  },
+  {
+   "word": "DESCEND",
+   "domain": "03_action_and_motion",
+   "row": 1,
+   "col": 4,
+   "x": 927,
+   "y": 341,
+   "w": 77,
+   "h": 70
+  },
+  {
+   "word": "ENTER",
+   "domain": "03_action_and_motion",
+   "row": 2,
+   "col": 0,
+   "x": 106,
+   "y": 496,
+   "w": 84,
+   "h": 82
+  },
+  {
+   "word": "EXIT",
+   "domain": "03_action_and_motion",
+   "row": 2,
+   "col": 1,
+   "x": 300,
+   "y": 496,
+   "w": 82,
+   "h": 82
+  },
+  {
+   "word": "TURN",
+   "domain": "03_action_and_motion",
+   "row": 2,
+   "col": 2,
+   "x": 522,
+   "y": 491,
+   "w": 68,
+   "h": 87
+  },
+  {
+   "word": "RETURN",
+   "domain": "03_action_and_motion",
+   "row": 2,
+   "col": 3,
+   "x": 717,
+   "y": 496,
+   "w": 86,
+   "h": 82
+  },
+  {
+   "word": "SEARCH",
+   "domain": "03_action_and_motion",
+   "row": 2,
+   "col": 4,
+   "x": 925,
+   "y": 501,
+   "w": 84,
+   "h": 79
+  },
+  {
+   "word": "FIND",
+   "domain": "03_action_and_motion",
+   "row": 3,
+   "col": 0,
+   "x": 98,
+   "y": 653,
+   "w": 91,
+   "h": 89
+  },
+  {
+   "word": "LOSE",
+   "domain": "03_action_and_motion",
+   "row": 3,
+   "col": 1,
+   "x": 308,
+   "y": 660,
+   "w": 77,
+   "h": 75
+  },
+  {
+   "word": "OPEN",
+   "domain": "03_action_and_motion",
+   "row": 3,
+   "col": 2,
+   "x": 518,
+   "y": 659,
+   "w": 74,
+   "h": 77
+  },
+  {
+   "word": "CLOSE",
+   "domain": "03_action_and_motion",
+   "row": 3,
+   "col": 3,
+   "x": 717,
+   "y": 660,
+   "w": 90,
+   "h": 75
+  },
+  {
+   "word": "BUILD",
+   "domain": "03_action_and_motion",
+   "row": 3,
+   "col": 4,
+   "x": 926,
+   "y": 646,
+   "w": 78,
+   "h": 89
+  },
+  {
+   "word": "BREAK",
+   "domain": "03_action_and_motion",
+   "row": 4,
+   "col": 0,
+   "x": 95,
+   "y": 805,
+   "w": 93,
+   "h": 91
+  },
+  {
+   "word": "CUT",
+   "domain": "03_action_and_motion",
+   "row": 4,
+   "col": 1,
+   "x": 306,
+   "y": 815,
+   "w": 70,
+   "h": 74
+  },
+  {
+   "word": "CARRY",
+   "domain": "03_action_and_motion",
+   "row": 4,
+   "col": 2,
+   "x": 511,
+   "y": 813,
+   "w": 86,
+   "h": 74
+  },
+  {
+   "word": "THROW",
+   "domain": "03_action_and_motion",
+   "row": 4,
+   "col": 3,
+   "x": 706,
+   "y": 829,
+   "w": 112,
+   "h": 43
+  },
+  {
+   "word": "PULL",
+   "domain": "03_action_and_motion",
+   "row": 4,
+   "col": 4,
+   "x": 911,
+   "y": 834,
+   "w": 104,
+   "h": 36
+  },
+  {
+   "word": "PUSH",
+   "domain": "03_action_and_motion",
+   "row": 5,
+   "col": 0,
+   "x": 92,
+   "y": 972,
+   "w": 99,
+   "h": 46
+  },
+  {
+   "word": "LIFT",
+   "domain": "03_action_and_motion",
+   "row": 5,
+   "col": 1,
+   "x": 328,
+   "y": 957,
+   "w": 37,
+   "h": 76
+  },
+  {
+   "word": "DROP",
+   "domain": "03_action_and_motion",
+   "row": 5,
+   "col": 2,
+   "x": 537,
+   "y": 957,
+   "w": 36,
+   "h": 75
+  },
+  {
+   "word": "MAKE",
+   "domain": "03_action_and_motion",
+   "row": 5,
+   "col": 3,
+   "x": 721,
+   "y": 965,
+   "w": 79,
+   "h": 67
+  },
+  {
+   "word": "CHANGE",
+   "domain": "03_action_and_motion",
+   "row": 5,
+   "col": 4,
+   "x": 936,
+   "y": 951,
+   "w": 58,
+   "h": 86
+  },
+  {
+   "word": "GROW",
+   "domain": "03_action_and_motion",
+   "row": 6,
+   "col": 0,
+   "x": 108,
+   "y": 1105,
+   "w": 69,
+   "h": 77
+  },
+  {
+   "word": "SHRINK",
+   "domain": "03_action_and_motion",
+   "row": 6,
+   "col": 1,
+   "x": 320,
+   "y": 1114,
+   "w": 50,
+   "h": 64
+  },
+  {
+   "word": "RISE",
+   "domain": "03_action_and_motion",
+   "row": 6,
+   "col": 2,
+   "x": 521,
+   "y": 1101,
+   "w": 68,
+   "h": 80
+  },
+  {
+   "word": "FALL",
+   "domain": "03_action_and_motion",
+   "row": 6,
+   "col": 3,
+   "x": 727,
+   "y": 1106,
+   "w": 70,
+   "h": 80
+  },
+  {
+   "word": "WORK",
+   "domain": "03_action_and_motion",
+   "row": 6,
+   "col": 4,
+   "x": 924,
+   "y": 1106,
+   "w": 83,
+   "h": 83
+  },
+  {
+   "word": "REST",
+   "domain": "03_action_and_motion",
+   "row": 7,
+   "col": 0,
+   "x": 89,
+   "y": 1270,
+   "w": 103,
+   "h": 55
+  },
+  {
+   "word": "WAIT",
+   "domain": "03_action_and_motion",
+   "row": 7,
+   "col": 1,
+   "x": 308,
+   "y": 1253,
+   "w": 76,
+   "h": 82
+  },
+  {
+   "word": "CHOOSE",
+   "domain": "03_action_and_motion",
+   "row": 7,
+   "col": 2,
+   "x": 520,
+   "y": 1258,
+   "w": 71,
+   "h": 70
+  },
+  {
+   "word": "USE",
+   "domain": "03_action_and_motion",
+   "row": 7,
+   "col": 3,
+   "x": 737,
+   "y": 1257,
+   "w": 50,
+   "h": 78
+  },
+  {
+   "word": "CREATE",
+   "domain": "03_action_and_motion",
+   "row": 7,
+   "col": 4,
+   "x": 925,
+   "y": 1256,
+   "w": 79,
+   "h": 78
+  },
+  {
+   "word": "HOME",
+   "domain": "04_nature_and_place",
+   "row": 0,
+   "col": 0,
+   "x": 86,
+   "y": 171,
+   "w": 83,
+   "h": 87
+  },
+  {
+   "word": "SHELTER",
+   "domain": "04_nature_and_place",
+   "row": 0,
+   "col": 1,
+   "x": 290,
+   "y": 170,
+   "w": 102,
+   "h": 86
+  },
+  {
+   "word": "HOUSE",
+   "domain": "04_nature_and_place",
+   "row": 0,
+   "col": 2,
+   "x": 515,
+   "y": 172,
+   "w": 86,
+   "h": 84
+  },
+  {
+   "word": "ROOM",
+   "domain": "04_nature_and_place",
+   "row": 0,
+   "col": 3,
+   "x": 738,
+   "y": 174,
+   "w": 85,
+   "h": 82
+  },
+  {
+   "word": "DOOR",
+   "domain": "04_nature_and_place",
+   "row": 0,
+   "col": 4,
+   "x": 958,
+   "y": 172,
+   "w": 61,
+   "h": 85
+  },
+  {
+   "word": "PATH",
+   "domain": "04_nature_and_place",
+   "row": 1,
+   "col": 0,
+   "x": 97,
+   "y": 331,
+   "w": 62,
+   "h": 84
+  },
+  {
+   "word": "ROAD",
+   "domain": "04_nature_and_place",
+   "row": 1,
+   "col": 1,
+   "x": 302,
+   "y": 327,
+   "w": 79,
+   "h": 91
+  },
+  {
+   "word": "BRIDGE",
+   "domain": "04_nature_and_place",
+   "row": 1,
+   "col": 2,
+   "x": 491,
+   "y": 343,
+   "w": 137,
+   "h": 73
+  },
+  {
+   "word": "CITY",
+   "domain": "04_nature_and_place",
+   "row": 1,
+   "col": 3,
+   "x": 725,
+   "y": 324,
+   "w": 111,
+   "h": 92
+  },
+  {
+   "word": "VILLAGE",
+   "domain": "04_nature_and_place",
+   "row": 1,
+   "col": 4,
+   "x": 928,
+   "y": 345,
+   "w": 118,
+   "h": 71
+  },
+  {
+   "word": "LAND",
+   "domain": "04_nature_and_place",
+   "row": 2,
+   "col": 0,
+   "x": 71,
+   "y": 491,
+   "w": 113,
+   "h": 89
+  },
+  {
+   "word": "FIELD",
+   "domain": "04_nature_and_place",
+   "row": 2,
+   "col": 1,
+   "x": 284,
+   "y": 499,
+   "w": 116,
+   "h": 68
+  },
+  {
+   "word": "FOREST",
+   "domain": "04_nature_and_place",
+   "row": 2,
+   "col": 2,
+   "x": 492,
+   "y": 490,
+   "w": 133,
+   "h": 84
+  },
+  {
+   "word": "MOUNTAIN",
+   "domain": "04_nature_and_place",
+   "row": 2,
+   "col": 3,
+   "x": 705,
+   "y": 494,
+   "w": 146,
+   "h": 82
+  },
+  {
+   "word": "HILL",
+   "domain": "04_nature_and_place",
+   "row": 2,
+   "col": 4,
+   "x": 914,
+   "y": 503,
+   "w": 148,
+   "h": 65
+  },
+  {
+   "word": "CAVE",
+   "domain": "04_nature_and_place",
+   "row": 3,
+   "col": 0,
+   "x": 77,
+   "y": 653,
+   "w": 101,
+   "h": 74
+  },
+  {
+   "word": "RIVER",
+   "domain": "04_nature_and_place",
+   "row": 3,
+   "col": 1,
+   "x": 275,
+   "y": 658,
+   "w": 133,
+   "h": 62
+  },
+  {
+   "word": "LAKE",
+   "domain": "04_nature_and_place",
+   "row": 3,
+   "col": 2,
+   "x": 492,
+   "y": 658,
+   "w": 132,
+   "h": 64
+  },
+  {
+   "word": "SEA",
+   "domain": "04_nature_and_place",
+   "row": 3,
+   "col": 3,
+   "x": 712,
+   "y": 658,
+   "w": 137,
+   "h": 68
+  },
+  {
+   "word": "ISLAND",
+   "domain": "04_nature_and_place",
+   "row": 3,
+   "col": 4,
+   "x": 929,
+   "y": 639,
+   "w": 117,
+   "h": 88
+  },
+  {
+   "word": "SKY",
+   "domain": "04_nature_and_place",
+   "row": 4,
+   "col": 0,
+   "x": 84,
+   "y": 797,
+   "w": 87,
+   "h": 85
+  },
+  {
+   "word": "CLOUD",
+   "domain": "04_nature_and_place",
+   "row": 4,
+   "col": 1,
+   "x": 292,
+   "y": 803,
+   "w": 98,
+   "h": 77
+  },
+  {
+   "word": "RAIN",
+   "domain": "04_nature_and_place",
+   "row": 4,
+   "col": 2,
+   "x": 513,
+   "y": 797,
+   "w": 90,
+   "h": 86
+  },
+  {
+   "word": "STORM",
+   "domain": "04_nature_and_place",
+   "row": 4,
+   "col": 3,
+   "x": 734,
+   "y": 789,
+   "w": 92,
+   "h": 98
+  },
+  {
+   "word": "WIND",
+   "domain": "04_nature_and_place",
+   "row": 4,
+   "col": 4,
+   "x": 927,
+   "y": 802,
+   "w": 121,
+   "h": 81
+  },
+  {
+   "word": "FIRE",
+   "domain": "04_nature_and_place",
+   "row": 5,
+   "col": 0,
+   "x": 93,
+   "y": 953,
+   "w": 69,
+   "h": 91
+  },
+  {
+   "word": "SMOKE",
+   "domain": "04_nature_and_place",
+   "row": 5,
+   "col": 1,
+   "x": 314,
+   "y": 952,
+   "w": 56,
+   "h": 94
+  },
+  {
+   "word": "STONE",
+   "domain": "04_nature_and_place",
+   "row": 5,
+   "col": 2,
+   "x": 515,
+   "y": 958,
+   "w": 90,
+   "h": 84
+  },
+  {
+   "word": "SAND",
+   "domain": "04_nature_and_place",
+   "row": 5,
+   "col": 3,
+   "x": 729,
+   "y": 968,
+   "w": 102,
+   "h": 70
+  },
+  {
+   "word": "METAL",
+   "domain": "04_nature_and_place",
+   "row": 5,
+   "col": 4,
+   "x": 940,
+   "y": 959,
+   "w": 96,
+   "h": 82
+  },
+  {
+   "word": "PLANT",
+   "domain": "04_nature_and_place",
+   "row": 6,
+   "col": 0,
+   "x": 83,
+   "y": 1117,
+   "w": 90,
+   "h": 80
+  },
+  {
+   "word": "TREE",
+   "domain": "04_nature_and_place",
+   "row": 6,
+   "col": 1,
+   "x": 301,
+   "y": 1110,
+   "w": 80,
+   "h": 87
+  },
+  {
+   "word": "FLOWER",
+   "domain": "04_nature_and_place",
+   "row": 6,
+   "col": 2,
+   "x": 520,
+   "y": 1118,
+   "w": 76,
+   "h": 74
+  },
+  {
+   "word": "SEED",
+   "domain": "04_nature_and_place",
+   "row": 6,
+   "col": 3,
+   "x": 754,
+   "y": 1115,
+   "w": 51,
+   "h": 81
+  },
+  {
+   "word": "ANIMAL",
+   "domain": "04_nature_and_place",
+   "row": 6,
+   "col": 4,
+   "x": 942,
+   "y": 1118,
+   "w": 91,
+   "h": 77
+  },
+  {
+   "word": "BIRD",
+   "domain": "04_nature_and_place",
+   "row": 7,
+   "col": 0,
+   "x": 71,
+   "y": 1263,
+   "w": 110,
+   "h": 75
+  },
+  {
+   "word": "FISH",
+   "domain": "04_nature_and_place",
+   "row": 7,
+   "col": 1,
+   "x": 284,
+   "y": 1277,
+   "w": 114,
+   "h": 53
+  },
+  {
+   "word": "INSECT",
+   "domain": "04_nature_and_place",
+   "row": 7,
+   "col": 2,
+   "x": 521,
+   "y": 1260,
+   "w": 74,
+   "h": 86
+  },
+  {
+   "word": "SUN",
+   "domain": "04_nature_and_place",
+   "row": 7,
+   "col": 3,
+   "x": 727,
+   "y": 1256,
+   "w": 106,
+   "h": 95
+  },
+  {
+   "word": "MOON",
+   "domain": "04_nature_and_place",
+   "row": 7,
+   "col": 4,
+   "x": 952,
+   "y": 1262,
+   "w": 62,
+   "h": 79
+  },
+  {
+   "word": "BODY",
+   "domain": "05_body_and_health",
+   "row": 0,
+   "col": 0,
+   "x": 101,
+   "y": 171,
+   "w": 66,
+   "h": 103
+  },
+  {
+   "word": "HEAD",
+   "domain": "05_body_and_health",
+   "row": 0,
+   "col": 1,
+   "x": 306,
+   "y": 178,
+   "w": 72,
+   "h": 84
+  },
+  {
+   "word": "EYE",
+   "domain": "05_body_and_health",
+   "row": 0,
+   "col": 2,
+   "x": 506,
+   "y": 171,
+   "w": 104,
+   "h": 99
+  },
+  {
+   "word": "EAR",
+   "domain": "05_body_and_health",
+   "row": 0,
+   "col": 3,
+   "x": 742,
+   "y": 178,
+   "w": 55,
+   "h": 81
+  },
+  {
+   "word": "MOUTH",
+   "domain": "05_body_and_health",
+   "row": 0,
+   "col": 4,
+   "x": 935,
+   "y": 183,
+   "w": 91,
+   "h": 72
+  },
+  {
+   "word": "HAND",
+   "domain": "05_body_and_health",
+   "row": 1,
+   "col": 0,
+   "x": 90,
+   "y": 333,
+   "w": 76,
+   "h": 104
+  },
+  {
+   "word": "FOOT",
+   "domain": "05_body_and_health",
+   "row": 1,
+   "col": 1,
+   "x": 307,
+   "y": 329,
+   "w": 70,
+   "h": 108
+  },
+  {
+   "word": "HEART",
+   "domain": "05_body_and_health",
+   "row": 1,
+   "col": 2,
+   "x": 524,
+   "y": 334,
+   "w": 69,
+   "h": 103
+  },
+  {
+   "word": "MIND",
+   "domain": "05_body_and_health",
+   "row": 1,
+   "col": 3,
+   "x": 715,
+   "y": 338,
+   "w": 103,
+   "h": 100
+  },
+  {
+   "word": "BREATH",
+   "domain": "05_body_and_health",
+   "row": 1,
+   "col": 4,
+   "x": 937,
+   "y": 334,
+   "w": 88,
+   "h": 98
+  },
+  {
+   "word": "BLOOD",
+   "domain": "05_body_and_health",
+   "row": 2,
+   "col": 0,
+   "x": 103,
+   "y": 503,
+   "w": 63,
+   "h": 94
+  },
+  {
+   "word": "BONE",
+   "domain": "05_body_and_health",
+   "row": 2,
+   "col": 1,
+   "x": 276,
+   "y": 536,
+   "w": 132,
+   "h": 44
+  },
+  {
+   "word": "SKIN",
+   "domain": "05_body_and_health",
+   "row": 2,
+   "col": 2,
+   "x": 495,
+   "y": 519,
+   "w": 125,
+   "h": 64
+  },
+  {
+   "word": "SLEEP",
+   "domain": "05_body_and_health",
+   "row": 2,
+   "col": 3,
+   "x": 716,
+   "y": 518,
+   "w": 102,
+   "h": 71
+  },
+  {
+   "word": "WAKE",
+   "domain": "05_body_and_health",
+   "row": 2,
+   "col": 4,
+   "x": 926,
+   "y": 523,
+   "w": 111,
+   "h": 65
+  },
+  {
+   "word": "EAT",
+   "domain": "05_body_and_health",
+   "row": 3,
+   "col": 0,
+   "x": 85,
+   "y": 671,
+   "w": 98,
+   "h": 77
+  },
+  {
+   "word": "DRINK",
+   "domain": "05_body_and_health",
+   "row": 3,
+   "col": 1,
+   "x": 304,
+   "y": 662,
+   "w": 76,
+   "h": 87
+  },
+  {
+   "word": "FOOD",
+   "domain": "05_body_and_health",
+   "row": 3,
+   "col": 2,
+   "x": 514,
+   "y": 670,
+   "w": 87,
+   "h": 78
+  },
+  {
+   "word": "WATER",
+   "domain": "05_body_and_health",
+   "row": 3,
+   "col": 3,
+   "x": 719,
+   "y": 675,
+   "w": 95,
+   "h": 72
+  },
+  {
+   "word": "PAIN",
+   "domain": "05_body_and_health",
+   "row": 3,
+   "col": 4,
+   "x": 938,
+   "y": 666,
+   "w": 86,
+   "h": 88
+  },
+  {
+   "word": "SICKNESS",
+   "domain": "05_body_and_health",
+   "row": 4,
+   "col": 0,
+   "x": 88,
+   "y": 818,
+   "w": 90,
+   "h": 88
+  },
+  {
+   "word": "HEALING",
+   "domain": "05_body_and_health",
+   "row": 4,
+   "col": 1,
+   "x": 296,
+   "y": 818,
+   "w": 91,
+   "h": 87
+  },
+  {
+   "word": "LIFE",
+   "domain": "05_body_and_health",
+   "row": 4,
+   "col": 2,
+   "x": 506,
+   "y": 818,
+   "w": 103,
+   "h": 80
+  },
+  {
+   "word": "DEATH",
+   "domain": "05_body_and_health",
+   "row": 4,
+   "col": 3,
+   "x": 717,
+   "y": 828,
+   "w": 101,
+   "h": 78
+  },
+  {
+   "word": "BIRTH",
+   "domain": "05_body_and_health",
+   "row": 4,
+   "col": 4,
+   "x": 928,
+   "y": 836,
+   "w": 108,
+   "h": 63
+  },
+  {
+   "word": "AGE",
+   "domain": "05_body_and_health",
+   "row": 5,
+   "col": 0,
+   "x": 93,
+   "y": 970,
+   "w": 84,
+   "h": 81
+  },
+  {
+   "word": "STRENGTH",
+   "domain": "05_body_and_health",
+   "row": 5,
+   "col": 1,
+   "x": 314,
+   "y": 970,
+   "w": 55,
+   "h": 77
+  },
+  {
+   "word": "WEAKNESS",
+   "domain": "05_body_and_health",
+   "row": 5,
+   "col": 2,
+   "x": 529,
+   "y": 970,
+   "w": 58,
+   "h": 83
+  },
+  {
+   "word": "HOT",
+   "domain": "05_body_and_health",
+   "row": 5,
+   "col": 3,
+   "x": 716,
+   "y": 965,
+   "w": 103,
+   "h": 95
+  },
+  {
+   "word": "COLD",
+   "domain": "05_body_and_health",
+   "row": 5,
+   "col": 4,
+   "x": 942,
+   "y": 971,
+   "w": 78,
+   "h": 87
+  },
+  {
+   "word": "HUNGER",
+   "domain": "05_body_and_health",
+   "row": 6,
+   "col": 0,
+   "x": 104,
+   "y": 1118,
+   "w": 61,
+   "h": 84
+  },
+  {
+   "word": "THIRST",
+   "domain": "05_body_and_health",
+   "row": 6,
+   "col": 1,
+   "x": 284,
+   "y": 1129,
+   "w": 116,
+   "h": 51
+  },
+  {
+   "word": "WOUND",
+   "domain": "05_body_and_health",
+   "row": 6,
+   "col": 2,
+   "x": 510,
+   "y": 1119,
+   "w": 96,
+   "h": 83
+  },
+  {
+   "word": "MEDICINE",
+   "domain": "05_body_and_health",
+   "row": 6,
+   "col": 3,
+   "x": 736,
+   "y": 1113,
+   "w": 64,
+   "h": 89
+  },
+  {
+   "word": "DANGER",
+   "domain": "05_body_and_health",
+   "row": 6,
+   "col": 4,
+   "x": 937,
+   "y": 1115,
+   "w": 88,
+   "h": 81
+  },
+  {
+   "word": "SAFETY",
+   "domain": "05_body_and_health",
+   "row": 7,
+   "col": 0,
+   "x": 98,
+   "y": 1262,
+   "w": 72,
+   "h": 78
+  },
+  {
+   "word": "TOUCH",
+   "domain": "05_body_and_health",
+   "row": 7,
+   "col": 1,
+   "x": 299,
+   "y": 1262,
+   "w": 85,
+   "h": 65
+  },
+  {
+   "word": "ENERGY",
+   "domain": "05_body_and_health",
+   "row": 7,
+   "col": 2,
+   "x": 518,
+   "y": 1254,
+   "w": 77,
+   "h": 89
+  },
+  {
+   "word": "NERVE",
+   "domain": "05_body_and_health",
+   "row": 7,
+   "col": 3,
+   "x": 734,
+   "y": 1254,
+   "w": 67,
+   "h": 85
+  },
+  {
+   "word": "BALANCE",
+   "domain": "05_body_and_health",
+   "row": 7,
+   "col": 4,
+   "x": 926,
+   "y": 1256,
+   "w": 110,
+   "h": 84
+  },
+  {
+   "word": "LOVE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 0,
+   "col": 0,
+   "x": 89,
+   "y": 161,
+   "w": 93,
+   "h": 78
+  },
+  {
+   "word": "SAD",
+   "domain": "06_emotion_and_inner_state",
+   "row": 0,
+   "col": 1,
+   "x": 301,
+   "y": 163,
+   "w": 86,
+   "h": 81
+  },
+  {
+   "word": "HAPPY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 0,
+   "col": 2,
+   "x": 511,
+   "y": 160,
+   "w": 98,
+   "h": 85
+  },
+  {
+   "word": "FEAR",
+   "domain": "06_emotion_and_inner_state",
+   "row": 0,
+   "col": 3,
+   "x": 726,
+   "y": 156,
+   "w": 87,
+   "h": 85
+  },
+  {
+   "word": "ANGER",
+   "domain": "06_emotion_and_inner_state",
+   "row": 0,
+   "col": 4,
+   "x": 944,
+   "y": 161,
+   "w": 80,
+   "h": 79
+  },
+  {
+   "word": "PEACE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 1,
+   "col": 0,
+   "x": 88,
+   "y": 317,
+   "w": 97,
+   "h": 98
+  },
+  {
+   "word": "CALM",
+   "domain": "06_emotion_and_inner_state",
+   "row": 1,
+   "col": 1,
+   "x": 295,
+   "y": 325,
+   "w": 99,
+   "h": 90
+  },
+  {
+   "word": "HOPE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 1,
+   "col": 2,
+   "x": 530,
+   "y": 323,
+   "w": 60,
+   "h": 93
+  },
+  {
+   "word": "DESPAIR",
+   "domain": "06_emotion_and_inner_state",
+   "row": 1,
+   "col": 3,
+   "x": 726,
+   "y": 323,
+   "w": 87,
+   "h": 96
+  },
+  {
+   "word": "JOY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 1,
+   "col": 4,
+   "x": 934,
+   "y": 322,
+   "w": 98,
+   "h": 95
+  },
+  {
+   "word": "GRIEF",
+   "domain": "06_emotion_and_inner_state",
+   "row": 2,
+   "col": 0,
+   "x": 107,
+   "y": 492,
+   "w": 58,
+   "h": 87
+  },
+  {
+   "word": "SHAME",
+   "domain": "06_emotion_and_inner_state",
+   "row": 2,
+   "col": 1,
+   "x": 317,
+   "y": 490,
+   "w": 54,
+   "h": 95
+  },
+  {
+   "word": "PRIDE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 2,
+   "col": 2,
+   "x": 516,
+   "y": 481,
+   "w": 87,
+   "h": 104
+  },
+  {
+   "word": "SURPRISE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 2,
+   "col": 3,
+   "x": 699,
+   "y": 501,
+   "w": 140,
+   "h": 65
+  },
+  {
+   "word": "WORRY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 2,
+   "col": 4,
+   "x": 951,
+   "y": 488,
+   "w": 65,
+   "h": 87
+  },
+  {
+   "word": "COURAGE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 3,
+   "col": 0,
+   "x": 111,
+   "y": 648,
+   "w": 48,
+   "h": 92
+  },
+  {
+   "word": "DESIRE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 3,
+   "col": 1,
+   "x": 302,
+   "y": 654,
+   "w": 84,
+   "h": 82
+  },
+  {
+   "word": "LONELINESS",
+   "domain": "06_emotion_and_inner_state",
+   "row": 3,
+   "col": 2,
+   "x": 512,
+   "y": 651,
+   "w": 94,
+   "h": 90
+  },
+  {
+   "word": "COMFORT",
+   "domain": "06_emotion_and_inner_state",
+   "row": 3,
+   "col": 3,
+   "x": 720,
+   "y": 661,
+   "w": 98,
+   "h": 72
+  },
+  {
+   "word": "CONFUSION",
+   "domain": "06_emotion_and_inner_state",
+   "row": 3,
+   "col": 4,
+   "x": 942,
+   "y": 657,
+   "w": 83,
+   "h": 79
+  },
+  {
+   "word": "CLARITY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 4,
+   "col": 0,
+   "x": 79,
+   "y": 802,
+   "w": 112,
+   "h": 94
+  },
+  {
+   "word": "CURIOSITY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 4,
+   "col": 1,
+   "x": 298,
+   "y": 808,
+   "w": 92,
+   "h": 80
+  },
+  {
+   "word": "PATIENCE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 4,
+   "col": 2,
+   "x": 547,
+   "y": 805,
+   "w": 24,
+   "h": 85
+  },
+  {
+   "word": "FRUSTRATION",
+   "domain": "06_emotion_and_inner_state",
+   "row": 4,
+   "col": 3,
+   "x": 729,
+   "y": 805,
+   "w": 80,
+   "h": 89
+  },
+  {
+   "word": "KINDNESS",
+   "domain": "06_emotion_and_inner_state",
+   "row": 4,
+   "col": 4,
+   "x": 940,
+   "y": 807,
+   "w": 85,
+   "h": 88
+  },
+  {
+   "word": "JEALOUSY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 5,
+   "col": 0,
+   "x": 92,
+   "y": 965,
+   "w": 85,
+   "h": 84
+  },
+  {
+   "word": "COMPASSION",
+   "domain": "06_emotion_and_inner_state",
+   "row": 5,
+   "col": 1,
+   "x": 288,
+   "y": 970,
+   "w": 112,
+   "h": 70
+  },
+  {
+   "word": "BOREDOM",
+   "domain": "06_emotion_and_inner_state",
+   "row": 5,
+   "col": 2,
+   "x": 517,
+   "y": 965,
+   "w": 83,
+   "h": 77
+  },
+  {
+   "word": "EXCITEMENT",
+   "domain": "06_emotion_and_inner_state",
+   "row": 5,
+   "col": 3,
+   "x": 718,
+   "y": 953,
+   "w": 100,
+   "h": 96
+  },
+  {
+   "word": "TIREDNESS",
+   "domain": "06_emotion_and_inner_state",
+   "row": 5,
+   "col": 4,
+   "x": 954,
+   "y": 970,
+   "w": 58,
+   "h": 76
+  },
+  {
+   "word": "FOCUS",
+   "domain": "06_emotion_and_inner_state",
+   "row": 6,
+   "col": 0,
+   "x": 92,
+   "y": 1108,
+   "w": 86,
+   "h": 88
+  },
+  {
+   "word": "INSECURITY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 6,
+   "col": 1,
+   "x": 299,
+   "y": 1107,
+   "w": 90,
+   "h": 93
+  },
+  {
+   "word": "BELIEF",
+   "domain": "06_emotion_and_inner_state",
+   "row": 6,
+   "col": 2,
+   "x": 534,
+   "y": 1107,
+   "w": 48,
+   "h": 94
+  },
+  {
+   "word": "RESPECT",
+   "domain": "06_emotion_and_inner_state",
+   "row": 6,
+   "col": 3,
+   "x": 742,
+   "y": 1108,
+   "w": 54,
+   "h": 90
+  },
+  {
+   "word": "DISGUST",
+   "domain": "06_emotion_and_inner_state",
+   "row": 6,
+   "col": 4,
+   "x": 946,
+   "y": 1114,
+   "w": 72,
+   "h": 84
+  },
+  {
+   "word": "RELIEF",
+   "domain": "06_emotion_and_inner_state",
+   "row": 7,
+   "col": 0,
+   "x": 92,
+   "y": 1266,
+   "w": 86,
+   "h": 71
+  },
+  {
+   "word": "AWE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 7,
+   "col": 1,
+   "x": 303,
+   "y": 1255,
+   "w": 79,
+   "h": 88
+  },
+  {
+   "word": "ENVY",
+   "domain": "06_emotion_and_inner_state",
+   "row": 7,
+   "col": 2,
+   "x": 504,
+   "y": 1271,
+   "w": 108,
+   "h": 65
+  },
+  {
+   "word": "CONFIDENCE",
+   "domain": "06_emotion_and_inner_state",
+   "row": 7,
+   "col": 3,
+   "x": 722,
+   "y": 1264,
+   "w": 92,
+   "h": 79
+  },
+  {
+   "word": "CONTENTMENT",
+   "domain": "06_emotion_and_inner_state",
+   "row": 7,
+   "col": 4,
+   "x": 934,
+   "y": 1263,
+   "w": 97,
+   "h": 77
+  },
+  {
+   "word": "TIME",
+   "domain": "07_time_and_quantity",
+   "row": 0,
+   "col": 0,
+   "x": 94,
+   "y": 169,
+   "w": 74,
+   "h": 91
+  },
+  {
+   "word": "PAST",
+   "domain": "07_time_and_quantity",
+   "row": 0,
+   "col": 1,
+   "x": 295,
+   "y": 192,
+   "w": 101,
+   "h": 57
+  },
+  {
+   "word": "PRESENT",
+   "domain": "07_time_and_quantity",
+   "row": 0,
+   "col": 2,
+   "x": 527,
+   "y": 169,
+   "w": 63,
+   "h": 103
+  },
+  {
+   "word": "FUTURE",
+   "domain": "07_time_and_quantity",
+   "row": 0,
+   "col": 3,
+   "x": 717,
+   "y": 196,
+   "w": 101,
+   "h": 49
+  },
+  {
+   "word": "DAY",
+   "domain": "07_time_and_quantity",
+   "row": 0,
+   "col": 4,
+   "x": 920,
+   "y": 168,
+   "w": 105,
+   "h": 104
+  },
+  {
+   "word": "NIGHT",
+   "domain": "07_time_and_quantity",
+   "row": 1,
+   "col": 0,
+   "x": 94,
+   "y": 340,
+   "w": 60,
+   "h": 75
+  },
+  {
+   "word": "MORNING",
+   "domain": "07_time_and_quantity",
+   "row": 1,
+   "col": 1,
+   "x": 285,
+   "y": 338,
+   "w": 112,
+   "h": 65
+  },
+  {
+   "word": "EVENING",
+   "domain": "07_time_and_quantity",
+   "row": 1,
+   "col": 2,
+   "x": 502,
+   "y": 338,
+   "w": 110,
+   "h": 67
+  },
+  {
+   "word": "NOW",
+   "domain": "07_time_and_quantity",
+   "row": 1,
+   "col": 3,
+   "x": 734,
+   "y": 326,
+   "w": 64,
+   "h": 105
+  },
+  {
+   "word": "LATER",
+   "domain": "07_time_and_quantity",
+   "row": 1,
+   "col": 4,
+   "x": 929,
+   "y": 335,
+   "w": 88,
+   "h": 88
+  },
+  {
+   "word": "BEFORE",
+   "domain": "07_time_and_quantity",
+   "row": 2,
+   "col": 0,
+   "x": 86,
+   "y": 496,
+   "w": 66,
+   "h": 75
+  },
+  {
+   "word": "AFTER",
+   "domain": "07_time_and_quantity",
+   "row": 2,
+   "col": 1,
+   "x": 316,
+   "y": 496,
+   "w": 67,
+   "h": 75
+  },
+  {
+   "word": "EARLY",
+   "domain": "07_time_and_quantity",
+   "row": 2,
+   "col": 2,
+   "x": 527,
+   "y": 489,
+   "w": 62,
+   "h": 90
+  },
+  {
+   "word": "LATE",
+   "domain": "07_time_and_quantity",
+   "row": 2,
+   "col": 3,
+   "x": 735,
+   "y": 489,
+   "w": 62,
+   "h": 90
+  },
+  {
+   "word": "ALWAYS",
+   "domain": "07_time_and_quantity",
+   "row": 2,
+   "col": 4,
+   "x": 918,
+   "y": 512,
+   "w": 108,
+   "h": 44
+  },
+  {
+   "word": "NEVER",
+   "domain": "07_time_and_quantity",
+   "row": 3,
+   "col": 0,
+   "x": 87,
+   "y": 651,
+   "w": 86,
+   "h": 84
+  },
+  {
+   "word": "OFTEN",
+   "domain": "07_time_and_quantity",
+   "row": 3,
+   "col": 1,
+   "x": 293,
+   "y": 652,
+   "w": 95,
+   "h": 81
+  },
+  {
+   "word": "SOMETIMES",
+   "domain": "07_time_and_quantity",
+   "row": 3,
+   "col": 2,
+   "x": 489,
+   "y": 675,
+   "w": 137,
+   "h": 35
+  },
+  {
+   "word": "ONCE",
+   "domain": "07_time_and_quantity",
+   "row": 3,
+   "col": 3,
+   "x": 740,
+   "y": 667,
+   "w": 52,
+   "h": 52
+  },
+  {
+   "word": "AGAIN",
+   "domain": "07_time_and_quantity",
+   "row": 3,
+   "col": 4,
+   "x": 930,
+   "y": 651,
+   "w": 84,
+   "h": 82
+  },
+  {
+   "word": "ONE",
+   "domain": "07_time_and_quantity",
+   "row": 4,
+   "col": 0,
+   "x": 121,
+   "y": 806,
+   "w": 19,
+   "h": 77
+  },
+  {
+   "word": "TWO",
+   "domain": "07_time_and_quantity",
+   "row": 4,
+   "col": 1,
+   "x": 313,
+   "y": 807,
+   "w": 54,
+   "h": 80
+  },
+  {
+   "word": "THREE",
+   "domain": "07_time_and_quantity",
+   "row": 4,
+   "col": 2,
+   "x": 548,
+   "y": 796,
+   "w": 19,
+   "h": 95
+  },
+  {
+   "word": "MANY",
+   "domain": "07_time_and_quantity",
+   "row": 4,
+   "col": 3,
+   "x": 724,
+   "y": 805,
+   "w": 83,
+   "h": 81
+  },
+  {
+   "word": "FEW",
+   "domain": "07_time_and_quantity",
+   "row": 4,
+   "col": 4,
+   "x": 934,
+   "y": 836,
+   "w": 76,
+   "h": 20
+  },
+  {
+   "word": "ALL",
+   "domain": "07_time_and_quantity",
+   "row": 5,
+   "col": 0,
+   "x": 87,
+   "y": 953,
+   "w": 87,
+   "h": 86
+  },
+  {
+   "word": "NONE",
+   "domain": "07_time_and_quantity",
+   "row": 5,
+   "col": 1,
+   "x": 299,
+   "y": 955,
+   "w": 83,
+   "h": 81
+  },
+  {
+   "word": "MORE",
+   "domain": "07_time_and_quantity",
+   "row": 5,
+   "col": 2,
+   "x": 522,
+   "y": 956,
+   "w": 71,
+   "h": 75
+  },
+  {
+   "word": "LESS",
+   "domain": "07_time_and_quantity",
+   "row": 5,
+   "col": 3,
+   "x": 729,
+   "y": 955,
+   "w": 71,
+   "h": 75
+  },
+  {
+   "word": "EQUAL",
+   "domain": "07_time_and_quantity",
+   "row": 5,
+   "col": 4,
+   "x": 929,
+   "y": 981,
+   "w": 85,
+   "h": 28
+  },
+  {
+   "word": "FULL",
+   "domain": "07_time_and_quantity",
+   "row": 6,
+   "col": 0,
+   "x": 87,
+   "y": 1093,
+   "w": 86,
+   "h": 84
+  },
+  {
+   "word": "EMPTY",
+   "domain": "07_time_and_quantity",
+   "row": 6,
+   "col": 1,
+   "x": 297,
+   "y": 1093,
+   "w": 85,
+   "h": 84
+  },
+  {
+   "word": "PART",
+   "domain": "07_time_and_quantity",
+   "row": 6,
+   "col": 2,
+   "x": 513,
+   "y": 1092,
+   "w": 85,
+   "h": 84
+  },
+  {
+   "word": "WHOLE",
+   "domain": "07_time_and_quantity",
+   "row": 6,
+   "col": 3,
+   "x": 722,
+   "y": 1092,
+   "w": 86,
+   "h": 85
+  },
+  {
+   "word": "BEGINNING",
+   "domain": "07_time_and_quantity",
+   "row": 6,
+   "col": 4,
+   "x": 907,
+   "y": 1122,
+   "w": 127,
+   "h": 26
+  },
+  {
+   "word": "MIDDLE",
+   "domain": "07_time_and_quantity",
+   "row": 7,
+   "col": 0,
+   "x": 64,
+   "y": 1264,
+   "w": 133,
+   "h": 31
+  },
+  {
+   "word": "END",
+   "domain": "07_time_and_quantity",
+   "row": 7,
+   "col": 1,
+   "x": 284,
+   "y": 1266,
+   "w": 112,
+   "h": 28
+  },
+  {
+   "word": "MEASURE",
+   "domain": "07_time_and_quantity",
+   "row": 7,
+   "col": 2,
+   "x": 542,
+   "y": 1236,
+   "w": 30,
+   "h": 85
+  },
+  {
+   "word": "COUNT",
+   "domain": "07_time_and_quantity",
+   "row": 7,
+   "col": 3,
+   "x": 757,
+   "y": 1239,
+   "w": 17,
+   "h": 81
+  },
+  {
+   "word": "SEQUENCE",
+   "domain": "07_time_and_quantity",
+   "row": 7,
+   "col": 4,
+   "x": 899,
+   "y": 1270,
+   "w": 144,
+   "h": 21
+  },
+  {
+   "word": "QUESTION",
+   "domain": "08_logic_and_questions",
+   "row": 0,
+   "col": 0,
+   "x": 108,
+   "y": 161,
+   "w": 56,
+   "h": 101
+  },
+  {
+   "word": "WHO",
+   "domain": "08_logic_and_questions",
+   "row": 0,
+   "col": 1,
+   "x": 306,
+   "y": 170,
+   "w": 85,
+   "h": 85
+  },
+  {
+   "word": "WHAT",
+   "domain": "08_logic_and_questions",
+   "row": 0,
+   "col": 2,
+   "x": 510,
+   "y": 165,
+   "w": 98,
+   "h": 95
+  },
+  {
+   "word": "WHERE",
+   "domain": "08_logic_and_questions",
+   "row": 0,
+   "col": 3,
+   "x": 724,
+   "y": 162,
+   "w": 100,
+   "h": 100
+  },
+  {
+   "word": "WHEN",
+   "domain": "08_logic_and_questions",
+   "row": 0,
+   "col": 4,
+   "x": 950,
+   "y": 157,
+   "w": 55,
+   "h": 105
+  },
+  {
+   "word": "WHY",
+   "domain": "08_logic_and_questions",
+   "row": 1,
+   "col": 0,
+   "x": 109,
+   "y": 330,
+   "w": 53,
+   "h": 85
+  },
+  {
+   "word": "HOW",
+   "domain": "08_logic_and_questions",
+   "row": 1,
+   "col": 1,
+   "x": 305,
+   "y": 340,
+   "w": 88,
+   "h": 68
+  },
+  {
+   "word": "WHICH",
+   "domain": "08_logic_and_questions",
+   "row": 1,
+   "col": 2,
+   "x": 521,
+   "y": 326,
+   "w": 75,
+   "h": 95
+  },
+  {
+   "word": "CAN",
+   "domain": "08_logic_and_questions",
+   "row": 1,
+   "col": 3,
+   "x": 732,
+   "y": 341,
+   "w": 83,
+   "h": 68
+  },
+  {
+   "word": "CANNOT",
+   "domain": "08_logic_and_questions",
+   "row": 1,
+   "col": 4,
+   "x": 930,
+   "y": 342,
+   "w": 95,
+   "h": 73
+  },
+  {
+   "word": "MUST",
+   "domain": "08_logic_and_questions",
+   "row": 2,
+   "col": 0,
+   "x": 92,
+   "y": 497,
+   "w": 87,
+   "h": 66
+  },
+  {
+   "word": "SHOULD",
+   "domain": "08_logic_and_questions",
+   "row": 2,
+   "col": 1,
+   "x": 301,
+   "y": 497,
+   "w": 97,
+   "h": 66
+  },
+  {
+   "word": "IF",
+   "domain": "08_logic_and_questions",
+   "row": 2,
+   "col": 2,
+   "x": 544,
+   "y": 477,
+   "w": 29,
+   "h": 98
+  },
+  {
+   "word": "THEN",
+   "domain": "08_logic_and_questions",
+   "row": 2,
+   "col": 3,
+   "x": 718,
+   "y": 506,
+   "w": 107,
+   "h": 45
+  },
+  {
+   "word": "BECAUSE",
+   "domain": "08_logic_and_questions",
+   "row": 2,
+   "col": 4,
+   "x": 932,
+   "y": 480,
+   "w": 91,
+   "h": 95
+  },
+  {
+   "word": "AND",
+   "domain": "08_logic_and_questions",
+   "row": 3,
+   "col": 0,
+   "x": 78,
+   "y": 655,
+   "w": 114,
+   "h": 72
+  },
+  {
+   "word": "OR",
+   "domain": "08_logic_and_questions",
+   "row": 3,
+   "col": 1,
+   "x": 308,
+   "y": 651,
+   "w": 80,
+   "h": 79
+  },
+  {
+   "word": "NOT",
+   "domain": "08_logic_and_questions",
+   "row": 3,
+   "col": 2,
+   "x": 518,
+   "y": 650,
+   "w": 80,
+   "h": 80
+  },
+  {
+   "word": "TRUE",
+   "domain": "08_logic_and_questions",
+   "row": 3,
+   "col": 3,
+   "x": 731,
+   "y": 650,
+   "w": 81,
+   "h": 81
+  },
+  {
+   "word": "FALSE",
+   "domain": "08_logic_and_questions",
+   "row": 3,
+   "col": 4,
+   "x": 937,
+   "y": 650,
+   "w": 80,
+   "h": 81
+  },
+  {
+   "word": "POSSIBLE",
+   "domain": "08_logic_and_questions",
+   "row": 4,
+   "col": 0,
+   "x": 93,
+   "y": 801,
+   "w": 84,
+   "h": 83
+  },
+  {
+   "word": "IMPOSSIBLE",
+   "domain": "08_logic_and_questions",
+   "row": 4,
+   "col": 1,
+   "x": 305,
+   "y": 801,
+   "w": 82,
+   "h": 83
+  },
+  {
+   "word": "KNOWN",
+   "domain": "08_logic_and_questions",
+   "row": 4,
+   "col": 2,
+   "x": 517,
+   "y": 803,
+   "w": 79,
+   "h": 79
+  },
+  {
+   "word": "UNKNOWN",
+   "domain": "08_logic_and_questions",
+   "row": 4,
+   "col": 3,
+   "x": 730,
+   "y": 801,
+   "w": 82,
+   "h": 82
+  },
+  {
+   "word": "INSIDE",
+   "domain": "08_logic_and_questions",
+   "row": 4,
+   "col": 4,
+   "x": 937,
+   "y": 804,
+   "w": 80,
+   "h": 80
+  },
+  {
+   "word": "OUTSIDE",
+   "domain": "08_logic_and_questions",
+   "row": 5,
+   "col": 0,
+   "x": 91,
+   "y": 951,
+   "w": 90,
+   "h": 82
+  },
+  {
+   "word": "ABOVE",
+   "domain": "08_logic_and_questions",
+   "row": 5,
+   "col": 1,
+   "x": 309,
+   "y": 953,
+   "w": 76,
+   "h": 78
+  },
+  {
+   "word": "BELOW",
+   "domain": "08_logic_and_questions",
+   "row": 5,
+   "col": 2,
+   "x": 516,
+   "y": 966,
+   "w": 84,
+   "h": 57
+  },
+  {
+   "word": "BETWEEN",
+   "domain": "08_logic_and_questions",
+   "row": 5,
+   "col": 3,
+   "x": 741,
+   "y": 956,
+   "w": 62,
+   "h": 76
+  },
+  {
+   "word": "AROUND",
+   "domain": "08_logic_and_questions",
+   "row": 5,
+   "col": 4,
+   "x": 931,
+   "y": 953,
+   "w": 86,
+   "h": 82
+  },
+  {
+   "word": "WITH",
+   "domain": "08_logic_and_questions",
+   "row": 6,
+   "col": 0,
+   "x": 63,
+   "y": 1130,
+   "w": 138,
+   "h": 30
+  },
+  {
+   "word": "WITHOUT",
+   "domain": "08_logic_and_questions",
+   "row": 6,
+   "col": 1,
+   "x": 279,
+   "y": 1130,
+   "w": 138,
+   "h": 30
+  },
+  {
+   "word": "CAUSE",
+   "domain": "08_logic_and_questions",
+   "row": 6,
+   "col": 2,
+   "x": 496,
+   "y": 1107,
+   "w": 122,
+   "h": 75
+  },
+  {
+   "word": "EFFECT",
+   "domain": "08_logic_and_questions",
+   "row": 6,
+   "col": 3,
+   "x": 718,
+   "y": 1121,
+   "w": 111,
+   "h": 49
+  },
+  {
+   "word": "COMPARE",
+   "domain": "08_logic_and_questions",
+   "row": 6,
+   "col": 4,
+   "x": 909,
+   "y": 1128,
+   "w": 135,
+   "h": 34
+  },
+  {
+   "word": "DECIDE",
+   "domain": "08_logic_and_questions",
+   "row": 7,
+   "col": 0,
+   "x": 86,
+   "y": 1245,
+   "w": 93,
+   "h": 86
+  },
+  {
+   "word": "PERMIT",
+   "domain": "08_logic_and_questions",
+   "row": 7,
+   "col": 1,
+   "x": 308,
+   "y": 1247,
+   "w": 79,
+   "h": 79
+  },
+  {
+   "word": "FORBID",
+   "domain": "08_logic_and_questions",
+   "row": 7,
+   "col": 2,
+   "x": 516,
+   "y": 1247,
+   "w": 79,
+   "h": 79
+  },
+  {
+   "word": "PROVE",
+   "domain": "08_logic_and_questions",
+   "row": 7,
+   "col": 3,
+   "x": 725,
+   "y": 1243,
+   "w": 90,
+   "h": 81
+  },
+  {
+   "word": "CONDITION",
+   "domain": "08_logic_and_questions",
+   "row": 7,
+   "col": 4,
+   "x": 908,
+   "y": 1267,
+   "w": 136,
+   "h": 37
+  },
+  {
+   "word": "TOOL",
+   "domain": "09_culture_and_society",
+   "row": 0,
+   "col": 0,
+   "x": 121,
+   "y": 165,
+   "w": 39,
+   "h": 100
+  },
+  {
+   "word": "MACHINE",
+   "domain": "09_culture_and_society",
+   "row": 0,
+   "col": 1,
+   "x": 301,
+   "y": 169,
+   "w": 90,
+   "h": 91
+  },
+  {
+   "word": "VEHICLE",
+   "domain": "09_culture_and_society",
+   "row": 0,
+   "col": 2,
+   "x": 498,
+   "y": 183,
+   "w": 125,
+   "h": 74
+  },
+  {
+   "word": "WHEEL",
+   "domain": "09_culture_and_society",
+   "row": 0,
+   "col": 3,
+   "x": 731,
+   "y": 168,
+   "w": 93,
+   "h": 94
+  },
+  {
+   "word": "BOAT",
+   "domain": "09_culture_and_society",
+   "row": 0,
+   "col": 4,
+   "x": 934,
+   "y": 166,
+   "w": 101,
+   "h": 100
+  },
+  {
+   "word": "BOOK",
+   "domain": "09_culture_and_society",
+   "row": 1,
+   "col": 0,
+   "x": 92,
+   "y": 338,
+   "w": 96,
+   "h": 84
+  },
+  {
+   "word": "WRITING",
+   "domain": "09_culture_and_society",
+   "row": 1,
+   "col": 1,
+   "x": 311,
+   "y": 330,
+   "w": 70,
+   "h": 92
+  },
+  {
+   "word": "SIGN",
+   "domain": "09_culture_and_society",
+   "row": 1,
+   "col": 2,
+   "x": 504,
+   "y": 341,
+   "w": 112,
+   "h": 82
+  },
+  {
+   "word": "SYMBOL",
+   "domain": "09_culture_and_society",
+   "row": 1,
+   "col": 3,
+   "x": 732,
+   "y": 332,
+   "w": 91,
+   "h": 91
+  },
+  {
+   "word": "ART",
+   "domain": "09_culture_and_society",
+   "row": 1,
+   "col": 4,
+   "x": 933,
+   "y": 341,
+   "w": 103,
+   "h": 83
+  },
+  {
+   "word": "MUSIC",
+   "domain": "09_culture_and_society",
+   "row": 2,
+   "col": 0,
+   "x": 115,
+   "y": 490,
+   "w": 57,
+   "h": 89
+  },
+  {
+   "word": "SONG",
+   "domain": "09_culture_and_society",
+   "row": 2,
+   "col": 1,
+   "x": 301,
+   "y": 501,
+   "w": 91,
+   "h": 76
+  },
+  {
+   "word": "STORY",
+   "domain": "09_culture_and_society",
+   "row": 2,
+   "col": 2,
+   "x": 516,
+   "y": 495,
+   "w": 87,
+   "h": 79
+  },
+  {
+   "word": "GAME",
+   "domain": "09_culture_and_society",
+   "row": 2,
+   "col": 3,
+   "x": 735,
+   "y": 495,
+   "w": 84,
+   "h": 84
+  },
+  {
+   "word": "TRADE",
+   "domain": "09_culture_and_society",
+   "row": 2,
+   "col": 4,
+   "x": 938,
+   "y": 496,
+   "w": 93,
+   "h": 84
+  },
+  {
+   "word": "MONEY",
+   "domain": "09_culture_and_society",
+   "row": 3,
+   "col": 0,
+   "x": 102,
+   "y": 645,
+   "w": 75,
+   "h": 100
+  },
+  {
+   "word": "MARKET",
+   "domain": "09_culture_and_society",
+   "row": 3,
+   "col": 1,
+   "x": 290,
+   "y": 657,
+   "w": 112,
+   "h": 79
+  },
+  {
+   "word": "LAW",
+   "domain": "09_culture_and_society",
+   "row": 3,
+   "col": 2,
+   "x": 500,
+   "y": 650,
+   "w": 120,
+   "h": 89
+  },
+  {
+   "word": "RULE",
+   "domain": "09_culture_and_society",
+   "row": 3,
+   "col": 3,
+   "x": 735,
+   "y": 656,
+   "w": 82,
+   "h": 79
+  },
+  {
+   "word": "ORDER",
+   "domain": "09_culture_and_society",
+   "row": 3,
+   "col": 4,
+   "x": 940,
+   "y": 652,
+   "w": 89,
+   "h": 88
+  },
+  {
+   "word": "DUTY",
+   "domain": "09_culture_and_society",
+   "row": 4,
+   "col": 0,
+   "x": 98,
+   "y": 807,
+   "w": 82,
+   "h": 86
+  },
+  {
+   "word": "FREEDOM",
+   "domain": "09_culture_and_society",
+   "row": 4,
+   "col": 1,
+   "x": 317,
+   "y": 807,
+   "w": 58,
+   "h": 86
+  },
+  {
+   "word": "POWER",
+   "domain": "09_culture_and_society",
+   "row": 4,
+   "col": 2,
+   "x": 522,
+   "y": 805,
+   "w": 72,
+   "h": 85
+  },
+  {
+   "word": "SERVICE",
+   "domain": "09_culture_and_society",
+   "row": 4,
+   "col": 3,
+   "x": 726,
+   "y": 816,
+   "w": 104,
+   "h": 69
+  },
+  {
+   "word": "CLOTHING",
+   "domain": "09_culture_and_society",
+   "row": 4,
+   "col": 4,
+   "x": 933,
+   "y": 806,
+   "w": 103,
+   "h": 80
+  },
+  {
+   "word": "FABRIC",
+   "domain": "09_culture_and_society",
+   "row": 5,
+   "col": 0,
+   "x": 98,
+   "y": 964,
+   "w": 82,
+   "h": 80
+  },
+  {
+   "word": "CUP",
+   "domain": "09_culture_and_society",
+   "row": 5,
+   "col": 1,
+   "x": 299,
+   "y": 965,
+   "w": 94,
+   "h": 83
+  },
+  {
+   "word": "VESSEL",
+   "domain": "09_culture_and_society",
+   "row": 5,
+   "col": 2,
+   "x": 528,
+   "y": 952,
+   "w": 62,
+   "h": 96
+  },
+  {
+   "word": "KEY",
+   "domain": "09_culture_and_society",
+   "row": 5,
+   "col": 3,
+   "x": 718,
+   "y": 982,
+   "w": 116,
+   "h": 48
+  },
+  {
+   "word": "LOCK",
+   "domain": "09_culture_and_society",
+   "row": 5,
+   "col": 4,
+   "x": 951,
+   "y": 957,
+   "w": 67,
+   "h": 90
+  },
+  {
+   "word": "MAP",
+   "domain": "09_culture_and_society",
+   "row": 6,
+   "col": 0,
+   "x": 90,
+   "y": 1119,
+   "w": 96,
+   "h": 84
+  },
+  {
+   "word": "SIGNAL",
+   "domain": "09_culture_and_society",
+   "row": 6,
+   "col": 1,
+   "x": 291,
+   "y": 1119,
+   "w": 109,
+   "h": 83
+  },
+  {
+   "word": "WEAPON",
+   "domain": "09_culture_and_society",
+   "row": 6,
+   "col": 2,
+   "x": 542,
+   "y": 1109,
+   "w": 34,
+   "h": 100
+  },
+  {
+   "word": "SHIELD",
+   "domain": "09_culture_and_society",
+   "row": 6,
+   "col": 3,
+   "x": 737,
+   "y": 1112,
+   "w": 80,
+   "h": 93
+  },
+  {
+   "word": "CRAFT",
+   "domain": "09_culture_and_society",
+   "row": 6,
+   "col": 4,
+   "x": 936,
+   "y": 1112,
+   "w": 97,
+   "h": 95
+  },
+  {
+   "word": "TECHNOLOGY",
+   "domain": "09_culture_and_society",
+   "row": 7,
+   "col": 0,
+   "x": 97,
+   "y": 1265,
+   "w": 86,
+   "h": 83
+  },
+  {
+   "word": "ARCHIVE",
+   "domain": "09_culture_and_society",
+   "row": 7,
+   "col": 1,
+   "x": 301,
+   "y": 1270,
+   "w": 91,
+   "h": 83
+  },
+  {
+   "word": "RECORD",
+   "domain": "09_culture_and_society",
+   "row": 7,
+   "col": 2,
+   "x": 515,
+   "y": 1268,
+   "w": 86,
+   "h": 86
+  },
+  {
+   "word": "MESSAGE",
+   "domain": "09_culture_and_society",
+   "row": 7,
+   "col": 3,
+   "x": 728,
+   "y": 1278,
+   "w": 95,
+   "h": 77
+  },
+  {
+   "word": "GIFT",
+   "domain": "09_culture_and_society",
+   "row": 7,
+   "col": 4,
+   "x": 944,
+   "y": 1267,
+   "w": 82,
+   "h": 86
+  },
+  {
+   "word": "WORLD",
+   "domain": "10_abstract_concepts",
+   "row": 0,
+   "col": 0,
+   "x": 87,
+   "y": 161,
+   "w": 88,
+   "h": 87
+  },
+  {
+   "word": "PLACE",
+   "domain": "10_abstract_concepts",
+   "row": 0,
+   "col": 1,
+   "x": 305,
+   "y": 160,
+   "w": 78,
+   "h": 88
+  },
+  {
+   "word": "THING",
+   "domain": "10_abstract_concepts",
+   "row": 0,
+   "col": 2,
+   "x": 519,
+   "y": 159,
+   "w": 82,
+   "h": 91
+  },
+  {
+   "word": "IDEA",
+   "domain": "10_abstract_concepts",
+   "row": 0,
+   "col": 3,
+   "x": 732,
+   "y": 159,
+   "w": 93,
+   "h": 93
+  },
+  {
+   "word": "TRUTH",
+   "domain": "10_abstract_concepts",
+   "row": 0,
+   "col": 4,
+   "x": 949,
+   "y": 158,
+   "w": 81,
+   "h": 92
+  },
+  {
+   "word": "BEAUTY",
+   "domain": "10_abstract_concepts",
+   "row": 1,
+   "col": 0,
+   "x": 88,
+   "y": 329,
+   "w": 86,
+   "h": 84
+  },
+  {
+   "word": "MEANING",
+   "domain": "10_abstract_concepts",
+   "row": 1,
+   "col": 1,
+   "x": 299,
+   "y": 325,
+   "w": 90,
+   "h": 90
+  },
+  {
+   "word": "VALUE",
+   "domain": "10_abstract_concepts",
+   "row": 1,
+   "col": 2,
+   "x": 515,
+   "y": 332,
+   "w": 89,
+   "h": 78
+  },
+  {
+   "word": "PURPOSE",
+   "domain": "10_abstract_concepts",
+   "row": 1,
+   "col": 3,
+   "x": 736,
+   "y": 331,
+   "w": 84,
+   "h": 83
+  },
+  {
+   "word": "TRANSFORMATION",
+   "domain": "10_abstract_concepts",
+   "row": 1,
+   "col": 4,
+   "x": 946,
+   "y": 317,
+   "w": 86,
+   "h": 101
+  },
+  {
+   "word": "GROWTH",
+   "domain": "10_abstract_concepts",
+   "row": 2,
+   "col": 0,
+   "x": 86,
+   "y": 488,
+   "w": 88,
+   "h": 94
+  },
+  {
+   "word": "DECLINE",
+   "domain": "10_abstract_concepts",
+   "row": 2,
+   "col": 1,
+   "x": 317,
+   "y": 486,
+   "w": 54,
+   "h": 96
+  },
+  {
+   "word": "EQUILIBRIUM",
+   "domain": "10_abstract_concepts",
+   "row": 2,
+   "col": 2,
+   "x": 502,
+   "y": 494,
+   "w": 115,
+   "h": 88
+  },
+  {
+   "word": "HARMONY",
+   "domain": "10_abstract_concepts",
+   "row": 2,
+   "col": 3,
+   "x": 721,
+   "y": 501,
+   "w": 113,
+   "h": 75
+  },
+  {
+   "word": "CHAOS",
+   "domain": "10_abstract_concepts",
+   "row": 2,
+   "col": 4,
+   "x": 945,
+   "y": 491,
+   "w": 90,
+   "h": 91
+  },
+  {
+   "word": "PATTERN",
+   "domain": "10_abstract_concepts",
+   "row": 3,
+   "col": 0,
+   "x": 85,
+   "y": 662,
+   "w": 90,
+   "h": 86
+  },
+  {
+   "word": "CENTER",
+   "domain": "10_abstract_concepts",
+   "row": 3,
+   "col": 1,
+   "x": 293,
+   "y": 648,
+   "w": 101,
+   "h": 103
+  },
+  {
+   "word": "EDGE",
+   "domain": "10_abstract_concepts",
+   "row": 3,
+   "col": 2,
+   "x": 511,
+   "y": 666,
+   "w": 90,
+   "h": 81
+  },
+  {
+   "word": "ORIGIN",
+   "domain": "10_abstract_concepts",
+   "row": 3,
+   "col": 3,
+   "x": 742,
+   "y": 648,
+   "w": 70,
+   "h": 97
+  },
+  {
+   "word": "CYCLE",
+   "domain": "10_abstract_concepts",
+   "row": 3,
+   "col": 4,
+   "x": 941,
+   "y": 658,
+   "w": 93,
+   "h": 94
+  },
+  {
+   "word": "CONNECTION",
+   "domain": "10_abstract_concepts",
+   "row": 4,
+   "col": 0,
+   "x": 65,
+   "y": 842,
+   "w": 130,
+   "h": 44
+  },
+  {
+   "word": "SEPARATION",
+   "domain": "10_abstract_concepts",
+   "row": 4,
+   "col": 1,
+   "x": 282,
+   "y": 826,
+   "w": 124,
+   "h": 78
+  },
+  {
+   "word": "HISTORY",
+   "domain": "10_abstract_concepts",
+   "row": 4,
+   "col": 2,
+   "x": 504,
+   "y": 827,
+   "w": 108,
+   "h": 81
+  },
+  {
+   "word": "KNOWLEDGE",
+   "domain": "10_abstract_concepts",
+   "row": 4,
+   "col": 3,
+   "x": 723,
+   "y": 826,
+   "w": 108,
+   "h": 78
+  },
+  {
+   "word": "LEARNING",
+   "domain": "10_abstract_concepts",
+   "row": 4,
+   "col": 4,
+   "x": 936,
+   "y": 828,
+   "w": 107,
+   "h": 70
+  },
+  {
+   "word": "PROBLEM",
+   "domain": "10_abstract_concepts",
+   "row": 5,
+   "col": 0,
+   "x": 88,
+   "y": 978,
+   "w": 83,
+   "h": 81
+  },
+  {
+   "word": "SOLUTION",
+   "domain": "10_abstract_concepts",
+   "row": 5,
+   "col": 1,
+   "x": 303,
+   "y": 978,
+   "w": 82,
+   "h": 81
+  },
+  {
+   "word": "RISK",
+   "domain": "10_abstract_concepts",
+   "row": 5,
+   "col": 2,
+   "x": 510,
+   "y": 973,
+   "w": 97,
+   "h": 84
+  },
+  {
+   "word": "OPPORTUNITY",
+   "domain": "10_abstract_concepts",
+   "row": 5,
+   "col": 3,
+   "x": 743,
+   "y": 977,
+   "w": 66,
+   "h": 87
+  },
+  {
+   "word": "SECRET",
+   "domain": "10_abstract_concepts",
+   "row": 5,
+   "col": 4,
+   "x": 952,
+   "y": 975,
+   "w": 68,
+   "h": 87
+  },
+  {
+   "word": "HIDDEN",
+   "domain": "10_abstract_concepts",
+   "row": 6,
+   "col": 0,
+   "x": 70,
+   "y": 1149,
+   "w": 118,
+   "h": 53
+  },
+  {
+   "word": "REVEALED",
+   "domain": "10_abstract_concepts",
+   "row": 6,
+   "col": 1,
+   "x": 293,
+   "y": 1127,
+   "w": 101,
+   "h": 85
+  },
+  {
+   "word": "LIGHT",
+   "domain": "10_abstract_concepts",
+   "row": 6,
+   "col": 2,
+   "x": 522,
+   "y": 1124,
+   "w": 73,
+   "h": 91
+  },
+  {
+   "word": "DARK",
+   "domain": "10_abstract_concepts",
+   "row": 6,
+   "col": 3,
+   "x": 734,
+   "y": 1134,
+   "w": 83,
+   "h": 81
+  },
+  {
+   "word": "SOUND",
+   "domain": "10_abstract_concepts",
+   "row": 6,
+   "col": 4,
+   "x": 935,
+   "y": 1128,
+   "w": 108,
+   "h": 91
+  },
+  {
+   "word": "SILENCE",
+   "domain": "10_abstract_concepts",
+   "row": 7,
+   "col": 0,
+   "x": 75,
+   "y": 1303,
+   "w": 107,
+   "h": 42
+  },
+  {
+   "word": "SPIRIT",
+   "domain": "10_abstract_concepts",
+   "row": 7,
+   "col": 1,
+   "x": 300,
+   "y": 1280,
+   "w": 86,
+   "h": 79
+  },
+  {
+   "word": "DREAM",
+   "domain": "10_abstract_concepts",
+   "row": 7,
+   "col": 2,
+   "x": 508,
+   "y": 1286,
+   "w": 101,
+   "h": 71
+  },
+  {
+   "word": "REALITY",
+   "domain": "10_abstract_concepts",
+   "row": 7,
+   "col": 3,
+   "x": 736,
+   "y": 1284,
+   "w": 81,
+   "h": 75
+  },
+  {
+   "word": "DESTINY",
+   "domain": "10_abstract_concepts",
+   "row": 7,
+   "col": 4,
+   "x": 945,
+   "y": 1278,
+   "w": 88,
+   "h": 86
+  },
+  {
+   "word": "GLOAT",
+   "domain": "06_emotion_and_inner_state",
+   "sheet": "06_emotion_and_inner_state.png",
+   "row": 8,
+   "col": 0,
+   "x": 108,
+   "y": 1413,
+   "w": 55,
+   "h": 102
+  },
+  {
+   "word": "HATE",
+   "domain": "06_emotion_and_inner_state",
+   "sheet": "06_emotion_and_inner_state.png",
+   "row": 8,
+   "col": 1,
+   "x": 298,
+   "y": 1413,
+   "w": 88,
+   "h": 88
+  }
+ ]
+}
