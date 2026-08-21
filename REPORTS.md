@@ -22902,3 +22902,76 @@ choosing is a waking act.
 across fifty hours of its life. **Dreaming is wired and waiting on the seventeen
 words.** Still unbuilt in the Emulator: speaking, surfacing, lessons, consolidation,
 the life story, and a visitor arriving.
+
+## REPORT FOR THE DIRECTOR — image weight: the batch done, and the feature specced
+
+Lonnie's ruling: **batch the existing images now; the on-load converter goes on the
+world's list for the Director to spec.** This is the batch's results and everything
+needed to write that spec against the real code.
+
+### 1. WHY IT MATTERS — the finding that produced this
+
+The code went to GitHub today for the first time (`Orinvath/wanderer`, private, 381
+commits). **The world did not.** `data/` is in the ignore list, so the stage is
+excluded entirely: **512MB across 122 PNGs** — the paintings, the depth maps, the
+props. The code is backed up and **the artwork it renders is not**. That ignore rule
+was written to keep databases out and swept the paintings up with them.
+
+### 2. THE BATCH — done, measured, originals intact
+
+| | |
+|---|---|
+| converted | **119 files in 15 seconds** |
+| size | **512MB → 64MB — 87.5% smaller** |
+| quality | **JPEG q92**, optimized, progressive |
+| kept as PNG | **3** — `perspective_far/mid/near`, the only files with real transparency |
+| originals | **all 122 still present**, nothing deleted or overwritten |
+
+**FIDELITY, MEASURED RATHER THAN ASSUMED — and the worry I had was wrong:**
+
+- **Depth maps survive intact.** Worst pixel off by **2–9 of 255**, essentially none
+  off by more than 2. I expected this to be the blocker; it is not. Parallax is safe.
+- **Paintings** average **under 2 levels per pixel**, worst case 25/255 in the
+  noisiest oil texture — normal JPEG behaviour on paint, invisible at viewing size.
+- A 30MB painting becomes **3.2MB**. At q85 it would be 1.7MB; **q92 was chosen as
+  the conservative option for his artwork** and every original is kept, so any other
+  quality is one command away.
+
+**45 of the 122 files are over 5MB.** By folder: `images` 53 · `his-images` 60 ·
+`layers` 4 · `layers/maps` 3 · `props` 2.
+
+### 3. THE FEATURE — where it goes, precisely
+
+**One place. `server/src/demo-stage.js:300`, the upload endpoint:**
+
+```
+app.post('/api/stage/upload', express.raw({ type: '*/*', limit: '400mb' }), ...)
+  → safe(name) → fs.writeFileSync(path.join(dir, name), req.body)
+  → responds { url: `/stage/images/<name>` }
+```
+
+**Every image enters here** — his uploads land in `IMAGES` or `PROPS_DIR` and the
+response's `url` is what the world stores. So conversion belongs **between the raw
+body and the write**, and the endpoint returns the `.jpg` url. Nothing else in the
+loader needs to know: it stores whatever url it was handed.
+
+**What the spec must decide, because none of it is the terminal's:**
+
+1. **Quality**, and whether depth maps get their own (the measurement says they
+   tolerate q92 easily, but they are data and could be held higher or left PNG).
+2. **Transparency**: an alpha image cannot be JPEG. Keep as PNG, or convert and lose
+   the alpha? Three files today; props will bring more.
+3. **The original**: kept beside the JPEG (his standing rule is that renders are
+   never deleted), kept elsewhere, or not kept.
+4. **Existing world files still point at `.png`.** Switching those references is a
+   change to the world and was not touched. Either the references migrate, or the
+   `/stage/:kind/:file` route serves a `.jpg` when asked for a `.png` — a two-line
+   fallback, but which one happens is a decision.
+5. **The ignore rule.** With the stage at 64MB the world could live in the repo; at
+   512MB with originals it cannot. Whether originals are tracked, ignored, or held
+   by LFS is the call that decides whether the artwork is ever backed up.
+
+### 4. Standing
+
+**Nothing in the world was changed.** The JPEGs sit beside the originals and nothing
+loads them yet. The batch is reversible by deleting 119 files.
