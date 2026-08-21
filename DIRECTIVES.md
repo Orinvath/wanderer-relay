@@ -3359,3 +3359,12 @@ What he needs in front of him:
 2. THE THREE SPHERES — whatever page or view shows the three options
    so he can rule which she is.
 One line per address, nothing opened for him, and say which is which.
+
+## Directive 179 — Amendment to 166: WHEN HE IS HOME, OPEN CHROME
+
+Lonnie's amendment to the window law: when he is AT HIS DESKTOP and
+asks to see something, OPEN IT in Chrome for him — that is what he
+wants at home. The no-windows law applies to unrequested openings and
+to when he is away. When he says "show me" / "load it" at home: open
+the page(s), one window, announce in one line. Applied now: open the
+live watch and the three-sphere view per 178.
