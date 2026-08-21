@@ -3502,3 +3502,22 @@ prototype 0.31; light-triad leaning; courage-dominant"), caveat tiers
 marked, citations attached. Suite: the published profile centroids
 recover themselves; Form 1's Roe produces a stable read-out.
 Rule Zero the profile translations before building. Report.
+
+## Directive 185 — Director asks: document the Emulator, and propose the mapping
+
+Lonnie's order. The Director holds researched personality catalogs to
+map into the Mind Emulator (AMPD/PID-5 spine, the ten disorders, the
+aspect-level dark constructs, the healthy/light side). The Director
+does not know how the Emulator is built, and will not spec blind.
+
+Report back, for the Director:
+1. THE EMULATOR AS BUILT: files, structure, what it computes vs what
+   it merely displays, where the ten aspects flow, how the readout
+   renders, what the page requests — enough that a build spec can be
+   written against the real thing.
+2. YOUR PROPOSAL: given that build, the best way to map profile
+   catalogs into it — where profile centroids would live, where the
+   distance check runs, where the read-out lands on the page, what
+   stays out of the hot path. Proposal only; the mapping decisions
+   and the spec come back from the Director on Lonnie's word.
+No building. Report.
