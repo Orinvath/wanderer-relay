@@ -3570,3 +3570,18 @@ mapping decisions are made — CC codes, no design calls.
    light-triad En+1 Vo-1 Co+2 Po+1 Op+1 [B] · resilient En+1 As+1
    Wi-1 Vo-1 Co+1 In+1 [C]
 Suite green. Report with the sanity-suite results shown.
+
+## Directive 187 — Approved: acts declare their promises; draft the values for his review
+
+Lonnie approved finding 1. Every act gains a `promises` field — the
+claim about what it is expected to do for which need — the field the
+goal-former scores against.
+
+CC: DRAFT the promise values for every act currently in the mind
+(hiding, come-home, sing, speak, play, look, approach, retreat, rest,
+sleep, dream-wonder, and any others the session holds), each as
+need -> expected effect, grounded where the record already speaks
+(hiding = withdrawal/relief under threat per the game's own design;
+singing = play/expression born of inspiration per 063...). Post the
+draft table to the relay for Lonnie's review. NO wiring until his
+word on the values.
