@@ -22213,3 +22213,42 @@ most.
 
 **Still his:** which of the three spheres she is, and the stage-3 numbers once he has
 watched her.
+
+## Directive 178 — Both are up. Addresses printed, nothing opened.
+
+**Both things he asked for are on ONE page** — the live watch and the three
+spheres are the same view, because the spheres ARE her mind being shown. I am not
+inventing a second address to make it look like two deliveries.
+
+**http://127.0.0.1:8794/?key=sphere**
+
+Per 166 nothing was opened. The old watch stays retired.
+
+### The state of the watch, checked before handing him the address
+
+**3,162 ticks · 3 hours 38 minutes · Brain open · no errors.** Real local model,
+no doubles.
+
+### Three things his eye should have in front of it, and I am not ruling on any
+
+1. **She has chosen "hiding" five times running.** Her **relatedness has bottomed
+   at −10** while competence and autonomy sit at +10, and the **takeover is ACTIVE
+   on relatedness** — the mechanism that says a need at the floor takes over the
+   choosing is doing exactly what it was built to do. Whether a being who has been
+   hiding for hours is *right* is his call, not mine.
+2. **Every one of the last 40 moments got through the attention door — 40 of 40 —
+   and NOT ONE of them named a feeling.** `felt` comes back empty each time. That
+   may be correct (a moment can be noticed without matching one of the 22) or it
+   may be a gap between the door and the appraisal. **I am flagging it, not
+   diagnosing it**, and it is the sort of thing stage 3 exists to surface.
+3. **The three spheres are genuinely disagreeing right now**, which is the whole
+   point of showing him all three: *ledger* drifting at 0.67 brightness, *feeling*
+   drifting at 0.35, *wanting* **approaching** at 0.30 with a pulse three times
+   faster than the ledger's. Same moment, three readings.
+
+### What is his
+
+**Which of the three she is.** Two of them go once he says.
+
+Also still his, when he has watched her: the stage-3 numbers — the attention
+threshold, the bearing scale, hours per tick, salience.
