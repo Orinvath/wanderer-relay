@@ -3461,3 +3461,44 @@ tokens a tick with nothing in the queue. Law, joining CLAUDE.md:
    and is picked up on the next manual start.
 3. On loop start, state the per-tick cost estimate in one line so the
    burn is always visible.
+
+## Directive 184 — THE COMPLETE PERSONALITY READ-OUT: every documented signature, dark to light
+
+Lonnie's order: ALL classifiable personality conditions and profiles —
+not a curated subset. Build the read-out library for the Mind Emulator:
+the rolled ten screened by profile-distance against EVERY documented
+signature, reporting adjacency (never diagnosis — impairment is the
+other half; the law rides in the output wording).
+
+THE LIBRARY (research each; cite each; aspect-level where published,
+Big Five translated to the ten where not):
+1. THE TEN PERSONALITY DISORDERS (DSM lineage, Lynam & Widiger
+   expert-consensus FFM profiles + Samuel & Widiger meta-analysis):
+   paranoid · schizoid · schizotypal · antisocial · borderline ·
+   histrionic · narcissistic · avoidant · dependent ·
+   obsessive-compulsive. Mark the weakly-documented three (paranoid,
+   schizoid, histrionic) flag-with-caveat tier.
+2. THE DARK CONSTRUCTS (aspect-level, Jonason et al.): narcissism
+   (grandiose + vulnerable separately), Machiavellianism, psychopathy,
+   sadism, and the measured composite dark profile.
+3. THE HEALTHY PERSONALITY (Bleidorn/Hopwood expert-consensus
+   profile) — the measured signature of psychological health.
+4. THE LIGHT TRIAD (Kaufman): humanism · Kantianism · faith in
+   humanity, with its Big Five correlates.
+5. THE CLUSTER TYPES (flagged as contested, coarse-label tier):
+   RUO resilient/overcontrolled/undercontrolled; Gerlach four
+   (average, reserved, self-centered, role model).
+6. VIA CHARACTER STRENGTHS (Peterson & Seligman, 24 strengths /
+   6 virtues) via their documented Big Five mappings — the positive
+   fine-grain read.
+7. ATTACHMENT STYLES (secure · anxious · avoidant · disorganized)
+   via trait correlates — relationship-pattern read.
+Anything else documented with trait mappings found during research:
+include it and cite it. ALL of them means all of them.
+
+OUTPUT SHAPE: a Roe goes in; the read-out lists nearest signatures
+with distances, both directions ("borderline-adjacent 0.82; healthy
+prototype 0.31; light-triad leaning; courage-dominant"), caveat tiers
+marked, citations attached. Suite: the published profile centroids
+recover themselves; Form 1's Roe produces a stable read-out.
+Rule Zero the profile translations before building. Report.
