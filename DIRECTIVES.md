@@ -3398,3 +3398,42 @@ words (color = what she is feeling · pulse = how she is doing · motion
 distinguishes the three spheres from each other must be stated on the
 page too — he should never have to ask the panel what it is showing
 him. His eye retests.
+
+## Directive 181 — THE AVATAR NERVOUS SYSTEM: build spec (code only — the plan is the Director's, included here whole)
+
+Lonnie's architecture, planned by the Director, approved by Lonnie.
+CC's job is CODE. No planning, no design decisions — build exactly
+this; genuinely new decisions come back per 114.
+
+THE SYSTEM — mind and body separated by a nervous system; the mind
+emits meaning, bodies receive and render by their own anatomy. Any
+body plugs into any mind (176's independence made a formal contract).
+
+THREE SIGNAL TYPES on the cord:
+1. CONTINUOUS (autonomic, always flowing): arousal, valence, each
+   need's level. Bodies read as background truth every frame.
+2. EVENTS (nerve spikes, fire and land): FEELINGS — the 22 (137) each
+   with intensity 0-1; TENDENCIES — Frijda urges: toward, away,
+   still/freeze, orient, burst.
+3. STREAMS (motor programs, start/stop): chosen acts — hide(degree)
+   … come-home, sing … done, speak, play, look, sleep … wake; and
+   GLYPH UTTERANCES — dream streams, waking wonder (083).
+
+BODY SIDE — RECEPTORS: each body implements receptors for what its
+anatomy can render. No receptor for a signal = silently unrendered,
+NEVER an error (051). Simultaneous signals: bodies receive all active
+signals and blend by their own means; THE MIND NEVER ARBITRATES LOOKS.
+
+RELOCATION, not death: 109's color-emotion mapping, pulse-as-arousal,
+motion-as-tendency become the WISP and SPHERE bodies' receptor
+implementations — the researched science lands on the body side. The
+mind's code goes visual-free.
+
+BUILD: the cord (typed signal bus), the mind-side emitters wired from
+the existing Brain outputs (Brain internals untouched — this is a
+boundary layer), receptor interface, wisp + sphere receptor sets, the
+three-sphere display rebuilt on it (legend per 180 addendum), suite
+holding the contract from both sides (a mind emitting to a
+receptorless body must be lawful and silent). Form-1 regression: she
+looks and behaves as she does today through the new cord. Run to
+completion (148). Report with measurements.
