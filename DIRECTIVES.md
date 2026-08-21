@@ -3618,3 +3618,23 @@ word on the values.
    a listed word does not exist verbatim in sheet vocabulary, report
    the miss — do not substitute.
 Suite green. Report.
+
+## Directive 189 — RULED: image handling for the Stage (decided, code it)
+
+Lonnie's rulings, superseding the Director's recommendations:
+
+1. ORIGINALS: BACKED UP, NOTHING ELSE. They are archived (LFS or the
+   backup path already in motion) and the pipeline does nothing with
+   them — no serving, no reference, untouched.
+2. CONVERSION: EVERYTHING compresses to JPEG q80 ON THE FLY when
+   loaded into the Stage — at the upload endpoint per your own spec
+   (between raw body and write; the endpoint returns the .jpg url).
+   This includes depth maps (measured safe).
+3. ALPHA: anything with transparency STAYS UNTOUCHED — detected
+   mechanically, passed through as-is.
+4. The existing .png references: serve-the-jpg fallback on the
+   /stage/:kind/:file route (two lines) — saved worlds never edited.
+5. The 119 already-converted JPEGs at q92: superseded — regenerate at
+   q80 for consistency, or leave and let on-the-fly handle the future;
+   whichever is less code, report which was done.
+Suite green. Report.
