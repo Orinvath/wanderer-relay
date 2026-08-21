@@ -3648,3 +3648,5 @@ Director and Lonnie can map the seventeen silent states (ALONE ·
 BRIGHT · FREE · GLAD · HELD · HIDE · LOSS · LOST · NEED · PROUD ·
 SMALL · SORROW · STILL · STRONG · TIRED · WONDER · WRONG) onto words
 the language actually owns. Pure data; choose nothing.
+
+## Directive 190 — CANCELLED. The Director gets repo access directly.
