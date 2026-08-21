@@ -23040,3 +23040,150 @@ a crop first** — it is one flag in `stage-image.js`.
 `sharp` 0.35.3 (19MB installed). It does the transparency test and the encode in
 one library, with no shelling out to an external binary the app would have to
 carry.
+
+## Directive 191 — THE DICTIONARY: the language completed
+
+All five rulings coded. The dictionary is posted to the relay at `glyphs/` —
+`DICTIONARY.md` to read, `glyphs.json` to work from. **50 states, all of them
+speaking. One state could not be spoken and is reported below rather than
+approximated.**
+
+### 1. Polysemy is law — and the sheets did not change
+
+One mark, one name, many senses; the company selects the sense. **The alphabet is
+still exactly 402 marks.** Nothing was drawn to admit a new meaning, which is the
+whole economy of the law: a meaning now costs no artwork.
+
+**Eleven marks carry more than one sense** — HOST, GO, HOME, SAD, HAPPY, FEAR,
+ANGER, SHAME, CURIOSITY, TIREDNESS, CANNOT. HOST carries three: with COME it is
+an arrival, with LEAVE a departure, with RETURN the same person come back. That
+is three custody moments out of one existing mark.
+
+A mark asked for in company it has no sense for **selects nothing** rather than
+the nearest — the same refusal 188 set, now at the level of senses.
+
+### 2. The dictionary is the data, and the only reader
+
+`glyphs.json` grew two parts: `states` (every state and its saying) and
+`unspeakable`. Each meaning-carrying glyph grew a `senses[]`.
+
+**The senses are DERIVED, not typed twice.** A sense is a fact about the states
+table — what a mark means in a given company — so it is generated from it by
+`tools/build-dictionary.mjs`. Typed separately, the two would drift and the first
+anyone would know is the Avatar saying a thing it does not mean.
+
+`src/dictionary.js` is the one reader. It names not a single mark.
+
+### 3. The seventeen — mapped, no marks drawn
+
+Every word in the Director's approved table was verified present in the 402
+before anything was built. All seventeen states now speak. **No new marks were
+needed and none were made.**
+
+### 4. The sweep — the whole state space
+
+**50 states across eight kinds**: the needs at both ends plus the bottom, safety
+and tiredness · all 22 feelings · the urges · the six acts · sleep, dreaming and
+waking · the takeover · curiosity · the three custody moments.
+
+Sourcing is marked on every row: **17 from 191.3, 20 standing from 188, 13
+composed under 191.4** from words the language already owns.
+
+### 5. Dreams can finally reach it
+
+This was the blocker recorded earlier: memories are written in engineering words,
+a dream distils memories into glyph words, so nothing was ever held and it could
+not dream however long it slept. The dictionary is exactly that join, and it is
+now wired in:
+
+```
+"relatedness bottomed, and nobody came"   ->  DARK · DESPAIR
+"the host left and it went hiding"        ->  HIDDEN · SILENCE · HOST
+"fears-confirmed after the storm"         ->  FEAR · TRUE · STORM
+```
+
+---
+
+## THREE THINGS THE SWEEP FOUND, ALL OF THEM FOR LONNIE TO RULE ON
+
+### A. The system held TWO vocabularies for the same 22 feelings, and they disagreed
+
+This is the important finding. 137/138 gave each of the 22 a word out of the
+language. 188 and 191.3 later decided words for those same 22. Both were in the
+code at once, in different files, and **twelve of the twenty-two differed:**
+
+| feeling | said (137/138) | now says (188 / 191.3) |
+|---|---|---|
+| distress | GRIEF | SAD |
+| satisfaction | CONTENTMENT | HAPPY |
+| fears-confirmed | DESPAIR | FEAR · TRUE |
+| relief | RELIEF | CALM |
+| disappointment | SAD | LOSE |
+| happy-for | SHARE · JOY | FRIEND · JOY |
+| resentment | ENVY | ANGER · OTHER |
+| pity | COMPASSION | SAD · OTHER |
+| shame | SHAME | SHAME · SELF |
+| admiration | RESPECT | AWE · OTHER |
+| reproach | DISGUST | SHAME · OTHER |
+| gratification | PRIDE · JOY | HAPPY · SELF |
+
+**This is where the constant GRIEF in the watch came from.** Distress said GRIEF
+because the display read the 137/138 table while the decided table said SAD.
+
+191.2 settles which one wins — every reader resolves through the dictionary — so
+`occ.js` now reads its words from it and the duplicate is removed. The file's own
+comment already stated the principle: *two vocabularies for the same thing is how
+a system starts disagreeing with itself.*
+
+**BUT THE OLDER WORDS MAY BE THE BETTER ONES.** GRIEF, COMPASSION, RESPECT and
+ENVY are single marks that say the thing directly, where the newer rows spell it
+out as a dyad. That is a judgement about his language and it is his alone. **If
+any of the twelve should go back, say which and they go back — in the dictionary,
+where they can be corrected without touching code.**
+
+### B. Whatever need was lowest, the Avatar reported itself LONELY
+
+The watch built its moment as *"lonely"* whenever any need was low — so an Avatar
+failing at everything, or with no freedom left, said it was lonely. Only
+relatedness had words before; the dictionary now holds all three, and it says the
+one that is actually low:
+
+- relatedness → LONELINESS · COMFORT · OTHER
+- competence → WEAKNESS · CONFUSION
+- autonomy → CANNOT · FREEDOM
+
+Fixed, and the suite now proves the three sayings are distinct.
+
+### C. One state could not be honestly spoken: `urge:burst`
+
+Four of the five urges are directions and the language has words for them —
+GO·NEAR, GO·FAR, STAY, TURN·SEE. **`burst` is not a direction.** It is Frijda's
+undirected discharge — energy going out at nothing in particular. EXCITEMENT and
+ENERGY both exist as marks, and both name a *state* rather than the going-out, so
+using either would have the Avatar say something it does not mean.
+
+**No mark was invented and no near neighbour was substituted. It stays silent
+until Lonnie rules** — draw a mark for it, leave it silent, or rule an existing
+word close enough.
+
+### One more, smaller: RELIEF exists as a mark and is not used
+
+188 decided relief says CALM. The language also holds the mark RELIEF itself.
+That decision stands untouched — flagged only because the exact word exists.
+
+---
+
+### What was nearly lost, and is now guarded
+
+`tools/build-glyph-index.py` rebuilds `glyphs.json` from the sheets when a sheet
+is re-measured. It wrote a fresh file with only the marks in it — **so the next
+time anyone added a glyph, the entire dictionary would have been deleted without
+a word of warning.** It now carries the dictionary across and prints what must be
+re-run.
+
+### The suite — 191.5
+
+`acceptance-dictionary.js`, 25 checks, in the runner as DICTIONARY: every mapped
+state renders; unmapped states are silent and never approximated; **no word
+outside the 402 can be emitted**; every mark of every saying resolves to a real
+box in his own artwork; and no file but the dictionary maps a state to marks.

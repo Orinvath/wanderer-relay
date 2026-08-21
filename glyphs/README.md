@@ -48,8 +48,20 @@ Words are uppercase and unique across the whole vocabulary.
 Sheet 06 was extended most recently: GLOAT and HATE were added to a new eighth
 row, which is why that sheet is 1581 tall where the others are 1402.
 
-**Seventeen words the mind can currently reach have no mark yet** — ALONE,
-BRIGHT, FREE, GLAD, HELD, HIDE, LOSS, LOST, NEED, PROUD, SMALL, SORROW, STILL,
-STRONG, TIRED, WONDER, WRONG. Until those exist the Avatar cannot say those
-states in its own language, which is what currently blocks dreaming. Whether
-they get drawn, and which of them, is Lonnie's decision and has not been made.
+**The vocabulary is now a DICTIONARY** — Directive 191. `glyphs.json` carries two
+more parts beside the marks:
+
+- `states` — every state the mind can be in, and the saying that speaks it.
+- `unspeakable` — what the sweep could not say, reported rather than approximated.
+
+Each glyph that carries meaning now has a `senses` array: one mark, one name,
+many senses, selected by the company it keeps. SAD alone is distress; SAD said
+with OTHER is sorrow for another. **The sheets did not change** — polysemy is
+what makes a new meaning cost no new artwork.
+
+`DICTIONARY.md` beside this file is the whole thing in readable form.
+
+**The seventeen silent states are no longer silent.** They were mapped onto words
+the language already owns — the Director's table, approved by Lonnie — so no new
+marks were needed for any of them. One state remains genuinely unspeakable and is
+named in `DICTIONARY.md` for his ruling.
