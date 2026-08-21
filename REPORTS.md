@@ -22592,3 +22592,108 @@ way a browser would request it.
 2. **Whether a mind can be pinned to a seed** and replayed.
 3. **Whether the emulator classifies at all**, and if so on which model.
 4. Whether the Big Five bars stay, given they are the same ten paired up.
+
+## Directive 183 — The loop law is in CLAUDE.md
+
+Commit `9a35723`. The loop runs only during an active session, **stops itself after
+30 minutes of an empty queue**, and states its per-tick cost on start so the spend
+is visible. **The loop is currently stopped** — he stopped it when he found the burn,
+and the every-minute job is cancelled.
+
+## Directive 185 — THE EMULATOR AS BUILT, AND A PROPOSAL FOR THE MAPPING
+
+**No building.** Report only, so the Director can spec 184 against the real thing.
+
+### 1. The Emulator as built
+
+**One page, one server surface, one live session.** `demo-watching.js` (525 lines)
+serves the page on 127.0.0.1:8794 and holds a single `Watching` session
+(`watching.js`, 260) that ticks every 4 seconds. The page is plain HTML in this
+project's own utility style — **no Elsewhere panel, no module imports, one script**.
+**The page requests exactly one thing: `state.json`**, every 2 seconds. Nothing else.
+
+**WHERE THE TEN ASPECTS COME FROM AND WHERE THEY STOP.** `traits.js` (240) draws
+them from the seed: **DeYoung 2007's ten, two per Big Five domain**, in two stages —
+a shared domain half and each aspect's own half, weighted so the pair correlates
+about r=0.5. **They are PERCENTILES, 0–100**, produced through a normal CDF, and
+`DOMAINS`/`ASPECTS` are exported. **They are fixed at birth and never move again.**
+
+**WHAT IS COMPUTED vs WHAT IS MERELY DISPLAYED.**
+
+| | |
+|---|---|
+| **computed every tick** | the needs ledger (`needs.js`), what it chose and why (`goals.js`), the appraisal and what it felt (`appraisal.js`, `occ.js`) |
+| **computed once, at birth** | the ten aspects and everything derived from them |
+| **computed at the boundary** | the cord signals (`nerves.js`, 138) and the body's channels (`sphere.js`, 239) |
+| **merely displayed** | the aspect sliders, the Big Five bars, the needs sliders |
+
+**THE BIG FIVE ARE DERIVED, NOT STORED**: each domain is the mean of its two
+aspects, computed in `watching.js`'s `view()` and sent as `mind.domains`. `mind`
+carries `aspects`, `domains` and `pairs`.
+
+**HOW THE READ-OUT RENDERS.** An overlay lying in the sphere's own space — no panel,
+no box, no border. Three stacked groups: the ten aspects, the Big Five, then the
+three needs. Each row is a rail plus a marker. **Two different scales**: aspects
+0–100 (percentile), needs −10..+10 (live state), drawn with different marker
+colours so identity and state are not confused.
+
+**THE MIND/BODY SEAM (181).** The Brain emits onto a typed cord; the body renders
+what its receptors take. **The mind's modules carry no visual language at all** and
+the suite fails if any appears. Relevant to 184: **a read-out is not a body signal**
+and should not travel the cord.
+
+### 2. Proposal for the mapping
+
+**A. WHERE THE CENTROIDS LIVE.** A new data module — `profiles.js` — holding each
+published signature as a profile over **the ten aspects**, plus: source citation,
+caveat tier, and **which axis the published profile was actually given on**. Pure
+data, no logic, so it can be reviewed as a table by someone who is not reading code.
+
+**B. WHERE THE DISTANCE CHECK RUNS.** A pure function module — `profile-match.js` —
+`aspects in → sorted adjacency out`. **It runs ONCE, at birth, and never again**,
+because the aspects never change. **Nothing goes in the hot path**: the per-tick
+loop must not gain a single line. The result is cached on the session beside `mind`
+and served in the same `state.json` the page already fetches, so **the page needs no
+new request**.
+
+**C. WHERE IT LANDS ON THE PAGE.** Its own group in the existing overlay, beneath
+the Big Five and above the live needs — identity sits with identity. **Placement is
+Lonnie's**; the overlay is the natural home only because that is where the fixed
+makeup already is.
+
+**D. WHAT THE OUTPUT SAYS.** 184's wording rule — **adjacency, never diagnosis** —
+is enforced honestly by the shape of the value: a **distance**, both directions,
+never a boolean and never a label alone.
+
+### 3. RULE ZERO ON THE TRANSLATION, BEFORE ANYTHING IS BUILT
+
+**This is where the whole thing will go wrong if it goes wrong, and it is not the
+distance maths.**
+
+1. **THE PUBLISHED PROFILES ARE MOSTLY NOT ON OUR AXES.** Lynam & Widiger's
+   expert-consensus profiles are rated on the **30 NEO-PI-R facets**, not on
+   DeYoung's ten aspects. **Facets do not map one-to-one onto aspects** — the two
+   schemes were built by different groups for different purposes. Every translation
+   is therefore a judgement, and a wrong one is invisible: it produces a confident
+   number that means nothing.
+2. **SCALE MISMATCH.** Published profiles are typically z-scores or 1–5 expert
+   ratings; ours are percentiles. Converting requires a stated assumption about the
+   reference population. **State it or the distances are not comparable between
+   catalogues.**
+3. **DISTANCE CHOICE CHANGES THE ANSWER.** Euclidean rewards overall elevation;
+   correlation/cosine compares *shape* and ignores elevation. **Profile-similarity
+   work usually wants shape.** Picking one silently would bury a real decision.
+4. **THE CONTESTED TIERS MUST NOT LOOK LIKE THE REST.** The cluster types are
+   disputed in their own journal, and 184 already marks paranoid, schizoid and
+   histrionic as weakly documented. If everything renders as one list of numbers,
+   the caveats vanish at a glance.
+5. **AND THE HALF WE CANNOT HAVE:** every disorder definition requires
+   **impairment and distress**, which is not a trait profile at all. A Roe has no
+   life history. **The read-out can only ever say "this shape resembles that
+   shape".**
+
+**Recommendation: the translation table is reviewed as data before a line of
+matching code is written**, because the maths will be right and the table is where
+the errors will live.
+
+**Nothing built. Awaiting the Director's spec on his word.**
