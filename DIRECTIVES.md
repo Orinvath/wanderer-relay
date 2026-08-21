@@ -3521,3 +3521,52 @@ Report back, for the Director:
    stays out of the hot path. Proposal only; the mapping decisions
    and the spec come back from the Director on Lonnie's word.
 No building. Report.
+
+## Directive 186 — BUILD SPEC: the personality read-out (table approved, Rule Zero'd)
+
+Lonnie approved on the Director's verdict. Build exactly this; the
+mapping decisions are made — CC codes, no design calls.
+
+1. profiles.js — pure data, per your own 185 proposal. The Director's
+   translation table is the content (below). Each entry: ten-aspect
+   profile (unspecified cells NULL, never 50), source citation, source
+   axis, scale assumption, tier A/B/C.
+2. profile-match.js — pure function, aspects in -> adjacency out.
+   Runs ONCE at birth, cached beside mind, served in state.json. Zero
+   lines in the per-tick path. SHAPE-based distance (correlation),
+   computed over specified cells only.
+3. RULE-ZERO REQUIREMENTS (binding):
+   a. MIN-CELLS RULE: signatures specifying < 4 aspects never rank —
+      they report as corner FLAGS ("low-Politeness/low-Compassion
+      corner"), separate from distances.
+   b. NEAR-TIE COLLAPSE: distances within a stated epsilon merge into
+      one cluster line — never a false ordering between shapes the
+      data cannot distinguish.
+   c. SANITY SUITE: hand-built Roes (obvious-psychopath, gentle
+      high-Compassion, volatile-withdrawn) must land on their shelves;
+      published centroids recover themselves; Form 1 stable readout.
+4. RENDERING: its own group in the overlay beneath Big Five (per your
+   185 proposal; placement his eye's to move on sight). Tier C renders
+   visibly different (flag styling). Output is distance + direction,
+   never boolean, never label alone. Wording: adjacency, resemblance —
+   never diagnosis; "shape resembles shape" is the whole claim.
+5. THE TABLE (Director's v1, symbols: +2 +1 0 -1 -2 map to z; NULL
+   where unspecified):
+   DARK: narc-grandiose En+1 As+2 Wi-1 Po-2 Co-1 [A] · narc-vulnerable
+   En-1 As-1 Wi+2 Vo+2 Po-1 [B] · machiavellianism Co-1 Po-2 [A, flag]
+   · psychopathy As+1 Wi-1 Co-2 Po-1 In-1 Or-1 [A] · sadism Vo+1
+   Co-2 Po-1 [B, flag] · dark-composite Vo+1 Co-1 Po-1 In-1 Or-1 [A]
+   AMPD: neg-affect Wi+2 Vo+2 [A, flag] · detachment En-2 As-1 Co-1
+   [A, flag] · antagonism Co-2 Po-2 [A, flag] · disinhibition In-2
+   Or-2 [A, flag] · psychoticism Op+2 [A, flag]
+   DISORDERS: borderline Wi+2 Vo+2 Co-1 Po-1 In-1 Or-1 [B] ·
+   antisocial En+1 As+1 Wi-2 Vo+1 Co-2 Po-2 In-2 Or-1 [B] ·
+   narcissistic-PD As+2 Wi-1 Vo+1 Co-1 Po-2 [B] · avoidant En-2 As-2
+   Wi+2 Vo+1 Op-1 [B] · dependent As-2 Wi+1 Vo+1 Co+1 Po+2 [B] ·
+   OCPD Vo+1 Po-1 In+2 Or+2 Op-1 [B] · schizotypal En-1 Wi+1 Co-1
+   Op+2 [C] · paranoid Wi+1 Vo+1 Co-2 Po-1 [C] · schizoid En-2 As-1
+   Co-1 Op-1 [C] · histrionic En+2 As+1 Vo+1 Or-1 Op+1 [C]
+   LIGHT: healthy En+1 As+1 Wi-2 Vo-2 Co+1 Po+1 In+1 It+1 Op+1 [B] ·
+   light-triad En+1 Vo-1 Co+2 Po+1 Op+1 [B] · resilient En+1 As+1
+   Wi-1 Vo-1 Co+1 In+1 [C]
+Suite green. Report with the sanity-suite results shown.
