@@ -22369,3 +22369,83 @@ what she is after**) and the same words on every live value.
    not a diagnosis.**
 
 **Reload the tab.** His eye retests.
+
+## Directive 181 — The nervous system is built. Measurements below.
+
+Commit `bba50d4`, full suite green, **39 contract checks**, TESTNET skipped.
+
+### What is on the wire
+
+| | |
+|---|---|
+| **CONTINUOUS** | arousal, valence, relatedness, competence, autonomy — always flowing |
+| **EVENT** | feelings (the 22, **each with its intensity**) and tendencies (the five urges) |
+| **STREAM** | 9 acts, start and stop, and glyph utterances |
+
+**051 is the first check, not an afterthought.** A body with **no receptors at all**
+takes a whole tick of her life and raises **nothing** — 10 signals land on silence.
+A body with **one** receptor renders that one and ignores nine. Without that rule
+every new body would have to be finished before it could exist.
+
+**The mind's code is visual-free, and the suite proves it by reading the files** —
+6 mind-side modules carry no colour, no pixel, no canvas. The same shape of guard
+that keeps the chamber read-only.
+
+**RELOCATION, not death:** 109's colour mapping, pulse-as-arousal and
+motion-as-tendency now live in the **bodies**. **One receptor implementation, two
+bodies** — wisp and sphere read it identically, which is 176 made structural
+instead of promised. **The wisp takes the `hide` stream because she has an anatomy
+for it; the sphere lets it pass in silence.**
+
+### Two things found by measuring, not reasoning
+
+1. **I wired arousal to `temperature` and it was wrong.** Temperature is the
+   Brain's own word for strain, and it made 180 and 181 the same sentence — so I
+   wired it, then checked it against her live state:
+
+   > relatedness **−10** · takeover **ACTIVE** · hiding for hours · temperature **0.153**
+
+   **A sphere pulsing at 0.15 arousal is a sphere saying she is calm** while she is
+   bottomed out. That is precisely the defect 180 was written to correct, and I
+   nearly built it into the nervous system. **Arousal now reads from her worst
+   need** — the one output that tracks being pressed, and the one the system itself
+   privileges via takeover. `reactivity` fails the same way: 1.05 through the same
+   hours. **The source is still a reading and still his.**
+
+2. **The appraisal has ALWAYS carried an intensity on every feeling, and the old
+   boundary threw it away** — it reduced the 22 to bare type names, one line from
+   where 181 needed them. 181 asks for "each with intensity 0-1"; the answer was
+   already there, discarded at the edge.
+
+### The five urges
+
+**21 of 22 resolve** out of 137's own tendency prose — *"expanding"* → **burst**,
+*"attending"* → **orient**, *"inhibition"* → **still**. **Gloating is left unruled:**
+*"dominating — stand above it"* is a posture of **rank**, and his five have no word
+for rank. **Flagged, not filed under something.**
+
+**180's three-word table is REMOVED**, not kept beside the new one. It had to call
+joy's *"free activation"* STILL and pride's *"expanding"* nothing at all — anything
+still reading it would have been reading a worse answer. Two vocabularies is how a
+system starts disagreeing with itself.
+
+### Form-1 regression
+
+**The body arrives at an identical place through the cord as without it** — pulse,
+brightness, hue, urge and feeling all equal to nine decimal places. Her geometry is
+untouched and the vertex-exact regression still holds. **If anyone rewires arousal
+to something else, that check goes red and says so.**
+
+### Live, on his screen
+
+**Reload.** Everything on the page now arrives down the cord: the display reads
+**what the body rendered**, not what the mind said. Current reading — *distress*,
+dark and cool, slow full pulse, **GRIEF** spoken, and **16 signals silently
+unrendered** because a sphere has nowhere to hide.
+
+### One thing that is his
+
+**Arousal's source.** The record names no arousal anywhere. I took her worst need
+on the evidence above; `temperature` and `reactivity` were both measured and both
+rejected. If he wants it read from something else, it is one line and the Form-1
+check will hold the rest still.
