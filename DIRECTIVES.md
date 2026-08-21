@@ -3687,3 +3687,16 @@ Lonnie's rulings, all decided — CC codes, decides nothing:
    402 ever emitted.
 Report with the dictionary posted to the relay for review, and the
 unspeakable-states shortlist if any.
+
+## Directive 192 — Ruled: the twelve go back to the single marks
+
+Lonnie's ruling, correcting the Director's un-Rule-Zero'd mapping: where
+the language owns a single mark for a meaning, THE SINGLE MARK SPEAKS —
+never a dyad spelling of what one word already says. Restore all twelve
+displaced words (GRIEF, COMPASSION, RESPECT, ENVY, and the rest of the
+report's list) to their own marks in the dictionary. Dyads remain only
+where no single word exists. Dictionary-only edit; suite re-proves every
+saying resolves to real marks. Standing rule for all future mapping work,
+joining CLAUDE.md: CHECK THE WHOLE VOCABULARY FIRST — a mapping that
+spells out what the language already says in one word is a defect.
+Report the twelve restored.
