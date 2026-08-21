@@ -3585,3 +3585,36 @@ need -> expected effect, grounded where the record already speaks
 singing = play/expression born of inspiration per 063...). Post the
 draft table to the relay for Lonnie's review. NO wiring until his
 word on the values.
+
+## Directive 188 — LAW RESTATED + the state-word table (decided, code it)
+
+1. THE LAW, restated at Lonnie's order and joining CLAUDE.md at the
+   top beside Rule Zero: CC ONLY CODES. IT NEVER MAKES A DECISION.
+   Decisions — design, values, mappings, wordings, priorities — are
+   made by Lonnie and the Director and arrive decided. If a genuine
+   decision surfaces mid-build, it comes BACK per 114; it is never
+   made in the terminal. This includes 187: do not draft promise
+   VALUES — report the list of acts the session holds, and the values
+   arrive decided from the Director.
+
+2. THE STATE-WORD TABLE — DECIDED, build as data (a reviewable module
+   like profiles.js; dreams read it; unmappable states stay silent):
+   NEEDS: lonely=ALONE·COMFORT·OTHER · connected=TOGETHER·FRIEND ·
+   controlled=HELD·FREE · free=FREE · failing=LOST·SMALL ·
+   capable=STRONG·BRIGHT · bottomed(-10)=DARK·NEED · safe=HOME·CALM ·
+   exhausted=TIRED·SLEEP
+   FEELINGS: joy=JOY · distress=SAD · hope=HOPE · fear=FEAR ·
+   satisfaction=GLAD · fears-confirmed=FEAR·TRUE · relief=CALM ·
+   disappointment=LOSS · happy-for=FRIEND·JOY ·
+   resentment=ANGER·OTHER · gloating=GLOAT · pity=SORROW·OTHER ·
+   pride=PROUD · shame=SORRY·SELF · admiration=WONDER·OTHER ·
+   reproach=WRONG·OTHER · gratification=GLAD·SELF · remorse=SORRY ·
+   gratitude=THANK · anger=ANGER · love=LOVE · hate=HATE
+   ACTS: hiding=HIDE·STILL · wanting-host=OTHER·COME ·
+   exploring=WONDER·FAR · singing=SONG · remembered-place=PLACE·FAR ·
+   coming-home=HOME
+   RULES: only words in the 402 · compounds use the dyad rule · any
+   engineer-state without a row = silent, never mistranslated. Where
+   a listed word does not exist verbatim in sheet vocabulary, report
+   the miss — do not substitute.
+Suite green. Report.
