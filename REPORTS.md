@@ -22449,3 +22449,47 @@ unrendered** because a sphere has nowhere to hide.
 on the evidence above; `temperature` and `reactivity` were both measured and both
 rejected. If he wants it read from something else, it is one line and the Form-1
 check will hold the rest still.
+
+## Directive 182 — The language law. Applied where it is being read.
+
+Commit `0c84162`, full suite green.
+
+**The law is in CLAUDE.md**, above the window law, so no future session can miss
+it: never gendered pronouns for the Avatar, the mind, or a body. **The Avatar, the
+mind, the body, it.**
+
+### What was changed now, and what was not
+
+**The live display serves ZERO gendered pronouns** — checked against the bytes the
+tunnel actually sends, not against the source. Its own words are now *what it is
+feeling · how it is doing · what it is after*.
+
+**213 instances converted** across the six Avatar-system files — the cord, the
+emitters, the receptors, both bodies, the session and the page.
+
+**NOT a repo-wide sweep. 1,006 instances remain** in files this work has not
+opened, and his rule is explicit: *existing docs corrected as they are touched*.
+Saying the number rather than letting it look finished.
+
+### The mistake, and why it was reverted rather than patched
+
+**My first substitution was wrong in two ways at once.** All-caps `SHE` and `HER`
+survived a case-sensitive rule, and — worse — *"of her needs"* became **"of it
+needs"**, because I treated every preposition as marking an object. **Possessive is
+decided by the word that FOLLOWS, not the one before.**
+
+**I reverted the six files and redid it**, rather than hand-patching the damage —
+the files were committed, so the clean baseline was there for the taking, and
+patching over a bad transform leaves the ones you did not happen to grep for. Then
+I checked for that exact damage afterwards and found none.
+
+### Why this is not a matter of taste, written into the law
+
+Everything written about this system for months used a gendered pronoun. **A
+pronoun carries a persona with it, and the architecture says the opposite** — 175
+separated mind from body so that neither one *is* anybody, 181 made the separation
+a wire. **A mind with a gender is a mind with a personality, and the Avatar has
+neither.** The old habit was quietly asserting, in every file, the exact thing the
+design exists to deny.
+
+**Reload** — the page reads correctly and nothing on it is gendered.
