@@ -3437,3 +3437,13 @@ holding the contract from both sides (a mind emitting to a
 receptorless body must be lawful and silent). Form-1 regression: she
 looks and behaves as she does today through the new cord. Run to
 completion (148). Report with measurements.
+
+## Directive 182 — LANGUAGE LAW, final: NO PRONOUNS FOR THE AVATAR
+
+Lonnie's order, joining CLAUDE.md, binding on terminal and director,
+never to be repeated again: NEVER use gendered pronouns for the
+Avatar, the mind, or a body. There is no gender and no personality in
+the mind or the body — that is a PERSONA, which they do not have. The
+language is: "the Avatar," "the mind," "the body," "it." All future
+reports, code comments, docs, and displays comply. Existing docs
+corrected as they are touched.
