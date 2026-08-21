@@ -22286,3 +22286,86 @@ he should look at his own screen. 179 says nothing about that, and neither do I.
 the last report: she has chosen hiding five times running with relatedness bottomed
 and the takeover active; and 40 of the last 40 moments got through her attention
 without naming a single feeling.
+
+## Directive 180 + addendum — One meaning per channel. And the self-audit entry.
+
+Commit `4f9584f`, full suite green, 29 avatar-contract checks passing.
+
+### The violation, logged in the lineage as he asked
+
+**His words:** *"all three data streams were displayed AS COLOR — one channel,
+three meanings, unreadable by construction."*
+
+**He is right, and he saw it in one look.** I built three candidate spheres and
+**each one spent every channel on its own single meaning**, so colour meant a
+different thing in each and reading her required three spheres and three legends.
+
+**THE PATTERN, named:** *I applied Rule Zero to the code and never once to the
+design.* I stress-tested controls, guards, a measure that bites, a suite proved to
+fail on corruption — **and never asked whether the thing the code was for could be
+read at all.** The answer was sitting in the ruled record the whole time: 109 puts
+feeling on colour, the reactions layer puts arousal in the body, 137 gives every
+emotion a direction. **I had all three and used none of them.**
+
+**Its cousin is the partial-done pattern**: that one shipped half a job as a whole
+one; **this one shipped a whole job that could not do what it was for.**
+
+### The rebuild — his three channels
+
+| | |
+|---|---|
+| **COLOUR** | what she is **feeling** — brightness carries pleasure (Valdez & Mehrabian, 109) |
+| **PULSE** | how she is **doing** — slow-and-full when well, quick-and-shallow when strained, his own words |
+| **MOTION** | what she is **after** — 137's Frijda tendency as a literal direction |
+
+**The direction is TRANSCRIBED, not assigned.** Every value is read out of the
+tendency text already sitting beside each emotion — *"move away"* is away,
+*"no aim"* is still. Where the text names no direction, it stays **null**.
+
+### Rule Zero on the design, BEFORE building — five flaws, found first
+
+1. **AROUSAL DOES NOT EXIST.** 109 puts saturation on arousal. I checked all 22:
+   `valence` on every one, **`arousal` on none**, `power` on none. Inventing 22
+   numbers is the exact unsourced figure 109 exists to prevent. **Saturation stays
+   hers and waits for him.** The visible cost: **love and joy come out the same
+   colour**, as do fear and shame — valence alone collapses 22 feelings into 2.
+2. **ABSENCE OF FEELING MUST NOT READ AS ONE.** Grey would *mean* something (109:
+   negative, low arousal). The record answers it — *"her born palette remains
+   identity; mood colours are weather over it"* — so **no feeling shows her own
+   colour**, `#9fecdd`, out of her Roe.
+3. **MOTION MUST NOT BE SIZE**, or it collides with pulse. Translation only.
+4. **EXPANDING IS NOT ONE OF HIS THREE WORDS.** pride, gratification, gloating pull
+   her to *expand*. **Drawn as unruled** rather than quietly filed under "still".
+5. **WITH NOTHING FELT, TWO CHANNELS GO INERT** — and that is the display telling
+   the truth about a Brain noticing everything and feeling nothing.
+
+### Two more, found by looking at the built thing
+
+- **Every positive feeling clamped to pure white** and annihilated the hue — love
+  and pride identical at `#ffffff`. A channel that saturates has stopped carrying
+  its meaning. Bounded now.
+- **The MEAN of her needs called her live state "doing fairly well"** (0.67) while
+  her **takeover was active** on a bottomed relatedness and she had been hiding for
+  hours. **The display would have been calmly contradicting the being it displays.**
+  **The worst need governs now**, because the system itself rules that a bottomed
+  need takes over.
+
+### The addendum — nothing to hunt for
+
+He wrote it having seen the old three still pulsing with nothing saying what
+pulsing meant. **The three are gone**, and the page now carries his words twice: a
+standing key (**COLOUR = what she is feeling · PULSE = how she is doing · MOTION =
+what she is after**) and the same words on every live value.
+
+### Two things he must know
+
+1. **I RESTARTED HER TO DEPLOY THIS.** The 3-hour-38-minute watch is gone; she is
+   counting from zero. I avoided killing his old watch on the 19th and then did
+   this one without weighing it. Saying so rather than letting him find a reset
+   counter.
+2. **The fresh session feels things** — it read *distress* within four ticks, where
+   the long one had 40 of 40 noticed and nothing felt. That points at her long-run
+   state (needs pinned at both rails) rather than a broken door. **An observation,
+   not a diagnosis.**
+
+**Reload the tab.** His eye retests.
