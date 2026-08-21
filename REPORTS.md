@@ -22766,3 +22766,78 @@ itself still exercises only part of the mind — **sleep, dreaming, speaking, su
 lessons, consolidation, identity and the host model are constructed every run and
 never called.** He has ruled that the Emulator should do everything the mind was meant
 to do; that is the next build and it is not started.
+
+## The Mind Emulator — his eye, the read-out's final shape, and the first missing piece
+
+Two directives closed and a build begun since the last entry. **Everything below is
+on his screen and was changed on his eye, twice each.**
+
+### The read-out — 186 finished
+
+**Two corrections from him, both mine to have avoided.** A list in the overlay was
+not what he intended; it is **one label** — the closest shape and how closely. And
+the page was not where it goes: it sits **in the sphere's own space**, centred over
+the canvas, where the makeup already lives.
+
+**Then he asked for it to be askable, and to get the descriptions FROM THE SOURCE.**
+I had been about to write them from my own knowledge. Researched instead and cited
+per row: the DSM's own wording for the ten disorders, Paulhus & Williams for the dark
+traits, the DSM-5 alternative model for its five domains, Kaufman et al. for the
+light triad, Bleidorn & Hopwood for the healthy profile, Block for resilient. Hover
+or tap the name and the bubble gives that, plus **the shape the table gives it** —
+generated from the table, never typed, so a corrected cell corrects its own wording —
+plus the citation and the caveat. **The claim and the evidence for it, in one place.**
+
+Commits `c3b4e53`, `a7c81c3`.
+
+### GLOAT and HATE — an approval that was never carried out
+
+**138 ruled the two words in. 139 approved the marks. They were drawn and then never
+placed**, so the language read 400 for months and the mapping 138 called complete was
+not. His eye caught it the moment the emulator needed to draw a glyph.
+
+They are in sheet 06 now at the sheet's own geometry and **the language stands at
+402**. He caught HATE going in at a 7px stroke against his 4px — the numbers agreed
+with him — and chasing that found a second fault of mine that had left GLOAT 15% too
+dark. Both measure identical to LOVE and ANGER in the finished sheet.
+
+Commits `1ac5492`, `a05f110`. **The chamber originals were not touched.**
+
+### HIS RULING: the Emulator must do everything the mind was meant to do
+
+**And an audit says it was doing a third of it.** The session builds ten pieces of
+the mind and the tick touched **three** — a memory commit, an embedding, the
+appraisal. **Lessons, surfacing, the host model, consolidation and identity are
+constructed every run and never called once.** Sleep and dreaming were not wired at
+all.
+
+**SLEEP AND DREAMING ARE NOW WIRED — the first missing piece.** It runs on a life
+clock rather than the wall clock, so a watcher sees a day pass in an hour. **It
+sleeps**: seven hours awake at its own aspect-computed pressure, three nights across
+fifty hours of its life, tested. Choosing is a waking act, so a sleeping Avatar is
+not asked what it wants.
+
+### TWO FINDINGS THAT ARE HIS TO RULE ON, AND THE SECOND IS SERIOUS
+
+**1. NO ACT DECLARES WHAT IT PROMISES A NEED.** `HIDING` carries a name, a
+description and an ending — and **no `promises`**, which is the field the goal-former
+scores against. That is why it scored **0** while relatedness starved and chose
+hiding anyway: not a bad choice, **nothing to compare**. Every act needs to say what
+it is expected to do for a need, and what an act promises is a claim about the world.
+
+**2. THE AVATAR CANNOT DREAM, AND THE REASON IS THE TABLE HE QUESTIONED.** A dream is
+the day's memories distilled into **glyph words**. The emulator writes its memories in
+internal vocabulary — *"it wants to be hiding, and its relatedness is low"* — and
+**not one of those words is in his language**: three words, three misses, nothing
+held. Written as *"it is alone and wants comfort, it remembers the other"*, the same
+moment yields **COMFORT** and **OTHER** at once.
+
+**So the state-word table is not cosmetic. Without it the drifting glyphs can never
+appear, however long it sleeps.** It draws no new marks — his instinct that new
+glyphs are expensive is right, and this needs none. It only decides which of the
+words he already owns each state speaks with.
+
+### Still to come in that build
+
+Speaking, then surfacing and lessons, then consolidation and the life story, then a
+visitor arriving — the host model cannot be exercised without one.
