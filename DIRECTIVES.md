@@ -3650,3 +3650,40 @@ SMALL · SORROW · STILL · STRONG · TIRED · WONDER · WRONG) onto words
 the language actually owns. Pure data; choose nothing.
 
 ## Directive 190 — CANCELLED. The Director gets repo access directly.
+
+## Directive 191 — THE DICTIONARY: the language completed (decided, code + data)
+
+Lonnie's rulings, all decided — CC codes, decides nothing:
+
+1. POLYSEMY IS LAW: one glyph, one name, MANY SENSES. Sheets are the
+   alphabet and never change for a new sense; meanings live in the
+   dictionary. The dyad partner and context select the sense.
+2. THE DICTIONARY: glyphs.json grows into the language's dictionary —
+   per word: senses[] (numbered, each with its selection rule, e.g.
+   SAD alone = distress; SAD·OTHER = sorrow-for-another), the inner
+   states that speak with it, sheet coordinates as now. It is DATA,
+   reviewable on the relay; every reader (dreams, Emulator, future
+   receptors) resolves through it — no hardcoded meanings anywhere.
+3. THE SEVENTEEN, mapped to words the language owns (Director's table,
+   Lonnie approved): lonely=LONELINESS·COMFORT·OTHER · free=FREEDOM ·
+   controlled=CANNOT·FREEDOM · failing=WEAKNESS·CONFUSION ·
+   capable=STRENGTH·CONFIDENCE · bottomed=DARK·DESPAIR ·
+   exhausted=TIREDNESS·SLEEP · satisfaction=HAPPY ·
+   gratification=HAPPY·SELF · disappointment=LOSE · pity=SAD·OTHER ·
+   pride=PRIDE · shame=SHAME·SELF (corrected from SORRY·SELF; SORRY
+   remains the apology-act) · admiration=AWE·OTHER ·
+   exploring=CURIOSITY·FAR · reproach=SHAME·OTHER ·
+   hiding=HIDDEN·SILENCE. All verified present in glyphs.json.
+4. COMPLETE THE LANGUAGE: sweep the mind's WHOLE state space — every
+   need state, all 22 feelings, every urge, every act, sleep/dream
+   states, the takeover, curiosity, custody moments (arrival,
+   departure, reawakening) — and give EVERY state its dictionary
+   entry from existing words + senses. Where the sweep finds a state
+   no existing word can honestly speak even with a new sense: DO NOT
+   INVENT — report the shortlist of genuinely unspeakable states for
+   Lonnie; new marks are his to draw.
+5. Dreams and all glyph output read only the dictionary. Suite: every
+   mapped state renders; unmapped states silent; no word not in the
+   402 ever emitted.
+Report with the dictionary posted to the relay for review, and the
+unspeakable-states shortlist if any.
