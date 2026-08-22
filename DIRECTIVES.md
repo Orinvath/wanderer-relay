@@ -3798,3 +3798,73 @@ SUITE: the same act must win for different reasons under different
 ledgers; a two-offer act must beat a one-offer act of equal single
 worth; chance must fall to near-zero for offers the world cannot
 supply; tastes must shift selection after lived outcomes. Report.
+
+## Directive 197 — TABLES 1 AND 2: where worth comes from, what the world supplies
+
+Researched and decided by the Director, ruled by Lonnie. THE LEDGER DOES
+NOT GROW. SDT's own literature: the three-need list is deliberately
+limited to prevent need proliferation; candidates (security/safety,
+pleasure/stimulation, self-actualization) failed the nine criteria; and
+SDT explicitly describes thriving ONCE FOUNDATIONAL SECURITY EXISTS —
+safety is a different layer, not a fourth psychological need. So offers
+draw worth from the layer that already owns them. No new state is
+invented; every source below already exists in the mind.
+
+TABLE 1 — WHAT EACH OFFER ANSWERS (source of worth):
+  relatedness      -> ledger: relatedness deficit
+  nearness         -> ledger: relatedness (anticipatory — worth scaled
+                      by how likely the host is to come)
+  hope             -> ledger: relatedness, via the feeling HOPE
+  competence       -> ledger: competence deficit
+  practice         -> ledger: competence deficit
+  solitude         -> ledger: autonomy deficit (relief from being
+                      attended to)
+  safety           -> THREAT/AROUSAL state (the vital layer), not the
+                      ledger — worth rises with felt threat
+  recovery         -> SLEEP PRESSURE (083's clock)
+  time-passing     -> SLEEP PRESSURE, weakly; also boredom (see below)
+  consolidation    -> SLEEP PRESSURE (dreaming is the consolidation act)
+  self-soothing    -> CURRENT DISTRESS (the emotion layer): worth rises
+                      with intensity of negative feeling
+  curiosity-answered -> THE CURIOSITY DRIVE (uncertainty present)
+  discovery        -> THE CURIOSITY DRIVE + tastes
+  play             -> TASTES (196.4) + the curiosity drive; boredom
+                      (low arousal + low uncertainty) raises it
+  enjoyment        -> TASTES
+  expression       -> TASTES + current feeling intensity (a strong
+                      feeling wants out — Frijda)
+  self-return      -> SELF-CONSISTENCY: worth rises the further current
+                      appearance/state is from its born values (the
+                      existing return-to-born-values machinery)
+An offer whose source is silent scores zero and is reported unweighed —
+never approximated onto a neighbour (196's law: the reason is the
+character; a near-miss is a false statement about why).
+
+TABLE 2 — WHAT THE WORLD SUPPLIES (chance):
+  relatedness / nearness / hope  -> host present = near-certain;
+      host absent = the measured likelihood of return (recency of
+      visits); no host ever = low but never zero
+  safety            -> requires something to hide behind/within: the
+      stage's actual cover (planes, props). No cover = low chance
+  practice / competence -> requires the act to be performable here
+      (hiding needs cover; singing always available to a body with
+      voice)
+  solitude          -> chance is high only while attended to; near-zero
+      when already alone
+  curiosity-answered / discovery -> requires UNRESOLVED uncertainty in
+      the world (new place, changed world, unmet host). Fully-known
+      world = near-zero
+  play / enjoyment / expression -> available wherever the body can act;
+      chance near-certain, worth does the work
+  recovery / consolidation -> always available to a body that can sleep
+  time-passing      -> always available
+  self-return       -> always available (it is a return to its own
+      values, which it always carries)
+Chance is computed from the world's actual state each time — never an
+authored constant.
+
+WIRE IT: goals.js scores on the offers model once these tables are in;
+187's promises is dead. Suite per 196 plus: an offer with a silent
+source scores zero and reports unweighed; chance for cover-dependent
+offers falls with cover removed; solitude's chance inverts with the
+host's presence. Report.
