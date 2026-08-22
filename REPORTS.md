@@ -23482,3 +23482,91 @@ here. What is visible from here:
 
 Full suite **green** with the curiosity drive in it — 24 checks run, TESTNET skipped as always.
 Commits `98d1216`, `d044ae7`, `a7d6c47`, pushed. The reverted display is `67eafbf`.
+
+## RULE ZERO ON THE CURIOSITY DRIVE — run after the fact, at Lonnie's asking. Six flaws, two of them mine to have never made.
+
+I reported the drive before stress-testing it. That is the violation the rule exists to stop, and
+he caught it. What the pass found, measured on the real model rather than reasoned about:
+
+### FLAW 1 — THE SECOND APPRAISAL IS DEAD. Coping is pinned at 1.00.
+
+The whole point of §97's structure is that interest needs BOTH appraisals — novelty-complexity AND
+coping potential — and that Intellect carries the second one. Measured on the moments this Avatar
+actually produces:
+
+```
+   2/2   1.00   it is HIDDEN LONELINESS
+   2/2   1.00   it is HIDDEN DESPAIR
+   2/2   1.00   it is SEARCH LONELINESS
+   2/2   1.00   it is SONG CONFIDENCE
+   3/3   1.00   it is HOST COME TOGETHER
+   1/3   0.33   nothing calls to it, and its autonomy is low
+```
+
+**Every moment built from glyph words scores exactly 1.00**, and it cannot do otherwise: the moment
+text is ASSEMBLED from glyph words by `watching.js`, so asking how much of it the language can hold
+is asking whether the words it just wrote are words. Only the engineering-word fallback sentence
+ever scores below 1.
+
+**So the drive is single-appraisal in practice. Openness does all the work and Intellect
+contributes nothing.** The structure is present in the code and absent in behaviour — exactly the
+shape Rule Zero's amendment names: stating a thing is not doing it.
+
+**The measure was my choice and it is the wrong one. What coping potential should actually be
+measured from is a design question and goes back — I am not choosing a second one.** What is
+visible: lessons carry `elements` and are literally what it has made sense of, which is closer to
+"detection of logical or causal patterns" than a vocabulary check is. Not built, not decided.
+
+### FLAW 2 — I DECIDED THE ACTION TENDENCY. That was not mine to do.
+
+`curiosity.js` sets `tendency: 'orient'`. **§98 says the action tendency is EXPLORATION.** Orient is
+turn-and-look; exploration is going out to see, and the dictionary already holds `act:exploring` =
+SEARCH for exactly that. I picked the nearest of the five urges without asking, which is 188
+straight through: a default is a decision wearing a shrug.
+
+**It needs a ruling: does curiosity's tendency map onto one of the five urges, and if so which —
+or does exploration need to be its own thing?**
+
+### FLAW 3 — the rouse threshold sits in range by luck, not by evidence
+
+Measured novelty across real moment texts: **0.19 to 0.57**. `ROUSED_AT` is 0.35, which lands
+inside that band — but I set it before measuring anything. Had the embedding model been slightly
+tighter, the drive would have fired never; slightly looser, always. **The number is marked ours and
+provisional and it is still unjustified.**
+
+### FLAW 4 — a hidden cost, measured: one extra model call per tick
+
+`recall()` embeds the moment to compute its cosines. The tick path already embedded the moment once
+to commit it. **Every tick now embeds twice where it embedded once** — a doubling of embedding load
+on the local GPU that shares its VRAM with everything else. Nothing was measured before adding it.
+It could be avoided by embedding once and passing the vector to both, which is engineering rather
+than design.
+
+### FLAW 5 — `KNOWS_NO_GAP_TYPES = true` proves nothing
+
+A constant asserting the file has no gap-type list is an assertion, not a test. **§102's test 78 —
+present an uncertainty of a kind nobody thought of, and curiosity arises anyway — is not written.**
+The claim happens to be true by inspection; nothing enforces it staying true.
+
+### FLAW 6 — novelty is really "have I written this sentence before"
+
+Cosine is computed against its own past moment records, which are sentences it generated from its
+own state. So the measure is not "is there something here I have not met", it is "have I described
+a state like this before". **With a life containing more than one act that distinction narrows; with
+today's life it is the whole of it.**
+
+### What is NOT wrong, checked rather than assumed
+
+- **Interest is not enjoyment** holds: valence, mood and reward appear nowhere in the file except in
+  the comment saying they do not.
+- **No gap-type enumeration** holds by inspection: the file's entire input is two numbers and a
+  table of percentiles.
+- **The gain direction is right**: higher Openness raises the novelty reading, higher Intellect
+  raises the coping reading, and a midpoint aspect changes neither.
+- **The self-recall bug is genuinely fixed** — measured from tick 1 of a live run.
+
+### Standing
+
+**Nothing has been changed since the flaws were found.** Flaws 1 and 2 carry decisions and go back
+per 188. Flaws 3, 4 and 5 are mine to fix once 1 and 2 are ruled, since the threshold is meaningless
+until the appraisals are right.
