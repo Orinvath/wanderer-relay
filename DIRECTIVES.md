@@ -3876,3 +3876,35 @@ world-change candidates, each with its name as the Avatar sees it, the
 control it comes from, the direction, and the effect-kind effects.js
 assigns it. Verbatim from the build — choose nothing, change nothing,
 propose nothing.
+
+## Directive 199 — RULED: offers attach to the 13 effect-kinds; the 96 inherit
+
+Lonnie's ruling, closing the EFFECTS failure. The build already speaks
+in meanings — effects.js names 13 effect-kinds across the 96
+candidates. OFFERS ATTACH TO THE KIND; every candidate inherits its
+kind's offers. Nothing hand-written per control, nothing invented.
+
+  enclosing        -> safety · solitude
+  opening          -> discovery · curiosity-answered
+  brightening      -> safety · enjoyment
+  cooling          -> self-soothing · recovery
+  warming          -> enjoyment · self-soothing
+  stilling         -> recovery · self-soothing · solitude
+  quickening       -> play · enjoyment
+  filling silence  -> expression · play · relatedness
+  making quiet     -> solitude · self-soothing · recovery
+  adding           -> discovery · enjoyment
+  taking away      -> solitude · self-soothing
+  approaching      -> relatedness · nearness
+  withdrawing      -> solitude · safety
+
+A candidate carrying several kinds takes the union of their offers
+(196.3's blend rule then sums the live ones). Worth and chance come
+from 197's tables exactly as for the ten acts — one scoring path, not
+two; `promises` stays dead.
+
+Lonnie's standing instruction with this: IT DOES NOT HAVE TO BE
+PERFECT — get the whole thing working end to end; tuning comes later
+from watched behaviour. Wire it, run the FULL suite in sequence
+(nothing after EFFECTS has been proved since the wiring went in), and
+report what is green and what is not.
