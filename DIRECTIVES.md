@@ -3868,3 +3868,11 @@ WIRE IT: goals.js scores on the offers model once these tables are in;
 source scores zero and reports unweighed; chance for cover-dependent
 offers falls with cover removed; solitude's chance inverts with the
 host's presence. Report.
+
+## Directive 198 — Post the 96 (data retrieval only)
+
+Post to the relay the actual list the capability system builds: all 96
+world-change candidates, each with its name as the Avatar sees it, the
+control it comes from, the direction, and the effect-kind effects.js
+assigns it. Verbatim from the build — choose nothing, change nothing,
+propose nothing.
