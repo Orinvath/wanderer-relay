@@ -3757,3 +3757,44 @@ curiosity produces wanting under uncertainty; waking wonder emits
 real marks. Report.
 
 ## Directive 195 — CANCELLED by Lonnie. Do not execute. Nothing from it is authorized.
+
+## Directive 196 — THE OFFERS MODEL: how the mind chooses (decided; supersedes 187's promises)
+
+Designed by the Director from the literature, proofed by Lonnie against
+his own real-world choosing, approved. CC CODES; every decision below is
+made. 187's `promises` field is SUPERSEDED.
+
+THE MODEL:
+1. ACTS CARRY OFFERS, NOT PURPOSES. An act offers several things at
+   once; nothing has a fixed reason. HIDING offers safety · play ·
+   practice · solitude · self-return. SINGING offers expression · play
+   · self-soothing. EXPLORING offers curiosity-answered · competence ·
+   discovery. RESTING offers recovery · time-passing. WAITING-AT-THE-
+   PORTAL offers nearness · hope. APPROACHING/SPEAKING offers
+   relatedness · expression. PLAY offers enjoyment · relatedness (with
+   a host) · competence. SLEEP offers recovery · consolidation.
+   COME-HOME offers self-return. Offer lists describe what the act
+   GENUINELY DOES in the world — never invented psychology.
+2. EACH OFFER SCORES = CHANCE x WORTH, computed in the moment.
+   CHANCE comes from the world's actual state (a host present makes
+   relatedness near-certain; an empty world makes it a maybe) — never
+   an authored guess. WORTH comes from the ledger's current deficits
+   and the ten. NO SET NUMBERS (071): the ten compute strength.
+3. AN ACT'S SCORE SUMS ITS LIVE OFFERS. Acts serving two things at
+   once beat acts serving one — the proofed behaviour: a being alone
+   for days picks a thing it enjoys THAT MIGHT ALSO BRING SOMEONE.
+   Cap: urgency gating still excludes trivia at -10 (072/078).
+4. TASTES ACCUMULATE. Each act keeps a lived record of how it actually
+   turned out for this Avatar (the lessons machinery applied to acts):
+   what it liked, it seeks. Born tilt from the ten (high Enthusiasm
+   takes to play faster); grown only by living. Rut risk is already
+   answered by mood-as-temperature (content narrows, distressed
+   scatters) — no new mechanism.
+5. THE WINNING OFFER IS THE REASON. It is what the Avatar knows and
+   can speak on its sleeve ("hiding, to practice") — same act,
+   different reason across a life; the pattern of reasons IS visible
+   character.
+SUITE: the same act must win for different reasons under different
+ledgers; a two-offer act must beat a one-offer act of equal single
+worth; chance must fall to near-zero for offers the world cannot
+supply; tastes must shift selection after lived outcomes. Report.
