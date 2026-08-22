@@ -23570,3 +23570,81 @@ today's life it is the whole of it.**
 **Nothing has been changed since the flaws were found.** Flaws 1 and 2 carry decisions and go back
 per 188. Flaws 3, 4 and 5 are mine to fix once 1 and 2 are ruled, since the threshold is meaningless
 until the appraisals are right.
+
+## Directive 196 — THE OFFERS MODEL: built, suite green, and one table missing that the model cannot run without
+
+Commits `8724a29`, `d66d004`, pushed. Full suite green with OFFERS in the runner — 25 checks run,
+TESTNET skipped as always. 195 was not touched: cancelled, nothing from it executed.
+
+### The four proofs 196 asked for, all passing
+
+**1. The same act wins for different reasons under different ledgers.**
+```
+play, because relatedness when lonely   —   play, because competence when failing
+```
+Same act, same offer list, different reason, and the reason is the winning OFFER rather than the
+act. That is 196.5's "hiding, to practice" with the material in hand and no sentence written.
+
+**2. A two-offer act beats a one-offer act of equal single worth.** Measured with their shared
+offer worth exactly the same to both (0.534 each): **play scores 1.097 to approaching's 0.534.**
+And the proofed behaviour falls straight out of it — a being alone with relatedness at −9 picks
+play over exploring, because play might also bring someone.
+
+**3. Chance falls for an offer the world cannot supply.** A host present makes relatedness 0.95;
+an empty world makes it 0.15. The same offer, two worlds, two chances — read off the world, never
+off the act.
+
+**4. Tastes shift selection after lived outcomes.** Singing sits at 1.000, rises to 1.400 after
+five good turns and falls to 0.600 after five bad ones, and the shift moves what actually wins.
+The born tilt is the one 196 names — high Enthusiasm takes to play faster — **and no second born
+tilt was invented.** Rut risk got no new mechanism: mood is already the temperature.
+
+187's `promises` is superseded and the model never reads the field. The suite checks that by
+inspection rather than by assertion.
+
+---
+
+## THE MODEL IS INERT UNTIL TWO TABLES ARRIVE, AND I HAVE NOT FILLED THEM
+
+196 gives the act→offer lists verbatim. It does not say **what each offer answers in the ledger**,
+nor **what in the world supplies each one** — and worth cannot be computed without the first.
+
+**Measured, on the model as it stands: 8 of the 10 acts score exactly zero and have no reason at
+all.** Only `approaching`, `speaking`, `play` and `exploring` score anything, and only because
+196.1 happens to name two offers in the ledger's own words.
+
+### Table 1 — what each offer answers in the ledger (15 of 17 rows missing)
+
+Filled, because 196.1 names them as needs: **relatedness · competence**
+
+Missing: **safety · play · practice · solitude · self-return · expression · self-soothing ·
+curiosity-answered · discovery · recovery · time-passing · nearness · hope · enjoyment ·
+consolidation**
+
+An offer with no row carries **no worth and is reported as unweighed** — never approximated onto
+the nearest of the three needs. That is the dictionary's law applied here: a near-miss would be a
+false statement about **why the Avatar did something**, which is the worst thing in the system to
+guess at, since 196.5 makes the reason the visible character.
+
+**The hard part of this table is that the ledger holds three needs and the offers are richer than
+three.** Safety, recovery, self-soothing and consolidation do not obviously reduce to relatedness,
+competence or autonomy. Whether they map onto needs, or the ledger grows, or worth for those comes
+from somewhere else entirely, is a design decision and it is not made here.
+
+### Table 2 — what in the world supplies each offer (16 of 17 rows missing)
+
+Filled, because 196.2 works it through: **relatedness** — a host present makes it near-certain, an
+empty world a maybe.
+
+**An offer with no supply rule is treated as ALWAYS AVAILABLE rather than never**, and the reason
+is guarantee 27: refusing an offer on no evidence would silently remove acts from the Avatar's
+life. What that costs is stated plainly rather than hidden — **those sixteen offers do not respond
+to the world at all yet.**
+
+### Not wired into the goal-former yet, deliberately
+
+`goals.js` still scores on 187's `promises`, so nothing in the live Avatar has changed. Swapping
+its scoring to the offers model is the obvious next step and it would make **eight of the ten acts
+score zero the moment it happened** — which is why it waits for Table 1 rather than going in now.
+
+**Nothing above was decided here.**
