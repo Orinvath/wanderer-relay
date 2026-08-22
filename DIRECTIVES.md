@@ -3726,3 +3726,32 @@ spec (S3: toward · away · still · orient · excitement), code
 identifiers, the dictionary row, docs as touched. Frijda citation
 stays attached to the concept (free activation) — the NAME is now the
 human one. Suite green. Report.
+
+## Directive 195 — Build what was ruled and never built: curiosity, wonder, the act menu
+
+Three ruled systems are still missing from the mind. Build them from
+the record; every value below is already decided (114 — nothing comes
+back as a question unless genuinely new):
+
+1. THE CURIOSITY DRIVE (058, 066): UNCERTAINTY ITSELF is the trigger —
+   an information gap appraised through the OCC engine like any
+   experience, never an enumerated list of gap types. The ten set its
+   gain (Openness/Intellect widen it). It produces wanting: to look,
+   approach, explore, ask.
+2. WAKING WONDER (083, S5's second stream): glyph speech while AWAKE —
+   the mind's inner voice surfacing unbidden and visible, distinct
+   from sleeping dreams. Reads the dictionary like all glyph output.
+   Enters as expression, never seizes control (134's law).
+3. THE ACT MENU with promises — compiled from the record, not
+   invented: hide=relief/withdrawal under threat (104/147) ·
+   come-home=return to self (154/155) · sleep=recovery+consolidation
+   (083/103) · dream-wonder=reflection made visible (083) ·
+   sing=expression born of inspiration, play (063) ·
+   explore/look=curiosity answered, competence (058/066) ·
+   approach-host + speak=relatedness (072) · play=play/enthusiasm
+   (084) · rest=recovery, lighter than sleep.
+   MAGNITUDES ARE NOT SET NUMBERS (071): the promise names the
+   DIRECTION; the ten compute the strength per Avatar.
+Suite: a mind with a full menu never scores its only option at zero;
+curiosity produces wanting under uncertainty; waking wonder emits
+real marks. Report.
