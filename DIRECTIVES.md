@@ -3755,3 +3755,5 @@ back as a question unless genuinely new):
 Suite: a mind with a full menu never scores its only option at zero;
 curiosity produces wanting under uncertainty; waking wonder emits
 real marks. Report.
+
+## Directive 195 — CANCELLED by Lonnie. Do not execute. Nothing from it is authorized.
