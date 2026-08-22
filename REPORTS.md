@@ -23729,3 +23729,64 @@ Everything before EFFECTS passes: PHASE 0-3, CHARACTER, ROE, TRAITS, NEEDS, GOAL
 Everything after it was not reached, so **nothing later than EFFECTS has been proved on this
 build** — including DICTIONARY, OFFERS, SLEEP and BRAIN, which passed individually but have not
 been run in sequence since the wiring went in.
+
+## Directive 199 — offers attach to the 13 kinds. THE FULL SUITE IS GREEN, IN SEQUENCE.
+
+Commit `9d51451`, pushed. **25 suites run in order, every one passed, TESTNET skipped as always.**
+This is the first full in-sequence run since the offers wiring went in, so everything after EFFECTS
+is now proved on this build rather than assumed.
+
+### The ruling, coded
+
+The 13 effect-kinds carry the offers verbatim as 199 wrote them, and **every one of the 96
+candidates inherits from the kind of change it makes.** Nothing is hand-written per control and
+nothing was invented.
+
+A candidate carrying several kinds takes the union:
+
+```
+  withdrawing            ->  solitude · safety
+  adding + opening       ->  discovery · enjoyment · curiosity-answered
+```
+
+**ONE SCORING PATH, proved rather than asserted:** a world-change and a named act draw the same
+offer off the same layer at the same worth. `safety` is worth exactly the same to *withdrawing —
+Position · Left / Right* as it is to *hiding*, because both go through 197's tables. `promises`
+stays dead and is read nowhere.
+
+A candidate that is neither a named act nor carries a kind offers nothing — reported, not guessed.
+
+### What the failure actually was, and the second half of the fix
+
+EFFECTS was failing on `the goal carries the material for saying what it wants and why`. Attaching
+the offers fixed the score, but the check still failed, and the second cause was mine from 197:
+
+**`because.level` was looking up a need called "play".** `parts` is keyed by OFFER now, so the top
+entry is an offer name, and the old code fed that straight into the ledger as if it were a need.
+
+`because` now carries both honestly: **`offer`** is the reason (196.5), and **`need`** is the
+LEDGER need behind that offer when there is one — resolved through the offers model's own table so
+the two cannot disagree. For offers drawing on the vital layer, the sleep clock or the emotion
+layer there is no need behind them, and **null is the true answer rather than the nearest one.**
+
+A world-change now reads: **"quickening, for play."**
+
+### The environment, and a false alarm worth recording
+
+The first full run reported **seven suites as ENVIRONMENT — did not run**: PHASE 3, LOOP, HOST,
+REMEMBER, TIERS, STORY, BRAIN. Nothing was broken — the local model had stopped, so anything
+needing real embeddings or a real answer correctly refused to pretend. `ollama serve` was started
+and the run repeated in full.
+
+**That distinction is the suite doing its job**: it did not pass those seven quietly, and it did not
+fail them either. It said what it could not prove.
+
+### Standing
+
+- **25 suites, all green, in sequence.** OFFERS is 32 checks, GOALS 25, EFFECTS 48, DICTIONARY 31.
+- **TESTNET skipped** — it proved nothing, as always.
+- The tuning is untouched, per the standing instruction that it does not have to be perfect: every
+  magnitude in the offers model is marked **[OURS, PROVISIONAL]** and waiting on watched behaviour.
+- Still open from earlier reports and not touched here: **the clock runs at roughly 225x against
+  069's ruling that the clock is real time**, and the six Rule Zero flaws on the curiosity drive,
+  two of which carry decisions.
