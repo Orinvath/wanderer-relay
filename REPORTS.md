@@ -23648,3 +23648,84 @@ its scoring to the offers model is the obvious next step and it would make **eig
 score zero the moment it happened** — which is why it waits for Table 1 rather than going in now.
 
 **Nothing above was decided here.**
+
+## Directive 197 — tables filled, goal-former wired, AND THE SUITE IS RED. A collision 197 could not have seen.
+
+Commits `2360cc9`, `1c2436c`, pushed. **Reporting a RED suite rather than a green one, and the
+failure is not a bug — it is a real collision between 197 and the capability system.**
+
+### What was built, and passes
+
+**Table 1 — every one of the 17 offers now draws worth from a layer that already existed**, row for
+row as 197 wrote it. The ledger did not grow: it still holds exactly the three SDT needs. Safety
+reads the vital layer, recovery/consolidation/time-passing the sleep clock, self-soothing the
+emotion layer, curiosity-answered and discovery the curiosity drive, play/enjoyment/expression the
+tastes, self-return the distance from born values. **No new state was invented anywhere.**
+
+**Table 2 — chance computed from the world every time.** Cover removed drops safety from 0.95 to
+0.10. Solitude inverts against the host: 0.95 while attended to, 0.10 alone — you cannot withdraw
+from a room nobody is in. A fully-known world drops discovery to zero. An absent host is the
+measured likelihood of return and never zero.
+
+**Every act now scores and each has its own reason**, measured live on one Avatar:
+```
+  singing 1.265  because self-soothing      sleep 0.400  because recovery
+  hiding  1.116  because safety             resting 0.270  because recovery
+  approaching 0.894  because expression     waiting-at-the-portal 0.227  because nearness
+  play 0.476  because relatedness           come-home 0.200  because self-return
+```
+
+**`goals.js` scores on the offers model and never reads `promises` again.** The winning offer
+reaches the goal as `because.offer`, so 196.5 runs end to end. OFFERS is 27 checks, GOALS is 25,
+both green on their own.
+
+**One row 197's Table 2 does not name: `self-soothing` has no supply rule.** It is left available
+per guarantee 27 and reported rather than invented.
+
+**One behaviour 196/197 REMOVED, locked into the suite rather than deleted:** under `promises` an
+act could declare a need-DELTA and therefore promise harm, scoring negative. An offer score is
+chance x worth and both are non-negative, so **no act can score below zero any more.** An act that
+would cost the Avatar something has no way to say so in this model.
+
+---
+
+## THE FAILURE: the offers model knows ten acts, and the Avatar has ninety-six other things it can do
+
+```
+  EFFECTS    FAILED (exit 1)
+  25  the goal carries the material for saying what it wants and why — FAILED: withdrawing, for null
+```
+
+**The capability system (082/106) builds candidates out of the real panel** — every control that
+has an effect, in each direction it can move. The suite measures **96 of them**, with names like
+*Adapting · Adapt*. They are how the Avatar acts on its world at all.
+
+**They are not among 196's ten named acts, so they have no offer list, so under 197 they score
+exactly zero and carry no reason.** A goal still forms over them — the bucket's fall-through
+guarantee sees to that — but it forms with nothing behind it and cannot say why.
+
+**This is the consequence of acts becoming a closed list.** 196 gave ten acts and their offers;
+goals.js's own standing law was that it holds NO list of what an Avatar does, and the list has
+moved to `offers.js` rather than gone away. Anything not on it is now invisible to scoring.
+
+### The ruling needed, and it is one question
+
+**Do the world-change candidates get offer lists too?**
+
+- If **yes** — what does *"turn Adapting on"* offer? They are moves on controls rather than acts of
+  living, and 96 of them cannot be given offer lists by hand. Something would have to derive an
+  offer list from the KIND of change, which `effects.js` already names (taking away, making more,
+  withdrawing…). That derivation is a design decision.
+- If **no** — then two scoring paths coexist: offers for the ten acts, the effect axes for world
+  changes, and `promises` is not dead after all but scoped to the panel.
+
+**I have changed nothing and decided nothing.** The suite stays red until this is ruled, because
+the alternative is inventing what a slider offers an Avatar, which is exactly the thing that must
+never happen here.
+
+### Standing
+
+Everything before EFFECTS passes: PHASE 0-3, CHARACTER, ROE, TRAITS, NEEDS, GOALS, CAPABILITIES.
+Everything after it was not reached, so **nothing later than EFFECTS has been proved on this
+build** — including DICTIONARY, OFFERS, SLEEP and BRAIN, which passed individually but have not
+been run in sequence since the wiring went in.
