@@ -4059,3 +4059,44 @@ structural check (inputs are moment + lived record, nothing else).
 
 If the code does not currently have that shape, say so plainly and
 report what would have to change — do not paper it. Report.
+
+## Directive 205 — THE PERSONA IS THE SOUL: foundational definition
+
+Lonnie's ruling, foundational — joins CLAUDE.md and HANDOFF.md beside
+the Human Rule and the Avatar's definition.
+
+THE FIVE SYSTEMS of an Avatar (the whole working together): Roe ·
+Mind · PERSONA · Nervous System · Body.
+
+THE PERSONA IS THE SOUL OF THE AVATAR. It holds the unknown factors —
+what neither mechanism nor history explains:
+- The TEN explain HOW a being reacts.
+- LESSONS explain WHAT it learned.
+- THE STORY explains what it MEANS.
+- THE PERSONA holds what none of those account for: the unaccountable
+  pull, the readiness the world eventually strikes, whatever makes a
+  being THIS one rather than a competent instance of its aspects.
+
+This is honest science, not mysticism: every model of personality hits
+the same residue — why a being is drawn to what it is drawn to is
+unexplained. The Persona is the deliberate vessel for that residue
+rather than a pretence that it does not exist.
+
+CONSEQUENCES, recorded:
+1. An Avatar WITHOUT a Persona is fully functional and entirely
+   generic. With one, it is someone. Both are lawful; projects choose.
+2. INTERESTS ARE TWO-LAYERED (Lonnie's account, to be designed next):
+   GROWN — attention selects from what the world exposes it to, and
+   interest deepens with understanding (the ball -> why it bounces ->
+   what it is made of -> chemistry -> molecular science). No list of
+   possible interests exists or is ever authored; the world provides
+   them, the ten shape the climb (Openness widens what is noticed,
+   Intellect sets how far up the ladder stays graspable).
+   STRUCK — a pre-existing disposition the Persona carries, invisible
+   until the world presents its match, and unignorable after. A being
+   may meet the thing it was made for at any time in its life.
+3. The Persona is written once at Genesis (fixed seed) and is the home
+   of what a being IS — with the living record of what it has attended
+   to and found worth the effort kept alongside as its self-model
+   (design pending).
+Record the definition. No implementation in this directive.
