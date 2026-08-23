@@ -3994,3 +3994,51 @@ Rule FINDS the design; Rule Zero PROVES it.
    line is written.
 
 Place it in CLAUDE.md above Rule Zero and in HANDOFF.md. Confirm.
+
+## Directive 203 — THE SAFETY GATE: the first gate of the mind
+
+Lonnie's epiphany, researched and approved. Structural change to the
+mind's loop — not a patch. The Human Rule (202) applied end to end;
+Rule Zero run before writing.
+
+THE INTENT: "Am I safe right now?" is the question every moment starts
+with. It is the first lesson a being learns and the one it carries for
+life; it is the gate everything else stands behind.
+
+THE SCIENCE (cite): LeDoux's dual-pathway model — a fast subcortical
+"low road" carries threat signals to the amygdala BEFORE conscious
+recognition (the garden-hose jump), while a slower cortical "high
+road" does contextual interpretation after. Threat is processed
+independently of attention and awareness — it takes priority over
+everything. Triggers are LEARNED through experience, not innate lists.
+
+THE DESIGN:
+1. POSITION: FIRST — before the attention gate (0.67), before
+   appraisal, before curiosity. Every moment passes through it.
+2. IT IS ARITHMETIC, NEVER A MODEL CALL. Instinct, not thinking (per
+   the calculated/intellectualized split). It runs every tick and must
+   cost almost nothing.
+3. WHAT IT ASKS: compare the moment against the Avatar's own THREAT
+   LESSONS — what its life has taught it to fear — and answer one
+   question: am I in danger? Fast and coarse; it does not identify
+   the thing, only that something may be coming.
+4. IF THREAT: the defensive state takes the whole mind at once —
+   feelings, urges and vital signals fire immediately (S1/S2/S3),
+   attention narrows to the threat, and NOTHING else gets a turn: no
+   curiosity, no idle wanting, no exploring. Then the SLOW READ does
+   the contextual appraisal (the existing OCC path) and either
+   sustains the state or RELEASES it. The release path is mandatory —
+   an Avatar that cannot clear a threat is paralysed.
+5. IF SAFE: the moment proceeds normally — attention, appraisal,
+   curiosity's two tests (interest, then gain), choosing.
+6. WHERE THE LESSONS COME FROM: born tilt from the ten (high
+   Volatility startles at more), then LEARNED. The earliest lessons
+   are the safety lessons; they weight everything after and persist
+   for life. NO AUTHORED THREAT LIST EVER (066 stands) — threats are
+   lessons, always.
+SUITE: a threat moment must suppress curiosity and idle goals
+entirely; the slow read must be able to release the state; two Roes
+differing in Volatility must show different thresholds on the same
+moment; an Avatar with no threat lessons must still be able to acquire
+one from experience; the gate must add no model call to the tick.
+Report.
