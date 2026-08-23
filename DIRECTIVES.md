@@ -4042,3 +4042,20 @@ differing in Volatility must show different thresholds on the same
 moment; an Avatar with no threat lessons must still be able to acquire
 one from experience; the gate must add no model call to the tick.
 Report.
+
+## Directive 204 — Curiosity flaw 5 ruled: prove it structurally, not by assertion
+
+Lonnie's ruling. The check existed to guarantee curiosity can reach
+unknowns nobody anticipated — an Avatar must never be limited to
+pre-approved mysteries (066). A constant asserting "there is no list
+here" proves nothing and can rot.
+
+THE FIX — REMOVE THE POSSIBILITY, NOT WATCH FOR IT (his standing law:
+fix by removing the cause): curiosity's computation takes ONLY the
+moment and lived experience as inputs. No category parameter exists
+for a list to attach to; there is nowhere to branch on a "kind" of
+uncertainty. Delete the asserting constant. Prove the shape with a
+structural check (inputs are moment + lived record, nothing else).
+
+If the code does not currently have that shape, say so plainly and
+report what would have to change — do not paper it. Report.
