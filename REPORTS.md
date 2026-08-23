@@ -23790,3 +23790,86 @@ fail them either. It said what it could not prove.
 - Still open from earlier reports and not touched here: **the clock runs at roughly 225x against
   069's ruling that the clock is real time**, and the six Rule Zero flaws on the curiosity drive,
   two of which carry decisions.
+
+## Directives 202, 205 and 203 — the laws recorded, and THE SAFETY GATE IS IN. Full suite green.
+
+Building in Lonnie's order. **Step 1 of 4 done.** Commits `9e38948`, `da48fb1`, `cb46e3a`,
+`41d22ba`, pushed. 26 suites in sequence, all green, TESTNET skipped as always.
+
+### 202 and 205 — recorded first, because they govern the rest
+
+**The Human Rule sits above Rule Zero** in CLAUDE.md and in HANDOFF.md, and it was applied to 203
+before a line was written: find the intent, ask how a human does it, check the science, put the
+worth in the being, no set numbers, check what exists, then Rule Zero it.
+
+**The five systems and the Persona as the soul** are recorded in both files, with the two-layered
+interests — GROWN and STRUCK — noted as design pending and not built.
+
+---
+
+## 203 — THE SAFETY GATE
+
+**`src/safety.js`, and it is first in the loop**: before the attention door, before appraisal,
+before curiosity. Every moment passes through it.
+
+**The science, cited in the file:** LeDoux's dual-pathway model. The LOW ROAD carries a coarse
+signal before conscious recognition — the jump before you have seen it is a garden hose. The HIGH
+ROAD does the contextual interpretation afterwards and either sustains the state or clears it.
+
+**It is arithmetic and it makes no model call.** A set intersection against what this life has
+taught it to fear. On a threat it answers BEFORE the embedding the attention gate would need, so a
+frightened Avatar is cheaper than a calm one rather than dearer. Proved by inspection of the whole
+file, not by a timing number that would only describe this machine.
+
+### The five proofs 203 asked for
+
+1. **A threat suppresses curiosity and idle goals entirely.** While a state is held: no curiosity,
+   no idle wanting, no exploring. The gate decides it; `watching.js` only reads the permission.
+2. **The slow read can release the state** — and release is the default, not the exception. A quiet
+   moment clears it. The paralysed case is refused by construction and has its own check.
+3. **Two Roes differing in Volatility show different thresholds.** Jumpy startles at 0.421 where
+   steady needs 0.579, and on the identical moment one fires and the other does not.
+4. **An Avatar with no threat lessons still acquires one from experience** — in ONE trial. It reads
+   no threat at all before that: **born safe, not born afraid.**
+5. **No model call in the tick**, as above.
+
+### Three things found while building, all in the code now
+
+**THE CURIOSITY DRIVE WAS RUNNING IN FRONT OF THE GATE.** In the live loop curiosity was computed
+before the appraisal, so a frightened Avatar went on wondering for a whole tick before anything
+told it not to. **203.5 gives the order and the loop now follows it**: gate, attention, appraisal,
+curiosity, choosing.
+
+**THE MOMENT WAS BEING WRITTEN DOWN TOO EARLY.** It was committed to memory before both the
+attention gate and the curiosity drive measured novelty against memory — so both were comparing the
+moment against its own note and finding it perfectly familiar. **The commit now happens last.** The
+curiosity half of this was fixed earlier; the attention half had been there all along.
+
+**CONFIDENCE WAS SQUARING THE HARM.** A new threat lesson was stored with its confidence set to the
+harm, and the read then multiplied the two — so nothing short of an almost-fatal moment could cross
+any startle bar. Confidence is now the lessons machinery's own `BORN_AT` ("believed, not certain"),
+already decided, and **it GATES rather than damps**: a lesson still believed carries its whole
+harm, a collapsed one carries none. **One trial produces a full-strength response, which is what
+fear conditioning is** — a flinch that grows in over several repetitions is not fear, it is an
+average.
+
+### Two design decisions, both argued from the science rather than convenience
+
+**THE THREAT STORE IS ITS OWN TABLE, not a column on `lessons`.** LeDoux's amygdala pathway is a
+separate memory system from the declarative one — a person can lose the memory of the accident and
+keep the flinch. Threat lessons are acquired in one trial where an ordinary lesson is distilled
+from a dream over many, and they are read on a path that must never touch the slow machinery.
+Added as **schema 7, additively**, on the existing ladder.
+
+**THE STARTLE THRESHOLD IS COMPUTED, NEVER SET** — 071 and 202.5. Volatility leads, all ten are
+read permissively per 072, and no number was chosen. **The direction was wrong on the first pass
+and measurement caught it**: in this build a rate is duration-like, so a high primary aspect gives
+a LOWER number because a volatile being reacts sooner. The bar moves with the rate, not against it.
+
+**NO AUTHORED THREAT LIST EXISTS AND NONE MAY** — 066 stands, and the suite checks the file for one.
+Every row in the store was put there by something that actually happened to this Avatar.
+
+### Next
+
+Step 2 of Lonnie's order: **curiosity's fixes — 201, 204, and flaw 6.** They depend on the gate's
+position, which is now settled, and on lessons being the comparison target.
