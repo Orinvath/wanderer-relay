@@ -4100,3 +4100,39 @@ CONSEQUENCES, recorded:
    to and found worth the effort kept alongside as its self-model
    (design pending).
 Record the definition. No implementation in this directive.
+
+## Directive 206 — THE INTEREST SYSTEM (proofed by Lonnie; decided; build after the queue)
+
+Design by the Director under the Human Rule, proofed by Lonnie. CC
+codes; no decisions remain. Builds AFTER the standing queue (order:
+203 safety gate -> 201/204 curiosity -> 200 clock/sleep -> model
+audit -> this).
+
+THE SYSTEM — two layers, one record:
+1. GROWN INTERESTS. When attention on a thing PAYS (a lesson gained,
+   enjoyment felt, curiosity satisfied), that thing's THREAD
+   strengthens. Threads deepen with understanding: each mastered
+   level makes the next graspable (the ball -> bounce -> material ->
+   chemistry ladder) — interest climbs simple-to-complex as the mind
+   grows. Threads that stop paying FADE. NO LIST of possible
+   interests exists anywhere, ever: the world supplies candidates,
+   attention selects, outcomes decide.
+2. STRUCK INTERESTS. The Persona carries a small set of DISPOSITIONS
+   — shapes of thing this being is tuned for (authored or seeded-
+   random at Genesis, per 136) — invisible in behaviour until the
+   world presents a match; on the encounter the thread is born
+   already deep. The soul layer doing what 205 defines.
+3. THE SELF-MODEL: one record in the Persona — each thread: depth,
+   pay-off history, grown-or-struck. Read by curiosity test 1 (is
+   this my kind of thing), by the offers model (worth of enjoyment /
+   discovery / expression), and shareable in future meeting designs.
+4. RATES ARE NOT SET NUMBERS (071): strengthen/fade speeds computed
+   from the ten; tuned by watched behaviour.
+5. RUT DEFENCE: none new — mood-temperature scattering plus the
+   inverted-U (a fully mastered thread stops rousing curiosity)
+   already answer it; assert both in the suite.
+SUITE: a paid thread must strengthen and an ignored one fade; a
+mastered thread must stop rousing; a disposition must be silent until
+matched and dominant after; two Roes must grow different interest
+maps in the same world; no interest list exists anywhere in code or
+data. Report.
