@@ -42,6 +42,38 @@ persona. CORE_PLAN.md, plan only, stop for approval.
 - Deliver reports the same turn; verify pushes land.
 - The judge never gets a persona.
 
+## THE HUMAN RULE — Directive 202, Lonnie's, law. APPLIED BEFORE RULE ZERO.
+
+The Human Rule FINDS the design; Rule Zero PROVES it. It runs first on every problem.
+
+1. FIND THE INTENT — not what the code does, what the thing was FOR. The ruling record holds it.
+2. ASK HOW A HUMAN DOES IT — walk it through a real person in a real situation.
+3. CHECK THE SCIENCE — the researched account almost always exists and is almost always better.
+4. PUT THE WORTH IN THE BEING, NEVER IN THE THING — nothing is interesting; the Avatar is interested.
+5. NO SET NUMBERS (071) — a constant is a decision nobody made.
+6. CHECK WHAT ALREADY EXISTS FIRST — most "new mechanisms" are existing ones misplaced.
+7. THEN RULE ZERO IT — flaws first, before a line is written.
+
+## THE FIVE SYSTEMS, AND THE PERSONA IS THE SOUL — Directive 205, Lonnie's, foundational
+
+An Avatar is five systems: Roe · Mind · PERSONA · Nervous System · Body.
+
+The TEN explain HOW a being reacts. LESSONS explain WHAT it learned. THE STORY explains what it
+MEANS. THE PERSONA holds what none of those account for — the unaccountable pull, the readiness
+the world eventually strikes, whatever makes a being THIS one rather than a competent instance of
+its aspects. Every model of personality hits the same residue; the Persona is the deliberate vessel
+for it rather than a pretence it does not exist.
+
+An Avatar without a Persona is fully functional and entirely generic. With one, it is someone.
+
+INTERESTS ARE TWO-LAYERED (design pending): GROWN — attention selects from what the world exposes
+it to and interest deepens with understanding; no list of possible interests is ever authored.
+STRUCK — a disposition the Persona carries, invisible until the world presents its match and
+unignorable after.
+
+The Persona is written once at Genesis, and the living record of what a being has attended to and
+found worth the effort is kept alongside it as its self-model.
+
 ## THE THREE STANDING RULES — Directive 046, Lonnie's, permanent and project-wide
 ## Binding on the director and the terminal equally.
 
