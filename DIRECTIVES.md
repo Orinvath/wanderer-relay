@@ -3908,3 +3908,25 @@ PERFECT — get the whole thing working end to end; tuning comes later
 from watched behaviour. Wire it, run the FULL suite in sequence
 (nothing after EFFECTS has been proved since the wiring went in), and
 report what is green and what is not.
+
+## Directive 200 — The clock is real; the bench has a slider; sleep is nature, not schedule
+
+Lonnie's rulings:
+
+1. TIME IN THE WORLD IS ALWAYS REAL TIME (069 stands). Remove the
+   multiplier from the world/product path — an hour is an hour.
+2. THE EMULATOR GETS A SPEED SLIDER as an overlay control, adjustable
+   on the fly (bench instrument only, never in the world). Its
+   current value shows on the overlay so nothing watched is ever
+   misread as real pace.
+3. SLEEP IS NOT PREDETERMINED. No Avatar has set sleep hours, set
+   pressure rate, or a required night. Per 071, the ten compute it:
+   sleep pressure builds at a rate derived from the aspects, and
+   SLEEPING IS AN ACT WITH OFFERS (recovery · consolidation) that
+   competes in the offers model like anything else — an Avatar sleeps
+   when resting outbids what else it wants. Some will sleep often,
+   some rarely, some perhaps never; all are lawful outcomes. Remove
+   any constant that assumes otherwise; report any that existed.
+Suite: two Roes with different aspects must show materially different
+sleep patterns over the same lived span; no hard-coded night length
+survives. Report.
