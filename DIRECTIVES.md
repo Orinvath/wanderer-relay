@@ -4138,3 +4138,10 @@ maps in the same world; no interest list exists anywhere in code or
 data. Report.
 
 ## Directive 206 — WITHDRAWN. Not approved by Lonnie. Do not execute any part of it.
+
+## Directive 206 — REINSTATED, proofed and approved by Lonnie
+
+The withdrawal above is void: Lonnie has proofed the interest system
+and approves it as written in the original 206 spec. Build it in queue
+order (after 203, 201/204, 200, and the model audit), exactly as
+specified there. Nothing changed.
