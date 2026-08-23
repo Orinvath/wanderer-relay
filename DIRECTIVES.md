@@ -3930,3 +3930,40 @@ Lonnie's rulings:
 Suite: two Roes with different aspects must show materially different
 sleep patterns over the same lived span; no hard-coded night length
 survives. Report.
+
+## Directive 201 — Curiosity's flaws ruled
+
+Researched and decided; the science is unanimous (Silvia's two-appraisal
+model; Berlyne's inverted-U; Kang/Baranes measured):
+
+1. FLAW 1 — coping potential is measured against WHAT IT HAS LEARNED.
+   Graspability = closeness of the moment to the Avatar's own lessons
+   (what it has actually made sense of), not a vocabulary check.
+   Interest peaks at new-but-graspable: "new and comprehensible things
+   are interesting; new and incomprehensible things are confusing."
+   Too little novelty = boredom, too much = confusion; only the middle
+   rouses curiosity. Intellect drives this appraisal; Openness drives
+   novelty — both must move for the drive to be alive.
+2. FLAW 2 — the tendency is EXPLORATION, not orient. The dictionary
+   already holds act:exploring = SEARCH. Exploration is going out to
+   see; orient is turn-and-look. If exploration cannot honestly ride
+   one of the five urges, report that — do not silently pick a
+   neighbour.
+3. FLAW 3 — the rouse threshold gets set from measurement: place it at
+   the middle of the measured novelty band on real moments (as the
+   0.67 attention gate was set), not before measuring. Report the band
+   and the chosen number.
+4. FLAW 4 — embed once per tick and pass the vector to both paths
+   (engineering, no decision).
+5. FLAW 5 — write the real test: an uncertainty of a kind nobody
+   listed must still rouse curiosity. Delete the constant that merely
+   asserts it.
+6. FLAW 6 — novelty must not be "have I written this sentence before":
+   compare against what the Avatar has ENCOUNTERED (moments, places,
+   host behaviour), not only its own generated descriptions. If the
+   current record cannot support that distinction yet, say so plainly
+   in the report rather than papering it.
+Suite: two Avatars differing in Intellect must show different
+curiosity on the same moment; a fully-familiar world rouses nothing;
+an incomprehensible moment rouses less than a graspable-new one.
+Report.
