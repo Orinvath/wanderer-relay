@@ -4136,3 +4136,5 @@ mastered thread must stop rousing; a disposition must be silent until
 matched and dominant after; two Roes must grow different interest
 maps in the same world; no interest list exists anywhere in code or
 data. Report.
+
+## Directive 206 — WITHDRAWN. Not approved by Lonnie. Do not execute any part of it.
