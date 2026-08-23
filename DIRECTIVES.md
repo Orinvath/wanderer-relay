@@ -3967,3 +3967,30 @@ Suite: two Avatars differing in Intellect must show different
 curiosity on the same moment; a fully-familiar world rouses nothing;
 an incomprehensible moment rouses less than a graspable-new one.
 Report.
+
+## Directive 202 — THE HUMAN RULE (law; joins CLAUDE.md above Rule Zero)
+
+Lonnie's law, derived from how every problem in this session was
+actually solved. Applied BEFORE Rule Zero on every problem: the Human
+Rule FINDS the design; Rule Zero PROVES it.
+
+1. FIND THE INTENT. Not what the code does — what the thing was FOR.
+   The ruling record holds it; read it before designing anything.
+2. ASK HOW A HUMAN DOES IT. Walk the behaviour through a real person
+   in a real situation. If the design cannot survive that scenario it
+   is wrong, however well it is built.
+3. CHECK THE SCIENCE. Find the researched account of that human
+   behaviour. It almost always exists and is almost always better
+   than anything we would invent.
+4. PUT THE WORTH IN THE BEING, NEVER IN THE THING. Acts have offers,
+   not purposes. Nothing is interesting — the Avatar is interested.
+   Whenever a property is found sitting on an object, move it into
+   the character.
+5. NO SET NUMBERS (071). Anything fixed becomes computed from the ten.
+   A constant is a decision nobody made.
+6. CHECK WHAT ALREADY EXISTS FIRST. Most "new mechanisms" are existing
+   ones misplaced. Search the build and the record before adding.
+7. THEN RULE ZERO IT. Stress-test the design, flaws first, before a
+   line is written.
+
+Place it in CLAUDE.md above Rule Zero and in HANDOFF.md. Confirm.
