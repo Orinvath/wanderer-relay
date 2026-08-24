@@ -4157,3 +4157,24 @@ shared (the doubled embed dies here). Report the audit table: call ·
 purpose · verdict (math / model-shared / model-removed) · cost before
 and after. The mind must live cheaply enough to run in real time for
 days (200).
+
+## Directive 208 — THE WATCHING: Lonnie's deliberate judgment of the living mind
+
+Everything is built; this is what it was for. Set up the watch for his
+eye:
+
+1. Fresh Roe, real time (200's law), the full mind — safety gate,
+   curiosity, offers, interests, sleep — all live. The Emulator page
+   with the speed slider overlay (bench-only) so he can compress or
+   sit with it as he chooses.
+2. Open it in Chrome on his desktop (he is home and has asked — 179's
+   law), one window, one line announcing it.
+3. The overlay shows what he needs to read a life: the ledger, the
+   current feeling and its intensity, what it chose and THE REASON
+   (the winning offer), interests as they form, the personality
+   read-out, and the speed control. Legend on the page (180's law).
+4. Nothing scripted, nothing fed, no bearings (the 147 law): the
+   truth of its state only.
+This is his on-sight judgment of the WHOLE MIND per 154's correction —
+only HIDING has ever passed; this is the rest. His eye rules. Report
+what he says.
