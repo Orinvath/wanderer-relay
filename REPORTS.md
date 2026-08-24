@@ -23873,3 +23873,97 @@ Every row in the store was put there by something that actually happened to this
 
 Step 2 of Lonnie's order: **curiosity's fixes — 201, 204, and flaw 6.** They depend on the gate's
 position, which is now settled, and on lessons being the comparison target.
+
+## Directives 201 and 204 — curiosity's flaws, all six. Full suite green (27 suites).
+
+**Step 2 of 4 done.** Commits `2e2c4cf`, `d2fbcb1`, pushed.
+
+### FLAW 1 — graspability is measured against WHAT IT HAS LEARNED
+
+The vocabulary check is gone. A lesson is by construction a thing this Avatar has actually made
+sense of, so graspability is **the share of the moment its lessons touch**. Nothing it has ever
+grasped touching this moment means the moment is not yet intelligible — however new it is, and
+that is confusion rather than interest.
+
+**Both appraisals are alive and separate now, which is the whole point of the fix:**
+
+```
+  same moment, two Avatars       sharp Intellect 0.413   ·   slow Intellect 0.226
+  Intellect moves graspability, and leaves the novelty reading untouched
+  Openness moves novelty,      and leaves the graspability reading untouched
+```
+
+**A being that has made sense of nothing yet finds nothing graspable, and is therefore not curious
+yet.** That is not a defect — it has nothing to build an interest on, and it is exactly Silvia's
+structure.
+
+### FLAW 2 — the tendency is EXPLORATION, and it rides none of the five urges
+
+`orient` is gone. The tendency is `exploration`, and **it is reported rather than substituted, as
+201.2 required**: the five the cord carries are toward · away · still · orient · excitement, and
+**every one of them is about a thing already in front of it.** Exploration is going OUT to see,
+which none of them says.
+
+The appraisal carries `ridesAnUrge: false` and **nothing sends it down the cord**, because sending
+it as one of the five would be the substitution the ruling forbids. **This needs a ruling: either
+the cord gains a sixth urge, or exploration reaches the body some other way.**
+
+### FLAW 3 — the threshold is MEASURED. Band and number, as asked
+
+Measured the way 142 set the attention gate: measure the band first, then take its middle. **14
+real moments of the kind this Avatar has, each against its nearest neighbour:**
+
+```
+  band     0.189 .. 0.553          middle  0.371          median  0.417
+  all:  0.189 0.189 0.223 0.297 0.297 0.303 0.303 0.417 0.417 0.431 0.439 0.449 0.503 0.553
+```
+
+**ROUSED_AT is now 0.371** — the middle of the band. It was 0.35, set before anything was measured,
+and it landed inside the band by luck rather than evidence. The measurement is kept in the code as
+`MEASURED_BAND` so the number can be argued with rather than merely trusted.
+
+**One honest caveat**: the threshold sits on the LEVEL, which is novelty times graspability, while
+the band above is a novelty band. So a moment crosses on novelty alone only when it is fully
+graspable. That is the two-appraisal structure working, but the measurement does not by itself
+justify the bar's position on the product, and saying otherwise would read more into it than it
+holds.
+
+### FLAW 4 — embed once per tick
+
+The tick embedded the same sentence twice: once for the recall that measures novelty, once to
+commit it. **It is embedded once and the vector handed to both.** `memory.recall` now accepts a
+vector it was given and behaves exactly as before when it is not.
+
+### FLAW 5 / DIRECTIVE 204 — proved structurally, not asserted
+
+`KNOWS_NO_GAP_TYPES` is deleted. **A constant cannot fail, so it proved nothing and could rot.**
+
+The shape is now true of the signature: `wonder(moment, lived, aspects)` — **there is no category,
+kind, type or class parameter for a list to attach to**, and the suite reads the signature to prove
+it. Nothing in the file branches on a kind of unknown: no registry, no taxonomy, no switch.
+
+**The real test is written:** invented words the Avatar has never met — *quincunx, petrichor,
+zoetrope* — rouse it exactly as a storm would, and two unknowns of utterly different kinds that are
+equally new and equally graspable **score identically, because nothing in the arithmetic can tell
+them apart.**
+
+### FLAW 6 — novelty against what it has ENCOUNTERED: SAID PLAINLY RATHER THAN PAPERED
+
+**The record CAN support the distinction and the Avatar's life currently cannot.**
+
+`memories` carries a `class` column: **Class B** is its own reflection, **Class C** is what a host
+actually gave it, moderated and consented. So "encountered" versus "what it wrote about itself" is
+a real, existing distinction in the store.
+
+**But in the watching session every memory is Class B** — its own description of its own state —
+because nothing else ever happens to it. There is no host, no arrival, no gift, no place visited.
+**Filtering the comparison to encounters would leave nothing to compare against at all, and novelty
+would read 1.00 forever.** That is worse than the flaw.
+
+**So the comparison target is unchanged and this is reported as 201.6 instructed.** The mechanism
+is right and the content is missing: it needs a life with something in it besides itself. It is the
+same finding as the empty-world one — an Avatar whose whole world is its own needs.
+
+### Next
+
+Step 3 of Lonnie's order: **the clock and sleep (200).**
