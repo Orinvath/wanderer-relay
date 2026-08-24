@@ -24114,3 +24114,90 @@ happened before. **It has not been investigated and it is not fixed.**
 
 203 · 201/204 · 200 · 207 — **all four done, all green.** Next in the order is **206, the interest
 system**, which is written and approved.
+
+## Directive 206 — THE INTEREST SYSTEM. Full suite green (30 suites).
+
+Commits `9e5cc76`, `c5d3e1b`, `d7a537a`, pushed. `src/interests.js`, schema 8, and INTERESTS in the
+runner at 22 checks.
+
+### GROWN — what it comes to care about
+
+A thread exists **only where something was actually encountered**, and it strengthens when
+attending to it PAID: the moment got through the attention door, or something was felt, or it
+answered what the Avatar was wondering about. **Attention alone is not interest — it has to come to
+something.** Threads that stop paying fade, so an interest has to keep earning its place, and a
+faded thread is never deleted, because what it once cared about is part of what it has been.
+
+### STRUCK — the Persona's dispositions, and 205's soul layer doing its work
+
+Fixed at Genesis from the Avatar's own seed, **derived rather than stored** — the same seed is the
+same someone. Measured:
+
+```
+  before the world presents it   nothing about it exists at all — no thread, no depth, no trace
+  on the encounter               born at 0.70, against a grown thread's first step of 0.120
+```
+
+**Invisible in behaviour until matched, and dominant after**, exactly as 205 describes it. Being
+struck does not require the encounter to have paid: **recognition is not a reward.**
+
+### THE LADDER, AND THE INVERTED-U — with no new mechanism
+
+**Depth raises graspability.** A thread already climbed makes the next level up comprehensible, so
+a being finds interesting a thing it could not have understood before it had climbed. Measured: the
+same moment reads 0.00 to a being with no thread in it and 0.45 to one half way up.
+
+**A mastered thread stops rousing.** Nothing left unknown there, so interest goes elsewhere on its
+own — Berlyne's inverted-U, and 206.5's rut defence is exactly this plus the mood-temperature
+scattering that already existed. **No new mechanism was added for it.**
+
+### TWO ROES, ONE WORLD
+
+The same five moments presented to both, in the same order:
+
+```
+  A:  RIVER 0.34 · STORM 0.21 · TREE 0.18        takes to things at 0.1303 a turn
+  B:  RIVER 0.27 · STORM 0.17 · TREE 0.15        and B at 0.1026
+```
+
+Different maps, and the difference traces to the ten and the seed — **nothing authored.** Rates are
+computed per 206.4 and 071: Openness widens what catches, Industriousness is what keeps returning.
+
+### NO LIST OF INTERESTS EXISTS — in code or in data
+
+**Not one subject is named anywhere in `interests.js`.** The dispositions are DRAWN from the
+Avatar's own language by its own Genesis seed rather than chosen, and every row in the store was
+put there because the world actually presented that thing. The world supplies the candidates,
+attention selects, outcomes decide.
+
+### THE SELF-MODEL, and who reads it
+
+One record: each thread's depth, its pay-off history, and whether it was grown or struck.
+
+- **curiosity's first test** reads depth — is this my kind of thing
+- **the offers model** reads it for what enjoyment, discovery and expression are worth. Measured:
+  singing scores 0.950 to a being that cares nothing for it and **1.710** to one with a deep thread
+  in it. **202.4 exactly — nothing is interesting; the Avatar is interested.**
+
+### One design decision, argued rather than assumed
+
+**The threads are their own table, not part of the core.** The core is written once at Genesis and
+its triggers refuse every update — which is right for what a being IS and wrong for what it has
+come to care about. So the Persona's Genesis half is derived from the seed and its living half has
+a table. Added as **schema 8, additively**, on the existing ladder.
+
+### Two things worth recording
+
+**A check of mine held a schema version NUMBER instead of the property it meant** — it asserted
+`user_version === 7` and 206's additive step broke it. The property is that the threat store is its
+own table and arrived additively, both of which stay true however far the ladder goes. **Same shape
+as the sleep count check 200 broke.** Pinning an incidental number is a way of writing a test that
+fails on correct work.
+
+**The local model stopped again mid-run** and seven suites reported ENVIRONMENT rather than passing.
+Restarted, re-run, green. That is the second time today; the suite is doing exactly the right thing
+by refusing to pass what it could not prove.
+
+### The queue
+
+203 · 201/204 · 200 · 207 · 206 — **all built, all green.** Nothing is left in the standing queue.
