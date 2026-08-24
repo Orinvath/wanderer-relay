@@ -23967,3 +23967,76 @@ same finding as the empty-world one — an Avatar whose whole world is its own n
 ### Next
 
 Step 3 of Lonnie's order: **the clock and sleep (200).**
+
+## Directive 200 — the clock is real, sleep is nature. Full suite green (28 suites).
+
+**Step 3 of 4 done.** Commits `d71fa95`, `4a20e3d`, `145cc22`, pushed.
+
+### 200.1 — TIME IN THE WORLD IS REAL TIME
+
+**The multiplier is gone from the world path.** It was 0.25 life-hours per four-second tick — about
+**225x**, so an hour of yours was nearly nine days of its life and its whole day passed in four
+minutes. Elapsed hours now come off the wall clock: `elapsed / 3600e3`. **An hour is an hour**, and
+069 stands as written.
+
+### 200.2 — the bench speed is an instrument, and it says so
+
+The Emulator has a **speed slider in the overlay, adjustable while it runs**. Its label reads
+**"real time"** at 1 and **"×N — NOT real pace"** at anything else, so nothing watched can be
+misread. It moves the watching session's own clock and nothing else: neither the ledger nor the
+sleep clock has ever heard of it, and the suite checks both files for the word.
+
+### 200.3 — SLEEP IS NOT PREDETERMINED. Two constants removed, and they are named
+
+| removed | what it was doing |
+|---|---|
+| `SLEEP_DURATION_HOURS: 6` | **a required night.** Every Avatar slept exactly six hours because a number said so, whatever it was like |
+| `SLEEPY_AT: 0.7` | **a threshold at which sleep became wantable.** There is nothing left for it to do |
+
+`wouldWake` is gone with them — **nothing tells an Avatar the night is over.**
+
+**SLEEPING IS AN ACT WITH OFFERS and it competes like anything else.** Its offers are recovery and
+consolidation, both worth exactly what the pressure is worth, so as a being tires sleep simply
+becomes worth more than everything else. Measured:
+
+```
+  rested, and a starved need     ->  approaching wins
+  worn out, the SAME ledger      ->  sleep wins
+```
+
+**Waking is the same rule read backwards**: it wakes when sleeping stops outbidding what else there
+is to want. And the discharge rate is **the being's own characteristic time — the same one it tires
+over**, rather than a second invented number.
+
+**What remains is an ANCHOR** (`SLEEP_ANCHOR_HOURS: 16`), which is the shape every rate in this
+build has under 071: a midpoint figure the ten then move. No Avatar sleeps at sixteen hours; a
+midpoint one is fully tired by then and a different one is not.
+
+**Two Roes over the same week, nothing scheduled:**
+```
+  A slept 149h across 10 spells      B slept 144h across 12
+  A tires at 1.057 of the midpoint rate, B at 0.784
+```
+
+### Also done here, because sleeping could not compete without it
+
+**The watching session now offers the goal-former every act the offers model knows**, not just
+HIDING. An act does not need a built behaviour to be wanted, and an Avatar that could only ever
+want one thing was the reason nothing it did meant anything.
+
+### TWO THINGS FOUND, BOTH REPORTED RATHER THAN TUNED AWAY
+
+**1. It sleeps about 89% of the week.** That is a lawful outcome under 200 and it is what an empty
+world produces: a ledger sitting comfortable, nothing to be curious about, nobody there — so
+recovery is the most valuable thing available almost always. **The model is behaving; the life is
+empty.** Same finding as the empty-world one, arriving from a different direction.
+
+**2. A test fixture lied to me and the failure caught it.** Handing the mind no arousal made the
+being maximally BORED, which made `time-passing` worth everything, and it rested forever without
+ever sleeping. Arousal is now derived from the ledger in the fixture exactly as `nerves.js` derives
+it. **Worth recording because the same mistake in a caller would produce an Avatar that never
+sleeps and nobody would know why.**
+
+### Next
+
+Step 4 of 4: **the model audit.**
