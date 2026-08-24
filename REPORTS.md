@@ -24201,3 +24201,88 @@ by refusing to pass what it could not prove.
 ### The queue
 
 203 · 201/204 · 200 · 207 · 206 — **all built, all green.** Nothing is left in the standing queue.
+
+## Directives 208 and 209 — the watch is open on his screen. Full suite green (31 suites).
+
+Commits `7da4801`, `c692179`, `9793502`, `2f0e8c2`, pushed. Reopened per 179.
+
+### 208 — THE WATCHING
+
+Fresh Roe, **real time** (200's law), the whole mind live: safety gate, curiosity, offers,
+interests, sleep. The overlay carries what 208.3 asked for — the ledger, the current feeling and
+the marks it speaks with, **what it chose AND the reason (the winning offer)**, interests as they
+form, the personality read-out, and the speed control. Legend on the page per 180.
+
+**Nothing scripted, nothing fed, no bearings.** The legend says so on the page in those words.
+
+### A BUG CAUGHT BEFORE HIS EYE REACHED IT
+
+The first watch produced **zero moments in ten ticks** — the tick was throwing every time. The
+goal-former was reading what the Avatar cares about out of the moment's own text, and **the moment
+is built AFTER the choosing**, because it has to say what was chosen. It was asking for something
+that did not exist yet.
+
+What it cares about is a standing fact about the being rather than about this instant, so the last
+thing it actually encountered is the honest answer and the only available one.
+
+**Worth recording: no suite caught this.** BRAIN exercises the brain directly and nothing runs a
+whole `Watching` tick, so a change that broke every tick passed 30 green suites. The watch itself
+found it.
+
+### WHAT HE WILL SEE, and one number that is mine
+
+It is choosing **singing, for expression** — not hiding, which is the first time the Avatar has
+wanted something other than the one act it used to have. Feeling distress, saying GRIEF. Gate quiet
+with its startle bar at 0.51. Sleep pressure climbing at real pace.
+
+**FLAGGED FOR HIS JUDGMENT: the interest threads reach full depth in about forty seconds.**
+LONELINESS and SONG were both at 1.00 after ten ticks. Each encounter is worth about 0.12 and the
+tick repeats every four seconds, so anything it keeps meeting maxes out almost at once — and a
+mastered thread stops rousing curiosity, so the drive goes quiet with it. **206.4 says these rates
+are tuned by watched behaviour. This is exactly the number his eye is meant to set, and I have not
+touched it.**
+
+---
+
+### 209.1 — THE BENCH HAS A MOUTH
+
+A **"present" toggle** and a **text line** in the overlay. What he types is queued and taken up by
+the next tick **as a moment** — through the safety gate first, then the attention door, then
+appraisal, exactly like everything else. Nothing about it is privileged except that it happened.
+
+**Proved live before it went on his screen:**
+
+```
+  you : hello — are you there?
+  it  : (no answer — singing)
+```
+
+**It heard him and chose to sing instead**, and that is recorded as what it is rather than as a
+missing answer. 209 said it may ignore him; it did, on its first try, because singing outbid
+speaking on its own offers.
+
+- **It only speaks if SPEAKING or APPROACHING won the moment.** An Avatar that chose hiding stays
+  quiet however much is typed at it.
+- **The words come from the real speech path** — `Mind.speak`, on the character model, out of what
+  it actually holds. No second implementation, nothing canned.
+- **A threat held stops it answering at all.** The gate suppresses it, not a rule in the page.
+- **Whether somebody is here changes what the world can supply**, so the offers model values
+  relatedness and solitude differently the moment the toggle moves.
+
+### 209.2 — THE GLYPHS
+
+**Already built and already live** — the drift went in with the waking wonder and was never
+reverted; what was reverted was an earlier attempt at the same thing. The dream and the waking
+wonder render through **one display**, per his ruling that they look exactly the same.
+
+Proved against the real sheets: **every mark the mind can put on the page is one of the 402**, each
+resolves to a real box in a real sheet, all nine sheets are present, and the page **draws the
+artwork rather than a font** — the real ink, cut live out of the sheet by the box the index
+measured. A word the language does not hold cannot reach the page at all.
+
+### Standing
+
+HOSTCHANNEL is 17 checks. **31 suites, all green.** The exchange log on his screen starts with the
+two lines from my own test — those are mine, not its.
+
+**His eye rules. Awaiting his verdict on the whole mind.**
