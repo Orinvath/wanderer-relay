@@ -4145,3 +4145,15 @@ The withdrawal above is void: Lonnie has proofed the interest system
 and approves it as written in the original 206 spec. Build it in queue
 order (after 203, 201/204, 200, and the model audit), exactly as
 specified there. Nothing changed.
+
+## Directive 207 — THE MODEL AUDIT (flaw 4's full shape, Lonnie approved)
+
+Audit every language-model and embedding call in the tick path and the
+mind's systems. For each: name it, state what it is for, and classify
+per Lonnie's law — INVOLUNTARY/INSTINCT = ARITHMETIC, only genuine
+MEANING work may use a model. Anything that can be arithmetic becomes
+arithmetic. Whatever truly needs a model runs ONCE per tick and is
+shared (the doubled embed dies here). Report the audit table: call ·
+purpose · verdict (math / model-shared / model-removed) · cost before
+and after. The mind must live cheaply enough to run in real time for
+days (200).
