@@ -24040,3 +24040,77 @@ sleeps and nobody would know why.**
 ### Next
 
 Step 4 of 4: **the model audit.**
+
+## Directive 207 — THE MODEL AUDIT. One model call per tick. Full suite green (29 suites).
+
+**Step 4 of 4 done — the queue is clear.** Commit `bd8e9b4`, pushed.
+
+### The audit table
+
+| call | what it is for | verdict | before | after |
+|---|---|---|---|---|
+| `watching` — embed the moment | the moment's vector: novelty, surfacing, storage | **model, shared** | 1 | **1** |
+| `memory.recall` — embed the query | semantic similarity for curiosity's novelty | **model-removed** | 1 | 0 — takes the vector |
+| `surfacing.surface` → `recall` — embed | the attention gate's own read | **model-removed** | 1 | 0 — takes the vector |
+| `memory.commit` — embed for storage | the memory's stored vector | **model-removed** | 1 | 0 — the same vector |
+| the safety gate | am I safe right now | **math** | 0 | 0 |
+| curiosity's two appraisals | interest | **math** | 0 | 0 |
+| the offers model + goal-former | what it wants | **math** | 0 | 0 |
+| the needs ledger, nerves, sleep clock | how it is | **math** | 0 | 0 |
+| the dictionary, OCC, lessons | what it means, what it says | **math** | 0 | 0 |
+| `mind.generate` — drafter · reviser · persona · farewell | **genuine meaning work** | model, kept | — | — |
+| `privacy.generate` — the judge | **genuine meaning work** | model, kept | — | — |
+
+**MEASURED LIVE, by wrapping the real Model class — no doubles:**
+
+```
+  before 207      1.80 embeds per tick        27.0 minutes of model time a day
+  after  207      1.00 embed  per tick        15.0 minutes of model time a day
+  language-model generations in the tick path:  0.00 per tick
+```
+
+One embed measured at **41.7 ms** — about **1% of a tick**. At a four-second tick that is 21,600
+ticks and **fifteen minutes of model time in a twenty-four-hour day**, which answers 200's
+requirement: the mind lives cheaply enough to run in real time for days.
+
+### Where the doubling actually was
+
+`surfacing.formulate()` returns the moment **verbatim**, so the attention gate was embedding a
+string the tick had embedded moments earlier — the same model, the same sentence, twice a tick,
+every tick, forever. 201.4 killed one of the three; this killed the last.
+
+The vector is made once at the top of the brain block and handed to all three consumers. **Every
+one of them still embeds for itself when handed nothing**, so the sharing is an option and never a
+requirement, and no existing caller changed behaviour.
+
+### Lonnie's law, applied
+
+**INVOLUNTARY / INSTINCT = ARITHMETIC.** Ten of the mind's systems — safety, curiosity, offers,
+goals, needs, nerves, sleep, dictionary, OCC, lessons — **reach no model at all**, and the suite
+checks all ten files for a call. The only things left holding a model are the ones doing genuine
+meaning work: putting words together, and judging words.
+
+**Nothing that could be arithmetic is still using a model.** The remaining embed is semantic
+similarity, which is meaning work by definition and cannot be arithmetic — but it now happens once.
+
+---
+
+## ONE THING TO FLAG: PHASE 3 IS FLAKY, AND IT IS NOT THE AUDIT
+
+The first full run after this change **failed PHASE 3 on two checks** — the travelling-context
+count, and the departure buffer. **The identical code then passed 80/80 twice in a row**, standalone
+and in the full suite.
+
+I chased it far enough to be sure of one thing and no further: **it is not caused by this change,**
+because the passing runs were the same commit. Both failing checks depend on what a **real model
+actually produced** on that run — how many memories a reflection admitted — so a run-to-run
+difference in the model's output is the obvious suspect.
+
+**I am reporting it rather than calling the suite green and moving on.** A test that passes two
+times in three is not a passing test, and the next person to see it fail deserves to know it has
+happened before. **It has not been investigated and it is not fixed.**
+
+### The queue
+
+203 · 201/204 · 200 · 207 — **all four done, all green.** Next in the order is **206, the interest
+system**, which is written and approved.
