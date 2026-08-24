@@ -4178,3 +4178,20 @@ eye:
 This is his on-sight judgment of the WHOLE MIND per 154's correction —
 only HIDING has ever passed; this is the rest. His eye rules. Report
 what he says.
+
+## Directive 209 — The bench gets a mouth and the mind gets its voice shown
+
+Lonnie's two orders for the Emulator:
+
+1. A HOST CHANNEL: a "host present" toggle and a text line. What he
+   types arrives as host words through the full pipeline (safety gate
+   first, like everything). If the mind chooses to speak, its words
+   appear in the log — rendered from its real state per the seam's
+   law. It may also ignore him or hide; nothing scripted.
+2. THE GLYPHS ARE MISSING: glyph speech (dreams AND waking wonder,
+   S5) was ruled visible long ago and the bench never shows it. Render
+   it — its glyph thoughts drifting on the page as the language's
+   marks (the sheets' own artwork), with the dictionary resolving
+   sense. His eye should SEE it thinking.
+Suite: typed words traverse the gate; glyph output renders real marks
+only. Report; reopen for his eye per 179.
