@@ -24424,3 +24424,107 @@ INTEGRATION is 42 checks, and it caught a real one: a later edit of mine had del
 and left the page calling a function that no longer existed.
 
 **His eye rules. Reopened for his verdict.**
+
+---
+
+## DIRECTIVE 213 — the whole-mind rule zero: three structural failures, fixed
+
+Built in the order given, 1 → 2 → 3.
+
+### FIX 1 — ACTS HAVE CONSEQUENCES
+
+`advance()` — the clock — was the **only writer to the three needs in the entire build**. Nothing an
+Avatar chose was ever worth anything to it and every need it had could only fall. That is learned
+helplessness by construction, and it is what held the bearing negative and pinned it in grief.
+
+A realized act now moves its **own offer sources** — 197's table, exactly those, arithmetic only.
+There is no reward number anywhere in the build: what an act does is what it offered.
+
+| offer | what completing it does |
+|---|---|
+| expression / self-soothing | eases what it is feeling **badly**, and only that |
+| competence / practice | the doing itself is the gain |
+| relatedness / nearness | **only with somebody actually there** |
+| recovery / consolidation | sleep's own, untouched |
+
+Every step passes through **`impact()`** — the same aspect gating every other event in this build
+goes through — so the same act moves two Avatars by different amounts and no constant lands raw on
+the ledger. `STEP` and `EASE` are the only magnitudes and both are **[OURS, PROVISIONAL]**.
+
+Proved: an Avatar alone that sings takes its distress from **0.80 → 0.566** and moves no need;
+`play` grows competence from **-4 → -3.276**; **every** act in the table raises relatedness by
+exactly nothing with nobody there; with somebody there, only the acts that offer nearness do.
+A good feeling is never flattened by soothing, and a feeling is never deleted — having felt
+something is not undone by doing something about it. The sign comes from **OCC's own record**, never
+from the name of the feeling.
+
+### FIX 2 — THE WORLD SUPPLIES MOMENTS
+
+Every moment this mind ever had was a description **of itself**. It stood in a world that never once
+spoke to it, so every moment resembled every other, novelty read zero from the first tick, and
+curiosity could not fire even in principle. A mind with nothing coming in is not a quiet mind. It is
+a starved one.
+
+`worldChanges()` compares what the world holds **now** against what it held last tick and reports the
+difference — 080's law, meaning attaches to the change. **No event table, no schedule, no randomness
+anywhere in that function.** A changed world **speaks first**; a typed line still follows in the same
+moment rather than being swallowed, because a line typed and then dropped would be a thing that
+happened and went unheard. With no change and nothing said it carries its state exactly as before.
+
+**What this bench can actually change today:** somebody arriving and leaving, it falling asleep and
+waking, it turning to a different act — each said in **his own marks**, through the dictionary rows
+that exist (`custody:arrival`, `custody:departure`, `sleep:asleep`, `sleep:waking`, `act:*`).
+
+**FLAGGED — and it is a real gap, not a refusal.** 213 also names *light moving, music starting and
+ending, and a world loading*. **This bench has no source for any of them.** There is no stage here —
+`cover` is 0 and nothing sets it. Those changes are not detected **because they do not happen**,
+rather than being fabricated so the list looks complete. When a stage exists they arrive by exactly
+the same path: a field moves, and the difference is the moment.
+
+### FIX 3 — THE VOICE SPEAKS FROM THE VARIABLES
+
+The voice was answering out of nothing. It received a prompt, a placeholder core and a handful of
+lessons — and **not one** of the variables the rest of the mind spends every tick computing. Whatever
+came back was the model's invention with the mind's name on it, which is precisely what the FAtiMA
+seam exists to forbid.
+
+`renderNow()` is **template-only** and every line in it is a value something else computed:
+
+```
+What you are feeling right now: distress (0.62), hope (0.19)
+What you are doing: singing. You chose it for the expression it offers.
+How you are doing: your relatedness is very low; your competence is middling;
+                   your autonomy is full.
+You are curious about: STORM, RIVER.
+What you hold yourself to:
+- Never leave somebody alone with a fright.
+What has been said between you, most recent last:
+them: are you there?
+you: (said nothing)
+What is around you: SONG, LONELINESS.
+What just changed: somebody arrived.
+```
+
+The sketch goes into the system slot as **who it is**, replacing the placeholder (a being with no
+soul still says it has none — the honest answer for one). The needs are banded off the scale rather
+than worded per need. And the system text shuts the seam: *answer only out of what is listed above;
+nothing else is known to you.*
+
+**AND SPEAKING MAY INITIATE.** When speaking wins the moment with somebody there and nothing was
+heard, it speaks **first** — the same call, the prompt built from its own state. An Avatar that chose
+otherwise stays silent exactly as before: the act still had to win on its own offers, and a held
+threat still stops it. Speech it began itself is recorded as **unprompted**, because that is a
+different thing from an answer.
+
+### Standing
+
+**LIFE is 44 checks**, all green. One of them was mine and wrong — it demanded an empty record render
+nothing while another demanded it say *"nothing in particular"*; the check was corrected, not the
+code.
+
+**33 suites, all green on the finished tree** — everything that ran, passed; TESTNET is the only skip.
+The full suite ran green after FIX 1. **Honest note on method:** I began FIX 2 while that run was
+still going, so it is not a clean isolate of FIX 1 — the authoritative run is the one after all three,
+reported below.
+
+**His eye rules. Reopened for his verdict.**
