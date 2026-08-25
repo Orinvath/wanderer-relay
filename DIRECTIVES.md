@@ -4531,3 +4531,46 @@ Suite: no model call reachable from the speech path; every rendered
 sentence traces every slot to a computed field; the eight acts each
 render from their family; two seeds produce different phrasings of
 one state. Report with the complete template text for his proofing.
+
+## Directive 217 — THE THINKING LOOP: a mind thinks before it gets a world
+
+Lonnie's ruling: a mind does not require a world to think. It has a
+language; thinking IS that language used inwardly (Vygotsky — inner
+speech as consciousness speaking to itself; the mind-wandering
+literature — stimulus-independent thought runs on memories
+reverberating back into language, carried by feeling; cite both).
+THE BENCH GETS NO WORLD until the mind passes the thinking test —
+a world before thought only complicates the diagnosis.
+
+THE LOOP (no model call anywhere in it):
+1. When no outer moment arrives (no host line, no world change), the
+   mind MAKES ITS OWN MOMENT from one of three sources:
+   a. A SURFACED MEMORY — the existing surfacing machinery; joins the
+      rotation only once memories exist
+   b. ITS OWN STATE — the strongest current feeling or lowest need,
+      said in dictionary words (the state-word table)
+   c. CURIOSITY'S OPEN QUESTION — the current target, if roused
+   Selection among available sources: seeded weighted draw, biased by
+   feeling intensity and recency of surfacing; arithmetic only.
+2. THE INNER SENTENCE IS THE TICK'S MOMENT. It enters the same
+   pipeline as any moment — safety gate, attention door, appraisal —
+   so a THOUGHT can cause a FEELING, and the feeling biases the next
+   thought. Chains form and are real, never scripted.
+3. THE BOOTSTRAP (a newborn has no memories): sources b and c are
+   present from tick one — body, state, soul dispositions, and the
+   bench's own stillness (the dictionary owns those words). First
+   thoughts are a baby's thoughts; FELT thoughts commit as its FIRST
+   MEMORIES; memories then join rotation. The loop seeds itself.
+4. VISIBLE: inner speech renders as the existing glyph drift — the
+   watcher sees it think. Spoken speech stays 216's machinery,
+   separate; thinking is not talking.
+5. THE TEST (his acceptance): no world, no host — the glyph chains
+   must follow sensibly from its state and past: grief-chains when
+   lonely, wonder-chains when curious, memories resurfacing and being
+   re-felt, a newborn beginning from I-am/quiet/alone and growing
+   richer as memories accumulate. When it passes HIS EYE on this, and
+   only then, it has earned a world.
+Suite: a fresh mind produces inner moments from tick one; a thought
+must be able to move a feeling (measured); chains differ by seed and
+by soul; no model reachable from the loop; sources rotate as
+available. Report and reopen for his eye (179).
