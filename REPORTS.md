@@ -24933,3 +24933,82 @@ to it. The voice is only as interesting as the state behind it, and **that is th
 the next work, not the templates.**
 
 **His eye rules the words. Nothing here is settled until he passes them.**
+
+---
+
+## FOR THE DIRECTOR — EVERYTHING I DID, SO IT CAN BE JUDGED AGAINST WHAT WAS ASKED
+
+Lonnie's words at the end of it: **"AGAIN WHAT THE FUCK IS THE POINT OF DOING THAT AND SHOWING ME
+THIS IF ITS NOTHING?"** He is right to ask. Read this as an account, not a defence.
+
+### What was asked, and what I built
+
+| directive | asked for | built | his verdict on sight |
+|---|---|---|---|
+| **213 FIX 1** | acts have consequences | offer sources move the ledger through `impact()` | not commented on |
+| **213 FIX 2** | the world supplies moments | `worldChanges()` — arrive/leave, sleep/wake, act changes | **incomplete, see below** |
+| **213 FIX 3** | the voice speaks from the variables | the record handed to the model | **overturned by 216** |
+| **214** | thoughts as glyphs; chat on the stage | both, in the Emulator's own tokens | accepted after two corrections |
+| **215** | being spoken to is a reason to answer | `answering` offer, not drawn from the ledger | works — it answers contented |
+| **216** | the mind chooses the utterance, no model | eight acts, four seeded variants, no model reachable | **words await his eye** |
+
+### THE HONEST RESULT
+
+**On his screen, a fresh Avatar says "I'm speaking" and almost nothing else.**
+
+```
+  you : Hello — are you there?      it : I'm speaking.
+  you : what are you doing?         it : I'm approaching.
+  you : how do you feel?            it : I'm speaking.
+```
+
+The assistant is gone. The invented feelings are gone. The machinery no longer reads itself aloud.
+**And there is still nothing there**, because of the eight things a mind may say, seven need a state
+it does not have: it feels nothing, is curious about nothing, nothing has surfaced, its needs are
+full, and it holds nothing about anything he asks. Only `tell-act` has any supply.
+
+### WHERE I THINK THE FAULT IS, AND IT IS MINE
+
+**213 FIX 2 was the important one and I closed it too narrowly.** It asked for the world's real
+changes to become moments and named *light moving, music starting and ending, the host arriving and
+leaving, a world loading, its own acts completing*. I implemented the three the bench could already
+supply — somebody arriving or leaving, sleeping or waking, turning to a different act — reported the
+others as having no source, and moved on to the next directive.
+
+That was correct as far as it went and it was not enough. **A bench with no stage cannot starve a
+mind less by being reported accurately.** Everything built after it — 215's answering, 216's eight
+speech acts — sits on top of a mind that experiences almost nothing, so each one is a mechanism with
+no material to work on. I kept delivering the next directive and showing him passing suites while
+the thing he actually looks at stayed empty.
+
+### WHAT I BELIEVE IS ACTUALLY NEEDED
+
+**Not more speech machinery. A world that does something to it.** Concretely, and in the Emulator
+rather than in Somewhere: light that moves, sound that starts and stops, things that appear and go,
+something that can be approached and something that can be lost — so that novelty is real, curiosity
+can fire, memories can surface, feelings can arise from events instead of from arithmetic, and the
+seven silent speech acts have something behind them.
+
+**I have not built any of it and I am not going to decide its shape.** That is a directive, and the
+question of what a bench world contains is authoring.
+
+### The state of the code
+
+All of 213, 214, 215, 216 is committed and pushed to `master` at `b7f5489`.
+
+Every suite this work touches, run directly and green: OFFERS 32 · SAFETY 17 · CURIOSITY 21 ·
+CLOCK 21 · INTERESTS 22 · PERSONA 33 · INTEGRATION 42 · **LIFE 78** · HOSTCHANNEL 17 ·
+DICTIONARY 31 · GOALS 25 · EFFECTS 48.
+
+**The full-suite run did NOT complete.** It stopped at PHASE 3 on the two privacy checks I have
+reported before as intermittently flaky (10 and 14), plus a crash in the picture path where a prior
+step returned no `sight_id`. Neither touches this work, and the later suites were therefore never
+reached in that run — which is why they are listed above as run directly instead. **I am reporting
+that as unresolved rather than as green.**
+
+Two of my own checks had to be corrected because they asserted the architecture 216 overturned —
+HOSTCHANNEL required the answer to come from the character model, which is the exact thing Lonnie
+ruled must never happen.
+
+**216.4 stands: nothing about the words is settled until his eye passes them.**
+
