@@ -4492,3 +4492,42 @@ speaking wins must produce speech; a hiding Avatar stays silent.
 
 Fix order: 1, 2, 3. Full suite in sequence after each. Report per
 fix, reopen for his eye after all three (179).
+
+## Directive 216 — THE VOICE IS THE MIND'S: no model in the last step, eight speech acts
+
+Lonnie ruled both open questions. The LLM never surfaces — and now it
+never can, because it is no longer there.
+
+1. NO MODEL IN THE FINAL STEP. Speech is ASSEMBLED BY TEMPLATE, the
+   sketch() precedent exactly: seeded slot variation per Avatar, no
+   model call anywhere in the speech path. Surprise comes from WHAT
+   is said — the states genuinely vary — never from prose. The
+   character-model switch question dies with this; qwen stays for the
+   technical roles only (lesson proposal etc.), never the voice.
+2. EIGHT SPEECH ACTS — the closed set of kinds a mind may say, each a
+   template family reading ONLY computed fields:
+   GREET      host arrives; Politeness/Enthusiasm shape warmth
+   ANSWER     what was heard, answered from what it actually holds
+              (memories, lessons, its state) — never invented
+   TELL-STATE its feeling or need, in dictionary words
+   TELL-ACT   what it is doing + the winning offer as the reason
+   ASK        curiosity's current target, as a question to the host
+   SHARE      a surfaced memory or lesson, offered
+   DECLINE    the refusal with its reason (056)
+   PART       host leaves
+3. THE MIND PICKS THE ACT: speaking having won the moment, WHICH
+   speech act is chosen by the same offers machinery (answering when
+   something waits unanswered; asking when curiosity is roused;
+   telling-state when feeling runs high; greeting/parting on the
+   host's own arrival and leaving; sharing when a memory surfaced;
+   declining when it declines). No new mechanism — the existing
+   scoring over a small closed set.
+4. TEMPLATE FAMILIES: 3-5 seeded variants per act so two souls do not
+   speak identically; the Persona's speech slots (212.A3) later tilt
+   phrasing per being. Variants are OURS to write — ship the full
+   template text in the report for Lonnie's proofing; nothing goes
+   live until his eye passes the words.
+Suite: no model call reachable from the speech path; every rendered
+sentence traces every slot to a computed field; the eight acts each
+render from their family; two seeds produce different phrasings of
+one state. Report with the complete template text for his proofing.
