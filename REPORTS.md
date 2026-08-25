@@ -25102,3 +25102,94 @@ path. **Unresolved, not green.**
 **217.5 is his test and only his: no world, no host, and do the chains follow sensibly from its
 state and its past. It is on his screen. It has not earned a world until he says so.**
 
+
+---
+
+## DIRECTIVE 218 — COMPREHENSION. Built. **Reopened for his eye.**
+
+### The gap his screenshot named
+
+Every reply came back TELL-ACT — *"I'm speaking"*, *"I'm approaching"* — because **nothing anywhere
+understood the line he typed.** The mind was choosing what to say with no idea what it had been
+asked. 216 gave it eight things it may say and no way to know which was called for.
+
+### What it does now, live
+
+```
+  you : hello host                you : are you happy?
+  it  : There you are.            it  : I'm alright.
+
+  you : zebra quantum foobar      you : you are my friend
+  it  : I don't know those words. it  : I'm speaking, that's all.
+```
+
+### 218.1 — RESOLVE
+
+Each heard word matched against his 402, case-folded, with a simple plural and inflection strip and
+**nothing cleverer, because a stemmer that guessed would be faking.** Words it does not own resolve
+to nothing and are **reported as unread**, never quietly dropped. No model, and none reachable.
+
+### 218.2 — CLASSIFY, and a correction worth recording
+
+**What a line is about comes from the language's own organisation, not a list written by me.** My
+first attempt classified by the dictionary's `say` words — JOY, LONELINESS, SONG — and understood
+almost nothing, because **a person types "happy", not "JOY"**. Those marks are what it *speaks*
+with, not the whole of what it can recognise.
+
+His sheets are already sorted by what things **are** — *emotion and inner state*, *action and
+motion*, *identity and people* — so a line carrying any mark off the emotion sheet is a line about
+how it feels, whatever mark that is. The language decides and nothing is enumerated here.
+
+| line | reads as | and it |
+|---|---|---|
+| are you happy? | **about-state** | answers from the ACTUAL ledger and feelings |
+| do you want to rest? | **about-doing** | gives the real act and the reason that won |
+| hello host | **greeting** | greets back |
+| you are my friend | **told** | appraises it as experience |
+| zebra quantum foobar | **unresolved** | *"I don't know those words."* |
+
+### 218.3 — THE RESOLVED MEANING IS THE MOMENT
+
+Being asked *"are you happy?"* while grieving **feels like something**, so what it understood runs
+the gate, the attention door and the appraisal **before anything is said back**, and the answer comes
+out of the felt truth. Proved: a grieving mind asked if it is happy answers *"There's distress in me
+right now."*; the same mind content answers *"I'm alright."* **The question never supplies the
+answer.**
+
+A line it could not read still happened to it — somebody spoke and it could not follow — and the
+moment records that rather than the words it failed on.
+
+**And being told something moves it.** Somebody present taking the trouble to tell it something is
+the plainest relatedness there is, and it lands through the same `impact()` gating every other event
+passes: **+0.60 with somebody there, nothing at all with nobody there.**
+
+### 218.4 — THE HONEST LIMIT, RECORDED IN THE FILE
+
+**Comprehension is vocabulary-bound.** It understands exactly what its language holds and not one
+word more. *"are you afraid?"* does not resolve, because FEAR is the mark and AFRAID is not.
+Conversations with it start tiny and grow as the language grows. **That is a child, and it is the
+design rather than a shortfall of it** — a mind that appeared to understand everything would be the
+model wearing its name again, which is what 216 was written to end.
+
+**And it never fakes it.** Honest ignorance now outranks small talk: unresolved lines were being
+answered with *"I'm speaking"*, which is his reported fault wearing a new hat.
+
+### Two faults the watching caught
+
+- **COME is the arrival mark**, so *"the storm is coming"* read as a **greeting** until a greeting
+  was required to be about arriving, leaving or a person and nothing else.
+- ***"hello host"* was answered with a memory of the host arriving**, because greeting only had
+  supply when the host **physically** arrived. A greeting said counts as well as a greeting made.
+
+### FLAGGED
+
+216 fixed the speech acts at eight, so **CANNOT UNDERSTAND is a branch of ANSWER rather than a ninth
+act.** One row if he wants it standing on its own.
+
+### Standing
+
+**LIFE is 111 checks**, all green, and OFFERS 32 · GOALS 25 · HOSTCHANNEL 17 alongside it. PHASE 3
+remains as reported — unresolved, not green.
+
+**His eye rules. It is on his screen.**
+
