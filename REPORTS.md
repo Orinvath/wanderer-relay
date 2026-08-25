@@ -24305,3 +24305,122 @@ committed file.** Publishing would leak no key. It would publish the whole desig
 part that is his to weigh.
 
 Everything through **210.E** is pushed and on `master` at `dda9e7a`.
+
+---
+
+## DIRECTIVES 211 & 212 — the soul becomes a person, and his three verdicts answered
+
+### 212.A1 — PLAIN NAMES
+
+`plainName()` strips the sheet numbering. Nothing facing him says `09_culture_and_society` again:
+
+> identity and people · communication and relation · action and motion · nature and place · body and
+> health · emotion and inner state · time and quantity · logic and questions · culture and society ·
+> abstract concepts
+
+`domainGroups()` carries each group's **word-count** for the author form — 402 marks across the ten,
+which is all of them.
+
+### 212.A2 — THE SKETCH
+
+Template only, no model anywhere near the file. 212.A2's rules verbatim, every omission branch
+proved. What a rolled soul reads as now:
+
+```
+Gentle and orderly; holds care and fairness dear; made for nature and place;
+drawn to opening; avoids darkening.
+```
+
+```
+Stern and free-spirited; holds loyalty and authority dear; made for culture and
+society, action and motion; drawn to warming and making quiet.
+```
+
+And a soul that holds nothing says so, honestly: **"Unwritten — life will say."**
+
+### 212.A3 — THE OVERLAY
+
+`genesis()` now hangs an append-only, hash-chained overlay off the locked core: purpose `SEARCHING`,
+and empty homes for milestones, questions, recognitions, speech and voice. **The purpose machinery
+is not built — only its home**, exactly as 212 says. The core stays frozen and `canonical()` never
+reads the overlay, so a being can live a whole life and still prove it is the one that was locked.
+Editing an entry or removing one breaks the chain and the check names which entry.
+
+### 211 addendum 2 — THE WHOLE PANEL
+
+- **AUTHOR** — the missing path. Five weight sliders at 0.5, oughts kept **verbatim** with a soft
+  3–5 counter, his domain groups by plain name with their word-counts and a depth slider each, all
+  **fourteen** kinds as pulls. Built from what the language holds, never a typed-in list.
+- **THE SKETCH LEADS**, numbers collapsed beneath it. His verdict was that numbers rolled are not a
+  personality, and they aren't.
+- **The validator's contradictions** appear as its own sentences — *"a soul that holds care far above
+  what its compassion would give it"* — naming and never blocking.
+- **NONE** is labelled *"no soul — functional and generic (205)"*.
+- **GENESIS**, renamed, with an in-page confirm showing the sketch, the words *"this fixes who it is,
+  forever."* and, when no oughts were written, *"no oughts written — it will learn all its rights and
+  wrongs from life."*
+- **NEW DRAFT**, never disabled, with or without a fresh genome. **He locked a soul and the bench
+  trapped him. It cannot again** — proved against a locked being.
+- **THE INTEREST DIAL** beside the speed, visible, bench-only. 206.4's rates stay computed from its
+  ten underneath.
+
+### 212.C — HIS THREE VERDICTS, DIAGNOSED ON THE RUNNING MIND
+
+**C1 — NO GLYPHS.** The 209 report was true about the display and blind about what feeds it. The
+artwork is wired **only** to the dream and the waking wonder — and on a bench at real time it neither
+dreams (about sixteen hours away) nor wonders (curiosity reads 0). Meanwhile it emitted a mark
+**every single tick** and the page printed the *word* `GRIEF` beside the feeling. Fixed: the mark
+goes to the page as a box on a sheet and is cut out with the same `drawImage` the drift uses.
+
+**C2 — THE GRIEF PIN. Named, with the trace.** Its needs were **8.57 / 10 / 10 — nearly full** — and
+it grieved without pause for a thousand ticks:
+
+```
+tick 971  chose singing  felt [distress]  glyphs [GRIEF]  bearing -0.001
+needs     relatedness 8.57   competence 10   autonomy 10
+```
+
+The bearing read the **total** movement of the ledger, and the only thing moving the ledger is the
+clock: an unmet need falls a hundredth of a point a tick forever, so the sign was negative on every
+tick of an ordinary life and OCC turned each one into a small undesirable event. **That is not a life
+going badly. That is time passing.** The clock's own contribution is now measured and taken back out.
+
+**C3 — IT NEVER SLEPT, AND IT COULD NOT HAVE.** `bestAct` returned the *first* act with a strictly
+higher score. At full sleep pressure `sleep` scores **2.000 — joint top, tied to the hundredth with
+`resting`**, which offers the same two things, and `resting` is written first in `offers.js`. So
+resting won every tie forever, and the one line that decides whether to lie down tests for the name
+`sleep` exactly. **Seventy hours awake, pressure pinned at maximum, still upright.** 200.3 says it
+sleeps when sleeping *is the best thing to do*, and an act tied for best is one of the best things to
+do — so the top is now the whole top. Nothing about what an act is worth moved.
+
+**PROVED LIVE:** it slept after 4.5 hours and dreamt **HIDDEN · SONG · LONELINESS** — three real
+marks, real boxes, real sheets, drifting above it. That is the 209 display finally being fed.
+
+### THE THING I CANNOT FIX, AND IT IS THE BIGGEST ONE
+
+**Nothing an Avatar does moves its needs. Anywhere.** `advance()` — the clock — is the only writer to
+the ledger in the whole build. So:
+
+- it can never be paid for anything it chooses
+- relatedness can only ever fall
+- `tastes` can never learn what turned out well, because nothing turns out
+- and with the clock's decay correctly removed, **the honest bearing is zero — it now feels nothing
+  rather than grieving**
+
+The grief was the only feeling it had, and it was an artefact. Removing it leaves the mind quiet,
+which is truthful and which makes the real gap undeniable: **the reward loop does not exist.** The
+machinery to build it is already there — `LEDGER_OFFERS` already maps offers to the three needs — but
+**what an act is worth to the ledger is a design ruling and not a repair**, so I have not touched it.
+
+Related and also his: **`mood` is hard-coded to 0 in the watch**, so 068's whole mechanism — distress
+flattens the field and choices scatter — has never once run on his screen. With the window at 10%,
+exactly **one** candidate reached the choosing (`windowCount: 1`). There is no mood function anywhere
+in the build to plug in, so deriving one is authoring, not fixing.
+
+### Standing
+
+**32 suites, all green** — Phase 3 passed this run, and TESTNET is the only skip.
+INTEGRATION is 42 checks, and it caught a real one: a later edit of mine had deleted the ink renderer
+and left the page calling a function that no longer existed.
+
+**His eye rules. Reopened for his verdict.**
