@@ -4432,3 +4432,63 @@ Suite: sketch() covers every omission branch; plainName() round-trips
 all ten domains; overlay append is tamper-evident; NEW DRAFT never
 lost regardless of lock state; the glyph proof runs against the
 served page. Report and reopen for his eye (179).
+
+## Directive 213 — RULE ZERO ON THE WHOLE MIND: three structural failures, ruled and fixed
+
+The Director read the build end to end (watching.js tick, goals, occ,
+curiosity, needs, mind.speak at HEAD). The machinery is sound; the
+LIFE is broken in three places, and together they are the grief pin,
+the dead glyphs, and the fake-feeling voice. Lonnie approved all
+three fixes. CC codes; decisions are made.
+
+### FIX 1 — ACTS HAVE CONSEQUENCES (learned helplessness dies)
+A realized act moves its own OFFER SOURCES per 197's table — exactly
+those, nothing else, arithmetic only:
+- an act whose offer is EXPRESSION or SELF-SOOTHING, completed,
+  reduces current negative-feeling intensity by a small step
+- COMPETENCE/PRACTICE offers: completing the act nudges competence up
+  one small step (the doing itself is the gain)
+- RELATEDNESS/NEARNESS offers: only with the host present; approaching
+  or speaking with someone actually there feeds relatedness a step
+- RECOVERY/CONSOLIDATION: sleep already does this — unchanged
+- steps are computed from the aspects per 071 (no constants; scale
+  them off the same machinery impact-gating uses), marked PROVISIONAL
+Suite: an Avatar alone that sings must measurably ease its own
+distress; one that completes acts must grow competence; nothing may
+raise relatedness with nobody there.
+
+### FIX 2 — THE WORLD SUPPLIES MOMENTS (sensory starvation ends)
+The bench world's REAL CHANGES become experienced moments, per 080's
+law (meaning attaches to the change): light moving, music starting
+and ending, the host arriving and leaving, a world loading, its own
+acts completing. Each change is a moment sentence in dictionary
+words where rows exist, entering the same pipeline as everything
+(gate first). No invented events, no scripted schedule — only what
+the stage actually does. The moment template stops being solely a
+self-description; a tick with no world change and no host line may
+still carry its state as now, but a changed world speaks first.
+Suite: a world change must produce a distinct moment; variety in
+moments must produce nonzero novelty across a bench hour.
+
+### FIX 3 — THE VOICE SPEAKS FROM THE VARIABLES (the seam completed)
+mind.speak's context is rebuilt to carry, template-assembled from the
+computed record (FAtiMA law — render FROM variables, never invent):
+- current feelings with intensities (the OCC record, this tick)
+- what it chose and THE WINNING OFFER as the reason
+- the needs, plainly ("your relatedness is very low")
+- curiosity's current target if roused
+- the soul: the sketch line + oughts (its own sense of right)
+- the EXCHANGE HISTORY (the conversation so far, not just memories)
+- the last-8 memories as now
+The system text states: answer only out of what is listed; nothing
+else is known. AND SPEAKING MAY INITIATE: when 'speaking' wins the
+moment with the host present and nothing was heard, it speaks first
+— the same call, prompt built from its own state instead of a heard
+line. An Avatar that chose otherwise stays silent exactly as now.
+Suite: the rendered words must reference the actual felt state in a
+measurable way (the harness checks the variables appear in what the
+context offered, never asserts wording); an unheard tick where
+speaking wins must produce speech; a hiding Avatar stays silent.
+
+Fix order: 1, 2, 3. Full suite in sequence after each. Report per
+fix, reopen for his eye after all three (179).
