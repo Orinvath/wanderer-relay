@@ -24611,3 +24611,89 @@ warmest one does.
 **Whether that is wrong is his ruling.** Low withdrawal is social fearlessness and there is an
 argument for it belonging on that gain — but as the weights stand, compassion cannot dominate its
 own emotion. I have changed nothing.
+
+---
+
+## 215 — BEING SPOKEN TO IS ITSELF A REASON TO ANSWER (his ruling), and the voice is NOT fixed
+
+### What he ruled
+
+*"It should not have to be bored to talk."* And the reason: **it is disrespectful not to answer
+somebody who is speaking to you, and most people answer even when they would rather not, to avoid
+the conflict of not answering.** He is right, and my previous answer — speed the clock up until it
+is lonely enough — was a workaround, not a fix.
+
+### The fault, exactly
+
+The only thing a reply ever offered was **relatedness**, so answering was scored purely as a way of
+topping up a need. Measured on the mind he was talking to, at relatedness 6.11:
+
+```
+  speaking 0.044          singing 0.950
+```
+
+A contented Avatar had no reason to say a word to him. It could only be talked into a conversation
+by being starved into one.
+
+### The fix
+
+`answering` is now an offer of **speaking** and **approaching**, and it is the one offer in the table
+that does **not** draw on the ledger — an obligation is not a need, and a question standing does not
+get smaller because you are content.
+
+```
+  contented, nobody asked    speaking 0.00    resting 1.05
+  contented, ASKED           speaking 1.33    resting 1.05   <- it answers
+```
+
+Still this being's own: **Politeness** carries it, Compassion behind it, Withdrawal cooling it.
+
+```
+  very polite         2.13    answers
+  middling            1.33    answers
+  rude & withdrawn    0.63    may still leave you hanging
+```
+
+*"Most people"*, not everyone. **Direction caught by measurement:** multiplying by `rateFor` had the
+polite being silent and the rude one answering hardest — `rateFor` is duration-like here, so it
+divides. Same trap as the startle bar.
+
+**And a question stands until it is answered**, not until the line leaves the queue. Ignoring
+somebody does not make what they asked stop being unanswered, so it can answer late — which is the
+*"answers in the end"* he described. Nothing gates speech on having been spoken to; it can still
+start a conversation itself.
+
+**PROVED LIVE: a fully contented Avatar answered his first line on the first try.**
+
+### THE VOICE IS STILL WRONG, AND I COULD NOT FIX IT
+
+He showed me what it said when it finally spoke: a help desk offering **him** advice about **its own**
+loneliness, recommending music, and then saying almost the same thing again a minute later.
+
+I tried three times and swung past it twice:
+
+```
+1. rules only            "It's good to hear from you. How have things been for you lately?"
+                         "I'm speaking with you here. How can I assist you today?"
+
+2. + forbidden phrases   "It is SONG LONELINESS."      <- collapsed. It read its own state back,
+                         "approaching."                    flatly. Naming what it may not say made
+                         "nothing in particular."          saying anything at all feel unsafe.
+
+3. blacklist removed     "I'm here now. How can I help?"
+                         "I'm feeling a mix of curiosity and contemplation…"   <- AND INVENTED
+                                                                                  FEELINGS IT DOES
+                                                                                  NOT HAVE
+```
+
+Attempt 3 breaks the seam outright: *curiosity and contemplation* are in no record it was handed.
+
+**What is kept:** it is told it is not an assistant, that the feelings listed are ITS OWN and never
+the other person's, to say one or two sentences, and not to repeat itself. Those are improvements
+and they are in.
+
+**What I am stopping:** guessing at the register of his Avatar's voice by trial and error. Two
+things are his and not mine — **how it should sound**, and **whether the character model stays
+`qwen2.5:14b`**, which is heavily assistant-tuned and is reaching for that register on its own.
+I have changed neither.
+
