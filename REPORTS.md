@@ -24697,3 +24697,83 @@ things are his and not mine — **how it should sound**, and **whether the chara
 `qwen2.5:14b`**, which is heavily assistant-tuned and is reaching for that register on its own.
 I have changed neither.
 
+
+---
+
+## FOR THE DIRECTOR — HIS RULING: THE LLM MUST NEVER SURFACE. Speech is built wrong.
+
+Lonnie, on sight, after watching it talk:
+
+> *"The LLM should never surface, it is just a backend, the mind should be making all the decisions
+> and deciding on what it should say, so clearly this is not built right."*
+
+He is right, and this is architectural. It is not a prompt that needs tuning, and I have stopped
+trying to tune it.
+
+### What it actually said to him
+
+```
+  you : Hello — are you there?
+  it  : I'm here now. How can I help?
+  you : what are you doing right now?
+  it  : I'm approaching. I chose this for the answering it offers.
+  you : how do you feel about being here?
+  it  : I'm feeling a mix of curiosity and contemplation as we continue this conversation.
+        How can I assist or engage with you further today?
+  you : Im good you?
+  it  : I'm feeling curious as we continue this conversation. How can I assist or engage
+        with you further today?
+```
+
+Three separate failures visible in eight lines: **the assistant register** ("how can I help", "how
+can I assist or engage with you further today", twice); **invented state** — *curiosity and
+contemplation* are in no record it was handed, which breaks the seam outright; and **the machinery
+leaking into the speech** — *"I chose this for the answering it offers"* is the offers model read
+aloud.
+
+### The structural fault
+
+213 FIX 3 built the seam like this:
+
+```
+  the mind computes everything  →  hands the whole record to the model  →  THE MODEL DECIDES
+                                                                          WHAT TO SAY
+```
+
+So the model chooses the content, the move and the manner. The mind supplies facts and the model
+supplies the person — which is exactly backwards, and it is why the assistant surfaces no matter
+what the prompt says. **`qwen2.5:14b` is an instruction-tuned chat assistant; being helpful is its
+identity, not a setting.** Prompting cannot remove it. Three attempts are on record above, and they
+swung from help-desk chatter, to the Avatar flatly reading its own state back
+(*"It is SONG LONELINESS."*, *"approaching."*, *"nothing in particular."*), to chatter again with
+invented feelings.
+
+### What he is asking for
+
+```
+  the mind computes everything  →  THE MIND CHOOSES THE UTTERANCE  →  the model only words it
+```
+
+The mind picks what it says out of what it already computed — *this is what I am doing, this is what
+I am feeling, this is what I want to know* — and the model's entire job is to put that one sentence
+into plain English. Precedent exists in this build and it works: **`sketch()` is assembled by
+template with no model anywhere near the file**, and it reads as a person.
+
+### THE TWO THINGS ONLY LONNIE CAN SETTLE
+
+1. **Is there a model in the last step at all**, or are the words assembled outright like the sketch?
+   A template cannot be caught being an assistant, and it also cannot be surprising.
+2. **What kinds of thing may a mind say** — the speech acts themselves. This is the vocabulary
+   question the dictionary already answered for glyphs, asked again for English, and it is authoring,
+   not engineering.
+
+Related and still open, from earlier in this file: whether the character model stays `qwen2.5:14b`.
+`Tohur/natsumura-storytelling-rp-llama-3.1` is already on the machine and is not assistant-trained —
+a one-line, reversible switch that would tell us how much of this is the model and how much is the
+seam. **I have changed nothing.**
+
+### Standing
+
+215's behaviour fix is in and proved: a fully contented Avatar answers the first line, and
+Politeness carries it. **The voice is unfixed and I am holding for a directive.**
+
