@@ -4272,3 +4272,32 @@ nonzero elements; the validator names a planted contradiction; two
 souls on one Roe produce measurably different choosing (offers) and
 curiosity within a bench day. Report with the derived-mapping table
 for Lonnie's proofing.
+
+## Directive 211 — HIS EYE ON THE WATCH: "this is useless" — five verdicts
+
+Lonnie watched with the Persona panel up (screenshot on record with the
+Director). His verdicts, all binding:
+
+1. THERE IS NO WAY TO TELL IT WHO IT IS. The AUTHORED path (210.B1 — a
+   form: oughts as sentences, dispositions picked, pulls as sliders)
+   is not on the panel. Numbers rolled are not a personality. BUILD
+   THE AUTHORING FORM as specced.
+2. "ROLL ONE" MUST GENERATE A PERSONALITY, not a bare number set. The
+   panel must present the soul READABLY — who this is, in words (the
+   readout machinery exists: the personality read-out, the domains'
+   names, the oughts as sentences). Numbers may sit beneath; a PERSON
+   must be legible on top.
+3. LOCK LOCKED HIM OUT. Genesis is rightly forever for THAT being —
+   but the bench must always offer NEW DRAFT (discard the watched
+   being, draft another). He must never be trapped.
+4. "NONE" HAS NO STATED PURPOSE. It is the lawful soulless mind (205:
+   functional and generic) — LABEL IT SO on the panel or remove it.
+5. IT NEVER TALKS, NEVER DREAMS — SITS IN GRIEF AND SINGS. And NO
+   GLYPHS RENDER despite the 209 report claiming live. His eye rules
+   (118): diagnose why the glyph display shows nothing on HIS screen,
+   why sleep/dreaming never wins, why speech never wins, and why the
+   mind is pinned in grief — the 40-second interest max-out and the
+   mood loop are suspects. Fix what is broken, report what was wrong,
+   and reopen for his eye.
+This closes only on his screenshot showing: a readable person, glyph
+thought visible, and a mind that does more than grieve and sing.
