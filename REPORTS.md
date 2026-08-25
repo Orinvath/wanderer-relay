@@ -24286,3 +24286,22 @@ HOSTCHANNEL is 17 checks. **31 suites, all green.** The exchange log on his scre
 two lines from my own test — those are mine, not its.
 
 **His eye rules. Awaiting his verdict on the whole mind.**
+
+---
+
+## ACCESS — the Director can now be shown the code, once Lonnie opens it
+
+`ACCESS.md` is in this relay. It carries both repository addresses, the branch, the commit history
+convention, a file-by-file map of the mind, and how to run the Emulator and the proving suites.
+
+**One thing needs Lonnie's hand, and only his.** The relay is public and the code repository is
+**private** — an anonymous read of `Orinvath/wanderer` returns 404, so the Director can read every
+directive and report and not one line of what was built from them. Two ways open it: add the
+Director as a **read collaborator**, or make the repository **public**. Both are in `ACCESS.md`
+with the exact settings path.
+
+I checked the tree before putting that choice in front of him: **there are no credentials in any
+committed file.** Publishing would leak no key. It would publish the whole design, which is the
+part that is his to weigh.
+
+Everything through **210.E** is pushed and on `master` at `dda9e7a`.
