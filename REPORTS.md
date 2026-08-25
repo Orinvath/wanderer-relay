@@ -24777,3 +24777,159 @@ seam. **I have changed nothing.**
 215's behaviour fix is in and proved: a fully contented Avatar answers the first line, and
 Politeness carries it. **The voice is unfixed and I am holding for a directive.**
 
+
+---
+
+## DIRECTIVE 216 — THE VOICE IS THE MIND'S. Built. **The words await his eye (216.4).**
+
+### The turn-round
+
+```
+  BEFORE   the mind computes everything → hands the record to the model → THE MODEL DECIDES
+                                                                          WHAT TO SAY
+  NOW      the mind computes everything → THE MIND CHOOSES THE UTTERANCE → a template words it
+```
+
+**There is no model call anywhere on the speech path, and the suite proves none is reachable** — not
+a constrained one, not a supervised one, none. `Mind` stays open for the technical roles 027 gives it
+(proposing lessons and the rest) and never for the voice, which is 216.1 exactly. The
+character-model question dies with it, as 216 says.
+
+### The eight, each out of a real state — one mind, `seed: demo`
+
+```
+  fresh and contented, asked something it knows nothing about   [tell-act]   Singing — for getting it out.
+  the same mind, lonely                                          [tell-state] Being with someone — very low, that.
+  carrying distress                                              [tell-state] I'm feeling distress.
+  curious about something                                        [ask]        Tell me about storm.
+  a memory surfaced                                              [share]      This came back to me. People keep quiet
+                                                                              about what they treasure.
+  asked something it DOES hold                                   [answer]     I know this much: People shelter from
+                                                                              storms when they can.
+  somebody just arrived                                          [greet]      Oh — you came.
+  somebody just left                                             [part]       You went.
+```
+
+Which act it says is chosen by **the same window and Boltzmann draw `goals.js` already runs** —
+216.3, no new mechanism, the existing scoring over a closed set. Supply is a fact (you cannot greet
+somebody who did not arrive, or answer what nobody asked); worth comes out of its own state.
+
+### THE COMPLETE TEMPLATE TEXT, FOR HIS PROOFING — 216.4
+
+Four variants per act. Which one a being uses is drawn from **its own seed**, so two souls phrase the
+same state differently and one being is not a parrot. Shown with a rich state, then with a bare one.
+
+```
+### GREET
+    1. You're here.
+    2. Oh — you came.
+    3. There you are.
+    4. Someone's here.
+
+### PART
+    1. You're going.
+    2. And you're gone.
+    3. Alright. Goodbye.
+    4. You went.
+
+### ANSWER  — holding something
+    1. People shelter from storms when they can.
+    2. What I have about that is: People shelter from storms when they can.
+    3. People shelter from storms when they can — that's what I hold about it.
+    4. I know this much: People shelter from storms when they can.
+### ANSWER  — holding nothing
+    1. I don't have anything about that.
+    2. Nothing comes to me about that.
+    3. I don't hold anything about that yet.
+    4. That's not something I know.
+
+### TELL-STATE  — a feeling running high
+    1. I'm feeling distress.
+    2. There's distress in me right now.
+    3. Distress. That's what's in me.
+    4. I feel distress, if you want to know.
+### TELL-STATE  — a need run down
+    1. My being with someone is very low.
+    2. I'm very low on being with someone.
+    3. Being with someone — very low, that.
+    4. Not much being with someone lately.
+
+### TELL-ACT  — with a reason worth giving
+    1. I'm singing. It's for getting it out.
+    2. Singing — for getting it out.
+    3. I'm singing, for getting it out.
+    4. Singing. That's for getting it out.
+### TELL-ACT  — with none
+    1. I'm singing.
+    2. Singing.
+    3. I'm singing, that's all.
+    4. Just singing.
+
+### ASK
+    1. What is storm?
+    2. I don't understand storm. Do you?
+    3. Storm — what is that?
+    4. Tell me about storm.
+
+### SHARE
+    1. People keep quiet about what they treasure.
+    2. I was thinking: People keep quiet about what they treasure.
+    3. This came back to me. People keep quiet about what they treasure.
+    4. Something I hold: People keep quiet about what they treasure.
+
+### DECLINE  — 056, the reason always
+    1. No. It would leave me with nothing.
+    2. I won't. It would leave me with nothing.
+    3. Not that — it would leave me with nothing.
+    4. No, because it would leave me with nothing.
+```
+
+**The needs are said as what they are, not as their names in the code:** relatedness is *being with
+someone*, competence is *being any good at anything*, autonomy is *being my own*. Offers likewise —
+`expression` is *getting it out*, `self-soothing` is *the quiet it gives me*, `time-passing` is
+*something to do*.
+
+**And `answering` is given no words at all.** His complaint was exact — *"I chose this for the
+answering it offers"* — and *"I'm speaking, for the answering"* is not merely jargon, it is circular.
+**A reason that explains nothing is not given.**
+
+### Three defects the proofing itself caught
+
+Rendering every variant for this report is what found them, which is the point of 216.4 asking for
+the text: a doubled full stop (*"…when they can. — that's what I hold about it."*), a memory
+lowercased mid-sentence (*"people keep quiet…"* — a memory is a sentence and keeps its capital,
+unlike a glyph subject, which is a word), and a null reaching the words (*"No. null"*). All fixed.
+
+### Two things said plainly
+
+**ANSWER cannot understand a question and does not pretend to.** It looks for what it already holds
+that shares a real word with what was said — its own memories and lessons — and offers that. This is
+**word-matching, declared as word-matching in the file**, and it must never be described as
+comprehension. When it holds nothing it says so, which is a true answer.
+
+**And it is obliged to respond, not to know.** 215 puts the obligation on *speaking* winning the
+moment; which of the eight it then says is free. So a mind that knows nothing about your question
+tells you what it is doing or what it is feeling, as a person does — rather than saying *"I don't
+know"* to everything for the rest of its life. Its own note of what you just said is excluded from
+its holdings: that filter is what stopped it reading his question back at him.
+
+### WHAT HE WILL SEE ON THE BENCH, AND IT IS NOT THE TEMPLATES' FAULT
+
+```
+  you : Hello — are you there?      it : I'm speaking.
+  you : what are you doing?         it : I'm approaching.
+  you : how do you feel?            it : I'm speaking.
+```
+
+The assistant is gone and the jargon is gone. **But a fresh Avatar on this bench has a bare inner
+state** — nothing felt, curiosity at zero, nothing surfaced, needs still full, and nothing held about
+anything he asks. `tell-act` is the only one of the eight with any supply, so `tell-act` is nearly
+all it can say.
+
+That is **the starvation problem 213 FIX 2 opened and did not close** — the bench world can change in
+three ways (somebody arriving or leaving, it falling asleep or waking, it turning to a different
+act), and there is no stage, no light, no music and no world loading, so almost nothing ever happens
+to it. The voice is only as interesting as the state behind it, and **that is the correct place for
+the next work, not the templates.**
+
+**His eye rules the words. Nothing here is settled until he passes them.**
