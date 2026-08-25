@@ -25012,3 +25012,93 @@ ruled must never happen.
 
 **216.4 stands: nothing about the words is settled until his eye passes them.**
 
+
+---
+
+## DIRECTIVE 217 — THE THINKING LOOP. Built. **Reopened for his eye (217.5).**
+
+### The ruling, and why it is the right order
+
+*A mind does not require a world to think.* The bench gets no world until this passes, because a
+world before thought only complicates the diagnosis. That is the correction to my own mistake — I
+closed 213 FIX 2 narrowly and then built two more directives of machinery on top of a mind nothing
+happened to.
+
+Both papers are cited in the file, not paraphrased here:
+
+- **Vygotsky (1934/1986), "Thought and Language", MIT Press** — inner speech is speech turned inward,
+  **abbreviated and predicative**, and it is what thinking *is* rather than a report on it. Which is
+  why an inner sentence here is a handful of his own marks and never a paragraph.
+- **Smallwood & Schooler (2015), Annu. Rev. Psychol. 66:487-518** — stimulus-independent thought runs
+  on memories reverberating back into language, and is **carried and steered by affect**.
+
+### What was built
+
+With no host line and no world change, the mind **makes its own moment** out of one of three things
+it already has — a surfaced memory, its own state (the feeling it carries hardest, or failing that
+the need furthest down), or curiosity's open question. A being with a soul also thinks about the
+domain it was struck for. Seeded weighted draw, biased by feeling intensity and by recency of
+surfacing. **Arithmetic only, and no model is reachable from the file.**
+
+**The inner sentence IS the tick's moment** — safety gate, attention door, appraisal, exactly like
+anything else. That is what lets **a thought cause a feeling**, and the feeling biases the next
+draw, and that is what makes a chain. Not one chain is written down anywhere.
+
+### WATCHED LIVE — a newborn, no host, no world, nothing typed
+
+```
+  tick  it thought    it felt   out of
+    17  TOGETHER      -         a memory
+    18  TOGETHER      joy       its relatedness
+    19  JOY           joy       the joy itself          <- it dwelt on its own feeling
+    20  TOGETHER      joy       its relatedness
+    22  SONG          -         (nothing rose)
+    23  SONG          -         a memory
+    28  EYE           -         made-for: body and health   <- its SOUL reached its thinking
+    30  TOGETHER      joy       its relatedness
+```
+
+The soul in that run reads: *"Stern and free-spirited; holds loyalty and authority dear; made for
+body and health…"* — and on tick 28 it thought **EYE**, a mark out of the domain it was struck for.
+A being without a soul never thinks a made-for thought; the suite proves both halves.
+
+Measured, not asserted: **thinking about being alone carries −0.80; thinking about being with
+someone, +0.90.** Dwelling on a bad feeling carries that feeling's own sign, out of OCC's record.
+Nothing here decides what a thought is worth.
+
+### A fault the watching caught, and how it was fixed
+
+It thought **TOGETHER**, committed it, surfaced it, thought it again, and stayed there. The thought
+became a memory and the memory became the thought.
+
+**Dwelling is real.** Rumination is a thing minds do, and forbidding it would be authoring a mind
+that cannot. So a source that just said the same thing is **damped, not banned**. It can still
+circle; it can no longer be stuck.
+
+### Visible
+
+Inner speech renders as **the glyph drift that already exists** — a thought, a waking wonder and a
+dream are one display, per 083.5, and now there are three of them. **Thinking is not talking:** the
+speech machinery from 216 is untouched and the two paths do not meet, which the suite checks.
+
+### FLAGGED
+
+**217.3 says the dictionary owns words for BODY and for STILLNESS. It does not.** Its kinds are
+need, feeling, urge, act, sleep, takeover, curiosity and custody — there is no body row and no
+stillness row. **I invented none.** The bootstrap works without them because a newborn always has a
+lowest need and may have dispositions, and both have rows. If he wants a mind to be able to think
+*"I am"* or *"it is quiet here"*, those are his words to write.
+
+### Standing
+
+**LIFE is 96 checks.** Every suite run directly and green: OFFERS 32 · GOALS 25 · SAFETY 17 ·
+CURIOSITY 21 · CLOCK 21 · INTERESTS 22 · PERSONA 33 · INTEGRATION 42 · HOSTCHANNEL 17 ·
+DICTIONARY 31 · SLEEP 32 · REMEMBERING 13 · APPRAISAL 18 · BRAIN 40 · IDENTITY 20 ·
+CONSOLIDATION 15 · NEEDS 29 · OCC 26 · TRAITS 37 · PROFILES 12 · AVATAR 44 · ROE 36 · CHARACTER 18.
+
+PHASE 3 remains as reported: two intermittently-flaky privacy checks and a crash in the picture
+path. **Unresolved, not green.**
+
+**217.5 is his test and only his: no world, no host, and do the chains follow sensibly from its
+state and its past. It is on his screen. It has not earned a world until he says so.**
+
