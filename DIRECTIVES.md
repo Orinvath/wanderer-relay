@@ -4574,3 +4574,36 @@ Suite: a fresh mind produces inner moments from tick one; a thought
 must be able to move a feeling (measured); chains differ by seed and
 by soul; no model reachable from the loop; sources rotate as
 available. Report and reopen for his eye (179).
+
+## Directive 218 — COMPREHENSION: it understands with the language it thinks in
+
+Lonnie approved the design. The 216 gap named by his screenshot: every
+reply was TELL-ACT because nothing UNDERSTANDS the heard line. CC
+codes; rules are complete.
+
+1. RESOLVE: each heard word is matched against the 402 (case-folded,
+   simple plural/inflection strip). Words it does not own resolve to
+   nothing. No model call.
+2. CLASSIFY by rule, from the matches:
+   - its FEELING or NEED words + a question mark or rising form ->
+     they ask about my state -> TELL-STATE with the ACTUAL ledger and
+     feelings
+   - its ACT words + question -> about my doing -> TELL-ACT with the
+     real act and winning reason
+   - OTHER/YOU-words + owned words as a statement -> the host telling
+     it something -> the resolved meaning is appraised as experience
+     (it can move feelings and needs per the normal pipeline)
+   - GREETING words -> GREET back (Politeness/Enthusiasm shape it)
+   - NOTHING RESOLVES -> honest ignorance: CANNOT UNDERSTAND, said in
+     its words. Never fake comprehension, never guess.
+3. THE RESOLVED MEANING IS THE MOMENT: it enters the pipeline (gate,
+   appraisal, feeling) before any answer — being asked "are you
+   happy?" while grieving FEELS like something, and the answer comes
+   from the felt truth.
+4. HONEST LIMIT, recorded: comprehension is vocabulary-bound — it
+   understands exactly what its language holds. Conversations start
+   tiny and grow as the language grows. That is the child, by design.
+Suite: "are you happy?" on a grieving mind must answer from the real
+state; an unowned sentence must produce CANNOT UNDERSTAND; a kind
+statement from the host must move the ledger measurably; no model
+reachable. Report and reopen for his eye.
