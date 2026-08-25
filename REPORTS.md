@@ -24565,3 +24565,49 @@ candidate window then admits exactly one act (`windowCount: 1`), so nothing soci
 move are (a) what `time-passing` is worth when there is somebody there to talk to, and (b) the
 ceiling on what a depleted relatedness is worth. Which one moves, and by how much, is his.
 
+
+---
+
+## CORRECTION — the finding above is WRONG. Speaking wins, and it has spoken.
+
+I reported that speaking can never win at any point in any life. **That is false and I withdraw it.**
+Watched over forty ticks of the same running mind:
+
+```
+  play 19 · sleeping 8 · speaking 5 · singing 4 · resting 2 · approaching 1
+```
+
+It has spoken five times, **one of them unprompted** — it started the conversation itself with
+nobody having typed anything, which is 213 FIX 3 working.
+
+**Why I was wrong:** I scored a static snapshot with an untrained `Tastes` and one assumed sleep
+pressure. The live mind's tastes LEARN from outcomes (196.4) — and now that FIX 1 gives acts
+consequences, play and speaking actually pay, so their scores rise as it discovers that. The whole
+point of FIX 1 is that the numbers I froze are not the numbers a life arrives at. **There is no
+balance ruling for him to make here.** I put one in front of him on the strength of a snapshot, and
+I should have watched the mind instead.
+
+## FINDING — a being with almost no compassion is barely less moved by others than a warm one
+
+His question on sight: *"a psychopath is feeling joy?"* — and the joy is right. OCC's joy is a
+well-being emotion about its OWN outcomes: approaching the host pays it 0.86 of relatedness a tick,
+the bearing is +0.43, so it is pleased. Getting what you want feels good whatever you are made of,
+and the profile should mute the OTHER-directed emotions, not that one.
+
+It partly does. `standards` runs 0.78 against a warm being's 1.41, and admiration lands at 0.47
+against 0.84. But the other-fortunes gain does **not**:
+
+```
+  this being (compassion 5)    otherFortunes 1.21     happy-for 0.97
+  a warm one  (compassion 90)  otherFortunes 1.61     happy-for 1.00
+```
+
+The table has `compassion +0.45` and `withdrawal -0.20` on that gain. This being's compassion is 5 —
+almost none — but its withdrawal is 3, also almost none, and the withdrawal term pushes the gain UP
+by more than the compassion term pulls it down. Net **above 1.0**: the coldest being the builder can
+make is *amplified* on other people's fortunes, and ends up feeling for you almost exactly what the
+warmest one does.
+
+**Whether that is wrong is his ruling.** Low withdrawal is social fearlessness and there is an
+argument for it belonging on that gain — but as the weights stand, compassion cannot dominate its
+own emotion. I have changed nothing.
