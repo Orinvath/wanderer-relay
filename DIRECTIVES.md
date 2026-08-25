@@ -4301,3 +4301,36 @@ Director). His verdicts, all binding:
    and reopen for his eye.
 This closes only on his screenshot showing: a readable person, glyph
 thought visible, and a mind that does more than grieve and sing.
+
+## Directive 211 addendum — "GENERATE A PERSONALITY" DEFINED EXACTLY (CC decides nothing)
+
+The law restated at Lonnie's order: CC ONLY CODES. Every mechanism
+below is defined; nothing is CC's to choose.
+
+THE BUTTON = the derived path (210.B3), exactly this sequence:
+1. INPUT: the rolled ten on the bench + a generation seed.
+2. MORAL SEED: fill the five weights ONLY from the cited trait-to-
+   foundation mappings in the 210 table (Compassion->care,
+   Politeness->fairness+authority, Orderliness->sanctity/purity,
+   Volatility->negative loyalty stability, per the table CC must ship
+   for the Director's proofing). No row without a citation.
+3. DISPOSITIONS: draw count N (2-5, from the seed) from the
+   language's domain groups, seeded, weighted by Openness (wider
+   Openness = flatter draw across domains; low = concentrated).
+   Depth-at-birth drawn 0.5-0.9 from the seed.
+4. PULLS: draw count N (2-5, from the seed) of nonzero weights over
+   the 13 effect-kinds, seeded, range -1..+1. NO science row exists
+   for these — they are ALWAYS rolled, never derived (210.B3 law).
+5. OUGHTS: NONE generated. The maker writes or approves oughts by
+   hand (210.A1). The generate button leaves oughts empty with the
+   label "yours to write."
+6. OUTPUT RENDERING: the panel presents the result as a PERSON:
+   - one sketch line composed by TEMPLATE, not by a model: "[gentle/
+     stern per Compassion+Politeness] and [orderly/free per
+     Orderliness]; holds [top two foundations] dear; made for [the
+     domains' plain names]; drawn to [positive pulls' kind names],
+     avoids [negative pulls']."
+   - oughts as sentences beneath (or "yours to write")
+   - numbers collapsible under the words.
+7. DETERMINISM: same Roe + same seed = byte-identical soul, always.
+No model call anywhere in this path. Suite asserts every step.
