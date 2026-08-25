@@ -4334,3 +4334,37 @@ THE BUTTON = the derived path (210.B3), exactly this sequence:
    - numbers collapsible under the words.
 7. DETERMINISM: same Roe + same seed = byte-identical soul, always.
 No model call anywhere in this path. Suite asserts every step.
+
+## Directive 211 addendum 2 — THE WHOLE PANEL DEFINED (nothing left to CC)
+
+1. "AUTHOR" (the missing form, 210.B1), exact fields:
+   - FOUNDATION WEIGHTS: five sliders 0-1, default 0.5 each.
+   - OUGHTS: text box, one sentence per line, 3-5 lines enforced
+     softly (counter, no block). Stored verbatim.
+   - DISPOSITIONS: the language's domain groups listed by plain name
+     with their word-counts; pick 1-5, set depth slider 0.1-0.9 each.
+   - PULLS: the 13 effect-kinds by plain name, slider -1..+1 each,
+     default 0.
+   - VALIDATOR: on save, compare against the rolled ten using the
+     SAME cited mapping table (Compassion vs cruelty in pulls, etc.);
+     contradictions listed in plain sentences ("this soul holds care
+     dear; this genome has very low Compassion") — NAMED, NEVER
+     BLOCKED (F2 ruling).
+2. "ROLL ONE": steps 3-4-5 of the generate definition (dispositions,
+   pulls, empty oughts) with foundation weights ALSO rolled 0.2-0.8
+   seeded — no derivation from the ten at all. Same rendering
+   template. Same determinism law.
+3. "FROM ITS TEN" (rename of the derived button): the 211 addendum 1
+   definition, exactly.
+4. "NONE": labeled on the panel "no soul — functional and generic
+   (205)". Sets an empty document; the mind runs with standards
+   unseeded, no dispositions, no pulls. Lawful and labeled.
+5. "NEW DRAFT": always visible. Discards the current watch (the being
+   ends; the bench is a bench), clears to draft state, keeps the same
+   Roe unless "reroll Roe" is also pressed. Lock can never trap the
+   maker (211.3).
+6. LOCK: renamed "GENESIS" with confirm step showing the sketch line
+   and the words "this fixes who it is, forever."
+Suite: every button's output byte-reproducible from its seed; the
+validator names a planted contradiction in plain words; NEW DRAFT
+always available locked or not. Report and reopen for his eye.
