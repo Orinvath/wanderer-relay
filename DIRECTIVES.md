@@ -4195,3 +4195,80 @@ Lonnie's two orders for the Emulator:
    sense. His eye should SEE it thinking.
 Suite: typed words traverse the gate; glyph output renders real marks
 only. Report; reopen for his eye per 179.
+
+## Directive 210 — THE PERSONA SYSTEM: full build spec (designed, Rule Zero'd, Lonnie approved)
+
+CC codes; every decision is made. The Persona is the soul (205). This
+builds the system that creates, locks, and serves it.
+
+### A. THE SOUL DOCUMENT (persona.json per Avatar)
+Three parts, each drawn from a space that already exists:
+1. MORAL SEED: five foundation weights (care · fairness · loyalty ·
+   authority · sanctity; Moral Foundations lineage) PLUS 3-5 plain-
+   language oughts written or approved by the maker at Genesis. No
+   model call. Standards machinery (136) reads the seed; life grows
+   the rest as normative lessons.
+2. STRUCK DISPOSITIONS: drawn from the language's own domains (the
+   dictionary's words grouped by sheet/domain — the draw CC already
+   built for 206). Each disposition: domain + depth-at-birth. Invisible
+   until the world matches (206 law).
+3. PULLS AND LEANINGS: signed weights over the 13 effect-kinds
+   (effects.js) — attractions and aversions in the axes the world
+   actually speaks. WEIGHTS ONLY — never behaviours, never scripts.
+
+### B. THE THREE CREATION PATHS
+1. AUTHORED: a bench form — oughts as sentences, dispositions picked
+   from the domains, pulls as sliders per kind. VALIDATOR runs against
+   the genome and NAMES contradictions (gentle soul, cruel genome) to
+   the maker — never blocks. Contradiction is lawful: a being at war
+   with its nature is a real being (Lonnie's ruling on F2).
+2. ROLLED: seeded draws over the same three spaces. Reproducible —
+   same seed, same soul. Structural richness guarantee, no floor
+   constant: draw a rolled count N (2-5, from the seed) of nonzero
+   dispositions and pulls, so every soul is about SOMETHING; strengths
+   stay free (F5 solution).
+3. DERIVED: mappings from the ten ONLY where research documents the
+   link (foundations <-> traits: Compassion->care, Politeness->
+   fairness/authority etc. — cite each row). Where no science exists
+   (ten -> pulls), the derived path DOES NOT FILL THE ROW — those fall
+   to the seeded roll. Science-mapped where possible, rolled where
+   not, invented never (F3 solution). The mapping table ships in the
+   report for Lonnie's proofing before this path goes live.
+
+### C. GENESIS — THE LOCK
+Hash(document + seed + Roe) at Genesis. Fixed forever. Editing a
+locked soul is impossible by construction — a different soul is a
+different being, a new Genesis (062 determinism law). Before Genesis:
+draft state, freely editable on the bench.
+
+### D. HOW THE MIND READS IT (existing wires, now fed)
+- standards seed <- moral seed (136)
+- curiosity test 1 and interests <- dispositions (206: struck threads)
+- offers worth <- pulls over effect-kinds (196/197/199)
+- the self-model annex stays the LIVING half (206) — written by life
+  only; the soul document is never written after Genesis. Change over
+  a life lives in lessons and the annex, never in the soul (F6).
+
+### E. THE BENCH PANEL
+Emulator gains a Persona panel: author / roll / derive a draft ·
+preview shows CONTENTS ONLY (weights, oughts, dispositions — never
+predicted behaviour; the only honest preview of who it will be is to
+Genesis it and watch — F7) · Genesis-lock button · the watch then runs
+with the soul live. Two minds, same Roe, different souls must read as
+visibly different beings — that is the acceptance test.
+
+### F. LAWS RIDING WITH IT
+- The language bounds dispositions BY DESIGN: a disposition is a
+  readiness to find meaning, and meaning lives in the language; when
+  the language grows, the soul-space grows (F4, accepted and recorded).
+- No model call anywhere in this system at runtime; none at Genesis
+  either (A1 removed the need).
+- No authored lists of interests/subjects anywhere (206 law) — the
+  spaces are the foundations, the dictionary, and effects.js.
+SUITE: same seed reproduces the same soul byte-identical; a locked
+soul cannot be altered by any code path; a derived soul contains no
+row the mapping table cannot cite; rolled souls always carry N>=2
+nonzero elements; the validator names a planted contradiction; two
+souls on one Roe produce measurably different choosing (offers) and
+curiosity within a bench day. Report with the derived-mapping table
+for Lonnie's proofing.
