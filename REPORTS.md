@@ -24528,3 +24528,40 @@ still going, so it is not a clean isolate of FIX 1 — the authoritative run is 
 reported below.
 
 **His eye rules. Reopened for his verdict.**
+
+---
+
+## FINDING — SPEAKING CAN NEVER WIN. Not at any point in any life.
+
+He typed three lines at it and got silence each time. It is not broken and it is not the profile:
+this being's nearest documented shapes are psychopathy / antisocial / narcissism, but **a warm being
+scores identically** on the acts that matter, so agreeableness is not what is silencing it.
+
+The offers table is. Measured, host present, `resting` against `speaking`:
+
+```
+  relatedness   +5    speaking 0.062    resting 1.200
+  relatedness    0    speaking 0.247    resting 1.200
+  relatedness   -5    speaking 0.555    resting 1.200
+  relatedness   -9    speaking 0.891    resting 1.200
+  relatedness  -10    speaking 0.987    resting 1.200      <- the floor. Still loses.
+```
+
+The per-offer breakdown says why:
+
+```
+  RESTING    time-passing   chance 1.00   worth 1.000
+             recovery       chance 1.00   worth 0.200
+  SPEAKING   relatedness    chance 0.95   worth 0.173   (at relatedness 1.83)
+```
+
+**`time-passing` is worth full marks, unconditionally.** Boredom is maximal whenever nothing is
+happening and curiosity reads zero — which, on this bench, is always. So resting sits at 1.200
+forever, and the most desperate loneliness the ledger can express tops out at **0.987**. Speaking is
+not merely unlikely. It is unreachable, and so is approaching, and so is everything social. The 10%
+candidate window then admits exactly one act (`windowCount: 1`), so nothing social is even weighed.
+
+**THIS IS A BALANCE RULING AND IT IS LONNIE'S.** I have changed nothing. The two places it could
+move are (a) what `time-passing` is worth when there is somebody there to talk to, and (b) the
+ceiling on what a depleted relatedness is worth. Which one moves, and by how much, is his.
+
