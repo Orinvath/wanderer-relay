@@ -4368,3 +4368,67 @@ No model call anywhere in this path. Suite asserts every step.
 Suite: every button's output byte-reproducible from its seed; the
 validator names a planted contradiction in plain words; NEW DRAFT
 always available locked or not. Report and reopen for his eye.
+
+## Directive 212 — INTEGRATION: the soul becomes a person on the bench (written against the code as-built)
+
+The Director has read the build (persona.js, watching.js, interests.js
+at dda9e7a). The 210 core is right and stays. This directive is the
+surgery list — every rule defined, CC decides nothing.
+
+### A. persona.js — three additions, nothing replaced
+1. PLAIN NAMES: export plainName(domain) = strip the leading number
+   and underscores ("09_culture_and_society" -> "culture and society").
+   Used everywhere a domain faces Lonnie.
+2. THE SKETCH: export sketch(document, aspects) — template only, no
+   model. Rules, exact:
+   - temper word from (Compassion+Politeness)/2 of the ten: >=60
+     "Gentle", <=40 "Stern", else omitted.
+   - manner word from Orderliness: >=60 "orderly", <=40
+     "free-spirited", else omitted. Join as "Gentle and orderly" /
+     single word / omitted entirely.
+   - foundations clause: "holds X and Y dear" = top two weights;
+     ties break by the FOUNDATIONS array order; if ALL weights sit
+     within 0.1 of 0.5, omit the clause.
+   - dispositions clause: "made for " + plain names joined with
+     commas; omit if none.
+   - pulls clauses: "drawn to " + up to two most positive kinds;
+     "avoids " + up to two most negative; omit either side if empty.
+   - assemble present clauses, semicolon-separated, capitalise first,
+     full stop. If everything omitted: "Unwritten — life will say."
+3. THE OVERLAY at genesis(): the locked being gains
+   overlay: { purpose: { state: 'SEARCHING', why: null }, milestones: [] }
+   and empty product slots: questions: [], recognitions: [],
+   speech: null, voice: null. The overlay is signed-append-only
+   (each entry hashed against the chain); the core stays untouched.
+   Purpose machinery itself is NOT built here — only its home.
+
+### B. watching.js — the panel per 211 addendum 2, exactly
+AUTHOR form (five weight sliders default 0.5 · oughts textarea 3-5
+lines soft-counted · dispositions picked by PLAIN NAME with depth
+slider default 0.5 · pulls sliders over all 14 kinds default 0 ·
+validator notes shown as its sentences) · ROLL ONE and FROM ITS TEN
+render THE SKETCH first, numbers collapsed beneath · NONE labeled
+"no soul — functional and generic (205)" · NEW DRAFT always visible
+(archives the current watch log to bench history, clears at next
+Genesis; the same Roe stays unless Reroll is pressed) · LOCK renamed
+GENESIS with confirm showing the sketch and "this fixes who it is,
+forever." — plus "no oughts written — it will learn all its rights
+and wrongs from life." when oughts are empty.
+
+### C. His three behaviour verdicts (211.5)
+1. GLYPHS: the 209 report claims live; HIS SCREEN shows none. His eye
+   rules (118). Diagnose on the page he actually loads, fix, and the
+   report must carry a screenshot-equivalent proof (what renders and
+   when — dream AND waking wonder).
+2. THE GRIEF PIN: diagnose why distress holds for hours — suspects:
+   the 40s interest max-out silencing curiosity, relatedness at the
+   floor with no reachable offer, mood-persistence maths. Name the
+   cause in the report with the trace that shows it.
+3. THE INTEREST RATE becomes a BENCH DIAL: thread-growth multiplier
+   on the overlay (bench-only, like the speed slider, value visible).
+   206.4's rates stay aspect-computed underneath; the dial scales for
+   watching. Lonnie sets it by eye — that was always the design.
+Suite: sketch() covers every omission branch; plainName() round-trips
+all ten domains; overlay append is tamper-evident; NEW DRAFT never
+lost regardless of lock state; the glyph proof runs against the
+served page. Report and reopen for his eye (179).
