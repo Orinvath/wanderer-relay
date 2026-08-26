@@ -25877,3 +25877,86 @@ Committed through `ccee7d2` and pushed.
 
 **224 closes only when Lonnie says he saw them. He has seen them; he has not said it closes.**
 
+
+---
+
+## DIRECTIVES 225 & 226 — trains, then stories. Both built. **Reopened for his eye.**
+
+### 225 — TRAINS OF THOUGHT
+
+His verdict on the 221.3 fix: **neighbour-stepping alone is a stream, not thinking.** Right — a mind
+that steps from whatever it last thought to whatever is near it wanders, and wandering is not
+thinking.
+
+**Klinger cited in place** — *Meaning and Void* (1977) and Psych. Review 82(1):1-25. **Current
+concerns**: a concern is the latent motivational state from committing to a goal until it is reached
+or given up, and it is what thought is **about**; cues bearing on a concern induce thought about it.
+
+- **The subject is chosen first**, by the same weighing everything uses, and **curiosity and
+  interests lead** — which is what they are for. A mind with nothing on its mind has **no train**,
+  which is a real state.
+- **The train holds it.** Every thought is an association around **the subject, not the last
+  thought** — that is the whole difference — and the subject **recurs**.
+- **Three endings, 225.3's own three:** answered, interrupted, exhausted.
+- **No constants:** a dogged mind holds **14** thoughts to a scattered one's **3**.
+
+**Caught by measurement, and it is the same trap a third time:** I divided by `rateFor` for the
+range, which had the **open** mind wandering **less**. `rateFor` is duration-like — a high primary
+aspect gives a lower number. Same as the startle bar and the answering worth.
+
+Watched live: it held FOLLOW and thought **MEET, TRUST, RECEIVE** around it.
+
+### 226 — AND THEN STORIES
+
+**Schacter & Addis (2007)**, Phil. Trans. R. Soc. B 362(1481):773-786 — the **constructive episodic
+simulation hypothesis**: remembering and imagining run on **one** machinery, and imagining is the
+flexible **recombination** of elements of past experience. **Memory error is part of that design
+rather than a fault in it.** **Bruner (1986)**, *Actual Minds, Possible Worlds* — narrative as an
+irreducible mode of thought. Both cited in the file.
+
+- **MEMORY FIRST, ALWAYS.** Lived episodes touching the subject are **replayed in the order they
+  happened**. Nothing composed.
+- **No memory → imagination**, and only by recombining **what it has lived**. A story is **never
+  built out of an earlier story**, and a mind that has lived nothing **invents nothing**.
+- **THE STORY IS FELT** — the beats become the tick's moments and run the gate, the door and the
+  appraisal like experience. The mind practices life on rehearsals.
+
+**THE TWO GUARDS, AND THEY ARE THE POINT:**
+
+```
+  an imagined lesson is born at 0.3, against living's 0.5
+  every imagined episode is MARKED IMAGINED in the store, FOREVER   (schema 10)
+```
+
+Nothing clears that mark and nothing may. **A mind that cannot tell its stories from its history is
+broken, not rich.**
+
+**Caught while building:** weighing only the marks it literally feels barely bit — a lonely mind and
+a curious one invented the **same** scenario, because LONELINESS was not among the things it had
+lived. Elements now weigh by how **near** they are to what is pressing:
+
+```
+  lonely : STORM → STONE → TOGETHER → HOST
+  curious: STORM → STONE → COME → MORNING
+```
+
+**No model on this path and none reachable**, proved.
+
+### FLAGGED
+
+**225.4's look is mine and should not be.** The subject is told from its associations by **dimming
+the associations** rather than brightening the subject, so nothing is added to his artwork — but
+*that* it is a dimming, and how much, is a look and therefore his. One number changes it.
+
+**226.6 is only half-done:** the subject is distinguishable and the beats flow in order, but
+**imagined trains are not yet visibly distinguished from remembered ones** on his screen. The data
+carries it; the display does not show it, and how it should is his call.
+
+### Standing
+
+**LIFE is 203 checks**, all green. BRAIN 40 · REMEMBERING 13 · CONSOLIDATION 15 · IDENTITY 20 ·
+APPRAISAL 18 · OFFERS 32 · CURIOSITY 21 · HOSTCHANNEL 17 · DICTIONARY 31 · SLEEP 32 · INTERESTS 22
+alongside — the schema went to 10 and nothing that touches memory broke. Committed through `759291b`.
+
+**223's row-membership rebuild and its neighbour lists are still outstanding.**
+
