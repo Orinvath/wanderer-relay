@@ -26340,3 +26340,101 @@ path at the start of a life, not the exception.
 
 **Standing: LIFE 236 green, everything else green, nothing to push.**
 
+
+---
+
+## DIRECTIVE 233 — EVIDENCE. **The third guard has its caller, and a belief it made up climbed from 0.3 to 0.9 by being right.**
+
+### What it does
+
+**A lesson is a CLAIM.** Its first mark is the condition, the rest are what it says follows.
+*"SONG TOGETHER"* claims singing brings company — **and that is a thing that can be wrong.**
+
+**A test opens only where the condition genuinely held**, and settles a window later on what
+actually followed: whether the predicted marks turned up in lived reality, and whether the need the
+claim points at moved the way it claimed. **Held → reinforce. Failed → weaken. Opposite →
+contradict**, with the three-in-a-row collapse exactly as it was built.
+
+**Which way a claim points on the ledger comes from the dictionary's own need rows** — TOGETHER is
+relatedness rising, LONELINESS is relatedness falling — **never a table I wrote**. A mark that speaks
+for *both* ends of a need, like FREEDOM, says nothing about direction and is **dropped rather than
+guessed at**.
+
+**The window is derived from the ten**, per 071. Two beings give the same claim different lengths of
+rope — one waits 11 ticks, another 8. **And it divides**, because `rateFor` is duration-like and
+that trap has now bitten this build four times.
+
+---
+
+### THE HARD GUARD (233.4)
+
+**A tick spent telling itself a story bears nothing. A dream bears nothing.** And the marks it is
+handed come from **the world and the act** — never from `here`, which is *the marks of the moment*,
+and **the moment IS the thought when the room is quiet.** Reading it would have let a train of
+thought bear on a belief, which is the exact failure the guard exists to prevent.
+
+**Proved from both directions**: the same four hundred ticks that make a belief climb, marked
+not-lived, move it **not at all** and leave **zero rows** on its evidence record.
+
+**One thing I read rather than chose, and it is worth your eye.** My first version treated every
+quiet thinking tick as unlived. That reads 233.4 as overriding 233.2 — but **233.2 names "its own
+realized act" as a lived antecedent**, and a quiet tick in which it actually sang is a tick in which
+singing happened. So the guard is now the narrow one: **the thought bears nothing of itself, the act
+underneath it still counts.** If you meant the wider reading, say so and I will widen it.
+
+---
+
+### THE WATCHED TRAJECTORY — 420 ticks on the live bench
+
+```
+  SONG TOGETHER COLD          — it made this up
+  tick  13   0.300  born, imagined
+  tick 149   0.510
+  tick 294   0.720   ← past the trust bar
+  tick 406   0.900
+
+  SONG REVEALED LIGHT         — it made this up too
+  tick 153   0.300  born, imagined
+  tick 217   0.150
+  tick 259   0.050   ← the floor
+
+  SONG REVEALED HIDDEN        — never moved at all, because REVEALED never happened
+```
+
+**One rose, one died, and one was never in a position to be wrong so nothing about it was learned.**
+That last one is Rescorla's whole point and it fell out of the design rather than being arranged.
+
+And the folder said it, in its own words:
+
+```
+  SONG → TOGETHER COLD — life keeps bearing it out, and it began as a story it told itself
+  SONG RIVER — it kept happening
+```
+
+---
+
+### FLAGGED — a rule of mine, from your own words
+
+**Reactivity runs 0.45 to 2.24 across beings, and a strong contradiction is 0.7.** So scaling every
+contradiction by it meant **a low-reactivity being could never register a strong one and its beliefs
+could never collapse at all** — only sag to the floor and sit there. **233.3 says the three-in-a-row
+collapse stands as built**, so a rule of mine that puts it out of reach for a third of beings is a
+rule that breaks the directive rather than one that expresses it.
+
+**So a claim refuted on every count now lands at full strength for anybody**, and reactivity gates
+only *partial* evidence — how hard an ambiguous result lands is a thing about the being, being wrong
+on every count is a thing about the world. **The split is mine and I am naming it.**
+
+---
+
+### STANDING
+
+**LIFE is 246 checks, all green** — ten of them 233's. Every other suite re-run green: phase 0 **16**,
+character **18**, traits **37**, needs **29**, goals **25**, harness **19**, roe **36**.
+
+**REFERENCES.md gets a BELIEF section** per 227.2 — Rescorla & Wagner 1972, Rescorla 1988, Clark 2013
+— and the copy in this relay is updated.
+
+Commits `d0fa7e8` (the module), `9edd67b` (the live path), `a1d9acf` (the suite and the sources) —
+pushed and confirmed on origin.
+

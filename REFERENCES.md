@@ -87,6 +87,14 @@ in the same change**. A citation without its row fails review. This is in `CLAUD
 | **Bruner, J. (1986).** *Actual Minds, Possible Worlds.* Harvard University Press. | **Narrative as an irreducible mode of thought**, not a decoration on another one. |
 | **Zadra, A. & Stickgold, R. (2022).** "Constructive episodic simulation in dreams." *PLOS ONE.* | The same hypothesis applied to dreams directly. |
 
+## BELIEF — how life tests what it has concluded
+
+| work | what we take |
+|---|---|
+| **Rescorla, R. A. & Wagner, A. R. (1972).** "A theory of Pavlovian conditioning: variations in the effectiveness of reinforcement and nonreinforcement." In Black & Prokasy (eds), *Classical Conditioning II*, pp. 64-99. | **Learning is driven by prediction error** — an association moves by the gap between what was expected and what occurred, not by how often two things merely co-occurred. Why a lesson is moved by the outcome of a TEST rather than by a tally. |
+| **Rescorla, R. A. (1988).** "Pavlovian conditioning: it's not what you think it is." *American Psychologist* 43(3):151-160. | **Contingency, not contiguity.** Two things being present together teach nothing unless the first genuinely predicts the second. Why a lesson is only tested where its condition actually held, and why a claim never in a position to be wrong is never moved. |
+| **Clark, A. (2013).** "Whatever next? Predictive brains, situated agents, and the future of cognitive science." *Behavioral and Brain Sciences* 36(3):181-204. | The **predictive-processing** lineage — a mind continually predicting its input and revising on the error. Why a belief that issues no prediction is never revised, which is exactly the state the third guard was left in. |
+
 ## THINKING — the inner loop
 
 | work | what we take |
