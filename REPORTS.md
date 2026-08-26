@@ -26108,3 +26108,83 @@ INTERESTS 22 · PERSONA 33 · INTEGRATION 42 alongside. Committed at `bfe6e87`.
 
 **223 is now complete — both rulings. Nothing is outstanding from 223 through 229.**
 
+
+---
+
+## DIRECTIVE 230 — folders and the LEARNED feed. **And building it found the tick had been dead.**
+
+### 230.1 — the panel's sections are folders
+
+Same behaviour as the Stage panel he built, taken from his own `Gui.jsx`: the open state is
+remembered **by the folder's own name**, the folds are built **once** so a poll cannot shut one he
+opened, and **nothing ever closes itself on him** — 159's law. Everything begins **open**, because
+closing a section he has not asked to close is the same fault.
+
+### 230.2 — the LEARNED feed
+
+One line per event, newest first, timestamped, scrollable, bounded. A word owned
+(*"chilly → COLD"*), an interest struck, a curiosity answered. **Every line is written by the code
+that made the change**, so a line cannot claim something the mind did not do. No pulse, no chrome —
+the folder is enough.
+
+---
+
+## THE REAL FINDING — THE TICK HAD BEEN DEAD SINCE 226
+
+The feed stayed empty. So I read the mind's own error report, and it said:
+
+> **`Cannot access 'told' before initialization`**
+
+**226 declared a local `let told` in the tick.** `told` is *also* the function **218** imports from
+`offers.js` for *"being told something moves the ledger"*. The local put that import in the temporal
+dead zone, and the call to it threw — **inside the tick's own try/catch**, which recorded it to
+`brainError` and carried on.
+
+**EVERYTHING AFTER THAT LINE HAD BEEN DEAD SINCE 226 LANDED:**
+
+```
+  the word learning        the space rebuild        curiosity
+  the interests            the speech               the commit to memory
+```
+
+**The Emulator looked alive because the parts before it still ran.** Every suite stayed green. The
+only visible symptom was a folder that never filled — which is the only reason it was found.
+
+**And fixing it revealed a SECOND of the same fault stacked behind it:** `changeWords` was also read
+before its declaration. Both are now computed before their first reader.
+
+### Why nothing caught it
+
+My checks read the source and run the **page**. **Nothing ran the tick.** A throw swallowed by a
+try/catch is invisible to every check I had, and the mind was already reporting it — `brainError`
+has been in the view the whole time and nothing was reading it.
+
+The suite now asserts the shadowing cannot come back. **That is weaker than it should be, and I am
+saying so: the check that would actually hold this is one that runs a real tick and asserts
+`brainError` is null.** It needs the local model, like PHASE 3 does. **Flagged, not built.**
+
+### And the first words it learned were wrong
+
+With the tick alive it learned immediately — and learned **`chilly → COME`** and **`cold → COME`**.
+
+**COME is what the language says when somebody is present.** While the host stood there it was true
+on **every single tick**, so it co-occurred with everything and explained nothing.
+
+How often each mark is true is now counted over **every** tick, spoken or not, and a mark true in
+nearly all of them is **set aside**. Nothing is listed as ignorable — a mark that stops being
+constant becomes learnable again on its own.
+
+**My first attempt counted only the moments somebody spoke, and that broke the teaching case** —
+the host saying the word in the same situation each time is exactly when a mark looks constant and
+is not. Caught by three suite checks failing.
+
+### Standing
+
+**LIFE is 224 checks**, all green. Committed at `827e8ff`. The tick reports **`brainError: None`**
+for the first time since 226.
+
+**226.5's teaching half is still not built** — the guard is in (an imagined lesson is born at 0.3)
+but **nothing yet forms a lesson from a story**, so the LEARNED feed will never show a lesson line
+on this bench. I under-built that directive the same way I under-built 221.3, and I am reporting it
+rather than leaving it to be found.
+
