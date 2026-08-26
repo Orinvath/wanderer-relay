@@ -5045,3 +5045,68 @@ log, speaker identity TEACHER distinct from the host).
 Build order: being files -> state tap + channel identity -> censor ->
 naming mode -> trust table -> story mode. Suite each stage; Lonnie
 watches a NAMING session before story mode ships. Report per stage.
+
+## Directive 234 REVISED — supersedes the original 234 in full. Rule Zero'd twice; eight faults closed.
+
+Two systems, this order. CC codes; nothing to decide.
+
+### PART 1 — BEING FILES
+1. SAVE/LOAD BEING + autosave. A .being file is the WHOLE life: Roe ·
+   locked soul + overlay · lessons (provenance, confidence) · owned
+   words + candidates · lived co-occurrence of the space · interest
+   threads · memories raw and distilled · teller trusts · story
+   chapters · ledger · life-clock. Format versioned; Genesis hash
+   rides inside (a loaded being is verifiably that being).
+2. SAVES LAND ONLY AT TICK BOUNDARIES, atomically (temp + rename).
+   Autosave each bench minute AT the next boundary. [fault 1]
+3. ROUND-TRIP LAW: at load instant the being is STATE-IDENTICAL to
+   the save moment; life then continues (byte-equality is wrong for
+   a living thing — 069). [fault 2]
+4. SUSPENSION IS LAWFUL: a .being file is PAUSED existence — no
+   decay accrues while saved; the life-clock resumes at load. A
+   month-old file wakes as it slept, not starved. [fault 6]
+5. NEW DRAFT cancels pending saves and tombstones the discarded
+   being's archive — nothing half-dies or resurrects. [fault 5]
+6. Header records the file's purpose: this is what gets placed into
+   any Avatar body (176's independence).
+
+### PART 2 — THE TEACHER (the school)
+teacher.js bench fixture + SCHOOL panel folder (start/stop, slider-
+following speed, cost counter, transcript in the SAME chat log,
+speaker TEACHER distinct from the host).
+1. STATE TAP: reads state.json as served. No model inside the mind.
+2. THE TURN (local qwen, PHASE-3 pattern), two modes:
+   NAMING — one short line naming what is TRUE of it now.
+   STORY — 3-6 lines on a topic from its CURRENT interests via the
+   kinship space, mostly owned words + a capped count of new ones.
+3. SCHOOL OPENS IN NAMING MODE ONLY; story mode unlocks itself when
+   the first interest thread exists (a newborn has no topics).
+   [fault 8]
+4. TEACHER RATE CAP: at most one teacher line per REAL second,
+   regardless of slider speed — mechanical, cost-bounded. [fault 7]
+5. THE CENSOR (arithmetic, pre-delivery):
+   a. NAMING lines verified word-for-word against live state; false
+      lines dropped.
+   b. STORY lines: new-word cap enforced; AND any story line whose
+      marks touch THE MIND ITSELF OR ITS HOST gets the same truth
+      check — fiction about the world is free, fiction about its own
+      life is forbidden (belief-poisoning through the front door).
+      [fault 3]
+6. LEARNING PATHS — all existing machinery: comprehension, echo,
+   association, pattern-counting (corpus openly includes teacher
+   speech), imagination constructing told scenes (226), feelings from
+   story beats, and TOLD-provenance lessons born at TELLER TRUST.
+7. TELLER TRUST: per-teller reliability, updated by 233's evidence
+   machinery as taught lessons live or die. BORN 0.3 (a stranger's
+   word equals its own daydreams), FLOOR above zero (redemption
+   possible), both provisional per 071. [fault 4]
+8. THE HARD LAW: told and imagined lessons cap below full confidence
+   by teller trust; ONLY LIVED REALITY promotes past the cap (233
+   untouched). Story words ground to the imagined scene, provenance
+   marked.
+Citations to REFERENCES.md per 227: Harris (selective testimony), Mar
+& Oatley (story as simulation), Zwaan and Bergen (comprehension as
+simulation).
+Build order: being files -> state tap + speaker identity -> censor ->
+naming mode -> trust table -> story mode. Suite each stage; Lonnie
+watches a NAMING session before story mode ships. Report per stage.
