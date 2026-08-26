@@ -26943,3 +26943,58 @@ today: **eight checks written against wording or counts instead of behaviour.**
 
 **LIFE: 341 checks, all green.**
 
+
+---
+
+## DIRECTIVE 238 — **the mock is up and open on his screen.** Nothing built, as ordered.
+
+### The addendum first, because it governs how I start
+
+**The commit-before-the-work law is in CLAUDE.md** and a labelled starting commit for 238 is on the
+record. If the tree is already clean the marker is made anyway — an empty commit is what tells him
+where a directive began, which is the whole point of the law.
+
+> **AND IT CAUGHT ME OUT IMMEDIATELY.** Writing it up I found the repo was **17 commits ahead of
+> origin** — everything from being files through story mode existed only on his disk. CLAUDE.md has
+> said *"push after every commit, not when somebody remembers"* since the day the repo got a home,
+> and I had gone a whole session without doing it. **All 17 are pushed.** Reported rather than
+> quietly fixed, because it is exactly the failure that rule was written for.
+
+### 238.3 — the mock
+
+**A static page. Nothing is wired and nothing in the build changed.**
+
+**NOTHING ON IT IS INVENTED DATA.** The sketch sentence, the five foundation weights, the three
+marked domains, the five pulls and every LEARNED row were read off the **running bench** minutes
+before it was written. The soul is a real DERIVED soul from a real seed; the beliefs are real beliefs
+at their real confidences — **including a teacher already fallen to the trust floor**, which is the
+machinery working and worth his eye.
+
+**The tokens are his**, lifted verbatim from the Emulator's own page rather than approximated — he
+ruled once already that *this is not Elsewhere and must match the rest of the Emulator*, and 112's
+law is that his implementation IS the spec. The four thought colours are 229's, unchanged.
+
+**LEARNED** sits under the thought row and above the chat, on the stage: what it learned **in its own
+words**, how strongly it holds it as a **filled bar with words instead of a decimal** — *barely holds
+it · half believes it · holds it well* — a colour stripe for where it came from, and what it bears on.
+
+> **229's colour language carries over as ordered:** a thing that HAPPENED wears the remembered blue,
+> a thing IMAGINED wears the imagined violet. **Being TOLD has no 229 colour**, so it wears the
+> lavender the teacher already wears in the chat log. **That one mapping is mine**, and it is flagged
+> in the legend on the page itself rather than slipped past him.
+
+**THE SOUL AS A PICTURE:** five foundations as a shape with draggable points; the marked domains as
+filled rails with the unmarked ones **dimmed rather than hidden**, so the shape of a being includes
+what it is *not* made for; the pulls on a **diverging axis** so *"avoids stilling"* reads as a
+direction rather than a minus sign. The sketch sentence sits above it, large. Buttons say what they
+do in sentences, **GENERATE is the default**, and **NONE is a quiet corner option** as ruled.
+
+### The page ends by asking him five things
+
+Rather than "what do you think": whether LEARNED is in the right place; whether the plain-words
+confidence reads better than a decimal **and whether those are the right words**; whether to keep the
+one colour I chose; whether a five-point shape is the right picture of a soul **or whether he wants
+something else entirely**; and whether the buttons say what they do plainly enough.
+
+**Nothing is built until he rules.**
+
