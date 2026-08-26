@@ -26614,6 +26614,12 @@ and phase 1 all re-run against **schema 12** and green. Driven end to end on the
 school teaches, the mind answers it, the life saves at a tick boundary and loads back with its trust
 intact.
 
+**AMENDMENT, minutes later:** three suites reported no tally in my first sweep — **phase 2, character
+and Roe**. That was my runner, not the build: those three read paths from the repo root and I had run
+them from `server/src`, so they died on ENOENT before executing a single check. Re-run correctly they
+are **34, 18 and 36, all green**. I had deliberately left them off the green list above rather than
+claim them, and this closes it: **every suite in the build is green against schema 12.**
+
 **STORY MODE IS NOT BUILT AND WILL NOT BE UNTIL HE HAS WATCHED A NAMING SESSION** — that is 234's own
 gate and it is his to open.
 
