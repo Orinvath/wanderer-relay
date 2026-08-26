@@ -25482,3 +25482,91 @@ report does not close it.
 **LIFE is 144 checks**, all green, and CURIOSITY 21 · DICTIONARY 31 · OFFERS 32 · HOSTCHANNEL 17
 alongside. Committed at `18c617d` and pushed.
 
+
+---
+
+## DIRECTIVE 221 — KINSHIP IS DISTANCE. Built. **Neighbour lists below for his proofing.**
+
+### The space
+
+Every one of the 402 has a place, built only from the mind's own record: **its domain** (which of his
+ten sheets), **its senses** (the dictionary's own `means`, so marks meaning overlapping things are
+pulled together by the overlap itself), **its dyad partners** (marks it is said with), and **what it
+has lived** (220's counting). **No pretrained vectors, no corpus, no model.** Deterministic: same
+dictionary, same space, proved.
+
+**The closeness bar is measured, not chosen** — 142's method again, over **80,601 pairs**: the
+middle of the separation between marks he put on one sheet and marks he put on different ones.
+
+### FLAGGED — a fifth source, beyond the four 221 names, and it is necessary
+
+**Where he PUT each mark on the sheet.** With the domain alone, the 351 marks the dictionary never
+mentions carry **one feature each and come out identical** — measured: HAPPY, PEACE, CALM, SURPRISE
+and WORRY all sat at **1.00** to one another. That is not a space, it is a shrug.
+
+He laid the sheets out himself; things beside each other are beside each other because he put them
+there. It is `glyphs.json`, measured off his own artwork. **Nothing imported, nothing inferred** —
+but it is a source he did not name, and it is named here.
+
+### THE FINDING — the static record cannot carry kinship
+
+```
+  before any life:   HAPPY~JOY  0.058      HAPPY~CALM  0.417
+```
+
+**His sheets do not group synonyms, and nothing else in the record says HAPPY and JOY are kin.** So
+the space alone could never have answered the question 221 exists to answer. That is measured, not
+assumed, and it is why the next part matters.
+
+### WHAT DOES CARRY IT: being spoken to
+
+220 skipped any word the mind **already owned** — true for MEANING, false for KINSHIP, and exactly
+why a grieving mind could never answer *"are you sad?"*. Now an owned mark heard while other marks
+are true links to them, on the same confidence trajectory.
+
+```
+  told "happy" while joyful, fourteen times      HAPPY~JOY  0.058 → 0.359
+  and the live mind, asked "are you happy?"      "Yes. I'm feeling joy."
+```
+
+**A word it does not own is being taught what it MEANS. A word it owns is being taught what it is
+NEAR.** Same mechanism, and **not one row of kinship authored anywhere.**
+
+Learned words join the space too — WANT, WISH and LIKE, taught onto DESIRE, sit measurably near it
+and at exactly **zero** to STONE.
+
+### THE NEIGHBOUR LISTS, for his proofing — 221's own ask
+
+Before any life has taught it anything. **This is the raw language, and it is patchy on purpose —
+read it as a report rather than a result.**
+
+```
+GRIEF       -> PEACE 0.41  COURAGE 0.41  SHAME 0.32  CALM 0.29  DESIRE 0.29  LOVE 0.25
+JOY         -> SHARE 0.52  PRIDE 0.44  GLOAT 0.39  ANGER 0.28  ENVY 0.26  FEAR 0.25
+LONELINESS  -> OTHER 0.43  COME 0.42  CURIOSITY 0.38  TOGETHER 0.32  SAFETY 0.32  DESIRE 0.30
+TOGETHER    -> MEET 0.34  APART 0.34  DIFFERENT 0.34  LONELINESS 0.32  COME 0.31  SHARE 0.29
+FEAR        -> HAPPY 0.41  ANGER 0.39  HOPE 0.31  DESPAIR 0.25  JOY 0.25  SURPRISE 0.21
+SONG        -> WRITING 0.41  MUSIC 0.41  STORY 0.41  MARKET 0.41  BOOK 0.29  SIGN 0.29
+STONE       -> RAIN 0.58  SMOKE 0.58  SAND 0.58  FLOWER 0.58  CLOUD 0.42  STORM 0.42
+RIVER       -> FIELD 0.58  CAVE 0.58  LAKE 0.58  CLOUD 0.58  LAND 0.42  FOREST 0.42
+MOTHER      -> NAME 0.58  PARENT 0.58  FATHER 0.58  PARTNER 0.58  FEMALE 0.42  INDIVIDUAL 0.42
+MORNING     -> PAST 0.58  NIGHT 0.58  EVENING 0.58  AFTER 0.58  TIME 0.42  PRESENT 0.42
+DESIRE      -> COURAGE 0.58  CLARITY 0.42  PATIENCE 0.42  SHAME 0.34  CURIOSITY 0.34  LONELINESS 0.30
+HIDDEN      -> PROBLEM 0.30  REVEALED 0.30  SILENCE 0.30  SOLUTION 0.22  SPIRIT 0.22  PRIDE 0.18
+```
+
+**Where his sheets group by kind, the space is sane at once:** RIVER→FIELD·CAVE·LAKE·CLOUD,
+MOTHER→PARENT·FATHER·PARTNER, MORNING→NIGHT·EVENING·PAST, STONE→RAIN·SAND·CLOUD.
+
+**Where they do not, it is wrong and says so plainly:** GRIEF→PEACE·COURAGE, FEAR→HAPPY,
+SONG→MARKET. Those are marks that happen to sit near each other on the emotion and culture sheets
+without being kin. **The life is what corrects them** — and until it does, the mind is measuring a
+relationship that is not there, which is worth his eye.
+
+### Standing
+
+**LIFE is 157 checks**, all green. DICTIONARY 31 · CURIOSITY 21 · OFFERS 32 · HOSTCHANNEL 17 ·
+INTERESTS 22 · PERSONA 33 · INTEGRATION 42 alongside. Committed at `ef4c213`.
+
+**His eye on the neighbour lists is the thing 221 asked for.**
+
