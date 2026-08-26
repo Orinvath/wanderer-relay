@@ -5125,3 +5125,17 @@ watches a NAMING session before story mode ships. Report per stage.
    its aspects like everything else: one being feels loss at a month
    gone, another is unmoved, a third feels relief. Derived, never
    scripted. 069's always-running clock governs LOADED life only.
+
+## Directive 235 — Build the story-lesson maker; THEN open the school for his eye
+
+Lonnie's rulings, in order:
+1. BUILD 226.5's TEACHING HALF NOW — third order, final: a story
+   (replayed or imagined) that completes distils a lesson through the
+   existing machinery. Imagined-born at 0.3 under the standing guards
+   (IMAGINED marked forever, only lived reality promotes — 233
+   untouched); TOLD stories at teller trust (234). The LEARNED folder
+   shows the line. It is needed for the school to work at all.
+2. THEN open the bench for his NAMING SESSION watch (179): school on,
+   teacher naming, chat log live. His eye is the gate story mode
+   waits behind.
+Suite green, report, then open the page.
