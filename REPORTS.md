@@ -26292,3 +26292,51 @@ character **18**, traits **37**, needs **29**, goals **25**, harness **19**, roe
 Commits `4c91416` (the ladder), `3db5645` (the teaching half), `3a41edc` (the guard) — pushed and
 confirmed on origin.
 
+
+---
+
+## DIRECTIVE 232 — the ruling is recorded. **Nothing changed. But one leg of the guard it rests on does not exist yet.**
+
+The flag is settled and I have not touched the behaviour. An imagined lesson bearing on the mind's
+choices at 0.3 stands as 226.5 working as approved. **No code changed, the tree is clean, and 231's
+build is what is running.**
+
+### And then I checked the guards, because the ruling rests on them
+
+The ruling names three: **born low**, **marked IMAGINED forever**, and **confirmed or killed by real
+life**. The first two I built and watched work. **I had never watched the third.**
+
+**NOTHING IN THE RUNNING BUILD EVER WEIGHS A LESSON.** `lessons.weigh` — the whole confidence
+trajectory, reinforce / weaken / contradict, and the three-in-a-row collapse — **has no caller
+anywhere outside the suites.**
+
+So I ran it rather than asserting it. **A hundred and forty ticks on the live bench, somebody
+present and speaking:**
+
+```
+  born at tick 13 — and 127 ticks later:
+
+  REVEALED SOUND HIDDEN     imagined   confidence 0.3   evidence borne on it: 0
+  SONG TOGETHER REVEALED    imagined   confidence 0.3   evidence borne on it: 0
+  SONG TOGETHER COLD        imagined   confidence 0.3   evidence borne on it: 0
+```
+
+**Three things it made up, steering its choices, and not one of them ever moved.** Real life never
+confirms them and never kills them, because nothing is set up to bear on them. **The third guard is
+built and unreached.**
+
+### What I am NOT doing about it
+
+**I have not built it and I am not proposing how.** `lessons.js` is explicit that the verdict —
+whether a piece of experience reinforces, weakens or contradicts a lesson — **is the Avatar's own act
+over auditable structure (ruling 4 / MOSS)**, which is why it is a parameter and deliberately not a
+classifier hidden inside that file. **Deciding what counts as evidence for or against a lesson is
+exactly the decision that file refuses to make quietly, and it is not mine.**
+
+Also worth the Director's eye: **all three were imagined and none was remembered.** A remembered
+story needs lived episodes that hold the subject *and something else*, so early on a young mind
+almost only ever tells itself invented ones — which means the low-confidence path is the ordinary
+path at the start of a life, not the exception.
+
+**Standing: LIFE 236 green, everything else green, nothing to push.**
+
