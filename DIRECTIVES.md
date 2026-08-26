@@ -4650,3 +4650,39 @@ must appear in early life and fade as ownership grows; every placed
 question answers from the real record. Report and reopen for his eye.
 
 ## Directive 219 — WITHDRAWN. Pushed without Lonnie's approval. Do not execute.
+
+## Directive 220 — WORD LEARNING (Lonnie approved): meaning, mimicry, pattern
+
+219's withdrawal stands; this supersedes it, approved. The 402 marks
+are the seed and plenty. No synonym table is ever authored. No model
+anywhere. The mind learns language the child's way, three parts (cite
+fast mapping and Saffran's statistical learning):
+
+1. MEANING BY ASSOCIATION: every unknown heard word is kept as a
+   candidate tagged with what was TRUE in that moment (active marks,
+   the act, who was present). Co-occurrence strengthens the word->mark
+   link; contradiction weakens; the lessons confidence machinery
+   reused exactly. Past the trust bar the word is OWNED: it resolves
+   in comprehension (218) and may appear in speech (216 slots).
+   Below: honest CANNOT UNDERSTAND stands.
+2. MIMICRY — the ECHO speech act: it may repeat an unowned heard
+   word; echoing commits the candidate and the host's reaction is the
+   outcome that feeds the link. Echo willingness aspect-computed;
+   echo fades as ownership grows.
+3. PATTERN BY WATCHING US: pure counting over what Lonnie actually
+   types — which owned words follow which. Ordering its own speech
+   follows the house's patterns; a prediction of what comes next is
+   kept, and PREDICTION ERROR (expected vs heard) feeds curiosity as
+   real surprise. Counting only — no model, no external corpus, ever.
+4. QUESTION PLACEMENT RULES (the Director's, unchanged): who are you
+   -> identity from the soul's sketch · why -> the winning reason ·
+   what do you remember -> SHARE a surfaced memory · what do you want
+   -> the top want now · are you [feeling] -> that feeling against
+   the real state, truly · do you want to [act] -> that act's score,
+   truly · where are you -> HERE.
+Suite: a word heard repeatedly with its state becomes owned and
+resolves; a wrong link decays under contradiction; ECHO appears early
+and fades; word order in its speech converges toward the host's
+measured patterns; prediction error is nonzero on surprising lines
+and feeds the curiosity input; every placed question answers from the
+record. Report and reopen for his eye (179).
