@@ -26820,3 +26820,55 @@ On the served page and on the live bench, one log, in order:
 > in THE SCHOOL folder (*"3 dropped as untrue"*). If he wants to see what the teacher tried to say
 > and was refused, that is a change and I have not made it.
 
+
+---
+
+## 236d — **the model code-switched onto his screen.** His report.
+
+*"I saw some asian writing in the teachers comments, strictly english please!"*
+
+**The censor was checking whether a line was TRUE and never whether it was READABLE.** The local
+model code-switches — it answers in English for a hundred lines and then hands back a sentence with
+Han characters in it — and every one of those went **straight into the chat log** as a delivered
+teacher line.
+
+### And it is worse than an eyesore
+
+**THE WORD-LEARNING COUNTS WHATEVER THE MIND IS TOLD.** Those characters would have become
+**candidate words with meanings attached, permanently**, in a language nobody asked for. It would
+have been learning from noise, and there is no undo on that — `word_links` is a record of what was
+actually said to it.
+
+### Closed
+
+Every **letter** in a delivered line must be an English one. Punctuation, digits and spaces are not
+letters and pass untouched; Han, Kana, Hangul, Cyrillic and the rest all fail.
+
+- It runs **FIRST in the censor**, before the truth check: *a line he cannot read cannot be checked,
+  and must not be delivered on the chance that the readable half of it happens to be true.*
+- It runs in **every mode** — a story in another script is no better than a naming line in one.
+- **It drops accented Latin too.** That is the cost of a rule with no grey area in it, which is what
+  he asked for. Said plainly rather than hidden.
+
+The model is **also told** to write English only. That is a convenience and the censor is the
+guarantee — telling a model a rule has never been the same thing as enforcing one, which is the same
+split the truth check already runs on.
+
+**Live after the fix: 8 lines said, 2 dropped, none of them foreign.**
+
+### 236c — the glyph legend
+
+His ruling: one word each. **Thought · Interest · Memory · Imagining.** The first two are his own
+words; the other two follow his pattern and are **the only ones he did not name**, marked as such in
+the page so he can change them without working out which were mine.
+
+### AND ANOTHER OF MY CHECKS PINNED WORDING
+
+The legend check asserted his four sentences **verbatim** and went red the instant he renamed them —
+which he is entitled to do without a suite arguing with him. **That is the fourth time today** I have
+written a check that asserts a line of source instead of a property. It now holds what actually
+matters: every colour the thought row can draw is named in the legend, and **what it is called is
+his**.
+
+**LIFE: 333 checks, all green.**
+
