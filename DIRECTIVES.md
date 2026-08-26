@@ -4751,3 +4751,16 @@ science, so it is OURS to draw on:
 Cite everything (Grand's book Creation: Life and How to Make It, the
 technical documentation, postmortems). Research thoroughly — this
 file is reference, not summary. Report when written.
+
+## Directive 223 — Two rulings: the trust bar stands; rows join the space
+
+1. THE TRUST BAR: one CLEAR exposure owns a word (exactly one thing
+   true in the moment); ambiguous exposures do not; living
+   contradiction replaces a wrong first guess. CC's build stands as
+   law — the flag is cleared.
+2. THE SHEETS CARRY MEANING AT THE ROW LEVEL (the Director inspected
+   the grids with Lonnie: dwellings row, waters row, primal-emotions
+   row). ROW MEMBERSHIP joins the kinship space as the fifth source —
+   weight below senses and dyad partners, above bare sheet
+   membership. COLUMN POSITION STAYS OUT. Rebuild the space, repost
+   a dozen neighbour lists for his eye.
