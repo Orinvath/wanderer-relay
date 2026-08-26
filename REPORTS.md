@@ -26872,3 +26872,74 @@ his**.
 
 **LIFE: 333 checks, all green.**
 
+
+---
+
+## DIRECTIVE 237 — **stories are flowing.** And the answer to why it kept repeating.
+
+### FIRST — why "JOY is with you" was on a loop
+
+He asked. **It was not a bug in the teacher; the teacher was obeying its rule perfectly.** It may
+only name what is TRUE of the mind, and I traced the true-set tick by tick:
+
+```
+  tick 107 .. tick 120   lowest: relatedness   felt: joy   =>  LONELINESS JOY
+  distinct true-sets over fourteen consecutive ticks: 1
+```
+
+**Two words were true of that mind, unchanged, for every tick.** So the teacher said the one
+sentence those two words make. **The rule was starving it.**
+
+I offered to widen what counts as true. **He ruled differently and better:** naming now requires
+**CHANGE**, and stories are the main road.
+
+### 237.2 — a naming line is news or it is nothing
+
+Nothing new to name and it does not name — **it tells a story instead**, and with nothing to tell a
+story about yet it **says nothing at all. Silence is a lawful turn.** The same line is never said
+twice running either, however much the state moved underneath.
+
+### 237.1 — story mode
+
+Three to six lines about a topic **the mind itself grew** — a thread exists because that mind
+actually attended to that thing — reached for with the words **its own kinship space** puts near it,
+which the served state now carries. Not the words I would put near it: the ones 221's space built out
+of its language and its life.
+
+> **A STORY IS ABOUT SOMEBODY ELSE**, and that is his addendum arriving in the prompt rather than a
+> style choice. Third-person fiction is free; a claim about the listener is truth-checked and dies if
+> false. A model told to write "you" sentences would have most of its story dropped — so it is told
+> to write about a character.
+
+Every line is still **censored on its own**, and a failing line is dropped **rather than the story** —
+a story that loses a line is still a story, and dropping the whole thing for one bad line would make
+the school silent every time the model slipped. A story is composed once and delivered **one line per
+turn**, so the one-a-second cap paces a story exactly as it paces everything else and **a story
+cannot outrun the mind hearing it.**
+
+### LIVE, ON HIS SCREEN
+
+```
+  Teacher  A BIRD SINGS TOGETHER WITH FRIENDS
+  Teacher  SHARING SONGS AND FOOD
+  Teacher  YOU FEEL LONELINESS
+  Mind     TOGETHER.
+  Teacher  A BIRD KNOWS
+  Teacher  JOIN TOGETHER
+  Mind     This came back to me. Someone here says: BIRD TOGETHER WITH FRIEND.
+  Teacher  SHARING SEEDS TOGETHER
+  Mind     This came back to me. Someone here says: SHARE SONG AND FOOD.
+```
+
+**10 said, 3 dropped, `brainError: None`. The mind is taking the stories in and saying them back.**
+
+### AND FOUR MORE OF MY CHECKS PINNED COUNTS
+
+*"Four turns, four model calls"* — when a silent turn now costs no call. *"Three steps, three
+lines"* — when a step no longer always speaks. And one that compared a story's topic against a
+snapshot taken **before the stories were told**, when a mind goes on living and cares about something
+else by then. **All four were mine and all four are now properties.** That is the running tally for
+today: **eight checks written against wording or counts instead of behaviour.**
+
+**LIFE: 341 checks, all green.**
+
