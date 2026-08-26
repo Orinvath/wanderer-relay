@@ -5168,3 +5168,37 @@ Lonnie is watching the naming session now — 234's gate is satisfied.
    said; if nothing true has CHANGED, it stays silent that turn or
    tells a story instead. "JOY is with you" on loop is not teaching.
 His eye stays on the page — report when stories are flowing.
+
+## Directive 238 — THE BENCH BECOMES VISUAL: LEARNED front and center; the soul becomes a real tool
+
+Lonnie's verdicts: the soul build is not usable as a tool, and LEARNED
+is too valuable for a side panel. He is a VISUAL-SPATIAL designer —
+tools must make sense VISUALLY, not as oddly named text in small
+boxes. Rebuild both as instruments:
+
+1. LEARNED — FRONT AND CENTER on the main stage: a visible strip/area
+   (not the side panel) where each learned thing appears AS IT LANDS:
+   what it learned in its words, how strong it holds it (confidence
+   shown as a filled bar, not a decimal), where it came from (lived /
+   story / teacher — the 229 colour language carries over), and what
+   it bears on. The side-panel folder remains as the scrollable
+   history; the stage strip is the living view.
+2. THE SOUL TOOL — redesigned as a VISUAL instrument:
+   - The soul is shown as A PICTURE, not text rows: the five
+     foundations as a shape (radar/star), dispositions as marked
+     domains, pulls as directional weights — one glance says who this
+     being is.
+   - The SKETCH SENTENCE sits above it, large: the person in words.
+   - The buttons say what they do in plain sentences under plain
+     names; the flow is: GENERATE (from its ten — the default) →
+     the picture and sketch appear → REROLL or ADJUST (drag the
+     shape's points; sliders only behind an "edit" reveal) → GENESIS
+     (with its confirm). NONE becomes a labeled corner option, not
+     the default.
+   - DEFAULT: every new mind on the bench is born FROM ITS TEN — no
+     more soulless watches unless he chooses one deliberately.
+3. Layout follows his design language everywhere: his portal's panel
+   aesthetics (112), full-presence colour (229 law), legends on the
+   page (180). Mock the layout FIRST as a static page, open it for
+   his eye (179), and build only after his verdict on the mock.
+Report when the mock is up.
