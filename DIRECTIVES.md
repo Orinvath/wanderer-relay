@@ -4764,3 +4764,25 @@ file is reference, not summary. Report when written.
    weight below senses and dyad partners, above bare sheet
    membership. COLUMN POSITION STAYS OUT. Rebuild the space, repost
    a dozen neighbour lists for his eye.
+
+## Directive 224 — HARD STOP: NOTHING ELSE UNTIL GLYPHS RENDER ON HIS SCREEN
+
+Lonnie, verbatim: "It is still not displaying any glyphs. I keep
+saying that is a requirement so I can see what it is thinking and no
+one has ever showed me it, and I've been asking for it since the
+beginning."
+
+This was ruled at 083 (dreams drift visibly), 209 (dreams AND waking
+wonder rendered on the bench), filed as his verdict at 211.5, ordered
+diagnosed with proof at 212.C1 — and his screen has never once shown
+a glyph. Reports claiming it live do not count; HIS EYE RULES (118).
+
+ALL OTHER WORK STOPS. Diagnose on the page HE actually loads, in his
+actual Chrome, over the actual serve path — not in a harness. Find
+why nothing renders (the thinking loop emits inner speech every tick
+now — 217 — so marks ARE being produced; the failure is between the
+mind and his screen). Fix it. Then open the page for him (179) with
+the thinking visible: his marks, his artwork, drifting as it thinks.
+
+This directive closes ONLY when Lonnie says he saw them. Nothing
+else ships first.
