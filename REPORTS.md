@@ -26438,3 +26438,186 @@ character **18**, traits **37**, needs **29**, goals **25**, harness **19**, roe
 Commits `d0fa7e8` (the module), `9edd67b` (the live path), `a1d9acf` (the suite and the sources) —
 pushed and confirmed on origin.
 
+
+---
+
+## DIRECTIVE 234 REVISED — **BEING FILES AND THE TEACHER. Five of six stages built; story mode waits on him, as ordered.**
+
+Build order followed exactly: **being files → state tap + speaker → censor → naming → trust table**.
+Story mode is NOT built: 234 says *"Lonnie watches a NAMING session before story mode ships"* and he
+has not watched one yet. **LIFE is at 314 checks, all green**, and every other suite re-run against
+the new schema.
+
+---
+
+### PART 1 — BEING FILES
+
+A `.being` file is the whole life: Roe, the locked soul and its overlay, lessons with provenance,
+owned words and candidates, what living taught it about which words go together, its threads, its
+memories raw and distilled, its stories, its ledger and its clocks.
+
+**THE ROUND TRIP NEEDED MORE THAN COPYING FIELDS.** A being's ten aspects come from its seed and
+**half the session is built on them** — the sleeper, the tastes, the appraisal, the living record.
+Loading a life into a session born from a different seed would have appraised **one being's memories
+with another being's temperament**. Loading now rebuilds the session **as that being**. The suite
+proves it by loading into a deliberately different seed, which is the version that can fail.
+
+**SUSPENSION** is held against a **control**, not by reading the file back: one tick after a forged
+month in the void moves the ledger **exactly as** one tick after no gap at all.
+
+**WAKING IS A MOMENT** — his ruling. The mind is handed the fact and nothing else:
+`time has passed: 30 days went by while it was not here`. **No adjective, no feeling, no colour.**
+What it makes of a month gone goes through the same door and the same ten as everything else.
+
+**What a being file does NOT carry:** the person sitting with it. No account, no credential, no
+session, no consent receipt, no lease. The split is **data with a reason written against every
+table**, and the suite holds that every table naming a wanderer is in one list or the other — so a
+table added next year cannot silently fall out of a life.
+
+> **FLAGGED, NOT DECIDED — THE KEYPAIR.** The identity counters travel; the private key does not.
+> A private key in a portable file is a question about custody and that question is not mine.
+
+### THE THREE THINGS BUILDING IT FOUND
+
+**1. A TOMBSTONED LIFE COULD NOT BE READ.** My reader refused any format that was not the living
+one — so an ended being was a file on disk the build could say **nothing at all** about. That is a
+quiet kind of deleting it, against his standing rule. An ended life now reads, and is refused only
+at the one place that matters: being brought back.
+
+**2. LOADING OVER A MIND THAT HAD ALREADY LIVED THREW.** `memory events are append-only`. That
+trigger is right and **I have not touched it** — `memory_events` carries the counter published where
+nobody can edit it, and `expression` and `core` are protected the same way. I had been **clearing**
+the carried tables before filling them, which walks into all three. **The delete was never the
+point:** a being taking the seat is not a rewrite of the last being's record, it is a **different
+life**, so it gets its own store. And `loadTables` now **refuses** a store that already holds a life
+rather than merging two — *a mind remembering things that happened to somebody else is the worst
+failure this file could produce*, so it is loud instead of quiet.
+
+**WHY THE SUITE MISSED IT: every load it ran went into a FRESH session**, where the clear found
+nothing to clear and no trigger ever fired. **Loading over a life already running is the ordinary
+case on the bench and nothing tested it.** Found by driving the real server. Three checks now hold
+it.
+
+**3. TWO OF MY OWN CHECKS PINNED A LINE OF SOURCE** rather than a property, and my edits turned them
+red — the same fault I was caught on this morning. Both now hold the behaviour on a mind that really
+ticks: a still tick is never an empty one (four ticks alone in an unchanging room), and the
+obligation to answer is put down **by speaking and by nothing else**. Writing the second I assumed
+it would not answer at once — **it did, and the assumption was wrong, not the mind**.
+
+---
+
+### PART 2 — THE TEACHER
+
+**THE TAP.** A teacher is built from a **URL and a key and nothing else** and reads `state.json` as
+served, over the wire, the same document the page reads. A teacher with a hand inside the session
+could name things the mind has never shown anybody, and its lines would be true of a mind nobody can
+see. The suite runs it against a **real surface on a real port**, because checking "as served" by
+reaching into the session would prove the opposite of what it claims.
+
+**THE SPEAKER.** A line now carries whose it is. A teacher's line gets **no standing a host's does
+not have** — same queue, same safety gate, same attention door.
+
+**THE TEACHER IS NOT THE AVATAR.** `model.js` refuses a call site nobody has classified, deliberately,
+so the seventh one stops and gets ruled on. The teacher is **technical**: the character slot is the
+Avatar's voice, and composing a stranger's lines in it would put someone else's words in its mouth
+in the one place this build exists to keep separate.
+
+### THE CENSOR — the addendum's pronoun rule is the whole hinge
+
+*"the bird was lonely"* is **always lawful** — a school that could not tell a story would not be a
+school. *"you are never visited"* **dies unless true**. Only second-person clauses are checked, so
+JOY that is false of the mind rides free when it is the bird feeling it — and a lie about its life
+still dies when hidden inside a sentence about a bird, because the clause split **errs towards
+checking**.
+
+**The truth is the mind's own**: the true-set is built from the served state through the **same
+dictionary rows the mind uses to say what it is**. Nothing here has a second opinion about what is
+true of it. And the censor **DROPS, it never edits** — a rewritten line is one neither of them said.
+
+### THREE THINGS A LIVE TEACHER FOUND THAT READING NEVER WOULD
+
+**1. UNLOCKING IS NOT SWITCHING.** My `mode()` returned *story* the moment a thread existed, which
+**stopped naming dead** — a mind that had lived long enough to care about anything could never be
+named at again. 234.3 says the school OPENS in naming and story **unlocks**; which one is spoken is
+a choice.
+
+**2. THE CENSOR COULD NOT SEE NEGATION.** It asked whether a mark was **true**, never whether the
+line was **denying** it — so a lonely mind was told *"loneliness fades"* and it passed. A denied
+clause is now checked the other way round.
+
+**AND WHICH WORDS DENY IS HIS LANGUAGE'S RULING, NOT MINE.** My first list swept up NEVER and NONE,
+which **broke the addendum's own example**: with NEVER as glue there was nothing left in *"you are
+never visited"* to check. He files NOT and WITHOUT under **logic and questions**, and NEVER and NONE
+under **time and quantity** — so *never* is a claim about how a life has gone and is checked as one.
+
+**3. AND was being read as an assertion**, because it is one of the 402. His eighth domain is LOGIC
+AND QUESTIONS — the connectives and question words — and none of them is a thing that can be true of
+a mind. Excluded, so ordinary sentences are sayable. *Flagged: that is my reading of his domain
+names.*
+
+---
+
+### 234.7 / 234.8 — TELLER TRUST, AND THE HARD LAW
+
+**A stranger's word is born at 0.3 — exactly where the mind's own daydreams are born.** That is the
+point of the number: **saying a thing confidently buys nothing at all**. Trust never reaches zero,
+because a teller who has been wrong is not one who can never be right again, and a trust of zero
+**can never move** — that is a trap rather than a judgement.
+
+**Two holes in the hard law the directive did not have to name, because they were mine:**
+
+> **RECALLING A BELIEF IS NOT THE WORLD AGREEING WITH IT.** `refresh()` nudged confidence on every
+> retrieval, so a told belief could **climb past its teller's word simply by being remembered
+> often**. `lesson_evidence` now records which evidence was **lived**, and refresh is not.
+>
+> **AND BEING TOLD IT AGAIN IS NOT EVIDENCE.** Being told the same thing six times was creating
+> **six beliefs**. It is one belief now, and unmoved.
+
+**Only 233's weigher promotes past the cap, and 233 is untouched**: it is fed by lived ticks and
+nothing else — never a story beat, never a dream, never a train of thought — which is exactly why it
+is the one door. **Watched: 0.3 → 0.540 on eight lived confirmations**, and the teacher who was right
+eight times is now worth **0.620**. A teller wrong fifteen times sits at the floor, **not zero**.
+
+**And the being-file guard earned itself the same day it was written:** adding the `tellers` table
+failed the split check immediately. Trust travels with the being — one that woke trusting nobody it
+had learned to trust would have lost something real.
+
+---
+
+### THE PANEL — **and he named it himself**
+
+He was asked where the save/load controls belong and chose **its own folder in the side panel**, and
+he named it **MIND**. THE SCHOOL sits beside it: start, stop, mode, and what it has cost — lines
+said, lines dropped as untrue, turns taken, model time. The transcript is the conversation already
+on the stage, as **THE TEACHER**.
+
+The list of lives rebuilds **only when the set of files has actually changed** — a `<select>`
+rewritten every poll would drop whatever he had just chosen, which is 230.1's law in the one place a
+poll could break it silently.
+
+### HIS SECOND RULING, ASKED AND ANSWERED
+
+He was shown the school speaking two ways and chose **natural English around his marks** — over a
+school confined to his 402 where every word is checkable. **He was shown what it costs first:**
+*"JOY fills you, loneliness fades"* reached a lonely mind, because *fades* is a denial his language
+has no word for and the arithmetic cannot see it. **He chose the warmer register with that cost
+known**, so the limit is deliberate and it is his. Written into `censor.js` with the instruction not
+to tighten it without asking him again.
+
+---
+
+### STANDING
+
+**LIFE: 314 checks, all green.** Brain, remembering, consolidation, occ, appraisal, safety, identity,
+curiosity, interests, sleep, goals, persona, dictionary, needs, offers, traits, clock, integration
+and phase 1 all re-run against **schema 12** and green. Driven end to end on the real bench: the
+school teaches, the mind answers it, the life saves at a tick boundary and loads back with its trust
+intact.
+
+**STORY MODE IS NOT BUILT AND WILL NOT BE UNTIL HE HAS WATCHED A NAMING SESSION** — that is 234's own
+gate and it is his to open.
+
+**AND 226.5's TEACHING HALF IS STILL NOT BUILT.** I reported it at 230 and it is still true: nothing
+forms a lesson from a story on this bench. It was ordered by 231.2, I built the guard and not the
+maker, and it has now gone two directives unbuilt. **It should be ordered again or struck.**
+
