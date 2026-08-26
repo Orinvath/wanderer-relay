@@ -4906,3 +4906,17 @@ visual-spatial thinker, and its architecture speaks that mode:
   THINKER, BUILT THE WAY SPATIAL THINKERS THINK.
 Add the cited works to REFERENCES.md per 227's law. Report when
 written.
+
+## Directive 229 — The thought display: colour tells the kind
+
+Lonnie's ruling: every thought displays — that is the rule — and
+COLOUR tells what kind. The dimming approach is dead. The scheme:
+- SUBJECT of the train: white (full presence, the anchor)
+- ASSOCIATIONS around it: green
+- IMAGINED story beats: purple
+- REMEMBERED story beats: blue
+- (dream glyphs keep their existing look — sleep is already its own
+  state on screen)
+Legend on the page per 180's law (a display explains itself). Colour
+only — the marks' artwork is never altered, only tinted. His eye
+retests on sight.
