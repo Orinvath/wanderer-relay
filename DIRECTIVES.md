@@ -5202,3 +5202,10 @@ boxes. Rebuild both as instruments:
    page (180). Mock the layout FIRST as a static page, open it for
    his eye (179), and build only after his verdict on the mock.
 Report when the mock is up.
+
+## Directive 238 addendum — Commit law: a commit BEFORE every directive's work begins
+
+Lonnie's order, joining CLAUDE.md: before starting work on ANY
+directive, commit the current state first — a clean revert point
+ahead of every change, every time. One directive, one starting
+commit, then the work. No exceptions.
