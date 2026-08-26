@@ -25570,3 +25570,63 @@ INTERESTS 22 · PERSONA 33 · INTEGRATION 42 alongside. Committed at `ef4c213`.
 
 **His eye on the neighbour lists is the thing 221 asked for.**
 
+
+---
+
+## FOR THE DIRECTOR — A DIRECTIVE I UNDER-BUILT, AND A DECISION I MADE THAT IS NOT MINE
+
+Lonnie, after watching it fail to learn from him: **"Are you not following the directives, or making
+your own decisions instead of following them?"**
+
+**Both. The first is worse.**
+
+### WHAT I FAILED TO FOLLOW — 220.1, written plainly
+
+> *"every unknown heard word is kept as a candidate tagged with what was TRUE in that moment
+> (active marks, the act, who was present)"*
+
+**I used only what it felt, what it lacked, and what it chose.** The **active marks** and **who was
+present** are both in that sentence and I implemented neither.
+
+That is the whole reason he could not teach it. He typed **"Welcome"**, then **"Greetings"**, then
+**"it means hello"**, and got *"I can't read that"* three times — because a word said into a still
+room had nothing to attach to. **Somebody arriving is exactly "who was present", and it is exactly
+what "welcome" is about.**
+
+It now links a new word to the world's own change, to somebody being there, and to the marks he used
+in the same breath. **That is not a fix I found. It is the directive, finally implemented.**
+
+Measured: *"welcome"* said as he arrives now means COME. *"chilly"* used beside COLD now means COLD.
+
+### WHAT I DECIDED — and it goes to you rather than staying here
+
+220.1 says a word is **OWNED past the trust bar**. The paper the directive told me to cite —
+**Carey & Bartlett, fast mapping** — is **one exposure**: a child hears a new word once with a clear
+referent and has it, provisionally.
+
+I had built it to need roughly a dozen repetitions. His response was *"that is not how a human mind
+works?!?!??!"*, and he is right.
+
+**So I made one CLEAR exposure clear the bar:**
+
+```
+  heard once, ONE thing true      -> it has the word, provisionally
+  heard once, THREE things true   -> it does not, because the moment really was ambiguous
+  and living contradicts it       -> the first guess falls to the floor and is replaced
+```
+
+**That is a reading of "trust bar" against the cited paper, and a reading is a decision.** It is
+built and it is green, and I am flagging it rather than letting it stand as though the directive
+said it. If the bar was meant to be repetition regardless, one constant reverses it.
+
+### The others already flagged, gathered here
+
+- **221's fifth source** — where he placed each mark on the sheet. Without it the 351 marks the
+  dictionary never mentions are identical to one another. Named in the report and in the file.
+- **CANNOT UNDERSTAND as a branch of ANSWER** rather than a ninth speech act, because 216 fixed the
+  set at eight.
+- Every magnitude in `learning.js`, `space.js`, `vocabulary.js` and `thinking.js` is marked
+  **[OURS, PROVISIONAL]** in place.
+
+**LIFE is 160 checks**, all green.
+
