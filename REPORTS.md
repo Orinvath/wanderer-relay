@@ -26764,3 +26764,59 @@ The MIND and THE SCHOOL folders are on the panel.
 
 **His eye is the gate story mode waits behind, and it is now his.**
 
+
+---
+
+## 236b — **the teacher was being logged as the mind.** His report, and it was a bug, not a preference.
+
+He said: *"everything the teacher is saying should be in the chat being logged with the mind… I need
+to see their interactions happening in the same place, not in two different place."*
+
+**The feed was never missing. It was MISATTRIBUTED.** The chat log had exactly two labels:
+
+```
+    'host'          -> "you"
+    everything else -> "it"
+```
+
+So **every line the teacher said was written into the log as though the mind had said it.** He was
+watching the school and reading it as *the mind talking to itself*, while the teacher existed only as
+numbers in the panel. That is precisely what "two different places" was — and I opened that page for
+him and reported it working.
+
+**A third voice needs a third label.** The teacher now has one, in the page's own lavender accent —
+the one already used by the panel and the soul buttons, not a new colour I chose.
+
+**And his naming, exactly as given:** the mind is **Mind**, the teacher is **Teacher**.
+
+### AND THE LOG COULD NOT HOLD A SESSION
+
+The teacher speaks up to **once a real second**. The buffer kept sixty lines and served **twenty** —
+about **twenty seconds** of a school. His own line had scrolled out of sight before he could read
+what it answered. A conversation he cannot scroll back through is not one he can watch. **400 kept,
+200 served.**
+
+And there were **two trims on that one list at different lengths** — one where a line is told, one
+where the mind replies — so whichever ran last silently decided how much history survived. They
+agree now.
+
+### VERIFIED
+
+On the served page and on the live bench, one log, in order:
+
+```
+  Teacher  YOU FEEL LONELINESS
+  Mind     Something I hold: Someone here says: JOY WITH.
+  Teacher  JOY fills you, loneliness fades.
+  Mind     I know this much: LONELINESS.
+  Teacher  JOY outweighs LONELINESS
+  you      are you cold
+```
+
+**Reopened on his screen.**
+
+> **ONE THING NOT DECIDED, AND HIS TO RULE.** Lines the censor DROPS as untrue never reach the chat —
+> the mind never heard them, so logging them would show him words it was never told. They are counted
+> in THE SCHOOL folder (*"3 dropped as untrue"*). If he wants to see what the teacher tried to say
+> and was refused, that is a change and I have not made it.
+
