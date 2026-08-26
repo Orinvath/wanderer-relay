@@ -4941,3 +4941,17 @@ Lonnie's rulings:
    struck or deepened · a curiosity answered. In its words where
    words exist. No pulse, no extra chrome — the folder is enough.
 His eye retests on sight.
+
+## Directive 231 — Both approved: the living guard, and stories that teach
+
+Lonnie approved both:
+1. THE LIVING GUARD: a suite check that runs a REAL tick (local model,
+   PHASE 3's pattern) and asserts brainError is null — the check that
+   would have caught the dead tick the day it died. A mind that
+   cannot run one true tick is a failed suite, full stop.
+2. 226.5'S TEACHING HALF, built: a story (replayed or imagined) that
+   completes may DISTIL A LESSON through the existing lesson
+   machinery — imagined-born at 0.3 under the standing guards
+   (marked IMAGINED, confirmed or killed by real life), remembered
+   stories at the normal bar. The LEARNED folder shows the line.
+Suite green. Report.
