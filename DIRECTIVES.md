@@ -4993,3 +4993,55 @@ ticks must climb past the trust bar; one whose claim keeps failing
 must collapse by the third contradiction; a story tick bearing on any
 lesson must fail the suite. Report with a watched trajectory of one
 lesson rising or dying on the live bench.
+
+## Directive 234 — THE TEACHER and BEING FILES (approved; CC codes, nothing to decide)
+
+Two systems, built in this order.
+
+### PART 1 — BEING FILES (persistence first: nothing taught may die again)
+1. SAVE BEING / LOAD BEING on the bench + autosave each bench minute.
+   A .being file is the WHOLE life, one archive: Roe · locked soul +
+   overlay · lessons with provenance and confidences · owned words
+   and candidates · the kinship space's lived co-occurrence · interest
+   threads · memories raw and distilled · teller trusts · story
+   chapters · the ledger and clock. The World-preset law applies:
+   save, wipe, load, EVERYTHING returns byte-true (suite round-trip).
+2. The Genesis hash rides inside — a loaded being is verifiably that
+   being (determinism law extends to lives). Version the format.
+3. The nervous system's body-independence (176) means a .being file
+   is what gets placed into any Avatar body later — record that as
+   the file's purpose in its header.
+
+### PART 2 — THE TEACHER (the school; the story road is the MAIN road)
+Bench fixture teacher.js + a SCHOOL panel folder (start/stop, speed
+follows the slider, session cost counter, transcript in the SAME chat
+log, speaker identity TEACHER distinct from the host).
+1. STATE TAP: reads state.json as served — no new plumbing into the
+   mind. No model inside the mind, ever.
+2. THE TURN (local qwen, PHASE-3 pattern): NAMING mode — one short
+   line naming what is TRUE now ("you are singing"). STORY mode — a
+   3-6 line story on a topic chosen from the mind's current interests
+   via the kinship space, built mostly of owned words plus a CAPPED
+   count of new ones (the ZPD rule, mechanical).
+3. THE CENSOR (arithmetic, before delivery): NAMING lines verified
+   word-for-word against the live state — a false line is dropped;
+   STORY lines verified for the new-word cap. The teacher cannot lie
+   about its state and cannot flood it with the unknown.
+4. LEARNING PATHS, all existing machinery: comprehension, echo,
+   association, pattern-counting (the corpus now includes teacher
+   speech — recorded openly), imagination constructing the told scene
+   (226), feelings from the story beats, and LESSONS OF PROVENANCE
+   "TOLD" — born at THE TELLER'S EARNED TRUST, not a constant:
+5. TELLER TRUST: a small per-teller reliability table in the mind,
+   updated by 233's evidence machinery as taught lessons live or die.
+   A teacher whose teachings keep dying loses the mind's belief —
+   selective testimony (Harris; cite, with Mar & Oatley on story-as-
+   simulation and Zwaan/Bergen on comprehension-as-simulation, rows
+   into REFERENCES.md per 227).
+6. THE HARD LAW HOLDS: told and imagined lessons are capped below
+   full confidence by teller trust; ONLY LIVED REALITY promotes past
+   the cap (233 untouched). Story words ground to the imagined scene,
+   provenance marked.
+Build order: being files -> state tap + channel identity -> censor ->
+naming mode -> trust table -> story mode. Suite each stage; Lonnie
+watches a NAMING session before story mode ships. Report per stage.
