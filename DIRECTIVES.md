@@ -4885,3 +4885,24 @@ Lonnie's order: the science this mind is built on gets full credit.
    build that cites a work adds its row to REFERENCES.md in the same
    change. A citation without its row fails review.
 Report with the file posted to the relay for Lonnie's eye.
+
+## Directive 228 — Side deliverable: DESIGN_PHILOSOPHY.md — the spatial thread
+
+Write CC-Wanderer/spec/DESIGN_PHILOSOPHY.md, short and true:
+
+THE SPATIAL THREAD. The Wanderer's mind is designed by a
+visual-spatial thinker, and its architecture speaks that mode:
+- Visual-spatial cognition reasons by structure — concepts in a
+  layout, relationships as distance and direction, understanding as
+  seeing where a thing fits (cite: Kosslyn's mental imagery program;
+  Shepard & Metzler mental rotation; Einstein's own account of
+  thinking in images with words last).
+- The mind's geometric turn is the same move made architecture:
+  meaning as position, kinship as nearness (221), thought as movement
+  in a space (225), the language as the space itself.
+- Sequential-verbal is the LLM's mode — one token after the next.
+  Spatial is this mind's mode — the shape held whole. That contrast
+  is the project's identity in one line: A MIND DESIGNED BY A SPATIAL
+  THINKER, BUILT THE WAY SPATIAL THINKERS THINK.
+Add the cited works to REFERENCES.md per 227's law. Report when
+written.
