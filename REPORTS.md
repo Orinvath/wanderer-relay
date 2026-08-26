@@ -25630,3 +25630,46 @@ said it. If the bar was meant to be repetition regardless, one constant reverses
 
 **LIFE is 160 checks**, all green.
 
+
+---
+
+## 220.1 — THE ACTIVE MARKS. The third of three, and I had still not built it.
+
+He asked, after the last report: **"so did you do it right now?"**
+
+I checked against the words instead of answering, and **no — I did not.**
+
+### The three 220.1 names
+
+> *"tagged with what was TRUE in that moment (**active marks**, **the act**, **who was present**)"*
+
+| | after my first build | after the "fix" | now |
+|---|---|---|---|
+| **active marks** | — | — | **✓** |
+| **the act** | ✓ | ✓ | ✓ |
+| **who was present** | — | ✓ | ✓ |
+
+Its own feelings and its lowest need were in from the start — those are not among the three, they
+are extra and they are fine. **What the directive actually named, I had one of three, then two of
+three, and only now have all three.**
+
+### What the active marks are, and why they arrive as the previous moment's
+
+They are **the marks of the moment it last had.** This tick's moment is not built until after the
+choosing and **cannot be** — it says what was chosen. The world barely moves between two ticks, so
+what was around it a moment ago is what is around it now. **That is the same reasoning 206 already
+uses for its interests**, and it is a measured fact rather than an assumption.
+
+### The check
+
+It asserted *"changeWords and understood.matched and custody:arrival"* — three things, none of them
+the missing one, and it passed the whole time. It now asserts **all three of 220.1's categories by
+name**, so this cannot happen a fourth time.
+
+### Standing
+
+**LIFE is 160 checks**, all green. Committed at `2cf5cfb` and pushed.
+
+**The trust-bar decision from the previous report is still flagged and still unruled.** Nothing about
+it has changed.
+
