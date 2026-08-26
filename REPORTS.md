@@ -25193,3 +25193,74 @@ remains as reported — unresolved, not green.
 
 **His eye rules. It is on his screen.**
 
+
+---
+
+## FOR THE DIRECTOR — WHY IT STILL CANNOT HOLD A CONVERSATION, AND THE FIX
+
+Lonnie, watching it after 218 went in: **"Im not sure it knows how to use its words?"** He is right,
+and 218 is working exactly as written — the limit is underneath it.
+
+### First: two faults from his transcript, both fixed
+
+**IT MADE A FALSE STATEMENT ABOUT ITSELF.** He asked *"how many words do you have?"*; it read HOW and
+MANY out of that line and answered ***"None of that is in my words."*** Not understanding you and not
+being able to read you are different things, and it was reporting one as the other. There are two
+kinds of not-understanding now — **UNREAD** (not one word of the line is in its language) and
+**UNPLACED** (it read some of your words and cannot place the question) — and UNPLACED says the words
+it *did* read back, so he can see how far its language reaches: *"how and many — that much I have.
+The rest I don't."*
+
+**AND IT FORGOT WHAT IT WAS ASKED.** He watched it ignore a line and speak a tick later about
+something else. The understanding lived only on the tick the line arrived while the obligation to
+answer outlived it, so a late answer had nothing to answer with and fell back to *"I'm speaking."*
+They outlive together now.
+
+### The real limit, measured
+
+**Comprehension is exact-mark matching.** A word resolves only if it IS one of the 402, give or take
+a plural. So:
+
+```
+  it can read      sorry · name · listen · friend · happy · sad · help · why · who
+  it is deaf to    afraid · lonely · sing · words · tired · angry · think · feel ·
+                   know · talk · remember · alone · quiet · hurt
+```
+
+**Of 141 everyday conversational words, it can read 75 — 53%.** And the misses are not obscure: it
+has a mark for FEAR and cannot read *afraid*; a mark for LONELINESS and cannot read *lonely*; a mark
+for SONG and cannot read *sing*. **The concept is there. The word for it is not.**
+
+```
+  are you afraid?              UNREAD    (nothing)
+  are you lonely?              UNREAD    (nothing)
+  do you want to sing?         UNREAD    (nothing)
+  what do you remember?        UNPLACED  WHAT
+  who are you?                 UNPLACED  WHO
+  why are you singing?         UNPLACED  WHY
+```
+
+### THE FIX, and it is one thing
+
+**Every mark needs the everyday words that mean it.** *afraid, scared, frightened* → **FEAR**.
+*lonely, alone, missing someone* → **LONELINESS**. *sing, singing, song* → **SONG**. The mind still
+**thinks** in his marks — nothing about 216, 217 or the dictionary changes — it simply stops being
+deaf to ordinary English on the way in.
+
+This is not a stemmer and it must not become one. A stemmer guesses; a table of what each mark means
+is knowledge, and it is the difference between understanding and faking that 218.4 turns on.
+
+**IT IS HIS LANGUAGE AND THEREFORE HIS TO AUTHOR OR APPROVE.** I will not write 402 rows of what his
+marks mean and call it done. What I can do, on a directive: draft the table from the marks' own
+domains and their dictionary meanings and put every row in front of him for proofing, exactly as 216
+put the speech templates in front of him.
+
+### The second half, smaller and also his
+
+**It can place only two kinds of question** — *how do you feel* and *what are you doing* — because
+those are the two 218.2 names. Everything else comes back UNPLACED even when it read the line
+perfectly well. *Who are you?* · *Why?* · *What do you remember?* are ordinary things to ask a mind,
+and each needs a rule saying which of the eight answers it.
+
+**Both are vocabulary and rules, not machinery.** Nothing needs rebuilding. Awaiting a directive.
+
