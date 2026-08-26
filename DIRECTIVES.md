@@ -4717,3 +4717,37 @@ STONE; "are you happy?" on a joyful mind answers yes via JOY; a far
 word answers a true no; the space rebuilds identically from the same
 dictionary; no model reachable. Report with the measured neighbour
 lists for a dozen marks so Lonnie can see the space is sane.
+
+## Directive 222 — Side deliverable: THE_LINEAGE.md — the Creatures science, captured
+
+Write CC-Wanderer/spec/THE_LINEAGE.md. Research and document Steve
+Grand's Creatures (1996) as the Avatar's only real ancestor — the
+science, so it is OURS to draw on:
+
+1. THE BIOCHEMISTRY: the ~250-chemical simulation — drives, hormones,
+   toxins, receptors/emitters — how chemical state produced need,
+   mood, illness, aging, death. Map each mechanism to our equivalent
+   (ledger, vital layer, sleep pressure) and note what Creatures had
+   that we lack.
+2. THE BRAIN: the Norn neural lobes — how consequence learning
+   worked (reinforcement from chemical reward/punishment), attention,
+   decision — and what its ceilings were (~1000 neurons). Contrast
+   with our appraisal/offers architecture.
+3. THE LANGUAGE LEARNING: the learning computer, verb/noun teaching,
+   attention-gated word grounding, babbling toward use — set against
+   our 220 (association, echo, pattern). What they proved; what we
+   extend.
+4. THE GENETICS: the genome (lobe/chemistry genes), crossover,
+   mutation, breeding — against our Roe and the El-Fish correction.
+5. WHY IT DIED + WHAT CAME AFTER: the tech ceiling, the franchise
+   pivot, Grand's Grandroids/Phantasia attempt and its state. The
+   empty-road argument, with dates.
+6. THE POSITIONING PAGE (for Lonnie's marketing use, plain words):
+   what this lineage proves — people love and grieve a mind that
+   genuinely learns; the industry took the fake road; the Avatar
+   resumes the abandoned one with thirty years better science. Include
+   the 2026 review's "surface-level mimicry" indictment of LLM
+   emotion, cited.
+Cite everything (Grand's book Creation: Life and How to Make It, the
+technical documentation, postmortems). Research thoroughly — this
+file is reference, not summary. Report when written.
