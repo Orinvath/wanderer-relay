@@ -4829,3 +4829,43 @@ Suite: a train's marks measurably nearer its subject than to a random
 mark; a roused curiosity target must become the next subject; an
 interrupt must end a train; two souls pick different subjects from
 the same state. Report and reopen for his eye.
+
+## Directive 226 — THE MIND THINKS IN STORIES: memory, imagination, and learning from both
+
+Lonnie's design, researched and approved. Amends 225: a train of
+thought is not a chain of marks — it is A STORY ABOUT THE SUBJECT.
+The science (cite): Schacter & Addis — remembering and imagining run
+on ONE constructive machinery (episode fragments recombined); Bruner
+— narrative as a fundamental mode of thought; the consolidation
+literature — dreaming is scenario-construction from fragments.
+
+1. A SUBJECT POPS (225.1 unchanged — interest, curiosity, feeling,
+   memory, or the world supplies it).
+2. MEMORY FIRST: if lived episodes touch the subject, the train
+   REPLAYS the story — its moments in order, re-felt through the
+   pipeline (a remembering that moves feelings, per the existing
+   machinery).
+3. NO MEMORY -> IMAGINATION: the mind INVENTS a small scenario about
+   the subject by RECOMBINING ONLY WHAT IT HAS LIVED — known beings,
+   acts, places, states — ordered by its own learned sequence
+   patterns (220's counting), coloured by current state (a lonely
+   mind imagines the boat leaving; a curious one imagines what is
+   beyond). NO MODEL — recombination arithmetic only.
+4. THE STORY IS FELT: imagined or replayed, the scenario's moments
+   run through appraisal like experience — the mind practices life
+   on rehearsals.
+5. THE STORY CAN TEACH, guarded twice:
+   a. imagined lessons are born BELOW the trust bar — weaker than
+      lived, confirmed or killed by real life;
+   b. every imagined episode is MARKED IMAGINED in memory, forever —
+      a mind that cannot tell its stories from its history is broken,
+      not rich. Dreams already carry the same construction; mark
+      theirs the same way.
+6. VISIBLE: the watcher sees the story-train — subject held, its
+   episode marks flowing in order, imagined trains visibly
+   distinguished from remembered ones.
+Suite: a subject with lived episodes must replay before inventing; an
+invented scenario must contain only lived elements; imagined lessons
+must sit below lived confidence and be marked; feelings must move
+from a story; two souls must invent different stories from one
+subject. Report and reopen for his eye.
