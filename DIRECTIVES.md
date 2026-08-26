@@ -4800,3 +4800,32 @@ when lonely, wonder-chains when curious), and what renders does not
 read as a chain. CC is fixing in session; report the diagnosis and
 fix to the relay when done so the record holds it. The 223 space
 rebuild and its neighbour lists resume after.
+
+## Directive 225 — TRAINS OF THOUGHT: subject first, association around it
+
+Lonnie's verdict on the 224 fix: neighbour-stepping alone is a stream,
+not thinking. The mind FORMS A THOUGHT ABOUT SOMETHING, then
+associates around it (current-concerns research: thought organizes
+around what is cared about now; cite Klinger).
+
+1. A SUBJECT is chosen first — by the same weighing everything uses:
+   a roused curiosity target, a deep interest thread, the strongest
+   feeling, or a surfaced memory. Interests and curiosity LEAD;
+   that is what they are for (Lonnie's design, 217.1 selection).
+2. THE TRAIN HOLDS THE SUBJECT: while it runs, each thought is an
+   association AROUND the subject — neighbours of the subject's
+   marks, memories touching it, its own state toward it. Drift stays
+   near the anchor (distance-capped in the space); the subject mark
+   recurs through the train.
+3. THE TRAIN ENDS three ways: exhausted (the neighbourhood's novelty
+   spent), interrupted (a stronger feeling or outer moment takes the
+   mind), or answered (curiosity's question resolved — which is a
+   lesson). Then a new subject is chosen. No constants — caps and
+   spans derived per 071, marked provisional.
+4. VISIBLE: the watcher should SEE the train — the subject's mark
+   distinguishable, its associations orbiting it, a new train
+   visibly beginning.
+Suite: a train's marks measurably nearer its subject than to a random
+mark; a roused curiosity target must become the next subject; an
+interrupt must end a train; two souls pick different subjects from
+the same state. Report and reopen for his eye.
