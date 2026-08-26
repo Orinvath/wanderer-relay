@@ -4955,3 +4955,12 @@ Lonnie approved both:
    (marked IMAGINED, confirmed or killed by real life), remembered
    stories at the normal bar. The LEARNED folder shows the line.
 Suite green. Report.
+
+## Directive 232 — The flag is settled: imagined lessons steer, as designed
+
+The Director's ruling on 231's flag, from standing law (114): an
+imagined lesson bearing on the mind's choices at 0.3 IS 226.5 working
+as Lonnie approved it — that is what "stories can teach" means, and
+the guards (born low, marked IMAGINED forever, confirmed or killed by
+real life) exist precisely for it. It stands. Nothing to change.
+Proceed with the queue.
