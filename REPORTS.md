@@ -26041,3 +26041,70 @@ beside this report.
 **Still outstanding: 223's row-membership rebuild of the kinship space, and its dozen neighbour
 lists for his eye.**
 
+
+---
+
+## 223.2 — THE SPACE REBUILT ON HIS ROWS. **The dozen neighbour lists, for his eye.**
+
+The Director inspected the grids with him and ruled it, and the sheets plainly do carry it. One
+sheet, row by row:
+
+```
+  dwellings   HOME SHELTER HOUSE ROOM DOOR
+  ways        PATH ROAD BRIDGE CITY VILLAGE
+  land        LAND FIELD FOREST MOUNTAIN HILL
+  waters      CAVE RIVER LAKE SEA ISLAND
+  sky         SKY CLOUD RAIN STORM WIND
+  materials   FIRE SMOKE STONE SAND METAL
+  plants      PLANT TREE FLOWER SEED ANIMAL
+  creatures   BIRD FISH INSECT SUN MOON
+```
+
+**ROW MEMBERSHIP is the fifth source at weight 1.3** — below senses (2.2) and dyad partners (1.6),
+above bare sheet membership (1.0), which is the ruling's own order.
+
+**AND COLUMN POSITION IS OUT.** My own flagged fifth source used each mark's **cell** plus its four
+neighbours — which quietly claimed two marks in one column of different rows were kin. It is gone,
+and the suite checks it cannot come back.
+
+### THE DOZEN NEIGHBOUR LISTS — 223.2's own ask
+
+```
+bar 0.186 near-floor 0.095 over 80601 pairs
+
+RIVER       -> CAVE 1.00  LAKE 1.00  SEA 1.00  ISLAND 1.00  SHELTER 0.37  HOUSE 0.37
+HOME        -> SHELTER 0.45  HOUSE 0.45  ROOM 0.45  DOOR 0.45  PATH 0.17  ROAD 0.17
+STORM       -> SKY 1.00  CLOUD 1.00  RAIN 1.00  WIND 1.00  SHELTER 0.37  HOUSE 0.37
+STONE       -> FIRE 1.00  SMOKE 1.00  SAND 1.00  METAL 1.00  SHELTER 0.37  HOUSE 0.37
+TREE        -> PLANT 1.00  FLOWER 1.00  SEED 1.00  ANIMAL 1.00  SHELTER 0.37  HOUSE 0.37
+MOTHER      -> PARENT 1.00  FATHER 1.00  SIBLING 1.00  SON 1.00  SELF 0.37  PERSON 0.37
+MORNING     -> NIGHT 1.00  EVENING 1.00  NOW 1.00  LATER 1.00  TIME 0.37  PAST 0.37
+GRIEF       -> SURPRISE 0.55  WORRY 0.55  SHAME 0.36  PRIDE 0.32  LOVE 0.25  FEAR 0.25
+JOY         -> SHARE 0.57  PRIDE 0.48  GLOAT 0.43  HOPE 0.31  ENVY 0.28  PEACE 0.24
+SONG        -> MUSIC 0.55  STORY 0.55  GAME 0.55  TRADE 0.55  TOOL 0.21  MACHINE 0.21
+QUESTION    -> WHO 1.00  WHAT 1.00  WHERE 1.00  WHEN 1.00  WHY 0.37  HOW 0.37
+LONELINESS  -> OTHER 0.49  COME 0.46  TOGETHER 0.38  SAFETY 0.38  COURAGE 0.38  DESIRE 0.38
+```
+
+**Where his sheets group by kind, the space is now exactly right** — waters, sky, materials, kin,
+times of day, question-words, the things people make.
+
+**Where a row is a mixed bag, it still is** — GRIEF→SURPRISE·WORRY is the emotion row, and the
+emotion sheet does not group by valence. **Living corrects that and nothing else does:** say "sad"
+to a grieving Avatar and SAD draws toward GRIEF in *its* space, which is 221.4.
+
+### REPORTED HONESTLY — what the ruling costs
+
+**Marks in one row now sit at 1.00 to each other.** Within a row nothing distinguishes them, because
+column is out and the 351 marks the dictionary never mentions have no other feature to separate
+them. That is what the ruling produces rather than a fault in carrying it out — the dictionary's
+senses and dyad partners still separate the 51, and lived co-occurrence separates the rest as a life
+accumulates. Flagged so it is a decision and not a surprise.
+
+### Standing
+
+**LIFE is 211 checks**, all green; CURIOSITY 21 · OFFERS 32 · HOSTCHANNEL 17 · DICTIONARY 31 ·
+INTERESTS 22 · PERSONA 33 · INTEGRATION 42 alongside. Committed at `bfe6e87`.
+
+**223 is now complete — both rulings. Nothing is outstanding from 223 through 229.**
+
