@@ -4686,3 +4686,34 @@ and fades; word order in its speech converges toward the host's
 measured patterns; prediction error is nonzero on surprising lines
 and feeds the curiosity input; every placed question answers from the
 record. Report and reopen for his eye (179).
+
+## Directive 221 — KINSHIP IS DISTANCE: the language becomes a space (Lonnie approved)
+
+The 351-marks ruling: no kinship table. Nearness IS kinship. The first
+geometric machinery in the mind, scoped lawfully.
+
+1. THE SPACE: every one of the 402 marks gets a vector built ONLY from
+   the mind's own record — its domain, its dictionary senses (shared
+   sense words pull marks together), its dyad partners, and lived
+   co-occurrence from 220's counting as life accumulates. NO
+   pretrained embeddings, no external corpus, no model — the space is
+   HIS language's own structure and nothing else. Deterministic:
+   same dictionary, same space.
+2. "ARE YOU X?" IS A DISTANCE CHECK: the asked mark's vector against
+   the marks of the mind's actual current state. Near past a
+   closeness bar (derived, not constant — from the space's own
+   measured distribution, the 0.67 method) -> answered truly from the
+   state it is near to ("HAPPY?" near JOY -> yes, joy). Far -> a true
+   no. Middling -> the honest middle ("near SAD, not it").
+3. GENERALITY: the same distance serves thought-association (the
+   thinking loop's drift steps to near marks), aptness weighting
+   (0189625's weights can read the space), and any future "is X like
+   Y". One mechanism, several debts paid.
+4. LEARNED WORDS JOIN THE SPACE: a word owned through 220 gets its
+   vector from the mark it earned onto plus its own lived
+   co-occurrence — the space grows as the language grows.
+Suite: WANT·DESIRE·WISH·LIKE measurably nearer each other than to
+STONE; "are you happy?" on a joyful mind answers yes via JOY; a far
+word answers a true no; the space rebuilds identically from the same
+dictionary; no model reachable. Report with the measured neighbour
+lists for a dozen marks so Lonnie can see the space is sane.
