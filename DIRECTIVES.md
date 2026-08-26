@@ -5154,3 +5154,17 @@ visible, nothing is patched.
 
 235.2 NOW: open the bench for his naming-session watch (179) — school
 on, teacher naming, chat log live.
+
+## Directive 237 — The gate is met: STORY MODE OPENS. And naming stops repeating.
+
+Lonnie is watching the naming session now — 234's gate is satisfied.
+
+1. UNLOCK STORY MODE per the standing spec (234.2, the pronoun-level
+   censor, teller trust, the interest-topic pick — all as ruled).
+   His law restated: THE TEACHER MAY TELL ANY IMAGINED STORY — fiction
+   about the world is free; only second-person claims about the mind
+   or its host are truth-checked. Stories are the MAIN road.
+2. NAMING STOPS REPEATING: the teacher tracks what it has recently
+   said; if nothing true has CHANGED, it stays silent that turn or
+   tells a story instead. "JOY is with you" on loop is not teaching.
+His eye stays on the page — report when stories are flowing.
