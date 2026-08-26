@@ -25673,3 +25673,103 @@ name**, so this cannot happen a fourth time.
 **The trust-bar decision from the previous report is still flagged and still unruled.** Nothing about
 it has changed.
 
+
+---
+
+## DIRECTIVE 222 — THE_LINEAGE.md, written. **Two corrections to the directive, both in the file.**
+
+`CC-Wanderer/spec/THE_LINEAGE.md`, 536 lines, committed at `cd45967`.
+
+### How it was researched
+
+**The primary paper was fetched and read in full, not summarised from a summary** — Grand, Cliff &
+Malhotra, *Creatures: Artificial Life Autonomous Software Agents for Home Entertainment*, University
+of Sussex **CSRP434** / 1st International Conference on Autonomous Agents, 1997. Every quotation in
+sections 1–4 comes from it. Where a fact is from the community wiki instead it is **marked as such**,
+because the wiki documents the shipped games and the paper documents the design as its authors
+described it, and those are not always the same thing.
+
+### What the file holds
+
+**§1 BIOCHEMISTRY.** Four object classes — chemicals, emitters, reactions, receptors — and the
+decision that carries all of it: *"Chemicals have no inherent properties—the reactions which each
+can undergo are defined genetically."* Drives **are** chemicals. Metabolism, the eight-antigen
+immune response with an evolving bacterial population, seven life stages, senescence genes.
+
+**§2 THE BRAIN.** ~1,000 neurons, 9 lobes, ~5,000 synapses — and the ceiling in the authors' own
+words: ten creatures meant *"20,000 neurons and 100,000 synaptic connections every second"* on a
+486/66. SVRules, dendritic migration, and the **STW/LTW two-timescale reinforcement**, which is the
+part most worth stealing. Their own verdict is quoted rather than hidden: *"The brain model is not an
+ambitious one... primitively Behaviorist."*
+
+**§3 LANGUAGE.** Attention gates grounding — which is *why* they were limited to verb-object, stated
+by them as a consequence rather than a feature. Three teaching routes, including **creature to
+creature**, which we do not have.
+
+**§4 GENETICS.** Haploid, punctuation-marked byte string, per-gene mutability headers,
+distance-weighted crossover for linked traits, genes that **switch on with age**. And the principle
+they refused to shortcut: *"Genes in our creatures' genomes code for structures... rather than
+outward phenomena."* Set against our Roe and the El-Fish correction already in
+`AVATAR_SYSTEM_PLAN.md`.
+
+**§5 WHY IT DIED.** Dated: Cyberlife 1994 → release 11 Nov 1996 → renamed Creature Labs Nov 1999 →
+Grand leaves end of 1999 → refinancing 2002 → **shut down 20 March 2003** → IP to Gameware. Then
+Grandroids (2011) → **Phantasia** (renamed Sept 2024), one person, unfinished. **Twenty-three years
+and the road is still empty.**
+
+**§6 THE POSITIONING PAGE**, plain words, standing on its own for his marketing use.
+
+### CORRECTION ONE — the chemical count
+
+222 says *"the ~250-chemical simulation"*. That is **Creatures 3**.
+
+```
+  the address space (paper)      256   (a byte, 0–255)
+  Creatures 1 as shipped         73
+  Creatures 3                    ~250
+```
+
+**And the count was never the point.** What mattered is that chemicals had no built-in properties —
+a chemical was a slot, and what it did was whatever the genes said it reacted with. That is why the
+space could be filled out over three games without redesigning anything.
+
+### CORRECTION TWO — the 2026 review
+
+222 asks for *"the 2026 review's 'surface-level mimicry' indictment of LLM emotion, cited."*
+
+**I could not verify a 2026 review saying that.** What I have, and what the file says plainly:
+
+- the exact phrase is **indexed against Taillandier et al., arXiv 2507.19364** — I fetched the PDF
+  and **could not find the passage in it**, so it is reported as a search attribution rather than a
+  read quotation
+- **Li, Sun, Schlicher, Lim & Schuller (2025), *Artificial Emotion*** — read directly, and it makes
+  the same charge from the other side: genuine machine emotion would require *"a technical
+  integration of emotion states into the internal representational and decision-making processes"*,
+  **not surface recognition and response generation**
+- **Bhattacharyya et al. (2025)** put it in a title: *Large language models show fragile cognitive
+  reasoning about human emotions*
+
+Both are **2025**. If a specific 2026 review is meant, name it and I will fetch it and correct the
+section.
+
+### WHAT CREATURES HAD THAT WE LACK — said plainly in the file
+
+Illness. Ageing. **Mortality of any kind.** An evolving bacterial population. Creature-to-creature
+language teaching. And a brain that **rewired itself continuously** — our equivalent of dendritic
+migration exists only for interests, and our equivalent of STW/LTW only for lessons. **Its brain
+rewired all the time. Ours does not rewire at all.**
+
+Every one of those was load-bearing for why people cared: *a Norn could die, and would, and you could
+not undo it.*
+
+### Where we are ahead, and why
+
+Creatures had a **chemistry standing in for an emotion theory**, because in 1996 there was no
+implementable one. Thirteen appetites where we have the three psychological needs the evidence
+supports, and every feeling derived through OCC's 22 types. Fast mapping was published in **1978** —
+eighteen years before *Creatures* — and simply was not in the design. Saffran's statistical learning
+published in **1996**, the same year it shipped.
+
+**Grand's own book, *Creation: Life and How to Make It* (2000), is cited but was NOT obtained.** 222
+names it; I have not read it, and the file says so rather than implying otherwise.
+
