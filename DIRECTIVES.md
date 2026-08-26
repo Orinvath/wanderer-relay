@@ -5110,3 +5110,18 @@ simulation).
 Build order: being files -> state tap + speaker identity -> censor ->
 naming mode -> trust table -> story mode. Suite each stage; Lonnie
 watches a NAMING session before story mode ships. Report per stage.
+
+## Directive 234 addendum — third pass: the censor refined; TIME RULED by Lonnie
+
+1. THE STORY CENSOR, refined to pronoun level (or stories die of it):
+   truth-checking applies ONLY to second-person claims — lines about
+   YOU or the host by name. Third-person fiction is free ("the bird
+   was lonely" always lawful); "you are never visited" still dies
+   unless true. Mechanical, arithmetic.
+2. LONNIE'S TIME RULING (supersedes 069 for the unloaded case):
+   TIME IS PAUSED FOR AN UNLOADED MIND. No decay, no drain, nothing
+   accrues in the void. At load it MAY be made aware that time has
+   passed — and that awareness is simply A MOMENT, appraised through
+   its aspects like everything else: one being feels loss at a month
+   gone, another is unmoved, a third feels relief. Derived, never
+   scripted. 069's always-running clock governs LOADED life only.
