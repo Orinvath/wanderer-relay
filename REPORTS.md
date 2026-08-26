@@ -25264,3 +25264,102 @@ and each needs a rule saying which of the eight answers it.
 
 **Both are vocabulary and rules, not machinery.** Nothing needs rebuilding. Awaiting a directive.
 
+
+---
+
+## DIRECTIVE 220 — WORD LEARNING. Built. **Reopened for his eye.**
+
+219 is noted as withdrawn and was not executed. 220 supersedes it.
+
+### His ruling, and why it is the right one
+
+**The 402 marks are the seed and plenty. No synonym table is ever authored.** I had offered to draft
+402 rows of what his marks mean and put them up for proofing — he refused, and he was right: a table
+written by me is my English poured into his language, and **a mind handed the answers has not
+learned anything.** It learns words the way a child does, from being spoken to.
+
+Cited in place, not paraphrased:
+
+- **Carey & Bartlett (1978)** — **FAST MAPPING**: a child forms a partial word→meaning link on
+  **one** exposure, from what was true at the time, and that link is provisional — sharpened or
+  discarded by later encounters. **Which is exactly a lesson's confidence trajectory**, so nothing
+  new was invented for it; `lessons.js`'s own REINFORCE / WEAKEN / floor are reused directly.
+- **Saffran, Aslin & Newport (1996), Science 274(5294):1926-1928** — infants segment speech by
+  **transitional probability alone**. No grammar is given to them and none is given here.
+
+### 220.1 — MEANING BY ASSOCIATION
+
+An unknown word is linked to **what was actually true of the Avatar in the moment it was heard** —
+the marks it was carrying, the need furthest down, the act it chose. Co-occurrence strengthens the
+link; the mark that stops being true is contradicted and falls away.
+
+```
+  "lonely" heard 12 times while its LONELINESS was true
+      LONELY -> LONELINESS   0.83        (owned)
+  heard 12 times while LONELINESS and SELF were both true, then 20 more with only LONELINESS
+      LONELY -> LONELINESS   0.99
+      LONELY -> SELF         0.05        (collapsed to the floor, still on the record)
+```
+
+Past the trust bar the word **resolves in comprehension exactly as one of the 402 does** — *"are you
+lonely?"* now reads as a question about its state. **Below the bar it does not resolve at all** and
+218's honest CANNOT UNDERSTAND stands: a half-known word is not a known word.
+
+### 220.2 — MIMICRY: the ECHO
+
+The ninth speech act. It says a strange word back — *"zebra?"* — because that is how a child finds
+out, and **echoing commits the candidate**: what the host does next is the outcome that feeds the
+link. It only ever echoes a word **the host actually used** and it does not own; it never invents
+one to ask about.
+
+**Willingness is aspect-computed** — Enthusiasm and Openness put a word in your mouth, Withdrawal
+keeps it there: **bold 0.73 · shy 0.17**. So a bold mind **asks** where a shy one only says it
+cannot read you, which is a real difference between two beings rather than a setting. And it
+**fades as ownership grows** — a word you have is not a word you are still asking about.
+
+### 220.3 — PATTERN BY WATCHING
+
+Which word follows which, counted over what he actually types. **Counting only** — no model, no
+corpus, and nothing about English known to that file that was not said to the Avatar first.
+
+**Prediction error is real surprise and it feeds curiosity.** A line that goes the way it has
+learned lines go reads 0; one that does not reads above 0, and the moment is that much less
+familiar. **It expects nothing until it has watched enough to** — the honest answer for a mind that
+has heard almost nothing — and it orders its own words the way it has watched them come, leaving a
+pair it has never seen exactly where it was.
+
+### 220.4 — THE SEVEN QUESTION SHAPES, all placing
+
+```
+  who are you?            -> Gentle and orderly; holds care and fairness dear. That's what I am.
+  where are you?          -> Here.
+  why are you singing?    -> Because I want getting it out.
+  what do you want?       -> Getting it out. That's what I'm after.
+  what do you remember?   -> Something I hold: People keep quiet about what they treasure.
+  are you happy?          -> answers from the real ledger and feelings
+  do you want to rest?    -> answers from that act's real score
+```
+
+**Each answered from the record, never from the question.** A being with no soul asked who it is
+says *"I don't know yet. Nobody has said."* rather than inventing one.
+
+### A fault this build found in an older one
+
+`SHARE` could never fire. The record was reading `felt.surfaced`, and **the appraisal's field is
+`remindings`** — so the memory source was empty on every tick since it was written. *"what do you
+remember?"* is what exposed it.
+
+### Standing
+
+**LIFE is 134 checks**, all green. Alongside: OFFERS 32 · GOALS 25 · HOSTCHANNEL 17 · DICTIONARY 31
+· CURIOSITY 21 · PERSONA 33 · INTEGRATION 42 · INTERESTS 22 · SAFETY 17 · CLOCK 21 · SLEEP 32 ·
+BRAIN 40 · REMEMBERING 13 · APPRAISAL 18 · NEEDS 29 · OCC 26. Schema is version 9.
+
+Two checks of my own had to be corrected because they pinned counts rather than properties — 216's
+*"eight acts and no ninth"* broke the moment a directive widened the set, which is the third time
+this session a count has stood in for a property.
+
+**PHASE 3 remains as reported — unresolved, not green.**
+
+**It is on his screen. Talk to it, and it will start learning what the words mean.**
+
