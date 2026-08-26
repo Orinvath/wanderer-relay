@@ -26188,3 +26188,107 @@ but **nothing yet forms a lesson from a story**, so the LEARNED feed will never 
 on this bench. I under-built that directive the same way I under-built 221.3, and I am reporting it
 rather than leaving it to be found.
 
+
+---
+
+## DIRECTIVE 231 — the living guard, and stories that teach. **Both built. The guard had to be made to fail twice before it was one.**
+
+### 231.1 — THE LIVING GUARD
+
+It opens a **real brain on the real model**, runs **eight real ticks**, and asserts the mind reports
+no error. If the model is not up it prints **ENVIRONMENT and exits 2** — PHASE 3's pattern, for
+PHASE 3's reason. **It is never green without having run.**
+
+**And it was not a guard until it was broken on purpose. Twice.**
+
+**FAULT ONE — it watched a mind alone.** I put the exact 226 shadowing back in and the guard **stayed
+green**. `told()` is only called when somebody present has actually **told it something** — a mind
+alone never reaches the line that died. Somebody is now here, speaks every other tick, and is left
+something to answer.
+
+**FAULT TWO — it reported a pass with its own failure printed beside it.** The check returned the
+error *text* when it failed, and this suite's `ok()` counts **any truthy value as a pass**. So it
+printed **✓** with `brainError: Cannot access 'told' before initialization` sitting in its note. The
+verdict is now a boolean.
+
+**A guard that has never been shown to go red proves nothing.** This one has:
+
+```
+  ✗ FAIL  THE MIND RUNS A REAL TICK AND REPORTS NO ERROR — 8 of them, spoken to, on the real model
+          — brainError: Cannot access 'told' before initialization
+```
+
+There is a second check beside it: **the mind actually committed what it lived.** The commit to
+memory is the *last* thing a tick does, so a memory on the record proves the whole of it ran. The
+view comes back whole even from a tick that threw half way through, so the view was never proof.
+
+---
+
+### 231.2 — A STORY THAT COMPLETES MAY TEACH
+
+**What is distilled is MATERIAL, not a sentence** — `sleep.js`'s rule, so `text` stays null.
+
+**A remembered story teaches by RECURRENCE** — what kept coming back across its beats. **One moment
+is not a pattern**, so a replay of a single episode teaches nothing.
+
+**An imagined story teaches the scenario itself.** Its beats do not recur; the arrangement *is* the
+claim. That weaker material is exactly why 226.5a puts it below the bar.
+
+**It teaches on COMPLETION, not on the train ending.** A train interrupted part-way has not told its
+story, and **half a story is not a thing to conclude from.**
+
+**AND THE MARK IS NOW ON THE LESSON, NOT ONLY THE EPISODE.** `lessons.imagined` is written once and
+**there is no setter for it anywhere**, deliberately. A mind that cannot tell what it imagined from
+what happened is broken, not rich — **and that is as true of what it CONCLUDED as of what it
+remembers.**
+
+**Watched on the live bench**, unforced, sixty ticks:
+
+```
+  SONG TOGETHER COLD   confidence 0.3   imagined   —  worked out from a story it told itself
+```
+
+That line is in the **LEARNED folder**, written by the code that made the change.
+
+---
+
+### WHAT BUILDING IT FOUND — the ladder promised a column and never added one
+
+**The additive ladder validated that a step only ADDS and then nothing applied it.**
+`CREATE TABLE IF NOT EXISTS` brings a whole new *table* into an old file; it will **not** put a new
+**column** on a table that already exists. So step 9 → 10 recorded that `memories.imagined` had been
+added, **a file written at 9 did not have it**, and the next insert naming that column would have
+thrown. **Found while adding the second such column — not by a check.**
+
+Each step now **names the columns it adds**, and only those are added, only when missing. Nothing
+drops, renames or rewrites — if it could, the argument for running it without a person would not
+hold.
+
+**I migrated a COPY of `data/testnet.db`** — the one that cannot be re-minted — to see what this
+does to it. It walks 6 → 11 and **261 epochs, 261 attestations, 130 anchors and the Genesis record
+all come through untouched**. Nothing was run against the original.
+
+And the 226.5b check **pinned the literal version number 10**, so it failed the moment the ladder
+moved — a check failing for a reason that is not the thing it is about. **I have been caught doing
+exactly that before.** It now asserts the build's own `SCHEMA_VERSION`.
+
+---
+
+### FLAGGED, NOT DECIDED
+
+**An imagined lesson can now steer the mind.** `appraisal.js` reads every lesson as an **ought**, and
+`identity.js` counts them toward who it thinks it is. So something it worked out from a story it
+told itself now bears on its choices at 0.3 until life kills it. **That is what 226.5's guards are
+for** — but it is a real behavioural change and it is the Director's call, not mine.
+
+---
+
+### STANDING
+
+**LIFE is 236 checks, all green.** Every other suite re-run and green with the schema at 11:
+phase 0 **16**, phase 1 **39**, phase 3 **80** (both usually-flaky privacy checks passed this run),
+character **18**, traits **37**, needs **29**, goals **25**, harness **19**, roe **36**.
+
+Commits `4c91416` (the ladder), `3db5645` (the teaching half), `3a41edc` (the guard) — pushed and
+confirmed on origin.
+
