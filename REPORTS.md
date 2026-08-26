@@ -26627,3 +26627,91 @@ gate and it is his to open.
 forms a lesson from a story on this bench. It was ordered by 231.2, I built the guard and not the
 maker, and it has now gone two directives unbuilt. **It should be ordered again or struck.**
 
+
+---
+
+## DIRECTIVE 235.1 — the story-lesson maker. **And first: I told you something false.**
+
+### THE CORRECTION, before anything else
+
+My 234 report said **"226.5's teaching half is still not built"** and offered it as a standing gap
+you should order again or strike. **That was false.** It was built at **231.2, commit `3db5645`**,
+titled *"a story that completes may teach — the half of 226.5 that was never built"*, and it has been
+working since. My own 231 report said so.
+
+**I carried a stale note forward from the 230 report and repeated it without re-reading the code.**
+At 230 it was true; 231 built it; my 234 report was written as though 231 had not happened. You
+ordered 235.1 on the strength of a gap that had already been closed a directive earlier. That is the
+worst kind of error I can put in this record, because you cannot check it and I did not.
+
+**What I should have reported at 234 is the thing 235.1 turned out to actually be about**, below.
+
+---
+
+### WHAT WAS GENUINELY MISSING — and the school could not have worked without it
+
+**THE SCHOOL OPENS A WAY STRAIGHT AROUND 234.7.**
+
+A teacher says a thing. The mind remembers **being told it** — an ordinary memory. Later it picks
+that subject, **replays those moments as a story**, and the story's lesson was born at the **ordinary
+bar with no teller on it at all.**
+
+> **So a stranger's claim reached 0.5 by being repeated and then daydreamed about**, while the same
+> claim asserted directly was held at 0.3. The cap was real and the back door was wide open.
+
+**Closed:** a moment now records **who told it** (schema 13, marked forever as `imagined` is). A story
+replayed out of **mostly one person's word carries that person**, and what it teaches is born at what
+that word is worth and capped like any other told belief.
+
+- **Mostly, not any.** One told moment among lived ones is a life with a conversation in it, and the
+  recurrence a lesson is drawn from there is **the mind's own**.
+- **Two voices and nobody owns it** — a claim two people made independently is not one person's word.
+- **A trusted teller caps higher but never lifts a story ABOVE the ordinary bar.** Being believed is
+  not being right.
+- **An imagined story is still born below the bar whoever was talking.** 226.5a stands untouched.
+
+---
+
+### AND A FINDING WORTH MORE THAN THE FEATURE
+
+Traced tick by tick on the live bench:
+
+> **ONE OF THE TWO BEINGS UNDER TEST BEGAN 23 STORIES IN 90 TICKS AND FINISHED NONE.**
+> The other finished **7 of 12**.
+
+231.2 teaches **on completion and never on the train ending** — which is right, half a story is not a
+thing to conclude from. But **a replay runs to as many as 8 beats, and a being's attention span
+measures 4 to 11.** So a train exhausts, is dropped, a fresh one starts the same story at beat 0, and
+goes round again forever.
+
+**The better a mind remembers something, the longer its replay — and the less able it is to ever
+conclude anything from it.** A scattered being can never draw a lesson from the subject it knows
+best. For that being 226.5's teaching half is **built and unreachable.**
+
+**This is 225 and 226.2 meeting, and I have not patched it.** It is written into the suite as a check
+so neither number can move without something saying so, and **it is flagged for your ruling.**
+
+---
+
+### WHAT I GOT WRONG WRITING THE CHECKS — three shapes before the right one
+
+1. **Waited for an event on one seed.** Red, because that being finishes no stories. Not a failure of
+   the build — a check asserting an *event* instead of a *property*.
+2. **Hand-built a train and put it on its mind.** It was thrown away on the very next tick, because I
+   left the train's **feeling baseline at zero** and a real train records the intensity it began
+   under — so everything I then watched was the mind's own trains, not the one under test.
+3. **The property, finally:** whatever stories a mind finishes, **every lesson they leave obeys its
+   provenance.** Two beings run, both reported in the check's own line, so the variation is visible
+   rather than hidden behind a pass.
+
+### STANDING
+
+**LIFE: 325 checks, all green.**
+
+**HONESTLY UNPROVEN:** no story *carrying a teller* completed on the live tick in these runs, so that
+path is held at **unit level only** — the rule is proven, its firing in a live mind is not. Saying it
+rather than letting the green line imply otherwise.
+
+**235.2 — the naming session — is next**, and the bench is ready for it: school on, teacher naming,
+chat log live, MIND and THE SCHOOL folders on the panel. Waiting on him to say open it.
+
