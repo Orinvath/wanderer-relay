@@ -25960,3 +25960,84 @@ alongside — the schema went to 10 and nothing that touches memory broke. Commi
 
 **223's row-membership rebuild and its neighbour lists are still outstanding.**
 
+
+---
+
+## DIRECTIVES 227, 228, 229 — the credit ledger, the spatial thread, and colour on his screen
+
+### 229 — COLOUR TELLS THE KIND. Live on his screen.
+
+```
+  SUBJECT of the train    white
+  ASSOCIATIONS around it  green
+  REMEMBERED beats        blue
+  IMAGINED beats          purple
+```
+
+**The dimming is dead — and so is every other brightness trick.** His addendum: *"no faded marks, no
+brightness differences — too hard to see."* The alpha is now the ink's own shape and nothing else:
+**a mark is either ink or ground**, and anything in between was exactly the fading he told me to
+remove. The artwork is never altered; the ink keeps its own shape and is tinted, which is all
+"tinted" can honestly mean.
+
+**180's law observed:** a legend names the four in plain words — *what it is thinking about · what
+that brings up · something that happened · something it is imagining* — rather than naming the
+machinery.
+
+**FLAGGED:** the exact hues are a look and therefore his. Four rows change them.
+
+### 227 — REFERENCES.md. **Posted to this relay for his eye.**
+
+Swept the whole record — directives, plans, reports and the code itself — organised by **system of
+the mind**: emotion · needs · choosing · curiosity · safety · personality · moral · memory and sleep
+· imagination and narrative · thinking · language · the spatial thread · the lineage · the modern
+indictment.
+
+**AND THE LEDGER CUTS BOTH WAYS.** A closing section names what is **[OURS]** with no source — the
+offers model, the dictionary and the polysemy law, the kinship space as *this* space, trains as
+implemented, and every PROVISIONAL magnitude in the build. **Nothing we invented is dressed as a
+finding.** Two honesty notes kept in the file rather than tidied away:
+
+- **Grand's *Creation: Life and How to Make It*** is listed as **cited but NOT obtained.**
+- **The "surface-level mimicry" attribution** is marked **as indexed, not read** — I fetched that
+  PDF and could not find the passage.
+
+**227.2 is now standing law in `CLAUDE.md`:** a citation without its row fails review.
+
+### 228 — DESIGN_PHILOSOPHY.md
+
+What visual-spatial cognition **actually is**, with the evidence that it is a real mode of thought
+rather than a metaphor: **Shepard & Metzler's** straight reaction-time line (longer in direct
+proportion to the angle — thought performed as a spatial operation, measured); **Kosslyn's** imagery
+program; and **Einstein to Hadamard** — images and signs, with *"the words … sought for laboriously
+only in a second stage."*
+
+Then the same move made architecture across seven layers — meaning as position, kinship as nearness,
+thought as movement, the language **as** the space, a soul as a region, the sheets' layout as
+knowledge, and the display rendering marks rather than prose because rendering it as prose would
+translate the thinking out of its own mode.
+
+**And the contrast, which is the identity:**
+
+> When the mind needed to know whether HAPPY and JOY are kin, the industry's answer would have been
+> to ask a model that has read the word "happy" a billion times. Ours was to give the language a
+> geometry and measure the distance. One of those produces an answer you cannot inspect. The other
+> produces a number you can, and a neighbour list you can look at and disagree with.
+
+**It is also why the LLM was removed from the voice entirely (216)** — a model generating the mind's
+words is the sequential mode wearing the mind's name.
+
+**With the limits stated rather than implied:** a space built from a small dictionary is a small one
+and its neighbour lists are wrong where the sheets do not group by kind (RIVER→LAKE is right,
+GRIEF→PEACE is not); time and cause are **not** distances and the build does not pretend they are;
+and this is a design mode, not a claim about superiority — it is the mode of the person whose mind
+this is.
+
+### Standing
+
+**LIFE is 208 checks**, all green. Committed through `7b6a293`. `REFERENCES.md` is in this relay
+beside this report.
+
+**Still outstanding: 223's row-membership rebuild of the kinship space, and its dozen neighbour
+lists for his eye.**
+
