@@ -26715,3 +26715,52 @@ rather than letting the green line imply otherwise.
 **235.2 — the naming session — is next**, and the bench is ready for it: school on, teacher naming,
 chat log live, MIND and THE SCHOOL folders on the panel. Waiting on him to say open it.
 
+
+---
+
+## DIRECTIVE 236 + 235.2 — **the ruling is law, and the school is open on his screen.**
+
+### 236 — an interrupted story starts over, whole, always
+
+**NOTHING WAS PATCHED FOR THIS, and that is the report.** The build already worked the way he
+ruled: `beat: 0` is set on **every** train, no beat index survives a train ending, and the story is
+rebuilt whole from current memories each time. So his ruling did not need a change — it needed to
+become **a law the suite holds**, so that nobody later "optimises" a mind into resuming a story it
+half-remembers.
+
+Four checks, traced tick by tick across two beings:
+
+- **35 trains began, and the furthest any of them started in was beat 1** — which is the top, since a
+  beat is taken on the tick a train begins. **Nothing is ever resumed mid-way.**
+- **No beat is ever skipped** — one per tick, *however often the story has been told before*. A
+  familiar story costs full attention every time, exactly as ruled.
+- **A story interrupted part way is rebuilt WHOLE next time**, never from the remainder. The thread
+  may have been lost to time, and the mind has to hold the whole story to understand it.
+- And his ruling on the finding is **written down rather than fixed**: `told-story-teaches` concluded
+  **0 of 23** stories begun; `story-teaches-2` concluded **7 of 12**. *A being whose span never fits
+  its longest story simply never concludes it — that is who it is.* **The variation stays visible.**
+
+**LIFE: 329 checks, all green.**
+
+### 235.2 — the naming watch is open
+
+Brought up **beside his running Emulator rather than over it**: his own has been alive fourteen
+hours on the old build, and it predates saving, so restarting it would have ended that being for
+nothing. The watch runs on its own port and his is untouched.
+
+School on, naming mode, **real time** — the dial has not been moved and will not be. What is on his
+screen as this is written:
+
+```
+  teacher   YOU FEEL LONELINESS
+  it        I was thinking: HOST COME SONG. someone here says: SONG AND LONELINESS.
+  teacher   JOY is YOUR STARTING POINT
+  it        This came back to me. Someone here says: SONG AND LONELINESS.
+  teacher   JOY is your companion, banishing LONELINESS.
+```
+
+**Six lines said, three dropped as untrue**, nine turns, five seconds of model time. `brainError: None`.
+The MIND and THE SCHOOL folders are on the panel.
+
+**His eye is the gate story mode waits behind, and it is now his.**
+
