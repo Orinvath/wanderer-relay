@@ -4786,3 +4786,17 @@ the thinking visible: his marks, his artwork, drifting as it thinks.
 
 This directive closes ONLY when Lonnie says he saw them. Nothing
 else ships first.
+
+## Directive 224 — CLOSED BY HIS EYE. Glyphs render. Next fault: coherence.
+
+Lonnie saw the thinking (screenshot with the Director: TOGETHER ·
+GROUP · SONG · COURAGE · SONG drifting above the sphere). 224's hard
+stop is satisfied and closed.
+
+His eye's immediate next verdict, already with CC live in the
+terminal: THE THOUGHT MARKS READ RANDOM, NOT COHERENT — a thought
+should follow from state and past (217's own acceptance: grief-chains
+when lonely, wonder-chains when curious), and what renders does not
+read as a chain. CC is fixing in session; report the diagnosis and
+fix to the relay when done so the record holds it. The 223 space
+rebuild and its neighbour lists resume after.
