@@ -4607,3 +4607,44 @@ Suite: "are you happy?" on a grieving mind must answer from the real
 state; an unowned sentence must produce CANNOT UNDERSTAND; a kind
 statement from the host must move the ledger measurably; no model
 reachable. Report and reopen for his eye.
+
+## Directive 219 — WORD LEARNING: the child's way (mimic, associate, earn)
+
+Lonnie's ruling: the 402 marks are the seed and PLENTY. No synonym
+table is ever hand-authored — the mind LEARNS the rest by living. The
+mechanism is the child's, in three parts (fast-mapping literature +
+Lonnie's account of mimicry and association; cite the science):
+
+1. CANDIDATE WORDS (association): every unknown word heard is kept as
+   a candidate, tagged with what was TRUE of it in that moment — the
+   marks active in its state, the act it was doing, who was present.
+   Co-occurrence across hearings strengthens a candidate link
+   word->mark; contradiction weakens it. The lessons confidence
+   machinery, reused exactly (born 0.5, small deltas, honest decay).
+2. MIMICRY (the child speaking first): a new speech act ECHO — the
+   mind may repeat an unknown heard word back. Echoing commits the
+   word to candidates and invites the host's reaction; the host's
+   response is an OUTCOME that feeds the link (a warm reply
+   strengthens; correction re-aims). Echo's willingness is
+   aspect-computed (Enthusiasm/Openness lean into it; no constants).
+   Early conversation IS this — a child saying words it does not yet
+   own.
+3. EARNED WORDS: a link past the lessons trust bar is OWNED — the
+   word resolves in comprehension (218) and may appear in its own
+   speech (216 template slots accept earned words). Below the bar:
+   honest CANNOT UNDERSTAND stands. Production grows the child's way
+   — single marks, then the dyad strings its language already speaks,
+   richer as ownership grows.
+4. QUESTION PLACEMENT (the second 218 gap, rules defined by the
+   Director, unchanged by learning): who are you -> identity from the
+   soul's sketch in its words · why -> the winning reason of the
+   current act · what do you remember -> SHARE a surfaced memory ·
+   what do you want -> the top-scored want now · are you [feeling
+   word] -> that feeling checked against the real state, answered
+   truly · do you want to [act word] -> that act's current score,
+   answered truly · where are you -> HERE.
+NO synonym table ships. No model in any of it. Suite: an unknown word
+heard repeatedly alongside its state must become owned and then
+resolve; a wrong association must decay under contradiction; ECHO
+must appear in early life and fade as ownership grows; every placed
+question answers from the real record. Report and reopen for his eye.
