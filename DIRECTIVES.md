@@ -5139,3 +5139,18 @@ Lonnie's rulings, in order:
    teacher naming, chat log live. His eye is the gate story mode
    waits behind.
 Suite green, report, then open the page.
+
+## Directive 236 — Ruled: interrupted stories START OVER, whole, always
+
+Lonnie's ruling on the 235 finding: an interrupted story STARTS OVER
+from the beginning next time — the thread may have been lost to time,
+and the mind must hold the WHOLE story to understand it. No resuming
+mid-way, no speeding through familiar beats, no skipping the front —
+every replay is full, from the top, at full attention cost. A being
+whose span never fits its longest story simply never concludes it —
+that is who it is, lawfully. The suite check on the two numbers (225
+span vs 226.2 replay length) stands as written; the variation stays
+visible, nothing is patched.
+
+235.2 NOW: open the bench for his naming-session watch (179) — school
+on, teacher naming, chat log live.
