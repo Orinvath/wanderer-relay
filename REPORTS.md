@@ -25363,3 +25363,51 @@ this session a count has stood in for a property.
 
 **It is on his screen. Talk to it, and it will start learning what the words mean.**
 
+
+---
+
+## FINDING — 351 OF THE 402 MARKS CONNECT TO NOTHING. This is why it cannot answer plainly.
+
+His words on sight: **"ok well that is a problem."** It is, and it is a language question rather than
+a code one, so it comes here.
+
+### What happened
+
+He asked *"are you sad?"* of a mind that was grieving, and it answered ***"No, I'm not."***
+
+**SAD and GRIEF are both marks in his language.** The dictionary has the mind speak `feeling:distress`
+with **GRIEF**. Nothing anywhere says SAD and GRIEF mean nearly the same thing — so matching the
+question's mark against the state's mark failed, and it flatly denied a feeling it was carrying.
+
+I have made it **refuse to give a yes or no it cannot justify** — it says what it *is* instead, which
+is true — but that is containment, not a fix.
+
+### The measurement
+
+```
+  the emotion sheet          42 marks
+  the mind speaks with       23
+  connected to NO state      19   HAPPY · PEACE · CALM · SURPRISE · WORRY · COURAGE · DESIRE ·
+                                  COMFORT · CONFUSION · CLARITY · PATIENCE · FRUSTRATION ·
+                                  KINDNESS · JEALOUSY · BOREDOM · FOCUS · INSECURITY · BELIEF · AWE
+
+  across the whole language  351 of 402 marks it can READ and has no state to connect them to
+```
+
+**HAPPY is in the unconnected 19.** *"Are you happy?"* is the most natural thing a person asks a
+mind, and it lands on a mark that no state it can be in ever speaks with.
+
+### Why this is not something the terminal can settle
+
+The dictionary connects **51** marks to states the mind can be in. The other **351** are words it
+recognises and has nothing to say about. Closing that gap means either **more rows connecting marks
+to states**, or **declaring which marks mean nearly the same thing** — and both are authoring his
+language, which 188 puts squarely outside what the terminal decides. I have written no rows.
+
+**220's learning already solves this for words it does NOT own** — say "lonely" while it is lonely
+and it works the link out for itself. It cannot help here, because HAPPY *is* one of the 402: it is
+already owned, already read, and connected to nothing. **A word it half-knows can be taught by
+living. A word it fully owns and cannot use is a hole in the dictionary.**
+
+Awaiting a directive.
+
