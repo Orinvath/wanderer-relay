@@ -4869,3 +4869,19 @@ invented scenario must contain only lived elements; imagined lessons
 must sit below lived confidence and be marked; feelings must move
 from a story; two souls must invent different stories from one
 subject. Report and reopen for his eye.
+
+## Directive 227 — REFERENCES.md: every source credited, forever current
+
+Lonnie's order: the science this mind is built on gets full credit.
+
+1. Sweep the WHOLE record — directives, plans, reports, code comments
+   — and write CC-Wanderer/REFERENCES.md: every paper, book, theory,
+   and system referenced, full attribution (authors, year, work),
+   organised by system of the mind (emotion, needs, curiosity,
+   choosing, memory, language, identity, moral, safety, lineage...).
+   Where a mechanism is ours with no source, mark it [OURS] honestly
+   — the credit ledger cuts both ways.
+2. STANDING LAW, joins CLAUDE.md: any future directive, plan, or
+   build that cites a work adds its row to REFERENCES.md in the same
+   change. A citation without its row fails review.
+Report with the file posted to the relay for Lonnie's eye.
