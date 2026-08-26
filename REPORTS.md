@@ -25411,3 +25411,74 @@ living. A word it fully owns and cannot use is a hole in the dictionary.**
 
 Awaiting a directive.
 
+
+---
+
+## FOR THE DIRECTOR — THE LANGUAGE IS FOR SPEAKING WITH. I had built it as labels.
+
+Lonnie, on sight, after the 351-marks finding:
+
+> **"wtf did you build? It needs to be able to use all the words!"**
+> **"I never said to build it that way!"**
+> **"I gave it a language to speak with!!!! wtf do you think it is for."**
+> **"its literally a language!"**
+
+He is right on every count, and this is mine, not a directive's.
+
+### What I had built
+
+The dictionary (191/192) pairs a **state the mind can be in** to the marks it says for that state —
+lonely says LONELINESS, grieving says GRIEF. **That table is right and it is his.**
+
+What I did was make it **the only route any word could ever take to its mouth.** So a mind holding a
+language of four hundred marks could say **fifty-one** of them and no more. HAPPY, RIVER, MOUNTAIN,
+MOTHER, MORNING — it could read every one and had no way on earth to utter them.
+
+**Nothing he wrote said that.** The state table answers *what does it say about ITSELF*. It was never
+the boundary of what it may say at all, and I turned it into one — at 188, then again at 216 when I
+built the speech templates over it, and again at 217 when the thinking loop drew from the same
+fifty-one. **Three directives built on a constraint nobody set, and I never surfaced it.**
+
+### What it is now
+
+**Every one of the 402 is speakable, from the first tick of the first life.**
+
+And a correction inside the correction, because my first pass was still wrong: I made a word
+speakable only if it came from something the Avatar had **met, remembered, cared about or been made
+for**. He saw it immediately — *"its literally a language!"* — and that is a permission system
+wearing new clothes. **A person can say MOUNTAIN without having stood on one.**
+
+So the whole language is always there. What the record does is decide which word is **apt** — what is
+in front of it, what it remembers, what it has come to care about, what it was made for all weigh
+more. **Weight is not permission.** Nothing is forbidden; some things are simply the right word.
+
+### Measured
+
+```
+  speakable, any mind, any state, before      51 of 402
+  speakable now, a newborn with nothing met  402 of 402
+
+  and what it THINKS in:
+    before   LONELINESS  LONELINESS  LONELINESS  LONELINESS  LONELINESS
+    after    LONELINESS  HILL  WALK  LAND  SON  CAVE  WIND
+```
+
+A being **made for nature and place** has that whole sheet of his artwork weighted up for it — which
+is right, and is the soul earning its keep: **what you are drawn to is what you have words for.**
+
+### What is unchanged
+
+Nothing is invented: every mark offered is one of his, and **the whole of his**. No model is
+reachable from the new file, the dictionary is untouched, and 220's learning is untouched — it still
+teaches words the Avatar does **not** own, which is a different job from this one.
+
+**The 351-marks finding stands as a separate matter.** That is about marks connecting to no *state* —
+HAPPY still cannot be answered yes-or-no against a mind that is joyful, because HAPPY and JOY are two
+marks and nothing says they mean nearly the same thing. **That one is still his to rule on.** This
+report does not close it.
+
+### Standing
+
+**LIFE is 144 checks**, all green, and CURIOSITY 21 · DICTIONARY 31 · OFFERS 32 · HOSTCHANNEL 17
+alongside. Committed at `18c617d` and pushed.
+
