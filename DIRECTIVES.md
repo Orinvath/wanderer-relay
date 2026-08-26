@@ -4964,3 +4964,32 @@ as Lonnie approved it — that is what "stories can teach" means, and
 the guards (born low, marked IMAGINED forever, confirmed or killed by
 real life) exist precisely for it. It stands. Nothing to change.
 Proceed with the queue.
+
+## Directive 233 — EVIDENCE: life tests a lesson by prediction (approved)
+
+The third guard gets its caller. The science: expectation-vs-outcome
+learning (Rescorla-Wagner; predictive-processing lineage — cite).
+CC codes; the rules are complete:
+
+1. A LESSON IS A CLAIM over its marks ("SONG TOGETHER" claims singing
+   brings company).
+2. ANTECEDENT MATCH: a LIVED tick where the claim's condition is
+   actually present — the act genuinely performed, the thing
+   genuinely there (an outer moment or its own realized act; never a
+   thought, never a story beat).
+3. OUTCOME CHECK over the following window: did the claim's remaining
+   marks come true (marks active in lived reality / the ledger moving
+   the claim's direction)?
+   - held -> reinforce (lessons.weigh, the existing deltas)
+   - failed -> weaken
+   - opposite -> contradict (three-in-a-row collapse stands as built)
+4. THE HARD GUARD: ONLY LIVED TICKS BEAR EVIDENCE. Imagined story
+   beats, dream content, and thought-trains NEVER feed the weigher —
+   a mind must not dream its beliefs true. Suite-held from both
+   directions.
+5. Window length and deltas derived per 071, marked provisional.
+Suite: an imagined lesson whose claim keeps coming true in lived
+ticks must climb past the trust bar; one whose claim keeps failing
+must collapse by the third contradiction; a story tick bearing on any
+lesson must fail the suite. Report with a watched trajectory of one
+lesson rising or dying on the live bench.
