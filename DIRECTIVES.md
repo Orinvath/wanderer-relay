@@ -4920,3 +4920,10 @@ COLOUR tells what kind. The dimming approach is dead. The scheme:
 Legend on the page per 180's law (a display explains itself). Colour
 only — the marks' artwork is never altered, only tinted. His eye
 retests on sight.
+
+## Directive 229 addendum — NO fading, NO brightness tricks anywhere
+
+Lonnie's clarification: no faded marks, no brightness differences —
+too hard to see. Every thought renders at FULL presence; COLOUR ALONE
+tells the kind (white subject, green association, purple imagined,
+blue remembered). Remove the dimming entirely.
