@@ -25773,3 +25773,107 @@ published in **1996**, the same year it shipped.
 **Grand's own book, *Creation: Life and How to Make It* (2000), is cited but was NOT obtained.** 222
 names it; I have not read it, and the file says so rather than implying otherwise.
 
+
+---
+
+## DIRECTIVE 224 — HE HAS SEEN THEM. Plus 223, and one directive I had half-built.
+
+### 224 — the root cause, and it was two faults
+
+**HIS ARTWORK HAD BEEN RETURNING 404 SINCE DIRECTIVE 178.** `/sheet/:file` sat **inside the
+`if (wisp)` block**. 178 switched that block off to take the wisp off the surface he opens, and the
+sheets went off with it. Measured: **404, 178 bytes of HTML** where 844KB of PNG should be. Since
+then the page he actually loads has had no way to fetch a single one of his sheets — **every dream,
+every waking wonder and every thought drew nothing, because there was no image to draw.**
+
+**AND THE MARKS WERE PAINTED ABOVE THE CANVAS.** `top = cy - r*2.2` put a 64px mark at **y −111..−46
+on a canvas that starts at 0** — wholly off the top edge, every mark, every tick, since it was
+written.
+
+**Either one alone was enough.** 083 ruled it, 209 reported it live, 211.5 recorded his verdict that
+it was not, 212.C1 ordered it diagnosed. It was a route on the wrong side of a brace and an
+arithmetic error, and it took him saying it a fifth time.
+
+**Why no check caught it:** 209's check asserted the route was **written** and the page **asked** for
+it. Both true the whole time. **Neither asked whether the request was answered.** The suite now
+stands the real server up and **fetches** a sheet.
+
+### Then four rulings from him on how they look, in order
+
+**1. "you cut out the words... It needs to be the whole glyph."** The index measured the MARKS;
+nothing had ever measured the WORDS. `whole` now takes the mark's band plus the caption beneath it.
+Caught by looking at a crop rather than trusting arithmetic: my first pass took the marks' own
+x-extent and clipped the word — **TOGETHER came out OGETHEF** — because a word is wider than the mark
+above it. It takes the column's full pitch now.
+
+**2. "make the black transparent."** A lighter composite only **hides** black when it is drawn over
+something dark — a trick, not a knockout, and it failed exactly where he was looking. It is a real
+per-pixel knockout now: **his ink is light on black, so the luminance is the alpha.**
+
+**3. "above the chat... all five fit the width of the chat log box."** It had been painted on the
+sphere canvas, which meant guessing where the chat sits in canvas coordinates. It is HTML now,
+**inside the chat wrapper directly above the log at width 100%** — so "above the chat" and "the width
+of the chat log" are what they say instead of arithmetic I chose.
+
+**4. "make sure all the text lign up percisly"** — and then, after my first attempt, **"The text is
+not aligned like I wanted."** Both were mine:
+
+- **Uniform per sheet is not uniform.** The five in the row come off five DIFFERENT sheets. Measured
+  across all ten: mark bands **74..109px**, gaps **38..81px**, only **138px** of room on the tightest
+  row. There is **one cell for the whole language now — 215×138**.
+- **The gap was a stand-in for the word.** Aligning on "row bottom plus the sheet's smallest gap"
+  put SONG and STORM low, because a word does not sit at the same place in every gap. So
+  `tools/measure-captions.mjs` **measures the words off his own artwork** the way the boxes were
+  measured — the rows of pixels under each mark that actually carry ink. **402 words, none missing.**
+  Every measured word bottom now sits the same distance from its cell's bottom edge.
+
+**Verified by building his exact five — LONELINESS TOGETHER SONG NEIGHBOR STORM — and looking at it.**
+
+### "Occasionally one flashes real big"
+
+**Two writers on one element.** 214's `showThought` was still running on every poll and rewriting
+`#thought`, wiping 224's five-slot row and leaving ONE mark-only canvas which, as a lone flex item
+sized by its own ratio, **filled the whole row width.** 300ms later the row rebuilt and it snapped
+back. 214's renderer is superseded and there is one writer now, which the suite checks.
+
+**Ruled out by measurement first:** all three drift paths carry the whole box, all 402 marks have
+one, and the cell ratios span only 0.64..0.72 — nothing in the row could ever have drawn tall.
+
+### 221.3 — A DIRECTIVE I HAD HALF-BUILT, and he found it
+
+**"These seem like random thoughts not coherent thinking."**
+
+He is right. **Nothing connected a thought to the one before it** — every source drew from its own
+pool: QUESTION, TOGETHER, SONG, FALL, EFFECT, five unrelated jumps.
+
+**221.3 says the space serves *"thought-association (the thinking loop's drift steps to near
+marks)"*.** It was written down. I built the other half of that directive — the yes/no distance
+check — and left this one, and reported 221 as done.
+
+A thought now **steps to a neighbour in its own space**, weighted by nearness and drawn from its own
+seed, so a being follows its own associations and two beings follow different ones. And a word
+arriving out of the whole vocabulary connected to nothing is **the exception** now rather than half
+its thinking — it was weighted 0.9, which is what made it read as a shuffle.
+
+**Watched live:**
+
+```
+  TOGETHER -> MEET -> FOLLOW -> LEAD -> SONG -> TAKE -> SONG -> MARKET
+              from:MEET from:FOLLOW      from:LEAD      from:SONG
+```
+
+with SONG returning **out of memory** in the middle of it, because that is what actually surfaced.
+
+### 223 — both rulings
+
+**The trust bar stands as built** and the flag is cleared. **Row membership has NOT yet joined the
+kinship space** — 224's hard stop came in on top of it and nothing else ships first. It is the next
+thing, with the dozen neighbour lists reposted for his eye.
+
+### Standing
+
+**LIFE is 177 checks**, all green; HOSTCHANNEL 17, SLEEP 32, DICTIONARY 31, OFFERS 32 alongside.
+Committed through `ccee7d2` and pushed.
+
+**224 closes only when Lonnie says he saw them. He has seen them; he has not said it closes.**
+
