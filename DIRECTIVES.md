@@ -4927,3 +4927,17 @@ Lonnie's clarification: no faded marks, no brightness differences —
 too hard to see. Every thought renders at FULL presence; COLOUR ALONE
 tells the kind (white subject, green association, purple imagined,
 blue remembered). Remove the dimming entirely.
+
+## Directive 230 — The panel gets folders; LEARNED joins it
+
+Lonnie's rulings:
+1. THE SIDE PANEL'S SECTIONS BECOME COLLAPSIBLE FOLDERS — it holds
+   too much. Same folder behaviour as the Stage panel he built
+   (collapsed state remembered per section, nothing auto-closes on
+   him — 159's law).
+2. A NEW FOLDER: LEARNED — one line per learning event as it happens,
+   timestamped, newest first, scrollable: a lesson born / confirmed /
+   collapsed · a word owned ("lonely -> LONELINESS") · an interest
+   struck or deepened · a curiosity answered. In its words where
+   words exist. No pulse, no extra chrome — the folder is enough.
+His eye retests on sight.
