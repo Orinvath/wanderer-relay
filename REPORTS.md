@@ -27742,3 +27742,74 @@ invoking here.
 but a weighting.** The soul's dispositions already carry depths; the speech act already carries a
 feeling and an intensity. Both draws could read them tomorrow. Everything in §2 and §3 is a larger
 conversation about what the mind is even capable of preferring.
+
+---
+
+## Report — Directives 245 and 246
+
+**Both done. LIFE: 421 green.**
+
+### 245.1 — the pull decides, which is the whole reason the Persona exists
+
+`mind.domains` is `{domain: depth}` and **both draws threw the depth away**. A soul struck deeply
+for one thing and barely for another was equally likely to think about either — 205's
+*"unaccountable pull, whatever makes a being THIS one"* deleted at the exact moment it was meant to
+act, and it had been that way since 217.3.
+
+Measured, 400 draws, a soul at **0.9 / 0.1**:
+
+```
+03_action_and_motion  361
+10_abstract_concepts   39
+```
+
+The word within the domain is now weighted by **aptness in the space its own life built**, so a
+mind in grief reaches a different word of the same domain than a mind at ease. Where it has built
+no space yet, every word of the domain is equally apt — which is honest for a mind that has learned
+no kinship, rather than a flat pick standing in for one.
+
+### 245.2 — how it comes across is the being's too
+
+Its ten chose **which act**; a flat die chose **the words**. A mind in terror and a mind at ease
+greeted a visitor identically.
+
+Each wording now carries **tone tags** — authored once, *describing* his ruled text, **not one word
+of it rewritten** — and the draw is weighted by the feeling, its intensity, and the ten. Greeting a
+visitor:
+
+```
+joyful     "Oh — you came."  2.44      "Someone's here."  1.58
+terrified  "Oh — you came."  0.46      "Someone's here."  1.58
+```
+
+No model. **An act with no tags authored keeps exactly the flat draw it had**, so nothing changes
+shape unasked.
+
+### A break of mine, caught by his eye again
+
+243.5 took the wording off the row; the interpreter's outbound guard still demanded `row.text`, so
+it **bailed on every templated line and stopped rendering entirely**. The inbound half kept working
+and the counters kept climbing, so nothing looked wrong — he noticed the marker had stopped
+appearing. Fixed; "happy bird" now returns *"A happy bird has arrived and wants to share."*
+
+### 246 — the law and the ledger
+
+The law is in `CLAUDE.md` beside CC-never-decides. **`MIND_DECISIONS.md` is posted**, seeded from
+the audit:
+
+- **§1 flat draws** — all three now **RULED** by 245
+- **§2 silent judgements** — 4 **OPEN** (what counts as its own words; the wordless floor; what my
+  extractor decided its old memories say; the order of a moment)
+- **§3 presentation** — case and wording **RULED**; the `did` notes and glyph colours
+  **PROVISIONAL**; **emphasis OPEN**, raised by him directly — *nothing lets the mind influence how
+  it comes across at all*
+- **§4 numbers** — 6 rows, mostly **PROVISIONAL**; `HALFWAY_HOURS` flagged as the one most worth
+  his eye
+- **§5 consequences of our choices on its behaviour** — 2 **OPEN**, including one he found himself:
+  **the mind ages on wall-clock hours, so it grew 6.7 hours older overnight while the machine
+  slept, having lived 22 moments.** It got older without living. 234's suspension covers *unloaded*,
+  not *idle*.
+
+I also listed the draws that were **already the being's own** — association by nearness, story
+beats by what presses, the next word by what it watched — so nobody "fixes" one of those into a
+flat pick later.
