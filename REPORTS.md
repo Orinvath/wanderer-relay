@@ -27567,3 +27567,9 @@ relying on templated rows happening to have no text.
 2. A third suite check of mine **caught its own comment**: the 242 clause grepped the litmus body
    for the word "english" and went red over the sentence saying it was fixed. It tests for the
    fields now, not the prose. That is three times in two directives.
+
+**Numbering correction:** the report immediately above is labelled 244 and should be **243.5** —
+it is the completion of 243.3, built from Lonnie's ruling given in the terminal. The Director
+issued its own **Directive 244 (THE GROWING MIND)** at the same time and that is the real 244. My
+commits carry the wrong number; the work is 243.5 and the history is left as it is rather than
+rewritten.
