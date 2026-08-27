@@ -5235,3 +5235,17 @@ resolves and appears in speech; sentence shapes measurably converge
 toward the heard corpus as exposure grows. Report and reopen for his
 eye — the gauge (his IQ mapping) must read honestly against owned
 words as part of this.
+
+## Directive 240 — The two leftovers close
+
+Lonnie's order — both fixed:
+1. REROLL REROLLS: each press draws a FRESH generation seed and a
+   genuinely different soul. Every rolled soul remains reproducible
+   (its seed recorded in the draft and in the being file); GENERATE
+   stays the deterministic from-its-ten source. Two sources, honest
+   labels.
+2. THE RADAR BECOMES DRAGGABLE per 238.2 as ordered: drag the
+   shape's points to adjust the five foundations; dispositions and
+   pulls behind the edit reveal as built. Dragging edits the DRAFT
+   only — Genesis still locks forever.
+Suite both; report.
