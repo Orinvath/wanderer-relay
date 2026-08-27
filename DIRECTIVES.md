@@ -5391,3 +5391,25 @@ conversation — hold for Lonnie's session; nothing changes there yet.
 Suite: two souls with different depths must strike different topics
 at measurable rates; a high-intensity feeling must shift wording
 choice measurably; flat rolls gone from both sites. Report.
+
+## Directive 246 — LAW: decisions made FOR the mind must be declared
+
+Lonnie's ruling after HIS catch (CC failed to notify that code was
+deciding on the mind's behalf — flat rolls, silent judgements,
+substituted thoughts). The law, joining CLAUDE.md beside CC-never-
+decides:
+
+1. ANY point where code decides something the mind could lawfully
+   decide — a draw, a substitution, a default thought, a presentation
+   choice, a threshold on its behaviour — is a DECISION FOR THE MIND
+   and MUST be declared in the report of the change that introduces
+   it. Silent ones are violations even when the code works.
+2. STANDING AUDIT: a MIND_DECISIONS.md ledger in the repo lists every
+   such point that exists today (seed it from the 245-era audit:
+   §1 fixed, §2 items, §3 presentation, §4 numbers) with its status:
+   RULED (by whom, which directive) / PROVISIONAL / OPEN. New code
+   adds its row in the same commit or fails review — the 227
+   references pattern, applied to the mind's autonomy.
+3. The OPEN rows are the standing agenda for Lonnie's rulings —
+   nothing OPEN may silently harden into permanent behaviour.
+Write the ledger, report it posted.
