@@ -27209,3 +27209,54 @@ English it was not told and a word is a word to it; the constancy machinery guar
 but not words. **A stop-word filter would be my English poured into its learning**, which is what 220
 refuses. His call or yours.
 
+
+---
+
+## 241b — **HE ASKED IF THE BUTTONS WORKED. THEY DID NOT.**
+
+> *"Do any of these even work?"*
+
+**No.** Generate, Reroll and No soul had been dead for as long as the new layout has been up.
+
+The handler selected buttons **inside `.soulbtns`**. 238's layout rebuild renamed that container to
+`.soulacts`, so it bound to nothing and every press was silently ignored. **I renamed the box and
+never pressed the buttons — then reported the section finished, twice.**
+
+They bind on the **attribute** now, which is what identifies them, so renaming a container cannot
+silently unwire them again.
+
+### Then I audited every control on the page
+
+Driving each in the browser and checking the state actually moved — which is what should have
+happened before any of it was called done:
+
+```
+  Generate (deterministic)   Reroll (different each press)   No soul   Adjust   edit
+  Genesis (asks first · locks · refuses changes after · relabels)
+  New draft (archives · resets · unlocks)   Draft·roll (new genome)
+  radar drag (moves one foundation, leaves the other four)
+  Save   Load   autosave on/off   Litmus   Log open/close
+  School start/stop   presence   say-line   interest dial   speed dial
+```
+
+**All of them work.** The destructive ones were exercised on a separate bench so nothing touched the
+being he is watching.
+
+### One more real defect the audit found
+
+A load answered *"loaded — and it was told 28s had passed"* and **the next poll erased it within a
+second**, so the only confirmation that a load had happened was unreadable. A message the code just
+wrote now holds for a few seconds against the poll that would overwrite it.
+
+One thing that looked broken was **my own check** reading the Genesis label before the next poll had
+drawn it — not a defect.
+
+### The lesson, plainly
+
+**Every real fault today was found by him, not by me** — the tinted artwork, the page patched instead
+of rebuilt, the marks in the wrong frame four times, and now three dead buttons I had twice called
+finished. The suite was green through all of it, **because a suite that reads source cannot press a
+button.**
+
+**LIFE: 377 checks, all green.** Bench reopened.
+
