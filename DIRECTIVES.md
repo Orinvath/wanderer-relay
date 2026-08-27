@@ -5438,3 +5438,26 @@ target; the bench gets the harness:
 Suite: two identical runs land within noise of each other; the label
 is required; litmus results in the row match the litmus log. Report
 and reopen for his eye.
+
+## Directive 247 addendum — Under the hood: the run records WHY, not just the score
+
+Lonnie's extension: a test run tracks what happened inside, so what
+worked is knowable, not guessed:
+
+Each run's row expands to a RUN RECORD (results/<run-id>.json,
+summarised on the bench row, expandable):
+- words: owned at start/end, WHICH words were gained, each with its
+  provenance (named/story/told/translated) and exposure count
+- candidates: formed, promoted, died — the funnel numbers
+- lessons: born/confirmed/collapsed during the run, by provenance
+- teacher: lines spoken, lines censored, mode split (naming/story)
+- capacities (244): each capacity's start/end — what grew
+- litmus detail: per-word hits/misses and false alarms, start vs end
+- the tick economics: ticks run, moments by source (heard/world/
+  inner), model calls made
+The bench row shows the headline; clicking opens the record. The
+comparability law holds — records are evidence, the label still
+names the one change.
+Suite: a run's gained-words list must reconcile with the litmus
+delta; funnel numbers must sum; two runs' records must be diffable.
+Report.
