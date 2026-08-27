@@ -27971,3 +27971,68 @@ then.
 
 **For his eye:** the recheck is a button-press away (`/recheck`) but I have **not run it on his
 bench** — collapsing a mind's beliefs is his call, not mine, even though nothing is deleted.
+
+---
+
+## Report — RULE ZERO over the day's work, at his instruction
+
+*"best to rule zero the work before we count it all done."* He was right to ask. **It found five
+faults, and the suite was green through every one of them.** LIFE is now **449 green**, and 248
+works for the first time.
+
+### The five, worst first
+
+**1. A test run was never taught.** It created a mind, set its speed to 2000× and ticked it for an
+hour **with nobody teaching it.** Every lever is a setting of the school, so a run with no school
+measured a being sitting alone in a room — **the twelve controls could not have moved a result by
+one word**, and every row in the table would have been identical nothing.
+
+Fixed properly rather than cheaply: the run gets **its own school, reaching its own mind over a
+surface of its own on an ephemeral port** — because a school that reaches *inside* a mind is not a
+school anybody could actually run (234 PART 2, and that standing is the point). Nothing about his
+bench is involved.
+
+**2. The school was built with no levers and no bank.** My edit targeted a line containing `key,`
+that 243 had already removed, so the replace **silently matched nothing** and I never looked.
+**Levers 1–8 and 11 had no effect at all.**
+
+**3. Moving a lever did not reach a school already teaching.** `Levers.set` returns a new object and
+the teacher held the old one — so the panel would have displayed settings that were not what was
+happening. A panel that lies about what it is doing is worse than no panel. (A *run* is different
+and stays frozen by copy at press, per 248.2.)
+
+**4. The story history did not survive a save.** So 249's third gate — **it came back** — could
+never be passed again after a load: every story a first telling, forever. Same class of loss the
+being-file guard caught at 244, found this time by looking.
+
+**5. A results row recorded a blank** where the words-owned should be. `vocabulary` is a **number**
+and I read it as an object. That is the one column he compares two runs by.
+
+### Why the suite missed all five
+
+**Every clause tested a module in isolation, and not one tested that the bench hands anything
+over.** The levers module was proved; the teacher's use of `this.levers` was proved; that the bench
+ever passes `levers` to the teacher was proved by nothing. The new checks are written as **the
+joins** rather than the parts.
+
+**Two of those new checks were themselves wrong on their first run** — they sliced to anchors that
+occur *earlier* in the file, so they ran backwards and reported faults that were already fixed. A
+check that cries wolf is as useless as one that misses.
+
+### Proven by running one, not asserted
+
+```
+before:  0 lines delivered, row records a blank
+after:   5 lines delivered in 6 ticks
+         0 words → 9 words · newborn → "about a year — first words"
+```
+
+**Two short runs are in `results.json`**, honestly labelled and marked `stopped` — they were my
+verification, not experiments, and per the never-delete law they stay on the record rather than
+being tidied away.
+
+### What Rule Zero did NOT clear
+
+- The **"two identical runs land within noise"** clause still costs two real hours and is his to
+  press. What is proved is the property it rests on.
+- The **`OPEN` rows in `MIND_DECISIONS.md`** are unchanged and remain the standing agenda.
