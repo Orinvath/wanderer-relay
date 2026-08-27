@@ -27260,3 +27260,52 @@ button.**
 
 **LIFE: 377 checks, all green.** Bench reopened.
 
+
+---
+
+## 229 — **wonderings and dreams had no kind at all.** That is why every glyph was one colour.
+
+He asked why I had not fixed the glyph colours. Because I had filed it as a decision for him, **and
+half of it was a plain omission on my part.**
+
+229 says colour tells the kind. **Only THINKING ever set one.** Wonderings were built with no `kind`
+field at all, and dreams the same, so every mark either of them put on the wire fell to the page's
+fallback — and his four-colour legend named four things **the mind could only ever produce one of.**
+
+### Nothing new was decided to fix it
+
+A wondering already has the shape a thought does: **CURIOSITY is what it is wondering ABOUT**, the
+moment's elements are what that brought up — so they are *subject* and *association* by the thinking
+path's own rule. And **a dream is CONSTRUCTED from the day**, which is the same making-up an imagined
+story is; 226.5b already marks both forever and refuses to tell them apart, so its marks wear the
+imagined colour.
+
+Sampled live **before**: ten wonderings, every one null. **After**: subject and association coming
+through.
+
+### AND MY CAVEAT WAS WRONG — he corrected it and he was right
+
+I reported that *remembered* and *imagined* would stay rare "because the school's constant talking
+leaves few quiet ticks for a train to run", and called that his call rather than a fault.
+
+> **His answer: "it's not always going to be in school."**
+
+Of course it is not — **the school is a bench fixture, not the mind's condition.** I sampled it again
+with the school off and nobody present:
+
+```
+   36  remembered
+   12  subject
+```
+
+**The kinds populate on their own the moment it is left alone.** There was no open question; there
+was a test I had run under the one condition that suppressed the thing I was measuring, and then
+reported the artefact as a property of the build.
+
+### Held
+
+Four checks, including that **every colour the page can paint is one the mind can actually send** — a
+legend for colours nothing produces is a legend for nothing.
+
+**LIFE: 381 checks, all green.**
+
