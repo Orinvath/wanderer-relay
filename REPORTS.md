@@ -27421,3 +27421,10 @@ His bench has been running for **a day** and holds a mind that old. The interpre
 process. **Restarting it to pick this up would end that mind's session, so I have not touched it**
 — 234 built being files for exactly this, and the question of whether to save it and load it into
 the new process is his, not mine.
+
+**Correction to the above, same turn:** the suite was reported green after two runs. It was not
+stable — one run in five went red, and the flapping clause was **mine**. It tested that a state
+question is answered from the real ledger and then *also* demanded the rendering be delivered, so
+it went red exactly when the censor did its job and refused a line. Fixed to ask only what it
+claims to ask. **Green five runs running.** A clause that flaps gets silenced for being flaky, and
+then it is guarding nothing.
