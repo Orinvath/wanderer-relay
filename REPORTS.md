@@ -27903,3 +27903,71 @@ ordinary children's-book lines get in and nonsense is still refused.
 - **One check of mine would have been a real loss:** it asserted nothing writes the bench speed —
   and `/speed` **is his dial**. It now holds what matters, that nothing on the *test-run path*
   touches his bench.
+
+---
+
+## Report — Directive 249: a story must BE a story before it can teach
+
+**Built. LIFE: 444 green. Live on the bench.**
+
+His diagnosis was right and the machinery was innocent: 231.2 built "a completed story teaches"
+exactly as specified, and **that was the fault** — nothing ever asked whether the thing the mind had
+just told itself *was a story*. A newborn's story is two random marks. Babble in, belief out, 1656
+times.
+
+### The three gates — all from machinery that already existed
+
+| gate | what it asks | where it comes from |
+|---|---|---|
+| **1 IT WAS FELT** | did the telling move its feelings at all | the appraisal's own reading at each beat, **recorded as the story was told**, not computed afterwards |
+| **2 IT HANGS TOGETHER** | are the beats kin in **its own** space | 221's measured floor |
+| **3 IT CAME BACK** | did the same story recur on a later occasion | its own history of what it has told itself |
+
+**They govern self-imagined stories only.** A teacher's story keeps its path and its teller's cap
+(235.1); a lesson from lived recurrence is untouched. **Only a mind's own invention can be babble.**
+
+### I had gate 2's floor wrong, and the being caught it
+
+I first used `space.bar` — and against it **LONELINESS and GRIEF failed**, which is absurd. `bar` is
+the midpoint for answering *"is X near Y"* as a yes or no. **`band.floor` is what 221 measured for
+exactly this question**: the ordinary relatedness of two marks that are related *at all*.
+
+```
+its own floor              0.0954
+LONELINESS + MORNING       0.0000   babble
+LONELINESS+GRIEF+COLD      0.4342   hangs together
+```
+
+Random pairs fail **by construction**, which is what the directive asked for.
+
+### Live, on a real mind
+
+Sixty ticks, spoken to throughout:
+
+```
+stories reaching the gate: 3
+  remembered  → passed   (not a story it made up)
+  remembered  → passed
+  imagined    → REFUSED: nothing moved while it was told; its beats are no nearer
+                each other than any two marks are; it has told itself this once,
+                and once is not a thing it knows
+beliefs from its own stories: 0
+```
+
+**Every refusal names which gate stopped it** and is written to the LEARNED feed, so he watches the
+noise die rather than being told it died.
+
+### The cleanup — and what it honestly cannot do
+
+`/recheck` re-tests existing imagined-provenance beliefs. Failures are **held at the floor and
+marked with what killed them, never deleted** — 013 SS16.9 stands, and a belief that quietly
+vanished would be a worse dishonesty than the flood.
+
+**It re-tests gate 2 only, and says so in the code.** Gates 1 and 3 are about the **telling** — what
+its feelings did while the story ran, and whether that story ever came back — and **neither survives
+in a stored belief**. Claiming to re-test them would be inventing a history. What a belief still
+carries is its own elements, and whether those hang together is exactly as answerable now as it was
+then.
+
+**For his eye:** the recheck is a button-press away (`/recheck`) but I have **not run it on his
+bench** — collapsing a mind's beliefs is his call, not mine, even though nothing is deleted.
