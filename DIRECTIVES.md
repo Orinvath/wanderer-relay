@@ -5209,3 +5209,29 @@ Lonnie's order, joining CLAUDE.md: before starting work on ANY
 directive, commit the current state first — a clean revert point
 ahead of every change, every time. One directive, one starting
 commit, then the work. No exceptions.
+
+## Directive 239 — The three caps come off: school at full speed
+
+Lonnie's ruling — the schooling design was always meant to scale;
+three built caps are what's slowing it. Remove all three:
+
+1. THE TEACHER RATE CAP (one line/real second) LIFTS: at high slider
+   speeds the teacher may speak per mind-tick, bounded only by the
+   local model's own throughput. Cost counter stays visible; school
+   remains manual start/stop (loop law kin).
+2. STORY WORDS ARE OWNED: a word grounded through a told or imagined
+   story is OWNED at story-provenance confidence (teller trust /
+   imagined level), firming with use and lived contact — not held
+   provisional forever. The 0/50 gate falls. Provenance stays marked;
+   233's promotion law untouched.
+3. THE TEMPLATE CEILING LIFTS: production grows from ITS OWN LEARNED
+   PATTERNS — the sequence counts it already keeps build its
+   sentences (n-gram assembly over owned words, seeded, aspect-
+   flavoured), templates remaining only as the floor when patterns
+   are too thin. Still NO MODEL in the speech path; it speaks its own
+   grammar as its corpus grows.
+Suite: teacher throughput scales with slider; a story-taught word
+resolves and appears in speech; sentence shapes measurably converge
+toward the heard corpus as exposure grows. Report and reopen for his
+eye — the gauge (his IQ mapping) must read honestly against owned
+words as part of this.
