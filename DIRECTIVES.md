@@ -5461,3 +5461,5 @@ names the one change.
 Suite: a run's gained-words list must reconcile with the litmus
 delta; funnel numbers must sum; two runs' records must be diffable.
 Report.
+
+## Directive 247 addendum — WITHDRAWN. Lonnie is not done designing it. Do not execute.
