@@ -5278,3 +5278,38 @@ Suite: non-word false-alarm rate must move the score down; a schooled
 mind must measurably outscore its own newborn state; the age mapping
 must place a 0-word mind at infant and never above it. Report and
 reopen for his eye.
+
+## Directive 242 — THE INTERPRETER: English in, English out, the mind unchanged
+
+Lonnie approved the path. A two-way translator between his English and
+its marks — an ORGAN OUTSIDE THE MIND (teacher.js's pattern, local
+qwen, per-exchange calls only). The mind stays model-free inside.
+
+1. INBOUND: his line -> marks THAT EXIST (dictionary + owned words +
+   kinship space verify every mapping; the model proposes, arithmetic
+   confirms). Unmapped words are NOT guessed — they become learning
+   candidates exactly as now. The marks enter the normal pipeline
+   (gate, appraisal, comprehension) and the mind answers through its
+   own machinery.
+2. OUTBOUND: the mind's computed record (its chosen speech act, the
+   marks, the feeling and intensity, the winning reason, surfaced
+   memory refs) -> one English sentence. THE CENSOR, mechanical:
+   every CONTENT word must trace to the record via the dictionary,
+   owned words, or their sense words; function words free; anything
+   untraceable (new facts, names, numbers, claims) REJECTS the line
+   and its own template/n-gram speech stands instead. The model
+   decides HOW it sounds, never WHAT is said.
+3. LEARNING FEEDS: every crossing is a labelled example — his English
+   beside the marks it became — into the association machinery and
+   the pattern corpus, provenance TRANSLATED. The interpreter is
+   scaffolding: as ownership grows, more of his speech lands direct.
+4. HONESTY ON SCREEN: interpreter-rendered lines carry a small marker
+   in the log; the glyph display remains the thought's truth. THE
+   LITMUS AND GAUGE NEVER TEST THROUGH THE INTERPRETER — they measure
+   ITS language only, or the growth story becomes a lie.
+5. Toggle on the bench (interpreter on/off), cost visible, school
+   compatible (teacher lines may cross it the same way).
+Suite: a planted hallucination in outbound must reject; inbound maps
+only to existing marks; a state question answers from the real
+ledger; a crossing must produce candidates; litmus provably bypasses
+it. Report and reopen for his eye.
