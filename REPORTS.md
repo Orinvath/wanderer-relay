@@ -27536,3 +27536,34 @@ owned: KNOW, SONG
 So the growth number is **inflated by my wording**, narrowly rather than wholesale. It stands
 unfixed and is part of the same ruling as the voice: if the frames move to the display, this
 corrects itself, because the line the litmus reads becomes the marks the mind actually produced.
+
+---
+
+## Report — 244 (Lonnie's ruling, given directly): the spoken English is not the mind's words
+
+He ruled it, and had to say it twice before I acted: *"those things should not be coming from the
+mind, they are not the minds words."*
+
+**Done. LIFE: 408 green.**
+
+The mind now stores **its decision** — which act it chose, which variant the draw landed on, and a
+projection of the values it decided with. `view()` words it at the edge, with the same templates
+and the same variant. **His log reads exactly as it did**; what changed is whose words they are.
+
+- A **grown** line is still stored as text, and should be — built from its own watched transitions,
+  its words in its order, no frame of mine on it.
+- The **verdict** for a state question is computed at the tick, not at the screen: it needs the
+  live kinship space, which does not survive being written down. The mind decides yes/no/maybe; the
+  display only words it.
+
+**This answers his question directly:** the litmus now reads only lines the mind made, so its
+vocabulary score is no longer padded by my wording. It asks for `grown` **explicitly** rather than
+relying on templated rows happening to have no text.
+
+**Two things it nearly broke, both caught by writing the checks rather than by reading the code:**
+
+1. `growth()`'s answer count read the English off the row — moving the wording would have reported
+   **a mind that never answers anybody.** It counts the act now.
+2. A third suite check of mine **caught its own comment**: the 242 clause grepped the litmus body
+   for the word "english" and went red over the sentence saying it was fixed. It tests for the
+   fields now, not the prose. That is three times in two directives.
