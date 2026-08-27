@@ -5533,3 +5533,43 @@ Suite: babble pairs must fail gate 2; an unfelt story must fail gate
 1; a story must fail until it recurs; a genuine felt, coherent,
 recurring story must still teach at 0.3. Report and reopen for his
 eye.
+
+## Directive 250 — LAW: NO DIRECTIVE SHIPS WITH OPEN DECISIONS
+
+Lonnie's law, at his order, after time lost to underspecified
+directives. Joins CLAUDE.md at the top, binding on the DIRECTOR and
+on CC:
+
+1. THE DIRECTOR: before any directive is pushed, it is checked
+   line-by-line for decisions left open — thresholds, windows,
+   defaults, orderings, wordings, anything a builder would have to
+   choose. A directive with ANY open decision does not push; the
+   decision comes back to Lonnie (or is settled from standing law
+   and stated in the directive as settled). The check is a named
+   step, every time.
+2. CC: on receiving a directive, BEFORE any work, scan it for
+   decisions it would have to make. If ANY are found: STOP, post
+   the list to the relay, and wait. Mulling over options IS the
+   signal to stop — a builder weighing choices is a builder doing
+   the Director's job. No exceptions, no "small" decisions.
+3. Violations are recorded in the report of the change that broke
+   the law, both directions.
+This is where the time is lost and the mistakes are made. It ends
+here.
+
+## Directive 249 addendum — the three decisions, closed by the Director
+(If work under 249 already chose differently, report the difference;
+Lonnie rules.)
+1. FELT = the story moved any feeling by at least the existing
+   appraisal feeling-change delta (the event the mind already
+   counts; no new number).
+2. LATER OCCASION = a different train with at least one sleep
+   between (consolidation is the boundary).
+3. SAME STORY = same subject AND beat-overlap above one half.
+
+## Directive 251 — STOP TEST + run progress
+A STOP TEST button aborts a running test: the row records anyway,
+marked ABORTED, with elapsed time and litmus-at-stop (partial data
+still teaches). While running: a progress line — elapsed, remaining,
+live language age. Suite: an aborted row reconciles; the button
+cannot fire twice.
