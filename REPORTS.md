@@ -26998,3 +26998,84 @@ something else entirely**; and whether the buttons say what they do plainly enou
 
 **Nothing is built until he rules.**
 
+
+---
+
+## DIRECTIVE 238 — **BUILT.** He gave his verdict on the mock and it is in the real bench.
+
+**LIFE: 341 checks, all green.** Both parts verified on the real served page: it parses, it runs,
+`brainError: null`.
+
+### The mock did its job — seven corrections before a line was built
+
+He moved it around until it was right, and **every one of those was a correction I should not have
+needed**: the marks under the stage, then above it, then above it on the left half, then *"they
+belong in the frame with the stage"* — **four passes**, because I kept reading "the stage" as the
+bordered frame when he has always meant **THE SPHERE**. That definition is now a comment in the
+stylesheet rather than something I keep failing to remember.
+
+Then: the glyph legend was in there twice and **my label was sitting on top of his artwork** — the
+WHOLE glyph is the mark *and* the word beneath it, and I had put a second word under it. The yellow
+had to go — *"that is all cool colours"*. The headline was **eyeballed and looked it**, and now sits
+on the same grid as the bars beneath it. And when he said move *that* section I moved the feed with
+it, because I was treating the gauge and the feed as one thing and **he was not**.
+
+### 238.1 — what it has learned
+
+**HIS STEER CHANGED WHAT THIS SECTION IS**, and he was right that I had built the wrong thing:
+
+> *"You could run this indefinitely and I couldn't tell if it ran for a month or ten minutes. What it
+> has actually learned is what this section is supposed to be, not what it learned in each moment."*
+
+So the feed dropped to a strip — *each thing, as it landed* — and above the sphere's own column sits
+a **cumulative gauge of whether it can yet hold a conversation.** Watched climbing on a real mind:
+**0 newborn → 16 after being taught → 22 after living on.**
+
+**NO NUMBER IN IT IS INVENTED**, and one part proves it: *whether it UNDERSTOOD what was said*
+reports `counted: false` and greys out, because comprehension classifies every line it hears (218)
+but nothing aggregates it. **A made-up number there is the one thing this gauge must never do.** The
+targets live in one frozen object nothing else reads — **changing one changes what the meter says and
+never what the mind does**, and they are his to set.
+
+**PROGRESS CLIMBS** — his ruling. The bar rises up the left edge, starting under the title, level
+with the number, so the top of the bar and the number it reports are one line.
+
+Each landed row carries **what it learned in its own words, how strongly it holds it as a filled bar
+with words rather than a decimal, a stripe for where it came from, and what it bears on** — and the
+provenance is passed by the code that made the change, so **a row cannot claim a source the mind did
+not have.** The side-panel folder stays as the scrollable history, as ordered.
+
+### 238.2 — the soul as an instrument
+
+Out of the 210px panel where his verdict was *"oddly named text in small boxes"*, and rebuilt under
+the sphere as a **picture**: the five foundations as a shape drawn from the soul's own weights; what
+it is made for as filled domains with the unmarked ones **dimmed rather than hidden**, because a
+being is also what it is *not* made for; what it is drawn to on a **diverging axis**, so *"avoids
+stilling"* reads as a direction rather than a minus sign. **Nothing is scaled to look better: a flat
+soul draws a small shape, which is the true picture of a flat soul.**
+
+Buttons say what they do in sentences under plain names, the numbers are behind *edit*, and **NO SOUL
+is a quiet corner option** instead of one of four equal choices.
+
+**AND EVERY NEW MIND IS BORN FROM ITS OWN TEN** — new drafts too, or NEW DRAFT would have quietly
+handed back the soulless being the ruling just abolished.
+
+> **THAT CHANGED BEHAVIOUR AND THE SUITE CAUGHT IT.** A mind with a soul is struck by what it was
+> made for almost immediately, so *"a newborn has no interest threads"* **stopped being true**. The
+> check now holds what 234.3 actually states — the school OPENS IN NAMING — and records why the old
+> premise no longer applies.
+
+### FOUR MORE OF MY CHECKS WERE ASSERTING MY ASSUMPTIONS
+
+One pinned `note()`'s signature. One demanded the mind answer within two turns — which its own ten,
+and now its soul, decide. One claimed a story may **never** mention the listener, when the addendum
+allows it **whenever it is true**. And the newborn-threads one above. **All four held my assumption
+rather than the law**, and all four now hold the law. Today's running tally is **thirteen**.
+
+### ONE THING I CANNOT DO FROM HERE
+
+**The bench server is killed the moment it starts in this environment** — four times in a row, with
+no output, exit 144. Everything above was verified by starting the real surface **in-process** and
+fetching the real page, which is bounded and survives; but a long-running watch for his eye does not.
+**He is being handed the one line to run it himself.** Reported rather than left as a mystery.
+
