@@ -27519,3 +27519,20 @@ his and the Director's, not mine.
 **LIFE: 403 checks, all green** — including one that reads every word of every stored moment and
 fails if a single one is not a mark the mind holds. If it ever goes red, the record is quoting me
 again.
+
+**Correction to the litmus finding above, and it cuts both ways.** I wrote that the litmus "has
+been counting my words as the mind's own". That is **overstated** — `productive()` skips any word
+the mind does not own, so the bulk of my frames ("I", "was", "this", "much") were never counted.
+
+**But it is not clean either, and it is not fixed.** Where a template word *coincides* with a word
+the mind genuinely owns, my frame gets credited to the mind. Measured:
+
+```
+owned: KNOW, SONG
+"I know this much: SONG."   -> uses 2 of 2   (KNOW credited — it came from speech.js)
+"SONG."                     -> uses 1 of 2   (the truth)
+```
+
+So the growth number is **inflated by my wording**, narrowly rather than wholesale. It stands
+unfixed and is part of the same ruling as the voice: if the frames move to the display, this
+corrects itself, because the line the litmus reads becomes the marks the mind actually produced.
