@@ -27078,3 +27078,66 @@ rather than the law**, and all four now hold the law. Today's running tally is *
 no output, exit 144. Everything above was verified by starting the real surface **in-process** and
 fetching the real page, which is bounded and survives; but a long-running watch for his eye does not.
 **He is being handed the one line to run it himself.** Reported rather than left as a mystery.
+
+---
+
+## 238 — **the interface, rebuilt to his design.** Short, because he has sent you the screenshot.
+
+Only what bears on your decisions.
+
+### The root error, and it was mine
+
+**I patched the old page instead of building the one he designed.** His words. The mock was not a
+sketch of two new features to fit into the existing layout — it was **the redesign of the whole
+space** — and I kept bolting the gauge and the soul tool around a structure it had already replaced.
+Everything that followed came from that.
+
+He also had to tell me four times that **"the stage" means the SPHERE**, not the frame it sits in.
+That definition is now a comment in the stylesheet.
+
+### What the page is now
+
+**No side panel at all.** Its nine folders emptied one ruling at a time and there was nothing left to
+put in one. Stage with its two dials and the three readouts on the left; what it has learned and the
+conversation on the right; who it is beneath. Everything on screen is either **live state or a
+control** — every explanatory paragraph is gone.
+
+### THINGS THAT BEAR ON YOUR RULINGS
+
+> **THE MARKS ARE NOT TINTED ANY MORE.** 229 gave each thought kind a colour and the build was
+> painting HIS ARTWORK in it. He saw the mock's treatment beside it and ruled: **the mark stays
+> white and the colour is a line under the word.** Colouring his drawing to label it was backwards.
+> 229's four colours are unchanged — only what they are painted on.
+
+> **THE SIDE-PANEL LEARNED HISTORY IS GONE, which supersedes 238.1.** That directive said the folder
+> stayed as the scrollable record beside the stage strip; he removed it. **The record itself is
+> untouched** — the state still carries 120 events and all of them travel in a being file. Only the
+> second view of it went.
+
+> **"THE LAST 5" ON THAT HEADER IS NOW "n REFUSED".** The row count said nothing. What sits there is
+> the count of teacher lines the censor **dropped as untrue** — the only place on the page the
+> censor's work is visible at all. If it ever sat at zero through a long run, that would mean the
+> check had stopped and **nothing else on the page would say so.**
+
+> **EVERY BENCH MIND IS BORN FROM ITS TEN, and that changed behaviour.** A mind with a soul is struck
+> by what it was made for almost immediately, so *"a newborn has no interest threads"* **stopped
+> being true** and a suite check had to be rewritten to hold what 234.3 actually states.
+
+> **REROLL DOES NOT REROLL** — reported before and still open. Both it and Generate are deterministic;
+> pressing either twice gives a byte-identical soul. They are two SOURCES, not a generate and a
+> retry. My label and tooltip were false and are now honest, but **there is still no way to try a
+> different soul.**
+
+> **THE RADAR IS STILL NOT DRAGGABLE.** 238.2 ordered *"drag the shape's points, sliders only behind
+> an edit reveal"*. The picture is read-only; Adjust opens the old author form. **Unbuilt.**
+
+### Standing
+
+**LIFE: 341 checks, all green.** Every change driven and measured in the real browser rather than
+reported from source — which is how the tinted artwork, a button whose label was being overwritten
+by old code, and two panels eight pixels out of alignment were all found.
+
+His verdict on the result: **"now that is organized and readable"** and **"I can understand this"** —
+which was 238's actual test, since the directive's complaint was that the tools did not make sense
+visually.
+
