@@ -5413,3 +5413,28 @@ decides:
 3. The OPEN rows are the standing agenda for Lonnie's rulings —
    nothing OPEN may silently harden into permanent behaviour.
 Write the ledger, report it posted.
+
+## Directive 247 — THE TEST BUTTON: one hour, one change, recorded
+
+Lonnie's order. The language-age metric becomes the experimental
+target; the bench gets the harness:
+
+1. A TEST button on the bench: pressing it runs a STANDARD HOUR —
+   one real hour at a fixed slider speed (the run's settings frozen
+   at press), on a fresh Roe from a fixed test seed, with whatever
+   change is currently in effect. Litmus fires automatically at
+   start and at end.
+2. RECORDED: every run appends a row to a results table on the bench
+   (and results.json in the repo): date · what was different (a
+   required one-line label typed at press) · start age · end age ·
+   words owned start/end · false alarms · the run's settings. The
+   history is the experiment log — nothing overwritten.
+3. COMPARABILITY LAW: same test seed, same hour, same litmus battery
+   every run — one change at a time is the method (the label says
+   which). A run with altered settings still records, flagged
+   NON-STANDARD.
+4. The table sorts by end age so what actually moves the number is
+   visible at a glance.
+Suite: two identical runs land within noise of each other; the label
+is required; litmus results in the row match the litmus log. Report
+and reopen for his eye.
