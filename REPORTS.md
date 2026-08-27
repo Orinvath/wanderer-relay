@@ -27309,3 +27309,115 @@ legend for colours nothing produces is a legend for nothing.
 
 **LIFE: 381 checks, all green.**
 
+
+---
+
+## Report — Directive 242: THE INTERPRETER
+
+**Built, suite green, and run end to end on a real bench against the real local model.
+NOT yet seen by Lonnie** — 118, and there is a question for him before it can be (bottom).
+
+### What it is
+
+`server/src/interpreter.js` — an organ **outside** the mind, on `teacher.js`'s exact pattern:
+local model, per-exchange calls, and nothing inside the mind touched. The suite proves the
+standing: `watching.js` cannot import or construct an Interpreter, and the bench fixture out
+beside the surface builds it. **Switch it off and the mind behaves exactly as it did before** —
+that is the test of whether a thing is really outside, and it is a suite clause.
+
+### 242.1 — inbound, and the half that matters
+
+The model proposes `word = MARK` pairs; **arithmetic confirms them**. A mark survives only if
+
+1. the language actually HAS it, and
+2. **it traces to a word he actually said.**
+
+The second is what makes the model a proposer rather than an author, and it was not there in the
+first build. Asking *"are you happy?"* proposed **HAPPY and SAD**. SAD came from nowhere in the
+sentence, and with the trace required it now dies. Measured, against qwen2.5:14b:
+
+| he said | marks | traced | refused |
+|---|---|---|---|
+| "I feel so alone tonight" | LONELINESS | ALONE→LONELINESS | — |
+| "The cat sat on the mat in Paris" | ANIMAL INSIDE PLACE | CAT→ANIMAL, IN→INSIDE, PARIS→PLACE | SAT→SIT, MAT→OBJECT (not marks in the language) |
+| "Are you happy?" | HAPPY | HAPPY→HAPPY | — |
+| "Nothing here relates at all" | (none) | — | — |
+
+What does not map becomes an ordinary learning candidate — **minus function words**, which teach
+it nothing about the world.
+
+### 242.2 — outbound, and a real flaw the suite caught
+
+The censor is arithmetic and runs **after** the model, never as an instruction to it.
+
+**A flaw found by writing the check, not by reading the code:** `traceable()` admitted *every word
+the mind had ever owned*, in any moment. A mind owning SINGS could have **"It is singing" delivered
+during a moment of pure FEAR** — the word traced to its vocabulary rather than to what had just
+happened. Owned words are a *way* of tracing to the record, not a path around it. An earned word
+now rides in on the mark it was earned for and dies with it.
+
+Inflection is the mind's own rule, so SINGS is a form of SINGING and not a new claim. **Nothing
+relates two different words** — that is where an invented morphology starts letting SONGBIRD trace
+to SONG, and the suite pins both.
+
+Rendering happens **after the tick, never inside it**. A model call is not something a mind's
+clock waits on.
+
+### 242.3 — a crossing is a labelled example
+
+Confirmed pairs are grounded with provenance **`translated`** — a free-text column, no schema
+change — so a translated word can never be mistaken for one its own life taught it. The point of
+writing them down is that ownership grows past needing the interpreter, and **a mind cannot grow
+past a crutch it cannot see it is leaning on.**
+
+### 242.4 — honesty on screen, structurally rather than by promise
+
+The rendering goes in a **new field** beside the mind's words. Nothing overwrites `text`. The
+litmus and the gauge read `text`, **so they cannot see a rendering even if they tried** — a suite
+clause reads the litmus body and confirms it does not mention the interpreter, the rendering or the
+marker anywhere. Writing English into that field would make the growth story measure the model's
+vocabulary instead of its own.
+
+In the log: an interpreted line carries an **INTERPRETED** mark, and hovering it shows the mind's
+own words. A rendering the censor **refused** shows as REFUSED with the reason, because an
+interpreter whose censor eats every line is working correctly and useless, and those two look
+identical unless the number is on screen.
+
+### 242.5 — on the bench
+
+Switch and cost on the chat log header. Teacher lines cross it the same way host lines do.
+Cost measured live: **2 model calls per exchange, ~0.8s each.**
+
+### Run end to end, on a real bench
+
+| he said | what the MIND said | what was delivered |
+|---|---|---|
+| I feel so alone tonight | "Someone's here." | **REFUSED** — SOMEONE does not trace |
+| are you happy | "I was thinking: SONG." | "It is glad and a song is approaching." |
+| does the song help | "I know this much: SONG." | "It says it knows this much about singing." |
+
+**Two findings the Director should weigh, and I am not deciding either:**
+
+1. **The censor checks vocabulary, not structure.** "It is glad and a song is approaching" used
+   only traceable words, but *approaching* is a shape of claim the mind never made. Word-level
+   tracing cannot catch that. It is a real limit of the mechanism as specified, not a bug in it.
+2. **The mind's own speech is already English-shaped** — "I know this much: SONG." So outbound is
+   mostly *smoothing*, and the real gain is inbound. That may change what the interpreter is worth.
+
+**Flagged, not decided:** a translated word is born at what **being told** is worth (0.3, 234.7).
+That number is **borrowed rather than ruled** — a model's mapping of his sentence is arguably
+weaker than the sentence was, and what it should be born at is his to say.
+
+**Also his:** the switch's placement. I put it on the chat log header under his own 238 ruling —
+*the switch that turns a thing on belongs on the log where its lines land* — but he is the
+designer and it is his to move.
+
+**LIFE: 395 checks, all green**, including a live clause that runs a real mind, a real question and
+the real model, and reports ENVIRONMENT rather than going green if the model is down.
+
+### Before he can see it
+
+His bench has been running for **a day** and holds a mind that old. The interpreter is not in that
+process. **Restarting it to pick this up would end that mind's session, so I have not touched it**
+— 234 built being files for exactly this, and the question of whether to save it and load it into
+the new process is his, not mine.
