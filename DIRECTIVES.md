@@ -5465,3 +5465,44 @@ Report.
 ## Directive 247 addendum — WITHDRAWN. Lonnie is not done designing it. Do not execute.
 
 ## Directives 247 and addendum — ALL WITHDRAWN. Not approved. Lonnie is designing; nothing here executes until he says push.
+
+## Directive 248 — THE LEVERS PANEL + TEST RUNS (designed with Lonnie; supersedes withdrawn 247)
+
+Approved as the starting shape; adapted later from findings. CC
+codes; every decision below is made.
+
+1. THE LEVERS PANEL on the bench — twelve controls, current value
+   always visible:
+   1. naming<->story ratio (slider 0-100% story; default 50)
+   2. targeted teaching (on/off; off = random topics; on = teacher
+      aims at not-yet-owned and near-trust-bar words)
+   3. spacing (on/off; on = taught words revisited on a spaced
+      schedule — expanding intervals, the spacing effect)
+   4. new-word cap per story (integer 1-5; default 2)
+   5. clear-moment timing (on/off; on = naming lines delivered only
+      when exactly one thing is true — the trust bar's clear
+      exposure)
+   6. interest alignment (on/off; on = story topics drawn toward its
+      disposition depths)
+   7. lesson banks (on/off; on = pre-generated, pre-censored,
+      pre-embedded lines feed school at raw tick speed, no model
+      calls in the loop; banks built offline per current levers)
+   8. literature source (on/off; on = banks built from children's-
+      book lines that pass the censor sieve — only mark-mappable
+      lines enter)
+   9. maturation rate (x0.5-x4 dial on 244's growth rates)
+   10. sleep frequency at speed (dial: consolidation runs per
+       schooled hour, low-med-high)
+   11. echo response (on/off; teacher reacts to every echo)
+   12. interpreter feed (on/off; chat crossings enter learning)
+2. THE TEST BUTTON: one real hour · speed x2000 · fresh Roe from
+   FIXED seed TEST-1 (same being every run) · levers frozen at press
+   · litmus fires at start and end automatically · a required
+   one-line label typed at press.
+3. THE RESULTS TABLE on the bench + results.json in the repo: run id
+   · label · all twelve lever values · start/end language age ·
+   words owned start/end · false alarms · settings. Appended, never
+   overwritten, sortable by end age.
+Suite: two identical runs land within noise; levers frozen at press
+provably don't drift mid-run; a row reconciles with its litmus log.
+Report and reopen for his eye.
