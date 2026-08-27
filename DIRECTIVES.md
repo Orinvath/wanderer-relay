@@ -5370,3 +5370,24 @@ Suite: a newborn measurably smaller than a schooled elder on every
 grown capacity; use accelerates its own capacity; the slider ages;
 two Roes grow at different lawful rates. Report and reopen for his
 eye.
+
+## Directive 245 — The flat rolls die: the being's own answer is read
+
+Settled from standing law (205: the pull is the Persona's reason to
+exist; 071: a constant/flat draw is a decision nobody made). Both
+defects from your audit §1, fixed:
+
+1. STRUCK-TOPIC DRAW READS THE DEPTHS: domain drawn weighted by the
+   soul's own disposition depths; the word within the domain weighted
+   by the being's record (aptness/kinship to its current state), not
+   flat. The pull decides, as 205 promised.
+2. WORDING REACHES THE BEING: each template variant carries simple
+   tone tags (authored once, as the words already are — his ruled
+   text); the variant draw is weighted by the mind's current feeling,
+   its intensity, and the relevant aspects. The mind chooses what to
+   say AND how it comes across. No model; weights, not scripts.
+§2 (silent judgements) and §3 (presentation influence) are a larger
+conversation — hold for Lonnie's session; nothing changes there yet.
+Suite: two souls with different depths must strike different topics
+at measurable rates; a high-intensity feeling must shift wording
+choice measurably; flat rolls gone from both sites. Report.
