@@ -5249,3 +5249,32 @@ Lonnie's order — both fixed:
    pulls behind the edit reveal as built. Dragging edits the DRAFT
    only — Genesis still locks forever.
 Suite both; report.
+
+## Directive 241 — THE LITMUS: what it knows, proven the science's way
+
+Lonnie approved. The gauge stops guessing; it MEASURES, per Brysbaert
+et al. 2016 (PMC4965448 — vocabulary size and word knowledge; add to
+REFERENCES.md per 227) and the spot-the-word lineage (Baddeley — the
+validated verbal-intelligence estimate):
+
+1. SPOT-THE-WORD (receptive): present a shuffled mix of words it
+   should own (drawn from its owned set + words the teacher used) and
+   GENERATED NON-WORDS (pronounceable fakes, mechanically built).
+   For each, the question is only: does its comprehension RESOLVE it?
+   Score = hits MINUS false alarms (fakes it claims). Pure mechanics,
+   no model judging.
+2. PRODUCTIVE: which owned words actually appear, correctly placed,
+   in its own recent speech (the corpus check the pattern machinery
+   already enables). Shown beside receptive — humans use about half
+   of what they understand; the gap is part of the reading.
+3. THE GAUGE READS AS LANGUAGE AGE: measured vocabulary maps to the
+   human words-by-age curve (the paper's own charts anchor it;
+   toddler through adult). No invented IQ number — "language age:
+   ~2 years" is the honest gauge, climbing only when knowledge climbs.
+4. A LITMUS button on the bench runs the whole battery in the chat
+   log where he can watch; every run logged with its score so growth
+   is a visible history. The old 0-100 score dies.
+Suite: non-word false-alarm rate must move the score down; a schooled
+mind must measurably outscore its own newborn state; the age mapping
+must place a 0-word mind at infant and never above it. Report and
+reopen for his eye.
