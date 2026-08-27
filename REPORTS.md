@@ -27663,3 +27663,82 @@ what **this** being climbs toward, since the ceiling is its own.
   from the same age, so they climb together and a span that never fits is **rare where it used to
   be ordinary**. I have not patched it back; the check records the change in its own text. Whether
   those two should grow in lockstep is a ceiling question and it is his.
+
+---
+
+## Report — LONNIE'S QUESTION: where are decisions made FOR the mind, without it knowing?
+
+He asked it after catching that the mind "spoke" in capitals and finding the capitals were mine.
+His framing, and it is the right one: **the mind should have control over what it does — not a
+directive, and not us.** This is what I found by looking, in the areas I have worked. **It is not
+an exhaustive audit** and I have said so rather than implying otherwise.
+
+The useful distinction turned out to be between a draw **weighted by the being** — lawful, its own
+state shaping the odds — and a **flat coin flip**, where something real about the being exists and
+is thrown away.
+
+### 1. FLAT COIN FLIPS — the worst kind, because the being's own answer is right there
+
+**a) The soul's own pull is flattened.** `thinking.js:185`. When a thought comes from what a being
+was *made for*, the domain is picked **uniformly at random** across its domains:
+
+```js
+const domain = domains[Math.floor(roll() * domains.length) % domains.length]
+```
+
+But `interests.domains` is `{ domain: depth }` — **it carries a depth per domain**, and the depth
+is discarded. Directive 205 says the Persona holds *"the unaccountable pull… whatever makes a being
+THIS one rather than a competent instance of its aspects."* A uniform roll over its dispositions is
+that pull being deleted at the moment it would matter. **The word within the domain is flat too**
+(line 188).
+
+**This one is a defect, not a design choice.** The being's answer exists and is ignored.
+
+**b) Which wording comes out is a coin flip.** `speech.js:612`. Its ten decide *which act* it
+speaks — that draw is properly weighted, with a temperature from its aspects. Then:
+
+```js
+const variant = Math.floor(roll() * family.length) % family.length
+```
+
+Four wordings, flat. So the mind chooses **what kind of thing to say** and a die chooses **how it
+says it**. Nothing about the being reaches that line — not its feeling, not its intensity, not one
+of the ten.
+
+For contrast, the draws that ARE weighted and are fine: association steps by nearness in its own
+language space (`thinking.js:152`), story beats by what is pressing (`stories.js:143`), the next
+word by what it has actually watched, with the wander from its openness (`grammar.js:90`).
+
+### 2. THINGS I DECIDE ON ITS BEHALF, in code, silently
+
+- **What counts as "its own words" for each kind of reply** (`speech.js`, `contentOf`, mine as of
+  today). I ruled that a line it could not read leaves it with **nothing to say**. That is a
+  judgement about its inner state and I made it in a switch statement.
+- **The floor when a moment leaves it wordless** (`watching.js`, 243). When nothing resolves, I
+  substitute what it is doing and what it is short of. **It never chose to think that** — I chose
+  it so the moment would not be empty.
+- **What its old memories now say.** At 243.4 every prose memory was re-read into marks by my
+  extractor. *"something it cannot read"* became **CANNOT**. Its own history now says what my
+  regular expression decided it says. The raw is kept, so this is recoverable.
+- **The order of a moment** — the world's change leads, then what was said (213). It does not
+  decide what it notices first.
+
+### 3. PRESENTATION — every bit of it ours
+
+Case (the one he caught), the four wordings themselves, the dim notes saying "greeted you", the
+glyph colours. **He has already ruled on the words.** The open one is that *nothing lets the mind
+influence how it comes across at all* — if emphasis followed feeling intensity, that would be its
+decision instead of ours. **No such mechanism exists.**
+
+### 4. NUMBERS I PICKED
+
+Birth values and ceilings for every capacity, and `HALFWAY_HOURS: 40` (244). Flagged provisional
+already, and 071's rule — *a constant is a decision nobody made* — is exactly the principle he is
+invoking here.
+
+### What I would want the Director to rule on first
+
+**The flat rolls in §1, because those are the ones where giving the decision back costs nothing
+but a weighting.** The soul's dispositions already carry depths; the speech act already carries a
+feeling and an intensity. Both draws could read them tomorrow. Everything in §2 and §3 is a larger
+conversation about what the mind is even capable of preferring.
