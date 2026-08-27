@@ -5313,3 +5313,30 @@ Suite: a planted hallucination in outbound must reject; inbound maps
 only to existing marks; a state question answers from the real
 ledger; a crossing must produce candidates; litmus provably bypasses
 it. Report and reopen for his eye.
+
+## Directive 243 — LONNIE'S CATCH: the mind's record holds ONLY its language
+
+Lonnie caught it (his eye, again, before the suites): the mind's
+memories and inner speech are stored in CC-written English sentence
+frames ("I was thinking: someone here says...") — words it never
+owned, quoted back as if they were its thoughts. Its memory quotes
+its programmer. That is unlawful under the whole design.
+
+1. MOMENTS STORE AS ITS LANGUAGE: marks + structured fact fields
+   (who was present, which marks resolved, the act, the feeling and
+   intensity, provenance). NO English prose in the mind's record.
+2. UNRESOLVED ENGLISH IS KEPT AS HEARD SOUND: raw heard lines remain
+   as learning data (candidates, pattern corpus) tagged HEARD —
+   never as its thought, never quoted as its memory.
+3. DISPLAY WRAPPERS LIVE AT THE DISPLAY: the watcher's English
+   ("I was thinking:") is rendered at the page from the structured
+   record — never written into storage. The interpreter reads the
+   same structured record.
+4. MIGRATION: existing memories re-store into marks mechanically
+   (each moment's marks are recoverable from its record); raw-never-
+   deleted law holds — the old prose rows archive as HEARD-era data,
+   nothing lost. Run before the interpreter ships (242 waits on
+   this).
+Suite: no English prose reachable anywhere in stored moments, inner
+speech, dreams, or stories; a migrated memory replays identically in
+marks; the display still reads plainly to Lonnie. Report.
