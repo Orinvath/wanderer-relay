@@ -5506,3 +5506,30 @@ codes; every decision below is made.
 Suite: two identical runs land within noise; levers frozen at press
 provably don't drift mid-run; a row reconciles with its litmus log.
 Report and reopen for his eye.
+
+## Directive 249 — A story must BE a story before it can teach
+
+Lonnie approved. The 1656-belief flood diagnosed: every completed
+self-told story births a belief, and a newborn's stories are two
+random marks — babble in, belief out. Three gates before ANY
+imagined story may distil a lesson (all existing machinery, no new
+laws):
+1. IT WAS FELT: the story measurably moved feelings while told
+   (flat babble teaches nothing).
+2. IT HANGS TOGETHER: the beats are kin in its own space — mean
+   pairwise nearness above the space's own measured floor (random
+   pairs fail by construction).
+3. IT CAME BACK: the same story (same subject, substantially the
+   same beats) recurred on a later occasion before it may teach —
+   one-off babble evaporates; minds consolidate what returns.
+Told-by-teacher stories keep their existing path (teller trust);
+these gates govern SELF-IMAGINED stories only. Lived lessons
+untouched.
+CLEANUP: existing imagined-provenance beliefs are re-tested against
+the gates; failures collapse honestly (held, marked, never deleted —
+the raw law stands). The LEARNED feed shows the collapse wave so he
+watches the noise die.
+Suite: babble pairs must fail gate 2; an unfelt story must fail gate
+1; a story must fail until it recurs; a genuine felt, coherent,
+recurring story must still teach at 0.3. Report and reopen for his
+eye.
