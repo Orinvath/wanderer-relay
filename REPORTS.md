@@ -27428,3 +27428,94 @@ question is answered from the real ledger and then *also* demanded the rendering
 it went red exactly when the censor did its job and refused a line. Fixed to ask only what it
 claims to ask. **Green five runs running.** A clause that flaps gets silenced for being flaky, and
 then it is guarding nothing.
+
+---
+
+## Report — Directive 243: LONNIE'S CATCH
+
+**The mind's record no longer holds a word of my English. Suite 403 green. One part is NOT done
+and it needs a ruling — bottom of this report.**
+
+### What he caught
+
+He read the chat log and said the thing no suite had: *"the mind does not know many of those words
+but is saying them and using them in a sentence."* He was right, and it went deeper than the log.
+
+Every moment was stored as an **English sentence I wrote** — *"time has passed: 30 days went by
+while it was not here. someone here says: SONG"* — and of that whole line the mind owned **one
+word**. Everything downstream then quoted it back: the memory kept it, **the embedding was made of
+it**, recall matched moments by how similar *my sentences* were to each other, and speech.js read
+it out as *"I was thinking: ..."*. Its memory quoted its programmer.
+
+### 243.1 / 243.2 — done
+
+A moment is now **marks and nothing else**. What the sentence frames carried is kept as facts,
+because they were facts all along:
+
+| the English that was stored | what it actually was |
+|---|---|
+| "time has passed: 30 days went by" | `awayMs`, a number — how long is arithmetic |
+| "someone here says: X" | `spokenTo`, `who`, and the marks it resolved |
+| "something it cannot read" | `read: 0` — **the absence is the fact**, and an absence needs no words to be true |
+| "it wants to be X, and its Y is low" | the act and the need, which the record already held |
+
+English somebody actually said is kept in the `heard` column — **sound that reached it**, learning
+data, never quoted back as a thought it had.
+
+**A moment is never wordless**, which the English was hiding: a line it reads no word of is
+genuinely markless, and an empty moment broke the embedder outright. The floor is what is true of
+it anyway — what it is doing and what it is short of.
+
+### 243.4 — done, and proven on a real store
+
+Every old prose moment is re-read into its marks **mechanically**, by the same reader the mind uses
+on a memory. Raw is never deleted: the prose moves to `heard`. Rows whose marks cannot be recovered
+**keep their text and are counted** — blanking a memory to pass a check would be destroying a life.
+
+Measured, not asserted: `'time has passed: 30 days... someone here says: SONG'` → **TIME DAY SONG**,
+original kept verbatim. 3 remade, 0 unrecoverable.
+
+*Flagged:* recovered marks are only as good as what my prose happened to contain — *"something it
+cannot read"* yields CANNOT, an artefact of my wording. Nothing is lost; the raw is on the row.
+
+### Six suite checks were reading my English back
+
+They pinned **source strings** — the exact ternary, the exact join, the literal *"something it
+cannot read"*. So they sat green over a moment built entirely out of my words, confirming only that
+nobody had edited the line. One then caught **its own comment** explaining the removal — the same
+self-catching grep that bit me at 242. All rewritten to hold the property.
+
+### 243.3 — HALF DONE, and the other half is a decision
+
+The **record** half is done: the facts are on the happening for the display to word, and nothing
+English is written into a stored moment.
+
+**The spoken line is not.** `speech.js` still composes the English and it is stored in `exchange`,
+which **being.js carries into every saved life** — so his English still persists into the mind's
+saved record by that route.
+
+And the reason I have stopped rather than pushed on: **the voice templates are not frames around
+marks. They are English end to end.**
+
+```
+greet:  "You're here."  /  "Oh — you came."  /  "There you are."
+part:   "Alright. Goodbye."
+share:  "I was thinking: {memory}"
+```
+
+Only `share`, `ask`, `echo` and `answer` have a mark-shaped content slot at all. The rest have **no
+marks in them whatsoever** — they are wholly my words for an act.
+
+Moving them to the display is mechanical (the record would hold `act` + `variant` + the structured
+values; the page composes). **But that is a change to the mind's voice**, which is protected, and
+how much of the voice becomes structure is a design question, not a relocation. **A related
+finding falls out of it:** the litmus counts what it said as its *productive vocabulary* — and with
+English frames in those lines, **it has been counting my words as the mind's own**. That is the
+same bug in the growth measurement.
+
+**So: does the voice move to the display, and does the litmus stop counting the frames?** Both are
+his and the Director's, not mine.
+
+**LIFE: 403 checks, all green** — including one that reads every word of every stored moment and
+fails if a single one is not a mark the mind holds. If it ever goes red, the record is quoting me
+again.
