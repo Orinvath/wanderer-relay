@@ -27813,3 +27813,93 @@ the audit:
 I also listed the draws that were **already the being's own** — association by nearness, story
 beats by what presses, the next word by what it watched — so nobody "fixes" one of those into a
 flat pick later.
+
+---
+
+## Report — Directive 248: THE LEVERS PANEL AND TEST RUNS
+
+**Built. LIFE: 435 green. On his screen now — the `Levers` button beside `Log`.**
+
+### 248.1 — twelve levers, values always visible
+
+All twelve, rendered from the server's own list so a lever added in `levers.js` appears on the page
+without the page being edited, and the value shown beside a control is **read back from the server
+after every change** rather than assumed.
+
+**Every default is today's behaviour** — every switch off, the ratio at his stated 50, maturation at
+1. So switching a lever on is always the change and off is always now. Nothing changed shape merely
+because a panel exists.
+
+**A value a lever cannot take is REFUSED, not clamped.** A run whose settings are not what its row
+says they were is a run that proves nothing.
+
+**What each one actually does, where it is not obvious:**
+
+- **1 ratio** — decided by a running count of *delivered* lines, not a coin, so at 50 every other
+  line is a story rather than "about half over a long enough run". A one-hour run has to be
+  readable. A line the censor dropped taught nothing, so counting it would let a run drift from the
+  share he set with nothing on the panel changing.
+- **4 new-words cap** — stated to the model **and enforced after**. 234.5's rule applied to a lever:
+  telling a model a cap is a convenience, the sieve is the guarantee, and it ignores the
+  instruction.
+- **11 echo response** — 220.2 has the mind say a strange word back and **the host's next move is
+  the outcome that feeds the link**, so on a bench where nobody replies, echoing teaches it nothing
+  however willing it is. The answer is the **ordinary naming line**, not a special one: the teacher
+  may only say what is true, so it cannot answer *"zebra?"* with a claim about zebras. What the
+  lever changes is that a standing echo counts as **news**, so it speaks instead of holding silent.
+- **12 interpreter feed** — gated at the **grounding**, not the translation. Off, his line still
+  crosses so the mind can answer it; what stops is the crossing being written down as a labelled
+  example. A mind taught by the school and a mind also taught by the chat are not the same
+  experiment.
+
+### 248.2 — the test button, and why the run gets its own mind
+
+**His speed dial is not touched, and that is the reason.** The bench runs at real time and only he
+changes that. A run needs 2000×, so it is a **separate being, separate store, separate clock**,
+living beside his. Pressing the button changes nothing about the mind he is watching — not its
+speed, not its ledger, not one tick.
+
+Levers are **frozen by copy** at press and the copy is frozen, so moving one mid-run reaches the
+panel and never the run. The **label is required**. The seed is **fixed at TEST-1 and is not a
+setting** — that is what makes the table readable.
+
+**The "two identical runs land within noise" clause costs two real hours** — it is a thing to run,
+not a thing a suite can assert. What the suite proves is the property it rests on: two TEST-1 minds
+open with the same ten, the same ledger and the same capacities, **with a negative case beside it**,
+because a check that two identical things are identical proves nothing unless different things
+differ. **The pair of runs is his to press when he wants it.**
+
+### Levers 7 and 8 — and the honest reason banks exist
+
+A run is an hour at 2000× — about **two thousand hours of a life**. The teacher speaks once per
+second *of the mind's* life and every line is a model call taking most of a second of **real** time.
+So at speed the being lives a week between lines and **the run measures how slow the model is
+rather than how well the school taught.** A bank is the same lines made earlier.
+
+**Nothing is relaxed.** A banked line met the same censor when the bank was built and is **checked
+again when spoken** — a line true when the bank was built is not necessarily true of this mind in
+this moment, and the truth rule is about the moment. A bank with nothing true to say falls through
+to the model rather than going silent.
+
+**The sieve asks the mind's own comprehension.** I first wrote my own matcher; it refused *"The bird
+sang a song at night"* because SANG is not spelled SING — a sieve measuring **my** spelling rules
+rather than what the mind can read. It calls `resolve()`, the same function that runs when somebody
+actually speaks to it.
+
+**NOTHING IS DOWNLOADED.** Lever 8 reads lines from `server/banks/source.txt`, a file **he**
+provides. He has a bandwidth cap, and what text a mind is raised on is his decision twice over —
+once as a cost and once as an authorship choice. The route says so instead of fetching.
+
+### Declared per 246
+
+Four numbers I picked are in `MIND_DECISIONS.md` §4, with the measurement behind the one that
+matters: **the literature allowance.** At 0 the sieve admitted *nothing real*; at 1, three of four
+ordinary children's-book lines get in and nonsense is still refused.
+
+### Flagged for him
+
+- **Placement.** The directive names the twelve and not where they live. I reused the window his
+  `Log` button already opens rather than inventing a layout. **His to move.**
+- **One check of mine would have been a real loss:** it asserted nothing writes the bench speed —
+  and `/speed` **is his dial**. It now holds what matters, that nothing on the *test-run path*
+  touches his bench.
