@@ -27573,3 +27573,93 @@ it is the completion of 243.3, built from Lonnie's ruling given in the terminal.
 issued its own **Directive 244 (THE GROWING MIND)** at the same time and that is the real 244. My
 commits carry the wrong number; the work is 243.5 and the history is left as it is rather than
 rewritten.
+
+---
+
+## Report — Directive 244: THE GROWING MIND
+
+**Built, LIFE 418 green, and a newborn is on his screen now.** Address is `127.0.0.1:8797` and it
+no longer moves between launches.
+
+### 244.1 — the frozen constants found, and all of them demoted
+
+Every one was the same on the first tick of a life as on the ten-thousandth, so a newborn could
+already hold seven thoughts on one subject and run a nine-word line — it simply had nothing to put
+in them.
+
+| was frozen at | is now | born at |
+|---|---|---|
+| `TRAIN.LENGTH_ANCHOR` 7 | attention | **2** |
+| `learning MAX_LINKS` 4 | word holds | **1** |
+| `STORY.BEATS` 4 | story | **2** |
+| `grammar MAX_WORDS` 9 | line | **2** |
+| pattern depth (pairs only) | gramDepth | **2** |
+| `TRAIN.NEAR_ANCHOR` 0.35 | reach | **0.55** (a bar — narrow) |
+
+None of the adult figures were invented. They are the old constants, demoted from *what every mind
+is* to *what a middling mind grows into*.
+
+### The centrepiece — grammar unlocks with age
+
+`word_pairs` was depth two and always was. `word_runs` is every depth above it, as a context and
+what followed, so triples and anything longer share one table.
+
+**At depth two the assembler is exactly what it always was.** At three and above it asks what
+follows the *run* it has just said — and *SONG after COLD NIGHT is not the same claim as SONG after
+NIGHT*. It falls back to pairs whenever the deeper context is empty, so a young corpus never leaves
+it mute.
+
+**And it only records as deep as it can extract.** That is the science rather than an optimisation:
+a newborn pulled **no** run deeper than a pair out of the very line an elder pulled triples from.
+Newport and Elman both say the small window *is* the mechanism — a learner that can take in the
+whole string has no reason to break it into parts.
+
+### 244.2 — two drivers, and nothing else
+
+**AGE** in loaded life-hours — the same figure the ledger is charged in, so **234's suspension law
+needs no special case at all**: it ages off the hours a tick produced, and an unloaded mind runs no
+ticks. **USE**, per capacity: exercising its attention grows its attention and does nothing for how
+deep a pattern it can hold.
+
+Both rates and ceilings from the ten, per 071. Measured at the same age:
+
+```
+quick mind (30h):  attention 10, line 13
+slow  mind (30h):  attention  3, line  3
+```
+
+They climb at different speeds **toward different ceilings**, and nothing here picks which a being
+is.
+
+### 244.3 / 244.4
+
+Birth values are small and REFERENCES.md carries the warning that **the small value is the design**,
+because a two-word thought is exactly what a later hand reaches to "fix". Newport 1990 and Elman
+1993 added per 227, in the same change.
+
+The capacities are on the bench beside the gauge — each with where it started, where it is, and
+what **this** being climbs toward, since the ceiling is its own.
+
+### Three things the build caught that I had wrong
+
+1. **`reach` was inverted.** It is a *bar*, not a size — a lower bar ranges further. I had the
+   comment right and the numbers backwards, so the newborn started **widest** and narrowed with
+   age. That is the `rateFor` duration-trap for the sixth time; the data now says `down: true` out
+   loud.
+2. **The being-file guard refused `word_runs`** as a table that had fallen out of a life with
+   nothing saying so. Following that up found the **age and use counters were not carried either** —
+   a saved mind would have woken keeping every word it ever learned and losing the capacity to hold
+   them, which is a worse loss than forgetting.
+3. **A claim of mine was false.** I asserted the growth curve never reaches 1; far enough out the
+   exponential underflows and it reaches exactly 1. The check said so instead of me.
+
+### FLAGGED — his, not mine
+
+- **`HALFWAY_HOURS: 40` is my pick.** A quick mind is ~99% grown at 100 loaded hours, so it is
+  adult in about four days of watching. All values are provisional per the directive and this is
+  the one most worth his eye.
+- **244 changed a behaviour 236 relied on.** 236 held that some being concludes **no** story at
+  all, because span varied while a story was a fixed four beats. Span and story length now grow
+  from the same age, so they climb together and a span that never fits is **rare where it used to
+  be ordinary**. I have not patched it back; the check records the change in its own text. Whether
+  those two should grow in lockstep is a ceiling question and it is his.
