@@ -27141,3 +27141,71 @@ His verdict on the result: **"now that is organized and readable"** and **"I can
 which was 238's actual test, since the directive's complaint was that the tools did not make sense
 visually.
 
+
+---
+
+## 239, 240, 241 — **the caps are off, the leftovers are closed, and the gauge measures.**
+
+**LIFE: 377 checks, all green.** Reopened on his screen.
+
+### 239 — the three caps
+
+**THE RATE CAP** was one line per REAL second, which was right at real time and wrong the moment he
+turned the dial: the mind lived an hour a minute and the school still spoke sixty times. It is one
+line per second **of its life** now, read off the bench speed, so at 60× it may speak every tick and
+the only bound left is what the local model can produce.
+
+**STORY WORDS ARE OWNED.** The 0.72 bar was right for a word learned by co-occurrence and wrong for
+one grounded to a scene: a story says what a word is about **in the same breath**, so the word is had
+at once, at what that telling is worth — and held to 0.72 it would sit provisional forever, since
+nothing about being told a thing again makes it truer (234.8). There are two grounding paths now and
+they are genuinely different evidence: `heard` links a word to what was **true of the mind**;
+`grounded` links it to the marks in the **same line**. Schema 14 records which, permanently.
+
+> **THE GAUGE HAS MOVED OFF 0/50 FOR THE FIRST TIME.** It read zero on every run before this.
+
+**THE TEMPLATE CEILING.** 220.3 has been counting which word follows which since it landed, off what
+was actually typed to it. **That count is a grammar**, and it now builds sentences: 24 told lines gave
+57 watched pairs and it said *"A WARM SONGS BRING FRIENDS"*. Every step is a transition somebody
+actually said in front of it — no smoothing, no backoff, and where the count runs out the sentence
+ends. Templates remain **as the floor**, below forty pairs across twelve words. **Still no model.**
+
+### 240 — both leftovers closed
+
+**Reroll rerolls** — three presses, three distinct souls, each **reproducible from a recorded seed**
+that travels in the being file. Generate stays deterministic from its ten. **The radar drags**: care
+moved 0.87 → 0.95 in the browser with the other four untouched, the draft only, and a locked soul has
+no handles and refuses the change at the door.
+
+### 241 — THE LITMUS, and what it cost me to get honest
+
+The old 0-100 score **could not be wrong**, because it was not a claim about anything outside itself.
+It is gone. In its place: Baddeley's spot-the-word, scored **hits minus false alarms**, so it cannot
+be passed by saying yes; productive vocabulary beside receptive because they differ in people; and
+the reading as a **language age**, which anyone can check against a real child.
+
+> **MY OWN CHECK CAUGHT THE ONE WAY THE TEST COULD BE DODGED.** The fake generator asked the MIND's
+> resolver whether each candidate was a word — so a mind that claimed **everything** was shown no
+> fakes at all and scored a clean sheet by being maximally credulous. That is the exact failure the
+> test exists to catch, and the test was arranged not to catch it. Fakes are judged against a
+> neutral word list now: **whether the mind claims an item is the question being put to it, and it
+> cannot also decide which items it is asked.**
+
+**Watched live:** newborn scores 0 and reads infant; after six told lines, 8 known, **0 false
+alarms**, 1.2 years.
+
+### THE CITATION, AND WHERE IT STOPS
+
+The adult anchor is **Brysbaert et al. 2016** — about 42,000 lemmas by twenty. **The child anchors
+are NOT from that paper.** They are the ordinary developmental range in the literature, they vary
+widely between studies, and both the file and REFERENCES.md say so rather than citing one paper for
+all of it. The scale is marked PROVISIONAL per 071: a way of reading growth on a bench, not a
+clinical instrument.
+
+### FLAGGED — not fixed, because fixing it would break a law
+
+Grounding teaches it **"A" and "THE"** alongside SINGS and SHARES. `learning.js` knows nothing about
+English it was not told and a word is a word to it; the constancy machinery guards *marks* that way
+but not words. **A stop-word filter would be my English poured into its learning**, which is what 220
+refuses. His call or yours.
+

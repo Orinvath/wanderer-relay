@@ -111,6 +111,19 @@ in the same change**. A citation without its row fails review. This is in `CLAUD
 | **Saffran, J. R., Aslin, R. N. & Newport, E. L. (1996).** "Statistical learning by 8-month-old infants." *Science* 274(5294):1926-1928. | **Transitional probability** — segmenting by counting which thing follows which, with no grammar given. |
 | **Efraimidis, P. S. & Spirakis, P. G. (2006).** "Weighted random sampling with a reservoir." *Inf. Process. Lett.* 97(5):181-185. | The weighted draw without replacement used for a soul's dispositions. |
 
+## MEASURING WHAT IT KNOWS — the litmus (241)
+
+| work | what we take |
+|---|---|
+| **Brysbaert, M., Stevens, M., Mandera, P. & Keuleers, E. (2016).** "How many words do we know? Practical estimates of vocabulary size dependent on word definition, the degree of language input and the participant's age." *Frontiers in Psychology* 7:1116. (PMC4965448) | **Vocabulary size as a real, measurable quantity** — and the ADULT anchor of the language-age scale: about 42,000 lemmas by age twenty. |
+| **Baddeley, A., Emslie, H. & Nimmo-Smith, I. (1993).** *The Spot-the-Word Test.* Thames Valley Test Company. | **The method** — real words shuffled with pronounceable non-words, scored **hits minus false alarms**, so the test cannot be passed by claiming everything. |
+
+**[OURS, AND FLAGGED]** — the CHILD end of the age scale in `litmus.js` is **not** from Brysbaert.
+Those anchors are the ordinary developmental range in the literature (Fenson's CDI norms and the
+vocabulary-growth work following it), they **vary widely between studies**, and they are marked
+PROVISIONAL per 071 in the file itself. It is a scale for reading growth on a bench, not a clinical
+instrument, and the code says so rather than citing one paper for all of it.
+
 ## THE SPATIAL THREAD — how this mind is designed
 
 | work | what we take |
