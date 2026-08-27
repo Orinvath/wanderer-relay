@@ -5463,3 +5463,5 @@ delta; funnel numbers must sum; two runs' records must be diffable.
 Report.
 
 ## Directive 247 addendum — WITHDRAWN. Lonnie is not done designing it. Do not execute.
+
+## Directives 247 and addendum — ALL WITHDRAWN. Not approved. Lonnie is designing; nothing here executes until he says push.
