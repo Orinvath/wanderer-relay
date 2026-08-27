@@ -5340,3 +5340,33 @@ its programmer. That is unlawful under the whole design.
 Suite: no English prose reachable anywhere in stored moments, inner
 speech, dreams, or stories; a migrated memory replays identically in
 marks; the display still reads plainly to Lonnie. Report.
+
+## Directive 244 — THE GROWING MIND: capacities start small and mature
+
+Lonnie's ruling: the mind is stuck adult-sized and ignorant — real
+minds GROW capacity. The science (cite, rows to REFERENCES.md per
+227): Newport's less-is-more; Elman's starting-small (staged capacity
+is WHY children master grammar — full-capacity learners drown).
+
+1. WHAT GROWS (each currently a frozen adult constant — find them
+   all, report the list found): attention span (train length) ·
+   candidate-hold (how many word-candidates live at once) ·
+   association reach (how far a drift step may travel) · story
+   length it can follow/replay · pattern depth (pairs -> triples ->
+   longer n-grams: GRAMMAR UNLOCKS WITH AGE) · anything else found
+   frozen that a child plainly grows.
+2. TWO DRIVERS: AGE (loaded life-hours — the speed slider ages it;
+   paused-when-unloaded law 234 holds) and USE (what it exercises
+   grows faster than what idles). Rates and ceilings derived from
+   the ten per 071 — a quick mind and a slow mind are both lawful.
+   All values provisional, tuned by his eye.
+3. BIRTH VALUES ARE SMALL: two-word thoughts are a lawful newborn
+   state. The staged path is the design, not a defect — record
+   Elman's finding in the file so nobody "fixes" it later.
+4. THE BENCH SHOWS GROWTH: the capacities visible where the gauge
+   lives — he watches the mind literally grow alongside what it
+   learns.
+Suite: a newborn measurably smaller than a schooled elder on every
+grown capacity; use accelerates its own capacity; the slider ages;
+two Roes grow at different lawful rates. Report and reopen for his
+eye.
