@@ -28137,3 +28137,34 @@ down.** It is worth reading off the first real run before trusting a row.
 ### State
 
 Everything committed and pushed. Nothing left running: no benches, no Ollama, no polling.
+
+---
+
+## Correction — "four being files on this disk" was MY debris, not his minds
+
+**He read the Rule Zero report and asked: *"I am not aware of any saved minds, what are you
+referring to?"* He was right to. I had made it sound like four of HIS lives were at risk.**
+
+They are **my test artefacts**, every one:
+
+| file | saved | ticks lived | what it is |
+|---|---|---|---|
+| `schooled.being` | Aug 26 17:33 | 12 | mine, testing the school |
+| `moved-check.being` | Aug 27 02:02 | 5 | mine, testing that a moved life restores |
+| `audit-being.being` | Aug 27 06:30 | 33 | mine, from the control audit |
+| `the-watch.being` | Aug 27 07:31 | 489 | mine, an autosave off a test bench |
+
+Twelve ticks, five ticks, thirty-three, four hundred. **He has never deliberately saved a mind.**
+Nothing of his was at risk, and I should have looked at what the files were before writing a
+sentence that implied otherwise.
+
+**THE FAULT ITSELF IS UNCHANGED AND STILL REAL.** The migration genuinely only ran when a store was
+walked up the ladder, a life restored from a file genuinely never met it, and any pre-243 being
+loaded — his or mine — would genuinely have put my English back inside a mind as its own memory. It
+is fixed, and proven on a real pre-243 row. **What was wrong was the alarm, not the finding.**
+
+**The wider point, which is his and not mine to settle:** the save/load machinery has been built,
+tested and rule-zeroed across 234, 244, 249 and this audit, and **he has never once used it.** Every
+being file on this disk is something I made to test with. Whether saving a mind is a thing he
+actually wants — and if so, when a life is worth keeping — has never been asked. It should not keep
+being assumed by the code.
