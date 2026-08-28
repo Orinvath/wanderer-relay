@@ -28181,3 +28181,33 @@ evidence that nobody wants it.
 
 **Standing law answers first (114), and it answered this one.** The question should never have
 reached him. **The correction about the four files stands; the paragraph after it does not.**
+
+---
+
+## STATUS — what is fixed, and what is NOT YET VERIFIED
+
+**Twelve faults found today, twelve fixed. But "fixed" and "verified" are not the same thing, and
+today has been one long lesson in that difference — so the difference is stated rather than
+glossed.**
+
+**Verified by the full suite (453 green):** faults 1–8 — the interpreter's dead outbound guard, the
+school built with no levers, levers not reaching a running school, a test run never taught, a blank
+results row, targeted teaching aiming at grammar, the flooded poll, the missing table sort.
+
+**NOT verified by the suite:** faults 9–12, from the whole-emulator audit —
+- the carried-or-declared law for the mind's fields (and the `litmusRuns` / `sleepRate` /
+  `interpFeed` losses it found)
+- a failing tick recording itself
+- the prose migration reaching a life loaded from a file
+- the new clauses written for all of the above
+
+**Why:** Ollama is down at his instruction so he can play, and the suite stops at its environment
+check rather than pretending — which is correct behaviour and exactly why it is written that way.
+
+**What HAS been done on those four:** every file parses; the field guard was run standalone and
+reports no orphans across 63 fields; the prose migration was proven end to end on a real pre-243
+row; the failing-tick recording was read back out of both files.
+
+**That is individual verification, not a green suite.** Every one of today's twelve faults passed
+individual scrutiny at the time it was written. **Nothing here should be counted done until the
+whole suite runs end to end with the model up**, and that is his to call, after his break.
