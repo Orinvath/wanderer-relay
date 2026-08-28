@@ -28302,3 +28302,47 @@ From `MIND_DECISIONS.md`, unchanged and waiting on him:
 
 **Rewriting the 112 source-reading clauses as behaviour is the highest-value work left**, and today
 made the case three separate times. It is not started, because it is large and it is his call.
+
+---
+
+## URGENT — what a one-hour run actually is, which nobody told him until he asked
+
+**He asked why there is a sleep-frequency lever on "an hour test", and the answer exposed something
+that should have been said before 248 was built, not after he pressed the button.**
+
+**One real hour at 2000× is 2000 hours of the mind's life — about 83 days.**
+
+That much was implicit in his own figures. **This was not:**
+
+```
+TEST-1, through one run
+     0h    0% grown     attention 2   line 2   pattern 2
+    50h   59% grown     attention 5   line 6   pattern 3
+   100h   84% grown     attention 6   line 8   pattern 4
+   500h  100% grown     attention 7   line 9   pattern 4     <- 15 MINUTES IN
+  2000h  100% grown     attention 7   line 9   pattern 4
+```
+
+**The mind is fully grown fifteen minutes into a one-hour run.** Three quarters of every run
+measures a fully-grown mind, and **the "how fast it grows up" lever can only act in the first
+quarter** — past that it is dialling a thing that has already finished.
+
+### Why this matters before he runs anything
+
+- **244's whole staged-capacity design — Newport, Elman, starting small — is over in the first
+  fifteen minutes of any run he does.** The rest is an adult.
+- **The growth lever is nearly inert at this speed.** Two runs at ×0.5 and ×4 differ only in how
+  early they saturate, not in where they end up.
+- **`HALFWAY_HOURS: 40` is mine** (declared PROVISIONAL in `MIND_DECISIONS.md` §4). At 2000× it is
+  the number that makes the run mostly-adult. It is the single most consequential figure in 248 and
+  it was picked by me.
+
+### This is a reporting failure, not just a tuning one
+
+I implemented `SPEED: 2000` and `REAL_MS: one hour` from his directive and **never once stated what
+they meant in the mind's own time.** He found out by asking why a lever existed. The numbers above
+took one command to produce and would have changed how the test regime was designed.
+
+**Three things follow, all his:** whether a run should be shorter, whether the speed should be
+lower so growth spans the run, or whether `HALFWAY_HOURS` should be far larger so a mind is still
+growing at the end. **I am not choosing any of them.**
