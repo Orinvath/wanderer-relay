@@ -28036,3 +28036,27 @@ being tidied away.
 - The **"two identical runs land within noise"** clause still costs two real hours and is his to
   press. What is proved is the property it rests on.
 - The **`OPEN` rows in `MIND_DECISIONS.md`** are unchanged and remain the standing agenda.
+
+**Addendum — he asked whether the LEVERS work itself had been rule-zeroed. It had not.** I had
+fixed what I tripped over. Stressing 248 on its own terms found **three more**, bringing the day's
+total to eight. LIFE now **453 green**.
+
+**6. Targeted teaching was aiming the school at grammar.** Word-learning links any word it hears,
+so the aim-list came back full of **THE, IS, TO, IT, WERE**. A run with lever 2 on would have spent
+itself teaching a mind function words — the exact opposite of what the lever is for.
+
+Chasing that turned up **three hand-written copies of the same English function-word list**
+(`interpreter.js`, `banks.js`, and the one lever 2 needed). Three lists that must agree, with
+nothing making them agree, is a bug waiting on whoever edits one. It now lives in
+`comprehension.js` — the module about reading English — and is **named as authored** rather than
+passed off as derived: `censor.js` derives the mind's own logic marks from the language itself, and
+no derivation of ours produces *"the"*.
+
+**7. The aim-list flooded the poll** — ninety-odd rows on a state poll that runs every second.
+
+**8. The results table did not sort.** 248.3 says *"sortable by end age"*. **I had not built it at
+all and reported the directive done.** Sorting is the point of the table: two rows are only worth
+having if the better one can be put at the top. Click a heading; click again to reverse.
+
+**The pattern across all eight:** every one sat in a **join** — bench to teacher, run to school,
+panel to running school, module to module — and every suite clause I had written tested a **part**.
