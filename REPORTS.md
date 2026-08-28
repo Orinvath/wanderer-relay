@@ -28060,3 +28060,80 @@ having if the better one can be put at the top. Click a heading; click again to 
 
 **The pattern across all eight:** every one sat in a **join** — bench to teacher, run to school,
 panel to running school, module to module — and every suite clause I had written tested a **part**.
+
+---
+
+## Report — RULE ZERO OVER THE WHOLE EMULATOR (run while he was away)
+
+**Four more faults, bringing the day to twelve.** Ollama stayed **down** at his instruction, so this
+was a reading audit — and the full suite cannot be run until he is back, which the suite says
+honestly rather than pretending.
+
+### 9 — the mind's own fields had no carried-or-declared law, and that is the hole the others fell through
+
+234.1 made every **table** either carried or named as not-a-life, and enforces it. **The mind's own
+fields had nothing.** Both known losses fell straight through that hole — `livedHours` (244) and
+`storiesTold` (249) — and each was found by accident rather than by a guard.
+
+Auditing all **63 fields** against a new declaration found **a third nobody had noticed**:
+
+- **`litmusRuns`** — every measurement its language has ever been given, the climb he watches on the
+  gauge. Dropped on save. **A loaded mind woke reading "never run" over a life measured forty
+  times.**
+- **`sleepRate` and `interpFeed`** — left behind at 248 while `maturation` was carried. A saved being
+  would wake under whatever the bench happened to be set to rather than what it grew under.
+  **Carrying one of three is worse than carrying none.**
+
+`NOT_CARRIED_FIELDS` now declares every transient field *with its reason*, and a check fails on any
+field that is neither carried nor named. **The next one cannot be found by accident.**
+
+*My own guard cried wolf first time* — it reported three carried clocks as orphans because it sliced
+below the function that carries them. A guard that cries wolf gets switched off, which is worse than
+not writing it.
+
+### 10 — a tick that threw was dropped on the floor
+
+`catch (e) {}` with `e` unused. The loop kept running, so the page kept polling **a mind that had
+stopped advancing and looked perfectly alive.** The record already holds one of these — *"the dead
+tick the day it died."* It is still not a life that stops; it is now a life that **says so**.
+
+### 11 — loading an old life put my English straight back into the mind
+
+The worst of the four, and a pure back door. 243 removed English from the record and 243.4 migrated
+what was already there — **and the migration only ran when a store on disk was walked up the
+ladder.** A being file restores into a **fresh** store, already at the current version, so there was
+nothing to migrate and the prose went in untouched.
+
+**Four being files are on this disk right now, all written before 243.** Loading any of them would
+have put *"someone here says: …"* back inside a mind as its own memory. The suite would have stayed
+green: its 243 clause tests a **live** mind and never a loaded one.
+
+One migration, two callers now. Proven on a real pre-243 row: the prose becomes `TIME DAY SONG`
+with the original kept as `heard`.
+
+### 12 — the systemic one, reported not fixed
+
+**112 of 433 suite clauses read source text rather than exercising behaviour.** A quarter of the
+suite confirms that nobody edited a line. **Every one of the twelve faults today lived in a JOIN** —
+bench to teacher, run to school, store to being file, ladder to loader — **and every source-reading
+clause checks a piece.** Rewriting 112 clauses is not something I will start unasked; it is the
+single highest-value thing left in the suite.
+
+### Flagged, not a fault — but it bears on his test runs
+
+**The censor requires the mind's marks verbatim.** Measured:
+
+```
+"LONELINESS is with you."   DELIVERED
+"You are SONG."             DELIVERED
+"lonely is with you."       refused — names nothing true of it
+```
+
+That is correct and deliberately strict. **But it means the school's yield depends entirely on the
+model saying marks verbatim**, and every line that does not is dropped. A run's teaching rate is
+therefore bounded by the model's compliance, and **I could not measure that drop rate with Ollama
+down.** It is worth reading off the first real run before trusting a row.
+
+### State
+
+Everything committed and pushed. Nothing left running: no benches, no Ollama, no polling.
