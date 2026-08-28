@@ -28243,3 +28243,62 @@ off the **loaded** being.
   it work.
 - **Still open:** 112 of 433 clauses read source rather than behaviour. Today made the case for
   fixing them three separate times.
+
+---
+
+# CLOSE OF DAY — where the Emulator actually stands
+
+**Built today:** 242 the interpreter · 243 the record in its own language · 243.5 the voice ·
+244 the growing mind · 245 the flat rolls · 246 the mind-decisions law · 248 the levers and test
+runs · 249 the story gates.
+
+**Suite:** every phase green end to end, LIFE at 457. TESTNET skipped and says so.
+
+## The twelve faults, and the one pattern
+
+| # | fault | found by |
+|---|---|---|
+| 1 | interpreter's outbound guard bailed on every templated line | **him**, noticing a marker had stopped |
+| 2 | school built with no levers and no bank — levers 1–8, 11 dead | Rule Zero |
+| 3 | a lever change never reached a school already teaching | Rule Zero |
+| 4 | **a test run was never taught at all** | Rule Zero |
+| 5 | a results row recorded a blank in the column runs are compared by | running one |
+| 6 | targeted teaching aimed at grammar — "the", "is", "to" | Rule Zero on 248 |
+| 7 | the aim-list flooded a once-a-second poll | Rule Zero on 248 |
+| 8 | the results table did not sort — an unbuilt 248.3 requirement reported done | Rule Zero on 248 |
+| 9 | the mind's own fields had no carried-or-declared law; `litmusRuns` silently lost | whole-emulator audit |
+| 10 | a tick that threw was dropped on the floor | whole-emulator audit |
+| 11 | **loading an old life put CC's English back inside a mind** | whole-emulator audit |
+| 12 | three of the checks written to close the above tested nothing | **him**, asking whether anything was really tested |
+
+**Every one lived in a JOIN** — bench to teacher, run to school, ladder to loader, panel to running
+school. **Not one lived in a part.** 112 of 433 suite clauses read source text, which is a quarter
+of the suite verifying that nobody edited a line.
+
+**Two of the twelve he found himself**, and the second one — *"it doesn't seem like you tested
+anything"* — found faults inside the checks written to close the other eleven.
+
+## What is ready, and what is not
+
+- **Ready for his eye, unseen by him:** the levers panel and test runs (248); the story gates (249);
+  the mind speaking only its own words (243.5/245b); capacities growing (244).
+- **Never run:** the two-identical-runs comparison. Two real hours, and his to press.
+- **Never run:** `/recheck`, the collapse of the 1656 story-born beliefs. **Deliberately left** —
+  collapsing a mind's beliefs is his call, and nothing is deleted either way.
+
+## Standing agenda — the OPEN rows
+
+From `MIND_DECISIONS.md`, unchanged and waiting on him:
+
+- **Nothing lets the mind influence how it comes across at all.** He raised it; no mechanism exists.
+- **What counts as "its own words"** for each reply — decided by CC in a switch statement.
+- **The wordless floor** — what it "thinks" when a moment leaves it with nothing.
+- **What its migrated memories now say** — decided by a regular expression.
+- **It ages on wall-clock hours** — it grew 6.7 hours older overnight while the machine slept,
+  having lived 22 moments. **It got older without living.**
+- **`HALFWAY_HOURS`** — a quick mind is grown in about four days of watching. My number.
+
+## The one recommendation
+
+**Rewriting the 112 source-reading clauses as behaviour is the highest-value work left**, and today
+made the case three separate times. It is not started, because it is large and it is his call.
