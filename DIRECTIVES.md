@@ -5618,3 +5618,37 @@ For every directive from now on: CC first posts a build report — how
 it plans to do the work, what it will touch, what could go wrong —
 and WAITS. Nothing is built or changed until the plan is approved.
 This is the default procedure, no exceptions, any size of change.
+
+## RULE ZERO AMENDED (Lonnie's law, joins CLAUDE.md): a design is not
+passed until it REMOVES EVERY SCENARIO WHERE CC MUST MAKE A DECISION.
+Picking apart and solving is not complete while any threshold, order,
+placement, wording, or judgement remains for the builder. A plan with
+a decision left in it is a failed plan.
+
+## Directive 254 — 253's plan APPROVED with rulings and five Rule Zero fixes
+
+The four questions, ruled:
+1. Boundaries approved as drawn in your plan §2.
+2. wanderer.js OUT OF SCOPE — the mind only; migration step 7 is
+   struck.
+3. Vitals: build the FIVE ABSOLUTE now; the four needing thresholds
+   WAIT for watching data (252's diagnosis included). No thresholds
+   are chosen by anyone yet.
+4. VITALS PLACEMENT (Lonnie): each system's health light lives IN
+   THAT SYSTEM'S OWN HEADER on the bench — no separate strip.
+
+Five Rule Zero fixes, binding on the build:
+A. THE GUARD IS A STATE-HASH, not litmus alone: after each moved
+   step, hash the ENTIRE mind after N ticks on the fixed seed;
+   litmus rides along. Any drift reverts that commit.
+B. CONTRACTS DECLARE READS AS WELL AS WRITES — an unread declared
+   input is a fault (the school-never-read-levers class), checked in
+   the harness.
+C. VITALS ARE ARITHMETIC ONLY — never a model call; anything heavy
+   samples every Nth tick (N stated in the file, provisional).
+D. EVERY VITAL IS BORN WITH ITS FORCED-FAIL PROOF: break the claim
+   deliberately, watch red, then trust it. A vital without its
+   forced-fail is not a vital.
+E. THE PAGE SPLIT REOPENS FOR HIS EYE when done — parse-and-draw is
+   not "displays right"; his screen is the test (118).
+Proceed in your stated order with these bound in. Report per step.
