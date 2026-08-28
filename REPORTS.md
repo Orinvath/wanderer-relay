@@ -28506,3 +28506,148 @@ touch these files are green too (42 and 17). Three commits, pushed: `91214a3`, `
   quarters of every run measures a mind that has finished growing — which matters more now than
   it did, since the thing you said you are testing is *what speeds up age growth*.
 
+
+---
+
+## BUILD PLAN — Directive 253: one system, one file, each checks itself
+
+**Nothing built. Nothing changed.** This is the plan for review, per 253 and the new standing law.
+
+### 0. First — the one thing I could not find
+
+253 says *"every system from the verified flow map"*. **There is no document by that name** in the
+relay or in the repository. I searched both. The nearest thing is the flow diagram in the 048
+report, which is the trait/mood chain and not a map of systems.
+
+So: **either point me at it, or the boundaries below are mine — which makes them an architecture
+decision I am not allowed to make.** Everything after this section is written as *evidence about
+what the code actually contains*, not as a boundary I have chosen. Where I say "system", read
+"candidate, for you to confirm or redraw".
+
+### 1. What actually bundles several systems — measured, not guessed
+
+| file | lines | what is in it |
+|---|---:|---|
+| `demo-watching.js` | **3026** | the whole bench screen, **36 routes**, and the launcher — three unrelated things |
+| `watching.js` | **2074** | the mind. **`tick()` alone is ~1080 lines** and contains eight systems in sequence |
+| `wanderer.js` | 1200 | genesis, custody, interaction, recovery, verification, gifts, consent |
+| `store.js` | 1036 | the schema, the migration ladder, and every table's accessors |
+
+Everything else is already close to one-system-one-file. **These four are the work.**
+
+Inside `tick()`, in the order it runs them: waking and sleeping · dreaming · the clock moving its
+needs · attention and appraisal · thinking and story-telling · the 249 story gates · lessons and
+their provenance · life testing what it believes · speech · the body. Each of those has its own
+ruled record and its own numbers. That is the file the twelve faults came out of.
+
+### 2. The split I propose
+
+**`demo-watching.js` (3026) → four files.** Highest value and safest, because none of it is the mind:
+
+- `bench-page.js` — the screen (markup, style, the browser script)
+- `bench-routes.js` — the 36 routes
+- `bench-test.js` — the test-run and lever routes (248/251)
+- `bench-start.js` — the launcher
+
+**`watching.js` (2074) → the mind, plus one file per system it steps through.** The class stays and
+becomes the ORDER OF OPERATIONS and nothing else — it holds the mind's state and calls each system
+in the sequence it runs today. Candidates, one file each: `rest.js` (sleeping, dreaming),
+`attending.js`, `storytelling.js`, `believing.js` (lessons, provenance, life testing),
+`speaking.js`, `body.js`. `thinking.js`, `storygates.js`, `sleep.js`, `appraisal.js`, `learning.js`
+already exist and stay where they are — these new files are the *steps that call them*, which today
+live inside `tick()`.
+
+**`store.js` (1036) → `schema.js` (the version and the ladder) + `store.js` (the accessors).**
+
+**`wanderer.js` (1200)** is the visitor service, not the mind. **I would leave it until last**, or
+out of scope entirely — your call.
+
+### 3. The joins, as contracts
+
+Every system step gets the same shape, because the thing they all share is the mind and the tick:
+
+```
+  run(mind, tick) -> { changed, happening, why }
+```
+
+- **`mind`** — the one object. A step reads and writes only the fields its contract names.
+- **`happening`** — what it did this tick, which is already how the record works.
+- **the contract itself** — a named list of fields the step may read and may write, checked.
+
+**The check that makes it real:** a step that writes a field its contract does not name **fails**.
+That is the twelve-faults lesson as a rule instead of a lesson — the school-with-no-levers fault
+was exactly a hand-off nobody was checking.
+
+### 4. The vitals — and half of them need no number from you
+
+Each system file exports its own `vital()`, measured on the live mind. **The claims come from the
+ruled record**, not from me. They fall into two kinds:
+
+**Absolute — red the moment it is not zero. No threshold to choose:**
+
+| system | the claim, as ruled | the number |
+|---|---|---|
+| interpreter (242/243) | nothing enters the record that is not in the mind's language | records holding English: **must be 0** |
+| speech (245) | the Mind says its own marks and nothing else | words spoken that do not trace to the record: **must be 0** |
+| being files (234.1 / RZ9) | every field is carried or declared not-its-life | fields neither carried nor declared: **must be 0** |
+| appraisal (203) | every moment passes the safety gate | moments that bypassed it: **must be 0** |
+| lessons (013 SS16.9) | a belief is never deleted, only collapsed and marked | beliefs deleted: **must be 0** |
+
+**Needs a number from you — I will not choose these:**
+
+| system | the claim | what would have to be ruled |
+|---|---|---|
+| story gates (249) | only a real story teaches | how few lessons from thought is *wrong* rather than *correct strictness* — **this is 252's open question** |
+| growing (244) | capacities start small and mature | how far behind its age a capacity may sit |
+| learning | words are owned at or above the trust bar | how slow is too slow |
+| sleep | it sleeps on a cadence | how far off cadence is amber |
+
+Green/amber/red thresholds are exactly what 250 calls an open decision, so the second table comes
+back to you. **The first table can be built without you, and it is worth having on its own.**
+
+### 5. Migration order — safest first, suite green at every step
+
+1. the standing law into `CLAUDE.md` (one paragraph)
+2. `demo-watching.js` → four files — **no mind code moves**, so the litmus cannot shift
+3. the vitals frame + the five absolute vitals
+4. `store.js` → schema + accessors
+5. the VITALS strip on the bench — **placement is yours, I will not choose it**
+6. `watching.js` → the mind and its steps, **one step per commit**, litmus checked after each
+7. `wanderer.js`, or not at all
+
+### 6. Risks — the first one is the one that matters
+
+**1. THE SEEDED ORDER. This is the real risk and it is not obvious.** 253 requires the litmus to be
+identical on the same seed. The mind's draws come off a seeded stream, so **if a split changes the
+ORDER in which systems ask for a number, every draw after that point changes** and the litmus
+differs — with nothing looking broken. Moving code is safe; *reordering* it is not, and a split is
+where reordering happens by accident. Mitigation: the class keeps the exact call order, one step
+moved per commit, litmus on the same seed compared after each. If it shifts, that commit reverts.
+
+**2. 119 places in the suite read source text.** They match on strings that a split moves or
+renames. They will go red — and worse, some will go *green while testing nothing*, which is the
+exact failure that cost us last night. Every one that breaks has to be rewritten to exercise
+behaviour instead, which is real work and is also the single biggest quality win available.
+
+**3. `watching.js` imports 47 modules.** Systems pulled out of `tick()` need the mind back, and
+that is how circular imports start. The `run(mind, tick)` contract exists to prevent it: a step
+never imports the mind, it is handed one.
+
+**4. `tick()` writes about forty fields on the mind.** Any step that quietly writes a field outside
+its contract is a fault that hides until something far away misbehaves. The contract check is what
+catches it, and it must be built with the first step, not after.
+
+**5. The page is one template literal.** Backticks inside it have broken this build five separate
+times. Splitting it is the safest *mind* change and the most fiddly *text* change; every piece gets
+parsed and its `draw()` run before the commit, which the suite already does.
+
+### 7. What I need ruled before I build anything
+
+1. **The verified flow map** — where is it, or are the boundaries in §2 approved as drawn?
+2. **Is `wanderer.js` in scope**, or is 253 about the mind only?
+3. **The amber/red numbers** in the second vitals table — or the ruling that they stay absolute-only
+   for now and the rest wait.
+4. **Where the VITALS strip lives on the bench.**
+
+**Nothing is built until this comes back approved.**
+
