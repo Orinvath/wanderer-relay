@@ -28346,3 +28346,78 @@ took one command to produce and would have changed how the test regime was desig
 **Three things follow, all his:** whether a run should be shorter, whether the speed should be
 lower so growth spans the run, or whether `HALFWAY_HOURS` should be far larger so a mind is still
 growing at the end. **I am not choosing any of them.**
+
+---
+
+## Report — 250 IS LAW, and its first use STOPS 249's addendum
+
+**250 is in.** It sits at the top of `CLAUDE.md`, above every other standing law, both
+directions: the Director checks a directive line-by-line for open decisions before it pushes,
+and CC scans a directive for decisions BEFORE any work and stops if it finds any. It is filed
+next to 188 (*CC only codes, it never decides*), because that is what it enforces — 188 catches
+me deciding after the code is written; 250 catches it before.
+
+Committed alone: `98c33d6`.
+
+### The scan, run for the first time, on the three directives I had not seen
+
+**Directive 250 — no open decisions.** It is a law about process, fully specified. Executed.
+
+**Directive 251 (STOP TEST + run progress) — no open decisions.** Everything it asks for is
+either already built or determined by your earlier rulings. Proceeding. Detail at the end.
+
+**Directive 249 addendum — ONE OPEN DECISION. STOPPED, nothing touched, waiting.**
+
+### The open decision
+
+> *"1. FELT = the story moved any feeling by at least the existing appraisal feeling-change
+> delta (the event the mind already counts; no new number)."*
+
+**That number does not exist.** I searched the whole emulator for it before writing this, and
+there is nothing anywhere that counts "a feeling changed by this much" as an event. What the
+appraisal actually holds is two numbers, and neither one is a change:
+
+| what it is | number | what it actually measures |
+|---|---|---|
+| `THRESHOLD` | 0.67 | **relevance.** Whether a moment gets in the door and is experienced at all. Not a feeling, and not a change. |
+| `URGENT_AT` | 0.75 | how strong a thing has to be to interrupt. A level, not a movement. |
+
+The mind records the strongest feeling at each beat (`feltTrail`) and the gate reads the
+distance between the highest and the lowest — so the **movement** is real and measured. What is
+missing is the bar it must clear. Right now that bar is `FELT_AT: 0.05`, and I want to be plain
+about where that came from: **I chose it under 249 and it is mine, not measured.** It is one of
+the decisions 246 exists to surface, and this addendum was the ruling that should have taken it
+off me.
+
+So the ruling as written cannot be carried out — there is no existing number to point it at.
+**Your call, and I am not going to guess at it.** Under 250 I stop here.
+
+### The other two rulings in the addendum — held, but here is where they stand
+
+I am not building these until the whole addendum is ruled, but you should know the state:
+
+> *"2. LATER OCCASION = a different train with at least one sleep between."*
+
+**Buildable.** The mind already counts its sleeps (`nights`, carried in the being file), and
+trains already exist. What the story ledger records today is only the tick it was told at, so
+each telling would start recording which train it was and how many sleeps had passed. No number
+to choose.
+
+> *"3. SAME STORY = same subject AND beat-overlap above one half."*
+
+**Already what it does**, with one character of difference: the code accepts overlap *at* one
+half, your ruling says *above* it. That is a one-word fix, not a question.
+
+### 251, since it is clear — what is already there and what is missing
+
+**Already built:** the stop button and its route; a stopped run still writes its row; the row
+shows age, done, running, left and ticks while it runs, in the row, the way you ruled.
+
+**Missing, and being built now:** the row says *stopped* and your word is **ABORTED**; a run cut
+short takes no litmus reading, so it records no language age at the moment it was stopped — that
+is the "partial data still teaches" half, and it is the real gap; the button can be pressed
+twice; and neither of those has a check standing behind it.
+
+One wording note rather than a decision: you called it "a STOP TEST button". The button in the
+test panel currently says **Stop**. I am using your words on the label unless you say otherwise.
+
