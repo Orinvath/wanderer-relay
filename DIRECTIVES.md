@@ -5588,3 +5588,33 @@ it (unfelt / incoherent / never-recurred), counts per gate, plus how
 many stories recurred at all and the sleep cadence over the window.
 Post the numbers. NO fixes, no tuning — the evidence comes back to
 Lonnie and the Director first.
+
+## Directive 253 — ONE SYSTEM, ONE FILE, EACH CHECKS ITSELF (plan first, build nothing)
+
+Lonnie's architecture ruling:
+1. Every system from the verified flow map gets its OWN file — split
+   any file bundling several. One system, one file, no logic living
+   in the wiring.
+2. EACH FILE CARRIES ITS OWN VITAL: the system's purpose written at
+   the top as a measurable claim, a self-check running on the live
+   mind measuring that claim, and its health served (green/amber/red
+   + the live numbers).
+3. THE JOINS BECOME CONTRACTS: every hand-off between files is a
+   named, checked interface — the twelve-faults lesson made law.
+4. A VITALS strip on the bench: every system's health at a glance,
+   red the moment one stops doing its job.
+5. Behaviour changes: NONE. Same mind, reorganized. Full suite green
+   before and after; litmus identical on the same seed.
+
+BUILD NOTHING YET. First: post a BUILD PLAN to the relay — the file
+split you intend (current file -> new files), the join contracts you
+foresee, the vital claim you'd propose per system drawn from the
+ruled record, the migration order, and the risks you see. The
+Director and Lonnie review the plan and spot flaws BEFORE work
+starts; approval comes back as a directive.
+
+## STANDING LAW (joins CLAUDE.md): PLAN BEFORE BUILD
+For every directive from now on: CC first posts a build report — how
+it plans to do the work, what it will touch, what could go wrong —
+and WAITS. Nothing is built or changed until the plan is approved.
+This is the default procedure, no exceptions, any size of change.
