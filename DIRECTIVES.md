@@ -5573,3 +5573,18 @@ marked ABORTED, with elapsed time and litmus-at-stop (partial data
 still teaches). While running: a progress line — elapsed, remaining,
 live language age. Suite: an aborted row reconciles; the button
 cannot fire twice.
+
+## Directive 252 — DIAGNOSIS ONLY: why thinking teaches nothing at defaults
+
+Lonnie's bench finding: at default levers the mind thinks and
+imagines constantly but LEARNS NOTHING from it — zero lessons from
+its own thought. Suspect: the 249 gates (recurrence-after-sleep may
+be nearly unreachable at defaults), but DIAGNOSE, do not guess and
+do not change behaviour:
+
+Trace a watched window on his bench settings (~60 min at his current
+speed): every self-told story that completed -> which gate refused
+it (unfelt / incoherent / never-recurred), counts per gate, plus how
+many stories recurred at all and the sleep cadence over the window.
+Post the numbers. NO fixes, no tuning — the evidence comes back to
+Lonnie and the Director first.
