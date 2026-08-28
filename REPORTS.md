@@ -28168,3 +28168,16 @@ tested and rule-zeroed across 234, 244, 249 and this audit, and **he has never o
 being file on this disk is something I made to test with. Whether saving a mind is a thing he
 actually wants — and if so, when a life is worth keeping — has never been asked. It should not keep
 being assumed by the code.
+
+**Striking the "wider point" immediately above — it was not a question, and 114 says so.**
+
+His answer: *"You think we would be building it if we didn't want to save them? The mind emulator
+is not built fully yet so there is no reason to save a mind in an unfinished state."*
+
+He is right and it was obtuse. **You build the ability to keep a thing before there is a thing worth
+keeping**, and you do not save a mind that is still half-built. That the machinery is unused is
+evidence it was built EARLY, which is what the directives commissioning it plainly say — not
+evidence that nobody wants it.
+
+**Standing law answers first (114), and it answered this one.** The question should never have
+reached him. **The correction about the four files stands; the paragraph after it does not.**
