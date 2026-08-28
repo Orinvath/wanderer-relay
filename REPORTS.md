@@ -28211,3 +28211,35 @@ row; the failing-tick recording was read back out of both files.
 **That is individual verification, not a green suite.** Every one of today's twelve faults passed
 individual scrutiny at the time it was written. **Nothing here should be counted done until the
 whole suite runs end to end with the model up**, and that is his to call, after his break.
+
+---
+
+## Report — VERIFIED. And he was right to doubt it.
+
+**FULL SUITE: every phase passed end to end.** TESTNET skipped and says so — it proved nothing and
+does not claim to. **LIFE: 457 green.** That is the first clean whole-suite run of the session, and
+it clears all twelve of the day's faults.
+
+### But he asked *"are you sure, because it doesn't seem like you tested anything?"* — and looking properly found three faults in the checks themselves
+
+1. **Two of the new guards were reading my own source.** The field-carrying guard and the
+   tick-failure guard regex-matched `being.js` and `demo-watching.js`. **That is the exact fault I
+   had named hours earlier** as the reason twelve faults walked past the suite — repeated inside the
+   checks written to close it.
+2. **One was about to be vacuous.** My first rewrite handed a **promise** to `ok()`, and a promise
+   is truthy: it would have passed however the tick behaved. The empty-`every()` bug in a new hat.
+3. **And the honest version then failed where the source-reading one had passed.** It demanded
+   `livedHours` come back exactly as planted — but the mind keeps living between the plant and the
+   tick boundary the save lands on. **It is supposed to move.** The check was wrong and the build
+   was right, and the version it replaced could never have told me either way.
+
+They now plant distinctive values on a **living** mind, save to a **real** file, and read them back
+off the **loaded** being.
+
+### Standing, honestly
+
+- **Verified:** all twelve faults, by a green whole-suite run with the model up.
+- **Not verified by anybody yet:** any of it under **his** eye. 118 — a thing works when he has seen
+  it work.
+- **Still open:** 112 of 433 clauses read source rather than behaviour. Today made the case for
+  fixing them three separate times.
