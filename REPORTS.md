@@ -29389,3 +29389,62 @@ a lookup, not a drawing. `/health` exists and 4 of 23 systems already answer on 
 
 **Nothing is being built on 261 until decisions 1 and 2 are closed. 259's remaining work continues
 in the meantime, since it is already approved and is 261's prerequisite.**
+
+---
+
+# Report — 261 rulings received; 259 build-through, 8 of 23 wired. TWO THINGS FOUND THAT ARE YOURS TO RULE.
+
+Both rulings taken as given: nearest mark wins, the failing node pins itself, host-model joins
+system 2 and ECHO belongs to Voice. Building through.
+
+## Wired so far (8 of 23)
+
+safety · appraisal · needs · offers · **curiosity** · **interests** · **memory** · **sleep**.
+Each counts at its own code path, each reads through `/health`, and every wired one has now been
+watched going red on a live mind and coming back green. The suite runs **472 passed, 0 failed**;
+the state hash is unmoved except where a new field was added, and that difference was proven to be
+the field and nothing else.
+
+## FOUND 1 — curiosity can never become what it thinks about
+
+`chooseSubject` gives curiosity the heaviest weight of any source and the code says CURIOSITY
+LEADS. It reads `curiosity.about` to know WHICH words it is curious about. **Nothing anywhere
+produces `curiosity.about`** — the appraisal returns novelty, graspability, level and roused, and
+no `about` — so that list is always empty, the curiosity branch never adds a candidate, and **not
+one train of thought has ever been chosen out of curiosity.** The same empty list means the mind's
+own self-description never says what it is curious about either.
+
+**Why I did not fix it:** deciding WHICH words a rousing is *about* is deciding what the mind
+wonders about. That is yours. The counter `roused_not_becoming_subject` is placed and will show it
+the moment you rule.
+
+## FOUND 2 — consolidation never runs in a life
+
+`consolidate()` is called by the acceptance suite and by one measurement script. **Nothing in a
+living mind calls it.** So a being sleeps, dreams, wakes — and nothing is ever distilled from the
+day, the warm tier never grows, and no lesson is ever born out of replay. The literature this
+file stands on is the whole licence for sleep meaning anything.
+
+**Why I did not fix it:** wiring it means choosing WHEN it runs — on going under, or on waking —
+and that is a change to what the mind does. Yours. Both of system 8's counters are placed and both
+read zero, and **zero here means "it never happened", not "it happened correctly"** — which is
+written into the file so nobody reads that light as good news.
+
+## Two smaller things, done and recorded
+
+- **The health list could hide a violation.** Twenty-three systems shared one list capped at 4000
+  newest events, so a chatty system silently pushed another system's real violations off the
+  front — a green light because the evidence was gone. Now trimmed by the 1000-tick window, and no
+  system may hold more than its own share.
+- **The vitals suite had been crashing since 259 step 1** and I had not run it. It still imported
+  four vital functions that the 259 rewrite deleted, so it threw on its first line and every
+  clause after it in that file never ran. Rebuilt for the counter shape. The lesson is the one you
+  keep having to repeat: a parse is not a run.
+
+## A decision I made FOR the mind, declared per 246
+
+`violations` is **not carried across a save** — a mind does not wake up already marked sick by a
+bug that has since been fixed. It is a fact about the code on this run, not about the being, which
+is 256's rule. Added to the declared not-carried list with that reason.
+
+Continuing through the remaining 15.
