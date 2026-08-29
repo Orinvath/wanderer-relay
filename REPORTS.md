@@ -29315,3 +29315,77 @@ only. The route is up at `/health`. **The 23 slot into what exists; nothing gets
 Steps 1, 2, 3, 4 and 6 are complete and green, with the state hash unmoved through every move.
 **Step 5 is the only open one, and this is what it is waiting on.**
 
+
+---
+
+# Report — Directive 261 read. The plan, and the two rulings it needs.
+
+**Read:** 261 and `reference/mind-map-mock.html`. The mock runs; I have read every line of it.
+**Standing law:** PLAN BEFORE BUILD, and a plan with a decision left in it is a FAILED PLAN. So this
+is the plan and the two open decisions, and nothing is built until they are closed.
+
+## Where this sits
+
+261 says it is *"built on 259's extracted edge list"*. **That edge list does not exist yet** — it is
+the last open item of 259, alongside the counters for 19 of the 23 systems, the forced-fail hooks,
+and `/health` returning the new shape. 261 cannot honour §3 (*"every movement fires from a real
+emitted event"*) until the tick's true order has been extracted and each hand-off actually emits.
+So the order below is forced by the directives, not chosen by me.
+
+## The plan
+
+1. **Finish 259.** Counters for the remaining 19 systems, each bumped at its exact code path; the
+   forced-fail proof for every one (254.D — broken deliberately, watched red, then trusted);
+   `/health` serving state · counters · claim for all 23.
+2. **Extract the edge list.** The true tick sequence as an ordered list of hand-offs, each cited to
+   its code line, strictly sequential, including the feelings→next-tick loop. Posted as a report
+   before anything is drawn. **This is the spine of the map; if it is wrong the map is a lie.**
+3. **The trace.** Each hand-off in the extracted list emits a real event as it happens. The mind
+   already emits *feeling*, *tendency*, *arousal* and *valence* onto the cord (181) — that feeds
+   the core in §4 with no new plumbing. The step events are new and are the only new emission.
+4. **The map.** The mock's scene, built for real: its 34 nodes at its coordinates, its
+   neighborhoods, its camera, its core glow layers and beat shape, its dashed feelings→choosing
+   loop. Sigils become **his 402 marks, cropped from the ten sheets by the boxes already measured
+   in `glyphs/glyphs.json`** — no mark is ever drawn by me. The pulse walks the extracted edge
+   list, one hand-off at a time, idle dark. Red pins from 259's vitals. Legend per §6. Frame-batched
+   reads, capped draw rate, no per-event DOM, no model calls (§7).
+5. **It replaces the sphere's stage slot on the bench** (§10); the sphere and its channels retire.
+6. **His eye** on the live bench beside the real mind (§8). It passes only on his word.
+
+## OPEN DECISION 1 — which mark is which system's mark
+
+261 §1 names *"THINK, SLEEP, MEMORY"* as examples of systems where a true word exists. I read all
+402: **SLEEP is there. THINK is not. MEMORY is not.** Of the mock's 34 node names, only these have
+an exact word in the 402:
+
+> TIME · SLEEP · DREAM · SAFETY · HOST · CURIOSITY · STORY (STORIES) · LEARNING · BODY
+
+The other 25 have no exact word. Several have a word that is *close* — MIND for THINKING, SPEAK for
+VOICE, SPIRIT for SOUL, FOCUS for ATTENTION, PROVE for EVIDENCE, KEEP for COMMIT, PAST or ARCHIVE
+for RECALL, MEANING for COMPREHEND, LIFE for BEING, TEACH for LESSONS, SELF or NAME for IDENTITY,
+TRUST for TELLERS, GROWTH for GROWING, RECORD for the record.
+
+**Choosing a near word is choosing what that system IS, and that is not mine.** I need, from you,
+either *"use that word"* per system, or *"placeholder — I will draw it"*. Anything you do not rule
+gets a name-in-stroke-style placeholder and no mark, per §1.
+
+## OPEN DECISION 2 — where the red pins land
+
+259 gives **23 systems**. The mock draws **34 nodes**. Most line up by name. These do not, and a
+red pin has to know which node it belongs over:
+
+> FEELINGS · ATTENTION · APPRAISAL are all system 2. WORDS and LEARNING are both system 13.
+> RECALL · MEMORY · COMMIT are system 7; SLEEP GATE · SLEEP · DREAM are system 8. EVIDENCE and
+> LESSONS are both system 11. **ECHO and HOST match no system in your 23 at all.**
+
+Two ways: a system in violation pins **every** node that belongs to it, or each system pins **one
+named** node. And ECHO and HOST need to be told what they are.
+
+## What is already true and needs no work
+
+The cord already carries the 22 feelings with intensities and arousal/valence continuously — §4's
+core has its data today. The 402 marks are indexed with measured boxes, so cropping a real mark is
+a lookup, not a drawing. `/health` exists and 4 of 23 systems already answer on the live mind.
+
+**Nothing is being built on 261 until decisions 1 and 2 are closed. 259's remaining work continues
+in the meantime, since it is already approved and is 261's prerequisite.**
