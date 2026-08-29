@@ -5672,3 +5672,14 @@ when unloaded).
    logs, results rows).
 4. Then the 253 build resumes at step 2 as approved.
 Report with the four-hash proof.
+
+## Directive 255 rulings — the five stamps, one word each (Lonnie approved)
+
+1. exchange/conversation: MIND'S RECORD (its life, per 243).
+2. LEARNED feed rows: MIND'S RECORD (learning events are life events).
+3. litmus run stamps: OUTSIDE (our measurement of it).
+4. endedAt on a life file: OUTSIDE (a fact about the file).
+5. being-file save/restore/tombstone stamps: OUTSIDE (same).
+The litmus-comparability note is moot — no real tests have been run
+yet; the baseline begins after this ships. Build; report with the
+4-of-4 hash proof.
