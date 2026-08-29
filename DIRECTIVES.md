@@ -5950,3 +5950,21 @@ becomes possible, and 226.2's "memory first, always" can finally
 run. Prove it: a bench run must produce eligible multi-mark memories
 and at least one REMEMBERED train; report the kind-histogram before
 and after; full suite and state-hash per commit.
+
+## Directive 266 — DIAGNOSIS ONLY: why do the three replays stray?
+
+Now that replays actually run (265), the thinking light's red is a
+TRUE signal about remembering. Diagnose, change nothing:
+
+For each of the 3 straying replays: the subject, every beat in lived
+order with its source memory, each beat's distance to the subject,
+and the random mark it was compared against. Then answer plainly:
+- is the replay FAITHFUL (the memories in their real order, nothing
+  added or skipped — 226.2/236)?
+- are those memories genuinely about the subject, or is surfacing
+  handing the train episodes that merely CONTAIN the subject mark
+  among three others?
+- does the nearness test measure the right thing for a replay at all
+  — i.e. is a lived episode's distance from its subject evidence of
+  wandering, or evidence that life put unlike things together?
+Report the cause with the lines. No fix, no behaviour change.
