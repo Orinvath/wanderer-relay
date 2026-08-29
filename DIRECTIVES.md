@@ -5652,3 +5652,23 @@ D. EVERY VITAL IS BORN WITH ITS FORCED-FAIL PROOF: break the claim
 E. THE PAGE SPLIT REOPENS FOR HIS EYE when done — parse-and-draw is
    not "displays right"; his screen is the test (118).
 Proceed in your stated order with these bound in. Report per step.
+
+## Directive 255 — The mind lives on ITS OWN clock, everywhere (ruled; ships before the refactor resumes)
+
+Lonnie ruled. The wall clock in the mind's record is the same disease
+as aging-overnight-without-living: unlawful under his time rulings
+(069 as amended by 234 — the being's time is its LIFE clock, paused
+when unloaded).
+
+1. MEMORIES ARE STAMPED WITH THE BEING'S OWN TIME. Every `new Date()`
+   in the mind's record path (memory.js:49 and the other nine wall
+   reads found) is replaced by the mind's clock. Recency, surfacing,
+   decay — all rank on lived time.
+2. This is a LAWFULNESS FIX shipped as its own change, not smuggled
+   into 253: its own commit, full suite, and the state-hash proof —
+   FOUR RUNS OF THE SAME SEED MUST PRODUCE ONE MIND (4 of 4
+   identical), which is the acceptance test.
+3. Wall time remains lawful ONLY outside the mind (bench display,
+   logs, results rows).
+4. Then the 253 build resumes at step 2 as approved.
+Report with the four-hash proof.
