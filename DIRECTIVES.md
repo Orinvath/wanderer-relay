@@ -5714,3 +5714,36 @@ vital that is a status lamp without a measured claim behind it fails
 review. Restate this in each vital's header comment.
 
 ## Directive 258 — WITHDRAWN. Lonnie is adding more. Do not act on it yet.
+
+## Directive 258 — THE SYSTEM LIST, passed by Lonnie: step 5 unblocked
+
+The named systems and their files (the document CC lacked; the
+grouping decided by Lonnie and the Director, not the builder):
+1 Safety Gate: safety · 2 Appraisal & Feelings: appraisal, occ (the
+attention door and the 22 live here; finish splitting attention into
+its own file under appraisal's system) · 3 Needs: needs · 4
+Curiosity: curiosity · 5 Interests: interests · 6 Offers & Choosing:
+offers, goals · 7 Memory: memory, surfacing · 8 Sleep &
+Consolidation: sleep, consolidation · 9 Thinking: thinking · 10
+Stories: stories, storygates · 11 Lessons & Evidence: lessons,
+evidence · 12 Teller Trust: tellers · 13 Word Learning: learning,
+vocabulary · 14 Language Space: space, glyphs, dictionary · 15
+Comprehension: comprehension · 16 Voice: speech, grammar, censor ·
+17 Soul: persona · 18 Identity & Life Story: identity · 19 The Ten &
+Roe: traits, roe · 20 Growing Mind: growing · 21 Being & Time: being
+· 22 Body Bridge: embodiment, cord, nerves · 23 Interpreter:
+interpreter.
+- Each system gets its vital() per the built pattern; claims from
+  the ruled record; absolute claims ship now, threshold ones named
+  and waiting per 254.3.
+- Remaining bundles split so every function stands alone (attention
+  out of appraisal; grammar/censor beside speech as their own files
+  within the Voice system).
+- THE VITALS PANEL: a diagram panel laid out AS THE FLOW — the
+  approved flow map's order (gates -> language in -> meaning ->
+  thought -> choosing -> out; always-running layers beneath), each
+  system drawn with its health check in its header, data-flow lines
+  between them. Health checks, not lamps (his correction): each
+  shows its measured claim and live numbers; forced-fail at birth
+  stands (254.D).
+Build through (257). Report per step.
