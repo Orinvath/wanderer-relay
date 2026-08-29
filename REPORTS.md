@@ -28725,3 +28725,93 @@ something.
 Step 2 (the page split, four files, no mind code moved) is fully specified and safe. Steps 3–6
 follow as approved.
 
+
+---
+
+## BUILD PLAN — Directive 255: the mind lives on its own clock
+
+**Nothing built.** Posted first, per PLAN BEFORE BUILD.
+
+### What "the mind's clock" means here, and it is your ruling not my choice
+
+255 clause 1 says *"Recency, surfacing, decay — all rank on **lived time**"*. So a memory is
+stamped with the being's **life clock** (`lifeAt` — the one 069/234 says pauses when it is
+unloaded), not with a swappable wall clock. That is the whole difference between this and the seam
+I already put in: the seam made the mind's clock *injectable*; this makes its record *lived*.
+
+No schema change — `lifeAt` is milliseconds and renders to the same ISO string the columns already
+hold.
+
+### Every wall-clock read in the mind, classified
+
+**Eleven modules share one identical line** — `const now = () => new Date().toISOString()` — and
+all eleven write the mind's record. These are the directive's target:
+
+| module | what it stamps |
+|---|---|
+| `memory.js:49` | every memory — **this is the one that caused the divergence** |
+| `lessons.js:48` | every belief |
+| `surfacing.js:54` | every surfacing |
+| `learning.js:34` | every word it comes to own |
+| `interests.js:40` | what it comes to care about |
+| `tellers.js:31` | who it has learned to believe |
+| `consolidation.js:41` | what sleep kept |
+| `host-model.js:51` | what it holds about somebody |
+| `appraisal.js:67` | every appraisal |
+| `safety.js:39` | the safety gate's record |
+| `mind.js:56` | the speech path's record |
+
+**Also clearly the mind's record, and included:**
+
+- `watching.js:312` and `:1715` — the being's own genesis stamp
+- `persona.js:372, :422` — the persona's genesis and its chain
+
+**Clearly outside, and left on the wall clock (clause 3):** the bench display, `testruns.js`
+(results rows), `teacher.js` (the school is not the mind), `interpreter.js` (an organ outside the
+mind, by 242), the login/accounts/webauthn/moderation/ledger/attest files, and every
+`Date.now() - t0` **duration** measurement in `appraisal.js` and `interpreter.js` — those measure
+how long the machine took, which is a fact about the machine.
+
+### FIVE THAT SIT ON THE LINE — I am not deciding these, they need one word each
+
+Under the amended Rule Zero these do not get my judgement. My reading is shown, but **your word
+is what ships**:
+
+| # | the stamp | why it is not obvious | my reading |
+|---|---|---|---|
+| 1 | `watching.js:1633` — the **conversation** (`exchange`) | is what was said to it part of its record, or a transcript for the screen? | mind's record |
+| 2 | `watching.js:1769` — the **LEARNED feed** | it is a display feed, but every row is a learning event | mind's record |
+| 3 | `watching.js:1846, :1856` — the **litmus** run | a measurement OF the mind, taken by us | outside |
+| 4 | `watching.js:1538` — `endedAt` on a life | when the file was closed, not when it lived | outside |
+| 5 | `being.js:301, :415, :610` — **being-file** save / restore / tombstone stamps | when the file was written, not when it lived | outside |
+
+### How the clock gets there
+
+Each of the eleven classes takes `now` as a constructor option, defaulting to the wall-clock line
+it already uses — so nothing outside a mind changes. `openBrain()` hands every one of them the
+being's life clock. Same seam already proven on `Watching` and on `TestRun`, nothing new invented.
+
+### The proof, which is the acceptance test
+
+Four fixture runs on the fixed seed, whole-mind state hash. **4 of 4 identical**, or it has not
+shipped. Plus the full suite green. Both go in the report.
+
+### Risks
+
+1. **The litmus will move, and that is expected.** Recency changes, so what rises changes, so what
+   the mind knows after N ticks changes. 253 requires the litmus to hold across the *refactor* —
+   this is a lawfulness fix shipped before it, exactly so the refactor's baseline is taken after.
+   **The old litmus numbers stop being comparable at this commit**, and that is worth saying out
+   loud rather than discovering later.
+2. **Nothing mixes stored stamps with wall time** — I checked every subtraction in the codebase;
+   the only ones are duration measurements. So there is no place where a lived stamp would be
+   compared against a machine stamp.
+3. **The suite reads source text in 119 places.** Some pin these exact lines and will need
+   rewriting.
+4. A module whose class I miss keeps writing wall time and the hash stays unstable — which the
+   4-of-4 test catches immediately, so this risk is self-detecting.
+
+### Waiting on
+
+**The five line-calls above.** Everything else is ready to build the moment they come back.
+
