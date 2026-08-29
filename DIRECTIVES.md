@@ -5747,3 +5747,77 @@ interpreter.
   shows its measured claim and live numbers; forced-fail at birth
   stands (254.D).
 Build through (257). Report per step.
+
+## Directive 259 — THE 23 VITALS: claims, counters, mechanics (panel design PENDING — build NO display)
+
+Answers CC's step-5 question. The visual panel is still being designed
+with Lonnie — DO NOT build any display. Build the vitals themselves:
+
+GLOBAL RULES (every vital):
+- Each owning module keeps VIOLATION COUNTERS incremented at the exact
+  code path named below. vital() = pure read of its own counters.
+  Arithmetic only, no model calls, no scans.
+- WINDOW: counters roll over the last 1000 ticks (all ticks if fewer).
+- STATES: GREEN = zero violations in window · RED = any violation,
+  with count + last offender · GREY = under 50 ticks of data, or
+  dormant (T systems). No amber.
+- FORCED-FAIL AT BIRTH: every module ships a hook that force-
+  increments one violation; birth proof shows red, then resets (254.D).
+- Served at /health: state · counters · claim text per system.
+
+THE 23 — claim / counters / red condition:
+1 Safety Gate (A): every moment passes it first; threat suppresses
+  idle goals. Counters: moments_bypassing_gate,
+  idle_goals_on_threat_ticks. RED > 0.
+2 Appraisal & Feelings (A): attended_without_variables,
+  feelings_without_variables. RED > 0.
+3 Needs (A): values_out_of_range, moves_without_event_or_decay,
+  relatedness_raised_alone. RED > 0.
+4 Curiosity (T, grey-dormant): counters built now (rouses_below_bar,
+  roused_not_becoming_subject); judged after Lonnie rules its bar.
+5 Interests (T, grey-dormant): strengthened_without_payoff,
+  ignored_not_fading; judged after his rates.
+6 Offers & Choosing (A): chosen_without_winner, chosen_all_zero.
+  RED > 0.
+7 Memory (A): experienced_not_written, raw_deletions,
+  wall_clock_stamps. RED > 0.
+8 Sleep & Consolidation (A): consolidations_awake,
+  lessons_untraced_to_day. RED > 0.
+9 Thinking (A): trains_without_subject; per completed train,
+  subject_not_nearer (mean distance to subject vs to a seeded random
+  mark). RED > 0.
+10 Stories (A): replays_resumed_midway, invented_elements_unlived,
+  refusals_without_named_gate. RED > 0.
+11 Lessons & Evidence (A): evidence_from_unlived_ticks,
+  confidence_above_provenance_cap. RED > 0.
+12 Teller Trust (A): trust_moves_without_verdict,
+  trust_at_or_below_floor. RED > 0.
+13 Word Learning (A): owned_without_clear_exposure,
+  words_from_nowhere. RED > 0.
+14 Language Space (A): vectors_from_external_source,
+  rebuild_hash_mismatch. RED > 0.
+15 Comprehension (A): resolutions_to_unowned_marks. RED > 0.
+16 Voice (A): untraceable_words_emitted (each emitted line re-traced
+  once, arithmetic). RED > 0.
+17 Soul (A): genesis_hash_mismatch, draws_ignoring_depths. RED > 0.
+18 Identity & Life Story (A): entries_unconfirmed_by_life,
+  centrality_assigned_not_computed. RED > 0.
+19 The Ten & Roe (A): writes_after_birth. RED > 0.
+20 Growing Mind (A): capacity_shrinks, growth_without_age_or_use.
+  RED > 0.
+21 Being & Time (A): wall_stamps_in_record, decay_accrued_unloaded,
+  load_state_mismatch. RED > 0.
+22 Body Bridge (A): signals_outside_the_five, receptor_errors.
+  RED > 0.
+23 Interpreter (A): inbound_to_nonexistent_marks,
+  outbound_untraceable_passed, litmus_calls_through_interpreter.
+  RED > 0.
+
+ALSO EXTRACT (report only, feeds tomorrow's panel design): the true
+tick sequence as an ordered edge list — every hand-off, cited to its
+code line, strictly sequential as the code runs it, including the
+feelings-to-next-tick loop.
+Attention split per 254: the relevance check before the OCC variables
+becomes attention.js (system 2); the eight variables stay appraisal.
+Build through (257): vitals + forced-fails + /health + the edge-list
+report. NO panel, NO display work. Report per step.
