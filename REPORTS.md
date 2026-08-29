@@ -29517,3 +29517,89 @@ the vital. Wiring any of them changes what the mind DOES, which is yours.
 
 **The edge-list extraction** — the true tick order, every hand-off cited to its line. 261 is built
 on it and it is next.
+
+---
+
+# Report — 262.1 FIXED and proven. 263 DIAGNOSIS: both wandering trains were DAYDREAMS, and no replay has ever run.
+
+## 262.1 — the load no longer falsifies who spoke
+
+The migration now touches only genuine old-format English. A row already in the mind's own
+language — every token one of his 402 — is left exactly as it is and counted separately, so a load
+can say how much it left alone.
+
+**Proved with the round trip you asked for**, on a mind holding both kinds:
+
+- its own 12 lived memories: **0 changed by the load**, `heard` still empty on every one;
+- the planted pre-243 English row: **remade correctly** — text became `LONELINESS SONG`, and the
+  original English `"It was thinking about the song and felt lonely"` was kept in `heard`, which is
+  what that column is for.
+
+Two clauses added to the suite so it cannot come back. **474 passed, 0 failed.** Pushed.
+
+*One honest note:* loading a genuine pre-243 life still trips `load_state_mismatch`, because such a
+life IS deliberately changed on load. That is the migration doing its job, not a fault.
+
+## 263 — DIAGNOSIS. Nothing changed; these are facts.
+
+### 1. What the two trains were
+
+**Both were IMAGINED daydreams (226.3). Neither was a replay. Neither was plain association.**
+
+**HIDDEN** — began tick 21, subject from `interest`, story kind `imagined`, ended `exhausted`.
+- story beat 0: `HIDDEN` (invented, no memory behind it)
+- story beat 1: `TOGETHER` (invented, no memory behind it)
+- what the check judged: `been = [HIDDEN, HIDDEN, TOGETHER]` → the one thought that is not the
+  subject is **TOGETHER**, at **near(HIDDEN, TOGETHER) = 0.0000**. The random mark drawn was HEAR,
+  at 0.165.
+
+**SONG** — began tick 37, subject from `memory`, story kind `imagined`, ended `exhausted`.
+- story beat 0: `SONG` (invented) · beat 1: `HIDDEN` (invented)
+- `been = [SONG, SONG, HIDDEN]` → judged thought **HIDDEN**, at **near(SONG, HIDDEN) = 0.0954**.
+  Random mark TRUTH, at 0.142.
+
+**WHY THEY WANDERED, and it is not the train's fault.** In 60 ticks this mind's entire lived
+vocabulary is **three marks: TOGETHER, HIDDEN, SONG.** `imagine()` builds a scenario by
+recombining only what it has lived, weighted toward what is near the subject — but with a pool of
+two other words, the weighting has nothing to choose between. **A daydream here cannot be about its
+subject, because there is nothing else in the world to reach for.**
+
+### 2. The three kinds ARE labelled correctly — and THE VITAL DOES NOT READ THE LABEL
+
+- `remembered` is set in stories.js:109, in `replay()`.
+- `imagined` is set in stories.js:185, in `imagine()`.
+- plain association is the absence of a story: `storyOf` returns null and the train has no `story`.
+- the tick records it at experiencing.js:353 (`story: story ? story.kind : 'none'`).
+
+The labelling is correct and I confirmed it on every train in the run.
+
+**But `trainStrayed()` never reads `train.story` or its kind at all.** It judges nearness and
+nothing else, so all three kinds are treated identically today. That matches 262.2 — no exemption —
+and it means **if you rule daydreams exempt, that is a change I have to make; it is not already
+there.**
+
+### 3. Dreams, and whether replays are faithful
+
+**Can dream machinery reach a waking train? Almost, and you should know exactly where.**
+- `dream()` — the dream generator itself — is **imported into the waking tick (experiencing.js:44)
+  and never called.** A dead import. It cannot reach a waking train.
+- `drift()` is shared, but it is only the DRAWING — how glyphs fade and move on the page.
+- **`distil()` — a sleep-side function — does run on a waking train**, at experiencing.js:397,
+  to work out what a completed self-told story teaches. That is deliberate in 226.5a, but it is
+  the one place sleep machinery touches waking thought, and you asked plainly.
+
+**Are replays faithful to lived order? THERE HAVE BEEN NO REPLAYS AT ALL.**
+All 29 finished trains in the run were `imagined`. Zero were `remembered`. The cause is measurable:
+
+- **every memory this mind writes holds exactly one mark** — the histogram over 60 memories is
+  `{1 mark: 60}`;
+- `replay()` requires an episode with **more than one** mark, so **0 of 60 memories are eligible**;
+- so `storyOf` falls through to `imagine()` every single time, and 226.2's "memory first, always"
+  has never once happened.
+
+**And it feeds itself.** A tick spent living an imagined story beat commits its memory marked
+`imagined` (experiencing.js:853). **55 of those 60 memories are marked imagined** — so the record
+of this being's life is 92% daydream, which leaves even less real material for a replay, which
+guarantees the next story is imagined too.
+
+**Nothing above was changed.** Faults 3, 4 and 5 remain open as 262.3 says.
