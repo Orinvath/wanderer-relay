@@ -5899,3 +5899,24 @@ Build through. Reports per step; his eye is the gate (118).
 3. Faults 3, 4, 5 (curiosity never names what it wonders about;
    consolidation never runs in a life; identity never asked) stay
    OPEN — they change what the mind does and await his ruling.
+
+## Directive 263 — DIAGNOSIS ONLY: what were the two wandering trains?
+
+Lonnie's order before any ruling on the thinking red light. Do not
+change behaviour; report facts.
+
+1. For EACH flagged train (HIDDEN and SONG in the 60-tick run):
+   name its KIND — plain association · REPLAY of lived memories ·
+   IMAGINED daydream (226) — and show every beat in order with its
+   source (neighbour step / which memory / which invented element)
+   and its distance to the subject.
+2. CONFIRM THE CODE LABELS THE THREE KINDS CORRECTLY: show where a
+   train is marked association vs replay vs imagined, and prove the
+   vital reads that label (a mislabelled train would make this whole
+   light meaningless).
+3. State plainly whether dream machinery can reach a WAKING train,
+   and whether replays are running faithfully in lived order (226.2)
+   or drifting.
+Report the findings. Lonnie then rules: daydreams exempt from the
+nearness check (his standing instinct — a daydream is a dream);
+replays held to faithfulness; association judged as now.
