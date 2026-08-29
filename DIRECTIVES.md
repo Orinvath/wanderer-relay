@@ -5866,3 +5866,20 @@ Built on 259's extracted edge list. The design, ruled by Lonnie:
 10. PLACEMENT: the Mind Map REPLACES the sphere's stage area on the
     bench — same slot, the page's centerpiece. The sphere and its
     channels retire; color and pulse meaning live in the core now.
+
+## Directive 261 rulings — both decisions closed (Lonnie)
+
+1. THE MARKS: geometric reasoning — NEAREST MARK WINS. Every node
+   takes the closest word in the 402 (the kinship space measures
+   nearness; CC's near-word list stands where it matches the space's
+   answer). No placeholders; the LABEL carries the truth, the mark is
+   appearance.
+2. RED PINS: the FAILING NODE ITSELF pins red — the violation
+   identifies itself so the code behind it can be found and fixed.
+   Node-to-counter mapping: each 259 counter belongs to the node
+   whose code path increments it (the extraction names the line, the
+   line names the node).
+3. LIST AMENDMENT (258): host-model.js was missed — it joins system
+   2 (Appraisal & Feelings reads it). The HOST node pins for
+   host-model faults. ECHO belongs to Voice (16).
+Build through. Reports per step; his eye is the gate (118).
