@@ -29660,3 +29660,66 @@ Two places, and they are different decisions:
 
 They are not exclusive, and either one ends the starvation loop. **Both change what the mind
 remembers, so neither is mine.** Nothing was changed.
+
+---
+
+# Report — 265 BOTH FIXES BUILT AND PROVEN. The starvation loop is ended; "memory first, always" now runs.
+
+Two commits, one per fix, full suite and state hash on each. **474 passed, 0 failed.** Pushed.
+
+## The proof you asked for — the same 60-tick bench run, before and after
+
+| | BEFORE | AFTER |
+|---|---|---|
+| trains begun | 30 | 29 |
+| **by story kind** | **28 imagined · 2 none · 0 remembered** | **29 REMEMBERED · 0 imagined** |
+| marks per memory | **1 mark: 60 of 60** | 1 mark: 3 · **3 marks: 31 · 4 marks: 26** |
+| memories stamped imagined | **55 of 60** | **0** |
+| **eligible for replay** | **0** | **57** |
+
+Sample moments before: `HIDDEN` · `TOGETHER` · `SONG`.
+Sample moments after: `TOGETHER HIDDEN SONG LONELINESS` · `ENVY SONG LONELINESS`.
+
+**226.2's "memory first, always" now runs on every train.** It had never run once in any life.
+
+## 265.1 — a moment carries the whole truth
+
+`experiencing.js`. The thought now joins what is actually happening instead of replacing it: the
+moment's marks are the beat/thought marks **plus** the act it is living and the need it is short
+of, duplicates dropped. `spoken` was never reached before, because a one-mark thought made `marks`
+non-empty — so a one-mark thought was displacing a two-mark truth about the being on nearly every
+tick.
+
+## 265.2 — an invented beat is a small scene
+
+`stories.js`. A daydream beat now carries the subject together with the element it is recombining.
+Proved directly, since this run no longer daydreams at all:
+
+```
+imagine('SONG', …)  →  "SONG" [SONG]  ·  "SONG TOGETHER" [SONG,TOGETHER]  ·  "SONG HIDDEN" [SONG,HIDDEN]
+```
+
+The subject's own beat stays one mark, because "the subject, with the subject" is not a scene.
+Nothing new is invented: both marks were already drawn from what the being has lived.
+
+## THE STRIP IS RED, AND IT IS TELLING THE TRUTH
+
+`thinking` reports **3 strays in 60 ticks** — real replays now, whose thoughts sit nearer a random
+mark than their own subject. 262.2 says the check stands with no exemption, so it stands. Everything
+else is green; curiosity and interests stay grey-dormant awaiting your bar.
+
+## Four suite clauses corrected — and one of them had never tested anything
+
+- **Two clauses read the exact source line 265.1 changed.** Updated to hold the property rather
+  than the characters; the property is now stronger than it was.
+- **The 226.3 clause read a beat's text as one word.** Now checks each MARK in the beat — same rule,
+  one level deeper.
+- **The 236 clause was comparing two different beings.** The two test beings' traces are
+  concatenated, and it looked for "the same subject later on" straight across the seam, so one
+  being's story was being judged against another's. It could never fire before, because every story
+  was imagined with a fixed two beats and "later is shorter" was arithmetically impossible — **the
+  clause was vacuous for its whole life.** Each trace row now carries whose it is. Measured: **0
+  violating pairs within a being, 2 across the seam.**
+- **The vitals clause asserted the whole bench reads green.** That would now mean either deleting a
+  true red light or exempting the system that found something. It holds the honest property
+  instead: green means nothing was caught, red means something was, and no light is ever empty.
