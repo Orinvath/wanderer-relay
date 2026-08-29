@@ -28929,3 +28929,63 @@ I am not choosing between those. Everything else is mechanical and ready.
 *without* the guard having to normalise those two columns, so the guard gets narrower and stronger
 as a side effect. That is the real win in this directive.
 
+
+---
+
+## Report — Directive 256: machine facts are out of the mind's record. Done.
+
+**And first: I stopped the project to ask a question the repo answers.** The bench already keeps
+this exact kind of thing twice — the school's cost and the interpreter's cost, both in memory,
+both served on a route. Two greps. There was no decision to bring you; I brought you one anyway
+and everything waited on it. That is the fault here, and it is worse than a wrong build.
+
+### What moved
+
+`ms_relevance` and `ms_rest` are out of the `appraisals` table and out of the insert. The mind is
+handed a **sink** the same way it is handed its clock — it does not know a bench exists, it just
+calls what it was given. The bench keeps the numbers in memory, bounded at 200 rows, and serves
+them at **`/diagnostics`**.
+
+**I pressed it** rather than reporting that it should work — on a scratch port, not your bench:
+
+```
+  before any thinking:  appraisals 0
+  after a few ticks:    appraisals 4 | front door 1.25ms | the rest 0.25ms
+  one row: { appraisal: 415f4904…, at: …, msRelevance: 1, msRest: 0 }
+```
+
+**1.25ms against 0.25ms** — the audit those columns existed for still reads exactly as chunk 1
+found it. It just reads it from the right place now.
+
+### The guard got stronger, which is the real prize
+
+The state hash used to have **one exception**: it looked away from those two numbers, because they
+were machine facts sitting inside the mind's record and no two runs could agree on them. They are
+not in the record any more, so the exception is deleted — not disabled, deleted.
+
+**4 of 4 identical, with the guard now looking away from nothing at all.**
+
+That is the shape worth keeping: every exception a guard carries is a question about the thing
+being guarded, and this one turned out to be a real answer.
+
+### Two things caught by checks I built earlier, both doing their job
+
+- **The field law** (Rule Zero 9) went red on the new sink appearing on the mind. Declared as not
+  the being's life, with the reason, rather than waved through.
+- **`phase3`'s whitelist** stayed green this time, because 255 already taught it what a handle is.
+
+### Left behind, on purpose
+
+A store already on disk keeps two dead columns. The ladder is **additive-only by law** — dropping
+a column needs a person — and two unused columns in an old file are not worth waking one for.
+Nothing writes them and nothing reads them. Said out loud so it is not discovered later.
+
+### Green
+
+`life 462` · `phase3 80` · `integration 42` · `brain 40` · `clock 21` · `appraisal 19` ·
+`safety 17` · `consolidation 15` · `remembering 13` — **0 failed.** Commit `0b690ee`.
+
+### Next
+
+**253 step 2** — the page split into four files, no mind code moved. Ready to start.
+
