@@ -28989,3 +28989,65 @@ Nothing writes them and nothing reads them. Said out loud so it is not discovere
 
 **253 step 2** — the page split into four files, no mind code moved. Ready to start.
 
+
+---
+
+## Report — 253 step 2 DONE: the bench is four files. Your eye is the last check.
+
+### What it was and what it is
+
+```
+  demo-watching.js   3,062 lines      bench-page.js     2,415   the screen
+                                      bench-routes.js     482   the 37 routes
+                                      bench-test.js       230   levers, runs, banks
+                                      bench-start.js       20   the launcher
+```
+
+**One visible change in the whole thing: the bench is started with `node src/bench-start.js`.**
+It was `demo-watching.js`, which is now `bench-routes.js`.
+
+### The guard held at every step
+
+`e3a05eb7793b` **before the first move and after the last one** — the same hash, four runs each
+time. The mind did not shift by one field through any of it, which is what step 2 promised: none
+of this is mind code.
+
+### The seam, named (253 §3)
+
+The test panel mounts onto a surface it does not own. **Four things in** — may this request be
+answered, the bench's own mind, how to build a surface, and *the school that is teaching right
+now*. **Two back** — what the levers say, and the one lever that reaches the being.
+
+Both of the outbound ones cross as **functions, not values**, and that is the whole lesson of the
+twelve faults written into a seam: `Levers.set` replaces the levers wholesale, and a school is
+`null` until somebody presses Start. A caller holding either object would be holding what the
+bench *used to be* — which is exactly the fault that made the levers panel dead for a day.
+
+### Two things worth having found
+
+1. **`node --check` does not catch a missing binding.** After moving the page out, the tick loop
+   still needed `TICK_SECONDS` and its import had gone with the page. The file parsed. It would
+   have been a bench that came up and never ticked. **A parse is not a run**, and pressing the
+   routes by hand is what caught it.
+2. **Two suite clauses turned out to span the seam** — the stop BUTTON is in the page, the refusal
+   that backs it is in the route; the sheet FETCH is in the page, the route that answers it is in
+   the surface. Each now asks each file for its own half. Left as they were, they would have gone
+   green on whichever half survived, which is precisely the failure this split exists to prevent.
+
+**42 suite clauses were repointed in total** — the predicted cost, and it is the 119-source-reading
+problem being paid down one clause at a time.
+
+### Green
+
+`life 462` · `integration 42` · `brain 40` · `hostchannel 17` — **0 failed.** Commits `43e1d04`
+and `d8aee54`.
+
+### FIX E — it is open on his screen now
+
+**Port 8794, and his own bench on 8793 was not touched** — it is still running, still teaching,
+with the mind it has been growing. The split build is a second bench beside it, so looking at it
+costs him nothing.
+
+Parse-and-draw is not "displays right". **His eye is the test, and that is the one check I cannot
+run.**
+
