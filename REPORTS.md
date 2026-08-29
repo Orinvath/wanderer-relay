@@ -29132,3 +29132,35 @@ its steps) follows. **Step 5 has a question in it and I will post that separatel
 each system's light in that system's own header, and the bench has no headers for these five
 systems. That one needs your eye, not my guess.
 
+
+---
+
+## Step 5 needs your eye — the five lights have no headers to live in
+
+254 §4: *"each system's health light lives IN THAT SYSTEM'S OWN HEADER on the bench — no separate
+strip."* Right ruling, and I cannot carry it out as written, for a plain reason:
+
+**The bench has no headers for these five systems.** The panel that had section headings is
+`hidden` and has been for a long time — the served page contains **zero** `<h3>` elements, so the
+folding code that looks for them finds nothing. What the screen actually has is regions: the orb
+and its thought row, the growth gauge, the litmus, what has landed, the chat log with the school
+and interpreter buttons, the needs bars, the threads, the soul tool.
+
+My five systems are **record, speech, being, appraisal, lessons**. Only one maps to a region
+without me inventing something: **speech → the chat log's header.** The other four do not have a
+home on that screen, and picking one for each is exactly the interface call that is yours.
+
+So, one question, and it is the only thing standing between here and step 5 being finished:
+
+**Which part of the screen does each of these five belong to?** Or, if the answer is that the
+strip should appear somewhere new after all, say where and I will build that instead — the ruling
+against a separate strip was made when we both assumed the headers existed.
+
+Everything else is ready: the lights are measured, served at `/health`, and the drawing is a few
+lines once they have somewhere to go. **I have not guessed and I have not built a placeholder** —
+this is the class of decision that has cost this project the most, and a "temporary" position I
+chose would become the position.
+
+**Not blocking the rest:** step 4 is built and step 6 is next, per 257. Step 5 finishes the moment
+you answer.
+
