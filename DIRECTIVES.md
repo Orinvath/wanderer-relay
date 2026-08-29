@@ -5821,3 +5821,48 @@ Attention split per 254: the relevance check before the OCC variables
 becomes attention.js (system 2); the eight variables stay appraisal.
 Build through (257): vitals + forced-fails + /health + the edge-list
 report. NO panel, NO display work. Report per step.
+
+## Directive 261 — THE MIND MAP (replaces the sphere as the bench centerpiece)
+
+Built on 259's extracted edge list. The design, ruled by Lonnie:
+
+1. A 3D scene (Three.js, the bench's page): systems as SIGILS in dark
+   space — his 402 marks where a true word exists (THINK, SLEEP,
+   MEMORY...), name-in-stroke-style placeholders where none does (he
+   draws those later; CC never invents marks).
+2. GEOMETRIC LAYOUT: systems cluster by KINSHIP into neighborhoods —
+   language · feeling · thought · memory · self · body — choosing near
+   the center. Position is association; the true sequence is shown by
+   the pulse, not the placement.
+3. THE PULSE: one light walks the REAL tick order from the extracted
+   edge list, strictly one hand-off at a time (nothing simultaneous —
+   the tick is a sequence), consulting side systems out-and-back, and
+   riding a dashed return loop (feelings -> next tick's choosing).
+   Every movement fires from a real emitted event; idle is dark; no
+   timers, no theater.
+4. THE CORE IS THE BEING (the sphere retires): a breathing volumetric
+   glow at center. COLOR = the strongest current feeling, from HIS
+   22-slot palette ruling: fear 0 · hate 6 · anger 12 · distress 18 ·
+   resentment 24 · shame 30 · remorse 36 · fears-confirmed 42 ·
+   reproach 48 · pity 54 · disappointment 60 · gloating 75 ·
+   happy-for 96 · satisfaction 116 · pride 137 · hope 157 ·
+   admiration 178 · relief 198 · gratification 219 · gratitude 239 ·
+   joy 260 · love 280 (hues, stored as the palette table).
+   BEAT = arousal — fast when stirred, slow when calm. Workload
+   swells its size.
+5. GLOW RULES: sigils flare their neighborhood's color on activity;
+   halos scale with rate at speed (aggregate per frame, counts
+   exact); RED PINS over everything for a vital in violation (259's
+   checks feed this); no fading/brightness tricks — color only (229).
+6. LEGEND on the page: neighborhoods, pulse, loop, core meaning (180).
+7. PERFORMANCE: batched frame reads of the event stream, capped draw
+   rate, no per-event DOM, no model calls in the display.
+8. HIS EYE is the acceptance test (118): opens live on the bench
+   beside the real mind; passes only on his word.
+9. THE REFERENCE MODEL: reference/mind-map-mock.html on this relay is
+   the exact scene Lonnie approved — sigil style, neighborhoods, core
+   glow layers, beat shape, camera, colors. THE MOCK IS THE VISUAL
+   SPEC: build the same look; deviations fail his eye.
+10. PLACEMENT: the Mind Map REPLACES the sphere's stage area on the
+    bench — same slot, the page's centerpiece. The sphere and its
+    channels retire; color and pulse meaning live in the core now.
