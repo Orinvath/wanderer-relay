@@ -88,3 +88,23 @@ framework), Elinext (composition series). For the Director and CC both.
 - Dark bench aesthetic: thin strokes, sigil-style marks, muted labels
   (letterspaced small caps), meaning carried by color and motion.
 - Nothing "displays right" until HIS EYE passes it (118).
+
+## 9. INFORMATION ARCHITECTURE (IA) — the structure IS the design
+Sources: Toptal IA guide; freeCodeCamp IA/userflows; DFD readability
+rules (Excalidraw); pipeline architecture literature.
+- IA = the structural design of information so users can FIND and
+  FOLLOW: organization schemes (group by one logic — for us,
+  PROCESSING ORDER), labeling (plain names), navigation (the eye's
+  path), search (finding one thing directly).
+- ONE ORGANIZATION SCHEME PER VIEW. Mixing schemes (some spatial,
+  some categorical) is what makes a map unreadable.
+- THE TWO REQUIREMENTS of a good architecture map: hierarchical
+  PLACEMENT (where a thing sits tells its rank/order) and a LEGEND.
+- DFD READABILITY LAWS: never cross data flows · short labels ·
+  unique names · one flow direction.
+- PIPELINE PATTERN: when the real system is sequential (ours is — a
+  moment travels the tick in order), draw it as ONE SPINE: a single
+  main path, stages in processing order, side systems attached as
+  short stubs to the stage they serve — never wired across the page.
+- PATH EMPHASIS: the path currently being taken is highlighted;
+  everything else stays quiet. The viewer follows ONE thing.
