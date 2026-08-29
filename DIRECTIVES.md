@@ -5712,3 +5712,5 @@ every state, the forced-fail proof at birth (254.D), and red meaning
 moment it starts. The light is only the surface of the check. Any
 vital that is a status lamp without a measured claim behind it fails
 review. Restate this in each vital's header comment.
+
+## Directive 258 — WITHDRAWN. Lonnie is adding more. Do not act on it yet.
