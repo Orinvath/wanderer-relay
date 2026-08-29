@@ -29164,3 +29164,87 @@ chose would become the position.
 **Not blocking the rest:** step 4 is built and step 6 is next, per 257. Step 5 finishes the moment
 you answer.
 
+
+---
+
+## Report — 253 steps 4 and 6 DONE. The plan is finished except step 5, which is waiting on you.
+
+### Step 4 — what a store IS left what opening one DOES
+
+`store.js` was 1,040 lines of which 900 were the shape: the version, 42 tables, 13 triggers, and
+the ladder that walks an older file up to this build. A change to how a store is *opened* and a
+change to what a store *is* looked identical in a diff, and they do not fail the same way — get
+the opening wrong and nothing works; get the shape wrong and somebody's saved life will not load a
+year from now.
+
+**store.js 1,040 → 177. schema.js 903, verbatim.** `SCHEMA_VERSION` is re-exported so not one
+caller changed: the split is invisible from outside, which is the point. Pressed it — a real store
+opens, 42 tables, 13 triggers, version 16.
+
+### Step 6 — the mind's tick, 1,080 lines → 100
+
+| file | what it is |
+|---|---|
+| `watching.js` | the mind, and the ORDER its systems run in |
+| `rest.js` | sleeping and dreaming — a sleeping mind is not asked what it wants |
+| `experiencing.js` | everything it does with a moment once there is a mind behind it |
+| `closing.js` | the cord, the record, and the tick boundary |
+
+`topActs` moved to `offers.js`, where acts and their scoring already were — two systems share it
+now, and a helper two systems share does not belong inside one of them.
+
+**The nine hundred came out as ONE PIECE, on purpose.** The mind draws its numbers off a seeded
+stream: moving code is safe, *reordering* it is not, and cutting nine hundred lines into eight
+files in one go is eight chances to reorder by accident. Dividing it further is a later step and a
+much safer one now that it is untangled from the clock, sleeping and the tick boundary.
+
+### The guard: `316a2a962173` through every single move
+
+Unchanged across the store split, sleeping, the closing, and the nine hundred. Four runs each
+time. **The mind did not shift by one field through any of it.**
+
+### Fix B is in, and it caught me within a minute
+
+A contract declares its **reads as well as its writes**, and an unread declared input is a fault —
+the school-never-read-the-levers class, where a hand-off that arrives and is ignored looks
+identical, from both ends, to one that works. Checked across all four lifted files. It immediately
+failed two of my own headers that named reads and not writes, so I fixed the headers rather than
+the check.
+
+### What running it caught that parsing could not, three times over
+
+Writing `rest.js` I guessed three import paths and **every one of them parsed**: `snapshot` is in
+`needs.js` not `traits.js`, `drift` is `sleep.js` not `glyphs.js`, `expression` is `embodiment.js`
+not `capabilities.js`. Then `experiencing.js` needed **thirty bindings** and I found them by asking
+which the moved code referenced and where `watching.js` got each — not by guessing. A parse is not
+a run, and this build has now paid for that lesson four separate times.
+
+### Forty-two suite clauses, repointed honestly
+
+They read the mind's source to assert what the live mind does. The tick is four files now, so they
+read **the tick wherever it lives** — which restores exactly the text they saw before the split,
+no more and no less. And the receiver is spelled back: a step lifted out of a class takes the mind
+as a parameter, so `this.state` reads `mind.state` for the same write to the same field. None of
+the three lifted files declares anything else called `mind` — checked, not assumed.
+
+### Green
+
+`life 473` · `phase3 80` · `integration 42` · `brain 40` · `sleep 32` · `dictionary 31` ·
+`goals 25` · `curiosity 21` · `appraisal 19` · `hostchannel 17` · `consolidation 15` ·
+`remembering 13` — **0 failed.** Commits `2c1bac7`, `5881217`, `b0c8215`.
+
+### Where the plan stands
+
+| step | |
+|---|---|
+| 1 the laws | done |
+| 2 the bench into four files | done, and it is on his screen on 8794 |
+| 3 the vitals, five of them, each seen red | done |
+| 4 store → schema + accessors | done |
+| 5 the health lights in their headers | **waiting on him — the bench has no headers for these systems** |
+| 6 the mind into its steps | done |
+| 7 wanderer.js | struck by 254 |
+
+**Everything I can build without a decision from you is built.** Step 5 is the one question, posted
+above: where does each of the five lights live on the screen?
+
