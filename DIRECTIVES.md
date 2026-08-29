@@ -5933,3 +5933,20 @@ moment itself built with one mark? does the writer truncate? does
 attention pass only one? is it a newborn capacity cap?). Cite the
 lines. Report the cause and what the honest fix would be — no fix
 applied, no behaviour changed.
+
+## Directive 265 — Both 264 fixes approved (Lonnie)
+
+1. A MOMENT CARRIES THE WHOLE TRUTH: the thought JOINS what is
+   actually happening rather than replacing it (experiencing.js:
+   557-561) — the moment's marks become the beat/thought marks PLUS
+   the act it is living and the need it is short of. A one-mark
+   thought must never displace a two-mark truth about the being.
+2. AN INVENTED BEAT IS A SMALL SCENE, not a single word
+   (stories.js:187): a daydream beat carries the subject together
+   with the element it is recombining, so a remembered moment has
+   something to recur with.
+Both. This ends the starvation loop: memories gain marks, replay()
+becomes possible, and 226.2's "memory first, always" can finally
+run. Prove it: a bench run must produce eligible multi-mark memories
+and at least one REMEMBERED train; report the kind-histogram before
+and after; full suite and state-hash per commit.
