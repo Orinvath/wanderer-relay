@@ -5691,3 +5691,12 @@ mind's record into the bench's own diagnostics log — same numbers,
 same audit purpose, right home (the record holds only the being's
 life; machine facts are the bench's). Settled by the Director per
 114; no ruling needed. Suite + hash proof ride along.
+
+## Directive 257 — BUILD IT THROUGH: no stopping between steps
+
+Lonnie's order: run the approved 253/254 plan straight through — all
+steps, all systems, one commit per step, state-hash guarded, health
+lights in headers, forced-fail proofs — WITHOUT stopping for review
+between steps. Report per step to the relay as you go; stop ONLY if
+the guard trips (hash drift), a genuine decision surfaces (250), or
+his eye is required (fix E moments). Otherwise: build to the end.
