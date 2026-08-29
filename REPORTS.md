@@ -29248,3 +29248,70 @@ the three lifted files declares anything else called `mind` — checked, not ass
 **Everything I can build without a decision from you is built.** Step 5 is the one question, posted
 above: where does each of the five lights live on the screen?
 
+
+---
+
+## Report to the Director — THE 23 SYSTEMS ARE NOT DEFINED ANYWHERE, and the build stopped on it
+
+Lonnie's words, and they are the whole of the problem: *"There are a total of 23 systems, not
+five, you only separated five of them. They all need the light health system."*
+
+He is right that five is not the job. I need the team to close this, because **the list of 23 does
+not exist in any document I can read**, and every attempt to derive it is me making his decision.
+
+### How we got to five, in order, so the gap is traceable
+
+1. **253** said: *"Every system from the verified flow map gets its OWN file."*
+2. **My build plan** opened by saying, first line of the first section: **there is no document by
+   that name.** I searched the relay and the repository. The nearest thing is the trait/mood chain
+   in the 048 report, which is not a map of systems. I wrote: *"either point me at it, or the
+   boundaries below are mine — which makes them an architecture decision I am not allowed to
+   make."*
+3. **254 answered:** *"Boundaries approved as drawn in your plan §2."* My §2 drew boundaries for
+   **the file split** — four bench files, the store in two, the mind and its steps. It did not
+   enumerate systems, because I had said I could not.
+4. **254 ruling 3** then said: build the **five absolute** vitals now; the four needing thresholds
+   wait for watched data.
+
+So five is what the rulings as written produced. **Nobody was wrong at any single step** — the
+flow map went missing at step 1 and the approval at step 3 read as covering it.
+
+### What the code actually contains
+
+- **102 source files**, of which **37 are the mind's own systems** — needs, sleep, offers, goals,
+  appraisal, occ, safety, memory, surfacing, consolidation, thinking, curiosity, stories,
+  storygates, lessons, evidence, tellers, learning, space, vocabulary, comprehension, grammar,
+  speech, censor, interests, persona, identity, traits, roe, growing, interpreter, being,
+  embodiment, cord, nerves, glyphs, dictionary.
+- **37 is not 23.** Getting from one to the other means grouping — deciding that `speech` and
+  `censor` are one system and `lessons` and `evidence` are two, or the reverse. **I started to do
+  exactly that and Lonnie stopped me, correctly:** *"that is not your call, you dont make any
+  decisions."* Nothing was written.
+
+### What the team needs to supply
+
+**The 23, named.** That is the only blocker. With the list:
+
+- every one gets a `vital()` in the file that owns its claim, on the same pattern as the five;
+- the claim for each comes from the ruled record, not from me;
+- the ones whose claim is absolute ("this must be zero") can ship immediately, like the five;
+- the ones needing a threshold are named and wait, per 254 ruling 3.
+
+**And a second thing, from Lonnie's own ruling today:** the lights *"dont line up with the panels,
+so we need to create a panel with a diagram with each system represented in it with the lights in
+a logical manner of how the data flows."* That panel needs the same list, plus **what feeds what**
+— the flow is the layout. Deriving that from the tick order is also grouping, so it comes with the
+list or it comes from him.
+
+### What is already built and does not need re-doing
+
+The health machinery is finished and system-agnostic. Adding a system is **one line in a registry
+and one function in its own file**. Five systems already answer for themselves on the live mind —
+record, speech, being, appraisal, lessons — each with a forced-fail proof behind it, each arithmetic
+only. The route is up at `/health`. **The 23 slot into what exists; nothing gets rebuilt.**
+
+### The rest of 253/254 is done
+
+Steps 1, 2, 3, 4 and 6 are complete and green, with the state hash unmoved through every move.
+**Step 5 is the only open one, and this is what it is waiting on.**
+
