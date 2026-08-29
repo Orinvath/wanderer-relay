@@ -5920,3 +5920,16 @@ change behaviour; report facts.
 Report the findings. Lonnie then rules: daydreams exempt from the
 nearness check (his standing instinct — a daydream is a dream);
 replays held to faithfulness; association judged as now.
+
+## Directive 264 — DIAGNOSIS ONLY: why does every memory hold exactly one mark?
+
+Lonnie's order. The 263 finding: 60 of 60 memories hold a single
+mark, so replay() (which needs two or more) has never once run and
+226.2's "memory first, always" has never happened in any life.
+
+Diagnose, change nothing: trace where a moment's marks are set and
+where they are written to memory; show why only one survives (is the
+moment itself built with one mark? does the writer truncate? does
+attention pass only one? is it a newborn capacity cap?). Cite the
+lines. Report the cause and what the honest fix would be — no fix
+applied, no behaviour changed.
