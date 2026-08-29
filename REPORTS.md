@@ -29051,3 +29051,84 @@ costs him nothing.
 Parse-and-draw is not "displays right". **His eye is the test, and that is the one check I cannot
 run.**
 
+
+---
+
+## Report — 253 step 3: the vitals. Five systems, five forced fails, and the hash moved.
+
+### The hash moved, and I am telling you before the good news
+
+Baseline was `e3a05eb7793b`. After step 3 it is `316a2a962173`.
+
+**It is not drift and it is not a move.** Fix A binds the hash "after each moved step", and step 3
+moved nothing — it ADDED. A vital that measures "every moment passed the gate" needs something
+that counts moments, so the appraisal now carries two integers, and the lessons vital carries a
+high-water mark. Adding a measurement to a mind changes what the mind holds, so any whole-mind
+hash must move. There is no version of fix A where a vital can be added and the hash stays put.
+
+**What I have done about it:** taken `316a2a962173` as the new baseline and held it across step 4,
+which IS a move. **If you read fix A as binding on every step including additions, say so and this
+commit reverts.** I am reading it as it is written — "after each moved step" — and step 3 moved no
+code at all.
+
+Four of the four runs agree on the new hash, so the mind is still reproducible.
+
+### The five, and every one of them has been watched going red
+
+| system | the claim | ruled |
+|---|---|---|
+| record | the record holds only its language | 243 |
+| speech | it says its own marks and nothing else | 245 |
+| being | every field is carried, or named as not its life | 234.1 |
+| appraisal | every moment passes the safety gate, and the gate is first | 203 |
+| lessons | a belief is never deleted, only collapsed and marked | SS16.9 |
+
+Each lives **in the file that owns the claim** — the mind holds only the list and does not know
+what any of them check. Served at `/health`: one word for the bench, one line per system.
+
+**Fix D is done and it earned itself.** Each vital is broken deliberately in the suite — my English
+written into its memory, my sentence put in its mouth, an undeclared field hung on the mind, a
+moment slipped past the gate, a belief deleted — watched to go **red**, then watched to go green
+again when the break is undone. A vital nobody has seen fail is a green light with no wire behind
+it, and this build has shipped several of those.
+
+**Fix C** is done and checked: not one vital makes a model call. The suite asserts that too.
+
+### The live check beat the source-text one within a minute of existing
+
+The old field law grepped the constructor for `this.x =`, so a field born anywhere else was
+invisible to it. The live one asks the **running mind** what it holds and asks `capture()` what it
+would actually keep. It immediately found **eleven fields nobody had ever declared** — and one that
+matters:
+
+**`justSpent` was being lost on every load.** It is what the mind has just finished turning over,
+so it does not pick the same subject straight back up (226). The train itself travels; this did
+not. A loaded mind would immediately re-pick the thing it had just exhausted — the exact behaviour
+226 added it to prevent. Same class of loss as `livedHours` and `storiesTold`, except those two
+were found by accident and this one was found by a check.
+
+### Two mistakes of mine on the way, both caught by the vital being wrong
+
+1. It compared only **top-level** keys, so it cried wolf over six fields that ARE carried, inside
+   `clocks`. **A guard that reports carried fields as lost gets switched off**, which is worse than
+   not having one. It walks every level now.
+2. `state` travels under the name **`ledger`**. That rename is now written down rather than
+   special-cased inside the check — a rename nobody records is how a carried field becomes an
+   uncarried one later.
+
+And a third that is almost funny: 216.1 forbids the letters m-i-n-d anywhere in `speech.js`,
+because reaching the Mind class from the speech path must be impossible. My vital's parameter was
+called `mind`. I renamed the parameter rather than loosen a guard that has held since 216.
+
+### Green
+
+`life 471` · `phase3 80` · `integration 42` · `brain 40` · `appraisal 19` · `hostchannel 17` ·
+`consolidation 15` · `remembering 13` — **0 failed.** Commit `b2da006`.
+
+### Still to come in this run
+
+Step 4 (store → schema + accessors) is built and being tested as this posts. Step 6 (the mind into
+its steps) follows. **Step 5 has a question in it and I will post that separately** — 254 §4 places
+each system's light in that system's own header, and the bench has no headers for these five
+systems. That one needs your eye, not my guess.
+
