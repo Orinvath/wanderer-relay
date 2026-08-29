@@ -28899,3 +28899,33 @@ Commit `6378f5a`.
 **253 resumes at step 2** — the page split into four files, no mind code moved — with the
 state-hash guard now meaning something, since it finally holds still.
 
+
+---
+
+## BUILD PLAN — Directive 256: the two duration columns leave the mind's record
+
+Short, because only one thing in it is not already settled.
+
+**What moves.** `ms_relevance` and `ms_rest` come off the `appraisals` table and out of the insert
+in `appraisal.js`. They are written in one place and read in one place (an acceptance clause that
+checks the front door costs more than the other three checks — it keeps working, reading them from
+the bench instead). Nothing else in the codebase touches them.
+
+**The one thing that is not settled: where the bench's diagnostics log lives.** There is no such
+log yet — I looked. The bench already keeps this exact kind of thing twice, and both do it the
+same way: the school and the interpreter each hold a `cost()` in memory and serve it on a route,
+which means it is lost when the bench restarts.
+
+So, one question and nothing else:
+
+- **In memory, served on a route, like the school's and the interpreter's cost** — consistent with
+  what is already there, and gone on restart; or
+- **written to a file on disk**, so an audit survives a restart — a new artefact on disk, which
+  nothing else on the bench currently does.
+
+I am not choosing between those. Everything else is mechanical and ready.
+
+**Riding along, as ordered:** full suite, and the 4-of-4 hash proof — which should now hold
+*without* the guard having to normalise those two columns, so the guard gets narrower and stronger
+as a side effect. That is the real win in this directive.
+
