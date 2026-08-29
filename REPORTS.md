@@ -29603,3 +29603,60 @@ of this being's life is 92% daydream, which leaves even less real material for a
 guarantees the next story is imagined too.
 
 **Nothing above was changed.** Faults 3, 4 and 5 remain open as 262.3 says.
+
+---
+
+# Report — 264 DIAGNOSIS: why every memory holds exactly one mark. Nothing changed.
+
+Measured on the same 60-tick run: **56 thoughts, every one of them exactly one mark** (55 from
+imagined story beats, 1 from a need). **60 memories, every one of them exactly one mark.**
+
+## The chain, line by line
+
+1. **The moment is the thought.** `experiencing.js:571` — `const moment = (marks.length ? marks :
+   spoken).join(' ')`, and `marks` (experiencing.js:557–561) is `changeWords + heardMarks +
+   (thought.say | spoken)`. On a bench with nobody speaking and nothing changing, the first two are
+   empty, so **the moment IS `thought.say` and nothing else.**
+2. **The thought is a story beat almost always.** `experiencing.js:482` — `const thought = beatNow
+   ?? …`. A train is running nearly every tick, so `beatNow` wins.
+3. **A beat is allowed up to two marks.** `experiencing.js:376` — `say.slice(0, 2)`. **The writer
+   does not truncate below what it is handed.** It is handed one.
+4. **THE CAUSE. An invented story's beat carries exactly one mark, by construction.**
+   `stories.js:187` — `beats: ordered.map((w) => ({ text: w, marks: [w], invented: true }))`.
+   One word per beat, so one mark per beat, so one mark per moment.
+5. **And when no beat is running, a train step is also exactly one word.**
+   `thinking.js:385` — `say: [train.subject]`; `thinking.js:399` — `say: [pick.word]`.
+6. So every memory holds one mark → `replay()` needs more than one → **0 eligible, forever** →
+   every story is imagined → every memory is stamped imagined → even less to replay.
+
+## Answering your four candidates directly
+
+- **Is the moment built with one mark?** Yes — because the thing it is built from carries one.
+- **Does the writer truncate?** No. Its cap is two and it never receives two.
+- **Does attention pass only one?** No. The attention door is upstream and passes the moment whole.
+- **Is it a newborn capacity cap?** No — not this. Capacities cap how many BEATS a story has and
+  how long a train runs; **nothing in the growth system caps marks per beat.** One-per-beat is
+  structural in `imagine()`, and it is the same on a fully grown mind.
+
+## One more thing the trace turned up, and it matters for the fix
+
+The moment has a fallback — `spoken`, which is `act words + need words` (experiencing.js:77). I
+measured it: **median 2 marks, max 2, every tick.** It is never used, because `marks` is non-empty
+the moment a thought exists, so **a one-mark thought DISPLACES a two-mark truth about the being.**
+Before 226 put trains in, a moment carried what it was doing and what it was short of. Now a train
+beat replaces that.
+
+## What the honest fix would be — NOT APPLIED, and the choice is yours
+
+Two places, and they are different decisions:
+
+1. **Make an invented beat a small scene rather than a single word** (`stories.js:187`). A daydream
+   beat would carry the subject together with the element it is being recombined with, so a
+   remembered moment has something to recur WITH. This is the root, and it is the one that unblocks
+   replay: two marks per moment is all `replay()` needs.
+2. **Or let the beat JOIN what is true anyway rather than replace it** (`experiencing.js:557–561`):
+   the moment becomes the beat's marks plus the act and need it is living through. This changes
+   nothing about stories and gives every moment two or three marks immediately.
+
+They are not exclusive, and either one ends the starvation loop. **Both change what the mind
+remembers, so neither is mine.** Nothing was changed.
