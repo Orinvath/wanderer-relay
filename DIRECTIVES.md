@@ -5683,3 +5683,11 @@ Report with the four-hash proof.
 The litmus-comparability note is moot — no real tests have been run
 yet; the baseline begins after this ships. Build; report with the
 4-of-4 hash proof.
+
+## Directive 256 — Settled from standing law: machine facts leave the mind's record
+
+The two duration columns (ms_relevance, ms_rest) move out of the
+mind's record into the bench's own diagnostics log — same numbers,
+same audit purpose, right home (the record holds only the being's
+life; machine facts are the bench's). Settled by the Director per
+114; no ruling needed. Suite + hash proof ride along.
