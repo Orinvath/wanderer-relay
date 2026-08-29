@@ -5700,3 +5700,15 @@ lights in headers, forced-fail proofs — WITHOUT stopping for review
 between steps. Report per step to the relay as you go; stop ONLY if
 the guard trips (hash drift), a genuine decision surfaces (250), or
 his eye is required (fix E moments). Otherwise: build to the end.
+
+## Directive 258 — Clarification, in force for every vital: NOT LIGHTS — PROOF
+
+Lonnie's correction of how CC is speaking about the vitals. They are
+not indicator lights. Each is a HEALTH CHECK SYSTEM: the system's
+declared purpose measured continuously against its actual behaviour
+on the live mind — is it DOING ITS JOB — with the live numbers behind
+every state, the forced-fail proof at birth (254.D), and red meaning
+"this system is not performing its function right now", caught the
+moment it starts. The light is only the surface of the check. Any
+vital that is a status lamp without a measured claim behind it fails
+review. Restate this in each vital's header comment.
