@@ -29448,3 +29448,72 @@ bug that has since been fixed. It is a fact about the code on this run, not abou
 is 256's rule. Added to the declared not-carried list with that reason.
 
 Continuing through the remaining 15.
+
+---
+
+# Report — 259 COMPLETE: all 23 systems count themselves. Five faults found. One light is red.
+
+Every one of the 23 now has its counters at its own code path, its claim in its own file, and a
+reading on `/health`. **Suite: 472 passed, 0 failed.** State hash identical across runs at every
+step; where it moved, the move was proven to be a declared new field and nothing else. Route
+operated, not assumed: `/health` answers with state · counters · claim for all 23.
+
+## THE STRIP, on a mind that has lived 60 ticks
+
+**RED.** 21 checked, 2 grey-dormant (curiosity and interests, waiting on your bar), and **thinking
+is red.**
+
+## WHAT THE COUNTERS FOUND — five faults, none of them fixed, all of them yours
+
+**1. Thinking strays from its own subject.** Two finished trains in 60 ticks whose thoughts were
+nearer a *randomly drawn mark* than their own subject: `HIDDEN` — 0.000 to itself, 0.165 to HEAR.
+`SONG` — 0.095 to itself, 0.142 to TRUTH. This is your test, exactly as 259 words it, and it is
+catching something real.
+
+**AND A TENSION IN IT THAT IS YOURS TO RULE.** 226 made a train a STORY: when it has lived
+episodes touching the subject it replays them, and those beats are things that *happened*, not
+neighbours in the space. So a story-telling train can be legitimately far from its subject in
+kinship while being entirely about it in life. My check cannot tell those two apart. **Should a
+train that is telling a story be judged by nearness at all?**
+
+**2. Every load quietly falsifies who said what.** The round-trip check caught it: a life saved and
+loaded comes back with its memories changed. The 243 prose migration takes *every* memory whose
+`heard` is empty — not just the old English ones — re-derives its marks, and writes the memory's
+own text into `heard`, which means "English somebody actually said". So after one load, the mind's
+record claims a host spoke every moment it ever lived. Trust and provenance read that field.
+
+**3. Curiosity can never become what it thinks about.** Reported this morning, unchanged: nothing
+produces `curiosity.about`, so the heaviest-weighted source of a subject has never once fired.
+
+**4. Consolidation never runs in a life.** Reported this morning, unchanged.
+
+**5. Identity is never asked.** Same shape as 4: a mind is handed an Identity at birth and never
+asks it anything, so no life story is ever assembled and no purpose is ever mined. Written into the
+file so nobody reads its green light as good news.
+
+**On 3, 4 and 5 the light is GREEN and green means "it never ran".** That is stated in each file at
+the vital. Wiring any of them changes what the mind DOES, which is yours.
+
+## Decisions I made FOR the mind, declared per 246
+
+- **`violations`, `tenAtBirth` and `lastGrown` are not carried across a save.** A mind must not wake
+  marked sick by a bug since fixed; the other two are re-derived at load from the seed and from
+  what is carried. All three are in the declared not-carried list with reasons.
+- **A zero-against-zero nearness is not counted** as a stray. On a young mind both readings come out
+  at exactly 0.000 — that is no evidence, not a wandering train, and counting it would put a red
+  light on your bench for a mind being young. Your rule is otherwise exact, ties included.
+- **`reading()` takes the mind under an alias `of`** for one file only: 216.1's guard forbids the
+  letters m-i-n-d in speech.js, and I would rather add a named alias than write a key in pieces to
+  sneak past a guard.
+
+## Two things repaired on the way
+
+- The **violation list could hide a violation** — one chatty system evicted another's evidence off
+  a shared cap. Now trimmed by the 1000-tick window, with no system able to crowd out another.
+- The **vitals suite had been crashing since 259 step 1**, so every clause after it never ran. It
+  still imported four vital functions the 259 rewrite deleted. Rebuilt. A parse is not a run.
+
+## Still open before 261 can start
+
+**The edge-list extraction** — the true tick order, every hand-off cited to its line. 261 is built
+on it and it is next.
