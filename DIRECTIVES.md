@@ -5883,3 +5883,19 @@ Built on 259's extracted edge list. The design, ruled by Lonnie:
    2 (Appraisal & Feelings reads it). The HOST node pins for
    host-model faults. ECHO belongs to Voice (16).
 Build through. Reports per step; his eye is the gate (118).
+
+## Directive 262 — Fix the load bug; the story check stands (Lonnie)
+
+1. THE LOAD BUG (fault 2): the 243 prose migration must touch ONLY
+   genuine old-format English memories. Its own thoughts must never
+   have their text written into `heard` — a thought it had alone is
+   not speech someone said to it. Trust and provenance read that
+   field; a load must not falsify who spoke. Fix, prove with a
+   save/load round-trip on a mind holding both kinds of memory.
+2. THE THINKING CHECK STANDS ON STORIES (fault 1 ruling): a train
+   telling a story is still judged by nearness — if a remembered
+   story wanders off its subject, Lonnie wants to see it, not excuse
+   it. No exemption.
+3. Faults 3, 4, 5 (curiosity never names what it wonders about;
+   consolidation never runs in a life; identity never asked) stay
+   OPEN — they change what the mind does and await his ruling.
