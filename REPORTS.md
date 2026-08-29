@@ -28651,3 +28651,77 @@ parsed and its `draw()` run before the commit, which the suite already does.
 
 **Nothing is built until this comes back approved.**
 
+
+---
+
+## Report — 254 step 1 done, and fix A has STOPPED the build on a finding
+
+### Step 1 — the two laws are in
+
+Both at the top of `CLAUDE.md`, above 250: **PLAN BEFORE BUILD** with no small-change exemption,
+and **RULE ZERO AMENDED** — a plan with a decision left in it is a failed plan. Filed together
+with 250 and 188 as one rule read three ways. Commit `8e5da25`.
+
+### Fix A — built, and the first thing it did was fail
+
+Fix A was the right call and it has already earned itself. Building it needed one groundwork
+change: the mind read the **wall clock in ten places**, so two untouched runs could never agree
+and a hash over them would have proved nothing. The mind now takes its clock as an option
+defaulting to the wall clock — a real bench is unchanged, only the guard's fixture passes one in.
+Suite green, **462 passed, 0 failed**. Commit `08a085b`.
+
+The guard hashes the **whole mind** after a fixed number of ticks on the fixed seed: every field
+it holds in memory, every row of every table in its store, litmus riding along. Random ids,
+timestamps and the temp folder are **normalised, not dropped** — each distinct id becomes the
+position it first appears in, so the same id in two tables still matches and a change of row order
+still shows. Nothing is excluded because I judged it unimportant. Commit `1a1b3a1`.
+
+### THE FINDING — the mind is not reproducible, and this is bigger than 253
+
+**Four runs of the same seed produced four different minds.** Not occasionally — four out of four.
+
+```
+  231cc49c7c69
+  073a1c054bd0
+  aef1627cb4fb
+  f85c1d23c24a      distinct: 4 of 4
+```
+
+I chased it to one cause and stopped there:
+
+1. A memory is stamped `at` with **the wall clock** — `memory.js` line 49, `new Date()`. That is
+   the store's own clock and the mind's new clock does not reach it.
+2. **Recall ranks on that stamp.** `recency` is how new a memory is against the span of all of
+   them, and it is roughly a third of the score that decides what rises.
+3. So how many milliseconds apart two memories happened to be written changes which memories rise,
+   which changes what the mind attends to, and the two runs diverge from there.
+
+I ruled out the obvious other suspect: **the model is deterministic** — the same sentence embedded
+twice came back bit-identical across 768 dimensions.
+
+**Why this matters beyond 253:** 248.2 says the fixed seed makes two test runs comparable, and the
+suite proves it — but it proves it at BIRTH. It compares two newborns and they are identical. It
+has never compared two minds that have *lived*, and they are not identical. So *"anything that
+differs between two runs under the same levers is noise"* is standing on a plank I have now looked
+under. The noise is real and it has a name.
+
+### What I am NOT deciding
+
+Under the amended Rule Zero I am not choosing between these, and I have not touched either:
+
+1. **The store takes the mind's clock too**, so a memory is stamped with the being's own time
+   rather than the machine's. That makes the mind reproducible. It is also a behaviour change —
+   every recency value moves — and 253 says behaviour changes NONE, so it cannot be smuggled in
+   under a reorganisation.
+2. **The guard narrows** to exclude whatever is ranked on recency. Cheap, and it blinds the guard
+   to exactly the kind of drift it exists to catch.
+
+There may be a third I have not seen. **The build is stopped at step 2 until this is ruled** —
+fix A binds every moved step to the hash, so no step can be verified until the hash means
+something.
+
+### What is ready to go the moment it is ruled
+
+Step 2 (the page split, four files, no mind code moved) is fully specified and safe. Steps 3–6
+follow as approved.
+
