@@ -28815,3 +28815,87 @@ shipped. Plus the full suite green. Both go in the report.
 
 **The five line-calls above.** Everything else is ready to build the moment they come back.
 
+
+---
+
+## Report — Directive 255: the mind lives on its own clock. 4 OF 4.
+
+### The proof, first
+
+```
+  before                        after
+  231cc49c7c69                  50a54782190a
+  073a1c054bd0                  50a54782190a
+  aef1627cb4fb                  50a54782190a
+  f85c1d23c24a                  50a54782190a
+  distinct: 4 of 4              distinct: 1 of 4
+```
+
+**Four runs of the same seed now produce one mind.** That is the acceptance test and it passes.
+
+### What changed
+
+Eleven modules carried the identical line — `const now = () => new Date().toISOString()` — and every
+one of them writes the mind's record: **memory, lessons, surfacing, learning, interests, tellers,
+consolidation, host-model, appraisal, safety, and the speech path.** Each now takes the clock as an
+option defaulting to the wall clock, and the being hands every one of them **its own life clock**:
+the 069/234 one that advances as it lives and pauses when it is unloaded. Its recency, its
+surfacing and its decay all rank on lived time now, as you ruled.
+
+**The clock is a method on the mind, not a local.** Three places rebuild parts of a mind — opening
+it, rebinding a soul, restoring a life — and a clock that only reached the first would have left
+the other two quietly writing machine time back into the record. That is the shape of every fault
+this build has had, so it was worth the extra minute.
+
+Your five rulings are in, each one marked in the code so nobody "fixes" it back later:
+
+| ruled | where |
+|---|---|
+| conversation → **mind's record** | its stamps are lived time |
+| LEARNED feed → **mind's record** | lived time |
+| litmus stamps → **outside** | left on the wall clock, with the reason written beside them |
+| `endedAt` on a life file → **outside** | same |
+| being-file save/restore/tombstone → **outside** | same |
+
+### One thing the guard found on the way, and it is yours to know about
+
+After the clock change, two runs still disagreed — on **`ms_relevance` and `ms_rest`**: 1 against
+0, once 2 against 0. That is how many milliseconds this computer took to do the work, stored in the
+appraisal's own row. Clause 3 rules durations lawful as wall time, so the guard reads them as
+machine facts and normalises them like the temp folder. **Worth saying plainly: the mind's record
+currently carries two columns that describe the machine rather than the being.** I have not touched
+them — that is a design question and it is yours.
+
+### Green — and ONE suite went red first, which is worth more than the greens
+
+**`phase3` failed on the change**, and it should have. Its check is a whitelist of every field the
+context assembler is allowed to hold — `db`, `model`, `policyVersion` and nothing else — so the
+moment 255 gave it a clock, it went red. That is a check written the right way: a new field cannot
+appear without somebody justifying it. `now` is justified in the list now, with the reason (a
+function returning a timestamp is a handle to nothing, and cannot reach a store), and the check
+still fails on anything else appearing. **80 passed, 0 failed.**
+
+**Every suite, run one at a time, all green:**
+`life 462` · `phase3 80` · `capabilities 53` · `games 57` · `effects 48` · `avatar 44` ·
+`integration 42` · `brain 40` · `phase1 39` · `roe 36` · `traits 37` · `phase2 34` · `persona 33` ·
+`offers 32` · `sleep 32` · `dictionary 31` · `needs 29` · `occ 26` · `goals 25` · `interests 22` ·
+`clock 21` · `curiosity 21` · `identity 20` · `harness 19` · `host-model 19` · `appraisal 18` ·
+`character 18` · `hostchannel 17` · `safety 17` · `acceptance 16` · `consolidation 15` ·
+`remembering 13` · `profiles 12` — **0 failed anywhere.**
+
+`testnet` skips as it always has: it wants a funded Sepolia key, and 019 step 6 says that is a skip
+and not a failure by design. Unrelated to this change.
+
+### What this cost, said out loud
+
+The mind's stamps changed from machine time to lived time, so **recency values moved**, so what
+rises when it remembers moved. Any number from before this commit is not comparable to a number
+after it. You already ruled that moot — no real tests have been run — and the baseline starts here.
+
+Commit `6378f5a`.
+
+### Next
+
+**253 resumes at step 2** — the page split into four files, no mind code moved — with the
+state-hash guard now meaning something, since it finally holds still.
+
