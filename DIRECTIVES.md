@@ -6330,3 +6330,5 @@ DIAGNOSIS ONLY — change nothing:
    life moving (217's thinking loop sources, curiosity's own drive,
    sleep's consolidation) and which of those have stopped running.
 Report the evidence with commits and lines. No fix.
+
+## Directive 279 — WITHDRAWN. Archaeology is the Director's job, not CC's. Do not act on it.
