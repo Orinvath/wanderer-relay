@@ -30127,3 +30127,83 @@ Both clauses that should have caught it never look at a feeling.
 
 **No fix, no new source, no tuning. 226's own suite requirement — "feelings must move from a
 story" — has never been built as a live check, and that is the clause this needs.**
+
+---
+
+# Report — 274 DONE. The mind feels again, and the check 226 asked for now exists and is live.
+
+Built in the order you set: the missing clauses first, watched failing, then the restoration.
+
+## 274.3 — the clauses, shown red before and green after
+
+Committed **red** at `2d4de32`, on a real trail:
+
+```
+✗ 226 FEELINGS MOVE FROM A STORY — the longest real trail: [0, 0] — felt on 0 of 45 ticks
+✗ 249.1 wasFelt(live trail) says: "nothing moved while it was told"
+```
+
+Green after the restoration, `6e533bb`:
+
+```
+✓ 226 FEELINGS MOVE FROM A STORY — the longest real trail: [0, 0.169…] — felt on 26 of 45 ticks
+✓ 249.1 wasFelt(live trail) says: "it moved"
+```
+
+Neither reads source text and neither is handed an array. They run a mind and read what it felt.
+
+## 274.1 — the restoration
+
+`beatBearing()` in `thinking.js`, using **`fromState`'s arithmetic unchanged** — the same two
+sources and the same two lines of maths. All that differs is *which* feeling and *which* need,
+because a beat dwells on what its own marks name rather than on whatever is loudest:
+
+- a mark naming a **feeling it is having** → that feeling's valence × its intensity
+- a mark naming a **need** → that need's depletion, `v / 10`
+- neither → nothing, and the beat genuinely is not about a goal (217.2's own words)
+
+*One correction I made to my own first cut:* it returned on the first need a beat named, so a beat
+naming a need sitting at exactly zero came back with nothing and never looked at the one that was
+starving. It now takes the need furthest from level.
+
+## 274.2 — a beat no longer silences the thought it displaced
+
+226 wrote `told ?? think(…)`, so a beat displaced the thought outright. The beat still leads — it
+IS the moment — but where it turns out to be about nothing the mind can weigh, it takes the
+bearing of the thought it displaced rather than zeroing the tick.
+
+## 274.4 — the proof
+
+**Ticks with a feeling, before → after**, three beings, 60 ticks each:
+
+| seed | before | after | what it felt |
+|---|---|---|---|
+| STORY-FELT | 0 | **55** | joy |
+| ALL-23 | 0 | **17** | joy |
+| PROVE-274 | 0 | **0** | — see below |
+
+**THE CORE's rendered hue against your palette:** joy is hue **260** in the table → renders
+**#6f31ed**.
+
+**249's first gate can now pass, and did:** 3 gate readings on a live mind, **3 passed.** Before
+this it was arithmetically impossible — every trail was zeros and `wasFelt` refuses a flat one.
+
+**A lesson born from a self-told story: still 0.** Not because the gate blocks it — the gate passes
+— but because since 265 *every* train is a remembered replay, so there are no imagined stories left
+to teach from. 2 lessons were born in that run, neither imagined.
+
+**PROVE-274 feels nothing and that is correct.** Its three needs sit at +10, +10, +10 — a fully
+satisfied being. There is no depletion for a beat to bear, which is exactly 217.2's "the event
+simply is not about a goal, which is correct rather than a limitation."
+
+**State hash moved, as you said it would:** `77696afb` → `2ee4dd94`. It moved because the mind now
+feels things it did not feel before. Nothing else moved: the suite is **478 passed, 0 failed**, and
+the two new clauses are the only additions.
+
+## One thing found on the way, NOT touched
+
+That fully satisfied being's own moment reads **`RIVER LONELINESS SONG`** while its relatedness sits
+at **+10**. The tick builds the moment's need-word with
+`forNeed(happening.lowest, 'low')` unconditionally — so it always speaks the LOW word for whichever
+need is lowest, even when that need is full. A contented mind is describing itself as lonely.
+Separate fault, reported, not fixed.
