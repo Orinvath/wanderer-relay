@@ -6978,3 +6978,26 @@ in. His spec, his error; Lonnie's ruling wins.
    300.1 (bars read similarity, provisional and watched), 300.2 (a
    contradicting exposure weighs more) and 300.3 (the asymmetry
    survives) all standing.
+
+## Directive 303 — The new way stands: ORDERING, not the old decisions
+
+CC is right to refuse the choice, and the fault is the Director's:
+297.B's "the same exposures must produce the same ownership
+decisions" contradicts 300.1, and it contradicts 223 — one clear
+exposure owns a word. The old accumulator climbing to 0.72 was the
+approximation; the geometry is the thing it was approximating.
+
+THE RULING IS (2): THE ORDERING MUST MATCH, not the old decisions.
+The same words come out owned in the same order and the same wrong
+links die; the exact moment of ownership is allowed to move, because
+it is now read off the geometry rather than off an accumulator.
+300.1 stands — the bars are set by watching, provisional until he
+has watched, and NOTHING is calibrated to make an old number land
+where it used to.
+
+297.B's clause is struck and replaced by this. Build it.
+
+Separately: the Director will verify 301's platform figures against
+sources and post them. Until that lands, REFERENCES.md is right to
+hold them as "what the ruling states" rather than as measured — that
+is the ledger working.
