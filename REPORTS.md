@@ -31338,3 +31338,39 @@ Proved both ways:
 
 **482 passed, 0 failed.** State hash unmoved at `dc5fc562` — this changes what is JUDGED, not what
 the mind does. Pushed, and the bench is restarted with the interpreter and host presence on.
+
+---
+
+# Report — 291 built. The counts sit under their glyphs, and the health page is now a panel he can see.
+
+**1. THE COUNT SITS DIRECTLY BELOW ITS GLYPH.** The sigil's own texture carries the mark at the top
+and the label near its foot, so the number now sits below the sprite's bottom edge entirely, centred
+on the mark and under its label — and with **no z offset**, so turning the board can never float a
+number over a neighbouring mark. In front of the glyph there was no telling which mark a number
+belonged to.
+
+**2. THE HEALTH PANEL, below WHAT IT IS RIGHT NOW.** `/health` has existed since 253 and you did not
+know it was there — a tool you cannot see is not a tool. Every system on one row:
+
+- its **name** and, beside it, **the file or files it is** — so a red light names what to open;
+- its **claim in plain words**, the same sentence the system makes about itself in its own file;
+- its **state** as a dot — green, red, grey — with red rows tinted so they are found without reading;
+- its **counters** with their values;
+- and for anything red, **the last offending value**.
+
+The header says either "*N parts are failing their own check*" or "*N of 39 checking themselves*".
+
+**It reads the same answer the map does** — one fetch, one truth — so the panel and the board can
+never disagree. The `/health` route is untouched and stays for my own use.
+
+**3. CLICKING A NODE OPENS ITS ENTRY.** A click on the map scrolls that system's row into the panel
+and outlines it, so a red light leads straight to what broke and to the file. Picked by the nearest
+mark to the click on screen — the sigils are sprites, so nearest-on-screen is what the eye means by
+"that one" — and **a drag is not a click**, so orbiting and panning never trigger it.
+
+*One thing caught by the suite:* my first version put `window.showHealthFor = …` at the page's top
+level, which threw in the headless clause that runs `draw()` — the same shape that caught me on the
+map's own hook a few directives ago. Guarded.
+
+**482 passed, 0 failed.** State hash unmoved at `dc5fc562` — none of this touches the mind. Pushed
+and live on the bench.
