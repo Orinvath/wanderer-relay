@@ -32232,3 +32232,86 @@ Director**, exactly as 258's twenty-three did.
 All three were reported as built when they were only ready. **A capability with no caller is not
 built.** From here a system is not done until something calls it and its own light can go green in
 a real life, and each of the three will say so in its own report.
+
+---
+
+# 297.B IS RED ON THREE CLAUSES, AND THEY ARE ALL ONE QUESTION
+
+The build is committed as `7917f91` and **the tree is red — I am saying so rather than sitting on
+it.** Everything the suite can reach before LIFE passes; three of LIFE's word-learning clauses do
+not, and all three are the same unanswered question rather than three faults.
+
+## FIRST, WHAT I FIXED WITHOUT ASKING, AND WHY IT WAS MINE TO FIX
+
+**I had left a fallback in: a `Learning` built without a seed kept the old accumulator.** That was
+half the arithmetic new and half of it old — bars from one world read against numbers from the
+other — and it is exactly what turned the first two clauses red. **It is gone. A seed is now
+required**, because a word's meaning belongs to the being whose life taught it, and every caller
+names whose words these are. That was my own decision to undo, not a design question.
+
+**The bars are now derived from the geometry rather than from the noise floor**, and the derivation
+is the thing itself: when k marks share a word's bundle equally, each reads about **1 over root k**.
+
+```
+one clear referent        1.000
+two candidates            0.707 each
+three candidates          0.577 each
+four candidates           0.500 each
+```
+
+**So a bar in this geometry IS a number of candidates.** `OWNED_AT` at 1/root 2 says *one mark
+holds more of the bundle than everything else together*; `KIN_AT` at 1/2 says *near enough to
+matter while as many as four things could be meant*. Nothing is calibrated to the old 0.72 — the
+resemblance is a coincidence of arithmetic and the reasoning owes it nothing.
+
+**And it makes 223 work, watched:**
+
+```
+heard once, one thing true      CHILLY -> COLD   1.000    owned at once
+heard once, three things true   SPOOKY -> null   0.584 / 0.577 / 0.565    it waits
+```
+
+## THE THREE REDS, AND THE ONE QUESTION UNDER THEM
+
+### 1. A CONTRADICTED LINK DROWNS THE MARK THAT IS RIGHT
+
+SPOOKY, after ten more hearings while only FEAR was true:
+
+```
+FEAR    t11/a0     +11.0 pull     reads 0.454     <-- the right answer, and it is UNOWNED
+DARK    t1/a10     -15.7 pull     reads -0.638
+NIGHT   t1/a10     -15.7 pull     reads -0.643
+```
+
+**FEAR is right, it has eleven clean exposures, and it reads 0.454 because the two dead links are
+pulling so hard the other way that they dominate the bundle.** A wrong link is not supposed to
+wash out and then keep voting; a mark the word is NOT is not evidence about which mark it IS.
+
+### 2. THE SAME THING, FROM THE OTHER END
+
+CHILLY, contradicted eight times: `COLD` reads **-1.000** and the word means nothing at all —
+where the eight hearings while WARM was true should have taught it WARM.
+
+### 3. A WORD ALWAYS HEARD WITH TWO THINGS TRUE CAN NEVER BE OWNED
+
+WELCOME, heard twelve times while HOST and COME were both true, reads **0.707 each** — which is the
+bar exactly, and it fails by a floating-point hair. **His own clause is about this case**: *"he
+typed Welcome, Greetings, it means hello and got I can't read that three times."*
+
+## THE QUESTION, AND I AM NOT ANSWERING IT
+
+**How does a contradiction enter the geometry?** Today an `apart` count becomes a negative pull,
+which is why a dead link keeps voting. Two shapes:
+
+1. **A washed-out link contributes NOTHING.** Clamp a link's pull at zero: once contradiction has
+   cancelled its evidence it leaves the bundle rather than pushing the other way. FEAR then reads
+   1.000 and is owned, CHILLY becomes WARM, and "washes out" means what the words say.
+2. **Negative pulls stay, and the reading is taken against the positive part only.** Keeps the
+   record that the word is NOT that mark, which may be worth having, at the cost of a second rule.
+
+**And separately: does a word heard only ever with two things true get owned?** Two candidates read
+0.707 forever. Either the bar sits below that and his WELCOME clause passes, or it sits at it and
+that word stays honestly ambiguous for life. **His clause says the first; the geometry as ruled says
+the second; I am not choosing between his ruling and his arithmetic.**
+
+**Nothing else in 304 is started.** Say the word on these two and the reds close the same day.
