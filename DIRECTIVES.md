@@ -6778,3 +6778,63 @@ other header not on this list is left exactly as it is.
   Its whole life, to a file   ->   SAVE MIND
 
 Same rule as the twelve: the old name becomes its tooltip.
+
+## Directive 297 — THE GEOMETRIC ENGINE: geometry.js, its own file and node
+
+Lonnie's ruling: build a vector-symbolic engine as a separate file
+the mind can CALL, not a rewrite of anything. It is arithmetic
+underneath the mind's laws, never a law itself.
+
+### A. WHAT IT IS
+`server/src/geometry.js` — one file, one node (276), its own health
+check. Vector Symbolic Architecture / hyperdimensional computing
+(cite Kanerva 2009; Plate 1995 HRR; Heddes et al. 2023 Torchhd —
+rows to REFERENCES.md per 227). No library, no model, no training:
+random high-dimensional vectors and three operations.
+
+1. A SYMBOL is a random vector of ±1, dimension 10,000, drawn from
+   the being's own seed so the space is reproducible like everything
+   else (062).
+2. BIND (elementwise multiply) ties two symbols together and is its
+   own inverse — binding twice returns the original.
+3. BUNDLE (add, then take the sign) holds many bound pairs in ONE
+   vector of the same size.
+4. SIMILARITY (dot product over D) answers how near two vectors are:
+   unrelated symbols read near zero by construction.
+5. Every symbol the engine holds must be a mark the language HAS or
+   a word the mind has heard — nothing enters from outside (the
+   221 law, unchanged).
+
+### B. ITS FIRST JOB — WORD LEARNING
+`learning.js` calls it instead of keeping its own confidence
+arithmetic: a word heard while a mark is true is BOUND and bundled
+into that word's vector. Meaning and strength then fall out of the
+geometry — repetition strengthens, a wrong exposure washes out —
+which is what the confidence machinery was approximating by hand.
+THE LAWS ARE UNCHANGED: one clear exposure still owns a word (223),
+provenance is still marked, contradiction still weakens. Only the
+arithmetic moves. Prove it against the current build: the same
+exposures must produce the same ownership decisions, and the wrong
+link must decay measurably.
+
+### C. LATER CALLERS, NOT NOW
+Named so the file is built to serve them, but not wired in this
+directive: the LANGUAGE SPACE's kinship (221's five hand-weighted
+sources become real geometry) and MEMORY's recall (a whole moment
+bundled into one vector, questioned by unbinding instead of
+scanning). Each gets its own directive after B is proven.
+
+### D. ITS HEALTH CHECK
+THE CLAIM: every vector it holds is a mark the language has or a
+word the mind has heard, and the same seed rebuilds the same space.
+Counters: symbols_from_outside_the_language · rebuild_hash_mismatch.
+Forced-fail at birth (254.D) like every other check.
+
+### E. WHAT IT IS NOT
+Not a model. Not a language organ. It does not speak, does not
+render, does not judge, and holds no opinion about grammar — that
+weakness is real and is the small-model's job (288's hybrid), not
+this file's. Geometry does MEANING; the model does FORM; the mind's
+laws decide WHAT. Write that division at the top of the file.
+
+Plan first (253), as always.
