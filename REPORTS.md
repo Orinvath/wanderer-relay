@@ -32539,3 +32539,84 @@ Still open, all of it his: **304 A** (consolidation's call site, ready to build)
 the life story goes) · **304 C** (which of the two shapes restores the reach) · **278.B** (its
 thirty-nine claims) · **295.3** (permission to switch the interpreter on) · **297.A's node** (where
 geometry sits on the map) · curiosity's bar and interests' rates.
+
+---
+
+# 306 — A, B, C AND D. And 306.A's answer is worse than the question expected.
+
+## 306.A — THE REACH, AND WHAT THE TRACE SAYS
+
+**306.A.1 is built.** `reach()` is read live and sits under the VOCABULARY bar in the gauge:
+
+```
+VOCABULARY   ▓▓▓▓░░░░░░  2 / 300
+402 of 402 reachable · state table alone 51
+```
+
+Live on his bench right now, by source: `language 201 · made-for 199 · here 2`. **The whole language
+is reachable and the state table alone would allow 51 of it.** That gap is the measurement
+vocabulary.js was written to keep honest, and this is the first time anything has looked at it.
+
+**306.A.2 — CONFIRMED BY TRACING, AND THE ANSWER IS NEITHER.** I asked whether the mind speaks from
+the whole language or from the state table. It does neither:
+
+```
+60 ticks of a real life
+   thinking hand-offs traced      151
+   vocabulary hand-offs traced      0
+   a train was running on          59 of 60 ticks
+   what its thoughts were about    remembered 26 · imagined 30 · need 3 · around 1
+```
+
+**`reachFor()` is never the path speech takes, because the source that calls it never runs.**
+`fromLanguage()` is the only caller, it sits last in `think()`'s option list, and `think()` returns
+at the train early-return — Directive 225, *a train runs first* — on **59 ticks out of 60**.
+
+**NAMED AS A FAULT, NOT FIXED:** the whole 402 is reachable and the mind reaches through none of
+it. His 220-era ruling is not being violated by a quiet return to the state table; it is being
+violated by the language source never being consulted at all. 225 was right about subjects and
+nobody costed what it did to the five sources underneath it. **304.C's two shapes are still the
+open question and I have not chosen between them.**
+
+## 306.B — THE LIFE STORY, AND 304.A UNDER IT
+
+Both call sites are written, in `rest.js`, in the ruled order: **the dream distils, consolidation
+keeps, then the life story is read off what was kept.** Watched on a real life reaching a real
+night:
+
+```
+dream then keep   {"tick":1,"night":0,"kept":0,"distilled":0}
+life story        SEARCHING — "a story needs 5 held lessons across 3 journeys; there are 0 across 0"
+```
+
+**Both fire, at the boundary, in the right order, and both answer honestly.** What I cannot show
+yet is a warm tier with anything in it or a story past SEARCHING: that needs a life with real days
+behind it, which is his bench running. **Per 304.E I am not calling either one done — they are
+called now, and their lights go green in a real life, on his bench, not in my harness.**
+
+One note on how it was watched: the mind's clock runs on **real elapsed time**, so a headless tight
+loop never reaches a night at all. The harness used a high hours-per-tick with a real delay between
+ticks. **His speed dial was not touched** — that is his instrument and this was a script.
+
+## 306.C — GEOMETRY HAS ITS NODE
+
+In the LANGUAGE neighbourhood at `[5.9, 1.5, 1.9]`, between LANGUAGE and LEARNING and lifted clear
+on z so it reads as its own node rather than as part of either cluster. **40 nodes now**, one file
+one node one name, and it lights on its own hand-offs like every other file.
+
+## 306.D — THE LAW IS IN CLAUDE.md
+
+*When behaviour changes, its check changes in the same commit.* With all three cases named — 266 in
+thinking, 290 in the interpreter, 289 in trust — and the question to ask of every ruling: **which
+counter is asserting the law this just replaced?** If none, the report says so. If one, it moves in
+that commit.
+
+I added the same fault from the other end beneath it, because it cost this session five checks: a
+check pointing at a file whose code has moved passes or fails on nothing at all.
+
+## AND ONE HE CAUGHT ON HIS OWN SCREEN
+
+**The halt bar was visible with nothing halted** — a red line across the top of a well bench. My
+CSS set `display:flex`, which beats the `hidden` attribute, so the element was "hidden" and drawn
+anyway. **An alarm that shows when nothing is wrong is worse than no alarm.** Fixed and pushed;
+he has it.
