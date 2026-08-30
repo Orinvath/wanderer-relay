@@ -31941,3 +31941,69 @@ neighbourhood — and every other node on that board has one because he gave it.
 systems list and its health check answers, so it is live and countable, but it will not appear on
 the map until he says where it goes and what it wears.** The six neighbourhoods are language,
 feeling, thought, memory, self and body.
+
+---
+
+# AUDIT — EVERY DIRECTIVE CHECKED AGAINST THE BUILD
+
+He asked me to make sure all directives are built. All 300 numbers were taken from
+`DIRECTIVES.md` and cross-referenced against every commit message in the repository and every entry
+in this file. What follows is what is actually outstanding.
+
+## NEVER BUILT, AND IT IS MY MISS — DIRECTIVE 293
+
+**A RED LIGHT HALTS THE MIND. Not one line of it exists.** Nothing in the build halts on a red;
+the mind runs straight past a broken system exactly as it did before he ruled it must not, which
+is the burying-the-evidence problem 293 was written to end.
+
+All five parts are outstanding:
+
+1. the halt at the tick the check broke — no further moments, decay, consolidation or writes;
+2. the banner naming the system, the counter and the offending value, with the health panel opened
+   on that entry;
+3. the Continue button, and the override recorded with the system it overrode;
+4. a test run stopping with the mind and recording as **HALTED · INVALID**, staying INVALID after a
+   resume;
+5. as Emulator behaviour — his instrument stopping to show him something, not a safety mechanism
+   in the mind.
+
+**How it was missed, plainly:** 293 and 294 landed on the relay in the same pull. I read them
+together, 294 named the fault that was on his screen at that moment, I built 294, and 293 was never
+opened again. No report was written saying so, which is the part that let it stay lost — an
+unbuilt directive that is reported is a queue; one that is not is a hole.
+
+## BUILT BUT INCOMPLETE — 278 B
+
+One check per FILE, roughly thirty-nine, where 259 ruled twenty-three. The build has **24 checks
+for 24 systems** — a system with three files still answers with one voice. This was reported as not
+done at the time and has not been picked up since.
+
+## BLOCKED ON A RULING, NOT ON ME
+
+| | |
+|---|---|
+| **297.B** | word learning onto the geometry — held by the sign-in-bundle flaw reported above |
+| **297.A's node** | `geometry.js` has no place on the map until he says where it sits and what shape it wears |
+| **295.3** | the interpreter marker is diagnosed to the exact line; the fix needs the interpreter switched on to catch the throw |
+| **the SAFETY clause** | one line, still reading `watching.js` for a tick that moved to `experiencing.js` in 253 |
+
+## KNOWN FAULTS STILL OPEN FROM EARLIER REPORTS
+
+Unchanged and unfixed: **consolidation never runs in a life** · **identity is never asked** ·
+**`vocabulary.js` is unreachable** while a train runs, because `think()` returns early ·
+**`curiosity.about` is never produced** · **curiosity and interests stay grey** until their bars
+exist.
+
+## CORRECTLY ABSENT
+
+**267, 268, 269 and 279 are WITHDRAWN** and no trace of them is in the build, which is right.
+Everything else numbered in the record either has a commit naming it, a report entry recording it,
+or is a diagnosis-only directive whose whole deliverable was the report — 252, 263, 264, 266 and
+271 are all of that kind and all have theirs.
+
+## WHAT I WILL DO ABOUT THE PROCESS
+
+The hole was not that 293 was hard. It was that two directives arrived in one pull and only one of
+them was ever acknowledged. **From here every pull gets each directive it contains named back in
+the report, including the ones I am not starting yet and why** — so an unstarted directive is a
+visible queue instead of something he has to ask about three days later.
