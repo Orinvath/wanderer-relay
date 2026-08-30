@@ -6190,3 +6190,44 @@ choose the end by the value. The bottomed case (<= -10) stands as is.
 Prove it: a fully satisfied being's moment must no longer speak a low
 word; a genuinely depleted one must still speak it; the bottomed
 wording unchanged. Full suite and state hash.
+
+## Directive 273 — ONE NODE, ONE FILE, ONE NAME
+
+Lonnie's law: a red light must name the file to open, with no
+translation step. Today the map shows 34 nodes for 23 systems and
+several node names match no file.
+
+### A. THE MAP IS EXACTLY THE 23 SYSTEMS — one node each
+Fold the extras into their owning system:
+- MEMORY + RECALL + COMMIT -> one node, MEMORY (memory.js)
+- VOICE + ECHO -> one node, VOICE
+- TIME · WORDS · SLEEP GATE · DREAM are tick steps in watching.js,
+  not systems with files: remove them as nodes. Their hand-offs
+  still show as THE PULSE travelling between the systems involved.
+No node may exist that does not own exactly one system file.
+
+### B. NODE NAME = FILE NAME
+Rename the files so each node's name IS its file:
+  TEN -> ASPECTS        traits.js     -> aspects.js
+  SPACE -> LANGUAGE     space.js      -> language.js
+  TELLERS -> TRUST      tellers.js    -> trust.js
+  EVIDENCE -> BELIEF    evidence.js   -> belief.js
+  SOUL                  persona.js    -> soul.js
+  VOICE                 speech.js     -> voice.js
+  FEELINGS              occ.js        -> feelings.js
+  GROWING -> GROWTH     growing.js    -> growth.js
+  BEING -> CLOCK        being.js      -> clock.js
+  HOST                  host-model.js -> host.js
+All other nodes already match their file and keep their names.
+Update every import; behaviour changes NONE; full suite and state
+hash prove the mind is untouched.
+
+### C. THE NODES DO NOT PULSE
+Only THE CORE beats (arousal). A SIGIL brightens only when its own
+system actually runs (270.B.3) and is otherwise still. Remove any
+idle pulsing on nodes.
+
+### D. THE RENAMES REACH EVERYTHING
+The 23-system list (258), the vitals (259), the health page, the
+legend, and the reports all use the same names. One vocabulary
+everywhere.
