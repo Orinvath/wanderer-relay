@@ -6109,3 +6109,33 @@ which means the ruling was never wired.
 4. Prove it: three forced states with rendered hue beside the
    palette value.
 His eye is the gate on all of it (118).
+
+## Directive 271 — ARCHAEOLOGY FIRST: why is a story beat's bearing zero?
+
+Lonnie's ruling on approach: feelings WORKED before — he watched joy,
+grief, the sphere changing colour. A beat's bearing being the literal
+0 is therefore a REGRESSION until proven otherwise, and the goal is
+not to make it work, it is to make it work CORRECTLY. Do not invent a
+new source. Go back to the source and find out why it was the way it
+was.
+
+DIAGNOSIS ONLY — change nothing:
+1. Find when `experiencing.js:394` (or its ancestor) began passing a
+   literal 0 as a beat's bearing. Name the commit, the directive it
+   was built under, and what the line did before it.
+2. State what the ORIGINAL design intended a moment's bearing to be
+   — quote the directive/record that ruled it — and whether beats
+   were ever meant to travel that path at all (before 217/226,
+   moments came from the world and the host; the thinking loop began
+   feeding beats through the same pipeline later).
+3. Say plainly whether the honest fix is RESTORING what was there,
+   or whether the record shows this path was never ruled and a
+   decision is genuinely missing.
+4. Report the evidence. No fix, no new source, no tuning.
+
+## Directive 272 — THE MIND MAP: zoom and orbit (approved with 270)
+
+On the stage: mouse wheel / pinch zooms in and out; drag orbits fully
+around THE CORE (horizontal and vertical, sensible limits so it never
+flips). The camera returns to its default framing on a double-click.
+Nothing else about the map changes.
