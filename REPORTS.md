@@ -31231,3 +31231,58 @@ so the day somebody makes `weaken` cost a teller again, they go red. **482 passe
 
 State hash unmoved at `0a8e4914`: this changes what a teller's word is worth, not what the mind
 does with a moment. Pushed and live on the bench.
+
+---
+
+# Report — 290. The interpreter lights, the number is always activity, and the audit found five more false darks.
+
+## 1 — the interpreter emits on both crossings
+
+`emit` appeared nowhere in `interpreter.js`, so the node could never light even while translating.
+Both crossings now say their own name — inbound (English to marks) and outbound (marks to English).
+
+**Proved on the live bench** with the interpreter switched on and one sentence said to it:
+**3 interpreter hand-offs**, where before there could never be any.
+
+## 2 — the number is activity, everywhere, without exception
+
+It swapped to the violation count when a system went red, which made one sigil's number mean
+something different from every other sigil's. It is now always **how many times that file fired this
+run**. Red is said in the colour; **the first violation pins the node and we stop and fix it** —
+there is nothing to count.
+
+## 3 — THE AUDIT of all 39 nodes
+
+**Before: 28 of 39 could light. Now: 32.** Five files were running and saying nothing — false darks,
+all fixed:
+
+```
+STORYGATES   the story gates run on every completed train   -> now emits
+CORD         the autonomic values go down the wire every tick -> now emits
+SURFACING    the attention door asks it of every moment     -> now emits
+GRAMMAR      the being's own sentence-building              -> now emits
+INTERPRETER  both crossings                                 -> now emits
+```
+
+*One of those was my own mistake twice over:* my earlier surfacing emission had been put inside
+`thresholdEvidence`, which is a MEASUREMENT function and not the tick path at all — so it had never
+fired once. It is now in the attention door, where surfacing actually runs.
+
+**The seven still dark, and none of them is a false dark — each is a file that genuinely does not
+run on a quiet bench:**
+
+```
+HOST           needs a host account; nobody is signed in
+CLOCK          capture and restore only, at save and load
+CENSOR         the school's path (banks, teacher) and the interpreter's, not the tick's
+INTERPRETER    dark only while switched off — proved above that it lights when on
+VOCABULARY     `fromLanguage` is unreachable while a train runs, and a train nearly always runs
+CONSOLIDATION  never called in a life — the open fault reported at 259
+IDENTITY       never asked in a life — the open fault reported at 259
+```
+
+**Two of those seven are the open faults you already have**, and VOCABULARY is a third of the same
+kind: a whole file the mind cannot reach, because `think()` returns early whenever a train is
+running and a train nearly always is. Reported, not fixed.
+
+**482 passed, 0 failed.** State hash `dc5fc562`. Pushed and live.
