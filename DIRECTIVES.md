@@ -6047,3 +6047,5 @@ gratification 219 · gratitude 239 · joy 260 · love 280.
   must read violet (260).
 - Prove it in the report: three states forced (joy, fear, grief-side)
   with the rendered hue beside the palette value.
+
+## Directives 267, 268, 269 — ALL WITHDRAWN. Pushed without Lonnie's approval; superseded by a single directive he approves. Do not act on them.
