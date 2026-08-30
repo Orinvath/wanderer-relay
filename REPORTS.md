@@ -30894,3 +30894,64 @@ scaling, no growth. Sigil scale is written once at build and never again.
 **1**), and THE PULSE travelling — **visible for 120 of 120 frames across 120 distinct positions.**
 
 **479 passed, 0 failed.** Pushed.
+
+---
+
+# Report — WHY THE FEELING SYSTEM IS BROKEN. It is not the machinery: it is starved of the one input it has.
+
+Diagnosis on live minds. Nothing changed.
+
+## What the bench shows
+
+**On your bench: 3 of the last 40 ticks carried any feeling.** On fresh minds, 10 to 20 of 60. So
+the Core is dark because there is nothing to show — that part is your own rule working.
+
+## Where it dies, measured step by step
+
+```
+ticks where BEARING was exactly zero          21-38 of 60   <- here
+bearing nonzero AND a feeling recorded        20 of 60
+bearing nonzero but nothing felt               2 of 60      (both blocked at the attention door)
+```
+
+**Almost all of the loss is one thing: the bearing is exactly zero.** Where a bearing exists, a
+feeling almost always follows — the OCC side is working. `appraisal.js:140` is
+`felt = bearing × (0.35 + 0.65 × room) × react × relevance`, and anything times zero is zero.
+
+An appraisal row from a live mind, and the shape repeats:
+
+```
+desirability 0.235 → 0.0456 → 0.0089 → 0.0017 → 0.0003 → 0
+praiseworthiness 0 · appealingness null · novelty 0 · relevance 1.0
+```
+
+## The three inputs, and why each is dead or dying
+
+**1. `moved` — the ledger — is asymptotically nothing.** Bearing is
+`(moved / 2) + thought.bearing`. `moved` is how far the lowest need shifted with the clock's part
+removed. The needs sit at **+10, +10, +10** and creep the last thousandth toward the ceiling, which
+is exactly the geometric decay in the numbers above. A contented, undisturbed being has a ledger
+that has stopped moving.
+
+**And `room` is zero for the same reason** — `room = mean((10 − state) / 20)` — so what little
+bearing survives is multiplied by 0.35 rather than 1.0.
+
+**2. `thought.bearing` was restored in 274 and 280 took away what it reads.** A beat bears the
+feeling it dwells on **or the depletion of the need it dwells on** — it finds those by the MARKS in
+the beat. 280 removed the need word from the moment; moments become memories; beats are drawn from
+memories. So the need words 274 depends on are being drained out of the very beats that need them.
+It still fires when an older memory carries one (27 of 34 beats here), but it is being starved.
+
+**3. Praiseworthiness and appealingness never fire at all.** Praiseworthiness needs lessons plus
+standards and an agent; appealingness needs a soul disposition matched by the moment. Both were
+zero and null on every appraisal row. So **desirability is the only live door into feeling**, and
+it is fed by the two dying sources above.
+
+## The plain statement
+
+A mind that is undisturbed, satisfied, and replaying its own memories has **no source of feeling
+left**. Its ledger has stopped moving, its beats no longer name the needs that gave them weight, and
+the other two OCC paths have never fired. It is not that feelings are broken — **there is nothing
+for them to be made of.**
+
+Nothing changed. Awaiting the plan.
