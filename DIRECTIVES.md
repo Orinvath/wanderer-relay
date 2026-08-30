@@ -5968,3 +5968,37 @@ and the random mark it was compared against. Then answer plainly:
   — i.e. is a lived episode's distance from its subject evidence of
   wandering, or evidence that life put unlike things together?
 Report the cause with the lines. No fix, no behaviour change.
+
+## Directive 267 — THE MAP IS AN INSTRUMENT, NOT AN ANIMATION
+
+Lonnie watched it: the pulse is bouncing around where no data is
+being processed. That is theatrics, and it breaks 261.3 outright.
+
+WHY THIS MATTERS ABOVE ALL: the whole reason this system exists is
+that green suites and confident reports could not be trusted — the
+map was built so the mind PROVES ITSELF ON HIS SCREEN. A map that
+animates a plausible path is worse than no map: it is a lie that
+looks like proof, and it destroys the one instrument he has. 100%
+accuracy is the entire point of the thing.
+
+THE LAW, absolute:
+1. THE DOT MOVES ONLY ON A REAL EMITTED HAND-OFF. Every step is
+   driven by an event the code emits at the moment it actually
+   passes data from one system to the next, naming from-system and
+   to-system. No timers, no loops, no scripted order, no
+   interpolation between events, no invented steps.
+2. NO EVENT = NO MOTION. If the mind is idle, paused, sleeping, or
+   between ticks, the map is STILL and dark. Stillness is
+   information.
+3. A GLOW IS ONE PROCESSED THING. A sigil brightens only when its
+   own system actually ran on that tick; counts are exact.
+4. THE PROOF, required in the report: (a) pause the mind — the map
+   freezes; (b) single-step one tick — the walked path matches that
+   tick's log line for line, posted side by side; (c) kill one
+   system's emission — its node goes dark and stays dark while the
+   rest still run.
+5. Anything the map cannot know from a real event IS NOT DRAWN. If
+   the event stream lacks a hand-off, emit it in the code — never
+   fake it in the display.
+Rip out any animation that does not meet this. Report with the
+three proofs; his eye is the gate (118).
