@@ -6484,3 +6484,28 @@ legible without hovering, clicking, or guessing.
    node is not travelling. The proof stands as 283.A.3 requires —
    from his bench, one taught sentence, the Pulse's path posted in
    order.
+
+## Directive 285 — The Mind Map's look: neighbourhood glow, the turn, and how a glyph lights
+
+Three corrections from Lonnie against the approved mock
+(reference/mind-map-mock.html), which he confirms feels right.
+
+1. THE NEIGHBOURHOOD GLOW IS ONE GLOW, NOT MANY. Each of the six
+   neighbourhoods carries a single large soft glow around the whole
+   area its systems occupy, in that neighbourhood's colour. Remove
+   the per-glyph halo. The region must read as a PLACE, so the six
+   places are obvious before any label is read (270.C).
+2. THE MIND TURNS, NOT THE CAMERA. The board itself rotates slowly
+   and continuously — he watches it turn. His controls (272 orbit
+   and zoom, 284 pan) move the CAMERA and are independent of that
+   turn; the turn continues while he moves around it, and the
+   double-click reset does not stop it.
+   NOTE for the 277 stillness proof: that proof is about SIGILS, not
+   the board. A paused mind means no sigil changes state; the turn
+   is not a sigil moving and does not break that law. Prove
+   stillness by the sigils' own values, as 277's harness already
+   reads them.
+3. A GLYPH LIGHTS IN ITS NEIGHBOURHOOD'S COLOUR when its own file
+   runs — brightness only, no scaling, no growth, exactly as ruled in
+   283.B. Idle glyphs sit dark and still inside their
+   neighbourhood's glow.
