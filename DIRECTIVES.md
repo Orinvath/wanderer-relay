@@ -6002,3 +6002,24 @@ THE LAW, absolute:
    fake it in the display.
 Rip out any animation that does not meet this. Report with the
 three proofs; his eye is the gate (118).
+
+## Directive 268 — The neighbourhoods must READ; the legend names the groups
+
+Lonnie's eye on the built map. Two failures against 261:
+
+1. THE CLUSTERS ARE NOT VISIBLE. 261.2 groups the systems into
+   NEIGHBOURHOODS — language · feeling · thought · memory · self ·
+   body — and position plus colour must make each group obvious at a
+   glance without reading a single label (proximity before boxes,
+   DESIGN.md §4). Right now they read as scattered points. Separate
+   the neighbourhoods in space so the gaps between groups are
+   plainly larger than the gaps within them, and make each group's
+   colour actually visible on its sigils at rest, not only when
+   flaring.
+2. THE LEGEND NAMES THE GROUPS. The bottom legend is for the SYSTEM
+   NEIGHBOURHOODS — one swatch per group, in its colour, named. The
+   central glow's meaning (feeling colour, arousal beat) is one line
+   beside them, not the whole legend.
+The reference mock (reference/mind-map-mock.html) shows both: six
+coloured neighbourhoods and the group legend. Match it.
+His eye is the gate.
