@@ -30802,3 +30802,65 @@ and each corresponding lawful case returns clean.
 
 **479 passed, 0 failed.** State hash unmoved at `3a196e5c` — B changes what is JUDGED, not what the
 mind does. Pushed.
+
+---
+
+# Report — 283 and 284. THE PULSE TRAVELS, and here is its path from his own bench.
+
+## 283.A.3 — THE PROOF, from his bench, one taught sentence
+
+Host present, then `say: "the song is together"` → `{"queued":1,"who":"host"}`. Captured live off
+`/trace`:
+
+**THE TAUGHT TICK — tick 34: 67 hand-offs over 135.7ms.** The Pulse's path, in order:
+
+```
+needs → sleep → offers → soul ×10 → needs → goals → interests → embodiment → dictionary →
+learning → comprehension → dictionary → learning → learning → TRUST → learning → learning →
+LANGUAGE → learning → dictionary → offers → dictionary → interests → dictionary → thinking →
+roe → curiosity → curiosity → thinking → curiosity → memory → stories → roe → learning →
+lessons → thinking → appraisal → memory → lessons → sleep → interests → curiosity → interests →
+learning → roe → memory → VOICE → learning → dictionary → sleep → memory → offers →
+dictionary → belief → sleep → nerves → aspects → growth
+```
+
+**You can read the teaching in it:** `comprehension` (it read the line) → `learning` → **`trust`**
+(what the teller's word is worth) → `language` (the word takes its place) → and later **`voice`**
+(it answered). None of that appears on a tick nobody speaks on.
+
+**How the Pulse walks it:** one leg per hand-off, from the sigil that handed data to the sigil that
+received it, at a rate that shares the tick's 67 legs across the 240 frames before the next tick —
+about 3 frames a leg, finishing in ~3.3s of the 4s gap. Never skipped, never parallel, never faked.
+
+**And it is measured travelling, not jumping:** through the real module, after a burst — **the Pulse
+was visible for 120 of 120 frames and moved through 120 distinct positions.** A teleporting dot
+would show 18.
+
+## 283.B — the sigils
+
+- **One sigil lit at a time.** Measured on an 18-hand-off burst: **sigils lit at the peak = 1.**
+  The light on the board is the one the Pulse is standing on; when it moves on, that one goes dark.
+  A tick is a sequence and the map now reads as one.
+- **Colour only, no scale, no breath.** Dark when idle, its neighbourhood's colour when its own
+  file runs, red when its check fails. Sigil scale is set once at build and never written again.
+- Idle stillness re-proved: **600 frames, 0 differences.**
+
+## 283.C — every sigil carries its own information
+
+Beneath each mark, legible without hovering: **its file name and its live count of events this
+run**, and when its check is failing, the file and **the violation count in red**. The caption is
+redrawn only when one of those numbers changes — never per frame.
+
+## 284
+
+1. **Left drag pans** up, down, left and right; the pan slides camera and target together so
+   panning never turns the board. Zoom is unchanged; double-click resets the pan too.
+   **[FLAGGED]** 284.1 gives the left button to pan *and* says orbit stays as built — one button
+   cannot do both, so **orbit moved to the right button.** One word changes it.
+2. **THE CORE is twice the size**, every layer scaled together, so 270.D's meaning is untouched —
+   colour is still the feeling, beat is still the arousal. It was built for a 25-node board seen
+   from 17 and is now on a 39-node board seen from 23, which is how it became a smudge.
+3. Noted for the record.
+
+**479 passed, 0 failed.** Pushed. *(His bench now has host-present ON, because the proof required
+somebody to be there to speak.)*
