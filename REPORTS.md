@@ -29816,3 +29816,84 @@ ruler — that is what the step is drawn from. For a replay it is the wrong one,
 on a perfectly faithful memory for as long as the being's life and the sheets disagree.
 
 No fix applied and no behaviour changed.
+
+---
+
+# Report — 270 BUILT, with the proofs. And the sigils: I had the ink inverted, twice.
+
+## The icons — the cause, measured
+
+Your marks were drawing as filled boxes. **The sheets are white ink on black paper**, and that is
+measured, not assumed: over the boxes for SLEEP, CURIOSITY, SAFETY and BODY the median pixel reads
+a luminance of **1 or 2** and the brightest reads **255**.
+
+I had it the wrong way round twice. First I inverted the crop — a white mark inside an opaque black
+rectangle, which is the little boxes you saw. Then I took each pixel's opacity from how **dark** it
+was, which is the same mistake in disguise: the black paper went solid and your line was rubbed
+out. It now takes opacity from how **bright** a pixel is, so the paper falls away to nothing and
+your stroke keeps its own weight and soft edges, in the same colour and glow as the others.
+
+## A — the names
+
+THE MIND MAP · THE CORE · SIGIL · NEIGHBOURHOOD · THE PULSE · THE RETURN. Written at the top of
+`mindmap.js` and used throughout it, the legend, and this report.
+
+## B — THE PULSE IS AN INSTRUMENT. The three proofs you asked for.
+
+Every one of the **68 hand-offs** in the tick now emits at the code path as it happens, and they
+are streamed to the page the instant they fire. No inference, no interpolation, no queue replayed
+afterwards.
+
+**(a) Pause the mind — the map freezes.** 500ms with no tick taken: **0 hand-offs emitted.** THE
+PULSE cannot move because nothing moved it.
+
+**(b) Single-step one tick — the walked path beside that tick's own log.** Tick 5, 35 hand-offs:
+
+```
+needs → sleep → offers → needs → offers → interests → body → space → learning → comprehension →
+space → space → interests → space → thinking → thinking → interests → interests → space →
+appraisal → memory → lessons → sleep → interests → curiosity → interests → learning → memory →
+offers → space → lessons → sleep → body → roe → growing
+```
+That tick's own log: `chose=singing · thinking=about:SONG · moment="SONG LONELINESS"`.
+**15 SIGILS lit.** The eight systems that did not run — safety, stories, tellers, voice, soul,
+identity, being, interpreter — **are not drawn at all.**
+
+**(c) Silence one system's emission.** With `memory` silenced for 3 ticks: **99 hand-offs seen, 0
+of them memory** — its SIGIL stays dark while 15 other systems keep running. Emission restored:
+**3 memory hand-offs on the very next tick.**
+
+**What honest looks like, so it is not mistaken for a fault:** a tick runs in 1–45ms and the bench
+takes one every 4 seconds, so THE PULSE crosses in a flash and the map is then still. That
+stillness is the information.
+
+## C — the neighbourhoods read at a glance
+
+**Measured, not eyeballed.** Each NEIGHBOURHOOD is pushed out from the middle about its own centre,
+so every distance *within* a group is untouched — your approved layout is preserved exactly — and
+every distance *between* groups grows:
+
+| | within (mean) | between (mean) | closest two from different groups | ratio |
+|---|---|---|---|---|
+| as approved | 3.71 | 8.39 | **2.21** | 2.26 |
+| now | **3.71** (unchanged) | 12.26 | **4.19** | **3.31** |
+
+The nearest pair from two different groups is now further apart than the average pair within one.
+**Each group's colour is on its sigils at rest**, not only when flaring — it was flat grey until
+something ran, and the map is still most of the time by design. The legend now **names the
+neighbourhoods** as one titled row of swatches, with THE CORE and THE PULSE as one line each
+beside them.
+
+## D — THE CORE wears your palette
+
+The mock's gold was still on. It reads the one 22-slot table and nothing else, and **no feeling
+active is colourless, never a default hue**.
+
+```
+fear    hue   0  ->  rgb(228,88,88)   #e45858
+hope    hue 157  ->  rgb(88,228,174)  #58e4ae
+love    hue 280  ->  rgb(181,88,228)  #b558e4
+none         —   ->  rgb(158,158,158) — colourless, not a hue
+```
+
+State hash unmoved. **476 passed, 0 failed.** Pushed. Your eye is the gate.
