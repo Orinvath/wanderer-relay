@@ -30615,3 +30615,63 @@ that would come from — is what the mind IS, and that is yours. The three place
 opened, named and not chosen: what a beat contributes to a moment (`experiencing.js`, the
 `slice(0, 2)`), whether a replayed moment should be re-committed as a new memory at all, and
 whether curiosity should have any source other than novelty-against-what-it-holds.
+
+---
+
+# Report — 280 BUILT AS RULED. And the honest result: taking the need out did NOT open the loop.
+
+## What was built
+
+1. **The need word is out of the moment.** It was appended to every memory by 265.1 and was never
+   ruled in. Its real jobs are untouched — it still shapes attention and surfacing, still drives the
+   choosing, and is still state the mind can think ABOUT (217's own source, which is how a need word
+   legitimately reaches a moment). **A need bottoming out still enters**, because that is an event.
+2. **The act enters only when it CHANGED.** It sang on thirty ticks out of thirty and wrote `SONG`
+   into all thirty memories — a status line wearing an event's clothes.
+3. **Silence is carried as silence.** With the status line gone, a tick where nothing happened and
+   the act did not change leaves a moment with no marks in it — which is correct, and which the
+   embedder cannot take: it returned nothing usable and **the tick died**. Nothing is now embedded
+   or committed for a silent tick, and the tick goes on. That is 188's "silence where there is no
+   row", one level down.
+
+## 280.4 — the proof, and the part you need to see
+
+**Memories are still more than one mark wide, and replay still runs.** 265's problem has not
+returned:
+
+| | memories | more than one mark | mean width | replays in 30 ticks |
+|---|---|---|---|---|
+| WHYRED | 30 | 26 | 1.87 | 14 |
+| ALONE-2 | 30 | 20 | 1.67 | 10 |
+| ALONE-3 | 30 | 23 | 1.77 | 9 |
+
+**But the loop is not open.** Distinct moments for a mind ALONE, before → after:
+
+| | distinct in 30 | last 10 distinct |
+|---|---|---|
+| WHYRED | 6 → **4** | 2 → **2** |
+| ALONE-2 | 5 → **6** | 1 → **1** |
+| ALONE-3 | 4 → **5** | 3 → **3** |
+
+Over 80 ticks WHYRED still ends up alternating two moments: `RESPECT HIDDEN` and `HIDDEN SONG`.
+
+**The need word was one of the four words in the cycle. It was not the mechanism.** The circle is
+narrower now and still closed: the moment is the beat's first two marks → the moment is written to
+memory → the next replay draws its beats from those memories → the beat's marks are that text → the
+next moment is those two marks again. Removing a word from the loop shortened it; it did not open
+it. Spoken to, the same build gives **12 distinct moments in 30** — a host is still the only thing
+that puts a new word in.
+
+Reporting that rather than presenting the build as a fix.
+
+## Two suite clauses corrected, and they were mine
+
+- **226's live clause judged only "the longest trail"**, which I invented. A two-beat story can land
+  on two feelingless ticks by luck while other stories in the same life moved plenty. It now asks
+  what 226 actually says — did *a* story it told move its feelings — and the answer is **8 of 41**.
+- **And both clauses now ask the GATE's own question.** I was filtering trails by "any value above
+  zero"; `wasFelt` asks whether the reading MOVED across the telling, its range clearing 249's bar.
+  Those are different claims. A real told story passes its own gate, **moving by 0.147**.
+
+**478 passed, 0 failed.** State hash moved to `e6744f65` — the moments themselves changed, which is
+the directive. Pushed.
