@@ -30864,3 +30864,33 @@ redrawn only when one of those numbers changes — never per frame.
 
 **479 passed, 0 failed.** Pushed. *(His bench now has host-present ON, because the proof required
 somebody to be there to speak.)*
+
+---
+
+# Report — 285 built. One glow per place, the mind turns, the glyph lights by colour alone.
+
+**1. THE NEIGHBOURHOOD GLOW IS ONE GLOW.** The per-glyph halo is gone — thirty-nine little lamps
+made no PLACES, only a scatter of dots that happened to share a colour. Each of the six
+neighbourhoods now carries a single soft glow, centred on the middle of its own systems and sized
+to reach its furthest member, so the region is the shape the systems actually make rather than a
+circle drawn over them. Drawn behind everything, so the marks sit inside their place.
+
+**2. THE MIND TURNS, NOT THE CAMERA.** Everything that IS the map — the sigils, the wires, THE
+RETURN, the six glows, THE CORE and THE PULSE — now lives on a board of its own, and the board turns
+slowly and continuously. Your controls move the CAMERA and are independent of it: you can orbit,
+zoom and pan around a mind that keeps turning, and the double-click reset puts the camera back
+without stopping it.
+
+**And it does not break 277, exactly as your note says.** That law is about SIGILS. A paused mind
+changes no sigil's colour, and the harness reads those values rather than where the board happens to
+be facing. Re-proved after the change: **600 frames idle, 0 differences; one hand-off lights exactly
+one sigil; back to the identical frame after the hold.**
+
+**3. A GLYPH LIGHTS IN ITS NEIGHBOURHOOD'S COLOUR.** Already as ruled in 283.B and unchanged: dark
+and still when idle, its neighbourhood's colour when its own file runs, brightness only — no
+scaling, no growth. Sigil scale is written once at build and never again.
+
+**Still holding from 283:** one sigil lit at a time (measured at the peak of an 18-hand-off burst:
+**1**), and THE PULSE travelling — **visible for 120 of 120 frames across 120 distinct positions.**
+
+**479 passed, 0 failed.** Pushed.
