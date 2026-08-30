@@ -6751,3 +6751,24 @@ everything, at the tick it happened.
    interpreter carried is marked, always, from the moment it is
    switched on, and the mark survives a re-render of older lines.
    Say plainly in the report where the mark was being lost.
+
+## Directive 296 — PANEL RENAMES (Lonnie's list, final)
+
+Rename every panel header exactly as follows. The OLD name becomes
+that panel's mouse-over tooltip (292.1), so nothing is lost:
+
+  What it has learned                 ->  LEARNED
+  What it is right now                ->  MOOD
+  What each part says about itself    ->  HEALTH
+  Each thing, as it landed            ->  THOUGHTS
+  Its makeup — the ten aspects        ->  PERSONALITY
+  Big Five — DeYoung 2007             ->  TRAITS
+  Who this one is                     ->  SOUL
+  What it is made for                 ->  DISPOSITIONS
+  What it is drawn to, and away from  ->  PULLS
+  What it has done                    ->  ACTS
+  Levers                              ->  TEST
+  Chat Log                            ->  CHAT LOG
+
+Nothing else changes — these are labels and their tooltips only. Any
+other header not on this list is left exactly as it is.
