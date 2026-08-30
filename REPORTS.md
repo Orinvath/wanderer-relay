@@ -29897,3 +29897,78 @@ none         —   ->  rgb(158,158,158) — colourless, not a hue
 ```
 
 State hash unmoved. **476 passed, 0 failed.** Pushed. Your eye is the gate.
+
+---
+
+# Report — the glow, the Core, and the answer to your question: NO, a mind that feels nothing is not right. Here is why it feels nothing.
+
+## The neighbourhood glow — fixed
+
+It sat at 0.16 in the mock and 0.30 after the first correction, and both read as a wash you had to
+already know the grouping to see. It is at **0.72 at rest**, wider, and with a fuller falloff so the
+colour has room to be a colour rather than a rim. The glow is the only thing carrying the
+neighbourhoods now that your marks keep one ink, so it has to carry them properly.
+
+## The Core colours — measured off your map, not eyeballed
+
+I sampled all 22 swatches out of the palette you sent. **Your hues were already right in my table;
+my rendering was wrong** — I was drawing at saturation 0.72 / lightness 0.62 while every one of
+your swatches sits at **0.84 / 0.56**. That is why it looked washed out beside yours.
+
+```
+fear   #ed3131  (yours #ed2e2e)      pity   #edda31  (yours #edd92f)
+hope   #31eda5  (yours #3beda2)      love   #ae31ed  (yours #ac50ee)
+```
+
+**But that is not why the Core looked wrong to you.** It looked wrong because it is grey — and it
+is grey because the mind is feeling nothing at all.
+
+## YOUR QUESTION — no, it is not right, and it is a fault
+
+Measured on the live bench: **0 of 40 ticks recorded any feeling**, while 39 of 40 moments passed
+the attention door. It is attending to its whole life and feeling nothing about any of it.
+
+### The cause, line by line
+
+An appraisal row from a live mind reads:
+
+```
+moment = "SAFETY SONG LONELINESS"   passed_relevance = 1   relevance = 1
+desirability = 0    praiseworthiness = 0    appealingness = null
+```
+
+OCC produces a feeling out of desirability (events), praiseworthiness (agents) or appealingness
+(objects). All three are flat, so there is nothing for a feeling to be made of.
+
+**Desirability is zero because BEARING is zero.** `appraisal.js:140` —
+`felt = bearing * (0.35 + 0.65 * room) * react * relevance`. Anything times zero is zero.
+
+**And bearing is zero on 19 of 20 ticks.** `experiencing.js:647` —
+`bearing = (moved / 2) + (thought?.bearing ?? 0)`:
+
+- `moved` is how far the lowest need shifted **with the clock's part taken out** (212.C2). On a
+  bench with nobody there and no act completing, the ledger only moves by the clock, so this is 0.
+- `thought.bearing` is **hard-coded to 0** for a story beat — `experiencing.js:394`. And since 265
+  every train is a remembered replay, so the thought IS a beat on nearly every tick.
+
+So: **the moment the mind appraises is almost always a beat of a story it is replaying, and a beat
+is declared to be worth nothing, so the appraisal is handed a zero and the mind feels nothing about
+its own life.**
+
+### It has a second consequence you already know about
+
+249's first gate asks what its feelings were doing while a story was told — "a story that moved
+nothing is babble however long it ran". With every beat's bearing at zero, **that gate can never
+pass**, so a story it tells itself can never teach it anything.
+
+### Why I have not fixed it
+
+What a remembered moment is *worth* to the being — whether replaying a lonely evening should move
+it the way living one did, and by how much — is what the mind feels. That is yours, not mine. The
+three obvious places it could come from, all named rather than chosen:
+
+1. the beat's own marks (a beat holding LONELINESS bears differently from one holding TOGETHER),
+2. what the mind felt when it *lived* that episode, carried on the memory and replayed with it,
+3. the need the subject touches, the way a thought about a need already carries its depletion.
+
+Say which and I will build it. **476 passed, 0 failed. Pushed.**
