@@ -6428,3 +6428,41 @@ of 40 episodes and score 0.00 because they sit on different sheets.
    something it has lived. That is the check, not nearness.
 Each kind judged by its own law. Show the light before and after,
 and what turned it red or green.
+
+## Directive 283 — THE PULSE MOVES OR THE MAP IS NOTHING. And the sigils are still.
+
+Lonnie's screen after every build so far: NO PULSE. Nothing was
+proved about the Pulse in 282 — those proofs tested sigils lighting,
+never the Pulse travelling. The one thing he asked for is the one
+thing nobody tested.
+
+### A. THE PULSE — the whole point of the instrument
+1. THE PULSE IS A MOVING LIGHT that travels from the sigil that
+   handed data to the sigil that received it, on every real emitted
+   hand-off, one at a time, in the order the tick ran. It is how he
+   sees WHERE the mind is working. Without it there is no map.
+2. It must be VISIBLE TO A HUMAN EYE: a hand-off's travel takes long
+   enough to follow. If the mind runs faster than the eye, the Pulse
+   walks the real hand-offs in real order at a followable rate and
+   the queue depth is shown — never skipped, never faked, never
+   parallel.
+3. PROOF REQUIRED, from HIS bench, not a stub: teach the mind one
+   sentence and record the map; the report states how many hand-offs
+   occurred and posts the Pulse's path for that exchange, in order.
+   If it cannot be seen travelling, it is not built.
+
+### B. THE SIGILS DO NOT SCALE
+1. A tick is a SEQUENCE. Multiple sigils growing at once is
+   impossible and must never appear. Whatever hold makes several
+   look simultaneously active is wrong — one system is working at a
+   time and the map must read that way.
+2. Sigils do not scale, breathe, or animate at all. A sigil shows
+   its state by COLOUR ONLY (229's law, his standing ruling): dark
+   when idle, its neighbourhood colour when it runs, red when its
+   check fails. THE PULSE carries motion; the sigils do not.
+
+### C. THE SIGILS CARRY THEIR INFORMATION
+Each sigil shows, beside its mark: its NAME (which is its file) and
+its live count of events this run. A red sigil names its file and its
+violation count. That is the information he asked for, and it must be
+legible without hovering, clicking, or guessing.
