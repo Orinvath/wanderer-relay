@@ -30293,3 +30293,62 @@ The 23-system list, the vitals' counters, the health page and the map all read t
 under the new keys, none unwired.
 
 Pushed.
+
+---
+
+# Report — 276 DONE. ATTENTION and FEELINGS are back, and they can actually light. The full mapping, on the record.
+
+## What was needed beyond restoring them
+
+Putting the two nodes back was two lines. **Making them real was not.** The trace emits under a
+SYSTEM's name, and both files live inside system 2 — so their hand-offs arrived labelled
+`appraisal` and neither node could ever have lit. That is the green-light-with-no-wire you keep
+catching, in a new coat: a node on your board that cannot light is worse than no node.
+
+So the appraisal loop now hands off in the name of the file doing the work: `attention.js` when the
+door is asked, `feelings.js` when the refraction runs. Measured on three real ticks — **attention
+emitted 3 times, feelings 2** — where before they emitted nothing, ever.
+
+THE RETURN leaves from FEELINGS again, where it belongs.
+
+## THE MAPPING — 25 nodes, and the file each one names
+
+```
+CHOOSING    -> offers.js + goals.js          ATTENTION   -> attention.js
+NEEDS       -> needs.js                      FEELINGS    -> feelings.js
+SAFETY      -> safety.js                     ASPECTS     -> aspects.js + roe.js
+APPRAISAL   -> attention.js + appraisal.js   LEARNING    -> learning.js + vocabulary.js
+               + feelings.js + host.js       LANGUAGE    -> language.js + glyphs.js + dictionary.js
+COMPREHEND  -> comprehension.js              VOICE       -> voice.js + grammar.js + censor.js
+INTERPRETER -> interpreter.js                STORIES     -> stories.js + storygates.js
+TRUST       -> trust.js                      LESSONS     -> lessons.js + belief.js
+THINKING    -> thinking.js                   MEMORY      -> memory.js + surfacing.js
+CURIOSITY   -> curiosity.js                  SLEEP       -> sleep.js + consolidation.js
+INTERESTS   -> interests.js                  BODY        -> embodiment.js + cord.js + nerves.js
+SOUL -> soul.js   IDENTITY -> identity.js   GROWTH -> growth.js   CLOCK -> clock.js
+```
+
+## AND HERE IS WHERE YOUR LAW IS NOT YET TRUE — 11 nodes still name more than one file
+
+> *"if any node covers more than one file, that node is wrong."*
+
+By that measure **11 of 25 nodes are wrong**, and APPRAISAL is now the worst of them — it names
+four files, two of which are the nodes I just restored beside it:
+
+```
+CHOOSING   offers.js + goals.js                 LESSONS  lessons.js + belief.js
+APPRAISAL  attention.js + appraisal.js          MEMORY   memory.js + surfacing.js
+           + feelings.js + host.js              SLEEP    sleep.js + consolidation.js
+ASPECTS    aspects.js + roe.js                  STORIES  stories.js + storygates.js
+LEARNING   learning.js + vocabulary.js          VOICE    voice.js + grammar.js + censor.js
+LANGUAGE   language.js + glyphs.js              BODY     embodiment.js + cord.js + nerves.js
+           + dictionary.js
+```
+
+Finishing the law means **14 more nodes** — a node per file — and two things I will not decide:
+**where each one sits** on the board, and whether the health strip follows. Today the strip is 259's
+23 vitals, one per system; a red light naming exactly one file means a vital per file, which is 37
+of them, and 259 ruled 23. Those two need your word.
+
+**478 passed, 0 failed.** State hash moved `7b20b1f1` → `0a40bf94`, which is the appraisal now
+carrying a trace handle it did not carry before; nothing about what the mind does changed. Pushed.
