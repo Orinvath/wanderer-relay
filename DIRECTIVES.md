@@ -6908,3 +6908,43 @@ Lonnie's rulings on the 297 plan.
    a later directive, unstruck.
 
 Build A and D now, then B.
+
+## Directive 301 — THE 1.0 PLATFORM DECISION (recorded, not to be re-litigated)
+
+Lonnie's ruling after the memory and latency research. Recorded so it
+is a decision rather than a discovery later.
+
+### THE STACK, 1.0
+- THE MIND: plain arithmetic, no model, runs anywhere. Free.
+- SIGHT · HEARING · LANGUAGE: ONE small multimodal model on the
+  device — the Gemma 4 E-series class (E2B: text, image and audio in,
+  text out, ~2 GB, under 1 GB text-only quantised; supported by
+  llama.cpp, Ollama and Google's mobile runtime). One model covers
+  all three rather than three models stacked.
+- SPEAKING: the phone's own built-in TTS. Free, no model shipped. A
+  distinctive per-Avatar voice would need a separate small TTS model
+  and is explicitly NOT in 1.0.
+- THE LANGUAGE SPACE: 16 MB, rebuilt from the seed on load, shared by
+  every being in a world — never stored per Avatar, never shipped.
+
+### WHY ON-DEVICE AND NOT SERVED
+The Avatar's language job is one short sentence in, one short
+sentence out, occasionally — the best case for on-device (short
+context, low frequency, never reaching the thermal window that
+punishes long streaming). Served costs 200–600 ms before the first
+word, a bill that grows per user, and a being that goes mute without
+signal, which is a broken promise. On-device fails gracefully
+instead: no signal, the mind still lives, still thinks, still shows
+its glyphs, and speaks its own earned words.
+
+### THE LAW THAT MAKES THIS SAFE TO DECIDE NOW
+THE MODEL IS SWAPPABLE BY DESIGN. The mind does not know or care
+which model translates for it (288's division: geometry does
+MEANING, the model does FORM, the mind's laws decide WHAT). A better
+model in a year is a file replacement, not a rewrite. Keep it that
+way: nothing in the mind may ever depend on a particular model's
+name, size, or behaviour.
+
+Reference: reference/ai-timeline-and-hybrid.html. Sources to
+REFERENCES.md per 227: Gemma 3n / Gemma 4 E-series model cards and
+the 2026 on-device inference literature.
