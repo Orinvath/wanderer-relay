@@ -30234,3 +30234,62 @@ For the record, the dictionary's own ends: relatedness `LONELINESS` / `TOGETHER`
 **478 passed, 0 failed.** State hash moved `2ee4dd94` → `7b20b1f1`, which is expected and is the
 change itself: the fixture's moments now say the end their needs are actually at. Nothing else
 moved. Pushed.
+
+---
+
+# Report — 273 DONE. One node, one file, one name. And one thing flagged rather than decided.
+
+## B — the renames, and the proof the mind is untouched
+
+Ten files moved with `git mv`, every import in the repo rewritten, plus every quoted filename the
+import pass missed:
+
+```
+traits.js -> aspects.js     space.js   -> language.js   tellers.js -> trust.js
+evidence.js -> belief.js    persona.js -> soul.js       speech.js  -> voice.js
+occ.js -> feelings.js       growing.js -> growth.js     being.js   -> clock.js
+host-model.js -> host.js
+```
+
+**The state hash is byte-for-byte what it was before the rename — `7b20b1f1` before, `7b20b1f1`
+after.** The mind did not notice. Suite **478 passed, 0 failed.**
+
+## A — the map is exactly the 23 systems
+
+25 nodes went; 23 remain, one per system, and **every node label is the name of the file that
+system owns.** A red light names the file to open with no translation step.
+
+- MEMORY + RECALL + COMMIT → **MEMORY** (memory.js)
+- VOICE + ECHO → **VOICE** (voice.js)
+- TIME · WORDS · SLEEP GATE · DREAM → **removed**; they are tick steps in watching.js and own no
+  file. Their hand-offs still show, as THE PULSE travelling between the systems that do the work.
+- HOST → folded into system 2, which now lists host.js among its files (per 270's amendment).
+
+## FLAGGED, NOT DECIDED — ATTENTION and FEELINGS
+
+Your fold list named MEMORY/RECALL/COMMIT, VOICE/ECHO, and the four to remove. **It did not mention
+ATTENTION or FEELINGS**, and both own a real file — `attention.js` and `feelings.js`, the very file
+B told me to rename occ.js into. But both are files of **system 2**, and your heading is "EXACTLY
+THE 23 SYSTEMS — one node each", which would make them 25.
+
+**I folded them into APPRAISAL to obey the heading.** If you want them back as their own nodes it is
+two lines in the node list and one line each in the map — say the word. The cost of the fold as it
+stands: a red light on system 2 names three files rather than one, which is the only place your law
+is not yet literally true.
+
+THE RETURN now leaves from APPRAISAL rather than a FEELINGS node, since feelings.js is one of
+appraisal's own files. Same loop, same meaning.
+
+## C — nothing pulses but THE CORE
+
+Removed the idle drift that was rotating THE CORE's layers on their own, too. A SIGIL brightens only
+when its own system runs; everything else on the board is still. Movement with no event behind it is
+the one thing this map is not allowed to do.
+
+## D — one vocabulary
+
+The 23-system list, the vitals' counters, the health page and the map all read the same words now:
+**trust · language · aspects · growth · clock**, and `Lessons & Belief`. Health answers with all 23
+under the new keys, none unwired.
+
+Pushed.
