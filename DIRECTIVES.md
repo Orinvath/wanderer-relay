@@ -6308,3 +6308,25 @@ fails review.
 
 Report the full mapping again when done: every node, its one file,
 and proof each one can light.
+
+## Directive 279 — ARCHAEOLOGY: when did a mind alone stop making anything new?
+
+The closed loop is a regression until proven otherwise. Curiosity
+roused, interests formed, and moments varied in earlier lives; today
+a mind alone produces 3 distinct moments in 30 ticks and nothing new
+can enter.
+
+DIAGNOSIS ONLY — change nothing:
+1. Find the commit where a mind ALONE stopped producing new moments.
+   Compare a bench run before and after each candidate change
+   (265's moment composition; the replay-then-recommit path; 226's
+   memory-first rule; the beat's slice(0,2)).
+2. Say what each of those lines did BEFORE, and quote the directive
+   that ruled it.
+3. State plainly whether the loop was ever ruled — or whether it is
+   the accidental product of changes each of which was correct
+   alone.
+4. Name what the record says should keep a solitary mind's inner
+   life moving (217's thinking loop sources, curiosity's own drive,
+   sleep's consolidation) and which of those have stopped running.
+Report the evidence with commits and lines. No fix.
