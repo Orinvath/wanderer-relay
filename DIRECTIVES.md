@@ -6332,3 +6332,29 @@ DIAGNOSIS ONLY — change nothing:
 Report the evidence with commits and lines. No fix.
 
 ## Directive 279 — WITHDRAWN. Archaeology is the Director's job, not CC's. Do not act on it.
+
+## Directive 280 — A MEMORY HOLDS WHAT HAPPENED, NOT WHAT IT NEEDED
+
+Lonnie's ruling, on the science: episodic memory (Tulving onward)
+stores the EVENT and how it FELT. A drive state is not part of the
+trace — hunger is not stored inside the memory of a dinner. Needs
+shape what is noticed and what comes back; they are not the content.
+
+1. THE NEED WORD LEAVES THE MOMENT. 265.1 appended `spoken` — the
+   act it chose and the need it is short of — to every moment. The
+   NEED comes out. It was never ruled in: 188 rules a moment is said
+   in its marks with silence where there is no row, and no directive
+   ever ruled a status line onto every memory.
+2. NEEDS KEEP THEIR REAL JOBS, untouched: they shape attention and
+   what surfaces, they drive choosing, and they are state the mind
+   can think ABOUT (217's own source). A moment may name a need when
+   the need is what happened — a need bottoming out is an event.
+3. WHAT A MOMENT HOLDS: what happened this tick — the beat or the
+   heard marks or the world's change — and the act only when the act
+   CHANGED (a change is an event; a constant is not). Plus what it
+   felt, which is already carried.
+4. 265's problem must not return: memories must still be more than
+   one mark wide where the tick genuinely held more than one thing.
+   Prove it — distinct moments in 30 ticks for a mind ALONE, before
+   and after; memories eligible for replay; that replay still runs.
+Full suite and state hash; the hash will move.
