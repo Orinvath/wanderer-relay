@@ -30733,3 +30733,72 @@ source being dead.
 
 **479 passed, 0 failed.** State hash moved to `3a196e5c` — the mind thinks differently now, which is
 the directive. Pushed.
+
+---
+
+# Report — 282. The PULSE was never deaf: it was working and invisible. And the thinking check now asks each kind its own question.
+
+## A.1 — THE BROKEN LINK, NAMED BEFORE FIXING
+
+I tested the four links one at a time on the live bench:
+
+```
+1. does the code emit a hand-off?          YES — 51 in one tick: needs sleep offers soul goals …
+2. does it reach the served stream?         YES — data: {"n":18547,"system":"needs","tick":341,…}
+3. does the map read it, do names match?    YES — EventSource('trace'); 0 emitted names lack a node
+4. does reading it move anything?           YES — but for 84ms out of every 4000
+```
+
+**THE BROKEN LINK IS THE FOURTH, AND IT WAS MY NUMBER.** A sigil was held lit for **90ms** after its
+hand-off. Measured by pushing a real burst — 18 hand-offs across 40ms — through the actual map
+module: **the board was lit for 5 frames out of 60. Two per cent of a tick period.** The instrument
+was working perfectly and was, for practical purposes, invisible. You were teaching it and looking
+at a map that was dark 98% of the time.
+
+`HOLD_MS` is now **700** and is a named dial beside GLOW. It is not an animation and invents
+nothing: a sigil is lit or it is not, and this is only how long a real event is *shown* for — the
+way a needle has a settling time. Same burst, re-measured: **18 sigils at the peak, lit for ~685ms
+of every 4000.** Dark for the other 83%.
+
+## A.2 — THE THREE PROOFS 270.B.4 REQUIRED, delivered
+
+Run through the real map module with a stubbed renderer, so the values recorded ARE what the pixels
+are made of:
+
+```
+(a) MIND PAUSED       600 frames, ten seconds:  0 frames differed from the first
+(b) ONE HAND-OFF      sigils that changed: 1   (exactly its own)
+    and after the hold expires: back to the still frame EXACTLY
+(c) SILENCED 'memory' 3 ticks, 99 hand-offs, 0 of them memory — its sigil dark throughout,
+                      15 other systems still running; restored: 3 memory hand-offs the next tick
+```
+
+## B — each kind of train judged by its own law
+
+266's finding, fixed. The old check read only the FIRST word of each beat, never the subject, and
+asked whether words are related IN THE LANGUAGE — when a replay's job is to record what LIFE put
+together.
+
+- **A REPLAY** is judged by **226.2**: do the beats hold the subject, and do they ascend in lived
+  order. Nearness has nothing to do with it.
+- **AN IMAGINED train** is judged by **226.3**: every element is something it has lived.
+- **AN ASSOCIATION** keeps nearness, because that step is drawn from the language and the language
+  is its fair judge — now comparing against **the subject** and reading **every mark**, not the
+  first word.
+
+**THE LIGHT, BEFORE AND AFTER.** Before: `thinking · RED · SONG: 0.000 to it, 0.038 to EXCITEMENT` —
+red for a mind remembering correctly. After, on four beings for 60 ticks each: **WHYRED, VITALS-1,
+ALL-23, ALONE-2 — all GREEN, 0 violations, no errors.**
+
+**And it is not a dead light.** Each law forced to fail:
+
+```
+226.2  a beat that does not hold the subject   -> "1 of 2 replayed beats do not hold RIVER"
+226.2  replayed out of lived order             -> "replayed out of lived order at beat 1"
+226.3  an element it has never lived           -> "invented VOLCANO, which it has never lived"
+225    an association no nearer its subject    -> "0.000 to it, 0.679 to SELF"
+```
+and each corresponding lawful case returns clean.
+
+**479 passed, 0 failed.** State hash unmoved at `3a196e5c` — B changes what is JUDGED, not what the
+mind does. Pushed.
