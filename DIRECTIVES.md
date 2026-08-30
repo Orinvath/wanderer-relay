@@ -6023,3 +6023,27 @@ Lonnie's eye on the built map. Two failures against 261:
 The reference mock (reference/mind-map-mock.html) shows both: six
 coloured neighbourhoods and the group legend. Match it.
 His eye is the gate.
+
+## Directive 269 — The core wears HIS palette, not the mock's placeholder
+
+Lonnie's eye: the core is glowing yellow, which means the 22-hue
+ruling was never wired — the mock's gold was a PLACEHOLDER, never a
+colour rule.
+
+THE PALETTE IS LAW (his balanced-bar ruling, 261.4). The core's
+colour is the hue of the being's strongest current feeling:
+fear 0 · hate 6 · anger 12 · distress 18 · resentment 24 · shame 30 ·
+remorse 36 · fears-confirmed 42 · reproach 48 · pity 54 ·
+disappointment 60 · gloating 75 · happy-for 96 · satisfaction 116 ·
+pride 137 · hope 157 · admiration 178 · relief 198 ·
+gratification 219 · gratitude 239 · joy 260 · love 280.
+(HSL hue, warm = agitated, cool = calm — his thermometer.)
+
+- Store it as ONE palette table read by the core AND anywhere else
+  feeling shows; no second copy, no invented colours.
+- No feeling active = the core is colourless/neutral, never a
+  default hue.
+- Yellow (~60) means DISAPPOINTMENT and nothing else. A joyful mind
+  must read violet (260).
+- Prove it in the report: three states forced (joy, fear, grief-side)
+  with the rendered hue beside the palette value.
