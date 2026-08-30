@@ -6547,3 +6547,42 @@ beings with different aspects; the resting mood of each of the three
 shown to differ; the Core never blank while awake; a strong feeling
 still visibly rises above the baseline and settles back.
 Full suite and state hash.
+
+## Directive 287 — SAFETY'S COUNT MUST MATCH THE MOMENTS. And uncertainty is felt.
+
+### A. THE GATE RUNS ON EVERY MOMENT — prove it by the count
+Lonnie's bench shows safety at 244 visits, so the gate IS running —
+but not as often as it should. The Director's check found safety.js
+imported by appraisal.js alone, with nothing else in the tick calling
+it. System 1's claim (259) is that EVERY moment passes it FIRST.
+1. Compare, over one run: the number of moments from every source
+   (heard · world · inner · taught) against safety's own count. Post
+   both numbers. They must match exactly.
+2. Where they do not, name the paths that reach appraisal or
+   attention without passing the gate, and restore the gate to the
+   head of the moment's path for those paths — before attention,
+   before appraisal, on every source.
+3. Its hand-off is emitted so the map shows every pass, and its
+   vital counts moments_bypassing_gate against the real total.
+
+### B. UNCERTAINTY IS A FELT STATE
+Lonnie's ruling, on the science: an organism with no information —
+darkness, no stimulation, nothing arriving — sits in sustained
+low-grade fear. Uncertainty is itself a threat signal (the anxiety
+literature on uncertainty as an aversive state; row to REFERENCES.md
+per 227).  The bench mind has no world and no senses and rests
+neutral. That is wrong.
+1. Sustained absence of information raises the FEAR side of the
+   mind's mood, at a rate and ceiling from its own aspects (071) — a
+   withdrawn or volatile being is made uneasy sooner and more deeply
+   than a stable one.
+2. It is a MOOD, not an event: it bears on no lesson, invents no
+   moment, and touches no ledger (286.4 stands). It is what a being
+   feels when nothing is there.
+3. It settles when information arrives — being spoken to, taught, or
+   given a world eases it, at the being's own rate.
+
+PROVE BOTH: safety's count beside the moment count (they must match);
+a lone mind's mood drifting toward the fear side over a long silence
+and settling when taught; two beings with different aspects becoming
+uneasy at different rates.
