@@ -6838,3 +6838,14 @@ this file's. Geometry does MEANING; the model does FORM; the mind's
 laws decide WHAT. Write that division at the top of the file.
 
 Plan first (253), as always.
+
+## Directive 296 addendum 2 — the gauge's five bars
+
+  words it owns          ->  VOCABULARY
+  word order seen        ->  GRAMMAR
+  it answers             ->  REPLIES
+  things to talk about   ->  TOPICS
+  beliefs it holds       ->  BELIEFS
+
+Same rule: the old wording becomes each bar's tooltip. Labels only —
+nothing about what they measure changes.
