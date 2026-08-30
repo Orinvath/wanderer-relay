@@ -32007,3 +32007,97 @@ The hole was not that 293 was hard. It was that two directives arrived in one pu
 them was ever acknowledged. **From here every pull gets each directive it contains named back in
 the report, including the ones I am not starting yet and why** — so an unstarted directive is a
 visible queue instead of something he has to ask about three days later.
+
+---
+
+# THIS PULL CARRIED TWO: 301 AND 302. Both are named here, per the process fix.
+
+## 302 BUILT — THE BUNDLE KEEPS ITS SUMS
+
+The sign is gone. `bundle` adds and returns the sums; `similar` divides by the two lengths rather
+than by D, which for two ±1 symbols is exactly 297.A.4's dot-over-D — **every reading taken before
+302 is unchanged**, and only the bundle, whose length now grows with what has gone into it, reads
+differently. Commit `0cfbbaa`.
+
+**The whole point of the ruling, measured on the same word:**
+
+```
+exposures        JOY     SAD          with the sign, before 302
+5 JOY           1.000   0.004         1.000   0.004
+5 JOY, 1 SAD    0.981   0.200         1.000   0.004     <-- the wrong mark was invisible
+5 JOY, 3 SAD    0.858   0.517         1.000   0.004     <-- and still invisible
+4 each          0.505   0.500         0.369   0.374
+```
+
+**The wrong mark now climbs 0.004 → 0.200 → 0.517 as it is heard again, and the right one gives
+ground.** That is the number 300.2 needs to wash against; against the old one it could not.
+
+And the asymmetry lands exactly where 300.3 says: five exposures for, three against at 5/3, and
+the two read **0.709 each** — three contradictions cancel five confirmations to the mark, which is
+lessons.js's own ratio doing its job in the geometry.
+
+302.3's reasoning is written into the file beside the operation and marked **[OURS]** — that the
+sign exists to make VSA cheap on tiny hardware answering "which class is this", that we are not
+here for efficiency, and that a mind needs degree. The accepted cost is named there too: ~40KB a
+held vector rather than ~10KB.
+
+A new clause holds it, and **it is one the old build could not have passed** — the wrong mark must
+rise with every wrong exposure and the right one must give ground.
+
+## 301 RECORDED — AND ONE THING I WILL NOT PRETEND
+
+The rows are in `REFERENCES.md`, and **they open by saying they are unverified.** 301 gives the
+figures — E2B class, ~2 GB, under 1 GB quantised, 200-600 ms served latency — and I have checked
+none of them: there is no web access in this session and `reference/ai-timeline-and-hybrid.html`
+does not carry them. They are recorded as *what the ruling states*, attributed to it, so the
+decision is traceable. **They are not recorded as anything this build has measured**, because 227's
+ledger is worth nothing the day it starts holding numbers nobody checked. Say the word and I will
+verify them properly.
+
+The swappability law and the 16 MB shared language space are marked `[OURS]` — design decisions,
+not findings. Commit `0bbecbf`.
+
+---
+
+# BUILD PLAN — 297.B, WORD LEARNING ONTO THE ENGINE
+
+### The shape of it, and it needs no new storage at all
+
+`word_links` already keeps, per word and mark, a `together` count and an `apart` count. **That is
+the entire exposure history**, so a word's vector can be rebuilt from what the store already holds
+— no new table, no blobs, no migration, and nothing to fall out of step with the record:
+
+```
+bundleFor(word) = SUM over its links of  (together - apart x AGAINST) x bind(word, mark)
+strength(word, mark) = similar(bind(bundle, word), mark)
+```
+
+`confidence` stops being an accumulator and becomes **the strength read off that geometry**, written
+on each move so every existing reader — the panel, the gauge, `owned()`, the litmus — keeps working
+untouched. Provenance, grounded words, `MAX_LINKS`, the 223 fast-mapping rule and the
+`words_from_nowhere` counter are all unchanged: **only the arithmetic moves**, which is what 297.B
+asks for.
+
+The descent falls out rather than being coded: a mark at five together and three apart computes to
+`5 - 3 x 1.667 = 0`, and the word stops being owned because the geometry says so.
+
+### THE ONE THING I WILL NOT DECIDE, AND IT IS A TENSION BETWEEN TWO OF YOUR OWN RULINGS
+
+**297.B:** *"the same exposures must produce the same ownership decisions"* as the current build.
+**300.1:** *do not map similarity onto 0-1 to make the old bars land where they used to.*
+
+Those two cannot both hold. The old bars sit on an accumulator that starts at 0.50 and climbs by
+0.03; the new reading is a similarity where **one clean exposure is 1.000 immediately**. On any bar
+derived from the noise floor, a word owned after one exposure is owned — where today it must climb
+to 0.72 first. **Same exposures, different ownership decision, and the only way to make them agree
+is the calibration 300.1 forbids.**
+
+So which does the proof mean:
+
+1. **The DECISIONS must match** — then the bars are fitted to the old build and 300.1 gives way; or
+2. **The ORDERING must match** — the same words come out owned in the same order and the same wrong
+   links die, while the exact moment of ownership is allowed to move because it is now read off
+   geometry. 300.1 stands, and the bars are set by watching as it says.
+
+**I read 300.1 as meaning (2), but I am not going to assume it on something this load-bearing.**
+Say which and B is built the same day — everything else in it is settled above.
