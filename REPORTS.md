@@ -30522,3 +30522,96 @@ is missing.
 Stillness re-proved after every change: **600 frames idle, 0 differences; one hand-off lights
 exactly one sigil; the hold expires back to the identical frame.** 478 passed, 0 failed. State hash
 unmoved at `0a40bf94`. Pushed.
+
+---
+
+# Report — WHY THINKING IS RED. It is a symptom. The real problem is that the mind is living the same moment over and over.
+
+Diagnosis only, on the live bench and on fresh minds. Nothing changed.
+
+## The red light itself
+
+```
+thinking · red · 2 in the last 57 ticks · subject_not_nearer
+last: "SONG: 0.000 to it, 0.038 to EXCITEMENT"
+```
+
+Both violations have the identical shape:
+
+```
+subject TOGETHER   been ["TOGETHER", "RESPECT", "RESPECT"]
+subject SONG       been ["SONG",     "RESPECT", "RESPECT"]
+beats:  RESPECT+HIDDEN+SONG+TOGETHER  (all eight of them, every time)
+```
+
+**The judged thought is RESPECT both times, whatever the subject is.** `been` records
+`thought.say[0]` — the FIRST mark of a beat — and every beat's first mark is the same word. So the
+test compares the subject against RESPECT, which has no kinship to anything (this mind has zero
+learned kinships), and it fires whenever the seeded random mark happens to have any kinship at all.
+
+**That is a symptom. Here is what it is a symptom of.**
+
+## THE REAL PROBLEM — the moment has collapsed into a loop
+
+Its own memories, most recent six:
+
+```
+RESPECT SONG TOGETHER
+RESPECT HIDDEN SONG TOGETHER
+RESPECT HIDDEN SONG TOGETHER
+RESPECT HIDDEN SONG TOGETHER
+RESPECT HIDDEN SONG TOGETHER
+RESPECT HIDDEN SONG TOGETHER
+```
+
+Over 70 ticks: **8 distinct moments in total, and only 3 in the last 30.** It first repeated the
+moment before it at **tick 9** and has barely varied since.
+
+### The circle, and it closes on itself
+
+1. the moment is built as **the beat's first two marks + the act it chose + the need it is short of**
+2. that moment is committed to memory
+3. the next train **replays those memories** — `beat.marks = marksIn(memory.text)`
+4. `beatNow.say = marks.slice(0, 2)` — the same first two words
+5. → the next moment is the same four words. Back to 1.
+
+`SONG` is the act word for *singing*; `TOGETHER` is the need word for relatedness; `RESPECT` and
+`HIDDEN` were whatever it happened to think early on, and they have been locked in ever since. It
+is not thinking about the same thing by choice — **there is no path for anything new to enter.**
+
+### And it takes the rest of the engine down with it
+
+- **Curiosity cannot rouse.** Novelty is `1 − nearest`, and every memory is identical, so nearest is
+  ~1 and novelty ~0. Its bar is 0.371 and it never gets near it.
+- **Interests cannot form**, because nothing new is ever encountered.
+- **Thinking looks like it is wandering**, which is the red light — when in truth every beat is the
+  same word.
+
+## IT IS NOT BROKEN MACHINERY — IT IS AN EMPTY ROOM
+
+Measured, same build, same code:
+
+| | distinct moments in 30 ticks | distinct in the last 10 |
+|---|---|---|
+| **alone** | **4** | **2** |
+| **spoken to** (a line every 5 ticks) | **15** | **7** |
+
+Spoken to, its moments read `HOST COME SONG TOGETHER` · `JOY SONG TOGETHER` · `SONG HIDDEN RAIN`.
+
+**A host speaking is currently the only thing that can put a new word into this mind.** Alone, the
+circle above has no opening in it: a being with nobody there has nothing entering, so it replays
+what it has, writes down what it replayed, and replays that.
+
+## What that means for the display work
+
+You were right to stop. The map is reporting this faithfully — the red light is real and it is
+pointing at something real, just one level down from where it appears to point. **Nothing about the
+display needs fixing to see this.**
+
+## What I am NOT doing
+
+Not fixing it. Whether a mind alone in a room should be able to generate anything new — and where
+that would come from — is what the mind IS, and that is yours. The three places the circle could be
+opened, named and not chosen: what a beat contributes to a moment (`experiencing.js`, the
+`slice(0, 2)`), whether a replayed moment should be re-committed as a new memory at all, and
+whether curiosity should have any source other than novelty-against-what-it-holds.
