@@ -30050,3 +30050,80 @@ desirability at `appraisal.js:140` (`felt = bearing * …`), so desirability is 
 gate can never pass and a self-told story can never teach it anything.
 
 Nothing is being built. Awaiting the plan.
+
+---
+
+# Report — 271 ARCHAEOLOGY: the zero was there from the first line, and it contradicts the directive it was built under. Nothing changed.
+
+**Your instinct was right. This is a regression, and the honest fix is RESTORING, not inventing.**
+
+## 1. When it began
+
+**Commit `759291b`, 25 Aug 2026 — "226: the mind thinks in stories".** The line was born with the
+literal zero in it:
+
+```js
+told = { say: say.slice(0, 2), about: `${this.train.story.kind}:${this.train.subject}`,
+         bearing: 0, text: say.slice(0, 2).join(' '), story: this.train.story.kind }
+```
+
+`827e8ff` (230) renamed `told` to `beatNow` and touched nothing else; `b0c8215` (253 step 6b) moved
+it into `experiencing.js`. **The zero has never held any other value.**
+
+## 2. What the line did before — and this is why you watched feelings work
+
+Before 226 the thought came straight from `think()`:
+
+```js
+const thought = (changeWords.length || heard) ? null : think({ … })
+```
+
+and `think()`'s sources all carry a real bearing:
+
+- the **feeling it dwelt on** — `(TYPES[top.type]?.valence ?? 0) * intensity`
+- the **need it dwelt on** — `bearing: v / 10`, its depletion
+- **curiosity** — `level * 0.5`
+- a **surfaced memory** — that memory's own bearing
+
+226 then wrote `const thought = told ?? (… think(…))`. So from that day, whenever a story beat
+exists it **replaces** the think() thought — and the beat is worth nothing where the thought was
+worth something. Since 265 made every train a replay, a beat exists on nearly every tick.
+
+## 3. What the original design ruled — quoted, and still in the file
+
+**217.2, and it was already law when 226 landed.** The comment sits three lines above the bearing
+line to this day:
+
+> *"A THOUGHT CAN MOVE A FEELING. … a thought moves nothing in the ledger, so its bearing is the
+> bearing OF WHAT IT IS ABOUT — the sign of the feeling it dwelt on, or the depletion of the need
+> it dwelt on. **Measured off state that already exists, never asserted.**"*
+
+A literal `0` is **asserted**. It is the one thing that sentence forbids.
+
+## 4. Were beats meant to travel this path? YES — 226 says so three times
+
+> §2 — the train replays the story, *"its moments in order, **re-felt through the pipeline (a
+> remembering that moves feelings, per the existing machinery)**"*
+> §4 — ***"THE STORY IS FELT**: imagined or replayed, the scenario's moments run through appraisal
+> like experience — the mind practices life on rehearsals."*
+> its own suite line — ***"feelings must move from a story"***
+
+## 5. The answer to your question
+
+**It is a regression against a stated ruling, not a missing decision.** The directive it was built
+under required feelings to move from a story; the law it had to obey already said exactly where a
+thought's bearing comes from. The implementation put a placeholder in that slot and no directive
+has ever ruled otherwise. **Nothing new needs deciding to restore it — 217.2 already says what a
+beat's bearing is: the bearing of what it is about.**
+
+## 6. Why nobody saw it for four days
+
+Both clauses that should have caught it never look at a feeling.
+
+- **226.4's clause reads the SOURCE TEXT.** It asserts that the beat becomes the tick's moment and
+  that this happens before the appraisal call — and never that anything was felt. Green throughout.
+- **249.1's gate clause calls `wasFelt()` on hand-written arrays** (`[0.1, 0.4, 0.3]`), never on a
+  live trail. Green throughout, while every real trail was zeros.
+
+**No fix, no new source, no tuning. 226's own suite requirement — "feelings must move from a
+story" — has never been built as a live check, and that is the clause this needs.**
