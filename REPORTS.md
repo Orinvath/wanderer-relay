@@ -29723,3 +29723,96 @@ else is green; curiosity and interests stay grey-dormant awaiting your bar.
 - **The vitals clause asserted the whole bench reads green.** That would now mean either deleting a
   true red light or exempting the system that found something. It holds the honest property
   instead: green means nothing was caught, red means something was, and no light is ever empty.
+
+---
+
+# Report — 261 THE MIND MAP IS ON THE STAGE (and one fix after it). 266 DIAGNOSIS: the replays are faithful; the test is asking the wrong question.
+
+## 261 — the sphere has retired
+
+The Mind Map is the bench's centrepiece, in the sphere's own slot, with its dials and readouts left
+where they lay. Built to the approved mock: its node positions, its neighbourhoods, its camera, its
+core glow layers and beat shape, its dashed feelings→choosing return.
+
+- **The order is real.** The pulse walks the extracted edge list — the true tick sequence read out
+  of the code, 66 hand-offs, not the mock's fifteen-step guess.
+- **Idle is dark.** A part lights only when that tick's own record says it did something. With no
+  new tick the pulse is not on the board at all. No timers anywhere.
+- **The core is the being.** Colour is the feeling the tick recorded through your 22-hue palette;
+  beat is arousal computed exactly as the cord computes it, so the map and the body cannot disagree.
+- **Red pins** come off the 259 vitals — the failing node pins itself.
+- **three.js is served from this machine.** The mock pulls it off a CDN; this bench has never
+  loaded a byte from the web and does not start now.
+
+**Your marks:** 8 of the 34 names are true words in the 402 — TIME, DREAM, SAFETY, HOST, LEARNING,
+CURIOSITY, SLEEP, BODY — and those sigils are **your own marks, cropped from the ten sheets** by
+the boxes already measured. The other 26 keep the mock's approved stroke shapes with the label
+beneath.
+
+**Your "nearest mark wins" could not be run, and this is the measurement:** the kinship space
+contains the 402 and nothing else, so a name that is not one of them has no vector and scores
+0.000 against every mark. There is nothing for the space to rank. 8 resolve exactly; 26 have no
+kinship to measure.
+
+**It did not load the first time, and the cause was mine:** the stage has no height of its own — it
+took it from the orb canvas's square aspect — and I put the map in absolutely positioned, so the
+stage collapsed to nothing and the page looked dead. Fixed, committed, and the map now carries the
+square stage itself. **475 passed, 0 failed**, and the map's module has its own parse clause,
+because the suite's existing one runs scripts as classic scripts and would never have caught it.
+
+## 266 — DIAGNOSIS. Nothing changed.
+
+All three strays are the same shape, so here is one in full — **SONG, tick 16**, a `remembered`
+train from `interest`, 8 beats:
+
+```
+ 0  "TOGETHER SONG LONELINESS"  seq 7    TOGETHER:0.000  SONG:1.000  LONELINESS:0.000
+ 1  "TOGETHER SONG LONELINESS"  seq 8    TOGETHER:0.000  SONG:1.000  LONELINESS:0.000
+ 2  "MUSIC SONG LONELINESS"     seq 9    MUSIC:0.555     SONG:1.000  LONELINESS:0.000
+ 3  "SONG LONELINESS"           seq 10                   SONG:1.000  LONELINESS:0.000
+ 4  "TOGETHER SONG LONELINESS"  seq 11   … 5 … 6 … 7, seq 12, 13, 14
+```
+
+### Is the replay faithful? YES.
+
+The beats are `seq 7,8,9,10,11,12,13,14` — **ascending and contiguous**, every one a real lived
+episode (`imagined=false`, no teller), nothing added and nothing skipped. 16 episodes were
+eligible and it holds 8 because `STORY.RECALL` is 8 (`stories.js:49`) — the most recent unbroken
+run, which is a capacity limit, not a skip. 226.2 and 236 are both being kept.
+
+*(My own diagnostic printed "faithful: false" on one line; that was my check comparing against the
+tail of the store as it stands NOW rather than as it stood when the replay was built. The seq
+column is the real evidence and it passes. Reported rather than quietly dropped.)*
+
+### Are those memories about the subject? Yes — and the subject is one mark of three.
+
+Every beat contains SONG at distance 1.000. But since 265.1 a moment is *what it was thinking
+about* plus *what it was doing* plus *what it is short of*, so a lived episode is three marks wide
+by design. Surfacing is not handing it junk: **SONG appears in 40 of its lived episodes, and 27 of
+those also hold TOGETHER.** That is this being's life.
+
+### Does the nearness test measure the right thing for a replay? NO — two reasons, both measurable.
+
+**1. It judges one arbitrary mark per beat.** The vital reads `train.been`, and `been` records only
+`thought.say[0]` — the FIRST mark of the beat (`experiencing.js:506`). For "TOGETHER SONG
+LONELINESS" that is TOGETHER. **The subject itself is in the beat and is never counted.** The
+judged list for this train was `[TOGETHER, TOGETHER]`.
+
+**2. It measures the LANGUAGE, not the life.** `near()` reads the kinship space, which is built
+from the ten sheets' domains plus whatever kinships a life has *learned* — and **this mind has 0
+learned kinships**, because nobody has spoken to it, so there are no word-links and the space is
+purely the static language. SONG is in `09_culture_and_society`, TOGETHER in
+`02_communication_and_relation`, LONELINESS in `06_emotion_and_inner_state`. So:
+
+```
+near(SONG, TOGETHER)   = 0.0000      lived together in 27 of 40 episodes
+near(SONG, LONELINESS) = 0.0000
+near(SONG, MUSIC)      = 0.5548      same sheet, never mind the life
+```
+
+**The test asks "are these two words related in the language?" The honest question for a replay is
+"did this being's life put them together?"** For an association step the language is the right
+ruler — that is what the step is drawn from. For a replay it is the wrong one, and it will read red
+on a perfectly faithful memory for as long as the being's life and the sheets disagree.
+
+No fix applied and no behaviour changed.
