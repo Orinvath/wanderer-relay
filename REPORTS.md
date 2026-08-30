@@ -30032,3 +30032,21 @@ Not choosing between the three. Not tuning how hard a remembered moment lands. N
 appraisal, the palette, or anything else on the way past.
 
 **Awaiting his ruling.**
+
+---
+
+# Correction — the plan above is withdrawn. Plans are not mine to write.
+
+I submit reports; the team provides the plan. The entry above proposed three approaches and a
+sequence of steps, which is planning, and it is not my job — the same overstep as building without
+one, from the other end.
+
+**The finding stands and is the report:** the mind records no feeling on any tick. It attends 39 of
+40 moments and feels nothing about them. The moment it appraises is nearly always a beat of a story
+it is replaying; a beat's bearing is the literal `0` at `experiencing.js:394`; bearing feeds
+desirability at `appraisal.js:140` (`felt = bearing * …`), so desirability is 0, praiseworthiness is
+0 and appealingness is null — and OCC has nothing to make a feeling from. A second consequence:
+249's first gate asks what its feelings did while a story was told, so with every beat at zero that
+gate can never pass and a self-told story can never teach it anything.
+
+Nothing is being built. Awaiting the plan.
