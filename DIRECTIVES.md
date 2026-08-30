@@ -6682,3 +6682,27 @@ how any other node works.
    the Core drifting or leaning in the map rather than sitting fixed
    dead centre. Colour and beat are unchanged (270.D, 286.3).
    The legend gains one line for it.
+
+## Directive 293 — A RED LIGHT HALTS THE MIND
+
+Lonnie's ruling: a mind that keeps running past a broken system
+buries the evidence under later ticks. The first red stops
+everything, at the tick it happened.
+
+1. THE HALT: the instant any system's check goes RED, the mind stops
+   at that tick. Nothing advances — no further moments, no decay, no
+   consolidation, no writes. The state is frozen exactly as it was
+   when the claim broke, so it can be looked at.
+2. THE PAGE SAYS SO: a plain banner naming the system (which is its
+   file), the counter that fired, and the offending value. The health
+   panel opens on that system's entry (291.3).
+3. CONTINUE: a button resumes from where it stopped, for when he
+   judges the check itself wrong — two have been already. Continuing
+   is recorded in the log with the system that was overridden.
+4. IF A TEST RUN IS GOING, IT STOPS WITH THE MIND — the test runs ON
+   the mind, so it has nothing to run on. Its row is recorded as
+   HALTED · INVALID, naming the system that broke and the tick.
+   Continue resumes both together; a resumed run stays marked
+   INVALID, because its data is no longer clean.
+5. Emulator behaviour, as ruled — this is his instrument stopping to
+   show him something, not a safety mechanism in the mind.
