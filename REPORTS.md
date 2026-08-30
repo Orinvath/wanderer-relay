@@ -31070,3 +31070,62 @@ its own lean, not a default, and not the same as anybody else's.
 **479 passed, 0 failed.** State hash `431aa848`. REFERENCES.md corrected too: the circumplex axes
 are still cited for the shape they gave, with it stated plainly that **this build does not place a
 mind on them, because a position on an axis is not a mood.** Pushed and live.
+
+---
+
+# Report — 287. A: the gate is NOT being bypassed — the count matches exactly. B: uncertainty is felt.
+
+## A — safety's count against the moments
+
+```
+ticks run             60   (asleep 0)
+MOMENTS, all sources  60   [heard 0 · world 3 · inner 57]
+SAFETY passes         60
+attention 60 · appraisal 60 · feelings 57
+MATCH — every moment met the gate
+```
+
+**Exact match. No path reaches attention or appraisal without passing the gate first.**
+
+**And I nearly reported the opposite.** My first measurement read safety's hand-offs out of the
+trace's own buffer, which holds only the last 200 events — about four ticks of a mind that fires
+fifty a tick. It showed "4 of 60" and I was one step from reporting a fault that does not exist.
+Counting every hand-off as it fired gave the true 60. Written down because it is the same class of
+error as reading a source line instead of running the thing.
+
+**Why your bench showed 244.** The sigil's counter starts when the PAGE loads, not when the mind is
+born — it counts what the map has watched, not what the mind has done. If that should read from
+birth, say so and it is one line.
+
+## B — uncertainty is a felt state
+
+Silence now gathers unease, **at each being's own rate and to its own ceiling**, off its own ten:
+Withdrawal and Volatility make a being uneasy sooner and deeper, Enthusiasm and Compassion hold it
+off. It is a MOOD — it bears on no lesson, invents no moment, and never touches the ledger.
+
+**A lone mind, 15 minutes of its life per tick, as the bench runs it:**
+
+```
+                 fear after 6h / 12h / 18h / 24h of silence      taught for 5h
+CALM-1           0.429  0.439  0.442  0.442                       -> 0.207
+VOLATILE-1       0.592  0.529  0.529  0.529                       -> 0.387
+WARM-1           0.437  0.445  0.445  0.445                       -> 0.192
+```
+
+- **It gathers.** A mind left alone drifts into fear rather than resting content.
+- **The three differ**, sooner and deeper for the volatile and withdrawn one: 0.592 against 0.429.
+- **It settles when information arrives.** Being taught for five hours roughly halves it — and by
+  the ordinary fade at the being's own rate, not by a second mechanism.
+- **The Core shows it:** over 24 hours of silence CALM-1's mood reads **fear on 59 of 59 ticks**.
+
+*One thing worth knowing:* my first attempt showed no unease at all, because my test ticked a mind
+as fast as the loop would go — so almost no time passed and there was no silence to gather. Driven
+on a real clock it behaves as above.
+
+## References (227.2)
+
+Grupe & Nitschke 2013 (uncertainty and anticipation in anxiety) · Carleton 2016 (intolerance of
+uncertainty as an individual difference) — added, with both magnitudes marked `[OURS, PROVISIONAL]`:
+the sources give that it is sustained, aversive and varies by person, and neither gives a number.
+
+**479 passed, 0 failed.** State hash `0a8e4914`. Pushed and live.
