@@ -6629,3 +6629,23 @@ Prove it: a teller giving four unconfirmed claims stays at their
 starting trust; a teller contradicted four times still falls; a
 teller borne out still climbs; and a taught mind's told-belief cap no
 longer collapses over a quiet bench life.
+
+## Directive 290 — The interpreter counts what it DID, and can light
+
+Lonnie's finding: the INTERPRETER node reads 0 while the interpreter
+is on and working, and its number is a violation count — which is not
+how any other node works.
+
+1. IT EMITS ITS HAND-OFF. `emit` appears nowhere in interpreter.js,
+   so the node can never light even while translating. That is a
+   false dark and breaks 270.B.5. Emit on both crossings — inbound
+   (his English to marks) and outbound (marks to English) — named for
+   the file, like every other system.
+2. THE NUMBER ON THE MAP IS ACTIVITY, everywhere and without
+   exception: how many times that file fired this run. Violations do
+   not appear as the count — THE FIRST VIOLATION PINS THE NODE RED
+   and we stop and fix it. That is the whole point of the light.
+3. AUDIT EVERY NODE for the same fault: any node whose displayed
+   number is anything but its own fire count is wrong; any file that
+   runs without emitting is a false dark. Report the list with the
+   fix.
