@@ -31851,3 +31851,93 @@ pointing at a file that moved, and every one of them was invisible because nothi
 - Older and unchanged: consolidation never runs in a life · identity never asked ·
   `vocabulary.js` unreachable while a train runs · `curiosity.about` never produced ·
   curiosity and interests grey until their bars exist · 278 B.
+
+---
+
+# 297.A AND 297.D BUILT — and RULE ZERO stops me before B
+
+`server/src/geometry.js` exists, is registered as **system 24**, has its own health check, and its
+clauses pass. Commits `f68e5e2` and `6ec3cb6`.
+
+## WHAT IT DOES, MEASURED ON THE REAL MODULE
+
+```
+noise floor              0.0100          (1 over root D, at D = 10,000)
+two unrelated symbols    0.0044
+a symbol against itself  1.0000
+bind twice               1.0000          its own inverse, exactly
+rebuild, same seed       identical
+rebuild, other seed      different
+the door                 BANANA refused: not one of the 402, not a word it has heard
+```
+
+**The bars are in geometry's own units, as 300.1 ruled**, and they are derived rather than picked:
+everything is written as a multiple of the noise floor, because two random vectors in ten thousand
+dimensions scatter about zero with a spread of exactly one over root D. Nobody chose 0.06.
+
+```
+OWNED_AT    6 x noise = 0.060     PROVISIONAL, to be set by watching
+KIN_AT      3 x noise = 0.030     PROVISIONAL
+NOTHING_AT  2 x noise = 0.020     below this it is two strangers
+AGAINST     5/3                   PROVISIONAL — lessons.js's own -0.05 against +0.03
+```
+
+`REFERENCES.md` has its rows: Kanerva 2009, Plate 1995, Heddes 2023, with what each one actually
+supplies, and everything ours marked `[OURS]`. **300.4's note is written into the head of the file**
+in full, so per-moment bundling reads as struck rather than as an idea waiting to be had.
+
+## THE FLAW, AND IT LANDS ON 300.1 AND 300.2 DIRECTLY
+
+**297.A.3 says bundle is "add, then take the SIGN". Taking the sign makes the reading
+winner-takes-all whenever a word has only one or two marks — which is the case word learning is in
+almost all the time.**
+
+Measured, same word, weights all equal:
+
+```
+exposures                      JOY      SAD      FEAR     TRUST
+5 JOY                         1.000    0.004    0.011   -0.001
+5 JOY, 3 SAD                  1.000    0.004    0.011   -0.001     <-- three wrong exposures, invisible
+5 JOY, 3 SAD, 2 FEAR          0.758    0.247    0.253   -0.003
+5 JOY, 3 SAD, 2 FEAR, 2 TRUST 0.747    0.258    0.264    0.253
+4 / 4 / 4 / 4                 0.369    0.374    0.392    0.385
+```
+
+Read the second row. **A word that has been wrong three times out of eight reads exactly as
+certain as a word that has never been wrong at all** — 1.000, and the wrong mark sits at the noise
+floor as though it had never been heard. With three or more marks in the bundle the reading becomes
+graded and behaves; with one or two it is a step, not a slope.
+
+**What that costs the two rulings:**
+
+- **300.1** — the bars read similarity. With two marks there is nothing between 1.000 and 0.004 for
+  a bar to sit in. OWNED_AT, KIN_AT and NOTHING_AT all give the same answer, so there is
+  effectively one bar and watching cannot set it.
+- **300.2** — a wrong link washes out. It does not wash; it either vanishes entirely or takes the
+  whole word over. Weighted 5/3, three against three flips the word from SAD 1.000 to JOY 1.000 in
+  one step. That is a switch, not a descent.
+
+**The cause is the sign and nothing else.** The sum before the sign is a perfectly good graded
+number — 5 JOY and 3 SAD is 8 exposures leaning 5 to 3, and the arithmetic knows it. Taking the
+sign throws that away and then the similarity measures the thrown-away version.
+
+**I am not changing it.** A.3 is his spec, and how bundling is read is exactly the kind of thing
+188 says I do not decide. Two ways I can see:
+
+1. **Bundle stays signed for holding, and STRENGTH is read off the unsigned sum.** The stored
+   vector is unchanged and still a bundle in his sense; only the reading changes, and it becomes
+   graded everywhere. Smallest change, and it makes the bars meaningful.
+2. **Bundle stops taking the sign at all** and holds the running sum. Truest to what the numbers
+   are doing and furthest from A.3 as written.
+
+**B is not built and will not be until this comes back.** Building word learning on a strength
+that reads 1.000 for a word that is three-eighths wrong would be putting his mind's ownership
+decisions on a number that cannot tell those apart.
+
+## AND ONE PLACEMENT I WILL NOT MAKE
+
+297.A says one file, **one node**. The node needs a place on the map — a position, a shape and a
+neighbourhood — and every other node on that board has one because he gave it. **Its row is in the
+systems list and its health check answers, so it is live and countable, but it will not appear on
+the map until he says where it goes and what it wears.** The six neighbourhoods are language,
+feeling, thought, memory, self and body.
