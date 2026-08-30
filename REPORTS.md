@@ -30452,3 +30452,73 @@ that comes on for nothing.
 
 Stillness proof re-run after both changes: **600 frames idle, 0 differences; one hand-off lights
 exactly one sigil; the hold expires back to the identical frame.** 478 passed, 0 failed. Pushed.
+
+---
+
+# Report — 278 A, C and D built. B is NOT done, and I am reporting it rather than claiming it.
+
+## A — 39 nodes, and the law is now structural rather than obeyed
+
+**The node list is no longer a table anybody maintains. It is derived from `systems.js`, one node
+per file, and the label IS the file's name.** A file added to a system gets a node; a file removed
+loses one; **a node naming two files cannot be written.** The eleven splits you listed all fall out
+of that automatically.
+
+```
+39 nodes · 39 distinct files · 0 duplicates · every node names exactly one file
+```
+
+## C — placement, measured
+
+Every system keeps the anchor its node had on your approved board and its files fan out around
+that anchor inside the same neighbourhood — so the board is where it was and the new nodes arrive
+beside their own kin.
+
+**The spread had to change and the number is measured, not chosen.** With 39 nodes the groups are
+fuller, and at the old 1.55 the closest pair from two different neighbourhoods sat **1.68** apart
+while the average pair *inside* a group sat **3.82** — the grouping stopped reading. Swept it: 2.0
+is where between-group first exceeds within-group; 2.1 keeps a margin.
+
+| | within (mean) | between (min) | ratio |
+|---|---|---|---|
+| at 1.55 | 3.82 | **1.68** — broken | 3.26 |
+| at 2.1 | **3.82** unchanged | **4.59** | **4.31** |
+
+The camera's home distance goes 17 → 23 for a board half again as wide.
+
+## D — the hand-off names the file, and 25 of 39 nodes light
+
+Every emission was relabelled from its system's name to **the file doing the work**, derived from
+the same extraction the edge list came from. Three more files were given a voice they never had:
+**HOST**, **SURFACING** and **SOUL** — soul.js's pulls are read inside offers.js on every act
+weighed, and it had never lit once.
+
+**25 of 39 light on a live bench. 14 do not, and here is each one honestly:**
+
+- **idle on a hostless bench** — VOICE, INTERPRETER, GRAMMAR, CENSOR, TRUST, HOST, LANGUAGE,
+  VOCABULARY, CORD: they run when somebody is there to speak to, or when a life has learned a new
+  kinship. Nothing is wrong with them; nobody is there.
+- **known open faults, already reported** — CONSOLIDATION and IDENTITY are called by the suite and
+  by nothing in a life (259).
+- **called from inside another file, trace not yet threaded** — SURFACING and STORYGATES.
+- **runs only at save and load** — CLOCK.
+
+**I cannot yet prove all 39 can light, so I am not claiming it.** Nine of them need a host on the
+bench to be seen at all.
+
+## B — NOT DONE
+
+One vital per file means **39 vitals where 259 ruled 23**, and every claim re-cut so no file shares
+a counter. That is a bigger change than the rest of this directive put together and I have not
+started it. Reported, not silently skipped.
+
+## One thing the proof caught that a browser would have shown as a dead screen
+
+`THE RETURN` anchored on a node named `CHOOSING`. Under 278 the choosing is `offers.js`, so that
+label stopped existing — and the whole map died silently on load. The stillness harness caught it;
+the page would just have been black. It now looks its nodes up by name and **throws loudly** if one
+is missing.
+
+Stillness re-proved after every change: **600 frames idle, 0 differences; one hand-off lights
+exactly one sigil; the hold expires back to the identical frame.** 478 passed, 0 failed. State hash
+unmoved at `0a40bf94`. Pushed.
