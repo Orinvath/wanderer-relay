@@ -6664,3 +6664,21 @@ how any other node works.
 3. CLICKING A RED NODE on the Mind Map opens that system's entry in
    the panel, so a red light leads straight to what broke and in
    which file. The /health route stays for CC's own use.
+
+## Directive 292 — Old names as tooltips; THE CORE regains its motion
+
+1. TOOLTIPS ON RENAMED PANELS: every panel header Lonnie has renamed
+   carries its ORIGINAL name as a mouse-over tooltip, so the old
+   wording is still findable. Panels he has not renamed are left
+   exactly as they are — do not touch a name he has not changed.
+2. THE CORE REGAINS MOTION. The sphere carried three channels —
+   colour (what it is feeling), pulse (how it is doing), motion (what
+   it is after). When the sphere retired into THE CORE (261.4), only
+   colour and pulse came with it. The Core does not move, so the mind
+   no longer shows what it WANTS.
+   Restore the third channel: THE CORE MOVES ACCORDING TO WHAT IT IS
+   AFTER — the same meaning the sphere's motion carried, on the same
+   source (the winning offer / what it is drawn toward), rendered as
+   the Core drifting or leaning in the map rather than sitting fixed
+   dead centre. Colour and beat are unchanged (270.D, 286.3).
+   The legend gains one line for it.
