@@ -31604,3 +31604,165 @@ by this. What counts as inner life is ours, not a finding, and the ledger will s
 ## WAITING
 
 Nothing above is built. Say go, or change it, and I start.
+
+---
+
+# 294 / 295.2 / 296 DONE; and BUILD PLAN — Directive 297, which STOPS on three decisions
+
+## 294 BUILT
+
+**294.2 — its own thinking is company.** `experiencing.js:991`, one condition:
+
+```js
+const thinking = !!mind.train || !!thought || (felt.remindings ?? []).length > 0
+const informed = !!heard || (changeWords.length > 0) || !!understood || thinking
+```
+
+`mind.train` and `thought` overlap deliberately: a train that runs a tick without producing a
+thought still ran. **The state hash moved as expected and is the new baseline: `dc5fc562` ->
+`c0f6d8c8`,** identical across two runs, so it is a move and not a wobble. Commit `0c43e17`.
+
+**294.3 — memory's fifth field.** `lastWriteTick` joins the whitelist with its justification
+written beside `now`'s. Commit `8b07b80`. The full suite is running past that point as I write.
+
+**294.1** — nothing touched. The rate stands as 287 built it.
+
+## 295.2 BUILT — THE UNEASE CLAUSES
+
+Three clauses, on the real functions and a real being's own ten. Measured, not asserted:
+
+```
+its own rate            0.1497/h, ceiling 0.374
+24 hours alone          fear at 0.343   (from what it felt)
+24 hours thinking       distress at 0.170 (from its own disposition)
+```
+
+Emptiness still bites, thinking answers it, and the second is milder **on its own lean rather than
+on a default**, which is your no-default-position ruling holding. A third clause reads the tick
+itself, so both could not pass on a build where nothing was wired up. `MIND_DECISIONS.md` gained
+the row 287 never wrote, **RULED — 294.2**. Commit `1aab83f`.
+
+## 296 BUILT — ALL THIRTEEN RENAMES, AND HE HAS SEEN THEM WORK
+
+Every panel carries its new name with the old one on hover. **Approved by his eye: "All of them
+are."**
+
+It took three goes and the last fix was his diagnosis, not mine, which is worth recording:
+
+1. `d20c1c8` — the thirteen renames with the old name on the word.
+2. `c31c2ae` — the old name moved onto the whole header bar, a bigger target.
+3. `f14aae8` — **his call, and the actual cause: a panel header is a LABEL, NOT TEXT.** The
+   headers were ordinary selectable text, so the pointer became a caret and the hover was
+   swallowed. `cursor:default` and no selection on every header, and they all came up at once.
+
+I had proposed drawing our own label instead. He refused it and was right to — the browser's
+tooltip was never broken, my markup was asking it to work through a text caret.
+
+**Left alone deliberately:** the old wisp page (`/wisp.html`) has its own "What it has done"
+heading. Your list was the Emulator's panels and that page is not one. The dialog `aria-label`s
+still read the old names too — say the word and they follow.
+
+## 295.3 — WHERE THE MARK IS BEING LOST
+
+Measured on his live bench with the interpreter ON:
+
+```
+on            true
+model calls   499
+crossings     200      (inbound)
+rendered      0
+rejected      0
+lastError     null
+```
+
+**499 calls and not one rendering, not one rejection, and no error recorded.** A rejection would
+show on screen and an error would show in the panel; instead the outbound half is calling the
+model hundreds of times and every result is disappearing. The page is not the problem — it
+rebuilds the whole log from the server every poll, so a mark that arrives a tick late still lands
+on the older line.
+
+It is disappearing here, `bench-routes.js:181`:
+
+```js
+try {
+  out = await interp.outbound(pending.record, { ... })
+} catch { return }        // <- an empty catch, and the standing rule forbids exactly this
+```
+
+**A throw anywhere in outbound leaves no counter, no error and no mark — the line simply comes out
+in the mind's own words and nothing says an interpreter ever tried.** That is the shape of what
+the numbers show, and it is the same silent-failure shape 245b already caught once on this exact
+path.
+
+I have not fixed it, because I cannot see the throw without the interpreter running, and **turning
+it on is switching on his instrument.** Say the word and I will turn it on for a few minutes,
+catch the actual error, and report it before changing a line.
+
+## BUILD PLAN — 297, THE GEOMETRIC ENGINE
+
+### 250 SCAN: THREE OPEN DECISIONS. I AM STOPPING ON THEM.
+
+**A, D and E are fully decided and I can build them today.** B cannot be built as written, and
+these are the reasons, in his own arithmetic.
+
+Word learning today is a **number on a 0-1 scale with bars cut into it**:
+
+```
+born at              0.50   ONE_CLEAR_LOOK
+owns the word at     0.72   OWNED_AT
+counts as kin at     0.55   KIN_AT
+stops echoing at     0.45   ECHO_UNTIL
+each confirmation    +0.03  REINFORCE
+each contradiction   -0.05  WEAKEN     (deliberately costs more than support earns)
+floor / ceiling      0.05 / 0.99
+```
+
+Geometry gives a **similarity**, which is not that number and does not live on that scale. Bundle
+a word with a mark k times among n exposures and the similarity lands near k over root n — it
+rises with repetition, as 297 says, but it never sits at 0.72 and nothing in it corresponds to
+"born at 0.50".
+
+**DECISION 1 — what do the bars read?** Either the bars move into similarity units and you give me
+the new values, or similarity is mapped onto the 0-1 confidence scale and you give me the mapping.
+I will not pick either, and I especially will not "calibrate" a mapping until 0.72 happens to fall
+where it used to — that is me deciding the mind's trust bar with a curve.
+
+**DECISION 2 — how does a word STOP being owned?** 223's one clear exposure owns a word, and
+geometry gives that for free: one exposure reads 1.0. The half that has no geometric answer is the
+descent — today a word slides from 0.72 back under it exposure by exposure. In a bundle, one wrong
+exposure among twenty is nearly invisible.
+
+**DECISION 3 — does the asymmetry survive?** Contradiction costs 0.05 where confirmation earns
+0.03, and lessons.js says that is on purpose. Bundling is symmetric by construction: every
+exposure counts the same. Keeping the asymmetry means weighting the bundle, which is a magnitude,
+and it is yours.
+
+### WHAT I WILL BUILD THE MOMENT THOSE THREE COME BACK
+
+**A — `server/src/geometry.js`.** One file, one node, the division written at the top exactly as E
+gives it: geometry does MEANING, the model does FORM, the mind's laws decide WHAT.
+
+- `symbol(seed, name)` — 10,000 dimensions of ±1, drawn from `generator()` in `roe.js`, the same
+  seeded source the ten aspects come from, so the space rebuilds identically (062).
+- `bind(a, b)` elementwise multiply, its own inverse. `bundle(list)` add then take the sign.
+  `similar(a, b)` dot over D.
+- **The 221 gate at the door:** nothing becomes a symbol unless it is one of the 402 or a word the
+  mind has actually heard. Anything else throws rather than being quietly admitted.
+
+**D — its health check**, on the 259 pattern: `symbols_from_outside_the_language` and
+`rebuild_hash_mismatch`, both forced-fail at birth per 254.D, plus its node on the map, which 276
+gives for free the moment the file exists in `systems.js`.
+
+**References** get their rows in the same commit per 227: Kanerva 2009, Plate 1995, Heddes 2023.
+Everything in the file with no source is marked `[OURS]`.
+
+**Then it sits there, called by nothing**, and B follows when the three above come back. A file
+with no callers is honest; a file wired into word learning on thresholds I invented is not.
+
+### ONE FLAW WORTH YOUR EYE BEFORE YOU RULE
+
+10,000 dimensions of ±1 per symbol, one symbol per word the mind has heard plus 402 marks. At a
+byte each that is 10KB a symbol — a thousand words is 10MB held in memory and rebuilt every load.
+It is affordable now and it is not free, and if MEMORY's recall in C later bundles a whole moment
+per moment, it grows with the life rather than with the vocabulary. Worth knowing before C is
+written, not after.
