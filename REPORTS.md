@@ -31766,3 +31766,88 @@ byte each that is 10KB a symbol — a thousand words is 10MB held in memory and 
 It is affordable now and it is not free, and if MEMORY's recall in C later bundles a whole moment
 per moment, it grows with the life rather than with the vocabulary. Worth knowing before C is
 written, not after.
+
+---
+
+# 296 addendum 2, 298, 299 DONE — and the full suite finally ran past memory
+
+## 296 ADDENDUM 2 — THE GAUGE'S FIVE BARS
+
+Renamed at their source in `watching.js`, each carrying its old wording in a new `was` field that
+the page hangs on the bar as its tooltip. Verified on the live bench:
+
+```
+VOCABULARY   was: words it owns
+GRAMMAR      was: word order seen
+REPLIES      was: it answers
+TOPICS       was: things to talk about
+BELIEFS      was: beliefs it holds
+```
+
+**Labels only — nothing about what they measure moved.** The sixth bar, *it understood*, was not on
+his list and is untouched. One reader of the old name existed (a clause matching `'it answers'`)
+and it was updated in the same commit, so the rename could not go silently stale. Commit `4c93646`.
+
+## 299 — GENESIS CLOSES
+
+Pressing GENESIS again shuts the confirm; Escape shuts it. The draft is left exactly as it was
+either way, and the wording, the sketch it shows and the lock itself are untouched. Commit
+`f6b8a7c`.
+
+## 298 — THE BACKLOG NUMBER OFF THE LEGEND
+
+Off `#mmlegend` entirely and into its own element, fixed width with tabular figures, so the number
+can change without shifting anything. **The Pulse is untouched** — it still walks every real
+hand-off in real order and still never skips.
+
+Placement was his, given directly and then corrected with a line drawn on the screenshot:
+**the centre of the map, in line with the dial LABELS, not the rails.** The dials sit 34px off the
+floor as a column of label, 3px gap and a 14px slider, so the label row is 51px up; the readout is
+pinned there in the same size, spacing and case as INTEREST and SPEED, and the three read as one
+line across the foot of the map. Wording shortened to fit the fixed width: `107 behind`.
+
+**Approved by his eye: "nice".** Commits `3c9518e` then `3e70be6`.
+
+## THE FULL SUITE — WHAT WAS BEHIND 259 STEP 5
+
+294.3 asked for the run nothing had made since 259 step 5. It has now been made.
+
+**PHASE 3 passes.** The whitelist fix was the whole of it, and the ten sections that had never been
+reached were reached. Everything from CHARACTER down through OFFERS passed.
+
+**It stops at SAFETY, on one clause of seventeen**, and the mind is not what is wrong:
+
+```
+16  ✗ FAIL   and curiosity sits BEHIND it in the live loop — a frightened Avatar stops wondering
+16 passed, 1 failed
+```
+
+`acceptance-safety.js:156` reads **`watching.js`** for the two lines it compares:
+
+```js
+tick.indexOf('const felt = await this.brain.loop.cycle') < tick.indexOf('this.curiosity = wonder(')
+```
+
+**253 step 2a moved the tick into `experiencing.js` and this clause never followed it.** Both
+`indexOf` calls return -1, `-1 < -1` is false, and the check fails with nothing wrong behind it.
+The law it exists to hold is still true where the code actually lives:
+
+```
+experiencing.js:714    const felt = await mind.brain.loop.cycle(...)
+experiencing.js:754    mind.curiosity = wonder(...)
+experiencing.js:908    mind.permits?.curiosity
+```
+
+The gate still runs first and curiosity still sits behind it. **I have not touched it** — the
+one-line repair is to read `experiencing.js` and `mind.` instead of `watching.js` and `this.`, and
+it is yours to say go. Worth noting the shape: this is the third time a check has been left
+pointing at a file that moved, and every one of them was invisible because nothing ran that far.
+
+## STILL WAITING ON YOU
+
+- **297's three decisions** — the bars, the descent, and the asymmetry. Nothing built.
+- **295.3** — permission to switch the interpreter on for a few minutes to catch the throw.
+- **The SAFETY clause above** — one line, not touched.
+- Older and unchanged: consolidation never runs in a life · identity never asked ·
+  `vocabulary.js` unreachable while a train runs · `curiosity.about` never produced ·
+  curiosity and interests grey until their bars exist · 278 B.
