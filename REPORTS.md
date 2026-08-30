@@ -31374,3 +31374,62 @@ map's own hook a few directives ago. Guarded.
 
 **482 passed, 0 failed.** State hash unmoved at `dc5fc562` — none of this touches the mind. Pushed
 and live on the bench.
+
+---
+
+# Report — 292. THE CORE has its motion back. The tooltips are done only where the record proves a rename.
+
+## 2 — THE CORE REGAINS ITS THIRD CHANNEL
+
+The sphere carried three — colour for what it feels, pulse for how it is doing, **motion for what it
+is after** — and when it retired into THE CORE only the first two came across. The mind had stopped
+showing what it WANTS.
+
+Restored on **the same source the sphere used**: `sphere.urge`, the Frijda tendency the winning
+offer carries. THE CORE leans rather than sitting fixed dead centre:
+
+```
+toward      it leans down the board, toward the world it is reaching for
+away        it lifts back
+orient      it turns side to side, looking
+excitement  it goes restless
+still       it holds where it is
+no urge     it does not move at all
+```
+
+Those are the five the cord already carries and no sixth is invented. It **drifts** toward the lean
+rather than jumping, so the movement is the wanting rather than a twitch. Colour and beat are
+untouched (270.D, 286.3). The legend gains its one line: *"THE CORE leans toward what it wants."*
+
+## 1 — TOOLTIPS: one applied, and I am not guessing at the rest
+
+Your rule is explicit — *do not touch a name he has not changed* — so I went to the record rather
+than to my judgement. The nine panel heads before 238 were:
+
+```
+Its needs — live · What it is doing · What it is feeling · Who it is · Interest rate ·
+What it has come to care about · What it has learned · Bench speed · THE SCHOOL
+```
+
+Against today's panels, that gives exactly one clean rename, and it now carries its old name as a
+tooltip:
+
+```
+"Who this one is"   <-  "Who it is"
+```
+
+The rest do not resolve to renames:
+
+- **"What it is right now"** is not a rename — it is the MERGE 238 made of four heads, and all four
+  survive inside it as their own sub-labels (*Its needs · What it is doing · What it is feeling ·
+  What it has come to care about*). Nothing was lost to find.
+- **"What it has learned"** is unchanged from before 238 — untouched, as you instructed.
+- **"Interest rate"** and **"Bench speed"** are not panels any more; they are the two dials on the
+  stage.
+- **"What it is made for" · "What it is drawn to, and away from" · "What it has done" · "Its makeup"
+  · "Levers"** were introduced fresh by their own directives, not renamed from anything.
+
+**If there are renames you made that the record does not carry, name them and the old wording goes
+on in one line each.** I would rather ask than put a wrong "original" on a panel.
+
+**482 passed, 0 failed.** State hash unmoved at `dc5fc562`. Pushed and live.
