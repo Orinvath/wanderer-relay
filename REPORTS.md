@@ -32101,3 +32101,134 @@ So which does the proof mean:
 
 **I read 300.1 as meaning (2), but I am not going to assume it on something this load-bearing.**
 Say which and B is built the same day — everything else in it is settled above.
+
+---
+
+# THIS PULL CARRIED TWO: 303 AND 304.
+
+## 303 — 297.B IS BUILT
+
+Word learning reads its meanings off the geometry. Commit is in the repo; the full suite is running
+against it as I write and its result follows in the next report.
+
+**No new storage, no migration, nothing to fall out of step.** `word_links` already held the whole
+exposure history — how often a word and a mark were together, how often apart — so the word's
+vector is rebuilt from what was already recorded:
+
+```
+pull of each link   =  together  -  apart x AGAINST
+strength            =  similar(bind(bundle, word), mark)
+```
+
+`confidence` stopped being an accumulator and became **the strength read off that geometry**,
+written on every move, so the panel, the gauge, `owned()` and the litmus all keep working
+untouched. Provenance, grounded words, `MAX_LINKS`, the `words_from_nowhere` counter and the 223
+fast-mapping rule are all exactly as they were. **Only the arithmetic moved.**
+
+### Watched on a real store, a real seed, and a real word
+
+```
+heard once while only JOY was true
+   BLICKET  ->  JOY   1.000     owned immediately (223 / Carey & Bartlett)
+
+heard three more times while SAD was true and JOY was not
+   SAD  t3/a0    0.606          the new meaning, earned
+   JOY  t1/a3   -0.802          the old one, dead
+   BLICKET now means SAD
+
+four more
+   SAD   0.555   JOY  -0.838
+```
+
+**The wrong link washed out rather than vanishing**, which is the whole of 300.2, and it happened
+because the geometry says so — no rule fired, nothing was collapsed by hand. One clear look owns
+the word instantly, which is 223 getting what it always asked for and never had.
+
+**300.1 is intact: nothing was calibrated.** The bars are geometry's own — six noise-floors and
+three — carried straight into `learning.js`, and `ONE_CLEAR_LOOK` stopped being a separate number
+because the geometry gives that behaviour for free.
+
+**AND THE FIRST THING FOR HIM TO WATCH:** real readings land far above those bars. SAD sits at
+0.606 where the owned bar is 0.060. **The bars are provisional and this is the evidence to set them
+by** — as they stand, almost any link with more together than apart reads as owned, which may well
+be too generous. I am reporting it rather than moving it, which is 300.1.
+
+The blast radius was checked before a line was written: nothing outside `learning.js` reads that
+scale.
+
+---
+
+# BUILD PLAN — DIRECTIVE 304
+
+### 250 scan: A and D-293 are decided; B, C and D-278.B each have one open decision.
+
+## A — CONSOLIDATION. Ready to build, no decisions.
+
+`consolidate()` is called by exactly one thing in this repository and it is a measurement script.
+The dream runs in `rest.js`, reads the day back out of memory itself, and then stops. The call goes
+directly after it, on **the same `day` the dream drew from**, with `asleep: true` — which is the
+counter's own question, since a distillation taken awake is a scan and not a dream. `MIN_SHARED`
+stays `sleep.js`'s own `OVERLAP_MIN`; I am not introducing a second number.
+
+## B — IDENTITY. One decision.
+
+`identity.story()` is called by nothing in a life either. The boundary is settled by 304.B and
+needs no thought from me: **in a dream, distil, keep, then read** — the story is taken after the
+consolidation, on what that consolidation kept.
+
+**THE OPEN DECISION: where the life story goes once it is taken.** Nothing in the build has a place
+for it. It can be held on the mind for the page to read, and if so it needs a panel or a line in
+one, and that is his placement to make and not mine. Naming it rather than picking somewhere.
+
+## C — VOCABULARY. The diagnosis is done; the restoration has one decision.
+
+**I can say plainly which change grew in front of it, and it is not the one the directive names.**
+`reach` is imported at `experiencing.js:51` and **never called there at all** — a dead import. The
+real path is `thinking.js`: `fromLanguage()` calls vocabulary's reach and lights its node, and it
+sits at the END of the option list.
+
+```
+thinking.js:431   if (train && aspects) {
+thinking.js:432     const got = inTrain(mind, train, roll, aspects)
+thinking.js:433     if (got) return { ...got, ... }        <-- here
+thinking.js:434   }
+...
+thinking.js:457   push(fromLanguage(mind, roll), LANGUAGE_WEIGHT)   <-- never reached while a train runs
+```
+
+**The change is Directive 225 — "A TRAIN RUNS FIRST"**, and its comment says exactly what it did:
+*while the mind is on a subject, that is what it thinks about, and the older sources below are what
+a mind with nothing on its mind does.* That was right for subjects. Its cost, which nobody costed,
+is that **a train runs on most ticks, so the five sources under it — including the whole language —
+are unreachable for most of a life.** That is the fault 304.C describes, arriving from 225 rather
+than from vocabulary.js.
+
+**THE OPEN DECISION: how the reach is restored without disturbing what 225 was doing.** Two shapes,
+and I will not pick:
+
+1. **The train keeps the subject and the language supplies the words** — `inTrain` draws its
+   wording through `reach` rather than returning before it. The train still decides what the
+   thought is ABOUT, which is all 225 ever claimed.
+2. **The train becomes an option with a heavy weight rather than a return** — it usually wins, and
+   sometimes the language reaches through. Truer to "one source, never the gate", and it means a
+   train can be interrupted by a word, which may or may not be what he wants a train to be.
+
+## D — THE TWO SKIPPED
+
+**293** is decided as written and I will build it as written. One thing is not in it and I will not
+choose it: **where the banner sits.** Everything else — the halt at the tick, the counter and value
+named, the health panel opening on that entry, Continue, the override recorded, the run marked
+HALTED · INVALID — is specified.
+
+**278.B is not one decision, it is thirty-nine.** One check per file means each file needs its own
+claim and its own counters, and **a claim is a statement about what that file promises** — 258 was
+transcribed from his list precisely because deriving it was not my call. I can prepare the ground:
+list every file, show which of the 24 existing claims and counters it inherits, and mark which
+files have no claim of their own yet. **The claims themselves have to come from him or the
+Director**, exactly as 258's twenty-three did.
+
+## E — TAKEN, AND IT IS THE RIGHT READING
+
+All three were reported as built when they were only ready. **A capability with no caller is not
+built.** From here a system is not done until something calls it and its own light can go green in
+a real life, and each of the three will say so in its own report.
