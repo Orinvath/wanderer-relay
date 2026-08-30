@@ -6391,3 +6391,40 @@ after, plus the source histogram (how many subjects came from each of
 the four). The measure that matters is whether a lone mind stops
 alternating two moments.
 Full suite and state hash.
+
+## Directive 282 — THE PULSE IS DEAF, AND THE THINKING CHECK IS THE WRONG QUESTION
+
+### A. THE PULSE (270.B, unproven and now failing on his screen)
+Lonnie teaches the mind, it answers him — so the mind is running.
+The map shows ZERO activity and no PULSE. The map is not receiving
+the events; the mind is not dead.
+1. Find where the chain breaks and say which link failed: does the
+   code emit a hand-off at all · does the emission reach the served
+   stream · does the map read the stream · does reading it move
+   anything. Name the broken link before fixing it.
+2. 270.B.4's three proofs were never delivered. They are required
+   now, in the report: (a) the mind paused — the map is pixel-still;
+   (b) ONE tick single-stepped — the walked path posted beside that
+   tick's log, matching line for line; (c) one system's emission
+   silenced — its sigil goes dark and stays dark while the rest run.
+3. No proof, no claim. A map that cannot show a teaching session
+   lighting up is not an instrument.
+
+### B. THE THINKING CHECK (266's finding, never fixed)
+266 proved the check measures the wrong thing: it reads only the
+FIRST word of each beat, never the subject itself, and it asks
+whether words are related IN THE LANGUAGE when a replay's job is to
+record what LIFE put together. SONG and TOGETHER lived together in 27
+of 40 episodes and score 0.00 because they sit on different sheets.
+1. FOR A REPLAY the claim is 226.2's own: the beats are the lived
+   episodes that touch the subject, in the order they happened. The
+   check asks THAT — do the beats contain the subject, are they in
+   lived order — not word-nearness.
+2. FOR AN ASSOCIATION the nearness check is right and stays: the
+   step is drawn from the language, so the language is the fair
+   judge. It must compare against THE SUBJECT, and read every mark
+   of a beat rather than its first word.
+3. FOR AN IMAGINED train the claim is 226.3's: every element is
+   something it has lived. That is the check, not nearness.
+Each kind judged by its own law. Show the light before and after,
+and what turned it red or green.
