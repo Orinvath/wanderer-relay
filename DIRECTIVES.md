@@ -6586,3 +6586,19 @@ PROVE BOTH: safety's count beside the moment count (they must match);
 a lone mind's mood drifting toward the fear side over a long silence
 and settling when taught; two beings with different aspects becoming
 uneasy at different rates.
+
+## Directive 288 — File: reference/ai-timeline-and-hybrid.html (store with the research)
+
+The Director's document, on the relay now: a timeline of AI from 1943
+to 2026 across the three roads (symbolic · connectionist · geometric),
+marking the cognitive-architecture and artificial-life branches, where
+the Avatar sits in the empty middle — and a conceived HYBRID
+architecture: the grounded mind holding all meaning, a 1–4B local
+model as a LANGUAGE ORGAN holding none, a censor between them, and a
+small adapter trained on the being's own censor-approved crossings so
+the organ's voice becomes that being's voice over its life.
+
+CC: file it with the research documents (THE_LINEAGE.md,
+DESIGN_PHILOSOPHY.md, REFERENCES.md) and add its cited works to
+REFERENCES.md per 227's law. Nothing is to be built from it — it is
+reference and positioning material.

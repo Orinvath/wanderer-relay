@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI: Three Roads, and a Hybrid</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#12181f; --ink:#e6edf3; --dim:#8b98a5; --line:#2b3540;
+    --blue:#5aa9e6; --teal:#4fd1a5; --amber:#e0b155; --red:#e0685f; --gray:#8b98a5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       padding:40px 24px 80px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:26px;font-weight:600;letter-spacing:0.5px;margin:0 0 6px}
+  h2{font-size:18px;font-weight:600;letter-spacing:1.5px;color:var(--dim);
+     text-transform:uppercase;margin:56px 0 4px}
+  p.lead{color:var(--dim);font-size:14.5px;line-height:1.6;margin:0 0 28px}
+  p.note{color:var(--dim);font-size:13.5px;line-height:1.7;margin:18px 0 0}
+  svg{width:100%;height:auto;display:block;margin:12px 0 4px}
+  .th{fill:var(--ink);font-size:12px;font-weight:600;letter-spacing:0.3px}
+  .ts{fill:var(--dim);font-size:11px}
+  .box{fill:var(--panel);stroke-width:1}
+  .c-blue .box{stroke:var(--blue)}   .c-blue .th{fill:#bcdcf5}
+  .c-teal .box{stroke:var(--teal)}   .c-teal .th{fill:#b6f0da}
+  .c-amber .box{stroke:var(--amber)} .c-amber .th{fill:#f2ddb0}
+  .c-red .box{stroke:var(--red)}     .c-red .th{fill:#f5c3bf}
+  .c-gray .box{stroke:var(--line)}
+  .arr{stroke:var(--dim);stroke-width:1.2;fill:none}
+  footer{margin-top:70px;padding-top:20px;border-top:1px solid var(--line);
+         color:var(--dim);font-size:12.5px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Three Roads, and a Hybrid</h1>
+<p class="lead">A timeline of how artificial intelligence was attempted, which theories won and which were abandoned — and a design for combining a grounded mind with a small language model.</p>
+
+<h2>Three Roads · 1943 – 2026</h2>
+
+<svg viewBox="0 0 700 1560" role="img" aria-label="Timeline of AI across symbolic, connectionist and geometric roads">
+  <text class="ts" x="120" y="24" text-anchor="middle">SYMBOLIC</text>
+  <text class="ts" x="350" y="24" text-anchor="middle">CONNECTIONIST</text>
+  <text class="ts" x="580" y="24" text-anchor="middle">GEOMETRIC / GROUNDED</text>
+
+  <line x1="120" y1="34" x2="120" y2="1440" stroke="#2b3540" stroke-width="1"/>
+  <line x1="350" y1="34" x2="350" y2="1440" stroke="#2b3540" stroke-width="1"/>
+  <line x1="580" y1="34" x2="580" y2="1440" stroke="#2b3540" stroke-width="1"/>
+
+  <text class="ts" x="16" y="58">1943</text>
+  <g class="c-blue"><rect class="box" x="250" y="42" width="200" height="34" rx="7"/><text class="th" x="350" y="59" text-anchor="middle" dominant-baseline="central">McCulloch &amp; Pitts neuron</text></g>
+
+  <text class="ts" x="16" y="104">1950</text>
+  <g class="c-gray"><rect class="box" x="30" y="88" width="180" height="34" rx="7"/><text class="th" x="120" y="105" text-anchor="middle" dominant-baseline="central">Turing: can machines think</text></g>
+
+  <text class="ts" x="16" y="150">1956</text>
+  <g class="c-gray"><rect class="box" x="30" y="134" width="180" height="34" rx="7"/><text class="th" x="120" y="151" text-anchor="middle" dominant-baseline="central">Dartmouth · the field named</text></g>
+
+  <text class="ts" x="16" y="196">1958</text>
+  <g class="c-blue"><rect class="box" x="250" y="180" width="200" height="34" rx="7"/><text class="th" x="350" y="197" text-anchor="middle" dominant-baseline="central">Rosenblatt perceptron</text></g>
+
+  <text class="ts" x="16" y="242">1969</text>
+  <g class="c-red"><rect class="box" x="250" y="226" width="200" height="40" rx="7"/><text class="th" x="350" y="238" text-anchor="middle" dominant-baseline="central">Minsky &amp; Papert kill it</text><text class="ts" x="350" y="255" text-anchor="middle" dominant-baseline="central">first neural winter</text></g>
+
+  <text class="ts" x="16" y="292">1970s</text>
+  <g class="c-gray"><rect class="box" x="30" y="276" width="180" height="40" rx="7"/><text class="th" x="120" y="288" text-anchor="middle" dominant-baseline="central">Expert systems · MYCIN</text><text class="ts" x="120" y="305" text-anchor="middle" dominant-baseline="central">rules written by hand</text></g>
+
+  <text class="ts" x="16" y="344">1972</text>
+  <g class="c-teal"><rect class="box" x="480" y="328" width="200" height="40" rx="7"/><text class="th" x="580" y="340" text-anchor="middle" dominant-baseline="central">Tulving: episodic memory</text><text class="ts" x="580" y="357" text-anchor="middle" dominant-baseline="central">memory holds events</text></g>
+
+  <text class="ts" x="16" y="396">1980</text>
+  <g class="c-teal"><rect class="box" x="480" y="380" width="200" height="34" rx="7"/><text class="th" x="580" y="397" text-anchor="middle" dominant-baseline="central">Russell: the circumplex</text></g>
+
+  <text class="ts" x="16" y="442">1983</text>
+  <g class="c-amber"><rect class="box" x="30" y="426" width="180" height="40" rx="7"/><text class="th" x="120" y="438" text-anchor="middle" dominant-baseline="central">ACT-R · SOAR begin</text><text class="ts" x="120" y="455" text-anchor="middle" dominant-baseline="central">cognitive architectures</text></g>
+
+  <text class="ts" x="16" y="494">1986</text>
+  <g class="c-blue"><rect class="box" x="250" y="478" width="200" height="40" rx="7"/><text class="th" x="350" y="490" text-anchor="middle" dominant-baseline="central">Backpropagation revived</text><text class="ts" x="350" y="507" text-anchor="middle" dominant-baseline="central">Rumelhart · Hinton</text></g>
+
+  <text class="ts" x="16" y="546">1988</text>
+  <g class="c-teal"><rect class="box" x="480" y="530" width="200" height="40" rx="7"/><text class="th" x="580" y="542" text-anchor="middle" dominant-baseline="central">OCC appraisal model</text><text class="ts" x="580" y="559" text-anchor="middle" dominant-baseline="central">emotion as computation</text></g>
+
+  <text class="ts" x="16" y="598">1990</text>
+  <g class="c-teal"><rect class="box" x="480" y="582" width="200" height="40" rx="7"/><text class="th" x="580" y="594" text-anchor="middle" dominant-baseline="central">Plate: holographic memory</text><text class="ts" x="580" y="611" text-anchor="middle" dominant-baseline="central">meaning as vectors · HRR</text></g>
+
+  <text class="ts" x="16" y="650">1990</text>
+  <g class="c-teal"><rect class="box" x="480" y="634" width="200" height="40" rx="7"/><text class="th" x="580" y="646" text-anchor="middle" dominant-baseline="central">Elman: starting small</text><text class="ts" x="580" y="663" text-anchor="middle" dominant-baseline="central">small capacity learns better</text></g>
+
+  <text class="ts" x="16" y="702">1996</text>
+  <g class="c-amber"><rect class="box" x="30" y="686" width="180" height="56" rx="7"/><text class="th" x="120" y="700" text-anchor="middle" dominant-baseline="central">Grand: CREATURES</text><text class="ts" x="120" y="717" text-anchor="middle" dominant-baseline="central">drives · chemistry · taught</text><text class="ts" x="120" y="733" text-anchor="middle" dominant-baseline="central">words · death · a-life</text></g>
+
+  <text class="ts" x="16" y="772">1996</text>
+  <g class="c-teal"><rect class="box" x="480" y="756" width="200" height="34" rx="7"/><text class="th" x="580" y="773" text-anchor="middle" dominant-baseline="central">Saffran: statistical learning</text></g>
+
+  <text class="ts" x="16" y="818">1997</text>
+  <g class="c-blue"><rect class="box" x="250" y="802" width="200" height="34" rx="7"/><text class="th" x="350" y="819" text-anchor="middle" dominant-baseline="central">LSTM · Deep Blue</text></g>
+
+  <text class="ts" x="16" y="864">2000s</text>
+  <g class="c-amber"><rect class="box" x="30" y="848" width="180" height="40" rx="7"/><text class="th" x="120" y="860" text-anchor="middle" dominant-baseline="central">FAtiMA · LIDA</text><text class="ts" x="120" y="877" text-anchor="middle" dominant-baseline="central">appraisal agents, in labs</text></g>
+
+  <text class="ts" x="16" y="916">2012</text>
+  <g class="c-blue"><rect class="box" x="250" y="900" width="200" height="40" rx="7"/><text class="th" x="350" y="912" text-anchor="middle" dominant-baseline="central">AlexNet · GPUs</text><text class="ts" x="350" y="929" text-anchor="middle" dominant-baseline="central">deep learning wins</text></g>
+
+  <text class="ts" x="16" y="968">2013</text>
+  <g class="c-blue"><rect class="box" x="250" y="952" width="200" height="34" rx="7"/><text class="th" x="350" y="969" text-anchor="middle" dominant-baseline="central">word2vec: words as vectors</text></g>
+
+  <text class="ts" x="16" y="1014">2017</text>
+  <g class="c-blue"><rect class="box" x="250" y="998" width="200" height="40" rx="7"/><text class="th" x="350" y="1010" text-anchor="middle" dominant-baseline="central">The transformer</text><text class="ts" x="350" y="1027" text-anchor="middle" dominant-baseline="central">attention is all you need</text></g>
+
+  <text class="ts" x="16" y="1066">2020</text>
+  <g class="c-blue"><rect class="box" x="250" y="1050" width="200" height="40" rx="7"/><text class="th" x="350" y="1062" text-anchor="middle" dominant-baseline="central">GPT-3 · scale as strategy</text><text class="ts" x="350" y="1079" text-anchor="middle" dominant-baseline="central">brute force pays</text></g>
+
+  <text class="ts" x="16" y="1118">2022</text>
+  <g class="c-blue"><rect class="box" x="250" y="1102" width="200" height="34" rx="7"/><text class="th" x="350" y="1119" text-anchor="middle" dominant-baseline="central">ChatGPT · the flood</text></g>
+
+  <text class="ts" x="16" y="1164">2023</text>
+  <g class="c-teal"><rect class="box" x="480" y="1148" width="200" height="40" rx="7"/><text class="th" x="580" y="1160" text-anchor="middle" dominant-baseline="central">Hyperdimensional revival</text><text class="ts" x="580" y="1177" text-anchor="middle" dominant-baseline="central">VSA · neurosymbolic</text></g>
+
+  <text class="ts" x="16" y="1216">2024</text>
+  <g class="c-blue"><rect class="box" x="250" y="1200" width="200" height="40" rx="7"/><text class="th" x="350" y="1212" text-anchor="middle" dominant-baseline="central">Small models arrive</text><text class="ts" x="350" y="1229" text-anchor="middle" dominant-baseline="central">Phi · Llama 1B/3B on device</text></g>
+
+  <text class="ts" x="16" y="1268">2025</text>
+  <g class="c-red"><rect class="box" x="250" y="1252" width="200" height="56" rx="7"/><text class="th" x="350" y="1266" text-anchor="middle" dominant-baseline="central">The indictment</text><text class="ts" x="350" y="1283" text-anchor="middle" dominant-baseline="central">LLM emotion = surface</text><text class="ts" x="350" y="1299" text-anchor="middle" dominant-baseline="central">mimicry, no motivation</text></g>
+
+  <text class="ts" x="16" y="1338">2026</text>
+  <g class="c-blue"><rect class="box" x="250" y="1322" width="200" height="40" rx="7"/><text class="th" x="350" y="1334" text-anchor="middle" dominant-baseline="central">1–4B is the sweet spot</text><text class="ts" x="350" y="1351" text-anchor="middle" dominant-baseline="central">runs on your own machine</text></g>
+
+  <g class="c-amber"><rect class="box" x="30" y="1380" width="640" height="56" rx="8"/><text class="th" x="350" y="1400" text-anchor="middle">THE EMPTY MIDDLE — where the Avatar sits</text><text class="ts" x="350" y="1421" text-anchor="middle">grounded appraisal mind · its own language · words earned by living · no model in the loop</text></g>
+
+  <text class="ts" x="350" y="1478" text-anchor="middle">blue = connectionist · teal = the science we build on · amber = architectures and artificial life</text>
+  <text class="ts" x="350" y="1500" text-anchor="middle">The symbolic road went quiet after the 80s. The grounded road was never taken.</text>
+</svg>
+
+<h2>The Hybrid</h2>
+
+<svg viewBox="0 0 700 900" role="img" aria-label="Hybrid architecture of grounded mind and small language model">
+  <text class="th" x="350" y="20" text-anchor="middle">THE HYBRID — one mind, one language organ</text>
+
+  <g class="c-amber"><rect class="box" x="40" y="46" width="290" height="300" rx="10"/>
+  <text class="th" x="185" y="72" text-anchor="middle">THE MIND — decides everything</text>
+  <text class="ts" x="60" y="104">what it feels · what it needs</text>
+  <text class="ts" x="60" y="128">what it chooses and why</text>
+  <text class="ts" x="60" y="152">what it remembers · what it believes</text>
+  <text class="ts" x="60" y="176">what it wonders about</text>
+  <text class="ts" x="60" y="200">its own 402 marks</text>
+  <text class="ts" x="60" y="236">no model reachable from here</text>
+  <text class="ts" x="60" y="260">arithmetic only · reproducible</text>
+  <text class="ts" x="60" y="284">every word traceable to the record</text>
+  <text class="th" x="60" y="320">MEANING LIVES HERE</text></g>
+
+  <g class="c-blue"><rect class="box" x="380" y="46" width="280" height="300" rx="10"/>
+  <text class="th" x="520" y="72" text-anchor="middle">THE LANGUAGE ORGAN — form only</text>
+  <text class="ts" x="400" y="104">a 1–4B model on your own machine</text>
+  <text class="ts" x="400" y="128">English in → its marks</text>
+  <text class="ts" x="400" y="152">its marks + state → English out</text>
+  <text class="ts" x="400" y="176">grammar · phrasing · fluency</text>
+  <text class="ts" x="400" y="212">knows no facts about the being</text>
+  <text class="ts" x="400" y="236">holds no memory of its own</text>
+  <text class="ts" x="400" y="260">swappable · replaceable · mute alone</text>
+  <text class="th" x="400" y="320">NO MEANING LIVES HERE</text></g>
+
+  <g class="c-red"><rect class="box" x="240" y="370" width="220" height="60" rx="10"/>
+  <text class="th" x="350" y="392" text-anchor="middle">THE CENSOR</text>
+  <text class="ts" x="350" y="414" text-anchor="middle">every content word traces to the record, or the line dies</text></g>
+
+  <defs><marker id="h1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#8b98a5" stroke-width="1.5" stroke-linecap="round"/></marker></defs>
+  <line x1="330" y1="194" x2="378" y2="194" class="arr" marker-end="url(#h1)"/>
+  <line x1="378" y1="224" x2="330" y2="224" class="arr" marker-end="url(#h1)"/>
+  <line x1="350" y1="346" x2="350" y2="368" class="arr" marker-end="url(#h1)"/>
+
+  <text class="th" x="350" y="474" text-anchor="middle">THE NEW PART — the organ grows into this being</text>
+
+  <g class="c-teal"><rect class="box" x="40" y="494" width="620" height="150" rx="10"/>
+  <text class="th" x="60" y="522">Every crossing is a training pair, kept</text>
+  <text class="ts" x="60" y="546">its marks + its state  ↔  the English that carried them, censor-approved</text>
+  <text class="ts" x="60" y="576">A small adapter on the model is retrained on that pile as the life accumulates —</text>
+  <text class="ts" x="60" y="598">so the organ stops speaking generic English and starts speaking THIS being's English:</text>
+  <text class="ts" x="60" y="620">its rhythms, its favourite marks, the house it grew up in. The weights carry no facts — only voice.</text></g>
+
+  <g class="c-gray"><rect class="box" x="40" y="666" width="300" height="120" rx="10"/>
+  <text class="th" x="60" y="692">WHAT THIS BUYS</text>
+  <text class="ts" x="60" y="716">fluent from day one, honest by enforcement</text>
+  <text class="ts" x="60" y="738">two beings sound different — because they are</text>
+  <text class="ts" x="60" y="760">runs local, no cloud, no per-word cost</text>
+  <text class="ts" x="60" y="780">the mind stays testable and reproducible</text></g>
+
+  <g class="c-red"><rect class="box" x="360" y="666" width="300" height="120" rx="10"/>
+  <text class="th" x="380" y="692">WHAT IT RISKS — pick these apart first</text>
+  <text class="ts" x="380" y="716">the organ can still smuggle fluency as depth</text>
+  <text class="ts" x="380" y="738">adapter drift is not reproducible like the mind</text>
+  <text class="ts" x="380" y="760">a censor is only as good as its trace test</text>
+  <text class="ts" x="380" y="780">nobody has shipped this; no prior art to copy</text></g>
+
+  <text class="ts" x="350" y="822" text-anchor="middle">The mind is the person. The organ is the mouth and the ear.</text>
+  <text class="ts" x="350" y="844" text-anchor="middle">Cut the organ out and the being still lives, thinks, feels — and goes quiet.</text>
+</svg>
+
+<footer>
+Sources for the timeline: McCulloch &amp; Pitts 1943 · Turing 1950 · Dartmouth 1956 · Rosenblatt 1958 · Minsky &amp; Papert 1969 · Shortliffe MYCIN 1976 · Tulving 1972 · Russell 1980 · Anderson ACT-R and Laird/Newell SOAR 1983 · Rumelhart, Hinton &amp; Williams 1986 · Ortony, Clore &amp; Collins 1988 · Plate HRR 1990 · Elman 1990 · Grand, Cliff &amp; Malhotra, Creatures 1996–98 · Saffran, Aslin &amp; Newport 1996 · Hochreiter &amp; Schmidhuber 1997 · Krizhevsky et al. 2012 · Mikolov et al. 2013 · Vaswani et al. 2017 · Brown et al. 2020 · Kanerva/Kleyko hyperdimensional revival 2022–23 · Phi and Llama 3.2 small models 2024 · on-device 1–4B consensus 2026.
+</footer>
+
+</div>
+</body>
+</html>
