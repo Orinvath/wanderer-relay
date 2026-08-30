@@ -30955,3 +30955,63 @@ the other two OCC paths have never fired. It is not that feelings are broken —
 for them to be made of.**
 
 Nothing changed. Awaiting the plan.
+
+---
+
+# Report — 286 CORE AFFECT built. The mind is never at zero any more.
+
+## What it is
+
+`mood.js`. A being has a RESTING MOOD it sits at and a RETURN RATE it comes home at, both read off
+its own ten exactly as every other rate in this build is read — **no shared number, no default.**
+Volatility and Withdrawal place where it rests; Enthusiasm and Compassion lift it. A feeling
+raises the mood away from that point and it falls back into it, never into silence.
+
+**And nothing else changed (286.4):** the baseline invents no moments, bears on no lesson, touches
+no ledger, and is not a source of events. It is what the mind feels between things.
+
+## THE PROOF — three beings with different aspects, 40 ticks each
+
+```
+                resting                 reads as          no FEELING   BLANK core   mood rose to
+CALM-1        v -0.089  a 0.317      disappointment          40 / 40         0        -0.089
+VOLATILE-1    v -0.194  a 0.292      reproach                17 / 40         0         0.682
+WARM-1        v -0.048  a 0.258      disappointment           5 / 40         0         0.408
+```
+
+- **The three resting moods differ**, and so do their return rates (1.01, 0.74, 1.23 per hour) —
+  they are computed from each being's own ten.
+- **THE CORE IS NEVER BLANK: 0 ticks out of 120.** CALM-1 felt nothing on all 40 of its ticks and
+  its Core still shows its resting mood — which is the whole of 286.
+- **A feeling still visibly rises and settles.** VOLATILE-1 sits at −0.194 and was carried to
+  **+0.682** and back; WARM-1 from −0.048 to **+0.408**. There is headroom above the mood for a
+  strong moment, which there would not be if it pinned at the ceiling.
+
+*One thing I had to correct on the way:* my first version pulled the mood toward the feeling's
+**direction** (the record's `valence` is only ever ±1), so a run of mild joys drove the mood to
+1.000 and stayed — nothing could rise above it. It now pulls toward the felt valence **scaled by
+its intensity**: a mild joy leans the mood a little, a fierce one carries it a long way.
+
+## The Core reads it off your own bar
+
+Your 22 run fear (hue 0) to love (hue 280), which is already an ordering from unpleasant to
+pleasant — so a mood's place on that bar **is** its valence. One palette table, no second copy, and
+no invented coordinates. The record's own `valence` column could not do this job: it holds only +1
+and −1, so eleven feelings tie at each end.
+
+## Carried
+
+The **mood** travels in the being file — a being that wakes having lost its mood wakes as somebody
+slightly else. Its **resting** mood is not carried, because that is derived from the ten and is
+rebuilt at load exactly as the ten are. An older life with no mood in it wakes at its own resting
+point, which is where a mood starts anyway.
+
+## References (227.2)
+
+Russell 2003 (core affect) · Russell 1980 (circumplex) · Kuppens, Oravecz & Tuerlinckx 2010
+(home base and attractor strength) — added to REFERENCES.md, with what is theirs and what is ours
+stated: every magnitude in `mood.js` is `[OURS, PROVISIONAL]`, and which aspects set which is your
+ruling in 286.1, not a finding in the literature.
+
+**479 passed, 0 failed.** State hash moved to `1eec923e` — the mind now carries a mood it did not
+carry before. Pushed, and live on the bench.
