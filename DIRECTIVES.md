@@ -6167,3 +6167,26 @@ is restoration, not invention; nothing new is decided.
    is ever born from a self-told story (which has never happened).
    Full suite and state hash per commit — the hash WILL move, and
    the report shows what moved and that nothing else did.
+
+## Directive 275 — The moment must not lie about a full need (191, one level down)
+
+Found by the Director in the code, confirmed against the record:
+`experiencing.js:76` builds the moment's need-word with
+`forNeed(happening.lowest, 'low')` UNCONDITIONALLY — so a being whose
+lowest need sits at +10 still says the LOW word. A contented mind
+reports itself lonely.
+
+This is 191's own fault one level down. The comment above that very
+line records 191's ruling: until the dictionary held all three ends,
+it "said 'lonely' whatever was low — so an Avatar failing at
+everything, or with no freedom left, reported itself lonely. That was
+a false statement about it, and the kind the whole design exists to
+prevent." 191 fixed WHICH need speaks; it never fixed WHICH END.
+
+THE FIX IS RESTORATION, not a new rule: match the sibling lines in
+this same file (`:174`, `:253`) and in `speech.js:453`, which already
+choose the end by the value. The bottomed case (<= -10) stands as is.
+
+Prove it: a fully satisfied being's moment must no longer speak a low
+word; a genuinely depleted one must still speak it; the bottomed
+wording unchanged. Full suite and state hash.
