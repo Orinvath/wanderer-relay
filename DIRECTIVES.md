@@ -6265,3 +6265,46 @@ recording. If anything moves, it is animation and it comes out.
 
 Find every place a sigil's scale, opacity, colour, halo or position
 changes without a real emitted event behind it, and remove it.
+
+## Directive 278 — ONE FILE, ONE NODE, ONE CHECK. Finish the law.
+
+The Director's audit was partial and reported as complete; the full
+mapping (276's report) shows 11 nodes still covering more than one
+file. Lonnie's ruling stands unchanged: ONE FILE = ONE NODE. Finish
+it everywhere.
+
+### A. SPLIT THE ELEVEN — every file gets its own node
+CHOOSING   -> OFFERS · GOALS
+APPRAISAL  -> APPRAISAL (appraisal.js only) · HOST
+             (ATTENTION and FEELINGS already stand as their own)
+ASPECTS    -> ASPECTS · ROE
+LEARNING   -> LEARNING · VOCABULARY
+LANGUAGE   -> LANGUAGE · GLYPHS · DICTIONARY
+VOICE      -> VOICE · GRAMMAR · CENSOR
+STORIES    -> STORIES · STORYGATES
+LESSONS    -> LESSONS · BELIEF
+MEMORY     -> MEMORY · SURFACING
+SLEEP      -> SLEEP · CONSOLIDATION
+BODY       -> EMBODIMENT · CORD · NERVES
+Every node's label is its file's name, exactly (276). No node may
+name two files; no file may lack a node.
+
+### B. THE CHECKS FOLLOW THE SAME LAW
+259's 23 vitals become one vital per file, so a red light names
+exactly one file to open. A file whose claim is genuinely part of
+another's states that plainly in its own header and keeps its own
+counters; no file shares a counter with another.
+
+### C. PLACEMENT
+Each new node sits in the neighbourhood its parent node occupied,
+beside it, keeping the neighbourhood gaps larger than the gaps
+within (270.C). Nothing else about the board changes.
+
+### D. EMISSION
+Every node must be able to light: the hand-off is emitted in the
+name of the FILE doing the work, as was done for attention.js and
+feelings.js in 276. A node that cannot light is a false light and
+fails review.
+
+Report the full mapping again when done: every node, its one file,
+and proof each one can light.
