@@ -6602,3 +6602,30 @@ CC: file it with the research documents (THE_LINEAGE.md,
 DESIGN_PHILOSOPHY.md, REFERENCES.md) and add its cited works to
 REFERENCES.md per 227's law. Nothing is to be built from it — it is
 reference and positioning material.
+
+## Directive 289 — TRUST MOVES ON BEING WRONG, NOT ON BEING UNPROVEN (Lonnie)
+
+The trust red light diagnosed: `weaken` — a claim whose marks simply
+did not recur — costs a teller the same as `contradict`. Trust starts
+at 0.30, so four unconfirmed claims put any teller on the floor, and
+`capFor(floor)` then caps every told belief at 0.05. Teaching becomes
+self-defeating: the more you tell it, the less your word is worth.
+
+THE RULING: ONLY AN OUTRIGHT CONTRADICTION MOVES TRUST DOWN. An
+unconfirmed claim is SILENT for the teller — it is not yet borne out,
+which is not the same as turned out false. `reinforce` still raises
+trust as built; `weaken` leaves it untouched.
+
+This is 234.7's own intent ("whether the mind's own life bore it
+out") and the science it was built on: selective testimony tracks
+tellers who are WRONG, not tellers whose claims have not yet come up
+(Harris — already in REFERENCES.md).
+
+The belief itself is unchanged: `weaken` still weakens the BELIEF,
+because a claim not borne out should hold less. Only the teller stops
+being charged for it.
+
+Prove it: a teller giving four unconfirmed claims stays at their
+starting trust; a teller contradicted four times still falls; a
+teller borne out still climbs; and a taught mind's told-belief cap no
+longer collapses over a quiet bench life.
