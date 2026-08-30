@@ -6861,3 +6861,13 @@ real order and still never skips (283.A.2 unchanged) — only the
 readout moves. Put the depth where it can change without moving
 anything: a fixed-width readout in a corner of the Mind Map, or in
 the HEALTH panel beside the map's own entry. Nothing else changes.
+
+## Directive 299 — GENESIS must close
+
+In the SOUL panel, the GENESIS confirm opens and cannot be closed —
+there is no way out but going through with it, which is the one
+action in the bench that is forever (212.B).
+
+Pressing GENESIS again closes the confirm, leaving the draft exactly
+as it was. Escape closes it too. Nothing about the confirm's wording
+or the lock itself changes — only that he can back out of it.
