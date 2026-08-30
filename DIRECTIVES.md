@@ -6772,3 +6772,9 @@ that panel's mouse-over tooltip (292.1), so nothing is lost:
 
 Nothing else changes — these are labels and their tooltips only. Any
 other header not on this list is left exactly as it is.
+
+## Directive 296 addendum — one more rename
+
+  Its whole life, to a file   ->   SAVE MIND
+
+Same rule as the twelve: the old name becomes its tooltip.
