@@ -6509,3 +6509,41 @@ Three corrections from Lonnie against the approved mock
    runs — brightness only, no scaling, no growth, exactly as ruled in
    283.B. Idle glyphs sit dark and still inside their
    neighbourhood's glow.
+
+## Directive 286 — CORE AFFECT: a mind always feels something
+
+Lonnie's finding on his bench: long stretches where the mind feels
+nothing at all. The science (Russell's core affect; the affect-
+dynamics literature on set point and return rate — rows to
+REFERENCES.md per 227): a person is never at zero. There is a
+continuous background mood — somewhere on pleasant/unpleasant and
+calm/aroused — and discrete feelings rise OUT of it and fade BACK
+INTO it. Only a sociopathy-shaped mind sits flat.
+
+The mind today has the second half only: a feeling appears on an
+event and then vanishes to nothing.
+
+1. THE BASELINE IS ITS OWN, NOT A CONSTANT. Each being has a resting
+   mood derived from its aspects per 071 — Volatility and Withdrawal
+   set where it rests and how wide it swings; Enthusiasm and
+   Compassion lift it. No shared number, no invented default. A
+   volatile mind rests lower and less settled; a stable one rests
+   calmer.
+2. FEELINGS DECAY INTO THE BASELINE, not into silence. What a moment
+   raises falls back toward that being's resting mood at ITS OWN
+   rate — again from the aspects, as every other rate here is. The
+   mind is never without a mood.
+3. THE CORE SHOWS IT. THE CORE's colour is the strongest current
+   feeling when one is present, and the resting mood when none is —
+   never colourless while the mind is awake. The palette (270.D)
+   covers it: the resting mood is read as its nearest feeling on his
+   22-hue bar.
+4. NOTHING ELSE CHANGES. The baseline is a floor for feeling, not a
+   new source of moments; it does not invent events, does not bear on
+   lessons, and does not touch the ledger. It is what the mind feels
+   between things.
+PROVE IT: ticks with no feeling at all, before and after, for three
+beings with different aspects; the resting mood of each of the three
+shown to differ; the Core never blank while awake; a strong feeling
+still visibly rises above the baseline and settles back.
+Full suite and state hash.
