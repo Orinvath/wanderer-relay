@@ -31129,3 +31129,68 @@ uncertainty as an individual difference) — added, with both magnitudes marked 
 the sources give that it is sustained, aversive and varies by person, and neither gives a number.
 
 **479 passed, 0 failed.** State hash `0a8e4914`. Pushed and live.
+
+---
+
+# Report — TRUST went red on his bench, and it is a real fault: teaching the mind makes it trust you less.
+
+## What the light says
+
+```
+12 trust — RED — 12 in the last 1000 ticks
+   trust_at_or_below_floor · last: "teacher at 0.050"
+```
+
+The teller record on his live bench:
+
+```
+teller "teacher"   trust 0.05 (the floor)   taught 38   held 0   failed 19
+```
+
+**Thirty-eight lessons taught. Nineteen judged. Not one of them ever held.**
+
+## The cause, two lines
+
+**`belief.js`, `judge()` — the default verdict is `weaken`:**
+
+```js
+let verdict = 'weaken'
+if (against.length) verdict = 'contradict'
+else if (share >= PARTIAL_AT || toward.length) verdict = 'reinforce'
+```
+
+So a claim whose marks simply did not recur, and whose needs did not move against it, comes out
+**weakened** — which is right for a belief: not yet borne out.
+
+**`trust.js:104` — but the teller is charged for it as though it were a lie:**
+
+```js
+const held   = verdict === 'reinforce'
+const failed = verdict === 'contradict' || verdict === 'weaken'
+```
+
+`weaken` costs the teller **−0.07**, the same as an outright contradiction. Trust starts at 0.30, so
+**four unconfirmed claims put any teller on the floor**, and it stays there.
+
+## Why it never recovers, and why it matters
+
+`capFor(trust)` caps what a told belief may be born at. At the floor that is **0.05** — so once a
+teller is down there, **nothing they ever say to this mind can mean anything again.** Teaching
+becomes self-defeating: the more you tell it, the less your word is worth, because "not yet borne
+out" is being counted as "turned out false".
+
+And on this bench almost nothing recurs — the mind's own life is quiet and repetitive — so **every**
+window closes on `weaken` and every teller walks to the floor.
+
+234.7's own words are that trust moves on "whether the mind's own life bore it out". A claim that
+has not yet been borne out is not a claim that failed.
+
+## Not fixed
+
+Whether an unconfirmed claim should move a teller's trust at all — and if so, by how much, or
+whether only an outright contradiction should — is what a teller's word is worth, and that is
+Lonnie's. Three readings I can see, named and not chosen: only `contradict` moves trust down;
+`weaken` moves it by a smaller amount than a contradiction; or trust moves only when a window
+actually settles either way and an unconfirmed one is silent.
+
+Nothing changed.
