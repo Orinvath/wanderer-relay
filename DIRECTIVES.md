@@ -6358,3 +6358,36 @@ shape what is noticed and what comes back; they are not the content.
    Prove it — distinct moments in 30 ticks for a mind ALONE, before
    and after; memories eligible for replay; that replay still runs.
 Full suite and state hash; the hash will move.
+
+## Directive 281 — THE THINKING LOOP USES ALL FOUR SOURCES (217, restored)
+
+217.1 ruled four sources for an inner moment, so a solitary mind is
+never starved: (a) a surfaced memory, (b) ITS OWN STATE — the
+strongest current feeling or the lowest need, (c) curiosity's open
+question, (d) imagination when nothing lived touches the subject.
+Selection: a seeded weighted draw, biased by feeling intensity and
+recency of surfacing.
+
+Today only (a) runs in practice: memory always answers, so the loop
+recycles what it already wrote — moment → memory → replay → the same
+moment. (b) has been dead since the bearing was zeroed and was only
+restored in 274. (c) cannot rouse while nothing is new. (d) fires
+only when no memory touches the subject, which never happens now.
+
+RESTORE 217.1 AS RULED — no new mechanism:
+1. The subject draw considers all four sources every time, weighted
+   as 217 says. A memory that touches the subject does not
+   automatically win.
+2. STATE IS A FIRST-CLASS SOURCE: the strongest feeling (now that
+   feelings live again) and a genuinely depleted need can each be
+   what the mind thinks about, in its own marks per 188's table.
+3. RECENCY OF SURFACING BITES: a memory that has just been replayed
+   is less likely to be drawn again — 217's own bias, which would
+   have prevented this loop.
+4. Imagination stays lawful (226): it runs when the draw lands there,
+   not only as a fallback.
+PROVE IT: distinct moments in 30 ticks for a mind ALONE, before and
+after, plus the source histogram (how many subjects came from each of
+the four). The measure that matters is whether a lone mind stops
+alternating two moments.
+Full suite and state hash.
