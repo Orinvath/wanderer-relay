@@ -6871,3 +6871,40 @@ action in the bench that is forever (212.B).
 Pressing GENESIS again closes the confirm, leaving the draft exactly
 as it was. Escape closes it too. Nothing about the confirm's wording
 or the lock itself changes — only that he can back out of it.
+
+## Directive 300 — The three geometry decisions, and per-moment bundling is struck
+
+Lonnie's rulings on the 297 plan.
+
+1. THE BARS READ SIMILARITY. Geometry's own scale, not a translation
+   of the old confidence numbers. Do NOT map similarity onto 0-1 to
+   make 0.72 land where it used to — that is calibrating his trust
+   bar with a curve, and CC was right to refuse it. The new values
+   are set by watching, like every other threshold (071), and until
+   he has watched they are marked PROVISIONAL and reported, not
+   assumed.
+2. THE DESCENT: a CONTRADICTING exposure carries more weight in the
+   bundle than a confirming one, so a wrong link washes out instead
+   of drowning among twenty right ones. That is what makes a word
+   stop being owned.
+3. THE ASYMMETRY SURVIVES, by that same weighting — lessons.js says
+   contradiction costing more than support earns is on purpose, and
+   that ruling stands. The magnitude is provisional and watched.
+
+4. 297.C IS STRUCK — PER-MOMENT BUNDLING IS NOT BUILT.
+   Write this note in geometry.js so nobody rediscovers it as an
+   idea: bundling each moment into a vector so recall becomes
+   unbinding instead of scanning was CONSIDERED AND DELIBERATELY
+   LEFT OUT. Reasons, on the record:
+   - memory already works; this was a speed optimisation, not a
+     requirement;
+   - it is the one use that grows with the LIFE rather than with the
+     vocabulary — everything else here is bounded by how many words
+     exist;
+   - it is available if scanning the store ever becomes the real
+     bottleneck, and this note is here so that day starts from a
+     decision rather than a discovery.
+   The LANGUAGE SPACE's kinship (297.C's other half) stays parked as
+   a later directive, unstruck.
+
+Build A and D now, then B.
