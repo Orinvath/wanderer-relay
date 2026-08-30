@@ -30398,3 +30398,57 @@ after the hold expires, back to the still frame exactly:  true
 One event, one sigil, and then the frame returns to being the same frame.
 
 **478 passed, 0 failed.** State hash unmoved at `0a40bf94`. Pushed.
+
+---
+
+# Report — the flashing was honest, but your question found two systems the map was silent about.
+
+## Is the flashing a malfunction? No — but asking was right.
+
+Measured off the live stream:
+
+```
+tick 19 : 44 hand-offs over 40.0 ms      gap between ticks: 4004 ms
+tick 20 : 36 hand-offs over 43.9 ms                          4044 ms
+tick 21 : 45 hand-offs over 43.2 ms
+```
+
+A tick runs in about **40 milliseconds** and the bench takes one every **four seconds**
+(`TICK_SECONDS = 4`). So the map genuinely lights and goes dark once every four seconds. That is
+"idle is dark" being true, not a fault.
+
+**One thing in it was mine, though:** a sigil was held lit for 90ms, which is *longer than the whole
+tick*, so all forty lit at once and went out together — a blink of the board instead of a light
+travelling through in the real order. Drop `HOLD_MS` to 20–25 and the same events read as a sweep
+you can follow, with nothing invented. Your call; one number.
+
+## And the correction: THE GLYPH FLASHES, NOT THE GLOW
+
+Fixed. The glow is what says which NEIGHBOURHOOD a sigil belongs to, and a neighbourhood does not
+change when one of its systems runs — a glow that brightens is a colour saying something it does not
+mean. **It is written once when the sigil is built and never again.** His mark is the thing that
+fires: it brightens and grows when its own file runs, and returns.
+
+## WHAT YOUR QUESTION ACTUALLY TURNED UP — six nodes never lit, and two of them were running
+
+I checked which systems never light across 40 real ticks. Six never did: **safety · voice · soul ·
+identity · clock · interpreter**. Then I checked each against its call sites rather than assuming:
+
+- **SAFETY was running every single tick and the map said nothing.** 203 is that the gate is FIRST
+  and unconditional — every moment passes it — and it does, at `appraisal.js:217`. But the gate
+  lives in safety.js and is called from inside the appraisal, where the trace was not looking, and
+  `safety` was emitted **nowhere in the build**. Now emits: **40 of 40 ticks.**
+- **SOUL likewise.** Every act weighed reads the soul's pulls (`offers.js` `pulled`), so soul.js
+  runs on every tick that chooses. It never lit. Now emits: **40 of 40 ticks.**
+- **VOICE · INTERPRETER** — idle by design on this bench: it only speaks when it chooses to with a
+  host present, and the interpreter only renders a line somebody is there to read.
+- **CLOCK** — idle by design: capture, restore and fingerprint run at save and load, not in a tick.
+- **IDENTITY** — **still the open fault reported at 259**: `story()` and `forPurpose()` are called by
+  the suite and by nothing else, so a mind is handed an Identity at birth and never asks it anything.
+
+**That is the instrument lying by omission, and it is the failure mode this map exists to prevent.**
+Two systems doing their job every tick while their light stayed dark is exactly as bad as a light
+that comes on for nothing.
+
+Stillness proof re-run after both changes: **600 frames idle, 0 differences; one hand-off lights
+exactly one sigil; the hold expires back to the identical frame.** 478 passed, 0 failed. Pushed.
