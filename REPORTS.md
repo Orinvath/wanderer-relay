@@ -32383,3 +32383,71 @@ the mark that is right, and whether a word only ever heard with two things true 
 sections behind it, which no run has reached in a long time.
 
 Commits `cc46a5b`, `aa2f318`, and the clock repair.
+
+---
+
+# 305 BUILT — AND THE WHOLE SUITE IS GREEN FOR THE FIRST TIME SINCE 259 STEP 5
+
+```
+PHASE 1 · PHASE 2 · PHASE 3 · CHARACTER · ROE · TRAITS · NEEDS · GOALS · CAPABILITIES ·
+EFFECTS · REFRACT · PROFILES · DICTIONARY · OFFERS · SAFETY · CURIOSITY · CLOCK ·
+INTERESTS · PERSONA · INTEGRATION · LIFE · HOSTCHANNEL · LOOP · HOST · AVATAR ·
+SLEEP · REMEMBER · TIERS · STORY · BRAIN · GAMES · HARNESS          all passed
+TESTNET                                                            skipped, and it proved nothing
+
+LIFE alone is 494 of 494.
+```
+
+**Every one of the eight sections that had been dark behind LIFE ran, and every one passed.** The
+state hash is stable at `d8425386` across two runs — it moved because word learning's arithmetic
+moved, which is the change working.
+
+## 305.1 — A WASHED-OUT LINK CONTRIBUTES NOTHING
+
+The pull clamps at zero in `#bundleFor`. Watched on the exact case that was red:
+
+```
+                    before 305            after 305
+SPOOKY -> FEAR      0.454  UNOWNED        1.000  owned      eleven clean hearings
+       -> DARK     -0.638                 0.000              disproven, and now silent
+       -> NIGHT    -0.643                 0.000
+CHILLY              means nothing         means WARM         what it was actually taught
+```
+
+A mark the word is NOT was being counted as evidence about which mark it IS, and it was loud
+enough to drown eleven clean exposures. Gone means gone.
+
+## 305.2 — THE BAR SITS BELOW AN EVEN TWO-WAY SPLIT
+
+```
+an even three-way split   0.577    still waits
+THE BAR                   0.642    placed midway, because neither end of that gap is special
+an even two-way split     0.707    owned, and still ambiguous between its two marks
+```
+
+WELCOME — heard only ever while HOST and COME were both true — is owned now. **A bar in this
+geometry is a number of meanings**, and that is what the clause holding it says, rather than
+holding a number.
+
+## AND ONE FAULT OF MINE THAT ONLY THIS RUN COULD HAVE FOUND
+
+`Learning` already had a **method** called `heardWords(wandererId)`. I named the geometry's live
+gate `this.heardWords`, which overwrote it. The bench reads it on every poll, so it would have
+crashed the panel — and it surfaced **250 clauses deep in LIFE**, in a section nothing had reached
+since 259 step 5. Renamed to `everHeard`.
+
+That is the fifth thing this run found that was invisible only because the suite could not get
+that far. The stale check in 304.G was not one fault; it was a door.
+
+## WHAT IS OPEN NOW
+
+Nothing is red and nothing of mine is waiting on me. Still outstanding, all of it yours or planned:
+
+- **304 A** — consolidation's call site. Ready to build, no decisions.
+- **304 B** — identity's call site. Waiting on where the life story goes.
+- **304 C** — the reach. Waiting on which of the two shapes restores it.
+- **304 D** — 293 as written, waiting only on where the banner sits; and 278.B, which needs its
+  thirty-nine claims from you or the Director.
+- **295.3** — the interpreter marker, waiting on permission to switch it on.
+- **297.A's node** — geometry has no place on the map yet.
+- Curiosity's bar and interests' rates (254.3) — grey until you have watched them, correctly.
