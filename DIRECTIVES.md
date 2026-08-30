@@ -6231,3 +6231,20 @@ idle pulsing on nodes.
 The 23-system list (258), the vitals (259), the health page, the
 legend, and the reports all use the same names. One vocabulary
 everywhere.
+
+## Directive 276 — ONE FILE, ONE NODE. Always. ATTENTION and FEELINGS get their own.
+
+Lonnie's law restated and final: ONE FILE = ONE NODE. The count is
+whatever the files are — 23 was a description, never a cap.
+
+ATTENTION (attention.js) and FEELINGS (feelings.js) are their own
+nodes, in the feeling neighbourhood beside APPRAISAL. THE RETURN
+leaves from FEELINGS, where it belongs.
+
+The rule for every future file: a new system file gets a node; a
+deleted file loses one. A red light must always name exactly one
+file to open — if any node covers more than one file, that node is
+wrong.
+
+Report the node count and the file each node names, so the mapping
+is on the record.
