@@ -32315,3 +32315,71 @@ that word stays honestly ambiguous for life. **His clause says the first; the ge
 the second; I am not choosing between his ruling and his arithmetic.**
 
 **Nothing else in 304 is started.** Say the word on these two and the reds close the same day.
+
+---
+
+# 304 F AND G BUILT — AND THE SUITE HAS RUN FURTHER THAN IT HAS SINCE 259
+
+## G — AND THE SAME FAULT TWICE MORE, UNDER YOUR OWN RULING
+
+The safety clause now reads `experiencing.js` for the tick that moved there in 253. **SAFETY: 17
+of 17.**
+
+Going past it turned up **two more checks with the identical fault**, and I applied G's ruling to
+them rather than asking again, because it is the same one line reading the same moved file:
+
+```
+acceptance-clock.js:178   THE TICK EMBEDS ONCE     read watching.js -> the block was EMPTY,
+                                                   so it counted ZERO embeds
+acceptance-clock.js:191   the gate does not re-embed  read appraisal.js -> the sharing moved
+                                                   into attention.js, which IS the gate
+```
+
+**The mind was right the whole time.** `experiencing.js` embeds exactly once — line 711, guarded by
+280's silent check — and hands that one vector to the loop, to recall and to the record. Nothing
+about either claim changed; only where the check looks. **CLOCK: 21 of 21.**
+
+That is now **five checks** found pointing at files that moved, all invisible because nothing ran
+that far. Every one has been repaired by moving the check, never by softening it.
+
+## F — CURIOSITY NAMES WHAT IT WONDERS ABOUT
+
+`wonder()` now returns `about`: the marks that were actually in front of it, kept only where the
+language has them, because a subject it cannot say is not a subject.
+
+**One thing worth recording, because it would have looked exactly like the bug it was fixing:**
+`appraise()` freezes what it returns, so writing `about` onto the result would have failed
+silently and left the reader finding nothing — the very symptom. It returns a new frozen object
+instead. Watched:
+
+```
+elements COLD, DARK, BANANA   ->   about: ["COLD", "DARK"]     BANANA is not a mark
+an empty moment               ->   about: []
+```
+
+**Does it turn curiosity's light green? NO, and that is correct.** Curiosity is a THRESHOLD system
+in 258's list, so it reads GREY until you have watched and ruled its bar — 254.3, still yours and
+still rightly blocked. What changes is the second counter: `roused_not_becoming_subject` fires
+whenever being roused goes nowhere, and there is finally something for a thought to be about, so
+it can stop firing. **CURIOSITY: passed.**
+
+## WHERE THE SUITE NOW STANDS
+
+Twenty sections deep, further than any run since 259 step 5:
+
+```
+PHASE 1 · PHASE 2 · PHASE 3 · CHARACTER · ROE · TRAITS · NEEDS · GOALS · CAPABILITIES ·
+EFFECTS · REFRACT · PROFILES · DICTIONARY · OFFERS · SAFETY · CURIOSITY · CLOCK ·
+INTERESTS · PERSONA · INTEGRATION           all passed
+
+LIFE                                        3 failed
+```
+
+**And the three are the three already reported** — 113, 155 and 158, the word-learning clauses
+waiting on the two rulings: whether a washed-out link leaves the bundle or keeps pushing against
+the mark that is right, and whether a word only ever heard with two things true can be owned.
+
+**There is nothing else red in this build.** Those two answers clear LIFE and open the eight
+sections behind it, which no run has reached in a long time.
+
+Commits `cc46a5b`, `aa2f318`, and the clock repair.
