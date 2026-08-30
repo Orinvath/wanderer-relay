@@ -7053,3 +7053,23 @@ All three were reported as BUILT when they were only READY. A
 capability with no caller is not built. From here, a system is not
 done until something calls it and its own light can go green in a
 real life — say so in the report for each of the three.
+
+## Directive 304 addendum — the two small ones
+
+F. CURIOSITY MUST NAME WHAT IT WONDERS ABOUT.
+   `thinking.js` already READS `mind.curiosity.about` in two places
+   and uses those marks as a thought's subject — 217's third source.
+   Nothing ever writes it, so the reader always finds nothing and
+   curiosity can never become something the mind thinks about.
+   Where curiosity is roused, record the marks that roused it, in
+   the mind's own language. Nothing else changes: thinking's existing
+   code then works as it was written. Say in the report whether this
+   turns curiosity's own check from grey toward green.
+
+G. THE STALE SAFETY CLAUSE: one suite line still reads
+   `watching.js` for a tick that moved to `experiencing.js` in 253.
+   Repoint it. Nothing about the gate changes.
+
+Still genuinely blocked on Lonnie, not on CC: curiosity's bar and
+interests' rates (254.3) — their lights stay grey until he has
+watched and ruled them, and that is correct.
