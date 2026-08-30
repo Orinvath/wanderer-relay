@@ -6948,3 +6948,33 @@ name, size, or behaviour.
 Reference: reference/ai-timeline-and-hybrid.html. Sources to
 REFERENCES.md per 227: Gemma 3n / Gemma 4 E-series model cards and
 the 2026 on-device inference literature.
+
+## Directive 302 — THE BUNDLE KEEPS ITS SUMS (Lonnie's ruling; unblocks 297.B)
+
+CC's finding stands: `bundle` takes the SIGN, so strength is
+winner-takes-all — a word bound five times with COLD and once with
+SONG reads COLD 100%, SONG 0%. 300.2's gradual washing-out cannot
+happen against that, and the Director's own 297.A.3 wrote the sign
+in. His spec, his error; Lonnie's ruling wins.
+
+1. BUNDLE KEEPS THE SUMS. Do not take the sign. Similarity then
+   reads as degree — strong, faint, fading — which is what makes a
+   wrong link wash out instead of vanishing, and what 300.2 and
+   300.3 both require.
+2. THE COST IS ACCEPTED: roughly four times the memory per symbol
+   (~40 KB rather than ~10 KB). At bench scale it is nothing; the
+   402 marks are ~16 MB; a full adult vocabulary would be ~1.6 GB
+   and is decades of living away. 301's controls hold it: the
+   language rebuilds from the seed and is shared, so a being carries
+   only what it learned.
+3. WHY WE ARE STEPPING OUTSIDE STANDARD VSA, on the record: the sign
+   exists to make VSA cheap on tiny hardware, where the question is
+   "which class is this" — a yes or no. We are not using VSA for
+   efficiency. We are using it because meaning as geometry is how
+   this mind should think, and a mind needs DEGREE. We can afford
+   the memory; we cannot afford a mind that cannot change its mind.
+   Mark it [OURS] in the file with this reasoning beside it.
+4. 297.B is unblocked: build word learning onto the engine, with
+   300.1 (bars read similarity, provisional and watched), 300.2 (a
+   contradicting exposure weighs more) and 300.3 (the asymmetry
+   survives) all standing.
