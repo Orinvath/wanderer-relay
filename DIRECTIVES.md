@@ -6049,3 +6049,63 @@ gratification 219 · gratitude 239 · joy 260 · love 280.
   with the rendered hue beside the palette value.
 
 ## Directives 267, 268, 269 — ALL WITHDRAWN. Pushed without Lonnie's approval; superseded by a single directive he approves. Do not act on them.
+
+## Directive 270 — THE MIND MAP: names, accuracy, neighbourhoods, palette (APPROVED)
+
+### A. THE NAMES (all three of us use these, no synonyms)
+THE MIND MAP — the whole 3D panel.
+THE CORE — the central glow (feeling colour, arousal beat).
+SIGIL — a system's mark.
+NEIGHBOURHOOD — a colour-coded group of systems.
+THE PULSE — the dot walking real hand-offs.
+THE RETURN — the dashed feelings-to-next-tick loop.
+Write them at the top of the map's file and use them everywhere.
+
+### B. THE PULSE IS AN INSTRUMENT, NOT AN ANIMATION
+Lonnie watched it bounce where no data was being processed. The map
+exists because green suites and confident reports could not be
+trusted — a map that animates a plausible path is a lie that looks
+like proof, and it destroys the only instrument he has. 100%
+accuracy is the entire point.
+1. THE PULSE MOVES ONLY ON A REAL EMITTED HAND-OFF, named
+   from-system to-system at the moment the code passes the data. No
+   timers, no loops, no scripted order, no invented steps.
+2. NO EVENT = NO MOTION. Idle, paused, sleeping, between ticks: the
+   map is STILL. Stillness is information.
+3. A SIGIL GLOWS only when its own system actually ran that tick;
+   counts exact.
+4. PROOFS REQUIRED in the report: (a) pause the mind — the map
+   freezes; (b) single-step one tick — the walked path posted beside
+   that tick's log, matching line for line; (c) silence one system's
+   emission — its sigil goes dark and stays dark while the rest run.
+5. Anything the map cannot know from a real event IS NOT DRAWN. If a
+   hand-off is missing, emit it in the code — never fake it in the
+   display.
+
+### C. THE NEIGHBOURHOODS MUST READ AT A GLANCE
+1. Six neighbourhoods — language · feeling · thought · memory ·
+   self · body. The gaps BETWEEN groups must be plainly larger than
+   the gaps within them (proximity before boxes, DESIGN.md §4).
+2. Each group's colour is visible on its sigils AT REST, not only
+   when flaring.
+3. THE LEGEND NAMES THE NEIGHBOURHOODS: one swatch per group, in its
+   colour, named. The Core's meaning is ONE line beside them, not
+   the whole legend.
+
+### D. THE CORE WEARS HIS PALETTE
+The mock's gold was a placeholder; the Core is currently yellow,
+which means the ruling was never wired.
+1. The Core's colour is the hue of the strongest current feeling,
+   from his balanced-bar ruling: fear 0 · hate 6 · anger 12 ·
+   distress 18 · resentment 24 · shame 30 · remorse 36 ·
+   fears-confirmed 42 · reproach 48 · pity 54 · disappointment 60 ·
+   gloating 75 · happy-for 96 · satisfaction 116 · pride 137 ·
+   hope 157 · admiration 178 · relief 198 · gratification 219 ·
+   gratitude 239 · joy 260 · love 280 (HSL hue; warm = agitated,
+   cool = calm).
+2. ONE palette table, read by the Core and anywhere else feeling
+   shows. No second copy, no invented colours.
+3. No feeling active = colourless, never a default hue.
+4. Prove it: three forced states with rendered hue beside the
+   palette value.
+His eye is the gate on all of it (118).
