@@ -6248,3 +6248,20 @@ wrong.
 
 Report the node count and the file each node names, so the mapping
 is on the record.
+
+## Directive 277 — THE SIGILS ARE STILL. Violation of 270.B and 273.C.
+
+Lonnie's screen, after many reloads: THE SIGILS ARE PULSING. 273.C
+ordered idle animation removed and reported it done; it is still
+there.
+
+THE LAW, absolute: a SIGIL moves only when its own system actually
+runs on that tick. No breathing, no drift, no idle scale change, no
+easing loop, no ambient motion of any kind. Only THE CORE beats.
+
+THE PROOF, required in the report: pause the mind and record the map
+for ten seconds — every sigil must be pixel-identical across that
+recording. If anything moves, it is animation and it comes out.
+
+Find every place a sigil's scale, opacity, colour, halo or position
+changes without a real emitted event behind it, and remove it.
