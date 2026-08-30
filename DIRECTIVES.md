@@ -6139,3 +6139,31 @@ On the stage: mouse wheel / pinch zooms in and out; drag orbits fully
 around THE CORE (horizontal and vertical, sensible limits so it never
 flips). The camera returns to its default framing on a double-click.
 Nothing else about the map changes.
+
+## Directive 274 — RESTORE the beat's bearing (217.2 already rules it)
+
+The 271 archaeology stands: the literal 0 is a placeholder written
+when 226 shipped, and 217.2 — law before it, still commented three
+lines above — says a thought's bearing is THE BEARING OF WHAT IT IS
+ABOUT, measured off state that already exists, never asserted. This
+is restoration, not invention; nothing new is decided.
+
+1. A story beat's bearing is computed the way think() already
+   computes a thought's: the feeling it dwells on (valence x
+   intensity), or the depletion of the need it dwells on, or the
+   surfaced memory's own bearing — measured off existing state.
+   Same sources, same arithmetic, no new rule and no tuning.
+2. A beat must never REPLACE a thought that carries a bearing where
+   the beat carries none (226's `told ?? think(...)`); the beat is a
+   moment like any other and is appraised like one.
+3. BUILD THE CHECK 226 REQUIRED AND NOBODY BUILT: a live clause
+   asserting FEELINGS MOVE FROM A STORY — run on a real trail, never
+   on hand-written arrays. Same for 249.1's gate: it must call
+   wasFelt() on a live trail. Both clauses must be shown failing
+   before the fix and passing after.
+4. PROVE IT: ticks-with-a-feeling before and after; the Core's
+   rendered hue beside the palette value for the feelings that
+   appear; whether 249's first gate can now pass; whether any lesson
+   is ever born from a self-told story (which has never happened).
+   Full suite and state hash per commit — the hash WILL move, and
+   the report shows what moved and that nothing else did.
