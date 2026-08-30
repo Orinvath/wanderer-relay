@@ -7073,3 +7073,40 @@ G. THE STALE SAFETY CLAUSE: one suite line still reads
 Still genuinely blocked on Lonnie, not on CC: curiosity's bar and
 interests' rates (254.3) — their lights stay grey until he has
 watched and ruled them, and that is correct.
+
+## STANDING LAW — HOW A PROBLEM IS PUT TO LONNIE (joins CLAUDE.md)
+
+Any question, decision, or fault brought to him — by the Director or
+by CC — is presented in THIS EXACT STRUCTURE, one problem per
+message, never stacked:
+
+  1. THE FEATURE      — what part of the system this is, plainly.
+  2. WHY IT MATTERS    — what it is for.
+  3. WHAT WENT WRONG   — the fault itself.
+  4. WHEN              — when it broke; new fault or regression.
+  5. THE SCIENCE       — what the research says about it.
+  6. HAS HE RULED      — his prior ruling, cited, if one exists.
+  7. THE FIX           — ONE recommendation.
+  then ask for the ruling.
+
+No decision reaches him without that context. No message carries two
+problems. A question that cannot be put in this shape is not ready to
+be asked.
+
+## Directive 305 — Both word-learning reds, ruled
+
+1. A WASHED-OUT LINK CONTRIBUTES NOTHING. A link's pull clamps at
+   zero: once contradiction has cancelled its evidence it LEAVES the
+   bundle rather than pushing the other way. This restores 300.2 —
+   "washes out" means gone, not inverted — and matches how children
+   treat a disproven guess: it stops counting, it does not become
+   evidence against the right meaning. FEAR then reads 1.000 and is
+   owned; CHILLY becomes WARM.
+2. THE OWNERSHIP BAR SITS BELOW AN EVEN TWO-WAY SPLIT. A word only
+   ever heard with two things true (WELCOME with HOST and COME) can
+   be owned while staying ambiguous between its two marks. Divided
+   reference is ordinary in children's word learning and repeated
+   exposure resolves it later; refusing the word in the meantime is
+   the "I can't read that" fault Lonnie named. The bar's value stays
+   PROVISIONAL and watched (300.1) — it is placed below the two-way
+   reading, not calibrated to anything.
