@@ -7159,3 +7159,45 @@ STANDING RULE, joining CLAUDE.md: WHEN BEHAVIOUR CHANGES, ITS CHECK
 CHANGES IN THE SAME COMMIT. A check that was not revisited alongside
 a ruling is not a check, it is a second opinion, and it will fire on
 the ruling working correctly.
+
+## Directive 307 — THE LANGUAGE IS REACHED THROUGH, INSIDE A TRAIN (304.C closed)
+
+**THE FEATURE** — the mind reaching for a word out of its whole
+language when it thinks or speaks.
+
+**WHY IT MATTERS** — it is what lets it say any of the 402 rather
+than the 51 the state table allows. His ruling, in his words: "I gave
+it a language to speak with!!!! wtf do you think it is for."
+
+**WHAT WENT WRONG** — the trace: in 60 ticks the language source ran
+ZERO times. Not blocked, not broken — `fromLanguage()` sits last in
+`think()`'s option list and `think()` returns at the train
+early-return on 59 of 60 ticks. The whole 402 is reachable and the
+mind reaches through none of it.
+
+**WHEN** — since 225, when a train was given priority. That was
+right about SUBJECTS; nobody costed what it did to the five sources
+underneath it.
+
+**THE SCIENCE** — a real mind does both at once: a train holds its
+subject while words arrive from what is around it, remembered, or
+felt. Language is drawn on THROUGHOUT a train, not only between
+trains.
+
+**HIS TWO RULINGS COLLIDE** — 220 (every one of the 402 is
+speakable) and 225 (a train runs first). Both stand; they govern
+different things.
+
+**THE RULING** — THE LANGUAGE SOURCE IS CONSULTED INSIDE A TRAIN,
+not only when no train runs. While a train holds its subject, the
+WORDS it reaches for still come from everything true of it — what is
+in front of it, what it remembers, what it cares about, what it was
+made for, what it feels, what it is doing.
+- 225 keeps deciding WHAT it thinks about. Unchanged.
+- 220 governs WHICH WORDS it reaches for. Restored.
+- `reachFor()` becomes a path speech actually takes, and the
+  vocabulary hand-off appears in the trace.
+PROVE IT: the same 60-tick trace, before and after — vocabulary
+hand-offs must be nonzero, trains must still hold their subjects
+(the thinking check stays green), and the report says how many
+distinct marks the mind actually reached for across the run.
