@@ -31286,3 +31286,55 @@ kind: a whole file the mind cannot reach, because `think()` returns early whenev
 running and a train nearly always is. Reported, not fixed.
 
 **482 passed, 0 failed.** State hash `dc5fc562`. Pushed and live.
+
+---
+
+# Report — the red light was the INTERPRETER, not learning. The censor was right and my counter was wrong.
+
+## What the light actually said
+
+```
+23 interpreter — RED — 23 in the last 1000 ticks
+   outbound_untraceable_passed
+   last: 'FEELS in "It feels glad and is approaching."'
+```
+
+Learning was green throughout. The red node was the interpreter.
+
+## The cause — my own instrument
+
+`censorOutbound` allows two things besides the marks themselves: **English GLUE**, and **every
+inflected form of every traceable word**, by the mind's own stripping rule. That is the law.
+
+My vital compared each word against the **raw traceable set** — no glue, no forms — and bumped a
+violation for anything not in it. So it fired on renderings the censor had lawfully passed.
+
+Verified on the exact line that fired:
+
+```
+traceable from that record:  GLAD APPROACH APPROACHING JOY FOR SOMEONE ELSE PLEASED WITH ITSELF FEEL FEELING
+censor verdict:              PASS — untraceable: none
+```
+
+**`FEEL` is traceable and `FEELS` is one of its forms.** The censor was correct on all 23.
+
+**This is exactly the fault 266 found in the thinking vital**, in a new place: a counter that
+asserts a stricter law than the one it is checking is not a check, it is a second opinion. Two of
+the 23 vitals have now been caught doing it, which is worth saying out loud.
+
+## The fix
+
+The vital now asks **the censor's own question** — it re-runs `censorOutbound` and counts only what
+that rule itself refuses. So it cannot fire while the censor is doing its job, and it still catches
+the thing it exists for: **the day a rendering reaches the page without meeting the censor** —
+skipped, weakened, or routed around.
+
+Proved both ways:
+
+```
+"It feels glad and is approaching."      -> PASS, untraceable: none      (the line that fired 23 times)
+"It feels glad about the volcano."       -> refused: VOLCANO             (a word it never held)
+```
+
+**482 passed, 0 failed.** State hash unmoved at `dc5fc562` — this changes what is JUDGED, not what
+the mind does. Pushed, and the bench is restarted with the interpreter and host presence on.
