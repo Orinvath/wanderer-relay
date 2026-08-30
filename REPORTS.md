@@ -30675,3 +30675,61 @@ Reporting that rather than presenting the build as a fix.
 
 **478 passed, 0 failed.** State hash moved to `e6744f65` — the moments themselves changed, which is
 the directive. Pushed.
+
+---
+
+# Report — 281 BUILT. The lone mind has stopped alternating two moments, and imagination is running for the first time.
+
+## What was restored, using only the numbers 217 already ruled
+
+**281.1 / 281.4 — memory no longer wins by default.** `storyOf` was `replay(…) ?? imagine(…)`:
+memory first, always. So imagination could only run when nothing lived touched the subject, which
+stopped happening the moment every tick was written down — and the circle closed. The two are now
+drawn between: **replay at MEMORY_WEIGHT, damped by REPEAT_DAMP when it would tell the same story
+it just told about that subject; imagination at STATE_WEIGHT.** Memory still leads — 1.0 against
+1.0, and it is the richer source — and it only falls behind when it is about to repeat itself.
+No new constant was introduced.
+
+**281.3 — recency bites**, and that damping is exactly it.
+
+**281.2 — its own state is a first-class source.** The strongest feeling was already a subject
+source; **a depleted need was not**, though 217.1's (b) says "the strongest current feeling or the
+lowest need". A need that is down is now a subject in its own marks, weighted by how far down it is,
+so a need at rest supplies nothing. Measured off the ledger, never asserted.
+
+## THE PROOF — a mind ALONE, 30 ticks
+
+| | distinct moments (before → after) | last 10 distinct (before → after) |
+|---|---|---|
+| WHYRED | 4 → **6** | 2 → **4** |
+| ALONE-2 | 6 → **12** | 1 → **7** |
+| ALONE-3 | 5 → **5** | 3 → **3** |
+
+**The source histogram — where each subject came from, and what kind of story followed:**
+
+```
+WHYRED    subject from {interest 11, memory 3}          stories {remembered 9, imagined 5}
+ALONE-2   subject from {interest 14, memory 2}          stories {imagined 13, remembered 2, none 1}
+ALONE-3   subject from {interest 7, memory 5, feeling 2} stories {remembered 9, imagined 5}
+```
+
+**Imagination ran 5, 13 and 5 times. Before 281 it had run zero times in any life** — the finding
+from 266 that has stood since. Two of the three beings have stopped alternating two moments;
+ALONE-3 has not, and I am not claiming otherwise.
+
+The `need` source does not appear in these histograms because all three of these beings sit at +10
+on every need — there is no depletion to think about, which is the rule working rather than the
+source being dead.
+
+## Two suite clauses now hold the new law, and I am naming the change rather than absorbing it
+
+- **"A subject with lived episodes REPLAYS BEFORE INVENTING"** asserted the old always-wins rule
+  that 281.1 overrides. It now holds what 281 rules — memory LEADS and does not always win — tested
+  over 40 seeded draws rather than one, because a draw that always goes the same way is not a draw:
+  **23 of 40 replayed, the rest invented.** 226.2's faithfulness half is untouched and still tested
+  separately: a replay is still its own moments in the order they happened.
+- **236's clause** was comparing a replay against an invention. An invention is a different story,
+  not a resumption of the replay, so it now asks its question of like against like.
+
+**479 passed, 0 failed.** State hash moved to `3a196e5c` — the mind thinks differently now, which is
+the directive. Pushed.
