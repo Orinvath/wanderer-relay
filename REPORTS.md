@@ -31194,3 +31194,40 @@ Lonnie's. Three readings I can see, named and not chosen: only `contradict` move
 actually settles either way and an unconfirmed one is silent.
 
 Nothing changed.
+
+---
+
+# Report — 289 built. Trust moves on being wrong, not on being unproven.
+
+One line in `trust.js`: `failed` is now `verdict === 'contradict'` alone. `weaken` leaves a teller
+untouched. **The belief is unchanged** — `weaken` still weakens the belief itself in `lessons.js`,
+because a claim not borne out should be held less firmly. Only the teller stops being charged for it.
+
+## The four proofs
+
+**On a real teller record, all three from the same starting trust of 0.300:**
+
+```
+four  weaken      0.300 -> 0.300     unchanged — and its cap stays 0.300
+four  contradict  0.300 -> 0.050     still falls to the floor
+four  reinforce   0.300 -> 0.460     still climbs
+```
+
+**And a taught mind over a quiet life** — 120 ticks, 15 minutes of its life each, taught every sixth:
+
+```
+taught 2 · held 2 · failed 1 · trust 0.310
+a told belief may now be born at 0.310   (the floor is 0.05)
+trust light: GREEN — trust_at_or_below_floor 0
+```
+
+**The cap no longer collapses.** Before this, that same quiet life put the teacher at 0.050 with
+held 0 and failed 19, and nothing anyone said to the mind could mean anything again.
+
+## Held permanently
+
+Three clauses added to the suite, run against a live teller record rather than a line of source —
+so the day somebody makes `weaken` cost a teller again, they go red. **482 passed, 0 failed.**
+
+State hash unmoved at `0a8e4914`: this changes what a teller's word is worth, not what the mind
+does with a moment. Pushed and live on the bench.
