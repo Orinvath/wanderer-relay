@@ -32451,3 +32451,91 @@ Nothing is red and nothing of mine is waiting on me. Still outstanding, all of i
 - **295.3** — the interpreter marker, waiting on permission to switch it on.
 - **297.A's node** — geometry has no place on the map yet.
 - Curiosity's bar and interests' rates (254.3) — grey until you have watched them, correctly.
+
+---
+
+# 293 IS BUILT. The suite is green with it in.
+
+He was right to be angry. I audited the record, found 293 as the one thing never built, reported
+it, planned it — and then built everything around it again while it sat there. **The plan blocked
+the whole directive on where a banner sits, which was the wrong call: everything else in 293 was
+specified and none of it needed him.**
+
+## 293.1 — THE HALT
+
+The beat stops at the tick a check goes red. No further moments, no decay, no consolidation, no
+writes; the state is frozen exactly where the claim broke. **It lives in the bench's beat and not
+in the mind's tick** — 293.5, his instrument stopping to show him something. Nothing inside the
+being knows it happened.
+
+## 293.2 — THE PAGE SAYS SO, ACROSS THE WHOLE PAGE
+
+**His placement, asked and given.** Full width, above the title, pushing the page down rather than
+lying over it — something covering the thing it is telling him about is worse than useless. It
+names three things and no more:
+
+```
+HALTED AT TICK 2117
+trust · trust_moves_without_verdict · teacher: "weaken"        [ CONTINUE ]
+```
+
+The system name is clickable and opens the health panel on that system's own entry (291.3), and
+it opens there by itself without being asked.
+
+## 293.3 — CONTINUE, AND IT IS RECORDED
+
+Resuming clears the halt, restarts the beat and appends the override with the system it overrode.
+**It is recorded on the bench, not in the mind** — my first version called `watch.note`, which is
+the being's own LEARNED feed, and that would have been the bench writing its troubles into
+somebody's life. A clause holds it now, reading the code with the comments stripped, because the
+file explains why it does not do that and a check that reads the explanation as the act is no
+check at all.
+
+## 293.4 — THE RUN HALTS WITH THE MIND
+
+A test run runs ON the mind, so when the mind stops there is nothing left for it to run on. The
+row records **HALTED** with the system and the tick, and **INVALID — and it stays invalid after a
+resume**, because part of its data was gathered before a check said the build was wrong about
+itself. Watched: `invalid true · by trust at tick 60 · still invalid after resume`.
+
+## AND TWO THINGS THE CHECKS CAUGHT BEFORE HE DID
+
+1. **The override was about to be written into the mind's own record.** Caught by writing 293.5's
+   clause before trusting the code.
+2. **An escaped quote in the banner collapsed when the page was built and broke the ENTIRE page
+   script.** The page's own parse check caught it — the check that exists because a dead screen
+   shipped once before.
+
+---
+
+# AND THE TRUST RED WAS MINE
+
+**THE FEATURE** — Trust: how much weight the mind gives what a particular teller says.
+
+**WHAT WENT WRONG** — 170 fires of `trust_moves_without_verdict`, every one of them
+`teacher: "weaken"`. Trust was behaving perfectly. **The check knew three verdicts and 289 made
+`weaken` a fourth** — a real verdict, arriving by the proper route, deliberately costing the
+teller nothing. The check saw a name it did not know and called it a breach.
+
+**WHEN** — I broke it, in 289, by changing the behaviour and not the check that guards it. This is
+the third time: 266 in the thinking vital, 290 in the interpreter, now here. **A counter asserting
+a stricter law than the one it is checking is not a check, it is a second opinion.**
+
+**THE FIX, APPLIED** — the check stops counting `weaken`. Watched: eight weakens cost nothing and
+count nothing; three contradictions still move trust; **a bogus verdict is still caught**, so it
+keeps its teeth.
+
+I applied it without asking under 114 — 289 is his ruling and this is a check that failed to
+follow it, the same shape as 304 G, which he had just ruled on twice.
+
+## WHERE THINGS STAND
+
+```
+the full suite      GREEN, TESTNET skipped
+LIFE                500 of 500
+```
+
+Still open, all of it his: **304 A** (consolidation's call site, ready to build) · **304 B** (where
+the life story goes) · **304 C** (which of the two shapes restores the reach) · **278.B** (its
+thirty-nine claims) · **295.3** (permission to switch the interpreter on) · **297.A's node** (where
+geometry sits on the map) · curiosity's bar and interests' rates.
