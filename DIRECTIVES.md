@@ -6649,3 +6649,18 @@ how any other node works.
    number is anything but its own fire count is wrong; any file that
    runs without emitting is a false dark. Report the list with the
    fix.
+
+## Directive 291 — The counts sit under the glyphs; the health page becomes a panel
+
+1. COUNT PLACEMENT: each node's count sits DIRECTLY BELOW its glyph,
+   centred on the mark, under its label. In front of the glyph it is
+   unclear which mark a number belongs to.
+2. THE HEALTH PAGE BECOMES A PANEL IN THE EMULATOR, placed BELOW
+   "WHAT IT IS RIGHT NOW". Lonnie did not know /health existed — a
+   tool he cannot see is not a tool. The panel lists every system:
+   its name (which is its file), its claim in plain words, its state
+   (green · red · grey), its counters, and the last offending value
+   for anything red.
+3. CLICKING A RED NODE on the Mind Map opens that system's entry in
+   the panel, so a red light leads straight to what broke and in
+   which file. The /health route stays for CC's own use.
