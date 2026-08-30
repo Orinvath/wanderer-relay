@@ -31015,3 +31015,58 @@ ruling in 286.1, not a finding in the literature.
 
 **479 passed, 0 failed.** State hash moved to `1eec923e` — the mind now carries a mood it did not
 carry before. Pushed, and live on the bench.
+
+---
+
+# Report — 286 CORRECTED. A mood is recent feelings still fading, plus the being's own disposition. No default position anywhere.
+
+**You caught two things and both were mine.**
+
+**The green.** I had built the resting mood as a NUMBER — a valence off the ten — and then read that
+number onto your 22-hue bar by position. **The middle of your bar is `gloating`**, so a mind feeling
+nothing quietly landed at hue 75 and showed green. That is what you were looking at.
+
+**And more basically: a position on an ordered list is not a mood.** Your ruling — it is based on
+the being's recent feelings and its natural disposition from its aspects — is a different thing
+entirely, and it is now what is built.
+
+## What a mood is now
+
+- **RECENT FEELINGS, STILL FADING.** What it has actually felt is held and fades at this being's
+  own rate. A mind that was afraid this morning is in a fearful mood an hour later — not a number
+  on an axis, but the fear itself, quieter.
+- **ITS DISPOSITION, WHICH THIS BUILD ALREADY HAD.** `gains(aspects)` in `feelings.js` is exactly
+  that: the same event refracts into different feelings for different beings because their ten tilt
+  which channels are loud. **I invented no disposition** — every feeling in the blend arrived
+  through that tilt already, and where a being has felt nothing yet, its loudest channel says which
+  way it leans.
+- **The mood is one of your 22**, so THE CORE looks it up in the one palette exactly as it looks up
+  a feeling. No axis, no bar position, no arithmetic in between.
+
+## NO DEFAULT POSITION — proved on five beings
+
+```
+CALM-1      leans pride      strength 0.201   fades 0.62/hr
+VOLATILE-1  leans joy        strength 0.421   fades 0.45/hr
+WARM-1      leans happy-for  strength 0.257   fades 0.75/hr
+ALONE-2     leans joy        strength 0.202   fades 0.71/hr
+WHYRED      leans happy-for  strength 0.305   fades 0.49/hr
+```
+
+Different feelings, different strengths, different fade rates — all off their own ten, nothing
+shared.
+
+Over 40 ticks each, and the Core blank on **0 of 120**:
+
+```
+CALM-1      moods: {pride 40}                  40 of them from its own disposition (it felt nothing)
+VOLATILE-1  moods: {joy 40}                     2 from disposition, 38 from real joy still fading
+WARM-1      moods: {happy-for 2, joy 38}        2 from disposition, then what it actually felt
+```
+
+CALM-1 is the case that matters: it feels nothing for forty ticks and its Core shows **pride** —
+its own lean, not a default, and not the same as anybody else's.
+
+**479 passed, 0 failed.** State hash `431aa848`. REFERENCES.md corrected too: the circumplex axes
+are still cited for the shape they gave, with it stated plainly that **this build does not place a
+mind on them, because a position on an axis is not a mood.** Pushed and live.
