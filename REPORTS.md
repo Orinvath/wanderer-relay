@@ -31512,3 +31512,95 @@ Unchanged from the last report: consolidation never runs in a life · identity i
 `vocabulary.js` is unreachable while a train runs · `curiosity.about` is never produced ·
 curiosity and interests stay grey until their bars exist · 278 B (one check per file, ~39, where
 259 ruled 23).
+
+---
+
+# BUILD PLAN — Directive 294. Nothing is built until this comes back approved.
+
+**250 scan: no open decisions found.** 294 names exactly what counts as inner life, rules the
+fifth field allowed, and settles the rate. Everything below is mechanical from those three
+sentences. One thing I want your eye on before I build is flagged at the end — it is not a
+decision inside 294, it is a hole 287 left.
+
+## 294.1 — UNEASE GROWTH IS UNCHANGED
+
+**No code.** Confirming so it is on the record: the per-aspect rate and ceiling stand exactly as
+287 built them, and I am not touching `uneaseOf` or the growth line. Ruling noted.
+
+## 294.2 — ITS OWN INNER LIFE COUNTS AS INFORMATION
+
+**What it does today.** One line, `experiencing.js:991`:
+
+```js
+const informed = !!heard || (changeWords.length > 0) || !!understood
+```
+
+Heard words, world changes, or something understood. A tick where the mind thought is worth
+nothing to it, which is the contradiction with 217 you named.
+
+**What I would change it to.** Each of your three things maps to a signal the tick already has:
+
+| your words | the signal, already in scope at line 991 |
+|---|---|
+| a train ran | `mind.train` — set at 397 and cleared at 371, both before 991 |
+| a story was told or imagined | `thought` (line 572) — the beat if there was one, else `think()`'s |
+| a memory surfaced | `felt.remindings` — the same list line 999 already reads for `lastSurfaced` |
+
+```js
+/* 294.2: ITS OWN THINKING IS COMPANY. A tick in which the mind thought -- a train ran, a story
+   was told or imagined, a memory surfaced -- is not a tick in the dark. What still uneases it
+   is genuine emptiness: nothing arrived AND nothing happened inside. 217's whole purpose is
+   that a solitary mind is never starved, and 287 was starving it. */
+const thinking = !!mind.train || !!thought || (felt.remindings ?? []).length > 0
+const informed = !!heard || (changeWords.length > 0) || !!understood || thinking
+```
+
+`mind.train` and `thought` overlap on purpose — a train that runs a tick without producing a
+thought still ran, and I would rather the condition say both of your words than the shorter one.
+
+**What depends on this, checked.** `informed` has exactly two readers and I have looked at both:
+`experiencing.js:994` passes it to `moodStep`, and `mood.js:148` uses it in `if (unease &&
+!informed)`. Nothing else in the build reads it. It cannot reach the ledger, the needs, or the
+record.
+
+**THE STATE HASH WILL MOVE, and that is correct.** It sits at `dc5fc562` and the seeded run does
+think, so its mood will differ from tick one. This is the one case where a moved hash is the
+change working rather than drift. I will report the new hash and it becomes the baseline.
+
+## 294.3 — MEMORY'S FIFTH FIELD IS ALLOWED
+
+`acceptance-phase3.js:412` gains `lastWriteTick`, with its justification written beside `now`'s in
+the same comment block, so the whitelist keeps its teeth:
+
+```js
+const allowed = ['db', 'model', 'policyVersion', 'now', 'lastWriteTick']
+```
+
+The justification: it is a tick number written by 259 step 5 so memory can count what it wrote in
+its own time. A number is not a handle — it cannot be called, opened, or read from. The check
+still fails on anything else appearing, which is the point of a list.
+
+Then the full suite runs past that point, which nothing has since 259 step 5, and I report what is
+behind it. **I do not know what is there.** Ten sections were never reached on the last run, and I
+am not going to promise they are green.
+
+## FLAGGED — 287 SHIPPED WITH NO LIVE CHECK, AND I WOULD LIKE TO FIX THAT HERE
+
+Not a decision inside 294, so I am asking rather than doing. **Nothing in the suite tests unease at
+all** — I grepped every acceptance file for `informed` and `unease` and got nothing. That is why
+this went unnoticed until it was on your screen as a red Core: there was no clause to go red.
+
+With your word I would add two clauses in the same commit as 294.2:
+
+1. a mind with nothing arriving and nothing happening inside drifts into unease at its own rate;
+2. **a mind that is thinking does not**, which is 294.2 itself, proven rather than asserted.
+
+`MIND_DECISIONS.md` also gains the row 287 never wrote — what counts as information for the mind
+is a decision made for it — and 294 makes it **RULED**.
+
+**No source row is needed:** the Grupe and Carleton rows 287 added still stand and are unchanged
+by this. What counts as inner life is ours, not a finding, and the ledger will say so.
+
+## WAITING
+
+Nothing above is built. Say go, or change it, and I start.
