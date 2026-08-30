@@ -6849,3 +6849,15 @@ Plan first (253), as always.
 
 Same rule: the old wording becomes each bar's tooltip. Labels only —
 nothing about what they measure changes.
+
+## Directive 298 — The backlog number leaves the legend
+
+283.A.2's queue depth is now on the legend beside NEIGHBOURHOODS, and
+it shifts the legend as it counts — distracting, and the legend is
+for meaning, not a running number.
+
+Take it off the legend. The Pulse still walks every real hand-off in
+real order and still never skips (283.A.2 unchanged) — only the
+readout moves. Put the depth where it can change without moving
+anything: a fixed-width readout in a corner of the Mind Map, or in
+the HEALTH panel beside the map's own entry. Nothing else changes.
