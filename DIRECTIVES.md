@@ -6466,3 +6466,21 @@ Each sigil shows, beside its mark: its NAME (which is its file) and
 its live count of events this run. A red sigil names its file and its
 violation count. That is the information he asked for, and it must be
 legible without hovering, clicking, or guessing.
+
+## Directive 284 — Camera pan, the Core's size, and the Pulse on the record
+
+1. CAMERA PAN: left mouse drag moves the camera up, down, left and
+   right in the stage. Orbit and zoom stay as built (272); the
+   double-click reset returns the pan too.
+2. THE CORE IS TOO SMALL. It is the being at the heart of the map and
+   must read as the centerpiece — considerably larger than it is now,
+   sized so its feeling colour and its beat are unmistakable from
+   across the room. Its meaning is unchanged (270.D).
+3. FOR THE RECORD ON THE PULSE: Lonnie instructed CC directly in the
+   terminal after ten commits without it being fixed. The law is
+   283.A, unchanged: THE PULSE TRAVELS the wire from the sigil that
+   handed data to the sigil that received it, one real hand-off at a
+   time, at a rate a human eye can follow. Teleporting from node to
+   node is not travelling. The proof stands as 283.A.3 requires —
+   from his bench, one taught sentence, the Pulse's path posted in
+   order.
