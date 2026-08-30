@@ -6729,3 +6729,25 @@ everything, at the tick it happened.
    justification written beside `now`'s, so the check keeps its
    teeth. Run the full suite past that point — nothing has since 259
    step 5.
+
+## Directive 295 — GO on the 294 plan, with the unease clauses; and the interpreter marker
+
+1. GO. Build the 294 plan as posted. The moved state hash is
+   expected and becomes the new baseline.
+2. THE TWO UNEASE CLAUSES ARE APPROVED, in the same commit: a mind
+   with nothing arriving and nothing happening inside drifts at its
+   own rate; a mind that is THINKING does not. Lonnie's note, and
+   the science agrees: engaged attention is the standard antidote to
+   uncertainty-driven anxiety — a mind cannot dwell on emptiness and
+   hold a subject at the same time. 287 shipped with no live check
+   at all, which is why this reached his screen before any clause
+   went red; that gap closes here.
+   MIND_DECISIONS.md gains the row 287 never wrote — what counts as
+   information for the mind — marked RULED by 294.
+3. THE INTERPRETER MARKER (242.4): with the interpreter turned on
+   mid-session, its lines stop carrying the marker in the log, so
+   Lonnie cannot tell a translated line from the mind's own words —
+   which is the whole reason the marker was ruled. Every line the
+   interpreter carried is marked, always, from the moment it is
+   switched on, and the mark survives a re-render of older lines.
+   Say plainly in the report where the mark was being lost.
