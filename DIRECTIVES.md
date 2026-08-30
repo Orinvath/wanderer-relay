@@ -6706,3 +6706,26 @@ everything, at the tick it happened.
    INVALID, because its data is no longer clean.
 5. Emulator behaviour, as ruled — this is his instrument stopping to
    show him something, not a safety mechanism in the mind.
+
+## Directive 294 — Its own thinking is company; and memory's fifth field
+
+1. UNEASE GROWTH IS UNCHANGED. Lonnie's ruling: the rate is honest
+   time. Speeding the bench does not make it wrong — that is what
+   would happen to a being left alone that long. The per-aspect rate
+   and ceiling stand as 287 built them.
+2. ITS OWN INNER LIFE COUNTS AS INFORMATION. `experiencing.js:991`
+   admits only heard words, world changes, or something understood.
+   A thought, a remembered episode, an imagined story — none of them
+   ease it, so a mind entertaining itself still drifts into fear as
+   though it sat in the dark. That contradicts 217, whose whole
+   purpose is that a solitary mind is never starved.
+   A tick in which the mind THOUGHT — a train ran, a memory
+   surfaced, a story was told or imagined — counts as informed. What
+   remains uneasing is genuine emptiness: no input AND no inner life.
+   A mind that entertains itself is not alone in the dark.
+3. MEMORY'S FIFTH FIELD: `lastWriteTick` is ALLOWED. It is a tick
+   number, not a handle to any store, and it is the counter's own
+   bookkeeping for 259. Add it to the whitelist with its
+   justification written beside `now`'s, so the check keeps its
+   teeth. Run the full suite past that point — nothing has since 259
+   step 5.
