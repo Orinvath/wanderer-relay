@@ -30207,3 +30207,30 @@ at **+10**. The tick builds the moment's need-word with
 `forNeed(happening.lowest, 'low')` unconditionally — so it always speaks the LOW word for whichever
 need is lowest, even when that need is full. A contented mind is describing itself as lonely.
 Separate fault, reported, not fixed.
+
+---
+
+# Report — 275 DONE. A contented mind no longer calls itself lonely.
+
+Restoration, exactly as you set it: the end is chosen by the value, matching the two sibling lines
+in the same file (`:174`, `:253`) and `speech.js:453`. The bottomed case is untouched. One line.
+
+## The proof — all three ends, on a live mind
+
+| relatedness | its moment | speaks |
+|---|---|---|
+| **−6** (depleted) | `MANY HIDDEN LONELINESS` | the **LOW** word, as it must |
+| **−10** (bottomed) | `MANY HIDDEN DESPAIR` | the **bottomed** wording, unchanged |
+| **+10** (full) | `MANY HIDDEN SONG CONFIDENCE` | no low word at all — `CONFIDENCE` is the **HIGH** word for the need that was lowest |
+
+And the two beings from the 274 report, both sitting at relatedness +10, now say **`RIVER TOGETHER
+SONG`** and **`GLOAT SONG TOGETHER`** where yesterday they said `LONELINESS`.
+
+For the record, the dictionary's own ends: relatedness `LONELINESS` / `TOGETHER` · competence
+`WEAKNESS` / `CONFIDENCE` · autonomy `CANNOT,FREEDOM` / `FREEDOM`.
+
+## Everything else
+
+**478 passed, 0 failed.** State hash moved `2ee4dd94` → `7b20b1f1`, which is expected and is the
+change itself: the fixture's moments now say the end their needs are actually at. Nothing else
+moved. Pushed.
