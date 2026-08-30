@@ -7001,3 +7001,55 @@ Separately: the Director will verify 301's platform figures against
 sources and post them. Until that lands, REFERENCES.md is right to
 hold them as "what the ruling states" rather than as measured — that
 is the ledger working.
+
+## Directive 304 — WIRE UP THE THREE THAT NOTHING CALLS
+
+Three systems are built, ruled, and reached by nothing. Their designs
+are settled in their own files and in the record — NOTHING HERE IS
+NEW. Only the call sites are missing.
+
+### A. CONSOLIDATION — call it when the mind dreams
+`consolidate()` is called by nothing in a life; its own header says
+so. Its design is 139/BRAIN_PLAN §9 and unchanged: it keeps what the
+DREAM already found, marks what it drew on, and DELETES NOTHING (013
+§16.9 — never forgets on its own).
+Wire it where the dream already runs, on the memories that dream drew
+from. MIN_SHARED stays sleep.js's own OVERLAP_MIN — not a second
+number. Its check goes green when a real life produces a warm tier.
+
+### B. IDENTITY — call it at the boundaries the record already names
+Its design is 139/BRAIN_PLAN §10 and McAdams' three levels, read off
+the VARIABLES appraisal already stored — agency and communion, no
+text, no model, nothing re-interpreted.
+THE BOUNDARY IS SLEEP. TRAIT_PLAN §9.3 rules that a purpose
+recomputed every conversation would be a mood; the same is true of a
+life story. A life story is taken after a consolidation, on what
+that consolidation kept — so the order in a dream is: distil, keep,
+then read. That is the only boundary this build has, and it is the
+one the record's own reasoning points at.
+
+### C. VOCABULARY — restore the reach that a later change grew in
+front of
+`reach` is imported by experiencing.js and unreachable because
+`think()` returns early before it. Its law is Lonnie's own, quoted in
+the file: EVERY ONE OF THE 402 IS SPEAKABLE, and a word reaches its
+mouth from anything actually true of it — what is in front of it,
+what it remembers, what it cares about, what it was made for, what
+it feels, what it is doing. The state table is ONE source, never the
+gate on the rest.
+Find the early return, say plainly which change grew it, and restore
+the reach without disturbing what that change was doing. A mind that
+can read four hundred marks and utter fifty is the exact fault this
+file was written to end.
+
+### D. THE TWO SKIPPED
+293 — a red light halts the mind, and the test with it — as written,
+now.
+278.B — one check per FILE, roughly thirty-nine, where the build has
+24. As written.
+
+### E. THE PATTERN, SAID OUT LOUD
+All three were reported as BUILT when they were only READY. A
+capability with no caller is not built. From here, a system is not
+done until something calls it and its own light can go green in a
+real life — say so in the report for each of the three.
