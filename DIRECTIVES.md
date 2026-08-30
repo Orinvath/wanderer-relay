@@ -7110,3 +7110,52 @@ be asked.
    the "I can't read that" fault Lonnie named. The bar's value stays
    PROVISIONAL and watched (300.1) — it is placed below the two-way
    reading, not calibrated to anything.
+
+## Directive 306 — The three the Director owed: the reach, the life story, and geometry's node
+
+### A. THE REACH — 304.C closed
+`reach` is imported by experiencing.js and CALLED BY NOTHING. It is
+not hidden behind an early return; the call site was never written.
+
+What the file itself says it is for: `reach()` is a MEASUREMENT —
+how many of the 402 are reachable right now and from which sources.
+`reachFor()` is the one that picks a word. `STATE_TABLE_ONLY` is
+kept, in its own words, "so the difference can be measured rather
+than asserted, and so nobody ever quietly returns to it."
+
+That is exactly what happened. Wire it:
+1. `reach()` is read live and shown in the gauge beside VOCABULARY:
+   how many of the 402 it can reach this moment, and how many the
+   state table alone would allow. The gap is the measurement the file
+   was written to keep honest.
+2. Confirm — by tracing, not by reading — that `reachFor()` is the
+   path speech actually takes when it reaches for a word, and say
+   plainly in the report whether the mind is currently speaking from
+   the whole language or from the state table. If it is the state
+   table, that is his 220-era ruling being violated, and it is named
+   as a fault rather than fixed silently.
+
+### B. THE LIFE STORY'S BOUNDARY — 304.B closed
+identity.js says it runs at boundaries, and TRAIT_PLAN §9.3 rules
+that a story recomputed every conversation would be a mood.
+THE BOUNDARY IS SLEEP, AFTER CONSOLIDATION. The order inside a dream
+is: distil, keep (304.A), then read the life story off what that
+consolidation kept. It reads the VARIABLES appraisal already stored —
+agency and communion — and no text, no model, nothing re-interpreted.
+That is the only boundary this build has, and it is the one the
+record's own reasoning points at.
+
+### C. GEOMETRY'S NODE — 297.A closed
+`geometry.js` sits in the LANGUAGE neighbourhood, beside LANGUAGE and
+LEARNING, since meaning-as-distance is what it serves. It takes its
+nearest mark like every other node (261 rulings) and lights on its
+own hand-offs like every other file. One file, one node, one name
+(276).
+
+### D. THE PATTERN, NOW LAW
+Three times a check has asserted a stricter law than the thing it
+guards — 266 in thinking, 290 in the interpreter, 289/trust today.
+STANDING RULE, joining CLAUDE.md: WHEN BEHAVIOUR CHANGES, ITS CHECK
+CHANGES IN THE SAME COMMIT. A check that was not revisited alongside
+a ruling is not a check, it is a second opinion, and it will fire on
+the ruling working correctly.
