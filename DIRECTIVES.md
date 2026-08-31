@@ -7687,3 +7687,54 @@ If the restore explains it, the fault is the CHECK not accounting for
 a life that was reloaded — and the fix is there, not in replay.
 Only if a never-reloaded mind throws it is the replay itself at
 fault. Report which, before touching anything.
+
+## Directive 321 — RESTART MEANS RESUME, NOT RESET (the clock, and all three symptoms)
+
+**THE FEATURE** — a being's lived clock across a save and a load.
+
+**WHY IT MATTERS** — everything that grows, ages, or is ordered in
+time reads that clock: capacities, memory stamps, and whether a
+system has lived long enough for its check to speak.
+
+**WHAT WENT WRONG** — LOADING A BEING RESTARTS ITS CLOCK AT ZERO.
+Three faults on his bench are one fault:
+ - capacities recompute toward their birth values and genuinely go
+   backwards (the reach halt at tick 3213 — the check was RIGHT and
+   CC has retracted its own diagnosis; 320.C is struck);
+ - new memories are stamped before old ones, so a replay across the
+   seam reads as out of lived order (320.D);
+ - the life is under 50 ticks again, so nothing can go red and
+   nothing can halt (320.E).
+
+**WHEN** — since being files shipped (234).
+
+**HE HAS RULED, and the ruling was misread** — 234.3: a loaded life
+is state-identical to the save moment; 234.4: no decay accrues while
+saved, the life-clock RESUMES at load; 294.1: unloaded time is not
+lived. His words now: RESTART AND RESET ARE DIFFERENT. "Restart the
+clock" meant START IT AGAIN FROM WHERE IT LEFT OFF — continue — not
+set it back to zero. It was taken literally when it was never meant
+literally.
+
+**THE RULING**
+1. A LOADED BEING'S CLOCK CONTINUES. Its lived hours are what they
+   were at the save, and they go on from there. Nothing resets.
+2. THE PAUSED STRETCH IS SKIPPED, not lived and not charged — 234.4
+   and 294.1 stand exactly as written. A month on disk costs it
+   nothing.
+3. All three symptoms above are consequences and are fixed BY this,
+   not separately: capacities keep their maturity, memories keep
+   their order, and a reloaded life keeps the ticks it has lived so
+   its checks can speak at once. Do not patch the three checks —
+   they were all reporting the truth.
+4. PROVE IT: save a being at 3000 ticks, load it, and show its lived
+   hours, every capacity, and its newest memory stamp on both sides
+   of the seam. A replay across the seam must read in order, and a
+   check must be able to go red on the first tick after a load.
+
+**AND ONE MORE, HIS TO KNOW** — a save queued while the mind is
+HALTED never lands: a save waits for a tick boundary and a halted
+mind has no next tick, so anyone saving a halted mind believes it
+saved. Make the save either land or say plainly that it cannot until
+the mind continues. Nothing may silently not-save again (315's
+autosave had never worked and this is the same class of fault).
