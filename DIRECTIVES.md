@@ -7937,3 +7937,22 @@ fetch it. Do that first, and start SMALL.
    speed alone. Report both columns; his eye rules the readability.
 5. Nothing about the mind changes in this directive. This is
    fetching and measuring.
+
+## Directive 326 — GO on the 324 plan; and the rate is not the mind's question
+
+The plan is approved as posted. Build it.
+
+ON THE THIRD FLAW — struck, and it was answered in 324 already. HOW
+OFTEN A SENSE ARRIVES IS THE BODY'S, NOT THE MIND'S. 324.A.3: the
+mind never aims the sensor, and it does not meter it either. The body
+sends as many or as few as its own side decides; the mind takes what
+arrives and treats each as a moment. There is no rate dial in the
+mind and none is to be built.
+
+ON THE SECOND FLAW — right, and stated correctly: build the seam,
+prove the path with the model that is on the machine, and SAY IN THE
+REPORT that the small model is not yet installed. 325 orders it
+fetched; a capability proven against a stand-in is named as such.
+
+Build order stands (the in-order law): 323 first — GENERATE must wipe
+everything — then 324, then 325.
