@@ -7286,3 +7286,20 @@ fails, and that is the fault 245 exists to catch.
 306.D applies and is worth naming: the behaviour changed lawfully and
 a clause written under the old behaviour fired on the ruling working
 correctly. That is the fourth time. The clause moves in this commit.
+
+## Directive 311 — Stop the emulator for one run (Lonnie's word)
+
+Permission given. Stop his emulator, run the full suite once with
+nothing else calling the local model, and start the emulator again
+straight after — restored to the state he left it in, same being,
+same settings, same speed dial.
+
+Report the result plainly:
+- if the two clauses pass with the emulator down, the cause is model
+  contention and the fix is the CHECK's own setup declaring that it
+  needs the model to itself — not a change to the mind, and not a
+  clause rewritten to pass;
+- if they still fail, contention is ruled out and that is worth as
+  much as the other answer. Say so, and stop there rather than
+  reaching for the next theory.
+308's rule stands: report what it was, not what you guessed.
