@@ -7303,3 +7303,49 @@ Report the result plainly:
   much as the other answer. Say so, and stop there rather than
   reaching for the next theory.
 308's rule stands: report what it was, not what you guessed.
+
+## Directive 312 — TARGETED TEACHING MUST AIM AT WORDS IT DOES NOT OWN
+
+**THE FEATURE** — targeted teaching: the teacher aiming at what the
+mind most needs, rather than at whatever comes up.
+
+**WHY IT MATTERS** — it is the lever meant to make schooling
+efficient. Without it the teacher circles words the mind already
+half-knows and the vocabulary barely grows.
+
+**WHAT WENT WRONG** — `#topic` aims ONLY at `near_bar`: words sitting
+just under the ownership bar. Since 305 one clear exposure owns a
+word outright, so almost nothing sits under the bar, the aim list is
+usually empty, and it falls back to whatever thread is first. THE
+TEACHER NEVER INTRODUCES A WORD THE MIND HAS NEVER HEARD.
+
+**WHEN** — today, as a consequence of 305. Before it, words climbed
+an accumulator slowly and there were always plenty near the bar.
+
+**THE SCIENCE** — the Zone of Proximal Development, which the school
+was built on (234.2): teach slightly BEYOND what is known.
+Reinforcing the nearly-known is the safe half; growth comes from the
+new word, introduced with enough context to be graspable.
+
+**HE HAS RULED** — 248 lever 2, in his own words: "the teacher aims
+at words it does not own yet AND words sitting just under the trust
+bar." The first half was never built.
+
+**THE RULING** — targeted teaching aims at UNOWNED WORDS FIRST, and
+words near the bar second.
+1. The unowned aim is drawn from the language itself — marks the
+   mind does not own, chosen NEAR what it already cares about (its
+   interests and its dispositions), so a new word arrives with
+   context rather than out of nowhere. The kinship space already
+   answers "near", and 221 governs it.
+2. Words near the bar remain the second aim, and spacing (lever 3)
+   still narrows to what is due.
+3. The new-word cap per story (lever 4) is unchanged and still
+   governs how many unknowns may arrive at once — that is the ZPD
+   width and it stays his dial.
+4. Nothing else about the teacher changes: the censor still refuses
+   what it must, and stories are still built mostly of owned words.
+
+PROVE IT: a schooled hour before and after — words owned, and how
+many of them the mind had NEVER heard before that hour. That second
+number is the whole point and it is currently zero.
