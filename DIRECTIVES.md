@@ -7584,3 +7584,60 @@ we are mimicking LEARNING. Remove the limiter."
 PROVE IT: the same being, before and after — words used against words
 understood, the longest line it speaks, and the language age. The
 number that matters is the 37.
+
+## Directive 320 — THE TEACHER INVENTS WORDS, AND ONLY EVER SEES SIXTY
+
+**THE FEATURE** — the school: what the teacher says to the mind, and
+what the mind learns from it.
+
+**WHY IT MATTERS** — every word the mind owns comes through here. A
+teacher that says a word that does not exist teaches a word that does
+not exist, and the mind then speaks it back. Lonnie has been watching
+it use nonsense words and this is where they come from.
+
+**WHAT WENT WRONG — two faults, one chain**
+1. THE TEACHER INVENTS WORDS. On his bench: "WINGS BEAT SOFTLY
+   AGAINST AIRFILTERWHERE". AIRFILTERWHERE is not a word in any
+   language. The censor passed it, so it reached the mind as a real
+   exposure, and 305's one-clear-exposure rule means it can be OWNED
+   on the spot. The chain is: the model invents -> the censor passes
+   -> the mind learns -> the mind speaks nonsense.
+2. THE TEACHER ONLY EVER SEES SIXTY WORDS. teacher.js:375 —
+   `owned.slice(0, 60)`. However many the mind owns, the model is
+   told the first sixty. At 590 owned it is writing for a mind a
+   tenth the size, which is why its sentences never widen as the mind
+   grows.
+
+**WHEN** — both since the school shipped (234). Fault 1 became
+harmful at 305, when one exposure started owning a word outright.
+
+**THE SCIENCE** — a caregiver's speech is real language. Children do
+learn from mistakes and mishearings, but a made-up token with no
+referent is not a mistake, it is noise; and 234's censor exists
+precisely so the teacher cannot teach what is not true.
+
+**HE HAS RULED** — 234.5 (the censor is arithmetic and refuses what
+it must) and 234.2 (stories are built mostly of OWNED words plus a
+capped count of new ones — "owned" meaning the mind's words, all of
+them).
+
+**THE RULING**
+1. THE CENSOR REJECTS WORDS THAT ARE NOT WORDS. A token in a teacher
+   line must be a mark in the 402, a word the mind already owns, or
+   an ENGLISH WORD — checked against a real word list, not against
+   whether it traces. A run-together invention like AIRFILTERWHERE
+   fails on that test alone. State plainly in the report what list
+   is used and that it ships with the build rather than being
+   fetched.
+2. THE SIXTY GOES. The teacher is told the mind's OWNED WORDS — all
+   of them. If the prompt must be bounded for the model's sake, the
+   bound is stated as a number in the file with its reason, it is
+   far larger than sixty, and the words shown are CHOSEN (nearest to
+   the topic) rather than the first sixty in whatever order the map
+   returns.
+3. ANY WORD ALREADY OWNED THAT FAILS THE NEW TEST IS NAMED IN THE
+   REPORT, not silently removed. Lonnie rules whether the mind
+   forgets them; nothing in this build has ever deleted what a mind
+   learned and this directive does not start.
+PROVE IT: a schooled hour with the fix — how many invented tokens the
+censor refused, and the longest teacher line before and after.
