@@ -7794,3 +7794,42 @@ Nothing is started until every earlier directive is COMPLETE.
 4. EVERY REPORT NAMES THE QUEUE: what was completed, what is next by
    number, and anything blocked with the reason. A directive that is
    not named in a report is assumed untouched.
+
+## Directive 323 — GENERATE WIPES EVERYTHING AND STARTS FRESH
+
+**THE FEATURE** — GENERATE, the one button that makes a new mind.
+
+**WHY IT MATTERS** — it is the baseline for every experiment. If a
+"newborn" carries anything of the last life, no run compares to any
+other and the language age means nothing across them.
+
+**WHAT WENT WRONG** — on his bench, pressing GENERATE does not start
+from scratch. The code opens a new brain and leaves the old life's
+rows behind, and 321 then resumes a clock from the newest stamp it
+finds — so a newborn can wake wearing the previous life's hours,
+which drags its capacities with it.
+
+**WHEN** — the collision is new: 315 built GENERATE, 321 taught the
+clock to resume from the store's own stamps. Each was right alone.
+
+**HIS RULING, in his words** — "This is not the same mind. GENERATE
+wipes everything and starts fresh. That was my rule."
+
+**THE RULING**
+1. GENERATE PRODUCES A BEING WITH NOTHING OF THE LAST ONE. Zero
+   lived hours, zero ticks, no memories, no owned words, no lessons,
+   no threads, no beliefs, no teller trust, capacities at their birth
+   values, mood at its own resting point. If any field survives that
+   is not the new seed, the new ten and the new soul, it is a fault.
+2. THE NEW BEING DOES NOT READ THE OLD STORE. Whatever the mechanism
+   — a fresh store, a new being id, whatever is honest — a newborn's
+   clock, memories and words must come from ITS OWN life and nothing
+   else. 321's resume applies to LOADING A SAVED LIFE, never to a
+   birth.
+3. THE ENDED LIFE IS STILL NOT ERASED. Its rows stay exactly as they
+   are, as 234.5 and the store's own append-only rule require. This
+   is about what the NEWBORN can see, not about deleting anything.
+4. PROVE IT: press GENERATE on a bench holding a 400-hour being and
+   report the newborn's lived hours, ticks, owned words, memory
+   count and every capacity. Every one of them must read birth. Then
+   load the saved old life and show it is untouched.
