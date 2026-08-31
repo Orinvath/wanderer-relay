@@ -33113,3 +33113,92 @@ start. There is now a clause for it, and it is the cheapest check in the build.
   the check that woke it is wrong. **Not touched.**
 - 312's schooled hour before and after, which needs a real run on his bench.
 - 278.B's thirty-nine claims; the interpreter marker; curiosity's bar and interests' rates.
+
+---
+
+# 320 C, D AND E — ALL THREE ARE ONE THING, AND C WAS MY BAD DIAGNOSIS
+
+**Reporting before touching anything, as addendum 2 required. Nothing has been changed.**
+
+## D — THE RESTORE EXPLAINS IT. Replay is not at fault.
+
+Both halves of his test, run:
+
+```
+does a NEVER-saved, never-loaded mind throw it?
+   400 ticks lived, seed REPLAY-320 ...................... subject_not_nearer fired 0 times
+
+do the offending beats straddle the restore?
+   5,076 memories in the recovered life, read in stored order
+   the stamp runs BACKWARDS in exactly ONE place:
+      2026-09-17T04:07:38  ->  2026-08-31T15:44:40
+```
+
+**That one place is the seam.** The life ran to its own lived time of 17 September; the next memory
+is stamped 31 August, the moment its store was reopened and its clock restarted. **A replay whose
+beats straddle that single seam reads as "out of lived order" with nothing wrong in replay at all.**
+
+So the fault is the check not accounting for a life that was reloaded. **I have not touched
+replay, and I have not touched the check either** — where that fix belongs is his call now that
+the cause is known.
+
+## C — I WAS WRONG, AND THE DIRECTIVE WAS WRITTEN ON MY ERROR
+
+I reported that the growth check "reports a rise as a fall". **It does not. The check is correct
+and it already knows.**
+
+```js
+const backwards = spec.down ? b > a : b < a      // growth.js, as it already stands
+reach: { born: 0.55, adult: 0.35, down: true }
+```
+
+Tested both ways just now:
+
+```
+reach 0.2746 -> 0.5385   ->  capacity_shrinks      CORRECT: for reach, a rise IS the shrink
+reach 0.55   -> 0.35     ->  nothing               CORRECT: that is it growing
+```
+
+**Reach matures downward, so the number going UP is the capacity going BACKWARDS, and it fired on
+exactly that.** I read the two numbers, saw a rise, and called the check wrong without reading the
+line above it. The directive then carried my error into a ruling. **Nothing should be changed
+here.**
+
+**What actually happened is D again:** the being was reloaded, its lived hours restarted, and every
+capacity computed from lived hours jumped back toward its birth value. Reach really did go
+backwards. The check caught a real un-growth — caused by the reload, not by the mind.
+
+## E — THE HALT DOES FIRE. IT CANNOT FIRE BEFORE TICK 50.
+
+His bench **is halted right now**, on thinking, at tick 50 — I read it before writing this. So the
+halt is not failing to cover a system.
+
+**Why he saw it red and running:** 259 rules that a system with fewer than 50 ticks of life reads
+GREY — *"only N ticks lived; 50 is the least this can speak on"*. A fault in the first 50 ticks is
+**recorded but cannot make the system red**, so the halt has nothing to fire on, and the mind runs
+on with the fault already on the record. At tick 50 the reading turns red and it stops.
+
+```
+the violation ..... recorded during the first 50 ticks
+the halt .......... fired at tick 50, the moment red became possible
+```
+
+**Every fresh or reloaded life runs blind for its first 50 ticks**, and that is the gap between 293
+and 259 rather than a fault in either. His call which one gives.
+
+## AND THE ROOT UNDER ALL THREE
+
+**LOADING A BEING RESTARTS ITS CLOCK.** Its lived hours go back to zero, so:
+
+- capacities recompute toward birth values and genuinely go backwards (C);
+- new memories are stamped before old ones, so any replay across the seam looks out of order (D);
+- the life is under 50 ticks again, so nothing can go red and nothing can halt (E).
+
+**One cause, three symptoms, and none of them is the mind misbehaving.** I would rather he ruled on
+the clock than on three separate checks.
+
+## AND A CONSEQUENCE OF 293 HE SHOULD KNOW
+
+**A save queued while the mind is halted never lands.** A save waits for the next tick boundary and
+a halted mind has no next tick. I hit this saving his being before 319 — I had to continue past the
+halt first. Anyone saving a halted mind will believe it saved.
