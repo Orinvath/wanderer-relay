@@ -7349,3 +7349,18 @@ words near the bar second.
 PROVE IT: a schooled hour before and after — words owned, and how
 many of them the mind had NEVER heard before that hour. That second
 number is the whole point and it is currently zero.
+
+## Directive 313 — GO on the 312 plan
+
+Approved as posted. Build it:
+- aim order: an unheard mark near what it cares about and what it was
+  made for -> near the bar -> threads;
+- spacing narrows the unowned aim as it narrows the near-bar one;
+- the new-word cap (lever 4) untouched — the ZPD width stays his dial;
+- the censor untouched; stories still built mostly of owned words;
+- when the kinship space is too thin for "near" to mean anything, FALL
+  THROUGH rather than aim at a word out of nowhere, and report how
+  often that happened. That guard is right and it stands.
+
+The proof as 312 asked: a schooled hour before and after, words owned,
+and how many of those the mind had NEVER HEARD before the hour began.
