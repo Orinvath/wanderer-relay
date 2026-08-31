@@ -32620,3 +32620,82 @@ check pointing at a file whose code has moved passes or fails on nothing at all.
 CSS set `display:flex`, which beats the `hidden` attribute, so the element was "hidden" and drawn
 anyway. **An alarm that shows when nothing is wrong is worse than no alarm.** Fixed and pushed;
 he has it.
+
+---
+
+# 307 BUILT — and the report it corrects is my own
+
+## FIRST: THE "ZERO" I REPORTED WAS PARTLY A BROKEN MEASUREMENT, AND IT WAS MINE
+
+306.A's trace said the language source ran **zero** times in 60 ticks. That number was wrong, and
+307's ruling was written partly on it.
+
+**The object the tick hands to `think()` was built without the trace on it.** `thinking.js` emits
+the vocabulary hand-off off that object — `mind.trace?.at?.('vocabulary', ...)` — so the emission
+was a no-op whether the code ran or not. **The node was dark because the field was missing, not
+because the path was cold.** With the field in place, the same 60-tick life on the same seed:
+
+```
+vocabulary hand-offs      0  ->  45
+```
+
+I should have questioned a measurement that read exactly zero before building a ruling on it. It is
+the same fault as the five moved-file checks, wearing different clothes: a reading of nothing is
+not the same as nothing happening.
+
+## 307's RULING IS BUILT
+
+Inside a train, one word is now reached for from everything true of it — what is in front of it,
+remembered, cared about, made for, felt, being done — and takes its place in the same draw at its
+own weight. **One word against a dozen near the anchor**, so the train still holds:
+
+```
+trains ran on            59 of 60 ticks     (unchanged)
+thinking check           GREEN               trains_without_subject 0 · subject_not_nearer 0
+vocabulary hand-offs     45
+distinct marks reached    5 — TOGETHER · HIDDEN · LIGHT · SONG · JOY
+```
+
+**225 still decides WHAT it thinks about. 220 decides which words. Both stand.**
+
+## AND THE NUMBER HE ASKED FOR IS FIVE, WHICH IS THE NEXT THING
+
+Five distinct marks across sixty ticks, and the reason is **his own 274.2**: on 59 of those 60
+ticks the train had a STORY, and the beat leads because a beat IS the moment the mind is living.
+So the language is consulted, a word is reached — and the story beat displaces it before it
+surfaces.
+
+```
+what its thoughts were actually about:  imagined 32 · remembered 24 · need 3 · around 1
+```
+
+**That is his ruling working exactly as written, and I have not touched it.** But it means
+restoring the reach inside trains does not get those words to the surface while a story is
+running, and 307's aim — the mind speaking out of its whole language — is not met by 307 alone.
+Reporting it rather than acting on it: the beat's precedence is his.
+
+## AND THE BUILD IS NOT GREEN. TWO CLAUSES IN PHASE 3.
+
+```
+PHASE 3, in the FULL suite      failed twice, the same two clauses both times
+PHASE 3, run ALONE              80 passed, 0 failed
+```
+
+```
+10  Host B's context assembles with every host machine REMOVED from this computer
+14  At departure she keeps nothing raw: no buffer, no queue, no table
+```
+
+**307 touched two files — `thinking.js` and `experiencing.js` — and neither is on PHASE 3's path**,
+which is memory, the host stores and the travelling store. The full suite was green on the run
+immediately before 307 went in.
+
+What I can say without guessing: **both failing clauses work on state left on disk.** Clause 10
+removes and renames the hosts' machines directory; clause 14 scans the service's own tables for
+canaries. `server/data/phase3-hosts` currently holds account directories accumulated from many
+past runs. That is the shape of a check reading yesterday's leftovers, not of a mind that broke.
+
+**I have not chased it.** It reproduces, it is two clauses, and it may be state or it may be 307
+by some route I cannot see — and running down my own theories is exactly what I am told not to do.
+**Say the word and I will find it; until then the build is RED and I am not calling it anything
+else.**
