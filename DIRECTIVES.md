@@ -7913,3 +7913,27 @@ Forced-fail at birth (254.D).
 
 PLAN FIRST (253). This is large and touches the pipeline; post the
 plan and wait.
+
+## Directive 325 — GET THE MODEL: the small one first
+
+324 names "the on-device model from 301" and nothing tells you to
+fetch it. Do that first, and start SMALL.
+
+1. FETCH THE SMALLEST BUILD FIRST — the Gemma 4 E-series quantized
+   text build, the one that loads in about a gigabyte. That is the
+   candidate; the bigger ~2GB multimodal build is the fallback, and
+   is only fetched if the small one fails his eye.
+2. SAY BEFORE YOU PULL: the exact build, its size on disk, where it
+   lands, and how much room the machine has. If it will not fit or
+   the machine cannot run it, stop and say so — do not half-install
+   anything.
+3. IT REPLACES QWEN in the mind's paths, not beside it. One small
+   model doing sight, sound and language (301). Qwen stays only for
+   bench scaffolding — the teacher is the emulator's, not the
+   being's.
+4. THE TEST HE ORDERED, once it runs: the SAME crossings through the
+   small model and through the larger one — the censor's refusal
+   rate and how the lines read. THE SMALLEST THAT PASSES WINS, on
+   speed alone. Report both columns; his eye rules the readability.
+5. Nothing about the mind changes in this directive. This is
+   fetching and measuring.
