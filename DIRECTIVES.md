@@ -7991,3 +7991,44 @@ law, unchanged).
 
 Build order unchanged: finish 323, then 324's remaining work, then
 this.
+
+## Directive 328 — SIGHT AND PRIVACY: 030 is the rule, and the question is storage
+
+CC asked to extend a privacy guard. The Director read 029 and 030 and
+NEITHER SAYS WHAT WAS ASSUMED.
+
+- 029 is not a firewall. It is a capability ruling: her voice model
+  should be one that can also see. Nothing in it says only that model
+  may be shown an image.
+- 030 IS the privacy law, and it governs WHAT IS DONE WITH A SIGHT,
+  not who may look: "ungifted sights can be spoken about but never
+  stored; gifted sights enter shared memory as carried, moderated
+  material," through the consent and human moderation gate.
+
+And Lonnie's correction on the framing: THE MIND DOES NOT SEE. The
+camera sees; the mind receives, as an eye and a brain. There is no new
+capability to permit — there is a signal arriving.
+
+**THE RULING**
+1. NO GUARD IS EXTENDED. The mind receiving a camera's signal and
+   turning it into marks is the "spoken about" case 030 already
+   allows. Remove the extension CC wrote and let 030 govern, as it
+   always did.
+2. THE REAL QUESTION IS STORAGE, and it is the one that was not
+   asked. A perception becomes a MOMENT (324.B.2), and moments are
+   written to memory by the ordinary path — so an ungifted sight
+   could be stored by that path and BYPASS 030 without anyone
+   deciding to.
+   AN UNGIFTED SIGHT MUST NOT BE STORED. Trace what happens to a
+   perception's moment today: is it written, and does anything mark
+   it gifted or ungifted? Report the answer before changing
+   anything.
+3. WHAT MAY BE KEPT FROM AN UNGIFTED SIGHT: what it MEANT to the
+   being — the marks, the feeling, the lesson — never the image and
+   never a record that reconstructs it. That is 030's own shape:
+   the lesson travels, the sight does not.
+4. A GIFTED SIGHT follows 030 unchanged: consent, human moderation,
+   then shared memory.
+5. Say plainly in the report whether the bench has any notion of
+   gifting yet. If it does not, ungifted is the only case that
+   exists and it must behave correctly on its own.
