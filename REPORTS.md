@@ -33268,3 +33268,73 @@ is written live and I could reopen it.
 
 That is a real hole in 293 and it is his to rule: a Continue that is immediately undone by the same
 violation is not a way out.
+
+---
+
+# 322 — A BUILT; AND B IS THE SCAR, NOT THE MIND
+
+## A — CONTINUE NOW MEANS PAST THIS VIOLATION
+
+An override records that exact violation — system, counter, tick and the value it fired on — and
+the halt skips it from then on. **A new violation still halts.** Nothing is cleared: the violation
+stays on the record, the override is still logged as 293.3 requires, and **the system stays RED
+until it genuinely stops breaking.** Acknowledging is not clearing.
+
+That closes the trap: continue, halt on the same thing, continue, halt — with no tick boundary in
+between, so the mind could not be saved at all.
+
+## B — DIAGNOSED BEFORE TOUCHING, AND IT IS NONE OF THE THREE
+
+The directive offered three candidates: surfacing handing the train its episodes, the ordering
+inside replay, or the clause reading the wrong field. **It is none of them. It is the data.**
+
+What fired, read off his bench: `SONG [226.2]: replayed out of lived order at beat 2`.
+
+The store, read directly:
+
+```
+5,133 memories · the stamp runs backwards in exactly ONE place
+
+  seq 4973   2026-09-16T22:04:34   ABOVE BIRD
+  seq 4974   2026-09-17T01:04:10   ABOVE
+  seq 4975   2026-09-17T04:07:38   ABOVE SKY        <- the overnight life ends here
+  seq 4976   2026-08-31T15:44:40   SKY HAPPY HIDDEN  <- my reset clock starts here
+  seq 4977   2026-08-31T15:44:44   HIDDEN
+```
+
+**The overnight mind lived from 31 August to 17 September in its own clock. When I recovered it by
+reopening the raw store, its clock restarted at 31 August, so about a hundred memories were written
+with stamps two weeks BEFORE the ones they follow.** That stretch is a scar in the middle of its
+life, and a replay drawing beats across it reads exactly as "out of lived order".
+
+`replay()` preserves the order it is handed; `memory.all()` returns by `seq`, which is the order
+things happened. **Both are correct.** The clause is correct. The episodes were correct. The stamps
+in the store are not, and they are not wrong because of anything the mind did — **they are the scar
+of the reset that 321 has now stopped happening.**
+
+**And it is already healing.** The eight SONG episodes a replay would take now:
+
+```
+seq 5048  2026-08-31T15:54:31      <- the last of the scar
+seq 5081  2026-09-17T04:07:42      <- the clock resumed correctly after 321
+seq 5100 · 5124 · 5126 · 5127 · 5129 · 5132   all 2026-09-17
+backwards steps among them: 0
+```
+
+**Nothing to fix, and nothing should be fixed.** The scar ages out of the window as the mind lives.
+If he would rather not wait, the only honest options are his: leave it and let it pass, or take a
+new being from that store's own save. **I have not touched replay, surfacing, or the clause.**
+
+## HIS BENCH RIGHT NOW
+
+```
+604 words owned · 403.6 hours lived · one emulator running · nothing red
+```
+
+## AND A CORRECTION I OWE ON MY OWN 321 FIX
+
+321 resumes a recovered clock from the newest stamp in the store. **On this life that is correct** —
+the newest stamp is the last moment it lived. But it is `max()` over every stamp, so **a single
+anomalous stamp far in the future would drag a whole life forward with it.** No such stamp exists
+here, and this is not a fault today; it is a sharp edge I put there and would rather name now than
+have found later.
