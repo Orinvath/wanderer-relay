@@ -7481,3 +7481,43 @@ contrast; low contrast is a usability failure, not a style.
    shrink its text back down.
 Open it for his eye when done (118); he is the only test that matters
 here.
+
+## Directive 317 — ONE NUMBER: the litmus IS the gauge
+
+**THE FEATURE** — the language age on the LEARNED panel.
+
+**WHY IT MATTERS** — it is the single number he steers the whole
+project by. Two figures for one quantity means neither can be
+trusted.
+
+**WHAT WENT WRONG** — the panel read 1.3 while the litmus, run on
+the same mind moments later, read 2.6. The panel keeps its own
+estimate from counting owned words; the litmus is the measurement.
+
+**WHEN** — 241 built the litmus as the real measurement and ruled
+"the old 0-100 score dies." Only half of it died; the panel's own
+estimate stayed.
+
+**THE SCIENCE** — the litmus is the validated instrument:
+spot-the-word, real words shuffled with pronounceable fakes, scored
+hits MINUS false alarms, mapped onto the human words-by-age curve
+(Brysbaert et al. PMC4965448; Baddeley). Counting owned words is a
+tally, not a measurement — a mind that claims everything would score
+well on a tally and zero on the litmus.
+
+**HE HAS RULED** — 241, and again now.
+
+**THE RULING**
+1. THE LITMUS BUTTON IS REMOVED.
+2. THE GAUGE IS COMPUTED BY THE LITMUS ALGORITHM. Whatever cadence
+   the gauge already refreshes on, it now refreshes by RUNNING THE
+   LITMUS — the same spot-the-word battery, the same hits-minus-
+   false-alarms, the same curve. The panel's own word-count estimate
+   is deleted, not hidden.
+3. ONE NUMBER, and beside it the two figures that make it honest:
+   how many known, and how many claimed that were not words. Zero
+   false alarms is what makes 2.6 mean something.
+4. The litmus still runs through the mind and still never runs
+   through the interpreter (242.4) — the measurement stays its
+   language, not the organ's.
+5. The run is still logged, so the history of the number survives.
