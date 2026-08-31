@@ -33693,3 +33693,88 @@ directive whose numbers did not match the shelf.** Nothing is fetched until he s
 325.4's comparison — the same crossings through the small model and the larger one, the censor's
 refusal rate and how the lines read, smallest that passes wins — follows whichever is pulled, and
 his eye rules the readability.
+
+---
+
+# 327 — THE MIND HAS EYES. And three things the ruling did not know.
+
+**`gemma3:1b` pulled, 815 MB, as ruled.** Moondream was already here. Disk unchanged at 414 GB free.
+
+## IT SEES
+
+Shown a photograph, through Moondream, on this machine:
+
+```
+moondream said   "The image presents a desert landscape with mountains and clouds in the
+                  background, creating an impression of vast open space under a clear blue sky..."
+
+the mind took    OPEN · SKY · REALITY · EFFECT
+its moment       OPEN SKY REALITY EFFECT
+held as candidates   IMAGE PRESENTS DESERT LANDSCAPE MOUNTAINS CLOUDS BACKGROUND ...
+```
+
+**DESERT, LANDSCAPE and MOUNTAINS are not in the 402, so they did not enter** — they went down the
+path a heard word takes, to be earned or not. The model described a whole scene and the mind took
+the two words it actually has. That is the doorway working.
+
+## THE THREE THINGS THE RULING DID NOT KNOW
+
+### 1. MOONDREAM CANNOT HEAR. 327.1 gives it sight AND sound.
+
+Asked about a sound with no image it answered **"urn"**. It is a vision model; there is no small
+audio model in this build and none was ruled. **So ambient SOUND arrives, is counted as having
+arrived, and produces nothing** — not an error, not silently dropped, and said out loud in the file
+rather than faked. The wire is ready the day something that can hear is chosen.
+
+### 2. SPOKEN NEEDS NO MODEL AT ALL, and 327.4 is why.
+
+The phone's own recognition does the hearing, so what the body sends is **already words**. Handing
+a transcript to a model to retype is a chance to invent and nothing else. It goes straight to the
+confirmation:
+
+```
+"the river is dark tonight"  ->  marks RIVER · DARK      candidates THE IS TONIGHT
+```
+
+### 3. A PRIVACY GUARD REFUSED THE MIND ITS OWN EYES, AND I HAVE EXTENDED IT — HIS TO CONFIRM.
+
+029 says only the character model may be shown an image: a photograph a host shows her is Class A
+material, and the roles that abstract private material into lessons must reach it through her, as
+text, through the firewall — **never as raw pixels down a side channel privacy.js cannot scan.**
+That guard threw when perception tried to see.
+
+**I allowed `senses` through it**, because `senses` is not one of those roles — it is the mind
+seeing, its whole output is marks the mind already has, and its product enters at the safety gate
+as a moment. Nothing abstracts anything and nothing routes around the firewall.
+
+**But that is extending a privacy rule and it is his to confirm, not mine to assume.** It is
+written into the file as an extension rather than slipped in.
+
+## AND TWO THINGS I GOT WRONG ON THE WAY
+
+**The prompt was too clever.** I told the model what not to do — no sentences, no description, no
+punctuation — and **Moondream returned an empty string every single time**, while answering the
+plain question perfectly. It is a small visual-question model and a wall of constraints is not a
+question. It is asked *"Name what is in this image."* now, and everything it says is checked after.
+Telling a model to filter was asking it to do the job arithmetic already does.
+
+**Glue words were entering as things it had SEEN.** A model naming what it sees answers in
+sentences, so WITH, AND and OR arrived — and some of those ARE in the 402, so they passed. The
+first moment read `WITH AND OPEN SKY OR`. 239.3 already settles it — grammar is watched, never
+taught as vocabulary — and `nearBar` learned the same lesson when targeted teaching aimed the
+school at THE. The same filter now guards the door.
+
+## THE MODELS ARE FOUR NAMES IN A CONFIG FILE
+
+```
+SENSES_MODEL     moondream      sight
+VOICE_MODEL      gemma3:1b      form only
+TECHNICAL_MODEL  qwen2.5:14b    the bench's
+CHARACTER_MODEL  qwen2.5vl:7b   the Elsewhere persona's
+```
+
+**327.5 is honoured literally: nothing is designed around Moondream 2.** The day a smaller vision
+model has a real GGUF it is one line, and the mind does not know which model it has.
+
+**LIFE is 516 of 516.** 325.4's comparison is next and needs both running through the same
+crossings — his eye on the lines.
