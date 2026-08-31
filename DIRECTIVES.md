@@ -7956,3 +7956,38 @@ fetched; a capability proven against a stand-in is named as such.
 
 Build order stands (the in-order law): 323 first — GENERATE must wipe
 everything — then 324, then 325.
+
+## Directive 327 — THE MODELS, settled: Moondream 2 for the senses, gemma3:1b for the voice
+
+325's finding stands and the Director's 301 was wrong on the shelf:
+there is no Gemma 4, and the multimodal E-series is 5.6 GB — too big
+for a phone regardless of bandwidth, which was always the reason for
+"small". 301's "ONE small model doing all three" does not exist at a
+workable size. THE JOB SPLITS, and each piece stays swappable (301's
+law, unchanged).
+
+**THE RULING**
+1. SIGHT AND SOUND: MOONDREAM 2, WHICH IS ALREADY ON THIS MACHINE at
+   about 1.7 GB. Nothing to fetch. The Director checked for a smaller
+   one: Moondream 0.5B (816 MB to run) HAS NO GGUF — the official
+   release ships as .mf.gz and an open request for an Ollama build is
+   unanswered. GGUFs exist only for Moondream 2. So 1.7 GB is the
+   floor today and it is accepted FOR NOW.
+2. THE VOICE: gemma3:1b, 815 MB. Pull it. It is text only, which is
+   all 324.C asks of it.
+3. PHONE TTS SPEAKS, as 301 ruled — free, nothing shipped.
+4. HEARING: the phone's own speech recognition, free and built in.
+   No Whisper, no third model. What the body sends the mind is
+   already-recognised speech, and 324.A's SPOKEN signal carries it.
+   The mind still does the understanding; recognition is apparatus.
+5. RECORDED AS PROVISIONAL: 1.7 GB for sight is heavy for a phone
+   and everyone knows it. The moment a smaller vision model has a
+   real GGUF — a Moondream 0.5B build, SmolVLM-256M, or whatever
+   comes next — it is a file swap and nothing in the mind changes.
+   Do not design anything around Moondream 2 specifically.
+6. 325.4's comparison follows once both are running: the same
+   crossings through each, censor refusal rate and readability, his
+   eye on the lines.
+
+Build order unchanged: finish 323, then 324's remaining work, then
+this.
