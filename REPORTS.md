@@ -32905,3 +32905,60 @@ levers     school on · interpreter off · interest 1 · test speed 2000
 
 **Same being, same settings, same speed dial — his dial was never touched.** The seven ticks are
 the life it lived while the file was being loaded back.
+
+---
+
+# BUILD PLAN — Directive 312, targeted teaching aims at what it does not own
+
+### 250 scan: no open decisions. One ambiguity, and the directive answers it itself.
+
+**"Marks the mind does not own"** could mean two things, because every one of the 402 already
+means itself to it — `OWNED_MARKS` is the whole list, so on that reading the aim set is empty by
+construction. **The directive's own proof criterion settles it:** *"how many of them the mind had
+NEVER HEARD before that hour."* So the aim is **marks it has never heard said to it**, which the
+state already carries as `learning.heard`. Reading the record rather than choosing.
+
+## WHAT I WILL CHANGE — `teacher.js` `#topic`, and nothing else
+
+The order becomes **unowned first, near-bar second**, which is 248 lever 2 as he wrote it and only
+half of which was ever built.
+
+```
+1. UNOWNED, WITH CONTEXT
+   candidates = the neighbours of what it cares about  (state.interests.near — the kinship
+                space, 221, which already answers "near")
+   plus       = the neighbours of what it was made for (state.soul.dispositions), so a being
+                struck for something is taught toward it
+   minus      = anything in learning.heard or learning.owned_words
+   minus      = anything that carries no claim (carriesClaim — grammar is watched, never
+                taught as vocabulary, 239.3, and nearBar already learned that lesson the hard way)
+
+2. NEAR THE BAR, exactly as now, when there is nothing unowned to aim at
+
+3. THREADS, exactly as now, when there is neither
+```
+
+Spacing (lever 3) narrows the unowned aim the same way it narrows the near-bar one, so a word
+just introduced is not introduced again next line. The new-word cap per story (lever 4) is
+untouched — that is the ZPD width and it stays his dial. The censor is untouched. Stories are
+still built mostly of owned words.
+
+## THE PROOF, AS HE ASKED FOR IT
+
+A schooled hour before and after, reporting **words owned** and **how many of those the mind had
+never heard before the hour began**. That second number is the whole point and it is currently
+zero.
+
+## WHAT COULD GO WRONG, NAMED FIRST
+
+1. **A new word arriving with no context is noise, not teaching.** The whole value is the "near"
+   part — if the kinship space is thin early in a life, `interests.near` comes back empty and the
+   aim would fall to any unheard mark at random. **I will let it fall through to near-bar and
+   threads instead of aiming at a word out of nowhere**, and say in the report how often that
+   happened.
+2. **Teaching a word the mind cannot yet grasp.** 234.2's ZPD is *slightly* beyond, not far
+   beyond. The cap (lever 4) is the guard and it is his; I am not adding a second one.
+3. **The aim list could churn** — a different unheard word every line, so nothing is repeated
+   enough to be learned. Spacing is what stops that, and I will report whether it did.
+
+Nothing is built until this comes back. Say go.
