@@ -33630,3 +33630,66 @@ Cameras, microphones, text-to-speech — the Wanderer app's, per 324.D.
 **AND THE ONE THAT MATTERS: the small model from 301 is NOT on this machine.** Everything above ran
 against the model that is here. **A capability proven against a stand-in is not proven**, and 325
 is next.
+
+---
+
+# 325 — BEFORE ANY PULL: the build 325 names does not exist, and the E-series is not 1 GB
+
+**Nothing has been fetched.** 325.2 says say it first, and there is something to say.
+
+## WHAT WAS LOOKED UP, AND WHAT IS ACTUALLY PUBLISHED
+
+325.1 asks for "the Gemma 4 E-series quantized text build, the one that loads in about a
+gigabyte". **Two things in that sentence do not line up with what is on the shelf:**
+
+- **There is no Gemma 4.** The E-series is `gemma3n`.
+- **The E-series is not a gigabyte, and it is not a text build.** It is the MULTIMODAL line, and
+  its two builds are the big ones:
+
+```
+gemma3n:e2b       5.6 GB     the smallest E-series
+gemma3n:latest    7.5 GB     E4B
+```
+
+**I quoted the 5.6 GB first and he corrected me: it should only be 1 GB. He was right and I was on
+the wrong shelf.** The ~1 GB build is in the plain `gemma3` family:
+
+```
+gemma3:270m       292 MB
+gemma3:1b         815 MB     <- this is the one 325 is describing
+gemma3:latest     3.3 GB
+```
+
+## THE NUMBERS 325 ASKED FOR
+
+```
+the build      gemma3:1b, 815 MB on disk
+where it lands ~/.ollama/models   (26 GB of models already there)
+disk free      414 GB on home, 56% used
+VRAM           21.5 GB total, 2.5 GB in use — a 20 GB AMD 7900 XT
+RAM            31 GB total, 19 GB available
+```
+
+**It fits with room to spare and the machine will run it.**
+
+## THE ONE THAT NEEDS HIS RULING BEFORE ANYTHING IS PULLED
+
+**`gemma3:1b` IS TEXT ONLY.** It can do 324.C — the voice, form without meaning — and it cannot do
+324.B, the seeing and the hearing. **Sight and sound need the multimodal E-series, which is the
+5.6 GB build.**
+
+So 301's "ONE small model on the device doing sight, hearing and language" is not available at a
+gigabyte. It is available at 5.6 GB, or the job splits in two, and that is a design question
+rather than a download:
+
+1. **Pull `gemma3:1b` (815 MB) now** — proves the voice half of 324 against the real small model,
+   leaves sight and sound running on what is already here, and costs almost nothing in bandwidth.
+2. **Pull `gemma3n:e2b` (5.6 GB)** — the one model 301 actually describes, doing all three, at
+   nearly seven times the download.
+
+**He has a monthly bandwidth cap and I am not spending 5.6 GB of it on my own reading of a
+directive whose numbers did not match the shelf.** Nothing is fetched until he says which.
+
+325.4's comparison — the same crossings through the small model and the larger one, the censor's
+refusal rate and how the lines read, smallest that passes wins — follows whichever is pulled, and
+his eye rules the readability.
