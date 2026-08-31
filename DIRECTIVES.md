@@ -7364,3 +7364,47 @@ Approved as posted. Build it:
 
 The proof as 312 asked: a schooled hour before and after, words owned,
 and how many of those the mind had NEVER HEARD before the hour began.
+
+## Directive 314 — NEW MIND: a way to be born
+
+**THE FEATURE** — starting a fresh mind on the bench: a newborn, age
+zero, no memories, no words.
+
+**WHY IT MATTERS** — it is the baseline every experiment needs.
+Without it every run is on a mind that has already lived, no two runs
+are comparable, and the language age means nothing across them. It is
+also the only way to watch a life from its first tick.
+
+**WHAT WENT WRONG** — NEW DRAFT discards a draft SOUL and leaves the
+being running. Nothing on the bench births a new mind. The TEST
+button was given a fresh Roe from seed TEST-1 (248.2) and he has no
+equivalent he can press himself.
+
+**WHEN** — never built. 211.3 ordered NEW DRAFT so a locked soul
+could not trap him; birthing a new being was assumed and never
+specified.
+
+**HE HAS RULED** — 211.3 (New Draft always available) and 234 (Being
+Files: save, load, autosave). This is the gap between them.
+
+**THE RULING — a NEW MIND button in the SOUL panel:**
+1. It ENDS the current being and starts a newborn at tick zero: no
+   memories, no owned words, no lessons, no threads, mood at its own
+   resting point, capacities at their birth values (244).
+2. IT OFFERS TO SAVE FIRST. A life is being destroyed and 311 showed
+   what that costs — a 3207-tick being would have been gone. The
+   confirm says how many ticks the current being has lived and offers
+   SAVE MIND before ending it. Autosave is cancelled and the archive
+   tombstoned as 234.5 requires.
+3. THE SOUL IS THE DRAFTED ONE. Whatever is drafted or locked in the
+   panel is the soul the newborn is born with; the seed is recorded
+   in the being file so THE SAME SEED PRODUCES THE SAME BEING every
+   time (062) and runs are comparable.
+4. The Mind Map, the gauge, LEARNED, THOUGHTS and the health panel
+   all reset with it — a newborn's counters start at zero, and a
+   check with under 50 ticks of life reads grey, as built.
+5. His levers and speed dial are NOT reset. They are his instrument,
+   not the being's state.
+PROVE IT: two NEW MINDs from the same seed produce the same being;
+the litmus reads infant on both; and a saved being loaded afterwards
+is unaffected.
