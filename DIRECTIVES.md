@@ -7201,3 +7201,21 @@ PROVE IT: the same 60-tick trace, before and after — vocabulary
 hand-offs must be nonzero, trains must still hold their subjects
 (the thinking check stays green), and the report says how many
 distinct marks the mind actually reached for across the run.
+
+## Directive 308 — Chase the two PHASE 3 clauses (Lonnie's word)
+
+Find it. Both clauses fail in the full run and pass alone; the shape
+you named — checks reading state left on disk from past runs — is the
+first thing to rule in or out, and `server/data/phase3-hosts`
+accumulating account directories is the obvious suspect.
+
+Rules while chasing:
+- Do not "fix" a clause to make it pass. If it is leftover state, the
+  fault is that the check depends on a clean disk and does not say so
+  — repair the check's own setup, and say that is what you did.
+- If it IS 307 by some route, name the route and stop; the ruling is
+  Lonnie's.
+- 306.D applies: if a behaviour changed under these clauses at any
+  point and the clause was not moved with it, that is the third
+  pattern again — say so.
+Report what it was, not what you guessed.
