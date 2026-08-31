@@ -7672,3 +7672,18 @@ does not cover every check, or it does not fire when a check goes red
 outside the paths it watches. Find out which and make 293 true for
 every system, then prove it the way 293 asked: red -> frozen at that
 tick -> the banner names the file.
+
+## Directive 320 addendum 2 — rule the restore out first (Lonnie)
+
+On D: DO NOT ASSUME THE REPLAY IS BROKEN. Lonnie's note — the being
+on his bench was restored from a save after the reset, and a restored
+life can carry beats whose stamps sit either side of that restore.
+That would read as "out of lived order" with nothing wrong at all.
+
+FIRST, rule it in or out:
+- do the offending beats straddle the restore point?
+- does a mind that has NEVER been saved and loaded ever throw it?
+If the restore explains it, the fault is the CHECK not accounting for
+a life that was reloaded — and the fix is there, not in replay.
+Only if a never-reloaded mind throws it is the replay itself at
+fault. Report which, before touching anything.
