@@ -33338,3 +33338,80 @@ the newest stamp is the last moment it lived. But it is `max()` over every stamp
 anomalous stamp far in the future would drag a whole life forward with it.** No such stamp exists
 here, and this is not a fault today; it is a sharp edge I put there and would rather name now than
 have found later.
+
+---
+
+# 320 — THE MAIN RULING BUILT (1, 2 and 3). And I built its addenda first, which was wrong.
+
+**His correction, taken:** nothing gets built until I am sure no earlier directive still needs it.
+I did 320's C, D and E and left 320.1, 320.2 and 320.3 — the directive itself — unbuilt behind
+them. Building out of order can cause problems and this time it nearly did: **312's and 319's
+proofs are both a schooled hour, and running them before this fix would have measured a teacher
+that invents words and only ever sees sixty.** He has run his own test, so the hours are skipped.
+
+## 320.1 — THE CENSOR REFUSES TOKENS THAT ARE NOT WORDS
+
+Every token in a teacher line must be **a mark in the 402, a word this mind has already earned, or
+a real English word.** Anything else is refused before it can reach the mind.
+
+**THE LIST, plainly, as he asked:** `server/data/english-words.txt` — the standard UNIX words list,
+trimmed to lowercase alphabetic entries of two letters or more. **355,511 words, 3.7 MB, copied
+into the project and read from there.** 116: nothing reaches outside CC-Wanderer to run, so we
+carry the file rather than borrow a path. It is loaded once, on the first line that needs it, and a
+missing list says so rather than quietly passing everything.
+
+Watched on his own example:
+
+```
+"WINGS BEAT SOFTLY AGAINST AIRFILTERWHERE"   ->  refused: not words: AIRFILTERWHERE
+"the bird sang a song at night"              ->  passes
+"CHILLY means COLD", with CHILLY owned       ->  passes — an earned word is not a foreign word
+```
+
+## 320.2 — THE SIXTY IS GONE
+
+`owned.slice(0, 60)` — however many words the mind owned, the model was told the first sixty, in
+whatever order the map returned them. At 590 owned it was writing for a mind a tenth the size.
+
+**The bound is now a number with a reason: `WORDS_SHOWN = 1200`**, far above any vocabulary this
+build has reached, so it never silently shrinks the mind the teacher is writing for — at 600 owned
+it shows all 600, and it only begins to bite at four figures, which is years of living away. And
+**the words are CHOSEN**: nearest the topic first, then the rest, so the model gets the part of this
+mind's vocabulary that bears on what it is about to write.
+
+```
+600 owned   ->  600 shown
+2000 owned  ->  1200 shown, the topic's own neighbours first
+```
+
+## 320.3 — WHAT THE MIND ALREADY OWNS THAT FAILS THE NEW TEST
+
+**Nothing has been removed.** His ruling: he decides whether the mind forgets them, and nothing in
+this build has ever deleted what a mind learned.
+
+**Of 544 words his being owns, 51 are not words.** Named in full:
+
+```
+AFTERSTORMS · AIRFILTERWHERE · ANGLY · ANYDAY · ANYWAYIMAGERELATION · ANYWORRIES · ARIEAL
+BIRD'S · CHELDERN · CHILDRN · CHILDRN'S · DIDN'T · EARTH'S · EARTHE
+EARTHFILTERWHEREPLAINTEXT · EARTHSOEVER · EARTHTHE · EARTHTHERE · EARTHTREE · EVERYONE'S
+FARTER · FEELT · FILLSTHE · FILTERFILTER · FILTERFILTERWHERE · FILTERWHERE · FILTRING
+FLEED · FLEEDS · FLIGHTIMAGERELATION · FLYS · FREEANYWAY · HAPPYFILTERWHERE · HELPSOEVER
+HIDEN · HILL'S · ISOLATIONSOEVERITGLIDEDSOFTLYONTHEGROUND · JOYFILTERWHERE · LANDFILTERWHERE
+LOU · MOON'S · RIVER'S · SKYIMAGERELATION · SOARIN
+SOFTLYFILTERWHERECANBECONVERTEDPLAINTEXTCONTENTSHOULDBEHEREARIAFLEWSOV
+SOFTLYIMAGERELATION · SPANNEDFILTERWHERE · SUN'S · TOGLIDE · WASN'T · WINGSIMAGERELATION
+```
+
+**They are not all the same kind of thing, and that matters for his ruling:**
+
+- **The model's wreckage** — `FILTERWHERE` and everything built on it, `IMAGERELATION`,
+  `SOFTLYFILTERWHERECANBECONVERTED...`, `EARTHFILTERWHEREPLAINTEXT`. These look like a model
+  emitting fragments of its own scaffolding, and that is the fault this directive names.
+- **Possessives and contractions** — `BIRD'S`, `DIDN'T`, `SUN'S`, `WASN'T`. These are real English
+  and the list simply does not carry apostrophe forms. **The test is too strict here and that is
+  mine to say rather than his to discover.**
+- **Real misspellings** — `CHELDERN`, `HIDEN`, `FLYS`, `SOARIN`, `ANGLY`. A child learns from
+  mishearings; whether the mind should keep these is exactly the judgement 320.3 reserves for him.
+
+**Recommend nothing and decide nothing.** The list is his.
