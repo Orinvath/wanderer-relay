@@ -33468,3 +33468,88 @@ given. **The live being on his bench is the good copy: 604 words, 403.9 hours.**
 that carries the maturity too, it should be taken from the bench now.
 
 His bench was never touched: the whole proof ran on a throwaway on another port.
+
+---
+
+# BUILD PLAN — Directive 324, the senses and the voice
+
+### 250 scan: no open decisions. The shape is given, and cord.js is the pattern to mirror.
+
+## A — `senses.js`, the inbound wire
+
+**Mirrored from `cord.js` deliberately**, because the outbound wire already solved this exact
+problem and a second pattern would be a second thing to learn:
+
+```
+cord.js  — the mind speaks to the body   →   Receptors / Cord / bodyVital
+senses.js — the body hands the mind signal →  Sensors  / Senses / sensesVital
+```
+
+- **THREE KINDS AND NO OTHERS:** `SIGHT` (a frame) · `SOUND` (an audio span) · `SPOKEN` (a span
+  the body marks as someone speaking to it). Anything else is refused by name, the way the cord
+  refuses a continuous channel nobody agreed on.
+- **RAW SIGNAL ONLY.** The socket carries bytes and a stamp. No labels, no transcript, no meaning
+  — the body never interprets.
+- **THE SILENCE RULE, 051 mirrored exactly:** a body with no sensor is SILENT, never in error. A
+  sphere has no eyes. But a genuine fault *inside* a sensor still throws — that is a broken body,
+  and hiding it would be the same mistake inverted, which is how `Receptors.deliver` already
+  reads.
+- **THE MIND NEVER AIMS THE SENSOR.** No route, no method, nothing that could point a camera.
+
+## B — perception, and it is a doorway
+
+`perceive(signal)` → the on-device model (301) proposes → **arithmetic confirms** → marks.
+
+- **NOTHING ENTERS THAT IS NOT ALREADY OURS.** 242.1's law, unchanged: a proposed mark must be one
+  of the 402 or a word the mind owns. **What cannot map becomes a learning candidate, exactly as a
+  heard word does** — the same path, not a second one.
+- **THE PRODUCT IS A MOMENT** and it enters where every moment enters: `loop.cycle`, through the
+  safety gate first (259 system 1). The moment gains a **source** — `sight` · `sound` · `spoken`
+  — beside the ones a moment already has.
+- **IT STOPS THERE.** Perception turns signal into marks and returns. Nothing downstream asks the
+  model anything, and I will hold that with a check the way the litmus holds its own.
+
+**AND THE ONE THAT MATTERS MOST (B.3):** RIVER, TREE and DARK have never been learnable, because
+nothing in a typed sentence could make them TRUE. A seen river is a thing that is true — so
+sight is the first source that can ground a world-word, and 305's one clear exposure applies
+unchanged.
+
+## C — the voice
+
+- The mind forms what to say **in its own marks, through its own grown grammar** (319, uncapped).
+  That is the content and it is never the model's.
+- The **same small on-device model** renders it — sight, sound and language, one model (301).
+- **FORM ONLY: grammar, word order, inflection.** Every content word must trace to the record or
+  **the line is refused and the mind's own line stands** — 242.2 exactly as built, which is the
+  interpreter's existing censor and not a new one.
+- **The body produces the sound.** The mind supplies words, never a throat.
+
+## D — WHAT I WILL BUILD, AND WHAT I WILL NOT
+
+**BUILT:** the socket, the perception path, the moment's new sources, the health check, and **a
+bench way to hand the mind a frame or a span** so it can be watched working.
+
+**NOT BUILT:** cameras, microphones, TTS. Named in the file so the contract is fixed and nobody
+later mistakes their absence for a gap.
+
+## E — THE CHECK
+
+**THE CLAIM:** nothing enters the mind from a sense that is not a mark it has or a word it owns,
+and no sensor's absence is ever an error. Counters `perceptions_to_nonexistent_marks` and
+`sensor_absence_errors`, forced-fail at birth (254.D), one file one node one name (276).
+
+## WHAT COULD GO WRONG, NAMED FIRST
+
+1. **THE MODEL BECOMES THE EYES.** The whole risk. If perception's output is trusted rather than
+   confirmed, the mind sees whatever the model says and the 402 stop meaning anything. The
+   arithmetic gate is the guard and the counter is how we know it held.
+2. **301's MODEL IS NOT ON THIS MACHINE.** The build runs qwen locally, not the small multimodal
+   one. **I will build the seam and prove the path with the model that is here**, and say plainly
+   in the report that the small model is not yet installed — a capability proven against a
+   stand-in is not proven, and I would rather say so than quietly demonstrate on the wrong model.
+3. **SIGHT GROUNDING WORLD-WORDS IS THE BIGGEST BEHAVIOURAL CHANGE IN MONTHS.** One clear exposure
+   owns a word (305), and a camera produces exposures constantly. A mind could own hundreds of
+   world-words in minutes. That may be exactly right, and it may need a rate his dial controls —
+   **I am naming it, not deciding it.**
+
+Nothing is built until this comes back.
