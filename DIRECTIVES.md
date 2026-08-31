@@ -7833,3 +7833,83 @@ wipes everything and starts fresh. That was my rule."
    report the newborn's lived hours, ticks, owned words, memory
    count and every capacity. Every one of them must read birth. Then
    load the saved old life and show it is untouched.
+
+## Directive 324 — THE SENSES, AND THE VOICE
+
+**THE FEATURE** — how an Avatar sees, hears, and speaks.
+
+**WHY IT MATTERS** — the mind has one way in today: typed words. No
+sight, no hearing, no voice. Everything the Wanderer app needs runs
+through this.
+
+**HIS RULING, and the division it sets** — the BODY owns the
+apparatus: where the camera points, how it looks around, how the
+voice is produced. The MIND owns all processing: seeing, hearing,
+understanding, forming what to say. Eyes and ears are sensors; a
+brain is what makes them mean anything.
+
+### A. senses.js — the inbound wire (cord.js, mirrored)
+The socket, not the sense. What captures lives in the app.
+1. THREE SIGNAL KINDS: SIGHT (a frame) · SOUND (an audio span) ·
+   SPOKEN (an audio span the body marks as someone speaking to it).
+   Raw signal only — no labels, no transcript, no meaning. The body
+   never interprets.
+2. THE ONE LAW ON THE BODY SIDE, cord's 051 mirrored: A BODY WITH NO
+   SENSOR IS SILENT, NEVER IN ERROR. A sphere has no eyes; a
+   half-built body may hear and not see. The mind is not told and
+   does not care.
+3. THE MIND NEVER AIMS THE SENSOR. Where a camera looks is the
+   body's, as cord never arbitrates how a feeling looks.
+
+### B. PERCEPTION — the mind processing what arrived
+1. A frame or a span goes to the mind's own perception, which uses
+   THE ON-DEVICE MODEL FROM 301 to produce MARKS THAT ALREADY EXIST:
+   the model proposes, arithmetic confirms, nothing enters that is
+   not in the 402 or already owned (242.1's law). What cannot map
+   becomes a learning candidate, exactly as heard words do.
+2. THE PRODUCT IS A MOMENT: it enters at the safety gate like any
+   other (259 system 1), its source named — sight, sound or spoken —
+   beside heard, world and inner.
+3. SIGHT GROUNDS WORLD-WORDS. RIVER, TREE and DARK have never been
+   learnable because nothing could be true of them. A seen river is
+   a thing that is true, and 305's one clear exposure applies
+   unchanged.
+4. PERCEPTION IS A DOORWAY, NOT A THINKER: it turns signal into
+   marks and stops. Nothing downstream asks the model anything.
+
+### C. THE VOICE — the mind's words, made fluent
+1. THE MIND FORMS WHAT TO SAY, in its own marks, through its own
+   grown grammar (319, uncapped). That is the content and it is
+   never the model's.
+2. THE LANGUAGE SYSTEM RENDERS IT THROUGH THE ON-DEVICE MODEL FROM
+   301 — the same small multimodal one that does its seeing and
+   hearing. NOT the larger model, not a served one, not qwen: one
+   small model in the mind, doing sight, sound and language.
+3. WHAT THE MODEL MAY DO: grammar, word order, inflection, the shape
+   of a sentence. FORM ONLY.
+4. WHAT IT MAY NOT DO: add meaning. Every content word must trace to
+   the record — marks, owned words, or their senses — or the line is
+   refused and the mind's own line stands (242.2, unchanged).
+5. ITS OWN GRAMMAR CARRIES WHAT IT CAN, and carries more as its
+   corpus thickens. The model is scaffolding across the gap while it
+   is young, not a permanent mouth. 301's law holds: nothing in the
+   mind may depend on which model is there.
+6. THE BODY PRODUCES THE SOUND and owns the voice's apparatus. The
+   mind supplies the words, never the throat.
+
+### D. BUILT HERE, AND NOT
+BUILT: the socket, the perception path, the moment's new sources,
+the health check, and a bench way to hand the mind a frame or a span
+so it can be watched.
+NOT BUILT: cameras, microphones, TTS, and anything that captures or
+produces. Those are the Wanderer app's, named here only so the
+contract is fixed.
+
+### E. THE CHECK
+THE CLAIM: nothing enters the mind from a sense that is not a mark it
+has or a word it owns, and no sensor's absence is ever an error.
+Counters: perceptions_to_nonexistent_marks · sensor_absence_errors.
+Forced-fail at birth (254.D).
+
+PLAN FIRST (253). This is large and touches the pipeline; post the
+plan and wait.
