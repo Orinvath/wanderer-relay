@@ -33553,3 +33553,80 @@ and no sensor's absence is ever an error. Counters `perceptions_to_nonexistent_m
    **I am naming it, not deciding it.**
 
 Nothing is built until this comes back.
+
+---
+
+# 324 BUILT — the senses, and a mind that can hear something
+
+**Order kept, as 326 required: 323 first (built and verified — GENERATE is a genuine clean slate),
+then 324. 325 is next and not started.**
+
+## IT RUNS, AND HERE IS THE MOMENT
+
+Handed a sound on his bench, the mind's own moment two ticks later:
+
+```
+POST /sense/sound   "a river running under dark trees at night"
+
+recent moments:  TOGETHER SONG · SONG · TOGETHER SONG TOOL · WIND WATER MUSIC
+                                                            ^^^^^^^^^^^^^^^^^
+```
+
+**`WIND WATER MUSIC` is a moment the mind had because something reached it through a sense.**
+Perception against the real model on this machine:
+
+```
+proposed by the model    wind water rustling leaves birds singing flowing
+admitted as marks        WIND · WATER          — the language has them
+held as candidates       RUSTLING · LEAVES · BIRDS · SINGING · FLOWING
+```
+
+**The model proposed seven things and the mind took two.** The five it has no marks for were not
+discarded and not admitted — they went down the path a heard word takes, to be earned or not.
+
+## WHAT WAS BUILT
+
+**`senses.js` — the socket, mirrored from `cord.js` on purpose.** Three kinds and no others;
+anything else refused by name (`"smell" is not a sense. The wire carries: sight, sound, spoken`).
+Raw signal only — a kind, the bytes, when it arrived, how long it lasted, and nowhere to put a
+meaning even if a body tried. **A body with no sensor is silent, never in error** (051 mirrored),
+while a genuine fault inside a sensor still throws.
+
+**`perceiving.js` — the doorway.** The model proposes, arithmetic confirms, and it stops.
+
+**326 taken:** there is no rate dial in the mind and none was built. A clause holds it by reading
+the file for one.
+
+**The moment carries its source**, and what it sensed is part of the moment rather than a note
+beside it — a sense that only reached what-is-true would ground words without ever being a thing
+that happened to it.
+
+**Its own system and node:** senses is system 25, `SENSES` and `PERCEIVING` sit in the BODY
+neighbourhood beside the cord — the inbound half of the bridge whose outbound half is already
+there. **His to move if that is the wrong place.**
+
+## AND FIVE CHECKS I LEFT BEHIND — MY OWN LAW, BROKEN BY ME
+
+Running the suite turned up **five red clauses that were nothing to do with the senses**:
+
+- **four from 319.** Taking the caps off the mouth made `runWords` and `gramDepth` full from
+  birth, and four clauses still demanded a newborn be smaller on them. **I should have moved them
+  in 319's own commit** — that is 306.D, the law I wrote after this happened three times, and I
+  broke it myself two directives later.
+- **one from this build.** I added `senses` to the mind and did not declare whether it is carried.
+  The field audit caught it. **It is apparatus, not a life** — a mind saved from a sphere and
+  loaded into a body with eyes must find the eyes that are there. What it SAW is carried; those
+  are memories.
+
+All five moved, and the half of Elman that still stands is named in the clause rather than
+deleted: **what a mind can HOLD still starts small; only its mouth was freed.**
+
+**LIFE is 516 of 516.**
+
+## NOT BUILT, AND NAMED SO NOBODY MISTAKES IT FOR A GAP
+
+Cameras, microphones, text-to-speech — the Wanderer app's, per 324.D.
+
+**AND THE ONE THAT MATTERS: the small model from 301 is NOT on this machine.** Everything above ran
+against the model that is here. **A capability proven against a stand-in is not proven**, and 325
+is next.
