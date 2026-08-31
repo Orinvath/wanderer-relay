@@ -7771,3 +7771,26 @@ train its episodes, the ordering inside replay, or the clause reading
 the wrong field — before any fix. 320's rule stands: report what it
 was, not what fits first, and it is now the third time that rule has
 had to be repeated.
+
+## STANDING LAW — DIRECTIVES ARE BUILT IN ORDER (joins CLAUDE.md)
+
+Lonnie's ruling. Directives are built in the order they were issued.
+Nothing is started until every earlier directive is COMPLETE.
+
+1. IN ORDER, ALWAYS. The lowest-numbered unfinished directive is the
+   next thing worked on. Not the easiest, not the newest, not the one
+   that happens to be in front of you.
+2. NOTHING IS SKIPPED. If one cannot be built — it is blocked on a
+   ruling, on a measurement, or on something that does not exist yet
+   — SAY SO ON THE RELAY AND STOP THERE. Do not step over it and take
+   the next one. A blocked directive holds the queue until Lonnie or
+   the Director clears it.
+3. WHY THIS IS A LAW, not a preference: later work assumes earlier
+   work is in place. Building out of order means a fix landing on a
+   foundation that was never laid, checks written against behaviour
+   that has not changed yet, and reports that are true of a build
+   nobody else has. It has already cost this project days — 293 was
+   skipped three times and its absence hid faults for a week.
+4. EVERY REPORT NAMES THE QUEUE: what was completed, what is next by
+   number, and anything blocked with the reason. A directive that is
+   not named in a report is assumed untouched.
