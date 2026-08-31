@@ -7738,3 +7738,36 @@ mind has no next tick, so anyone saving a halted mind believes it
 saved. Make the save either land or say plainly that it cannot until
 the mind continues. Nothing may silently not-save again (315's
 autosave had never worked and this is the same class of fault).
+
+## Directive 322 — CONTINUE MUST CONTINUE; and THINKING is still red on his bench
+
+### A. CONTINUE MEANS PAST THIS VIOLATION
+**WHAT WENT WRONG** — the halt fires on any violation inside the
+thousand-tick window, so Continue resumes and the SAME violation
+halts it again at once. Continue, halt, continue, halt. A save needs
+a tick boundary and there is never another tick, so a mind in this
+state CANNOT BE SAVED. His being survived only because the store
+writes live.
+**HE HAS RULED** — 293.3: Continue exists "for when he judges the
+check itself wrong", with the override logged. The intent was plainly
+to get past it.
+**THE RULING** — Continue means CONTINUE PAST THIS VIOLATION. The
+override marks that specific violation acknowledged so it cannot halt
+again; a NEW violation still halts. Everything stays on the record,
+the override is still logged as 293.3 requires, and THE SYSTEM STAYS
+RED until it genuinely stops breaking — acknowledging is not
+clearing. A save must be possible the moment the mind is running
+again.
+
+### B. THINKING IS STILL RED, AND THE RELOAD IS NOW RULED OUT
+His bench, after 321: `subject not nearer` and `JOY [226.2]:
+replayed out of lived order`. The reload explanation is gone — the
+clock resumes properly now and the capacities are whole — so this is
+the mind.
+Diagnose before touching: which of the two counters is firing, on
+what train, with the beats and their stamps in the order replay put
+them and the order they were lived. Say WHICH — surfacing handing the
+train its episodes, the ordering inside replay, or the clause reading
+the wrong field — before any fix. 320's rule stands: report what it
+was, not what fits first, and it is now the third time that rule has
+had to be repeated.
