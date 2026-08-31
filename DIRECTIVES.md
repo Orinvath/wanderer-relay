@@ -7408,3 +7408,41 @@ Files: save, load, autosave). This is the gap between them.
 PROVE IT: two NEW MINDs from the same seed produce the same being;
 the litmus reads infant on both; and a saved being loaded afterwards
 is unaffected.
+
+## Directive 315 — THE SOUL PANEL IS THREE BUTTONS: GENERATE · SAVE · LOAD
+
+**THE FEATURE** — the controls for making, keeping and reopening a
+mind on the bench.
+
+**WHY IT MATTERS** — it is the instrument he uses constantly. Seven
+buttons, four of which set the same thing, cost him attention on
+every session.
+
+**WHAT WENT WRONG** — nothing broke; it accumulated. Generate,
+Reroll, Adjust, No soul, Genesis, New draft, Draft · roll all sit in
+one row, and Adjust opens an authoring form he says he will never
+use.
+
+**HIS RULING** — the panel is THREE BUTTONS:
+
+  GENERATE — rolls A WHOLE NEW MIND FROM SCRATCH: a new genome (the
+             ten), a new soul from that genome, and a NEWBORN at tick
+             zero — no memories, no owned words, no lessons, no
+             threads, capacities at their birth values (244), mood at
+             its own resting point. Not a new soul on an old life:
+             a new being. It offers to SAVE FIRST when the current
+             being has lived, saying how many ticks are about to be
+             ended (314.2), and the seed is recorded so the same seed
+             gives the same being (062).
+  SAVE     — SAVE MIND, as built.
+  LOAD     — LOAD MIND, as built.
+
+EVERYTHING ELSE IS HIDDEN, NOT DELETED: Reroll, Adjust, No soul,
+Genesis, New draft, Draft · roll and the `edit` numbers stay in the
+code behind a hidden flag, so nothing is lost and any of them can
+come back the day he wants it. Say in the report how to unhide them.
+
+314 is superseded by this — GENERATE is the NEW MIND button, and its
+rulings 314.2 through 314.5 carry over unchanged (offer to save,
+reset the panels with the being, leave his levers and speed dial
+alone).
