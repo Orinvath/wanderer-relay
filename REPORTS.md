@@ -32699,3 +32699,98 @@ past runs. That is the shape of a check reading yesterday's leftovers, not of a 
 by some route I cannot see — and running down my own theories is exactly what I am told not to do.
 **Say the word and I will find it; until then the build is RED and I am not calling it anything
 else.**
+
+---
+
+# 308 ANSWERED — IT WAS ME. And 309 built, with one thing named and stopped on.
+
+## 308 — THE TWO PHASE 3 CLAUSES WERE MY OWN CONCURRENT RUNS
+
+**PHASE 3 is green in an undisturbed full run.** What I ruled out, in order, and what it actually
+was:
+
+```
+leftover state on disk       RULED OUT — main() wipes the DB and removes the hosts directory
+                             at the start of every run
+the working directory        RULED OUT — but it IS a real difference and I had it wrong:
+                             the full suite runs every section with cwd at the REPO ROOT,
+                             and I had been running PHASE 3 from server/. Different
+                             directories entirely. Passes 80/80 from both.
+the earlier phases           RULED OUT — PHASE 1, then 2, then 3 in the suite's own order:
+                             39 / 34 / 80, all green
+```
+
+**What was left was me.** Both failing runs had me driving headless minds against the same local
+model while the suite ran — the 60-tick traces for 306 and 307, and the PHASE 3 reproduction
+itself. **Both failing clauses wait on `settle()`, which makes a model call.** Starve that and they
+fail; leave the suite alone and they pass.
+
+**Nothing was changed to make them pass, and there is nothing to fix in the build.** The lesson is
+mine: a suite that shares a model with whatever else I am running is not a suite reading the build.
+I will not run anything against the model while the suite is going.
+
+## 309 — THE REACHED WORD JOINS THE BEAT
+
+Built. The beat still leads and is never replaced — its marks come first, its bearing, subject and
+kind untouched — and the moment carries the beat's marks **plus** the one word the language
+reached for.
+
+```
+                            307 alone      309
+distinct marks SURFACED         5           23
+trains ran on               59 of 60     59 of 60
+beat still leads            every story tick
+thinking check                GREEN
+```
+
+Moments now read `TOGETHER HIDDEN PRIDE` · `TOGETHER HIDDEN DARK` · `TOGETHER HIDDEN JOY` — a
+different word each tick, drawn fresh from what is true of it, and nothing added when it would
+repeat a word the beat already had. **280 holds: it is not a status line.**
+
+**And it broke something on the way, which the suite caught:** a word the HOST had said — HELLO —
+joined the beat and reached the screen as the mind's own speech. The reach draws on what is in
+front of it and what it remembers, and those carry the host's words. The beat's own marks were
+already filtered by `glyph(w)`; the joined word now gets the same filter at the one place it can
+enter.
+
+## AND THE ONE I AM STOPPING ON — 245, AND THE ROUTE IS 305
+
+The clause is still red after that fix, and **it is not 307 or 309. The route is 305.**
+
+```
+410  ✗  245 THE MIND SAYS ITS OWN WORDS AND NOTHING ELSE  —  ["HELLO SONG", "SONG"]
+```
+
+`HELLO` is not one of the 402. It is a word the mind **owns**, and it is in a **grown** line —
+assembled from `owned`, which is 244's own design: a grown line is its own language, its own words,
+in its own order.
+
+**What changed is how fast a word becomes owned.** Watched just now on a real store:
+
+```
+L.heard('hello' while SONG was true)   ->   owned after ONE hearing, meaning SONG
+```
+
+Before 305 that took about a dozen hearings to climb an accumulator to 0.72. **223 and Carey &
+Bartlett say one clear exposure is enough, 305 gave the geometry that behaviour, and it is working
+exactly as ruled** — so words the host says now enter the mind's own vocabulary immediately, and
+grown lines start using them almost at once.
+
+**306.D is the pattern, from the other side:** the behaviour changed lawfully and a check written
+under the old behaviour now fires on the ruling working. The clause tests `WORDS.includes(word)` —
+one of the 402 and nothing else. **His two rulings collide:**
+
+- **245** — every word beside "Mind" is a mark it holds.
+- **244** — a grown line is its own language, its own words, and a learned word IS its own.
+
+**I am not choosing between them, and I have not touched the clause.** Two shapes:
+
+1. **245 means the 402 only** — then a grown line may never use a learned word, and 244's whole
+   point goes with it.
+2. **245 means anything the mind may lawfully say** — the 402 plus the words it has earned. The
+   clause becomes `WORDS.includes(w) || owned.has(w)`, and the law it guards is unchanged: no
+   English of mine, nothing it did not earn.
+
+**I read it as (2)** — the fault 245 exists to catch is my sentences coming out of its mouth, and
+HELLO is not mine, it is a word somebody taught it. **But it is his ruling and his clause, and the
+build stays RED until he says.**
