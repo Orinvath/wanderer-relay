@@ -32794,3 +32794,61 @@ one of the 402 and nothing else. **His two rulings collide:**
 **I read it as (2)** — the fault 245 exists to catch is my sentences coming out of its mouth, and
 HELLO is not mine, it is a word somebody taught it. **But it is his ruling and his clause, and the
 build stays RED until he says.**
+
+---
+
+# CORRECTION — 308's ANSWER WAS A GUESS AND IT WAS WRONG
+
+**I reported "it was me — my own concurrent runs starved the model". That is not established, and
+the very next run disproves it.** 310's confirming run had nothing of mine touching the model, and
+the same two PHASE 3 clauses failed again.
+
+The record across five full runs, all with the emulator running and nothing else of mine:
+
+```
+suite  9   FAIL   clauses 10 and 14        (I was running traces alongside)
+suite 10   FAIL   clauses 10 and 14        (I was running a reproduction alongside)
+suite 11   PASS                            (nothing of mine)
+suite 12   PASS                            (nothing of mine)
+suite 13   FAIL   clauses 10 and 14        (nothing of mine)
+```
+
+**Three fail, two pass, and the last failure had none of the interference I blamed.** It is
+intermittent, and I named a cause on two data points that agreed with a theory I already liked.
+308 said *report what it was, not what you guessed*, and I guessed.
+
+**What is actually established**, and only this:
+
+- the clauses pass when PHASE 3 is run alone, from either working directory, 80 of 80;
+- they pass when PHASE 1 and 2 run before them in the suite's own order;
+- the state on disk is wiped by `main()` at the start of every run, so leftovers are ruled out;
+- both failing clauses wait on `settle()`, which makes a model call;
+- it is not deterministic.
+
+**The one thing I have not tested is the only untested variable left: HIS EMULATOR.** It has been
+running against the same local model in every one of those five runs, holding two models resident
+and calling them every four seconds. That is the shape of a competitor for the model, and it is
+also the only thing common to all five runs that I have never removed.
+
+**I will not stop his emulator to find out.** It is his instrument, it is on his screen, and
+stopping it is his call and not mine. **Say the word and I will stop it for one run and start it
+again straight after** — that is a fifteen-minute answer to a question I have now spent two
+reports being wrong about.
+
+## 310 IS BUILT AND ITS OWN SECTION IS GREEN
+
+Separately, and it stands: **LIFE is 501 of 501.**
+
+```
+410  ✓  245/310 THE MIND SAYS ITS OWN WORDS — the 402, plus what it earned
+        every word beside "Mind" is a mark it holds or a word it earned — 3 earned so far:
+        ["HELLO SONG","SONG"]
+411  ✓  and a word that is neither a mark nor earned STILL fails it — 245 keeps its teeth
+```
+
+The clause now asks what the mind may lawfully SAY. I added the second clause beside it because
+widening a test must not quietly widen the law it guards: a word that is neither a mark nor owned
+still fails, which is the fault 245 was written for. The state-hash guard is stable at `e4711b22`.
+
+**306.D named in the commit, fourth time**: the behaviour changed lawfully under 305 and a clause
+written before it fired on the ruling working.
