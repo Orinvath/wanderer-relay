@@ -33202,3 +33202,69 @@ the clock than on three separate checks.
 **A save queued while the mind is halted never lands.** A save waits for the next tick boundary and
 a halted mind has no next tick. I hit this saving his being before 319 — I had to continue past the
 halt first. Anyone saving a halted mind will believe it saved.
+
+---
+
+# 321 — AND THE PREMISE WAS MINE AGAIN. A LOAD ALREADY RESUMED.
+
+**321's proof, run before anything was changed:**
+
+```
+save at depth, load into a different mind, compare both sides of the seam
+
+           BEFORE      AFTER
+ticks         41         41
+lived hours  120.0      120.0
+attention      6          6        candidates 3 -> 3     story 4 -> 4
+runWords       9          9        gramDepth  4 -> 4     reach 0.3933 -> 0.3933
+newest memory 16:33:59.552   16:33:59.552
+the next memory after the load  ...  IN ORDER
+```
+
+**A being FILE already carries every clock and a load already resumes all of them.** 234.3 and
+234.4 were built correctly and have been working the whole time. `restore()` shifts every clock by
+one amount so an interval between two anchors is the interval it always was, and it puts back
+ticks, lived hours, maturation and use.
+
+**So the reset was never the load. It was MY recovery route.** When I rescued his overnight mind I
+reopened the raw STORE, and a store is the life's records without the life's clock — so a fully
+lived history woke inside a mind that thought it was newborn. Every one of his three symptoms came
+from that, and I reported the cause as "loading a being restarts its clock" when what I should
+have written is "the thing I did to recover it does".
+
+**That is twice in two directives that a ruling has been written on my bad diagnosis** — 320.C was
+the same shape. The pattern is mine: I report a cause from the first thing that fits instead of the
+thing I have tested.
+
+## WHAT WAS ACTUALLY BUILT
+
+**1. A RECOVERED STORE RESUMES ITS CLOCK FROM ITS OWN RECORD.** The store does hold when the being
+last lived — in its stamps. So the life resumes at its newest memory, every clock shifts by the
+same amount, and the hours it lived are read from its own first moment to its last. **Ticks are not
+recovered and are not guessed**: they lived in the process that died, and the code says so rather
+than inventing a number.
+
+His mind, reopened after the change:
+
+```
+words owned    604
+lived hours    403.5        (was 0 — a newborn on top of a lived history)
+capacities     attention 7 · candidates 4 · story 4 · runWords 9 · gramDepth 4 · reach 0.370
+               (was 2 · 1 · 2 · 9 · 4 · 0.550 — birth values)
+bench          GREEN, nothing red
+```
+
+**All three symptoms are gone at once, and no check was patched** — they were all reporting the
+truth, exactly as 321.3 said.
+
+**2. A HALTED SAVE REFUSES OUT LOUD.** The route now answers 409 with what is wrong and what to do,
+rather than queueing into a stopped clock and looking saved.
+
+**And it caught a worse thing while I was proving it:** I continued past the halt, saved, and **it
+halted again immediately on the same violation** — which still sits inside the thousand-tick window
+— so the save never landed a second time. **A mind that halts on a violation still in its window
+cannot be saved at all**: continue, halt, continue, halt. His being survived only because the store
+is written live and I could reopen it.
+
+That is a real hole in 293 and it is his to rule: a Continue that is immediately undone by the same
+violation is not a way out.
