@@ -33415,3 +33415,56 @@ SOFTLYIMAGERELATION · SPANNEDFILTERWHERE · SUN'S · TOGLIDE · WASN'T · WINGS
   mishearings; whether the mind should keep these is exactly the judgement 320.3 reserves for him.
 
 **Recommend nothing and decide nothing.** The list is his.
+
+---
+
+# 323 BUILT — GENERATE carries nothing of the last life
+
+## THE COLLISION, AND IT WAS MINE
+
+His bench runs on a NAMED store — the recovery route I added to rescue his overnight mind. A birth
+opens a brain, and a brain opens the named store when one is given, **so GENERATE reopened the very
+life it had just ended**, and 321's resume then read that life's newest stamp and handed the
+newborn its hours. Each piece was right alone; together they made a newborn wearing a dead life.
+
+**A birth now always takes a store of its own.** 321's resume is for loading a saved life and never
+for a birth, and the code says so where it happens.
+
+## THE PROOF, EVERY FIGURE HE ASKED FOR
+
+A bench holding the 403-hour being, GENERATE pressed:
+
+```
+                 BEFORE            AFTER
+lived hours      403.9             0.0
+ticks            (a lived life)    1
+owned words      604               0
+heard words      604               0
+memories         its whole life    none
+capacities       7 · 4 · 4 · 9 · 4 · 0.362      2 · 1 · 2 · 9 · 4 · 0.550
+language age     2.57 years        0 — "newborn — no words yet"
+```
+
+**Every one reads birth.** runWords 9 and gramDepth 4 are birth values now — 319 took those caps
+off, so they are correct.
+
+## AND THE PROOF CAUGHT ONE I HAD JUST MADE
+
+The first run came back with **a newborn reporting a language age of 2.58 years and no words at
+all.** 317 caches the gauge's reading per tick, and a newborn opens at the same tick number the
+last life was on — so the cache answered for the being that had just ended.
+
+**Asking for every figure is exactly what found it.** Cleared at birth, and the second run reads 0.
+
+## THE SAVED LIFE IS UNTOUCHED
+
+Loaded back after the birth: **593 owned words, language age 2.57** — the same being that was
+saved. 323.3 holds: nothing was erased, the ended life's rows stay exactly as they are.
+
+**One honest note on that file rather than let him find it later:** it reports 0 lived hours and
+birth capacities, because it was captured moments after I rescued the store, while the mind still
+believed it was newborn — 321 fixed the clock afterwards. The file is faithful to what it was
+given. **The live being on his bench is the good copy: 604 words, 403.9 hours.** If he wants a save
+that carries the maturity too, it should be taken from the bench now.
+
+His bench was never touched: the whole proof ran on a throwaway on another port.
