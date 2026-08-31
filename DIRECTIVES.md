@@ -7542,3 +7542,45 @@ fault in it.
 at the new size on ONE line, and the bars give up the width. Nothing
 else moves. Check every bar at its widest plausible value, not just
 today's — five digits over four is the shape to fit.
+
+## Directive 319 — THE SPEAKING CAPS COME OFF
+
+**THE FEATURE** — how long a line the mind may speak, and how deep a
+pattern it may use: `runWords` (born 2, adult 9) and `gramDepth`
+(born 2, adult 4) in growth.js.
+
+**WHY IT MATTERS** — they are the ceiling on its mouth. A mind that
+understands 590 words and uses 37 is not short of vocabulary; it is
+capped at two or three words a line and at chaining pairs. Everything
+we are trying to measure — whether it can learn to talk — is behind
+that cap.
+
+**WHAT WENT WRONG** — nothing broke. 244 made capacities grow with
+age, and the growth curves were shaped on human childhood. The
+Avatar is not a child: it is fed constantly, at a rate no child
+meets, and staged growth is holding back the exact thing we are
+testing.
+
+**WHEN** — 244, and it has been the ceiling ever since; it only
+became visible now that vocabulary outran it.
+
+**HIS RULING, in his words** — "We are not trying to mimic a child,
+we are mimicking LEARNING. Remove the limiter."
+
+**THE RULING**
+1. `runWords` and `gramDepth` are NOT staged by age. They are
+   available in full from birth — the mind may run as long a line
+   and as deep a pattern as its own corpus supports.
+2. WHAT ACTUALLY LIMITS THEM NOW IS THE CORPUS. A mind that has heard
+   only pairs can only build pairs; one that has heard longer runs
+   can build longer ones. The limit becomes what it has LEARNED, not
+   how old it is — which is the honest measure of learning.
+3. THE OTHER CAPACITIES STAND for now — attention, candidates, story
+   and reach still grow (244 and Elman's finding hold for what a mind
+   can HOLD). This ruling is about its MOUTH.
+4. Say plainly in the report what Elman's staged-growth finding
+   predicts we lose here, so it is on the record as a trade rather
+   than a discovery later.
+PROVE IT: the same being, before and after — words used against words
+understood, the longest line it speaks, and the language age. The
+number that matters is the 37.
