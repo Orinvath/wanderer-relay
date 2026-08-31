@@ -32962,3 +32962,73 @@ zero.
    enough to be learned. Spacing is what stops that, and I will report whether it did.
 
 Nothing is built until this comes back. Say go.
+
+---
+
+# BUILD PLAN — Directive 314, NEW MIND
+
+### 250 scan: no open decisions. Placement is given (the SOUL panel), and the wipe list is not mine to invent.
+
+## WHAT ALREADY EXISTS, AND WHAT IS ACTUALLY MISSING
+
+`newDraft()` already does most of a birth and I am not rebuilding it: it cancels any pending save,
+tombstones the archive (234.5), files the ended life in the bench history, resets the state,
+happenings, exchange, ticks, nights, mood, the sleeper, the tastes, the persona and the threads.
+
+**What it does not do is empty the STORE.** The memories, the words, the lessons, the tellers, the
+appraisals all survive it — which is exactly why NEW DRAFT is a new soul on an old life rather than
+a newborn.
+
+## THE WIPE LIST IS THE RECORD'S OWN, NOT A LIST I WRITE
+
+`clock.js` already defines `CARRIED` — *"every one of these rows exists because this being lived"*
+— and it is 23 tables. **That is the definition of a life in this build**, written for the being
+file, and a birth is the same set emptied rather than written out. Using anything else would be me
+deciding what a life is.
+
+**Four of the 23 have no `wanderer_id`** and are cleared through their parent instead, which is how
+they are already written and read:
+
+```
+distillation_memories   ->  by distillation_id
+lesson_evidence         ->  by lesson_id
+surfaced_memories       ->  by surfacing_id
+appraisal_felt          ->  by appraisal_id
+```
+
+## WHAT I WILL BUILD
+
+1. **`watch.newMind({ save })`** — `newDraft()`'s ending, then the store emptied of that being's 23
+   tables, then a rebind. Capacities return to their birth values because 244 computes them from
+   lived hours and the clock is reset; nothing sets them by hand.
+2. **The SOUL panel gets NEW MIND**, beside NEW DRAFT — his placement, given in the ruling.
+3. **The confirm says what it costs.** It names how many ticks the current being has lived and
+   offers **SAVE MIND** before ending it. 311 is why: a 3207-tick life would have been gone, and I
+   only kept it because I stopped to think. This makes that a step rather than a habit of mine.
+4. **The soul is the drafted one** — whatever is drafted or locked stays, and the seed is recorded,
+   so the same seed gives the same being (062).
+5. **The levers and the speed dial are not touched.** They are his instrument and not the being's
+   state, and I will show that in the report rather than assert it.
+
+## THE PROOF, AS 314 ASKS
+
+- two NEW MINDs from the same seed produce **the same being** — compared on the being's own
+  fingerprint, not on my description of it;
+- **the litmus reads infant** on both;
+- **a being saved beforehand and loaded afterwards is unaffected** — the file is the life, and a
+  birth must not reach into it.
+
+## WHAT COULD GO WRONG, NAMED FIRST
+
+1. **The obvious one: this destroys a life, and he will press it while something is running.** The
+   confirm and the save offer are the whole guard, and I would rather it be one click too many
+   than one too few.
+2. **A table added later and not added to `CARRIED`** would survive a birth and quietly haunt the
+   newborn. That is a real hole and it is the same shape as the moved-file checks. **I will hold
+   it with a clause: every table in the schema is either in `CARRIED`, in `NOT_CARRIED`, or the
+   check fails** — so the day somebody adds one, the suite says so.
+3. **A newborn's checks read GREY under 50 ticks**, as built, so the health strip will look
+   unfamiliar for the first minutes of a life. That is correct and I am naming it so it is not
+   reported as a fault later.
+
+Nothing is built until this comes back.
