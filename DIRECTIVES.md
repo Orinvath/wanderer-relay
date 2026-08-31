@@ -7521,3 +7521,24 @@ well on a tally and zero on the litmus.
    through the interpreter (242.4) — the measurement stays its
    language, not the organ's.
 5. The run is still logged, so the history of the number survives.
+
+## Directive 318 — The gauge's numbers wrap after the size pass
+
+**THE FEATURE** — the five bars on the LEARNED panel and the numbers
+beside them.
+
+**WHY IT MATTERS** — those numbers are the readout he watches; a
+figure broken across two lines is harder to read at a glance than the
+small one it replaced.
+
+**WHAT WENT WRONG** — 316's size pass grew the text and the number
+column did not grow with it, so every value wraps: "593 /" on one
+line, "50" on the next. Five bars, five broken numbers.
+
+**WHEN** — today, with 316. A consequence of the size pass, not a
+fault in it.
+
+**THE FIX** — the number column is widened to hold the largest value
+at the new size on ONE line, and the bars give up the width. Nothing
+else moves. Check every bar at its widest plausible value, not just
+today's — five digits over four is the shape to fit.
