@@ -7219,3 +7219,37 @@ Rules while chasing:
   point and the clause was not moved with it, that is the third
   pattern again — say so.
 Report what it was, not what you guessed.
+
+## Directive 309 — THE REACHED WORD JOINS THE BEAT (307's aim, met)
+
+**THE FEATURE** — which words actually surface when the mind is
+thinking.
+
+**WHY IT MATTERS** — the difference between a mind speaking from its
+whole language and one reciting its current state.
+
+**WHAT WENT WRONG** — 307 worked: the language IS consulted inside a
+train. But on 59 of 60 ticks the train is telling a story, the beat
+takes precedence, and the reached word is found and then discarded
+before it surfaces. Five distinct marks in sixty ticks.
+
+**WHEN** — 274.2, working exactly as written.
+
+**THE SCIENCE** — recall is not wordless replay: the scene's own
+words lead, and language from around the moment is woven in as it is
+told.
+
+**THE COLLISION** — 274.2 (the beat leads) and 220 (the whole
+language is speakable). Both stand.
+
+**THE RULING** — THE REACHED WORD JOINS THE BEAT. The beat still
+leads and is never replaced (274.2 untouched); the moment carries the
+beat's marks PLUS the word the language reached for. This is 265.1's
+own pattern applied one level down: the thought joins what is
+happening rather than replacing it.
+
+PROVE IT: the same 60-tick trace — distinct marks reached AND
+surfaced, before and after; the beat still leading every story tick;
+the thinking check still green; and 280's law intact (no constant
+words stapled onto every moment — a reached word is drawn fresh from
+what is true, not a status line).
