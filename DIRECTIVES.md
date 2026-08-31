@@ -7446,3 +7446,38 @@ come back the day he wants it. Say in the report how to unhide them.
 rulings 314.2 through 314.5 carry over unchanged (offer to save,
 reset the panels with the being, leave his levers and speed dial
 alone).
+
+## Directive 316 — MAKE IT BIGGER, EVERYWHERE
+
+**THE FEATURE** — the size of everything on the bench: buttons,
+labels, headers, readouts, numbers.
+
+**WHY IT MATTERS** — he could not find the Litmus button because it
+is a small header control in fine print. An instrument he has to hunt
+across is costing him attention on every session, and his energy is
+the scarcest thing on this project.
+
+**WHAT WENT WRONG** — nothing broke. It accumulated: small header
+buttons, quiet captions, tiny counters, fine-print tooltips.
+
+**THE SCIENCE** — DESIGN.md §6, already researched and on this relay:
+FITTS — bigger and closer targets are faster to hit, and controls
+used often must be big; small text under ~14px needs the strongest
+contrast; low contrast is a usability failure, not a style.
+
+**THE RULING — a size pass over the WHOLE bench:**
+1. EVERY BUTTON is a proper button: large enough to read and hit
+   without hunting. No control lives as small header text — the
+   Litmus button is the example, and it is one he uses constantly.
+2. EVERY LABEL AND READOUT goes up: panel headers, bar labels,
+   counters, the gauge's numbers, the health panel's claims, the Mind
+   Map's node names and counts.
+3. NOTHING MEANINGFUL IS SMALLER THAN ~14px, and anything at that
+   size carries strong contrast (DESIGN.md §3).
+4. Layout holds: this is a size and contrast pass, not a rearrange.
+   Panels keep their places, nothing moves that he has learned where
+   to find.
+5. Where a panel cannot fit at the new size, it scrolls — it does not
+   shrink its text back down.
+Open it for his eye when done (118); he is the only test that matters
+here.
