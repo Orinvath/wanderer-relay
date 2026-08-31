@@ -7641,3 +7641,34 @@ them).
    learned and this directive does not start.
 PROVE IT: a schooled hour with the fix — how many invented tokens the
 censor refused, and the longest teacher line before and after.
+
+## Directive 320 addendum — three more from his bench
+
+### C. THE GROWTH CHECK REPORTS A RISE AS A FALL
+It halted his bench at tick 3213 on `capacity_shrinks: reach 0.2746
+-> 0.5385` — a number that went UP. REACH is the one capacity that
+matures DOWNWARD (growth.js says so out loud: a lower bar lets the
+mind range further, `down: true`), and the check was written for the
+other twelve. It will keep halting him on the mind growing correctly.
+Teach the check about `down: true`; for that capacity a RISE is the
+shrink. 306.D again, and that makes five.
+
+### D. THINKING IS RED ON A REAL FAULT: A REPLAY OUT OF LIVED ORDER
+His screen, with CC not running, so it is the mind and it reproduces:
+`last: JOY [226.2]: replayed out of lived order at beat 1`. A
+remembered story is playing its beats in an order they did not
+happen in. 226.2 and 236 both forbid it — a replay runs whole, from
+the top, in lived order.
+This is a genuine fault and it is NOT the check being wrong: 282.B.1
+wrote that clause deliberately to ask a replay the right question.
+Find why beat 1 is out of order — the surfacing that hands the train
+its episodes, or the ordering inside replay itself — and say which,
+before fixing.
+
+### E. IT WENT RED AND THE MIND DID NOT HALT
+293 rules that the first red stops the mind at that tick. THINKING is
+red on his screen and the bench is still running. Either the halt
+does not cover every check, or it does not fire when a check goes red
+outside the paths it watches. Find out which and make 293 true for
+every system, then prove it the way 293 asked: red -> frozen at that
+tick -> the banner names the file.
