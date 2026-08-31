@@ -7253,3 +7253,36 @@ surfaced, before and after; the beat still leading every story tick;
 the thinking check still green; and 280's law intact (no constant
 words stapled onto every moment — a reached word is drawn fresh from
 what is true, not a status line).
+
+## Directive 310 — 245 MEANS ITS OWN WORDS: the 402 PLUS what it earned
+
+**THE FEATURE** — the check guaranteeing only the mind's own words
+leave its mouth.
+
+**WHY IT MATTERS** — it is the guard against CC's English being
+spoken as though the mind meant it. Lonnie's catch in 243.
+
+**WHAT WENT WRONG** — the mind said "HELLO SONG"; the clause failed
+it because HELLO is not one of the 402. HELLO is a word it EARNED —
+heard while SONG was true, and now owned.
+
+**WHEN** — today, by way of 305: one clear exposure owns a word, as
+ruled (223, Carey & Bartlett), so taught words enter its vocabulary
+at once instead of climbing an accumulator for a dozen hearings.
+
+**THE SCIENCE** — a speaker's vocabulary is its native words plus
+every word it has learned. A learned word is not a foreign word.
+
+**THE COLLISION** — 245 (every word it says is a mark it holds) and
+244 (a grown line is its own language, its own words, its own order).
+
+**THE RULING — shape (2).** 245 means ANYTHING IT MAY LAWFULLY SAY:
+the 402 plus the words it has earned. The clause becomes
+`WORDS.includes(w) || owned.has(w)`. The law it guards is unchanged
+and must stay enforced: no English of ours, nothing it did not earn,
+nothing untraceable. A word that is neither a mark nor owned still
+fails, and that is the fault 245 exists to catch.
+
+306.D applies and is worth naming: the behaviour changed lawfully and
+a clause written under the old behaviour fired on the ruling working
+correctly. That is the fourth time. The clause moves in this commit.
