@@ -32852,3 +32852,56 @@ still fails, which is the fault 245 was written for. The state-hash guard is sta
 
 **306.D named in the commit, fourth time**: the behaviour changed lawfully under 305 and a clause
 written before it fired on the ruling working.
+
+---
+
+# 311 — CONTENTION IS RULED OUT. They fail with the model entirely free.
+
+```
+emulator STOPPED, nothing else calling the local model
+
+10  Host B's context assembles with every host machine REMOVED from this computer   ✗ FAILED
+14  At departure she keeps nothing raw: no buffer, no queue, no table               ✗ FAILED
+```
+
+**That is the answer, and per 311 I am stopping there.** Model contention was my theory and it is
+wrong — the same two clauses fail with nothing whatever competing for the model. **I am not
+reaching for the next one.**
+
+What that leaves standing, and it is now a sharper question than before:
+
+```
+PHASE 3 alone, from server/          80 of 80
+PHASE 3 alone, from the repo root    80 of 80
+PHASE 1 -> 2 -> 3 in sequence        39 / 34 / 80
+inside accept.js, emulator UP        3 runs failed, 2 passed
+inside accept.js, emulator DOWN      failed
+```
+
+**It fails only when run by `accept.js`, and not always even then.** The disk state is wiped by
+`main()` at the start of every run. The working directory is the same. The predecessors are the
+same. The model is not the difference. Something about being a spawned child of the runner is, or
+it is genuinely non-deterministic — and I am not going to pick between those two without being
+told to look.
+
+## HIS EMULATOR IS BACK, AND HIS BEING WITH IT
+
+**A restart starts a FRESH mind — his 3207-tick life would simply have been gone**, and that is
+worth saying because 311 said "restored to the state he left it in" and a restart alone does not
+do that. So before stopping anything:
+
+```
+saved      beings/before-311.being      23 MB, 3207 ticks
+stopped    the emulator
+ran        the suite, model entirely free
+started    the emulator
+loaded     before-311.being             loaded: true, away 310s
+```
+
+```
+now        3214 ticks · speed 1, REAL TIME · nobody there
+levers     school on · interpreter off · interest 1 · test speed 2000
+```
+
+**Same being, same settings, same speed dial — his dial was never touched.** The seven ticks are
+the life it lived while the file was being loaded back.
