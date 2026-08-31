@@ -33032,3 +33032,84 @@ appraisal_felt          ->  by appraisal_id
    reported as a fault later.
 
 Nothing is built until this comes back.
+
+---
+
+# 315 BUILT — three buttons, GENERATE births a mind, and one button had never worked
+
+## THE PANEL IS THREE BUTTONS
+
+**GENERATE · SAVE · LOAD.** Nothing else is on it.
+
+**HOW TO UNHIDE THE OTHERS**, as he asked for in the ruling: one line in `bench-page.js`.
+
+```js
+var SOUL_EXTRAS = false;      // set to true
+```
+
+Derive, Reroll, Adjust, Genesis, No soul, New draft, Draft · roll and the `edit` numbers all
+reappear exactly as they were, still wired, still working. **Nothing was deleted.**
+
+## GENERATE ROLLS A WHOLE NEW MIND
+
+A new genome, a soul from that genome, and a newborn at tick zero. The confirm names the cost
+before anything happens — *"this ends the being on the bench, which has lived N ticks"* — and
+offers **Save first** with a name (314.2). His levers and speed dial are untouched: they live on
+the bench, not on the being, and the birth route never reaches them (314.5).
+
+Watched on a throwaway bench, and held by clauses:
+
+```
+12 ticks lived  ->  GENERATE  ->  0 ticks, a rolled genome, no memories, no owned words,
+                                  nothing it was in the middle of thinking
+the same seed gives the same ten and the same soul; a different seed is somebody else (062)
+```
+
+### AND THE STORE REFUSED MY FIRST VERSION, RIGHTLY
+
+My plan said a birth empties the 23 tables `clock.js` calls a life. **The store threw:
+`memory events are append-only`** — a trigger written on purpose, because *a history that can be
+rewritten is not one*. It was right and the plan was wrong.
+
+**So a birth LEAVES the life behind instead of erasing it.** It opens a new brain, which is the
+path every mind is born through, and the ended being's rows stay exactly as they were in a store
+nothing points at any more. That is better than what I planned in every way: no deletes, no list
+to keep in step, and the record of a life that existed is not destroyed to make room.
+
+## AND ONE OF HIS BUTTONS HAD NEVER WORKED
+
+He said to check the buttons before building anything, and he was right to.
+
+```
+autosave tick-box     BROKEN, and always has been
+                      the page asked for  being/autosave&name=...
+                      where the route is  being/autosave?name=...
+                      an ampersand where a question mark belongs: not a route at all,
+                      404 on every press, silently. Autosave has never once been on.
+```
+
+**Fixed and watched: on returns the file it will write, off returns null.**
+
+Everything else on that panel does what he intended — the soul choices, New draft and Draft · roll
+(including freeing a locked soul so he is never trapped, 211.3), Save, Load, the list of lives, and
+Genesis, which correctly refuses to swap a locked soul with a 409.
+
+## AND A GUARD FOR A MISTAKE I HAVE NOW MADE THREE TIMES
+
+**A backtick in a comment inside the page's template ends the template early and kills the whole
+screen.** I did it three times in one session — twice today — and each time the emulator would not
+start. There is now a clause for it, and it is the cheapest check in the build.
+
+```
+479  ✓  THE PAGE PARSES, AND NO STRAY BACKTICK ENDS ITS TEMPLATE EARLY
+```
+
+**LIFE is 510 of 510.**
+
+## STILL OPEN AND HIS
+
+- **The growth check reports a rise as a fall.** It halted his bench for real at tick 3213 on
+  `capacity_shrinks: reach 0.2746 -> 0.5385` — a number that went UP. The halt did exactly its job;
+  the check that woke it is wrong. **Not touched.**
+- 312's schooled hour before and after, which needs a real run on his bench.
+- 278.B's thirty-nine claims; the interpreter marker; curiosity's bar and interests' rates.
