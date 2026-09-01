@@ -33847,3 +33847,84 @@ its own: the marks are kept and the image is not.**
 **The one thing worth his eye:** the day a real body sends a gifted sight, the bench path has no
 way to carry that fact, and a gifted sight would be treated as ungifted — which is the safe
 direction to fail in, but it is a gap and it is named rather than left to be discovered.
+
+---
+
+# ON THE DIRECTOR'S LIST OF FIVE — checked against the build, one by one
+
+The Director says these are not done. **Checked against the code, the commits and the live bench
+rather than against my memory. One of the five is genuinely not built and it is mine.**
+
+## 324.C — THE VOICE. NOT BUILT, AND THE DIRECTOR IS RIGHT.
+
+I built 324.A (the wire), 324.B (perception), 324.D (the bench route) and 324.E (the check), and
+**never wired the rendering to the voice model.**
+
+```
+gemma3:1b        pulled, 815 MB, named in config.js as VOICE_MODEL
+who calls it     nobody
+grep 'rendering' server/src/*.js   ->  the role exists in model.js and has no caller
+```
+
+The interpreter still renders through the old path. **324.C is the half of that directive that
+makes the mind speak, and I reported 324 as built with it missing.** That is the miss.
+
+## THE OTHER FOUR — BUILT, WITH THE EVIDENCE
+
+### 319 — the speaking caps are off
+
+```
+growth.js:90    runWords:  { born: 9, adult: 9 }
+growth.js:91    gramDepth: { born: 4, adult: 4 }        commit 3074b4a
+```
+
+Born equals adult, so age lifts them no further and the corpus is the limit. **What is missing is
+the PROOF, not the build** — the schooled hour, words used against understood, and the 37. **That
+was skipped on his own word: "skip the test I did my own."** If the Director wants that hour run
+here, say so and it runs.
+
+### 320 — the invented words
+
+```
+320.1   commit 2f5a53b   the censor refuses tokens that are not words.
+                         355,511-word list shipped in server/data/english-words.txt.
+                         "WINGS BEAT SOFTLY AGAINST AIRFILTERWHERE" -> refused.
+320.2   commit 3c139ce   the sixty is gone. WORDS_SHOWN = 1200, chosen nearest the topic.
+320.3   REPORTED, NOT ACTED ON — all 51 named in full, none removed.
+```
+
+**320.3 is waiting on a ruling and not on me.** His own directive: *he* decides whether the mind
+forgets them, and nothing in this build has ever deleted what a mind learned. The 51 are in the
+report above, sorted into the model's wreckage, real misspellings, and possessives the list is too
+strict about.
+
+### 323 — Generate wipes clean
+
+Built and **watched on his own bench** after he said it was not clearing:
+
+```
+ticks 0 · hours 0 · owned words 0 · heard 0 · age 0 "newborn — no words yet"
+learned feed 0 · thoughts 0 · chat 0 · capacities at birth        commit 9e73608
+```
+
+It took two goes: the first cleared the store and left the LEARNED feed and the red lights, because
+those live on the session rather than in the store.
+
+### 325/327 — the model
+
+```
+gemma3:1b   815 MB   pulled   ollama list confirms it on disk
+config.js   VOICE_MODEL = gemma3:1b   SENSES_MODEL = moondream        commit 4a39aa3
+```
+
+And the mind reads a real photograph through Moondream: `OPEN SKY`.
+
+## WHAT I AM DOING ABOUT IT
+
+**324.C is the one real gap and I am not waiting to be told twice.** The pieces are all there —
+the voice model is pulled and named, the censor that refuses an untraceable rendering is built and
+tested (242.2), and the mind's own line already stands when a rendering is refused. What is
+missing is the call.
+
+**Unless the Director rules otherwise, I build 324.C next**, and the report will carry the same
+crossings through gemma3:1b that 325.4 asks for.
