@@ -8187,3 +8187,25 @@ the plain sense) and 331 (speak to it, not about a bird).
    assume it is the corpus.
 PROVE IT with ten teacher lines from his bench after the fix, printed
 in the report exactly as the mind hears them.
+
+## Directive 332 addendum — 331 did not hold, and the misuse is the real fault
+
+1. 331 IS CONFIRMED NOT WORKING ON HIS BENCH. He restarted before
+   the test, so the line `IT SINGS LOVELY TONES AS IT FLEES BY` came
+   from the CURRENT build. 331's own sample of sixteen lines showed
+   zero — so either the sample was too small to catch it, or some
+   other path also produces teacher lines and was never touched.
+   FIND WHICH. Do not report a rate from a fresh sample: find the
+   path that produced HIS line.
+
+2. THE WORD FAULT IS MISUSE, NOT RARITY. His point, and it is
+   sharper than the Director's: a bird flying past is not FLEEING.
+   The teacher is using real words INCORRECTLY, and the mind binds
+   the wrong meaning to them — a word learned wrong is worse than a
+   word not learned, because it will be used wrong and believed.
+   The censor cannot catch this: FLEES is a real word and traces
+   fine. What can be done is to keep the teacher to plain,
+   unambiguous words it is unlikely to misuse, and to say plainly in
+   the report that CORRECTNESS OF USE IS NOT ENFORCED and cannot be
+   by any check we have. Lonnie's eye is the only test for it, so
+   the report prints the lines for him every time.
