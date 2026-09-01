@@ -33778,3 +33778,72 @@ model has a real GGUF it is one line, and the mind does not know which model it 
 
 **LIFE is 516 of 516.** 325.4's comparison is next and needs both running through the same
 crossings — his eye on the lines.
+
+---
+
+# 328 — THE EXTENSION IS REMOVED, AND THE STORAGE QUESTION TRACED
+
+## 328.1 — DONE, AND THE CORRECTION IS TAKEN
+
+I read that guard as a privacy firewall and asked to extend it. **029 says no such thing** — it is
+a capability ruling about which model should be her voice, and nothing in it says who may be shown
+an image. **030 is the privacy law and it governs what is DONE with a sight, not who may look.**
+
+And the framing under my question was wrong before the question was: **the mind does not see.** The
+camera sees; the mind receives. There was never a capability to permit.
+
+The extension is gone and the file now says why it was wrong rather than why it was right. What
+the guard still refuses is what it was written for: drafter, judge and salience reaching raw pixels
+down a side channel privacy.js cannot scan.
+
+## 328.2 — WHAT ACTUALLY HAPPENS TO A PERCEPTION'S MOMENT, TRACED
+
+**Yes, it is written — and what is written is only what it MEANT.**
+
+```
+experiencing.js:1030   memory.commit('W-WATCH', [{ class: 'B', text: moment, salience: 5,
+                                                   facts, heard, embedding, imagined, teller }])
+```
+
+`moment` for a sight is **the marks and nothing else** — `OPEN SKY`, not the photograph. Traced
+every field that goes with it:
+
+```
+text        the marks. Words from the 402.
+facts       awayMs · spokenTo · who · read · act · lowest — no image, no pixels
+heard       the SOUND that arrived, null for a sight
+embedding   of the marks, not of the picture
+imagined    whether it came from a story
+teller      who said it, null for a sight
+```
+
+**The image never reaches memory by this path.** It exists as bytes on the signal object in RAM,
+is handed to the model once, and is dropped when the tick takes it. **And it cannot reach a being
+file either:** `senses` is declared NOT-CARRIED in `clock.js` — the wire is apparatus, not a life —
+so a save never writes what was waiting on it.
+
+**So the ordinary path keeps exactly what 328.3 permits: what it meant to the being — the marks,
+the feeling, the lesson — and never the image or a record that reconstructs it.**
+
+**NOTHING MARKS IT GIFTED OR UNGIFTED, and nothing needs to today**, which brings me to the last
+question.
+
+## 328.5 — DOES THE BENCH HAVE ANY NOTION OF GIFTING? NO.
+
+Gifting exists in **the service**, fully built and untouched by any of this:
+
+```
+/sight          gift:false is a turn — she looks, she answers, the picture stays on the host's
+                machine. Never stored.
+/sight/gift     a consent offer bound to those exact pixels, into the queue a person reads.
+/sight/:id      shown onward only after a human moderator approved it.
+```
+
+**The BENCH has none of it.** `senses.js` has no gift flag, no consent, no moderation — and it
+should not, because a bench is not a host handing over a photograph. **Every sight the bench can
+produce is ungifted, so ungifted is the only case that exists there, and it behaves correctly on
+its own: the marks are kept and the image is not.**
+
+**The one thing worth his eye:** the day a real body sends a gifted sight, the bench path has no
+way to carry that fact, and a gifted sight would be treated as ungifted — which is the safe
+direction to fail in, but it is a gap and it is named rather than left to be discovered.
