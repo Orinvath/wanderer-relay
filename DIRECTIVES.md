@@ -8707,3 +8707,30 @@ and a change that size can force choices nobody ruled.
    in MIND_DECISIONS.md as such (246).
 5. HIS BENCH IS THE TEST: report the age before and after on the same
    being, and let him see the fall rather than reading about it.
+
+## Directive 345 — THE TWO THINKING PANELS ARE NAMED FOR WHAT THEY ARE
+
+Two panels were both about thinking and one of them was misnamed,
+which is why a newborn appeared to be recalling memories it never
+had.
+
+WHAT THEY ACTUALLY SHOW:
+- THE GLYPH STRIP above the stage — what the mind is thinking RIGHT
+  NOW, this tick, its marks coloured by where each came from
+  (subject, interest, memory, imagining). It had NO NAME at all.
+- THE PANEL CURRENTLY CALLED "THOUGHTS" — what it has LEARNED: the
+  most recent five lessons, how strongly it holds each, and where
+  each came from (lived blue, story violet, teacher lavender). A
+  record, not a thought.
+
+**HIS RULING**
+  the glyph strip            ->  THOUGHTS
+  the panel called THOUGHTS  ->  LESSONS
+Old names become tooltips as always (292.1).
+
+AND THE CONFUSION THIS CAUSED, named so it is not repeated: the strip's
+legend says MEMORY for its blue, and the panel uses the same blue for
+LIVED. Two colour languages, one legend, so a lived lesson read as a
+recalled memory on a newborn's first ticks. With the panels named
+correctly, say in the report whether the two blues still collide and
+what each now means — do not change a colour without asking.
