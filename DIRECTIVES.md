@@ -9080,3 +9080,32 @@ resolve does not count.
    is the fault.
 4. PROVE IT: press GENERATE and post the reading. It must be 0.00,
    0 words, on the first tick and on the fiftieth.
+
+## Directive 356 — DIAGNOSIS: why does the mind never want anything?
+
+**THE FEATURE** — THE CORE's third channel: motion, what the being is
+after (292.2).
+
+**WHY IT MATTERS** — colour says what it feels, the beat says how
+stirred it is, and motion is the only reading of what it WANTS. If it
+never moves, that channel is blank.
+
+**WHAT WENT WRONG** — the motion is built and it is not small: REACH
+is 2.6, a long way on that board. But on his bench THE CORE does not
+move. The code says a Core at dead centre means `want` is null — "the
+mind is after nothing, and that is a fact rather than an absence of
+one." So the likely finding is not in the display: THE MIND IS NEVER
+AFTER ANYTHING.
+
+**THIS IS A DIAGNOSIS. CHANGE NOTHING.**
+1. Over a watched stretch on his bench, count how often `want` is
+   each of: toward · away · orient · excitement · still · null. Post
+   the counts.
+2. If it is null nearly always, trace WHERE the urge is supposed to
+   come from and say which step produces nothing — the urge itself,
+   the reading of it, or the hand-off into the map. Name the line.
+3. Say plainly whether a mind with all needs met and nothing present
+   SHOULD be after nothing. If that is honest, the fault is that his
+   bench gives it nothing to want, and that is a different problem
+   with a different answer.
+4. Report what it was, not what fits first.
