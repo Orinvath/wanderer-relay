@@ -35334,3 +35334,24 @@ would have to be downloaded. His call, his bandwidth.
 **347** — step 1 posted. Waiting on the 42 claims.
 **342** — unblocked now, still unbuilt, as 346.4 orders.
 **341** — still waiting on 344.
+
+---
+
+# REPORT — the standing law is in CLAUDE.md, and it was never put on the record
+
+**Filed late, and that is the point of the rule I am filing it under.** The law went into the build
+at `2e3a3aa` before 344, 345 and 346 were touched, and I reported the builds and not this. Every
+change gets a report, including the ones that are only a rule.
+
+**A SETTLED QUESTION IS NOT ASKED AGAIN** now sits in `CLAUDE.md` as standing law, all five clauses
+as written in the relay: search the record before raising anything; an unclear ruling is named and
+cited rather than presented as undecided; a genuine collision is raised AS a collision with both
+directives quoted; and 250 still stands, so a truly unruled decision is still stopped for and
+posted, always.
+
+**Clause 2 is written in my own name, because the example is mine.** 278.B had already ruled one
+check per file. I carried 25-vs-42 back as an open question needing his claims, and it cost him a
+round trip and a directive to tell me what the record already said.
+
+**Nothing else has changed since the last report.** The build stands at `957b0a0`: 345 and 346 in,
+347 step 1 posted, 344 planned and blocked on the frequency list, 342 unblocked and unbuilt.
