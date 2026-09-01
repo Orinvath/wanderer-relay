@@ -8032,3 +8032,27 @@ capability to permit — there is a signal arriving.
 5. Say plainly in the report whether the bench has any notion of
    gifting yet. If it does not, ungifted is the only case that
    exists and it must behave correctly on its own.
+
+## Directive 329 — BUILD 324.C: the voice call
+
+Lonnie's ruling: build it. The gap is the call itself; everything
+around it is in place — gemma3:1b pulled and named VOICE_MODEL, the
+censor that refuses an untraceable rendering built and tested
+(242.2), and the mind's own line already standing when a rendering is
+refused.
+
+324.C stands unchanged and governs it:
+- the mind forms what to say, in its marks, through its own grown
+  grammar (319). That is the content and it is never the model's;
+- the rendering goes through gemma3:1b — the small on-device model,
+  not qwen, not a served one;
+- the model may do grammar, word order, inflection, sentence shape.
+  FORM ONLY;
+- it may not add meaning: every content word traces to the record or
+  the line is refused and its own line stands;
+- its own grammar carries more as its corpus thickens; the model is
+  scaffolding, not a permanent mouth.
+
+Carry 325.4's comparison in the same report: the same crossings
+through gemma3:1b, the censor's refusal rate, and the lines
+themselves for his eye. He rules the readability.
