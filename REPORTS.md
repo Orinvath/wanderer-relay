@@ -35355,3 +35355,45 @@ round trip and a directive to tell me what the record already said.
 
 **Nothing else has changed since the last report.** The build stands at `957b0a0`: 345 and 346 in,
 347 step 1 posted, 344 planned and blocked on the frequency list, 342 unblocked and unbuilt.
+
+---
+
+# BUILT — 348. The LESSONS panel has its own colours. `c14dd0e`
+
+**The hexes, for his eye before this is settled:**
+
+```
+                     WAS        NOW
+LESSONS  lived       #6eafff -> #ffc857   gold
+LESSONS  story       #ba82ff -> #ff6fae   rose
+LESSONS  teller      #c9b3ff -> #c9b3ff   unchanged
+```
+
+**THE STRIP DID NOT MOVE.** 229's language is untouched, exactly as ruled — subject white
+`#ffffff`, interest green `#60e68c`, imagining `#ba82ff`, memory `#6eafff`.
+
+**Neither new colour appears anywhere in the strip**, and they are not near shades of what they
+replaced: gold and rose sit on the warm side of the wheel, where the strip has nothing at all. So
+the two blues no longer collide and neither do the violets, because the panel now has no blue and
+no violet in it.
+
+**THE TELLER STAYS, and it is now further from its neighbour than it was.** `#c9b3ff` was a pale
+lavender sitting beside `#ba82ff`, so story and teller were already close to each other inside the
+panel — that quietly went away when story moved to rose. It is a pale colour on a 3px stripe, which
+is a separate question about weight rather than hue, and I am not touching it.
+
+**ONE THING FOR HIM TO JUDGE ON HIS SCREEN, named rather than hidden:** the page uses saturated
+warm reds for faults — `#ff4d4d`, `#ff6b6b`. **Rose `#ff6fae` is a different hue and a different
+panel, but it is in the warm family.** If it reads as an alarm colour to him at a glance, that is
+the one to change and I will change it.
+
+**AND A CHECK THAT WILL ACTUALLY SAVE SOMEBODY** — 306.D, in the same commit. The colour lives in
+TWO places, a CSS rule and a JS map, one painting the row stripe and one the legend dot. It asserts
+they agree, and that no colour in this panel is any colour in the strip — reading the strip's four
+out of `THOUGHT_COLOUR` rather than typing them in again, so the check cannot go stale when the
+strip changes. Put either old hex back and it goes red.
+
+**Suite 521 checks, 4 red** — all four the model-dependent teacher pair and its two dependants,
+which move run to run on identical builds. Nothing to do with this change.
+
+**The page changed, so the bench needs a restart to show it.**
