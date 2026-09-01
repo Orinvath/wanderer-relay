@@ -34592,3 +34592,70 @@ question and "does the file mention 292" is not.
 Blocked and waiting on a ruling, not on me: **320.3** (the 51 non-words) · **278.B** (its
 thirty-nine claims) · **295.3** (permission to switch the interpreter on) · **curiosity's bar and
 interests' rates** · and now **the Pulse queue**, reported above.
+
+---
+
+# THE FULL AUDIT — EVERY DIRECTIVE FROM THE FIRST. MY WORK, ASKED OF THE CODE.
+
+He asked for all of them, not the recent ones — and he set the shape of the check itself: **I audit
+my work, the Director audits its work.** So this is the code I wrote, against every directive that
+ordered code.
+
+```
+directives on the relay        333
+withdrawn or cancelled           9
+with NO trace anywhere           0
+```
+
+## THE ONLY ONES WORTH LOOKING AT: fifteen that live in reports but not in code or commits
+
+These are the 292.2 shape — where I have talked about a directive and the code has nothing to show
+for it. **Every one is accounted for, and none is skipped work.**
+
+**FOUR ARE DIAGNOSIS-ONLY. The report WAS the deliverable:**
+`252` why thinking teaches nothing · `263` the two wandering trains · `271` the zero bearing ·
+`308` chase the PHASE 3 clauses. Each says "DIAGNOSIS ONLY — change nothing" in its own text.
+
+**TWO ARE ACTIONS, not code:**
+`146` open the Stage on his screen · `149` close what was opened, he is away.
+
+**ONE IS PROCESS:** `257` run the approved plan straight through without stopping.
+
+**TWO ARE CANCELLED OR WITHDRAWN BY HIM:** `195` cancelled outright · `334` withdrawn today,
+because the recheck had already done its job.
+
+**SIX ARE FROM THE ELSEWHERE ERA and were never CC-Wanderer's code at all:**
+`053` reactions are not goals (and it IS cited in four files) · `087` the ROCm world-generation
+environment · `091` run the painting end to end · `121` the sky reads curved · `125` his eye on the
+full scene · `163` the status text goes back. **087 and 091 built in `~/worldgen`, which is not on
+this disk any more.** That work is not missing from this repository; it was never in it.
+
+## AND THE AUDIT FOUND THREE FAULTS IN ITSELF — ALL MINE
+
+**Three of my checks were wrong today, and I would rather count them than let them pass:**
+
+1. **332** — my pattern matched the COMMENT explaining the fix instead of the instruction. False NO.
+2. **333** — a regex escape that never matched the route it was looking for. False NO.
+3. **053 · 087 · 091** — **the record writes them zero-padded and I searched for the bare number.**
+   Three directives reported as untraceable that are perfectly well traced. False NO.
+
+**All three failed as false NOs — a check crying wolf.** That is the safe direction and it is not
+the dangerous one: **a false YES is what let 292.2 sit for nine days.** The lesson stands as
+written in the 336 proposal — a proof question must be phrased so that the ABSENT case cannot
+satisfy it, and mine must be tested against a known-missing thing before they are trusted.
+
+## THE ANSWER TO WHAT HE ASKED
+
+**Nothing is skipped.** Every directive that ordered code has code, a commit, or a documented
+reason it has neither.
+
+**Outstanding, and none of it forgotten:**
+
+```
+339      PARTLY BUILT — 339.1 done today: nothing decides how long a line is except the mind.
+         339.2 still owed: the same question asked of attention, candidates, story and reach,
+         with each named character or permission.
+```
+
+**Waiting on a ruling, not on me:** the 51 non-words · 278.B's thirty-nine claims · permission to
+switch the interpreter on · curiosity's bar and interests' rates · and the Pulse queue.
