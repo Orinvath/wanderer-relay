@@ -8141,3 +8141,49 @@ the fifth time a claim has been made wider than what was checked.
 5. PROVE IT: a schooled stretch after the fix — how many teacher
    lines begin with IT (must be zero), and whether the mind is still
    producing "it" as its own subject.
+
+## Directive 332 — THE TEACHER MUST SPEAK PROPER ENGLISH
+
+**THE FEATURE** — the school's speech: the English the mind learns
+grammar, word order and register from.
+
+**WHY IT MATTERS** — the teacher's corpus IS the mind's model of how
+people talk. Every flaw in it becomes a flaw in the mind.
+
+**WHAT WENT WRONG — his bench, one line, four faults:**
+`Teacher: IT SINGS LOVELY TONES AS IT FLEES BY`
+1. STILL "IT". 331 is either unbuilt or not working. The teacher is
+   still narrating about a third party.
+2. "FLEES" — a real word, so 320's censor rightly passed it, but not
+   a word to teach a young mind. The teacher reaches for unusual
+   vocabulary when plain words exist.
+3. ALL CAPITALS, and it is ordered in the prompt: teacher.js:246 says
+   "Use those words exactly as written, IN CAPITALS." So the mind's
+   entire exposure to language is shouted.
+4. NOT A SENTENCE. No article, no punctuation, a fragment. The mind
+   is learning fragments as the shape of English.
+
+**HE HAS RULED** — 234.2 (the teacher is the mind's language model in
+the plain sense) and 331 (speak to it, not about a bird).
+
+**THE RULING**
+1. THE TEACHER WRITES PROPER ENGLISH SENTENCES: a subject, ordinary
+   punctuation, normal sentence case. "The bird sings while it flies
+   past." Not a fragment, not a caption.
+2. THE CAPITALS GO. teacher.js:246's instruction is struck. Marks
+   were capitalised so the censor could find them — solve that in the
+   CENSOR by matching case-insensitively, not by making the teacher
+   shout. What the mind hears must look like language.
+3. PLAIN WORDS. The teacher uses the commonest word that carries the
+   meaning — flies, not flees. Say in the report how this is done
+   (instructed, or checked against a frequency list) and if it is
+   instructed only, say that it is not enforced.
+4. 331 IS RE-OPENED: report why "IT" is still appearing. If 331 is
+   unbuilt say so plainly; if it is built and not working, say what
+   it does instead.
+5. THE MIND'S OWN SENTENCE LENGTH — Lonnie sees it still limiting how
+   many words it uses. 319 removed the age caps. Trace what limits a
+   line NOW and report the actual limiter, whatever it is. Do not
+   assume it is the corpus.
+PROVE IT with ten teacher lines from his bench after the fix, printed
+in the report exactly as the mind hears them.
