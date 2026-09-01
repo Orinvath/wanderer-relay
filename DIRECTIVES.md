@@ -8864,3 +8864,22 @@ glance, but blue. Not yellow, not any other hue. The Director wrote
 The same holds for LESSONS' STORY: a different violet, still violet.
 
 Post the hexes for his eye as 348 already requires.
+
+## Directive 349 — THE COOL PALETTE
+
+Lonnie supplied a palette (image on record with the Director): the
+COOL HALF is the range for the bench, running roughly
+
+  muted purple -> indigo -> blue -> steel blue -> teal ->
+  green -> yellow-green
+
+All of them soft and desaturated — watercolour, not neon. The warm
+half of that image is NOT the bench's range.
+
+1. ANY COLOUR CHOICE ON THE BENCH COMES FROM THIS RANGE unless a
+   ruling says otherwise. 348's new LESSONS blue is drawn from it.
+2. THE EXCEPTIONS THAT STAND, because they carry meaning that must
+   break the palette: RED for a failing check and a halt (229/338 —
+   it must be alarming), and THE CORE's feeling colour, which is his
+   own 22-hue ruling (270.D) and is a scale, not a palette choice.
+3. Post the hexes you use for his eye, as 348 already requires.
