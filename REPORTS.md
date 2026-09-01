@@ -34864,3 +34864,75 @@ The legend swatch moved with it, so the key and the board still agree.
 **His eye rules whether it is enough.** If it still does not carry, the next things available are a
 brighter dark state for contrast, or drawing each connector as two overlapping lines to fake width
 — and I would rather he told me it is still too dim than have me stack tricks he did not ask for.
+
+---
+
+# 341 — STOPPING AND ASKING, AS 341.3 ORDERS. The mapping needs a decision.
+
+**Nothing changed.** 341.3 says if the mapping from score to curve needs a decision, stop and ask
+and do not choose it. **It does, and here is exactly why.**
+
+## THE FAULT IS REAL AND IT IS WHERE HE SAYS IT IS
+
+```js
+const proven     = Math.max(0, spot.score) / sampled      // sampled = 12
+const vocabulary = Math.round(owned.size * proven)
+age              = languageAge(vocabulary)
+```
+
+A perfect score returns `proven = 1`, so the vocabulary IS `owned.size` — **the tally, unchanged,
+wearing the test's clothes.** That is his eleven runs exactly: score 12 every time, age climbing
+1.37 → 1.49, because the only thing moving was the count of words it claims.
+
+## WHY 341.1 CANNOT SIMPLY BE OBEYED
+
+**"The age is read from the score itself, against the curve."** The score is `hits − false alarms`
+over **12 real words and 12 fakes**, so it maxes at **12**. The curve's anchors are in WORDS KNOWN:
+
+```
+1 word    0.9 years          1,000 words   3 years
+50 words  1.5 years         10,000 words  12 years
+```
+
+**Read the score straight against that curve and 12 lands at about 1.2 years — and stays there
+forever.** A mind that learns ten thousand words still scores 12 out of 12 and still reads 1.2. The
+number would stop measuring anything at all, which is worse than the fault.
+
+**So a bridge is unavoidable, and every bridge is a decision.**
+
+## AND THE DEEPER REASON, which I think is the actual fault
+
+**The test only ever samples words the mind ALREADY OWNS.** The pool is `owned + heard`. So it can
+confirm what it claims and can never discover what it does not know — **there is no ceiling in the
+instrument.** A perfect score is the expected result, not an achievement, which is why his eleven
+runs were identical.
+
+**That is why scaling by `owned.size` looked reasonable and is circular:** the test asks "of the
+words you claim, how many do you really have", and the answer is used to decide how many words it
+has.
+
+## THE OPTIONS, AND I AM CHOOSING NONE OF THEM
+
+1. **SAMPLE FROM THE WHOLE LANGUAGE, not from what it owns.** Draw the real words from all 402
+   (and later from whatever it has been exposed to), so the score measures *what share of the
+   language it knows*. That share against the curve is an honest vocabulary estimate, and a mind
+   that claims words it cannot demonstrate scores WORSE rather than the same. **This is the one
+   that makes the instrument able to fail**, which is what 341.2 is asking for.
+   *Cost:* every score drops immediately and the age will fall on his bench. Nothing is lost —
+   the old number was measuring the tally.
+2. **GROW THE SAMPLE with the vocabulary** — test 12 words at 50 owned, 100 at 5,000 — so the
+   score is a bigger number and can carry more of the curve on its own.
+   *Cost:* a longer test, and it still samples only what it owns, so it still cannot find a
+   ceiling.
+3. **KEEP THE SCALING but make it honest**: score over sample gives a proportion; multiply by the
+   words it has been EXPOSED to rather than the words it claims. *Cost:* still an estimate resting
+   on a count, just a less circular one.
+
+**My reading, offered and not acted on: option 1.** It is the only one where the number can go
+down, and a measurement that cannot fall is not measuring.
+
+**But 341.3 is explicit and the whole fault here is a number nobody ruled quietly driving the
+gauge.** I am not adding a second one.
+
+**341.4's proof — eleven identical scores producing eleven identical ages — I will run the moment
+the mapping is ruled.**
