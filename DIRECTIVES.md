@@ -8516,3 +8516,46 @@ light and LIGHT THE CONNECTORS THEMSELVES.
    its three channels.
 Report it with the board watched at high speed and at low, and with a
 halt proving the connectors go dark.
+
+## Directive 341 — THE AGE READS FROM WHAT THE TEST PROVED
+
+**THE FEATURE** — the language age on the LEARNED panel, the one
+number he steers the project by.
+
+**WHY IT MATTERS** — if it can rise without the mind knowing more,
+every experiment is measuring noise.
+
+**WHAT WENT WRONG** — litmus.js computes
+`vocabulary = round(owned.size * proven)` and reads the age off THAT.
+`owned.size` is the count of words the mind CLAIMS, and the test only
+scales it. On his bench the score was **12 on eleven consecutive
+runs** while the age climbed 1.37 -> 1.49. Same proven knowledge,
+rising number. The tally 241 killed is still driving the gauge; the
+litmus is wearing its clothes.
+
+**WHEN** — 317 wired the litmus into the gauge but kept the word
+count as its input instead of replacing it.
+
+**THE SCIENCE** — the validated instrument is HITS MINUS FALSE ALARMS
+against the words-by-age curve (Brysbaert et al. PMC4965448;
+Baddeley's spot-the-word). A tally of claimed words is not a
+measurement — that is precisely why the test exists.
+
+**HE HAS RULED TWICE** — 241 ("the old 0-100 score dies") and 317
+("one number: the litmus IS the gauge"). The tally survived both.
+
+**THE RULING**
+1. THE AGE IS READ FROM THE SCORE ITSELF — what the mind PROVED it
+   knows — against the curve. Not from `owned.size`, and not from
+   anything scaled by it.
+2. OWNING MORE WORDS MOVES THE NUMBER ONLY WHEN THE TEST PROVES THEY
+   ARE KNOWN. A mind that collects words it cannot demonstrate does
+   not age.
+3. SAY IN THE REPORT how the score maps onto the curve, since the
+   anchors are in words-known and the score is hits-minus-false-
+   alarms over a sample. If that mapping needs a decision, STOP AND
+   ASK — do not choose it. The whole fault here is a number nobody
+   ruled quietly driving the gauge.
+4. PROVE IT: the same being, before and after, with the score and the
+   age side by side across several runs. Eleven identical scores must
+   produce eleven identical ages.
