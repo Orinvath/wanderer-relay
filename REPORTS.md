@@ -35570,3 +35570,42 @@ writing, so that one is not on this list.
 
 **Nothing here is blocked on me.** 342 is the only thing left that I can build, and it is waiting
 to be told to go.
+
+---
+
+# 351 — WHAT I AM ABOUT TO PULL, before I pull it
+
+351.1 requires this said first, so here it is. **Nothing has been downloaded yet.**
+
+```
+WHAT     English word-frequency list, OpenSubtitles 2016 (hermitdave/FrequencyWords, en_50k)
+SIZE     617,165 bytes — 603 KB
+SHAPE    50,000 lines, plain text, "word count", already ordered most-common first
+LANDS    server/data/english-frequency.txt — beside the censor's list, IN the project
+```
+
+**WHY THIS ONE.** It is subtitle-derived, which is the same corpus family as SUBTLEX-US — the list
+**Brysbaert** built, and Brysbaert is whose 42,000-words-at-20 figure the curve's top anchor already
+is. Fifty thousand words covers that ceiling with room over it, so the whole range the litmus needs
+is inside a file of 603 KB. **It ships with the build and is never fetched at runtime** (320.1's
+rule for the censor's list, and 116).
+
+**WHAT I REJECTED AND WHY**, so the choice is checkable rather than asserted:
+
+```
+norvig count_1w.txt      4.7 MB    333,333 web-derived words — eight times the size, and web
+                                   text is full of typos, so "real words" would not all be real
+FrequencyWords en_full  19.0 MB    the same corpus at full depth — far past what the curve needs
+```
+
+**351.3 — CAN ONE LIST SERVE BOTH? NO, AND THEY SHOULD NOT.** The censor asks *is this a word*;
+the litmus asks *how common is it*. A frequency list has to include misspellings and junk to be an
+honest frequency list, so using it for the censor would teach the mind that typos are English.
+
+**BUT THE TWO WILL BE USED TOGETHER, which is better than either alone:** a word is only shown to
+the mind as REAL if it is in the frequency list AND in the censor's 355,511-word list. **The
+frequency list says how common it is; the word list vouches that it is a word.** That costs nothing
+and it means no draw can ever present junk as a real English word.
+
+**Pulling now. The intersection count goes in the next report** — if it comes back too small, this
+is the wrong list and I will say so rather than build on it.
