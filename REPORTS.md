@@ -35400,7 +35400,7 @@ which move run to run on identical builds. Nothing to do with this change.
 
 ---
 
-# BUILT — 348 addendum. A different blue, and a different violet. `e24ad5c`
+# BUILT — 348 addendum. A different blue, and a different violet. `a3789ac`
 
 Gold and rose are gone. **The Director's "a new colour" was wider than what he said, and I built
 the wider thing** — that is on me as much as on the wording, because "Lesson blue" was in front of
