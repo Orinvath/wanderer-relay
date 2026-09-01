@@ -8285,3 +8285,15 @@ Three lists: WEAK (works but shallow, or resting on a number nobody
 ruled) · DEAD (built and unreachable, or reachable and never
 exercised) · FAKE (anything standing in for something real).
 And a fourth, honestly: WHAT I COULD NOT DETERMINE.
+
+## Directive 335 — BOTH VERSIONS, NOT ONE
+
+333.5 required the page AND the server to be shown separately. His
+title line shows one number. Build the other.
+
+- THE PAGE version: the commit the served HTML was built from.
+- THE SERVER version: the commit the running process is executing.
+They are shown side by side, labelled, both in the title line after
+TEST. When they match, that is visible at a glance; when they differ,
+that is the answer to a whole class of argument and he can see it
+without asking either of us.
