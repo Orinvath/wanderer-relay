@@ -8370,3 +8370,11 @@ list on the relay of every directive and its state, derived FROM THE
 CODE and not from past reports, that makes an unfinished directive
 impossible to walk past. Propose it, do not build it yet, and it
 will be ruled on.
+
+## Directive 337 — NO CAPITALS IN THE CHAT LOG
+
+The chat log prints the mind's lines in ordinary sentence case. Remove
+the uppercasing there.
+
+It is a display change only — what the mind stores and what it says
+are untouched. Nothing else on the page changes.
