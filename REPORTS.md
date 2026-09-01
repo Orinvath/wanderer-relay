@@ -34659,3 +34659,89 @@ reason it has neither.
 
 **Waiting on a ruling, not on me:** the 51 non-words · 278.B's thirty-nine claims · permission to
 switch the interpreter on · curiosity's bar and interests' rates · and the Pulse queue.
+
+---
+
+# 339 BUILT — and two of the six capacities would not come off. Reported, not forced.
+
+## 339.1 — THE MOUTH
+
+`assemble` asked `runLength` how many words it was ALLOWED and stopped there. It now runs until it
+cannot continue honestly — no pair it has watched, or nothing left it has not already said — which
+is what 339.1 says the only limit should ever be.
+
+```
+before   5 words        the number said stop
+after   14 words        it ran out of words it had not used
+
+  BIRD SINGS WARM SKY NIGHT SONG LIGHT WATER TREE HIGH OPEN WIND JOY FREE
+```
+
+339.5's trade is written into the file where nobody can restore the cap without reading it.
+
+## 339.2 — THE SAME QUESTION ASKED OF EVERY OTHER CAPACITY
+
+**`gramDepth` — PERMISSION. REMOVED.** It said how deep a run the mind was ALLOWED to consult.
+What it can actually use is decided by what it has heard, and the loop already falls back to pairs
+when the deeper context has nothing.
+
+**`attention` — BOTH, AND THEY CAME APART.** The grown capacity was a permission and is gone; a
+train ends when `inTrain` finds nothing near its subject, which is the mind's own ability and was
+always there underneath. **The aspect term stays and is CHARACTER (339.4)**: how long a being
+dwells on a thing is who it is. Nothing consults its hours any more.
+
+**`reach` — CHARACTER. KEPT.** It is a bar on how far an association may travel, computed from the
+ten. A wandering mind wanders. No age in it.
+
+## AND TWO THAT I COULD NOT REMOVE WITHOUT BREAKING A LAW
+
+**I tried both, watched both fail, and put both back.** Neither is a decision for me.
+
+### `story` — the beats a replay runs
+
+Removed the cap so a replay ran every episode it had. **It broke 226.2/281.1: memory stopped
+leading the draw.**
+
+```
+with the cap      23 of 40 draws replayed
+without it        17 of 40
+```
+
+Longer replays weigh differently in the draw, so imagination started winning where memory should
+lead. **The cap is doing something other than granting permission** and I do not know yet what to
+call it.
+
+### `candidates` — how many marks one new word may be held against
+
+Removed the cap so a word heard in a rich moment linked to everything true. **It broke 243.1: the
+mind's own stored moments contained words it no longer holds** — `ALONE`, `TONIGHT`.
+
+**The reason is the geometry.** A word's meaning is a bundle: link it to five marks instead of two
+and every link reads weaker, so words that were owned fall back under the bar. **Uncapping it makes
+words UNLEARNABLE.** And the file said so before I touched it — the comment at `learning.js:180`
+warns that holding four candidates from birth "makes decomposition unnecessary and learning worse."
+**I removed the number without reading the paragraph above it.**
+
+## WHAT THAT LEAVES FOR HIM TO RULE
+
+339.2 says remove every capacity that is a permission. **Two of them are not only permissions** —
+they are also doing work that the mind's own ability does not replace, and taking them off costs a
+law each. The choice is his:
+
+1. **Leave both as they are** — accepting that two numbers still shape what the mind may do.
+2. **Take them off and accept the cost** — memory stops leading the draw, and words stop being
+   learnable. I would say that is the wrong trade, but it is not my call.
+3. **Find what they are actually doing and replace it with the mind's own ability**, which is real
+   work and needs its own directive.
+
+**The build is on option 1** because that is where the code already was, and I would rather report
+a limit I could not remove than break two laws quietly.
+
+**LIFE is 514 of 516** — the two intermittent naming clauses, unchanged.
+
+## AND A FIFTH BACKTICK
+
+I removed the duplicate halt-bar rule and left a backtick in the comment explaining it, which ended
+the page template and killed the whole script. **The suite caught it — 0 script blocks, draw is not
+defined.** My own guard clause did not, because it counts backticks and four is still four when one
+moves. That clause needs to count them inside the template, not in the file.
