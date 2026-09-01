@@ -8954,3 +8954,42 @@ INTERPRETER WAS ALWAYS THE CHAT SYSTEM'S, NOT THE MIND'S — 242 built
 it outside the mind and Lonnie ordered it that way. What went INSIDE
 the mind is perception (324.B) and the voice rendering (324.C), which
 are different things and stay.
+
+## Directive 353 — FIND THE SECOND CAUSE: why binding on a thinking tick breaks the mind
+
+**THE FEATURE** — the mind learning from its own thinking (342).
+
+**WHY IT MATTERS** — Lonnie watches it think about all kinds of
+things and register none of it. Until this works, it can only learn
+as fast as somebody talks to it.
+
+**WHAT WENT WRONG** — 342 was built twice and broke the mind twice.
+One cause is known and now ruled: `trueNow` did not exist on a
+thinking tick, so an empty truth CONTRADICTED every meaning of every
+word it thought about (346 fixes that). But CC guarded it and FIVE
+CLAUSES STILL FAILED:
+
+```
+310  a full step delivers into the chat log     0 lines delivered
+311  and the mind answered the school           it did not speak
+331  a story that completes teaches             33 stories begun, none finished
+332  every lesson obeys its provenance          nothing was born
+334  the LEARNED folder says a story taught it  nothing recorded
+```
+
+Something else about binding on a thinking tick destabilises the
+SCHOOL and the STORIES, and it has not been found.
+
+**THIS IS A DIAGNOSIS, NOT A BUILD.** Change nothing.
+1. 346 is ruled and should be in place first — re-run with the real
+   `trueNow` present on every tick and report whether all five still
+   fail, some, or none. That alone may answer it.
+2. If any still fail, find WHY those five and not others. They are
+   all downstream of the school and stories: what does binding on a
+   thinking tick do to a story in progress, or to the teacher's
+   turn? Name the mechanism, with the line.
+3. Report what it was, not what fits first (320's rule, and it has
+   been repeated three times). If the answer is not found, say that
+   plainly rather than offering a theory.
+4. 342 stays unbuilt until this is answered, and the imagined-weight
+   question it raised is still open and still Lonnie's.
