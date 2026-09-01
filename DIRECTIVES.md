@@ -8781,3 +8781,30 @@ It does not, which is why 342 could not be built.
    ticks — and that its existing word links are UNTOUCHED across a
    long stretch of thinking. The vocabulary must not move by a
    single link while nobody speaks.
+
+## Directive 347 — THE CHECKS ARE PER NODE, NOT PER SYSTEM. 278.B is unblocked.
+
+**HIS RULING, plainly:** a check belongs to a NODE. One file, one
+node, one check. HEALTH counts 42, not 25.
+
+**WHY** — 276's law: a red light must name exactly ONE FILE to open,
+with no translation step. A check covering four files points at four
+places, which is the thing the law exists to prevent.
+
+**278.B IS THEREFORE BUILT NOW**, and what it needs is the 42 claims.
+They come from the Director, not from CC — 258's twenty-three came
+from Lonnie and the Director and none were invented by the builder,
+and that stands.
+
+THE ORDER OF WORK:
+1. CC posts the list: every file, the system it belonged to, and the
+   counters it already carries. Facts only, no claims written.
+2. The Director writes the 42 claims against that list and they go to
+   Lonnie for his pass, exactly as the 23 did.
+3. CC then builds one check per file, each with its forced-fail at
+   birth (254.D), and HEALTH reads 42.
+
+WHAT DOES NOT CHANGE: the existing counters keep counting what they
+count. A file whose claim is genuinely part of another's states that
+in its own header and keeps its own counters — no file shares a
+counter with another (278.B's own words).
