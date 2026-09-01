@@ -8240,3 +8240,10 @@ is, and nobody has to take anyone's word for it.
    number he can read is the answer. If it matches, the fault is
    real and is investigated as real. This is a standing rule and it
    joins CLAUDE.md.
+
+## Directive 333 addendum — where it goes
+
+The build number sits in the APP TITLE LINE — the row holding "Mind
+Emulator", LOG and TEST — placed immediately after TEST. Same line,
+same size family as its neighbours, always visible without scrolling
+or opening anything.
