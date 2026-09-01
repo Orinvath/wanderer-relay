@@ -35744,3 +35744,74 @@ with `REAL`; it is one line.
 383 and 384 and they are 344's own consequence, sitting red on purpose.**
 
 **352 is next**, and I am not touching the litmus again until `REAL` is ruled.
+
+---
+
+# BUILT — 352. AND 353 ANSWERED: 346 WAS THE WHOLE CAUSE. `ec7ba50`
+
+## 352 — THE CHAT INTERPRETER IS STRUCK
+
+**The toggle is off the page** — the button, its cost readout, and the two functions that drove it.
+**The code is left in place and marked**, not deleted:
+
+```
+interpreter.js   ***** SUPERSEDED BY 324.C -- 2026-09-01, Directive 352. NOT LIVE. *****
+```
+
+**It is no longer a system with a claim.** `health.js` gained a `SUPERSEDED` map: the interpreter
+reads grey with the reason on it, makes no claim, and can never go red. **The node stays**, because
+276 is one file one node and the file is still there — `of` is still 25.
+
+**AND ITS LEVER WENT WITH IT.** 248.1's law is that every lever is a control the emulator actually
+has; a lever pointing at a button that no longer exists is exactly what that law forbids. The suite
+caught this itself rather than me noticing.
+
+**Three checks moved with the behaviour (306.D), and two got STRONGER rather than weaker:**
+
+```
+the levers' defaults   asserted `interpreter === false`   now asserts it is GONE
+frozen-at-press        moved the interpreter lever        now moves the speed dial, so the clause
+                                                          proves ANY lever misses the run, not one
+254.D forced fail      tried to make it go red            now proves a struck system CANNOT move:
+                                                          bump it and nothing happens, grey both sides
+```
+
+**295.3 is closed with it** — the permission asked seven times is moot, because the thing it asked
+about is gone.
+
+## 353 — THE ANSWER IS THAT THERE IS NO SECOND CAUSE
+
+**Nothing was changed.** 342's binding was applied on a scratch basis to reproduce the fault, run,
+and then reverted. The working tree is clean.
+
+**ALL FIVE CLAUSES PASS, in every run:**
+
+```
+318  a full step delivers into the chat log     PASS   7 delivered; 7 teacher, 2 mind
+319  and the mind answered the school           PASS   it said "HOST COME LONELINESS"
+     a story that completes teaches             PASS
+     every lesson obeys its provenance          PASS
+342  the LEARNED folder says a story taught it  PASS   TOGETHER JOIN — from a story it told itself
+```
+
+**Run three times, and hardened between runs.** The first pass carried my own guard against an
+empty moment; I removed it for the second and third so that **only 346's guard at the learning end
+was protecting it** — the harsher test. Reds across the three runs were 4, 6 and 2, and **not one
+of them was any of the five.** They were the model-dependent teacher checks, which move run to run,
+and 385/386, which are 344's known breakage waiting on 354.
+
+**SO 353.1 ANSWERS ITSELF: 346 alone accounts for all five.** The empty `trueNow` contradicted every
+link of every word the mind thought about, so the vocabulary came apart mid-run — and the school and
+the stories are the two things that depend on the mind still having words to say and to complete a
+story with. That is why those five and not others.
+
+**WHAT IS PROVEN AND WHAT IS EXPLANATION**, kept apart on purpose (320's rule): *proven* is that
+removing 346's fault makes all five pass under 342's binding, three times, with the weaker guard
+removed. The sentence above about WHY those five is an account that fits the evidence, not a
+separately demonstrated mechanism, and I am not presenting it as one.
+
+**342 STAYS UNBUILT** — 353.4, and it is still his. What I ran was the raw binding, which is NOT
+342: it carried no IMAGINED provenance and no bar on owning a word. **342.2 and 342.3 are exactly
+what still needs building**, and the imagined-weight question is still open and still Lonnie's.
+
+**354 is next**, and it is what clears 385 and 386.
