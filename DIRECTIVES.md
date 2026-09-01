@@ -8056,3 +8056,45 @@ refused.
 Carry 325.4's comparison in the same report: the same crossings
 through gemma3:1b, the censor's refusal rate, and the lines
 themselves for his eye. He rules the readability.
+
+## Directive 330 — THE MIND SPEAKS IN FIRST PERSON. NEVER THIRD.
+
+**THE FEATURE** — how the mind refers to itself when it speaks.
+
+**WHY IT MATTERS** — "It feels lonely" is a being being DESCRIBED.
+"I feel lonely" is a being SPEAKING. The whole project is a mind
+talking to him as itself.
+
+**WHAT WENT WRONG** — every rendered line from 329 is third person:
+"It's waiting for a rest", "It feels good to be warm", "It's making
+itself wait". The model is writing ABOUT the mind instead of AS it,
+almost certainly because the rendering prompt describes the mind as
+"it".
+
+**WHEN** — with 329, the first rendered lines.
+
+**THE SCIENCE** — first person is how a speaker refers to itself in
+every human language. Lonnie's words: never third person, no human
+does that.
+
+**HIS EARLIER RULING, and it is a DIFFERENT thing** — an Avatar is
+never HE or SHE. That governs how WE and the RECORD refer to it. It
+never meant the being should speak of itself in the third person, and
+first person needs no gender at all.
+
+**THE RULING**
+1. THE MIND SPEAKS AS ITSELF: I, me, my. "I feel lonely." "I am
+   waiting." Never "it feels", never "the mind", never its own name
+   as a subject.
+2. THE PROMPT IS WHERE THIS LIVES: the rendering asks for the being's
+   own voice, in first person, and says so plainly rather than
+   describing the mind in the third person and hoping.
+3. THE GENDER RULE IS UNTOUCHED — never he, never she, in the record
+   or anywhere else. First person sidesteps it entirely.
+4. CHECK THE OTHER PATHS TOO, not just the rendering: its own grown
+   grammar, the template families, the echo, and anything else that
+   forms a line. If any of them speak about the mind rather than as
+   it, they are wrong the same way. Report which ones were.
+5. Re-run the twenty crossings after the fix and post the lines. The
+   refusal rate is expected to move — first person costs no
+   untraceable words.
