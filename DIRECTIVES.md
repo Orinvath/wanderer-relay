@@ -8682,3 +8682,28 @@ embodiment.
 PROVE IT: several runs on his being with the score and age side by
 side. Identical scores must give identical ages, and the age must be
 capable of falling.
+
+## Directive 344 addendum — what 344 must not break, and no decisions on the way
+
+Lonnie's caution: 344 changes the one number everything is judged by,
+and a change that size can force choices nobody ruled.
+
+1. PLAN FIRST (253) AND NAME WHAT IT TOUCHES before building: the
+   gauge, the run records and their history, the TEST rows, anything
+   reading `owned.size`, the teacher's word choices, and the censor's
+   word list. Say which of those move and which do not.
+2. THE OLD RUNS DO NOT GET REWRITTEN. Every logged litmus result
+   stays exactly as recorded, marked as taken under the old sampling.
+   A number measured one way is not converted to look like the other
+   — the history is evidence, not decoration.
+3. IF ANYTHING DOWNSTREAM BREAKS, STOP AND SAY SO. Do not repair it
+   with a number, a scale, a floor or a default. 250 and 341.3 both
+   apply: the moment a decision is required, post it and wait. The
+   entire fault behind 341 and 344 was a decision nobody ruled
+   quietly driving the gauge, and fixing it must not plant another.
+4. NAME EVERY NUMBER YOU HAD TO TOUCH, even ones that look
+   mechanical — sample size, how many fakes, how the frequency bands
+   are divided. Any of those that were not ruled here are OPEN and go
+   in MIND_DECISIONS.md as such (246).
+5. HIS BENCH IS THE TEST: report the age before and after on the same
+   being, and let him see the fall rather than reading about it.
