@@ -35651,3 +35651,96 @@ Both `.txt` files are now tracked explicitly. **The databases stay ignored** —
 folder was added.
 
 **344 is unblocked and is next**, in number order, ahead of 352.
+
+---
+
+# BUILT — 344, AND IT BROKE SOMETHING. I have stopped rather than patched it. `8d72579`
+
+## WHAT IS BUILT
+
+**The real half is drawn from English now, across the whole range.** Four words from each third of
+the frequency list, so a six-hundred-word mind meets words it has never heard on every run. The
+comment that used to defend the old pool — *"never from the whole language"* — is struck, quoted in
+place, and named as the fault.
+
+**And the tally is out of the gauge, which is the whole of 341 as well:**
+
+```
+was   vocabulary = round(owned.size * proven)      the tally 241 killed, still driving it
+now   vocabulary = round(ADULT_WORDS * proven)     what it PROVED, against Brysbaert's 42,000
+```
+
+`ADULT_WORDS` is read off the curve's own top anchor rather than typed in again, so the two cannot
+disagree. **Fakes are now checked against all 355,511 English words**, not just what the mind has
+met — with the real half coming from the whole language, a fake that is quietly a rare English word
+would score a right answer as a false alarm.
+
+**IT HAS A CEILING NOW, AND IT CAN FALL.** Same mind, five runs each:
+
+```
+knows      0 words  ->  score  0.0   vocab      0   age  0.00
+knows    300 words  ->  score  0.6   vocab  2,100   age  3.08
+knows  5,000 words  ->  score  3.2   vocab 11,200   age 12.27
+knows 20,000 words  ->  score  7.6   vocab 26,600   age 17.39
+knows 37,110 words  ->  score 12.0   vocab 42,000   age 20.00
+```
+
+Identical scores give identical ages — the vocabulary is a pure function of the score, so 344's
+PROVE IT holds by construction.
+
+**Old runs are untouched.** Every new run carries `sampling: 'english'`; a row without that field is
+a pre-344 run. **Nothing was converted** — the history is evidence, not decoration.
+
+## AND NOW THE PART THAT MATTERS. TWO CHECKS ARE RED AND I HAVE LEFT THEM RED.
+
+```
+383  A NEWBORN SCORES NOTHING AND READS AS AN INFANT      score 1, "about five years"
+384  A SCHOOLED MIND OUTSCORES ITS OWN NEWBORN STATE      1 -> 0, and 5.97y -> 0y
+```
+
+**THE CAUSE IS `REAL = 12`, AND IT IS ARITHMETIC, NOT A BUG.** One hit is worth `42000 / 12 = 3500`
+words. So the instrument has **thirteen possible readings in total**, and they begin:
+
+```
+score 0  ->      0 words  ->   0y
+score 1  ->  3,500 words  ->   5.97y
+score 2  ->  7,000 words  ->   9.43y
+score 3  -> 10,500 words  ->  12.27y
+```
+
+**THERE IS NO READING BETWEEN NEWBORN AND SIX YEARS OLD.** One lucky hit — and a newborn owns the
+402 marks, which ARE English words in the common band, so it will get one — throws it from 0 to
+5.97 years. That is why a schooled mind can read lower than its own newborn state: at this
+resolution the difference between them is smaller than one step of the instrument.
+
+**The whole range this project lives in cannot be expressed by the gauge.**
+
+## WHAT I DID NOT DO
+
+**I did not raise `REAL`.** 344 addendum 3: *"IF ANYTHING DOWNSTREAM BREAKS, STOP AND SAY SO. Do not
+repair it with a number, a scale, a floor or a default."* Raising the sample size is exactly a
+number, and it would be the second unruled number quietly driving the gauge — the thing 341 and 344
+exist to remove. **I did not soften the two checks either**, for the same reason: rewriting them to
+pass would hide this instead of showing it.
+
+**THE ARITHMETIC, so it can be ruled on rather than guessed at.** Resolution is `42000 / REAL`:
+
+```
+REAL =  12    one hit = 3,500 words    lowest non-zero reading  5.97y
+REAL =  24    one hit = 1,750 words                             4.20y
+REAL =  40    one hit = 1,050 words                             3.10y
+REAL =  60    one hit =   700 words                             2.70y
+REAL = 100    one hit =   420 words                             2.28y
+REAL = 200    one hit =   210 words                             1.90y
+```
+
+**That is a table of what the arithmetic gives, not a recommendation.** Nothing else in 344 changes
+with `REAL`; it is one line.
+
+**All of 344's numbers are logged OPEN in `MIND_DECISIONS.md` §6** — `REAL`, `FAKE`, and `BANDS = 3`
+— with what each one does and who it belongs to.
+
+**Suite 516 of 522.** Four are the model-dependent teacher checks that move run to run; **two are
+383 and 384 and they are 344's own consequence, sitting red on purpose.**
+
+**352 is next**, and I am not touching the litmus again until `REAL` is ruled.
