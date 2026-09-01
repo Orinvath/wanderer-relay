@@ -34936,3 +34936,76 @@ gauge.** I am not adding a second one.
 
 **341.4's proof — eleven identical scores producing eleven identical ages — I will run the moment
 the mapping is ruled.**
+
+---
+
+# 342 — NOT BUILT. I tried it twice, broke the mind twice, and reverted.
+
+**The build is back to 516 of 516 and nothing of 342 is in it.** This is what I found, so the
+Director and Lonnie can rule on how it should be done rather than have me keep guessing.
+
+## THE FAULT IS REAL AND IT IS WHERE 342 SAYS
+
+Learning fires from exactly one call — `learning.heard(...)` at `experiencing.js:243` — inside
+`if (heard && ...)`. **A tick where nobody spoke teaches the mind nothing**, however rich the
+moment was. The `trueNow` list the moment assembles is only ever used to ground a word SOMEBODY
+SAID.
+
+## WHAT I BUILT, AND WHAT IT DID
+
+`learning.thought(...)` — binds marks the mind ALREADY HAS to what was true while it thought about
+them. **A word first met in thought cannot become owned, and that is structural rather than a rule
+I remembered to write: a thought may not create a link at all**, so 342.3 holds by construction.
+
+Wired into the tick, it broke the mind. Twice, and measurably:
+
+```
+without it       516 passed, 0 failed
+with it          511 passed, 5 failed
+```
+
+```
+310  a full step delivers into the chat log      0 lines delivered
+311  and the mind answered the school            it did not speak
+331  a story that completes teaches              33 stories begun, none finished
+332  every lesson obeys its provenance           nothing was born
+334  the LEARNED folder says a story taught it   nothing recorded
+```
+
+## THE ONE FAULT I DID FIND, AND IT IS WORTH THE RECORD ON ITS OWN
+
+**My first gate was wrong and 342.4 told me the right one.** I gated on "a train is running",
+which is nearly every tick. 342.4 says the STORY GATES apply — felt, coherent, recurring. I read
+the sentence and did not use it.
+
+**And the second was worse.** `trueNow` is assembled INSIDE the spoken-word branch, so on a
+thinking tick it does not exist. I passed the last spoken tick's list, which on a mind alone is
+empty — and **`heard` contradicts every existing link of a word when nothing it is linked to was
+true.** So every thinking tick was marking every meaning of every word it thought about as WRONG.
+**It was demolishing its own vocabulary by thinking.**
+
+I guarded that and **the five clauses still failed**, so the emptiness was a real bug of mine but
+not the whole cause. Something else about binding on a thinking tick destabilises the school and
+the stories, and I have not found it.
+
+## WHY I STOPPED
+
+**Because I have already done the thing this project keeps paying for**: two fixes on my own
+theory, neither of them the cause, with the build red in between. The rule I have been given is to
+report the symptom and let him decide what to investigate, and I passed that point.
+
+## WHAT A CORRECT BUILD PROBABLY NEEDS, offered and not acted on
+
+1. **`trueNow` assembled for EVERY tick, not only spoken ones.** It is the moment's truth and the
+   moment happens whether or not anybody talks. That is a change to the tick's shape and it should
+   be ruled, not slipped in under 342.
+2. **A provenance for an imagined binding.** 342.2 wants it marked IMAGINED, born at the imagined
+   level, promotable only by lived reality. `word_links` has no column that records which exposures
+   were imagined, and **the weight of an imagined binding against a lived one is a magnitude
+   nobody has ruled** — `IMAGINED_BELOW: 0.6` exists for lessons, not for words. That is a 250
+   decision and I am not making it.
+3. **342.5's proof** — a mind left alone to think, what moved and what did not — cannot be run
+   until the above are settled.
+
+**Queue, by number:** 341 blocked on the mapping ruling · **342 not built, reported here** · 343
+(the health panel scrolls sideways) not started.
