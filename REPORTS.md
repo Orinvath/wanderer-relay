@@ -36020,3 +36020,53 @@ four counters declared in one file and RAISED IN ANOTHER, which bears on 276's o
 and 3 are yours and his.
 
 **Suite 523 of 524.** The single red is finding 1, standing where he can see it.
+
+---
+
+# BUILT — 355. FOUND, NAMED WITH THE LINE, AND PROVEN. `496c1dd`
+
+The fix itself went in ahead of this directive, on his direct ruling in the terminal (reported
+above at `cbb8775`). **355 asked for two things that report did not carry: the cause named with the
+line, and the proof at tick 1 AND tick 50. Both are here.**
+
+## 355.2 — WHAT MADE IT 1032, FOUND RATHER THAN ASSUMED
+
+```
+comprehension.js:31   const OWNED = new Set(WORDS)                        the 402 marks
+comprehension.js:55   const hit = strip(w).find((t) => OWNED.has(t))      ← THIS LINE
+                      if (hit) { matched.push(hit); continue }
+litmus.js  (354)      if (resolve(w, learned).matched.length > 0) hits++
+```
+
+**IT WAS THE 402 MARKS, AND THEIR STEMS.** `resolve` matches a mark BEFORE it ever looks at what
+the mind learned, and `matched` carries that hit. The count read `matched`, so a mind that had
+learned nothing still resolved 1,032 English words — AND, WHAT, NOT, CAN, WITH, ALL, NOW, ONE,
+COME, HOW, SEE, WHO. They are its Avatar's symbolic set (344), not English it acquired.
+
+**IT WAS NOT THE FREQUENCY LIST'S COMMON BAND**, and this is checked rather than assumed: nothing
+anywhere counts a word as known for being IN the pool — the pool is only the set of questions. With
+the marks excluded the count is now 0 while the same 37,110 words are still being asked, which is
+the proof that owning the question set was never knowing the answers.
+
+## 355.3 — THE TWO NUMBERS AGREE NOW
+
+*"understands 0 words"* was the honest one. *"scored 1032"* was the fault. The count reads
+`viaLearning` — resolve's own report of what was earned through learning — so the marks earn no
+credit while the mind still recognises them everywhere else. **`comprehension.js` is untouched.**
+
+## 355.4 — PRESSED GENERATE. THE READING:
+
+```
+tick 1     score 0   words 0   age 0.00   understands 0
+tick 50    score 0   words 0   age 0.00   understands 0
+```
+
+A real generated mind, fifty ticks of living with nobody teaching it, still zero.
+
+**AND THAT IS NOW A CHECK, not a paragraph.** Two clauses on a real mind: zero at tick 1 and at
+tick 50, and that "known" and "understands" cannot disagree. **Tick 50 is the point of it** — a
+newborn reading zero once proves less than one still reading zero after fifty ticks, because a
+number that creeps up on its own is exactly the fault 341 and 344 were both about.
+
+**Suite 523 of 526.** Two reds are the model-dependent teacher pair. **The third is 380 — the
+false-alarm proportion — still open, still unpatched, and still waiting on a ruling.**
