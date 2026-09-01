@@ -34834,3 +34834,33 @@ was not there, and the only reason I did not is that I ran it again.
 In the comment explaining 340. The suite caught it. **I said last time the guard needed to count
 backticks inside the template rather than in the file, and I did not fix it before writing more
 comments — so it happened again in the very next change.**
+
+---
+
+# ASKED FOR DIRECTLY — THE CONNECTORS ARE BRIGHTER
+
+> "can you make the brighter so they are more noticable." — "the connectors that is!"
+
+340 landed them as a pale mint against a dark wire, which did not carry across the board. **The
+whole point of lighting the connectors is that he can see at a glance which paths the mind is
+using, and a light he has to look for is not that.**
+
+Three things, because brightness alone was not going to do it:
+
+```
+colour     #a0ffd7 pale mint      ->  a near-white green
+fade       gone in under 0.45s    ->  about 0.8s, so a fast run still reads
+weight     opacity 0.75 -> 1.00   ->  jumps to fully solid the moment it lights and HOLDS there
+                                      while it is bright
+```
+
+**The weight is the one that matters most and it is a limitation worth naming:** a line has no
+width in this renderer — there is no thickness to give it — so opacity is the only weight it has.
+A lit connector now goes fully opaque immediately rather than easing up, so the difference between
+a live path and a dark one is as large as the drawing can make it.
+
+The legend swatch moved with it, so the key and the board still agree.
+
+**His eye rules whether it is enough.** If it still does not carry, the next things available are a
+brighter dark state for contrast, or drawing each connector as two overlapping lines to fake width
+— and I would rather he told me it is still too dim than have me stack tricks he did not ask for.
