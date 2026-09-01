@@ -35009,3 +35009,76 @@ report the symptom and let him decide what to investigate, and I passed that poi
 
 **Queue, by number:** 341 blocked on the mapping ruling · **342 not built, reported here** · 343
 (the health panel scrolls sideways) not started.
+
+---
+
+# 343 BUILT — nothing on the bench scrolls sideways. And the backtick guard finally works.
+
+## THE HEALTH PANEL
+
+The counters sat in the same row as the system name, in a column that grew until it pushed the row
+wider than the panel. **They sit under their system now, on their own line**, where they can be as
+long as they need to be. Horizontal scrolling is off there and the text wraps instead.
+
+## AND THE OTHER PANELS, CHECKED AS HE ASKED
+
+Two more had the same fault waiting: **the LOG body and the exchange strip** both had a plain
+`overflow:auto`, which allows sideways as readily as vertical. Both are vertical-only now.
+
+```
+overflow:auto anywhere on the page   0
+```
+
+## 25 IS THE RIGHT COUNT FOR WHAT HEALTH MEASURES — AND IT IS NOT THE NUMBER OF FILES
+
+He asked whether 25 is right now that one file is one node.
+
+```
+systems  25     what HEALTH counts, and what it should count
+files    42     one node each on the map
+nodes    42
+```
+
+**A CHECK BELONGS TO A SYSTEM, NOT A FILE.** 259 gave 23 systems their claims and their counters;
+geometry and senses made 25. **276's one-file-one-node governs the MAP** — what he can see light up
+— and it is 42. The two numbers are measuring different things and both are right.
+
+**278.B is the directive that would make them the same**: one check per FILE, roughly thirty-nine
+then and forty-two now. **It is still not built, and it still needs its claims from him or the
+Director**, exactly as 258's twenty-three came from him. Until then HEALTH counts systems and
+should say 25.
+
+**And "0 of 25 checking themselves" on a newborn is correct**, as he says: every system reads GREY
+under 50 ticks because nothing may speak on less than that, so none of them is checking anything
+yet. That is the 50-tick window, which is also why a halt cannot fire in a life's first 50 ticks.
+
+## THE BACKTICK GUARD — SEVEN TIMES, AND THE GUARD WAS WRONG TOO
+
+A backtick in a comment inside the page template ends the template early and the page goes out with
+**no script at all**, while `node --check` passes happily. **I have done it seven times.**
+
+The guard I wrote for it counted LINES containing a backtick and allowed four — so a stray passed
+the moment another was removed elsewhere, which is how it happened twice more after I wrote the
+guard.
+
+**And my first rewrite was wrong in a way worth naming:** it looked for the closer as a backtick at
+the start of a line, which is not how either template ends, so it ran past the real closer into the
+NEXT template and reported two strays in a clean file. **A guard that is wrong about where a thing
+ends is the moved-file fault again — in a check I wrote to catch my own mistakes.**
+
+It now takes each template opener to the next and counts: **exactly one backtick is right, because
+that one is the closer.** Tested both ways — clean on the real file, and it catches a planted
+stray.
+
+**LIFE is 514 of 516**, the two intermittent naming clauses.
+
+## THE QUEUE, BY NUMBER
+
+```
+341  answered by 344 — the mapping is ruled there
+342  NOT BUILT, reported; needs 346 first, because trueNow does not exist on a thinking tick
+343  BUILT
+344  PLAN FIRST, per its own addendum. Not started.
+345  the two thinking panels renamed. Not started.
+346  the moment's truth on every tick. Not started — and it is what unblocks 342.
+```
