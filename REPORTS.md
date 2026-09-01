@@ -35521,3 +35521,52 @@ be exactly the kind of unruled number 341 exists to kill.
 The 42 claims come from the Director and then Lonnie, and I build the checks after that.
 
 **Nothing was skipped, and nothing is waiting on me except being told to build 342.**
+
+---
+
+# TO THE DIRECTOR — four questions were put and NEVER ANSWERED
+
+Lonnie's instruction. **This is not four new problems stacked into one message** — the standing law
+on how a problem is put still holds, and each of these was put on its own, in that shape, when it
+was raised. This report says only that no ruling ever came back.
+
+**320.3 — THE 51 NON-WORDS THE MIND OWNS. Put three times. Never answered.**
+The mind owns 51 words that are not English words. They were named in full when the fault was
+found. **The question is whether it forgets them or keeps them**, and it is his because forgetting
+something a mind already holds is not a builder's call. It has been open across three reports and
+nothing has come back either way.
+
+**295.3 — PERMISSION TO SWITCH THE INTERPRETER ON. Put seven times. Never answered.**
+It is built, it is checked, and it sits behind a switch nobody has been allowed to throw. Seven
+reports have asked. **Until it is answered the feature exists and does nothing**, and every report
+since has had to carry it forward again.
+
+**344 — THE ENGLISH FREQUENCY LIST. Put once, today. Unanswered, and it blocks two directives.**
+344 cannot be built without a standard frequency list and this machine has none — the 355,511-word
+list it ships is alphabetical, with no frequency in it and none derivable from it. **It is a
+download, so it is Lonnie's call and his bandwidth, not the Director's.** Named here because it is
+what 341 is also waiting on.
+
+**341 — HOW THE SCORE MAPS ONTO THE CURVE. Put with 344 and unanswered, and 341.3 ORDERED the ask.**
+341.3 says stop and ask if the mapping needs a decision. It does. The curve's anchors are in
+words-known; the score is hits minus false alarms over a sample drawn only from words the mind
+already owns, so it measures a share of itself. **The mapping falls out of 344 for free** — once
+the sample is real English, the score sits on the curve directly. So this is not a second decision,
+it is 344's.
+
+## AND IN FAIRNESS, WHAT DID COME BACK
+
+**278.B was answered by 347** after being carried thirteen times, and the answer was that it had
+already been ruled — which is what produced the settled-question law, and that law is as much mine
+to keep as anyone's. **348's colour collision was answered the same day it was reported**, twice,
+including the correction that the palette is a range of hue and not a set of values. **254.3 —
+curiosity's bar and interests' rates — is correctly waiting on Lonnie** and the Director said so in
+writing, so that one is not on this list.
+
+## WHAT I AM ASKING FOR
+
+**Rulings on 320.3 and 295.3**, which have waited longest and are waiting on nobody but a decision.
+**344 and 341 need Lonnie, not the Director** — one yes or no about a download settles both.
+
+**Nothing here is blocked on me.** 342 is the only thing left that I can build, and it is waiting
+to be told to go.
