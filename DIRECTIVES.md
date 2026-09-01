@@ -8629,3 +8629,56 @@ shows "only 2 ticks lived; 50 is the least this can speak on". That
 is a newborn behaving correctly, not a fault — but say plainly in
 the report whether 25 is the right count now that one file is one
 node (276/278).
+
+## Directive 344 — THE MIND'S LANGUAGE IS ENGLISH AT FULL SCALE. The 402 are the Avatar's.
+
+**THE FEATURE** — the litmus: what pool it draws real words from, and
+therefore what the gauge measures.
+
+**WHY IT MATTERS** — it is the one number he steers by, and it has
+never been able to fall. 341 found the gauge reading a tally; CC then
+found the deeper fault and stopped as ordered.
+
+**WHAT WENT WRONG** — the litmus draws its real words from what the
+mind ALREADY OWNS (`owned + heard`). It can only confirm what the
+mind claims and can never discover what it does not know, so a
+perfect score is the expected result — his eleven identical runs
+exactly. There is no ceiling in the instrument.
+
+**WHEN** — since 241. The sampling pool was never specified, so the
+gap is the Director's.
+
+**THE SCIENCE** — spot-the-word works by sampling ACROSS A WHOLE
+VOCABULARY RANGE, including words above the taker's level. That is
+what gives it a ceiling and lets a score fall. Sampling only from
+what someone already knows measures nothing (Brysbaert et al.
+PMC4965448 — about 42,000 lemmas by age 20; Baddeley's battery).
+
+**HIS RULING, and it settles a confusion the Director was carrying**
+— THE 402 GLYPHS ARE THE AVATAR'S SYMBOLIC SET, NOT THE MIND'S
+LIMIT. The Mind Emulator is universal; its language is ENGLISH AT
+FULL ADULT SCALE, about 42,000 words. The marks belong to one
+embodiment.
+
+**THE RULING**
+1. THE LITMUS DRAWS ITS REAL WORDS FROM A STANDARD ENGLISH FREQUENCY
+   LIST, ACROSS THE WHOLE RANGE — common words a toddler holds,
+   mid-frequency words, rare adult ones — shuffled with pronounceable
+   fakes as now.
+2. THE SCORE IS WHAT SHARE OF ADULT ENGLISH IT HOLDS, read onto the
+   curve, with the ceiling at about 42,000. A mind owning six hundred
+   words scores low and honestly, with room to climb for years.
+3. A MIND THAT CLAIMS WORDS IT CANNOT DEMONSTRATE SCORES WORSE. False
+   alarms still subtract. The number can now go DOWN, which is what
+   makes it a measurement.
+4. THE COST IS ACCEPTED AND EXPECTED: the age on his bench will fall
+   immediately. The old number was the tally.
+5. SAY WHICH LIST and that it SHIPS WITH THE BUILD rather than being
+   fetched, as 320.1 required of the censor's word list. If the same
+   list serves both, say so.
+6. NOTHING ELSE CHANGES: hits minus false alarms, the log-scale
+   curve, the run history, and the litmus never running through the
+   interpreter (242.4).
+PROVE IT: several runs on his being with the score and age side by
+side. Identical scores must give identical ages, and the age must be
+capable of falling.
