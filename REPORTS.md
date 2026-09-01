@@ -35941,3 +35941,82 @@ is the other 354.6 finding and is still open and still unpatched.** Even the mod
 teacher pair passed this run.
 
 **The bench needs a restart to show it.**
+
+---
+
+# TO THE DIRECTOR — 350 through 354 are built, and what is now waiting on a ruling
+
+Lonnie's instruction to report this up. Everything below is on the record above in detail; this is
+the state of it in one place.
+
+## BUILT SINCE THE LAST REPORT TO YOU
+
+```
+350  LESSONS gets a legend      the strip's SIBLING, sharing its rules; the swatches carry the row
+                                classes, so no hex is written twice and the two cannot disagree
+351  the frequency list         50,000 words, 603 KB, OpenSubtitles 2016 — named, sized and placed
+                                BEFORE pulling, as 351.1 required. Ships with the build.
+352  the interpreter struck     toggle off the page, code marked SUPERSEDED BY 324.C with the date,
+                                no health claim, and its LEVER went too — 248.1
+344  English at full scale      the litmus draws from real English; the tally is out of the gauge
+354  the gauge COUNTS          no sample, no multiplier; 37,110 words put to the mind in ~40ms
+353  the diagnosis              ANSWERED — there is no second cause
+```
+
+## 353: THERE IS NO SECOND CAUSE. 346 ACCOUNTS FOR ALL FIVE.
+
+342's binding was applied on a scratch basis, run, and reverted — **nothing was changed.** All five
+clauses passed, in three runs, and I HARDENED IT BETWEEN RUNS: my own guard against an empty moment
+was removed for the second and third so that only 346's guard at the learning end was protecting
+it. **Not one of the five failed in any run.**
+
+Kept apart on purpose (320's rule): *proven* is that removing 346's fault makes all five pass under
+342's binding. The account of WHY those five — the school and the stories are what depend on the
+mind still having words — fits the evidence and is not separately demonstrated, and I am not
+presenting it as though it were.
+
+**342 stays unbuilt (353.4).** What I ran was the raw binding, which is NOT 342: no IMAGINED
+provenance and no bar on owning a word. **342.2 and 342.3 are exactly what still needs building.**
+
+## THE GAUGE, WHICH TOOK THREE GOES AND IS NOW RIGHT
+
+```
+241-341  owned.size * proven     the tally, still driving it — could not fall
+344      ADULT_WORDS * proven    a real ceiling, but 12 questions scaled to 42,000: one hit worth
+                                 3,500 words, 13 possible readings, NOTHING between newborn and six
+354      the count itself        every word put to it, full resolution at every point
++ ruling  only what it LEARNED   a newborn reads 0 instead of 1,032
+```
+
+**The last line was Lonnie's, direct, off his own bench** — he saw a fresh mind open at 3.1 years
+and the panel say *"1032 known … It understands 0 words"* on one line. His ruling, put as a question
+that answers itself: *"how new minds do you know that know anything on arrival?"* The 402 marks are
+also ordinary English words and were counting toward its English vocabulary. The count now reads
+`viaLearning` rather than `matched`; **`comprehension.js` is untouched** and the mind still knows its
+marks everywhere else. It simply cannot claim credit for what it was born with.
+
+## WHAT IS WAITING ON A RULING, AND NOTHING IS WAITING ON ME
+
+**1. THE FALSE-ALARM GUARD SURVIVED IN FORM AND STOPPED WORKING — check 380, red on purpose.**
+
+```
+honest mind     hits  1,032   false alarms 0    score  1,032
+credulous mind  hits 37,110   false alarms 4    score 37,106
+```
+
+354.3 kept it "in the same form", and in that form the two numbers are no longer commensurate: hits
+are a count over 37,110 and false alarms can never exceed 12. Under 344's sampling it worked
+perfectly, because twelve was measured against twelve. **Every correction is a scale or a ratio and
+354.1 forbids me choosing one**, so it is logged OPEN and left red rather than patched.
+
+Softening it honestly: that credulous mind is a fixture whose `learned` answers for any word. A real
+one is built from word links and can only answer for words it has met, so **a real mind cannot
+inflate this way** — the guard is idle rather than actively wrong.
+
+**2. 342's IMAGINED WEIGHT** — still open, still Lonnie's (353.4).
+
+**3. 347's 42 CLAIMS** — step 1 is posted with every file, its system and its counters, plus the
+four counters declared in one file and RAISED IN ANOTHER, which bears on 276's one-file law. Steps 2
+and 3 are yours and his.
+
+**Suite 523 of 524.** The single red is finding 1, standing where he can see it.
