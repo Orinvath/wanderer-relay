@@ -9039,3 +9039,44 @@ printed in the same panel. There is nothing to estimate.
 6. THE TWO RED CHECKS (383, 384) ARE NOT SOFTENED. They should pass
    because the instrument now has resolution — if either still
    fails, that is a real finding and it is reported, not patched.
+
+## Directive 355 — A NEWBORN READS ZERO
+
+**THE FEATURE** — the language age of a mind at birth.
+
+**WHY IT MATTERS** — it is the baseline of every experiment. A
+newborn that reads three years old makes every later reading
+meaningless.
+
+**WHAT WENT WRONG — his screen, a fresh mind, 57 ticks:**
+```
+3.1 years — 1032 known, 0 claimed that were not words.
+It understands 0 words.
+VOCABULARY 0 / 50      last run at tick 1 · scored 1032
+```
+It scored 1032 while owning NOTHING. The count is not coming from
+what the mind has learned. The likely source is the 402 marks and/or
+the common band of the frequency list being counted as known at
+birth, but FIND IT — do not assume.
+
+**WHEN** — with 354, the first run of the direct count.
+
+**HE HAS RULED, twice** — 323: a newborn carries nothing of any
+earlier life and every reading is birth. 354.2: a word counts only
+when the mind can DEMONSTRATE it, and one it claims but cannot
+resolve does not count.
+
+**THE RULING**
+1. A NEWBORN READS 0.00 YEARS AND 0 WORDS. Nothing it was born with
+   counts as something it learned.
+2. FIND WHAT MADE IT 1032 and name it, with the line. If the 402
+   marks are being counted, they are its Avatar's symbolic set (344)
+   and are not English words it learned. If the frequency list's
+   common band is being counted, nothing about owning the list is
+   knowing the words.
+3. 354.2 GOVERNS: only what it can demonstrate counts, and
+   "understands 0 words" and "scored 1032" cannot both be true on the
+   same screen. Whichever of those two numbers is honest, the other
+   is the fault.
+4. PROVE IT: press GENERATE and post the reading. It must be 0.00,
+   0 words, on the first tick and on the fiftieth.
