@@ -8914,3 +8914,25 @@ TELLER, each with its swatch, in the same style as the THOUGHTS
 strip's legend so the two read as siblings rather than as rivals.
 
 Nothing else on the panel moves.
+
+## Directive 351 — DOWNLOAD THE FREQUENCY LIST (344 unblocked)
+
+Approved. 344 needs a standard English frequency list and this
+machine has none — the 355,511-word list it ships is alphabetical
+with no frequency in it.
+
+1. FETCH A STANDARD ENGLISH FREQUENCY LIST. Say which one, its size,
+   and where it lands BEFORE pulling, as 325.2 required of the model.
+   It must be small and it must SHIP WITH THE BUILD thereafter, never
+   fetched at runtime (320.1's rule for the censor's word list).
+2. IT SERVES THE LITMUS: real words drawn across the whole frequency
+   range — common words a toddler holds, mid-frequency, rare adult
+   ones — shuffled with fakes as now (344.1).
+3. IF THE SAME LIST CAN SERVE THE CENSOR'S is-this-a-word test, say
+   so and use one list rather than two.
+4. 341's mapping question is CLOSED and needs no separate ruling —
+   CC's own reading is right: once the sample is real English drawn
+   across the range, the score sits on the curve directly. It was
+   344's decision all along.
+5. 320.3 IS ALSO CLOSED: the 51 non-words died with the being that
+   owned them. He generated a new mind and the question is moot.
