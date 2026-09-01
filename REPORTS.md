@@ -34433,3 +34433,84 @@ proof question would pass on nothing exactly as the moved-file checks did. **It 
 judgement — it makes my judgement checkable**, which is the most that can be automated here.
 
 **LIFE is 516 of 516.** Queue: 334 (the whole-app audit) is next by number and not started.
+
+---
+
+# FOR RULING — THE PULSE HAS A QUEUE, AND LONNIE DID NOT ORDER ONE
+
+**Nothing has been changed. This is for the Director and the team to rule on.**
+
+## WHAT HE SAID, IN HIS OWN WORDS
+
+> "The pulse is the timer so I can see where the thought is in realtime. That has always been
+> stated."
+
+> "I did not order a que at all."
+
+## WHERE THE QUEUE CAME FROM
+
+**Directive 283.A.2, and I built it literally:**
+
+> "It must be VISIBLE TO A HUMAN EYE: a hand-off's travel takes long enough to follow. If the mind
+> runs faster than the eye, **the Pulse walks the real hand-offs in real order at a followable rate
+> and the queue depth is shown** — never skipped, never faked, never parallel."
+
+That sentence orders three things at once: a followable rate, a queue when the mind outruns it, and
+a depth readout. **298 then moved that readout to its own place on the dial row**, which made the
+queue a permanent, visible part of the instrument.
+
+**So the queue is on the relay in writing, and it is not his.**
+
+## WHY IT MATTERS — THE TWO READINGS CANNOT BOTH HOLD
+
+**HIS READING: the Pulse is a TIMER.** Its position is where the thought is, now. A light showing
+where the mind *was* forty hand-offs ago cannot tell him where it *is*, which is the one job he
+built the map for. He watched it after a halt today and saw it keep moving over a frozen mind —
+correct under 283, useless under his reading.
+
+**283's READING: the Pulse is a COMPLETE RECORD, walked.** Every real hand-off, in real order,
+never skipped — so when the mind outruns the eye it necessarily falls behind, and the backlog is
+shown honestly rather than hidden.
+
+**They are not reconcilable at speed.** Either it shows the present and loses hand-offs it could
+not walk in time, or it shows all of them and runs behind. There is no third option once the mind
+emits faster than an eye can follow.
+
+## AND 270.B RULES OUT THE OBVIOUS COMPROMISE
+
+> "THE PULSE MOVES ONLY ON A REAL EMITTED HAND-OFF ... **No timers**, no loops, no scripted order,
+> no invented steps."
+> "NO EVENT = NO MOTION. Idle, paused, sleeping, between ticks: the map is STILL."
+
+So it cannot be driven by a clock, and it cannot animate a plausible path between two real points.
+**Whatever is ruled has to be built out of real hand-offs only.**
+
+## WHAT I ALMOST DID, AND DID NOT
+
+He corrected me twice in this exchange and both times I was about to act on a misreading:
+
+1. I told him the queue was **by design and correct**, then offered to make the Pulse skip — which
+   283 forbids in as many words. **He told me to read the directives, and they said the opposite of
+   what I was about to build.**
+2. I then said the queue "isn't a deviation, it's exactly what you ordered." **It is not what he
+   ordered.** It is what 283 says, and 283 is the Director's text.
+
+**Nothing was changed. The Pulse is exactly as it was.**
+
+## THE OPTIONS, PLAINLY, FOR THE RULING
+
+1. **THE PULSE IS THE PRESENT.** It sits at the most recent hand-off. When the mind outruns the
+   eye, intermediate hand-offs are not walked — they still happened, they are still in the trace,
+   and the map simply does not draw every one. Skipping becomes lawful and 283.A.2 is amended.
+   *Cost:* the map stops being a complete record of the path.
+2. **THE PULSE IS THE RECORD.** As built. It never skips and the backlog is shown.
+   *Cost:* it is not a real-time instrument at speed, which is what he says it was always for.
+3. **BOTH, SEPARATELY.** The live light shows the present; the walked path stays available to
+   replay a tick deliberately — 270.B.4 already asks for exactly that as a proof ("single-step one
+   tick — the walked path posted beside that tick's log").
+   *Cost:* two things where there was one, and a control to choose between them.
+
+**A note on the halt he watched:** after the mind froze, the light kept moving for a few seconds
+while it finished hand-offs that had genuinely happened before the freeze. Under 283 that is
+correct behaviour. Under his reading it is the instrument lying about the present at the exact
+moment he most needs it to be true.
