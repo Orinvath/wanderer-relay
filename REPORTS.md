@@ -35609,3 +35609,45 @@ and it means no draw can ever present junk as a real English word.
 
 **Pulling now. The intersection count goes in the next report** — if it comes back too small, this
 is the wrong list and I will say so rather than build on it.
+
+---
+
+# 351 — PULLED. `42883ed` And it found something that was never true.
+
+```
+LANDED   server/data/english-frequency.txt   617,165 bytes, 50,000 lines
+SHAPE    "word count", commonest first: you 22484400 / i 19975318 / the 17594291
+```
+
+**THE INTERSECTION IS HEALTHY**, which was the thing I said I would check before building on it:
+
+```
+frequency list                        50,000
+censor's word list                   355,511
+IN BOTH — the usable pool             37,449
+dropped because they are not words    12,551
+```
+
+And the range is real, sampled straight out of the filtered pool:
+
+```
+commonest   you · the · to · it · and
+middle      defends · spotting · nursed · unintelligible · bulldozer
+rarest      theyll · moulds · headsets · miniseries · unglued
+```
+
+**One limitation, named now rather than found later:** the pool is 37,449 words and the curve's top
+anchor is 42,000 words known at twenty. The litmus SAMPLES and scales, so it does not need to
+enumerate the ceiling — but a mind cannot be shown a word rarer than the 37,449th, and if the gauge
+ever needs to read above that anchor honestly, this is the line that will be in the way.
+
+## AND THE THING IT FOUND: `server/data/` IS GITIGNORED, so the censor's word list WAS NEVER IN THE REPO
+
+`data/` is in `.gitignore` — correctly, to keep the databases out — and it was silently swallowing
+the word list too. **320.1 says that list ships with the build. It did not.** It has existed only
+on this machine's disk since the day it was added; a fresh clone had no word list at all.
+
+Both `.txt` files are now tracked explicitly. **The databases stay ignored** — nothing else in that
+folder was added.
+
+**344 is unblocked and is next**, in number order, ahead of 352.
