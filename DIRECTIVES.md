@@ -8993,3 +8993,49 @@ SCHOOL and the STORIES, and it has not been found.
    plainly rather than offering a theory.
 4. 342 stays unbuilt until this is answered, and the imagined-weight
    question it raised is still open and still Lonnie's.
+
+## Directive 354 — COUNT WHAT IT CAN DEMONSTRATE. NO SAMPLING.
+
+**THE FEATURE** — the gauge: how the language age is arrived at.
+
+**WHY IT MATTERS** — it is the one number he steers by, and it has
+spent this whole project either unable to fall (the tally) or unable
+to resolve (the sample).
+
+**WHAT WENT WRONG** — 344 gave the gauge a real ceiling and made it
+able to fall, and it works. But it SAMPLES: twelve real words scaled
+against 42,000, so one hit is worth 3,500 words, there are thirteen
+possible readings in total, and NOTHING EXISTS BETWEEN NEWBORN AND
+SIX YEARS OLD. A newborn owning the 402 marks gets one hit and reads
+5.97 years. The whole range this project lives in cannot be
+expressed.
+
+**HIS RULING, and it is the right one** — SAMPLING IS FOR PEOPLE. You
+cannot ask a human 42,000 questions, so you ask twelve and multiply.
+THIS MIND IS NOT A PERSON AND THE COUNT IS RIGHT THERE — it is
+printed in the same panel. There is nothing to estimate.
+
+**THE RULING**
+1. THE GAUGE COUNTS THE WORDS THE MIND CAN DEMONSTRATE. Not a
+   sample, not an estimate, not a multiplier. The number is what it
+   can actually show it knows.
+2. WHAT "DEMONSTRATE" MEANS is the one thing that must be defined,
+   and it is the whole reason the test existed: a word counts when
+   the mind resolves it — the same resolution comprehension uses —
+   and a word it claims but cannot resolve DOES NOT COUNT. That is
+   how the number stays honest and how it can still fall, with no
+   sampling anywhere.
+3. THE FALSE-ALARM GUARD SURVIVES IN THE SAME FORM: a mind that
+   resolves nonsense is resolving nonsense, and that subtracts. Keep
+   the fakes as a check on the mind, not as a sample of the language.
+4. THAT COUNT GOES ON THE CURVE directly — words known against
+   Brysbaert's words-by-age anchors, ceiling at about 42,000. A
+   six-hundred-word mind reads what six hundred words reads, with
+   full resolution at every point.
+5. WHAT 344 KEEPS: the ceiling, the ability to fall, `ADULT_WORDS`
+   read off the curve's own anchor, old runs untouched and marked by
+   their sampling. What goes: the twelve-word sample and the
+   multiplier.
+6. THE TWO RED CHECKS (383, 384) ARE NOT SOFTENED. They should pass
+   because the instrument now has resolution — if either still
+   fails, that is a real finding and it is reported, not patched.
