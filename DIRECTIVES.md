@@ -8209,3 +8209,34 @@ in the report exactly as the mind hears them.
    the report that CORRECTNESS OF USE IS NOT ENFORCED and cannot be
    by any check we have. Lonnie's eye is the only test for it, so
    the report prints the lines for him every time.
+
+## Directive 333 — THE BUILD NUMBER IS ON THE PAGE
+
+**THE FEATURE** — knowing which version of the emulator is on his
+screen.
+
+**WHY IT MATTERS** — this has already cost real time. Several times
+CC or the Director has answered a fault he found by suggesting he was
+looking at an older build, when he had restarted specifically to
+confirm he was not. That claim ends here: the page will say what it
+is, and nobody has to take anyone's word for it.
+
+**THE RULING**
+1. THE PAGE DISPLAYS THE COMMIT it was served from — the short hash,
+   plainly visible, not in a tooltip and not in fine print. It is
+   read from the repository at serve time, never typed by hand and
+   never cached.
+2. IT MATCHES THE RELAY. When a report says "fixed in a1b2c3d", he
+   can read a1b2c3d on his own screen or he cannot, and that settles
+   it.
+3. IT SAYS WHEN IT WAS SERVED — the time the process started — so a
+   page left open overnight cannot pretend to be current.
+4. IT COVERS THE MIND TOO, not only the page: if the server can be
+   running different code than the page was built from, show both and
+   name them, so "the page is new but the server is old" is visible
+   rather than argued.
+5. NEITHER OF US MAY EVER AGAIN ANSWER A FAULT HE REPORTS BY
+   SUGGESTING HE IS ON AN OLD BUILD. If the build is in question, the
+   number he can read is the answer. If it matches, the fault is
+   real and is investigated as real. This is a standing rule and it
+   joins CLAUDE.md.
