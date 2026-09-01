@@ -8610,3 +8610,22 @@ and never wired for words or associations.
 5. PROVE IT: a mind left alone to think for a stretch — what moved,
    what did not, and that nothing it merely thought about crossed
    into owned or into confirmed belief.
+
+## Directive 343 — THE HEALTH PANEL NEVER SCROLLS SIDEWAYS
+
+The HEALTH panel has a horizontal scrollbar and its counter rows run
+off the right edge. Nothing on this page should ever scroll sideways
+— a fault he cannot see is a fault he does not know about, which is
+the whole purpose of that panel.
+
+Fix it so the content fits the width: the counters wrap under their
+system rather than running off, or sit on their own line beneath the
+claim. Vertical scrolling is fine. HORIZONTAL SCROLLING IS NOT, here
+or anywhere else on the bench — check the other panels for the same
+fault while you are in there and name any you find.
+
+Note it also says "0 of 25 checking themselves" while every system
+shows "only 2 ticks lived; 50 is the least this can speak on". That
+is a newborn behaving correctly, not a fault — but say plainly in
+the report whether 25 is the right count now that one file is one
+node (276/278).
