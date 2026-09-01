@@ -34057,3 +34057,63 @@ bigger mind will say so.**
 
 **Nothing is changed on the strength of this.** The build is on gemma3:1b as 327 ruled, one line
 in `config.js` moves it, and his eye rules the lines.
+
+---
+
+# 330 BUILT — it speaks as itself, and the refusal rate more than tripled
+
+## THE LINES
+
+```
+I want someone to come here.
+I feel glad to wait.
+I wait for rest.
+I feel fear alone.
+I feel glad to be waiting.
+Wait, I feel calm.
+I feel glad to wait for warm light.
+I feel curiosity about what it is.
+I feel calm because of the wind.
+```
+
+**Every one first person. Not one "it feels".**
+
+## AND THE NUMBER MOVED FAR MORE THAN EXPECTED
+
+```
+before 330    3 / 20 passed   (15%)
+after  330   10 / 20 passed   (50%)
+third person  0 of 10
+```
+
+**330.5 said the rate was expected to move because first person costs no untraceable words. It
+more than tripled**, and the reason is worth having on the record: asked to write ABOUT the mind,
+the model needed a subject and a way to refer to it, so it reached outside the record to find one —
+and every reach was refused. **Asked to speak AS the mind, "I" is free.** It costs no traceable
+word, so the whole sentence can be built from what the mind actually said.
+
+**The third-person prompt was not only wrong about voice. It was making the mind mute half again
+as often as it needed to be.**
+
+## 330.4 — THE OTHER PATHS, CHECKED
+
+**Only the rendering prompt was wrong.** Named, one by one:
+
+- **The template families were already first person** and always have been: `I'm feeling lonely.`
+  · `There's loneliness in me right now.` · `My competence is low.` · `I'm alright.` Nothing to fix.
+- **Its own grown grammar** assembles from its own marks and owned words — no pronouns at all, so
+  no person to get wrong.
+- **The echo** says a word back and adds nothing.
+- **The page's "did" notes** — *"said where it is"*, *"greeted you"* — ARE third person and are
+  **correct**: 245 rules those are the PAGE's description of an act in the page's own voice,
+  deliberately set apart and dimmed, never printed as the mind's speech. Making those first person
+  would put my words in its mouth, which is the fault 245 exists to stop.
+
+**So one path was wrong, and it was the one that had just been built.**
+
+## 330.3 — THE GENDER RULE IS UNTOUCHED
+
+Never he, never she, anywhere. First person sidesteps it entirely — I, me and my carry no gender —
+and that is written into the file beside the change so the two rulings are not confused later.
+
+**LIFE is 516 of 516.** Commit `e4b9a6e`.
