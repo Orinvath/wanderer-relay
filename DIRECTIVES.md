@@ -8349,3 +8349,24 @@ this class of miss is not an audit, and 334 is now running on the
 same method. If the answer is that "built" was taken from the
 report rather than from the code, say so plainly and 334 must be
 run against THE CODE, not against what was previously claimed.
+
+## Directive 336 addendum 2 — this is a LAW that was broken, not a lapse
+
+To be plain: the in-order law is a STANDING LAW (relay, and
+CLAUDE.md). It says the lowest-numbered unfinished directive is
+always next, nothing is skipped, a blocked one holds the queue, and
+EVERY REPORT NAMES THE QUEUE — completed, next by number, anything
+blocked with the reason.
+
+292.2 was skipped, then reported built, then survived an explicit
+audit for skipped and unfinished work, while directives up to 333
+were being completed on top of it. That is the law broken at every
+one of its four clauses.
+
+The report therefore does not stop at "why 292.2". It answers: WHAT
+MAKES THE LAW ENFORCEABLE? A law that depends on remembering to
+follow it has already failed here. What is needed is a check — a
+list on the relay of every directive and its state, derived FROM THE
+CODE and not from past reports, that makes an unfinished directive
+impossible to walk past. Propose it, do not build it yet, and it
+will be ruled on.
