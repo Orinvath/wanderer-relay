@@ -35436,3 +35436,41 @@ map must agree, and no colour in this panel may be any colour in the strip. Both
 
 **The page changed, so the bench needs a restart to show it.** If either still reads too near its
 neighbour on his screen, say which and I will take it deeper again.
+
+---
+
+# 349 — THE COOL PALETTE. Nothing repainted, and the rule is in CLAUDE.md. `490bc01`
+
+**NO COLOUR CHANGED.** His two corrections, both of which were mine to get wrong:
+
+1. **The seven swatches are references to a RANGE, not the colours to use.** I read them as exact
+   values and had started swapping the LESSONS pair onto them. Reverted before it was committed —
+   the bench never held that version.
+2. **THE RANGE IS HUE ONLY. Value and saturation are not defined by it.** So "watercolour, not
+   neon" is about which colours, not how bright they are.
+3. **It governs anything NEW.** His words: "everything is fine, that is for anything new." Nothing
+   already on the page moves for 349, and I did not touch it.
+
+**AND WHAT IS ALREADY ON THE BENCH IS INSIDE THE RANGE**, measured rather than assumed:
+
+```
+HIS SEVEN, as hue                    THE LESSONS PANEL NOW
+muted purple  #8f6fa8   274°         lived    #1f5bff   224°   on the palette's blue, 222°
+indigo        #5a5aa0   240°         story    #7d1fd4   271°   on its muted purple, 274°
+blue          #4a6fc4   222°         teller   #c9b3ff   257°   between indigo and muted purple
+steel blue    #3f86ab   201°
+teal          #2f8f86   174°         The range runs 79° to 274°.
+green         #4f9a5c   130°         All three sit inside it.
+yellow-green  #9fbf5a    79°
+```
+
+So 348's pair needed no revision — it was already drawn from his range, which is what the Director
+said it was.
+
+**THE RULE IS NOW STANDING LAW IN `CLAUDE.md`**, which is the only part of 349 that had anything to
+build: the range as hue, the 79°–274° span, the instruction to name which two swatches a value sits
+between and post it for his eye, that he is the only test for whether two colours read alike, and
+349.2's two exceptions written out — RED for a failing check and the halt, and the Core's 22-hue
+feeling scale.
+
+**Suite untouched — no code changed, only the rulebook.**
