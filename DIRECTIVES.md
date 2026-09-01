@@ -8326,3 +8326,26 @@ for it."
 in-order law: report why it was passed over, because a directive that
 is skipped silently is the fault 293 taught this project three times
 over.
+
+## Directive 336 addendum — it survived a direct audit for skipped work
+
+Lonnie's point, and it is the heavier one:
+
+292.2 was not merely skipped. It survived AFTER he ordered a check
+for skipped and unfinished directives, and AFTER the in-order law
+(no directive is started until every earlier one is complete, and
+every report names the queue). It was reported as built, it was
+audited for, and it is not in the code.
+
+So the report answers two questions, not one:
+1. Why was 292.2 passed over when it was ordered?
+2. Why did the audit for skipped work not find it — what did that
+   audit actually examine, and what would have had to be examined to
+   catch a directive that was reported built and was not in the
+   code?
+
+The second matters more than the first. An audit that cannot catch
+this class of miss is not an audit, and 334 is now running on the
+same method. If the answer is that "built" was taken from the
+report rather than from the code, say so plainly and 334 must be
+run against THE CODE, not against what was previously claimed.
