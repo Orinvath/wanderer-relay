@@ -35474,3 +35474,50 @@ between and post it for his eye, that he is the only test for whether two colour
 feeling scale.
 
 **Suite untouched — no code changed, only the rulebook.**
+
+---
+
+# AUDIT — every directive since the last one, checked in the CODE
+
+He asked whether everything on the list is built. Checked by asking one code question per
+directive, not by looking for mentions — that is the mistake the last audit was rebuilt to avoid.
+
+```
+339  the mouth uncapped        BUILT   the cap variable is gone entirely; the loop is
+                                       `for (let i = 1; ; i++)` and breaks when options run out
+340  lit connectors            BUILT   WIRE_LIT / WIRE_FADE exist, each wire owns its material,
+                                       and it fades on the clock rather than travelling
+343  health never scrolls      BUILT   ZERO `overflow:auto` anywhere on the page; the counters
+                                       wrap under their system
+345  the two panels named      BUILT   the strip carries THOUGHTS, the panel is LESSONS with
+                                       Thoughts as its tooltip
+346  truth on every tick       BUILT   `happening.trueNow` is assembled outside the speaking
+                                       branch, and the learning end refuses an empty moment
+348  the LESSONS colours       BUILT   lived #1f5bff, story #7d1fd4, the strip untouched
+349  the cool palette          BUILT   nothing repainted, by his ruling; the range is standing
+                                       law in CLAUDE.md
+```
+
+**AND THE THREE THAT ARE NOT BUILT, each for a named reason rather than because it was missed:**
+
+**342 — NOT BUILT BY ORDER.** 346.4: "342 stays unbuilt and follows after." 346 is now in, so it
+is unblocked and waiting to be told to go. There is nothing of 342 in the mind — I checked; the
+only hit is the word `342` inside a comment explaining why 346 exists.
+
+**344 — PLANNED, BLOCKED.** It needs a standard English frequency list. This machine has a
+355,511-word list that is ALPHABETICAL, with no frequency in it and none derivable from it, so the
+list would have to be downloaded and that is his call and his bandwidth.
+
+**341 — BLOCKED ON THE SAME THING, and the reason is 341.3 itself.** 341 says read the age from
+the score against the words-by-age curve, and STOP AND ASK if the mapping needs a decision. **It
+does, and the decision is 344's.** The curve's anchors are in words-KNOWN; the score is hits minus
+false alarms over a SAMPLE. Today that sample is drawn only from words the mind already owns, so
+"12 out of 12" means it knows twelve of its own twelve — a share of itself, which cannot be placed
+on a curve that runs to 42,000 adult words. **Once the sample is drawn across real English, the
+score maps to the curve directly and 341 is a small change.** Until then any mapping I picked would
+be exactly the kind of unruled number 341 exists to kill.
+
+**347 — STEP 1 DONE, STEPS 2 AND 3 ARE NOT MINE.** The 42 files with their counters are posted.
+The 42 claims come from the Director and then Lonnie, and I build the checks after that.
+
+**Nothing was skipped, and nothing is waiting on me except being told to build 342.**
