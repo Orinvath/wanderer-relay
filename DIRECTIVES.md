@@ -8378,3 +8378,51 @@ the uppercasing there.
 
 It is a display change only — what the mind stores and what it says
 are untouched. Nothing else on the page changes.
+
+## Directive 338 — THE HALT MUST ACTUALLY HALT, AND HE MUST NOT BE ABLE TO MISS IT
+
+**THE FEATURE** — what happens when a system's check goes red.
+
+**WHY IT MATTERS** — the halt exists so the mind freezes at the tick
+it broke and the evidence is there to look at. He has asked for this
+SEVERAL TIMES and it has never halted on his screen.
+
+**WHAT WENT WRONG** — 293 was built, but on his bench the mind keeps
+running when a light is red: the chat continues, the Pulse keeps
+walking, the Core keeps beating. And the banner is at the very top of
+the page, where he never is — he works scrolled down and cannot see
+it.
+
+**THE RULING — TWO PARTS. THE FIRST IS THE ONE THAT MATTERS.**
+
+### A. EVERYTHING STOPS. FUNCTIONALLY, NOT VISUALLY.
+On the first red, EVERY function freezes at that tick:
+- the tick loop stops. No moments, no decay, no consolidation, no
+  writes;
+- the school stops. No teacher line, mid-story or not;
+- the chat stops. Nothing is answered;
+- the Pulse stops walking, because no hand-offs are being emitted —
+  it stops because nothing is happening, not because the display was
+  told to freeze;
+- the Core stops beating, for the same reason;
+- any running test stops and its row is marked HALTED · INVALID
+  (293.4).
+FREEZE THE FUNCTIONS AND THE DISPLAY FOLLOWS ON ITS OWN. Do not
+freeze the display and leave the mind running — that is the fault he
+is looking at. If any of these keep going, name which and why in the
+report.
+
+### B. HE MUST NOT BE ABLE TO MISS IT
+- A RED BAR ACROSS THE CENTRE OF THE VIEWPORT, about 600 pixels wide,
+  thick, fixed in the middle of the screen wherever he is scrolled.
+  Not at the top of the page.
+- LARGE TEXT: the system (which is its file), the counter that fired,
+  and the offending value.
+- AN ALARM SOUND when it fires, so he knows from another room.
+- CONTINUE on the bar itself, behaving as 322.A ruled: past THIS
+  violation, logged, and the system stays red.
+
+**PROVE IT** on his bench, not in a harness: force a red, and report
+that the tick count stopped, the school stopped mid-story, the chat
+did not answer, and the Pulse and Core went still — each one
+separately, with the evidence.
