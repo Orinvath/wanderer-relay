@@ -34191,3 +34191,110 @@ forgets it. What changed is what it may SAY of itself.
 them.
 
 **LIFE is 516 of 516.** Commit `e6ba57d`.
+
+---
+
+# 332 AND 333 BUILT — and the audit he asked for
+
+## 332 ADDENDUM 1 — WHY "IT" WAS STILL ON HIS SCREEN. 331 IS BUILT AND WORKING.
+
+**I am not going to say "you are on an old build" — 333 forbids it and it is the excuse that cost
+him the time. So here is the evidence and he can check every line of it.**
+
+**His exact line, run through the CURRENT censor just now:**
+
+```
+"IT SINGS LOVELY TONES AS IT FLEES BY"
+   ->  REFUSED: a story names what it is about: say BIRD SINGS, never "it sings"
+```
+
+**The timestamps:**
+
+```
+his bench process started    Sep 01  00:08:09
+331 committed                Sep 01  00:40:29     32 minutes later
+```
+
+**331 was not in the build his bench was running.** That is a fact he can verify — and from now on
+he will not have to, because 333 is built and the page says what it is. **The restart he did was
+before the fix existed, not after.** No other path produces teacher lines: every one goes through
+`censor(..., { mode: 'story' })`, including the banked path, and the story-composition path checks
+each line on its own.
+
+## 332 — THE TEACHER WRITES ENGLISH NOW
+
+**THE CAPITALS ARE GONE.** `teacher.js:246` ordered *"Use those words exactly as written, in
+capitals"* — so **the mind's entire exposure to language was shouted.** They were there so the
+censor could find the marks, and **the censor never needed them**: it already uppercases before
+matching, proven both ways —
+
+```
+"The bird sings a warm song in the sky."   PASSES
+"THE BIRD SINGS A WARM SONG IN THE SKY."   PASSES
+```
+
+**PROPER SENTENCES:** a subject, ordinary punctuation, sentence case, asked for in both the story
+prompt and the naming prompt.
+
+**332.3 — PLAIN WORDS, AND IT IS INSTRUCTED AND NOT ENFORCED.** Stated plainly because his
+addendum is right and sharper than the rule: **the fault is MISUSE, not rarity.** A bird flying
+past is not FLEEING. FLEES is a real word, it traces, the censor passes it — and **no check we have
+can catch a real word used wrongly.** A word learned wrong is worse than a word not learned,
+because it will be used wrongly and believed. The teacher is now told to use the plainest word and
+to use every word in its ordinary sense. **That is an instruction and nothing enforces it. His eye
+is the only test, which is why the report prints the lines.**
+
+## 332.5 — WHAT ACTUALLY LIMITS A LINE, TRACED. IT IS NOT THE CORPUS.
+
+```
+runLength = max(2, min(capacity, round(5 / rateFor(aspects, {enthusiasm+, assertiveness+, withdrawal-}))))
+
+capacity 2  ->  2        capacity 9  ->  5
+capacity 5  ->  5        capacity 20 ->  5
+```
+
+**The capacity stopped mattering above five.** 319 removed the AGE cap and the line is still short
+because of a different limiter entirely: **an aspect-derived term, `5 / rate`, that comes out
+between four and six for every being tested.**
+
+```
+learner 5 · quick 5 · slow 6 · GEO-B 5 · BORN-315 4
+```
+
+**So a line is limited by the being's own ten, and the ceiling of that term is fourteen words — but
+only for a being at the extreme.** And the `5` in it is a bare constant, which 071 calls a decision
+nobody made. **Not touched: he asked me to trace it and report the actual limiter, and this is it.**
+
+## 333 BUILT — THE PAGE SAYS WHAT IT IS
+
+In the title line after TEST, his placement:
+
+```
+Mind Emulator  [Log] [TEST]   bc641b7 · served 14:03
+```
+
+Read from the repository at serve time — **never typed, never cached.** It reports the page's
+commit AND the server's, and when they differ it says both in red: *"the page is new but the
+server is old"* is now readable rather than arguable (333.4).
+
+**333.5 is in CLAUDE.md as standing law**, with its own half beside it: the terminal restarts the
+emulator in the same breath as any change to what it serves, because "reload" means nothing if the
+server is running yesterday's code — and every time that has happened it was my miss and his time.
+
+## THE AUDIT — EVERY DIRECTIVE FROM 300 CHECKED
+
+**All 34 have a commit, a report, or both.** The five without commits are the ones that produce no
+code: 308 and 311 were an investigation and an action, 314 was superseded by 315, 325 was a model
+fetch, 326 was a GO.
+
+**What is genuinely unfinished, and none of it is waiting on me:**
+
+- **320.3** — the 51 non-words the mind owns. Named in full; **he rules whether it forgets them.**
+- **319's proof** — the schooled hour. **Skipped on his word: "skip the test I did my own."**
+- **278.B** — one check per file, ~39 where there are 25. **Needs its claims from him or the
+  Director**, as 258's twenty-three did.
+- **295.3** — the interpreter's marker. Diagnosed to the line; **needs his word to switch the
+  interpreter on** so I can catch the throw.
+- **Curiosity's bar and interests' rates** (254.3) — grey until he has watched and ruled them.
+
+**LIFE is 516 of 516.** Commits `4683d33` and `bc641b7`.
