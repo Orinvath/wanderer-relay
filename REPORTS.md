@@ -34004,3 +34004,56 @@ the scaffold; the thinner the model, the more the leaning shows.
 
 **Nothing is decided here.** The build is on gemma3:1b as 327 ruled. One line in `config.js` moves
 it, and his eye rules the readability.
+
+---
+
+# CORRECTION ON 325.4 — the comparison was invalid, and the real number is 15%
+
+**He caught the framing and he is right: the 14B is the TEACHER'S model. It was never a candidate
+for the mind's voice.**
+
+So what that second column actually showed was **the bug I had just fixed** — the rendering asking
+as `teacher`, so the mind's voice had been coming out of the school's model all along. **It is not
+a comparison between two options; it is the old wrong behaviour printed beside the new right one,
+and reporting it as a contest was wrong.** There is nothing to compare: 327 rules the voice is the
+small model, and the only real question is whether it is good enough on its own.
+
+## AND MY OWN TEST WAS RIGGED, WHICH I FOUND BY RE-RUNNING IT
+
+Re-run on the fix, gemma3:1b passed 1 of 5. Widened to twenty crossings it passed **0 of 20** —
+and that number was wrong too, because **I was handing it an empty vocabulary.** With `owned` empty
+the only lawful words are the handful of marks in that one record, so the model had almost nothing
+it was permitted to say. A test that gives a mind no words and then measures its speech is
+measuring the test.
+
+**Re-run against his own being's real vocabulary — 544 owned words:**
+
+```
+gemma3:1b, a real mind's words:   3 / 20 passed   (15%)
+
+  "It's waiting for a rest."
+  "It's making itself wait."
+  "It feels good to be warm."
+```
+
+**Those are ordinary sentences and every word in them traces to the record.** That is the thing
+working.
+
+## WHAT THE NUMBER MEANS, PLAINLY
+
+**Fifteen percent through means the mind falls back to its own blunter words about five times in
+six.** Nothing false reaches the screen — the censor refused every attempt to add a word the mind
+never said, which is 324.C.4 doing exactly its job — but the scaffold is carrying very little.
+
+What it reaches for is always the same shape: MAKING · SOMETHING · GOOD · WONDER · LIKE · WARMTH ·
+WANTS · CHANGE · JOIN · AFRAID · BRIGHT. **Ordinary conversational filler.** A 1B model writes
+plain English by reaching for plain English words, and this mind mostly does not own them yet.
+
+**So the rate is a fact about the PAIR — this model and a 544-word vocabulary — and not about the
+model alone.** 324.C.5 predicts exactly this: its own grammar carries more as its corpus thickens,
+and the thinner the model, the more the leaning shows. **The number should rise as the mind's
+vocabulary grows, and that is measurable rather than hopeful — the same twenty crossings against a
+bigger mind will say so.**
+
+**Nothing is changed on the strength of this.** The build is on gemma3:1b as 327 ruled, one line
+in `config.js` moves it, and his eye rules the lines.
