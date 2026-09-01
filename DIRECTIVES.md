@@ -8936,3 +8936,21 @@ with no frequency in it.
    344's decision all along.
 5. 320.3 IS ALSO CLOSED: the 51 non-words died with the being that
    owned them. He generated a new mind and the question is moot.
+
+## Directive 352 — THE CHAT INTERPRETER IS STRUCK
+
+His ruling: it is not needed. The mind renders its own speech now
+(324.C), so the chat's interpreter has no job.
+
+- The toggle comes off the page.
+- The code is left in place, marked SUPERSEDED BY 324.C with the
+  date, so nothing sits in the build pretending to be live.
+- Its health check stops being counted as a system with a claim.
+- 295.3 is closed with it: the permission asked seven times is moot,
+  because the thing it asked about is gone.
+
+And for the record, since it was raised as a framing error: THE
+INTERPRETER WAS ALWAYS THE CHAT SYSTEM'S, NOT THE MIND'S — 242 built
+it outside the mind and Lonnie ordered it that way. What went INSIDE
+the mind is perception (324.B) and the voice rendering (324.C), which
+are different things and stay.
