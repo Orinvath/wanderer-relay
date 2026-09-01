@@ -8559,3 +8559,54 @@ measurement — that is precisely why the test exists.
 4. PROVE IT: the same being, before and after, with the score and the
    age side by side across several runs. Eleven identical scores must
    produce eleven identical ages.
+
+## Directive 342 — THE MIND LEARNS FROM ITS OWN THINKING
+
+**THE FEATURE** — whether an inner moment can teach the mind
+anything.
+
+**WHY IT MATTERS** — Lonnie watched it think about all kinds of
+things in a new environment and register none of it. Everything it
+knows must arrive from outside, so it can only ever learn as fast as
+somebody talks to it. That is the ceiling under the stalled age.
+
+**WHAT WENT WRONG** — learning fires from ONE call:
+`learning.heard(...)` in experiencing.js:243 — words that arrived
+from outside. The moment builds a rich `trueNow` list (feelings,
+needs, its act, world changes, what it SEES, who is present, the
+marks in his own sentence) and that list is only ever used to ground
+a word SOMEBODY SAID. A thinking tick hears nothing, so nothing
+binds, no association forms, and no word deepens.
+
+**WHEN** — since word learning was built. It was correct while its
+thoughts were babble; it is a ceiling now that they are coherent and
+gated (249).
+
+**THE SCIENCE** — mental simulation is a real source of learning
+(Schacter & Addis; the rehearsal literature). Thinking about
+something is how meaning deepens and connects. It is not how new
+words are acquired — that still needs the world or a teller — but it
+is how what is already there is bound together.
+
+**HE HAS RULED** — 226.5: a story teaches, imagined-born low and
+marked, promoted only by lived reality. That was built for LESSONS
+and never wired for words or associations.
+
+**THE RULING**
+1. AN INNER MOMENT GROUNDS LIKE ANY OTHER. When the mind thinks
+   about something while something is true of it, that binding
+   counts — the same `trueNow` the moment already assembles, the same
+   geometry, the same machinery.
+2. IT IS MARKED, AND IT IS WEAKER. Provenance IMAGINED, born at the
+   imagined level, and it may never promote itself: ONLY LIVED
+   REALITY promotes past that cap. 233's hard guard is untouched — a
+   thought is not evidence.
+3. IT CANNOT OWN A WORD ON ITS OWN. A word first met in thought does
+   not become owned by being thought about; thinking deepens what is
+   there, it does not conjure vocabulary. Say plainly in the report
+   what a thinking tick CAN and CANNOT now do.
+4. THE STORY GATES STILL APPLY (249): felt, coherent, recurring.
+   Babble teaches nothing and this does not reopen that door.
+5. PROVE IT: a mind left alone to think for a stretch — what moved,
+   what did not, and that nothing it merely thought about crossed
+   into owned or into confirmed belief.
