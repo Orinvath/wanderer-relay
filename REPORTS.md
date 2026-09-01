@@ -34117,3 +34117,77 @@ Never he, never she, anywhere. First person sidesteps it entirely — I, me and 
 and that is written into the file beside the change so the two rulings are not confused later.
 
 **LIFE is 516 of 516.** Commit `e4b9a6e`.
+
+---
+
+# 331 BUILT — the teacher names what a story is about, and the mind cannot say IT of itself
+
+## FIRST, THE CLAIM I GOT WRONG
+
+330.4 said *"its own grown grammar has no pronouns at all, so no person to get wrong."* **I wrote
+that from the rendering path and asserted it about all paths, and his bench showed the grammar
+using one.** That is the fifth time and the pattern is always the same shape: check one thing,
+write about everything. What I should have written is *"I checked the rendering; I have not checked
+the grammar."*
+
+## THE SCHOOL, AFTER THE FIX
+
+Six turns through the real school, on his own being's 544 words:
+
+```
+lines the school got through   16
+BEGINNING with IT               0
+CONTAINING IT                   0
+
+  BIRD SOARS ALONE
+  SKY STRETCHED VAST
+  WINGS SPREAD FREE
+  BIRD SINGS ALONE AT DAWN
+  CHILD RUNS THROUGH FIELDS JOYFULLY
+  STRANGER WALKS AFRAID IN STORMS
+  CHILD DREAMS OF FARAWAY LANDS
+```
+
+**Every line names what it is about.** Compare what he found: *"IT SINGS FOR FRIENDS ALONG THE
+SKIES"* · *"IT FEELS WARM AND FREE ALONE"*.
+
+## WHAT WAS BUILT, AND WHERE I WENT STRICTER THAN THE LETTER
+
+**1. THE TEACHER IS ASKED TO NAME THE CHARACTER** — *"say BIRD SINGS, never it sings"* — and told
+never to begin a line with it or use it as the one doing something.
+
+**2. THE CENSOR ENFORCES IT, because telling a model a rule is a convenience and the sieve is the
+guarantee** (234.5). My first rule matched IT at the start of a sentence and **let this through:**
+
+```
+"The bird knows warmth, and it flies high"     <- a subject sitting behind a conjunction
+```
+
+That is exactly the pattern that taught the mind to say "it knows" of itself. **Trying to find the
+subject slot with a pattern is guessing at grammar**, so a story simply does not contain the word
+at all. Stricter than 331.2's letter, and it is the only version that can be PROVEN from his bench:
+zero lines, counted.
+
+**3. THE GROWN GRAMMAR WILL NOT TAKE IT EITHER — and this is the stricter one worth his eye.**
+Guarding the head alone left lines like `BIRD, IT, SKY, SINGS`. **A grown line is a run of marks
+with no grammatical roles in it** — every word simply follows the last — so there is no position in
+one where IT is safely not the subject. It is excluded from grown lines entirely.
+
+```
+before   BIRD IT SKY SINGS SONG   ·   SONG NIGHT IT FREE BIRD
+after    BIRD SINGS WARM SKY NIGHT ·  SONG LIGHT BIRD FREE SINGS
+lines containing IT: 0 of 8        owned still holds IT: true
+```
+
+**331.4 holds exactly: IT stays owned.** It is a real English word it genuinely learned and nothing
+forgets it. What changed is what it may SAY of itself.
+
+**If that is too strict — if he wants IT usable as an object in its own lines — it is one set in
+`grammar.js` and I would rather he loosened it than have me guess where a subject is.**
+
+## AND THE NAMING LINES WERE ALREADY RIGHT
+
+*"you are singing"* — addressed to the listener, untouched, and the story rule does not apply to
+them.
+
+**LIFE is 516 of 516.** Commit `e6ba57d`.
