@@ -35397,3 +35397,42 @@ strip changes. Put either old hex back and it goes red.
 which move run to run on identical builds. Nothing to do with this change.
 
 **The page changed, so the bench needs a restart to show it.**
+
+---
+
+# BUILT — 348 addendum. A different blue, and a different violet. `e24ad5c`
+
+Gold and rose are gone. **The Director's "a new colour" was wider than what he said, and I built
+the wider thing** — that is on me as much as on the wording, because "Lesson blue" was in front of
+me in the same directive.
+
+**The hexes:**
+
+```
+                     STRIP (untouched)   LESSONS now
+lived / memory       #6eafff             #1f5bff   a deeper, far more saturated blue
+story / imagining    #ba82ff             #7d1fd4   a deeper, far more saturated violet
+teller               —                   #c9b3ff   unchanged
+```
+
+Still blue and still violet — what changed is WHICH. Both are much deeper and much more saturated
+than the strip's airy pair, which is what makes them tell apart at a glance while staying the
+colour they are.
+
+**HOW FAR APART THEY ACTUALLY SIT**, measured rather than asserted, as straight distance in RGB:
+
+```
+lived   vs the strip's memory      115
+story   vs the strip's imagining   124
+story   vs the teller              172
+lived   vs story                   120
+```
+
+For scale, the pairs 348 was written to fix were **0** — the same hex twice. My first attempt put
+story only 77 from the strip's violet, which is why these are deeper than my first pick.
+
+**The strip did not move**, and the check from the first build still holds: the CSS rule and the JS
+map must agree, and no colour in this panel may be any colour in the strip. Both new hexes pass it.
+
+**The page changed, so the bench needs a restart to show it.** If either still reads too near its
+neighbour on his screen, say which and I will take it deeper again.
