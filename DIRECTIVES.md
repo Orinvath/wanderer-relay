@@ -8098,3 +8098,46 @@ first person needs no gender at all.
 5. Re-run the twenty crossings after the fix and post the lines. The
    refusal rate is expected to move — first person costs no
    untraceable words.
+
+## Directive 331 — THE TEACHER IS TEACHING IT THIRD PERSON
+
+**THE FEATURE** — the school: the English the mind learns to speak
+from.
+
+**WHY IT MATTERS** — the mind learns word order and pronouns from the
+teacher's corpus. Whatever the teacher says is what it learns to say.
+
+**WHAT WENT WRONG — Lonnie found it on his bench.** The teacher's
+stories are narration: "A BIRD KNOWS WARMTH IN FLYING HIGH" · "IT
+SINGS FOR FRIENDS ALONG THE SKIES" · "IT FEELS WARM AND FREE ALONE".
+Every one is a narrator describing a third party. The mind's corpus
+is almost entirely these stories, so IT is likely its commonest
+subject word — and the mind then says **"it knows A"** ABOUT ITSELF.
+It is learning to talk about itself the way a storybook talks about a
+bird.
+
+**330 DID NOT COVER THIS AND THE REPORT WAS WRONG ABOUT IT.** 330.4
+stated "its own grown grammar has no pronouns at all, so no person to
+get wrong." His screen shows that grammar using one. The report was
+written from the rendering path and asserted about all paths. That is
+the fifth time a claim has been made wider than what was checked.
+
+**THE FIX**
+1. THE TEACHER SPEAKS TO THE MIND, NOT ABOUT A BIRD. Naming lines
+   already do this ("you are singing"). STORIES MUST TOO: told as
+   something happening, addressed to the listener, or told about
+   named things — never a stream of "IT" that the mind will take for
+   a way to refer to itself.
+2. NO BARE "IT" AS A SUBJECT IN TEACHER SPEECH. If a story needs a
+   subject, it uses the thing's own mark (BIRD SINGS, not IT SINGS).
+   The censor enforces it the way it enforces non-words (320.1).
+3. THE MIND NEVER USES "IT" OF ITSELF, in any path — rendering,
+   grown grammar, templates, echo. 330.1 said this; make it true in
+   the grammar as well, and prove it from his bench rather than from
+   one path.
+4. WHAT ALREADY-LEARNED "IT" DOES: it is a real English word and it
+   stays owned. This is about what the mind HEARS from here on, and
+   about what it may say of itself.
+5. PROVE IT: a schooled stretch after the fix — how many teacher
+   lines begin with IT (must be zero), and whether the mind is still
+   producing "it" as its own subject.
