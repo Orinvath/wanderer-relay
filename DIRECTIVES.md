@@ -8247,3 +8247,41 @@ The build number sits in the APP TITLE LINE — the row holding "Mind
 Emulator", LOG and TEST — placed immediately after TEST. Same line,
 same size family as its neighbours, always visible without scrolling
 or opening anything.
+
+## Directive 334 — RULE ZERO THE WHOLE APP: what is weak, faked, or unused
+
+Lonnie's order. Not a fresh read of the record and not another
+sample — a file-by-file audit against the code, with evidence for
+every claim.
+
+### THE THREE QUESTIONS, asked of EVERY system file
+1. IS IT CALLED? By what, on which path, and how often in a real life
+   on his bench. A capability nothing calls is not built (304.E) and
+   there have already been three.
+2. DOES IT DO WHAT ITS CLAIM SAYS? Not "the suite is green" —
+   watched on a living mind, with the numbers. A check that has never
+   gone red on a real fault has not been shown to work.
+3. IS ANYTHING IN IT FAKE? Named plainly: a constant standing in for
+   a measurement, a value hardcoded to make something pass, a
+   placeholder never replaced, a path that returns early, a stub, or
+   a number nobody ruled. 246's ledger exists for this and is
+   probably incomplete.
+
+### THE RULES OF THE AUDIT
+- ONE FILE AT A TIME, in the order they appear on the map. No
+  summarising a group.
+- EVERY CLAIM CARRIES ITS EVIDENCE: a line number, a count from his
+  bench, or a commit. A claim without evidence is not written.
+- NAME WHAT YOU DID NOT CHECK. Five times now a report has asserted
+  wider than what was examined. "I checked X; I have not checked Y"
+  is the required shape.
+- CHANGE NOTHING. This is a survey. Faults are listed, not fixed —
+  the Director and Lonnie decide what is worth touching.
+- REPORT IN INSTALMENTS as you go, so it can be read in pieces rather
+  than one wall at the end.
+
+### WHAT IT MUST END WITH
+Three lists: WEAK (works but shallow, or resting on a number nobody
+ruled) · DEAD (built and unreachable, or reachable and never
+exercised) · FAKE (anything standing in for something real).
+And a fourth, honestly: WHAT I COULD NOT DETERMINE.
