@@ -8483,3 +8483,36 @@ PROVE IT: the same being before and after — the longest line it
 speaks, words used against words understood, and whether its
 sentences are still honest (every word traceable, the thinking check
 still green).
+
+## Directive 340 — THE PULSE GOES. THE CONNECTORS LIGHT.
+
+**THE RULING ON THE QUEUE FIRST** — 283.A.2's queue is struck. It was
+the Director's words, not Lonnie's, and his reading is the correct
+one: the Pulse was meant to show WHERE THE MIND IS, NOW. A light
+showing where it was forty hand-offs ago cannot do that, which is why
+it kept moving over a frozen mind today. And the queue only ever
+existed because 283 imposed a "followable rate" and then needed
+somewhere to put what the rate could not pass. NOTHING IS EVER
+DROPPED AND NOTHING IS EVER DELAYED — if the mind hands off a
+thousand times a second, the map shows a thousand hand-offs a second.
+
+**AND THE PULSE ITSELF GOES.** Lonnie's ruling: drop the travelling
+light and LIGHT THE CONNECTORS THEMSELVES.
+
+1. A CONNECTOR LIGHTS WHEN DATA CROSSES IT, on the real emitted
+   hand-off, and fades when it stops. No dot, no position, no rate,
+   no queue, no backlog — a connector has nowhere to fall behind to.
+2. AT SPEED, THE PATHS THE MIND IS USING LIGHT UP. That is the
+   reading he wants: not where one moment is, but where the mind is
+   working, live.
+3. 270.B's law is unchanged and still absolute: a connector lights
+   ONLY on a real emitted hand-off. No timers, no loops, no invented
+   steps. NO EVENT = NO LIGHT. A halted mind emits nothing, so the
+   whole board goes dark on its own — which is what 338 asks for and
+   what failed today.
+4. The queue readout (298) is removed with it.
+5. Everything else about the map stands: the neighbourhoods, the
+   sigils lighting on their own systems, the red pins, THE CORE and
+   its three channels.
+Report it with the board watched at high speed and at low, and with a
+halt proving the connectors go dark.
