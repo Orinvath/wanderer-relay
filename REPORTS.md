@@ -35893,3 +35893,51 @@ they are excluded from the count as the Avatar's rather than the mind's. **I hav
 
 **Queue: nothing is left that I can build.** 342 waits on his ruling (353.4), 347 waits on the
 Director's 42 claims, and these two findings wait on him.
+
+---
+
+# HIS RULING, DIRECT — a newborn knows nothing on arrival. `cbb8775`
+
+**Not a directive — he raised it in the terminal off the back of his own bench**, so it is reported
+here to put it on the record.
+
+**What he saw:** a fresh mind opening at **3.1 years**, with the panel contradicting itself on one
+line — *"1032 known, 0 claimed that were not words. It understands 0 words."* Age three; vocabulary
+0 / 50.
+
+**His ruling, put as a question that answers itself:** *"how new minds do you know that know
+anything on arrival?"* None.
+
+**THE CHANGE, and it is one word.** The count reads `viaLearning` instead of `matched` — resolve's
+own report of which matches were earned through LEARNING rather than through the marks the mind is
+born with.
+
+```js
+for (const w of words) if (resolve(w, learned).viaLearning.length > 0) hits++
+```
+
+**`comprehension.js` IS UNTOUCHED.** The mind still recognises its 402 marks everywhere else, on
+every line it hears, exactly as before. **It simply cannot claim credit for what it was born with.**
+The same measure is applied to the fakes, or the guard would be watching something the count is not.
+
+**AND THE CURVE IS RIGHT THE WHOLE WAY DOWN NOW:**
+
+```
+learned      0  ->  demonstrated      0  ->  0.00y   newborn — no words yet
+learned      1  ->                    2  ->  1.01y   about a year — first words
+learned     50  ->                   72  ->  1.60y   about eighteen months
+learned    300  ->                  378  ->  2.19y   about two years
+learned    600  ->                  810  ->  2.82y   about two years
+learned  1,000  ->                1,485  ->  3.84y   about three years
+learned  5,000  ->                7,400  ->  9.83y   about seven years
+learned 20,000  ->               23,004  -> 16.64y   about twelve years
+```
+
+A newborn reads zero and climbs from there, and **the panel no longer contradicts itself**: nothing
+known and nothing understood are now the same statement.
+
+**SUITE 523 OF 524.** Check 385 is green. **The one red is 380 — the false-alarm proportion — which
+is the other 354.6 finding and is still open and still unpatched.** Even the model-dependent
+teacher pair passed this run.
+
+**The bench needs a restart to show it.**
