@@ -8808,3 +8808,26 @@ WHAT DOES NOT CHANGE: the existing counters keep counting what they
 count. A file whose claim is genuinely part of another's states that
 in its own header and keeps its own counters — no file shares a
 counter with another (278.B's own words).
+
+## STANDING LAW — A SETTLED QUESTION IS NOT ASKED AGAIN (joins CLAUDE.md)
+
+Lonnie's order. His time and his tokens are the scarcest thing on
+this project, and re-litigating a ruling spends both for nothing.
+
+1. BEFORE RAISING ANY QUESTION, SEARCH THE RECORD. If it has been
+   ruled, it is settled — build to the ruling. Do not re-ask, do not
+   re-argue, do not offer options against it.
+2. 25-vs-42 IS THE EXAMPLE. 278.B had already ruled one check per
+   file. It was raised again as an open question and cost him a round
+   trip and a directive to say what the record already said. The
+   Director did the same by carrying it to him instead of citing it.
+   This law binds BOTH of us.
+3. IF A RULING IS UNCLEAR, SAY WHICH RULING AND WHERE IT IS UNCLEAR —
+   citing it — rather than presenting the matter as undecided.
+4. IF TWO RULINGS GENUINELY COLLIDE, that is worth raising, and it is
+   raised AS a collision: both directives named, both quoted, and the
+   question is only which governs. That has happened honestly several
+   times and is not what this law is about.
+5. AN UNRULED QUESTION IS STILL ASKED, ALWAYS. 250 stands: the moment
+   a real decision appears, stop and post it. This law narrows what
+   counts as a real decision — not what to do when there is one.
