@@ -35082,3 +35082,93 @@ stray.
 345  the two thinking panels renamed. Not started.
 346  the moment's truth on every tick. Not started — and it is what unblocks 342.
 ```
+
+---
+
+# BUILD PLAN — Directive 344. And one thing it needs that this machine does not have.
+
+**Nothing built.** 344's addendum orders a plan first and names what it touches. Here it is, with a
+dependency I cannot resolve on my own at the end.
+
+## WHAT MOVES
+
+**`litmus.js` — the sampling pool and the vocabulary estimate.** Two lines are the whole change:
+
+```js
+const pool = [...new Set([...owned.keys(), ...heard.map(...)])]   // draws only from what it owns
+const vocabulary = Math.round(owned.size * proven)                // scales the tally
+```
+
+The pool becomes a draw across the frequency range; the estimate becomes what share of adult
+English the score demonstrates, read onto the curve with its ceiling at about 42,000.
+
+## WHAT DOES NOT MOVE
+
+- **The curve.** `AGE_ANCHORS` already ends at 42,000 words at age 20 — Brysbaert's figure — and
+  the log-scale interpolation between anchors is unchanged.
+- **Hits minus false alarms.** Unchanged, and false alarms still subtract, which is what lets the
+  number fall (344.3).
+- **The run history.** Every logged result stays exactly as recorded. **They are not converted**
+  — a number measured one way is not made to look like the other. I will mark them as taken under
+  the old sampling, which is a field on new rows and a note on old ones, never a rewrite (344 add.2).
+- **The censor's word list.** Untouched; it answers a different question.
+- **The teacher's word choices.** Untouched — it draws from what the mind owns and 312 rules that.
+- **The interpreter.** The litmus still never runs through it (242.4, 344.6).
+
+## WHAT ELSE READS THESE NUMBERS, ALL FOUND
+
+```
+watching.js  measured()      the gauge's own reading, per tick
+bench-routes /litmus         the run record it posts
+testruns.js  the TEST row    reads run.vocabulary as its `owned` column
+clock.js     litmusRuns      carried in the being file
+grammar.js   owned.size      NOT the litmus — it only asks whether the mind has any words at all
+litmus.js    productive      `understands: owned.size` and the used/owned share
+```
+
+**Two of those need his eye before I touch them, and I am naming rather than deciding:**
+
+1. **The TEST rows record `vocabulary` as the column he compares runs by.** After 344 that number
+   means something different. Old rows and new rows in the same table are not comparable, and
+   344 add.2 forbids converting them.
+2. **`productive` reports `understands: owned.size` and a used/owned share.** Those are tallies
+   too. 344 does not mention them and I am not extending its ruling to them on my own.
+
+## THE DEPENDENCY I CANNOT MEET, AND IT IS THE WHOLE OF 344.5
+
+**344.1 requires a STANDARD ENGLISH FREQUENCY LIST across the whole range. This machine does not
+have one.**
+
+```
+server/data/english-words.txt   355,511 words, shipped, ALPHABETICAL
+                                aa · aaa · aah · ...
+                                no frequency, no rank, no bands
+/usr/share/dict/                the same list
+anywhere else on this disk      nothing
+```
+
+**So the answer to 344.5 is: the same list CANNOT serve both.** The censor's list answers "is this
+a word", which needs no frequency. The litmus needs to know which words a toddler holds and which
+an adult barely does — **that information is not in it and cannot be derived from it.**
+
+**A frequency list has to be fetched.** That is a download, and his bandwidth is capped, so it is
+his call and not mine. What I would need is one ranked list of English by frequency — SUBTLEX or
+the Google/Norvig counts are the usual ones, a few megabytes — shipped into `data/` exactly as the
+censor's list was (116: nothing reaches outside CC-Wanderer to run).
+
+**I am not fetching anything until he says so, and I am not building 344 against a list that cannot
+support it.**
+
+## THE NUMBERS I WOULD HAVE TO TOUCH, NAMED IN ADVANCE (344 add.4)
+
+Every one of these is currently unruled and would go to `MIND_DECISIONS.md` as OPEN:
+
+```
+REAL: 12          how many real words a run shows
+FAKE: 12          how many fakes
+the bands         how the frequency range is divided, and how many words are drawn from each
+```
+
+**344 add.3 is explicit that I must not repair anything downstream with a number, a scale, a floor
+or a default — so I will not choose any of the above.** The moment the list exists, these three
+come back as a question, not as a build.
