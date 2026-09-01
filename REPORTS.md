@@ -35815,3 +35815,81 @@ separately demonstrated mechanism, and I am not presenting it as one.
 what still needs building**, and the imagined-weight question is still open and still Lonnie's.
 
 **354 is next**, and it is what clears 385 and 386.
+
+---
+
+# BUILT — 354. The gauge counts now, and it found two things. `c11d020`
+
+## IT COUNTS
+
+Every word in the pool is put to the mind — all 37,110 — and what comes back is the number. **It
+costs about forty milliseconds.** A word counts when the mind RESOLVES it, using the same
+resolution comprehension uses on every line it hears, not a separate opinion invented for the test.
+
+```
+                     was (344, sampled)          now (354, counted)
+one hit worth        3,500 words                 one word
+possible readings    13                          every value
+newborn to six       nothing existed there       full resolution throughout
+```
+
+**FULL RESOLUTION AT EVERY POINT**, on the same mind at seven sizes:
+
+```
+learned      0  ->  demonstrated  1,032  ->  3.07y        learned  1,000  ->   2,517  ->  5.02y
+learned     50  ->                1,104  ->  3.21y        learned  5,000  ->   8,432  -> 10.77y
+learned    300  ->                1,410  ->  3.73y        learned 20,000  ->  24,036  -> 16.89y
+learned    600  ->                1,842  ->  4.32y
+```
+
+**WHAT WENT:** `PROVISIONAL.REAL` is deleted, and `bands`/`acrossTheRange` are marked SUPERSEDED BY
+354 and no longer called — left in place, not deleted, the same way 352 handled the interpreter.
+**WHAT STAYED:** the ceiling off the curve's own anchor, hits minus false alarms, old runs untouched
+and marked, the fakes as a check on the mind.
+
+**386 NOW PASSES.** A schooled mind outscores its own newborn state, which it could not do at
+thirteen possible readings.
+
+## AND THE TWO FINDINGS. 354.6 says report, do not patch. I have not patched either.
+
+### 1. THE FALSE-ALARM GUARD SURVIVED IN FORM AND STOPPED WORKING
+
+Check 380 is red, and it is right to be:
+
+```
+honest mind     hits  1,032   false alarms 0    score  1,032
+credulous mind  hits 37,110   false alarms 4    score 37,106
+```
+
+**A mind that claims everything now outscores an honest one by thirty-six thousand.** 354.3 kept the
+guard "in the same form", and in the same form the two numbers are no longer commensurate: the hits
+are a count over 37,110 words and the false alarms can never exceed 12. Under 344's sampling this
+worked perfectly, because twelve was measured against twelve.
+
+**I have not corrected it, because every correction is a scale or a ratio and 354.1 forbids me
+choosing one.** Logged OPEN in `MIND_DECISIONS.md` §6b.
+
+**One thing that softens it, stated so this is not read as worse than it is:** that credulous mind
+is a test fixture whose `learned` returns a meaning for any word asked. A real `learned` is built
+from word links and can only answer for words the mind has actually met, so a real mind cannot
+inflate this way. **What the guard was really protecting against is stem overreach, and at the
+sizes above it registers zero false alarms — so it is idle rather than actively wrong.**
+
+### 2. THE 402 MARKS ARE ENGLISH WORDS, SO A NEWBORN IS NOT WORDLESS
+
+Check 385 is red: `score 1032, "about three years"`.
+
+**A mind with nothing learned already resolves 1,032 English words** through its marks and their
+stems — AND, WHAT, NOT, CAN, WITH, ALL, NOW, ONE, COME, HOW, SEE, WHO. They are the Avatar's
+symbolic set, and they are also ordinary English words, so under 344's ruling that the mind's
+language is English they count.
+
+**So a newborn reads "about three years" and the check says it must read as an infant.** Both
+statements are defensible and they cannot both be built. **This is a ruling, not a repair:** either
+the marks count toward an English vocabulary and a newborn genuinely starts at a thousand words, or
+they are excluded from the count as the Avatar's rather than the mind's. **I have not chosen.**
+
+**Suite 520 of 524** — the other two reds are the model-dependent teacher pair.
+
+**Queue: nothing is left that I can build.** 342 waits on his ruling (353.4), 347 waits on the
+Director's 42 claims, and these two findings wait on him.
