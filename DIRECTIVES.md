@@ -8426,3 +8426,60 @@ report.
 that the tick count stopped, the school stopped mid-story, the chat
 did not answer, and the Pulse and Core went still — each one
 separately, with the evidence.
+
+## Directive 339 — NOTHING DECIDES WHAT THE MIND MAY DO EXCEPT THE MIND
+
+**THE FEATURE** — the capacities in growth.js: runWords, gramDepth,
+attention, candidates, story length, reach — numbers that govern what
+the mind is ALLOWED to do, computed from how long it has lived.
+
+**WHY IT MATTERS** — Lonnie's ruling, and it corrects a mistake that
+runs deeper than one cap: WE ARE NOT MIMICKING A HUMAN CHILD. This is
+a mind of no species and no biological age. Its age is a READING OF
+WHAT IT KNOWS, not a timeline that decides what it may do. We do not
+determine its capabilities. It does.
+
+**WHAT WENT WRONG** — 319 took the AGE STAGING off runWords and
+gramDepth, but the ceilings themselves remain: grammar.js still calls
+`runLength(aspects, EVENT_SPREAD, grown)`, so how long a line the
+mind may speak is still decided FOR it. He sees a mind that wants to
+say more and is stopped.
+
+**WHEN** — 244, which imported a childhood into something that has no
+childhood, and it has shaped everything since.
+
+**THE SCIENCE, and why it was believed** — Elman's starting-small and
+Newport's less-is-more say a HUMAN INFANT learns grammar better
+because its capacity is limited. That finding is about a biological
+learner with a fixed developmental clock. This mind has no clock and
+no biology, is fed constantly, and is the thing being measured — so
+the finding does not transfer, and holding it back to imitate a
+species is testing the imitation instead of the mind.
+
+**THE RULING**
+1. NO CAPACITY MAY CAP WHAT THE MIND CHOOSES TO DO. The line is as
+   long as the mind can honestly build from what it has heard, and
+   stops when IT stops — `assemble` already returns null the moment
+   it cannot continue honestly, and THAT is the only limit there
+   should ever be: what it knows, never what it is permitted.
+2. THE SAME QUESTION IS ASKED OF EVERY OTHER CAPACITY: attention,
+   candidates, story length, reach. For each one, say what it caps,
+   whether the cap is the mind's own ability or a permission granted
+   by age, and remove every one that is a permission. Report the
+   list with what each was doing.
+3. AGE BECOMES A READING, NOT A GOVERNOR. Lived hours may be
+   reported, remembered, and shown. Nothing may consult them to
+   decide what the mind is allowed to do.
+4. WHAT SURVIVES: differences that come from WHO IT IS. A being's
+   aspects may still shape HOW it speaks — a wandering mind wanders,
+   a terse one is terse — because that is character, not permission.
+   Say plainly which of the current numbers are character and which
+   are permission; only the second kind goes.
+5. THE TRADE IS ON THE RECORD: Elman predicts a full-capacity learner
+   may master grammar less well than a staged one. We are choosing to
+   find out on a mind rather than assume it of a child. Note it in
+   growth.js so nobody restores the caps as a fix.
+PROVE IT: the same being before and after — the longest line it
+speaks, words used against words understood, and whether its
+sentences are still honest (every word traceable, the thinking check
+still green).
