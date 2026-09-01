@@ -8297,3 +8297,32 @@ They are shown side by side, labelled, both in the title line after
 TEST. When they match, that is visible at a glance; when they differ,
 that is the answer to a whole class of argument and he can see it
 without asking either of us.
+
+## Directive 336 — THE CORE STILL DOES NOT MOVE. 292.2 WAS NEVER BUILT.
+
+**THE FEATURE** — the third channel of THE CORE: motion, what the
+being is after.
+
+**WHY IT MATTERS** — the sphere carried three readings — colour (what
+it feels), pulse (how it is doing), motion (what it is after). When
+the sphere retired into THE CORE, only two came with it, so the mind
+no longer shows what it WANTS.
+
+**WHAT WENT WRONG** — the Director checked mindmap.js:
+`coreG.position.set(0,-0.4,0.2)` is written once at build and never
+written again. There is no motion code at all. 292.2 was ordered and
+was not built, and nothing said so.
+
+**WHEN** — 292, and it has been missing since.
+
+**HE HAS RULED** — 292.2, in full: "THE CORE MOVES ACCORDING TO WHAT
+IT IS AFTER — the same meaning the sphere's motion carried, on the
+same source (the winning offer / what it is drawn toward), rendered
+as the Core drifting or leaning in the map rather than sitting fixed
+dead centre. Colour and beat are unchanged. The legend gains one line
+for it."
+
+**THE RULING** — build it, exactly as 292.2 says. And under the
+in-order law: report why it was passed over, because a directive that
+is skipped silently is the fault 293 taught this project three times
+over.
