@@ -35172,3 +35172,165 @@ the bands         how the frequency range is divided, and how many words are dra
 **344 add.3 is explicit that I must not repair anything downstream with a number, a scale, a floor
 or a default — so I will not choose any of the above.** The moment the list exists, these three
 come back as a question, not as a build.
+
+---
+
+# BUILT — 345 and 346. And 347 step 1: the 42 files, facts only.
+
+Queue order held: 344 was lowest and got its plan (posted above, blocked on a list this machine
+does not have), then 345, then 346, then 347's first step.
+
+## 345 — THE TWO THINKING PANELS ARE NAMED  `30af82a`
+
+The strip above the stage is now **THOUGHTS** — it never had a name at all. The panel under the
+chat is now **LESSONS**, with **Thoughts** as its tooltip (292.1). Suite 517/517.
+
+**AND THE ANSWER HE ASKED FOR: THE TWO BLUES STILL COLLIDE, AND THEY ARE THE SAME HEX.**
+
+```
+the strip   k-remembered   rgb(110,175,255)  = #6eafff   "Memory"
+the panel   f-lived        #6eafff                       "Lived"
+```
+
+Not merely similar — **identical**. The violet collides too: strip `imagined` rgb(186,130,255) =
+#ba82ff, panel `f-story` #ba82ff. So today the same blue means *recalled* in one panel and *lived*
+in the other, and the same violet means *imagined* in one and *told to it* in the other.
+
+**With the panels named correctly the collision is now legible rather than invisible** — the strip
+is what it is thinking NOW, the panel is what it has LEARNED, so a reader has a reason to expect
+two colour languages. **I have changed no colour and I am not proposing one.** 345 says do not
+change a colour without asking, so this is the asking.
+
+## 346 — THE MOMENT'S TRUTH EXISTS ON EVERY TICK  `ed65752` + `957b0a0`
+
+**346.1** — the whole assembly moved out of the `if (heard ...)` branch and onto the tick itself,
+as `happening.trueNow`, from the same sources. `understood` is the only row that needed speech and
+it already fell back to nothing on its own. Nothing else in the list changed.
+
+**346.3** — guarded at the learning end as well, exactly as ordered:
+
+```js
+if (!all.length) return { fresh: [], marks: [] }
+```
+
+Nothing is lost by returning: with no marks there was nothing to link a new word to either, so
+that path could only ever have subtracted. It skips no bookkeeping — the moment counter is
+`observed()`, a separate call on every tick.
+
+**346.5 — THE PROOF, run as a real mind rather than read off the source:**
+
+```
+A MIND ALONE STILL HAS A MOMENT      60 of 60 thinking ticks had something true in them
+THINKING DOES NOT COST IT ITS WORDS  FIRELIGHT held [JOY, NIGHT] and still holds [JOY, NIGHT]
+AN EMPTY MOMENT CONTRADICTS NOTHING  heard twice into an empty moment, EMBER unmoved
+```
+
+Not one link moved across sixty ticks of a mind nobody spoke to.
+
+### AND BUILDING IT FOUND A CHECK THAT HAD BEEN CHEATING FOR MONTHS
+
+The fast-mapping check proved "a wrong first guess still collapses" by hearing CHILLY eight times
+while **`WARM`** was true. **WARM IS NOT ONE OF THE MARKS THE MIND OWNS.** So what it actually
+handed the learning was an *empty* moment, eight times over — **the collapse it was proving came
+from the very demolition 346 exists to stop.** The guard turned it red, which is how it surfaced.
+
+The finding is real and stands. The demonstration did not, so it now contradicts with marks that
+are genuinely true and genuinely not cold, across eight different moments so no single replacement
+earns the word either. **Nothing was softened — CHILLY must still collapse to null or it goes red,
+and it does.** 155 is green on its own merits now.
+
+**Suite 518/519.** The one red is the model-dependent teacher pair, which moves run to run: three
+runs of the identical build gave 517/517, then five reds, then two. Named, not hidden.
+
+**342 is now unblocked** and stays unbuilt, as 346.4 orders.
+
+## 347 STEP 1 — THE 42 FILES. Facts only, no claims written.
+
+**42 files, 25 systems, 51 counters.** Every file, the system it belonged to, and what it already
+carries:
+
+```
+ 1  safety.js         Safety Gate             (none)
+ 2  attention.js      Appraisal & Feelings    (none)
+ 2  appraisal.js      Appraisal & Feelings    attended_without_variables, feelings_without_variables, idle_goals_on_threat_ticks, moments_bypassing_gate
+ 2  feelings.js       Appraisal & Feelings    (none)
+ 2  host.js           Appraisal & Feelings    (none)
+ 3  needs.js          Needs                   moves_without_event_or_decay, relatedness_raised_alone, values_out_of_range
+ 4  curiosity.js      Curiosity               roused_not_becoming_subject, rouses_below_bar
+ 5  interests.js      Interests               draws_ignoring_depths, ignored_not_fading, strengthened_without_payoff
+ 6  offers.js         Offers & Choosing       (none)
+ 6  goals.js          Offers & Choosing       chosen_all_zero, chosen_without_winner
+ 7  memory.js         Memory                  experienced_not_written, raw_deletions, wall_clock_stamps
+ 7  surfacing.js      Memory                  (none)
+ 8  sleep.js          Sleep & Consolidation   (none)
+ 8  consolidation.js  Sleep & Consolidation   consolidations_awake, lessons_untraced_to_day
+ 9  thinking.js       Thinking                subject_not_nearer, trains_without_subject
+10  stories.js        Stories                 invented_elements_unlived, refusals_without_named_gate, replays_resumed_midway
+10  storygates.js     Stories                 refusals_without_named_gate
+11  lessons.js        Lessons & Belief        confidence_above_provenance_cap, evidence_from_unlived_ticks
+11  belief.js         Lessons & Belief        evidence_from_unlived_ticks
+12  trust.js          Trust                   trust_at_or_below_floor, trust_moves_without_verdict
+13  learning.js       Word Learning           owned_without_clear_exposure, words_from_nowhere
+13  vocabulary.js     Word Learning           (none)
+14  language.js       Language                rebuild_hash_mismatch, vectors_from_external_source
+14  glyphs.js         Language                (none)
+14  dictionary.js     Language                (none)
+15  comprehension.js  Comprehension           resolutions_to_unowned_marks
+16  voice.js          Voice                   untraceable_words_emitted
+16  grammar.js        Voice                   (none)
+16  censor.js         Voice                   (none)
+17  soul.js           Soul                    draws_ignoring_depths, genesis_hash_mismatch
+18  identity.js       Identity & Life Story   centrality_assigned_not_computed, entries_unconfirmed_by_life
+19  aspects.js        Aspects                 writes_after_birth
+19  roe.js            Aspects                 (none)
+20  growth.js         Growth                  capacity_shrinks, growth_without_age_or_use
+21  clock.js          Clock                   decay_accrued_unloaded, load_state_mismatch, wall_stamps_in_record
+22  embodiment.js     Body Bridge             (none)
+22  cord.js           Body Bridge             receptor_errors, signals_outside_the_five
+22  nerves.js         Body Bridge             (none)
+23  interpreter.js    Interpreter             inbound_to_nonexistent_marks, litmus_calls_through_interpreter, outbound_untraceable_passed
+24  geometry.js       Geometric Engine        rebuild_hash_mismatch, symbols_from_outside_the_language
+25  senses.js         Senses & Perception     perceptions_to_nonexistent_marks, sensor_absence_errors
+25  perceiving.js     Senses & Perception     perceptions_to_nonexistent_marks
+```
+
+### FOURTEEN FILES CARRY NO COUNTER AT ALL
+
+```
+safety.js  attention.js  feelings.js  host.js  offers.js  surfacing.js  sleep.js
+vocabulary.js  glyphs.js  dictionary.js  grammar.js  censor.js  roe.js
+embodiment.js  nerves.js
+```
+
+Those are the nodes with nothing to check today, and they are where most of the 42 claims will
+have to come from.
+
+### AND FOUR COUNTERS ARE DECLARED IN ONE FILE AND RAISED IN A DIFFERENT ONE
+
+This bears directly on 276's law — a red light must name exactly ONE FILE to open — so it is put
+in front of the Director before the claims are written rather than after:
+
+```
+draws_ignoring_depths            declared soul.js        RAISED interests.js:189
+evidence_from_unlived_ticks      declared lessons.js     RAISED belief.js:161
+refusals_without_named_gate      declared stories.js     RAISED storygates.js:113
+perceptions_to_nonexistent_marks declared senses.js      RAISED perceiving.js:117
+```
+
+**A red on any of those four points at the file that declared it, not the file that raised it.**
+
+And one more fact, which is not the same thing: **`rebuild_hash_mismatch` is one NAME used by two
+different systems** — language.js raises it under `language`, geometry.js under `geometry`. Two
+distinct counters that happen to share a name.
+
+**I have written no claims and regrouped nothing.** Step 2 is the Director's.
+
+## THE QUEUE
+
+**344** — planned, **blocked**: it needs an English frequency list that is not on this machine and
+would have to be downloaded. His call, his bandwidth.
+**345** — built. Awaiting his ruling on the two blues.
+**346** — built and proven.
+**347** — step 1 posted. Waiting on the 42 claims.
+**342** — unblocked now, still unbuilt, as 346.4 orders.
+**341** — still waiting on 344.
