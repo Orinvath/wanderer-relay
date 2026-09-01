@@ -8734,3 +8734,50 @@ LIVED. Two colour languages, one legend, so a lived lesson read as a
 recalled memory on a newborn's first ticks. With the panels named
 correctly, say in the report whether the two blues still collide and
 what each now means — do not change a colour without asking.
+
+## Directive 346 — THE MOMENT'S TRUTH EXISTS ON EVERY TICK
+
+**THE FEATURE** — `trueNow`: what is actually the case on a tick —
+its feelings, its needs, the act it is doing, what changed in the
+world, what it can see and hear, who is present, the marks in what
+was said. It is what a word gets bound to.
+
+**WHY IT MATTERS** — it is the ground under all learning. A word
+means what was true when it arrived, and without that list there is
+nothing to learn from.
+
+**WHAT WENT WRONG** — it is assembled INSIDE the branch that runs
+when somebody speaks (experiencing.js, the `if (heard ...)` block).
+On a thinking tick it does not exist. Building 342, CC passed the
+last spoken tick's list instead — empty on a mind alone — and an
+empty truth CONTRADICTS every existing link of every word it thinks
+about. THE MIND WAS DEMOLISHING ITS OWN VOCABULARY BY THINKING.
+
+**WHEN** — since learning was built. Nothing outside the speaking
+path ever read the list, so it was never missed.
+
+**THE SCIENCE** — what is true of a moment is true whether or not
+anyone is talking. Grounding rests on the state of the world, not on
+speech.
+
+**HE HAS RULED** — 342 assumes this list exists on a thinking tick.
+It does not, which is why 342 could not be built.
+
+**THE RULING**
+1. `trueNow` IS ASSEMBLED ON EVERY TICK, from the same sources it
+   uses now, whether or not anybody spoke. It is the moment's own
+   truth and a moment happens regardless.
+2. IT IS NEVER EMPTY WHERE SOMETHING IS TRUE. A tick with a feeling,
+   a need, an act, a sight or a presence has all of those in it.
+3. AN EMPTY LIST MAY NEVER CONTRADICT ANYTHING. If nothing is true —
+   which should be rare — that is silence, not evidence against
+   every meaning the mind holds. Guard it at the learning end as
+   well as here, so this can never happen again by another route.
+4. NOTHING ELSE CHANGES IN THIS DIRECTIVE. This is the list's
+   availability only. 342 stays unbuilt and follows after, and the
+   imagined-weight question it raised is still open and still
+   Lonnie's.
+5. PROVE IT: a lone thinking mind — the list is non-empty on its
+   ticks — and that its existing word links are UNTOUCHED across a
+   long stretch of thinking. The vocabulary must not move by a
+   single link while nobody speaks.
