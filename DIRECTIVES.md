@@ -8903,3 +8903,14 @@ plainly within this range; do not invent a colour outside it.
 If a chosen hex must sit between two of these, say which two and post
 the value for his eye. He is the only test for whether two of them
 read alike on his screen.
+
+## Directive 350 — LESSONS GETS A LEGEND
+
+Now that LESSONS carries its own colours (348), it needs its own
+legend — 180's law: a display explains itself.
+
+One line under the panel, naming each colour it uses: LIVED · STORY ·
+TELLER, each with its swatch, in the same style as the THOUGHTS
+strip's legend so the two read as siblings rather than as rivals.
+
+Nothing else on the panel moves.
