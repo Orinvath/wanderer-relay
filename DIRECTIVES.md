@@ -8883,3 +8883,23 @@ half of that image is NOT the bench's range.
    it must be alarming), and THE CORE's feeling colour, which is his
    own 22-hue ruling (270.D) and is a scale, not a palette choice.
 3. Post the hexes you use for his eye, as 348 already requires.
+
+## Directive 349 addendum — THE PALETTE, AS HEX
+
+The seven cool swatches, read from his image, warmest to coolest at
+the green end. These are the bench's colours:
+
+  muted purple      #8f6fa8
+  indigo            #5a5aa0
+  blue              #4a6fc4
+  steel blue        #3f86ab
+  teal              #2f8f86
+  green             #4f9a5c
+  yellow-green      #9fbf5a
+
+Desaturated and soft — watercolour, not neon. Use these, or a shade
+plainly within this range; do not invent a colour outside it.
+
+If a chosen hex must sit between two of these, say which two and post
+the value for his eye. He is the only test for whether two of them
+read alike on his screen.
