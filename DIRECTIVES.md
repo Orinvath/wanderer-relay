@@ -8853,3 +8853,14 @@ watches.
 
 Nothing else moves: same panels, same meanings, same legend
 positions. Colour only.
+
+## Directive 348 addendum — a DIFFERENT BLUE, not a different colour
+
+His words: "Lesson blue." LESSONS' LIVED stays BLUE — a clearly
+different blue from the strip's `#6eafff`, distinguishable at a
+glance, but blue. Not yellow, not any other hue. The Director wrote
+"a new colour" and that was wider than what he said.
+
+The same holds for LESSONS' STORY: a different violet, still violet.
+
+Post the hexes for his eye as 348 already requires.
