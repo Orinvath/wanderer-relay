@@ -34514,3 +34514,81 @@ He corrected me twice in this exchange and both times I was about to act on a mi
 while it finished hand-offs that had genuinely happened before the freeze. Under 283 that is
 correct behaviour. Under his reading it is the instrument lying about the present at the exact
 moment he most needs it to be true.
+
+---
+
+# THE RECHECK — asked of the CODE this time, not of my own reports
+
+He asked for a recheck of every directive. **Last time I ran one it checked whether a commit
+message or a report MENTIONED a directive, which is why 292.2 walked straight through it.** So this
+one asks each directive its own question against the code — thirty-four questions, one per
+deliverable.
+
+```
+293   halts the beat on a red                    YES
+294.2 thinking counts as informed                YES
+297   geometry gates its symbols                 YES
+302   bundle keeps its sums                      YES
+304A  consolidate is called in a life            YES
+304B  the life story is read after it            YES
+306C  geometry has a node                        YES
+307   the language is reached inside a train     YES
+309   the reached word joins the beat            YES
+312   the teacher aims at unheard marks          YES
+315   the soul panel is three buttons            YES
+315b  Generate births a mind                     YES
+317   the gauge is measured by the litmus        YES
+319   the speaking caps are off                  YES
+320.1 the censor refuses non-words               YES
+320.2 the sixty is gone                          YES
+321   a recovered store resumes its clock        YES
+322A  Continue gets past its violation           YES
+323   a birth takes its own store                YES
+324A  senses.js exists with its counters         YES
+324B  the tick perceives what arrived            YES
+324C  the voice goes through the mind's model    YES
+327   the two models are named                   YES
+330   the rendering asks for first person        YES
+331a  the censor refuses IT in a story           YES
+331b  the grammar refuses IT as a subject        YES
+332   the capitals are out of the teacher        YES
+333   the page shows the build                   YES
+335   it shows BOTH versions                     YES
+336   the Core moves (position written twice)    YES
+337   the chat log is lowered for every voice    YES
+338A  a halt stops the school                    YES
+338B  the bar is centre-screen                   YES
+
+339   THE MOUTH IS STILL CAPPED                  NOT BUILT
+```
+
+## WHAT IT FOUND
+
+**339 is not built** — `grammar.js` still calls `runLength(aspects, EVENT_SPREAD, grown)`, so how
+long a line the mind may speak is still decided for it. **It is next by number and it is the only
+outstanding build.** 334 (the whole-app audit) has not been started either and is lower — see the
+queue below.
+
+## AND IT FOUND A FAULT IN ITSELF, WHICH IS THE POINT
+
+**Two of my thirty-four questions were badly written and returned a false NO** — 332 (my pattern
+matched the comment explaining the fix, not the instruction) and 333 (a regex escape that never
+matched the route it was looking for). Both are built; my questions were wrong.
+
+**That is exactly the risk I named in the 336 proposal**, and it happened on the first run. Worth
+saying which direction it failed in: **both were false NOs — a check crying wolf, not a check
+passing on nothing.** A false NO costs a minute of re-reading. **A false YES is what let 292.2
+survive for nine days**, and the only defence against that is a question phrased so that the
+absent case cannot satisfy it — which is why "the Core's position is written twice" is a good
+question and "does the file mention 292" is not.
+
+## THE QUEUE, BY NUMBER
+
+```
+334  the whole-app audit         NOT STARTED — lowest unfinished
+339  the capacity caps          NOT BUILT
+```
+
+Blocked and waiting on a ruling, not on me: **320.3** (the 51 non-words) · **278.B** (its
+thirty-nine claims) · **295.3** (permission to switch the interpreter on) · **curiosity's bar and
+interests' rates** · and now **the Pulse queue**, reported above.
