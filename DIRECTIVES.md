@@ -8831,3 +8831,25 @@ this project, and re-litigating a ruling spends both for nothing.
 5. AN UNRULED QUESTION IS STILL ASKED, ALWAYS. 250 stands: the moment
    a real decision appears, stop and post it. This law narrows what
    counts as a real decision — not what to do when there is one.
+
+## Directive 348 — THE LESSONS PANEL GETS ITS OWN COLOURS
+
+The two blues are the same hex — `#6eafff` means REMEMBERED in the
+THOUGHTS strip and LIVED in the LESSONS panel — and the violets
+collide the same way (`#ba82ff`: imagined in one, told in the other).
+
+**HIS RULING: THE LESSONS PANEL CHANGES.** The strip keeps 229's
+colour language untouched — it is the older one and it is what he
+watches.
+
+- LESSONS' LIVED takes a new colour, clearly distinct from the
+  strip's remembered blue at a glance, not a near shade of it.
+- LESSONS' STORY takes one clearly distinct from the strip's imagined
+  violet, on the same principle.
+- LESSONS' TELLER (`#c9b3ff`) stays unless it now sits too near
+  either new choice — say so if it does.
+- Post the hexes in the report for his eye before treating it as
+  settled; if any pair still reads alike on his screen he will say so.
+
+Nothing else moves: same panels, same meanings, same legend
+positions. Colour only.
