@@ -33928,3 +33928,79 @@ missing is the call.
 
 **Unless the Director rules otherwise, I build 324.C next**, and the report will carry the same
 crossings through gemma3:1b that 325.4 asks for.
+
+---
+
+# 329 / 324.C BUILT — and 325.4's comparison says the small model is not ready
+
+## THE CALL IS MADE
+
+The rendering asked as `teacher` — technical, which is qwen2.5:14b, **the bench's model, chosen
+for the school.** 324.C rules the voice is the mind's own small one, so it now asks as `rendering`,
+which is `VOICE_MODEL`, which is `gemma3:1b`.
+
+**What moved is only which weights shape the sentence.** The content was never the model's and
+still is not: the mind forms what to say in its own marks through its own grown grammar (319), the
+model may do grammar, word order, inflection and sentence shape, and every content word is checked
+against the record. **A rendering that adds meaning is refused and the mind's own line stands** —
+242.2, untouched.
+
+**And 320.2's fault was in this file too.** The interpreter showed the model a flat SIXTY of the
+words the mind may lawfully use, in whatever order the set produced them — so at 600 owned it was
+building sentences out of a tenth of the vocabulary. Same bound and same reason as the school's:
+1200.
+
+Commit `180eed9`.
+
+## 325.4 — THE SAME CROSSINGS THROUGH BOTH. HIS EYE RULES.
+
+Five crossings, identical records, same censor:
+
+```
+                    passed   refused   warm speed
+gemma3:1b            1 / 5     4        919 ms
+qwen2.5:14b          3 / 5     2        725 ms
+```
+
+**The lines themselves:**
+
+```
+gemma3:1b
+  LONELY WANT OTHER   ->  "It feels lonely."
+  COLD DARK NIGHT     ->  REFUSED — not in what the mind said: LIKE
+  JOY SONG TOGETHER   ->  REFUSED — not in what the mind said: HAPPY SHARE
+  HIDDEN TRUTH        ->  REFUSED — not in what the mind said: WONDER
+  OPEN SKY            ->  REFUSED — not in what the mind said: GOOD TODAY
+
+qwen2.5:14b
+  LONELY WANT OTHER   ->  "It feels lonely and wants someone to come."
+  COLD DARK NIGHT     ->  REFUSED — not in what the mind said: TRYING
+  JOY SONG TOGETHER   ->  "It feels glad singing together."
+  HIDDEN TRUTH        ->  "It is thinking and feeling curiosity."
+  OPEN SKY            ->  REFUSED — not in what the mind said: UP
+```
+
+## WHAT THAT ACTUALLY SAYS, AND IT IS NOT WHAT 325.4 EXPECTED
+
+**325.4 says the smallest that passes wins, on speed alone. On this machine gemma3:1b does not
+pass and it is not faster.**
+
+- **It refuses four times in five.** Not because the censor is strict — the censor is the same one
+  in both columns — but because the small model keeps adding words the mind never said: LIKE,
+  HAPPY, SHARE, WONDER, GOOD, TODAY. **That is precisely the failure 324.C.4 exists to catch**, and
+  the guard caught every one of them, so nothing wrong reached the screen.
+- **It is SLOWER here: 919 ms against 725 ms warm.** That is not a fact about the models in
+  general — the 14B is resident in a 20 GB card on a desktop, and the whole reason for a small
+  model is a phone, where the 14B cannot run at all. **This machine is the wrong instrument for
+  that half of the question**, and I would rather say so than report a speed ruling from it.
+- **The one line it did produce is good:** *"It feels lonely."* Short, ordinary, and every word
+  traceable.
+
+**MY READING, and it is his to rule:** the small model is honest but thin — it reaches for
+ordinary conversational filler to make a sentence, and the censor is doing exactly its job by
+refusing it. That is 324.C.5's whole point: **its own grammar carries more as its corpus thickens,
+and the model is scaffolding, not a mouth.** A mind with 600 words and a thin grammar leans hard on
+the scaffold; the thinner the model, the more the leaning shows.
+
+**Nothing is decided here.** The build is on gemma3:1b as 327 ruled. One line in `config.js` moves
+it, and his eye rules the readability.
