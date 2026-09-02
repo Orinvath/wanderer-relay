@@ -9425,3 +9425,35 @@ to others. Rows to REFERENCES.md per 227.
    That part of 306.B was right and stands.
 6. PROVE IT: on his bench, IDENTITY must stop reading zero. Post what
    reached it, on which tick, and what the story said.
+
+## Directive 367 — THE CORE HAS NEVER MOVED. Fix the reading, then make it unmissable.
+
+**HIS WORDS: he has NEVER seen it move.** Not small, not subtle —
+never.
+
+**THE CAUSE IS ALREADY FOUND AND NOT YET FIXED.** 356's diagnosis:
+
+```
+what THE MAP reads (mindmap.js:821)   { null: 300 }
+what the mind actually reports        { excitement: 298, still: 2 }
+```
+
+`h.sphere` does not exist on a happening — the urge is on the VIEW
+(watching.js:1298), not on the happening the map is reading. So the
+mind is after something on 298 of 300 ticks and the map sees nothing
+every single time.
+
+1. FIX THE READING. Read the urge from where it actually is. That
+   alone should make the Core move for the first time.
+2. THEN MAKE IT UNMISSABLE. He has watched this board for days; when
+   it finally moves he must not have to look for it. REACH is 2.6
+   today — raise it so the lean is obvious across the room, and say
+   what you set it to. If a lean that large collides with the
+   sigils, say so and he will rule.
+3. EXCITEMENT IS WHAT HE WILL SEE FIRST, on 298 of 300 ticks: both
+   axes, restless. Make sure that reads as restlessness and not as a
+   jitter — it is a being unable to keep still, which is a real
+   thing about it.
+4. PROVE IT ON HIS BENCH: post the urge counts and the Core's actual
+   position over a stretch, so "it moved" is a number and not a
+   claim.
