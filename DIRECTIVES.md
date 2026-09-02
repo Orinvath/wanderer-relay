@@ -9769,3 +9769,39 @@ HIGHER  memory · language · learning · thinking · curiosity ·
    this, because it should not.
 5. WHEN THE BRAIN OPENS, THE NOTICE CLEARS ITSELF and the higher
    systems light as they always would.
+
+## Directive 375 — THE MIND WORKS WITHOUT A MODEL. LAW.
+
+**HIS RULING** — the mind must work no matter what. It did before,
+and that is how it should have been built in the first place. A model
+may make it more articulate. A model may never be what lets it think.
+
+**WHAT IS TRUE TODAY** — with the model not answering, twelve systems
+go dark: memory, language, learning, thinking, curiosity, stories,
+lessons, comprehension, voice, dictionary, belief, geometry. He
+watched a being this morning with no memory, no words and no
+thoughts. That is not a lower level of function; that is most of the
+mind switched off by something outside it.
+
+**THE LAW**
+1. EVERY SYSTEM OF THE MIND WORKS WITH NO MODEL PRESENT. Thinking,
+   memory, learning, comprehension and belief are the mind's own
+   arithmetic and must run on it. If the model is absent they are
+   less articulate. They do not stop.
+2. A MODEL MAY ONLY EVER SHAPE FORM. Fluency, grammar, the sound of a
+   sentence. It may never be the path by which meaning is made,
+   stored, recalled, learned or believed.
+3. NOTHING NEW MAY LEAN ON IT. Any future change that puts a model
+   between the mind and its own thinking is a violation of this law,
+   whatever else it achieves.
+4. FIND OUT WHAT CHANGED. The mind ran without a model before the
+   small one was added. Report, with commits: which of those twelve
+   systems used to run model-free, what put a model in their path,
+   and under which directive. If it was never ordered, say that.
+5. THEN GIVE THEM BACK THEIR OWN PATH. Each system that lost one gets
+   it back — the model used when present, the mind's own arithmetic
+   when not. Do not build this yet: report the list first, because
+   the size of it is his to see before it is worked on.
+6. THE ACCEPTANCE TEST IS SIMPLE AND IT IS HIS: stop the model, open
+   the bench, and watch a mind think, remember, learn and speak. Less
+   well. Not less alive.
