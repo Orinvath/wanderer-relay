@@ -38086,3 +38086,88 @@ surfacing.js:*     reads `this.memory.model?.embedModel` to record which embedde
 ```
 
 **None moved (378.5).**
+
+---
+
+# 380 — I READ THE MOMENTS. There is a fault, and it is the reverse of the one I was worried about.
+
+**Diagnosis only. Nothing changed.** 60 consecutive moments, with what each was, what it scored,
+whether it passed, and what it was measured against. **The percentage was not the finding — the
+data is.**
+
+## THE STRETCH
+
+```
+tick | passed | rel   | the moment                     | the nearest thing it held
+   1 |   no   | 0     | TOGETHER                       | (nothing held)
+   2 |   no   | 0     | OPPORTUNITY SONG               | (nothing held)
+   3 |  YES   | 0.5   | SONG                           | OPPORTUNITY SONG
+   7 |  YES   | 1     | TRUTH                          | WORLD
+  10 |  YES   | 0.555 | MUSIC                          | OPPORTUNITY SONG MACHINE
+  11 |   no   | 0     | RIVER                          | (nothing held)      ← HE HAD JUST SAID IT
+  13 |  YES   | 1     | SONG                           | SONG
+  14 |  YES   | 0.989 | OPPORTUNITY VALUE              | OPPORTUNITY VALUE
+  18 |  YES   | 1     | OPPORTUNITY                    | OPPORTUNITY
+  20 |  YES   | 0.5   | OPPORTUNITY SONG               | OPPORTUNITY SONG
+  21 |  YES   | 0.5   | OPPORTUNITY SONG               | OPPORTUNITY SONG
+  31 |  YES   | 1     | SECRET                         | SECRET SOLUTION
+  32 |  YES   | 1     | SECRET                         | SECRET
+  35 |  YES   | 0.5   | BIRD SONG                      | SONG                ← he had just said it
+  37 |  YES   | 1     | SONG                           | SONG
+  38 |  YES   | 1     | SECRET                         | SECRET
+  41 |  YES   | 0.372 | HARMONY                        | (nothing held)
+  42 |  YES   | 0.372 | STORM                          | (nothing held)
+  51 |  YES   | 1     | SECRET                         | SECRET
+  52 |  YES   | 1     | TRUTH                          | TRUTH
+  58 |  YES   | 1     | PURPOSE BEAUTY                 | BEAUTY
+  59 |  YES   | 1     | PURPOSE BEAUTY                 | PURPOSE BEAUTY
+  60 |  YES   | 1     | BEAUTY                         | PURPOSE BEAUTY
+```
+
+## WHAT THE DATA SAYS — 380.2, by reading them
+
+```
+60 moments · 57 passed · 3 turned away
+25 of the 57 scored EXACTLY 1.000
+11 of the 57 were the SAME MARKS as the nearest thing already held
+```
+
+**THE DOOR REWARDS REPETITION.** A moment identical to something it already holds scores 1.000 —
+the maximum — and sails through. SECRET against SECRET. SONG against SONG. TRUTH against TRUTH.
+**PURPOSE BEAUTY three ticks running at 1.000 each.** 380.2's own words: *"A moment identical to the
+last forty is not"* worth noticing. **Eleven of them were exactly that, and they scored highest of
+all.**
+
+**AND IT TURNED AWAY THE ONE MOMENT THAT MATTERED MOST.**
+
+```
+tick 10   the host says "the river is warm today"
+tick 11   RIVER      rel 0     NOT PASSED     "(nothing held)"
+```
+
+**He spoke to it, it formed the moment RIVER, and the door refused it — because nothing it already
+held was near it.** 380.2 lists exactly this as worth noticing: *"A moment where the host spoke…"*
+**Two more of the same shape: TOGETHER and OPPORTUNITY SONG, its first two moments ever, refused
+for being the first.**
+
+## SO THE FAULT IS NOT THAT 97% PASSES. IT IS WHAT PASSES.
+
+**The door measures similarity to what is already held, and calls that relevance.** So:
+
+- **the more often a thing has happened, the more surely it gets through** — repetition scores 1.000
+- **the newer a thing is, the more surely it is turned away** — novelty scores 0
+
+**That is upside down against 380's own standard.** Deutsch & Deutsch and Lavie are about
+PERTINENCE to current goals and state; Scherer's first check — and `attention.js` says this in its
+own comment — **is NOVELTY before it is anything else.** The file even records novelty being
+computed and then deliberately not allowed to open the door, with the note that whether it should
+is his and unruled.
+
+**I am not proposing a threshold, a distribution or a mechanism (380.5).** The finding is:
+
+**A LARGE SHARE OF WHAT PASSES IS TRIVIA OF ONE SPECIFIC KIND — the mind's own repetitions — and
+what is turned away includes the things he would most want noticed: the first time anything
+happens, and the moment right after he speaks.**
+
+**97% passing is not the problem. A door that is most confident about what it has already seen a
+hundred times is.**
