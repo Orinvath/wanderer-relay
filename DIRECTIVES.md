@@ -10184,3 +10184,40 @@ directive reported built, audited for, and absent from the code.
    is restored and in what order.
 5. RECORD IT IN AUDITS.md as audit 002, with the commit it was taken
    at, so the next one starts from there.
+
+## Directive 386 — THE PERCEPTION PANEL: plug in anything
+
+**THE FEATURE** — a panel on the bench for attaching whatever model
+does the mind's perceiving and speaking.
+
+**WHY IT MATTERS** — the models are chosen (327: moondream for sight
+and sound, gemma3:1b for the voice) and swappable by config, but only
+by editing an environment variable and restarting. This is the
+Emulator: he must be able to plug in anything he wants, when he
+wants, and see what it does.
+
+**HE HAS RULED** — 324: eyes and ears are apparatus, ALL PROCESSING
+IS THE MIND'S, and the model sits inside the mind's perception and
+language systems. 327: the two models. 301: nothing in the mind may
+depend on which model is there. All stand; this is the panel that
+makes the swap usable.
+
+**THE PANEL**
+1. A LOCAL MODEL — pick from what is on the machine, or type a name.
+   Whatever Ollama serves.
+2. AN API KEY AND ENDPOINT — plug in a bigger model from anywhere.
+   His bench, his call; no restriction on what may be attached.
+3. PER ROLE, SEPARATELY: the senses (sight, sound) and the voice.
+   Each may be local, remote, or nothing at all.
+4. LIVE. Attaching or detaching takes effect WITHOUT A RESTART, and
+   the mind carries on either way — 375 is law, and detaching
+   everything mid-session must leave it thinking, remembering and
+   learning. That is the acceptance test.
+5. IT SAYS WHAT IS ATTACHED and whether it answered — the name, where
+   it is, and its last response time. When something is not
+   answering, that reads plainly, in the manner of 374's notice.
+
+**WHAT DOES NOT CHANGE** — the mind never knows which model is
+attached, and nothing in it may be written against a particular one
+(301). The panel changes what is plugged into the socket, never the
+socket.
