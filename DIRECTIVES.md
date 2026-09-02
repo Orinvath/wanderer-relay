@@ -10221,3 +10221,35 @@ makes the swap usable.
 attached, and nothing in it may be written against a particular one
 (301). The panel changes what is plugged into the socket, never the
 socket.
+
+## Directive 387 — THE GAUGE COUNTS ENGLISH. THE MARKS ARE NOT A MEASURE.
+
+**HIS RULING** — the glyphs were dropped as a measure when the full
+language was adopted. The gauge counts ENGLISH WORDS. Marks count for
+nothing in it.
+
+**WHAT IS THERE NOW** — measured live on his bench: the gauge's 59 is
+6 English words and 53 MARKS. Fifty-three of the fifty-nine are the
+Avatar's glyphs, and the panel then prints the English half beside the
+whole, which is the shortfall he read.
+
+**THE COLLISION, and his latest word governs** — 344 made the mind's
+language full-scale English and the 402 the AVATAR'S SYMBOLIC SET.
+371 then ruled that marks it learned the meaning of count as words it
+knows. THAT PART OF 371 IS STRUCK. The gauge is a measure of language,
+and the language is English.
+
+**THE RULING**
+1. THE GAUGE COUNTS ENGLISH WORDS IT CAN DEMONSTRATE. Nothing else.
+   `learnedMarks` comes out of the count.
+2. THE LINE SAYS WHAT IT COUNTS, plainly: the number of English words
+   it can demonstrate, and nothing beside it that is not comparable.
+   Post the wording before it ships (his eye, as CC already offered).
+3. HIS BENCH WILL DROP TO SIX. That is the honest number and it is
+   expected — the 53 were never English.
+4. WHAT 371 KEEPS: one vocabulary in the MIND — a thought may be made
+   of anything it knows, marks included (372), and inner learning
+   binds marks as it always did. NOTHING ABOUT WHAT THE MIND KNOWS OR
+   THINKS IN CHANGES. This is about what the GAUGE MEASURES.
+5. 355 STANDS: a newborn reads 0.00 and counts nothing it was born
+   with.
