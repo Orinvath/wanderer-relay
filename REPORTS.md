@@ -36783,3 +36783,78 @@ apart cannot be shown separately on a 60 Hz screen.
 - **LEAVE IT** — a burst per tick is a true picture of a mind that thinks in bursts.
 
 **Nothing changed. This is an answer, not a build.**
+
+---
+
+# BUILT — 366 and 367. `f911b31` and the commit above.
+
+## 366 — THE LIFE STORY IS TAKEN AT A MOMENT THAT MATTERED
+
+**306.B is struck.** Sleep was made the boundary because it was "the only boundary this build has"
+— an invention — and the cost was exact: **on a bench mind that rarely sleeps, IDENTITY read zero
+and nothing had ever reached it.**
+
+**FOUR THINGS TAKE IT NOW, every one read off what the tick already records:**
+
+```
+HIGH POINT      a feeling at or above the appraisal's own URGENT_AT, pleasant
+LOW POINT       the same bar, unpleasant
+TURNING POINT   a train it ANSWERED — it stopped wondering about something
+THE TELLING     a story it told that passed the gates — McLean, Pasupathi & Pals 2007 exactly
+```
+
+**NO NEW NUMBER.** The bar is `appraisal.PROVISIONAL.URGENT_AT`, which this build already uses to
+decide a feeling is strong enough to act on. **A moment strong enough to act on is a moment strong
+enough to remember being.** It still reads only agency and communion, interpreting nothing — the
+half of 306.B that was right. **Sleep is not excluded, only no longer special.**
+
+**366.6 — IT HAS STOPPED READING ZERO. 400 ticks:**
+
+```
+taken 8 times — ticks 10, 23, 35, 58, 113, 121 …
+every one of them: "it told its story"
+what the story said: SEARCHING — "a story needs 5 held lessons across 3 journeys;
+                                  there are 0 across 0"
+```
+
+**IDENTITY is reached and runs. The story is still SEARCHING because the mind has not lived enough
+yet, and it says so with the arithmetic** — that is the honest reading, not a failure. **No high or
+low point fired in 400 ticks: nothing was felt at or above 0.75 on this bench.**
+
+## 367 — THE CORE MOVES
+
+**THE READING IS FIXED.** `mindmap.js` was reading `h.sphere.urge` off a HAPPENING; the sphere is on
+the VIEW (`watching.js:1298`), and a happening has no sphere on it at all. **That line has been
+wrong since 292.2, which is why he has never once seen it move.**
+
+**367.4 — THE PROOF, the Core's actual position, replaying the map's own arithmetic:**
+
+```
+tick   0   want=still        core at ( 0.00,  0.00)
+tick  30   want=excitement   core at (-1.70,  0.33)
+tick  60   want=excitement   core at (-1.82, -0.78)
+tick  90   want=excitement   core at ( 2.63,  1.18)
+tick 120   want=excitement   core at ( 0.48, -1.49)
+tick 150   want=excitement   core at (-2.88,  1.69)
+
+furthest from centre: 3.40 units
+```
+
+**REACH IS 6.0**, up from 2.6 — 367.2. It was set when nothing was moving, so nobody ever saw
+whether it read. The Core sits centrally with the nearest sigils well clear, so a lean this size
+does not reach them; **if it crowds anything on his screen, say so and it comes down.**
+
+**AND ONE THING HE SHOULD KNOW BEFORE HE WATCHES:** it depends on the being. Three minds, 300 ticks
+each — two read `excitement` on 298 of 300, and one read `still` on all 300, because nothing ever
+moved it enough to fire a tendency. **`still` currently draws dead centre, which is the same
+picture as "after nothing" — and `still` is not nothing, it is settling.** That is a real
+distinction the display does not make, and it is his to rule rather than mine to change.
+
+## AND A GUARD ON MYSELF
+
+**I put a backtick in a comment inside the map's template three times today, twice in the last
+hour.** The module lives inside a template literal and one backtick in a comment ends it, killing
+the whole page. **The suite now refuses any backtick between the template's opener and the module**
+— it costs nothing and it ends a fault that has put a dead board in front of him more than once.
+
+**Suite 528 of 530. Both reds are the model-dependent teacher pair.**
