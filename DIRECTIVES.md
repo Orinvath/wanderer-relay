@@ -9918,3 +9918,36 @@ do, because the two measures never live in the same file:
 5. THE SAME TEST APPLIES to anything else that turns out to be a
    plug-in's machinery sitting in a mind file. Name any you find
    while doing this; do not move them yet.
+
+## Directive 379 — THE MIND'S OWN SPACE IS THE ANSWER. It already works.
+
+**HIS RULING** — this was already solved and should never have been
+put to him as a question. The VSA (297) is the mind's own way of
+measuring how related two things are. It is built, it is running, and
+it costs nothing. The embedder was standing in for it before it
+existed.
+
+**THE HISTORY, so nobody re-opens this** — `nomic-embed-text` went in
+on 11 August, in the Phase 3 commit, because the mind had no way of
+its own to measure relatedness yet. 221 gave it one. 297 built the
+geometry. It has had its own answer for weeks and kept calling the
+model out of habit.
+
+**THE RULING**
+1. THE MIND MEASURES RELEVANCE IN ITS OWN SPACE. That is the mind's
+   lane and it is the default, not the fallback.
+2. THE EMBEDDER IS A PLUG-IN LIKE ANY OTHER — its cosine and its bar
+   live in the model's file (378) and it is used only when present.
+   The mind never depends on it.
+3. THE DOOR'S SELECTIVITY IS A REAL AND SEPARATE QUESTION — the
+   mind's space is dense, so 97% passes — but it is a question about
+   THE DOOR, not about which lane measures. Do not answer it by
+   reaching for the embedder. It is logged and it waits.
+4. WHAT IS BUILT ALREADY WORKS AND IS NOT RE-OPENED: 163 thoughts,
+   11 feelings, 200 memories, 51 word links, 18 words on the gauge,
+   with nothing on 11434. Leave it.
+
+**AND A NOTE FOR THE DIRECTOR, on the record:** a solved thing was
+put to him as an open decision, and every option offered was a chance
+to build something worse than what already ran. THE CHECK BEFORE ANY
+QUESTION REACHES HIM: is this already answered by something we built?
