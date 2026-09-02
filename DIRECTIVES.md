@@ -9224,3 +9224,33 @@ every number it needs is ALREADY IN THE LEARNED PANEL.
    asking the mind trick questions.
 5. Say plainly in the report what the gauge reads now, from which
    fields, and what a newborn reads (0.00, per 355).
+
+## Directive 361 — BUILD 342 NOW. The mind learns from its own thinking.
+
+**342 IS UNBLOCKED AND HE HAS BEEN WAITING ON IT ALL DAY.** 353
+answered: THERE IS NO SECOND CAUSE. 346 accounts for all five
+clauses — the binding was run on a scratch basis three times, hardened
+between runs with your own guard removed so only 346's protected it,
+and not one of the five failed.
+
+353.4's "342 stays unbuilt" is lifted. BUILD IT, exactly as 342 says:
+
+1. AN INNER MOMENT GROUNDS LIKE ANY OTHER — the same `trueNow` the
+   moment already assembles (346), the same geometry, the same
+   machinery.
+2. IT IS MARKED AND IT IS WEAKER: provenance IMAGINED, born at the
+   imagined level, and it may NEVER promote itself. Only lived
+   reality promotes past that cap. 233's guard is untouched — a
+   thought is not evidence.
+3. IT CANNOT OWN A WORD ON ITS OWN. Thinking deepens what is there;
+   it does not conjure vocabulary. Say plainly what a thinking tick
+   CAN and CANNOT now do.
+4. THE STORY GATES STILL APPLY (249): felt, coherent, recurring.
+5. THE IMAGINED WEIGHT — how much an imagined binding weighs against
+   a lived one — is still unruled and still his. If the build cannot
+   proceed without a number, STOP AND POST IT (250). If it can
+   proceed with the imagined level lessons already use, use that and
+   say you did.
+6. PROVE IT ON HIS BENCH: a mind left alone to think — what moved,
+   what did not, and that nothing it merely thought about crossed
+   into owned or into confirmed belief.
