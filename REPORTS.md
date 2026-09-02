@@ -37728,3 +37728,84 @@ shape. Not changed, and named here rather than in a separate report.
 
 **The bench is serving `bac527f` and the build is now `8f9f120` — it needs a restart to show the
 notice.**
+
+---
+
+# 376 — THE PROBE IS OUT AND IT WORKS. And one thing left, which is a COLLISION, not a choice.
+
+## BUILT `8c957ed`
+
+**376.1 — the probe is gone.** `openBrain()` no longer embeds before it will build anything. The
+model is still constructed and still handed to memory; **it is simply no longer a doorman.**
+
+**376.2 — and the tick's embed is optional too**, which the investigation had missed. It awaited the
+embedder bare at `experiencing.js:817`, so a model that did not answer THREW and everything after it
+in the tick was dead. It now carries a null vector the way the line above it already carries
+silence.
+
+## MEASURED, WITH NOTHING LISTENING ON 11434
+
+```
+300 ticks, host present, spoken to, NO model at all:
+  thoughts        149          it thinks
+  memories        300          it remembers
+  word links       54          it learns
+  owned            21
+  it spoke         15 times
+  the gauge        22 words · 1.37 years
+  FEELINGS          0          ← it does not feel
+```
+
+**Four of the five things 376.5 asks for are true today: it thinks, remembers, learns and speaks
+with no model.** Less articulate, not less alive. **The fifth is not.**
+
+## WHY IT CANNOT FEEL, AND IT IS OLDER THAN THE LLM
+
+**Nothing gets through the attention door.** 0 moments noticed in 120 ticks.
+
+```
+attention.js:71   const passed = rel >= this.p.THRESHOLD
+attention.js:53   const rel = surfaced.topRelevance ?? 0
+memory.js:256     const relevance = momentVector ? cosine(...) : 0
+```
+
+**Relevance IS the cosine.** With no vector every memory scores 0, so `topRelevance` is 0, so
+nothing is ever noticed, so the appraisal never runs and no feeling is ever produced.
+
+**AND THIS IS NOT SOMETHING THE LLM BROKE.** I checked the history rather than assuming: the gate
+has read `surfaced.topRelevance ?? 0` and passed on `rel >= THRESHOLD` **since Directive 139**, the
+day the master loop was built. There is no earlier build where a mind felt without embeddings. **I
+went looking for the earlier correct version he told me to copy and it is not there.**
+
+## SO THE LAST STEP IS A COLLISION, and I am raising it as one rather than choosing
+
+> **376.2** — *"THE MODEL IS OPTIONAL EVERYWHERE IT IS USED. Where a system can use one it does;
+> where none is present it uses its own arithmetic — memory's own pattern, already built, is the
+> shape for all of it."*
+
+> **attention.js, the file's own standing ruling** — *"THE GATE IS RELEVANCE, AND ONLY RELEVANCE.
+> This first said a moment could also pass on sheer novelty — and the suite caught what that
+> actually does: a moment matching nothing scores maximum novelty, so EVERYTHING unfamiliar got
+> through and the front door stopped being a door. That rule was mine and unsourced, so it is
+> removed rather than tuned. … WHETHER IT SHOULD is a real question and it is Lonnie's; I have no
+> source for it."*
+
+**376.2 says apply memory's pattern — redistribute onto recency and importance. The attention file
+says that exact blend was tried, put every moment through the door, and was removed; and that what
+may open the door with no semantic signal is HIS question, unsourced, never ruled.**
+
+**The only question is which governs.** I have not touched `attention.js`.
+
+## 376.6 — THE SKIPS, counted as asked
+
+**16 clauses carry a skip today.** With no model the suite does not merely skip them — **it stops
+early**: `296 passed, 6 failed, THE SCHOOL CHECKS DID NOT RUN — exit 2 (environment)`. The six
+failures are all the embedder: two are feelings-from-a-story clauses that cannot pass while nothing
+gets through the door, and four report the fetch failure directly. **Not changed, as instructed.**
+
+## AND ONE QUESTION UNDER ALL OF IT, which is his
+
+**Is the EMBEDDER "the model" that 375's law is about?** It is not a language model and it makes
+nothing articulate — it is how the mind measures whether this moment touches anything it holds.
+**The chat model was scaffolding to grow the mind. The embedder may be an organ.** Those are
+different things and the answer changes what the collision above should be resolved to.
