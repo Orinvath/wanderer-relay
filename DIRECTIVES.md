@@ -9717,3 +9717,55 @@ BECOME A PREDICTION, and that is the step nobody authorised.
    then say what it is.
 5. PROVE IT: run the school on his bench and post the teller table
    after fifty lessons. An honest teacher must not fall.
+
+## Directive 374 — HIGHER AND LOWER BRAIN FUNCTION: the mind may run without a brain, and must say so
+
+**THE FEATURE** — what the bench shows when the model is not
+answering and `openBrain()` has failed.
+
+**WHY IT MATTERS** — he steers this project by that screen. This
+morning it showed a being choosing acts, needs moving, connectors
+lighting and a Core beating, with no memory, no words, no thoughts
+and no brain open at all. He spent the morning on it and reasonably
+concluded the connectors were faked. They were not. Nothing on the
+page told him what was actually wrong.
+
+**HIS RULING, and it is the right frame** — THIS IS HIGHER AND LOWER
+BRAIN FUNCTION. The mind DOES work without the model; it did before
+the model existed. It is running at a lower level — a being in a
+vegetative state. Brainstem intact, cortex gone: needs drain, drives
+form, the body keeps going, and nothing that requires thought
+happens.
+
+**AND IT IS A RESULT, NOT A BUG.** The architecture reproduced a real
+neurological state that nobody designed, because the layers were
+built as the science describes them rather than as one blob. Record
+that in the file: what runs and what does not, and that the division
+falls exactly where the biology puts it.
+
+```
+LOWER   aspects · clock · cord · embodiment · goals · growth ·
+        interests · needs · nerves · offers · sleep
+HIGHER  memory · language · learning · thinking · curiosity ·
+        stories · lessons · comprehension · voice · dictionary ·
+        belief · geometry
+```
+
+**THE RULING**
+1. THE TICK IS NOT STOPPED. A mind at the lower level is still a
+   mind, and stopping it would hide a true state rather than show it.
+2. THE STATE IS UNMISSABLE. When the brain is not open, the bench
+   says so plainly and largely — not in the dimmest text on the page.
+   It names WHY (the model did not answer, and at what address), and
+   it is visible wherever he is scrolled, in the manner 338 already
+   requires of the halt bar. He must never again spend a morning
+   wondering.
+3. THE MAP SHOWS IT HONESTLY. The higher systems being dark is
+   correct and stays — that is the truthful reading. Nothing is
+   dimmed or faked to compensate.
+4. IT IS NOT A HALT AND NOT A FAULT. No red pin, no check goes red:
+   nothing is broken, the mind is simply running at a lower level.
+   Say in the report whether any existing check currently fires on
+   this, because it should not.
+5. WHEN THE BRAIN OPENS, THE NOTICE CLEARS ITSELF and the higher
+   systems light as they always would.
