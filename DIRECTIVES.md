@@ -9528,3 +9528,30 @@ marks. Before anything is moved, we find out why anything is there.
    he confirms is correct. Say whether the two are the same element
    or two elements stacked, because that changes what the fix is.
 5. CHANGE NOTHING. Report and stop.
+
+## Directive 370 — WHY DOES IMAGINATION STILL TEACH NOTHING?
+
+**HIS BENCH, on the current build:** the mind imagines and learns
+nothing from it. 363 was ordered and reported built — 28 words owned
+from thinking alone in 200 ticks — and it is not happening for
+imagination.
+
+**FIND OUT WHY. DIAGNOSE, CHANGE NOTHING.**
+
+1. IS IMAGINATION EVEN ON THAT PATH? 342 and 363 were written about
+   THINKING — trains and their beats. IMAGINATION IS SEPARATE
+   MACHINERY (226): an invented scenario, its own beats. Say plainly
+   whether an imagined beat reaches the learning call at all, and on
+   which line if it does.
+2. IF IT DOES NOT, THAT IS THE ANSWER and it is the Director's gap —
+   363 opened thinking and never named imagination. Say so and stop
+   there; the ruling is his and it is already obvious.
+3. IF IT DOES, then something is refusing it and the question is
+   what: the gate (`hangsTogether`), an empty `trueNow` on an
+   imagined tick, the `grounded` provenance, or something else. Name
+   the line that refuses it and what it refuses on.
+4. AND SAY WHETHER 363 IS ACTUALLY LIVE ON HIS BENCH — he says the
+   build number is current. If 363's 28 words reproduce on his
+   running mind, say so with the number; if they do not, that is a
+   different and worse finding.
+5. Report what it was, not what fits first.
