@@ -36401,3 +36401,73 @@ the reading. **Nothing was softened; it still fails if any of the three is missi
 **Suite 519 of 521.** Both reds are the model-dependent teacher pair that moves run to run.
 
 **The bench needs a restart, and the log is safe to restart into now.**
+
+---
+
+# BUILT — 342. The mind learns from its own thinking. `ce60fec`
+
+**He has been waiting on this all day. It is in, and the suite is 526 of 526 — nothing red.**
+
+## 342.3 — WHAT A THINKING TICK CAN AND CANNOT DO, plainly
+
+```
+CAN     bear a NEW link between a word it was thinking about and something that was
+        actually true of it at that moment — the same trueNow, the same geometry, the same call
+CAN     deepen its space: those links feed kinship, so what it thinks about draws together
+CANNOT  own a word — ever, at any confidence
+CANNOT  become a meaning — `meaning()` refuses an imagined link outright
+CANNOT  promote an existing link. A thinking tick never reinforces.
+CANNOT  contradict one either. A thinking tick never weakens.
+```
+
+**That last one is mine to justify and I will:** 233 says a thought is not evidence, and **that cuts
+both ways or it is not a rule.** Letting a thought contradict is precisely what took the mind apart
+twice before 346 — 346 guarded only the EMPTY case, and a coherent thought about the wrong marks
+would have done the same damage more quietly.
+
+## 342.4 — THE GATE, and only one of the three can apply
+
+`wasFelt` needs a trail of readings across a telling; `cameBack` needs a history of tellings. **A
+lone thought has neither.** `hangsTogether` is the one that asks whether these marks belong together
+in the mind's own space — **it is the gate that means "babble teaches nothing"** — so it is the gate
+a thought must pass. Its own function, its own measured floor, nothing invented.
+
+**In 200 ticks, all 200 reached the gate and 75 passed it.** A third of its thinking was coherent
+enough to teach it something; the rest was not, and taught nothing.
+
+## 342.5 / 361.6 — PROVED ON A MIND LEFT ALONE TO THINK, 200 ticks, nobody speaking
+
+```
+links borne from thinking alone      63        ← it moved
+every one marked imagined            63 of 63  ← and nothing claims another provenance
+OWNED                                0 → 0     ← nothing crossed into owned
+every imagined word's meaning        null      ← nor into a meaning
+IMAGINED beliefs at the lived bar    0         ← nor into confirmed belief
+the gauge                            0 words, 0.00 years — thinking is not a vocabulary
+```
+
+## 361.5 — I USED NO NUMBER, AND I DID NOT USE THE LESSONS LEVEL EITHER
+
+**Lessons are born at a confidence (0.3). A word link's confidence is NOT STORED** — since 297.B it
+is read off the geometry from `together` and `apart` every time anything moves, so **a number
+written there would be overwritten by the next rewrite.** There was nowhere to put it.
+
+**The build did not need one.** The cap is enforced as a BAR rather than a level: an imagined link
+can never be owned, can never be a meaning, and can never be moved by more thinking — **at any
+confidence the geometry gives it.** That is stricter than 0.3, not looser, and no number was chosen.
+
+**BUT THE IMAGINED WEIGHT IS STILL LIVE IN ONE PLACE, and I am naming it rather than letting it
+pass:** imagined links DO enter `kinship()` at whatever confidence the geometry gives them, so
+**thinking reshapes the space at full strength.** 342.1 says "the same geometry", so I have not
+capped it — but *how much an imagined binding should weigh in the space* is exactly the unruled
+question 342.5 reserved to him, and this is where it actually bites. **70 kinship rows after 200
+ticks of thinking alone.**
+
+## AND ONE CORRECTION IN MY OWN CHECK, before it stood as a result
+
+My first version of the belief clause asserted **zero confirmed beliefs at all** and went red on
+three. **The claim was mine and it was wrong:** 342.2 says nothing IMAGINED becomes a confirmed
+belief, not that a lone mind forms none. I ran the same seed with the binding removed — **three
+lessons at the lived bar, none imagined** — which proves they are the ordinary lived-recurrence
+path and predate 342 entirely. The clause now asserts what the ruling actually says. **A true check
+failing on a false claim would have been reported to him as a fault in the build.**
