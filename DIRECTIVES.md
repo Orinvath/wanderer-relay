@@ -9951,3 +9951,22 @@ model out of habit.
 put to him as an open decision, and every option offered was a chance
 to build something worse than what already ran. THE CHECK BEFORE ANY
 QUESTION REACHES HIM: is this already answered by something we built?
+
+## STANDING LAW — step 6b: IS IT ALREADY SOLVED BY SOMETHING WE BUILT?
+
+Added to the presentation structure, binding on the Director and CC.
+
+Before any problem or decision reaches Lonnie, after checking whether
+he has ruled on it, CHECK WHETHER THE BUILD ALREADY ANSWERS IT. Read
+the code and the record, not memory.
+
+If a system already solves it: SAY SO AND DO NOT ASK.
+
+Why it is a law: framing a solved thing as an open question is not
+merely a waste of his time and tokens. Every option offered against a
+working answer is a chance to build something worse than what already
+runs. The embedder-versus-space question was exactly this — the VSA
+had answered it for weeks.
+
+Step 6 asks whether HE decided it. Step 6b asks whether THE BUILD
+decided it. Both come before anything is put to him.
