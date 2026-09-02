@@ -37088,3 +37088,13 @@ all. **If it happens again, the one thing that would settle it is a look at the 
 showing**, and I can read his bench live while it is on screen rather than reconstructing it after.
 
 **I have changed nothing.**
+
+**HE HAS SINCE SAID IT WAS NOT SLEEP EITHER**, as far as he could tell. So the explanation is
+withdrawn entirely rather than narrowed. **What stands is the measurement and nothing else:** that
+line showed five marks while the mind reported feeling nothing, 23 times in 28 seconds, and I
+cannot say why.
+
+**What I will not do is offer a third theory.** The being that showed it is gone and the fresh one
+does not reproduce it. **The next time it appears on his screen, one reading settles it** — I can
+read his bench live while it is showing, sampling what it chose and what that line holds in the
+same instant, which is the pairing I failed to take the first time.
