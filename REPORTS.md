@@ -38328,3 +38328,92 @@ a sample trail:                           [0, 0, 0]
 **Not one clause was softened.** The only change to the suite is that a skip now says it is a skip.
 **Nothing was repaired to make a number look better**, and the two real failures are sitting red
 where he can see them.
+
+---
+
+# 383 — THE CONNECTORS, PROVEN. Four hold. One does not, and it is a fault.
+
+## 383.1 — NO EDGE LIST. It starts at zero.
+
+```
+BEFORE THE MIND RUNS      0 connectors
+tick   1                 20
+tick  50                 32
+tick 500                 35
+```
+
+**Zero before it runs, and every line after that was earned by a hand-off.** 28,881 hand-offs over
+500 ticks, 11,928 of them carrying a source, and **not one naming a file with no node.** The check
+in the suite asserts the absence too: no `wires` map, no `SEQ` in the payload, no dashed return, no
+line drawn at build time.
+
+**The jump to 20 at tick one is not a list** — a single tick makes twenty distinct crossings, and
+each was drawn as it happened.
+
+## 383.2 — REAL-TIME. Measured, not asserted.
+
+```
+delivery    trace.watch(fn) is called INSIDE at(), synchronously, before it returns.
+            /trace is Server-Sent Events: one write per hand-off, at the hand-off.
+            No poll. No timer. No frame batching, and nothing invents an order.
+
+latency     from at() to the watcher, over 2,000 hand-offs:
+              median 0.0006 ms · 99th 0.0029 ms · max 0.66 ms
+
+on the wire sequence numbers arrive consecutively and in order — verified on his running bench
+```
+
+**The line is created in the handler for that event. There is no queue for it to sit in.**
+
+## 383.3 — ACCURATE, BOTH DIRECTIONS
+
+**No line without an event:** the only code that can make one is `cross(src, n)`, called from the
+hand-off handler. Nothing else in the file draws, and the suite asserts that.
+
+**No event without a line — with one honest exception:** a hand-off that carries **no source** draws
+nothing, by design (365: an origin is the tick starting something, not data crossing between two
+files). **11,928 of 28,881 carried a source; the rest are origins.**
+
+## 383.4 — THE HALTED CASE. THIS ONE FAILS.
+
+```js
+mindmap.js:1058   if(!frozen){ t+=0.016; step(); }
+```
+
+**`step()` is what fades a crossing and disposes it. When the mind halts, `frozen` is true and
+`step()` never runs — so every line alive at the instant of the halt STAYS LIT, for as long as the
+halt lasts.**
+
+**A halted mind emits nothing, so no NEW line appears — but the board does not go dark. It freezes
+mid-flash.** 383.4 says it must go dark on its own. It does not.
+
+**I have not fixed it.** 338 froze the Core's clock deliberately so a stopped mind would not look
+alive; the same freeze is what strands the connectors. **A line still lit after the mind stopped is
+a line with no event behind it, which is the one thing this board may not do.**
+
+## 383.5 — WHAT IS STILL BARE, and NONE of it is a false dark
+
+**Thirteen nodes have no connector. All thirteen EMIT** — my first grep said six never did and it
+was wrong; the pattern was too strict and the live run settles it. **270.B.5 is not being violated.**
+
+```
+FIRED, BUT NAMED NO SOURCE — so they light their own node and draw no line
+  SOUL          5,000 times      GEOMETRY    658
+  VOCABULARY      317            SAFETY      500
+  CORD            500            NERVES      500
+  VOICE            25            GRAMMAR      25
+
+DID NOT FIRE AT ALL on this bench, and each for an honest reason
+  CONSOLIDATION   it did not sleep in 500 ticks
+  CENSOR          the school was not running against the server
+  SENSES          no camera attached
+  PERCEIVING      the same
+  INTERPRETER     struck by 352
+```
+
+**So the thirteen are bare for one of two honest reasons, and neither is a fault: five had nothing
+to do, and eight did their work without saying where the data came from.** That second group is
+exactly the unfinished half of 365 — **I named the source at 40 of 95 call sites, and these are
+among the 55 I have not.**
+
+**One line of the board is wrong (the halt). The rest is doing what 365 ruled.**
