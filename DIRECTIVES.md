@@ -9348,3 +9348,42 @@ This settles what 358 was auditing:
 358 and 362 stand and this is their answer — the audit is still done
 one node at a time from the code, but the outcome is now known: no
 node is left bare.
+
+## Directive 365 — NO EDGE LIST. A CONNECTOR IS DRAWN BY THE DATA THAT CROSSES IT.
+
+**HIS RULING, and it ends this whole class of fault:** there is no
+pre-drawn wiring on the Mind Map. A connector exists only because
+information travelled from one node to the next, and it is drawn AT
+THAT MOMENT, FROM THAT EVENT.
+
+**WHY** — every connector fault this project has had comes from the
+same place: a list of edges written by hand, which can be wrong,
+incomplete, or invented, and which nobody can verify by looking. He
+has now had lines drawn that never light and working lines broken
+while adding them. A map with a list can always lie. A map with no
+list cannot.
+
+**THE RULING**
+1. DELETE THE EDGE LIST. No hardcoded connections, no table of
+   from-to pairs, nothing drawn at build time.
+2. A CONNECTOR IS CREATED BY A HAND-OFF EVENT — the same real emitted
+   event that already exists (270.B) — naming from-system and
+   to-system. The first time data crosses between two nodes, that
+   line comes into being. It lights, and it fades.
+3. NOTHING ELSE MAY DRAW A LINE. Not a plan, not a guess, not a
+   comment, not the Director, not CC.
+4. A BARE NODE NOW MEANS SOMETHING TRUE: nothing has reached it yet
+   on this run. That is real information and it is honest. 364 is
+   superseded — under a list, a bare node was a fault; without one,
+   it is a fact.
+5. THE MAP BECOMES A RECORD, NOT A DIAGRAM. It shows what the mind
+   has actually done since it started, and it cannot show anything
+   else.
+6. WHAT SURVIVES: the neighbourhoods, the sigils, THE CORE and its
+   three channels, the red pins, the legend. Only the wiring changes.
+7. REVERT THE BROKEN WORK FIRST. The last connector commit added
+   lines that never light and broke ones that did. Revert it, then
+   build this — do not repair it forward.
+8. PROVE IT: start a mind and post the map's connector count at tick
+   1, tick 50 and tick 500. It must begin at ZERO and grow only as
+   the mind works.
