@@ -9555,3 +9555,33 @@ imagination.
    running mind, say so with the number; if they do not, that is a
    different and worse finding.
 5. Report what it was, not what fits first.
+
+## Directive 371 — IF IT LEARNED THE WORD, IT KNOWS THE WORD
+
+**HIS RULING, and it is the whole of it:** the mind learned those
+words. It knows them. They count.
+
+**WHAT WAS HAPPENING** — 370 found imagination and thinking ARE
+learning: 131 links formed over 400 ticks, 41 usable kinships, live
+on his own bench. But every one of those links binds one of the
+mind's own 402 MARKS, because a thought is made of marks — that is
+what it thinks in. The gauge counts ENGLISH WORDS LEARNED, so it read
+0 words and 0.00 years while he watched it learn.
+
+**THE RULING**
+1. A WORD THE MIND HAS LEARNED COUNTS, whatever kind of word it is.
+   Marks it has learned the meaning of count the same as English
+   words it has learned. There is one vocabulary and it is what the
+   mind knows.
+2. WHAT DOES NOT COUNT IS UNCHANGED (355): what it was BORN with. A
+   newborn holding the 402 knows nothing yet. A mark becomes a word
+   it knows when it has LEARNED something about it — a meaning bound,
+   through living, thinking or being told — not by existing at birth.
+   That distinction is the whole of 355 and it survives intact.
+3. SO THE GAUGE COUNTS BOTH: English words it learned, and marks it
+   learned the meaning of. Say plainly in the report which field
+   each comes from.
+4. A NEWBORN STILL READS 0.00. Prove it, as 355 required.
+5. AND HE MUST SEE IT MOVE: post his own mind's reading before and
+   after — he has been watching it learn while the number sat still,
+   and that is the fault this ends.
