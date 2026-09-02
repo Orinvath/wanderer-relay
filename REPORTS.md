@@ -38555,3 +38555,75 @@ LEARNED     …
 **Not beside the gauge, because nothing beside the gauge should invite subtraction.**
 
 **Say which and I will ship it. Nothing about the count waits on this — that is already in.**
+
+---
+
+# BUILT — 386, 388, 389, 390. In number order.
+
+## 386 — THE PERCEPTION PANEL `8cfdc9d`
+
+**A role may sit on this machine, point anywhere with a key, or be detached entirely.** Senses and
+voice separately, each with a model name, an endpoint and a key field, plus Attach and Detach.
+
+```
+GET  /perception    what is attached, whether it answered, and its last response time
+POST /perception    { slot, model, url, key } — takes effect on the NEXT CALL. No restart.
+```
+
+**386.4 — THE ACCEPTANCE TEST, run:**
+
+```
+attach the voice to a dead endpoint mid-session   thoughts 60 of 60 · memories kept · gauge reads
+detach everything                                 the mind carries on, unchanged
+```
+
+**THE KEY NEVER COMES BACK OUT.** It is held on the live object, sent as one Authorization header,
+and `attachments()` reports only WHETHER one is set — proved: the secret does not appear anywhere in
+what the panel is served. **It is never logged, never in an error, and never in the model's ledger**
+— that ledger exists to prove the split, not to carry a secret. The field is a password field and
+is cleared the moment it is sent, so it is typed once and never held on screen.
+
+**301 and 375 are untouched:** the mind never learns what is attached, and detaching everything
+leaves it thinking, remembering and learning. **A role with nothing attached is apparatus the being
+does not have — 051's silence, never an error.**
+
+## 388 — THE HISTORY STRIP IS GONE `7d5be04`
+
+The `t650 68 · 1.59y` row under the gauge is off the page, and the CSS that styled it with it.
+**The runs are still logged and still travel in the being file (241.4)** — they simply do not sit on
+his screen repeating the three numbers printed directly above them.
+
+## 389 + 390 — WHAT THE PANEL SAYS NOW
+
+```
+1.17 years — about a year — first words
+KNOWN WORDS   6
+MARKS         38 of 402
+```
+
+**No hedging anywhere on it.** "It can demonstrate" is gone: **it knows what it knows** — no
+sampling, no estimate, no multiplier (354), so the count IS the knowing. **"It understands 58 words"
+is gone from beside it**, which was the half-and-whole comparison that read as a shortfall.
+
+**The marks are counted and are their own reading (390)** — against the whole 402 so the progress is
+plain, on their own line, never added to KNOWN WORDS and no part of the age. **When it reads 402 of
+402, the day he is watching for is visible.** Nothing is built for that day and nothing is designed
+here.
+
+## THE SUITE
+
+```
+529–534 passed · 3 stable failures · 0 skipped (of 539)
+```
+
+**The three that are stable and mine to name:**
+```
+219  MEMORY LEADS THE DRAW — 17 of 40 draws replayed. NEW today and I have not chased it.
+234  FEELINGS MOVE FROM A STORY — the flat trail, reported under 382 and untouched
+235  A REAL TOLD STORY PASSES ITS OWN GATE — the same fault
+```
+**The rest fluctuate run to run** — the teacher family, 5 in one run and 0 in the next on the same
+build. **219 is new since this morning and I have not established what caused it. Not repaired, not
+guessed at.**
+
+**385's audit against the code is still not started** — it is the large one and it is next.
