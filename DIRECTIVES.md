@@ -9884,3 +9884,37 @@ PROVE IT AS 376.5 ASKS — stop the model, open the bench, and watch it
 think, remember, learn and speak. Less articulate. Not less alive.
 Post what he will see: relevance non-zero, the door passing, feelings
 forming.
+
+## Directive 378 — THE COSINE LANE BELONGS TO THE MODEL'S FILE. Nothing is stray.
+
+**HIS RULING** — everything is contained in its own node and file.
+The cosine lane is part of the LLM's pathway, so it belongs in the
+LLM's file. It is all plug and play here: NOTHING IS STRAY, EVERYTHING
+BELONGS TO A FILE.
+
+**THE STOP THIS ANSWERS** — 377's build reached the one place the
+plan said it would stop: the door's THRESHOLD is tuned for cosines,
+the space's `band.floor` is measured for the space, and the two are
+on incompatible scales. CC stopped rather than scaling one to the
+other, exactly as ordered.
+
+**AND THE RULING REMOVES THE QUESTION.** There is no calibration to
+do, because the two measures never live in the same file:
+
+1. THE MIND'S OWN LANE IS THE MIND'S. `memory.js` measures relevance
+   in the mind's own space, with the floor 221 measured for it. That
+   is memory's own arithmetic and it is what runs when nothing is
+   plugged in.
+2. THE COSINE LANE MOVES TO THE MODEL'S FILE. The embedding, the
+   cosine and the threshold it was tuned with all go where the model
+   lives. It is one plug-in's way of answering the question, and it
+   brings its own measure with it.
+3. MEMORY ASKS FOR A RELEVANCE AND DOES NOT CARE WHO ANSWERS. If
+   something is plugged in, it answers on its own scale against its
+   own bar. If nothing is, memory answers in the mind's space against
+   its own floor. Neither knows about the other.
+4. NO SCALING, NO CONVERSION, NO INVENTED NUMBER anywhere. That was
+   the thing to avoid and this avoids it by construction.
+5. THE SAME TEST APPLIES to anything else that turns out to be a
+   plug-in's machinery sitting in a mind file. Name any you find
+   while doing this; do not move them yet.
