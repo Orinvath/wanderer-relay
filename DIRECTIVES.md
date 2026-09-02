@@ -10417,3 +10417,22 @@ WHAT STAYS, all built and correct: attach and detach with no restart,
 the key stored and surviving (392), the key never in a URL or a log,
 a detached role being apparatus the being does not have, and the mind
 carrying on regardless (375).
+
+## Directive 393 addendum — ONE SLOT. Vision and chat only, and the voice is not on this side.
+
+**HIS CORRECTION** — the VOICE slot does not belong here. The voice is
+on the body's side (301: the phone's own TTS speaks, nothing shipped).
+What lives on this side is VISION AND CHAT, and both are the same
+model.
+
+1. THE VOICE SLOT COMES OUT of the Perception Panel entirely.
+2. WHAT REMAINS IS ONE SLOT for the model that does vision and chat.
+   Not two, not a role split — one thing attached, doing both.
+3. NOTHING IS PRELOADED IN IT (393.1 stands): it starts empty, with
+   the load button and the provider pull-down, and nothing is named
+   until he attaches something.
+4. IF ANY PART OF THE MIND STILL EXPECTS A SEPARATE VOICE MODEL, say
+   so plainly with the line rather than quietly rewiring it — 327
+   named gemma3:1b as a voice and 301 had already ruled the phone
+   speaks, so the two collided and nobody caught it. Report what that
+   slot was actually doing before it is removed.
