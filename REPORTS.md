@@ -37994,3 +37994,95 @@ his:** *"WHETHER IT SHOULD is a real question and it is Lonnie's; I have no sour
 
 **So: the mind feels without a model, and the door is looser than it was. I have not touched the
 door and I have not chosen a number. Both are one word from him.**
+
+---
+
+# BUILT — 378's STRUCTURE. And the calibration did not disappear. Stopping with the numbers.
+
+## THE STRUCTURE IS DONE `fd83360`
+
+**Nothing of the plug-in's is left in a mind file:**
+
+```
+model.js       COSINE_LANE { name, bar: 0.67, relevance(vector, packed) }
+               the embedding, the cosine AND the threshold it was tuned with, all in the
+               model's own file. 0.67 was `appraisal.PROVISIONAL.THRESHOLD` and it was never a
+               fact about attention — it is what THAT measure had to clear.
+memory.js      asks for a relevance and does not care who answers. Plugged in, the cosine lane
+               answers on its own scale against its own bar. Nothing plugged in, memory answers
+               in the mind's own space against 221's floor.
+attention.js   no longer holds a cosine's number. It reads the verdict of whichever lane
+               measured. The old threshold stays only as a fallback for a caller that answers
+               without one, so nothing older changes behaviour.
+surfacing.js   carries the verdict up instead of a raw number the door cannot interpret.
+```
+
+**No scaling, no conversion, no number invented anywhere — 378.4 holds.**
+
+## AND IT FEELS, WITH NOTHING ON 11434
+
+```
+200 ticks:  thoughts 163 · noticed 193 · FEELINGS 11 · 18 words · 1.34 years
+```
+
+## BUT THE CALIBRATION DID NOT GO AWAY, AND HERE IS WHY
+
+**378 said the ruling removes the question because the two measures never live in the same file.
+The measures are separated now — and the door still passes 97%.** The reason is not scale. **It is
+selectivity, and it survives the separation.**
+
+```
+one moment against 40 of its own memories, measured in the mind's own space:
+  min 0.178   median 0.328   max 0.579
+  221's floor: 0.0954
+  ROWS CLEARING IT: 40 OF 40
+```
+
+**Every memory it holds is "related at all" to every moment.** The door asks whether ANYTHING it
+holds is near enough, so with a dense space and a growing store the answer is always yes.
+
+**THE COSINE IS NOT LIKE THIS.** Two unrelated embeddings score near zero, so 0.67 turns almost
+everything away. **The mind's own space has no near-zero: every pair of marks has some relatedness,
+because that is what a space built from its own kinship IS.**
+
+**So the two lanes differ in a way the file-separation cannot fix: one is sparse, one is dense.
+221's floor is the honest bar for "are these two marks related at all" — it was never a bar for "is
+this the most relevant thing I hold".**
+
+## THREE ATTEMPTS, ALL MEASURED, ALL REPORTED
+
+```
+excluding shared marks      a moment matching a memory scored ZERO — the remembered moments,
+                            the only ones carrying a bearing, were the ones turned away
+best-match, meaned          saturates near 1 — 98% through the door
+mean pairwise (221's own)   median 0.328 against a floor of 0.0954 — 97% through the door
+```
+
+**The third is the right QUANTITY — it is what 221 measured and what 249's gate compares — and it
+still does not discriminate, because everything clears.**
+
+## I AM STOPPING HERE (250 / 377 / 378.4)
+
+**A fourth variant would be me guessing.** The thing that would make this work is a bar for "the
+nearest thing I hold, in the mind's own space" — **and nobody has measured one.** 221 measured
+relatedness between two marks; that is a different question and its floor is the wrong instrument
+for this one.
+
+**What I have NOT done:** picked a number, scaled anything, or touched what the door means.
+
+**The structure 378 asked for is built and correct. The mind feels without a model. The door is
+looser than it was, and closing it needs either a measurement nobody has taken or a ruling.**
+
+## 378.5 — OTHER PLUG-IN MACHINERY SITTING IN MIND FILES. Named, not moved.
+
+```
+perceiving.js:94   `model.generate(ASK[signal.kind])` — the eyes. A model reading a photograph is
+                   genuinely a model's job (324), but the ASK prompts and the model call sit in a
+                   MIND file. Same shape as the cosine was.
+memory.js          `packVector` / `unpackVector` — the embedding's storage format, in memory's
+                   commit path. It is the model's wire format sitting in the mind's file.
+surfacing.js:*     reads `this.memory.model?.embedModel` to record which embedder was used.
+                   Harmless, but it is a mind file knowing a plug-in's name.
+```
+
+**None moved (378.5).**
