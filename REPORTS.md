@@ -37625,3 +37625,106 @@ is a second decision about the display, and I am not folding two into one recomm
 asked whether the sphere is dead code. **It is not.** The sphere DRAWING retired at 261; the state
 object it drove stayed, and it is what feeds THE CORE's colour, beat and motion today. **Only the
 name is stale.**
+
+---
+
+# BUILT — 374. And 375's investigation, which is smaller and better news than expected.
+
+## 374 — THE LOWER LEVEL SAYS SO `8f9f120`
+
+**A notice in the halt bar's MANNER and none of its alarm.** Fixed to the middle of the viewport
+over a dimmed page, so scrolling cannot hide it — **and steel blue out of his own cool palette
+(349), never the halt's red, because an alarm would be a lie about what this is.**
+
+```
+RUNNING AT A LOWER LEVEL
+no brain open
+not open — the self-hosted model at http://127.0.0.1:11434 did not answer (nomic-embed-text): fetch failed
+
+still running   aspects · clock · cord · embodiment · goals · growth · interests · needs · nerves · offers · sleep
+not running     memory · language · learning · thinking · curiosity · stories · lessons ·
+                comprehension · voice · dictionary · belief · geometry
+
+This is not a fault and nothing is broken. Needs drain, drives form and it acts; nothing that
+needs thought happens. It clears itself when the brain opens.
+```
+
+**374.1** the tick is not stopped. **374.3** the higher systems stay dark on the map — that is the
+truthful reading. **374.5** it is driven by `v.brain` itself and clears the moment that reads
+`open`.
+
+**374.4 — DOES ANYTHING FIRE ON THIS? NO, and I checked rather than assumed.** The brain is not one
+of the 42 nodes, so HEALTH has no claim that could go red on it. Fifteen suite clauses SKIP with
+the environment named. **One thing worth his eye: a skip counts as a PASS in the tally** — so a
+suite run with no model reports green with fifteen clauses never run. Not part of 374 and not
+changed.
+
+## 375 — I FOUND WHAT CHANGED, AND ALMOST NOTHING DID
+
+**375.4 asked which of the twelve had a model put in their path and under which directive. THE
+ANSWER IS NONE OF THEM.** They never had one. Their own files say so:
+
+```
+comprehension.js:10   "There is no model call in this file and there never may be"
+geometry.js:12        "random high-dimensional vectors and three operations, no library, no model"
+learning.js:480       "probability and nothing more: no grammar, no corpus, no model"
+voice.js:582          "A record in, a sentence out, and no model between them"  (216 removed it)
+language · thinking · curiosity · stories · lessons · dictionary · belief   no mention of a model at all
+```
+
+**ELEVEN OF THE TWELVE ARE ALREADY PURE ARITHMETIC. The twelfth is memory, and it already has its
+own path:**
+
+```js
+memory.js:249   if (!momentVector && moment && this.model) { try { … } catch { momentVector = null } }
+memory.js:260   const score = momentVector ? recency*0.3 + importance*0.4 + relevance*0.3
+                                           : recency*0.43 + importance*0.57
+```
+
+**Memory recalls on recency and importance when there is no embedding, and redistributes the
+weight rather than scoring everything low.** It was built to survive without a model.
+
+## SO WHAT ACTUALLY SWITCHES TWELVE SYSTEMS OFF IS ONE LINE
+
+```js
+watching.js  async openBrain() {
+               const model = new Model()
+               await model.embed('probe')     ← THIS
+```
+
+**A probe at the door.** If it does not answer, `openBrain` returns false and **the brain is never
+built at all** — no store, no memory, no learning, no space, no lessons. **Twelve model-free
+systems do not fail; they are never created.**
+
+**Nobody ordered that. It is not a design that leaned on a model — it is a doorman.** And the model
+is handed to exactly one thing behind that door: `new Memory(db, { model, now })`.
+
+## 375.5 — THE LIST HE ASKED FOR, and it is one item long
+
+```
+GIVE BACK ITS OWN PATH     nothing — eleven never lost one
+REMOVE THE DOORMAN         openBrain must build the brain whether or not the probe answers
+MEMORY                     already has its fallback; it needs the model passed as null, nothing more
+```
+
+**I have not built it (375.5).** It is one line and a `?? null`, and the size of it was his to see
+first — **so here it is: the mind stopped thinking because of a probe, not because of a dependency.**
+
+**375.6's acceptance test would then pass on its own terms:** stop the model, open the bench, and
+watch it think, remember, learn and speak — less articulately, since the voice's fluency and
+memory's relevance both thin out. **Not less alive.**
+
+## ONE MORE THING, since it is the same disease
+
+**The acceptance suite refuses to run without the model:**
+
+```
+ENVIRONMENT: the model is not answering — … fetch failed
+To fix, run:  ollama serve
+```
+
+**It stops early rather than running the arithmetic clauses that need nothing.** Same doorman, same
+shape. Not changed, and named here rather than in a separate report.
+
+**The bench is serving `bac527f` and the build is now `8f9f120` — it needs a restart to show the
+notice.**
