@@ -38417,3 +38417,76 @@ exactly the unfinished half of 365 — **I named the source at 40 of 95 call sit
 among the 55 I have not.**
 
 **One line of the board is wrong (the halt). The rest is doing what 365 ruled.**
+
+---
+
+# 384 — THE GAUGE DOES NOT SAMPLE AND THE FAKES ARE NOT CALLED. The symptom is real; the cause is a line I never updated.
+
+**I checked the code before answering, because the premise is checkable and the answer changes what
+gets fixed.**
+
+## THE GAUGE, AS IT STANDS TODAY
+
+```js
+litmus.js   export function spotTheWord ({ owned, heard, learned, roll } = {}) {
+              const words = englishReady() ? englishPool() : []
+              /* EVERY WORD, NOT A DRAW. */
+              for (const w of words) if (resolve(w, learned).viaLearning.length > 0) hits++
+```
+
+**There is no `slice(0, real)` in it and no call to `fakes()` anywhere in the file.**
+
+```
+grep "fakes(" across the build, excluding the suite   →  NOTHING. Not one caller.
+```
+
+**`makeFake` and `fakes` still EXIST at lines 75 and 90, marked `STRUCK BY 360 — NOT CALLED BY THE
+GAUGE`** — left in place the way 352 left the interpreter, so the record of what was tried survives.
+**Line 92 is inside that struck function, which is why it reads as sampling.** Nothing calls it.
+
+**And the file's history says the same:** the last five commits to `litmus.js` are 354, 359, 360,
+the newborn ruling, and 371. **Nothing after 371 has touched it — the model rework never went near
+it.** So neither came back, and I am saying so plainly rather than repairing something that is not
+broken.
+
+## BUT HIS READING IS REAL, AND THE FAULT IS MINE
+
+```
+1.5 years — 15 English words it can demonstrate. It understands 46 words.
+```
+
+**Measured on a live mind, 400 ticks, taught English throughout:**
+
+```
+owned / "understands"        58   =   53 MARKS  +  5 English words
+the gauge                    hits 6  +  learnedMarks 53   =  vocabulary 59
+what the PANEL prints        "6 English words it can demonstrate. It understands 58 words."
+English words it owns that do NOT resolve      0
+```
+
+**The gauge counts 59. The panel prints 6 beside 58.**
+
+**It is not failing to demonstrate 31 words — it is not failing to demonstrate ANY.** The line
+shows the ENGLISH HALF of the count next to the WHOLE of what it understands, so the two numbers
+look like a shortfall and are not comparable at all.
+
+**THAT LINE IS MINE AND I SHOULD HAVE CHANGED IT AT 371.** I wrote it at 360, when `hits` WAS the
+whole count. 371 then ruled one vocabulary and added `learnedMarks` to the gauge — **and I updated
+the arithmetic and left the sentence.** It has been reporting half the number ever since.
+
+**I have not changed it (384 says find out when they came back; this is that answer, and the fix is
+a display line he should see the wording of first).** The honest line is the count the gauge
+actually uses — 59 — with its two halves if he wants them shown.
+
+## 384.4 — WHAT ELSE STRUCK BY 354, 360, 371 OR 379 IS LIVE AGAIN
+
+**Nothing.** Checked in the code, not the reports:
+
+```
+354  the sample                     struck, not called
+360  the fakes, false alarms        struck, not called; PROVISIONAL.FAKE deleted
+371  what it was born with counting  `owned` is empty at birth — a newborn still reads 0.00
+379  the embedder as a requirement   the probe is out; the mind's own space is the default lane
+```
+
+**385's full audit against the code is the next thing and it is a large one. It is not started.**
