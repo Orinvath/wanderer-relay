@@ -38253,3 +38253,78 @@ the tool before believing it.
 
 **Suite 331 of 331 for everything that runs without a model** — and it now reaches much further
 than it did this morning, because the mind no longer needs one.
+
+---
+
+# 382 — THE WHOLE SUITE, BOTH WAYS, AND FOUR FAILURES I HAVE NOT TOUCHED.
+
+## FIRST: A SKIP IS NOW COUNTED AS A SKIP `0f78001`
+
+374.4 found that `{ skip: … }` is a truthy object, so **a clause that never ran counted as a PASS**.
+The tally now separates the three, and prints every skipped clause with its reason at the end.
+**That is the difference between green and green-looking, and it was hiding fifteen.**
+
+## WITH THE MODEL UP
+
+```
+535 passed · 4 FAILED · 0 skipped   (of 539 clauses)
+```
+
+## WITH NOTHING ON 11434
+
+```
+331 passed · 0 failed · 0 skipped   — then it STOPS
+```
+
+**And that number must not be read as green.** The suite reaches clause 331 and exits at
+`NAMING MODE DID NOT RUN — exit 2 (environment)`. **Roughly two hundred clauses never run at all**,
+so this is not "331 of 331 passing", it is **331 ran, all passed, and the rest were never asked.**
+**Zero skipped is honest here only because the skip-carrying clauses all sit past the point where it
+stops.**
+
+**375 is law and the mind obeys it** — it thinks, remembers, learns, speaks and feels with nothing
+running. **The SUITE does not: it still stops when the model is absent.** Not changed, and named.
+
+## THE FOUR FAILURES — reported, not repaired (382.4, 382.5)
+
+**TWO ARE THE KNOWN MODEL-DEPENDENT PAIR** — 334 and 335, the teacher's delivered lines. They move
+run to run on identical builds; I have watched them pass and fail all week.
+
+**TWO ARE REAL AND I HAVE NOT TOUCHED THEM:**
+
+```
+234  226 FEELINGS MOVE FROM A STORY — on a LIVE trail
+     0 of 37 told stories moved its feelings
+235  249.1 A REAL TOLD STORY PASSES ITS OWN GATE
+     wasFelt(a live trail) says: nothing moved while it was told
+```
+
+**I CHECKED WHETHER 381 CAUSED IT AND IT DID NOT.** Measured both ways on the same seed, 300 ticks:
+
+```
+WITH 381    (the door reversed)      139 beats · 38 noticed · 6 moved a feeling
+WITHOUT 381 (door back to similarity) 151 beats · 33 noticed · 6 moved a feeling
+```
+
+**Six either way.** The door is not what is stopping it.
+
+**WHERE IT ACTUALLY BREAKS, so somebody knows where to look:**
+
+```
+tellings that recorded a trail            283
+trails with two or more readings          229
+of those, moved by FELT_AT (0.05) or more   9
+a sample trail:                           [0, 0, 0]
+```
+
+**The trail is being recorded. It is flat.** The appraisal reads zero at every beat of a telling, so
+`wasFelt` correctly says nothing moved — the check is right and the behaviour under it is wrong.
+**I do not yet know why the reading is zero through a telling, and I am not guessing at it here.**
+
+**382.4 says name it and stop. Named, and stopped.**
+
+## AND WHAT I DID NOT DO
+
+**Not one clause was softened.** The only change to the suite is that a skip now says it is a skip.
+**Nothing was repaired to make a number look better**, and the two real failures are sitting red
+where he can see them.
