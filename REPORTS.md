@@ -36471,3 +36471,98 @@ belief, not that a lone mind forms none. I ran the same seed with the binding re
 lessons at the lived bar, none imagined** — which proves they are the ordinary lived-recurrence
 path and predate 342 entirely. The clause now asserts what the ruling actually says. **A true check
 failing on a false claim would have been reported to him as a fault in the build.**
+
+---
+
+# BUILT — 362, 363, 364. The connectors are on the board.
+
+## 362 — WHY 358 WAS PASSED OVER, and it is not a defence
+
+**358 said "CHANGE NOTHING YET. This is the survey."** I did the survey, filed it (`81038bc`), and
+went on to the next number. **That was wrong, and reading the directive literally is exactly the
+kind of wrong it is.** The survey found 42 real connections with no line and 22 drawn lines that
+never light, and I filed that as a document and left his board exactly as broken as it was. **A
+finding that changes nothing on his bench is not a finding, it is a note.** He said the connectors
+were still missing because they were.
+
+**It is the second time a directive has been stepped over since the in-order law. There is no
+excuse in the first one either.**
+
+## 363 — INNER LEARNING WORKS LIKE ANY OTHER LEARNING. `68d6094`
+
+**342's limits are struck.** An inner binding can own a word, can become a meaning, can reinforce
+an existing link, is not born weaker and is not capped. `grounded = 'imagined'` stays on the row as
+a RECORD rather than a limit, so a link its thinking bore can still be told from one its life gave
+it.
+
+**Measured on a mind left alone for 200 ticks, nobody speaking:**
+
+```
+under 342   73 links borne · 0 owned · every meaning null · the panel unmoved
+under 363   73 links borne · 28 OWNED · LEARNED says it understands 28
+```
+
+**THE ONE LIMIT THAT STAYED, 363.3:** it never weakens a link — 0 contradictions recorded across
+200 ticks. A thought is not evidence AGAINST a meaning.
+
+**363.3 ASKED WHETHER THAT LINE IS UNCLEAR IN THE CODE, AND IT IS — here, precisely:** the clause's
+heading says an inner binding still cannot contradict, and its body says 233 governs BELIEFS rather
+than word-binding. **I built the heading** — no weakening of word links — **and the consequence is a
+ratchet: thinking only ever adds `together`, never `apart`, so a link its own thinking bore can
+only climb.** If 233 was meant to leave word-binding symmetric, this is the line to say so on.
+
+**AND ONE THING THAT CANNOT MOVE, which is a fact and not a limit:** the vocabulary COUNT does not
+rise from thinking, because **a thought is made of its own marks.** It binds mark to mark, never
+mark to a new English word, so it deepens what it has and meets nothing new. The gauge moves when
+it is spoken to. LEARNED moves when it thinks.
+
+## 364 — EVERY NODE HAS A CONNECTOR. `e8d6236`
+
+**THE WIRES NO LONGER COME FROM A LIST.** `SEQ` was a hand-written tick order of 18 names against
+42 nodes. Now **a connector is MADE the first time data crosses it**, and lights every time after.
+**The map cannot be wrong about the wiring any more, because it is no longer describing the wiring
+— it is drawing what happened.**
+
+**AND FOUR FALSE DARKS NOW SAY THEY RAN.** These four ran every single day of this build and had
+never once lit, because nothing anywhere emitted a hand-off in their name:
+
+```
+clock.js        every tick accounts for time on the mind's own clock      watching.js:tick
+perceiving.js   the doorway that turns a signal into marks                experiencing.js
+geometry.js     every confidence in the build is read off it — 297.B      learning.js #rewrite
+censor.js       the only thing between a model's sentence and its ears    teacher.js, 3 call sites
+```
+
+`learning.js` and `Teacher` are handed the bench's trace the same way they are already handed
+violations. **270.B.5 from the right side: emitted in the code, not faked in the display.**
+
+## 364.4 — THE COUNT
+
+```
+NODES WITH AT LEAST ONE CONNECTOR
+  before                              17 of 42
+  after, mind alone 200 ticks         34 of 42
+  after, host present + spoken to     35 of 42
+```
+
+**SEVEN STILL BARE, and 364.2 says name them.** None is an omission in the drawing now — each is a
+file whose work did not happen in that run:
+
+```
+INTERPRETER              STRUCK by 352. Permanently bare and honestly so. 364.2's first candidate
+                         for being taken off the map.
+SENSES · PERCEIVING      no camera on this bench. Both now emit; attach a sensor and they light.
+CENSOR                   emits from the Teacher, which needs the school actually running against
+                         the server — it cannot fire in a harness with no bench behind it.
+HOST                     emits on somebody ARRIVING, not on somebody being there.
+CONSOLIDATION            needs it to actually sleep.
+IDENTITY                 writes the life story, and that did not happen in 300 ticks.
+```
+
+**Those last four are conditional rather than dark, and I am not forcing any of them to fire to
+make a number look better.** If he wants them proven, the way is to run the school on his bench and
+leave it overnight — every one of them will light, and if one does not, THAT is a finding.
+
+**Suite 526 of 528. Both reds are the model-dependent teacher pair that moves run to run.**
+
+**The bench needs a restart to show the connectors.**
