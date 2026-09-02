@@ -37271,3 +37271,59 @@ learning.js:76     OWNED_MARKS gates what a word may be linked TO. A word can on
 to me and `learning.js:76` is the one worth his eye, because it is why 370 found what it found.
 
 **Suite 533 of 533.**
+
+---
+
+# THE HALT ON HIS BENCH — trust hit the floor. The vital worked; what it caught is worse.
+
+**HALTED AT TICK 154 · trust · `trust_at_or_below_floor` · teacher at 0.050.** Read off his running
+bench:
+
+```
+teller    trust   taught   HELD   FAILED
+host      0.300      12       0        0
+teacher   0.050      23       0        5     ← at the floor
+```
+
+**The halt is correct and the counter is doing exactly its job** — 259's own words on that line: *a
+teller that arrives at the floor is a person this mind has stopped being able to learn anything
+from, and he should see that happen rather than find it later.* He saw it.
+
+## WHAT IT CAUGHT, AND IT IS A STRUCTURAL PROBLEM RATHER THAN A BUG
+
+```
+trust.js:103   const held   = verdict === 'reinforce'
+trust.js:120   const failed = verdict === 'contradict'
+belief.js:186  let verdict = 'weaken'
+belief.js:187  if (against.length) verdict = 'contradict'
+belief.js:188  else if (share >= PARTIAL_AT || toward.length) verdict = 'reinforce'
+```
+
+**The teacher has been borne out ZERO times in twenty-three lessons.** Not rarely — never. **A
+teller that can only ever be contradicted can only ever fall**, and the floor is where it ends up.
+
+**AND THE ASYMMETRY LOOKS BUILT IN.** 234.5a requires every line the teacher delivers to be
+verified TRUE OF THE MIND at the moment it is said. The belief machinery then tests that lesson
+LATER, against a different moment, where it is usually no longer true — so **a teacher that obeys
+234.5a and says only true things is set up to be disbelieved.** The mind is not wrong to distrust
+it; the test is being applied to a claim about a moment that has passed.
+
+Its last lesson, from his own feed: *"SUN JOY BIRD — teacher said so, and that is worth 0.09 to
+it"* — worth 0.09 because trust is already at the floor. **It is still being taught and can no
+longer learn from it.**
+
+## WHAT I HAVE NOT ESTABLISHED, and will not guess at
+
+**Whether today's work made this more likely.** 372 put learned English words into the mind's
+moments, and a lesson is judged against a moment's marks — so the set being compared has changed
+shape. **I cannot tell from this data whether the contradiction rate moved**, and the only thing
+that would settle it is the same seed run with the school against the server, before and after,
+which I cannot do from here.
+
+**371 and 372 are green on 533 checks and neither touches belief or trust**, but that is not the
+same as proving they had no effect, and I am not going to present it as though it were.
+
+## WHAT I HAVE NOT DONE
+
+**I have not pressed Continue.** The halt is his (293/338) and the acknowledgement is his.
+**Nothing has been changed in response to this.**
