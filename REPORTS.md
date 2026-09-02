@@ -36858,3 +36858,24 @@ the whole page. **The suite now refuses any backtick between the template's open
 — it costs nothing and it ends a fault that has put a dead board in front of him more than once.
 
 **Suite 528 of 530. Both reds are the model-dependent teacher pair.**
+
+---
+
+# HIS CHANGE — the Core was moving too much. REACH 6.0 → 3.0.
+
+Direct from him on the bench, so it is documented.
+
+```
+REACH 6.0   the Core travelled 3.40 units off centre   too much
+REACH 3.0   it travels 1.70                            half the swing
+```
+
+Still clearly more than the 2.6 nobody ever saw move, because until 367 the reading was broken and
+the lean was never actually on screen at any value. **This one number is his: name a figure and it
+is that figure.**
+
+**And if the trouble is the RESTLESSNESS rather than the distance**, that is a different dial — on
+EXCITEMENT the two axes run at `sin(t*1.9)` and `cos(t*2.3)`, which is how fast it fidgets rather
+than how far. Say which and I will change that one instead.
+
+**Suite 530 of 530 — everything green.**
