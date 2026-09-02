@@ -9254,3 +9254,32 @@ and not one of the five failed.
 6. PROVE IT ON HIS BENCH: a mind left alone to think — what moved,
    what did not, and that nothing it merely thought about crossed
    into owned or into confirmed belief.
+
+## Directive 362 — 358 IS NOT DONE. It is the next thing, before anything else.
+
+He says it plainly: the connectors are still missing on his bench and
+358 has not been done. It was ordered, then 359, 360 and 361 were
+built on top of it — which is the in-order law broken again, and this
+is the second time a directive has been stepped over since that law
+was written.
+
+**358 IS THE NEXT THING BUILT. Nothing after it is touched until it
+is reported.**
+
+Its terms are unchanged:
+1. For every one of the 42 nodes: what hands data TO it, what it
+   hands data to, and whether each edge is DRAWN on the map. From
+   the code, one node at a time.
+2. The three kinds kept separate: EDGE MISSING FROM THE DRAWING ·
+   HAND-OFF NOT EMITTED (a false dark, forbidden by 270.B.5) ·
+   GENUINELY RECEIVES NOTHING on this bench (honest, and named as
+   honest).
+3. Every edge seen to LIGHT on his bench, or said not to have been
+   and why.
+4. BELIEF is the worked example he found: it runs every tick from
+   `experiencing.js:1146` and emits at 1145, and the map draws
+   nothing into it. Whatever that turns out to be, it is one of the
+   three kinds and it is named as one.
+
+And say in the report why it was passed over, as 336 required the
+last time this happened.
