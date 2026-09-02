@@ -10001,3 +10001,68 @@ given the mind's current goals and internal state (Deutsch & Deutsch;
 Broadbent's bottleneck; Lavie's load theory). A weak signal that is
 highly pertinent SHOULD pass. The question is not how many passed. It
 is whether what passed was pertinent.
+
+## Directive 381 — THE DOOR IS BACKWARDS. Mismatch passes; repetition habituates.
+
+**THE FEATURE** — the attention door: the gate every moment passes
+before the mind notices it at all.
+
+**WHY IT MATTERS** — it is the narrowest point in the mind. Nothing is
+appraised, felt, remembered or learned without passing it. Its job is
+to spend limited attention on what matters and let the rest go by.
+
+**WHAT WENT WRONG — read from his bench, 60 moments (380):**
+```
+25 of 57 passers scored EXACTLY 1.000 — a moment identical to
+   something already held
+11 were the SAME MARKS as the nearest thing held. PURPOSE BEAUTY
+   three ticks running, 1.000 each
+tick 10  the host says "the river is warm today"
+tick 11  RIVER   rel 0   NOT PASSED   "(nothing held)"
+```
+THE DOOR MEASURES SIMILARITY TO WHAT IS ALREADY HELD AND CALLS THAT
+RELEVANCE. So repetition scores the maximum and sails through, and
+the one moment that mattered most — a new thing he had just said —
+was refused for being new. Its first two moments ever were refused
+for being first.
+
+**WHEN** — 139 built it relevance-gated; the fault has been there
+since, hidden while the embedder's sparse scores made most things
+fail anyway.
+
+**THE SCIENCE — and it says the opposite of what the door does.**
+- The ORIENTING RESPONSE: novel stimuli capture attention
+  involuntarily, "also when there is no incentive to pay attention to
+  them, and even when performance on ongoing tasks suffers."
+- HABITUATION: attention decreases to a repeated stimulus and
+  RECOVERS to a novel one (dishabituation). Infants' attention to a
+  familiar repeated image declines relative to a novel image.
+- THE COMPARATOR: the hippocampus signals novelty WHEN INCOMING INPUT
+  FAILS TO MATCH PREDICTIONS from prior experience; that mismatch
+  triggers enhanced processing, dopamine from the VTA, and better
+  encoding — novel stimuli are remembered better than familiar ones.
+- AND PERTINENCE STILL HOLDS (Deutsch & Deutsch, already cited at
+  380): a familiar thing that matters to the mind's current goals and
+  state passes on importance, not on similarity.
+Rows to REFERENCES.md per 227.
+
+**THE RULING — TWO THINGS PASS, AND SIMILARITY IS NEITHER.**
+1. WHAT IT DID NOT EXPECT PASSES. The mind already measures this —
+   `mind.surprise` is prediction error and is computed every tick
+   (220.3). A moment that does not match what it holds is MORE worth
+   noticing, not less. RIVER must pass.
+2. WHAT MATTERS TO IT PASSES. Pertinence: the host present or
+   speaking, a need bottoming, a feeling moving, a curiosity roused,
+   its own act completing. The mind knows all of these already.
+3. REPETITION HABITUATES. A moment the same as one already held is
+   worth LESS each time, not the maximum. Say how you measure
+   "the same", using what the mind already has.
+4. NOTHING NEW IS INVENTED AND NO THRESHOLD IS PICKED. Every quantity
+   above already exists in the mind. If a number is genuinely
+   required, STOP AND POST IT (250) — do not choose one.
+5. THE MODEL'S LANE IS UNTOUCHED (378): it keeps its own measure and
+   its own bar in its own file. This is the mind's lane.
+6. PROVE IT BY READING, NOT COUNTING (380's method, and it is his):
+   post the same 60-moment stretch after the change — what passed,
+   what did not, and what each was. RIVER passes. PURPOSE BEAUTY
+   three times running does not.
