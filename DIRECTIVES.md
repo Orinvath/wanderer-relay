@@ -9585,3 +9585,54 @@ what it thinks in. The gauge counts ENGLISH WORDS LEARNED, so it read
 5. AND HE MUST SEE IT MOVE: post his own mind's reading before and
    after — he has been watching it learn while the number sat still,
    and that is the fault this ends.
+
+## Directive 372 — THE MIND THINKS IN ITS LANGUAGE, NOT IN THE AVATAR'S GLYPHS
+
+**THE FEATURE** — what the mind thinks IN. The words a thought is
+made of.
+
+**WHY IT MATTERS** — it is the foundation everything else rests on.
+Language is thought (Vygotsky, 217). If the mind can only think in
+402 symbols, then everything it learns from thinking binds a symbol,
+its English learning and its inner life never meet, and the gauge
+watches one half while the mind lives in the other. He has spent days
+watching it learn while the number sat still, and this is why.
+
+**WHAT WENT WRONG** — `thinking.js` imports `WORDS` from `glyphs.js`
+and filters every thought through `WORDS.includes(w)` in SIX places
+(110, 123, 149, 203, 318, and the pool at 425). ANY WORD NOT IN THE
+402 IS DISCARDED BEFORE IT CAN BE THOUGHT. The mind cannot think an
+English word it learned from him.
+
+**WHEN, and this is the part that matters** — LONG BEFORE 344,
+shortly after he decided to build the Emulator. AND IT WAS CORRECT
+THEN: the mind was the Avatar's, the 402 WERE its whole language, and
+thinking in marks was thinking in its language.
+
+**WHAT NEVER HAPPENED** — the switch. He and the team ruled that THE
+MIND IS THE ASSET, that it had to be UNIVERSAL and SEPARATE FROM THE
+BODY, and 344 states it outright: the mind's language is English at
+full scale and THE 402 GLYPHS ARE THE AVATAR'S SYMBOLIC SET. The
+glyph filter should have come out that day. It has sat there since,
+and nobody caught it — the Director least of all, who wrote
+directives against a thinking layer he had never read.
+
+**THE RULING**
+1. THINKING DRAWS FROM WHAT THE MIND KNOWS — every word it has
+   learned, whatever kind. Not from `glyphs.js`. The `WORDS.includes`
+   filter comes out of all six places.
+2. THE GLYPHS REMAIN THE AVATAR'S, for expression and display, where
+   344 put them. Nothing about the marks themselves changes and his
+   artwork is untouched.
+3. A THOUGHT MAY BE MADE OF ANYTHING IT KNOWS. An English word it
+   learned from him is as thinkable as a mark it learned the meaning
+   of — 371's one vocabulary, applied to thinking.
+4. WHAT IT DOES NOT KNOW IS STILL UNTHINKABLE. This does not hand it
+   the dictionary; it hands it its own vocabulary.
+5. NAME EVERYTHING ELSE THAT FILTERS THROUGH `WORDS` — speech, the
+   space, comprehension, the censor, anywhere — and say for each
+   whether it is the Avatar's glyphs doing an Avatar's job or the
+   same fault in another file. DO NOT CHANGE THOSE YET. List them.
+6. PROVE IT ON HIS BENCH: a mind taught English words, then left to
+   think — its thoughts must contain those words, its inner learning
+   must bind them, and the gauge must move while he watches.
