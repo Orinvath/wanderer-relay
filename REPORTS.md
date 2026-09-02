@@ -37829,3 +37829,88 @@ the tick outright. **Twelve systems that never needed it are back.**
 
 **The reason it cannot feel today is that its embedder is not running** — Ollama is down. That is
 not a fault in the mind. **I withdraw the collision.**
+
+---
+
+# THE PLAN, FOR APPROVAL — take the model out of the mind's path. Nothing built.
+
+**His ruling, and he is right about all of it:** the mind was developed as ONE MIND with no LLM.
+The model was plugged in to speed growth. **One node, one file exists precisely so it could plug in
+without touching the brain — and I did not follow that.**
+
+## THE SURVEY FIRST, because it is much smaller than it looked
+
+**Of the 42 node files, only four touch a model at all, and three of those are correct:**
+
+```
+memory.js       optional — `opts.model ?? null`, try/catch, and it already falls back   CORRECT
+surfacing.js    reads the embedder's NAME for a record. Never calls it.                 CORRECT
+perceiving.js   the EYES. A model reading a photograph is genuinely a model's job (324)  CORRECT
+interpreter.js  STRUCK by 352. Not live.                                                 N/A
+```
+
+**The mind's files are clean. The model is welded in at exactly two places, and neither is a node:**
+
+```
+1  memory.js:256   const relevance = momentVector ? cosine(...) : 0
+                   ← WITH NO VECTOR, RELEVANCE IS ZERO. Not "measured another way" — ZERO.
+                   The attention door is relevance-only (139, mine), so nothing is ever noticed,
+                   the appraisal never runs, and the mind cannot feel. This is the weld.
+
+2  experiencing.js:827   vector = await mind.brain.model.embed(moment)
+                   ← THE TICK REACHES FOR A MODEL BY NAME. The tick should not know a model
+                   exists. This is the modularity break, and it is mine (201.4).
+```
+
+## AND THE MIND ALREADY HAS ITS OWN ANSWER — I am not inventing one
+
+```
+language.js:255   near (a, b) { return nearness(this.of(a), this.of(b)) }
+```
+
+**Its own space: ten thousand dimensions, built from its own seed and its own learned kinship, no
+model anywhere near it.** It is what 249's story gate already uses to ask whether marks belong
+together. **The mind has always been able to measure nearness by itself.**
+
+**AND IT HAS ITS OWN BAR, measured rather than picked:**
+
+```
+language.js:198   band: { across: low, within: high, floor }
+storygates.js:48  "band.floor is what 221 measured for exactly this question: the ordinary level of
+                   relatedness between two marks that are related AT ALL"
+```
+
+**So I do not have to choose a threshold either.** The cosine's threshold is tuned for cosines; the
+space's floor is measured for the space.
+
+## THE PLAN — three changes, and what each one is for
+
+**1. MEMORY GETS ITS OWN RELEVANCE.** `Memory` is handed the space the same way it is handed the
+model — optional, at construction. `relevance` becomes: **the cosine when there is a vector, the
+mind's own nearness between the moment's marks and the memory's marks when there is not.** Zero
+stops being an answer. *One file. Memory's own pattern, extended by one branch.*
+
+**2. THE TICK STOPS KNOWING ABOUT A MODEL.** `experiencing.js` no longer reaches
+`mind.brain.model.embed`. **It asks for the moment's vector and does not care where it comes from —
+or gets none, and carries on.** *One file, and it removes a dependency rather than adding one.*
+
+**3. THE DOOR IS UNTOUCHED.** `attention.js` keeps `passed = rel >= THRESHOLD` exactly as it is.
+**It never knew about a model and it still will not.** What changes is that `rel` now has an honest
+value when the embedder is away.
+
+## WHAT I WILL NOT DO WITHOUT A SEPARATE RULING
+
+- **I will not pick a number.** If the space's own `band.floor` and the door's `THRESHOLD` turn out
+  to be on incompatible scales, **I will stop and post it rather than scaling one to the other.**
+- **I will not touch the eleven clean systems** (376.3).
+- **I will not change what the door means.** Relevance-only stays; novelty opening the door is still
+  his unruled question and I am not slipping it in through the side.
+
+## THE TEST, and it is 376.5's
+
+**Stop the model, open the bench, and watch it think, remember, learn, speak AND FEEL.** Today it
+does the first four with nothing on 11434 — measured: 149 thoughts, 300 memories, 54 word links, 22
+words on the gauge, spoke 15 times, **and 0 feelings.** The plan is finished when that last number
+is not zero and the embedder is an accelerator rather than a requirement.
+
+**Nothing is built. Awaiting approval.**
