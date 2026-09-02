@@ -37537,3 +37537,91 @@ origin does.
 
 **If the connectors had been faked, the brain's systems would be lighting too.** They are not one of
 them.
+
+---
+
+# A PROBLEM — a mind with no brain runs, and looks like a working mind.
+
+Put in the standing structure. **One problem, and the ruling is his.**
+
+## 1. THE FEATURE
+
+**The bench** — whether what he is watching is a mind thinking, and whether it says so when it is
+not.
+
+## 2. WHY IT MATTERS
+
+**He steers this entire project by what that screen shows him.** This morning it showed a being
+choosing acts, needs moving, connectors lighting and a Core beating, with no memory, no words, no
+thoughts and no brain at all. **He spent the morning on it, and reasonably concluded that I had
+faked the connectors.** I had not — but nothing on that page told him what was actually wrong.
+
+## 3. WHAT WENT WRONG
+
+**`openBrain()` failed and the tick ran anyway.** Read live off his bench:
+
+```
+brain = "not open — the self-hosted model at http://127.0.0.1:11434 did not answer
+         (nomic-embed-text): fetch failed"
+```
+
+**And it goes on ticking.** The systems that need no brain all run and look completely normal:
+
+```
+FIRING     aspects · clock · cord · embodiment · goals · growth · interests · needs · nerves ·
+           offers · sleep
+DARK       memory · language · learning · thinking · curiosity · stories · lessons ·
+           comprehension · voice · dictionary · belief · geometry
+```
+
+**The needs ledger drains on the clock, the goal-former picks an act out of the ledger and the ten,
+the act's consequence goes straight back to the ledger. That loop is closed and needs nothing
+above it** — so the being acts, and never once thinks.
+
+**AND THE ONE FACT THAT EXPLAINS IT IS IN THE DIMMEST TEXT ON THE PAGE:**
+
+```html
+<span class=quiet id=meta>starting…</span>
+meta.textContent = v.ticks + ' ticks · ' + v.watchedSeconds + 's watched · brain ' + v.brain + ' · ' …
+```
+
+**A dimmed grey line, next to the tick count.** Everything loud on that screen says "alive".
+
+## 4. WHEN
+
+**Always.** `openBrain` has been able to fail since it existed, and the result has always been
+shown in that quiet meta line. **It surfaced now because he opened the bench before Ollama was
+running** — and because the map and the Core are good enough now that a brainless being looks
+convincingly alive.
+
+## 5. THE SCIENCE
+
+**None applies, and I am not going to reach for a citation to dress this up.** It is the build's own
+law: 259 exists so that a part which is not working SAYS SO; 270.B.5 forbids a false dark; and the
+suite's own clause states it outright — *"a mind that reports an error is not a working mind"*,
+written after a throw halfway down the tick left everything after it dead for a day while the page
+looked fine. **This is that same fault at the scale of the whole cognitive half.**
+
+## 6. HAS HE RULED
+
+**293/338** — a red vital HALTS the bench, stops the tick, the school and the chat, and puts the
+reason on screen where he cannot miss it. **That machinery exists and works.** **259** — every
+system reports its own state. **Nothing has ever ruled that the tick may run with no brain at all**,
+and no vital covers it: the brain is not one of the 42 nodes.
+
+## 7. THE FIX — one recommendation
+
+**A MIND WITH NO BRAIN DOES NOT TICK. If `openBrain` has not succeeded, the bench halts exactly as
+a red vital halts it** — the halt bar, the reason on it, and Continue in his hands. **No new
+machinery: 293's halt already does all of this, and this hands it one more thing to halt on.**
+
+**THE COST, stated:** he could no longer watch the ledger-and-acts loop by itself with the brain
+down. **If that is worth keeping, the alternative is that it ticks and SAYS SO loudly** — but that
+is a second decision about the display, and I am not folding two into one recommendation.
+
+## THE RULING IS HIS. I have changed nothing.
+
+**And one fact that is NOT a second problem and needs no ruling**, so it is not stacked here: he
+asked whether the sphere is dead code. **It is not.** The sphere DRAWING retired at 261; the state
+object it drove stayed, and it is what feeds THE CORE's colour, beat and motion today. **Only the
+name is stale.**
