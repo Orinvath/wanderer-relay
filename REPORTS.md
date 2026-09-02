@@ -37178,3 +37178,96 @@ marks. **The first is a display; the second changes what imagination is.** I hav
 have changed nothing.
 
 **Reported what it was, not what fit first (370.5): I expected a refusal and there is none.**
+
+---
+
+# BUILT — 371 and 372. The mind thinks in its own language, and the gauge counts it. `bd7e4c7` · `fb0aa04`
+
+## 371 — ONE VOCABULARY
+
+**371.3 — WHICH FIELD EACH COMES FROM:**
+
+```
+English words it learned    the pool scan — resolve(word, learned).viaLearning over the 37,110
+marks it learned about      learning.owned(id) filtered to the 402 — word_links at the trust bar
+```
+
+**They cannot overlap and cannot double-count:** a mark resolves through the marks it was born with
+before learning is ever consulted, so it never appears in the first; an English word it learned is
+not one of the 402, so it never appears in the second.
+
+**371.2 SURVIVES INTACT, and it is the whole distinction.** `owned` is not the 402 — **it is what
+LIVING has bound a meaning to, and a newborn's is empty.** A mark enters it only when something was
+learned ABOUT it. Existing at birth earns nothing.
+
+**371.4 — A NEWBORN STILL READS 0.00**, proven on a real mind: `tick 1: 0 words, 0.00y`.
+
+## 372 — THE GLYPH FILTER IS OUT OF THINKING
+
+**`WORDS.includes(w)` discarded any word not in the 402 before it could be thought.** Five of the
+six he named are gone; the sixth is not the same fault and I have said why rather than removing it:
+
+```
+110  what curiosity is about        → knows(mind, w)
+123  a memory's words               → knows(mind, w)
+149  the space's neighbours         → knows(mind, w)
+318  every option the draw sees     → knows(mind, w)
+425  the pool it REACHES INTO       vocabulary.js — every learned word joins the 402 in the pool
+203  the DOMAIN pool                LEFT. It draws by domain, and a domain is a sheet of HIS
+                                    ARTWORK. A word he taught it has no sheet, so there is nothing
+                                    to widen — this one is the Avatar's job, not the language filter.
+```
+
+**`knows` = the 402 PLUS everything living taught it.** The marks stay because they are the language
+it was born speaking and a newborn must still be able to think. **372.4 holds: what it does not
+know is still unthinkable.** `clean()` in vocabulary.js filters to the 402 — right for every other
+caller and exactly wrong here — so learned words get their own cleaner.
+
+## 372.6 — PROVED. Taught English, then left to think, 400 ticks
+
+```
+35 of 366 thoughts held a word that is NOT one of the 402
+the gauge:  17 English + 39 marks = 56 words · 1.53 years
+the record: 49 owned — so it never read more than it had learned
+```
+
+**Before this it could not think one at all.**
+
+## 371.5 — HIS OWN BENCH, BEFORE
+
+```
+tick 270 · vocabulary 0 · age 0.00 · "newborn — no words yet"
+```
+
+**270 ticks of watching it learn while the number sat at newborn.** That is the fault, on his
+screen, in his own numbers. **The after needs his restart — the restart is his (his ruling), so I
+have not touched it.** An equivalent mind on the new build reads 56 words and 1.53 years.
+
+## 372.5 — EVERYTHING ELSE THAT FILTERS THROUGH THE 402. Named, not changed.
+
+**THE AVATAR'S GLYPHS DOING AN AVATAR'S JOB — correct as they are:**
+```
+voice.js · banks.js · store.js       what may be SPOKEN and stored as a mark — 191.5, the mouth
+geometry.js · language.js            the space is built on the marks — the symbols ARE the 402
+mindmap.js                           the board's own marks
+thinking.js:203 the domain pool      his artwork's sheets
+soul.js · effects.js                 domains and axes, drawn from the sheets
+```
+
+**THE SAME FAULT IN ANOTHER FILE, and each would need its own ruling:**
+```
+curiosity.js:182   what it may be CURIOUS about is filtered to the 402 — so it cannot wonder
+                   about a word he taught it
+stories.js:57      a story's marks are filtered to the 402 — so an English word cannot be IN a
+                   story it tells itself
+comprehension.js:84 wordsOfDomain — same domain question as thinking.js:203, and probably the
+                   Avatar's rather than a fault
+learning.js:76     OWNED_MARKS gates what a word may be linked TO. A word can only ever mean a
+                   MARK. This is the deepest one and it may be correct — marks may be what
+                   meaning is made of — but it is the reason every inner binding is mark-to-mark.
+```
+
+**I HAVE CHANGED NONE OF THOSE (372.5).** `curiosity.js` and `stories.js` look like the same fault
+to me and `learning.js:76` is the one worth his eye, because it is why 370 found what it found.
+
+**Suite 533 of 533.**
