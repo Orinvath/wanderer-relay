@@ -9663,3 +9663,57 @@ The constraints that make it real rather than decorative:
 
 Not designed, not scheduled, not built. Here so it is a decision when
 its time comes rather than a rediscovery.
+
+## Directive 373 — A DESCRIPTION IS NOT A PREDICTION
+
+**THE FEATURE** — how a lesson becomes a claim the mind tests, and
+who is charged when it fails.
+
+**WHY IT MATTERS** — it decides who the mind believes. A teller at
+the floor teaches it nothing, and the school is the only way English
+reaches it at all. It halted his bench at tick 154.
+
+**WHAT WENT WRONG** — `belief.js:77` splits every lesson the same
+way: the first mark is a CONDITION and the rest are a PREDICTION. So
+the teacher's line "SUN JOY BIRD" — a true description of the mind's
+moment, verified true when said, exactly as 234.5a requires — becomes
+the claim "SUN predicts JOY and BIRD". The teacher never said that.
+The mind tests it on later ticks, it fails, and trust.js:120 charges
+the failure to the teacher. AN HONEST TEACHER IS THEREFORE GUARANTEED
+TO BE DISBELIEVED: 23 lessons, borne out zero times, at the floor.
+
+**WHEN** — the machinery is old (232's `claimOf`, 234.7's held/failed).
+It surfaced now because a mind finally lived long enough for a teller
+to reach the floor and trip 293's halt.
+
+**THE SCIENCE** — Rescorla 1988, already cited in belief.js for this:
+contingency, not contiguity — a claim is evidence only if the
+antecedent genuinely PREDICTS the outcome. THAT IS A RULE ABOUT
+PREDICTIVE CLAIMS and says nothing about descriptions; applying it to
+one is a category error. Koenig & Harris 2005, Pasquini et al. 2007:
+selective trust tracks an informant's accuracy AS IT COULD BE CHECKED
+AT THE TIME. A speaker who says "the sun is out" is not made
+inaccurate by nightfall.
+
+**HE HAS RULED** — 234.5a: every teacher line is verified TRUE OF IT
+at the moment it is said. 234.7: trust moves on whether what they
+said held. Both stand. NOTHING HAS EVER RULED THAT A DESCRIPTION MAY
+BECOME A PREDICTION, and that is the step nobody authorised.
+
+**THE RULING**
+1. A DESCRIPTION IS NOT A PREDICTION. A lesson that describes what
+   was true when it was said is checked AGAINST THAT MOMENT — which
+   it already passed — and is never charged to the teller for failing
+   later.
+2. ONLY A GENUINELY PREDICTIVE CLAIM IS TESTED FORWARD. Say plainly
+   how the two are told apart in the code, and if that distinction
+   requires a decision, STOP AND POST IT (250) rather than choosing.
+3. TRUST IS UNCHANGED OTHERWISE (289): only being WRONG costs a
+   teller; unconfirmed is silent. This adds that being DESCRIPTIVE
+   costs nothing either.
+4. THE TEACHER'S FLOOR IS NOT REPAIRED BY A NUMBER. Do not raise it,
+   do not reset the teacher's trust by hand. Fix the mechanism and
+   let the trust be whatever the corrected arithmetic gives it —
+   then say what it is.
+5. PROVE IT: run the school on his bench and post the teller table
+   after fifty lessons. An honest teacher must not fall.
