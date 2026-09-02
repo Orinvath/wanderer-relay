@@ -9163,3 +9163,35 @@ So it processes, it emits, and the map draws nothing into it.
 4. CHANGE NOTHING YET. This is the survey; the fixes follow from
    what it finds, and anything requiring a decision stops and comes
    to him (250).
+
+## Directive 359 — THE FAKES MATCH THE REAL WORDS IN NUMBER (354.3, made to work)
+
+354.3 ruled the false-alarm guard survives: a mind that resolves
+nonsense is resolving nonsense, and it subtracts. That ruling stands
+and this is what it takes to make it true.
+
+**THE FAULT** — with the sample gone (354), the two halves are no
+longer at the same scale. Hits are counted over 37,110 real words;
+fakes are still 12. So:
+
+```
+honest mind     hits  1,032   false alarms 0    score  1,032
+credulous mind  hits 37,110   false alarms 4    score 37,106
+```
+
+Claiming everything wins. Under 344's sampling it worked, because
+twelve was measured against twelve.
+
+**THE RULING — AS MANY FAKES AS REAL WORDS.** Both halves at the same
+scale, so a mind that resolves everything scores 37,110 minus 37,110
+= nothing, and an honest mind is unaffected.
+
+- This is not a new decision. It is 354.3 made to work; the guard was
+  ruled and only its scale was left behind.
+- No ratio, no weighting, no floor — one fake per real word, the same
+  arithmetic 344 had at twelve.
+- If the fake generator cannot produce that many pronounceable
+  non-words without repeating or colliding with real English, SAY SO
+  and stop; do not solve it with a number.
+- Check 380 must go green on the honest mind and the credulous mind
+  must score at or near zero. Post both.
