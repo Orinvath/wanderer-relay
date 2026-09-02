@@ -38802,3 +38802,73 @@ how he loses the key he typed once.**
 ```
 
 Unchanged: 219, 234, 235 stable and unrepaired, the teacher family moving run to run.
+
+---
+
+# BUILT — 394. The panel restated whole.
+
+## FIRST, WHAT 394 ORDERED BEFORE ANYTHING WAS REMOVED: what the VOICE slot was doing
+
+**Nothing. It has been dead since yesterday and nobody noticed.**
+
+```
+ROLES.rendering → 'voice' → gemma3:1b
+the ONLY caller:  interpreter.js:339   const said = await this.#ask(prompt, 60, 'rendering')
+interpreter.js:1  ***** SUPERSEDED BY 324.C -- 2026-09-01, Directive 352. NOT LIVE. *****
+```
+
+**327 named gemma3:1b as the voice. 301 had already ruled the phone's own TTS speaks and nothing is
+shipped. 352 then struck the only file that ever called it.** So the slot has been configured,
+named, and reachable from nothing at all. **That is what it was doing, and it is why it goes.**
+
+## THE PANEL
+
+```
+VISION AND CHAT
+nothing attached
+
+LOCAL — a model from this machine
+[ Choose file ] [ Load ]
+
+PROVIDER — online
+[ OpenRouter ▾ ] [ model ] [ key ] [List models] [Attach]
+
+[ Detach ]
+the key is kept in server/data/perception.json — not shown here, and readable there
+```
+
+**NOTHING IS PRELOADED.** An empty slot says `nothing attached` and names no model — moondream and
+gemma3:1b do not appear. The config defaults still exist for a headless run and are not shown as an
+attachment.
+
+**ONE THING IS ATTACHED AND IT DOES BOTH.** `senses` and `rendering` both resolve to the one slot;
+there is no role split left in the panel.
+
+**TEN PROVIDERS, and the mechanism did not change — the LIST was what was one row long:**
+
+```
+OpenRouter · OpenAI · Anthropic · Google · Groq · Together · Hugging Face · Mistral · DeepSeek · xAI
+```
+
+**Eight share the OpenAI chat shape and differ only in where they are, so they share one row-maker.
+ANTHROPIC AND GOOGLE DO NOT** — Anthropic takes the system prompt as a top-level field and answers
+in content blocks — **so each carries its own body and its own reader, which is exactly what a row
+is for.** An eleventh is a row.
+
+**LOCAL HAS NO KEY FIELD** (393.3), and 392 stands whole: stored, surviving, reattached on its own,
+never shown, never in a URL or a log.
+
+## AND ONE THING I WILL NOT PAPER OVER — the file chooser
+
+**A browser hands the page a file's NAME and never its PATH.** That is a security rule of the
+browser, not a gap in this build — so **the server cannot open the file he picks.**
+
+What it does instead: it takes the name, checks whether this machine already serves something by
+it, attaches if so, and **REFUSES PLAINLY if not** — naming what it can serve — rather than
+reporting a model attached that nothing can answer as.
+
+**So the chooser works when the file is already a model Ollama has. It cannot load a loose GGUF off
+the disk, and I am not going to pretend it can.** If he wants that, the two honest ways are a PATH
+field the server reads, or an upload — **and that is his call, not mine to pick.**
+
+**Suite 533 of 539.** Unchanged: 219, 234, 235 stable and unrepaired; the rest the teacher family.
