@@ -10159,3 +10159,28 @@ knows instead of over a slice.
 4. THEN CHECK WHAT ELSE CAME BACK WITH THEM. Anything else struck by
    354, 360, 371 or 379 that is live again in the code. List it; do
    not fix it yet.
+
+## Directive 385 — CHECK EVERY DIRECTIVE FOR SILENT REVERSION. Report back.
+
+The gauge's sampling and its fakes were both struck by ruling and are
+both live in the code again (384). He warned that the model rework
+would undo finished work and he was right. FIND OUT WHAT ELSE WENT
+WITH THEM.
+
+**THIS IS THE AUDIT METHOD FROM AUDITS.md AND IT IS THE WHOLE POINT
+OF IT:** run it AGAINST THE CODE. Do not read reports, do not read
+commit messages, do not trust that something was built because it was
+reported built. That method already failed once — 336 found a
+directive reported built, audited for, and absent from the code.
+
+1. GO THROUGH EVERY DIRECTIVE and ask one question of each: DOES THE
+   CODE DO THIS RIGHT NOW? Not "was it built" — does it do it today.
+2. NAME EVERY ONE THAT IS NOT LIVE, with the line that should carry
+   it, and say whether it was never built, or built and reverted.
+3. FOR EACH REVERSION, NAME THE COMMIT that undid it and how — a
+   revert, a rebuild from an older file, a rewrite that dropped it.
+   The pattern matters more than any single loss.
+4. CHANGE NOTHING. This is a survey. He and the Director decide what
+   is restored and in what order.
+5. RECORD IT IN AUDITS.md as audit 002, with the commit it was taken
+   at, so the next one starts from there.
