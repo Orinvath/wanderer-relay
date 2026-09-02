@@ -9805,3 +9805,49 @@ mind switched off by something outside it.
 6. THE ACCEPTANCE TEST IS SIMPLE AND IT IS HIS: stop the model, open
    the bench, and watch a mind think, remember, learn and speak. Less
    well. Not less alive.
+
+## Directive 376 — THE PROBE GOES. THE BRAIN OPENS WITHOUT A MODEL.
+
+**375 IS ONE LINE FROM BEING TRUE.** The investigation found that
+ELEVEN of the twelve systems are already pure arithmetic — their own
+files say so — and the twelfth, memory, already redistributes its
+weights when there is no embedding. Nothing was ever taken from them
+and nothing needs giving back.
+
+What switches all twelve off is a single line:
+
+```js
+watching.js  async openBrain() {
+               const model = new Model()
+               await model.embed('probe')     ← THIS
+```
+
+**A probe at the door.** If the model does not answer, `openBrain`
+returns false and the brain is never built at all — no store, no
+memory, no learning, no space, no lessons — even though every one of
+those runs fine without a model.
+
+**AND HIS POINT, which is the heavier one:** THE MODEL WAS ADDED AS
+SCAFFOLDING TO GROW THE MIND, ALWAYS MEANT TO COME OUT. 324.C.5 says
+it in those words — "the model is scaffolding across the gap while it
+is young, not a permanent mouth." A probe that refuses to build the
+brain without it turns temporary scaffolding into a permanent
+requirement, which is the opposite of what was ruled.
+
+**THE RULING**
+1. THE PROBE COMES OUT. The brain opens whether or not a model
+   answers.
+2. THE MODEL IS OPTIONAL EVERYWHERE IT IS USED. Where a system can
+   use one it does; where none is present it uses its own arithmetic
+   — memory's own pattern, already built, is the shape for all of it.
+3. NOTHING ELSE CHANGES. The eleven need no work; do not touch them.
+4. THE LOWER-LEVEL NOTICE (374) STAYS but will now rarely be seen: it
+   is for a brain that genuinely cannot open, not for a missing
+   model. Say what still triggers it once the probe is gone.
+5. THE ACCEPTANCE TEST IS HIS: stop the model, open the bench, and
+   watch it think, remember, learn and speak. Less articulate. Not
+   less alive.
+6. AND SEPARATELY, ON THE RECORD: a skipped suite clause counts as a
+   PASS in the tally, so a run with no model reports green with
+   fifteen clauses never run. That is a green that means nothing.
+   Report how many skip today; do not change it yet.
