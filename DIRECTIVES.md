@@ -10362,3 +10362,28 @@ PROVIDER: pick it from a list, enter the key, attach.
    mind carrying on regardless (375).
 6. IF ANOTHER PROVIDER IS WANTED LATER it is a row in the same list.
    Do not build a second mechanism.
+
+## Directive 392 — THE KEY IS STORED AND SURVIVES. Not shown, not lost.
+
+**HIS RULING** — the key must be STORED so it can be recalled if
+needed. He is not making a new one because something got cleared.
+
+**WHAT IS THERE NOW** — 386/391 built it write-only and held on the
+live object, so it is gone on restart and cannot be got back. That
+caution was CC's, not his: this is his own machine, his own key, and
+the panel is where a key is supposed to live.
+
+**THE RULING**
+1. THE KEY IS SAVED and survives a restart. It is attached again on
+   its own when the bench comes up — he types it once, ever.
+2. IT IS NOT SHOWN IN THE PANEL. The field stays a password field and
+   the panel reports only that one is set. Stored, not displayed.
+3. IT IS RECALLABLE. If he needs the key itself back, there is a way
+   to get it — a file he can open, not a UI he has to fight. Say in
+   the report where it lives and how he reads it.
+4. WHAT STAYS: it is never in a URL, never in a log, never in an
+   error message, never in the model's ledger. Those keep it out of
+   shell history and out of anything he might paste. That is the part
+   worth having and it costs nothing.
+5. DO NOT ENCRYPT IT BEHIND ANOTHER SECRET. A key he cannot recover
+   is the thing he is ruling against.
