@@ -37032,3 +37032,59 @@ different things depending on whether it is awake**, and nothing says which. A r
 has no way to know they are a dream rather than a feeling.
 
 **I am not choosing.** It could be labelled, moved, or left exactly as it is.
+
+---
+
+# RETRACTION — my sleep explanation is not supported, and he says it is not accurate.
+
+He read the last report and said none of it is accurate. **He is owed the difference between what I
+MEASURED and what I INFERRED, because I ran them together and presented the inference as the
+finding.**
+
+## WHAT I ACTUALLY MEASURED, on the being that was running
+
+```
+40 samples over 28 seconds, read live from his Emulator:
+  23x   the line showed  HIDDEN · SHARE · LOVE · TOGETHER · BIRD    with felt: []
+  17x   the line showed  JOY                                        with felt: ['joy']
+
+that being: awakeHours 11.27 · nights 2 · one recent tick had chose: 'sleeping'
+```
+
+**That much is real and it is his symptom exactly.**
+
+## WHAT I DID NOT MEASURE, AND STATED ANYWAY
+
+**I never sampled `chose` and the glyph line together on that being.** I saw a sleeping tick in one
+reading and the five marks in another, and **I joined them.** The claim that the marks were being
+shown DURING sleep is an inference I did not test, and it is the whole of the explanation I gave
+him. **It should not have gone in a report in that form.**
+
+## AND IT CANNOT BE TESTED NOW
+
+The bench has restarted onto a new life. On the being running at this moment the line behaves
+exactly as he remembers:
+
+```
+tick 2  chose=singing  felt=-      asleep=false  dreaming=0   LINE: (blank)
+tick 4  chose=singing  felt=joy    asleep=false  dreaming=0   LINE: JOY
+tick 5  chose=singing  felt=-      asleep=false  dreaming=0   LINE: (blank)
+```
+
+**Blank when it feels nothing, the feeling when it feels one.** So the fault is not reproducing on
+the fresh life, and the being that showed it is gone.
+
+## WHAT IS TRUE REGARDLESS, AND IS WORTH RULING ON
+
+**`rest.js:48` does put the DREAM'S MARKS on the body's glyph line with `felt: []`.** That is in the
+code, it is from 21 August, and it means that one line carries two different meanings depending on
+state, with nothing saying which. **Whether or not it is what he saw, a readout that means "what it
+is feeling" and sometimes means "what it is dreaming" is not accurate**, and that stands on its own.
+
+## WHAT I NEED FROM HIM
+
+**Which part was wrong** — that it was asleep, that it was the dream, or that it was that line at
+all. **If it happens again, the one thing that would settle it is a look at the moment it is
+showing**, and I can read his bench live while it is on screen rather than reconstructing it after.
+
+**I have changed nothing.**
