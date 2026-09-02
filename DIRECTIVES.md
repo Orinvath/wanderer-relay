@@ -10338,3 +10338,27 @@ MARKS         49 of 402    what it knows of the Avatar's language
    directive counts them so the day is visible when it arrives.
 4. WHAT COUNTS AS KNOWING A MARK is the same test as knowing a word:
    it can be demonstrated. No estimating (389).
+
+## Directive 391 — THE PERCEPTION PANEL: pick a provider, not an endpoint
+
+**HIS CORRECTION** — 386 built a raw endpoint field. He asked for a
+PROVIDER: pick it from a list, enter the key, attach.
+
+**THE PANEL, corrected:**
+1. TWO SLOTS as built — SENSES and VOICE, each independent.
+2. EACH SLOT PICKS ONE OF TWO KINDS:
+   - LOCAL: a model on this machine, chosen from what is served.
+   - PROVIDER: OPENROUTER. Pick the provider, pick a model, enter the
+     key. The URL is known and is never typed.
+3. OPENROUTER IS THE PROVIDER because it is the one he has used —
+   rakazo runs on it — and one key reaches hundreds of models,
+   including the free tier and the large paid ones. One provider,
+   the whole field.
+4. THE MODEL LIST comes from the provider rather than being typed
+   where that is possible; typing a name stays available.
+5. EVERYTHING ELSE IN 386 STANDS AND IS ALREADY BUILT: attach and
+   detach with no restart, the key never returned or logged, a
+   detached role being apparatus the being does not have, and the
+   mind carrying on regardless (375).
+6. IF ANOTHER PROVIDER IS WANTED LATER it is a row in the same list.
+   Do not build a second mechanism.
