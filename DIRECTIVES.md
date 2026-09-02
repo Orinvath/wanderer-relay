@@ -9319,3 +9319,32 @@ a day and saw nothing move, because nothing was allowed to.
 **PROVE IT** — a mind left alone to think: words owned from thinking,
 meanings formed, links strengthened, and all of it visible in LEARNED
 and in the vocabulary count as any other learning would be.
+
+## Directive 364 — EVERY NODE HAS A CONNECTOR OR IT DOES NOT EXIST
+
+**HIS RULING, and it is absolute:** every node on the Mind Map has at
+least one connector. A node with no line into it and none out of it
+is not part of the mind — it receives nothing and gives nothing, and
+a thing that does neither does not exist.
+
+This settles what 358 was auditing:
+1. IF A NODE HAS NO EDGE DRAWN, IT IS A FAULT, always. There is no
+   honest bare node. One of two things is true and both get fixed:
+   - the edge exists in the code and the map does not draw it — DRAW
+     IT;
+   - the code passes data and emits nothing — EMIT IT (270.B.5
+     already forbids a false dark).
+2. IF A FILE GENUINELY NEITHER RECEIVES NOR GIVES ANYTHING, it is not
+   a system of the mind and it does not belong on the map. Say which
+   files those are and they will be ruled on — struck, or wired to
+   whatever they were meant to serve.
+3. BELIEF IS THE EXAMPLE and it is the first one fixed: it runs every
+   tick from `experiencing.js:1146` and emits at 1145, and nothing is
+   drawn into it.
+4. WHEN IT IS DONE, EVERY ONE OF THE 42 HAS AT LEAST ONE CONNECTOR
+   AND HE CAN SEE IT. Post the count: nodes with edges before, and
+   after.
+
+358 and 362 stand and this is their answer — the audit is still done
+one node at a time from the code, but the outcome is now known: no
+node is left bare.
