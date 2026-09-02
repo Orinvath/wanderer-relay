@@ -36275,3 +36275,57 @@ TRACE — every pair the mind is actually observed to hand between, drawn becaus
 whether `SEQ` should be extended by hand to cover the missing 24 nodes. **The first makes the map
 true by construction and would change what he sees considerably. I have not chosen, and nothing is
 changed.**
+
+---
+
+# BUILT — 359. The guard works again. AND IT COLLIDES WITH 241.4.
+
+## 359 IS BUILT AND 380 IS GREEN
+
+```
+                was (354)                        now (359)
+honest mind     hits  1,032  fa 0  score  1,032   hits      0  fa      0  score      0
+credulous mind  hits 37,110  fa 4  score 37,106   hits 36,078  fa 37,110  score -1,032
+380 passes?     false                             TRUE
+```
+
+**The credulous mind now scores below zero and reads as a newborn**, because every piece of nonsense
+it swallowed subtracts. The honest mind is untouched — it resolves no nonsense, so there is nothing
+to take off it. **No ratio, no weighting, no floor: the same arithmetic 344 had at twelve, at the
+size the count actually is.** `PROVISIONAL.FAKE` is deleted the same way `REAL` was; the count comes
+from the pool, so there is no number left here for anyone to have to rule.
+
+**THE GENERATOR CARRIES IT, which 359 asked me to check before assuming:** 37,110 unique
+pronounceable non-words in **75 ms**, from a space of about **179,300** distinct strings it can
+produce, every one checked against all 355,511 English words so none is quietly real. **A whole
+litmus run now costs about 220 ms.**
+
+*(My first measurement said the generator could only manage 1,654 and I nearly reported that it
+could not do it. The limit was the throwaway random number generator in my test harness, not the
+build. Run again with the project's own `generator` it produced all 37,110. Named because it would
+have been a false blocker put to him.)*
+
+## AND NOW THE COLLISION, WHICH I AM NOT RESOLVING
+
+**Check 390 is red, and it is a genuine collision between two rulings. Both quoted:**
+
+> **241.4** — *"THE RUN HAPPENS IN THE CHAT LOG, where he can watch it — every item it was shown,
+> what it said about it, and the reading at the end."*
+
+> **359** — *"AS MANY FAKES AS REAL WORDS. Both halves at the same scale."*
+
+**Under 344 a run was 24 items and printing every one was exactly right. Under 359 a run is 74,220
+items.** `watching.js:1163` prints one chat line per item, and the log holds 400 — so the run's own
+header and its closing reading are pushed out by nonsense before he ever sees them. **That is what
+turned 390 red: not a fault in the counting, but 241.4 carried out literally at the new size.**
+
+**THE CONSEQUENCE ON HIS BENCH, said plainly rather than left for him to find:** every litmus run
+will now fill the chat log with thousands of made-up words. **I would hold off restarting until this
+is ruled.**
+
+**The question is only which governs, and it is one line to answer:** does 241.4 still mean every
+item, or does it now mean the FALSE ALARMS and the reading — the nonsense it actually fell for,
+which is the only per-item answer that still tells him anything at 74,220 items?
+
+**I have not chosen and I have changed nothing about the log.** 359 itself is built, committed and
+green.
