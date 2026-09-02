@@ -9109,3 +9109,20 @@ AFTER ANYTHING.
    bench gives it nothing to want, and that is a different problem
    with a different answer.
 4. Report what it was, not what fits first.
+
+## Directive 357 — IS THE FALSE-ALARM GUARD RESOLVED?
+
+Lonnie asks directly: is check 380 — the false-alarm guard — resolved
+or still open?
+
+The relay says OPEN: you left it red on purpose and logged it rather
+than choose a scale, because 354.1 forbade you picking one. If that
+is still the state, say so plainly and it stays with him.
+
+If it HAS been resolved since that report, say:
+- what the correction is;
+- whether it was ruled or chosen, and by whom;
+- and if it was chosen, that is a decision made for the mind and it
+  goes to him now under 250 and 246.
+
+Answer with the state of the code, not the state of the report.
