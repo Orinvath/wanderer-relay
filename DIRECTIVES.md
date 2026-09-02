@@ -10297,3 +10297,19 @@ words, it may try to complete the marks itself — a visual language
 that works the way his brain works. Eventually two minds
 communicating in marks alone. For now it is testing and his own
 entertainment, and that is the whole of its purpose.
+
+## Directive 389 correction — what he actually said about the marks
+
+The Director wrote more than his ruling. HIS WORDS: the marks may
+stay LISTED ON THE PAGE, and they will be used for testing later.
+
+That is all. Anything in 389 that reads as a design for what that
+testing is — a mind completing the marks, two minds communicating in
+marks — was the Director restating a passing remark as a plan, and it
+is struck. It is not designed, not scheduled, and not to be built
+from.
+
+WHAT STANDS:
+- the marks are listed on the page;
+- they are NOT measured and are no part of the gauge (344, 387);
+- they will be used for testing later.
