@@ -9851,3 +9851,36 @@ requirement, which is the opposite of what was ruled.
    PASS in the tally, so a run with no model reports green with
    fifteen clauses never run. That is a green that means nothing.
    Report how many skip today; do not change it yet.
+
+## Directive 377 — GO on the plan: take the model out of the mind's path
+
+Approved as posted. Build the three changes:
+
+1. MEMORY GETS ITS OWN RELEVANCE. The space is handed to Memory the
+   same way the model already is — optional, at construction.
+   `relevance` becomes the cosine when there is a vector, and the
+   mind's own nearness between the moment's marks and the memory's
+   marks when there is not. ZERO STOPS BEING AN ANSWER. That zero
+   was the weld: the attention door is relevance-only, so nothing
+   was noticed, nothing appraised, and the mind could not feel.
+2. THE TICK STOPS KNOWING ABOUT A MODEL. `experiencing.js` no longer
+   reaches `mind.brain.model.embed`. It asks for the moment's vector,
+   and carries on when there is none.
+3. THE DOOR IS UNTOUCHED. `attention.js` keeps its threshold exactly
+   as it is. What changes is that `rel` now has an honest value when
+   the embedder is away.
+
+THE MECHANISM IS TWO LANES AND NO SWITCH, and that is what he
+approved: the vector either arrived or it did not. Arrived — measure
+with it. Did not — measure in the mind's own space. Nothing to
+configure, nothing to set.
+
+AND YOU ARE NOT CHOOSING ANYTHING: the space is 221's, its floor is
+the one 221 MEASURED and 249's gate already uses. Do not pick a
+threshold. If anything in the build turns out to need one, STOP AND
+POST IT (250).
+
+PROVE IT AS 376.5 ASKS — stop the model, open the bench, and watch it
+think, remember, learn and speak. Less articulate. Not less alive.
+Post what he will see: relevance non-zero, the door passing, feelings
+forming.
