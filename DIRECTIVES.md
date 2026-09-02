@@ -10253,3 +10253,17 @@ and the language is English.
    THINKS IN CHANGES. This is about what the GAUGE MEASURES.
 5. 355 STANDS: a newborn reads 0.00 and counts nothing it was born
    with.
+
+## Directive 388 — CUT THE LITMUS HISTORY STRIP
+
+The run history under the gauge — `t650 68 · 1.59y  t556 67 · 1.58y …`
+— comes off the page.
+
+Everything in it is already displayed directly above: the tick, the
+count, and the age. It repeats them, takes space, and shows change so
+small it reads as noise.
+
+- The strip goes.
+- The runs are still LOGGED as 241.4 requires — the history survives
+  in the record, it just does not sit on his screen.
+- Nothing about the gauge itself changes here.
