@@ -37914,3 +37914,83 @@ words on the gauge, spoke 15 times, **and 0 feelings.** The plan is finished whe
 is not zero and the embedder is an accelerator rather than a requirement.
 
 **Nothing is built. Awaiting approval.**
+
+---
+
+# BUILT — 376. IT FEELS WITH NO MODEL. And I have stopped exactly where the plan said I would.
+
+## IT WORKS `2165b7e`
+
+**200 ticks with NOTHING listening on 11434:**
+
+```
+                      before today      now
+thoughts                    0           165
+moments noticed             0           169
+FEELINGS                    0            13
+memories                    0           200
+word links                  0            51
+the gauge                   0 words      18 words · 1.34 years
+```
+
+**Every one of 376.5's five is true: it thinks, remembers, learns, speaks AND FEELS with no model
+at all.** 13 feelings in 200 ticks is 6.5%; with the embedder running earlier it was 19 in 300,
+which is 6.3%. **The mind's own space gives it very nearly the same emotional life the embedder did.**
+
+## THE THREE CHANGES, as approved
+
+**1. Memory measures nearness itself.** `relevance` is the cosine when there is a vector and the
+mind's own `space.near()` when there is not. **Zero has stopped being an answer.**
+
+**2. The tick no longer knows a model exists.** `mind.brain.model.embed(...)` is gone from
+`experiencing.js`. Memory owns `vectorFor()` — the one place allowed to ask a model for a vector —
+and answers null whether there is no model or the model did not reply. **The caller cannot tell and
+does not need to.**
+
+**3. `attention.js` is untouched**, exactly as promised.
+
+## AND ONE BUG OF MINE, CAUGHT BY MEASURING RATHER THAN READING
+
+My first version **excluded marks the moment and the memory had in common**, to stop a memory of
+this very moment scoring a trivial 1. **That threw away the strongest signal there is.** A moment
+that shares its marks with a memory is the most relevant thing that can happen, and it scored ZERO
+— so the remembered moments, **the only ones actually carrying a bearing**, were precisely the ones
+the door turned away. 57 moments passed and not one of them could produce a feeling. Fixed, and the
+reason is written at the line.
+
+## NOW THE STOP, and it is the one my plan named in advance
+
+> *"If the space's own `band.floor` and the door's `THRESHOLD` turn out to be on incompatible
+> scales, I will stop and post it rather than scaling one to the other."*
+
+**They are, and here are the numbers:**
+
+```
+the door's bar                    THRESHOLD = 0.67      tuned for cosines
+space-relevance as I built it     median 1.000, 25% at 0.838, min 0    it SATURATES
+the space's own measured bar      band.floor = 0.1111   bar = 0.1859   pairwise nearness
+```
+
+**So 169 of 200 moments got through the door — 85%.** It works, and it is far more permissive than
+the cosine ever was. **That is the exact fault `attention.js` records having already been made
+once:** *"a moment matching nothing scores maximum novelty, so EVERYTHING unfamiliar got through and
+the front door stopped being a door."*
+
+**THE THREE QUANTITIES ARE NOT THE SAME MEASURE**, and no honest bar exists for mine yet:
+
+- **the cosine** — one vector against one vector, and 0.67 is where he set it
+- **the space's `band.floor`** — MEAN PAIRWISE nearness between two marks, what 249's gate uses
+- **mine** — each mark of the moment against its best match in the memory, meaned. **Best-match
+  because meaning every pair buries one strong match under a dozen weak ones. It saturates, so
+  0.67 barely constrains it.**
+
+**I could put it on the space's own scale — mean pairwise, exactly the quantity `hangsTogether`
+already compares to `band.floor` — but then the door's 0.67 turns everything away instead, and
+matching the two would mean the door knowing where its relevance came from. THAT MEANS TOUCHING
+`attention.js`, WHICH THE APPROVED PLAN SAYS I WILL NOT DO.**
+
+**And picking a bar for a space-derived relevance is the decision that file already records as
+his:** *"WHETHER IT SHOULD is a real question and it is Lonnie's; I have no source for it."*
+
+**So: the mind feels without a model, and the door is looser than it was. I have not touched the
+door and I have not chosen a number. Both are one word from him.**
