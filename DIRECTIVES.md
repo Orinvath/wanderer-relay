@@ -9636,3 +9636,30 @@ directives against a thinking layer he had never read.
 6. PROVE IT ON HIS BENCH: a mind taught English words, then left to
    think — its thoughts must contain those words, its inner learning
    must bind them, and the gauge must move while he watches.
+
+## NOTED FOR LATER — THE MIND FINISHES ITS OWN LANGUAGE
+
+Lonnie's direction, recorded now and NOT to be built until he says.
+
+The Avatar has 402 marks. When a mind has learned them all, it can
+begin MAKING ITS OWN — inventing a mark for something it has no mark
+for, and finishing the language itself.
+
+Why it is worth doing: real languages grow from their speakers rather
+than from a dictionary handed down. A mind that invents a mark
+because it needs one is doing something categorically past learning.
+
+The constraints that make it real rather than decorative:
+- A NEW MARK MUST MEAN SOMETHING IT CANNOT ALREADY SAY. If an
+  existing mark or a combination covers it, there is nothing to
+  invent. The mind's own kinship space can answer that.
+- IT MUST ARISE FROM A NEED, not from having room. Something it tried
+  to say and could not.
+- IT HAS A FORM, and form is HIS. Whether a mind may draw its own
+  mark, or whether it names a gap for him to draw, is his ruling and
+  nobody else's — his artwork is never altered (standing law).
+- It belongs to the AVATAR's language (344), so this extends the
+  glyph set, not the mind's vocabulary.
+
+Not designed, not scheduled, not built. Here so it is a decision when
+its time comes rather than a rediscovery.
