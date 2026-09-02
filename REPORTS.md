@@ -38677,3 +38677,60 @@ certainly a pattern-based audit lies.** That is written into AUDITS.md for the n
 wrong question.**
 
 **Nothing changed (385.4).**
+
+---
+
+# BUILT — 391. The panel picks a provider. The URL is never typed.
+
+```
+SENSES   [ this machine ▾ ]  [ model        ]  [ key ]  [List models] [Attach] [Detach]
+VOICE    [ OpenRouter   ▾ ]  [ model        ]  [ key ]  [List models] [Attach] [Detach]
+```
+
+**A PROVIDER IS ONE ROW, and that is the whole mechanism (391.6):**
+
+```
+local        this machine       /api/generate      prompt in, out.response
+openrouter   OpenRouter         /chat/completions  messages in, choices[0].message.content
+             https://openrouter.ai/api/v1
+```
+
+**THEY DO NOT SPEAK THE SAME WAY, and that is why a row carries three things** — where it is, what
+it is asked, and how its answer is read. Ollama takes a prompt; OpenRouter takes the OpenAI chat
+form and answers somewhere else entirely. **Another provider later is one more row, not a second
+mechanism.**
+
+**THE URL IS THE PROVIDER'S OWN AND IS NEVER TYPED** — proved: attaching OpenRouter gives
+`https://openrouter.ai/api/v1` from the row, with nothing entered but a model and a key.
+
+**391.4 — LIST MODELS asks the provider what it serves**, and typing a name stays available (the
+field is a datalist, so the list offers and never restricts). **THE KEY GOES IN THE BODY OF A POST,
+never in a URL** — a key in a query string sits in his shell history and in every log that touches
+it.
+
+**CHOOSING "this machine" DETACHES.** Local is not an attachment: it is the one self-hosted process
+this build has always used, so there is nothing to point anywhere.
+
+## WHAT 386 ALREADY HELD AND STILL DOES (391.5)
+
+**The key never comes back out** — proved again with the provider path: `SECRET-KEY` appears nowhere
+in what the panel is served, only `key: true`. **Attach and detach take effect on the next call, no
+restart. And the mind carries on regardless:**
+
+```
+voice attached to OpenRouter with a key that does not work
+  → thoughts 39 of 40 · memories 80 · it never noticed
+```
+
+**375 holds: nothing in the mind knows what is attached, and a role that cannot answer is apparatus
+the being does not have.**
+
+## THE SUITE
+
+```
+531 passed · 8 failed · 0 skipped (of 539)
+```
+
+**The stable three are unchanged and unrepaired** — 219 (memory leads the draw, new today and not
+yet chased), 234 and 235 (the flat felt-trail, reported under 382). **The rest are the teacher
+family, which moves run to run: 5 in one run, 0 in the next, on the same build.**
