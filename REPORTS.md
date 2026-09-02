@@ -38627,3 +38627,53 @@ build. **219 is new since this morning and I have not established what caused it
 guessed at.**
 
 **385's audit against the code is still not started** — it is the large one and it is next.
+
+---
+
+# 385 — AUDIT 002 IS DONE AND RECORDED. Nothing was silently reverted.
+
+Recorded in `AUDITS.md` as audit 002, taken at code `7d5be04`, covering **335 – 390** — audit 001
+covered everything to 334, and the file exists so the next one starts from there.
+
+## THE RESULT: 56 directives, 53 live, ONE not built
+
+```
+347  THE CHECKS ARE PER NODE — HEALTH counts 42, not 25
+     HEALTH reports 25 today, measured by running it.
+     NOT A REVERSION. 347's own order of work: CC posts the file list — done and reported —
+     THE DIRECTOR writes the 42 claims, and only then does CC build. THE CLAIMS NEVER CAME.
+     It is sitting exactly where 347 put it.
+```
+
+**Two others read as "not live" and both were my error:** 358 is a SURVEY with nothing for the code
+to do, and **364 was superseded by 365 in 365's own words.**
+
+## AND 384's PREMISE, CHECKED RATHER THAN ASSUMED
+
+**The gauge's sampling and its fakes have NOT come back.** `fakes()` has no caller anywhere outside
+the suite, `spotTheWord` has no slice, and `litmus.js` has not been touched since 371. **Nothing in
+this range was silently reverted.**
+
+## THE THING WORTH MORE THAN THE RESULT
+
+**Three checks came back NOT LIVE and all three were my own grep matching a COMMENT that described
+the OLD behaviour:**
+
+```
+376  matched "await model.embed('probe')" inside the comment saying the probe was removed
+341  matched "owned.size * proven" inside the comment listing the faults that line has carried
+367  matched an explanation of the wrong reading, not a reading
+```
+
+**Every one was settled by RUNNING it.** 376 I proved by opening a brain with the model at a dead
+port: it opened, and the mind thought on 34 of 40 ticks with 40 memories.
+
+**A grep tells you a string is present. It cannot tell you which is the code and which is the
+tombstone** — and this build deliberately leaves tombstones, because 352, 360 and 365 all ruled that
+struck code stays in place and marked. **So the more carefully we mark what we strike, the more
+certainly a pattern-based audit lies.** That is written into AUDITS.md for the next one.
+
+**It is 336's failure one level down: an audit that asks the wrong question can only confirm the
+wrong question.**
+
+**Nothing changed (385.4).**
