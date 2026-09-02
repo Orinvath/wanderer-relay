@@ -36566,3 +36566,63 @@ leave it overnight — every one of them will light, and if one does not, THAT i
 **Suite 526 of 528. Both reds are the model-dependent teacher pair that moves run to run.**
 
 **The bench needs a restart to show the connectors.**
+
+---
+
+# FIXED — the connectors were not accurate, and on a tool that is the whole fault. `ef8299b`
+
+**He is right and I built it wrong.** 364 drew a line between whatever ran and whatever ran NEXT.
+**That is a picture of ORDER, not of data going anywhere** — two files that happen to run back to
+back got a connector even though neither hands the other anything. **The timing was honest; the
+location was a guess wearing the clothes of a fact, and on a diagnostic that is worse than drawing
+nothing.** I then described it to him as connecting where data comes from and goes to, which it did
+not.
+
+**And I put backticks in a comment inside the page template AGAIN**, which killed the module —
+the same fault as this morning, on the same day, with the guard already written for it.
+
+## WHAT IT DOES NOW
+
+**A HAND-OFF NAMES ITS OWN SOURCE.** `trace.at(system, tick, from)` — `from` is the file whose
+OUTPUT that call site actually consumes, read off the code at the call site. The wire is
+`from → system`. **A hand-off with no source is an ORIGIN: the tick starting something rather than
+data crossing between two files, and it draws NO LINE.**
+
+**AND THE OLD `SEQ` WIRES ARE GONE.** They were a hand-written tick order and drawing them as
+wiring is exactly what he objected to. **The board now starts EMPTY. Every line on it was earned.**
+
+## THE EIGHTEEN CONNECTIONS THAT ARE PROVEN, and there are no others on the board
+
+```
+SURFACING → MEMORY      SURFACING → DICTIONARY   FEELINGS  → DICTIONARY
+APPRAISAL → MEMORY      MEMORY    → STORIES      STORIES   → GLYPHS
+NEEDS     → OFFERS      OFFERS    → DICTIONARY   STORIES   → LESSONS
+SLEEP     → INTERESTS   SLEEP     → LEARNING     STORIES   → STORYGATES
+LEARNING  → LANGUAGE    LEARNING  → COMPREHENSION LESSONS  → BELIEF
+INTERESTS → CURIOSITY   THINKING  → CURIOSITY    DICTIONARY → SLEEP
+```
+
+**Every one is read off the call site.** `LEARNING → COMPREHENSION` because `understand()` is handed
+`learned`. `LESSONS → BELIEF` because `evidence.tick` is handed the lessons — **which is the BELIEF
+edge he found missing in the first place.**
+
+## AND WHAT IS NOT DONE, said straight
+
+```
+hand-offs in 300 ticks           17,268
+that named a source              3,415
+ORIGINS, drawing no line         13,853
+nodes on a proven line           19 of 42
+```
+
+**23 nodes are still bare, and the reason has changed.** It is no longer that the map cannot draw
+them — it is that **I have named the source at 22 call sites out of 95.** The other 73 emit without
+saying where their data came from, so I will not draw a line for them: **an unprovable line is the
+thing being fixed.**
+
+**Naming the remaining 73 is the rest of this job.** Each one is a code fact read at the call site,
+the same way these 22 were, and it is the "one node at a time from the code" work 358 and 362 both
+asked for. **Some genuinely are origins** — a system reading its own store starts data rather than
+receiving it — **and those will stay bare honestly, which is 364.2's question.**
+
+**I am not going to report this as finished when 73 of 95 are unnamed.** Suite 528 of 528.
