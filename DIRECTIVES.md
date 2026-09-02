@@ -10313,3 +10313,28 @@ WHAT STANDS:
 - the marks are listed on the page;
 - they are NOT measured and are no part of the gauge (344, 387);
 - they will be used for testing later.
+
+## Directive 390 — THE MARKS ARE COUNTED. Their count is their own, not the gauge's.
+
+**HIS RULING** — the marks must be MEASURED, so he can see that the
+mind knows them. And it has a purpose: once it knows them ALL, it can
+begin making new marks for words that have none.
+
+**THIS DOES NOT REOPEN 387.** Two separate readings, and they never
+mix:
+
+```
+KNOWN WORDS   6            the language age reads off this, English only
+MARKS         49 of 402    what it knows of the Avatar's language
+```
+
+1. THE MARKS ARE COUNTED — how many of the 402 the mind has learned
+   the meaning of, against the whole 402 so the progress is plain.
+2. THAT COUNT IS ITS OWN READING. It is not added to KNOWN WORDS, it
+   is not part of the language age, and nothing on the page invites
+   the two to be added or subtracted (387 stands).
+3. WHEN IT KNOWS ALL 402, that is the trigger for making new marks
+   for words that have none. NOT BUILT AND NOT DESIGNED HERE — this
+   directive counts them so the day is visible when it arrives.
+4. WHAT COUNTS AS KNOWING A MARK is the same test as knowing a word:
+   it can be demonstrated. No estimating (389).
