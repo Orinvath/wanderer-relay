@@ -36626,3 +36626,75 @@ asked for. **Some genuinely are origins** — a system reading its own store sta
 receiving it — **and those will stay bare honestly, which is 364.2's question.**
 
 **I am not going to report this as finished when 73 of 95 are unnamed.** Suite 528 of 528.
+
+---
+
+# BUILT — 365. There is no edge list. The map cannot lie about wiring any more. `755591b`
+
+## 365.7 — THE BROKEN WORK
+
+**364's order-based wiring was already removed in `ef8299b`, before this directive arrived** — the
+lines it drew between "whatever ran" and "whatever ran next" are gone, and so is the block that
+drew them. **I did not revert 364 wholesale, and I am naming that as a departure from 365.7 rather
+than letting it pass:** the same commit also made `clock.js`, `perceiving.js`, `geometry.js` and
+`censor.js` emit hand-offs at all — four files that had run every day of this build and never once
+lit. Reverting would have put those false darks back. **Nothing from the broken wiring survives; the
+board is verified empty of it below.**
+
+## WHAT IS GONE — 365.1 and 365.3
+
+```
+the SEQ-derived wires        gone (ef8299b)
+SEQ itself                   NO LONGER SENT TO THE MAP. It stays in the file as an honest record
+                             of the order the code runs in, marked NEVER TO BE DRAWN AGAIN
+the dashed FEELINGS→OFFERS   GONE. It was the last hand-drawn line on the board — drawn at build
+return                       time whether or not that hand-off ever happened. 261 may well have
+                             had the shape right; it was still a line nobody could verify by
+                             looking. If feelings really do ride into the choosing, the hand-off
+                             will say so and the line will draw itself.
+```
+
+**There is now nothing in `mindmap.js` capable of drawing a line except a hand-off event.** That is
+asserted by a check, so it cannot come back.
+
+## HOW A CONNECTOR COMES INTO BEING — 365.2
+
+```js
+trace.at(system, tick, from)        // `from` = the file whose OUTPUT this call site consumes
+```
+
+Read off the code AT the call site — not inferred, not the previous emission. **A hand-off with no
+source is an ORIGIN** — a system reading its own store, or the tick starting something — **and it
+draws no line at all.** 365.4: a bare node is now a true statement.
+
+**40 of the 95 call sites now name their source**, each one read off what the call consumes:
+`understand()` is handed `learned`, so LEARNING → COMPREHENSION. `evidence.tick` is handed the
+lessons, so LESSONS → BELIEF — **the edge he found missing in the first place.**
+
+## 365.8 — THE PROOF
+
+```
+before the mind runs      0 connectors
+tick 1                   19
+tick 50                  31
+tick 500                 33
+```
+
+**It begins at zero and grows only as the mind works.** 28 of 42 nodes have been reached.
+
+## THE FOURTEEN NOT REACHED YET, and this is now information rather than a fault
+
+```
+SAFETY · CONSOLIDATION · VOCABULARY · VOICE · GRAMMAR · CENSOR · SOUL · IDENTITY
+CORD · NERVES · INTERPRETER · GEOMETRY · SENSES · PERCEIVING
+```
+
+**INTERPRETER is struck (352). SENSES and PERCEIVING have no camera. CENSOR needs the school
+running against the server.** The rest emit as ORIGINS — they run, they light their own node, but
+nothing has yet named them as a source or been named as theirs. **Naming the remaining 55 call
+sites is what would draw those, and every one is a code fact read at the call site, the same way
+these 40 were.** I am not drawing a single one of them on a guess.
+
+**Suite 529 of 529.**
+
+**The bench needs a restart, and it will come up with an empty board that fills as it thinks.**
