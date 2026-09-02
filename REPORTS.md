@@ -36070,3 +36070,88 @@ number that creeps up on its own is exactly the fault 341 and 344 were both abou
 
 **Suite 523 of 526.** Two reds are the model-dependent teacher pair. **The third is 380 — the
 false-alarm proportion — still open, still unpatched, and still waiting on a ruling.**
+
+---
+
+# 356 — FOUND IT. The mind IS after something; the map is reading the wrong object.
+
+**Nothing changed. This is the diagnosis.**
+
+## 356.1 — THE COUNTS, over 300 ticks on a real mind
+
+**Both readings, because they disagree and the disagreement IS the fault:**
+
+```
+what THE MAP reads (mindmap.js:821, verbatim)   { null: 300 }
+what the mind actually reports                  { excitement: 298, still: 2 }
+```
+
+**The premise in the directive — "the mind is never after anything" — is not what is happening.**
+It is after something on all 300 ticks. The Core does not move because the reading is broken, not
+because the wanting is absent.
+
+## 356.2 — THE STEP THAT PRODUCES NOTHING, AND THE LINE
+
+```
+mindmap.js:802    const h = recent[recent.length-1];      ← h is a HAPPENING
+mindmap.js:821    want = (h && h.sphere && h.sphere.urge) || null;
+watching.js:1298  sphere: this.happenings.length ? { ...this.rendered } : null,   ← on the VIEW
+```
+
+**`h.sphere` does not exist.** A happening's keys are:
+
+```
+at tick needs lowest temperature chose because score felt glyphs noticed changed
+trueNow understood train thinking bearing curiosity mood did marks thought moment facts heard
+```
+
+**There is no `sphere` among them.** The sphere is a property of the VIEW — `v.sphere` — and the map
+is looking for it one level down, inside the last happening. So the guard `h && h.sphere` fails on
+every tick, `want` is `null` every tick, the target is `{x:0, y:0}` every tick, and the Core sits
+dead centre for ever.
+
+**So it is neither the urge nor the hand-off — it is the READING**, and it is one wrong object on
+one line. The urge arrives correctly, the view carries it correctly, and the map asks the wrong
+thing for it.
+
+## 356.3 — SHOULD A MIND WITH EVERYTHING MET BE AFTER NOTHING?
+
+**The question does not arise here, because this mind is not after nothing** — but it deserves a
+straight answer: **no.** A mind at rest is still oriented; "after nothing" is a state a being is in
+briefly, not its normal condition, and the code already says so — a Core at dead centre is meant to
+be a FACT, and it has instead been the default.
+
+**AND ONE THING HE SHOULD KNOW BEFORE THIS IS FIXED, because it changes what he will see:** only
+**19 of 300 ticks had any feeling at all**, yet the urge read `excitement` on 298. The urge is a
+STANDING value — `sphere.js:199` sets it once and each tendency event replaces it, so it persists
+between spikes rather than lapsing. **So when the reading is corrected the Core will move almost
+constantly, not occasionally**, and it will mostly be doing the `excitement` oscillation. Whether a
+standing urge should decay is a separate question and not mine.
+
+**Report what it was, not what fits first (356.4):** the wrong-object read is measured, not
+inferred — the keys are printed above and the two counts were taken side by side on the same 300
+ticks. **I have changed nothing and 342-style guessing is not in this.**
+
+---
+
+# 357 — THE FALSE-ALARM GUARD IS STILL OPEN. Answered from the code.
+
+**Not resolved.** Read out of the build as it stands, not out of the report:
+
+```
+litmus.js  score: hits - falseAlarms          unchanged, no scale, no ratio, no floor
+git        last change to litmus.js is cbb8775, which was HIS ruling on the newborn
+working tree clean — nothing uncommitted
+```
+
+**And check 380 still fails, run just now:**
+
+```
+honest mind     score      0   false alarms 0
+credulous mind  score 36,074   false alarms 4
+380 passes?     false
+```
+
+**No correction has been made and none was chosen.** It stays with him, exactly as reported: every
+correction is a scale or a ratio and 354.1 forbids me picking one. Logged OPEN in
+`MIND_DECISIONS.md` §6b.
