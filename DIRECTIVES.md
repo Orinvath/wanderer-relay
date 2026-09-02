@@ -10089,3 +10089,28 @@ and the door reversed (381). Run the whole suite.
    something broke, name it and stop.
 5. Do not soften a clause to make it pass. That has happened five
    times and each one hid a fault.
+
+## Directive 383 — THE CONNECTORS: REAL-TIME AND ACCURATE, PROVEN
+
+365 ruled there is no edge list — a connector is drawn by the data
+that crosses it, at the moment it crosses. Prove that is what is
+running, after everything that changed today.
+
+1. NO EDGE LIST ANYWHERE. Confirm nothing is hardcoded, cached, or
+   drawn at build time. The acceptance test is his and it is simple:
+   START A MIND AND COUNT THE CONNECTORS AT TICK 1. It must be ZERO
+   and grow only as the mind works. Post the count at tick 1, 50 and
+   500.
+2. REAL-TIME. A connector lights AS the hand-off happens, not on a
+   poll, not on a timer, not batched into a frame that invents an
+   order. Say how it is delivered and how long between the event and
+   the light.
+3. ACCURATE. Every line on that board corresponds to a hand-off that
+   actually occurred, and every hand-off that occurs has a line. Both
+   directions — no line without an event, no event without a line.
+4. THE HALTED CASE (338): a halted mind emits nothing, so the whole
+   board must go dark on its own. Prove it.
+5. AND SAY WHAT IS STILL BARE. A node nothing reaches is now honest
+   information (365.4). List them, and for each say whether it has
+   genuinely not been reached yet or whether it does not emit — 270.B.5
+   forbids the second and it is a fault.
