@@ -37809,3 +37809,23 @@ gets through the door, and four report the fetch failure directly. **Not changed
 nothing articulate — it is how the mind measures whether this moment touches anything it holds.
 **The chat model was scaffolding to grow the mind. The embedder may be an organ.** Those are
 different things and the answer changes what the collision above should be resolved to.
+
+**CORRECTION, AND I RAISED A COLLISION THAT DOES NOT NEED HIS TIME.** He said it all worked before
+the LLM was added, and he is right. The dates settle it:
+
+```
+the EMBEDDER   nomic-embed-text   11 August, Phase 3          the beginning
+the LLM        gemma3:1b          31 August, Directive 327    three weeks later
+```
+
+**The embedder is not the LLM.** It has been part of the brain since day one, and everything worked
+before the LLM because the embedder was running the whole time. **The attention door measuring
+whether a moment touches anything the mind holds is an ORGAN, not scaffolding** — it makes nothing
+articulate and it never spoke a word.
+
+**So there is no earlier build to copy and no collision to rule.** What was genuinely wrong is what
+375 and 376 found and is now fixed: the embedder being down took the WHOLE brain with it, and killed
+the tick outright. **Twelve systems that never needed it are back.**
+
+**The reason it cannot feel today is that its embedder is not running** — Ollama is down. That is
+not a fault in the mind. **I withdraw the collision.**
