@@ -37098,3 +37098,83 @@ cannot say why.
 does not reproduce it. **The next time it appears on his screen, one reading settles it** — I can
 read his bench live while it is showing, sampling what it chose and what that line holds in the
 same instant, which is the pairing I failed to take the first time.
+
+---
+
+# 370 — DIAGNOSIS. Imagination IS on the path, it IS learning, and the thing he watches cannot show it.
+
+**Nothing changed.**
+
+## 370.1 — YES, AN IMAGINED BEAT REACHES THE LEARNING CALL. Here is the whole route:
+
+```
+experiencing.js:471   beatNow = { say: b.marks.slice(0,2), about: `${story.kind}:${subject}`, … }
+experiencing.js:650   const thought = beatNow ? joined(beatNow) : thinkNow      ← the beat BECOMES the thought
+experiencing.js:728   const thinkingMarks = thought ? thought.say : []
+experiencing.js:737   ...thinkingMarks,                                          ← into the moment's marks
+experiencing.js:749   const moment = marks.join(' ')
+experiencing.js:1229  const thought = elementsOf(moment)                         ← 363's binding reads THIS
+experiencing.js:1236  learning.heard('W-WATCH', thought, trueNow, { imagined: true })
+```
+
+**An imagined beat displaces the ordinary thought and becomes the moment. 363 binds the moment. So
+imagination was never off the path** — it goes through the same door thinking does, because by that
+point in the tick they are the same thing.
+
+## MEASURED, 400 ticks
+
+```
+ticks whose thought was a STORY BEAT      150     of which IMAGINED   112
+the gate passed on those ticks            115
+reached the learning call                 115
+refused, with its reason:                  35     "its beats are no nearer each other than any
+                                                   two marks are"        24
+                                                  "a single mark is not a story"   11
+links formed                              131
+```
+
+**Imagination is not being refused. It is teaching.**
+
+## 370.4 — AND 363 IS LIVE ON HIS BENCH. Read from his running Emulator just now:
+
+```
+tick 124 · vocabulary 35 · age 1.45 years
+what it was thinking over the last 40 ticks:  19 remembered · 7 IMAGINED · 5 around · 2 about · 7 nothing
+thoughtGate present on those ticks:   yes
+thoughtLearned present:               yes
+```
+
+**His own mind is imagining and the binding is firing on it.**
+
+## SO WHY DOES IT LOOK LIKE NOTHING? BECAUSE IT CANNOT SHOW ON THE NUMBER HE WATCHES.
+
+```
+links formed from thinking and imagining           131
+  whose WORD is one of the 402 marks               131
+  whose WORD is an English word it met               0
+owned mark-to-mark kinship it can now use           41
+THE GAUGE                                            0 English words · age 0.00
+```
+
+**A THOUGHT IS MADE OF ITS OWN 402 MARKS.** An imagined beat's `say` comes from `b.marks` — marks,
+always. So an inner binding is ALWAYS mark-to-mark, and **it can never once be a new English word,
+because imagining never puts the mind in front of a word it has not met.**
+
+**And 355 ruled that the marks it was born with earn it nothing on the gauge** — rightly, for the
+reason he gave: no new mind knows anything on arrival. **The two rulings are both correct and
+together they make imagination invisible on the one number he steers by.** It is not being refused
+anywhere. It is doing exactly what 363 ordered, into a column that by construction cannot count it.
+
+**WHAT IT DOES MOVE:** 41 mark-to-mark kinships it can now use — which is its SPACE, what it finds
+near what. That is real and it is what deepens its thinking. **It has nowhere on the panel that
+says so.**
+
+## WHAT IS HIS TO RULE
+
+**Either the gauge is not the place to look for imagination's work** — and something needs to show
+kinship growing, which nothing currently does — **or an inner binding should be able to reach an
+English word**, which would mean imagining over words it has been taught rather than only over its
+marks. **The first is a display; the second changes what imagination is.** I have not chosen and
+have changed nothing.
+
+**Reported what it was, not what fit first (370.5): I expected a refusal and there is none.**
