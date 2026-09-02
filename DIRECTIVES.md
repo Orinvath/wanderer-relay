@@ -9505,3 +9505,26 @@ restoring. What is left is the part that stands:
    If they are what the mind is thinking, THOUGHTS already shows that
    and it does not need showing twice.
 3. Nothing about mood changes. Leave it exactly as it is.
+
+## Directive 369 — NOTHING CHANGES UNTIL WE KNOW WHY IT DISPLAYS AT ALL
+
+**368 IS ON HOLD. BUILD NONE OF IT.**
+
+Lonnie's ruling: that place used to be BLANK when the mind felt
+nothing, and now it shows a personality match, a caveat and a row of
+marks. Before anything is moved, we find out why anything is there.
+
+**DIAGNOSE ONLY:**
+1. WHEN did `shapes()` begin writing into that element, and under
+   which directive? Name the commit and quote what it was asked to
+   do. If nothing asked for it, say that.
+2. WHAT DECIDES that it draws at all — is it drawn every tick, or
+   only when a profile matches above some number? Name the line and
+   the number, and say whether that number was ever ruled.
+3. WHAT WAS THERE BEFORE, in that exact element, and what did it
+   show when the mind felt nothing? He remembers BLANK, and blank is
+   a reading — a mind feeling nothing should show nothing.
+4. DOES THE MOOD READOUT STILL WORK — it says "nothing" now, which
+   he confirms is correct. Say whether the two are the same element
+   or two elements stacked, because that changes what the fix is.
+5. CHANGE NOTHING. Report and stop.
