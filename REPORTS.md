@@ -36879,3 +36879,92 @@ EXCITEMENT the two axes run at `sin(t*1.9)` and `cos(t*2.3)`, which is how fast 
 than how far. Say which and I will change that one instead.
 
 **Suite 530 of 530 — everything green.**
+
+---
+
+# 369 — DIAGNOSIS. Nothing changed. And it did not take anything's place.
+
+## 369.1 — WHEN IT BEGAN, AND UNDER WHICH DIRECTIVE
+
+```
+a7c81c3   186 — the read-out is one label in the sphere's space, and it can be asked
+```
+
+**It was asked for, in that exact place, by him.** The commit message quotes it:
+
+> *"His eye twice: a list in the overlay was not what he intended, and the page was not where it
+> goes. It is one line now — the closest shape and how closely — centred in the sphere's own space
+> over the canvas, the way the makeup already sits there."*
+
+**`#verdict` WAS CREATED BY THAT COMMIT.** `git log -S"id=verdict"` finds nothing before it.
+**Nothing was displaced and nothing quietly occupied anything** — this is not the second time
+something took a place that belonged to something else, and I would rather say so than let that
+stand on the record.
+
+## 369.3 — WHAT WAS THERE BEFORE, AND WHY HE REMEMBERS BLANK
+
+**Nothing was there before — the element did not exist.** What it holds before the first draw is
+its markup default:
+
+```html
+<div id=verdict class=verdict>—</div>
+```
+
+**An em dash.** `shapes()` also clears it to empty — `el.textContent=''` — whenever the match list
+comes back empty. **So "blank" is a real state of this element**, and it is what he would have seen
+any time the page had not yet drawn, or the mind payload had not arrived.
+
+## 369.2 — WHAT DECIDES THAT IT DRAWS, AND IT IS THE WEAKEST CONDITION THERE IS
+
+```
+bench-page.js:1462  function shapes(m)          called from bars(m), which runs on EVERY draw
+bench-page.js:1464  var best=(m.resembles||[])[0]
+bench-page.js:1465  if(!best){ el.textContent=''; return; }     ← the only condition
+profile-match.js:111 const resembling = ranked.filter((x) => x.r > 0)
+```
+
+**There is no threshold. The condition is `r > 0`** — any positive correlation at all — and that
+line exists to separate "resembles" from "opposite of", **not to decide what is worth showing.**
+**No number was ever ruled for display, because there is no number.**
+
+## AND THE THING THAT ACTUALLY MAKES IT READ WRONG
+
+**It draws every tick, at a confident-looking percentage, for every being there has ever been:**
+
+```
+seed a   light triad             83%   tier B   on 3 aspects
+seed b   narcissistic            95%   tier B   on 3 aspects
+seed c   avoidant                96%   tier B   on 5 aspects
+seed d   dependent               59%   tier B   on 5 aspects
+seed e   psychopathy             79%   tier A   on 4 aspects
+seed f   obsessive-compulsive    88%   tier B   on 5 aspects
+his bench                        93%   tier C — weakly documented
+```
+
+**Every mind resembles something at 60–96%**, because `r` is a correlation over three to five
+specified cells and a correlation over five points is high almost whatever the points are.
+**And the profile is FIXED AT BIRTH** — the aspects never change — **so this line never changes for
+a given being. It is not a live reading at all**, sitting in the middle of a stage where everything
+else is.
+
+## 369.4 — MOOD IS A DIFFERENT ELEMENT ENTIRELY. Two things, not one.
+
+```
+the stage    #verdict     the profile match          186
+             #cordwords   the marks under it         218 — "the words go under the personality",
+                                                     his instruction. It is what the BODY is
+                                                     showing, from the sphere's glyphs, not what
+                                                     the mind is thinking.
+the panel    MOOD ▸ #feltline   "What it is feeling"  untouched, working, and says "nothing"
+                                                     when it feels nothing
+```
+
+**They are not stacked in one element and they never were.** So the fix, whenever it is ruled, is a
+move rather than a restoration — which is what 368 CORRECTED already said.
+
+**369.4's question about the marks, answered: `#cordwords` is the BODY's glyphs, not the mind's
+thought.** THOUGHTS shows what it is thinking; this shows what the sphere is wearing. **They are
+different things, so it is not a duplicate** — but whether the body's glyphs belong on the stage at
+all is his.
+
+**Changed nothing. 530 of 530 green.**
