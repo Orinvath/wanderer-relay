@@ -38734,3 +38734,71 @@ the being does not have.**
 **The stable three are unchanged and unrepaired** — 219 (memory leads the draw, new today and not
 yet chased), 234 and 235 (the flat felt-trail, reported under 382). **The rest are the teacher
 family, which moves run to run: 5 in one run, 0 in the next, on the same build.**
+
+---
+
+# BUILT — 392. The key is stored, survives, and is still never shown. `cb887eb`
+
+## 392.3 — WHERE IT LIVES, and he opens it with anything
+
+```
+server/data/perception.json
+
+{
+  "voice": {
+    "kind": "openrouter",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "key": "sk-or-…"
+  }
+}
+```
+
+**Plain JSON, readable, two fields and the key.** Nothing is encrypted behind a second secret —
+**392.5 is the whole reason: a key he cannot recover is the thing he is ruling against.** The panel
+prints the path under the fields, so he never has to hunt for it.
+
+## 392.1 — IT SURVIVES. Proved.
+
+```
+attach → written to the file → a fresh Model built from that file:
+  openrouter · meta-llama/llama-3.1-8b-instruct:free · key set true
+```
+
+**He types it once, ever.** The bench reads the file when it opens a brain, so the perception it was
+left with is attached again on its own.
+
+## 392.2 — STORED, NOT DISPLAYED
+
+**The panel still never receives it.** Checked the way the earlier ones were: the key does not
+appear anywhere in what the page is served — only `key: true`. The field stays a password field, and
+it now reads **"key is set — type to replace"** when one is stored, so he can see there is one
+without it being on screen.
+
+**Only two things ever touch the key itself: the file, and the Authorization header.**
+
+## 392.4 — AND EVERYTHING THAT KEPT IT SAFE STILL DOES
+
+```
+never in a URL          the model list is a POST with the key in the body
+never in a log          nothing prints it
+never in an error       the failure message names the endpoint, not the credential
+never in the ledger     that record exists to prove the split, not to carry a secret
+never in git            server/data/ is in .gitignore — CONFIRMED with git check-ignore:
+                        .gitignore:9:data/  server/data/perception.json
+```
+
+**That last one matters most and it costs nothing: the key cannot leave this machine in a push.**
+
+## ONE THING I DID NOT LET PASS QUIETLY
+
+**A save that fails is reported.** If the file cannot be written, the panel gets the attachment back
+with a warning saying it was attached but NOT saved — **because a silent write failure is exactly
+how he loses the key he typed once.**
+
+## THE SUITE
+
+```
+534 passed · 5 failed · 0 skipped (of 539)
+```
+
+Unchanged: 219, 234, 235 stable and unrepaired, the teacher family moving run to run.
