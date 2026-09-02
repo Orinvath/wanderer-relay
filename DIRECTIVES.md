@@ -9487,3 +9487,21 @@ renders "colour — what it is feeling", "pulse", "motion".
 4. THE MARKS BESIDE IT go wherever they belong too, named in the
    report. THOUGHTS shows what it is thinking; if that is what they
    are, they are already shown and do not need showing twice.
+
+## Directive 368 CORRECTED — mood was never displaced. Only the match moves.
+
+Lonnie checked: MOOD IS STILL THERE AND READING CORRECTLY. It says
+"nothing" because the mind is feeling nothing, which is honest and is
+what it has always done.
+
+So 368.1 and 368.2 are struck — nothing was taken and nothing needs
+restoring. What is left is the part that stands:
+
+1. THE PROFILE MATCH DOES NOT BELONG THERE. It was ADDED above the
+   mood readout, not put in its place. Move it to the SOUL panel with
+   the sketch, where a soul reading against documented profiles
+   belongs, and say where you put it.
+2. THE MARKS BESIDE IT — same question, and name them in the report.
+   If they are what the mind is thinking, THOUGHTS already shows that
+   and it does not need showing twice.
+3. Nothing about mood changes. Leave it exactly as it is.
