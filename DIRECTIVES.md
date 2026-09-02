@@ -10387,3 +10387,33 @@ the panel is where a key is supposed to live.
    worth having and it costs nothing.
 5. DO NOT ENCRYPT IT BEHIND ANOTHER SECRET. A key he cannot recover
    is the thing he is ruling against.
+
+## Directive 393 — THE PERCEPTION PANEL, AS HE ASKED FOR IT
+
+**IT IS NOT WHAT HE ASKED FOR.** Three corrections, and they were in
+the original ask.
+
+1. NOTHING IS PRELOADED. `moondream` and `gemma3:1b` should not be
+   sitting in that panel. Both slots start EMPTY — nothing attached,
+   nothing named — and stay that way until he attaches something. The
+   config defaults may still exist for a headless run; they do not
+   appear as an attachment in the panel.
+
+2. TWO INPUTS PER SLOT, and this is the shape he asked for:
+   - LOCAL: A LOAD BUTTON WITH A FILE CHOOSER. He picks a model file
+     from his own disk. Not a typed name, not a list of what Ollama
+     happens to serve — a chooser, and he loads it.
+   - ONLINE: A PROVIDER PULL-DOWN WITH ALL OF THEM, not OpenRouter
+     alone. OpenRouter, OpenAI, Anthropic, Google, Groq, Together,
+     Hugging Face, Mistral, DeepSeek, xAI — the ones a person would
+     actually reach for — each a row carrying its own endpoint, its
+     own request shape and how its answer is read (391's mechanism,
+     which is already right; it is the LIST that was one row long).
+
+3. THE KEY BELONGS TO THE ONLINE SIDE ONLY. A local model needs no
+   key and should not show a key field.
+
+WHAT STAYS, all built and correct: attach and detach with no restart,
+the key stored and surviving (392), the key never in a URL or a log,
+a detached role being apparatus the being does not have, and the mind
+carrying on regardless (375).
