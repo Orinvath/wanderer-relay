@@ -9126,3 +9126,40 @@ If it HAS been resolved since that report, say:
   goes to him now under 250 and 246.
 
 Answer with the state of the code, not the state of the report.
+
+## Directive 358 — EVERY CONNECTION ON THE MAP, ACCOUNTED FOR
+
+**THE FEATURE** — the Mind Map's connectors: the lines that show
+where a system's information comes from and goes to.
+
+**WHY IT MATTERS** — the map exists so he can see the mind work. A
+node with no line into it is the map saying that system receives
+nothing, and Lonnie's reasoning is exact: ANYTHING THAT PROCESSES
+INFORMATION MUST GET IT FROM SOMEWHERE. A bare node is either a lie
+about the wiring or a system genuinely receiving nothing, and those
+are very different facts.
+
+**WHAT HE FOUND** — nodes on his bench with no connectors at all,
+BELIEF among them. But belief.js runs every tick: `experiencing.js`
+line 1146 calls `evidence.tick(...)` and line 1145 emits its hand-off.
+So it processes, it emits, and the map draws nothing into it.
+
+**THE ORDER — audit every connection on the map:**
+1. FOR EVERY ONE OF THE 42 NODES, list: what hands data TO it, what
+   it hands data to, and whether each of those edges is DRAWN on the
+   map. Facts from the code, one node at a time.
+2. NAME THE THREE KINDS separately and do not blur them:
+   - EDGE MISSING FROM THE DRAWING: the hand-off is emitted and the
+     map has no line for it. A map fault.
+   - HAND-OFF NOT EMITTED: the code passes data and says nothing, so
+     no line could exist. A false dark, and 270.B.5 already forbids
+     it — "if a hand-off is missing, emit it in the code, never fake
+     it in the display."
+   - GENUINELY RECEIVES NOTHING on this bench: the interpreter is
+     struck, senses has no camera, the body has no receptors. Those
+     are honest and are named as honest.
+3. EVERY EDGE MUST WORK, not merely exist: say for each that it has
+   been seen to light on his bench, or that it has not and why.
+4. CHANGE NOTHING YET. This is the survey; the fixes follow from
+   what it finds, and anything requiring a decision stops and comes
+   to him (250).
