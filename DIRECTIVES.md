@@ -10066,3 +10066,26 @@ Rows to REFERENCES.md per 227.
    post the same 60-moment stretch after the change — what passed,
    what did not, and what each was. RIVER passes. PURPOSE BEAUTY
    three times running does not.
+
+## Directive 382 — RUN THE WHOLE SUITE AND REPORT IT HONESTLY
+
+Four changes landed today that touch the mind's foundations — the
+glyph filter out of thinking (372), one vocabulary (371), the
+description rule (373), the model out of the mind's path (376-379),
+and the door reversed (381). Run the whole suite.
+
+1. RUN IT ALL, and post the real numbers: passed, failed, and SKIPPED
+   separately. Do not report a total that hides a skip.
+2. SKIPS ARE NAMED. 374.4 found that A SKIP COUNTS AS A PASS in the
+   tally, so a run with no model reports green with fifteen clauses
+   never run. Say how many skipped, which, and why — that is the
+   difference between green and green-looking.
+3. RUN IT BOTH WAYS: with the model up, and with nothing on 11434.
+   375 is law now, so a suite that only passes with a model is not
+   passing.
+4. ANY FAILURE IS REPORTED, NOT REPAIRED. If a clause fails because
+   the behaviour changed lawfully today, that is 306.D — the check
+   moves with the behaviour, and you say so. If it fails because
+   something broke, name it and stop.
+5. Do not soften a clause to make it pass. That has happened five
+   times and each one hid a fault.
