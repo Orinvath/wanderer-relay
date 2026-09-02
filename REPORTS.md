@@ -36739,3 +36739,47 @@ map died silently once before. Renamed, and it parses.
 
 **Restart the bench. The board will be empty and will show only what is crossing it at that
 instant.**
+
+---
+
+# ANSWER — "a bunch of things firing at the same time, is that possible?" Yes, and it is real.
+
+He asked directly on the bench, so it is on the record. **Measured, not asserted** — a real mind,
+30 ticks, timestamps off the same monotonic clock the trace uses:
+
+```
+tick 25:  49 hand-offs spread over 31.7 ms
+tick 26:  61 hand-offs spread over 43.8 ms
+tick 27:  54 hand-offs spread over 33.0 ms
+tick 28:  49 hand-offs spread over 45.9 ms
+tick 29:  50 hand-offs spread over 39.4 ms
+tick 30:  50 hand-offs spread over 33.1 ms
+
+1,099 of 1,691 hand-offs were less than 0.05 ms after the one before them
+```
+
+**SO: about FIFTY connectors per tick, all inside about 35 milliseconds, and then nothing until the
+next tick.** A screen draws a frame every 16.7 ms, so **a tick's entire tick lands in two frames**,
+and roughly two thirds of the hand-offs share a frame with the one before them. **They are not
+appearing together because the map is batching them. They are together.**
+
+**The mind really does its whole tick in one burst and then waits.** At the bench's default a tick
+is seconds apart; the thinking inside it takes a fortieth of a second.
+
+## WHAT THAT MEANS FOR THE TOOL, and it is his to decide
+
+**The timing on screen is honest and the location is now honest, but the RESOLUTION is not useful
+at this speed** — fifty lines lighting in one frame reads as "everything at once" because it IS
+everything at once. Nothing can be done about that inside a truthful display: two events 0.7 ms
+apart cannot be shown separately on a 60 Hz screen.
+
+**The only ways to see them one at a time each cost something, and I am not choosing between them:**
+
+- **SLOW THE REPLAY** — hold each crossing for a fixed interval and play the tick's fifty out in
+  order. He would see the path. **It would no longer be real time**, and it would have to say so on
+  the panel or it is exactly the kind of lie 365 exists to stop.
+- **SLOW THE MIND** — the bench's own speed dial. Honest, real time, and the standing law says the
+  speed dial is his and I never touch it.
+- **LEAVE IT** — a burst per tick is a true picture of a mind that thinks in bursts.
+
+**Nothing changed. This is an answer, not a build.**
