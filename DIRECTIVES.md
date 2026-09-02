@@ -9195,3 +9195,32 @@ scale, so a mind that resolves everything scores 37,110 minus 37,110
   and stop; do not solve it with a number.
 - Check 380 must go green on the honest mind and the credulous mind
   must score at or near zero. Post both.
+
+## Directive 360 — IT IS A GAUGE, NOT A TEST. THE FAKES ARE STRUCK.
+
+**359 IS WITHDRAWN.** So is 354.3, and both are the Director's error.
+354.3 said the false-alarm guard "survives in the same form", which
+kept a TEST's machinery alive inside a GAUGE. Everything since — 359,
+the scale question, the credulous-mind arithmetic — has been an
+attempt to make a test's parts work in a counter. There was never
+anything to fix.
+
+**HIS RULING, and it is what 354 already said** — THE GAUGE IS NOT A
+TEST. It does not question the mind, it does not sample, and it does
+not need to trick it. IT MEASURES HOW COMPETENT THE MIND IS, and
+every number it needs is ALREADY IN THE LEARNED PANEL.
+
+1. THE FAKES ARE STRUCK. No non-words, no false alarms, no
+   hits-minus-false-alarms. Remove them from the gauge entirely.
+2. THE GAUGE COUNTS WHAT THE MIND HAS LEARNED AND CAN DEMONSTRATE —
+   354.2's own rule, unchanged — and reads that count onto the
+   words-by-age curve. That is the whole of it.
+3. CHECK 380 GOES WITH THEM. A check written for a test does not
+   belong to a gauge; remove it rather than making it pass.
+4. NOTHING GUARDS AGAINST A LYING MIND ANY MORE, AND NOTHING NEEDS
+   TO. The mind is not a person taking an exam who might bluff. The
+   count is our own record of what it learned; if that record can be
+   wrong, the fault is in the record and is fixed there, not by
+   asking the mind trick questions.
+5. Say plainly in the report what the gauge reads now, from which
+   fields, and what a newborn reads (0.00, per 355).
