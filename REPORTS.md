@@ -36155,3 +36155,123 @@ credulous mind  score 36,074   false alarms 4
 **No correction has been made and none was chosen.** It stays with him, exactly as reported: every
 correction is a scale or a ratio and 354.1 forbids me picking one. Logged OPEN in
 `MIND_DECISIONS.md` §6b.
+
+---
+
+# 358 — THE SURVEY. The map draws a fixed loop; the mind does not run in one.
+
+**Nothing changed (358.4).** Everything below is measured on a real mind over 60 ticks with a real
+trace attached, not read off the source — because reading the source is what produced my first,
+wrong emitter list.
+
+## THE HEADLINE
+
+```
+distinct connections the mind ACTUALLY MADE in 60 ticks     57
+connections THE MAP DRAWS                                   37
+of those, SEEN TO LIGHT                                     15
+drawn but NEVER LIT in 60 ticks                             22
+REAL connections the map has NO LINE FOR                    42
+```
+
+```
+hand-offs emitted            3,307
+that had a wire to light       744
+that lit nothing             1,872        — 72% of the mind's work is invisible
+```
+
+**Only 20 of the 42 nodes are in the map's connector list at all. The other 22 can never have a
+line, whatever they do.**
+
+## WHY: THE MAP'S CONNECTORS ARE A FIXED LIST, NOT THE MIND'S BEHAVIOUR
+
+```
+mindmap.js:270   export const SEQ = [...]          a hand-written tick order, 18 distinct names
+mindmap.js:627   for (const k of MM.SEQ) { const n = MM.PRIMARY[k]; ... path.push(n) }
+mindmap.js:628   wires are built ONLY between consecutive entries of that path
+```
+
+**`PRIMARY` has 42 keys. `SEQ` uses 18 of them.** Every wire on the map comes from that list, so a
+node absent from it is bare no matter how much data passes through it. **BELIEF — the one he found
+— is exactly this:** it emits, and it received from DICTIONARY and handed to SLEEP on his bench,
+and neither edge exists in `SEQ`, so no line could ever be drawn.
+
+**AND ONE ENTRY IN `SEQ` MAPS TO NOTHING AT ALL.** `'body'` appears three times and there is no
+`body.js` — the files are `embodiment.js`, `cord.js`, `nerves.js`. `PRIMARY['body']` is `undefined`,
+so line 627 silently skips it and the three body hand-offs it was meant to place are dropped without
+a word.
+
+## 358.2 — THE THREE KINDS, KEPT APART
+
+**A. EDGE MISSING FROM THE DRAWING — the hand-off happens and the map has no line. A MAP FAULT.**
+**42 distinct connections.** Every one below was observed firing on his bench:
+
+```
+SAFETY–APPRAISAL   SAFETY–ATTENTION    ATTENTION–SURFACING   SURFACING–MEMORY
+SURFACING–FEELINGS FEELINGS–MEMORY     NEEDS–SOUL            NEEDS–GOALS
+GOALS–INTERESTS    OFFERS–SOUL         SOUL–NEEDS            BELIEF–DICTIONARY
+BELIEF–SLEEP       SLEEP–GLYPHS        SLEEP–NERVES          SLEEP–STORYGATES
+STORYGATES–THINKING STORYGATES–TRUST   THINKING–DICTIONARY   THINKING–ROE
+LEARNING–DICTIONARY LEARNING–MEMORY    LEARNING–GLYPHS       VOCABULARY–DICTIONARY
+VOCABULARY–APPRAISAL DICTIONARY–EMBODIMENT EMBODIMENT–INTERESTS  CORD–NERVES
+CORD–ASPECTS       ROE–CURIOSITY       ROE–LEARNING          GROWTH–NEEDS
+… and ten more of the same kind
+```
+
+**`DICTIONARY` is the worst of them.** It is the busiest node on the board — it hands to LEARNING,
+INTERESTS, THINKING, VOCABULARY, BELIEF and APPRAISAL and takes from five more — **and it has not one
+connector.** 228 of the dark transitions in 60 ticks are its.
+
+**B. HAND-OFF NOT EMITTED — the code passes data and says nothing.** On this evidence, **none that I
+can prove.** Every one of the 3,307 hand-offs named a file that has a node; nothing fired under a
+name the map could not place. **This is where my source-reading was wrong and I am correcting it
+rather than leaving it stand:** grepping the source told me SOUL, VOCABULARY, SURFACING, CORD and
+GEOMETRY emitted nothing, and the live run shows four of those five emitting. The grep missed call
+sites written in another shape. **Only the run is evidence.**
+
+**C. GENUINELY RECEIVES NOTHING ON THIS BENCH — honest darkness.** Twelve nodes emitted nothing in
+60 ticks, and they divide cleanly:
+
+```
+HONEST AND PERMANENT      INTERPRETER   struck by 352
+HONEST FOR THIS BENCH     SENSES · PERCEIVING     no camera attached
+                          HOST                    nobody was present
+                          CONSOLIDATION           it did not sleep in 60 ticks
+                          VOICE · GRAMMAR · CENSOR  it was not spoken to, so it did not speak
+                          LANGUAGE
+NOT YET EXPLAINED         IDENTITY · CLOCK · GEOMETRY
+```
+
+**I am not calling those last three honest.** They did not fire and I have not established why, and
+saying "probably conditional" is the guessing 320 forbids. **They need one more pass each, and that
+is work, so it waits on him.**
+
+## 358.3 — SEEN TO LIGHT, OR NOT
+
+**15 of the 37 drawn connectors were seen to light.** The other **22 never lit once in 60 ticks:**
+
+```
+NEEDS–OFFERS · INTERESTS–OFFERS · MEMORY–SLEEP · LANGUAGE–SLEEP · LANGUAGE–LEARNING
+LEARNING–TRUST · LANGUAGE–OFFERS · INTERESTS–LANGUAGE · LANGUAGE–THINKING · ASPECTS–THINKING
+ASPECTS–CURIOSITY · ASPECTS–STORIES · ASPECTS–LEARNING · SLEEP–TRUST · LESSONS–THINKING
+APPRAISAL–LANGUAGE · APPRAISAL–MEMORY · ASPECTS–MEMORY · MEMORY–VOICE · LEARNING–VOICE
+LANGUAGE–LESSONS · ASPECTS–SLEEP
+```
+
+**Many of those are dark because LANGUAGE and VOICE did not fire at all on a mind nobody spoke to**,
+which is honest. But **ASPECTS–THINKING, ASPECTS–MEMORY and ASPECTS–SLEEP stayed dark while ASPECTS
+was firing all through the run** — it simply never handed to those neighbours in that order. **A
+wire that is drawn between two nodes that never actually pass to each other is a picture of a tick
+order, not of a mind.**
+
+## WHAT THIS SURVEY IS SAYING, PLAINLY
+
+**The connectors are a drawing of an idealised tick order. The mind does not run in that order.**
+That is why 42 real connections have no line, 22 drawn lines never light, and the busiest node on
+the board is bare.
+
+**The fix is a decision, so it stops here (358.4 / 250):** whether the wires should be BUILT FROM THE
+TRACE — every pair the mind is actually observed to hand between, drawn because it happened — or
+whether `SEQ` should be extended by hand to cover the missing 24 nodes. **The first makes the map
+true by construction and would change what he sees considerably. I have not chosen, and nothing is
+changed.**
