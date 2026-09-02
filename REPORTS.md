@@ -36968,3 +36968,67 @@ different things, so it is not a duplicate** — but whether the body's glyphs b
 all is his.
 
 **Changed nothing. 530 of 530 green.**
+
+---
+
+# FOUND IT — that line is showing him THE DREAM. And I answered the wrong line first.
+
+**He said: "Normally it said Joy or nothing."** That told me I had diagnosed the wrong element. 369
+asked about the profile match; **his complaint was the line UNDER it**, and everything I reported
+about `#verdict` was true and beside the point.
+
+## CAUGHT IT HAPPENING ON HIS OWN BENCH
+
+Read live from the running Emulator, 40 samples over 28 seconds:
+
+```
+23x   HIDDEN · SHARE · LOVE · TOGETHER · BIRD      felt: []
+17x   JOY                                          felt: ['joy']
+```
+
+**Exactly what he described, and his reading of it was right: it shows those things when it is
+feeling nothing.**
+
+## THE CAUSE — `rest.js:48`
+
+```js
+const aloft = mind.dreamNow ? mind.dreamNow.map((g) => g.word) : []
+mind.nerves.tick({ needs: mind.state, felt: [], chose: null, glyphs: aloft, ... })
+```
+
+**WHILE THE MIND IS ASLEEP, THE BODY IS HANDED THE DREAM'S MARKS, with `felt: []`.** That line is
+the body's glyph readout, so:
+
+```
+awake and feeling something   the feeling's glyph        JOY          correct
+awake and feeling nothing     nothing                    blank        correct, and what he remembers
+ASLEEP AND DREAMING           the dream's marks          five marks   what he is seeing
+```
+
+**It is not "feeling nothing". IT IS SLEEPING, and that line is showing him what it is dreaming
+about** — HIDDEN · SHARE · LOVE · TOGETHER · BIRD. His bench: `awakeHours: 11.27`, **`nights: 2`**.
+
+## WHY NOW, AFTER THE WHOLE PROJECT
+
+**The code is not new — `aloft` dates from 21 August, "The Emulator sleeps".** What is new is that
+**his mind now lives long enough to sleep.** It has been awake 11 hours and has had two nights.
+Through most of this project the bench was restarted constantly — by him, and by me far more often
+than I should have — and a life that keeps starting over never builds enough sleep pressure to
+dream. **He has finally left one running, so for the first time that path is being exercised in
+front of him.**
+
+## WHAT I GOT WRONG, AND IT IS WORTH THE LINE
+
+I told him **"nothing changed"** and he told me he knows what he knows. **He was right and I was
+answering a different element.** The profile match genuinely has been there since 186 — that part of
+369 stands — **but it was not what he was pointing at, and I should have established which line he
+meant before reporting on one.**
+
+## WHAT IS NOW HIS TO RULE, and I have changed nothing
+
+**Should a sleeping mind show its dream there?** It is honest — that IS what the body is putting
+out — and it is arguably the most interesting thing on the stage. But **the same line means two
+different things depending on whether it is awake**, and nothing says which. A reader sees marks and
+has no way to know they are a dream rather than a feeling.
+
+**I am not choosing.** It could be labelled, moved, or left exactly as it is.
