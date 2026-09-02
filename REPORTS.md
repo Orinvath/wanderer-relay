@@ -37327,3 +37327,88 @@ same as proving they had no effect, and I am not going to present it as though i
 
 **I have not pressed Continue.** The halt is his (293/338) and the acknowledgement is his.
 **Nothing has been changed in response to this.**
+
+---
+
+# A PROBLEM, PUT PROPERLY — an honest teacher is guaranteed to be disbelieved.
+
+Put in the standing structure. **One problem, and it is his ruling.**
+
+## 1. THE FEATURE
+
+**Trust in a teller** — how much a thing somebody said is worth to the mind, per teller, moving on
+whether what they said turned out to be so (234.7 / trust.js).
+
+## 2. WHY IT MATTERS
+
+It is how the mind decides who to believe. **A teacher at the floor is somebody the mind can no
+longer learn anything from** — and the school is the only way English reaches it at all. It halted
+his bench at tick 154.
+
+## 3. WHAT WENT WRONG
+
+```
+teller    trust   taught   HELD   FAILED
+host      0.300      12       0        0
+teacher   0.050      23       0        5      ← the floor
+```
+
+**The teacher has been borne out ZERO times in twenty-three lessons.**
+
+**AND HERE IS THE MECHANISM, exactly.** `belief.js:77` splits a lesson into a claim:
+
+```js
+return { lessonId: lesson.id, condition: els[0], predicts: els.slice(1) }
+```
+
+**The first mark becomes a CONDITION and the rest become a PREDICTION.** So the teacher's line
+*"SUN JOY BIRD"* — a true description of the mind's moment, verified true when it was said, exactly
+as 234.5a requires — **is converted into the claim "SUN predicts JOY and BIRD".** The teacher never
+said that. The mind then tests that prediction on later ticks, it fails, and `trust.js:120` charges
+the failure to the teacher.
+
+**A DESCRIPTION OF THE PRESENT IS BEING TURNED INTO A PREDICTIVE GENERALISATION AND THE TELLER IS
+HELD RESPONSIBLE FOR IT.** A teacher that obeys 234.5a and says only what is true right now is
+therefore guaranteed to be contradicted, and can only ever fall to the floor.
+
+## 4. WHEN
+
+**Not new, and not today.** `claimOf` is 232's machinery and `held/failed` are 234.7's. What is new
+is that he has run the school long enough, with a mind alive long enough, for a teller to reach the
+floor and trip the halt. **I have NOT established whether 371/372 changed the rate** — they put
+learned English words into the moments a claim is tested against — and I am not claiming they did
+or did not.
+
+## 5. THE SCIENCE
+
+**Rescorla 1988, already cited in `belief.js` for exactly this:** contingency, not contiguity — a
+claim is only evidence if the antecedent genuinely PREDICTS the outcome. **That is a rule about
+predictive claims. It says nothing about descriptions**, and applying it to one is a category
+error.
+
+**Koenig & Harris 2005; Pasquini et al. 2007** — selective trust: children track an informant's
+ACCURACY and prefer the previously accurate one. **Accuracy is judged on what the informant could
+be checked on at the time.** A speaker who says "the sun is out" is not made inaccurate by nightfall.
+
+## 6. HAS HE RULED
+
+**234.5a — every line delivered is verified TRUE OF IT at that moment**, word for word, by the
+censor. **The teacher is already held to telling the truth about the present, and it does.**
+**234.7 — trust is per-teller and moves on whether what they said held.** Both stand. **Nothing has
+ruled that a description may become a prediction**, and that is the step nobody authorised.
+
+## 7. THE FIX — one recommendation
+
+**A TOLD LINE ABOUT THE PRESENT MOMENT IS NOT A PREDICTIVE CLAIM AND MUST NOT BECOME ONE.** It is
+verified when it is said (234.5a already does this) and it is never re-tested across later moments,
+and **it may never move the teller's trust in either direction.** Only a claim a teller actually
+framed as holding generally may be tested that way and charged to them.
+
+**The cost, stated: a truthful teacher would then sit at its starting trust instead of climbing** —
+it can no longer be borne out either. **If he wants a teacher to be able to EARN trust, that is a
+second and separate thing: it needs a kind of line that makes a real prediction, which the school
+does not currently produce.**
+
+## THE RULING IS HIS
+
+I have changed nothing, and I have not pressed Continue.
