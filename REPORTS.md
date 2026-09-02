@@ -38171,3 +38171,85 @@ happens, and the moment right after he speaks.**
 
 **97% passing is not the problem. A door that is most confident about what it has already seen a
 hundred times is.**
+
+---
+
+# BUILT — 381. The door is the right way round. `aff4b68`
+
+## WHAT PASSES NOW, AND SIMILARITY IS NEITHER
+
+```
+attention.js   const matched = surfaced.topClears ?? (rel >= this.p.THRESHOLD)
+               const passed  = !matched || pertinent
+```
+
+**MISMATCH** — nothing it holds cleared its own lane's bar. **It did not expect this**, and 139's
+own `novelty` has been computed here and forbidden to open the door ever since, with a note that
+whether it should is his and unruled. **381 is that ruling.**
+
+**PERTINENCE** — assembled in the tick from facts the mind already keeps, and **not one of them is
+a number I chose**:
+
+```
+somebody SPOKE                    heard
+the world CHANGED                 changeWords
+a need BOTTOMED                   280.2 already calls this an event
+a feeling MOVED                   the appraisal's own reading
+a curiosity was ROUSED            curiosity.js's own flag
+an act COMPLETED                  and only when it CHANGED — 280.3
+```
+
+**AND I TOOK BARE PRESENCE OUT, on 280.3's own authority.** My first version had `hostPresent` in
+it — and with him sitting there watching, **every moment passed for as long as he watched**, which
+is the door not being a door. *"A change is an event; a constant is not."* **Somebody ARRIVING is a
+change and is already in `changeWords`. Somebody being there is not.**
+
+**REPETITION HABITUATES (381.3):** a moment that matches and matters in no other way **no longer
+passes at all.** Familiarity earns nothing by itself. **How "the same" is measured is the lane's own
+verdict against the lane's own bar (378) — nothing new, and no threshold picked (381.4).**
+
+## 381.6 — THE SAME STRETCH, READ NOT COUNTED
+
+```
+tick | passed | rel   | the moment                     | the nearest thing it held
+   1 |  YES   | 0     | TOGETHER                       | (nothing held)      first ever — passes
+   2 |   no   | 1     | TOGETHER                       | (nothing held)      the same again — refused
+   3 |   no   | 0.346 | SHARE                          | TOGETHER
+   8 |   no   | 0.722 | SPEAK TOGETHER ASK             | SPEAK
+  10 |  YES   | 1     | HEAR                           | SPEAK
+  11 |  YES   | 0     | RIVER                          | (nothing held)      ← HE HAD JUST SAID IT
+  13 |  YES   | 1     | SONG                           | HEAR SONG
+  14 |   no   | 0.667 | HEAR SONG LISTEN               | HEAR SONG
+  17 |   no   | 1     | HEAR                           | HEAR SONG LISTEN    repeat — refused
+  18 |   no   | 1     | HEAR                           | HEAR                repeat — refused
+  19 |   no   | 0.5   | HEAR SONG                      | HEAR
+  20 |  YES   | 0.5   | HEAR SONG                      | HEAR SONG
+```
+
+```
+                                      BEFORE 381        AFTER 381
+moments                                  60                60
+passed                                   57 (95%)          25 (42%)
+scored exactly 1.000 and passed          25                 5
+were the same marks as the nearest       11 passed          3 of 6 passed
+nothing held near them                    2 of 5 passed     4 of 7 passed
+RIVER, the tick after he spoke           REFUSED           PASSES
+```
+
+**RIVER passes. TOGETHER passes the first time and is refused the second. HEAR is refused twice
+running at 1.000 — the exact shape of PURPOSE BEAUTY three times over.**
+
+## WHAT I DID NOT DO
+
+**No threshold, no distribution, no invented number** (381.4). **The model's lane is untouched**
+(381.5) — its measure and its bar stay in its own file. **`novelty` itself is still computed and
+still does not open the door on its own**; what opens it is the mismatch verdict the lane already
+produces.
+
+**AND ONE FAULT IN MY OWN INSTRUMENT, named because it nearly became a finding:** my capture script
+wrapped `relevance` with a three-argument function and silently dropped the pertinence flag, so the
+first reading showed almost nothing passing. **The harness was broken, not the build.** I checked
+the tool before believing it.
+
+**Suite 331 of 331 for everything that runs without a model** — and it now reaches much further
+than it did this morning, because the mind no longer needs one.
