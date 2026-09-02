@@ -36329,3 +36329,75 @@ which is the only per-item answer that still tells him anything at 74,220 items?
 
 **I have not chosen and I have changed nothing about the log.** 359 itself is built, committed and
 green.
+
+---
+
+# BUILT — 360. The fakes are struck. It is a gauge now, and only a gauge.
+
+**359 and 354.3 are withdrawn and I built both of them.** The report I filed yesterday put the
+scale question to him as though it were a real problem; it was a test's machinery living inside a
+counter, and the right answer was that none of it belonged there.
+
+## WHAT WENT
+
+```
+makeFake · fakes            marked STRUCK BY 360, not called
+falseAlarms                 gone from the gauge, the run record, the /litmus route and the panel
+correctRejections           gone
+score = hits - falseAlarms  now score = hits
+items                       empty — the gauge puts no questions, so it keeps no answers
+PROVISIONAL                 nothing left in it but PRODUCTIVE_LOOKBACK
+```
+
+**FOUR CHECKS WENT WITH THEM (360.3)** — the fakes are built not picked · no fake is really a word ·
+the score is hits minus false alarms · a false alarm moves the score down. **All four were correct
+and all four belonged to a test.** They are not replaced by looser versions; what holds the gauge
+now is 355's pair, which bind it to the only thing it still claims.
+
+## 360.5 — WHAT THE GAUGE READS NOW, AND FROM WHICH FIELDS
+
+```
+THE QUESTION SET   english.js pool()            37,110 words — the frequency list ∩ the censor's
+                                                355,511-word list, so every one is really a word
+WHAT IT ASKS OF    learning.owned('W-WATCH')    the mind's own record of what it has learned
+HOW IT COUNTS      resolve(w, learned)          comprehension's OWN resolution, and only the
+                   .viaLearning.length > 0      matches EARNED by learning — 355's ruling, so the
+                                                402 marks it was born with earn it nothing
+THE READING        AGE_ANCHORS                  the count, straight onto the words-by-age curve
+```
+
+**`vocabulary` is the count. `age` is that count on the curve. There is nothing else in it.**
+
+**A NEWBORN READS 0.00, as 355 requires** — measured just now on a real generated mind:
+
+```
+newborn: 37,110 words put to it · 0 it can demonstrate · 0 words · 0.00 years · "newborn — no words yet"
+```
+
+## WHAT HE WILL SEE ON THE PANEL, since two lines had to change wording or lie
+
+```
+was   "1032 known, 0 claimed that were not words. It understands 0 words."
+now   "0 English words it can demonstrate. It understands 0 words."
+
+the chat log, was   "— spot the word: 37110 it should know, 37110 that are not words —"
+                    …then one line per item…
+the chat log, now   "— the gauge: 37110 English words put to it —"
+                    "— 0 it can demonstrate —"
+                    "— it understands 0 and uses 0 of them —"
+                    "— language age: newborn — no words yet —"
+```
+
+**I changed the wording only because leaving it would have printed a false-alarm count that no
+longer exists.** If either line should read differently, that is his and I will change it.
+
+## AND 241.4's COLLISION DISSOLVED RATHER THAN BEING RULED
+
+Yesterday I put it to him as a collision: 241.4 wants every item in the log, 359 made that 74,220
+items. **360 answers it by removing the question — there are no items.** The check was repointed
+(306.D) to require the three lines above: what it measured, what the mind could demonstrate, and
+the reading. **Nothing was softened; it still fails if any of the three is missing.**
+
+**Suite 519 of 521.** Both reds are the model-dependent teacher pair that moves run to run.
+
+**The bench needs a restart, and the log is safe to restart into now.**
