@@ -38490,3 +38490,68 @@ actually uses — 59 — with its two halves if he wants them shown.
 ```
 
 **385's full audit against the code is the next thing and it is a large one. It is not started.**
+
+---
+
+# BUILT — 387.1. The gauge counts English. And the wording, for his eye before it ships.
+
+## THE COUNT `983e8a1`
+
+```js
+litmus.js   score: hits          // was hits + learnedMarks
+```
+
+**`learnedMarks` is still REPORTED — it is a true fact about the mind and the LEARNED panel is
+where it belongs — but it is out of the count.**
+
+**387.3 — his bench drops, and here it is on a mind taught English for 400 ticks:**
+
+```
+                        before        after
+English words                6            6
+marks it learned            49       (not counted)
+THE GAUGE                   55            6
+the age                   1.53y        1.17y
+newborn                   0.00y        0.00y     — 355 stands
+```
+
+**Seven eighths of the number he steered by were the Avatar's glyphs.**
+
+**387.4 is untouched:** the mind still knows one vocabulary, still thinks in anything it knows
+including marks (372), and inner learning still binds them. **Only the GAUGE changed.**
+
+**Suite 536 of 539.** The three reds are the two story-feelings clauses reported under 382 and one
+of the model-dependent teacher pair — **none of them 387's.**
+
+## 387.2 — THE WORDING, AND I HAVE NOT SHIPPED IT
+
+**What the line says today**, and it is the line that produced the shortfall he read:
+
+```
+6 English words it can demonstrate. It understands 58 words.
+```
+
+**Two numbers that are not comparable, side by side.** `understands` is everything `owned` holds —
+marks included — so it will always tower over a count that is English only, and it will always read
+as a failure.
+
+**What I propose, and nothing is changed until he says:**
+
+```
+6 English words it can demonstrate.
+```
+
+**That is the whole line.** The gauge counts English words it can demonstrate, and the line says
+exactly that and nothing beside it (387.2).
+
+**If he wants the marks visible — and they are a real thing the mind learned — the honest place is
+the LEARNED panel, on their own line, with their own name:**
+
+```
+LEARNED     …
+            49 marks it has learned the meaning of
+```
+
+**Not beside the gauge, because nothing beside the gauge should invite subtraction.**
+
+**Say which and I will ship it. Nothing about the count waits on this — that is already in.**
