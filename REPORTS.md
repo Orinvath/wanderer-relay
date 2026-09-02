@@ -36698,3 +36698,44 @@ these 40 were.** I am not drawing a single one of them on a guess.
 **Suite 529 of 529.**
 
 **The bench needs a restart, and it will come up with an empty board that fills as it thinks.**
+
+---
+
+# CORRECTED — a connector is never saved. `755591b` → the commit above.
+
+**His words, and I had it wrong:** the connectors do not stay. **Nothing is stored. Each one is
+calculated in real time from point A to point B, every time the data moves.**
+
+**What I had built kept a Map of wires** — created once on the first hand-off, then relit and faded
+in place. **That is still a stored edge list; it is just one that builds itself.** A wire sitting
+dark on the board between hand-offs is a claim that outlives the event that made it, and anything
+that outlives its event can be relit, kept, or drawn from a plan. That is the whole class of fault
+he ended, and I had left the last of it in.
+
+## WHAT IT DOES NOW
+
+```
+the store of wires        GONE — there is nothing to look a connector up in
+on a hand-off             a line is BUILT from those two points, at that instant
+while it fades            it is the only thing holding it
+when it has faded         board.remove(line) · geo.dispose() · mat.dispose()
+between hand-offs         nothing. The board is bare, because that is also true.
+```
+
+**There is no code path left that can produce a line except a hand-off event arriving with a source
+on it.** No table, no order, no dashed return, and now no cache either.
+
+**The check asserts the absence**, not just the presence: `const wires=new Map()` must not exist,
+and the disposal must. **A connector that is recomputed from its event every single time cannot be
+faked, cannot be stale, and cannot be inherited from a plan — there is nothing there to inherit.**
+
+## AND ONE FAULT I CAUGHT ON THE WAY
+
+My new array was called `live`, and `live` was already declared in that module — **the map died on
+load.** The suite's own module-parse check caught it, which is what it was written for after the
+map died silently once before. Renamed, and it parses.
+
+**Suite 527 of 529 — both reds are the model-dependent teacher pair.**
+
+**Restart the bench. The board will be empty and will show only what is crossing it at that
+instant.**
