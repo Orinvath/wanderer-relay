@@ -10114,3 +10114,48 @@ running, after everything that changed today.
    information (365.4). List them, and for each say whether it has
    genuinely not been reached yet or whether it does not emit — 270.B.5
    forbids the second and it is a fault.
+
+## Directive 384 — THE GAUGE STILL SAMPLES AND STILL FAKES. Both were struck. Find out when they came back.
+
+**THE FEATURE** — the gauge: how many words the mind can demonstrate.
+
+**WHY IT MATTERS** — it is the one number he steers by. HE DOES NOT
+GUESS IN A TOOL BUILT TO MEASURE CAPABILITY. His words.
+
+**WHAT WENT WRONG — on his screen just now:**
+```
+1.5 years — 15 English words it can demonstrate. It understands 46 words.
+```
+That gap is not the mind failing 31 words. `litmus.js:92`:
+```js
+const shuffled = pool.slice()...slice(0, real)     ← A SAMPLE
+const fakeSet  = fakes(fake, { roll, known: ... }) ← THE FAKES
+```
+IT SAMPLES, AND THE FAKES ARE BACK. Both of these were struck.
+
+**HE HAS RULED, TWICE, AND BOTH RULINGS ARE IN THE FILE'S PAST:**
+- 354.1: "THE GAUGE COUNTS THE WORDS THE MIND CAN DEMONSTRATE. Not a
+  sample, not an estimate, not a multiplier."
+- 360.1: "THE FAKES ARE STRUCK. No non-words, no false alarms, no
+  hits-minus-false-alarms. Remove them from the gauge entirely."
+- And his reason, then and now: THE DATA ALREADY EXISTS IN THE
+  LEARNED PANEL. There is nothing to estimate.
+
+**ALREADY SOLVED BY SOMETHING WE BUILT — YES.** `resolve()` is
+already the demonstration test. It needs running over EVERY word it
+knows instead of over a slice.
+
+**THE RULING**
+1. COUNT EVERY WORD, NO SAMPLE. `slice(0, real)` goes. Every word the
+   mind knows is resolved; the count is how many resolve. If it knows
+   46, all 46 are asked.
+2. THE FAKES GO, as 360 already ordered. No non-words, no false
+   alarms, no hits-minus-false-alarms anywhere in the gauge.
+3. FIND OUT WHEN THEY CAME BACK AND SAY SO. He warned that the model
+   rework would undo finished work and he was right. Name the commit
+   that reintroduced each, and whether it was a revert, a rebuild
+   from an older file, or a fresh write. This matters more than the
+   fix.
+4. THEN CHECK WHAT ELSE CAME BACK WITH THEM. Anything else struck by
+   354, 360, 371 or 379 that is live again in the code. List it; do
+   not fix it yet.
