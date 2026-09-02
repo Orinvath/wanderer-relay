@@ -9387,3 +9387,41 @@ list cannot.
 8. PROVE IT: start a mind and post the map's connector count at tick
    1, tick 50 and tick 500. It must begin at ZERO and grow only as
    the mind works.
+
+## Directive 366 — IDENTITY UPDATES AT TURNING POINTS, NOT AT SLEEP
+
+**THE FEATURE** — when the mind's life story is taken.
+
+**WHY IT MATTERS** — identity is the mind's sense of who it is and
+what its life has been. If it only ever updates in a place the mind
+rarely reaches, it never exists — IDENTITY reads zero on his bench
+and nothing has ever reached it.
+
+**WHAT WENT WRONG** — the Director ruled SLEEP as the boundary
+(306.B) because it was "the only boundary this build has". That was
+an invention. NOTHING IN THE LITERATURE TIES A LIFE STORY TO SLEEP.
+
+**THE SCIENCE** — McAdams: a life story is built around NUCLEAR
+EPISODES — high points, low points and turning points, the moments
+that stand out "in bold print" against the background. It is
+continually evolving, not periodic. And McLean, Pasupathi & Pals
+(2007) — "selves creating stories creating selves" — the story is
+also revised IN THE ACT OF TELLING, told with an implicit audience in
+mind, for the purpose of making meaning of past events to oneself and
+to others. Rows to REFERENCES.md per 227.
+
+**THE RULING**
+1. IDENTITY UPDATES AT A MOMENT THAT MATTERED — a high point, a low
+   point, a turning point. The mind already measures what a moment
+   was worth to it; that measure decides, not a clock and not sleep.
+2. AND IT UPDATES WHEN THE MIND TELLS ITS STORY. Telling is when a
+   life story is made, per the finding above.
+3. SLEEP IS NO LONGER THE BOUNDARY. It may still be A moment that
+   matters if something in that sleep mattered — consolidation
+   keeping something significant — but it holds no special place.
+4. 306.B IS STRUCK and this replaces it.
+5. IT STILL READS THE VARIABLES APPRAISAL ALREADY STORED — agency
+   and communion — with no text, no model, nothing re-interpreted.
+   That part of 306.B was right and stands.
+6. PROVE IT: on his bench, IDENTITY must stop reading zero. Post what
+   reached it, on which tick, and what the story said.
