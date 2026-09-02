@@ -10458,3 +10458,47 @@ Everything else in 393 stands: nothing preloaded, both start empty,
 attach and detach with no restart, the key stored and surviving
 (392), and 393.4's report on what the voice slot was actually doing
 before it goes.
+
+## Directive 394 — THE PERCEPTION PANEL, RESTATED WHOLE. Supersedes 393 and both its addenda.
+
+393 was corrected twice and is now confusing. THIS IS THE WHOLE
+PANEL, and nothing earlier in 393 governs.
+
+**WHAT THE PANEL IS FOR** — attaching the model that does VISION AND
+CHAT. That is all that lives on this side. THE VOICE IS NOT HERE: the
+body speaks with the phone's own TTS (301), and the voice slot comes
+out of this panel entirely.
+
+**TWO SLOTS — two ways to attach that one thing:**
+
+```
+LOCAL       [ Load… ]  a file chooser. He picks a model from his own
+                       disk. NO KEY FIELD — a local model needs none.
+
+PROVIDER    [ provider ▾ ] [ model ] [ key ]
+                       the pull-down carries ALL OF THEM:
+                       OpenRouter · OpenAI · Anthropic · Google ·
+                       Groq · Together · Hugging Face · Mistral ·
+                       DeepSeek · xAI
+                       Each is one row carrying its own endpoint, its
+                       own request shape, and how its answer is read
+                       — 391's mechanism, which is right. It was the
+                       LIST that was one row long.
+```
+
+**NOTHING IS PRELOADED.** Both slots start EMPTY. `moondream` and
+`gemma3:1b` do not appear. Nothing is named until he attaches
+something. Config defaults may still exist for a headless run; they
+are not shown as an attachment.
+
+**ATTACH · DETACH · LIST MODELS** as built: no restart, effective on
+the next call.
+
+**THE KEY** — 392 stands whole: stored, survives a restart,
+reattaches on its own, never shown in the panel, readable in
+`server/data/perception.json`, never in a URL or a log.
+
+**AND REPORT, BEFORE REMOVING IT** — what the VOICE slot was actually
+doing. 327 named gemma3:1b as a voice while 301 had already ruled the
+phone speaks. Those collided and nobody caught it. Say what that slot
+was doing in the code rather than quietly rewiring it.
