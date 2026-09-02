@@ -9970,3 +9970,34 @@ had answered it for weeks.
 
 Step 6 asks whether HE decided it. Step 6b asks whether THE BUILD
 decided it. Both come before anything is put to him.
+
+## Directive 380 — LOOK AT THE DATA, NOT THE PERCENTAGE
+
+**HIS RULING ON HOW TO ASK THIS** — 97% passing is a NUMBER, not a
+finding. It is entirely possible that forty important things happened
+and forty were rightly passed. THE DATA DECIDES whether the door is
+flawed or working as intended, and nobody has looked at it.
+
+**THE ORDER — diagnosis only, change nothing.**
+1. Take a real stretch on his bench. FOR EVERY MOMENT: what it was,
+   what it scored, whether it passed, and what it was measured
+   against.
+2. THEN SAY WHAT SHARE WERE ACTUALLY WORTH NOTICING. Not by a
+   threshold — by reading them. A moment where the host spoke, a
+   need bottomed, something new was learned, a feeling moved: those
+   are worth noticing. A moment identical to the last forty is not.
+3. POST THE MOMENTS THEMSELVES, not a summary. He reads them and he
+   rules. If ninety-seven percent of them were genuinely worth
+   noticing, THE DOOR IS WORKING AND THERE IS NOTHING TO FIX — say
+   so plainly and the matter closes.
+4. If a large share were trivia, say which kind, with examples. That
+   is the finding, and only then is there a fix to discuss.
+5. DO NOT PROPOSE A THRESHOLD, a distribution, or any mechanism. This
+   directive is about establishing whether a fault exists at all.
+
+**AND THE SCIENCE, so the reading has a standard** — a filter exists
+to spend limited attention on what is PERTINENT: momentary importance
+given the mind's current goals and internal state (Deutsch & Deutsch;
+Broadbent's bottleneck; Lavie's load theory). A weak signal that is
+highly pertinent SHOULD pass. The question is not how many passed. It
+is whether what passed was pertinent.
