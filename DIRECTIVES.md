@@ -9457,3 +9457,33 @@ every single time.
 4. PROVE IT ON HIS BENCH: post the urge counts and the Core's actual
    position over a stretch, so "it moved" is a number and not a
    claim.
+
+## Directive 368 — THAT PLACE IS MOOD. Put it back.
+
+**THE FEATURE** — the readout beside the stage, under the sphere's
+old channels. IT HAS ALWAYS BEEN MOOD.
+
+**WHAT IS THERE NOW** — three things, none of them mood:
+```
+psychopathy 93% match          the personality profile match
+weakly documented              a caveat on that match
+SONG · HIDDEN · TOGETHER       marks
+```
+Written by `shapes()` into an element called `verdict`
+(bench-page.js:1431), which sits directly beside the code that
+renders "colour — what it is feeling", "pulse", "motion".
+
+**THE RULING**
+1. MOOD GOES BACK IN THAT PLACE. What the mind is feeling — its
+   current feeling and the resting mood beneath it (286) — reads
+   there, as it always did.
+2. FIND WHEN THE PROFILE MATCH TOOK IT and say so, with the commit.
+   It is the second time something has quietly occupied a place that
+   belonged to something else, and the record should hold why.
+3. THE PROFILE MATCH IS NOT DELETED. It has a use — it is how a soul
+   reads against documented profiles — but it is not mood and it
+   does not live there. Put it where it belongs, in the SOUL panel
+   with the sketch, and say where you put it.
+4. THE MARKS BESIDE IT go wherever they belong too, named in the
+   report. THOUGHTS shows what it is thinking; if that is what they
+   are, they are already shown and do not need showing twice.
