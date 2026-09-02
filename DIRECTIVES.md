@@ -10267,3 +10267,33 @@ small it reads as noise.
 - The runs are still LOGGED as 241.4 requires — the history survives
   in the record, it just does not sit on his screen.
 - Nothing about the gauge itself changes here.
+
+## Directive 389 — "KNOWN WORDS". No estimating, and what the marks are for.
+
+**THE LINE** — plain and logical, like every other descriptor on that
+panel:
+
+```
+KNOWN WORDS   6
+```
+
+Not "it can demonstrate", not "about", not "understands" beside it.
+IT KNOWS WHAT IT KNOWS — his ruling, and 354 said the same: no
+sampling, no estimate, no multiplier. If a word cannot be
+demonstrated it is not known and it is not counted. The count IS the
+knowing.
+
+**AND THE AGE LINE FOLLOWS THE SAME RULE** — say what is measured, in
+his descriptor style. No hedging language anywhere on that panel.
+
+**THE MARKS STAY WHERE THEY ARE AND ARE NOT MEASURED.** He has ruled
+this twice (344, 387) and it is settled: they are not a language
+measure and nothing counts them. They may be shown as a fact of what
+the mind learned; they are never part of the gauge.
+
+**WHAT THE MARKS ARE FOR, recorded so nobody re-opens it** — his own
+words. The future use is A TEST FOR THE MIND: when it has enough
+words, it may try to complete the marks itself — a visual language
+that works the way his brain works. Eventually two minds
+communicating in marks alone. For now it is testing and his own
+entertainment, and that is the whole of its purpose.
