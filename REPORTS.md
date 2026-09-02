@@ -38872,3 +38872,44 @@ the disk, and I am not going to pretend it can.** If he wants that, the two hone
 field the server reads, or an upload — **and that is his call, not mine to pick.**
 
 **Suite 533 of 539.** Unchanged: 219, 234, 235 stable and unrepaired; the rest the teacher family.
+
+---
+
+# FIXED — the Perception pull-down closed on every flash. And I built the chooser wrong first.
+
+## THE CHOOSER
+
+**He said chooser and I built a filesystem file picker.** On this machine that could only ever have
+shown him `sha256-2049f567…` — Ollama keeps the weights as hash-named blobs and the NAMES live in
+its manifests, so there is no file on the disk called moondream. **Then I told him there was nothing
+to test, when the list Ollama serves IS the models on his disk.**
+
+**LOCAL is now a pull-down of what this machine actually serves:**
+
+```
+Tohur/natsumura-storytelling-rp-llama-3.1:latest · gemma3:1b · moondream:latest ·
+nomic-embed-text:latest · qwen2.5:14b · qwen2.5:3b · qwen2.5vl:3b · qwen2.5vl:7b
+```
+
+Pick one, press Load. **No key field — a local model needs none.** Verified: choosing moondream
+attaches as `local · moondream:latest`.
+
+## THE FLASHING
+
+**The panel was rewritten on every poll**, several times a second, so a select he had open was
+destroyed and rebuilt underneath him — which closes it. **Two guards, and both were needed:**
+
+```
+NEVER REDRAW WHILE HE IS IN IT   if focus is inside the panel he is typing or choosing,
+                                 and nothing on a timer may take that away from him
+ONLY REDRAW WHEN SOMETHING       the panel states what is attached; if that has not moved
+CHANGED                          there is nothing to say again
+```
+
+A change he makes forces the redraw, so the panel still answers immediately when he attaches or
+detaches.
+
+**And it stops re-asking Ollama for the model list on every poll** — that fetch now happens only
+when the panel actually redraws.
+
+**His bench needs a restart: it is serving the page from one commit and the server from another.**
