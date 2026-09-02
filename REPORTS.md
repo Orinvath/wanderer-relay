@@ -37412,3 +37412,84 @@ does not currently produce.**
 ## THE RULING IS HIS
 
 I have changed nothing, and I have not pressed Continue.
+
+---
+
+# BUILT — 373. An honest teller is no longer guaranteed to be disbelieved.
+
+## 373.2 — HOW THE TWO ARE TOLD APART, and it did not need a decision
+
+**The code had no way at all.** `comprehension.js:168` classifies every non-question statement as
+`kind: 'told'` — a catch-all. Nothing anywhere distinguished a description from a claim.
+
+**But 373.1 gives the test in its own words: "a lesson that DESCRIBES WHAT WAS TRUE WHEN IT WAS
+SAID".** The mind already has what that needs — the moment's own truth, assembled every tick since
+346:
+
+```js
+const now = new Set(happening.trueNow ?? [])
+const describes = understood.matched.length > 0 && understood.matched.every((m) => now.has(m))
+```
+
+**If every mark of the line was true of it as the line arrived, the line described the moment.**
+Arithmetic on what is already there: **no threshold, no new number, and no judgement about what the
+speaker meant** — which the mind could not know anyway. **So I did not have to stop and post a
+decision, and I am saying that explicitly rather than quietly not stopping.**
+
+## WHAT IT DOES
+
+```
+schema.js      lessons.describes   an additive column, ladder step 16 → 17
+lessons.js     learn(..., { describes })   marked at birth, forever, as imagined and teller are
+belief.js:77   claimOf()           returns NULL for a description — no claim, so nothing tests it
+```
+
+**`claimOf` is where the fault lived and where it is now shut.** A description yields no claim, so
+nothing weighs it forward and nobody is charged for it. **It was checked when it was said and it
+passed** (234.5a).
+
+## 373.3 — TRUST IS OTHERWISE UNCHANGED
+
+`trust.js` is untouched. Only being WRONG still costs a teller; unconfirmed is still silent; and now
+being DESCRIPTIVE costs nothing either, because it never reaches the weigher at all.
+
+## 373.4 / 373.5 — PROVED, AND NOT BY A NUMBER
+
+**I did not raise the floor and I did not reset anyone's trust by hand.** 60 lines told as
+descriptions — built from what was true of the mind at the moment, which is what 234.5a requires of
+every teacher line:
+
+```
+                trust    taught   HELD   FAILED
+teacher         0.300        3       0        0
+  before 373    0.050       23       0        5     ← the floor, and the halt
+```
+
+**0.300 is its starting trust, unmoved.** That is what the corrected arithmetic gives it, not a
+number I set.
+
+```
+told lessons                                    3
+marked as describing their moment               3
+of those, yielding a testable claim             0
+```
+
+**A note on the count, so it is not read as more than it is:** 60 lines produced 3 lessons, because
+a told line only becomes a lesson when it resolves to two or more marks. **His bench's 23 came from
+a real teacher over a long run; mine is the mechanism, not the volume.** The teller table after a
+real fifty-lesson school run is his to take — **the school needs the model and the server, and I
+cannot run it from here.**
+
+## AND THE COST I NAMED WHEN I PUT THE PROBLEM, restated because it is now real
+
+**A truthful teacher can no longer FALL — and it can no longer CLIMB either.** It sits at its
+starting trust. **If a teacher is to earn trust, it needs a kind of line that makes a real
+prediction, and the school does not currently produce one.** That is a separate thing and it is his.
+
+## AND I PUT BACKTICKS IN A TEMPLATE AGAIN — fourth time today, in `schema.js` this time
+
+The guard I added this morning only looks at the map's module. **This one was inside a SQL template
+and it broke the file outright.** Caught by `node --check` before it went anywhere, but it is the
+same mistake in a new file and I am not going to pretend otherwise.
+
+**Suite 533 of 535 — the two reds are the model-dependent teacher pair.**
