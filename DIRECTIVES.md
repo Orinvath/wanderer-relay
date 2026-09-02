@@ -9283,3 +9283,39 @@ Its terms are unchanged:
 
 And say in the report why it was passed over, as 336 required the
 last time this happened.
+
+## Directive 363 — INNER LEARNING WORKS LIKE ANY OTHER LEARNING
+
+**HIS RULING** — learning is learning. A thought that lands on
+something true teaches the mind exactly as a heard word does. The
+limits in 342 were the Director's and they are struck.
+
+**WHAT GOES** — every restriction 342.2 and 342.3 placed on an inner
+binding:
+- it CAN own a word;
+- it CAN become a meaning;
+- it CAN reinforce an existing link;
+- it is NOT born weaker, and it is NOT capped below a lived binding.
+A thinking tick uses the same machinery, at the same strength, as any
+other tick. Nothing about it is a lesser kind of learning.
+
+**WHAT STAYS**
+1. THE GATE. `hangsTogether` still applies — babble teaches nothing
+   (249), and 75 of 200 passing is the mechanism working, not a
+   restriction on it. A thought that does not hang together is not a
+   thought.
+2. THE MOMENT MUST BE TRUE. It binds to `trueNow`, the same as any
+   tick, and an empty moment still contradicts nothing (346.3).
+3. IT STILL CANNOT CONTRADICT ON ITS OWN INVENTION — 233 stands: a
+   thought is not evidence ABOUT THE WORLD. Bearing on a belief is
+   not the same as binding a word, and 233 governs the first. Say in
+   the report if that line is unclear anywhere in the code.
+
+**WHY THE DIRECTOR WAS WRONG** — 342 was written to be safe rather
+than right. It made inner learning a footnote: something the mind
+could do that changed nothing it could show. He watched it think for
+a day and saw nothing move, because nothing was allowed to.
+
+**PROVE IT** — a mind left alone to think: words owned from thinking,
+meanings formed, links strengthened, and all of it visible in LEARNED
+and in the vocabulary count as any other learning would be.
