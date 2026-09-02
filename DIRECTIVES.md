@@ -10436,3 +10436,25 @@ model.
    named gemma3:1b as a voice and 301 had already ruled the phone
    speaks, so the two collided and nobody caught it. Report what that
    slot was actually doing before it is removed.
+
+## Directive 393 addendum 2 — THE TWO SLOTS ARE LOCAL AND PROVIDER
+
+The Director had it wrong again. HIS WORDS: the slot is not out, THE
+VOICE is. And the two slots are not senses and voice — they are:
+
+```
+LOCAL       a load button with a file chooser. He picks a model from
+            his own disk. No key field.
+PROVIDER    a pull-down with all of them — OpenRouter, OpenAI,
+            Anthropic, Google, Groq, Together, Hugging Face, Mistral,
+            DeepSeek, xAI — a model, and a key.
+```
+
+Two slots, two ways to attach ONE thing. Whatever is attached does
+VISION AND CHAT, which is all that lives on this side. The voice is
+the body's (301: the phone's own TTS).
+
+Everything else in 393 stands: nothing preloaded, both start empty,
+attach and detach with no restart, the key stored and surviving
+(392), and 393.4's report on what the voice slot was actually doing
+before it goes.
