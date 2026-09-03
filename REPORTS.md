@@ -39804,3 +39804,67 @@ THE AVATAR'S GLYPHS DOING AN AVATAR'S JOB -- correct as they stand:
   perceiving.js:56/116, voice.js:814   ALREADY check owned words beside the marks -- correct
   comprehension.js   220.1 already resolves earned words
 ```
+
+---
+
+# BUILT — Directive 405. THE FOUR CAPS ARE OUT, and the beat is measurably wider.
+
+## THE PROOF — three runs each way, same seed, same 400 ticks, same lines
+
+```
+                 avg beat width      WIDEST BEAT
+BEFORE  run 1         2.24                3
+        run 2         2.24                3
+        run 3         2.23                3      ← a hard ceiling, every run
+AFTER   run 1         3.43                7
+        run 2         3.56               10
+        run 3         3.11               11      ← no ceiling
+```
+
+**The beat is half again as wide and the ceiling is gone.** That is the one 405 called the one that
+matters most, and it is the one the measurement can speak to cleanly.
+
+**AND WHAT I WILL NOT CLAIM:** interests and owned words moved too — but they move just as much
+between two runs of the SAME build (22 to 34 before, 25 to 33 after). **The harness's clock runs on
+real elapsed time, so every run lives a slightly different life. That spread is noise and I am not
+going to sell it as a result.**
+
+## THE FOUR, AND ONE CORRECTION TO THE PREMISE
+
+```
+experiencing.js  say.slice(0, 2)      OUT -- a beat is as wide as the story
+experiencing.js  interests .slice(0, 6)  OUT -- it considers all of what it cares about
+experiencing.js  here.slice(0, 3)     OUT -- curiosity is about what it is about
+learning.js      own.entries().slice(0, 12)  OUT
+```
+
+**The twelve was NOT starving anything downstream, and the record should say so:** the view already
+sends `owned_words` complete alongside it, so a teacher reading state.json always saw the whole
+vocabulary. **It was a twelve-word sample sitting beside the full list. It is gone because 405 says
+a number nobody ruled does not stay, not because it was hiding anything.**
+
+## 405.3 — THE SEARCH. SIX MORE, AND FIVE ARE IN THINKING ITSELF.
+
+```
+PERMISSION -- the same fault, LISTED AND NOT CHANGED:
+  thinking.js:132   what it may think about from curiosity          cut to 2
+  thinking.js:145   WHAT IT MAY SAY                                 cut to 4 words
+  thinking.js:355   curiosity again, on the training path           cut to 2
+  thinking.js:361   its interests again, INSIDE THINKING            cut to 6
+  thinking.js:389   the memories it may draw on                     cut to 2
+  experiencing.js:1072  what it may notice in a moment              cut to 3
+  stories.js:326/335    what a story's lesson is made of            cut to 3
+  soul.js:255/334/335   its oughts, and what it is drawn to/from    cut to 5 / 2 / 2
+  voice.js:532      what it says it understood                      cut to 3
+  goals.js:88       the needs it weighs when none is bottomed       cut to 1
+
+CHARACTER, DISPLAY, OR NOT THE MIND -- correct as they stand:
+  teacher.js:436    near.slice(0, 8) -- PROMPT MATERIAL, and 405.2's own exception
+  watching.js:1325/1328/1401/1426/1446   the view: resembles, opposes, learned, runs
+  effects.js, colour.js   parsing a hex pair, not a cap on anything
+  privacy.js:201, banks.js:79, appraisal.js, closing.js, statehash.js   log and message text
+  roe-grid.js, viewer.js, moderator.js, profile-match.js   display
+```
+
+**FIVE OF THE SIX SIT IN `thinking.js`, which is the mind's own thinking** — including a cap on
+WHAT IT MAY SAY at four words. **Not changed, per 405.3, which asks for the list and not the fix.**
