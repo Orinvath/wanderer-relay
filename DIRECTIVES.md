@@ -10516,3 +10516,29 @@ measure (387) and the mind's language is English (344).
 - `reach()` still runs and is still logged if anything uses it; only
   the display comes off.
 - Nothing else on the panel moves.
+
+## Directive 396 — THE GAUGE WORKED A FEW HOURS AGO. FIND WHAT CHANGED.
+
+**HIS WORDS** — the gauge was working, and it stopped right around the
+model rework: 375 through 379, when the model came out of the mind's
+path.
+
+**FIND IT, AND THE ANSWER IS A COMMIT.**
+1. What did the gauge count BEFORE 375, and what does it count NOW?
+   The numbers, from the code at each point.
+2. WHICH COMMIT CHANGED IT. Name it and say what it did — a rewrite
+   that dropped something, a field that moved, a call that stopped
+   being made.
+3. IT IS NOT NECESSARILY THE ANNOUNCEMENT FAULT you just reported.
+   That one has been there since thinking could own words and it
+   became visible yesterday. This is something that worked a few
+   hours ago and does not now. Do not merge the two — if they are the
+   same fault, prove it rather than assuming.
+
+**THEN FIX IT — with one condition.** If the cause is clear, repair
+it in the same pass. But ANYTHING ELSE THE FIX WOULD DISTURB IS
+REPORTED, NOT REPAIRED. He has lost finished work to rebuilds twice
+this week and will not lose more to a fix that reached sideways.
+
+**AND PROVE IT ON HIS BENCH:** the gauge reading before and after, on
+the same mind, with the count it draws from named.
