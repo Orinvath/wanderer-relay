@@ -181,3 +181,24 @@ looking at.** Six words is a dot; six hundred is a picture of how it
 thinks.
 
 NOT SCHEDULED. Recorded so it is a decision when its time comes.
+
+### 11b · HOW WE KNOW THE LANGUAGE STAGE IS FAITHFUL
+
+**His question, and it has to be built in rather than promised** — a
+picture that could show anything is worth nothing, and this project
+has already had a map that drew lines nobody could verify (365).
+
+1. EVERY POINT'S POSITION COMES FROM THE SPACE'S OWN NUMBERS. Nothing
+   may place a point any other way — no layout hints, no grouping by
+   category, no arranging for looks, no hand-placed clusters. The
+   physics reads the vectors and nothing else.
+2. IT IS TESTABLE BY HIM, WITHOUT READING CODE: take two words the
+   mind has genuinely bound together and they are close on screen;
+   take two it has not and they are apart. If that fails, the stage
+   is lying.
+3. IT HAS ITS OWN HEALTH CHECK like every other system: the drawn
+   positions agree with the space, or it goes red. Forced-fail at
+   birth (254.D) so the check is known to work before it is trusted.
+4. NOTHING IS DRAWN THAT THE SPACE DOES NOT HOLD. A word with no
+   bindings has no position and is not placed — same law as 365's
+   connectors: no line without an event, no point without a vector.
