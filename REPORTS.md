@@ -40006,3 +40006,69 @@ body, the 215 signals that used to go nowhere are not being sent at all, and the
 colour, its pulse and its wanting without one.
 
 **HIS BENCH IS ON `e75ad39` — page and server both. Reload.**
+
+---
+
+# THE CORE IS ITS OWN NODE — and I broke the master rule twice getting there.
+
+**HIS RULING, in three goes, because I did not hear it the first two times:**
+*"ALL CODE RESIDES WITHIN THE NODE/FILE WHERE IT IS EXECUTED, NO EXCEPTIONS."* ·
+*"THERE IS NO SPHERE THEREFORE THERE IS NO NODE OR FILE FOR IT."* · *"THOSE ARE CORE BEHAVIOURS."*
+
+```
+FIRST  I built the Core's channel in watching.js and drove it from closing.js, with its
+       mappings in a third file. One node smeared across three. Every line worked.
+THEN   I moved it into sphere.js -- a file named for a thing that does not exist.
+NOW    core.js IS the Core node: its channels, its colour, its pulse, its motion, and its feed.
+       The sphere file is gone. Callers get one call and never hold its insides.
+```
+
+**The SS24 protected-core document that held that filename is now `protected-core.js`, which is
+what its own first line has always called it.** Nothing was renamed on a whim — the name was
+occupied by something that was never the Core.
+
+## PROVEN IDENTICAL ACROSS THE MOVE — same seed, 50 ticks
+
+```
+                       before the move      after
+bodies on the cord            0               0
+embodiment fired              0               0
+nerves fired                  0               0
+cord fired                    0               0
+thinking fired               67              67
+core channel delivered  100 · 2 · 2     100 · 2 · 2
+the Core's wanting       EXCITEMENT      EXCITEMENT
+```
+
+**And on his bench, live on `32c351a` right now:**
+
+```
+body wire   continuous 0 · event 0 · stream 0 · unrendered 0
+the Core    hue 0.47 · arousal 0.00005 · urge "still"
+```
+
+## THE SUITE — FOUR RED IN PHASE 3, AND I CHECKED WHETHER THEY WERE MINE
+
+They are not. **The same four fail identically at three separate commits, including one from
+BEFORE any of today's work:**
+
+```
+                            before 404   before 405   after the Core node
+ 9  no handle to a store        ✗            ✗              ✗
+10  context with machines gone  ✗            ✗              ✗
+14  keeps nothing raw at leaving✗            ✗              ✗
+55  two configured models       ✗            ✗              ✗
+```
+
+**AND ALL FOUR PRINT THEIR PASS RATIONALE ON FAILURE** — the screen reads *"the travelling store
+does not depend on any private store existing anywhere"* beside a red mark. **That is the same
+reporting fault I named for check 9 earlier, and it is in at least four checks: none of them says
+WHAT failed, so a red light there tells him nothing at all.** Reported, not repaired.
+
+## THE ONE SPHERE REMNANT I DID NOT TOUCH, AND WHY
+
+`SphereEmbodiment` — the retired body class — is still in the Core node. **The suite uses it as the
+SECOND BODY that proves the cord contract drives two different bodies with no code change** (051's
+own proof), and the view's `embodiment` line falls back to its description. **Removing it deletes a
+real contract proof and changes what his panel says, so it waits on his word rather than going
+quietly.**
