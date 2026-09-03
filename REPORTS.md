@@ -39663,3 +39663,69 @@ which is precisely what he says it was never for.**
 **I HAVE CHANGED NOTHING** and I am not proposing the fix — the disposition is his and the
 Director's. **The measurement stands: the reasons are recorded now, so whatever is ruled can be
 watched working.**
+
+---
+
+# BUILD REPORT — Directive 403. ALL EIGHT RULES TRACED. Two are invented. Three are HIS and 403 collides with them.
+
+**Nothing removed yet.** 403.1 asks for each one named with the directive it came under, and doing
+that honestly turned up collisions I will not settle myself (250, and 403.5's own "say so and stop").
+
+## THE EIGHT THINGS THE CENSOR REFUSES, AND WHERE EACH CAME FROM
+
+```
+1  nothing was said                      an empty line. Not a constraint on anything.      KEEP
+2  not English, the model code-switched  THE LEASH ITSELF -- the model behaving as a
+                                         model. Qwen code-switches; 403.2 keeps this.      KEEP
+3  not words: AIRFILTERWHERE             320.1, HIS OWN BENCH. The model invents a
+                                         token, the mind owns it, the mind says it back.   KEEP
+8  it says of its own life what is not so 234.5b -- the leash for stories, second person
+                                         only. Third person is already free.               KEEP
+```
+
+## THE TWO THAT WERE INVENTED — and the code says so in its own comments
+
+```
+4  "a story names what it is about: say BIRD SINGS, never it sings"
+   CAME IN UNDER 331.2, WHICH SAYS: "NO BARE 'IT' AS A SUBJECT in teacher speech."
+   THE CODE REFUSES ANY LINE CONTAINING "it" ANYWHERE -- and the comment beside it admits
+   the excess in writing: "Stricter than 331.2's letter", justified because a blanket ban
+   was easier to prove from the bench than finding the subject.
+   THAT IS A RULE ABOUT WHAT THE TEACHER MAY SAY, WRITTEN BY THE BUILDER, NOT BY HIM.
+
+5  "a naming line that names nothing true of it"
+   234.5a SAYS: "NAMING lines verified word-for-word against live state; FALSE lines
+   dropped." A line that names nothing checkable is not a false line. The comment adds
+   "it is an assertion dressed as one, and it is dropped TOO" -- the word "too" is the
+   whole invention.
+```
+
+## AND THREE COLLISIONS I AM NOT SETTLING
+
+**THE BIG ONE — the 142 HEART refusals were NAMING lines, and naming is HIS OWN RULE.**
+
+```
+234.5a (his)   NAMING lines verified word-for-word against live state; false lines dropped
+403.2  (his)   a line that claims something false about the mind or its host is STILL refused
+403    (his)   and yet it names those 142 refusals as the fault to be fixed
+```
+
+**Read strictly, 403 keeps the very rule that produced the 142.** HEART was refused because every
+mark in a naming line counts as a claim about the mind — which is 234.5a working exactly as
+written. **Either naming lines stop treating every word as a claim, or the 142 stay and the fix is
+elsewhere. That is his call and I will not guess it.**
+
+**TWO SMALLER ONES:**
+- **The "it" rule — out entirely, or back to 331.2's letter?** Restoring the letter means finding
+  the subject slot, which the comment calls guessing at grammar. **403.5 forbids me inventing a
+  gentler version, so both doors are his.**
+- **The new-word cap.** 403.3 says fiction "is not refused" — but the cap refuses story lines, and
+  it is 234's own ZPD rule, his. **Is the cap a constraint on what the teacher may say, or the
+  teaching method 403 says the guard was never about?**
+
+## WHAT I WILL DO ON HIS WORD
+
+Remove 4 and 5, leave 1/2/3/8 standing, then run the school and post what the teacher actually
+says — lines delivered against calls made — for his eye (403.4). **The measurement is already
+wired: `/ledger` names the caller and the drop reasons are recorded, so the before-and-after is
+readable rather than argued.**
