@@ -40216,3 +40216,87 @@ same chain as 404 and 407 and it is the one that reaches his screen.
 
 **409.2 already rules it — "nothing branches on the existence of a picture" — so it comes out under
 409, where the state hash can say whether taking it out changes the mind. NOT TOUCHED YET.**
+
+---
+
+# BUILT — Directive 409. THE CODE SAYS WORDS. Byte-identical, and the hash earned its keep four times.
+
+## THE PROOF FIRST
+
+```
+state hash BEFORE the rename    c7415c07bf79c12099906a67e5ecd4a60999244a22af774e89d3116287bf7712
+state hash AFTER  the rename    c7415c07bf79c12099906a67e5ecd4a60999244a22af774e89d3116287bf7712
+suite                           back to the two known pre-existing reds (9 and 55) and nothing new
+```
+
+**The hash is only meaningful because the mind has a fixed-clock seam** — two untouched runs of the
+wall-clock harness differ, so I ran the fixture the seam was built for. **Two runs of the same code
+now give the same hash, which is what makes the comparison mean anything.**
+
+## AND THE HASH CAUGHT FOUR SILENT BREAKAGES THAT NOTHING ELSE WOULD HAVE
+
+**A mechanical rename of `mark` -> `word` looks safe and is not. Every one of these passed
+`node --check`, and three of the four would have passed the suite:**
+
+```
+1  language.js    if (!OWNED.has(w) && OWNED.has(mark))  became  OWNED.has(word)
+                  It asks whether the thing a word was EARNED ONTO is one of the 402, so it can
+                  borrow that one's sheet. The rename turned it into a question about the word
+                  itself. No error, no failing test, a silently different condition.
+
+2  learning.js    for (const word of [...new Set((words ?? [])...)])
+                  `words` was already the HEARD WORDS parameter. I repointed the loop at the
+                  candidate meanings instead. Different loop, no complaint from anything.
+
+3  learning.js    out.push({ word: w, mark, ... })  became  { word: w, word, ... }
+                  A DUPLICATE KEY. The field was silently dropped. JavaScript says nothing.
+
+4  perceiving.js  the declaration was renamed and its uses were not, because my guard skipped
+                  every line containing a quote. It hashed CLEAN because the fixture never
+                  exercises the senses -- broken in a path no measurement here touches.
+```
+
+**That fourth one is the warning worth keeping: a green hash proves the paths the fixture RUNS.**
+
+## WHERE THE NAME STAYS `mark`, AND WHY — this is the boundary I did not cross
+
+```
+word_links.mark          a DATABASE COLUMN. Renaming it rewrites stored data.
+happening.learned.marks  goes onto the record, the being file and the view the page reads.
+the sense record's marks the same.
+```
+
+**409.1 says every variable, function, comment and report. A stored column and a wire key are
+neither — and 409.4's own requirement that the mind come out byte-identical forbids touching them.
+The hash caught me the moment I did.**
+
+## AND ONE FILE I STOPPED ON — learning.js
+
+**It cannot be renamed mechanically and I did not force it.** That file deals in two things at
+once: **a WORD, and THE WORD IT MEANS.** Calling both of them `word` destroys the only distinction
+the file is about — that is where three of the four breakages above came from. **Only the constant
+was renamed there (`OWNED_MARKS` -> `PICTURED_WORDS`).**
+
+**The second role needs a name and the name is his.** I used `meanings` in one local where the
+collision was unavoidable; every other one is untouched and waiting.
+
+## 409.2 — THE PICTURE FILTER IS OUT OF THE STORY BEAT
+
+```
+experiencing.js    const say = (b.marks ?? []).filter((w) => glyph(w))   ← gone
+```
+
+**And I will not claim a result for it.** The fixed fixture hashes identically (no beat there
+carried a pictureless word), and in the long harness the effect is not separable from noise:
+
+```
+                 avg words        most words
+WITH      2.83 · 5.23 · 2.83     7 · 15 · 7
+WITHOUT   3.22 · 3.61 · 3.39     9 · 10 · 10
+```
+
+**One run WITH the filter beat every run without it.** The change is right by 409.2 and the
+measurement cannot yet show it. **Imagined beats are still pinned at three words in both columns,
+so something else is holding those and I have not found it.**
+
+**409.3 and 409.5 kept: his artwork is untouched, and the panel's MARKS line stands as 398 ruled.**
