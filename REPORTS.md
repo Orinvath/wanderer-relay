@@ -39926,3 +39926,38 @@ THE SCHOOL only speaks when it is running; stopped, it is silent. Measured in 40
 ```
 
 **Nothing else found emitting to something that is not there. Nothing else changed** (406.5).
+
+---
+
+# CORRECTION — I CALLED THE SPHERE CONNECTION DEAD CODE. IT IS NOT. THE CORE IS LISTENING.
+
+**He said the sphere was ordered removed ages ago, and he is right — 261.10: "The sphere and its
+channels retire."** So I went to pull the connection out. **I checked what depended on it first,
+and it is a good thing I did.**
+
+```
+watching.js:223   this.cord.connect(sphereReceptors(this.rendered))
+watching.js:1373  sphere: { ...this.rendered }        ← onto the view
+mindmap.js:853    want = v.sphere.urge                ← THE CORE READS ITS URGE FROM IT
+```
+
+**`sphereReceptors` is not a sphere. It is the machinery that turns the mind's signals into COLOUR,
+PULSE and URGE — and 261.4 moved exactly those three into THE CORE.** 367 is the directive that
+pointed the Core at `v.sphere.urge` in the first place.
+
+**SO: the sphere retired as a DISPLAY and its receptor set stayed on as the Core's feed.** Pulling
+line 223 would have blanked the Core — colour, pulse and wanting, all of it — and I would have done
+it on his instruction while telling him it was leftovers.
+
+## WHICH MEANS 406'S PREMISE IS THE THING TO RULE ON
+
+**EMBODIMENT is not talking to nothing. It is talking to the Core, which is on his screen.** His map
+shows EMBODIMENT 7 · CORD 7 · NERVES 7 and that is a real hand-off to a real listener.
+
+**THE QUESTION IS HIS AND IT IS ONE LINE: IS THE CORE A BODY?**
+- **If it is**, the gate I built is already right, EMBODIMENT lighting is the truth, and 406 is
+  satisfied — nothing further to do.
+- **If it is not**, then the Core needs its own feed that is not the retired sphere's receptors,
+  and that is a build, not a deletion.
+
+**NOTHING REMOVED. My earlier report called this dead code and that was wrong; this replaces it.**
