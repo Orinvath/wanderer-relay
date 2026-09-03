@@ -11008,3 +11008,44 @@ A category that keeps producing the same mistake is the mistake.
 5. THE PANEL'S MARKS LINE STAYS as 398 ruled — a milestone marker for
    the day the mind fills out the Avatar's picture-language. It is
    the one place the word belongs, because there it means pictures.
+
+## Directive 410 — `word` AND `meaning`. The pair is a BINDING.
+
+**THE NAME CC STOPPED FOR, and Lonnie reasoned it out from what the
+thing actually is.**
+
+`learning.js` holds two variables side by side:
+```
+word      "chilly"     what it heard
+mark      COLD         what that word turns out to mean
+```
+The second was called `mark` because when the file was written the
+mind's only vocabulary was the 402, so a meaning was always one of
+them. That was accurate. 344 made the mind's language English and 297
+put the geometry underneath, and the name stopped being true.
+
+**HIS REASONING, and it gives the right name:** it is A FORM OF
+ATTACHMENT. The two are linked by MEANING, and that link is what
+positions the word in the space.
+
+**THE RULING**
+```
+word       the word it heard
+meaning    what that word means
+binding    the pair, and what the geometry binds
+```
+1. `mark` in that role becomes `meaning`. The local CC named
+   `meanings` out of necessity is that same thing and stands.
+2. THE PAIR IS A BINDING — the geometry's own vocabulary, and true
+   whether the meaning is one of the 402 or an English word.
+3. THE BOUNDARY CC DREW IS CORRECT AND STANDS: `word_links.mark` is a
+   DATABASE COLUMN, and the record and being-file keys are WIRE KEYS.
+   Neither is a variable, a function, a comment or a report, so 409.1
+   never reached them, and 409.4's byte-identical requirement forbids
+   touching them. Renaming a stored column rewrites his saved minds.
+   Leave them.
+4. THE FOURTH BREAKAGE IS THE LESSON TO KEEP, in CC's own words: a
+   green hash proves the paths the FIXTURE RUNS. perceiving.js broke
+   and hashed clean because the fixture never exercises the senses.
+   Say what else the fixture does not touch, so nobody reads a green
+   hash as wider than it is.
