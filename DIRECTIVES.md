@@ -10928,3 +10928,43 @@ touched.
 **PROVE IT** on the same seed and the same 400 ticks, before and
 after: known, marks, English. And say plainly whether curiosity's
 subjects are now English as well as marks.
+
+## Directive 408 — THE ELEVEN REMAINING CAPS COME OUT
+
+**HIS RULING** — all of them, on 339: nothing decides what the mind
+may do except the mind.
+
+```
+thinking.js:132        what it may think about from curiosity      2
+thinking.js:145        WHAT IT MAY SAY                            4 words
+thinking.js:355        curiosity again, on the training path      2
+thinking.js:361        its interests, inside thinking             6
+thinking.js:389        the memories it may draw on                2
+experiencing.js:1072   what it may notice in a moment             3
+stories.js:326/335     what a story's lesson is made of           3
+soul.js:255            its oughts                                 5
+soul.js:334/335        what it is drawn to and away from          2 / 2
+voice.js:532           what it says it understood                 3
+goals.js:88            the needs it weighs when none is bottomed  1
+```
+
+**FIVE OF THEM ARE INSIDE `thinking.js` — the mind's own thinking —
+and one is a cap on WHAT IT MAY SAY at four words.** 319 and 339 took
+every cap off its line length and this one survived inside thinking
+where nobody looked.
+
+**THE CONDITION, unchanged from 405.2** — if any of these exists for a
+real reason (prompt material that would be unusable at length, a
+display that cannot hold it), SAY SO WITH THE REASON AND STOP ON THAT
+ONE. Do not swap a small number for a bigger one; that is the same
+fault wearing a nicer figure.
+
+**AND THE CORRECTION IS ACCEPTED, on the record:** the twelve in
+learning.js was not starving anything — the view already sent
+`owned_words` complete beside it. It went because a number nobody
+ruled does not stay, not because it hid something. That distinction
+matters and CC was right to draw it.
+
+**PROVE IT:** the same seed and the same 400 ticks, before and after,
+with the longest line the mind speaks named — that is the one his eye
+will read.
