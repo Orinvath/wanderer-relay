@@ -40072,3 +40072,52 @@ SECOND BODY that proves the cord contract drives two different bodies with no co
 own proof), and the view's `embodiment` line falls back to its description. **Removing it deletes a
 real contract proof and changes what his panel says, so it waits on his word rather than going
 quietly.**
+
+---
+
+# WHERE EVERYTHING STANDS — the whole board, so nothing is sitting unseen.
+
+## DONE AND ON HIS BENCH (`32c351a`, page and server)
+
+```
+400  the bars              /50 struck. VOCABULARY climbs the age curve to 42,000; the other
+                           three read against 100 with "his working scale, not a finding" beside them.
+402  the ledger            /ledger serves all three models apart. Answered: EVERY ONE of the ninety
+                           calls a minute is the TEACHER. 199 calls for 8 delivered lines.
+     drop reasons          recorded for the first time -- 194 of 197 refusals were ONE padded word.
+404  the glyph filter      out of learning (TWO sites, one named), stories and dreams.
+405  the four caps         out. Story beats: ceiling of 3 every run before, 7/10/11 after.
+406  the body wire         embodiment, cord and nerves are silent with no body attached.
+     THE CORE              its own node in core.js -- channels, colour, pulse, motion, feed.
+                           Colour, pulse and urge are mind signals and touch no body.
+```
+
+## WAITING ON HIM — nothing moves on these until he rules
+
+```
+403   THE TEACHER'S RULES. Two invented ones named and ready to remove; THREE COLLISIONS with his
+      own earlier rulings raised and not settled -- chiefly whether a naming line stops treating
+      every word as a claim about the mind. The 142 HEART refusals hang on that answer.
+404.4 curiosity.js:182 and thinking.js:661 -- the same glyph filter, found, not changed.
+405.3 SIX more caps, five of them inside thinking.js, INCLUDING A CAP ON WHAT THE MIND MAY SAY
+      at four words. Listed, not changed.
+      SphereEmbodiment -- the retired body class. The suite uses it as the second body that proves
+      the cord contract; removing it deletes that proof and changes his panel.
+```
+
+## RED AND NOT MINE — measured across three commits, including before today's work
+
+```
+ 9 · 10 · 14 · 55   four phase-3 checks, failing identically before 404, before 405, and now.
+                    ALL FOUR PRINT THEIR PASS TEXT BESIDE THE RED MARK, so none of them says what
+                    actually failed. That reporting fault is in at least four checks.
+172                 the gauge counts inflections -- YOUS, ARES, SAFES. Left red on purpose.
+```
+
+## STILL OPEN FROM EARLIER, UNREPAIRED AND UNFORGOTTEN
+
+```
+234/235  the story felt-trail is flat        219  memory leads the draw
+383.4    a halted board freezes lit          347  waiting on the Director's 42 claims
+365      55 of 95 call sites still unnamed
+```
