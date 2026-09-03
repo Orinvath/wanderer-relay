@@ -39868,3 +39868,61 @@ CHARACTER, DISPLAY, OR NOT THE MIND -- correct as they stand:
 
 **FIVE OF THE SIX SIT IN `thinking.js`, which is the mind's own thinking** — including a cap on
 WHAT IT MAY SAY at four words. **Not changed, per 405.3, which asks for the list and not the fix.**
+
+---
+
+# BUILT — Directive 406. The gate is in and proven. BUT IT WILL NOT FIRE ON HIS BENCH, and here is why.
+
+## WHAT IT DOES, PROVEN — 30 ticks, cord empty
+
+```
+                    embodiment    nerves    thinking
+body attached            30          30         69
+NO body attached          0           0         69     ← dark, and the mind is IDENTICAL
+```
+
+**406.1, 406.2 and 406.4 all in one measurement.** One place asks the question — `hasBody(cord)` in
+embodiment.js — and rest.js, watching.js and closing.js all ask it there.
+
+**AND I NEARLY SHIPPED A REAL BUG DOING IT.** My first version returned early from `closeTick`,
+which would have carried off the two vital counters below it — the unwritten-moment check and the
+ten-at-birth check. **Those are the mind's own and have nothing to do with a body.** It now skips
+the wire and nothing else.
+
+## AND THE PART HE NEEDS TO KNOW: EMBODIMENT WILL STILL LIGHT ON HIS BENCH
+
+```
+watching.js:223    this.cord.connect(sphereReceptors(this.rendered))
+```
+
+**THE BENCH CONNECTS A SPHERE BODY UNCONDITIONALLY, every time, whatever it is running.** Its
+receptors write into `this.rendered` — a plain object — and **since the sphere came off the page
+nothing draws it.** His own live bench says so:
+
+```
+embodiment  { kind: "sphere" }        ← a body IS attached, as far as the cord is concerned
+cord        unrendered: 215           ← and 215 signals have gone nowhere
+```
+
+**So "no body attached" is not a state this bench can currently be in, and the gate I built cannot
+fire there.** This is the dead code he suspected when he asked *"there is no sphere either, we
+removed it — did you leave dead code?"* **He was right.**
+
+**TWO DOORS AND BOTH ARE HIS** (250, and I am not picking):
+- **connect the sphere only when a body is actually being shown** — line 223 becomes conditional;
+- **or count a receptor set nothing draws as no body** — `unrendered` climbing is the evidence.
+
+**Not changed. The gate is in place and correct the moment either door is chosen.**
+
+## 406.5 — WHAT ELSE SPEAKS OUTWARD
+
+```
+NERVES     same gate, done -- it was the same fault and it is closed.
+THE MODEL  already answered, two reports up: the mind asks the embedder EVERY TICK, and when
+           nothing answers, 376 hands relevance to the mind's own space. It does not emit into
+           nothing -- it notices and switches.
+THE TRACE  emits always, and must: it IS the map, not a hand-off to a body.
+THE SCHOOL only speaks when it is running; stopped, it is silent. Measured in 402.
+```
+
+**Nothing else found emitting to something that is not there. Nothing else changed** (406.5).
