@@ -39322,3 +39322,22 @@ function words it has never met and could not use.
 **I have not repaired it and I have not softened the clause** (382.4/382.5). It is red where he can
 see it, and the honest question underneath is his: **does knowing WARM mean knowing WARMED — and if
 it does, does it also mean knowing YOUS?**
+
+**AND HE ASKED WHEN IT LAST WORKED, so I measured it at four commits instead of explaining:**
+
+```
+commit    directive                      gauge  owned   hits  marks   clause 172
+aff4b68   381 the door                      47     40     17     30   FAILS
+983e8a1   387 the gauge counts English      17     56     17     46   passes
+ca87888   397 the mind knows what it knows  63     56     17     46   FAILS
+b408c0a   today's card work                 63     56     17     46   FAILS
+```
+
+**IT WAS ALREADY FAILING BEFORE 387. `hits` IS 17 AT EVERY ONE OF THEM.**
+
+**387 did not fix it — it HID it.** Taking the marks out of the count made the gauge (17) far
+smaller than the record (56), so the clause could not fail whatever the inflation was. **397 put the
+marks back and the fault came straight out again.**
+
+**So nothing regressed today.** The count has credited 17 for 10 taught words the whole way through,
+and for one commit the arithmetic happened to hide it.
