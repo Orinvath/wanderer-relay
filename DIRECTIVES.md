@@ -10715,3 +10715,42 @@ with each caller's role, in memory; nothing serves it, which is why
 4. REPORT, DO NOT REPAIR. If the teacher is burning his GPU on
    refused lines, that is a real fault with its own ruling — name it
    with the numbers and stop.
+
+## Directive 403 — THE TEACHER MAY SAY WHATEVER IT WANTS. The guard keeps the MODEL on task, nothing more.
+
+**HIS RULING, and it is not a discussion:**
+- THE TEACHER MAY SAY WHATEVER IT WANTS IN A STORY.
+- THE GUARD EXISTS FOR ONE THING: keeping the MODEL from acting like
+  a model instead of a teacher. It has nothing to do with teaching
+  and it is not a rule about what may be taught.
+- RULES WERE INVENTED THAT LIMITED WHAT THE TEACHER COULD SAY. He was
+  never told about them. THEY WERE WRONG.
+- AND NOBODY EVER TESTED HOW THE TEACHER BEHAVES WITHOUT THEM.
+
+**WHAT THE MEASUREMENT SHOWED** — 199 calls, 8 lines delivered, 197
+refused, 142 of those for ONE STRAY WORD. A guard meant to stop the
+model inventing was throwing away whole lines, and everything they
+were teaching, because one word was off task. 25 calls and 127
+seconds of his GPU for one line that got through.
+
+**THE RULING**
+1. EVERY INVENTED CONSTRAINT ON WHAT THE TEACHER MAY SAY COMES OUT.
+   Not loosened — out. Name each one you remove and the directive it
+   came in under, so the record shows what was invented and by whom.
+   The Director wrote several of them and they were never his to
+   write.
+2. WHAT THE GUARD KEEPS, and this is its whole job: the model must
+   not lie to the mind about ITS OWN STATE, and must not answer as a
+   model instead of teaching (234's original purpose). A line that
+   claims something false about the mind or its host is still
+   refused. That is the leash.
+3. A STORY IS NOT A CLAIM ABOUT THE MIND. Fiction, description,
+   anything the teacher wants to say about a bird or a river or a
+   heart — none of it touches the leash and none of it is refused.
+4. THEN TEST IT WITHOUT THE RULES, which has never been done: run the
+   school and report what the teacher actually says, how many lines
+   are delivered against calls made, and whether the mind learns
+   faster. Post the lines for his eye.
+5. DO NOT REPLACE THEM WITH SOFTER RULES. The disposition is his.
+   If removing something breaks the leash's real job, say so and stop
+   rather than inventing a gentler version of the same mistake.
