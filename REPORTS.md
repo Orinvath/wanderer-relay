@@ -38992,3 +38992,63 @@ the gauge no longer reads.
 
 **The LEARNED-feed fault reported above is still waiting on his word** — it is the one where a mind
 alone learns 21 words and the panel says nothing.
+
+---
+
+# 396 — THE COMMIT IS `983e8a1`, AND IT IS HIS OWN RULING. The model rework did not touch it.
+
+**One script, one seed, taught the same four English lines for 200 ticks, run at every commit
+across the rework and after it.**
+
+```
+commit    directive                                   GAUGE   age    ENGLISH   owned
+bd7e4c7   371 one vocabulary                             33   1.44        14      28
+fb0aa04   372 the mind thinks in its own language        34   1.44        14      29
+bac527f   373 a description is not a prediction          34   1.44        14      29
+8c957ed   376.1 THE PROBE COMES OUT                      26   1.40        14      21
+2165b7e   376 memory measures nearness itself            34   1.44        14      29
+fd83360   378 the cosine lane moves to the model's file  34   1.44        14      29
+aff4b68   381 the door passes on mismatch                37   1.45        14      32
+983e8a1   387 THE GAUGE COUNTS ENGLISH                   14   1.30        14      42
+9227f10   395 (HEAD)                                     14   1.30        14      50
+```
+
+## THE ANSWER, in one line of that table
+
+**`ENGLISH` IS 14 AT EVERY SINGLE COMMIT.** 371, through the whole model rework, to now. **The
+number of English words the mind can demonstrate has not moved by one, and 375–379 did not touch
+it.**
+
+**What fell is the GAUGE, and it fell at `983e8a1` — 387 — from 37 to 14**, because 387 struck
+`learnedMarks` from the count. **That is his own ruling from a few hours ago: the gauge counts
+English, the marks are the Avatar's and are not a measure.**
+
+**And `owned` KEEPS RISING while the gauge does not: 28 → 50.** The mind is learning more every
+hour. Almost all of it is marks, and marks stopped counting this evening.
+
+## 396.3 — THEY ARE NOT THE SAME FAULT, and here is the proof rather than the assumption
+
+**The announcement fault is about the LEARNED FEED** — 21 words owned, 0 lines written — and it sits
+in `experiencing.js:273`, inside the spoken-to branch. **It has been there since thinking could own
+words.**
+
+**This is about the GAUGE NUMBER**, which is `litmus.js: score: hits`, and it changed at 387.
+**Different file, different line, different day.** Reverting one would not touch the other.
+
+## SO THERE IS NOTHING TO REPAIR HERE
+
+**396 says fix it if the cause is clear. The cause is clear and it is a ruling, not a fault** — so I
+have changed nothing. **Undoing it would be undoing 387, and that is his to say, not mine to
+"repair".**
+
+## ON HIS BENCH, as 396 asks
+
+```
+ticks 56 · KNOWN WORDS 0 · MARKS 14 of 402 · nobody has spoken to it
+```
+
+**KNOWN WORDS 0 is correct on that mind: nothing has ever been said to it, so it has met no English
+to demonstrate.** MARKS 14 and climbing is its inner learning, showing where 390 put it.
+
+**The number he remembers being higher was mostly marks. It is the same mind, learning at the same
+rate, measured against a narrower rule that he set.**
