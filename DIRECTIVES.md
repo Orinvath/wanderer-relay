@@ -10584,3 +10584,24 @@ the count and that part of it is STRUCK.
    thinking with 0 lines in LEARNED, because the announcement sits
    inside the heard branch. Words learned by thinking are known
    words. Fix it here.
+
+## Directive 398 — THE MARKS LINE IS A MILESTONE MARKER. NOTHING ELSE. EVER.
+
+The marks line stays on the panel. It is not hurting anything. But it
+has now pulled the Director and CC back into treating it as a measure
+THREE TIMES, and each time it cost him a round of correcting us.
+
+**WHAT IT IS, and this is its whole meaning:** a marker for the day
+the mind has learned enough of the 402 to be asked to make more. That
+day is a long way off — no real test has been run yet.
+
+**WHAT IT IS NOT, and never again:**
+- not a measure of the mind;
+- not part of KNOWN WORDS, the vocabulary bar, the language age, or
+  any other reading;
+- not something anything is subtracted from or compared against;
+- not a reason to discount a word because it arrived as a mark
+  (397.2).
+
+If either of us reaches for it as a measure again, the answer is this
+directive and nothing needs re-deciding.
