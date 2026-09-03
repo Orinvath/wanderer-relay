@@ -39269,3 +39269,56 @@ resident after          qwen2.5:14b · nomic-embed-text        ← moondream is 
 
 **A provider's model is somebody else's machine, so there is nothing to unload there and it does
 not try.** His bench was untouched and the test bench was stopped — both checked.
+
+---
+
+# BUILT — the card is freed on switch as well as detach. AND A NEW FAULT, left red.
+
+## THE CARD — his reason for removing a model is to get the GPU back, so all three paths do it
+
+```
+attach moondream          card: moondream · qwen2.5:14b · nomic-embed-text
+SWITCH to qwen2.5:3b      freed moondream in 20 ms, then warmed the new one in 2,746 ms
+                          card: qwen2.5:3b · qwen2.5:14b · nomic-embed-text   ← moondream gone
+DETACH                    card: qwen2.5:14b · nomic-embed-text                ← 3b gone too
+```
+
+**The old one goes BEFORE the new one is warmed, so the card is never holding both.** A provider's
+model is somebody else's machine, so nothing is attempted there.
+
+**AND THE TEACHER'S IS THE SAME** — the school's Stop already takes qwen2.5:14b off, 9.5 GB, tested
+earlier. **Both sides of the card, as he asked.**
+
+*(One note on reading it: Ollama releases a moment after it answers, so `ollama ps` straight after a
+detach can still show it. I checked three seconds later and it was gone — the first look fooled me
+and I went back rather than reporting it as failing.)*
+
+## AND A FAULT THE SUITE CAUGHT ON THE WAY — clause 172, and I have left it red
+
+```
+172  and it never reads more than the record says it learned — 38 counted against 31 in the record
+```
+
+**The check is right and the gauge is inflating.** Measured on a mind taught four English lines for
+400 ticks:
+
+```
+owned    56  =  46 marks  +  10 English words it was actually taught
+gauge    63  =  17 hits   +  46 marks
+```
+
+**It learned 10 English words and is credited with 17**, because the English pool contains
+inflections that resolve through the stem:
+
+```
+WARMING · WARMED · WARMS      fair — it learned WARM
+ARES · YOUS · SAFES · HERES · QUIETS   NOT FAIR — these are not words anyone knows
+```
+
+**"YOUS" and "ARES" are in the pool because the word list vouches for them, and they resolve because
+`strip()` finds the stem it learned.** So the count credits the mind for plural and verb forms of
+function words it has never met and could not use.
+
+**I have not repaired it and I have not softened the clause** (382.4/382.5). It is red where he can
+see it, and the honest question underneath is his: **does knowing WARM mean knowing WARMED — and if
+it does, does it also mean knowing YOUS?**
