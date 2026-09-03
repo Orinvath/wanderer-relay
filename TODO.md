@@ -119,3 +119,27 @@ four things above, all of which he can run himself.
 **On "not finished":** every number measured so far is a mind
 mid-build. No real test can be run until there is nothing more to
 build, and nothing in this file forgets that.
+
+## 11 · VISUALISE THE LANGUAGE SPACE
+
+**His picture:** something like the Mind Map, but of the mind's
+LANGUAGE — words sitting close to each other by meaning, the whole
+thing growing and shifting as it learns.
+
+**It already exists and nobody has ever looked at it.** Every word the
+mind owns has a position in the 10,000-dimension space (297), placed
+by what it has been bound to, moving as bindings strengthen and wash
+out. There is no work to do to make it exist. The work is showing it.
+
+**The technique is the one he found himself** — GraphPU's
+force-directed physics, where clusters EMERGE from the connections
+rather than being laid out by hand. It was the wrong tool for the
+Mind Map, whose order is the tick's order. It is the RIGHT tool here,
+because a language space genuinely is a relationship network, and its
+clusters are the mind's own idea of what belongs together.
+
+**Worth building when the mind has enough words to make it worth
+looking at.** Six words is a dot; six hundred is a picture of how it
+thinks.
+
+NOT SCHEDULED. Recorded so it is a decision when its time comes.
