@@ -10754,3 +10754,56 @@ seconds of his GPU for one line that got through.
 5. DO NOT REPLACE THEM WITH SOFTER RULES. The disposition is his.
    If removing something breaks the leash's real job, say so and stop
    rather than inventing a gentler version of the same mistake.
+
+## Directive 404 — THE GLYPH FILTER IS IN THREE MORE FILES. Take it out of all of them.
+
+**THE FEATURE** — what words the mind may learn a meaning for, and
+what words its dreams and imaginings may be made of.
+
+**WHY IT MATTERS** — HIS FINDING: of 129 known words, 113 ARE MARKS.
+That is not the mind favouring marks. IT IS EXCLUSION, and he named
+the place to look — anything that makes marks a priority.
+
+**WHAT THE DIRECTOR FOUND, three files, the same filter 372 already
+struck from thinking:**
+```
+learning.js:126   if (!OWNED_MARKS.has(l.mark)) continue
+                  working out what a word MEANS considers only the
+                  402. A link to an English word is skipped, so a
+                  word can only ever come to mean a mark.
+stories.js:57     a story's words filtered to WORDS.includes(w).
+                  EVERYTHING IT IMAGINES is made only of marks.
+sleep.js:222      a dream keeps only words that are marks. Every
+                  English word it learned is dropped before the
+                  dream is built.
+```
+**HE FLAGGED DREAMING AND IMAGINING SPECIFICALLY and he was right:
+those two can only ever teach it marks.**
+
+**WHEN** — all three predate 344, when the 402 WERE the mind's whole
+language and the filters were correct. 344 made the mind's language
+English and the marks the Avatar's. 372 took the filter out of
+thinking and nobody looked for the others.
+
+**HE HAS RULED** — 344 (the mind's language is English at full scale);
+372 (thinking draws from what the mind KNOWS, not from glyphs.js);
+397 (the mind knows what it knows, and how it learned a word is never
+a reason to discount it). All three say the same thing and these
+three files contradict all of them.
+
+**THE RULING**
+1. THE FILTER COMES OUT OF ALL THREE. Learning considers a link to
+   ANY word it knows. A story may be made of any word it knows. A
+   dream may keep any word it knows.
+2. WHAT IT DOES NOT KNOW IS STILL EXCLUDED — this hands it its own
+   vocabulary, not the dictionary (372.4).
+3. THE MARKS ARE NOT DEMOTED EITHER. They are words it knows and they
+   stay in the pool on equal terms (398).
+4. THEN SEARCH FOR THE REST. Every remaining use of `WORDS`,
+   `OWNED_MARKS`, `WORDS_BY_STEM` or `glyphs.js` in a MIND file, and
+   for each say whether it is the Avatar's glyphs doing an Avatar's
+   job — the censor's mark-matching, the display, the sheets — or the
+   same fault again. LIST THEM ALL; this is the fourth file and the
+   Director has now missed it twice.
+5. PROVE IT ON HIS BENCH: the same mind, before and after — known
+   words, and how many of them are marks. The 113 of 129 must move.
