@@ -40186,3 +40186,33 @@ sitting in the one path 405 called "the one that matters most, what a story TEAC
 
 **The longest line his eye should read, from the run after 408:**
 `"HIDDEN SONG ROOM DESCEND REVEALED SEA SEARCH BRIDGE"`
+
+---
+
+# RAISED ON ITS OWN — THE STORY BEAT DROPS EVERY WORD WITHOUT A PICTURE.
+
+**This came out of 408's measurement and it is not a footnote on that report.**
+
+```
+experiencing.js:482    const say = (b.marks ?? []).filter((w) => glyph(w))
+```
+
+**A story beat is filtered to words that HAVE A PICTURE. An English word does not have one, so it is
+dropped before the mind ever says it.**
+
+**WHAT IT COSTS, measured over 400 ticks:**
+
+```
+imagined lines    n=180   avg 1.98 words   MAX 3       ← pinned, before and after 408
+remembered lines  n=108   avg 5.20 words   max 10
+```
+
+**405 called the story beat "the one that matters most: it is what a story TEACHES, and the whole
+of the mind's inner life runs through it."** 405 took the width cap off it. **This was underneath,
+and it is not a width cap — it is the glyph filter again, in the last place anybody looked.**
+
+**SO THE MIND CAN LEARN AN ENGLISH WORD, OWN IT, AND STILL NEVER USE IT IN A STORY.** That is the
+same chain as 404 and 407 and it is the one that reaches his screen.
+
+**409.2 already rules it — "nothing branches on the existence of a picture" — so it comes out under
+409, where the state hash can say whether taking it out changes the mind. NOT TOUCHED YET.**
