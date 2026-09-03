@@ -202,3 +202,39 @@ has already had a map that drew lines nobody could verify (365).
 4. NOTHING IS DRAWN THAT THE SPACE DOES NOT HOLD. A word with no
    bindings has no position and is not placed — same law as 365's
    connectors: no line without an event, no point without a vector.
+
+### 11c · THE HUMAN BASELINE ALREADY EXISTS — use it, do not rebuild it
+
+**His question: are we reinventing the wheel?** No for the object, yes
+for the technique — and the technique is off the shelf.
+
+**WHAT EXISTS, and it is large:** Small World of Words (De Deyne et
+al.) — over 12,000 cue words and millions of responses, in several
+languages; the older USF free association norms; the Human Brain
+Cloud game; and network analyses of all of them.
+
+**WHAT THEY ARE MAPS OF** — HUMANS. What people associate, averaged
+over thousands of them. Not what one mind understands from its own
+life. No dataset can tell him what HIS being understands, so nothing
+here replaces the Language Stage.
+
+**WHAT WE TAKE, AND DO NOT BUILD:** the measures and the methods.
+Network analysis, clustering coefficient, average path length, node
+centrality, and the visualisation techniques. All established, all
+published.
+
+**AND WHAT IT GIVES US THAT IS BETTER THAN A SHORTCUT — A BASELINE.**
+The findings are consistent across datasets and languages: human
+semantic networks are SMALL-WORLD — sparse connectivity, short
+average path lengths, strong clustering, organised into highly
+connected hubs — and the CENTRAL NODES ARE HIGHLY FREQUENT WORDS,
+ACQUIRED EARLY (Steyvers & Tenenbaum 2005; De Deyne et al. 2019).
+
+**SO IT JOINS SECTION 2 AS A MEASURABLE VALIDATION:** if the mind's
+own language space develops small-world structure on its own —
+clustering, short paths, and hubs that turn out to be its earliest and
+commonest words — that is the documented human pattern appearing in
+something nobody built it into. Same class as the vegetative-state
+finding, except this one can be MEASURED rather than stumbled on.
+
+Rows to REFERENCES.md when it is built.
