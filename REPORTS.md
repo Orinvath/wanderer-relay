@@ -39474,3 +39474,75 @@ already has its row and covers the vocabulary bar. **The Director should supply 
 *(Housekeeping, and it was mine: nine commits — everything from the Load button through yesterday's
 card work — had landed on a detached head instead of the branch. All nine are on master and pushed
 now. Nothing was lost and nothing was rewritten.)*
+
+---
+
+# ANSWERED — Directive 401. THE MODEL IS NOT WRITING THE MIND'S LINES. Measured live, nothing changed.
+
+**I did not have to add anything to prove this.** Ollama's own request log records every call with a
+timestamp, and his bench was running the whole time.
+
+## 401.2 — MODEL CALLS DURING A TICK: ZERO
+
+A 70-second sample taken on his bench while it was thinking:
+
+```
+ticks lived      18   (tick 45 -> 63)
+requests total   18   ← exactly one per tick
+generate calls    0   ← NOT ONE
+```
+
+**Eighteen ticks of thinking and not a single call that produces text.** And the minute-by-minute
+log says the same for the whole five minutes before it:
+
+```
+21:02   generate  0    embeddings 12
+21:03   generate  0    embeddings 11
+21:04   generate  0    embeddings 14
+21:05   generate  0    embeddings 13
+21:06   generate  0    embeddings 11
+```
+
+**The Director's reading of the code was right.** Nothing in the tick asks a model for words.
+
+## 401.3 — BUT SOMETHING DOES REACH IT, EVERY SINGLE TICK
+
+```
+one POST /api/embeddings per tick, 27-50ms, without fail
+```
+
+**That is `memory.recall` asking for the moment's vector, and it is not idle: it decides WHAT THE
+MIND FINDS RELEVANT.** With the embedder answering, the cosine lane sets which memories clear;
+with it gone, 376 hands that to the mind's own ten-thousand-dimension space instead.
+
+**Both are lawful and both are his rulings — but it means the mind's sense of what matters runs on
+the model whenever the model is up, and on its own geometry when it is not.** He should know that
+is the switch, because it is the one place the model still sits inside a tick.
+
+## AND THE WINDOW WHERE HIS LONG LINES CAME FROM — I cannot close this half honestly
+
+```
+20:42   generate  83     20:50   generate  73     20:58   generate  61
+20:45   generate  88     20:53   generate  59     21:01   generate  40
+20:49   generate  86     20:56   generate  65     21:02   generate   0   ← school stopped
+```
+
+**That is the school running, and 88 calls a minute is roughly one and a half every second** — far
+more than a teacher delivering a line every few seconds should need. **It is consistent with the
+fault already on this relay: the teacher drops every line it is given, so it asks again.**
+
+**FROM THE LOG ALONE I CANNOT SAY WHICH ROLE MADE THOSE CALLS.** Ollama records the path, not the
+caller. `model.ledger` holds the last 500 calls WITH their role, in memory on his bench right now —
+**but nothing serves it, and exposing it is a new route and a restart of the bench he is watching.
+401.4 says change nothing, so I have not.**
+
+**What I could not do either:** post his actual long lines beside their path. His bench has been
+restarted since; the exchange holds twelve lines from a 63-tick mind, and they are short act lines
+carrying its own marks — `ENVY AWE SONG`, `JOY TRUTH` — not English sentences at all.
+
+## SO, PLAINLY
+
+**While the mind is thinking on its own, the model is not in the path and is not writing anything.**
+The verbosity is its own grammar assembling from its patterns, which is the separate matter 401
+already named for his ruling. **The two things I could not prove without touching his bench are
+named above rather than assumed.**
