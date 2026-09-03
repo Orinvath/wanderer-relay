@@ -38969,3 +38969,26 @@ word becoming owned however it happened — lived, told, or thought. It is a few
 nothing about the learning itself.
 
 **Waiting on his word.**
+
+---
+
+# BUILT — 395. The reach line is off the page. `9227f10`
+
+```
+was:   VOCABULARY  48 / 50    402 of 402 reachable · state table alone 51
+now:   VOCABULARY  48 / 50
+```
+
+**The measurement still runs and is still carried in the record** — verified on a live mind, the
+VOCABULARY part still holds `{ words: 402, of: 402, by: { language: 319, made-for: 73, … } }`.
+**Only the display came off, exactly as 395 says.** The CSS class it used went with it; nothing else
+on the panel moved.
+
+**306.A's line did its job when 307 landed.** The marks are not a measure (387) and the mind's
+language is English (344), so a count of how many of the 402 it can reach was measuring something
+the gauge no longer reads.
+
+**Suite 534 of 539** — unchanged: 219, 234, 235 stable and unrepaired, the rest the teacher family.
+
+**The LEARNED-feed fault reported above is still waiting on his word** — it is the one where a mind
+alone learns 21 words and the panel says nothing.
