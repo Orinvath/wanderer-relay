@@ -39052,3 +39052,66 @@ to demonstrate.** MARKS 14 and climbing is its inner learning, showing where 390
 
 **The number he remembers being higher was mostly marks. It is the same mind, learning at the same
 rate, measured against a narrower rule that he set.**
+
+---
+
+# BUILT — 397 and 398. The mind knows what it knows. `ca87888`
+
+## 397.1 — THE COUNT IS EVERYTHING IT CAN DEMONSTRATE
+
+```js
+litmus.js   score: hits + learnedMarks      // was: hits
+```
+
+**387's exclusion is struck, and the reasoning it rested on was false: A MARK IS A WORD WITH A GLYPH
+ATTACHED.** Knowing the mark SONG is knowing the word song. **355 is the only exclusion and it
+stands** — `owned` is empty at birth and a mark enters it only when living has bound it a meaning.
+
+## 397.5 — ONE NUMBER, NOT TWO
+
+```
+was:   KNOWN WORDS 0        VOCABULARY 10 / 50      ← same mind, two readings
+now:   KNOWN WORDS 12       VOCABULARY 12 / 50
+```
+
+**The bar read what the mind OWNS and the line read what it could DEMONSTRATE in English.** Both now
+read the gauge's own count, because they are one thing.
+
+## 397.6 — AND THE FEED SAYS SO
+
+The announcement moved out of the spoken-to branch to the end of the tick, where it sees a word
+crossing into owned **however it happened.** Measured, a mind alone for 150 ticks:
+
+```
+                    before        after
+words it learned        21            20
+lines in LEARNED         0            20      e.g.  "cup → LOCK  [thought]"
+KNOWN WORDS              0            12
+```
+
+**Every line carries HOW it was learned — `thought` or `lived`** — so the feed says which without
+the count caring, which is 397.2 exactly: how it learned a word is not a reason to discount it.
+
+**And the backlog danger is gone with it.** `knownWords` is filled every tick now, so the first time
+he speaks after a long silence there is nothing dammed up to dump into the feed as though learned in
+that one tick.
+
+## 398 — THE MARKS LINE IS MARKED, IN THE CODE, SO NOBODY REACHES FOR IT AGAIN
+
+The comment at the marks count now says what it is — **a milestone marker for the day the mind can
+be asked to make new marks** — and what it is not: not a measure, not part of KNOWN WORDS or the
+bar or the age, not something anything is subtracted from, and not a reason to discount a word for
+arriving as a mark. **It names that it has pulled us in three times, so the next reader stops.**
+
+## TWO THINGS I GOT WRONG ON THE WAY, both caught by checking
+
+**My own verification was wrong before the build was.** I read `w.notes` for the feed and the field
+is `w.learned` — so my first check said 0 lines when the fix was already working. **The tool was
+broken, not the build, and I checked the tool before believing it.**
+
+**And my focus guard threw inside the page's draw()** — `box.contains is not a function` in the
+suite's stub DOM. **The suite's own clause caught it, which is what that clause exists for.** A
+panel guard has no business breaking the whole page, so it can no longer throw.
+
+**Suite 532 of 539.** 234 and 235 are the flat felt-trail, still reported and unrepaired; the rest
+is the teacher family.
