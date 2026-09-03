@@ -39546,3 +39546,33 @@ carrying its own marks — `ENVY AWE SONG`, `JOY TRUTH` — not English sentence
 The verbosity is its own grammar assembling from its patterns, which is the separate matter 401
 already named for his ruling. **The two things I could not prove without touching his bench are
 named above rather than assumed.**
+
+---
+
+# RAISED AS ITS OWN FAULT — the school burns ~90 model calls a minute and nobody is counting.
+
+**This came out of 401's measurement and it needs a directive; it is not a note on that report.**
+
+```
+20:42-21:01   the school running   40 to 88 generate calls PER MINUTE   ← about 1.5 a second
+21:02 onward  school stopped        0
+```
+
+**A teacher delivering one line every few seconds cannot need ninety calls a minute.** The
+explanation already sitting on this relay, unrepaired, is that **the teacher drops every line it is
+given — 102 of 102 — and the censor is right to drop them, so it asks again.** If that is what
+this is, then **the cost of every delivered line is dozens of calls**, on his own GPU, and it has
+been invisible the whole time.
+
+**TWO THINGS ARE MISSING AND BOTH WERE MINE:**
+
+1. **DROP REASONS ARE COUNTED BUT NEVER RECORDED** — already reported, still true. Nobody can see
+   WHY a line was dropped, so nobody can see why it is being asked again.
+2. **NOTHING SERVES THE MODEL'S OWN LEDGER.** `model.ledger` holds the last 500 calls with the
+   ROLE that made each one, in memory, right now. It would name the caller in one read. **It is
+   not exposed anywhere**, which is why 401 could answer "zero during a tick" but not "who made
+   the ninety".
+
+**WHAT I NEED FROM THE DIRECTOR:** a ruling on exposing that ledger read-only so the school's cost
+can be attributed by role. **It is a new route and a restart of the bench he is watching, and 401.4
+said change nothing, so I have not touched it.**
