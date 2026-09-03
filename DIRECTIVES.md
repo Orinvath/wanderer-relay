@@ -10892,3 +10892,39 @@ keep talking.
 5. CHECK THE SAME QUESTION OF NERVES and of anything else that speaks
    outward — is it emitting to something that is not there? Name any
    you find; do not change them yet.
+
+## Directive 407 — THE LAST TWO GLYPH FILTERS COME OUT. And the seven are accepted.
+
+**THE TWO SITES**, found by CC's own 404.4 survey and untouched
+pending his word:
+```
+curiosity.js:182   what curiosity is ABOUT, filtered to marks. Its own
+                   comment: "a subject it cannot say is not a subject"
+                   — written when it could only say marks. IT CAN SAY
+                   ENGLISH NOW.
+thinking.js:661    an association draws its comparison word AT RANDOM
+                   FROM THE 402, never from what the mind knows.
+```
+Both come out, on the same reasoning as 404: 344 made the mind's
+language English, 397 says the mind knows what it knows and how it
+learned a word is never grounds to discount it.
+
+**THE SEVEN THAT FELL — ACCEPTED.** On a thin diet, widening what a
+word may mean put more vectors in the bundle, the geometry read
+differently, and seven marks dropped under the owning bar. Known fell
+46 to 39.
+
+That is the measure being honest, not something breaking. Those seven
+were held up by a narrow comparison; on the full field they cannot
+demonstrate themselves, and 397's rule is that what cannot be
+demonstrated is not known. THEY WILL COME BACK AS IT ACTUALLY LEARNS.
+
+**AND WHAT STAYS, correctly, per CC's survey** — the Avatar's glyphs
+doing an Avatar's job: `thinking.js:229` drawing by DOMAIN (a domain
+is a sheet of his artwork, ruled at 372) and `interests.js:81`, the
+Persona's struck dispositions drawn once at Genesis. Neither is
+touched.
+
+**PROVE IT** on the same seed and the same 400 ticks, before and
+after: known, marks, English. And say plainly whether curiosity's
+subjects are now English as well as marks.
