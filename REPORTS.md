@@ -39341,3 +39341,64 @@ marks back and the fault came straight out again.**
 
 **So nothing regressed today.** The count has credited 17 for 10 taught words the whole way through,
 and for one commit the arithmetic happened to hide it.
+
+---
+
+# BUILD REPORT — Directive 399, THE /50. Planned, not built. One decision left in it.
+
+## WHAT THE 50 IS AND WHERE IT LIVES
+
+```
+watching.js:132   WORDS: 50,   // words it has pinned a meaning to, beyond the 402 it was born with
+watching.js:1268  part('VOCABULARY', measured().vocabulary, GROWTH.WORDS, ...)
+bench-page.js:2294   p.have + ' / ' + p.target        ← the only place "12 / 50" is printed
+bench-page.js:2274   (p.share || 0) * 100             ← the rail's fill
+```
+
+`share` is `have / target`, so the 50 sets BOTH the printed target and how full the rail looks.
+**Cutting the number without saying what the rail reads instead leaves the bar with nothing to
+fill against.**
+
+## THE RANGE IS ALREADY IN THE BUILD — I am not inventing one (step 6b)
+
+```
+litmus.js:257   export const ADULT_WORDS = 42000   "the curve's own top anchor -- 344's 42,000"
+litmus.js:266   between two anchors, ON A LOG SCALE -- vocabulary grows multiplicatively
+```
+
+**So the real range and the fact that it is read logarithmically are both already ruled** — 344 for
+the 42,000, and the age curve for the shape. Nothing new is needed to answer "against what".
+
+## AND HERE IS THE DECISION I WILL NOT MAKE
+
+**There are two lawful ways to sit the count on that range, and they draw differently:**
+
+```
+                                        at 12 words      at 12,000 words
+A  the age curve            age / 20         7%               63%
+   (the same anchors the reading already uses -- newborn, 18 months, adult)
+
+B  plain log to 42,000   log v / log 42000   23%               88%
+```
+
+**A** is the curve the mind is already measured against, so the bar and the age reading move
+together and can never disagree.
+**B** is the raw share of the language, and reads fuller earlier.
+
+**Neither is more correct and I am not choosing between them** (250, 188). **And the second half is
+his too: with the target gone, what does the readout SAY** — `12 words`, or `12 of 42,000`, or the
+percentage? The bar's own text is a wording decision.
+
+## THE OTHER INVENTED TARGETS, NAMED AND NOT TOUCHED (399's last line)
+
+```
+watching.js:133   PAIRS:    100    GRAMMAR
+watching.js:134   THREADS:   10    TOPICS
+watching.js:135   BELIEFS:   10    BELIEFS
+```
+
+**All three are bare numbers with no source in the comment beside them and no ruling behind them —
+the same shape as the 50.** 071 covers them: a constant is a decision nobody made. **They stay
+exactly as they are until he says otherwise.**
+
+**Nothing is built. Waiting on the two answers.**
