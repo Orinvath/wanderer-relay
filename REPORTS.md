@@ -39211,3 +39211,61 @@ the teacher's model onto the GPU…", then the model name and how long it took, 
 not. **A failure is printed, never swallowed.**
 
 **Suite 534 of 539** — 219, 234, 235 unchanged and still unrepaired.
+
+---
+
+# WHY THE TEACHER IS NOT TEACHING — found, with the lines. And Detach now unloads.
+
+## THE TEACHER IS TEACHING. THE CENSOR IS REFUSING EVERY LINE.
+
+**Read off his own bench:**
+
+```
+/school → running: true · calls 102 · 67.5 s of model time · LINES 0 · DROPPED 102
+```
+
+**It is composing constantly and not one line reaches the mind.**
+
+## AND HERE ARE THE LINES, asked of the teacher against his own mind's state
+
+```
+"You feel SONG in your heart, but sometimes LONELINESS visits."
+    DROPPED — not true of it now: HEART SOMETIMES
+"You feel SONG in your heart, LONELINESS around you."
+    DROPPED — not true of it now: HEART
+"You feel SONG in your heart, LONELINESS in your soul."
+    DROPPED — not true of it now: HEART
+```
+
+**THE CENSOR IS RIGHT AND THE MODEL IS PADDING.** SONG and LONELINESS *are* true of his mind — I
+checked, `trueNow` returns exactly `SONG LONELINESS`, and **"SONG is with you" PASSES.** The model
+finds the two true marks, then decorates with HEART, SOMETIMES, SOUL — which are also marks of the
+402 and are **not true of it** — so 234.5a refuses the line, correctly.
+
+**It is the same fault 258 already recorded once** — *"the model to pad — four naming lines
+composed, four dropped"* — and it is back, or never fully left. **Now it is 102 out of 102.**
+
+**I have not touched the prompt.** Constraining the model harder is a change to how the teacher
+composes, and given what today has cost in rebuilds I am not reaching into it without his word.
+**The fix is in the prompt, not in the censor — the censor is doing its job exactly.**
+
+**And one thing worth knowing: a drop reason is not recorded anywhere.** `cost.dropped` counts them
+and the reason is returned and thrown away, which is why this took a live reproduction to see. **A
+count without a reason is how this stayed invisible.**
+
+## HIS OTHER ASK — DETACH NOW UNLOADS `1b363a8`
+
+**There was no way to unload a local model.** Detach cleared the attachment and left the weights on
+the card, so a model he had finished with kept GPU the mind's own work shares.
+
+**Pressed, on a second bench:**
+
+```
+attach moondream        warmed ok in 113 ms
+resident                moondream:latest · qwen2.5:14b · nomic-embed-text
+DETACH                  unloaded ok in 14 ms
+resident after          qwen2.5:14b · nomic-embed-text        ← moondream is off the card
+```
+
+**A provider's model is somebody else's machine, so there is nothing to unload there and it does
+not try.** His bench was untouched and the test bench was stopped — both checked.
