@@ -11049,3 +11049,53 @@ binding    the pair, and what the geometry binds
    and hashed clean because the fixture never exercises the senses.
    Say what else the fixture does not touch, so nobody reads a green
    hash as wider than it is.
+
+## Directive 411 — THE MEANING MAP. And both maps carry their title.
+
+**HIS RULING ON NAMES** — they are maps, not stages. THE MIND MAP and
+THE MEANING MAP, and BOTH CARRY THEIR TITLE ON SCREEN. The Mind Map
+has never had one.
+
+**WHAT THE MEANING MAP IS** — the second map. The Mind Map shows THE
+MIND WORKING; this shows WHAT IT UNDERSTANDS. Every word the mind
+owns, as a point, positioned by meaning: words about warmth near each
+other, words about company somewhere else, the whole thing growing and
+shifting as it learns.
+
+**ITS PURPOSE — a diagnostic he has no other way to get.** The gauge
+says 229 words; it cannot say whether those are a coherent picture or
+229 unrelated facts. This can:
+- clusters forming means the mind has organised its own understanding;
+- an even scatter means it has words and no comprehension;
+- A WORD IN THE WRONG NEIGHBOURHOOD IS A WRONG MEANING, visible at a
+  glance and invisible by any other means we have.
+
+**IT ALREADY EXISTS IN THE NUMBERS.** Every owned word has a position
+in the 10,000-dimension space (297), placed by its bindings (410),
+moving as they strengthen and wash out. There is no work to make it
+exist. THE WORK IS SHOWING IT.
+
+**THE TECHNIQUE** — force-directed physics, GraphPU-style, where
+clusters EMERGE from the bindings rather than being laid out. Wrong
+for the Mind Map, whose order is the tick's order. Right here,
+because this genuinely is a relationship network.
+
+**HOW WE KNOW IT IS FAITHFUL — and this is not optional:**
+1. EVERY POINT'S POSITION COMES FROM THE SPACE'S OWN NUMBERS. No
+   layout hints, no grouping by category, no arranging for looks, no
+   hand-placed clusters. The physics reads the vectors and nothing
+   else.
+2. TESTABLE BY HIM WITHOUT READING CODE: two words the mind has
+   genuinely bound together are close on screen; two it has not are
+   apart. If that fails, the map is lying.
+3. ITS OWN HEALTH CHECK: the drawn positions agree with the space, or
+   it goes red. Forced-fail at birth (254.D).
+4. NOTHING IS DRAWN THAT THE SPACE DOES NOT HOLD. A word with no
+   bindings has no position and is not placed — 365's law, applied
+   here: no line without an event, no point without a vector.
+
+**IT IS NOT A NODE.** The space is `language.js` and already has one.
+This is a window onto it.
+
+**PLAN FIRST (253).** Post the plan and wait — this is new surface and
+it touches the page.
