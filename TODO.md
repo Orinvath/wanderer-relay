@@ -67,6 +67,49 @@ own node. What it is for — an Avatar expressing feeling to a person,
 or something the mind uses itself — is HIS to say before it is
 designed.
 
+## 6 · PLANNING AND PROBLEM SOLVING — the field's own column, empty here
+
+Soar has impasses and substates; ACT-R has production learning. This
+mind CHOOSES but does not PLAN, and that is the largest gap between it
+and forty years of cognitive architecture.
+
+His answer: address it through the language and through tasks with a
+right answer (section 4). Not by importing a planner — by giving it
+things to work out.
+
+NOT DESIGNED. Recorded so the gap is a decision rather than an
+oversight.
+
+## 7 · VALIDATION AGAINST HUMAN DATA
+
+ACT-R's numbers are matched to reaction times and brain imaging. Ours
+are matched to his eye. Sections 2 and 3 are how that changes without
+anyone outside seeing it: reproduce the documented curves, and log the
+states the architecture produces that nobody built in.
+
+## 8 · ONE INSTANCE, ONE BENCH
+
+Nobody outside this room has run it, and that stands until it works.
+Worth knowing as a fact rather than a worry: everything measured so
+far is one mind, on one machine, watched by one man.
+
+## 9 · THE MIND FINISHES ITS OWN LANGUAGE
+
+Already recorded as a directive-level note on this relay: when the
+mind has learned enough of the 402 it may begin making marks for words
+that have none. The constraints are written there — a new mark must
+say something it cannot already say, must arise from a need, and its
+FORM is his.
+
+Listed here so the whole board is in one place.
+
+## 10 · THE 42 CLAIMS — the Director's, outstanding
+
+347 ruled the health checks are per node, 42 not 25. CC posted the
+file list. THE DIRECTOR WRITES THE 42 CLAIMS and has not. It is the
+one thing on the whole board waiting on him rather than on Lonnie or
+on CC.
+
 ---
 
 **On peer review:** it is proprietary until it works. Nothing goes
