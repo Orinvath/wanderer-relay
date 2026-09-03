@@ -38913,3 +38913,59 @@ detaches.
 when the panel actually redraws.
 
 **His bench needs a restart: it is serving the page from one commit and the server from another.**
+
+---
+
+# A FAULT — the mind learns by thinking and the LEARNED panel never says so.
+
+**He said it was not learning from inner thoughts. He said it again. I explained his own design back
+to him twice before I went looking, and he was right both times.**
+
+## MEASURED
+
+```
+a mind left alone for 150 ticks:
+  words it learned by THINKING          21
+  lines written to LEARNED about them    0
+  knownWords, which the feed tracks      0
+```
+
+**It learns. Nothing on the panel that exists to show learning ever says a word.**
+
+## WHERE IT IS
+
+```
+experiencing.js:254   if (heard && mind.brain.learning) {
+experiencing.js:273     if (heardFrom && (understood?.matched?.length ?? 0) >= 1) {
+experiencing.js:286       for (const [word, mark] of mind.brain.learning.owned('W-WATCH')) {
+experiencing.js:288         if (mind.knownWords.has(word)) continue
+experiencing.js:290         mind.knownWords.add(word)
+experiencing.js:291         mind.note('word', `${word} → ${mark}`, { from: 'lived', bears: [mark] })
+```
+
+**230.2's own comment says it: "A WORD BECOMING OWNED. Noticed the tick it crosses, by comparing
+what it owns now against what it owned before."** That is the right idea and it is nested two levels
+inside the branch that only runs WHEN SOMEBODY SPEAKS. **A word crossing into owned on a thinking
+tick crosses unwitnessed.**
+
+## AND A SECOND CONSEQUENCE, worse than the silence
+
+**`knownWords` is only ever added to in that same branch.** So every word learned by thinking is
+still marked unknown. **The first time he speaks to it after a long stretch of thinking, that loop
+runs, finds all of them at once, and dumps the lot into LEARNED as if it had just learned them in
+that one tick.** The feed would not merely have been silent — it would then lie about when.
+
+## WHEN
+
+**Since 230.2 built the feed** — but it could not bite until 342/363 gave the mind a way to learn
+without being spoken to. **It has been wrong since the day inner learning started working, and every
+report I have written about inner learning measured the LINKS and never the feed**, which is why
+neither of us caught it. He caught it by looking at his own screen.
+
+## THE FIX, not built
+
+**Move the announcement out of the spoken-to branch to the end of the tick**, where it can notice a
+word becoming owned however it happened — lived, told, or thought. It is a few lines and it changes
+nothing about the learning itself.
+
+**Waiting on his word.**
