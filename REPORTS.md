@@ -39634,3 +39634,32 @@ nobody could see it was the same word every time.
 
 *(His bench was restarted onto `a788971` and is back up; the school was started for the
 measurement and is stopped again, and the mind was left alone.)*
+
+---
+
+# HIS RULING ON WHAT THE CENSOR IS FOR — and it changes what 402's fault actually is.
+
+**His words:** *"That was to control the model from making up things and not doing its job. It has
+nothing to do with teaching. It's there to keep the model on task. Not limit its teaching
+ability."*
+
+**I reported 402 as "the teacher's prompt is producing a line the censor must refuse". That framing
+was wrong and he corrected it.** The truth check is A LEASH ON THE MODEL, not a rule about how the
+mind is taught — 234 put it there so the teacher cannot lie to the mind about its own state
+(belief-poisoning through the front door), and the teaching method is the separate ZPD rule beside
+it.
+
+**READ THAT WAY, THE NUMBERS SAY SOMETHING DIFFERENT:**
+
+```
+199 calls    8 lines delivered    197 refused    142 of them for ONE STRAY WORD: HEART
+```
+
+**A leash meant to stop the model inventing is throwing away the WHOLE LINE — and with it whatever
+that line was teaching — because one word in it was off task.** The model is mostly doing its job
+and losing everything for a word it padded on the end. **That is a guard being used as a limiter,
+which is precisely what he says it was never for.**
+
+**I HAVE CHANGED NOTHING** and I am not proposing the fix — the disposition is his and the
+Director's. **The measurement stands: the reasons are recorded now, so whatever is ruled can be
+watched working.**
