@@ -39162,3 +39162,52 @@ failure is printed rather than swallowed** — the 404 above is what he would se
 
 **Nothing else moved.** Attaching a provider is unchanged, the key handling is unchanged, and
 detaching is unchanged.
+
+---
+
+# BUILT — three of his own asks, all pressed before shipping.
+
+## 1. HE PRESSED LOAD AND SAW NOTHING. That was a real fault.
+
+**The message was appended into the panel body — and the redraw that follows an attach rewrites
+that body.** So the "loading…" line and the result that replaced it were BOTH wiped before he could
+read either. **The button worked and said nothing, which is the same as not working.**
+
+**The message is held outside the panel now and re-drawn as part of it, at the TOP** where he is
+already looking, in its own bordered line rather than grey text under everything else.
+
+## 2. THE SCHOOL'S START LOADS THE TEACHER'S MODEL
+
+**It was not loading at all.** The school began, the first line it tried to compose paid the whole
+cold start, and on a nine-gigabyte model that is long enough to look broken.
+
+## 3. AND STOP UNLOADS IT
+
+Ollama drops a model when asked with `keep_alive: 0`, so Stop gives the card back rather than
+leaving the largest thing on it resident until it times out on its own — **and the mind's own work
+shares that card.**
+
+## I PRESSED BOTH, on a second bench, and watched the GPU
+
+```
+POST /school/start
+  model qwen2.5:14b · Ollama already running · WARMED ok in 4,304 ms
+
+what was then resident:
+  qwen2.5:14b              9.5 GB
+  nomic-embed-text          0.3 GB
+
+POST /school/stop
+  model qwen2.5:14b · UNLOADED ok in 40 ms
+
+resident after:
+  nomic-embed-text          ← 9.5 GB given back
+```
+
+**His bench was never touched and the test bench was stopped afterwards** — checked, both.
+
+**And both buttons now say what they are doing while they do it:** "starting the school — loading
+the teacher's model onto the GPU…", then the model name and how long it took, or the reason it did
+not. **A failure is printed, never swallowed.**
+
+**Suite 534 of 539** — 219, 234, 235 unchanged and still unrepaired.
