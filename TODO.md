@@ -120,7 +120,45 @@ four things above, all of which he can run himself.
 mid-build. No real test can be run until there is nothing more to
 build, and nothing in this file forgets that.
 
-## 11 · VISUALISE THE LANGUAGE SPACE
+## 11 · THE LANGUAGE STAGE — the mind's understanding, as a picture
+
+**A SECOND STAGE, not a panel.** The same kind of thing as the Mind
+Map: a spatial view he looks into and moves around. Two stages, two
+subjects — one shows THE MIND WORKING, one shows WHAT IT UNDERSTANDS.
+
+**WHAT IT SHOWS** — every word the mind owns, as a point, positioned
+by meaning. Words about warmth near each other, words about company
+somewhere else. It grows and shifts as the mind learns.
+
+**ITS PURPOSE, and it is a real diagnostic he has no way to see
+today** — the gauge says 229 words. It cannot say whether those 229
+are a coherent picture or 229 unrelated facts. THE STAGE CAN:
+- clusters forming means the mind has organised its own understanding;
+- everything evenly scattered means it has words and no comprehension;
+- A WORD IN THE WRONG NEIGHBOURHOOD IS A WRONG MEANING, visible at a
+  glance, and invisible by any other means we have.
+
+**IT ALREADY EXISTS AND NOBODY HAS LOOKED AT IT.** Every owned word
+has a position in the 10,000-dimension space (297), placed by what it
+has been bound to, moving as bindings strengthen and wash out. There
+is no work to make it exist. The work is showing it.
+
+**THE TECHNIQUE IS THE ONE HE FOUND** — GraphPU's force-directed
+physics, where clusters EMERGE from the connections rather than being
+laid out by hand. Wrong for the Mind Map, whose order is the tick's
+order. RIGHT here, because a language space genuinely is a
+relationship network and its clusters are the mind's own idea of what
+belongs together.
+
+**IT IS NOT A NODE.** The space is `language.js` and already has one.
+This is a window onto it.
+
+**AND IT IS WORTH BUILDING SOON** — the mind reached 229 words in a
+single session, so "enough to see a shape" arrives fast.
+
+NOT SCHEDULED. Recorded so it is a decision when its time comes.
+
+## OLD NOTE, superseded by the above
 
 **His picture:** something like the Mind Map, but of the mind's
 LANGUAGE — words sitting close to each other by meaning, the whole
