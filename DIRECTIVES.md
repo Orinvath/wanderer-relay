@@ -10655,3 +10655,39 @@ bar for all three. Anything over 100 is a bonus once we get there.
    the difference between this and the 50 — the 50 was a number
    nobody ruled; this one is ruled and its status is stated.
 4. THE 50 IS GONE either way (399).
+
+## Directive 401 — IS THE MODEL WRITING THE MIND'S LINES? Prove it on his bench.
+
+**HIS QUESTION** — the mind is producing long, verbose lines while
+the teacher is still on four-word sentences:
+
+```
+Teacher   Bird sings joyfully.
+Mind      siblings play quietly feeling safe nearby each dawn breaks
+          wide window happily at market bird different tools
+```
+
+He suspects THE LLM IS OVERSTEPPING. The Director read the code and
+believes it is not — the voice call in `mind.js:332` belongs to the
+Elsewhere persona's answer path, and `experiencing.js` only emits a
+'voice' trace marker, not a model call. BUT THE DIRECTOR CANNOT SEE
+HIS MACHINE. Only the running bench can answer this.
+
+**PROVE IT LIVE, ON HIS BENCH, WHILE THOSE LINES APPEAR.**
+1. For each line the mind speaks, log WHICH PATH PRODUCED IT — its
+   own grown grammar, a template, an echo, or a model call — and post
+   several of his actual long lines beside their path.
+2. COUNT MODEL CALLS DURING A TICK. If the count is zero while those
+   lines are being produced, that answers it. If it is not zero, name
+   the call site.
+3. AND CHECK THE OTHER DIRECTION: is anything else reaching the model
+   during a tick that the Director's reading of the code would not
+   predict? A live count beats a read every time.
+4. Do not change anything. This is the question of whether the model
+   is in the path, and nothing else.
+
+**IF IT IS NOT THE MODEL,** then the verbosity is the mind's own
+grammar assembling from its 1204 patterns until they run out, and
+that is a separate matter for his ruling — a real two-year-old says
+three or four words, and 319 and 339 removed every cap on line
+length on purpose.
