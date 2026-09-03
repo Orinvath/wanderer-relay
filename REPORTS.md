@@ -39729,3 +39729,78 @@ Remove 4 and 5, leave 1/2/3/8 standing, then run the school and post what the te
 says — lines delivered against calls made — for his eye (403.4). **The measurement is already
 wired: `/ledger` names the caller and the drop reasons are recorded, so the before-and-after is
 readable rather than argued.**
+
+---
+
+# BUILT — Directive 404. THE FILTER IS OUT. But the measurement says it is NOT what caused 113 of 129.
+
+## THE THREE FILES, AND A FOURTH SITE THE DIRECTIVE DID NOT NAME
+
+```
+learning.js   #bundleFor   what a word may MEAN is now any word the mind knows
+learning.js   #rewrite     THE SAME FILTER WAS HERE TOO -- one line named, two existed.
+                           A rewrite that skipped English links would have left them frozen
+                           at first-written confidence, so even a widened bundle never moved.
+stories.js    marksIn      a replay and an imagining read any word the mind knows
+sleep.js      elementsOf   a dream keeps any word the mind knows
+```
+
+**404 pointed at sleep.js:222. That line is `unspoken`, the deliberate "how much the vocabulary
+could not hold" measurement — I did not touch it.** The real filter was `elementsOf` at 213.
+
+**Marks are not demoted (404.3) and the dictionary is not handed over (404.2)** — `known` is the
+mind's own vocabulary, and where a caller hands none in, the reading is exactly as it was.
+
+## THE PROOF — SAME SEED, SAME 400 TICKS, SAME LINES, BEFORE AND AFTER
+
+```
+                            known   marks   english   marks are
+BEFORE 404                     97      42        55        43%
+AFTER  404                     99      44        55        44%
+```
+
+**IT DID NOT MOVE, AND I AM NOT GOING TO PRETEND IT DID.** 404.5 said the 113 of 129 must move.
+**On a mind that actually hears English, both builds learn the same 55 English words.**
+
+**And on a THIN diet — four sentences, ten English words — it moved the wrong way:**
+
+```
+BEFORE   known 46   marks 36   english 10   marks 78%
+AFTER    known 39   marks 29   english 10   marks 74%
+```
+
+**Known words FELL by seven.** Widening what a word may mean puts more vectors in the bundle, which
+changes what the geometry reads, and seven marks dropped back under the owning bar. **That is a
+real consequence of this change and it is his to weigh.**
+
+## SO WHAT IS ACTUALLY CAUSING 113 OF 129 — and it is on this relay already
+
+**The mind owns English perfectly well WHEN ENGLISH REACHES IT.** 55 words from 20 sentences, on
+both builds. **What starves it is measured two reports up:**
+
+```
+199 calls    8 LINES DELIVERED    197 refused
+```
+
+**His mind is 87% marks because the school hands it almost no English, not because a filter hid
+it.** 404 was a real fault and it is right that it is gone — **but 402/403 is the one holding the
+numbers he is looking at.**
+
+## 404.4 — THE SURVEY. TWO MORE ARE THE SAME FAULT.
+
+```
+SAME FAULT, NOT FIXED, awaiting his word:
+  curiosity.js:182   what curiosity is ABOUT, filtered to marks -- "a subject it cannot say is
+                     not a subject", written when it could only say marks. It can say English now.
+  thinking.js:661    an association draws its comparison word from the 402 at random, never from
+                     what the mind knows.
+
+THE AVATAR'S GLYPHS DOING AN AVATAR'S JOB -- correct as they stand:
+  thinking.js:229    draws by DOMAIN, and a domain is a sheet of his artwork. 372 already ruled it.
+  interests.js:81    the Persona's struck dispositions, drawn once at Genesis from the seed.
+  censor.js          mark-matching for the teacher's truth check
+  litmus.js, vocabulary.js   measurements OF the 402, by design
+  effects.js, store.js, mindmap.js, voice.js, geometry.js, banks.js   display, storage, the space
+  perceiving.js:56/116, voice.js:814   ALREADY check owned words beside the marks -- correct
+  comprehension.js   220.1 already resolves earned words
+```
