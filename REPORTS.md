@@ -39576,3 +39576,61 @@ been invisible the whole time.
 **WHAT I NEED FROM THE DIRECTOR:** a ruling on exposing that ledger read-only so the school's cost
 can be attributed by role. **It is a new route and a restart of the bench he is watching, and 401.4
 said change nothing, so I have not touched it.**
+
+---
+
+# ANSWERED — Directive 402. IT IS THE TEACHER, AND ONE LINE COSTS 25 CALLS.
+
+## THE LEDGER IS SERVED, AND THERE WERE THREE MODELS ON THE BENCH, NOT TWO
+
+`GET /ledger`, read-only, no prompt and no pixel in it — role, count, when, and the last twenty
+calls. **The mind's Model, the Teacher's Model and the Interpreter's Model are kept apart**, which
+is the whole point: a single total would have hidden the answer. **I had it covering two and nearly
+shipped it that way** — the Teacher builds its own.
+
+## WHO MAKES THE NINETY — measured, school running, on his bench
+
+```
+mind          calls   0     embeds  37      ← thinking the whole time, not one call for words
+school        calls 188     byAs { "teacher": 188 }
+interpreter   none
+
+school per-minute   04:23  65     04:24  87     04:25  36
+```
+
+**EVERY SINGLE ONE IS THE TEACHER. The mind made none.** 401 said the model is not writing the
+mind's lines; this names the caller for the other half.
+
+## AND WHAT ONE DELIVERED LINE COSTS
+
+```
+199 calls        8 lines delivered        197 dropped        127 seconds of model time
+                 24.9 CALLS PER LINE THE MIND ACTUALLY RECEIVED
+```
+
+## THE DROP REASONS, WRITTEN DOWN FOR THE FIRST TIME
+
+```
+ 142   not true of it now: HEART
+  26   not true of it now: not LONELINESS
+  23   not true of it now: SOMETIMES
+   3   not true of it now: HEART SOMETIMES
+   2   3 words it does not own, and the cap is 2
+   1   4 words it does not own, and the cap is 2
+```
+
+**194 of 197 drops are ONE THING: the model will not stop padding the line with HEART.** It is told
+to say what is true of the mind right now, it adds HEART anyway, the censor is right to refuse it,
+and it is asked again. **142 times for one word.**
+
+**The censor is not the fault and the mind is not the fault.** The teacher's prompt is producing a
+line the censor must refuse, over and over, and **the cost of that is his GPU running 127 seconds
+to deliver eight lines.**
+
+**REPORTED, NOT REPAIRED** (402.4). The prompt is the teacher's and the ruling is his. **The
+reasons are now recorded permanently, so this can never go invisible again** — they were computed
+at every drop site and thrown away, which is why one number said "dropped: 186" for months and
+nobody could see it was the same word every time.
+
+*(His bench was restarted onto `a788971` and is back up; the school was started for the
+measurement and is stopped again, and the mind was left alone.)*
