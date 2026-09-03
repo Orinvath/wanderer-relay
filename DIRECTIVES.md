@@ -10855,3 +10855,40 @@ none was ever ruled.
    story beats, how many interests it weighs, and whether what it
    learns from a story changes when the beat is no longer two words
    wide.
+
+## Directive 406 — NOTHING IS SENT TO A BODY THAT IS NOT THERE
+
+**HIS FINDING** — watching the connectors, EMBODIMENT emits every
+tick on a bench with no body attached.
+
+```
+rest.js:49        trace 'embodiment' — needs
+watching.js:646   trace 'embodiment' — goals
+closing.js:27     trace 'nerves'
+```
+
+**HIS RULING** — it serves no purpose. THE SIGNALS COME FROM THE MIND.
+Computing what a body would express, for a body that is not there, is
+work with no destination, and it lights a connector for a hand-off to
+nothing — which makes the map report activity where none happened.
+That is the one thing the map may never do (270.B).
+
+**WHAT THE RECORD SAYS** — cord's own law (051) covers the FAR end: a
+body with no receptor is silent, never in error. NOBODY EVER RULED ON
+THE NEAR END. Silence at the far end never meant the near end should
+keep talking.
+
+**THE RULING**
+1. WITH NO BODY ATTACHED, EMBODIMENT DOES NOT RUN and emits nothing.
+   No signal computed, no hand-off, no light on the map.
+2. THE MIND IS UNCHANGED. Feelings, needs and tendencies are the
+   mind's own and are computed as they always were — this is about
+   what is SENT, not about what the mind holds. Nothing upstream of
+   the wire changes.
+3. WHEN A BODY IS ATTACHED it runs exactly as before, every tick,
+   five signals, as 051 built it.
+4. THE MAP THEN TELLS THE TRUTH: a dark EMBODIMENT on his bench means
+   there is no body, which is a fact worth seeing.
+5. CHECK THE SAME QUESTION OF NERVES and of anything else that speaks
+   outward — is it emitting to something that is not there? Name any
+   you find; do not change them yet.
