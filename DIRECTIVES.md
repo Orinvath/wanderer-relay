@@ -10691,3 +10691,27 @@ grammar assembling from its 1204 patterns until they run out, and
 that is a separate matter for his ruling — a real two-year-old says
 three or four words, and 319 and 339 removed every cap on line
 length on purpose.
+
+## Directive 402 — EXPOSE THE MODEL'S LEDGER. Attribute the ninety.
+
+**APPROVED.** Expose `model.ledger` read-only so every call can be
+attributed to the role that made it. The restart is accepted.
+
+**WHAT IT IS FOR** — with the school running, 40 to 88 generate calls
+a minute, about one and a half a second, and NOTHING ACCOUNTS FOR
+THEM. A teacher delivering a line every few seconds cannot need
+ninety calls a minute. The ledger already holds the last 500 calls
+with each caller's role, in memory; nothing serves it, which is why
+401 could prove "zero during a tick" and not "who made the ninety".
+
+1. SERVE IT READ-ONLY. Role, count, and when — enough to say who is
+   spending the calls. It is diagnostic, not part of the mind.
+2. THEN ANSWER THE QUESTION: with the school running, who makes the
+   ninety, and how many calls does ONE DELIVERED LINE actually cost?
+3. RECORD THE DROP REASONS while you are there. They are counted and
+   never written down, so nobody can see WHY a line was refused —
+   and the standing suspicion is that the teacher drops 102 of 102
+   and asks again. If that is the cause, the reasons will say so.
+4. REPORT, DO NOT REPAIR. If the teacher is burning his GPU on
+   refused lines, that is a real fault with its own ruling — name it
+   with the numbers and stop.
