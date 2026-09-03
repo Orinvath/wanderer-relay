@@ -10968,3 +10968,43 @@ matters and CC was right to draw it.
 **PROVE IT:** the same seed and the same 400 ticks, before and after,
 with the longest line the mind speaks named — that is the one his eye
 will read.
+
+## Directive 409 — THERE ARE NO "MARKS" IN THE CODE. ONLY WORDS.
+
+**HIS RULING, and it should have been done when he first ruled marks
+out:** things work on WORDS. Some words have a mark, most do not. A
+MARK IS A PICTURE ATTACHED TO A WORD, and a picture drives nothing.
+In the code, ONLY WORDS HAVE VALUE.
+
+**WHY THIS IS NOT COSMETIC** — "mark" as a category has misled the
+Director and CC repeatedly, and it has cost him a full day of
+correcting us:
+- 387, where the Director struck real knowledge from the count
+  because he read "marks are not a measure" as "marks are not words";
+- 397, correcting it;
+- 398, having to write a directive whose entire purpose is stopping
+  us treating them as a measure a fourth time;
+- 404 and 407, filters written against the category rather than
+  against the words;
+- and this evening, the Director saying "marks" in conversation until
+  Lonnie had to ask what it meant.
+A category that keeps producing the same mistake is the mistake.
+
+**THE RULING**
+1. THE CODE DEALS IN WORDS. `marks`, `OWNED_MARKS`, `WORDS_BY_STEM`,
+   `marksIn`, and every variable, function, comment and report that
+   calls a word a mark is renamed to what it is.
+2. A GLYPH IS AN ATTRIBUTE OF A WORD, not a kind of thing. `glyph(w)`
+   answers whether a word has a picture and what it is. Nothing
+   branches on the existence of a picture — 404 and 407 already took
+   the last of that out and this makes it impossible to write again.
+3. HIS ARTWORK IS UNTOUCHED. The sheets, the glyphs, the display, the
+   Avatar's use of them — all unchanged. This is about what the code
+   calls things and what it treats as a category.
+4. NO BEHAVIOUR CHANGES. Full suite and the state hash prove the mind
+   is byte-identical after the rename; if the hash moves, something
+   was branching on the category and THAT is a finding — report it,
+   do not fix it.
+5. THE PANEL'S MARKS LINE STAYS as 398 ruled — a milestone marker for
+   the day the mind fills out the Avatar's picture-language. It is
+   the one place the word belongs, because there it means pictures.
