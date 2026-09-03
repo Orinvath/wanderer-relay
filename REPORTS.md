@@ -40121,3 +40121,68 @@ quietly.**
 383.4    a halted board freezes lit          347  waiting on the Director's 42 claims
 365      55 of 95 call sites still unnamed
 ```
+
+---
+
+# BUILT — 407 and 408. AND NEITHER MOVED THE NUMBER HE ASKED FOR. Here is why, measured.
+
+## 407 — BOTH FILTERS ARE OUT
+
+```
+curiosity.js   what roused it is what was in front of it, in whatever words it knows
+thinking.js    the train's control word is drawn from what it has LIVED, not from the 402
+               (it falls back to the language only for a newborn that has lived nothing)
+```
+
+**AND THE ANSWER TO HIS QUESTION IS NO: CURIOSITY'S SUBJECTS ARE STILL ALL MARKS.**
+
+```
+                        known   marks   english   curiosity subjects   of which ENGLISH
+BEFORE 407               111      56       55            93                   0
+AFTER  407               111      56       55            93                   0
+```
+
+**The filter I removed was downstream of a narrower one.** Curiosity reads `moment.elements`, and
+those are built by `elementsOf` in the appraisal — **which is called without the mind's vocabulary,
+so the elements are marks before curiosity ever sees them.** That is `appraisal.js:216`, and 404
+left it alone on my own survey's advice: it is how a moment is read into the Avatar's FEELING
+marks. **It is now also the thing deciding what the mind may be curious about. His call.**
+
+## 408 — ALL ELEVEN ARE OUT, INCLUDING THE FOUR-WORD CAP ON WHAT IT MAY SAY
+
+**Six runs, three each way, because a single run of this harness is noise:**
+
+```
+             avg words        most words
+BEFORE     3.29 · 3.03 · 3.03     11 · 10 · 10
+AFTER      4.61 · 3.43 · 3.37     13 · 10 · 10
+```
+
+**The average nudged up and the longest line did not reliably change. I am not going to call that a
+result.** Broken down by where each line came from, it says why:
+
+```
+                  BEFORE                AFTER
+imagined      n=180 avg 1.98 max 3   n=172 avg 2.10 max 3
+remembered    n=108 avg 5.20 max 10  n=122 avg 4.89 max 8
+```
+
+**The only bucket ever over four words was ALREADY over four before the change** — so the
+four-word cap was not what was holding those lines down. **And imagined lines are pinned at three
+in both columns.**
+
+## WHICH TURNED UP THE THING THAT IS ACTUALLY HOLDING THEM DOWN
+
+```
+experiencing.js:482    const say = (b.marks ?? []).filter((w) => glyph(w))
+```
+
+**EVERY WORD OF EVERY STORY BEAT IS FILTERED BY WHETHER IT HAS A PICTURE.** An English word has no
+picture, so it is dropped before the mind ever says it — **this is the same fault as 404 and 407,
+sitting in the one path 405 called "the one that matters most, what a story TEACHES".**
+
+**409.2 is precisely this: nothing branches on the existence of a picture.** So it comes out under
+409 and is measured there rather than being smuggled into 408's numbers.
+
+**The longest line his eye should read, from the run after 408:**
+`"HIDDEN SONG ROOM DESCEND REVEALED SEA SEARCH BRIDGE"`
