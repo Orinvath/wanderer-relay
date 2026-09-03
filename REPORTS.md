@@ -39961,3 +39961,48 @@ shows EMBODIMENT 7 · CORD 7 · NERVES 7 and that is a real hand-off to a real l
   and that is a build, not a deletion.
 
 **NOTHING REMOVED. My earlier report called this dead code and that was wrong; this replaces it.**
+
+---
+
+# BUILT ON HIS RULING — "those are mind signals now, and do not require a body."
+
+**Colour, pulse and urge are off the body wire.** They kept every bit of their arithmetic — the same
+receptor set, the same mappings, nothing rewritten — and simply stopped being a hand-off to a body.
+
+```
+BEFORE   this.cord.connect(sphereReceptors(this.rendered))
+         the Core's feed hung off the BODY wire, so a body was always "attached"
+
+AFTER    this.core = new Cord()                      ← the Core's own channel
+         this.core.connect(sphereReceptors(...))
+         this.coreNerves = new Nerves(this.core)
+         and `this.cord` now holds ONLY real bodies
+```
+
+**The Core is filled every tick in `closeTick`, before and regardless of any body, and it does not
+light EMBODIMENT or NERVES — because nothing was handed to a body.**
+
+## MEASURED, 50 TICKS, NOTHING WEARING A BODY
+
+```
+bodies on the cord    0
+embodiment fired      0
+nerves fired          0
+cord fired            0
+thinking fired       67      ← the mind, untouched
+core channel          100 continuous · 2 event · 2 stream DELIVERED
+the Core's wanting    "still" -> "EXCITEMENT"      ← it moves, with no body anywhere
+```
+
+**And on his own bench, restarted onto it just now:**
+
+```
+cord    continuous 0 · event 0 · stream 0 · unrendered 0     ← the body wire is silent
+core    hue 0.47 · arousal 0.00009 · urge "still"            ← the Core is reading
+```
+
+**That is 406 actually satisfied rather than merely quiet:** a dark EMBODIMENT now means there is no
+body, the 215 signals that used to go nowhere are not being sent at all, and the Core has its
+colour, its pulse and its wanting without one.
+
+**HIS BENCH IS ON `e75ad39` — page and server both. Reload.**
