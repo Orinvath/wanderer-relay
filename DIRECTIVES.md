@@ -10622,3 +10622,36 @@ toddler and then means nothing for the rest of the mind's life.
   (397.5), the same one KNOWN WORDS reads.
 - If any other bar on that panel carries an invented target in the
   same way, name it. Do not change those yet.
+
+## Directive 400 — THE BARS: 42,000 for words, 100 for the rest
+
+**HIS RULING ON THE VOCABULARY BAR (399)** — it reads `0 / 42,000`.
+The range is 344's own and already in the build (`ADULT_WORDS`), and
+THE SCIENCE GOVERNS HOW IT FILLS: the same log curve the age reading
+already uses, so THE BAR AND THE AGE CAN NEVER DISAGREE. That is
+option A of CC's two and it is chosen because the fault Lonnie has
+caught twice today was two readings of one thing contradicting each
+other.
+
+**THE OTHER THREE — GRAMMAR, TOPICS, BELIEFS.** The Director
+researched them, and the honest finding was reported to him:
+- GRAMMAR: the literature counts CONSTRUCTIONS, not pairs —
+  "hundreds" alongside the 40,000 lemmas, one paper positing 10,000,
+  a computational grammar with 4,504. Our bar counts word-order
+  PAIRS, which is not that measure, so no anchor transfers cleanly.
+- TOPICS and BELIEFS: NOTHING. There is no research figure for how
+  many things an adult cares about or how many beliefs an adult
+  holds. They are not quantities anyone measures.
+
+**HIS RULING** — a total count is good enough, with **100** on the
+bar for all three. Anything over 100 is a bonus once we get there.
+
+1. GRAMMAR, TOPICS and BELIEFS each read against 100.
+2. THE COUNT IS THE TRUTH; the 100 is only the rail's scale. A mind
+   past 100 shows the real number and the bar sits full — it is not
+   clamped, not hidden, and nothing is "complete".
+3. WRITE WHY BESIDE EACH: 100 is HIS WORKING SCALE, not a fact from
+   the literature, and the honest anchors are recorded above. That is
+   the difference between this and the 50 — the 50 was a number
+   nobody ruled; this one is ruled and its status is stated.
+4. THE 50 IS GONE either way (399).
