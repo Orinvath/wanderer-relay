@@ -10605,3 +10605,20 @@ day is a long way off — no real test has been run yet.
 
 If either of us reaches for it as a measure again, the answer is this
 directive and nothing needs re-deciding.
+
+## Directive 399 — THE VOCABULARY BAR'S 50 IS AN INVENTED TARGET. Cut it.
+
+`VOCABULARY 12 / 50`. The 50 is a leftover from an early idea that
+fifty words meant the mind could hold a conversation. IT WAS NEVER
+RULED and it is not a fact about anything.
+
+The language is 42,000 words (344). A bar scaled to 50 tops out at a
+toddler and then means nothing for the rest of the mind's life.
+
+- THE /50 GOES.
+- The bar reads the mind's count against the real range, so it keeps
+  meaning something at 12 words and at 12,000.
+- The number itself is unchanged — it is the gauge's own count
+  (397.5), the same one KNOWN WORDS reads.
+- If any other bar on that panel carries an invented target in the
+  same way, name it. Do not change those yet.
