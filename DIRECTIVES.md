@@ -10807,3 +10807,51 @@ three files contradict all of them.
    Director has now missed it twice.
 5. PROVE IT ON HIS BENCH: the same mind, before and after — known
    words, and how many of them are marks. The 113 of 129 must move.
+
+## Directive 405 — THE HARD CAPS ON WHAT THE MIND MAY USE
+
+**HIS ORDER** — search the code for anything else limiting the mind.
+The Director found four caps that are not display truncation but real
+limits on the mind's own material:
+
+```
+experiencing.js:478/480   say.slice(0, 2)
+        A STORY BEAT IS CUT TO TWO WORDS, whatever the story said.
+        Every imagined and every replayed beat, two words wide. This
+        is the one that matters most: it is what a story teaches, and
+        the mind's whole inner life runs through it.
+
+experiencing.js:379       interests.all(...).slice(0, 6)
+        the mind may consider only six of its interests.
+
+experiencing.js:962       here.slice(0, 3)
+        what curiosity is ABOUT, cut to three.
+
+learning.js:602           [...own.entries()].slice(0, 12)
+        owned words cut to twelve where they are handed on. He owns
+        129; eleven of twelve is what anything downstream sees.
+```
+
+**HE HAS RULED** — 339: NOTHING DECIDES WHAT THE MIND MAY DO EXCEPT
+THE MIND. Every capacity is either character (who it is, stays) or
+permission (what it is allowed, goes). These four are permission and
+none was ever ruled.
+
+**THE RULING**
+1. ALL FOUR COME OUT. A beat is as wide as the story. Interests are
+   all of them. Curiosity is about what it is about. What is handed
+   on is what it owns.
+2. IF ANY OF THEM EXISTS FOR A REASON — a prompt that would be
+   unusable at length, a display that cannot hold it — SAY SO WITH
+   THE REASON and stop on that one. Do not swap a small number for a
+   bigger one; that is the same fault wearing a nicer figure.
+3. AND FINISH THE SEARCH. Every remaining hard number that limits
+   what the mind may hold, consider, say, or learn — not display
+   truncation, not log lines. For each: what it caps, and whether it
+   is character or permission (339.4). LIST THEM ALL. This is the
+   second search and the Director has already missed the glyph filter
+   twice.
+4. PROVE IT: the same mind before and after — the length of its
+   story beats, how many interests it weighs, and whether what it
+   learns from a story changes when the beat is no longer two words
+   wide.
