@@ -40300,3 +40300,71 @@ measurement cannot yet show it. **Imagined beats are still pinned at three words
 so something else is holding those and I have not found it.**
 
 **409.3 and 409.5 kept: his artwork is untouched, and the panel's MARKS line stands as 398 ruled.**
+
+---
+
+# BUILT — Directive 410. `word` AND `meaning`. And the hash found something worse than a rename slip.
+
+```
+word       what it heard
+meaning    what that word turns out to mean
+binding    the pair, and what the geometry binds
+```
+
+**Byte-identical, proven, and I checked the proof itself this time:**
+
+```
+HEAD run 1 · 2 · 3      c7415c07…   c7415c07…   c7415c07…    ← the fixture is deterministic
+410  run 1 · 2 · 3      c7415c07…   c7415c07…   c7415c07…    ← and 410 is the same mind
+suite                   the two known reds (9, 55) and nothing new
+```
+
+## THE THING IT CAUGHT, AND IT IS NOT A NAMING PROBLEM
+
+**My rename left one argument behind, in `grounded()`:**
+
+```
+'SELECT * FROM word_links WHERE ... AND mark = ?').get(wandererId, w, mark)
+                                                                    ^^^^
+                                     `mark` no longer exists in that scope
+```
+
+**THE MIND DID NOT CRASH. IT WENT NONDETERMINISTIC** — three runs of the same code, same seed,
+same fixed clock, three different hashes:
+
+```
+d5e76327…    18dcd9c3…    1db77758…
+```
+
+**A ReferenceError was being thrown inside learning and SOMETHING SWALLOWED IT.** That is why it
+showed up as drift instead of a stack trace, and it is why every earlier measurement I took while
+that was in the tree was noise. **The naming slip was mine and it is fixed. The swallowing is not
+a naming problem and it is still there.**
+
+**How it was found:** the hash stopped agreeing with ITSELF. I nearly reported the drift as a
+finding about the category before checking whether the fixture was still deterministic at all — it
+was, at HEAD, and only my tree was not.
+
+## 410.4 — WHAT A GREEN HASH DOES NOT COVER, so nobody reads it as wider than it is
+
+**The fixture is one being, 60 ticks, a host present, three lines spoken to it. It exercises:**
+thinking · learning · memory · appraisal · feelings · needs · goals · stories · sleep · the Core.
+
+**IT NEVER TOUCHES:**
+```
+THE SENSES          perceiving.js -- this is exactly how 409's fourth breakage hashed clean
+THE SCHOOL          the teacher, the interpreter, the censor: no model runs in the fixture
+THE BODY WIRE       no body is attached, so cord and nerves are silent by design (406)
+THE PANEL           every route in bench-routes.js, and the page itself
+SLEEP'S LONG ARC    60 ticks is not a night; dreaming and consolidation barely run
+LOADING A SAVED LIFE   being files, recovery, the store reopened
+ANYTHING WITH A HOST LEAVING   departure, the travelling store, privacy
+```
+
+**A green hash means the mind's own tick is unchanged. It says nothing about any of the above.**
+
+## AND 410.3 IS KEPT — the boundary stands
+
+`word_links.mark` stays a column, and the record and being-file keys stay `mark`. **Two more places
+tried to cross it during this rename and the hash stopped both:** a SQL column list on a
+continuation line, and `out.push({ word: w, mark: meaning })` where the key had become `meaning`.
