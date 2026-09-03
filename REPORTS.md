@@ -39115,3 +39115,50 @@ panel guard has no business breaking the whole page, so it can no longer throw.
 
 **Suite 532 of 539.** 234 and 235 are the flat felt-trail, still reported and unrepaired; the rest
 is the teacher family.
+
+---
+
+# BUILT — Load means load. His ask, direct: choosing a local model starts Ollama and loads it.
+
+**What it did before:** recorded the choice. Nothing else. **It did not start Ollama and did not put
+the weights on the GPU**, so the first thing the mind tried to see or say paid the whole cold start
+with nothing on screen saying why.
+
+## WHAT LOAD DOES NOW
+
+```
+1  is Ollama answering?            /api/tags, 2s
+2  if not, START IT                spawn('ollama serve') DETACHED — it outlives the request and the
+                                   bench, which is what he wants: still there after a restart
+3  wait for the PORT, not a guess  half-second polls, up to 15s, the same shape bench-start uses
+4  WARM THE MODEL                  one tiny generate, so the weights are resident before the mind
+                                   needs them
+5  say what happened               "Ollama was already running · loaded onto the GPU in 2.0 s"
+```
+
+## I PRESSED IT MYSELF, on a second bench so his was untouched
+
+```
+POST /perception  { kind: local, model: gemma3:1b }
+  → attached · started: already running · warmed: ok in 3,027 ms
+
+POST /perception  { kind: local, model: no-such-model }
+  → warmed: NOT ok in 2 ms — "ollama answered 404 model 'no-such-model' not found"
+
+and the timings on their own:
+  moondream cold   2,003 ms
+  moondream again    133 ms      ← what the cold start was actually costing every first look
+  a dead port        reports false immediately, never hangs
+```
+
+**The second bench was stopped afterwards and his was never touched.**
+
+## AND THE PANEL SAYS SO WHILE IT WORKS
+
+Pressing Load prints **"loading gemma3:1b — starting Ollama if it is not up, and putting it on the
+GPU…"** before the request goes, because a nine-gigabyte model takes long enough that a silent
+button looks hung. When it answers it says which of the two happened and how long it took, and **a
+failure is printed rather than swallowed** — the 404 above is what he would see.
+
+**Nothing else moved.** Attaching a provider is unchanged, the key handling is unchanged, and
+detaching is unchanged.
