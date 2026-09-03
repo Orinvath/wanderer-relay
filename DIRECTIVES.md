@@ -10502,3 +10502,17 @@ reattaches on its own, never shown in the panel, readable in
 doing. 327 named gemma3:1b as a voice while 301 had already ruled the
 phone speaks. Those collided and nobody caught it. Say what that slot
 was doing in the code rather than quietly rewiring it.
+
+## Directive 395 — CUT THE REACH LINE
+
+`402 of 402 reachable · state table alone 51` comes off the page.
+
+It was 306.A's measurement, built to prove the mind could reach its
+whole language rather than the 51 the state table allowed. It did its
+job when 307 landed and it is now a leftover: the marks are not a
+measure (387) and the mind's language is English (344).
+
+- The line goes.
+- `reach()` still runs and is still logged if anything uses it; only
+  the display comes off.
+- Nothing else on the panel moves.
