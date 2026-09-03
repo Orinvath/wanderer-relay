@@ -39402,3 +39402,75 @@ the same shape as the 50.** 071 covers them: a constant is a decision nobody mad
 exactly as they are until he says otherwise.**
 
 **Nothing is built. Waiting on the two answers.**
+
+---
+
+# BUILT — Directive 400. THE BARS. And two red checks that are MY 306.D misses, not this change.
+
+## THE VOCABULARY BAR NOW CLIMBS THE AGE CURVE
+
+```
+words     age     rail
+     0       0      0%
+    12    1.28      6%
+    31    1.43      7%
+    50     1.5      8%     ← where the old bar was FULL
+   300       2     10%
+  1000       3     15%
+ 10000      12     60%
+ 12000   13.02     65%
+ 42000      20    100%
+ 60000      20    100%     ← past the top: count is raw, rail simply sits full
+```
+
+**The 50 is gone.** `GROWTH.WORDS` is now `ADULT_WORDS` read straight off the age curve's top
+anchor, so **42,000 is never typed twice** and the bar and the age reading move on one curve — they
+cannot disagree, which is what his ruling bought.
+
+**GRAMMAR, TOPICS and BELIEFS all read against 100**, and the comment beside them says in his own
+terms that **100 is HIS WORKING SCALE AND NOT A FINDING** — with the Director's honest anchors
+recorded there: constructions are not word-order pairs, and nobody measures how many things an
+adult cares about or how many beliefs an adult holds. **400.2 is in the code**: `share` is only how
+full the bar LOOKS, `have` is printed raw and never clamped.
+
+**And the readout is grouped and the column widened** — `42,000 / 42,000` is fifteen characters and
+96px could not take it, so it would have broken across two lines exactly as 318 describes.
+
+## THE SUITE — TWO RED, AND THEY ARE BOTH MINE FROM EARLIER, NOT FROM 400
+
+I ran phase 3 on the build BEFORE this change, in a separate worktree. **Identical, both of them.**
+400 touched three files and neither check reads any of them.
+
+**Both are the 306.D shape — a ruling changed the code and the check was left asserting the old
+law — and both were left behind BY MY OWN COMMITS:**
+
+```
+ 9   the context assembler holds no handle to any private store
+     the allowed list is  db, model, policyVersion, now, lastWriteTick
+     memory.js also sets  this.space    ← the mind's own geometry (221/297), not a store
+     and the failure MESSAGE PRINTS THE ALLOWED LIST, not the field that broke it,
+     so the screen says everything is fine while the light is red.
+
+55   her voice and her work run on two separately configured models
+     it asserts every non-voice role is 'technical'. The Perception panel added two:
+        perceiving → senses      rendering → voice
+     Neither is character and neither is wrong. The check knew a two-way world.
+```
+
+**I have not touched either one** (382.4). They are red on his bench for behaviour he ruled
+correct, which is the exact cost 306.D exists to stop, and the miss was mine on the perception
+commits.
+
+**AND THE RUN STOPS AT PHASE 3, so check 172 — the gauge counting inflections — never ran at all
+this time.** It is still red underneath.
+
+## ONE LEDGER GAP, 227.2
+
+The three grammar figures I recorded in the comment — **10,000 constructions, a computational
+grammar with 4,504, "hundreds" beside the 40,000 lemmas** — came from the Director's research note
+and **I do not have the papers to cite, so I have not invented rows for them.** Brysbaert's 42,000
+already has its row and covers the vocabulary bar. **The Director should supply those three.**
+
+*(Housekeeping, and it was mine: nine commits — everything from the Load button through yesterday's
+card work — had landed on a detached head instead of the branch. All nine are on master and pushed
+now. Nothing was lost and nothing was rewritten.)*
