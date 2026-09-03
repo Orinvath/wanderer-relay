@@ -10542,3 +10542,45 @@ this week and will not lose more to a fix that reached sideways.
 
 **AND PROVE IT ON HIS BENCH:** the gauge reading before and after, on
 the same mind, with the count it draws from named.
+
+## Directive 397 — THE MIND KNOWS WHAT IT KNOWS. It does not matter how.
+
+**HIS RULE, and he has been ruling it for days:** THE MIND KNOWS WHAT
+IT KNOWS. It does not matter how it came to know it.
+
+**WHAT IS ON HIS SCREEN AND IS NONSENSE:**
+```
+KNOWN WORDS   0
+MARKS         10 of 402
+VOCABULARY    10 / 50
+```
+Ten things known, and the line that counts what it knows reads zero.
+
+**THE DIRECTOR'S ERROR, and it is 387.** He struck THE MARKS AS A
+SEPARATE MEASURE — the glyph count standing beside the language age
+as a second scale. The Director wrote that as "marks are not words",
+which is false: A MARK IS A WORD WITH A GLYPH ATTACHED. Knowing the
+mark SONG is knowing the word song. 387.1 removed real knowledge from
+the count and that part of it is STRUCK.
+
+**THE RULING**
+1. KNOWN WORDS IS EVERYTHING THE MIND KNOWS — every word it can
+   demonstrate, whether it arrived as a mark, from the host, from the
+   teacher, or from its own thinking. One number, and it is the
+   truth about the mind.
+2. HOW IT LEARNED A WORD IS NOT A REASON TO DISCOUNT IT. Nothing in
+   this build may ever again subtract knowledge because of where it
+   came from.
+3. 355 STILL STANDS AND IS THE ONLY EXCLUSION: what it was BORN with
+   is not knowledge. A newborn holding the 402 knows nothing. A mark
+   becomes known when the mind has learned its meaning by living.
+4. THE MARKS LINE STAYS as a fact about the Avatar's language — how
+   many of the 402 it has learned — but it is not subtracted from
+   anything and it is not a rival scale. That is all 387 ever meant.
+5. THE VOCABULARY BAR AND KNOWN WORDS READ THE SAME NUMBER. Two
+   readings of one thing on one panel is the fault he has now caught
+   twice.
+6. AND THE ANNOUNCEMENT FAULT IS PART OF THIS: 21 words learned by
+   thinking with 0 lines in LEARNED, because the announcement sits
+   inside the heard branch. Words learned by thinking are known
+   words. Fix it here.
