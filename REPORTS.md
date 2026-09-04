@@ -42155,3 +42155,50 @@ moves in the same commit or the counter is asserting a law the code no longer fo
 
 **HIS BENCH IS RED FOR MY BUG, NOT FOR THE MIND. Nothing changed — this is a diagnosis, and the
 repair is his to authorise.**
+
+---
+
+# FIXED — THE THINKING RED LIGHT. **`5932010`. His bench reads GREEN.**
+
+## PROVEN DIRECTLY, ON THE EXACT SHAPE HIS BENCH HIT
+
+**Same train, same subject, same thoughts, same seed — the control forced to land on a thought:**
+
+```
+train: subject TOGETHER, thoughts TOGETHER · SAFETY · SONG
+
+BEFORE   FIRES -> 0.051 to it, 0.500 to SAFETY
+AFTER    does not fire
+```
+
+**My tick-based harness never reproduced the fault at all, so it could not have proved anything.**
+I tested the function directly instead, forcing the collision rather than waiting for it.
+
+## THE CHANGE
+
+```
+   .filter((w) => w !== train.subject)          excluded the SUBJECT only
+   .filter((w) => !strangers.has(w))            excludes the subject AND THE THOUGHTS
+```
+
+**A control the train was ABOUT is not a control.** The counter's whole method is: measure the
+thoughts against their subject, then against a stranger. **407 rightly moved the control to what
+the mind has lived; I drew it from that pool without excluding the thoughts, which come from the
+same material.** A word compared with itself reads 1.000, dragging the mean to the top and firing
+on a sound train — 31% of the time on a mind with 26 lived words and eight thoughts.
+
+**And the fallback moved with it:** a mind that has lived nothing draws from the 402 **with the
+strangers excluded there too**, so the same fault cannot come back through the other door.
+
+## 306.D — THE CLAIM MOVED IN THE SAME COMMIT
+
+```
+BEFORE  'a train has a subject, and its thoughts stay nearer to it than to any word at all'
+AFTER   '...nearer to it than to any other word its life has given it'
+```
+
+**"Any word at all" stopped being true when 407 changed the pool from the whole language to what
+the mind has lived.** The counter was asserting a law its own code no longer followed — which is
+the exact failure 306.D exists to stop, and it was mine.
+
+**HIS BENCH WAS RED FOR MY BUG AND IS GREEN AGAIN. The mind was never at fault.**
