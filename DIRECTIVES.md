@@ -11625,3 +11625,52 @@ a beat is worth going IN. This is what came OUT, and it is still flat.
    learned from a story it told itself, the other means the gate has
    never bitten.
 4. Report what it was, not what fits first.
+
+## Directive 427 — MEMORY IS THE SUBSTRATE. STATE AND CONCERN BIAS WHICH MEMORY RISES.
+
+**THE FEATURE** — how the mind picks what to think about.
+
+**WHY IT MATTERS** — it decides what its inner life is made of. If one
+source always wins, the other three are decoration.
+
+**WHAT WAS REPORTED** — 219: memory leads the draw. Never ruled.
+
+**AND THE SCIENCE SAYS THE DRAW ITSELF IS THE WRONG SHAPE.** His
+instruction was to answer it from the science and to let the mind's
+aspects factor in. Both are answered:
+
+1. BOTH FUNCTIONS RUN AT ONCE, NOT IN COMPETITION. The largest study
+   of it (N=3,359 think-aloud, PNAS Nexus 2024) concludes spontaneous
+   thought BOTH supports memory optimisation AND keeps the mind
+   focused on current concerns. It is not memory OR state — it is
+   memory replay STEERED by concerns.
+2. CONCERNS DO NOT COMPETE WITH MEMORY, THEY BIAS IT. Klinger: an
+   individual's current goals SENSITIZE them, and concern-related
+   cues receive AUTOMATIC PRIORITY for processing. The memory
+   framework (Mildner & Tamir) adds two superordinate layers —
+   DRIFTING MENTAL CONTEXT and THE CURRENT STATE — which "shape the
+   strength of the association between thoughts."
+3. AND IT VARIES BY INDIVIDUAL. Mind-wandering propensity differs
+   between people, so how strongly concerns steer and how far thought
+   drifts is a property OF THE BEING.
+Rows to REFERENCES.md per 227.
+
+**THE RULING**
+1. MEMORY IS THE SUBSTRATE. It leading is not the fault. MEMORY
+   LEADING UNBIASED IS.
+2. THE MIND'S STATE AND ITS CONCERNS BIAS WHICH MEMORY RISES —
+   feelings, needs, curiosity's target, its interests. They are not
+   rival sources drawn against memory; they are what decides which
+   memory surfaces.
+3. THE STRENGTH OF THAT BIAS COMES FROM ITS ASPECTS (071, 339), as
+   every rate in this build does. A being that ruminates and a being
+   that drifts are both lawful and both are who they are.
+4. IMAGINATION KEEPS ITS PLACE (226): when nothing lived touches the
+   subject, it invents from what it has lived.
+5. 281 IS NOT STRUCK — its four sources stand, and this says how they
+   relate rather than replacing them. Report whether 281 is live and
+   what changes under this ruling.
+6. PROVE IT: the same mind, before and after — where its subjects
+   came from, and whether a mind with a strong feeling or a roused
+   curiosity now surfaces memories that touch it rather than any
+   memory at all.
