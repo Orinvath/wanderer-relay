@@ -40879,3 +40879,89 @@ a newborn is still not featureless: sense, kind and dyad remain (415.4, named no
 ```
 
 **NOTHING CHANGED, and nothing reverted.**
+
+---
+
+# ANSWERED — Directive 417. **YES. THE APP IS IN HERE, AND THE MIND DOES NOT TOUCH ANY OF IT.**
+
+Walked from the two entry points — `index.js` is the app, `bench-start.js` is the mind.
+
+```
+159 .js files in server/src
+  the MIND loads          86
+  the APP loads           34
+  shared by both          18
+  APP ONLY                16      <- the answer to his question
+  loaded by NEITHER       57      <- 34 of them are the acceptance suites
+```
+
+## 1 · THE SIXTEEN FILES THAT ARE THE APP, NOT THE MIND
+
+```
+wanderer.js         the Wanderer itself -- epochs, custody, hosts, gifts
+index.js            the service: the HTTP surface the app is served on
+consent.js          a host consenting to a picture being given
+moderation.js       the review queue and the moderator's decision
+sight.js            pictures: offering, gifting, carrying
+moderator.js        the moderator's own screen
+login.js            handoffs and the login page
+accounts.js         accounts
+webauthn.js         passkeys
+attest.js           on-chain attestations
+genesis-registry.js the genesis registry
+manifest.js         the state manifest and its hashes
+living-mark.js      the living mark
+expression.js       the Wanderer's expression record
+disclaimer.js       disclaimers
+viewer.js           the public lineage page
+```
+
+## 2 · WHY THEY ARE HERE — HISTORIC, AND THE DATES SAY SO PLAINLY
+
+```
+wanderer.js · index.js      first commit  2026-08-10
+consent.js · moderation.js · sight.js     2026-08-11
+                                          ^ THE APP WAS BUILT FIRST
+
+watching.js  (the mind's bench)           2026-08-19   nine days later
+thinking.js                               2026-08-25
+experiencing.js                           2026-08-28
+```
+
+**THE MIND WAS BUILT INSIDE THE APP'S REPOSITORY, and the app never moved out.** Nothing about it
+is deliberate — **this repository is the Wanderer's, and the mind grew in it.** `wanderer.js` was
+last touched today only because 409 renamed a filename it imports.
+
+## 3 · DOES THE MIND DEPEND ON ANY OF IT — NO. NOT ONE.
+
+**No file the mind loads imports any of those sixteen.** Checked one by one. The only files that
+import them are the app's own and the acceptance suites.
+
+**The 18 shared files are not the app's either — they are the foundations both were built on:**
+`store.js` `schema.js` `sign.js` `model.js` `memory.js` `privacy.js` `glyphs.js` `dictionary.js`
+`needs.js` `aspects.js` `roe.js` `character.js` `shape.js` `sleep.js` `vitals.js` `config.js`
+`mind.js` `protected-core.js`.
+
+**So the boundary he asked about is CLEAN IN THE DIRECTION THAT MATTERS: the mind depends on none
+of the app. The app's code simply sits in the same folder.**
+
+## 4 · WHAT IT COSTS TODAY — measured
+
+```
+PHASE 3 IS THE APP'S, AND IT IS THE EXPENSIVE ONE
+  wall time         about 3 minutes per run, every run
+  model calls       71 per run, on his own GPU
+  and the SUITE STOPS THERE: "the run stopped after PHASE 3" -- so every MIND suite behind it
+  (sleep, remember, tiers, story, brain, games, harness) never runs when the app's phase fails
+
+THE TWO FLAKY CHECKS THAT COST TODAY  66 and 67 -- BOTH PHASE 3, BOTH THE APP'S
+  they flipped four times, I attributed them to 415, raised a security alarm, and spent the
+  hour tracing a path that does not exist
+
+FOUR OF THE FIVE STANDING RED CHECKS ARE THE APP'S   9 · 10 · 14 · 55 -- all phase 3
+```
+
+**And the confusion is not hypothetical: I have twice this week reported an app failure as a mind
+failure.**
+
+**CHANGED NOTHING.**
