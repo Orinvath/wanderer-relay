@@ -41458,3 +41458,73 @@ about a second rather than jumping. **Readability only — the addendum puts tha
 half.**
 
 **NOT BUILT. Waiting on his word.**
+
+---
+
+# 421.2 — EVERY COLLISION, REPORTED BEFORE ANYTHING IS CHANGED. **And the cause is not what 421 says it is.**
+
+## HIS TWO EXAMPLES ARE BOTH CONFIRMED
+
+```
+ATTENTION + GOALS        share a mark
+CLOCK + CONSOLIDATION    share a mark
+```
+
+## BUT THE COLLIDING MARK IS NOT ONE OF HIS 402 — AND THIS CHANGES THE FIX
+
+```
+42 nodes on the map
+  8  wear one of HIS marks, cut from his sheets:  SAFETY HOST CURIOSITY SLEEP BELIEF TRUST LEARNING GROWTH
+ 34  wear a GENERIC STROKE SHAPE drawn in code -- 16 shapes for 34 nodes
+```
+
+**Of the 8 wearing his artwork, THERE IS NOT ONE COLLISION.** Every collision he can see is among
+the 34 that have no mark of his at all, and it is a stroke shape repeating.
+
+## ALL ELEVEN GROUPS
+
+```
+shape  3   VOCABULARY  +  LANGUAGE  +  SENSES
+shape  4   OFFERS  +  GLYPHS  +  PERCEIVING
+shape  5   ATTENTION  +  GOALS  +  DICTIONARY  +  COMPREHENSION        <- his example
+shape  6   APPRAISAL  +  STORIES
+shape  7   FEELINGS  +  THINKING  +  STORYGATES
+shape  8   MEMORY  +  LESSONS
+shape  9   SURFACING  +  VOICE
+shape 11   CONSOLIDATION  +  CENSOR  +  CLOCK  +  EMBODIMENT           <- his example
+shape 12   SOUL  +  ASPECTS  +  CORD
+shape 13   ROE  +  NERVES  +  GEOMETRY
+shape 14   INTERESTS  +  INTERPRETER
+```
+
+**Eleven groups, 30 of the 34 unmarked nodes involved.** He is right that there are a lot.
+
+## 421.3 CANNOT BE APPLIED, AND 421.4 IS THE HONEST ANSWER
+
+**421.3 says the node the mark fits best keeps it and the other takes its next-nearest UNCLAIMED
+word. That assumes both nodes chose a word. NEITHER DID:**
+
+```
+nodes with no mark of his                     34
+of those, whose name is one of the 402         0      <- not one
+unclaimed marks sitting in the 402           394 of 402
+```
+
+**`marksForNodes()` gives a node his artwork only when THE NODE'S NAME IS LITERALLY ONE OF THE 402.**
+ATTENTION, GOALS, CLOCK and CONSOLIDATION are not words in his language, so there was never a
+nearest-mark search to collide — **261's nearest-mark ruling is not implemented at all.** The
+collisions are 16 code-drawn shapes divided among 34 nodes, and the pigeonhole did the rest.
+
+**SO 421.4 APPLIES: I am saying so rather than forcing a bad one.** 394 of his marks are unclaimed,
+and I could pair every node with one — **but choosing which of his 402 words stands for ATTENTION
+is choosing what his artwork means, and that is never mine** (standing law, and 188).
+
+## THE TWO WAYS OUT, BOTH HIS
+
+1. **HE PAIRS THEM** — 34 nodes, 394 marks. 421.2 already anticipates it: *"he may want to choose
+   some himself."*
+2. **OR THE 34 GET DISTINCT STROKE SHAPES** — 261.4's own placeholder route, no artwork invented,
+   and it needs 34 distinct shapes where 16 exist. **Drawing 18 more generic shapes is drawing, and
+   I would want that ruled before I did it.**
+
+**NOTHING CHANGED.**
