@@ -11181,3 +11181,37 @@ as GSP gold standard. Rows to REFERENCES.md per 227.)
    evidence, until his spot-checks agree with it several times over.
    If it never earns that, it is a panel we drop rather than a system
    we defend.
+
+## Directive 414 — WHAT ARE THOSE POINTS? And why is it referencing the 402 again?
+
+**HIS BENCH, freshly restarted, on the Meaning Map:**
+```
+points drawn on a NEWBORN mind
+"nothing bound yet"  printed in the middle WHILE POINTS ARE DRAWN
+"these three directions carry 13.7% of the space, over 402 words"
+```
+
+**QUESTIONS, and answer them with what the code does — do not
+explain, do not justify, do not assume the Director's reading:**
+
+1. WHAT ARE THOSE POINTS? A freshly restarted mind has learned
+   nothing. Name what each drawn point IS and where its position came
+   from.
+2. WHY 402? The marks have been ruled insignificant repeatedly — 344,
+   387, 398, 409 — and 398 exists solely to stop us treating them as
+   anything. Why is the map counting them, and where did that number
+   enter the drawing?
+3. WHY DOES IT SAY "NOTHING BOUND YET" WHILE DRAWING POINTS? Those
+   two statements cannot both be true. Say which is wrong.
+4. 13.7% AND IT DREW ANYWAY. 413.2: if the projection does not
+   capture enough, DO NOT DRAW IT — a low number means the picture is
+   wrong and showing a wrong picture with a warning label helps
+   nobody. What is the threshold in the code, and why did 13.7% pass
+   it?
+
+**AND SEPARATELY — THINKING THREW AN ERROR.** Nothing in the Meaning
+Map work should have touched the mind. Find out what it was, whether
+the map reached into the mind, and whether the mind is intact. That
+one comes first.
+
+CHANGE NOTHING until these are answered.
