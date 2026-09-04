@@ -42015,3 +42015,23 @@ completely, which is the honest picture, and it makes the whole 413.2 threshold 
 **there would be nothing misleading left to draw.**
 
 **NOTHING BUILT. Waiting on which.**
+
+---
+
+# HIS CLARIFICATION — THE 402 ARE SCAFFOLDING, AND THE FLAG IS NOT NEEDED.
+
+**His words:** *"They are just marks, but that is irrelevant, they just placeholders for scaffolding
+until the map starts creating its own geometry."*
+
+**SO THE PLAN ABOVE IS WITHDRAWN.** I read a full map of an ignorant mind as a thing to correct; he
+is telling me it is a thing to expect. **The 402 are the codebook (415.1) — they are there so the
+mind HAS somewhere to put a meaning when it learns one, and they are superseded by the mind's own
+geometry as bindings form.** Nothing needs flagging, because nothing about them is a claim.
+
+**AND IT ANSWERS 413.2 WITHOUT A NUMBER.** The scaffolding is why a newborn's map is 402 dots at
+2.5% captured with 351 of them in one pile: **there is no geometry yet, only the frame it will be
+built on.** That is not a misleading picture — it is the correct picture of a mind before it has
+understood anything, and the map fills in as it learns.
+
+**NOTHING BUILT. This is a statement of his, not a directive, and I am recording it rather than
+acting on it.**
