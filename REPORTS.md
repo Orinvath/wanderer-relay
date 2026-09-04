@@ -43244,3 +43244,19 @@ rather than only its bar.
 
 *(He may still be seeing the gap under a shut THOUGHTS in that screenshot — that fix landed one
 commit earlier, at `1fe55a3`, and needs the reload as well.)*
+
+---
+
+# THE MEANING MAP IS BUILT THE SAME WAY AS THE MIND MAP. **`aa2ebcd`, live, reload.**
+
+**His word: do it the same as the Mind Map, which looks right. They were not the same thing:**
+
+```
+THE MIND MAP     a plain panel WRAPPING a stage   -- the panel carries the frame
+THE MEANING MAP  WAS the stage itself             -- the stage carried the frame
+```
+
+**That is why its bar and its edge never quite matched, and why patching the colour only got it
+close.** Same shape now: a panel with the frame, a stage inside it with none. **One rule styles
+both, so they cannot drift apart again** — which they had, twice, because they were two different
+things wearing the same name.
