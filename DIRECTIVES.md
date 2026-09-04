@@ -11431,3 +11431,29 @@ constantly, and the cost is bounded however many words there are.
   projection already costs.
 - WHAT "ENOUGH TO MATTER" IS: measure it and PROPOSE it with the
   number. Do not pick one silently.
+
+## Directive 420 addendum — WHAT "ACCURATE" MEANS FOR THIS MAP
+
+**His spec, and it governs everything about the Meaning Map:**
+
+THE MAP IS A TRANSLATOR, NOT AN ACCURATE MAP. Its only purpose is to
+show the RELATIONSHIPS BETWEEN WORDS.
+
+**SO ACCURACY IS MEASURED ON THE CLUSTERING AND NOTHING ELSE.** Which
+words sit together — that must be true. Everything else is free to
+serve readability: spacing, scale, how it moves, how it eases, where
+the whole thing sits, how big a point is.
+
+**WHAT THIS SETTLES**
+1. THE PROJECTION SCORE MATTERS LESS THAN 413.2 MADE IT. A low number
+   is fine IF THE RIGHT WORDS ARE STILL GROUPED TOGETHER. Do not
+   refuse to draw on the number alone; refuse to draw when the
+   CLUSTERING is not trustworthy, and say which it is.
+2. HIS EYE IS THE TEST (411.2, and it is now the whole test): two
+   words the mind has genuinely bound are together; two it has not
+   are apart. That passing is the map working, whatever any figure
+   says.
+3. DO NOT OPTIMISE FOR THE PERCENTAGE. Optimise for the clustering
+   being right and the picture being usable.
+4. THE READ-ONLY GUARD IS UNCHANGED AND OVERRIDES ALL OF IT: nothing
+   about the mind may change to make a picture easier to draw.
