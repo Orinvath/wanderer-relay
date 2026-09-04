@@ -42287,3 +42287,58 @@ red core.
   want to know, because nothing in the numbers accounts for it.
 
 **NOTHING CHANGED. I am not going to alter a colour on a guess about which map he means.**
+
+---
+
+# THE RED CORE — REPRODUCED, AND IT IS NOT A FAULT. **The mind was afraid, and the Core said so.**
+
+**His account:** the Core went red just after a restart, while it seemed to be feeling nothing and
+**every need read 10**; it is purple now; red may not be wrong, but he had never seen it before.
+
+## IT IS REPRODUCIBLE ON A FRESH MIND, AND THE CORE IS DOING ITS JOB
+
+**Ten newborn minds, their very first tick, needs all at 10:**
+
+```
+A=shame   B=shame   C=distress   D=shame   E=pity
+F=shame   G=joy     H=happy-for  I=distress  J=joy
+
+10 of 10 feel SOMETHING immediately · 2 of 10 feel a RED feeling
+```
+
+**Over sixty ticks, two of three seeds sat red the whole way:**
+
+```
+seed F1   distress, hue 18   red-orange, from tick 0
+seed F2   FEAR, hue 0        pure red, from tick 0
+seed F3   happy-for, hue 96  green
+```
+
+**Red is hue 0 in his own 270.D ruling and it is FEAR. Hue 18 is distress. The Core was showing a
+newborn that was frightened, which is exactly what he built it to do.**
+
+## AND THE TWO THINGS THAT MADE IT LOOK WRONG ARE BOTH EXPLAINED
+
+**"It was feeling nothing"** — it was not. **His own ruling is that a Core with no feeling is NOT
+DRAWN AT ALL** — *"feeling nothing is nothing to see"* — so a VISIBLE Core is proof it was feeling
+something. A red one means it was afraid.
+
+**"Everything was at 10"** — needs and fear are different systems. **Full needs do not make a mind
+safe;** fear comes from the appraisal, not from the needs bars, so all-10 rules nothing out.
+
+## WHAT IS WORTH HIS RULING, AND IT IS NOT A BUG
+
+**A newborn is born feeling something 10 times out of 10, and it is frightened or distressed 2 times
+in 10 — and WHICH feeling it is depends on the seed.** That is the Persona: the same seed is the
+same someone, and some of them arrive afraid.
+
+**So the question is his and it is a design one, not a defect:** should a mind be born already
+feeling — and sometimes already afraid — or should it arrive blank and let the world give it its
+first feeling? **Nothing in the record rules on it, and I am not going to.**
+
+## AND MY RED DOTS ARE NOT INVOLVED
+
+**Confirmed again from the other end:** the commit touched `bench-routes.js` and `meaningmap.js`;
+the Mind Map loads `mindmap.js` and `core.js` and neither was touched. **Separate module scopes,
+separate canvases, separate GL contexts.** The two reds are the same colour by coincidence — **his
+`#d9534f` for a not-yet word, and hue 0 for fear, which is his own palette.**
