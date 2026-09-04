@@ -11264,3 +11264,40 @@ structure in it.
    what changes and by how much, on the same seed, before and after.
    If something depended on the old structure, that is a finding —
    report it, do not repair it.
+
+## Directive 416 — HOW DID THE MIND REACH THE APP? Trace the boundary, do not repair.
+
+**HIS ARCHITECTURE, stated plainly and it governs this:**
+```
+WANDERER   the app
+AVATAR     the body
+THE MIND   this. AND THE MIND ONLY DEALS WITH THE MIND.
+```
+
+**WHAT HAPPENED** — 415 changed how the MIND'S SPACE is seeded, and
+two checks belonging to WANDERER'S consent and moderation broke:
+```
+66  A picture swapped in the row between the consent and the approval  ✗ ALLOWED
+67  A gift the consent check saved is still the moderator's to decide  ✗ FAILED
+```
+Both pass without 415 and fail with it, run twice each way in the same
+tree.
+
+**THAT IS A BOUNDARY VIOLATION REGARDLESS OF WHICH ONE IS AT FAULT.**
+A change to the mind's own vectors must not be able to reach the app's
+consent code. Either something is shared that should not be, or the
+check itself depends on the mind's old seeding — and both are faults
+of the same kind: the layers are not separate.
+
+**TRACE IT. CHANGE NOTHING.**
+1. NAME THE PATH. What does the consent check touch that 415 changed?
+   Follow it link by link and post the chain.
+2. SAY WHICH KIND IT IS: the app genuinely reading the mind's space,
+   or a test that was written against the mind's old numbers.
+3. AND SAY WHAT ELSE CROSSES THAT LINE. If the mind's internals are
+   reachable from the app at all, this is one instance of a class,
+   and he needs the class. List every place the app or the body reads
+   something that belongs to the mind.
+4. DO NOT REPAIR ANYTHING and do not revert 415 yet. The revert is one
+   commit (`fc1315f`) and stays available; the ruling on it is his and
+   comes after the trace.
