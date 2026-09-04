@@ -41821,3 +41821,103 @@ anyone: cut every mark, compare, take the most distinct unclaimed one.**
 
 **Nothing created** (394 unclaimed, 34 needed). **The label still says what the node is** (421.5).
 **The guard holds:** state hash `01563eb1…` unchanged.
+
+---
+
+# =====  FOR THE DIRECTOR — THE WHOLE OPEN BOARD, FOR PLANNING  =====
+
+**At his request, so execution can be planned. Everything open, in one place, with what each one is
+blocked on. Nothing here is a proposal — it is the state of the board.**
+
+## A · WAITING ON LONNIE ONLY — small rulings, each unblocks work
+
+```
+1  413.2 THE MEANING MAP'S THRESHOLD. "Do not draw it if the projection does not capture enough" --
+   AND IT NAMES NO NUMBER. The switch is wired and OFF, so nothing is withheld on my judgement.
+   The evidence for setting it: a newborn is 402 words at 2.5% captured with 351 of them stacked
+   on ONE SPOT. Anything above ~3% blanks a newborn's map until it learns something.
+   BUT 420 addendum may have already settled this: accuracy is the CLUSTERING, not the number.
+   -> ONE QUESTION: does the addendum retire 413.2, or does he still want a floor?
+
+2  421 LEARNING + GROWTH. The last look-alike pair on the map, at 35.9 -- twice as distinct as
+   anything he flagged. Both wear their OWN NAME. Moving either takes a node off its own word to
+   satisfy a number, which is his call.
+   -> ONE QUESTION: leave it, or move one?
+
+3  403.5 / 421 THE PAIRING ITSELF. 34 nodes now wear a mark chosen by MEASURED VISUAL DISTINCTNESS.
+   He can overrule any single one by name; the full list is in the 421 report.
+```
+
+## B · REPORTED, UNREPAIRED, AND OLDER THAN THIS WEEK — these need directives
+
+```
+234/235  THE STORY FELT-TRAIL IS FLAT. Every beat reads [0,0,0]. Reported, never ruled.
+219      MEMORY LEADS THE DRAW. Reported, never ruled.
+383.4    A HALTED BOARD FREEZES LIT instead of going dark.
+347      THE DIRECTOR'S 42 CLAIMS -- step 1 was posted; steps 2 and 3 have been waiting since.
+365      55 OF 95 CALL SITES STILL UNNAMED.
+172      THE GAUGE COUNTS INFLECTIONS -- YOUS, ARES, SAFES. LEFT RED ON PURPOSE (382.4), because
+         the honest bound would make the clause circular. Needs a ruling, not a repair.
+```
+
+## C · FOUND THIS WEEK, NAMED, NOT CHANGED — each is a decision, not a fix
+
+```
+415.4  A NEWBORN IS STILL NOT A FEATURELESS CLOUD. The sheets came out; `sense`, `kind` and `dyad`
+       from the STATES dictionary did not, and 415 named only the sheets. 0.45% of pairs are still
+       related at birth. -> does 415 extend to them?
+
+418    THE APP IS INSIDE THE MIND'S OWN FILES, and the biggest one RUNS:
+         schema.js   21 of its 41 tables are the app's, and EVERY NEWBORN MIND CREATES THEM --
+                     passkeys, consent, moderation, attestations. All empty, forever.
+         memory.js   a consent column on every memory, always null; forgetByConsent, app-only
+         clock.js    the mind holds a list of the app's tables BY NAME in order to exclude them
+         mind.js     the bench builds the app's per-epoch session object
+         host.js     who the mind has met is keyed by an APP ACCOUNT ID
+       -> what comes out, and when.
+
+417    SIXTEEN APP FILES SIT IN THIS REPOSITORY. The mind imports NONE of them, so the boundary is
+       clean in the direction that matters -- but PHASE 3 IS THE APP'S and costs ~3 minutes and 71
+       model calls EVERY SUITE RUN, and the suite STOPS THERE, so the mind's own suites behind it
+       never run when it fails. FOUR of the five standing red checks are its.
+       -> is the app's suite split off, or moved out entirely?
+
+409    A SWALLOWED ReferenceError. My rename left an argument undefined inside learning; the mind
+       DID NOT CRASH -- it went NONDETERMINISTIC. Something is catching and discarding a real
+       error. My slip is fixed; THE SWALLOWING IS NOT, and it will hide the next one too.
+
+404/407 THE GLYPH FILTERS ARE OUT, AND THE NUMBER DID NOT MOVE. 55 English words learned before
+       and after. What starves the mind is the SCHOOL, not a filter -- which 419 has now fixed
+       (25 calls per line -> 0.9), so this is worth re-measuring rather than re-designing.
+
+406    THE BENCH CONNECTS A SPHERE BODY UNCONDITIONALLY -- resolved by making the Core its own
+       node, but worth noting the class: a body that nothing draws still counted as a body.
+```
+
+## D · STANDING RED, AND NOT OURS TO REPAIR
+
+```
+ 9 · 10 · 14 · 55   four PHASE-3 checks, red across every commit this week and before it.
+                    ALL FOUR PRINT THEIR PASS TEXT BESIDE THE RED MARK, so none of them says what
+                    actually failed. That reporting fault is itself in at least four checks.
+66 · 67             FLAKY, not broken. They flip between runs. I attributed them to 415, raised a
+                    SECURITY ALARM, and it was wrong -- there is no path from the mind's space to
+                    the app's consent code. Recorded so nobody chases it again.
+```
+
+## E · ON THE TODO LIST, NOT YET DESIGNED
+
+```
+12  GRAMMAR IS TAUGHT (his, today). A correction from the local model is itself a lesson and is
+    being thrown away; and the mind should learn the PARTS OF SPEECH from the teacher, with his
+    own example as the test: "teacher gives a sentence and asks the mind to pick out the noun."
+11b/11c  the Language Stage's faithfulness, and the human baseline that already exists.
+```
+
+## THE MIND ITSELF, RIGHT NOW
+
+```
+health GREEN · not one counter above zero over 40 ticks · the teacher delivers at 0.9 calls a line
+```
+
+**That is everything. Nothing in A or B is being worked on until it is ruled.**
