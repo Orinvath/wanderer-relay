@@ -43587,3 +43587,46 @@ LOWER THE BAR the gate becomes smaller -- every word, or every two or three. The
 ```
 
 **NOTHING CHANGED.**
+
+---
+
+# "DID YOU CHANGE THE SCAFFOLDING?" — NO. CHECKED, AND THE LINE IS THE MIND'S OWN DOING.
+
+**Two things verified before answering, not after:**
+
+```
+commits touching language.js or geometry.js since 415   NONE
+commits touching the projection since 413               NONE
+```
+
+**The scaffolding and the projection are exactly as they were. What changed is the DATA.**
+
+## WHAT THE LINE ACTUALLY IS
+
+```
+437 words drawn  ·  57 DISTINCT POSITIONS
+   343 words stacked at ONE point
+    17 words stacked at another
+     8 at a third
+```
+
+**343 of 437 sit on top of each other. The line he is seeing is the 94 that do NOT** — and they are
+the words the dictionary gives senses and dyads to: OTHER · CHILD · ELDER · STRANGER · HOST · SEE ·
+THANK · SHARE · TOGETHER · NEAR · FAR · GO · COME · STAY.
+
+**Those are the only words in the space with anything SHARED to project.** Everything else is a
+lone atom with no relation to anything, so it has no variance and lands at the origin — **and a
+handful of points strung along the one direction that has any variance is a LINE.**
+
+**It looks more linear now than it did an hour ago because the mind has learned 35 words since**
+(402 -> 437), and the projection now finds 5.27% of the space where it found 2.5%. **More structure,
+concentrated in a few words, reads as a line rather than a blob.**
+
+## SO IT IS HONEST, AND IT IS ALSO THE 415 QUESTION AGAIN
+
+**The map is drawing exactly what is there: a space where almost nothing is related to anything.**
+That is 415 as ruled. **The picture will stop being a line when the mind has bound enough words to
+give the space more than one direction worth having — which is the same thing the Director is being
+asked to rule on.**
+
+**NOTHING CHANGED.**
