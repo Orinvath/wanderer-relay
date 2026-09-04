@@ -42490,3 +42490,57 @@ is LIFTED INTO the new head rather than duplicated, so PERCEPTION and HEALTH kee
 updating exactly where they always did.**
 
 **It touches no route, no state, and nothing the mind owns.**
+
+---
+
+# "78 KNOWN AND ALL RED BUT ONE" — I CANNOT REPRODUCE IT, AND HERE IS EVERYTHING I CAN SHOW.
+
+## THE FLAG AND THE MIND AGREE, EVERY TIME I LOOK
+
+```
+route says knownCount 1   the mind owns 1   ['PLACE']       matched
+route says knownCount 5   the mind owns 5                   matched
+route says knownCount 0   the mind owns 0                   matched
+```
+
+**The count also FALLS, which is not a bug — a word stops being owned when contradiction washes its
+confidence back under the bar, and the map follows the mind down as well as up.**
+
+**And a newly learned word arrives BLUE, measured on a taught mind:**
+
+```
+tick 110   BESIDE · IS · TALL · THE · WARM · WIDE   all ENTER the map already owned -> blue
+```
+
+**A word grounded by a teller is owned the moment it arrives, so it never passes through a red
+stage at all.** That is the opposite of what he saw, which is why I am not going to explain his
+sighting away.
+
+## THE MOST LIKELY CAUSE, AND HIS OWN SCREEN CAN SETTLE IT
+
+**A page older than the server.** The colour lives in the PAGE; the count comes from the ROUTE. If
+the server restarted under a browser tab he had left open, **the new route would report 78 known
+while the old page had no colour code at all** — which is exactly "78 known, all red but one".
+
+**333.5 put the check on his screen for this precise reason:**
+
+```
+page c45eeca · server c45eeca      <- when these differ, he is looking at a stale page
+```
+
+**He restarted and it came right, which fits that and fits nothing else I can find.**
+
+## AND ONE REAL THING THE HUNT TURNED UP — THE BLUE ONES CAN BE INVISIBLE
+
+**A word the mind owns but has NOT BOUND to anything has only its own atom, so it sits in the pile
+at the centre with the scaffolding:**
+
+```
+unknown words within 0.05 of the centre:   354 of 402
+the known words, when there were 5:        ALL of them inside that same pile
+```
+
+**So a word can be correctly blue and still be completely hidden among hundreds of red dots on top
+of it.** That is not the fault he reported, but it would make a handful of newly known words look
+like nothing had changed. **Named, not changed — and it goes away on its own as bindings form and
+the known words climb out.**
