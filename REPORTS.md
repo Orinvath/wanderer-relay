@@ -42100,3 +42100,58 @@ states are one scale — never met, met, understood — and **B is the only one 
 itself a scale.** But that is an observation about the data, not a vote about his display.
 
 **NOTHING BUILT. Waiting on which.**
+
+---
+
+# THE THINKING RED LIGHT — DIAGNOSED. **It is my bug from 407, and the mind is innocent.**
+
+**What his bench recorded, and the counter wrote down the offender itself:**
+
+```
+Thinking  RED  subject_not_nearer: 1
+  tick 3   "TOGETHER [225]: 0.102 to it, 1.000 to SAFETY"
+```
+
+## THE 1.000 IS THE WHOLE ANSWER
+
+**A nearness of exactly 1.000 is a word compared with ITSELF.** The control word SAFETY was not a
+stranger the train was measured against — **it was one of the thoughts in the train.**
+
+**How the check works:** take a train's thoughts, measure how near they sit to their subject, then
+measure how near they sit to a word drawn at random. If the random word scores better, the train
+was not about anything. **The random word is supposed to be a stranger.**
+
+**407 IS WHERE I BROKE IT.** His ruling was right — the control should come from what the mind has
+LIVED rather than from the 402 it has never met — and I drew it from the lived pool without
+excluding the thoughts themselves. **The thoughts come from that same lived material, so the
+control can be one of them:**
+
+```
+words this mind had lived: 26
+  a train of  2 thoughts ->  7.7% of draws land on a thought
+              4 thoughts -> 15.4%
+              8 thoughts -> 30.8%
+             16 thoughts -> 61.5%
+```
+
+**When it lands, that thought scores 1.000 against itself, the mean is dragged to the top, and the
+check fires on a train that was perfectly fine.** Before 407 the control came from all 402 marks,
+so the collision was possible but rare — **my change made the pool the same pool the thoughts come
+from.**
+
+## THE FIX IS ONE LINE, AND I HAVE NOT MADE IT
+
+```
+   const known = [...lived words].filter((w) => w !== train.subject)
+                                                ^ excludes the SUBJECT, not the THOUGHTS
+```
+
+**A control word must be a word the train was not about — so it excludes the thoughts as well as
+the subject.** That is the check doing what its own description says it does.
+
+**AND 306.D COMES WITH IT:** the claim beside the counter still reads *"nearer to it than to ANY
+WORD AT ALL"*, which stopped being true when 407 changed the pool to lived words. **The wording
+moves in the same commit or the counter is asserting a law the code no longer follows.**
+
+**HIS BENCH IS RED FOR MY BUG, NOT FOR THE MIND. Nothing changed — this is a diagnosis, and the
+repair is his to authorise.**
