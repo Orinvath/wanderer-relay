@@ -11516,3 +11516,31 @@ change what this word means.
 
 The read-only guard (420) and the clustering-is-the-accuracy spec
 (420 addendum) both stand unchanged.
+
+## Directive 423 — 413.2 IS RETIRED. There is no projection floor.
+
+**HIS RULING** — the 420 addendum settles it. ACCURACY IS THE
+CLUSTERING; the captured percentage is not the measure and never was.
+
+**WHY 413.2 EXISTED** — it was ruled before the clustering spec, when
+a low number was assumed to mean a wrong picture. It named no
+threshold, so the switch was wired and left OFF, and nothing has been
+withheld on CC's judgement. Correct behaviour, and it ends here.
+
+**WHY A FLOOR WOULD BE WRONG** — a newborn reads 2.5% captured with
+351 words stacked on one spot, which is exactly what 415 asked for: a
+featureless cloud, because it understands nothing. ANY FLOOR ABOVE
+~3% BLANKS A NEWBORN'S MAP UNTIL IT LEARNS SOMETHING — hiding the
+truest picture the map will ever draw.
+
+**THE RULING**
+1. 413.2 IS RETIRED. There is no percentage floor and none is to be
+   set.
+2. THE MAP REFUSES TO DRAW ONLY WHEN THE CLUSTERING IS UNTRUSTWORTHY
+   — not when a number is low. If that condition can be measured, say
+   how; if it cannot, the map draws and his eye rules (420 addendum,
+   411.2).
+3. THE CAPTURED FIGURE MAY STILL BE SHOWN as information. It is not a
+   gate.
+4. REMOVE THE UNUSED SWITCH rather than leaving a disabled gate in
+   the code for someone to turn on later.
