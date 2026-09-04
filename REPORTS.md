@@ -42786,3 +42786,43 @@ ended up against the bar.**
 *(Third fault from the same cause: the lifted heading rows carried style that mattered — a negative
 margin that dragged THOUGHTS over the arrow, a serif I introduced, and now the space they held
 open. Each one only shows up on his screen, which is why he keeps finding them and I do not.)*
+
+---
+
+# BUILT — THE WAITING LIST. **`aa17ae4`, reload.**
+
+**His words:** *"Not its own panel, a list along the left side, they stay there until placed."* and
+*"A real list, not a line of dots in the space."*
+
+**Real words, spelled out, down the left edge of the Meaning Map.**
+
+## PROVEN — a mind taught a new word every few ticks
+
+```
+tick 100   drawn 405   WAITING 1: SNOW
+tick 120   drawn 405   WAITING 1: SNOW
+tick 140   drawn 405   WAITING 3: GRASS  LEAF  SNOW
+tick 160   drawn 405   WAITING 5: GARDEN  GRASS  LEAF  SNOW  STREAM
+tick 180   drawn 405   WAITING 6: GARDEN  GRASS  LEAF  ROOF  SNOW  STREAM
+```
+
+**A word appears on the list the moment the mind learns it and leaves the moment the map has
+somewhere to put it.** They accumulate while the picture is held and clear together when it is
+redrawn.
+
+## WHAT IT IS, AND WHY IT MATTERS MORE THAN IT LOOKS
+
+**The picture is held until the space grows 2% or 10 words (422), so a word the mind learned a
+minute ago HAS NO POSITION AT ALL yet — not red, not blue, ABSENT.** Until now nothing on the page
+said it existed. **This is the gap between what the mind knows and what he can see, made visible
+instead of silent** — and he found it, not me.
+
+**It is the space's own list minus the drawn one. Nothing is computed for it and nothing is
+invented.**
+
+## HOW IT SITS
+
+**Over the map's left edge rather than beside it, so the map keeps its full width**, on a fade so
+the dots behind it still read. **It does not take the pointer** — hovering a dot underneath it
+still names the word. It shows as many as fit and says *"and N more"* when there are more, so it
+cannot grow past its own panel.
