@@ -11301,3 +11301,29 @@ of the same kind: the layers are not separate.
 4. DO NOT REPAIR ANYTHING and do not revert 415 yet. The revert is one
    commit (`fc1315f`) and stays available; the ruling on it is his and
    comes after the trace.
+
+## Directive 417 — IS THERE WANDERER CODE IN THIS REPOSITORY AT ALL?
+
+**HIS QUESTION, asked and not answered:** is that consent and
+moderation code Wanderer leftovers sitting in the mind's repository?
+
+416 proved the app cannot REACH the mind. It never asked whether the
+app's code is IN HERE, which is a different question and the one he
+put.
+
+**HIS ARCHITECTURE:** Wanderer is the app. The Avatar is the body.
+This is the mind, AND THE MIND ONLY DEALS WITH THE MIND.
+
+**ANSWER IT FROM THE FILES:**
+1. LIST EVERY FILE IN THIS REPOSITORY THAT IS NOT THE MIND. Consent,
+   moderation, gifting, the service, `wanderer.js`, the phase-3
+   suite, anything belonging to the app or the body.
+2. FOR EACH, SAY WHAT IT IS AND WHY IT IS HERE — deliberate, historic,
+   or nobody knows. If it predates the mind being separated, say when.
+3. SAY WHETHER THE MIND DEPENDS ON ANY OF IT. Does a mind file import
+   any of them, or read anything they write? If the answer is no for
+   all of them, that is worth knowing plainly.
+4. AND SAY WHAT IT COSTS US TODAY — suite time, model calls, flaky
+   checks (the two that cost an hour today were phase-3, which is the
+   app's), and confusion about what belongs where.
+5. CHANGE NOTHING. He rules on what goes and what stays.
