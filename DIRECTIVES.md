@@ -11769,3 +11769,28 @@ perceiving    nothing enters from a sense that is not a word this mind has
 2. HEALTH reads them all, and a red light names exactly one file.
 3. WHERE A FILE HAS NO CLAIM HERE, say so plainly rather than
    inventing one — a node with no honest claim is a finding.
+
+## Directive 429 — THE CHAT LOG SAYS WHICH KIND OF LINE THE TEACHER SPOKE
+
+**THE FEATURE** — the teacher's two kinds of line: NAMING, which says
+what is true of the mind right now, and STORY, which is told.
+
+**WHY IT MATTERS** — they teach differently and they are guarded
+differently. A naming line is checked against the mind's real state
+(234.5a, 419); a story is free (403). He is reading both in one
+column with no way to tell them apart, and the whole censor argument
+this week turned on which kind a line was.
+
+**AND THE DIRECTOR NAMED THE WRONG DIRECTIVE** — he told Lonnie this
+was ordered in 246. CC checked and it is not there. The Director was
+recalling rather than reading, which is the fault this project has
+been catching all week. Whatever was or was not ordered before, THIS
+IS THE RULING NOW.
+
+**THE RULING**
+1. EVERY TEACHER LINE IN THE CHAT LOG IS MARKED WITH ITS KIND —
+   NAMING or STORY — plainly enough to read at a glance without
+   hovering or clicking.
+2. IT USES THE MODE THE TEACHER ACTUALLY SPOKE IN, read from the
+   line's own record, never guessed from its wording.
+3. NOTHING ELSE ABOUT THE LOG CHANGES.
