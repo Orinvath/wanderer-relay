@@ -11947,3 +11947,32 @@ directions. The frame is fixed in the space and the camera is not.
 6. WHAT MAY NEVER BE DONE: change the mind, the space, `geometry.js`
    or `language.js` to make a picture easier to draw (420's guard,
    which was broken today and is restated here).
+
+## Directive 434 — HE MUST BE ABLE TO READ A CLUSTER, NOT ONE WORD AT A TIME
+
+**THE FEATURE** — reading which words are where on the Meaning Map.
+
+**WHY IT MATTERS** — the map exists so he can judge whether the mind
+has grouped things sensibly. THAT JUDGEMENT IS ABOUT A CLUSTER, and
+he cannot make it one hover at a time. Right now a knot of points is
+unreadable: he can name one of them, then another, and never see the
+group.
+
+**HIS WORDS** — "the one flaw in the map is that I can only mouse over
+and show one word at a time."
+
+**THE RULING**
+1. HE CAN SHOW THE WORDS. A way to label every point in view at once,
+   so a cluster reads as a group rather than as dots he must
+   interrogate individually.
+2. IT IS HIS TO TURN ON AND OFF. Labels on demand, not permanently —
+   the clean picture is worth having too.
+3. AT SMALL NUMBERS, ALL OF THEM. With 22 words there is no reason to
+   show fewer.
+4. AT LARGE NUMBERS IT STAYS USABLE. At 42,000 everything at once is
+   unreadable, so it labels what is IN VIEW, and thins as it must —
+   say how, and say what it does at 400, 5,000 and 42,000, as 412
+   required of the points themselves.
+5. NOTHING ABOUT THE POSITIONS CHANGES. This is reading the map, not
+   drawing it. 433's frame and 411's faithfulness rules are
+   untouched.
