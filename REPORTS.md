@@ -43300,3 +43300,50 @@ to measure and the line is blank. **It had 3 known and some bindings when he too
 **This is a real finding and it is not the display.** It is either the projection or the pairs the
 route feeds it. **NOT REPAIRED, NOT GUESSED AT — it needs the state he photographed, and I would
 rather ask him to leave the school running for a stretch so it recurs than invent a cause.**
+
+---
+
+# HE IS RIGHT — IT LEARNS FAR LESS ON ITS OWN NOW, AND IT IS 415. **Measured, not guessed.**
+
+**His two points first, and both are correct:**
+
+**1 · The Meaning Map cannot touch the mind — "it is a WINDOW, read only, translating the actual
+geometric space into something I can use or read."** That is how it is built and it has been proven
+on every change with the state hash: identical before and after, every time.
+
+**2 · "It wasn't learning anything on its own, and I don't think we touched any of that code."**
+**The map did not. BUT 415 DID** — it changed how the mind's own space is seeded, and the space is
+what relevance, kinship and inner learning all read.
+
+## THE MEASUREMENT — a mind ALONE. No host, no teacher, nothing said to it. Only its own thinking.
+
+```
+                   BEFORE 415              AFTER 415
+tick 150      OWNED 25  cand 132      OWNED 17  cand  42
+tick 300      OWNED 48  cand 221      OWNED 20  cand  50
+tick 450      OWNED 64  cand 310      OWNED 24  cand  57
+tick 600      OWNED 71  cand 436      OWNED 23  cand  67
+```
+
+**It learned 71 words on its own in 600 ticks. It now learns 23 — and it STOPS climbing after about
+tick 450.** The candidates it is even considering fell from 436 to 67: **six times fewer.**
+
+**I reported at the time that owned words halved on a TAUGHT mind, 68 to 35. Alone, it is worse
+than halved and it plateaus.** That was the finding to look at and I let it pass as a footnote.
+
+## WHY, AND IT IS THE RULING WORKING AS WRITTEN
+
+**415 made every word pseudo-orthogonal at birth: nothing is related to anything until the mind
+binds it.** That is exactly what he asked for and it is correct.
+
+**But inner learning finds candidate meanings BY NEARNESS in that same space.** With no structure to
+start from, a thought has almost nothing near it — **so it proposes far fewer candidates, and a
+word it never proposes is a word it can never come to own.** The mind now needs to be TOLD things
+to get started, where before it could bootstrap off his artwork's layout.
+
+**THAT IS A DESIGN QUESTION AND IT IS HIS, NOT A BUG TO PATCH.** Either a newborn genuinely has
+nothing to reach for and must be taught — which is the honest reading of 415 — or inner learning
+needs a source of candidates that does not depend on a space it has not built yet.
+
+**NOTHING CHANGED. 415 is one commit, `fc1315f`, and it reverts cleanly if he wants the old
+behaviour back while he decides.**
