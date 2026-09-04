@@ -43819,3 +43819,46 @@ so on his screen                     a story and a claim about the mind's own fe
 ```
 
 **That is a real gap and it is his to direct. Nothing is built.**
+
+---
+
+# BUILT — Directive 429. **`da76a14`, live, reload.**
+
+**Every teacher line in the chat log now carries its kind, beside the speaker and before the words:**
+
+```
+NAMING   in the bench's green   -- a claim about the mind, checked word by word (234.5a, 419)
+STORY    in 349's purple        -- told, and free to invent (403)
+```
+
+**Proven on live lines from a running school: 21 teacher lines, 2 NAMING and 19 STORY, each
+carrying the mode it was actually spoken in.**
+
+## 429.2 — IT IS THE MODE THE TEACHER SPOKE IN, NEVER A GUESS
+
+**The teacher has always known which of its two modes it was in; the mode simply never left it.**
+It travels with the line now, from the moment it is said, through the wire and onto the record:
+
+```
+teacher.js       deliver() carries the mode it chose
+/teach           reads it off the request
+watching.js      it is written onto the exchange entry, beside who said it and when
+the log          reads it from that record
+```
+
+**Nothing infers it from the wording.** That is the mistake that would have made the label worse
+than none — a story that happens to mention a feeling would have been marked as a claim about the
+mind, which is precisely the confusion the whole censor argument turned on this week.
+
+**A line spoken before this existed carries no mode, and is shown with no label rather than being
+assigned one.**
+
+**429.3: nothing else about the log changed.**
+
+## AND A NOTE ON THE DIRECTIVE'S OWN CORRECTION
+
+**429 says the Director named 246 wrongly and was recalling rather than reading.** For the record:
+**I checked 246 before answering and reported that it is the MIND_DECISIONS ledger, that the ledger
+IS built, and that the teacher-labelling was not in it and never had been.** That check is what
+turned up the separate finding that **115 commits have landed without a ledger row**, which is my
+own lapse and is still open.
