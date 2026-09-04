@@ -43048,3 +43048,25 @@ either.**
 **Everything is committed and none of it is deployed, because he asked me not to restart. When he
 does, his arrangement comes back — it is keyed by the panels' own names and a restart writes
 nothing.**
+
+---
+
+# FIXED — THE LESSONS TITLE FONT. **Committed `c80434d`, not deployed.**
+
+**I styled the head by TAG rather than by position:**
+
+```
+.pnltitle b     -> the title, in the panel type
+.pnltitle span  -> the live status, small and dim
+```
+
+**Most of the heads are written that way. LESSONS IS NOT — its own name is a SPAN**, so the status
+rule caught the title and rendered LESSONS in the small dim type instead of the panel type. **It
+was the only one shaped like that, which is why it was the only one that looked wrong.**
+
+**The title is now THE FIRST THING IN THE ROW, whatever tag it is, and whatever follows it is the
+status.** Position says which is which; the tag was never a reliable way to tell.
+
+**That is the fourth fault from lifting the heading rows into the bar** — a negative margin, a
+serif, lost spacing, and now this. **Each one is a style those rows carried that only shows on his
+screen.**
