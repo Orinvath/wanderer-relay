@@ -43901,3 +43901,30 @@ to move in.**
 **NOT CHANGED — a fix here is a design choice about his header** (give the count a fixed width so
 nothing moves, or take it off the bar entirely), **and after twice today building on what turned
 out to be a question, I am not touching it until he says which.**
+
+---
+
+# FIXED — THE CHAT TITLE BAR. **`48d0570`, live, reload.**
+
+**Two faults, both mine, both from putting that row into a shared title bar.**
+
+## 1 · IT WAS CRUSHING ITS OWN CONTROLS
+
+```
+the bar          a FIXED 28px
+the chat's head  carries the school's Start and Stop -- 15px type, 7px padding, about 33px tall
+```
+
+**Forced into 28, the buttons were squeezed and everything beside them squeezed with them.** That is
+the scaling he photographed. **The bar is a MINIMUM now rather than a fixed height, so a head with
+controls in it is as tall as its controls — and every other head, which is only text, is exactly as
+it was.**
+
+## 2 · AND NOTHING IN IT MOVES WHEN THE TEXT CHANGES
+
+**The line count grows — 9, 14, 100 — and every element beside it slid sideways on every poll to
+make room.** That is the flicker.
+
+**The status area holds its own size now, the count has a floor to grow into and tabular figures so
+its digits are all one width, and the buttons never shrink.** The numbers change; the layout does
+not.
