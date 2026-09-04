@@ -42441,3 +42441,52 @@ C  DOES A CLOSED PANEL KEEP ITS PLACE, or do the ones below slide up to fill the
 **I am not picking any of the three. Say the word on each and it is an afternoon's work.**
 
 **NOTHING BUILT.**
+
+---
+
+# BUILT — EVERY PANEL COLLAPSES, DRAGS AND RESIZES. **`c45eeca`, reload.**
+
+**And his ruling on how this arrives is recorded, because it changes how I work:** *"we dont need a
+plan for this it is a interface change not a mind change."* **The plan-first law is there to stop
+the MIND being altered on my judgement; his screen is his and he can see the result instantly.**
+Screen work now gets the conventional solution built, not a proposal. **It is in my standing memory.**
+
+## WHAT HE ASKED FOR, AND ALL OF IT IS IN
+
+```
+the typical arrow          turns down when open, right when closed
+double-click the title     toggles the panel, as well as the arrow
+slides to keep it organised a shut panel gives its space back and the ones below move up
+draggable                  the grip at the right of any head; a blue line shows where it lands,
+                           between columns as well as within one. ESC cancels a drag.
+scaleable                  the native corner handle -- so it behaves like every other resizable
+                           thing on his machine rather than something I invented
+```
+
+**AND IT REMEMBERS.** What he left shut, what he resized, and the order he dragged them into all
+survive a reload and a restart. **Kept in the browser and never in the mind or the being file** —
+this bench restarts constantly and a layout that vanished each time would be worse than none.
+
+## ELEVEN PANELS, INCLUDING BOTH MAPS
+
+```
+THOUGHTS · THE MIND MAP · LEARNED · THE MEANING MAP · LESSONS · CHAT LOG
+MOOD · PERCEPTION · HEALTH · PERSONALITY · SAVE MIND
+```
+
+## AND A CLOSED MAP GENUINELY STOPS WORKING
+
+**The Meaning Map stops fetching and stops projecting when its panel is shut** — at 20,000 words
+that is 340 ms per redraw actually not done, rather than done into a box nobody can see.
+
+## HOW IT IS BUILT, AND WHY IT IS ONE FILE
+
+**`panels.js` — one node, one file, the master rule.** The eleven panels grew separately and are
+all shaped differently: some carry their own heading row with LIVE STATUS in it, some are titled by
+a line of text, two are square map stages. **Nine hand-edits to the markup would have been nine
+chances to break a panel that was working.** This finds each one, gives it the same head, and
+leaves its insides untouched — **and where a panel already had a heading with live text, that row
+is LIFTED INTO the new head rather than duplicated, so PERCEPTION and HEALTH keep their timestamps
+updating exactly where they always did.**
+
+**It touches no route, no state, and nothing the mind owns.**
