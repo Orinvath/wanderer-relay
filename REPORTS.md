@@ -42664,3 +42664,21 @@ is part of it.** And the outer box each channel used to carry is gone: **a card 
 what read as clutter.**
 
 **Both were mine, both came in with the panel work, and neither touched the mind.**
+
+---
+
+# CORRECTED — THE THREE CHANNELS KEEP THEIR OWN PANELS. **`ca90eba`, reload.**
+
+**His words:** *"they should still be in the panels exactly as they were."*
+
+**He asked me to MOVE them and I RESTYLED them.** On the way into the Mind Map I stripped the box
+off each of COLOUR, PULSE and MOTION, and wrote in the report that a card inside a card read as
+clutter. **That was my opinion about his design, applied without being asked for.**
+
+```
+BEFORE   moved into the panel AND stripped of their boxes   <- what I did
+NOW      moved into the panel, and nothing else touched
+```
+
+**They sit at the foot of the Mind Map, they collapse and drag with it because they are part of it,
+and they look exactly as they did before I touched them.**
