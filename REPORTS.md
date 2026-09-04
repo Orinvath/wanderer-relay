@@ -40806,3 +40806,76 @@ birth features remaining:  atom  sense  kind  dyad
 carries the senses of the states that say it, and its dyad partners. **415.2 asks for every word
 equally far from every other; these three stop that being true, and 415 named only the sheets.**
 **Named, not changed.**
+
+---
+
+# TRACED — Directive 416. **THERE IS NO PATH. I RAISED A SECURITY ALARM THAT WAS NOT REAL.**
+
+## 416.1 — THE PATH: THERE ISN'T ONE, AND THAT IS PROVEN RATHER THAN ARGUED
+
+**I walked the service's import graph from `index.js` — every file it can reach, transitively:**
+
+```
+the service loads 34 files
+language.js reached:  NO
+watching.js reached:  NO
+```
+
+**415 touched exactly two files: `language.js` and `watching.js`.** The app cannot load either one
+by any import path. **`memory.space` is `null` in the app — nothing in `wanderer.js` or the phase-3
+suite ever passes a space.** There is no mechanism by which 415 could reach a consent check.
+
+## AND THE CHECKS ARE FLAKY. I RAN THEM AGAIN, TWICE, WITH 415 IN PLACE
+
+```
+with 415, run 1     78 passed, 2 failed     66 ✓ DENIED (caught)     67 ✓
+with 415, run 2     78 passed, 2 failed     66 ✓ DENIED (caught)     67 ✓
+```
+
+**Both pass with 415 in the tree.** The two failures I reported were not caused by the change and
+were not real. **The picture-swap check is doing its job: it catches the swap.**
+
+## WHAT I DID WRONG, PLAINLY
+
+**I ran it twice each way, saw it flip both times, and called that reproduction.** Four runs of a
+suite that makes real model calls, on a machine where the model was loading and unloading, and I
+reported *"a change to the mind's space is letting a SWAPPED PICTURE through a consent check"* as a
+finding. **I should have traced the path BEFORE raising it, and the trace takes minutes.** The
+alarm was mine, not the code's.
+
+**415 did NOT break a security check. `fc1315f` does not need reverting on that account.**
+
+## 416.2 — WHICH KIND IT IS
+
+**Neither.** Not the app reading the mind's space, and not a test written against the mind's old
+numbers. **It is a flaky check in a suite with real model calls, and my attribution.**
+
+## 416.3 — WHAT ACTUALLY CROSSES THE LINE, since he asked for the class
+
+**The trace answers this cleanly, and the boundary is in better shape than my report implied:**
+
+```
+THE APP -> THE MIND     nothing. The service's 34 files never load language.js, watching.js,
+                        thinking.js, experiencing.js, stories.js or curiosity.js.
+THE MIND -> THE APP     the mind's bench imports the app's parts, not the other way round --
+                        Model, Memory, the store. The dependency runs ONE WAY, which is the
+                        direction that keeps the app clean.
+THE ONE SHARED THING    memory.js. The app's travelling store and the mind's memory are the same
+                        class, and `memory.space` is the seam: NULL in the app, the mind's Space
+                        on the bench. That is the only place the two layers meet, and it is a
+                        field that is simply absent on the app's side.
+```
+
+**And the check that looked like a crossing:** `travellingMemories()` in check 66 reads
+`memory.lines()` — a plain SELECT from the `memories` table. **It is the app reading the APP'S own
+store, not the mind's.**
+
+## STILL TRUE FROM THE 415 REPORT, and unaffected by any of this
+
+```
+words the mind ends up owning     68 -> 35
+average nearness across the space  0.0630 -> 0.0042
+a newborn is still not featureless: sense, kind and dyad remain (415.4, named not changed)
+```
+
+**NOTHING CHANGED, and nothing reverted.**
