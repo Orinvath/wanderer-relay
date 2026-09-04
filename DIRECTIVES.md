@@ -11794,3 +11794,39 @@ IS THE RULING NOW.
 2. IT USES THE MODE THE TEACHER ACTUALLY SPOKE IN, read from the
    line's own record, never guessed from its wording.
 3. NOTHING ELSE ABOUT THE LOG CHANGES.
+
+## Directive 430 — 115 COMMITS WITH NO LEDGER ROW. Go back and find them.
+
+**THE FEATURE** — MIND_DECISIONS: the ledger of every point where the
+code decides something the mind could lawfully decide.
+
+**WHY IT MATTERS** — it exists because HE caught CC making decisions
+for the mind and telling nobody (245, 246). Every threshold, default,
+ordering and silent judgement is supposed to be listed, so nothing
+hardens into permanent behaviour unnoticed. That is the whole
+mechanism protecting the mind's autonomy from us.
+
+**WHAT WENT WRONG** — it is built and holds 45 rows, and **115
+COMMITS HAVE LANDED WITHOUT ONE BEING ADDED.** Decisions have been
+made for the mind for weeks and none recorded. CC names it as its own
+lapse.
+
+**HE HAS RULED** — 246: any such point MUST be declared in the report
+of the change that introduces it, and new code adds its row in the
+same commit or fails review.
+
+**THE RULING**
+1. GO BACK THROUGH THOSE 115 COMMITS and find every decision made for
+   the mind. Add the missing rows.
+2. EACH ROW CARRIES ITS STATUS as 246 requires: RULED (by whom, which
+   directive) · PROVISIONAL · OPEN.
+3. THE OPEN ROWS ARE HIS AGENDA. Anything found that was chosen and
+   never ruled goes to him — that is the point of the ledger, and
+   several of this week's worst faults were exactly this shape (the
+   gauge's 50, the litmus sample, the teacher's invented rules).
+4. REPORT THE COUNT FIRST — how many decisions found across those
+   commits — before writing the rows. If it is large, he decides how
+   it is worked through.
+5. AND SAY WHY IT STOPPED. A law that was followed and then quietly
+   was not is worth understanding, because the same thing will happen
+   to the next one.
