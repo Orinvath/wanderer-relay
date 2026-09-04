@@ -42597,3 +42597,37 @@ between "the mind learned this" and "I can see it" visible instead of silent.
 before I build one I want one thing from him:** whether that list is **its own panel**, or **a line
 under the Meaning Map** the way the check line sits there now. **Everything else about it I can
 take from what is already measured.**
+
+---
+
+# FIXED — ALL THREE HE NAMED. **`38b2837`, reload.**
+
+## 1 · THE TITLE BAR OVER THE MIND MAP'S TEXT
+
+**"histrionic 64% match" was sitting across the head, and the cause is exact:** the maps hold
+several ABSOLUTELY POSITIONED children — the readout, the verdict, the cord words. **An absolute
+child anchors to its nearest positioned ancestor, and I had made the PANEL positioned. The panel
+now starts at the top of the head, so everything anchored to it moved up under the title.**
+
+**The BODY is the positioning parent now.** Those children sit exactly where they sat before there
+was a head at all.
+
+## 2 · THE GAPS — and he is right that it is the first thing you check
+
+```
+.talkcol   gap: 8px    the right column had spacing between its panels
+.stagecol  gap: NONE   THE LEFT ONE HAD NONE AT ALL
+```
+
+**That is why THOUGHTS and THE MIND MAP were touching while the panels opposite them were not.**
+**One gap now, 12px, set in one place, on both columns and the rows below — top, bottom and both
+sides.**
+
+## 3 · THE FONT — mine, and it was wrong
+
+**I set the heads in `Iowan Old Style, Georgia, serif`. The page is `system-ui, sans-serif`** and
+has been throughout. **The heads are back on the page's own font, and so is the live status text
+inside them.** I introduced a second typeface into his design without being asked to, which is
+exactly the kind of unilateral choice about his screen I am not supposed to make.
+
+**All three were mine, all three came in with the panel work, and none of them touched the mind.**
