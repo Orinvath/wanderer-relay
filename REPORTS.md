@@ -42826,3 +42826,43 @@ invented.**
 the dots behind it still read. **It does not take the pointer** — hovering a dot underneath it
 still names the word. It shows as many as fit and says *"and N more"* when there are more, so it
 cannot grow past its own panel.
+
+---
+
+# HIS LAYOUT IS SAFE, AND "SET LAYOUT" IS BUILT. **Committed as `28e3062`, NOT deployed — he asked me not to restart.**
+
+**His words:** *"Layout first, I dont want you refreshing and I lose it"* and *"I want the current
+layout I have right now on the screen to be the default layout."*
+
+## FIRST — HE DOES NOT LOSE IT ON A RESTART, AND THAT IS CHECKABLE
+
+**The arrangement lives in HIS BROWSER, keyed by the panels' own selectors.** A server restart and
+a page reload both leave it exactly as it was. **The only thing that has ever lost it was ME
+BUMPING THE STORAGE KEY** after the tiling failure, and that will not happen again.
+
+## SECOND — "SET LAYOUT", beside LOG · TEST · RESTART
+
+**He presses it once and the arrangement on screen becomes what the bench OPENS with.** It is kept
+as a plain file next to the bench, `server/data/panel-layout.json`.
+
+```
+his own browser        untouched -- what he has always wins over the default
+a fresh browser        comes up wearing the layout he set
+nothing set yet        the order the markup happens to be in, as now
+```
+
+**It is layout and nothing else** — which panels are shut, their order, their sizes. **Nothing about
+the mind is in that file and nothing in it can reach the mind.**
+
+## AND THE MIND MAP FIX FROM BEFORE HIS MESSAGE IS IN THE SAME COMMIT
+
+**The three channels now sit BELOW the stage rather than inside it.** His screenshot showed them
+printed through the dials and the neighbourhood key, and the cause was exact: **the panel and the
+stage were the same element, so the legend went INSIDE the stage — and the two dials are anchored
+to the stage's BOTTOM. The stage growing dragged them down over the legend.** The panel holds two
+things now, the stage and the legend under it, at exactly the padding and size they always had.
+
+## IT IS COMMITTED AND NOT SERVED — HIS CALL WHEN
+
+**His bench is still on `9583b7a` and nothing has moved under him.** The moment he restarts, he gets
+the button and the fixed legend, **and his current arrangement will still be there.**
