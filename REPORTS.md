@@ -42202,3 +42202,44 @@ the mind has lived.** The counter was asserting a law its own code no longer fol
 the exact failure 306.D exists to stop, and it was mine.
 
 **HIS BENCH WAS RED FOR MY BUG AND IS GREEN AGAIN. The mind was never at fault.**
+
+---
+
+# BUILT — HIS RULING: **A WORD THE MIND DOES NOT KNOW YET IS RED.** `df4b539`, reload.
+
+**His words:** *"Lets just make them red until they are known."*
+
+```
+his bench, right now:   402 words · KNOWN 0 · NOT YET 402
+```
+
+**A newborn's map is entirely red, and it turns steel blue one dot at a time as the mind actually
+learns.** The readout says `0 known · 402 not yet` beside the projection figure, so it is a number
+as well as a picture.
+
+## HOW IT IS DECIDED — read, never computed
+
+**A word is KNOWN when `learning.owned()` holds it: the mind can demonstrate the meaning. That is
+the same set the gauge counts**, so the map and the gauge can never disagree about what it knows.
+**Nothing is computed for the map and nothing is invented — the state is a fact the mind already
+holds about itself, and the route only sends it.** Still read-only (420.1).
+
+**And the colour updates EVERY TICK, not with the picture.** The arrangement is still held until the
+space grows 2% or 10 words (422), but **the moment a word becomes known its dot turns** — a word
+being understood must show at once, and that is not a rearrangement.
+
+**Still one draw call at any count (412.3):** the flag is one float per point in its own buffer, so
+42,000 words cost the same one call they did before.
+
+## AND ONE COLLISION HE SHOULD RULE ON, BECAUSE IT IS WITH HIS OWN STANDING LAW
+
+**349 puts RED outside the cool range ON PURPOSE, and reserves it:** *"RED for a failing check and
+for the halt (229/338 — IT MUST BE ALARMING)."*
+
+**So red now means two things on his bench: something is wrong, and a word is not yet known.** On a
+newborn that reads as 402 alarms for a mind that is simply new.
+
+**I built what he ruled and I am not going to quietly soften it into a duller red.** But it is his
+own law that red must be alarming, and this makes it ordinary — **so if he wants the not-yet colour
+moved off red, or 349 amended to say red also means "not yet", that is his call and one word
+settles it.**
