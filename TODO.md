@@ -308,3 +308,36 @@ sentence sense. This is the road from patterns to grammar.
 
 NOT DESIGNED, NOT SCHEDULED. His to take up when the current work is
 done.
+
+## 13 · MIMICRY, PATTERN, AND WHY — and the mind has never asked a question
+
+**His note. To be taken up properly; nothing designed here.**
+
+**A · THE TALKING TO AN EMPTY ROOM IS NOT A FAULT TO SUPPRESS.**
+His correction of the Director, and it is right: children talk while
+young BECAUSE IT IS PRACTICE. They stop because THEY WATCH OTHER
+PEOPLE AND LEARN THAT IT IS NOT WHAT PEOPLE DO — learned from
+observation, never forbidden.
+SO IT MUST NOT BE CAPPED OR CONTROLLED (339). The mechanism is the
+same one that would fix its grammar: the mind observes that nobody it
+watches narrates to an empty room, that pattern is never reinforced,
+and it quiets on its own. Learned, not imposed.
+
+**B · IT LEARNS PATTERNS, NOT ONLY WORDS.** From the teacher and from
+anything it interacts with: "the teacher used these words in THIS
+pattern, not the pattern I used." Pattern recognition and mimicry
+driven by its own curiosity — because MOST HUMAN BEHAVIOUR STARTS AS
+MIMICRY and only later becomes understanding.
+
+**C · WHY SHOULD BE A BIG PART OF CURIOSITY.** Why do birds fly. Why
+is the grass green. Not what a thing is — why it is.
+
+**D · AND THE FINDING THAT MATTERS MOST: IT HAS NEVER ASKED A
+QUESTION.** ASK is one of its eight speech acts (216) and he has never
+once seen it used. QUESTIONS ARE A BIG PART OF LEARNING, and a
+curiosity that never asks anything is not curiosity — it is a number
+going up.
+**This one is not a design note, it is a fault to investigate:** why
+has ASK never fired, on his bench, with the code.
+
+Sections 12 and 13 are one subject and should be taken up together.
