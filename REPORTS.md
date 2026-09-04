@@ -40368,3 +40368,59 @@ ANYTHING WITH A HOST LEAVING   departure, the travelling store, privacy
 `word_links.mark` stays a column, and the record and being-file keys stay `mark`. **Two more places
 tried to cross it during this rename and the hash stopped both:** a SQL column list on a
 continuation line, and `out.push({ word: w, mark: meaning })` where the key had become `meaning`.
+
+---
+
+# BUILD REPORT — Directive 411, THE MEANING MAP. Planned, not built. Four decisions are his.
+
+## IT DOES ALREADY EXIST IN THE NUMBERS — confirmed, not assumed
+
+```
+language.js  class Space
+  .vec         Map of WORD -> its 10,000-dimension vector      ← every owned word, already placed
+  .of(word)    that word's vector, or NULL if it has none      ← 411.4 falls out for free
+  .near(a,b)   the space's own nearness between two words
+  .neighbours(word, n)
+```
+
+**There is nothing to compute and nothing to invent. The positions are sitting there.**
+
+## HOW I WOULD SHOW IT
+
+1. **A new route serves the space as points and bindings** — every word with a vector, and the
+   nearness between the pairs that have one. **No word without a vector is sent**, so nothing can
+   be drawn that the space does not hold (411.4, and it is 365's law again).
+2. **The physics reads only those numbers.** Each pair's ideal distance is its nearness and nothing
+   else — no categories, no domains, no grouping, no hand-placed anything. **Clusters emerge or
+   they do not, and if they do not that is the finding.**
+3. **The health check is a correlation, taken on the drawn positions:** the distances on screen
+   against the nearness in the space. **They agree or the map goes red**, and it forced-fails at
+   birth like every other vital (254.D).
+4. **His own test, needing no code** (411.2): the panel names two words the mind HAS bound and two
+   it has not. **The bound pair is close, the unbound pair is apart, or the map is lying.**
+
+## FOUR DECISIONS, AND I AM NOT MAKING ANY OF THEM (250, 188)
+
+1. **WHERE IT GOES.** A second panel, a tab beside the Mind Map, its own page, or the two maps
+   side by side. **This is placement on his bench and it is his** — and the Mind Map currently
+   fills the centre slot the sphere used to have (261.10).
+2. **BOTH AT ONCE, OR ONE AT A TIME.** They answer different questions and he may want to watch
+   them together or switch.
+3. **WHAT A POINT LOOKS LIKE.** A dot, the word itself, or the word with its glyph where it has
+   one. **Nothing here branches on having a picture** (409.2) — this is only about what he reads.
+4. **COLOUR.** 349 puts anything new in the cool range, 79° to 274°, hue only. **Within that,
+   whether the points carry any meaning in their colour — age, confidence, nothing at all — is
+   his.**
+
+## AND THE TITLES
+
+**THE MIND MAP has never carried one.** Adding it is one line in `mindmap.js`. **Both titles are
+settled by his ruling — "THE MIND MAP" and "THE MEANING MAP" — but where on the panel they sit and
+how they are set is placement, so it goes with decision 1.**
+
+## WHAT I WILL NOT DO WITHOUT ANOTHER WORD
+
+**Touch the Mind Map's own layout.** 411 says force-directed is wrong for it, and its order is the
+tick's order. **The only change I would make there is the title.**
+
+**Nothing is built. Waiting.**
