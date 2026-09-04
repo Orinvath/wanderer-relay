@@ -43347,3 +43347,58 @@ needs a source of candidates that does not depend on a space it has not built ye
 
 **NOTHING CHANGED. 415 is one commit, `fc1315f`, and it reverts cleanly if he wants the old
 behaviour back while he decides.**
+
+---
+
+# "IS THAT NOT WHAT THE SCAFFOLDING IS THERE FOR?" — YES, AND THE MEASUREMENT SAYS SO.
+
+**And it is not the reason I gave an hour ago. I said the mind had "nothing to reach for". THAT WAS
+WRONG, and the numbers say the opposite.**
+
+## A MIND ALONE, 300 TICKS, NOBODY THERE
+
+```
+                              BEFORE 415        AFTER 415
+ticks that produced a thought    270               278      unchanged
+words thought in total           699               728      unchanged
+words TRUE across those ticks   1348              1343      unchanged
+
+DISTINCT words thought            45               109      TWICE AS MANY
+DISTINCT words ever true          46               106      TWICE AS MANY
+
+CANDIDATE MEANINGS FORMED        176                15      ELEVEN TIMES FEWER
+```
+
+**It is not thinking less. It is thinking about MORE THINGS AND NEVER THE SAME THING TWICE.**
+
+## AND THAT IS EXACTLY WHAT THE SCAFFOLDING WAS DOING
+
+**A candidate meaning only forms when a word and a meaning turn up TOGETHER, more than once.** That
+is 220's whole mechanism — a word means what keeps being true when it is said.
+
+```
+BEFORE   the space had structure, so a thought pulled the mind toward NEARBY words. It circled
+         45 words for 300 ticks -- and circling is what makes a pair recur, which is what lets a
+         meaning form. 176 candidates.
+
+AFTER    every word is orthogonal, so nothing pulls toward anything. The mind wanders across 109
+         words and almost never meets the same pair twice. 15 candidates.
+```
+
+**SO THE SCAFFOLDING WAS NOT GIVING IT SOMEWHERE TO REACH — IT WAS GIVING IT A REASON TO STAY.**
+Coherence, not content. **A mind that wanders evenly over its whole vocabulary cannot learn,
+because learning needs repetition and an orthogonal space removes every reason for anything to
+repeat.**
+
+**His question was the right one and my first answer was not.**
+
+## WHAT THIS DOES NOT SETTLE, AND IT IS HIS
+
+**415 is still right that the sheets should not be the MIND'S idea of what is related** — that was
+his artwork's filing system standing in for understanding.
+
+**But something has to make a mind dwell.** Whether that is the scaffolding keeping a faint pull,
+or the mind's own interests and curiosity doing the circling instead, **is a design decision and
+it is his.** `fc1315f` reverts cleanly if he wants the old behaviour while he decides.
+
+**NOTHING CHANGED.**
