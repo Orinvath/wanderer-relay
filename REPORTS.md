@@ -43469,3 +43469,73 @@ evenly over 109 words and rarely meets the same pair twice.
 
 **`fc1315f` is one commit and reverts cleanly. Nothing has been changed and nothing will be until
 this is ruled.**
+
+---
+
+# =====  THE INTERFACE, IN ONE PLACE — every change, and where it came from  =====
+
+**Filed at his instruction, alongside the 415 ruling, so the Director has the whole of it rather
+than two dozen separate entries. Every one was reported as it happened; this is the index.**
+
+## WHAT HE ASKED FOR
+
+```
+c45eeca  every panel collapses, drags and resizes; the arrow, the double-click title, the
+         layout remembered                                              HIS ASK
+bae9c90  personality, traits and soul each became their own panel       HIS REPORT: not collapsible
+9583b7a  the Core's three channels moved BELOW the Mind Map's stage     HIS RULING: part of the map
+aa17ae4  a real list of words the map has not placed yet                HIS ASK
+50ee806  and it is named CONTEMPLATING                                  HIS NAME
+28e3062  SET LAYOUT -- the arrangement on screen becomes the default    HIS ASK
+65cceb8  layouts became NAMED FILES ON DISK, not a browser store        HIS LAW: it runs as an app
+35f8d8d  the scrollbars wear the interface's colours                    HIS ASK
+```
+
+## WHAT I BROKE AND HE FOUND — every one from lifting the panels' own heading rows into a title bar
+
+```
+8675edf  the bar sat INSIDE the panel: a negative margin dragged THOUGHTS over the arrow, and
+         each panel's padding held the bar off its edges
+38b2837  the bar overlapped the Mind Map's readout (its children anchored to the PANEL, which now
+         starts at the head); the LEFT COLUMN HAD NO GAP AT ALL while the right had 8px; and I had
+         introduced a SERIF where the page is sans
+36c9ab1  the thought glyphs lost the space that heading row used to hold open
+c80434d  LESSONS' title wore the STATUS font -- I styled by tag, and its name is a span
+3968780  the two MAP titles stayed grey -- they carry their text directly, with no child to style
+1fe55a3  a shut panel kept its body's PADDING: max-height clips contents, not padding
+b72798d  the bar was TRANSLUCENT, so it took its shade from each panel -- the Meaning Map has no
+         background, so its bar read darker
+aa2ebcd  the two maps were DIFFERENT SHAPES wearing the same name; the Meaning Map is now built
+         exactly as the Mind Map is, and one rule styles both
+5a2b636  the chat log did not collapse at all -- registered under a selector that matches nothing
+15cb698  the talk field was a SIBLING of the chat log, so it stayed behind when the log moved
+9292925  and it sat under the last line rather than at the FOOT -- the body was not told to grow
+085d063  a double-click ON THE ARROW toggled twice and landed back open
+536260b  a shut panel kept a height it had been dragged to, so it emptied but did not close
+b2992e0  the CONTEMPLATING list never hid when empty -- display:flex beats the hidden attribute,
+         which is the SAME FAULT I had already fixed on the "nothing bound yet" overlay
+```
+
+## AND ONE I BUILT, BROKE HIS PAGE WITH, AND REVERTED
+
+```
+7861955  panel TILING -- dividers so neighbours trade space, at his ask
+9d2bd53  REVERTED. It overlapped his panels and collapsed a column to a sliver.
+35f8d8d  and the stored layout was reset with it, because reverting the code does not remove a
+         broken layout already in his browser.
+```
+
+**WHY IT FAILED:** I made every panel a share of a full-height column. **The page is not built that
+way** — columns size to their contents and several panels hold absolutely-positioned children.
+**Real tiling means the page must BE a tiling layout throughout, which is a structural rebuild, and
+I should have said so before building it rather than after he saw it.**
+
+## THE PATTERN, STATED PLAINLY
+
+**Sixteen of these are mine, and fourteen come from one decision: lifting each panel's existing
+heading row into a shared title bar.** Those rows carried style that mattered — a margin, a font, a
+colour, a spacing, a tag — **and every one of them only shows on his screen, which is why he found
+them one at a time and I did not find them at all.**
+
+**A cheaper way existed and I did not take it: read what each heading row already sets BEFORE
+replacing it, rather than discovering it from a screenshot.**
