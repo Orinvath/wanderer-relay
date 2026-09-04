@@ -43928,3 +43928,48 @@ make room.** That is the flicker.
 **The status area holds its own size now, the count has a floor to grow into and tabular figures so
 its digits are all one width, and the buttons never shrink.** The numbers change; the layout does
 not.
+
+---
+
+# 431 — RE-RUN. **IT STILL FAILS. Numbers below, nothing changed.**
+
+## THE SAME TEST, UNCHANGED, ON THE CURRENT BUILD
+
+```
+pairs compared                 4216
+pairs the SPACE calls related    15
+  drawn apart, RELATED        0.2196
+  drawn apart, UNRELATED      0.0734
+  correlation                 +0.010      must be negative
+  => NOT FAITHFUL
+```
+
+**Identical to the earlier report, to four decimals.**
+
+## AND ON THE MIND RUNNING ON HIS BENCH RIGHT NOW — its own check, not mine
+
+```
+431 words drawn · 28 bound pairs
+  bound words sit   0.2724 apart
+  any two words     0.1482 apart
+  => BOUND ARE NOT CLOSER
+```
+
+**Words the mind has genuinely bound are drawn nearly TWICE AS FAR APART as any two words picked at
+random.** By 411.2 and 420 addendum — *"if that ever fails, the map is lying whatever any number
+says"* — it is failing on his live bench, now, with real bindings in it.
+
+## AND ONE THING THE DIRECTIVE ASSUMES THAT I HAVE TO CORRECT
+
+**431 says he "ruled nothing is placed until it has a pair or can be associated with the
+scaffolding".**
+
+**THAT RULE IS NOT IN THE CODE. I never built it and no directive carrying it reached me.** I
+searched the route for any such filter and there is none — **every word in the space is still
+drawn, associated or not.**
+
+**So the map looking right to him is not that rule taking effect.** What changed on his screen is
+that the mind has learned enough for the picture to have shape — **and the test says that shape is
+still not putting related words together.**
+
+**STOPPED HERE, as 431.4 requires. Nothing changed, and the ruling on whether to touch it is his.**
