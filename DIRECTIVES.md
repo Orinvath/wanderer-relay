@@ -11588,3 +11588,40 @@ KEPT    safety · host · curiosity · sleep · belief · trust ·
 
 421 is closed entire. He may still overrule any single one by name at
 any time; nothing further is proposed.
+
+## Directive 426 — THE STORY FELT-TRAIL IS FLAT. Diagnose it.
+
+**THE FEATURE** — a story's felt-trail: how much each beat of a story
+moved the mind.
+
+**WHY IT MATTERS** — it is the FIRST OF HIS THREE STORY GATES (249.1).
+A story the mind tells itself may only teach if it was FELT. That is
+what separates a real story from babble, and it is his ruling.
+
+**WHAT WENT WRONG** — every beat reads `[0,0,0]`. The trail is flat,
+so nothing a story does registers as having moved anything. Reported
+under 234/235 and never ruled.
+
+**THE SCIENCE** — the gate exists because stories teach through being
+felt: story as simulation, run through the same machinery as living
+(Mar & Oatley, already in REFERENCES.md). A story that moves nothing
+taught nothing.
+
+**HE HAS RULED** — 249.1: felt, measured against the being's own
+background feeling-drift, not against a constant.
+
+**NOT ALREADY SOLVED** — 274 restored a BEAT'S BEARING, which is what
+a beat is worth going IN. This is what came OUT, and it is still flat.
+
+**DIAGNOSE. CHANGE NOTHING.**
+1. WHICH IS IT: the trail is never written · it is written and then
+   zeroed · or it is genuinely zero because nothing moves? Name it
+   with the line.
+2. IF IT IS GENUINELY ZERO, say what a beat would have to do to move
+   a feeling, and whether any beat has ever done it on his bench.
+3. AND SAY WHAT THE GATE HAS BEEN DOING ALL THIS TIME. If every trail
+   is flat, has 249.1 been refusing every self-told story, or passing
+   them all? Either answer matters: one means the mind has never
+   learned from a story it told itself, the other means the gate has
+   never bitten.
+4. Report what it was, not what fits first.
