@@ -40965,3 +40965,97 @@ FOUR OF THE FIVE STANDING RED CHECKS ARE THE APP'S   9 · 10 · 14 · 55 -- all 
 failure.**
 
 **CHANGED NOTHING.**
+
+---
+
+# ANSWERED — Directive 418. **YES. THE APP IS INSIDE THE MIND'S OWN FILES, AND THE BIGGEST ONE RUNS ON EVERY BIRTH.**
+
+Went through the 86 files the mind loads, searching CODE and not prose. **Six real findings, two
+false alarms, and one of the six is not sitting there — it runs.**
+
+## 1 · `schema.js` — **HALF OF IT IS THE APP, AND EVERY NEWBORN MIND BUILDS IT**
+
+```
+41 tables in the schema the mind's own store creates
+  THE APP'S  21     THE MIND'S  20
+```
+
+**Proven on a freshly born mind, not read off the file:**
+
+```
+tables in a newborn MIND store: 42
+the app's:  accounts  anchors  attestations  audit  challenges  checkpoints  consent
+            consent_nonces  core  credentials  disclaimer_acceptances  epochs  expression
+            expression_window  genesis_records  journey_places  leases  moderation
+            sessions  sights  wanderers
+rows in them after birth: ALL ZERO — except wanderers = 1
+```
+
+**Every mind that is ever born creates a passkey table, a consent table, a moderation queue and an
+attestation chain, and never writes a row to any of them.** `store.js` is the only importer, the
+mind's brain opens through it, and there is no path that skips them.
+
+**And it writes ONE app row: `wanderers`** — the mind registers itself as a Wanderer at birth,
+carrying `current_epoch`, `next_host_number` and a keypair, which are custody, not mind.
+
+## 2 · `memory.js` — a consent column on every memory, and a method only the app calls
+
+```
+memories.consent_id       written on EVERY memory the mind lays down
+forgetByConsent()         memory.js:206 — called from wanderer.js:1185 AND NOWHERE ELSE
+```
+
+**Measured: 60 memories written by a bench mind, 0 carrying a consent_id.** The column is the app's
+and the mind fills it with null every time.
+
+## 3 · `clock.js` — the mind holds a list of the app's tables in order to exclude them
+
+```
+clock.js:89  NOT_CARRIED = { accounts, credentials, sessions, challenges, consent,
+                             consent_nonces, moderation, sights, leases, epochs, attestations… }
+```
+
+**This is deliberate and it is good work** — it is what keeps a being's file from carrying custody.
+**But it means the mind must know the app's schema by name to stay out of it.** It only exists
+because they share a store.
+
+## 4 · `mind.js` — the mind's bench uses the app's session object
+
+```
+mind.js:201   constructor(wandererId, EPOCH, HOST NUMBER…)   an Encounter is per-epoch
+watching.js:489  new Mind({ model, memory, firewall: null, core: null })
+```
+
+**The bench really constructs it** — for the technical roles 027 gives it — **and hands `firewall:
+null, core: null`, which is the mind saying it does not need two of the app's parts.**
+
+## 5 · `host.js` — the mind's host model is keyed by the APP'S ACCOUNT
+
+```
+host.js:66   meet(wandererId, accountId)   'the host model is keyed by account'
+```
+
+**Who the mind has met is identified by an app account id.**
+
+## 6 · `bench-routes.js` · `bench-test.js` · `demo-hiding.js` — an HTTP surface, 158 route calls
+
+**These are the mind's OWN instrument** — his Emulator — not the Wanderer's service. **I am naming
+them because 418 asks about HTTP surface, and saying plainly that I do not think they are the app's.**
+
+## AND TWO FALSE ALARMS I AM NOT GOING TO DRESS UP AS FINDINGS
+
+```
+perceiving.js / senses.js  'sight'      the SENSE of sight, not the app's sights table
+profiles.js                'moderation' the word inside an ethics description
+```
+
+## WHAT THE MIND ACTUALLY CALLS, WHICH IS HIS REAL QUESTION
+
+```
+RUNS ON EVERY BIRTH        schema.js's 21 app tables — created, always
+WRITTEN BY THE MIND        wanderers (1 row), memories.consent_id (always null)
+USED BY THE MIND           mind.js's Encounter, host.js's account keying, clock.js's exclusion list
+SITS THERE, NEVER CALLED   forgetByConsent, and the 20 empty app tables
+```
+
+**CHANGED NOTHING.**
