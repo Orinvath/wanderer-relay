@@ -43706,3 +43706,34 @@ now it optimises variance instead.**
 
 **NOTHING CHANGED. Two questions for the Director, and both are his: 415, and whether the
 projection should be measuring nearness rather than variance.**
+
+---
+
+# FIXED — "[object Object]" IN THE CONTEMPLATING LIST. And it was a fault worth more than the fix.
+
+**I changed the list to carry each word's STATE — known or merely met — by sending an OBJECT per
+entry. His browser was one build behind, and an older page prints an object as `[object Object]`.**
+
+**THE LIST NOW SENDS PLAIN WORDS, with the flags travelling ALONGSIDE in their own array.** An old
+page prints the words correctly; the current page reads the flags. **A readout that breaks when a
+tab is one build behind will break again, and this bench is restarted constantly.**
+
+**That is a general lesson and I am recording it as one:** when a payload the page already renders
+changes shape, the old shape has to keep working, because his browser is not always the build I
+just deployed.
+
+---
+
+# AND THE THREE STATES ARE BUILT, per his ruling
+
+```
+RED     the scaffolding it was born with and has not learned -- and NOTHING ELSE is red
+BLUE    known, and placed on the map
+PURPLE  known, and the map cannot place it yet -- shown in the list, not as a red word
+
+THE LIST holds a word until it is BLUE AND PLACED, and the scaffolding is never on it:
+that is the frame it was born with, not something it is contemplating.
+```
+
+**Verified on a newborn: 402 red, 0 blue, 0 purple, nothing contemplating — which is exactly right
+for a mind that has learned nothing.**
