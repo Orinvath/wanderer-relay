@@ -11544,3 +11544,20 @@ truest picture the map will ever draw.
    gate.
 4. REMOVE THE UNUSED SWITCH rather than leaving a disabled gate in
    the code for someone to turn on later.
+
+## Directive 424 — LEARNING AND GROWTH KEEP THEIR OWN NAMES
+
+**HIS RULING: leave it.**
+
+LEARNING and GROWTH are the closest-looking pair left on the map at
+35.9 — about twice as distinct as the collisions he flagged, and
+those were identical shapes.
+
+**BOTH WEAR THEIR OWN NAME.** LEARNING wears LEARNING, GROWTH wears
+GROWTH. Moving either takes a node off its own word to satisfy a
+number, and a node wearing its own name is worth more than the last
+few points of distinctness — the label is right there and carries the
+truth (421.5).
+
+Nothing changes. This is closed and is not to be raised again as an
+optimisation.
