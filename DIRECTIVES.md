@@ -11561,3 +11561,30 @@ truth (421.5).
 
 Nothing changes. This is closed and is not to be raised again as an
 optimisation.
+
+## Directive 425 — THE 34 PAIRINGS ARE ACCEPTED
+
+**HIS RULING: leave them, they are fine.**
+
+The 34 nodes that had no mark of his now wear one, chosen by measured
+visual distinctness — not by meaning, because what his marks mean is
+his and never CC's (188). Reviewed by him and accepted as they stand.
+
+```
+FEEL    attention LOVE · appraisal SAD · feelings HAPPY
+CORE    needs WORLD · offers PLACE · goals THING
+THINK   interests QUESTION · thinking WHO · stories WHAT ·
+        storygates WHERE · lessons WHEN
+MEM     memory TIME · surfacing PAST · consolidation PRESENT
+LANG    vocabulary SEE · language HEAR · glyphs SPEAK ·
+        dictionary LISTEN · comprehension ASK · voice ANSWER ·
+        grammar TELL · censor SHOW · interpreter CALL ·
+        geometry GREET
+SELF    soul SELF · identity OTHER · aspects PERSON · roe CHILD ·
+        clock ADULT
+KEPT    safety · host · curiosity · sleep · belief · trust ·
+        learning · growth  (their own names, unchanged)
+```
+
+421 is closed entire. He may still overrule any single one by name at
+any time; nothing further is proposed.
