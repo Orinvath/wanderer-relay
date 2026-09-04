@@ -44023,3 +44023,58 @@ projection to separate — related and unrelated pairs are all strung along the 
 
 **NOTHING CHANGED (431.5). And the question this raises is his and the Director's: why is nearly
 everything the teacher says landing on JOY?**
+
+---
+
+# BUILT — Directive 432. **THE SCAFFOLDING HAS ITS STRUCTURE BACK.** `6b1a4e6`, live.
+
+## 432.3 — THE FAITHFULNESS TEST, BEFORE AND AFTER
+
+```
+                              pairs the space   drawn apart      drawn apart    correlation
+                              calls RELATED       RELATED         UNRELATED
+BEFORE the restore (415)            15            0.2196           0.0734        +0.010   LYING
+AFTER  the restore                 116            0.0455           0.1184        -0.083   FAITHFUL
+```
+
+**Related words are drawn CLOSER than unrelated ones again — 0.046 against 0.118 — and the
+correlation is negative.** It is not quite the -0.173 the directive predicted, and I am not going to
+round it up: **the frame is back, but the atom 415 added stays beside it (below), which dilutes each
+word's sheet and row a little. The direction is right and the map is honest again.**
+
+**And there are 116 related pairs where there were 15. That is the frame doing its job — giving the
+learned bindings something to be built against.**
+
+## WHAT CAME BACK, AND WHAT STAYED
+
+```
+BACK   domain -- which sheet of his artwork the word is on
+BACK   row    -- which row of that sheet, which is where his grouping lives (223.2)
+STAYS  atom   -- 415's codebook, drawn from the being's seed, so each word is still its own
+                 symbol and the same seed still builds the same space (415.1, 062)
+OUT    column position, exactly as 223.2 ruled -- it never came back and must not
+```
+
+**415.2 is untouched where it belongs: nothing the mind LEARNS carries structure it did not earn.**
+The frame is not something it learned.
+
+## 432.4 — WHAT ELSE THIS TOUCHES, and it is the finding I reported and could not act on
+
+**INNER LEARNING RECOVERS. A mind alone, no host, no teacher, only its own thinking:**
+
+```
+                  before 415     under 415      after this restore
+600 ticks alone    71 words       23 words         60 words
+candidates        436             67              299
+```
+
+**That was the collapse I measured and put to the Director — the mind wandering over 109 words and
+never meeting the same pair twice. The frame gives it a reason to dwell again.** It does not fully
+return to 71 because the atom is still there beside the frame, which is correct.
+
+**NOTHING BUILT SINCE DEPENDS ON THE ORTHOGONAL VERSION.** I checked: the only things that read the
+space are the mind's own systems and the map, and both read it through `near()` and `of()`, which
+do not care how it was built.
+
+**432.5 STANDS SEPARATELY: 19 of 22 owned words still all mean JOY. This restore does not touch
+that, and it is a different matter.**
