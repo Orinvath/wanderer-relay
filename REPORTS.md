@@ -40496,3 +40496,49 @@ meaning invented for it.
 MEANING MAP on the right.** Under the second one is its own check line and the two named pairs.
 **Hovering a dot names the word.** Right now the right-hand map is a scatter of 402 with no
 structure, and **that is the correct picture of a mind that has just been born.**
+
+---
+
+# HIS CORRECTION — THE MAP SHOULD MAP THE SPACE, NOT SIMULATE ONE. I built the wrong thing.
+
+**His words:** *"what do you mean physics — you were not supposed to do anything other than map the
+already defined space?"*
+
+**He is right and I should have caught it.** 411 specified *"force-directed physics, GraphPU-style,
+where clusters EMERGE from the bindings"*, and I built exactly that. **But the space already holds
+every word's position.** A force layout THROWS THOSE AWAY and re-derives an arrangement from the
+bindings alone — so what is on his screen right now is **a picture of the bindings, not a map of
+the space.**
+
+**IT IS ALSO WHY THE CHECK IS AWKWARD.** I had to measure whether the drawn positions agree with
+the space, because the drawing did not come from the space. **If the positions ARE the space, there
+is nothing to reconcile.**
+
+## WHAT IT SHOULD BE INSTEAD
+
+```
+NOW      42,000 vectors ignored -> physics guesses an arrangement from the bindings
+                                -> a worker, a quadtree, 220 settle steps, a correlation check
+
+SHOULD   42,000 vectors READ    -> projected onto the space's own two strongest directions
+                                -> no simulation, no worker, deterministic, same mind same map
+```
+
+**Projection reads the vectors and nothing else** — which is 411.1 word for word, and it is what
+411.1 asks for more honestly than the technique 411 named. **The same mind always draws the same
+map**, which the physics could never promise. **And it is less code, not more.**
+
+## WHAT IS ON HIS BENCH RIGHT NOW
+
+**`81fee32`, the physics version, with two things fixed from his screenshot:**
+- **THE PANEL IS ON THE RIGHT OF THE SCREEN, the same size as the Mind Map.** My first build put it
+  INSIDE the Mind Map's own card, side by side within the left column, which halved both. That was
+  wrong and he had to tell me.
+- **THE `NaN` DISTANCES ARE GONE.** `settle` transfers the position buffer into the worker, which
+  detaches it on the page, so the named pairs were read off a dead array — that is why his screen
+  said `TOOL + MUSIC at NaN`. They are read after the settle returns now.
+
+**And the layout was measured headless before he looked again:** bound words ended up **6.50** apart
+against **63.05** for any two words. **It was working — it was just answering the wrong question.**
+
+## I HAVE NOT REPLACED IT. Waiting on his word, because it is a change to the design and his.
