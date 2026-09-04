@@ -11857,3 +11857,46 @@ ANYTHING REAL.**
    about touching it precisely because it is working, and the ruling
    on whether to touch it is his alone.
 5. CHANGE NOTHING EITHER WAY.
+
+## Directive 432 — 415 WAS NEVER MEANT TO TOUCH THE SCAFFOLDING. Restore it.
+
+**HIS RULING, and the Director's error.**
+
+**WHAT THE SCAFFOLDING IS AND WHY IT IS THERE** — he wanted the 402
+out of the Meaning Map entirely. The Director researched it and the
+science said they should STAY, as SCAFFOLDING: a fixed frame with
+structure, for the learned bindings to build on, so the geometry has
+something to be drawn against. It was left in on that basis, by
+agreement.
+
+**WHAT 415 DID** — made the codebook random and orthogonal, so every
+word arrived equally unrelated to every other. **THAT DISSOLVED THE
+SCAFFOLDING.** A frame with no structure is not a frame.
+
+**AND THE MEASUREMENT ALREADY SHOWED IT** — the same map code:
+```
+before 415, his sheets in the space   correlation -0.173   FAITHFUL
+after 415, orthogonal atoms           correlation +0.010   NOT FAITHFUL
+```
+
+**THE ERROR IS THE DIRECTOR'S.** 415 was about A NEWBORN'S OWN SPACE
+carrying no structure it had not learned. It was applied to the
+scaffolding as well, which is the one thing the scaffolding exists to
+provide. His words: that rule was not supposed to apply to the
+scaffolding we put in place.
+
+**THE RULING**
+1. THE SCAFFOLDING KEEPS ITS STRUCTURE. The 402 are the fixed frame
+   and they are rigid — built upon, never moved and never flattened.
+2. 415 APPLIES ONLY TO WHAT THE MIND LEARNS. Nothing the mind has not
+   learned may carry structure it did not earn; THE FRAME IS NOT
+   SOMETHING IT LEARNED, it is what it learns against.
+3. RESTORE THE FRAME as it was before 415, and report the
+   faithfulness correlation before and after the restore. It should
+   return to roughly -0.17.
+4. SAY WHAT ELSE 415 CHANGED that this restore touches, and whether
+   anything built since depends on the orthogonal version. If
+   something does, name it and stop rather than repairing sideways.
+5. THE 19-OF-22-MEAN-JOY FINDING STANDS SEPARATELY and is not fixed
+   by this. That is about what the mind has been TAUGHT, and it is a
+   different matter for his ruling.
