@@ -11354,3 +11354,36 @@ Avatar is the body. THIS IS THE MIND, AND THE MIND ONLY DEALS WITH THE
 MIND.
 
 **CHANGE NOTHING.** He rules on what comes out.
+
+## Directive 419 — A NAMING LINE IS CHECKED ON WHAT IT CLAIMS, NOT ON EVERY WORD IN IT
+
+**HIS RULING, and it unblocks 403.**
+
+**THE GUARD'S REAL JOB, in his own words:** the model must not tell
+the mind things about itself that are not true. If it says "you are
+afraid" when the mind is not, the mind binds the word to the wrong
+state and learns it wrong. THAT IS THE ONE THING THE GUARD IS FOR.
+
+**WHAT IT IS DOING INSTEAD** — treating EVERY WORD in a naming line as
+a claim about the mind. So "you sing with a full heart" dies because
+HEART is not literally true of it, and the whole line is thrown away
+with everything it was teaching. **142 refusals, all of that shape.**
+
+**THE RULING**
+1. A NAMING LINE IS CHECKED ON WHAT IT ASSERTS ABOUT THE MIND — its
+   state, its act, its feeling, its needs. Not on every noun it
+   contains.
+2. A FALSE ASSERTION IS STILL REFUSED. "You are afraid" to a mind
+   that is not afraid still dies. That is 234.5a's purpose and it is
+   untouched.
+3. A WORD THAT ASSERTS NOTHING ABOUT THE MIND IS NOT A CLAIM. HEART
+   in that line is not the teacher saying the mind has a heart.
+4. STORIES ARE UNAFFECTED — a bird being lonely says nothing about the
+   mind, and 403.3 already ruled it.
+5. 403 IS UNBLOCKED. Build it: every invented constraint on what the
+   teacher may say comes out, each one named with the directive it
+   arrived under, and the leash keeps only the job above.
+6. THEN TEST IT WITHOUT THE RULES, which has never been done (403.4):
+   lines delivered against calls made, and post the teacher's actual
+   lines for his eye. 25 calls per delivered line is the number that
+   must move.
