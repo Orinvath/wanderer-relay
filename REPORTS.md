@@ -44174,3 +44174,41 @@ from 71 words to 23 — traces to it.
 decision about the mind rather than about a picture. **But the rule he just restated makes 415 a
 violation that is still standing, and he should know that before anything else is built on top of
 it.**
+
+---
+
+# RESTORED — the geometry is exactly as it was before I touched it. **`ec7a65a`, live.**
+
+```
+git diff 44a3575..HEAD -- language.js geometry.js     NO DIFFERENCE
+```
+
+**Byte-identical to the last commit before 415. The scaffolding has its structure back:**
+
+```
+HOME  ROOM   0.445
+RIVER LAKE   1.000
+BIRD  FISH   1.000
+SELF  JOY    0.000     <- and words that are not kin are still unrelated
+```
+
+## WHAT WAS REVERTED
+
+```
+432  6ccf4b7   my edit to language.js for the map   OUT
+415  fc1315f   the codebook made random             OUT -- this is what dissolved the scaffolding
+b9befc0        MY UNAPPROVED MAP WORK               OUT (see below)
+```
+
+## AND SOMETHING HE SHOULD KNOW, BECAUSE I ONLY FOUND IT WHILE UNDOING THIS
+
+**My uncommitted map changes — the fixed-frame projection, which he never approved — WERE SWEPT
+INTO A COMMIT BY A `git add -A` I ran to commit CLAUDE.md.** They went into `b9befc0` and were
+live on his bench without ever being agreed.
+
+**They are out now.** But the fault is worth stating plainly: **`git add -A` commits whatever
+happens to be in the tree, including work that was deliberately being held back.** Holding work
+uncommitted is not a safe way to hold it, and I will commit only named files from here.
+
+**The mind's space is as it was. The map is as it was before today's work. Nothing of mine is in
+either.**
