@@ -41921,3 +41921,38 @@ health GREEN · not one counter above zero over 40 ticks · the teacher delivers
 ```
 
 **That is everything. Nothing in A or B is being worked on until it is ruled.**
+
+---
+
+# FIXED — ONE CAUSE BEHIND ALL THREE OF HIS SYMPTOMS. **`8f0f753`, reload.**
+
+**His words:** *"lots of dots and when I mouse over them they dont have a tooltip"* · *"also no
+zoom, no rotate."*
+
+**Three symptoms, one line of CSS.**
+
+```
+.mmapnone{position:absolute; inset:0; display:flex; ...}
+```
+
+**That is the map's message overlay -- "nothing bound yet". It is absolutely positioned across the
+WHOLE CANVAS, and its `display:flex` OVERRIDES THE HIDDEN ATTRIBUTE'S OWN display:none.** So
+`NONE.hidden = true` did nothing whatsoever: **the overlay stayed sitting on top of the canvas,
+invisible only because it has no background of its own, and swallowed every pointer event before
+it could reach the map.** Hover, zoom and rotate were all attached correctly and none of them ever
+received a thing.
+
+**AND IT IS A FOURTH SYMPTOM TOO, WHICH I ANSWERED WRONGLY AT 414.3.** He asked why the map said
+"nothing bound yet" WHILE POINTS WERE DRAWN. I called it *"a leftover string in the markup"*. **It
+was not a leftover. The overlay had never hidden once, and that answer was the clue I did not
+follow.**
+
+**THE FIX:** `.mmapnone[hidden]{display:none}` so hiding it works, **and `pointer-events:none` so
+that even when it IS showing, a message is something to read and never something that eats a
+drag.**
+
+**Nothing else overlays the canvas** — the check line sits below the map, not across it.
+
+**This is why 420.A and 420.B measured correct and still did nothing on his screen: the arithmetic
+was right and the events never arrived.** My headless test proved the maths and could not have
+caught this, which is worth remembering — a test that bypasses the page cannot see the page.
