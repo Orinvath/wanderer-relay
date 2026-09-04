@@ -275,3 +275,36 @@ what would let it build a sentence it has never heard.
 
 **NOTHING IS DESIGNED AND NOTHING IS BUILT. His words are here so they
 are not lost; the design conversation comes after the current work.**
+
+## 12 · THE MIND LEARNS GRAMMAR — from the model's corrections, and from being taught it
+
+**His note, recorded before it is lost. To be discussed properly
+later; nothing designed here.**
+
+**A · IT LEARNS FROM THE CORRECTION ITSELF.** When the local model is
+attached and it rewords the mind's line into correct grammar, THE
+MIND SHOULD LEARN FROM THAT CORRECTION — the corrected pattern goes
+into what it knows about word order, so it picks up the right shapes
+rather than only being made to sound right. The model stops being a
+polish and becomes a teacher of form.
+
+**B · THE TEACHER TEACHES GRAMMAR EXPLICITLY.** Not only words and
+their meanings — the PARTS and how they are used:
+```
+nouns · verbs · adjectives · adverbs · pronouns ·
+prepositions · conjunctions · interjections
+```
+"This word is a verb. This word is a noun. It means this."
+
+**C · AND IT IS AN ONGOING TEST WHILE TEACHING.** The teacher gives a
+sentence and asks the mind to pick out the noun. A test with a RIGHT
+ANSWER, which is the kind section 4 already calls for — no judge
+needed, and it runs continuously as part of school rather than as a
+separate exercise.
+
+**WHY IT MATTERS** — its grammar today is word-order statistics from
+its corpus. That produces long shapeless lines: real patterns, no
+sentence sense. This is the road from patterns to grammar.
+
+NOT DESIGNED, NOT SCHEDULED. His to take up when the current work is
+done.
