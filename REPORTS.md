@@ -42982,3 +42982,29 @@ double-click — **so a double-press on Start would have collapsed the panel out
 mid-press.** A double-click on a button, input or link no longer toggles anything.
 
 **Nothing deployed. His bench is still on `9583b7a` and his arrangement is untouched.**
+
+---
+
+# FIXED — HEALTH "HID ITS CONTENT" INSTEAD OF COLLAPSING. **Committed `536260b`, not deployed.**
+
+**His words:** *"HEALTH panel does not collapse, when I double click the title bar it just hides the
+content."*
+
+**It was collapsing. The BOX was not.**
+
+```
+panels.js:294   if (st.h) el.style.height = st.h;
+```
+
+**Any panel he has ever dragged the corner of gets an INLINE HEIGHT, remembered and put back on
+load.** Collapsing empties the body — but that stored height holds the box open, **so the contents
+vanish and an empty rectangle stays exactly where the panel was.** Which is precisely what he
+described.
+
+**A shut panel is now the height of its head, whatever height it was dragged to.** The height
+belongs to the panel while it is OPEN and means nothing when it is shut.
+
+**And it was never only HEALTH** — it would have done this on any panel he had resized, which is
+why the fix is on the rule and not on that one panel.
+
+**Nothing deployed. Still `9583b7a` on his bench, arrangement untouched.**
