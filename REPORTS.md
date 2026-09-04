@@ -41126,3 +41126,48 @@ PASS  "YOU SING WITH A FULL HEART"      ← the line that used to die 142 times
 
 **Nothing was replaced with a softer rule (403.5). Two rules are gone and one is back to his own
 letter.**
+
+---
+
+# HIS OBSERVATION — "about 30 points on a fresh restart". **HE IS SEEING 402 WORDS STACKED IN 41 PLACES.**
+
+**Measured off his own bench, live:**
+
+```
+points the map is SENT        402
+DISTINCT positions drawn       41      <- what his eye counts
+biggest pile                  351 words at one single spot (-0.0277, 0.006, 0.0076)
+these three directions carry   2.5%    (1.1% · 0.8% · 0.6%)
+median distance from origin   0.029    against a maximum of 0.83
+```
+
+**Nothing is missing and nothing is filtered. 351 of the 402 are drawn on top of each other.**
+
+## AND THE CAUSE IS 415, WORKING EXACTLY AS RULED
+
+**415 made every word pseudo-orthogonal: a newborn's space is a featureless cloud, every word
+equally far from every other. THAT IS WHAT WAS ASKED FOR AND IT IS WHAT HAPPENED.**
+
+**But a featureless cloud has nothing for a projection to find.** PCA draws the directions of
+greatest shared spread, and mutually orthogonal atoms share none — so 351 words with nothing but
+their own atom all land on the same near-zero point, and the only 41 places that separate are the
+words carrying `sense`, `kind` or `dyad` features, which are the dictionary structure 415.4 left in.
+
+```
+BEFORE 415   three directions carried 13.7%   the sheets gave it structure to draw
+AFTER  415   three directions carry    2.5%   there is no structure until it learns
+```
+
+## THIS IS 413.2, ARRIVING FOR REAL
+
+**His ruling then:** *"if the projection does not capture enough, DO NOT DRAW IT — a low number
+means the picture is wrong, and showing a wrong picture with a warning label helps nobody. If the
+space genuinely cannot be flattened well, SAY SO instead of drawing something misleading."*
+
+**2.5% is that case, and the pile on his screen is what "drawing something misleading" looks like.**
+I wired the switch and left it off because 413.2 named no number and the number is his. **This is
+the evidence for setting it: anything above about 3% would blank a newborn's map and let it appear
+as the mind actually learns something.**
+
+**AND THE MAP IS NOT LYING — it is telling the truth about a mind that understands nothing yet.**
+The one binding it has is drawn correctly. **Changed nothing.**
