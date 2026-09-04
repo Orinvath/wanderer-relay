@@ -11215,3 +11215,52 @@ the map reached into the mind, and whether the mind is intact. That
 one comes first.
 
 CHANGE NOTHING until these are answered.
+
+## Directive 415 — THE CODEBOOK IS RANDOM. A newborn's space has no structure in it.
+
+**HIS QUESTION** — why are the 402 in `language.js` at birth when the
+mind does not know them, and what does the science say. The Director
+researched it and the answer splits cleanly.
+
+**WHAT IS STANDARD AND STAYS** — every VSA holds a CODEBOOK (also
+called item memory, clean-up memory, or dictionary) with an atomic
+vector for every symbol, generated deterministically from seeds.
+Having all 402 present from birth is textbook and correct.
+(Kanerva 2009; Kleyko et al., HDC/VSA survey 2022; Schlegel et al.
+2022. Rows to REFERENCES.md per 227.)
+
+**WHAT IS WRONG** — THE VECTORS ARE SUPPOSED TO BE RANDOM. The whole
+basis of the method is that randomly chosen high-dimensional vectors
+are approximately orthogonal, so every symbol begins PSEUDO-ORTHOGONAL
+TO EVERY OTHER AND IS TREATED AS DISSIMILAR. Meaning arrives ONLY
+from binding.
+
+Ours are not random. `language.js:77` builds each word's vector from
+WHICH SHEET AND WHICH ROW OF HIS ARTWORK it sits on:
+```
+SELF -> domain:01_identity_and_people = 1   row:01_identity_and_people:0 = 1.3
+```
+So every word arrives ALREADY RELATED to the words beside it on the
+page — relationships nobody learned, baked in from the dictionary's
+layout. That is why a freshly restarted mind's Meaning Map has
+structure in it.
+
+**THE RULING**
+1. THE CODEBOOK STAYS. All 402 present at birth, deterministic from
+   the being's seed (062), so the same seed gives the same codebook.
+2. THE VECTORS BECOME RANDOM — pseudo-orthogonal, as the method
+   requires. A newborn's space is a featureless cloud: every word
+   equally far from every other, which is exactly right for a mind
+   that understands nothing.
+3. STRUCTURE COMES ONLY FROM BINDING. Anything the Meaning Map shows
+   is then something the mind LEARNED, and cannot be his dictionary's
+   layout wearing the mind's clothes.
+4. THE SHEETS AND ROWS ARE NOT DELETED — they are his artwork's
+   layout and they belong to the Avatar. They simply stop being the
+   mind's idea of what is related. If anything else reads them as
+   relatedness, NAME IT; do not change it yet.
+5. EXPECT THE KINSHIP READINGS TO MOVE. 221's five sources included
+   sheet rows; this removes one of them from the space itself. Say
+   what changes and by how much, on the same seed, before and after.
+   If something depended on the old structure, that is a finding —
+   report it, do not repair it.
