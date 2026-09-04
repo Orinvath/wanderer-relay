@@ -42544,3 +42544,56 @@ the known words, when there were 5:        ALL of them inside that same pile
 of it.** That is not the fault he reported, but it would make a handful of newly known words look
 like nothing had changed. **Named, not changed — and it goes away on its own as bindings form and
 the known words climb out.**
+
+---
+
+# FIXED — THE TITLE BARS. **`8675edf`, reload.**
+
+**His words, with the screenshot:** *"title bars are not right they extend down into the panel, and
+ruin the design."*
+
+**TWO CAUSES, BOTH MINE, AND BOTH IN THE SCREENSHOT:**
+
+```
+1  THE LIFTED HEADING KEPT ITS OLD STYLE. A panel that already had a heading row has that row
+   lifted into the new head -- and those rows were written to sit INSIDE a panel. The THOUGHTS
+   one carries a NEGATIVE MARGIN, which dragged it left OVER THE ARROW and down into the body.
+   Its bold is 14px teal; the map titles are 11px dim. No two heads matched.
+   I had zeroed padding and border. The MARGIN and the TYPE also had to go.
+
+2  THE PANEL'S OWN PADDING HELD THE BAR OFF THE EDGES, so it floated inset with the contents
+   instead of running across the top. That inset IS "extends down into the panel".
+```
+
+**NOW:** one bar, fixed height, flush to the panel's edges, the same type on all eleven, arrow
+clear of the text, and **the live status those rows carry — PERCEPTION's stamp, LESSONS' count —
+still updates, quietly, in the same bar.** The padding is moved to the body and is READ off each
+panel rather than assumed, because every one of them was padded differently.
+
+---
+
+# AND HIS IDEA: A LIST FOR WORDS NOT YET PLACED
+
+**His words:** *"perhaps new words that come in and are not placed go in a list until they are
+placed?"*
+
+**HE HAS FOUND A REAL GAP AND IT IS BIGGER THAN THE DISPLAY.** There are two ways a word can be
+in the mind and not on the map, and only one of them is visible:
+
+```
+1  NOT YET REPROJECTED   the picture is held until the space grows 2% or 10 words (422), so a
+                         word the mind learned a minute ago has NO POSITION AT ALL yet.
+                         It is invisible -- not red, not blue, ABSENT.
+
+2  PLACED BUT BURIED     a word with no bindings has only its own atom, so it lands in the pile
+                         at the centre. Measured: 354 of 402 sit within 0.05 of the middle.
+```
+
+**So his instinct is right — there IS a population of words the map is not showing him, and right
+now nothing tells him they exist.** A list of what has arrived and is waiting would make the gap
+between "the mind learned this" and "I can see it" visible instead of silent.
+
+**IT IS A DISPLAY, SO IT NEEDS NO PLAN (his ruling today) — but it is HIS BENCH AND HIS LAYOUT, so
+before I build one I want one thing from him:** whether that list is **its own panel**, or **a line
+under the Meaning Map** the way the check line sits there now. **Everything else about it I can
+take from what is already measured.**
