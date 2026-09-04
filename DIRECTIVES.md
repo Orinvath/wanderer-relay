@@ -11674,3 +11674,98 @@ Rows to REFERENCES.md per 227.
    came from, and whether a mind with a strong feeling or a roused
    curiosity now surfaces memories that touch it rather than any
    memory at all.
+
+## Directive 428 — THE NODE CLAIMS. Written by the Director, Rule Zero'd three times.
+
+347 ruled the checks are per node and ordered the claims from the
+Director, not from CC. Here they are. One claim per file, each a
+promise the file's own code can be checked against.
+
+**RULE ZERO REMOVED NINE BEFORE THIS WAS SENT** — unmeasurable
+claims, duplicates of another node's check, two that contradicted
+standing rulings, and one for a struck system. What is left is what
+survived. Notes on those are at the end.
+
+### GATES
+safety        every moment passes me first; a held threat stops idle goals
+attention     nothing is attended to that did not clear the door
+
+### MEANING
+appraisal     every attended moment produces its variables, and none is invented
+feelings      no feeling exists without the variables that decided it
+mood          a mood is this being's own, derived from its aspects, never a constant
+host          what I hold about someone comes from what they did
+
+### NEEDS AND CHOOSING
+needs         the three hold -10..+10, move only on event or lawful decay, and nothing
+              raises relatedness with nobody there
+offers        every chosen act has a winning offer, and none is chosen with all scores zero
+
+### LANGUAGE
+language      every vector is built from this mind's own record; same seed, same space
+geometry      every symbol I hold is a word this mind has; the same seed rebuilds it
+dictionary    I answer only what the dictionary contains, and invent no sense
+vocabulary    a word reaches the mouth from anything true of it, never from the state
+              table alone
+comprehension heard words resolve only to words it owns; nothing unowned fakes
+              understanding
+learning      a word is owned only on clear exposure; contradiction weakens; no word
+              enters from nowhere
+grammar       every line I build is a pattern this mind has heard
+voice         every content word traces to the record; nothing untraceable leaves
+
+### THOUGHT
+thinking      every train has a subject, and its beats hold it
+curiosity     I rouse only above this being's own bar, and what I rouse becomes
+              something it thinks about
+interests     a thread strengthens only when attention paid off; ignored threads fade
+stories       a replay runs whole in lived order; an invention contains only lived
+              elements
+storygates    every refusal names its gate, and nothing passes ungated
+lessons       every lesson names its provenance and its confidence
+belief        only lived ticks bear evidence; a description is never tested as a
+              prediction
+trust         trust moves only on a verdict this life reached, and never below its floor
+
+### MEMORY
+memory        every experienced moment is written, raw is never deleted, and stamps are
+              lived time only
+sleep         consolidation and dreaming happen only while asleep
+consolidation I keep and I never delete
+
+### SELF
+soul          a locked soul is byte-identical to Genesis, forever
+identity      only life-confirmed lessons enter the story; centrality is computed,
+              never assigned
+aspects       fixed at birth, never written after
+growth        a capacity moves only from age or use, and only in its own direction
+clock         lived time only; paused when unloaded; a load resumes where it left off
+
+### BODY
+embodiment    I send nothing to a body that is not there
+cord          only the five signals cross, and a missing receptor is silence, never an
+              error
+perceiving    nothing enters from a sense that is not a word this mind has
+
+### WHAT RULE ZERO REMOVED, and why — so none is re-added by mistake
+- needs-store, english, roe, nerves, goals, surfacing: NOT MEASURABLE
+  as written, or true by construction so the check could never fail.
+  A claim that cannot fail is decoration.
+- censor, glyphs: DUPLICATES. censor restates voice's claim, glyphs
+  restates dictionary's. One fault would light two nodes.
+- interpreter: STRUCK BY 352. A node for a system that no longer runs.
+- mood, growth, attention: REWRITTEN, not removed — each as first
+  drafted would have FIRED ON CORRECT BEHAVIOUR. mood contradicted
+  286 (a mind at rest may read nothing); growth contradicted 339 and
+  CC's finding that reach matures downward; attention's said
+  "mismatch passes", which is 381's fix rather than the file's
+  permanent claim.
+- soul: SPLIT. It bundled Genesis immutability with
+  depths-weigh-draws; one red light would have named two faults.
+
+### TO BUILD
+1. One check per node, each carrying its claim above, its counters,
+   and its FORCED-FAIL AT BIRTH (254.D).
+2. HEALTH reads them all, and a red light names exactly one file.
+3. WHERE A FILE HAS NO CLAIM HERE, say so plainly rather than
+   inventing one — a node with no honest claim is a finding.
