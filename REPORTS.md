@@ -41956,3 +41956,62 @@ drag.**
 **This is why 420.A and 420.B measured correct and still did nothing on his screen: the arithmetic
 was right and the events never arrived.** My headless test proved the maths and could not have
 caught this, which is worth remembering — a test that bypasses the page cannot see the page.
+
+---
+
+# BUILD REPORT — FLAG THE WORDS THE MIND DOES NOT KNOW YET. **One decision, and it is his.**
+
+**His words:** *"those things that are in there arent actual known words to start with, so they
+should be flagged in some way to tell they are not words known yet."*
+
+**He is right and it matters more than a display nicety:** a newborn's map is 402 dots and the mind
+knows NONE of them. Anyone reading it — him included — sees a full map of a mind that understands
+nothing. **The map is currently drawing his LANGUAGE and calling it the mind's understanding.**
+
+## THE THREE STATES ARE REAL, AND ALREADY IN THE DATA — nothing is invented
+
+**Measured on a mind after 80 ticks:**
+
+```
+words in the space   406
+  OWNED               6    it can demonstrate the meaning -- this is what the gauge counts
+  HEARD, not owned    0    somebody has said it to the mind, but it has not pinned a meaning yet
+  NEVER MET         400    in the space because his language is there from birth (415.1's codebook)
+```
+
+**All three come straight from `learning.owned()` and `learning.heardWords()`. The route already
+holds them; it simply does not send them.**
+
+## WHAT I WOULD BUILD
+
+**The route sends each word's state alongside its position — one extra field, no new computation.**
+The map then draws the three differently. **It stays read-only** (420.1): this reads what the mind
+already knows about itself and changes nothing.
+
+## AND THE ONE DECISION, WHICH IS HIS BECAUSE HE ALREADY RULED ON IT
+
+**412.4:** *"Points are a single colour from 349's cool range until something worth showing appears.
+DO NOT INVENT A MEANING FOR IT."* **This is that something appearing — so the ruling is his, not
+mine.** Four ways, and none is better than his own answer:
+
+```
+A  COLOUR      known words in the steel blue they are now; unknown in a dim grey.
+               Reads instantly. Spends the colour channel, which he deferred deliberately.
+
+B  BRIGHTNESS  the same hue throughout; known words bright, unknown faint.
+               Keeps colour free for whatever he wants it for later.
+
+C  SIZE        known words a full dot, unknown a small one.
+               Survives him being colour-blind to a dim grey on a dark ground, and it also
+               makes the 351-dot pile read as a cloud with the real words standing out of it.
+
+D  ONLY DRAW WHAT IT KNOWS, with a line saying "402 words of the language, not yet met".
+               The strictest reading of his own complaint -- if the map is what the mind
+               UNDERSTANDS, a word it has never met has no business being drawn at all.
+```
+
+**D is worth his attention rather than being an also-ran:** it would empty a newborn's map
+completely, which is the honest picture, and it makes the whole 413.2 threshold question go away —
+**there would be nothing misleading left to draw.**
+
+**NOTHING BUILT. Waiting on which.**
