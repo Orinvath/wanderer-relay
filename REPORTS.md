@@ -43164,3 +43164,38 @@ every title in the light green               and layouts saved as files on disk
 **And the LAYOUTS button is on the top bar now** — name an arrangement and keep it, load it back
 without a reload, delete it. **Files beside the bench, not a browser store, because this runs as an
 app.**
+
+---
+
+# THE TITLES — ALL THIRTEEN, VERIFIED AGAINST THE PAGE THE SERVER IS SERVING NOW.
+
+**His ask:** *"Make sure they all match in font, colour and size."*
+
+**I checked what each panel's title actually IS, rather than assuming they were all the same
+shape. They are not — there are three:**
+
+```
+<b> inside a heading row     LEARNED · MOOD · PERCEPTION · HEALTH · PERSONALITY · TRAITS · SOUL · THOUGHTS
+<span> inside a heading row  LESSONS · CHAT LOG
+text carried directly        THE MIND MAP · THE MEANING MAP
+plain text I supply          SAVE MIND
+```
+
+**That is why they kept coming out different one at a time. Every fix I made caught one shape and
+missed another** — the tag-based rule caught the bolds and turned LESSONS into status text; the
+child-based rule caught those two and left the maps grey.
+
+**All three are covered now, and I read it back out of the LIVE page rather than out of my own
+file:**
+
+```
+.pnltitle          font:600 11.5px/1 system-ui  ·  letter-spacing:.13em  ·  color:#9fd8cd
+.pnltitle > *      the same, !important          <- catches the maps' direct text
+first-child        font:inherit, color:inherit   <- catches the bolds and the spans
+```
+
+**One font, one size, one weight, one letter-spacing, one colour, on all thirteen.** The live
+status beside a name is the only thing that stays small and dim, which is the one thing that
+should not be green.
+
+**He is on `9292925`, page and server agreed. A reload of the browser is all it needs.**
