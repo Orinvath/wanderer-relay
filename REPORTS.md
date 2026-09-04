@@ -44276,3 +44276,49 @@ geometry.js   CLEAN
 **Two files changed, both the map's own: `meaningmap.js` and the route that calls it.** The learned
 features are all still in the space, still used, still deciding what is related to what. **They are
 simply not allowed to turn the camera.**
+
+---
+
+# BUILT — Directive 434. **THE WORDS, ON DEMAND.** `6d917f3`, live, reload.
+
+**His flaw:** *"the one flaw in the map is that I can only mouse over and show one word at a time."*
+
+**A WORDS button at the foot of the map. Press it and every point in view is named at once; press
+it again and the picture is clean.** (434.2 — labels on demand, never permanent.)
+
+## 434.4 — HOW IT STAYS USABLE, answered the way 412.3 was answered for the points
+
+```
+a 900x900 panel holds 1,035 labels at readable type -- 15 across by 69 down
+
+words in the space   in view   named   unnamed
+             400        400     400        0     <- every one, no thinning (434.3)
+           5,000      5,000   1,035    3,965
+          42,000     42,000   1,035   40,965
+
+AND ZOOMING IN IS HOW HE READS A CROWD:
+  42,000 at 1x  ->  42,000 in view  ->  1,035 named
+  42,000 at 3x  ->   4,667 in view  ->  1,035 named
+  42,000 at 8x  ->     656 in view  ->     656 named -- all of them
+```
+
+**THREE THINGS MAKE THAT WORK, and none of them costs anything at scale:**
+
+```
+IN VIEW ONLY     a point off-screen is skipped before it is measured, so the cost is what he can
+                 SEE and never what the space holds
+NO OVERLAP       each label claims a cell the size of the text; a point whose cell is taken is not
+                 drawn. One lookup per point.
+FRONT FIRST      the crowd is named by what is nearest him, not by whatever came first in the list
+```
+
+**And when it cannot name them all it SAYS SO** — *"N named · M too crowded to name — zoom in"* —
+rather than painting an unreadable wall or silently dropping words.
+
+**A label wears its word's own state: blue known, purple met, red scaffolding.**
+
+## 434.5 — AND NOTHING ABOUT THE POSITIONS CHANGED
+
+**One file: `meaningmap.js`. `language.js` and `geometry.js` are clean.** It is a second canvas over
+the map that takes no pointer — the dots are drawn exactly as before, hover still works underneath
+it, and 433's fixed frame is untouched. **This reads the map. It does not draw it.**
