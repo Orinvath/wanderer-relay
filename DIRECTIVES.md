@@ -11129,3 +11129,55 @@ distance and the space's nearness with its forced-fail, and the
 named-pairs test he can run with his eyes.
 
 Build it.
+
+## Directive 413 — THE MEANING MAP PROJECTS THE SPACE. PCA, and 411's physics is struck.
+
+**HIS CORRECTION, and it was the Director's error:** *"you were not
+supposed to do anything other than map the already defined space."*
+411 specified force-directed physics, CC built exactly that, AND 411
+WAS WRONG. The space already holds every word's position; a force
+layout throws those away and re-derives an arrangement from the
+bindings, so what is on his screen is A PICTURE OF THE BINDINGS, NOT
+A MAP OF THE SPACE.
+
+**THE TELL CC NAMED** — the health check was awkward because the
+drawing did not come from the space. If the positions ARE the space,
+there is nothing to reconcile.
+
+**THE METHOD IS PCA. Researched, not chosen by feel.**
+- PCA is DETERMINISTIC: same mind, same map, every time. t-SNE and
+  UMAP are not without a fixed seed.
+- Distances along its principal directions are FULLY PRESERVED. It is
+  called a gold standard for global structure preservation.
+- IT PRODUCES THE HONESTY NUMBER BY CONSTRUCTION — the share of the
+  space's real spread the drawn directions capture.
+- AND THE WARNING THAT DECIDES IT: cluster shapes, sizes and even
+  distances in t-SNE and UMAP plots DO NOT RELIABLY REFLECT THE
+  UNDERLYING GEOMETRY. Two words close together could be an artifact
+  of the algorithm rather than the mind — which would break the one
+  test he can run with his own eyes (411.2). PCA cannot lie that way.
+- UMAP's reputed advantage over t-SNE was shown to come from
+  INITIALISATION, not the algorithm. Neither is worth the risk here.
+(Sources: Kobak & Linderman 2019; the 2025 DR survey and review; PCA
+as GSP gold standard. Rows to REFERENCES.md per 227.)
+
+**THE RULING**
+1. THE PHYSICS COMES OUT — the worker, the quadtree, the settle
+   steps, all of it. The map READS the vectors and projects them.
+2. IF THE PROJECTION DOES NOT CAPTURE ENOUGH, DO NOT DRAW IT. His
+   ruling: a low number means the picture is wrong, and showing a
+   wrong picture with a warning label helps nobody. Try the better
+   view first; if the space genuinely cannot be flattened well, SAY
+   SO instead of drawing something misleading.
+3. 3D, AND HE CAN TURN IT. Three directions lose less than two, and
+   rotating recovers what any single angle hides.
+4. THE HEALTH CHECK BECOMES TRIVIAL AND STAYS: the drawn positions
+   ARE the projection of the space, so the check confirms they were
+   not touched by anything else.
+5. HIS OWN TEST STANDS (411.2): two words the mind has bound are
+   close, two it has not are apart. If that ever fails, the map is
+   lying whatever any number says.
+6. AND IT IS HELD MODESTLY UNTIL IT EARNS TRUST — a hint, not
+   evidence, until his spot-checks agree with it several times over.
+   If it never earns that, it is a panel we drop rather than a system
+   we defend.
