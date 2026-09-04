@@ -43260,3 +43260,43 @@ THE MEANING MAP  WAS the stage itself             -- the stage carried the frame
 close.** Same shape now: a panel with the frame, a stage inside it with none. **One rule styles
 both, so they cannot drift apart again** — which they had, twice, because they were two different
 things wearing the same name.
+
+---
+
+# FIXED — THE COLOUR SHIFT DOWN THE LEFT. **`b2992e0`, live, reload.**
+
+**His words:** *"there should not be any colour shift, just the list down the side."*
+
+**TWO CAUSES, AND ONE OF THEM IS A FAULT I HAD ALREADY FIXED ONCE AND THEN REPEATED:**
+
+```
+1  A FADE BEHIND THE LIST, to keep the words legible over the dots. He does not want the map
+   tinted, so it is gone -- the words stand on their own.
+
+2  THE BOX NEVER HID. Its `display:flex` OVERRIDES the hidden attribute's own display:none, so an
+   EMPTY list still painted its band down the left of the map.
+   THAT IS THE SAME FAULT as the "nothing bound yet" overlay that was eating every mouse event --
+   I found it, fixed it there, and then wrote it again three panels later.
+```
+
+---
+
+# AND HIS SCREENSHOT SHOWS SOMETHING WORSE THAN THE TINT — THE MAP IS FAILING ITS OWN TEST
+
+```
+ITS OWN CHECK   bound words sit 0.349 apart · any two words 0.089 — BOUND ARE NOT CLOSER
+```
+
+**411.2 is the one test that matters and 420 addendum made it the WHOLE test: two words the mind
+has bound must be closer than two it has not. THEY ARE FOUR TIMES FURTHER APART.**
+
+**By his own ruling — *"if that ever fails, the map is lying whatever any number says"* — the
+Meaning Map was lying on that frame.** The check caught it and said so in red, which is the check
+doing its job.
+
+**I cannot reproduce it right now:** the mind currently has **0 bound pairs**, so there is nothing
+to measure and the line is blank. **It had 3 known and some bindings when he took that shot.**
+
+**This is a real finding and it is not the display.** It is either the projection or the pairs the
+route feeds it. **NOT REPAIRED, NOT GUESSED AT — it needs the state he photographed, and I would
+rather ask him to leave the school running for a stretch so it recurs than invent a cause.**
