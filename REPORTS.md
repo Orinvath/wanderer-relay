@@ -43539,3 +43539,51 @@ them one at a time and I did not find them at all.**
 
 **A cheaper way existed and I did not take it: read what each heading row already sets BEFORE
 replacing it, rather than discovering it from a screenshot.**
+
+---
+
+# THE CONTEMPLATING LIST EMPTYING ALL AT ONCE — REPRODUCED, AND HE READ IT RIGHT.
+
+**His words:** *"the list disappeared which had lots of items on it when it placed one, but there
+was only one dot placed but all the words were gone... It feels like it is rebuilding the list
+every time one gets placed."*
+
+**IT IS REBUILDING THE WHOLE PICTURE, AND THE LIST WITH IT. Reproduced exactly:**
+
+```
+learned  8   drawn 402   CONTEMPLATING  8
+learned  9   drawn 402   CONTEMPLATING  9
+learned 10   drawn 412   CONTEMPLATING  0    <-- REDREW: 9 placed AT ONCE, the list emptied
+learned 11   drawn 412   CONTEMPLATING  1
+```
+
+**Nine words were placed in that one step, not one.** He saw a single dot appear because **all nine
+land red and unbound, straight into the pile of 354 at the centre — so nine new dots look like
+almost nothing.**
+
+## WHY, AND IT IS HIS OWN 422 RULING WORKING
+
+**The map holds its picture until the vocabulary grows by 2% or 10 words, then recomputes the WHOLE
+projection.** There is no such thing as placing one word: **a projection is computed over the entire
+space at once, so every waiting word gets its position in the same instant and the list clears
+wholesale.**
+
+**422 chose that deliberately, and the reason was cost:** one reprojection is 42 ms at 400 words and
+340 ms at 20,000. **Placing words one at a time means reprojecting on every learned word — the exact
+churn he did not want.**
+
+## SO THERE ARE TWO HONEST OPTIONS AND BOTH ARE HIS
+
+```
+LEAVE IT      the list fills to 10 and empties in one go. Truthful, and cheap. What it costs is
+              that the moment of placement reads as a jolt rather than as words settling.
+
+LOWER THE BAR the gate becomes smaller -- every word, or every two or three. The list then drains
+              steadily. At 400 words that is 42 ms a time and perfectly affordable; at 20,000 it
+              is 340 ms per word learned, which is what 422 was written to prevent.
+              A gate that is SMALL WHEN THE VOCABULARY IS SMALL and grows with it would give him
+              the steady drain now and the protection later -- but that is a change to a number he
+              ruled, so it is his.
+```
+
+**NOTHING CHANGED.**
