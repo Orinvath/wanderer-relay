@@ -11485,3 +11485,34 @@ unreadable, and he is the only test the map has.
    placeholder, and HIS ARTWORK IS NEVER INVENTED (standing law).
 5. THE LABEL STILL CARRIES THE TRUTH (261's own ruling) — the mark is
    appearance. This is about him being able to read the board.
+
+## Directive 422 — 420.C APPROVED: reproject at 2% growth or 10 words, whichever is larger
+
+Approved as measured and proposed. Build it.
+
+```
+at    400 words   ->  every 10 new words     42 ms
+at  5,000 words   ->  every 100 new words   178 ms
+at 20,000 words   ->  every 400 new words   340 ms   about once an hour of learning
+```
+
+**WHY THESE, and it is on the record because both halves were
+measured rather than guessed:**
+- THE 10 so a newborn's map fills in visibly instead of sitting still
+  through its first fifty words;
+- THE 2% because the work per word learned then FALLS as the mind
+  grows rather than rising — which is his 20,000-word worry answered
+  by the shape, not by a cap;
+- AND NEITHER IS AN ACCURACY THRESHOLD, because the measurement found
+  none to set: a picture 480 words stale still grouped the right
+  words, and 2% is far inside that.
+
+**THE FINDING WORTH KEEPING** — there is no breaking point. A picture
+drawn at 60 words still clustered correctly at 540, nine times the
+vocabulary later, and on a real mind over 2,400 ticks the separation
+held the whole way. The reason is in the method: A WORD'S PLACE COMES
+FROM ITS OWN BINDINGS, and a word somebody else learned does not
+change what this word means.
+
+The read-only guard (420) and the clustering-is-the-accuracy spec
+(420 addendum) both stand unchanged.
