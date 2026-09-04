@@ -43862,3 +43862,42 @@ assigned one.**
 IS built, and that the teacher-labelling was not in it and never had been.** That check is what
 turned up the separate finding that **115 commits have landed without a ledger row**, which is my
 own lapse and is still open.
+
+---
+
+# HE ASKED WHY THAT AREA CHANGED. **CHECKED AGAINST GIT: I DID NOT REMOVE ANYTHING FROM IT.**
+
+```
+the chat head BEFORE any panel work:   schoolrun · schoolstop · schoolmode · chatwho
+the chat head NOW:                     schoolrun · schoolstop · schoolmode · chatwho
+```
+
+**Identical. The same four things, in the same order.** What he is reading is those same elements
+saying different things because the school's state changed:
+
+```
+BEFORE   "naming — story locked until it cares about something"     ← schoolmode, and the note
+                                                                      only appears while story is
+                                                                      LOCKED
+NOW      "story"                                                    ← story is unlocked now, so
+                                                                      the note is gone. Correct.
+         "14 lines"                                                 ← chatwho, which said
+                                                                      "nobody is here" when nobody
+                                                                      was. It has always been there.
+```
+
+**Nothing was taken away. The longer text was a note about a lock that no longer applies.**
+
+## AND HE IS RIGHT ABOUT THE FLICKER — THAT PART IS MINE
+
+**The head is a flex row and it re-renders on every poll.** The line count changes length as lines
+arrive — 9, 10, 14, 100 — and the Start/Stop buttons and the mode all shift sideways each time to
+make room. **That is the flicker, and it is a consequence of my putting that row into a fixed-height
+title bar where it now sits against the panel's edge with nothing absorbing the change.**
+
+**It did not read as badly before, because the row had the panel's full width and its own padding
+to move in.**
+
+**NOT CHANGED — a fix here is a design choice about his header** (give the count a fixed width so
+nothing moves, or take it off the bar entirely), **and after twice today building on what turned
+out to be a question, I am not touching it until he says which.**
