@@ -11327,3 +11327,30 @@ This is the mind, AND THE MIND ONLY DEALS WITH THE MIND.
    checks (the two that cost an hour today were phase-3, which is the
    app's), and confusion about what belongs where.
 5. CHANGE NOTHING. He rules on what goes and what stays.
+
+## Directive 418 — IS THERE APP CODE INSIDE THE MIND'S OWN FILES?
+
+**417 ANSWERED THE WRONG QUESTION, and that is the Director's fault
+for writing it wrong.** It answered whether app files sit elsewhere in
+the repository. THAT IS NOT WHAT HE ASKED.
+
+**HIS QUESTION: IS THERE APP CODE IN ANY OF THE MIND'S NODES?**
+Inside the mind's own files. Not beside them.
+
+**GO THROUGH THE MIND'S FILES — the 86 the mind loads, node by node —
+and for each, say whether anything in it belongs to the app rather
+than to the mind:**
+- consent, moderation, gifting, custody, epochs, hosts;
+- accounts, login, passkeys, attestation, registries, manifests;
+- HTTP surface, routes, service concerns;
+- anything about the Wanderer, the viewer, the public page;
+- anything about a BODY that is the Avatar's rather than the mind's.
+
+**FOR EACH ONE FOUND:** the file, the lines, what it does, and whether
+the mind actually calls it or it merely sits there.
+
+**HIS ARCHITECTURE, and it is the standard:** Wanderer is the app. The
+Avatar is the body. THIS IS THE MIND, AND THE MIND ONLY DEALS WITH THE
+MIND.
+
+**CHANGE NOTHING.** He rules on what comes out.
