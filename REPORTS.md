@@ -44212,3 +44212,67 @@ uncommitted is not a safe way to hold it, and I will commit only named files fro
 
 **The mind's space is as it was. The map is as it was before today's work. Nothing of mine is in
 either.**
+
+---
+
+# BUILT — Directive 433. **THE FRAME DOES NOT MOVE. Zero. Measured.** `7b0f2f5`, live.
+
+```
+learned words added     scaffolding moved by
+              1              0.0
+              5              0.0
+             20              0.0
+             60              0.0
+            150              0.0
+```
+
+**Not "small". Zero.** The 402 draw in the same places however much the mind learns.
+
+## AND IT TOOK THREE THINGS, NOT ONE — each found by measuring, not by reasoning
+
+**I had built the first and held it back. It was not enough on its own, and I would have shipped it
+believing it was:**
+
+```
+1  THE AXES COME FROM THE FRAME ALONE          -- still moved. 0.35 to 1.1
+2  THE FRAME IS PLACED BY WHAT IT WAS BORN WITH -- still moved. 0.25 to 0.9
+3  ONLY BORN-WITH FEATURES COUNT AS THE FRAME'S -- ZERO
+```
+
+**The reason all three were needed is one fact I did not know until I looked: A SCAFFOLDING WORD'S
+VECTOR CHANGES WHEN THE MIND LEARNS.** A binding writes `kin:` onto the mark as well as onto the
+word. So the 402 are not static in the space even though nobody moves them — and every route by
+which that leaked into the picture had to be closed:
+
+- it turned the axes;
+- it moved where a frame word was scored;
+- and it renumbered the features, which shifted where the power iteration started.
+
+**Closing two of three still left the frame drifting. That is why he kept seeing it move after
+each of my fixes.**
+
+## 433.2 — AND WHAT THE MIND LEARNS STILL DECIDES WHAT IS RELATED
+
+**The faithfulness test, on the same build:**
+
+```
+pairs the space calls related    390
+drawn apart, RELATED            0.0661
+drawn apart, UNRELATED          0.3865      nearly SIX TIMES further
+correlation                    -0.246       the strongest it has ever measured
+```
+
+**A learned word is still placed by its WHOLE row, bindings and all — its place IS what the mind
+learned about it, which is the one thing on that map that should move (433.2).** Only the frame is
+held.
+
+## 433.6 — AND NOTHING ELSE WAS TOUCHED
+
+```
+language.js   CLEAN
+geometry.js   CLEAN
+```
+
+**Two files changed, both the map's own: `meaningmap.js` and the route that calls it.** The learned
+features are all still in the space, still used, still deciding what is related to what. **They are
+simply not allowed to turn the camera.**
