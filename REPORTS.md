@@ -43070,3 +43070,23 @@ status.** Position says which is which; the tag was never a reliable way to tell
 **That is the fourth fault from lifting the heading rows into the bar** — a negative margin, a
 serif, lost spacing, and now this. **Each one is a style those rows carried that only shows on his
 screen.**
+
+---
+
+# FIXED — EVERY TITLE IN THE LIGHT GREEN. **Committed `f0e2e5c`, not deployed.**
+
+**His words:** *"Make sure all titles are the light green colour and match the design."*
+
+**Two of the thirteen were grey: THE MIND MAP and THE MEANING MAP.** They carry their text
+DIRECTLY, with no element wrapped around it, so a rule aimed at a child never reached them —
+**every other head has its name inside a bold or a span, and those went green while these two kept
+the dim colour their own style gave them.**
+
+**The lifted row itself is styled now, not only what is inside it.** All thirteen wear `#9fd8cd`,
+the same light green the rest of the bench uses, at the same size, weight and letter-spacing.
+**The live status beside a name stays quiet and dim, which is the one thing that should not be
+green.**
+
+**That is the fifth thing the lifted heading rows carried that I had to find one at a time** — a
+negative margin, a serif, lost spacing, a title styled by tag, and now a colour. **Every one only
+visible on his screen.**
