@@ -40740,3 +40740,69 @@ it is a change to what a newborn IS, not a change to a map, and it wants his wor
    explicitly, because it is the path that made a mind able to feel with no model attached.
 
 **NOTHING CHANGED.**
+
+---
+
+# BUILT — Directive 415. THE CODEBOOK IS RANDOM. **AND IT BROKE A SECURITY CHECK — READ THIS FIRST.**
+
+## THE THING HE NEEDS TO SEE BEFORE ANYTHING ELSE
+
+```
+66  A picture swapped in the row between the consent and the approval
+    ✗ ALLOWED -- this must never happen
+67  A gift the consent check saved is still the moderator's to decide      ✗ FAILED
+```
+
+**Both PASS without 415 and FAIL with it. I ran each side twice, in the same tree, same fixtures:**
+
+```
+WITHOUT 415   76 passed, 4 failed   (9, 10, 14, 55 -- the known ones)   66 ✓   67 ✓
+WITH 415      6 failed              (those four, PLUS 66 and 67)        66 ✗   67 ✗
+```
+
+**A change to how the mind's space is seeded is letting a SWAPPED PICTURE through a consent check.**
+I do not know the path between those two things and **I have not gone looking, because 415.5 says
+report it and do not repair it.** The commit is `fc1315f` and it is one commit, so it reverts
+cleanly.
+
+## WHAT WAS BUILT
+
+**geometry.js was already doing it right** — `symbol()` has always been ten thousand plus-or-minus
+ones from the being's seed and the word. **The fault was that `language.js` built a SECOND, different
+space out of his artwork's filing system.** That is gone:
+
+```
+BEFORE   SELF -> domain:01_identity_and_people = 1.0   row:01_identity_and_people:0 = 1.3
+AFTER    SELF -> atom:<this being's seed>:SELF = 1.0
+```
+
+**Two distinct atoms share nothing, which is exact orthogonality — the ideal the random method
+spends ten thousand dimensions approximating — and no constant was invented to get it (071).**
+**The sheets are not deleted** (415.4): they still draw the map, the panel and the Avatar's glyphs.
+They have stopped being the MIND'S idea of what is related.
+
+## 415.5 — WHAT MOVED, SAME SEED, 300 TICKS
+
+```
+                                   BEFORE      AFTER
+words the mind ends up OWNING         68         35      ← HALVED
+average nearness across the space   0.0630     0.0042    ← fifteen times flatter
+neighbours of ART                SYMBOL FOOT SERVICE CUP   (none)
+neighbours of a LEARNED word     unchanged -- AT: BESIDE DAWN GROWS IN, both builds
+```
+
+**The learned structure survives untouched and the unlearned structure is gone, which is exactly
+the ruling.** But **the mind now owns half as many words**, because what it notices runs through
+relevance, and relevance ran partly on his filing system. **That is a finding, not a repair.**
+
+## 415.4 — A NEWBORN IS STILL NOT A FEATURELESS CLOUD, AND HERE IS WHAT IS LEFT
+
+```
+newborn pairs 80,601 · still related at all: 359 (0.45%) · highest SEE + TURN at 0.754
+birth features remaining:  atom  sense  kind  dyad
+```
+
+**`sense:`, `kind:` and `dyad:` come from the STATES dictionary, not from the sheets** — a word
+carries the senses of the states that say it, and its dyad partners. **415.2 asks for every word
+equally far from every other; these three stop that being true, and 415 named only the sheets.**
+**Named, not changed.**
