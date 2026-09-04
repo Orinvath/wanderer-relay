@@ -41171,3 +41171,52 @@ as the mind actually learns something.**
 
 **AND THE MAP IS NOT LYING — it is telling the truth about a mind that understands nothing yet.**
 The one binding it has is drawn correctly. **Changed nothing.**
+
+---
+
+# HIS QUESTION — "why are they moving, does it redraw from a new position every time it changes?"
+
+**YES, IT RECOMPUTES FROM SCRATCH EVERY TIME THE SPACE CHANGES — and on his bench the space is
+changing constantly:**
+
+```
+the map's data changed 5 times in 48 seconds while he watched
+words   402 -> 425 -> 426 -> 436      captured  2.5% -> 6.9% -> 7.1% -> 9.0%
+```
+
+**Every one of those is a fresh projection, computed from nothing, not continued from the last one.**
+
+## BUT I MEASURED THE MOVEMENT AND IT IS NOT WHAT I EXPECTED
+
+**Two fetches with no change between them: IDENTICAL. Not one word moved.**
+
+```
+words that moved between two back-to-back fetches   0 of 425
+```
+
+**And one binding added, offline, deterministic:**
+
+```
+median move  0.0005   against a median radius of 0.0283   -- two percent of its own distance out
+axis 1 before vs after   r = 1.000     no flip
+axis 2                   r = 1.000     no flip
+axis 3                   r = 0.990     no flip
+the whole picture rescaled by            1.00x
+```
+
+**So the projection is stable, the axes do not flip, and the display is not rescaling under him.
+NONE OF THAT EXPLAINS POINTS MOVING ALL OVER THE PLACE, and I am not going to invent a reason it
+does.**
+
+## WHAT I CAN SAY, AND WHERE THE HONEST GAP IS
+
+**What I have proven:** each individual step is tiny. **What I have not:** what a stretch of them
+looks like on his screen. Between the first frame and the last, the space went from 402 words at
+2.5% to 436 at 9.0% — **that is a genuinely different space, and the map is right to look different.**
+
+**And 351 of the points are stacked on one spot** (reported above). When almost everything sits in
+one pile at 2.5%, tiny numeric changes reorder which of them is drawn where — **so a real, correct,
+small change can look like the whole cloud churning.**
+
+**IF HE IS SEEING FAST MOVEMENT BETWEEN FRAMES, MY MEASUREMENTS DO NOT ACCOUNT FOR IT** and I would
+want to see what he is seeing rather than guess. **CHANGED NOTHING.**
