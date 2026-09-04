@@ -11900,3 +11900,50 @@ scaffolding we put in place.
 5. THE 19-OF-22-MEAN-JOY FINDING STANDS SEPARATELY and is not fixed
    by this. That is about what the mind has been TAUGHT, and it is a
    different matter for his ruling.
+
+## Directive 433 — THE MEANING MAP IS LOYAL TO HIM, NOT TO THE DATA
+
+**HIS RULING, and it governs everything about this map. In his own
+words:**
+
+> *"The rule is the MEANING MAP has to stay true to me. IT IS LOYAL
+> TO ME, NOT TO THE DATA. Its purpose is to translate the data into a
+> loyal map for me so I can see the associations — which means things
+> can't move around. It gets the real data, finds the clusters, and
+> groups them in a logical way so it makes sense to me."*
+
+**IT IS A TRANSLATOR, NOT AN ACCURATE MAP** (420 addendum, restated
+because it never reached the projection).
+
+**WHAT THE DATA DECIDES, and this is absolute** — WHAT IS RELATED TO
+WHAT. That comes from the real space and is never invented, never
+adjusted, never arranged. 411's faithfulness rules stand entire.
+
+**WHAT SERVES HIS READING** — everything else. Where things sit, how
+they are grouped, what stays still, how it moves. All of it is for
+his eye.
+
+**THE FAULT THIS ANSWERS** — his two screenshots: the scaffolding
+scattered at start, then collapsed to a diagonal after ONE word was
+learned. The scaffolding did not move. THE PROJECTION DID: PCA
+recomputes its axes from the whole space each time, so one new
+binding rotates the axes and every point is redrawn against new
+directions. The frame is fixed in the space and the camera is not.
+
+**THE RULING**
+1. THE FRAME DOES NOT MOVE. The projection's axes are computed ONCE,
+   FROM THE SCAFFOLDING ALONE, and do not change when the mind learns.
+   The 402 draw in the same places at every start, forever.
+2. LEARNED WORDS ARE PLACED ONTO THAT FIXED FRAME. Only they move, and
+   they move because the mind learned something — which is the one
+   thing on that map that SHOULD move.
+3. CC ALREADY BUILT THIS AND HELD IT BACK because he had not approved
+   it. It is approved now. Use that work rather than starting again.
+4. THINGS DO NOT MOVE AROUND. Anything that shifts a point for a
+   reason other than the mind learning is wrong, whatever it improves.
+5. AND THE CLUSTERS ARE GROUPED SO THEY MAKE SENSE TO HIM. If a
+   faithful layout can be made more readable WITHOUT changing what is
+   related to what, do it — that is this map's whole job.
+6. WHAT MAY NEVER BE DONE: change the mind, the space, `geometry.js`
+   or `language.js` to make a picture easier to draw (420's guard,
+   which was broken today and is restated here).
