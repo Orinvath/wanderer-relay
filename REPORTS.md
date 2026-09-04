@@ -43090,3 +43090,44 @@ green.**
 **That is the fifth thing the lifted heading rows carried that I had to find one at a time** — a
 negative margin, a serif, lost spacing, a title styled by tag, and now a colour. **Every one only
 visible on his screen.**
+
+---
+
+# THE CHAT FIELD — FIXED, AND HE IS TESTING A BUILD THAT HAS NONE OF IT.
+
+**His bench right now:**
+
+```
+page 3968780 · server 536260b
+```
+
+**Those disagree, and 333.5 put that line on his screen for exactly this. THE SERVER IS WHAT HE IS
+CLICKING, and it is eight commits behind** — the chat field was moved into the panel at `15cb698`
+and every fix since is also not live.
+
+## AND THE RULE WAS INCOMPLETE ANYWAY, so his screenshot would still have been wrong
+
+**A chat panel puts the field at the bottom. For that the BODY has to grow into the panel** —
+`#chatlog` is a fixed height, and without being told to fill it the body is only as tall as its
+contents. **So the field sits under the last line with the whole rest of the panel empty beneath
+it, which is precisely what he photographed.**
+
+```
+BEFORE   body sized to its contents  -> field under the text, empty panel below it
+NOW      body fills the panel        -> log scrolls in the space, field pinned at the foot
+```
+
+## SEVEN FIXES ARE NOW WAITING ON A RESTART
+
+```
+15cb698  the talk field is part of the chat panel
+085d063  the arrow no longer toggles twice on a double-click
+c80434d  LESSONS' title font
+3968780  every title in the light green
+9292925  the field at the foot of the chat panel
+536260b  a shut panel collapses to its head          <- this one IS live
+5a2b636  the chat log collapses and drags at all
+```
+
+**Plus the layouts-on-disk work.** **His arrangement survives the restart** — it is keyed by the
+panels' own names and a restart writes nothing.
