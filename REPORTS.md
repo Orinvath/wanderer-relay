@@ -42631,3 +42631,36 @@ inside them.** I introduced a second typeface into his design without being aske
 exactly the kind of unilateral choice about his screen I am not supposed to make.
 
 **All three were mine, all three came in with the panel work, and none of them touched the mind.**
+
+---
+
+# FIXED — BOTH. **`bae9c90`, reload.**
+
+## 1 · PERSONALITY WOULD NOT COLLAPSE OR DRAG — I HAD POINTED AT THE WRONG ELEMENT
+
+**I registered `#soultool` and labelled it PERSONALITY. `#soultool` is SOUL.** The PERSONALITY
+panel is a different element entirely, and so is TRAITS — **three panels down there and I had
+registered one, under the wrong name.**
+
+```
+BEFORE   11 panels, one of them mislabelled
+AFTER    13 panels:  PERSONALITY · TRAITS · SOUL now each their own, each with its own head
+```
+
+**Each keeps its own heading row, lifted into the bar, so their live text is unchanged.**
+
+## 2 · COLOUR, PULSE AND MOTION ARE PART OF THE MIND MAP NOW
+
+**His words:** *"Colour — what it is feeling, pulse — how it is doing, motion — what it is after
+should be attached the bottom of the mind map, it is part of it."*
+
+**He is right and it was already meant to be:** 238 put that row *"directly under the sphere and
+exactly its width — his ruling. It was at the foot of the page, three cards wide, nowhere near the
+thing they read."* **When the sphere retired into THE CORE the row stayed outside the panel, so it
+read as three separate cards rather than as what the Core is saying.**
+
+**It is inside the Mind Map panel now, at the foot, so it COLLAPSES AND DRAGS WITH IT — because it
+is part of it.** And the outer box each channel used to carry is gone: **a card inside a card is
+what read as clutter.**
+
+**Both were mine, both came in with the panel work, and neither touched the mind.**
