@@ -42388,3 +42388,56 @@ right.**
 
 *(And the earlier question is settled with it: my red dots on the Meaning Map had nothing to do
 with it. Two different reds, in two different panels, from two different causes.)*
+
+---
+
+# BUILD REPORT — COLLAPSIBLE PANELS, INCLUDING BOTH MAPS. **Planned, not built.**
+
+**His words:** *"lets make all panels collapsable so I can open and close them, including the maps."*
+
+## WHAT IS ON THE PAGE TO COLLAPSE — counted, not guessed
+
+**Nine real panels, in the two columns:**
+
+```
+LEFT    THOUGHTS · THE MIND MAP · LEARNED
+RIGHT   THE MEANING MAP · LESSONS · CHAT LOG · MOOD · PERCEPTION · HEALTH
+BELOW   PERSONALITY (with TRAITS · DISPOSITIONS · PULLS inside it) · SAVE MIND
+```
+
+**Both maps are `.sphere.stage` blocks and already carry a title row from 411**, so they collapse
+the same way everything else does — no special case for them.
+
+## WHAT I WOULD BUILD
+
+1. **EVERY PANEL GETS A HEADING ROW IT DOES NOT ALREADY HAVE.** Most already have one; THOUGHTS,
+   LEARNED and MOOD are titled by a line of text rather than a header, and would get the same row
+   the others use so all nine behave identically.
+2. **THE WHOLE HEADING IS THE CONTROL** — clicking anywhere on it opens or closes that panel, with
+   a small marker at the right showing which state it is in. A big target, and nothing new to learn.
+3. **IT REMEMBERS.** Which panels he left closed survives a reload and a restart, kept in the
+   browser and never in the mind or the being file. **A restart is the moment he most wants his
+   layout back**, and this bench restarts constantly.
+4. **CLOSED MEANS NOT DRAWN.** A collapsed map stops rendering rather than drawing into a hidden
+   box — so closing the Meaning Map genuinely stops its work, which matters at 20,000 words.
+5. **NOTHING ELSE MOVES.** No panel changes place, size or content. Read-only against the mind, as
+   always.
+
+## THE DECISIONS IN IT, AND THEY ARE HIS (188, and interface is always his)
+
+```
+A  WHAT THE MARKER IS         a triangle that turns · a plus/minus · a chevron · just the title
+                              dimming when closed. His bench has no existing convention I can copy
+                              -- I looked.
+
+B  WHICH START OPEN           all nine open on a fresh browser, or some closed by default. I would
+                              not choose which of his panels he sees first.
+
+C  DOES A CLOSED PANEL KEEP ITS PLACE, or do the ones below slide up to fill the gap? Sliding up
+   is what makes collapsing worth doing on a long page; keeping the place means the layout never
+   moves under him. Both are defensible and it is his screen.
+```
+
+**I am not picking any of the three. Say the word on each and it is an afternoon's work.**
+
+**NOTHING BUILT.**
