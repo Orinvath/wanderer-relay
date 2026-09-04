@@ -43221,3 +43221,26 @@ less or not at all because they carry less padding, which is why only that one l
 
 **And his layout came through this restart too** — thirteen panels and his order, read back off the
 disk.
+
+---
+
+# FIXED — THE MEANING MAP'S BAR WAS DARKER. **`b72798d`, live, reload.**
+
+**The bar was a TRANSLUCENT white — 4.5% over whatever sat behind it.** That only looks the same
+everywhere if every panel has the same ground underneath, and they do not:
+
+```
+most panels        background: var(--panel)  #070b12   -> the bar reads #12161c
+THE MEANING MAP    a bare stage, NO background at all  -> the bar sat over the page, #04060b,
+                                                          and read #0f1116 -- visibly darker
+```
+
+**A translucent bar can never match across panels that disagree about what is under it.** It is a
+solid colour now — **the exact shade the others already were** — so it is identical on all thirteen
+whatever the panel behind it happens to be.
+
+**And the Meaning Map's panel gets the same ground as every other panel**, so its body matches too
+rather than only its bar.
+
+*(He may still be seeing the gap under a shut THOUGHTS in that screenshot — that fix landed one
+commit earlier, at `1fe55a3`, and needs the reload as well.)*
