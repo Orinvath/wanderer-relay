@@ -11387,3 +11387,47 @@ with everything it was teaching. **142 refusals, all of that shape.**
    lines delivered against calls made, and post the teacher's actual
    lines for his eye. 25 calls per delivered line is the number that
    must move.
+
+## Directive 420 — THE MEANING MAP: three fixes, and IT ONLY READS
+
+**THE GUARD FIRST, and it is the condition on everything below.**
+His words: he hesitated to build this map at all because he is afraid
+it will change something in THE ACTUAL GEOMETRIC SPACE out of
+confusion or for simplicity.
+
+1. THE MEANING MAP ONLY READS. It may not write to `geometry.js` or
+   `language.js`, or to anything either of them owns. It reads
+   vectors and it draws them.
+2. IF A FIX SEEMS TO REQUIRE TOUCHING EITHER, THAT IS A STOP AND A
+   QUESTION, never a judgement. Post it and wait.
+3. IT IS PROVEN, NOT PROMISED: the state hash, same mind before and
+   after the map work. If it moves, something reached where it must
+   not.
+4. THIS IS A PICTURE FOR HIM TO READ, NOT THE MIND. Nothing about how
+   the mind thinks may change to make a picture easier to draw.
+
+**THE THREE FIXES**
+
+**A · MOUSE-OVER.** Approved as found — the shader draws at one size
+and the hover test uses another, so he is aiming at something that is
+not where it is drawn. One number. No risk to anything.
+
+**B · ZOOM AND ROTATE like the Mind Map.** Approved. Camera work,
+touches nothing else.
+
+**C · IT STAYS PUT — NOT AS PROPOSED.** His reasoning, and it changes
+the answer:
+- the worry is not drift, it is COST AT 20,000 WORDS. Reprojecting on
+  every learned word means moving everything, every time;
+- and this is ONLY THE VISUAL REPRESENTATION, so it must be roughly
+  accurate about what is clustered with what, and must redraw without
+  much effort.
+**SO: DO NOT REPROJECT ON EVERY LEARNED WORD.** Recompute when the
+space has changed enough to matter, and let the picture EASE into the
+new positions when it does. Clusters stay truthful, nothing moves
+constantly, and the cost is bounded however many words there are.
+- Freezing a word's first position is rejected: it trades accuracy
+  for stillness, and the drift stacks on top of the flattening the
+  projection already costs.
+- WHAT "ENOUGH TO MATTER" IS: measure it and PROPOSE it with the
+  number. Do not pick one silently.
