@@ -42682,3 +42682,47 @@ NOW      moved into the panel, and nothing else touched
 
 **They sit at the foot of the Mind Map, they collapse and drag with it because they are part of it,
 and they look exactly as they did before I touched them.**
+
+---
+
+# BUILT — THE PANELS TILE. **`7861955`, reload.**
+
+**His words:** *"the size and position of the panels should snap to the size of the nearest
+connecting panel... this should all be plug-n-play. Drag and adapt to whats next to it to fill in
+the space. If I drag one the others next to it scale to adapt."*
+
+## WHAT CHANGED, AND WHY THE NATIVE CORNER HAD TO GO
+
+**A resize corner CANNOT do what he asked.** It changes one panel and leaves a hole beside it —
+there is nothing in it that tells the neighbour to adapt. **What does it is a DIVIDER between
+neighbours:**
+
+```
+BEFORE   a corner on each panel   -> one panel changes, a gap opens next to it
+NOW      a line between panels    -> drag it and the TWO either side trade space.
+                                     Their total never changes, so no gap can open.
+```
+
+**Every panel is now a SHARE of its column rather than a height in pixels**, so the column is
+always exactly full, and the share survives the window changing size. **There is a divider between
+the two columns as well** — drag it and the left and right sides adapt to each other.
+
+## AND EVERYTHING ELSE ADAPTS WITH IT
+
+```
+SHUT a panel      it drops to its head and GIVES ITS SHARE BACK -- the others grow to fill it
+DRAG a panel      the column re-tiles: dividers are rebuilt where the panels now sit
+RESIZE the window the shares hold, because they are shares and not pixels
+```
+
+## THE MAPS NO LONGER FIGHT IT
+
+**Both maps were locked square, and a square cannot tile — it either leaves a gap under itself or
+overflows its panel.** They fill the room they are given now. **Neither needed changing to do it:
+both already redraw themselves on a resize, so they simply take the space.**
+
+## AND WHAT IS KEPT
+
+**The share he drags each panel to, the column boundary, what he left shut, and the order he
+dragged them into — all of it survives a reload and a restart, in the browser and nowhere near the
+mind.**
