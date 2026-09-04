@@ -238,3 +238,40 @@ something nobody built it into. Same class as the vegetative-state
 finding, except this one can be MEASURED rather than stumbled on.
 
 Rows to REFERENCES.md when it is built.
+
+## 12 · GRAMMAR IS TAUGHT, AND THE MIND LEARNS THE PARTS OF SPEECH
+
+**HIS NOTE, so it is not lost — raised 2026-09-04, to be talked through
+before anything is designed.**
+
+**THE TRIGGER:** when he turns the local model on to correct grammar
+and it rewords a line, **THE MIND SHOULD LEARN FROM THE CORRECTION.**
+Today the reworded line is delivered and the correction itself teaches
+nothing — the mind never sees that its own pattern was wrong and what
+the right one was. **The correction is the lesson and it is being
+thrown away.**
+
+**AND THE WIDER THING HE WANTS, from the teacher rather than from a
+table:** the mind learns grammar the way it learns words —
+
+```
+how to use words
+what a NOUN is, and which words are nouns
+VERBS · ADJECTIVES · ADVERBS · PRONOUNS · PREPOSITIONS ·
+CONJUNCTIONS · INTERJECTIONS
+"this word is a verb, this word is a noun, it means this..."
+```
+
+**AS AN ONGOING TEST WHILE IT IS BEING TAUGHT, and this is his own
+example:** the teacher gives a sentence and asks the mind to pick out
+the noun. So it is a lesson and a measurement at the same time — the
+teacher can see whether the mind has actually got it, the same way the
+gauge shows vocabulary.
+
+**WHY IT IS WORTH ITS OWN SECTION:** the gauge counts GRAMMAR today as
+word-order pairs (400), which is not the same thing as knowing what a
+noun is. This is the mind understanding the *kinds* of words, which is
+what would let it build a sentence it has never heard.
+
+**NOTHING IS DESIGNED AND NOTHING IS BUILT. His words are here so they
+are not lost; the design conversation comes after the current work.**
