@@ -40598,3 +40598,79 @@ answer, and it is his.
 
 **3D and he can turn it (413.3):** drag to rotate, near points read stronger so a turn reads as a
 turn, and hovering still names the word. **One draw call, still, at any count.**
+
+---
+
+# ANSWERED — Directive 414. Nothing changed. The thinking error first, and it was MINE.
+
+## THE ERROR — the Meaning Map never touched the mind. 407 DID, and the mind is intact.
+
+```
+his bench   Thinking  RED  total 1   subject_not_nearer: 1
+            tickFailures 0 · brain open · no other system above zero
+```
+
+**`subject_not_nearer` is the thinking vital, and 407 CHANGED THE VERY THING IT MEASURES WITH.**
+The counter's own description, still in the file, says what it was:
+
+> *take how near its thoughts were to its subject, and take how near they were to A WORD DRAWN AT
+> RANDOM FROM THE LANGUAGE. If the second is not smaller, the train was not ABOUT anything.*
+
+**407.2 ruled that control word out** — *"an association draws its comparison word AT RANDOM FROM
+THE 402, never from what the mind knows"* — and I changed it to draw from what the mind has LIVED.
+
+**A word the mind has lived is, by construction, more likely to sit near its thoughts than a random
+word of the language is. So the control got harder and the test now fires on trains that are
+fine.** The ruling was his; the consequence is this light.
+
+**AND IT IS 306.D, WHICH I MISSED:** the claim beside the counter still reads *"nearer to it than
+to ANY WORD AT ALL"*. **That is no longer what the code measures — it measures "than to any word it
+has lived".** The behaviour moved and its claim did not, in the same commit. **Reported, not
+repaired.**
+
+**Measured, same seed, 300 ticks, both builds:** the other thinking counter never fired either way,
+and curiosity's `roused_not_becoming_subject` went **17 -> 28** across 407. **The mind is not
+damaged: no tick failed, the brain is open, and nothing else is above zero.**
+
+## 1 · WHAT ARE THOSE POINTS
+
+**Every word in `space.vec`, and on a newborn that is HIS 402 AND NOTHING ELSE.** Not learned
+words — it has none. **Each one's position comes from its own features in the space:**
+
+```
+SELF -> domain:01_identity_and_people = 1     row:01_identity_and_people:0 = 1.3
+```
+
+**Their positions are the sheets of his artwork — which domain a word belongs to and which row of
+that sheet it sits on.** So a newborn's map is a picture of HIS LANGUAGE's layout, not of anything
+the mind has understood.
+
+## 2 · WHY 402, AND WHERE IT ENTERED
+
+**`language.js:77` — `for (const w of WORDS)`. The SPACE ITSELF is built with all 402 in it from
+birth**, before the mind has lived a tick, and its own comment says why: *"every word exists in the
+space, whether or not the dictionary ever mentions it -- his ruling that the whole language is
+speakable."*
+
+**The map draws every word the space holds, so it draws them.** I did not put the 402 into the
+drawing — **the space arrives with them, and I never asked whether a map of what the mind
+UNDERSTANDS should contain words it has never met.**
+
+## 3 · "NOTHING BOUND YET" WHILE DRAWING POINTS — THE TEXT IS WRONG
+
+**`meaningmap.js:211` — that string is the stage's own default, sitting in the markup, shown until
+the first fetch returns.** It is left from the physics build, when the map WAS a picture of
+bindings. **The points are real; the sentence is a leftover.** Both cannot be true and it is the
+sentence that is wrong.
+
+## 4 · 13.7% AND IT DREW ANYWAY — THERE IS NO THRESHOLD IN THE CODE
+
+```
+bench-routes.js    tooFlat: false          hardcoded, never computed
+```
+
+**Nothing was compared to anything.** 413.2 rules that a low number must not be drawn AND NAMES NO
+NUMBER, so I wired the mechanism and left it off rather than invent the bar — **and said exactly
+that in the 413 report.** **13.7% did not pass a threshold. It was never tested against one.**
+
+**NOTHING CHANGED, per his order.**
