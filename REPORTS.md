@@ -41059,3 +41059,70 @@ SITS THERE, NEVER CALLED   forgetByConsent, and the 20 empty app tables
 ```
 
 **CHANGED NOTHING.**
+
+---
+
+# BUILT — 403 and 419. **25 CALLS PER LINE IS NOW 0.9, AND THE TEACHER IS ACTUALLY TEACHING.**
+
+**On his bench, on `1bf9998`, the school run just now:**
+
+```
+                    BEFORE (402's measurement)      AFTER
+calls                       199                        9
+lines delivered               8                       10
+dropped                     197                        5
+model time                  127 s                      6 s
+CALLS PER DELIVERED LINE     24.9                     0.9
+```
+
+**The 142 HEART refusals are gone. Every drop left is a real one:**
+
+```
+ 3   not true of it now: not LONELINESS      ← a FALSE assertion, correctly refused (419.2)
+ 2   3 words it does not own, and the cap is 2
+```
+
+## THE TEACHER'S OWN LINES, FOR HIS EYE (403.4 / 419.6)
+
+```
+Bird sings, feels relief.        Bird feels lonely.          Bird sings for others.
+Others come together, share.     Bird flies near tree.       Bird feels sad alone.
+Friend comes, birds together.    Feel relief, sing songs.    Bird comes home place.
+Feels happy, sings also.         Finds hidden song far.      Host comes together.
+```
+
+**And the mind, answering:** `SONG LONELINESS` · `BIRD HAPPY SONG` · `TOGETHER` · `HOST COME`
+
+## WHAT CAME OUT, EACH NAMED WITH THE DIRECTIVE IT ARRIVED UNDER
+
+```
+419.1  EVERY WORD TREATED AS A CLAIM ABOUT THE MIND.
+       A naming line is now checked on what it ASSERTS -- state, act, feeling, need -- and the
+       checkable vocabulary is DERIVED, not authored: exactly the words `trueNow` can ever
+       produce, read from the same dictionary it reads. 51 states, 51 words.
+           FEAR   a mind can be in it        -> a claim, checked, still refused when untrue
+           HEART  no state anywhere says it  -> asserts nothing, not a claim
+
+403.1  "a naming line that names nothing true of it"     INVENTED, GONE.
+       234.5a drops FALSE lines. A line asserting nothing checkable is not a false line -- and
+       the comment gave it away: "it is dropped TOO". The word TOO was the whole invention.
+
+403.1  the blanket ban on the word `it` in a story        INVENTED, GONE.
+       331.2 rules "no bare IT as a SUBJECT". The code refused ANY line containing `it`, and its
+       own comment admitted it: "Stricter than 331.2's letter". It is back to his letter -- a
+       clause that OPENS with `it` is refused, `it` elsewhere is a word like any other. Tested:
+       "IT SINGS FOR FRIENDS" and "A BIRD SINGS AND IT FLIES HIGH" both still die.
+```
+
+## THE LEASH, PROVEN STILL TO BITE (419.2)
+
+```
+DROP  "YOU FEEL FEAR"          -> not true of it now: FEAR
+DROP  "YOU FEEL LONELINESS"    -> not true of it now: LONELINESS
+DROP  "YOU DO NOT FEEL JOY"    -> not true of it now: not JOY
+PASS  "YOU FEEL JOY"
+PASS  "YOU SING WITH A FULL HEART"      ← the line that used to die 142 times
+```
+
+**Nothing was replaced with a softer rule (403.5). Two rules are gone and one is back to his own
+letter.**
