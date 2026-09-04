@@ -41220,3 +41220,52 @@ small change can look like the whole cloud churning.**
 
 **IF HE IS SEEING FAST MOVEMENT BETWEEN FRAMES, MY MEASUREMENTS DO NOT ACCOUNT FOR IT** and I would
 want to see what he is seeing rather than guess. **CHANGED NOTHING.**
+
+---
+
+# HIS THREE ASKS ON THE MEANING MAP — all three built. **`893575f`, reload.**
+
+## 1 · IT STAYS PUT
+
+**A word keeps the position it was first given, and it is never recomputed once it is on screen.**
+The projection is still rebuilt whenever the space changes — which on his bench was five times in
+48 seconds, 402 words at 2.5% becoming 436 at 9% — but **only a word the map has NEVER DRAWN takes
+a new place.** The picture grows instead of rearranging.
+
+**That is his own rule from the physics build applied to the honest map: nothing moves unless the
+data moved, and an existing word's meaning did not move just because another word arrived.**
+
+## 2 · MOUSE-OVER — AND IT WAS BROKEN FOR A FINDABLE REASON, NOT A MYSTERIOUS ONE
+
+```
+the shader drew each point at    0.85 * DIST / EXTENT
+hover computed its position at   0.85 / EXTENT
+```
+
+**Two places that must agree, one number out of step.** Every dot's remembered screen position was
+wrong the moment anything scaled, so the lookup found nothing under the cursor. **They use the same
+arithmetic now.**
+
+**And the grab radius was wrong on its own account** — it was six-tenths of a grid cell, which has
+nothing to do with how big the dot actually is: a huge target at 400 words and an invisible one at
+40,000. **It is the dot's own size now.**
+
+**Tested headless against his live bench, aiming exactly at eight separated points:**
+
+```
+zoom 1x   named 8 of 8
+zoom 3x   named 8 of 8
+```
+
+## 3 · ZOOM AND ROTATE, THE SAME AS THE MIND MAP
+
+**Wheel zooms, drag orbits, double-click puts it back where it started** — 272's own controls, and
+the wheel is the stage's own so the page does not scroll out from under him. **The hover grid is
+rebuilt on every draw, so it stays correct at any zoom and any angle.**
+
+## WHAT HE SHOULD STILL EXPECT TO SEE, AND IT IS NOT FIXED BY ANY OF THIS
+
+**351 of the points are stacked on one spot at 2.5% captured** — reported above, and the reason is
+415 leaving a newborn's space with no structure for a projection to find. **Holding the positions
+still means that pile now HOLDS STILL, which makes it easier to see rather than harder. The ruling
+on 413.2's threshold is still his.**
