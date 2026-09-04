@@ -41697,3 +41697,63 @@ these are the history.
 directive, rather than filing each as it landed.
 
 **It is now in my standing memory so it survives a session, and it stands from here.**
+
+---
+
+# BUILT — Directive 421. **42 NODES, 42 DISTINCT MARKS, 0 COLLISIONS. `130fecf`, reload.**
+
+## AND FIRST: WHY IT WAS NOT ALREADY DONE
+
+**He asked, and the answer is that I stopped on a decision that was not there.** His rule said *the
+one it fits better keeps it* — I could not measure "fits better", so I stopped and asked. **I never
+checked whether that half of the rule applied.** It does not:
+
+**Only 8 nodes ever had a mark of his, and NOT ONE of them collides.** The 31 duplicates he can see
+are all nodes with NO mark at all, drawing a generic stroke shape from a set of 16. **There was
+never a pair of nodes contending for one of his words, so there was nothing to judge between.** The
+rest of his rule — take one that is not in use — needed no decision and I should have applied it.
+
+## WHAT EACH NODE NOW WEARS, so he can overrule any of them by name
+
+```
+KEPT their own name as their mark (8, unchanged, collide with nothing):
+   SAFETY  HOST  CURIOSITY  SLEEP  BELIEF  TRUST  LEARNING  GROWTH
+
+FEEL    ATTENTION->LOVE   APPRAISAL->SAD   FEELINGS->HAPPY
+CORE    NEEDS->WORLD   OFFERS->PLACE   GOALS->THING
+THINK   INTERESTS->QUESTION  THINKING->WHO  STORIES->WHAT  STORYGATES->WHERE  LESSONS->WHEN
+MEM     MEMORY->TIME   SURFACING->PAST   CONSOLIDATION->PRESENT
+LANG    VOCABULARY->SEE  LANGUAGE->HEAR  GLYPHS->SPEAK  DICTIONARY->LISTEN  COMPREHENSION->ASK
+        VOICE->ANSWER  GRAMMAR->TELL  CENSOR->SHOW  INTERPRETER->CALL  GEOMETRY->GREET
+SELF    SOUL->SELF   IDENTITY->OTHER   ASPECTS->PERSON   ROE->CHILD   CLOCK->ADULT
+BODY    EMBODIMENT->BODY  CORD->HEAD  NERVES->EYE  SENSES->EAR  PERCEIVING->MOUTH
+```
+
+**Several landed genuinely well by themselves — MEMORY->TIME, EMBODIMENT->BODY, SOUL->SELF,
+VOICE->ANSWER — and that is luck of the ordering rather than a judgement of mine.**
+
+## HOW IT PAIRS, AND THE ONE JUDGEMENT IN IT
+
+**Each neighbourhood draws from one of his sheets, first unclaimed word first.** That single mapping
+is the only judgement in the whole change, and it is a MAPPING rather than a taste — no node is
+paired to a word by anyone's opinion of what that word means.
+
+```
+feel -> emotion and inner state      think -> logic and questions
+lang -> communication and relation   mem   -> time and quantity
+self -> identity and people          body  -> body and health
+core -> abstract concepts
+```
+
+**Deterministic, so the same map always wears the same marks. Nothing is created** (394 were
+unclaimed; 34 were needed). **The stroke shapes are no longer drawn by any node.** **The label still
+carries the truth** (421.5). **And 421.4 is still wired: if his language ever ran out, a node keeps
+its stroke rather than wearing somebody else's mark.**
+
+## THE GUARD (420.1/420.3)
+
+```
+state hash   01563eb1b4ef1bac7d2a794577526705b00af1b08cf3eb18f800f0c74eb84a1a   unchanged
+```
+
+**The map reads his sheets and draws. Nothing the mind owns was touched.**
