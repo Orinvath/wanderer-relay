@@ -11457,3 +11457,31 @@ the whole thing sits, how big a point is.
    being right and the picture being usable.
 4. THE READ-ONLY GUARD IS UNCHANGED AND OVERRIDES ALL OF IT: nothing
    about the mind may change to make a picture easier to draw.
+
+## Directive 421 — NO TWO NODES WEAR THE SAME MARK
+
+**HIS FINDING** — ATTENTION and GOALS carry the same mark. So do CLOCK
+and CONSOLIDATION. He says there are A LOT of them.
+
+**THE CAUSE IS THE RULE, NOT THE INSTANCES** — 261's nearest-mark
+ruling: every node takes the closest word in the 402. NOTHING IN IT
+STOPS TWO NODES CLAIMING THE SAME WORD, so collisions were certain.
+That is the Director's, written into 261.
+
+**WHY IT MATTERS** — the mark is how he tells one node from another at
+a glance on a map of 42. Two nodes wearing the same one makes both
+unreadable, and he is the only test the map has.
+
+**THE RULING**
+1. NO TWO NODES WEAR THE SAME MARK. Every node's mark is distinct
+   across the whole map.
+2. REPORT EVERY COLLISION FIRST — which nodes, which mark — before
+   changing any of them. He may want to choose some himself.
+3. RESOLVING ONE: the node whose meaning the mark fits best keeps it;
+   the other takes its next-nearest UNCLAIMED word. Say which kept
+   and which moved, and why, for every pair.
+4. IF A NODE HAS NO DISTINCT MARK LEFT, say so rather than forcing a
+   bad one. 261 already allows a name in the stroke style as a
+   placeholder, and HIS ARTWORK IS NEVER INVENTED (standing law).
+5. THE LABEL STILL CARRIES THE TRUTH (261's own ruling) — the mark is
+   appearance. This is about him being able to read the board.
