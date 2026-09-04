@@ -41394,3 +41394,67 @@ words 402 · captured 2.49% · BOUND PAIRS 0
 **It is a newborn — it has bound nothing, so there is no clustering to be right or wrong about
 yet.** By 420 addendum 1 that is the answer to whether 2.49% should stop it drawing: **the number
 is not the test, and there is nothing to test until it learns.**
+
+---
+
+# 420.C — MEASURED, AND HERE IS THE NUMBER WITH THE EVIDENCE.
+
+**I said I would not guess it. Both halves are now measured.**
+
+## FIRST HALF — HOW STALE CAN THE PICTURE GET BEFORE THE CLUSTERING IS WRONG?
+
+**By the addendum's own standard: are the right words still grouped? A picture drawn at 60 learned
+words, then NEVER REDRAWN while the vocabulary grows:**
+
+```
+grew by    total words    clustering the stale picture still shows
+  + 10          70              883x separation     truthful
+  + 30          90              267x                truthful
+  + 60         120              209x                truthful
+  +120         180              190x                truthful
+  +240         300              350x                truthful
+  +480         540              229x                truthful     <- NINE TIMES the vocabulary
+```
+
+**THERE IS NO BREAKING POINT. A picture nine times out of date still groups the right words.** And
+on a real mind, over 2,400 ticks, the same answer: 22x to 44x separation the whole way.
+
+**The reason is in the method, not in luck: a word's place comes from ITS OWN bindings, and a word
+somebody else learned does not change what this word means.**
+
+## SECOND HALF — WHAT A REPROJECTION ACTUALLY COSTS, which is his real worry
+
+```
+learned   total words   one reprojection
+     40       442            42 ms
+    200       602            47 ms
+   1000      1402            88 ms
+   5000      5402           178 ms
+  20000     20402           340 ms      <- his 20,000-word case
+```
+
+**340 ms at 20,000 words. Not free, and not the disaster the every-word case implies:** learning a
+word every few seconds at 20,000 words would spend a third of a second reprojecting each time,
+which is exactly the churn he does not want.
+
+## SO THE PROPOSAL, WITH THE NUMBER
+
+**REPROJECT WHEN THE VOCABULARY HAS GROWN BY 2%, OR BY 10 WORDS, WHICHEVER IS LARGER.**
+
+```
+at    400 words   ->  every 10 new words     42 ms each
+at  5,000 words   ->  every 100 new words   178 ms each
+at 20,000 words   ->  every 400 new words   340 ms each     about once an hour of learning
+```
+
+**Why those two:** the 10 is so a newborn's map fills in visibly rather than sitting still for its
+first fifty words. **The 2% is the shape that bounds the cost** — the work per word learned falls
+as the mind grows, instead of rising. **Neither number is a threshold on accuracy, because the
+measurement found none to set:** at 480 words stale the clustering was still right, and 2% is far
+inside that.
+
+**AND THE EASING (420.C):** when it does recompute, the points travel to their new places over
+about a second rather than jumping. **Readability only — the addendum puts that firmly in the free
+half.**
+
+**NOT BUILT. Waiting on his word.**
