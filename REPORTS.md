@@ -41579,3 +41579,57 @@ Any pairing I made would be me deciding what his marks mean, which is never mine
 still a choice about his artwork, so it does not happen until he says so.**
 
 **NOTHING BUILT. Waiting.**
+
+---
+
+# BUILT — Directive 422. **`e3418a4`, reload.** The map holds still and eases when it moves.
+
+## PROVEN ON A LEARNING MIND
+
+```
+420 ticks, vocabulary grew from 402 to 421
+
+  recomputed at 406 words (tick 0)   -> next at 416
+  recomputed at 418 words (tick 40)  -> next at 428
+
+REPROJECTIONS:  2
+the old way, on every learned word:  20
+```
+
+**Ten times less work, and between those two moments the map did not move at all while the mind
+went on learning.** That is the instrument behaving: **a point moves when the picture changed, and
+at no other time.**
+
+**And on his own bench, watched live for a minute:**
+
+```
+words 402 · picture 402 · next redraw at 412     unchanged, six samples running
+```
+
+## WHERE THE GATE LIVES, AND WHY THERE
+
+**On the server, where the projection is actually computed.** Putting it in the page would have
+hidden the cost rather than saved it — the 340 ms at 20,000 words would still have been spent and
+then thrown away. **The held picture is reused until the vocabulary has grown by 2% or 10 words,
+whichever is larger.**
+
+**The payload now carries `picture`, `wordsNow` and `nextAt`** — the signature moves whenever the
+SPACE does, the picture stamp moves only when the projection was genuinely recomputed. **The page
+can tell "the mind learned something" from "there is a new arrangement to ease into", which is the
+whole distinction 422 rests on.** And the readout says `redrawn at 412` so he can see the gate.
+
+## THE EASING
+
+**Over about 900 ms, smoothstepped so it leaves and arrives gently, every point travelling
+together.** It runs ONLY when the projection was recomputed — never on a tick where the mind merely
+learned a word — and a first draw lands rather than easing from nothing.
+
+## 420.1 AND 420.3 — THE READ-ONLY GUARD, UNCHANGED AND RE-PROVEN
+
+```
+state hash before this work   01563eb1b4ef1bac7d2a794577526705b00af1b08cf3eb18f800f0c74eb84a1a
+state hash after              01563eb1b4ef1bac7d2a794577526705b00af1b08cf3eb18f800f0c74eb84a1a
+```
+
+**Identical. The cache is the PICTURE, never the space** — nothing is written back anywhere, and
+the mind is untouched.
