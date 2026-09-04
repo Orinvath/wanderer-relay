@@ -42035,3 +42035,68 @@ understood anything, and the map fills in as it learns.
 
 **NOTHING BUILT. This is a statement of his, not a directive, and I am recording it rather than
 acting on it.**
+
+---
+
+# BUILD REPORT — FLAG THE SCAFFOLDING AS NOT YET KNOWN. **His ask, and one decision left in it.**
+
+**His words:** *"they are just placeholders for scaffolding until the map starts creating its own
+geometry"* then *"flagging them as not known words yet."* **So they stay on the map and they are
+marked for what they are.**
+
+## FIRST, A FINDING THAT SHAPES THE WHOLE THING: THE SCAFFOLDING ALREADY SEPARATES ITSELF
+
+**Measured — a word with no bindings has only its own atom, orthogonal to everything, so it has
+nothing to pull it anywhere. A word that has learned something shares features and moves out:**
+
+```
+bindings   words   median distance from the centre
+                   BOUND words     SCAFFOLD
+       0     402     0.0000          0.0294
+      20     422     0.0307          0.0257
+     150     552     0.0241          0.0159      2x further out
+     400     802     0.0365          0.0062      6x FURTHER OUT
+```
+
+**His geometry does exactly what he described: as the mind learns, the real words climb out and the
+scaffolding collapses toward the middle.** The pile he is looking at IS the scaffolding, and it
+shrinks on its own as understanding grows. **Nothing has to make that happen. The flag only has to
+NAME what is already true.**
+
+## WHAT I WOULD BUILD
+
+**One extra field per word on the route — its state, read from what the mind already records:**
+
+```
+KNOWN     learning.owned()      it can demonstrate the meaning
+MET       learning.heardWords() said to it, no meaning pinned yet
+SCAFFOLD  neither               the codebook (415.1), waiting to be used
+```
+
+**No new computation, nothing invented, and it stays read-only (420.1).** The map draws the three
+differently, and **the readout says how many of each**, so he can watch scaffolding turn into
+vocabulary as a number as well as a picture.
+
+## THE ONE DECISION, AND IT IS HIS BECAUSE HE ALREADY RULED IT
+
+**412.4:** *"Points are a single colour from 349's cool range until something worth showing appears.
+DO NOT INVENT A MEANING FOR IT."* **This is that something appearing.**
+
+```
+A  COLOUR      known in the steel blue they are now, scaffolding in a dim grey.
+               Reads instantly, and spends the colour channel he deferred on purpose.
+
+B  BRIGHTNESS  one hue throughout; known bright, met dimmer, scaffolding faintest.
+               Keeps the colour channel free for whatever he wants it for later.
+               THREE STATES READ NATURALLY AS THREE LEVELS OF ONE THING, which is what they are.
+
+C  SIZE        known a full dot, met smaller, scaffolding smallest.
+               Survives a dim grey being hard to see on a dark ground, and it makes the pile
+               read as a cloud with the real words standing out of it.
+```
+
+**I am not choosing.** If he wants my reading of the measurement rather than a preference: the three
+states are one scale — never met, met, understood — and **B is the only one of the three that is
+itself a scale.** But that is an observation about the data, not a vote about his display.
+
+**NOTHING BUILT. Waiting on which.**
