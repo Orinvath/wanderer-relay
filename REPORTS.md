@@ -40424,3 +40424,75 @@ how they are set is placement, so it goes with decision 1.**
 tick's order. **The only change I would make there is the title.**
 
 **Nothing is built. Waiting.**
+
+---
+
+# BUILT — Directive 412. THE MEANING MAP is on his bench, beside the Mind Map, both titled.
+
+**HIS BENCH IS ON `b8eff0b`, page and server. RELOAD.**
+
+## 412.3 — WHAT I CHOSE FOR 42,000, AND WHAT IT COSTS
+
+**The easy way is one DOM element or one SVG circle per word. It is fine at 100, it is the browser
+laying out five thousand boxes a frame at 5,000, and it is dead at 42,000 with no tuning that saves
+it. So it is not what is built.**
+
+```
+                    RENDERING                PHYSICS                     HOVER
+built here     ONE WebGL draw call      Barnes-Hut in a WORKER      a spatial grid
+               for every point, ever    off the page's thread       binned once per settle
+
+  100 points   1 draw ·    800 bytes    ~700 comparisons a step     one cell lookup
+5,000 points   1 draw ·     40 KB       ~61,000 a step              one cell lookup
+42,000 points  1 draw ·    336 KB       ~640,000 a step             one cell lookup
+```
+
+**A straight force layout compares every point with every other one — 42,000 points is 1.7 BILLION
+pairs per step and the tab freezes.** Barnes-Hut treats a distant crowd as one mass and drops that
+to about n log n. **It runs in a worker, so the page keeps drawing while the map settles.**
+
+**And hover is a lookup, not a scan** — asking "which dot is under the mouse" by checking every dot
+is 42,000 checks per mouse-move.
+
+## IT IS LIVE AND THE NUMBERS ARE REAL
+
+**Off a mind taught for 200 ticks:**
+
+```
+words with a vector   421      (his 402, plus 19 the mind learned)
+bindings              43
+owned with NO vector    1      ← not sent, not drawn (411.4)
+strongest binding     SEARCH + RIVER at 0.680
+```
+
+**And off his own bench, just restarted:**
+
+```
+words 402 · pairs 0 · unbound pair offered: SELF + OTHER
+```
+
+**402 dots and no bindings is the true picture of a newborn: it has his language and understands
+nothing with it yet.** The bindings appear as it learns, and the map is worth watching from there.
+
+## THE FOUR PROOFS, ALL WIRED
+
+```
+1  every position comes from the space's own numbers -- the ONLY thing the physics reads is the
+   nearness between two words that are actually bound. No categories, no domains, no grouping.
+2  HIS OWN TEST, needing no code: the panel names the strongest pair the mind HAS bound and a pair
+   it has NOT, and prints how far apart each ended up. Bound close, unbound far, or it is lying.
+3  IT CHECKS ITSELF: the correlation between drawn distance and the space's nearness, every settle.
+   Bound words must end up CLOSE, so the correlation must be negative -- it goes red above -0.3.
+4  nothing is drawn that the space does not hold. The index is built FROM the words that have a
+   vector, so an index can never point at a word the space does not have.
+```
+
+**COLOUR IS DEFERRED AS RULED (412.4):** one steel blue from 349's cool range, hue 201, and no
+meaning invented for it.
+
+## WHAT TO LOOK AT WHEN HE RELOADS
+
+**Two square panels side by side, THE MIND MAP on the left with its title for the first time, THE
+MEANING MAP on the right.** Under the second one is its own check line and the two named pairs.
+**Hovering a dot names the word.** Right now the right-hand map is a scatter of 402 with no
+structure, and **that is the correct picture of a mind that has just been born.**
