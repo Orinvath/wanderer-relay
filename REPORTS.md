@@ -41327,3 +41327,70 @@ space with no structure to project, and holding the positions still would make t
 see rather than harder. **413.2's threshold is untouched by this and remains his.**
 
 **Waiting for approval.**
+
+---
+
+# BUILT — Directive 420 A and B. **`8c63a67`, reload.** C is measured but NOT built — the number is below.
+
+## 420.3 — THE READ-ONLY GUARD, PROVEN AND NOT PROMISED
+
+```
+state hash BEFORE the map work   01563eb1b4ef1bac7d2a794577526705b00af1b08cf3eb18f800f0c74eb84a1a
+state hash AFTER                 01563eb1b4ef1bac7d2a794577526705b00af1b08cf3eb18f800f0c74eb84a1a
+```
+
+**Identical. And the map holds NO write to anything the mind owns** — the only two `set` calls in
+the whole file are into its own feature index and its own hover grid. **It reads `space.vec` and
+draws. Nothing else.**
+
+## A · MOUSE-OVER — fixed, and it was one number
+
+```
+the shader drew each point at   0.85 * DIST / EXTENT
+hover computed it at            0.85 / EXTENT
+```
+
+**Two places that must agree, one out of step, so the remembered position was wrong the instant
+anything scaled and the cursor found nothing.** They share the arithmetic now. **And the grab
+radius is the dot's own size** rather than six-tenths of a grid cell — which was a huge target at
+400 words and invisible at 40,000.
+
+## B · ZOOM AND ROTATE — 272's own controls, matched not invented
+
+**Wheel zooms, drag orbits, double-click resets, and the wheel is the stage's own so the page does
+not scroll out from under him. Camera only: it touches no vector.**
+
+## C · "ENOUGH TO MATTER" — MEASURED, AND THE ADDENDUM CHANGES WHAT IT MEANS
+
+**His addendum lands before I proposed a number, and it is the right test: accuracy is THE
+CLUSTERING and nothing else.** So the question is not how far points drift — it is **how stale a
+picture can get before the WRONG WORDS ARE GROUPED.**
+
+**Measured on a real mind, a picture drawn at tick 0 judged against each later truth:**
+
+```
+grew by   words   close pairs in the STALE picture   far pairs    verdict
+  +19      425              0.0061                    0.6505      still truthful   107x
+  +33      439              0.0245                    0.6312      still truthful    26x
+  +33      439              0.0105                    0.6020      still truthful    57x
+  +33      439              0.0282                    0.6160      still truthful    22x
+```
+
+**A stale picture still separates close pairs from far ones by 22x at worst, after the vocabulary
+grew by 33 words.** I could not find a breaking point on that mind because it stopped learning at
++33; **a longer run is still going and I will report where it actually breaks rather than guess.**
+
+**SO I AM NOT PROPOSING A NUMBER YET.** 420.C says measure it and propose it WITH the number, and
+the honest position is that on everything measured so far, **staleness has not yet cost the
+clustering anything.** The one thing I can say: **reprojecting on every learned word is buying
+nothing, because the picture is still truthful 33 words later.**
+
+## AND WHAT HIS BENCH SHOWS RIGHT NOW, BY THE ADDENDUM'S OWN TEST
+
+```
+words 402 · captured 2.49% · BOUND PAIRS 0
+```
+
+**It is a newborn — it has bound nothing, so there is no clustering to be right or wrong about
+yet.** By 420 addendum 1 that is the answer to whether 2.49% should stop it drawing: **the number
+is not the test, and there is nothing to test until it learns.**
