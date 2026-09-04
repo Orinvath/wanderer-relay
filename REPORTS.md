@@ -44132,3 +44132,45 @@ now said the geometry is off limits — those two conflict and the ruling is his
 the only thing which truly cannot move is a position COMPUTED ONCE AND KEPT — and that is a
 different design from recomputing a fixed projection, which I should say before building it a third
 time.**
+
+---
+
+# HE IS RIGHT — AND 432 WAS NOT THE FIRST VIOLATION. **415 IS ONE AND IT IS STILL STANDING.**
+
+**His words:** *"they were off limits long before 415."*
+
+## I SEARCHED FOR THE RULE AND IT IS NOT WRITTEN DOWN ANYWHERE
+
+```
+DIRECTIVES.md   no ruling saying the geometry is off limits
+CLAUDE.md       nothing
+HANDOFF.md      nothing
+```
+
+**It was stated early and honoured by habit. The moment a directive said otherwise, the habit
+failed — and it failed for the Director too, who WROTE 432 telling me to change the space.** A law
+that lives only in memory is broken by whoever did not hear it.
+
+**IT IS NOW STANDING LAW IN CLAUDE.md**, at the top beside the master rule, and it binds the
+Director as well as me: **a directive that orders a change to the space in order to fix a display
+is a COLLISION and stops. Complying is the failure, not the obedience.**
+
+## AND HERE IS THE PART THAT MATTERS MORE THAN MY MISTAKE
+
+**Every commit that has touched the geometry:**
+
+```
+432  6ccf4b7   the frame restored        REVERTED just now
+415  fc1315f   THE CODEBOOK MADE RANDOM  <-- STILL IN. It is a geometry change.
+409  44a3575   a rename, byte-identical  no behaviour changed
+```
+
+**415 CHANGED `language.js`. If the geometry has always been off limits, 415 should never have been
+built, and I built it.** It is the change that dissolved the scaffolding, and everything he has been
+chasing since — the linear map, the map failing its own faithfulness test, inner learning falling
+from 71 words to 23 — traces to it.
+
+**I have not reverted it.** It was his own directive, it is one commit, and reverting it is a
+decision about the mind rather than about a picture. **But the rule he just restated makes 415 a
+violation that is still standing, and he should know that before anything else is built on top of
+it.**
