@@ -42342,3 +42342,49 @@ first feeling? **Nothing in the record rules on it, and I am not going to.**
 the Mind Map loads `mindmap.js` and `core.js` and neither was touched. **Separate module scopes,
 separate canvases, separate GL contexts.** The two reds are the same colour by coincidence — **his
 `#d9534f` for a not-yet word, and hue 0 for fear, which is his own palette.**
+
+---
+
+# HE IS RIGHT — AND IT IS IN THE CODE BY DESIGN. **287 B: silence gathers fear.**
+
+**His words:** *"It can experience fear after waking up in a dark place with no stimulation at all.
+I think we built it that way."*
+
+**He did, and here it is:**
+
+```
+mood.js:145   /* 287 B.1 and B.3: SILENCE GATHERS UNEASE; anything arriving eases it. */
+mood.js:148   if (unease && !informed) {
+                const grown = (out.fear ?? 0) + unease.perHour * hours
+                out.fear = clamp(Math.min(grown, unease.ceiling), 0, 1)
+              }
+```
+
+**FEAR IS THE NAMED FEELING FOR IT. Not distress, not unease as its own thing — the mood the mind
+holds when nothing reaches it is literally `out.fear`,** and hue 0 is red, so the Core turns red.
+**His memory of the design and the code agree exactly.**
+
+## AND IT EXPLAINS EVERYTHING HE SAW
+
+```
+"the Core went red"          silence had gathered fear -- 287 working
+"it was feeling nothing"     `felt` was EMPTY, and I checked: the red came from the MOOD, not from
+                             a felt feeling. The mind was not feeling nothing; it was IN a mood.
+"everything was at 10"       needs are not the source. Unease is gathered from SILENCE, and a mind
+                             with every need full can still have had nothing arrive.
+"it is purple now"           something arrived -- `informed` went true, the ordinary fade carried
+                             the fear off, and joy at hue 260 took the Core.
+```
+
+**And how fast it gathers is `uneaseOf(aspects)` — THIS BEING'S OWN ten.** That is why 2 of 10
+newborns woke red and 8 did not: **the same silence frightens one being and not another, which is
+the Persona doing its job.**
+
+## SO THERE IS NOTHING TO FIX, AND NOTHING WAS CHANGED
+
+**The Core showed a newborn alone in the dark with nothing reaching it, and it was afraid.** That
+is 287 end to end. **His "red is not necessarily wrong" was the right instinct — it was exactly
+right.**
+
+*(And the earlier question is settled with it: my red dots on the Meaning Map had nothing to do
+with it. Two different reds, in two different panels, from two different causes.)*
