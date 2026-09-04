@@ -43410,3 +43410,62 @@ it is his.** `fc1315f` reverts cleanly if he wants the old behaviour while he de
 **His name, and a better one than mine.** I had called it "waiting to be placed", which describes
 what the MAP is doing. **His describes what the MIND is doing: it has taken these words in and has
 not yet found a place for them.**
+
+---
+
+# =====  TO THE DIRECTOR — 415 NEEDS A RULING. IT IS NOT MINE TO MAKE.  =====
+
+**His instruction, and he is right to give it:** *"if this is getting too complex it is not for you
+to decide, put to the director."*
+
+## THE FACT, MEASURED TWICE AND BOTH WAYS
+
+**A mind ALONE — no host, no teacher, nothing said to it, only its own thinking:**
+
+```
+                              BEFORE 415        AFTER 415
+words it learns in 600 ticks      71                23      and it STOPS climbing at ~450
+
+in 300 ticks:
+  ticks producing a thought      270               278      unchanged
+  words thought                  699               728      unchanged
+  words TRUE                    1348              1343      unchanged
+  DISTINCT words thought          45               109      twice as many
+  CANDIDATE MEANINGS FORMED      176                15      eleven times fewer
+```
+
+## WHAT IT MEANS, AND IT IS NOT WHAT I FIRST SAID
+
+**I reported "the mind has nothing to reach for". That was wrong.** It thinks exactly as much and
+about MORE things. **What it no longer does is DWELL.**
+
+**A meaning forms only when a word and a meaning recur together (220).** The old space had
+structure, so each thought pulled toward nearby words and the mind circled about 45 of them —
+**and circling is what makes a pair recur.** Orthogonal, nothing pulls toward anything: it wanders
+evenly over 109 words and rarely meets the same pair twice.
+
+**THE SCAFFOLDING WAS NOT SUPPLYING MEANING. IT WAS SUPPLYING COHERENCE.**
+
+## THE COLLISION, STATED AS A COLLISION
+
+```
+415 (his)   the vectors become random. A newborn's space is a featureless cloud, every word
+            equally far from every other. STRUCTURE COMES ONLY FROM BINDING.
+            -> correct: his artwork's filing system was standing in for understanding.
+
+220 (his)   a word means what keeps being true when it is said.
+            -> needs REPETITION, and an orthogonal space removes every reason for anything
+               to repeat.
+```
+
+**Both are his and both are right. Together they leave a mind that cannot bootstrap alone.**
+
+## WHAT I AM NOT DECIDING
+
+- whether a newborn SHOULD be unable to learn alone and must be taught — which is a defensible
+  reading of 415 and may be the intended answer;
+- or whether something else must make it dwell: its own curiosity and interests doing the circling,
+  a faint pull left in the codebook, or a mechanism nobody has written yet.
+
+**`fc1315f` is one commit and reverts cleanly. Nothing has been changed and nothing will be until
+this is ruled.**
