@@ -11099,3 +11099,33 @@ This is a window onto it.
 
 **PLAN FIRST (253).** Post the plan and wait — this is new surface and
 it touches the page.
+
+## Directive 412 — THE MEANING MAP: his four answers. Build it.
+
+**1 · WHERE IT GOES** — SIDE BY SIDE. The MIND MAP stays exactly where
+it is; the MEANING MAP sits to its RIGHT. TWO SEPARATE PANELS, both
+titled (411).
+
+**2 · BOTH AT ONCE** — moot, and answered by the above. Side by side
+means both, always. No tab, no switch.
+
+**3 · WHAT A POINT LOOKS LIKE** — A DOT, with a MOUSE-OVER that shows
+the word. Nothing drawn on the point itself.
+**AND HIS REASON IS THE DESIGN CONSTRAINT:** there will be 42,000 of
+them one day and it must not bog the system down. So choose the
+rendering for that number NOW rather than discovering it at scale —
+say in the report what you chose and what it costs at 100 points, at
+5,000, and at 42,000. If the approach that works at 42,000 is
+different from the easy one, take the harder one now.
+
+**4 · COLOUR** — DEFERRED. He does not know yet what is relevant.
+Points are a single colour from 349's cool range until something
+worth showing appears. Do not invent a meaning for it.
+
+**EVERYTHING IN YOUR PLAN IS APPROVED AS POSTED** — the route serving
+points and bindings, no word sent without a vector, physics reading
+only the nearness, the health check as a correlation between drawn
+distance and the space's nearness with its forced-fail, and the
+named-pairs test he can run with his eyes.
+
+Build it.
