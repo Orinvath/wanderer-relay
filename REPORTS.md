@@ -42961,3 +42961,24 @@ instrument and would throw away the maps.**
 
 **NOTHING IS BUILT AND NOTHING IS PROPOSED.** He asked why and this is why. **The mind is clean; the
 question is only what window he wants to look at it through, and that has always been his call.**
+
+---
+
+# FIXED — THE CHAT LOG. **Committed `5a2b636`, still not deployed.**
+
+**I registered it as `.talk`. There is no `.talk` on the page.** The chat panel is `#chatlog` with
+its own `#chathead`, so `document.querySelector` found nothing and it was silently skipped — no
+head, no arrow, no grip. **Silently is the word: a selector that matches nothing looks exactly like
+a panel that chose not to upgrade, and nothing said so.**
+
+**That is the second one I got wrong by guessing at a selector instead of reading the markup —
+PERSONALITY was the first.** Every one of the thirteen is now checked against the page.
+
+## AND ITS HEAD CARRIES WORKING BUTTONS, SO A GUARD CAME WITH IT
+
+**The school's Start and Stop live on the chat log's heading row, and PERCEPTION's head has its own
+controls.** Lifting those rows into the title bar put working buttons inside a bar that toggles on
+double-click — **so a double-press on Start would have collapsed the panel out from under him
+mid-press.** A double-click on a button, input or link no longer toggles anything.
+
+**Nothing deployed. His bench is still on `9583b7a` and his arrangement is untouched.**
