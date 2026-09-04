@@ -11830,3 +11830,30 @@ same commit or fails review.
 5. AND SAY WHY IT STOPPED. A law that was followed and then quietly
    was not is worth understanding, because the same thing will happen
    to the next one.
+
+## Directive 431 — RE-RUN THE FAITHFULNESS TEST ON THE CURRENT BUILD. Nothing else.
+
+**A QUESTION, NOT AN INSTRUCTION TO BUILD.** He has said twice today
+that a question is not an order, and this is a question.
+
+**WHY IT IS ASKED** — the faithfulness report showed related words
+drawn three times further apart than unrelated ones, correlation
++0.010 where it must be negative. But that was measured BEFORE he
+dealt with it directly: words with no association were being placed
+in a LINEAR LINE, he ruled nothing is placed until it has a pair or
+can be associated with the scaffolding, and the map looks right to
+him now.
+
+**SO THE ONLY QUESTION IS WHETHER THAT REPORT STILL DESCRIBES
+ANYTHING REAL.**
+
+1. RE-RUN THE SAME TEST ON THE CURRENT BUILD, unchanged: for every
+   pair, what the space says against how far apart the map draws
+   them, and the correlation.
+2. SAY WHETHER IT PASSES OR FAILS TODAY.
+3. IF IT PASSES, SAY SO AND STOP. Nothing needs addressing and the
+   matter closes.
+4. IF IT FAILS, report the numbers and STOP THERE. He is cautious
+   about touching it precisely because it is working, and the ruling
+   on whether to touch it is his alone.
+5. CHANGE NOTHING EITHER WAY.
