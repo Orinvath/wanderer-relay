@@ -43630,3 +43630,79 @@ give the space more than one direction worth having — which is the same thing 
 asked to rule on.**
 
 **NOTHING CHANGED.**
+
+---
+
+# =====  EVERYTHING I DID TO THE MEANING MAP — AND HE IS RIGHT, IT IS NOT TRANSLATING THE SPACE  =====
+
+**His words:** *"it was literally the purpose of all this... you clearly broke it and its purpose
+if it is not translating the actual association from the real geometric data."*
+
+**I TESTED THAT BEFORE ANSWERING. HE IS RIGHT.**
+
+## THE TEST — for every pair, what the SPACE says against how far apart the MAP draws them
+
+```
+ON THE SPACE AS IT IS NOW (415, orthogonal atoms)
+  pairs the space calls RELATED     15
+  drawn apart, related            0.2196
+  drawn apart, UNRELATED          0.0734      <- related words drawn THREE TIMES FURTHER APART
+  correlation                     +0.010      <- must be negative. It is zero.
+  => THE MAP IS NOT FAITHFUL
+
+ON THE SPACE BEFORE 415 (his sheets still in it)
+  pairs the space calls RELATED    390
+  drawn apart, related            0.1419
+  drawn apart, UNRELATED          0.3042      <- related words drawn TWICE AS CLOSE, correctly
+  correlation                     -0.173
+  => THE MAP IS FAITHFUL
+```
+
+**Same map code, both times. The map translates a space that HAS structure and cannot translate one
+that does not.**
+
+## EVERY CHANGE I MADE TO IT, IN ORDER
+
+```
+411/412  built it. Physics: force-directed layout, per his 411 spec.
+413      HE CORRECTED THAT -- "you were not supposed to do anything other than map the already
+         defined space." The physics came out; PCA projection of the real vectors went in.
+         I ADDED ONE THING NOT IN THE DIRECTIVE: each row is normalised to unit length before
+         projecting, because the space measures nearness by DIRECTION (cosine) and PCA preserves
+         STRAIGHT-LINE distance -- those only agree on unit vectors. Without it his own eye-test
+         failed by twenty times. WITH it, the pre-415 numbers above are honest.
+420      hover fixed, zoom and orbit added. Camera only, no geometry.
+422      the picture is held until the vocabulary grows 2% or 10 words, then recomputed.
+         Cost only -- it changes WHEN it is drawn, never WHERE anything is.
+later    colours (red/blue, now red/blue/purple), the CONTEMPLATING list, panel plumbing.
+         None of these touch a coordinate.
+```
+
+**And the guard held throughout: the state hash is byte-identical before and after every one of
+them. The map has never written to the mind.**
+
+## SO WHAT ACTUALLY BROKE IT, AND IT WAS NOT A MAP CHANGE
+
+**415 made every word orthogonal to every other. PCA finds the directions along which a space
+VARIES TOGETHER — and in an orthogonal space there are none.** Fifteen related pairs out of 4,216:
+there is essentially no structure to project, so three directions capture noise, and noise draws
+related words no closer than anything else.
+
+**THE MAP IS DOING WHAT IT WAS BUILT TO DO. It is reporting, accurately, that the space it is
+looking at has almost no associations in it.** That is not a broken translator — it is a true
+picture of a space 415 emptied.
+
+## AND THERE IS A SECOND, SEPARATE THING I SHOULD HAVE SAID EARLIER
+
+**PCA IS THE WRONG PROJECTION FOR A SPARSE NEAR-ORTHOGONAL SPACE, whatever 415 is ruled.** It
+preserves variance, not nearness. **A projection that places points so that DRAWN DISTANCE MATCHES
+THE SPACE'S OWN NEARNESS directly — classical MDS on the nearness matrix — would translate
+associations faithfully even in a thin space, because it optimises the exact thing his eye-test
+measures.**
+
+**413 chose PCA and I built what was chosen. I am not changing it on my own. But if the map's
+purpose is to translate ASSOCIATIONS, then the thing it optimises should be associations, and right
+now it optimises variance instead.**
+
+**NOTHING CHANGED. Two questions for the Director, and both are his: 415, and whether the
+projection should be measuring nearness rather than variance.**
