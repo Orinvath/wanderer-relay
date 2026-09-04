@@ -341,3 +341,27 @@ going up.
 has ASK never fired, on his bench, with the code.
 
 Sections 12 and 13 are one subject and should be taken up together.
+
+### 13d CORRECTED — ASK is an open question, not yet a fault
+
+**His correction:** the oldest mind developed so far is about two
+years old, and a two-year-old may not understand enough to ask a
+question yet. It may be right on the verge rather than past it.
+
+**THE SCIENCE AGREES WITH HIS CAUTION** — real "why" questions arrive
+around two to three years, so the mind is at the edge of that stage,
+not beyond it.
+
+**SO IT IS NOT CALLED A FAULT. But it is still checked, because that
+is exactly where it sits now:**
+- CAN ASK fire at all? Trace the path and say what conditions it
+  needs.
+- Have any of those conditions ever been met on his bench?
+- If ASK is reachable and has simply never been chosen, that is a
+  young mind and it is fine — say so.
+- If ASK CANNOT fire for a structural reason, that is a fault and it
+  is named as one.
+
+The difference matters: a mind too young to ask is developing
+normally; a mind that CANNOT ask is broken, and the same silence
+looks identical from outside.
