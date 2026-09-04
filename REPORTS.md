@@ -42866,3 +42866,44 @@ things now, the stage and the legend under it, at exactly the padding and size t
 
 **His bench is still on `9583b7a` and nothing has moved under him.** The moment he restarts, he gets
 the button and the fixed legend, **and his current arrangement will still be there.**
+
+---
+
+# LAYOUTS ON DISK — AND HIS REMINDER CHANGED THE DESIGN. **Committed `5c1a9b1`, NOT deployed.**
+
+**His words, in order:** *"I want a load and save layouts option so it is saved locally and not tied
+to a browser"* then **"remember this all has to run as an app without a browser at all."**
+
+## THE SECOND ONE IS THE IMPORTANT ONE AND IT MOVED THE STORE
+
+**I had the arrangement living in the browser's local storage. An app has no local storage at all
+— so a layout kept only there is a layout that dies the day this stops being a web page.** That is
+his standing law and I had built straight past it.
+
+```
+BEFORE   the browser is the store, the disk is where he can PRESS to keep a copy
+NOW      THE DISK IS THE STORE. Every change writes through to it.
+         The browser is a cache in front, so the page can paint before the fetch returns.
+         Asked in that order on load: the disk first, always.
+```
+
+**So his arrangement now survives a different browser, a cleared profile, another machine — and a
+build with no browser in it at all.** Nothing has to be pressed for that to happen.
+
+## AND "LAYOUTS", beside LOG · TEST · RESTART
+
+```
+name it and press enter    kept as a file: server/data/layouts/<name>.json
+load                       applied to the page he is on -- NO RELOAD, so he never loses his place
+delete                     removes the file
+```
+
+**Layout and nothing else** — order, what is shut, sizes. **Nothing of the mind is in those files
+and nothing in them can reach the mind.** A name is stripped to plain characters, so a layout is
+always a file beside the bench and never anywhere else.
+
+## STILL NOT DEPLOYED — HIS BENCH IS UNTOUCHED ON `9583b7a`
+
+**He said not to restart and lose his arrangement, so I have not.** Everything above is committed
+and waiting. **And when he does restart, what he has now comes back** — it is keyed by the panels'
+own names, and the restart writes nothing.
