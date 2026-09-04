@@ -42769,3 +42769,20 @@ same in Chrome and in Firefox.**
 
 **The vertical gaps came back with the revert** — the 12px between panels was part of what the
 tiling replaced.
+
+---
+
+# FIXED — SPACE ABOVE THE GLYPHS. **`36c9ab1`, reload.**
+
+**His words:** *"there should be more space above the glyphs they feel smashed."*
+
+**They were, and it was the panel work again.** The THOUGHTS strip's own heading row used to carry
+space BELOW itself — that is what held the marks clear of it. **Lifting that row into the title bar
+zeroed its margins along with its padding and border, so the space went with it and the glyphs
+ended up against the bar.**
+
+**Given back, and a little more than it had, because the marks are the thing being looked at.**
+
+*(Third fault from the same cause: the lifted heading rows carried style that mattered — a negative
+margin that dragged THOUGHTS over the arrow, a serif I introduced, and now the space they held
+open. Each one only shows up on his screen, which is why he keeps finding them and I do not.)*
