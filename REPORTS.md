@@ -43973,3 +43973,53 @@ that the mind has learned enough for the picture to have shape — **and the tes
 still not putting related words together.**
 
 **STOPPED HERE, as 431.4 requires. Nothing changed, and the ruling on whether to touch it is his.**
+
+---
+
+# WHY IT GOES LINEAR — FOUND IT. **It is one word arriving, and it is not the map's fault.**
+
+**His two screenshots: a healthy 2D spread, then a LINE "after just one word added".**
+
+## THE CAUSE, ISOLATED
+
+**The picture collapses to a line when the mind's bound words nearly all point at THE SAME
+MEANING.** Measured directly — 60 words bound, varying only how many distinct meanings they point
+at:
+
+```
+bound onto 40 meanings   axis1/axis2  1.38   spread
+bound onto 20            1.17   spread
+bound onto  8            1.00   spread
+bound onto  4            1.00   spread
+bound onto  2            1.12   spread
+bound onto  ONE          12.19  A LINE
+```
+
+## AND HIS BENCH IS AT EXACTLY THAT POINT
+
+```
+words the mind owns                 22
+distinct meanings they point at      3
+   JOY       19        <- nineteen of twenty-two
+   HOST       2
+   TOGETHER   1
+```
+
+**Nineteen of its twenty-two words all mean JOY. When the twentieth also means JOY, there is only
+ONE direction in the space with any spread in it — and one direction drawn in three dimensions is
+a line.**
+
+**That is why one word flips it: it is the word that tips the balance from "a few meanings" to
+"effectively one".**
+
+## SO THE MAP IS NOT LYING — IT IS DRAWING A MIND THAT HAS LEARNED TWENTY-TWO WORDS FOR ONE FEELING
+
+**The real finding is about the MIND, not the map:** the school taught it a whole vocabulary and
+almost all of it landed on JOY. **A mind whose words nearly all mean the same thing has a space with
+one direction in it, and any honest projection of that is a line.**
+
+**This is also why the faithfulness test fails.** With one dominant meaning there is nothing for the
+projection to separate — related and unrelated pairs are all strung along the same axis.
+
+**NOTHING CHANGED (431.5). And the question this raises is his and the Director's: why is nearly
+everything the teacher says landing on JOY?**
