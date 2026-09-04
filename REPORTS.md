@@ -43402,3 +43402,11 @@ or the mind's own interests and curiosity doing the circling instead, **is a des
 it is his.** `fc1315f` reverts cleanly if he wants the old behaviour while he decides.
 
 **NOTHING CHANGED.**
+
+---
+
+# RENAMED — THE MEANING MAP'S SIDE LIST IS **CONTEMPLATING**. `50ee806`, live.
+
+**His name, and a better one than mine.** I had called it "waiting to be placed", which describes
+what the MAP is doing. **His describes what the MIND is doing: it has taken these words in and has
+not yet found a place for them.**
