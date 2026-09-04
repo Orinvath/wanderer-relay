@@ -40674,3 +40674,69 @@ NUMBER, so I wired the mechanism and left it off rather than invent the bar — 
 that in the 413 report.** **13.7% did not pass a threshold. It was never tested against one.**
 
 **NOTHING CHANGED, per his order.**
+
+---
+
+# HIS RULING — THE 402 COME OUT OF THE SPACE. Reported, not built, and here is what stands on them.
+
+**His words:** *"wtf would you put the 402 marks in there, it doesn't know them?"* then *"we need
+to remove that from language.js."*
+
+**HE IS RIGHT AND THE DRAWING WAS MINE.** The 402 arrive in the space at birth from
+`language.js:77`, and I drew every word the space held without once asking whether a map of what
+the mind UNDERSTANDS should contain words it has never met. **A newborn's Meaning Map was a picture
+of his artwork's filing system.**
+
+## WHAT THE LINE IS, AND THE RULING IT CITES
+
+```
+language.js:75   /* every word exists in the space, whether or not the dictionary ever mentions it
+language.js:76      -- HIS RULING that the whole language is speakable, and the reason this is
+language.js:77      worth building at all */
+                 for (const w of WORDS) { put(w, domain..., row...) }
+```
+
+**It cites a ruling of his as its reason.** That may be the same ruling read too widely — *speakable*
+need not mean *already positioned in the mind's own space at birth* — **but I am not going to
+decide that, and it is the first thing the directive should settle.**
+
+## WHAT ACTUALLY STANDS ON IT — measured on a newborn, not guessed
+
+```
+a newborn space holds 402 words TODAY
+  neighbours of JOY   SHARE PRIDE GLOAT HOPE ENVY      ← from his sheets, not from any life
+  SELF near JOY       0.000
+  SELF near SELVES    0.000
+```
+
+**Every one of these reads the space, and on a newborn every one of them would get NOTHING back:**
+
+```
+thinking.js:174   an association draws from space.neighbours -- 407's path
+thinking.js:450   the train's own neighbours
+thinking.js:687   the vital that is ALREADY RED, which compares nearness
+stories.js:154    what an imagined story is coloured by
+memory.js:311     hangsTogether -- 376's fallback when no model answers
+voice.js:455      space.answer, how it answers "are you happy?"
+storygates.js:61  249's gate on whether marks belong together
+watching.js:1418  the neighbours shown beside each interest on his panel
+```
+
+**A newborn would think, remember, imagine and answer with an EMPTY space.** 376 already made the
+mind fall back to its own space when no model answers — **with the 402 gone, on day one that
+fallback returns zero for everything.**
+
+**THAT MAY BE EXACTLY RIGHT.** A mind that knows nothing SHOULD have nothing to reach for, and
+every one of those zeros is honest where today's numbers are borrowed from his filing system. **But
+it is a change to what a newborn IS, not a change to a map, and it wants his word rather than mine.**
+
+## THE TWO QUESTIONS THE DIRECTIVE NEEDS TO ANSWER
+
+1. **DO THE 402 LEAVE THE SPACE ENTIRELY, or do they leave the MAP?** The map showing only owned
+   words is one line and touches nothing else. Taking them out of `language.js` changes what every
+   system above reads, from birth.
+2. **IF THEY LEAVE THE SPACE — what does a newborn's nearness return, and is zero the right answer
+   for every one of those eight call sites?** 376's fallback is the one I would want ruled
+   explicitly, because it is the path that made a mind able to feel with no model attached.
+
+**NOTHING CHANGED.**
