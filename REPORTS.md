@@ -42907,3 +42907,57 @@ always a file beside the bench and never anywhere else.
 **He said not to restart and lose his arrangement, so I have not.** Everything above is committed
 and waiting. **And when he does restart, what he has now comes back** — it is keyed by the panels'
 own names, and the restart writes nothing.
+
+---
+
+# "WHY ARE WE STILL USING BROWSERS" — A STRAIGHT ANSWER, MEASURED.
+
+**His words:** *"It has always been an app we are designing, never browser, so I dont know why we
+are still using browsers."*
+
+## THE MIND IS ALREADY AN APP. IT HAS NO BROWSER IN IT AT ALL.
+
+**Every file the mind loads, checked for browser APIs in its own code:**
+
+```
+files the mind loads                          87
+files touching document, window, localStorage  4
+of those, FALSE POSITIVES                      4      <- every one
+   soul.js      "document" is the SOUL'S OWN document object, not the page's
+   aspects.js   "window" is a TIME window
+   goals.js     "window" is a time window
+   vitals.js    "window" is a time window
+```
+
+**ZERO. The mind runs headless on Node today and would not notice if no browser existed.** That is
+what I have been proving all week with harnesses that never open a page.
+
+## SO WHAT IS THE BROWSER ACTUALLY DOING
+
+**It is the INSTRUMENT'S WINDOW and nothing else.** `bench-start.js` puts the Emulator on a port
+and Chrome draws it. **The Emulator is a development instrument he watches the mind through — it is
+not the Wanderer, and the Wanderer does not have one.**
+
+**AND HE IS RIGHT THAT IT HAS BEEN DRIFTING.** I put his panel layout in the browser's local
+storage — a thing that only exists in a browser — and he had to remind me. **That is now on disk
+and the browser is only a cache in front of it.**
+
+## WHAT "MAKE IT AN APP" WOULD ACTUALLY TAKE, and it is smaller than it sounds
+
+```
+THE MIND         nothing. It is already Node with no browser anywhere in it.
+THE INSTRUMENT   the same page, in a desktop shell instead of Chrome -- Tauri or Electron.
+                 It is a WINDOW change, not a rewrite: the page, the routes and the mind are
+                 untouched. What it buys is a real window, a real menu, and no Chrome.
+WHAT IT COSTS    Tauri is a Rust toolchain and a small binary; Electron ships a browser inside
+                 itself, which is the thing he does not want, so Tauri is the honest one.
+```
+
+**THE HONEST WARNING, and it is Rule Zero:** an Electron app IS a browser with the address bar
+hidden. If the point is not to be a browser, Electron does not get him there. **Tauri uses the
+system's own webview** — smaller, no bundled Chrome, but the page is still HTML underneath. **A
+truly browser-free instrument means drawing the panels natively, which is a rewrite of the
+instrument and would throw away the maps.**
+
+**NOTHING IS BUILT AND NOTHING IS PROPOSED.** He asked why and this is why. **The mind is clean; the
+question is only what window he wants to look at it through, and that has always been his call.**
