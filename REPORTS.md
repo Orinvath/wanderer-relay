@@ -40542,3 +40542,59 @@ map**, which the physics could never promise. **And it is less code, not more.**
 against **63.05** for any two words. **It was working — it was just answering the wrong question.**
 
 ## I HAVE NOT REPLACED IT. Waiting on his word, because it is a change to the design and his.
+
+---
+
+# BUILT — Directive 413. THE MAP PROJECTS THE SPACE. The physics is gone.
+
+**HIS BENCH IS ON `7182427`. RELOAD.** No worker, no quadtree, no settle steps. **The dots do not
+move unless the data moved** — the page compares the space's own signature and leaves every point
+exactly where it was when nothing changed.
+
+## AND HIS OWN TEST CAUGHT A REAL FAULT BEFORE HE EVER SAW IT
+
+**My first projection was wrong, and the eye-test is what found it:**
+
+```
+BEFORE NORMALISING   bound words 42.945 apart · any two words 2.082
+                     -> BOUND WORDS TWENTY TIMES FURTHER APART. The exact opposite of the truth.
+AFTER                bound words  0.026 apart · any two words 0.377
+                     -> fourteen times CLOSER, as they must be
+```
+
+**The cause is worth keeping:** the space measures nearness by DIRECTION and PCA preserves
+STRAIGHT-LINE distance, and those are only the same geometry on unit vectors. A word with a heavier
+vector sat far from the origin however well its direction matched. **Every row is normalised before
+projecting now, and 411.2 is exactly the check that was supposed to catch this.**
+
+## THE HONESTY NUMBER, AND IT IS LOW
+
+```
+his bench, newborn      402 words · 196 features   THREE DIRECTIONS CARRY 13.7%
+a mind taught 400 ticks 427 words · 283 features   THREE DIRECTIONS CARRY 12.4%
+                                                   two directions carry 8.4%
+```
+
+**The space genuinely does not flatten.** Its features are domains, rows and kin — largely
+independent of one another — so there is no small set of directions that most of it lives in.
+**13% is what three honest directions can carry.**
+
+## SO WHICH DOES HE BELIEVE — 12.4% CAPTURED, OR BOUND WORDS FOURTEEN TIMES CLOSER?
+
+**Both are true, and they are not in conflict.** The captured share asks how much of the WHOLE
+space three directions hold. His test asks whether THE THING HE READS THE MAP FOR survives the
+flattening. **It does, strongly.**
+
+**413.5 already ranks them:** *"if that ever fails, the map is lying whatever any number says."*
+**It does not fail. It passes by a factor of fourteen.**
+
+## THE ONE THING I DID NOT DECIDE
+
+**413.2 says do not draw it if it does not capture enough, AND IT NAMES NO NUMBER.** The mechanism
+is wired and switched off, so nothing is being withheld on my judgement, and **the captured share
+sits on his screen so he can see what he would be setting the bar against.** If he sets it above
+13%, this panel will refuse to draw on the spaces we have today — which may well be the right
+answer, and it is his.
+
+**3D and he can turn it (413.3):** drag to rotate, near points read stronger so a turn reads as a
+turn, and hovering still names the word. **One draw call, still, at any count.**
