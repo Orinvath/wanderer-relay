@@ -44078,3 +44078,57 @@ do not care how it was built.
 
 **432.5 STANDS SEPARATELY: 19 of 22 owned words still all mean JOY. This restore does not touch
 that, and it is a different matter.**
+
+---
+
+# HE IS RIGHT AND I HAVE STOPPED. **I changed the real geometry, and the map still moves.**
+
+**His words:** *"that is not their original positions... they just moved every time there was
+something added, and the rule is THEY DON'T MOVE. All you had to do is make them not moveable, what
+did you do?"* and *"make sure you are not touching anything of the real geometry — we're just
+tweaking the MEANING MAP."*
+
+## WHAT I DID, PLAINLY
+
+```
+COMMITTED  6ccf4b7   server/src/language.js   THE REAL GEOMETRY -- I put the sheet and the row
+                                              back into the mind's own space
+UNCOMMITTED          server/src/meaningmap.js  the map: the projection's directions taken from
+                     server/src/bench-routes.js the frame alone, and the feature order pinned
+```
+
+**432 told me to "restore the frame as it was before 415" and I read that as the SPACE. He is
+telling me it meant the MAP: the dots already start in the right places and the fault is only that
+they MOVE.** Those are different things and I changed the wrong one.
+
+## AND THE MAP FIX DOES NOT WORK YET EITHER — measured, not assumed
+
+**I made the projection take its directions from the 402 alone and pinned the feature ordering so
+learning cannot renumber them. The scaffolding STILL moves:**
+
+```
+learned    scaffolding dots moved by
+      1    1.1
+      5    1.1
+     20    0.44
+     60    1.1
+    150    0.59
+```
+
+**Any movement at all fails his rule. Pinning the directions is not enough on its own** — the
+projection is still recomputed and lands on the same axes with different signs and orderings, which
+is a move on screen even when the mathematics is equivalent.
+
+## SO I HAVE STOPPED AND CHANGED NOTHING FURTHER
+
+**The geometry change is committed and I have NOT reverted it, because 432 ordered it and he has
+now said the geometry is off limits — those two conflict and the ruling is his:**
+
+- **REVERT `6ccf4b7`** and leave the mind's space exactly as 415 left it, fixing only the map; **or**
+- **KEEP IT**, since it restored the map's faithfulness (+0.010 -> -0.083) and inner learning
+  (23 -> 60 words alone), both measured and both real.
+
+**The map-side work is uncommitted and stays that way until he rules. The honest position is that
+the only thing which truly cannot move is a position COMPUTED ONCE AND KEPT — and that is a
+different design from recomputing a fixed projection, which I should say before building it a third
+time.**
