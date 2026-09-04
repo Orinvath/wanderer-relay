@@ -43199,3 +43199,25 @@ status beside a name is the only thing that stays small and dim, which is the on
 should not be green.
 
 **He is on `9292925`, page and server agreed. A reload of the browser is all it needs.**
+
+---
+
+# FIXED — THE EMPTY SPACE UNDER A SHUT "THOUGHTS". **`1fe55a3`, live, reload.**
+
+**`max-height:0` clips an element's CONTENTS. It does not remove the element's own PADDING.**
+
+**When a panel is upgraded its own padding is moved onto the body, so the head can reach the
+panel's edges.** Collapsing then empties the body — **but that padding is still there, holding the
+box open by exactly its own height.**
+
+```
+THOUGHTS   8px above + 6px below   = 14px of empty space under its title bar
+```
+
+**That is the gap he arrowed, and it was on a panel with nothing left in it.** The others show it
+less or not at all because they carry less padding, which is why only that one looked wrong.
+
+**A shut body now gives up its padding and its border along with its contents.**
+
+**And his layout came through this restart too** — thirteen panels and his order, read back off the
+disk.
