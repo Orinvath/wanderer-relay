@@ -42726,3 +42726,46 @@ both already redraw themselves on a resize, so they simply take the space.**
 **The share he drags each panel to, the column boundary, what he left shut, and the order he
 dragged them into — all of it survives a reload and a restart, in the browser and nowhere near the
 mind.**
+
+---
+
+# REVERTED — THE TILING BROKE HIS PAGE. **`35f8d8d`, reload.**
+
+**His screenshot: panels overlapping each other, the dials and the neighbourhood key printed
+through COLOUR/PULSE/MOTION, the right column collapsed to a sliver.** *"I dont know what is
+happening here but something is wrong."*
+
+**It was mine and it is out.** `7861955` is reverted. **The panels are back to collapsing, dragging
+and the uniform 12px gap, exactly as they were before I attempted the tiling.**
+
+## AND THE STORED LAYOUT IS RESET WITH IT, WHICH THE REVERT ALONE WOULD NOT HAVE DONE
+
+**The tiling had written column widths and per-panel shares into his browser. Reverting the CODE
+does not remove what is already in local storage — he would have reloaded a working build still
+wearing the broken layout.** The storage key is bumped, so the page comes back clean and he has
+nothing to clear by hand.
+
+## WHY IT FAILED, so it is not attempted the same way again
+
+**I made every panel a SHARE of a full-height column. The page is not built that way:** the columns
+size themselves to their contents, several panels hold ABSOLUTELY POSITIONED children — the two
+dials, the neighbourhood key, the verdict — and those anchor to the panel body, which the shares
+were shrinking underneath them. **The overlaps in his screenshot are exactly that.**
+
+**A real tiling layout means the page has to be a tiling layout throughout, not panels retrofitted
+with flex shares. That is a rebuild of the page's structure, not a style sheet, and I should have
+said so before building it rather than after he saw it.**
+
+---
+
+# AND THE SCROLLBARS NOW WEAR HIS SCHEME
+
+**His words:** *"scroll bars should match the color scheme of the rest of the interface."*
+
+**They were the browser's default light grey — the one thing on the page that was not his
+palette, a bright bar down the side of a dark instrument.** Track in the panel colour, thumb in the
+line colour, and the same steel blue he has everywhere on hover. **Both syntaxes, so it looks the
+same in Chrome and in Firefox.**
+
+**The vertical gaps came back with the revert** — the 12px between panels was part of what the
+tiling replaced.
