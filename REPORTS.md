@@ -42243,3 +42243,47 @@ newborn that reads as 402 alarms for a mind that is simply new.
 own law that red must be alarming, and this makes it ordinary — **so if he wants the not-yet colour
 moved off red, or 349 amended to say red also means "not yet", that is his call and one word
 settles it.**
+
+---
+
+# HE ASKS IF THE RED DOTS AND A RED CORE ARE LINKED. **THE DATA SAYS NO, AND HERE IS EVERY CHECK.**
+
+## WHAT THE CORE IS ACTUALLY BEING TOLD TO DRAW, right now, off his own bench
+
+```
+last happening felt : []
+happening mood      : { "type": "joy", "strength": 0.219 }
+what the Core shows : "joy"
+his 22-hue ruling   : joy = 260 degrees   -> BLUE-VIOLET
+```
+
+**The Core is being handed joy at hue 260. That is blue-violet — the far end of his palette from
+red.** In his own 270.D table RED is hue 0, which is FEAR, and the mind has felt nothing at all
+across the last 40 moments.
+
+## AND MY CHANGE CANNOT REACH IT
+
+```
+the red-dots commit touched:  bench-routes.js  ·  meaningmap.js
+the Mind Map loads:           mindmap.js  ·  core.js       NEITHER WAS TOUCHED
+```
+
+**Both scripts are `type=module`, so the colour constant I added is module-scoped and cannot leak
+into the Mind Map's own script.** Separate canvases, separate GL contexts, separate scopes. **There
+is no mechanism I can find for one to colour the other, and I looked for one rather than assuming.**
+
+## SO THE MOST LIKELY THING HE IS LOOKING AT, AND IT IS MY DOING
+
+**THE MEANING MAP'S CENTRE IS NOW A DENSE RED BLOB.** 402 words, **351 of them stacked on one spot**
+(measured and reported earlier), and as of an hour ago **every one of them is red because none is
+known yet.** A tight pile of red dots at the middle of the right-hand panel reads exactly like a
+red core.
+
+**ONE LOOK SETTLES IT:**
+- **right-hand panel** -> that is the unknown-word pile, and it is mine. It will thin out and turn
+  blue as the mind learns, and zooming in will spread it apart.
+- **left-hand panel, the breathing glow at the centre of the Mind Map** -> that is the Core, the
+  data says it should be blue-violet, and if it is red on his screen then something IS wrong and I
+  want to know, because nothing in the numbers accounts for it.
+
+**NOTHING CHANGED. I am not going to alter a colour on a guess about which map he means.**
