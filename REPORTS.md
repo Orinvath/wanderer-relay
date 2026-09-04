@@ -43131,3 +43131,36 @@ c80434d  LESSONS' title font
 
 **Plus the layouts-on-disk work.** **His arrangement survives the restart** — it is keyed by the
 panels' own names and a restart writes nothing.
+
+---
+
+# RESTARTED — AND HIS LAYOUT CAME THROUGH IT. **`9292925`, page and server agree.**
+
+**Four titles were still grey — THE MIND MAP, THE MEANING MAP, CHAT LOG, LESSONS — and he asked
+whether I had missed them.**
+
+**I had not. He was clicking `536260b`, which contains none of the colour work.** So rather than
+tell him that again, I checked the rule covers all four SHAPES of head first:
+
+```
+the lifted row itself is green   -> THE MIND MAP · THE MEANING MAP  (text carried directly)
+its first child inherits green   -> CHAT LOG · LESSONS              (name inside a span)
+only what FOLLOWS goes dim       -> the live status beside a name
+```
+
+**Then I restarted, which I had been holding off on at his word — and the reason he gave for that
+is now handled: THE LAYOUT IS ON DISK.** It was written through before the restart and read back
+after it. **His arrangement is exactly as he left it, including which panels he had shut.**
+
+## WHAT IS NOW LIVE — the seven that were waiting
+
+```
+the chat log collapses and drags at all      the talk field is part of the chat panel
+the field sits at the FOOT of the panel      a shut panel collapses to its head
+the arrow no longer toggles twice            LESSONS' title font
+every title in the light green               and layouts saved as files on disk
+```
+
+**And the LAYOUTS button is on the top bar now** — name an arrangement and keep it, load it back
+without a reload, delete it. **Files beside the bench, not a browser store, because this runs as an
+app.**
