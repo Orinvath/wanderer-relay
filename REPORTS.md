@@ -45924,3 +45924,29 @@ check it against the record"* — and `INTENT.md` still carries **PROPOSED, NOT 
 
 **452 and 453's mechanism done. 453's finding-consequence question is blocked on him.** Next by
 number: **455**, then **457**. 454 and 456 withdrawn.
+
+**453's AFTER pass, run on the mechanism itself — and it found the mechanism was the wrong shape.**
+
+> **FINDING 1: *"What was ruled as a gate has been built as a receipt."*** The hook demanded the
+> `.before` mark only for directives that ALREADY had a report — so **the earliest moment the
+> pre-build pass could ever be asked for was the turn in which the finished work was already
+> reported.** A directive built on a bad premise reached the same end state; the finding just
+> arrived standing next to the finished work.
+
+**FIXED IN THE SAME TURN.** Every directive above the line now owes its before-pass **whether it has
+been reported or not**, so the turn cannot end while a directive waiting to be built has not been
+read. **Verified: it now blocks on `455:before` and `457:before`, which are unbuilt.** That is the
+gate 453.1 asked for.
+
+> **FINDING 2: *"Enforcement by honour with a hook's face on it."*** The proof a pass ran is a file
+> the checked party creates for itself, and nothing of the pass reaches the relay. *"The
+> mechanism's failure mode teaches the builder to forge its own evidence."*
+
+**PARTLY CLOSED, AND THE REST IS REPORTED RATHER THAN HIDDEN.** A mark must now be **non-empty and
+carry what the pass said**, so an empty `touch` no longer clears the block and there is something to
+open and read. **The deeper limit stands: a hook cannot prove a subagent ran** — and **442's review
+hook has the identical weakness**, which he accepted then and should know applies here too. If he
+wants it closed, the honest way is the findings landing on the relay in the report, which is what
+442.A.3 already requires and what these reports do.
+
+**Both passes' findings are written into their marks in full, not summarised.**
