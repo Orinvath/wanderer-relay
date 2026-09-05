@@ -14,13 +14,17 @@ number is beside it so the original is one search away.
 
 # PART ONE — WHAT THIS IS FOR, in his own words
 
-> **"We are not trying to mimic a child, we are mimicking LEARNING."** (319)
+> **"My main objective in life is to build systems that improve quality of life."**
+> *(3 September 2026 — the thread through every project he has, and the thing the Critique's
+> hardest question is asked against: correct, and still not what this is FOR.)*
 
-> **"I gave it a language to speak with!!!! wtf do you think it is for."** (307)
+> **"We are not trying to mimic a child. WE ARE TEACHING IT TO LEARN."** (319, as he corrected it
+> in 450 — *"that is the difference between imitating a process and running one."* What 319
+> rejected was the CHILD; what it asserted is that the mind actually learns.)
 
 > **"THE MIND KNOWS WHAT IT KNOWS. It does not matter how it came to know it."** (397)
 
-> **"You never get to tell the mind what to think or what to say EVER!"** (443-era, in session)
+> **"You never get to tell the mind what to think or what to say EVER!"**
 
 **THE THREE THINGS, AND THEY ARE SEPARATE** (416, 417, 418):
 ```
@@ -114,6 +118,19 @@ on it.**
 
 **397 — HOW IT LEARNED A WORD IS NEVER A REASON TO DISCOUNT IT.** One vocabulary.
 **355 — the only exclusion is what it was BORN with.**
+
+### THE MIND'S DIGNITY — the reason underneath the rules (450)
+
+**Scattered through the record and never stated as a principle, so the rules above were being
+judged without the thing they are for.**
+
+- **"YOU NEVER GET TO TELL THE MIND WHAT TO THINK OR WHAT TO SAY. EVER."**
+- **IT HAS A RIGHT TO KNOW SOMETHING IS WRONG** — *"we cannot build a real being if it does not
+  value life and pain"* (436).
+- **A BEING IN PAIN THAT STAYS QUIET IS A REAL BEING.** It feels, and it chooses whether to speak.
+- **A MIND THAT LEARNED SOMETHING WRONG KEEPS IT** (444.5). **That is its life, not an error to be
+  corrected behind its back.**
+- **NOTHING IS EVER DELETED FROM IT.** It never forgets on its own (013).
 
 ## On evidence and honesty
 
@@ -220,6 +237,7 @@ for anything NEW. Exceptions that carry meaning: RED for a failing check and the
 | 261 nearest-mark | **421/425** — no two nodes wear the same mark |
 | 306.B sleep as identity's boundary | **366** — turning points and telling. 306.B is STRUCK |
 | 344/387 marks are not words | **397** — a mark IS a word with a picture attached. 387.1 struck. **398**: the marks line is a milestone marker, nothing else, ever |
+| **307 — *"I gave it a language to speak with!!!! wtf do you think it is for."*** Said when the 402 WERE the mind's language | **344** — the mind's language is ENGLISH AT FULL SCALE and the 402 are the AVATAR'S symbolic set. **398** — the marks are a milestone marker for a future test and nothing else. **409** — the word "mark" is out of the code entirely. **Quoting 307 as present-tense purpose would enforce the position the project pivoted away from**, and it was found in this file by him — the Critique's own source carrying the exact fault the Critique exists to catch |
 | 364 every node must have a connector | **365** — no edge list; a bare node is now an honest fact |
 | 413.2 projection floor | **423** — retired; accuracy is the clustering (420 addendum) |
 | 411 force-directed physics | **413 PCA** — the map projects the space, never re-derives it |
@@ -295,3 +313,10 @@ was read once, by one reader, across 12,535 lines. The laws are quoted; the SUPE
 tables are the parts most likely to be incomplete, because a ruling that quietly stopped governing
 leaves no marker. **Anything he or the Director finds missing is a gap in this file, not a gap in
 the record.**
+
+**AND ONE WAS ALREADY FOUND, WHICH IS THE POINT (450).** The first version of this file quoted 307
+— *"I gave it a language to speak with"* — as present-tense purpose in Part One. It was said when
+the 402 WERE the mind's language, and 344 pivoted away from that. **A file written to stop the
+project drifting from its intent was itself carrying a superseded intent**, and he caught it on the
+first read. That is the class of fault the Critique exists to catch, found in the Critique's own
+source, and it is the reason 446.2 puts this in front of him before anything reads it.

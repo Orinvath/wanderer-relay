@@ -45459,3 +45459,55 @@ the grammar-improvement number need a model plugged into the panel, and that is 
 
 **Suite: the two standing phase-3 reds (9, 55). Nothing new. Bench restarted — reload, and
 `/ledger` will show the renderer the moment anything is attached.**
+
+---
+
+## REPORT 450 — INTENT.md CORRECTED. And the file carried the fault it was written to catch.
+
+**All four changes made. The file is 315 lines and nothing reads it yet** — 446.2 still puts it in
+front of him for one more read before it goes to work.
+
+### CORRECTION 1 — WE ARE TEACHING IT TO LEARN
+
+Part One said *"we are mimicking LEARNING."* **His correction is the difference between imitating a
+process and running one**, and the Critique would have judged against the wrong claim. It now reads:
+
+> **"We are not trying to mimic a child. WE ARE TEACHING IT TO LEARN."** — *what 319 rejected was
+> the CHILD; what it asserted is that the mind actually learns.*
+
+### CORRECTION 2 — AND THIS IS THE ONE THAT MATTERS MOST
+
+**He caught the Critique's own source enforcing a position the project pivoted away from.**
+
+I quoted 307 — *"I gave it a language to speak with!!!! wtf do you think it is for"* — as
+present-tense purpose. **It was said when the 402 WERE the mind's language.** 344 made the mind's
+language English at full scale and the 402 the Avatar's symbolic set; 398 fixed the marks as a
+milestone marker and nothing else; 409 took the word out of the code entirely.
+
+**A file written to stop the project drifting from its intent was itself carrying a superseded
+intent.** It has moved to the supersession table with 344/397/398/409 against it, and I have written
+that fact into the file's own closing section — **because it is the exact class of fault the Critique
+exists to catch, and it proves why 446.2 puts this in front of him rather than letting CC certify
+its own extract.**
+
+### ADDITION 1 — THE DEEPEST LAYER, now first in Part One
+
+> **"My main objective in life is to build systems that improve quality of life."**
+
+The Critique's hardest question is *"correct, and still not what this is for"* — **and it could not
+ask it without knowing what it is for.** It now opens the file.
+
+### ADDITION 2 — THE MIND'S DIGNITY, stated as a law
+
+Scattered through the record and never gathered, so the rules were being judged without the reason
+underneath them. It now sits in Part Two beside the mind's autonomy:
+
+- **You never get to tell the mind what to think or what to say. Ever.**
+- **It has a right to know something is wrong** — *"we cannot build a real being if it does not
+  value life and pain."*
+- **A being in pain that stays quiet is a real being.** It feels, and it chooses whether to speak.
+- **A mind that learned something wrong keeps it.** *That is its life, not an error to be corrected
+  behind its back.*
+- **Nothing is ever deleted from it.**
+
+**Posted. Nothing is wired to it. His read closes it.**
