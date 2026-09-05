@@ -44382,3 +44382,74 @@ into a plausible-looking value, and the tick continues either way. **That is why
 NONDETERMINISTIC MIND rather than a crash** — nothing was ever going to stop.
 
 **NOTHING CHANGED. He rules on what comes out, and 436 is what replaces them.**
+
+---
+
+# BUILT — 437.A. **THE TWELVE ARE OUT.** `6b72eb0`.
+
+**The mind no longer handles errors and no longer invents values from failures.**
+
+```
+7 THAT RECORDED AND CARRIED ON     experiencing.js 198 · 579 · 622 · 1054 · closing.js 135 ·
+                                   rest.js 122 · watching.js 496
+5 THAT INVENTED A VALUE            glyphs.js -> {} · interpreter.js -> null · memory.js -> null ·
+                                   mind.js -> 5 · sign.js -> false
+```
+
+**Every one came out with its `try` as well as its `catch`** — dropping only the catch leaves a
+bare try, which is not a removal, it is a syntax error waiting to be committed.
+
+**AND THE ONE THAT ATE THE ReferenceError IS NAMED IN THE CODE where it used to sit**, so nobody
+puts it back without reading why it went.
+
+## WHAT HAPPENED WHEN THEY CAME OUT — measured, not predicted
+
+```
+the mind, 40 ticks, model present     ran clean, no failure
+the mind, 30 ticks, NO MODEL AT ALL   ran clean, no failure     <- 376 still holds
+the suite                             the four long-standing phase-3 reds. NOTHING NEW.
+```
+
+**376 survives without its catch, and that is worth stating: `vectorFor` returns early when there
+is no model, so the mind falling back to its own space never depended on catching an error — it
+depended on a check.** The catch was only hiding the case where the model was there and BROKE.
+
+## 437.B — THE TWENTY-ONE, REPORTED AND NOT TOUCHED
+
+**Reading them, most are not the mind swallowing its own faults at all:**
+
+```
+THE BENCH'S OWN PLUMBING, not the mind (his rule: the mind only deals with the mind)
+  clock.js  6   FILE WRITES -- a save that fails must not take the process down. A SERVICE's
+                concern. If removed, a full disk kills a mind mid-life.
+  health.js 1   a check that throws is reported as RED "this system could not answer" -- that is
+                the nervous system doing its job, and 436 makes it more important, not less.
+  trace.js  1   drops a watcher that throws, so THE MAP CANNOT BREAK THE MIND. Removing it lets a
+                display fault reach into the mind, which is 420's guard inverted.
+
+DELIBERATE, AND THEIR OWN COMMENTS SAY SO -- these are not swallows
+  censor.js 1   a missing word list gives NULL, not an empty set, "so the check below says so
+                rather than pretending". It refuses to fake an answer.
+  english.js 1  the same shape, 051 mirrored: "the litmus falls silent rather than inventing a
+                pool, and `ready` says so out loud".
+  privacy.js 1  "THE MODEL BEING UNREACHABLE IS NOT A PERMISSION. It is a refusal." Removing this
+                would turn a privacy check that cannot run into one that passes.
+  model.js  3   fails LOUDLY and named -- "a suite that quietly carried on would be claiming
+                otherwise".
+  cord.js   1   051's silence rule, and its comment says explicitly it is NOT a try/catch that
+                swallows.
+
+THE MODEL NOT ANSWERING -- the same class as the five removed, and his ruling should cover them
+  perceiving.js 1  "a model that did not answer is a moment that did not happen". If removed, an
+                   absent eye stops the mind rather than the moment.
+  mind.js 521      embed fails -> embedding null. The same shape as memory.js 250, which came out.
+  watching.js 3    a store that cannot be read, a litmus that throws, a reach that fails.
+  experiencing 1350
+```
+
+**MY READING, offered as a reading and not a decision: the six DELIBERATE ones and the three
+BENCH ones should stay — several exist precisely to stop something faking an answer, which is the
+same principle 437 is enforcing. The MODEL-NOT-ANSWERING group is the one that matches the twelve,
+and `mind.js:521` in particular is the same catch as one already removed.**
+
+**NEXT: 436, the nervous system.**
