@@ -44762,3 +44762,33 @@ have. **This was found by him asking whether needs was genuinely failing, not by
    by what he and the Director write.
 3. **436.B.4** — should chronic wrongness damp curiosity, and how much is left at full chronic.
 4. **The three meter numbers** — how sustained is a halt, how much slower is recovery, and the bands.
+
+---
+
+## REPORT 441 — THE METER IS PART OF THE NODE NOW, IN THE GLYPH'S OWN SPACE
+
+**HIS FINDING WAS RIGHT AND THE OLD DRAWING WAS WRONG.** The meter was its own small sprite parked
+to one side of the mark. It moved with the node, but it sat OUTSIDE the glyph's footprint — and on a
+board of 42 with nodes close together there is no telling whose meter is whose.
+
+**WHAT IT IS NOW:** the meter's canvas is **the same shape and the same size as the sigil**, drawn at
+**the same position**. The bar sits hard against the glyph's left edge, inside its own box, and the
+rest of the canvas is transparent. **It is not near the node, it is IN the node's space.**
+
+That answers 441.2 without any work: it needs no offset, no follow logic and no separate scale to
+keep up through rotation, zoom and pan, because it is drawn in the same square as the mark.
+
+**ONE CONSEQUENCE CHECKED:** the node's sigil scale is fixed after it is created — only the CORE's
+layers breathe — so a meter locked to that scale stays locked and cannot drift out of the footprint.
+
+**441.4 HOLDS:** the meter's meaning, its green-to-red range, its falling, and 440's red-pin ruling
+are all untouched.
+
+**THE TEST IS HIS EYE AND ONLY HIS** (441.3, 118): nodes close together, and can he say which meter
+is whose without hovering. **The bench on 8793 was restarted and is serving it — reload.**
+
+### AND ITEM 6 ON THE OPEN LIST IS CLOSED
+
+**"HIS BENCH IS RUNNING OLD CODE"** — it was, since yesterday 16:59, through both 436 and 439/440.
+He told CC to put it back to normal, the restart went through on the second attempt, and **8793 is
+now serving today's build**. Confirmed by asking the server itself, not by assuming.
