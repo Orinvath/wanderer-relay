@@ -12605,3 +12605,56 @@ it has nothing to say.
 
 **AND SAY WHAT THE SECOND PASS COSTS** — the first was measured on
 436; measure this one too before it is put to work.
+
+## Directive 449 — THE RENDERER GETS A CALLER, AND THE MIND LEARNS FROM THE CORRECTION
+
+**THE FEATURE** — the model rendering the mind's line into correct
+grammar, AND THE MIND LEARNING FROM THAT CORRECTION.
+
+**WHY IT MATTERS** — its grammar today is word-order statistics from
+its corpus, which is why its lines come out long and shapeless.
+CORRECTION IS HOW FORM IS ACTUALLY LEARNED. And it is the only thing
+that makes a renderer worth having at all: polish the mind cannot
+learn from is decoration.
+
+**WHAT WENT WRONG** — measured on his bench: **158 of 158 model calls
+are the correctness check. Zero rendering, ever.** `rendering` is
+reachable from exactly ONE place, `interpreter.js:339`, and 352 struck
+that file. **The renderer died as collateral when he killed the chat
+interpreter**, and nothing pointed at it, so nobody noticed. He has
+been trying to judge something that was never there.
+
+**THE SCIENCE** — corrective feedback is how syntax is acquired:
+hearing the right form after producing a wrong one is the mechanism.
+Row to REFERENCES.md per 227.
+
+**HE HAS RULED** — TODO 12, today: when the model rewords the mind's
+line into correct grammar, THE MIND LEARNS FROM THAT CORRECTION, so
+the corrected pattern goes into what it knows about word order and
+the model becomes a teacher of form rather than a polish. And 324.C:
+the model does FORM ONLY, the censor guards it, and its own grammar
+carries more as its corpus thickens.
+
+### THE RULING
+1. **THE RENDERER GETS A CALLER OF ITS OWN**, independent of the
+   struck interpreter. The mind forms its line; if a model is
+   attached, it is rendered.
+2. **THE CORRECTED PATTERN ENTERS WHAT THE MIND HAS HEARD.** This is
+   the whole point. It learns the SHAPE, not only wears it — the same
+   machinery that learns word order from the teacher (`watched`).
+3. **THE CENSOR IS UNCHANGED AND STILL GUARDS IT** (242.2, 324.C.4):
+   every content word traces to the record or the line is refused and
+   the mind's own line stands. A refused rendering teaches nothing —
+   say the refusal rate.
+4. **NOTHING CHANGES WHEN NO MODEL IS ATTACHED.** The mind speaks its
+   own line, as it does today, and learns nothing from a correction
+   that never happened. 375 is untouched.
+5. **IT IS FORM ONLY.** The model may not add meaning, and what the
+   mind learns from it is WORD ORDER — never a new word, never a new
+   association.
+
+### PROVE IT ON HIS BENCH
+Post his mind's own line beside the rendered line, several of each,
+for his eye. Then say whether its OWN grammar improves over a stretch
+— the corrected patterns should start appearing in lines the model
+never touched. **That second number is the whole claim.**
