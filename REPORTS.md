@@ -45808,3 +45808,60 @@ Director's word · or the BEFORE pass on every directive and the AFTER pass only
 change and it is not CC's to make.**
 
 **Everything else is ready. `INTENT.md` goes to work the moment that is answered.**
+
+---
+
+## REPORT 452 — THE IN-ORDER LAW IS A HOOK NOW. And building it found the fault it exists to catch.
+
+**IT WORKS.** On his relay right now it blocks with:
+
+```
+BLOCKED by 452: directives on the relay with no report: 452 453 455 457
+THE LOWEST-NUMBERED UNFINISHED ONE IS WHAT YOU WORK ON NEXT: 452
+```
+
+It pulls the relay first (452.1), names them by number (452.2), points at the lowest (452.3), skips
+withdrawn ones because **the withdrawal is itself on the relay** (452.4), and honours
+`stop_hook_active` so it cannot deadlock a session (452.5) — proved: exit 2 blocking, exit 0 with
+the guard.
+
+### AND IT ALMOST SHIPPED LYING. TWICE.
+
+**452 says this is a yes/no question, and the whole value is in the answer being true.** Two obvious
+tests both failed, and I only found out by measuring them against directives I could verify.
+
+**ATTEMPT 1 — a bare number match.** It passed 453, 455 and 457 as *reported*, because
+`REPORTS.md` contains **"LIFE now 453 green"**, **"455 GB still free"**, and a commit hash with
+`457` in it. **THAT IS A HOOK SILENTLY WAVING THROUGH THREE UNBUILT DIRECTIVES** — the precise fault
+it was written to stop. A false negative here is far worse than a false alarm.
+
+**ATTEMPT 2 — requiring the word REPORT or Directive near the number.** It flagged **46**, most of
+them long done.
+
+**WHAT SHIPPED WAS MEASURED, NOT GUESSED:** the forms the reports actually use — headings, prose
+(*"428's claims"*), sub-clauses (*"419.6"*), pairs (*"439/440"*), parentheses, and a dash before a
+title — **tested against known-reported and known-unreported directives until it had neither a false
+positive nor a false negative.**
+
+### WHERE IT STARTS LOOKING — derived, not chosen
+
+**452 names its own fault exactly:** *"CC had not pulled, so A DIRECTIVE IT NEVER SAW sat unbuilt
+while later work went ahead."* That is about directives **arriving** and being stepped over.
+
+So the line needs no threshold: **the highest-numbered directive that HAS a report, and anything
+above it that has none.** No number is picked and it catches precisely the fault named.
+
+**WHY NOT ALL OF THEM, AND HE SHOULD KNOW THIS: 66 older directives have no report carrying their
+number.** Most were answered inside another report that never cited the figure — but **148 and 428
+are not that**: they appear in `REPORTS.md` only inside a process id and a commit hash, and **428 is
+the node claims, which the record already lists as unbuilt.**
+
+**A hook that blocked on 66 would block every turn forever, and 452.5's no-deadlock guard would then
+make it theatre.** So the historical gap is reported here rather than swept into a hook that would
+be useless at the job it does have. **How that gap is worked through is his** — it is the same shape
+as 430's 89 rows.
+
+### THE QUEUE
+
+**452 done. Next by number: 453** — the Critique runs automatically, both passes, and `INTENT.md`
+goes to work. Then **455**, then **457**. 454 and 456 are withdrawn.
