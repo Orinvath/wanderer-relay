@@ -12775,3 +12775,22 @@ whether it had anything to do and it said no — while 450 was already
 on the relay, unpulled.** The Critique cannot go to work until 450 is
 built, so a missed pull is now blocking the thing that catches missed
 intent.
+
+## Directive 453 — THE CRITIQUE RUNS AUTOMATICALLY, BOTH PASSES
+
+**HIS RULING, in his own words:** *"Automatic or not really doing its
+job."*
+
+A Critique that runs when someone remembers to ask for it is not a
+check — it is an option, and the faults it exists to catch are
+precisely the ones nobody thinks to ask about.
+
+1. **BOTH PASSES RUN AUTOMATICALLY.** The first on every directive
+   before the build; the second on the result after.
+2. **THE COST IS ACCEPTED.** About 99k tokens for the pair, roughly
+   one code reviewer — and they answer a question no reviewer asks.
+3. **IT READS `INTENT.md`**, which 450 corrected and he has now read.
+   446.2 is satisfied and the file may go to work.
+4. **A PASS WITH NOTHING TO SAY SAYS SO PLAINLY** (445). A critique
+   that always finds something teaches us to ignore it.
+5. **IT REPORTS AND RULES ON NOTHING.** Unchanged.
