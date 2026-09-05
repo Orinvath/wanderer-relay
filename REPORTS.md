@@ -45618,3 +45618,39 @@ the seeing.** 393.4 asked for exactly this to be reported before the voice slot 
 has now made it live.
 
 **His ruling follows, as 451.4 says. Nothing changed.**
+
+---
+
+## REPORT — THE IN-ORDER CHECK. Three directives were never reported, and two are genuinely unfinished.
+
+**His order: when I check for directives, check IN ORDER and make sure none was skipped.** He was
+speaking about 450, and said the rule stands for all future checks. I ran it over the whole record
+rather than only the last one, because 336's lesson is that a skipped directive can survive an
+audit that trusts reports.
+
+**METHOD: every directive number in `DIRECTIVES.md` searched against the whole of `REPORTS.md` —
+and then each finding verified AGAINST THE CODE (385), not against what a report claimed.**
+
+### THREE ARE MENTIONED NOWHERE IN REPORTS.md
+
+| # | what it ordered | the code says |
+|---|---|---|
+| **423** | *"REMOVE THE UNUSED SWITCH rather than leaving a disabled gate in the code for someone to turn on later."* | **NOT DONE.** `bench-routes.js:1112` still sends `tooFlat: false` and `meaningmap.js:659` still holds the gate. **The disabled gate 423 ordered removed is exactly where it was**, wired off, waiting for someone to turn it on |
+| **424** | *"leave it… nothing changes. This is closed."* | **NOTHING TO DO, AND THAT IS TRUE** — LEARNING and GROWTH still wear their own names. But **it was never reported**, so the record cannot show it was read rather than missed |
+| **430** | go back through 115 commits and add every missing `MIND_DECISIONS` row | **NEVER STARTED.** The ledger held 45 rows when 430 was written and holds 53 now — the eight I added for work since. **The 115-commit sweep has not been done** |
+
+### WHAT THIS MEANS FOR THE QUEUE
+
+**By the in-order law the next work is 423, then 430** — both older than everything built this
+session, and both stepped over. **430 is the heavier one**: it is the mechanism protecting the
+mind's autonomy from us, and it has been unenforced for 115 commits plus everything since.
+
+**I am not starting either without his word.** 430.4 says the count is reported first and **he
+decides how it is worked through** if it is large.
+
+### AND WHY THE CHECK IS WORTH KEEPING
+
+**My first two attempts at this audit were wrong** — the patterns matched report headings that do
+not exist in that form, and flagged nearly every directive as missing. I did not post either. **A
+list that cries wolf is worse than no list**, and the only reason this one is trustworthy is that
+the three it names were each opened and read in the code afterwards.
