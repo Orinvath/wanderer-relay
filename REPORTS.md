@@ -44792,3 +44792,106 @@ is whose without hovering. **The bench on 8793 was restarted and is serving it �
 **"HIS BENCH IS RUNNING OLD CODE"** — it was, since yesterday 16:59, through both 436 and 439/440.
 He told CC to put it back to normal, the restart went through on the second attempt, and **8793 is
 now serving today's build**. Confirmed by asking the server itself, not by assuming.
+
+---
+
+## REPORT 442 — THE HOOKS ARE IN, AND THE FIRST REVIEW FOUND FIVE DEFECTS IN WORK I HAD ALREADY REPORTED AS DONE
+
+**THE MECHANISM WORKED ON ITS FIRST DAY, AGAINST ME.** The Stop hook blocked my own turn from
+ending, and the fresh reviewer found **four faults I had not found and would not have found**, in
+code I had already reported to him as working. That is the directive proving itself.
+
+### A · THE REVIEW, AND ITS FINDINGS IN FULL
+
+`/code-review` is a built-in this terminal is told not to launch, so a hook demanding it would jam
+every turn. **What 442.A.1 actually asks for was built instead:** a fresh subagent given ONLY the
+diff and the criteria — never the reasoning that produced it. **Five findings, most severe first,
+verbatim as to file and line.**
+
+---
+
+**1 · `needs.js:367-370` — THE CHECK FIRES HARDEST WHEN THE AVATAR IS DOING WELL.**
+Rule 3 flags the only legitimate way relatedness can rise. `conforms` is never told whether anybody
+is present, so it infers "nobody there" from "relatedness rose and nothing else did" — and **both
+writers that can raise relatedness are host-gated and both raise it alone**: `told()`
+(`offers.js:467`) and `consequences()` (`offers.js:481-484`).
+**Failure:** host present, the mind chooses `speaking`. No EARNS offer, so competence is untouched;
+autonomy has no refill path at all. The consequence lands after `lastLedger` was snapshotted, so
+next tick sees relatedness up ~0.6 and the other two flat → `relatedness rose alone`. **Sixty ticks
+of conversation → halt.**
+
+**2 · `bench-routes.js:75-78` — THE METER HALT CAN NEVER BE ACKNOWLEDGED, and it re-creates the
+322.A continue/halt loop.**
+`seen()` keys on `offender`, which for a meter is `why[0]` — a string carrying live ledger values,
+different nearly every tick. **`Meter.halted` also latches permanently and never resets when the
+level falls.**
+**Failure:** meter fills at tick 900, he presses Continue, the acknowledgement is keyed to
+`relatedness rose alone, 3.21 -> 3.85`; the next beat's key is `3.85 -> 4.41`, so **the halt returns
+and the beat stops again, indefinitely.** Second path: the node is genuinely repaired, `why` empties,
+`offender` becomes null — a new key again, `halted` still true, **so the bench halts on a node that
+is now healthy.**
+
+**3 · `mindmap.js:966-967, 986` — 24 OF THE 25 SYSTEMS CAN NEVER PIN AGAIN, AND A COUNTER HALT
+FREEZES THE BENCH WITH NOTHING MARKED.**
+Only `needs` has a meter, and the pin is now driven solely from `h.meters` — **but the 293 halt still
+fires on the first violation of any system.**
+**Failure:** the appraisal check goes red at tick 300, the beat stops, the school stops — **and every
+node on the map draws at opacity 0. He is shown a frozen mind with no red anywhere.** That system
+used to pin. **THIS ONE IS MINE AGAINST 440'S OWN WORDS:** the ruling says the pin means "THIS IS
+WHAT HALTED THE MIND", and I wired it to meter halts only instead of to whatever halted it.
+
+**4 · `needs.js:358` — THE "OR AN EVENT" LICENCE IS NEVER ACTUALLY HONOURED.**
+The first branch ignores the `events` flag entirely, so `hours <= 0` makes any movement a fault even
+on the span where events are explicitly permitted.
+**Failure:** two ticks in the same millisecond (`watching.js:594-598` gives `hours = 0`), or any
+harness ticking with a fixed clock. Last tick's `consequences()` moved competence 4.2 → 4.8, and the
+tick-to-tick call — which passes `events: true` **precisely because events are lawful there** — emits
+`competence moved 4.2 -> 4.8 with no hours and no event`.
+
+**5 · `experiencing.js:42-44` — TWO NUMBERS CROSS THE BOUNDARY, NOT ONE.**
+436.A.1 permits one. `chronic` is a second, independent of `wrongness`, and `says` is a third field.
+**No identity leaks** — nothing names a system, file, counter or rule. If `chronic` is intended
+(436.B.4) this is a wording conflict rather than a breach, but it is reported because the rule says
+ONE. **And `says` is the CC-authored sentence already reported as a violation; it is still in.**
+
+**6 · OPTIONAL — `needs.js:367`:** `?? 0` makes any positive relatedness read as "rose" when
+`before` is absent. Unreachable from `watching.js`, but `conforms` is exported as
+`NEEDS_SHAPE.conforms`, so an outside caller passing `{}` gets a false fault on a fresh ledger.
+
+**AND WHAT IT CHECKED AND FOUND SOUND**, reported because a review that only ever finds fault is not
+a measurement: the meter's climb has no off-by-one (1/60 reaches exactly 1.0 at 60, verified
+numerically); **`safety`'s old `threat ?? arousal ?? 0` semantics are preserved exactly** inside the
+`Math.max`; wrongness raises a worth rather than selecting, so it genuinely competes; and there is no
+unbounded growth — `why` capped at 8, `byNode` bounded, `lastLedger` replaced, and the meter texture
+disposed before it is replaced.
+
+### B · THE THREE HOOKS, AND EACH WAS PROVED BY TRYING THE THING
+
+| hook | blocks | proved |
+|---|---|---|
+| `block-unnamed-commits.sh` | `git add -A` · `git add .` · `git add --all` · `git commit -am` · `git commit -a` | **all five refused; `git add <file>`, `git commit -m`, `git add -p` pass** |
+| `block-real-geometry.sh` | any write to `language.js` or `geometry.js` | **both refused; `meaningmap.js` and `needs.js` pass** |
+| `require-review.sh` | ending a turn when code changed and no fresh reviewer saw that state | **blocked, then allowed once reviewed; honours `stop_hook_active` so it cannot deadlock his session** |
+
+**AND THE REVIEW HOOK PROVED ITSELF ON A LIVE TURN — it stopped mine.** I had reported the hooks as
+inert until a restart, on the evidence of one probe; **the Stop hook then fired for real minutes
+later. That statement was wrong and this corrects it.**
+
+### C · WHAT WAS PRUNED
+
+**THE REAL GEOMETRY LAW.** 32 lines in `CLAUDE.md` → four lines and a pointer; the full account,
+including 420's guard clause and the fact that I quoted it while building 420 and then edited
+`language.js` twelve directives later, now lives in **`meaningmap.js`'s header, beside the code it
+governs**. `CLAUDE.md` 728 → 708 lines. **Nothing else was pruned:** the only other law a new hook
+covers — named files only — was never in `CLAUDE.md` to begin with.
+
+### WHAT CC IS WAITING ON
+
+**Five defects are in his build right now and none is fixed, because fixing is not CC's call.** The
+fixes are each one thing:
+1. **(1 and 4)** `conforms` is told whether a host was present and whether an event landed, instead
+   of inferring it. **That is shape, and 439.3 says the shape is his and the Director's, never CC's.**
+2. **(2)** the meter halt is keyed on the node rather than on a live value, and `halted` clears when
+   the level falls.
+3. **(3)** the map pins whatever halted the mind, counter or meter — which is what 440 said.
+4. **(5)** `says` comes out, on the go he has already been asked for.
