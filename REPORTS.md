@@ -44959,3 +44959,80 @@ have been done with live uncommitted work in the tree.**
 
 **Item 1 on the OPEN list is no longer theoretical.** PHASE 3 stopping the run is what let a dead map
 through, and the check that would have caught it has been sitting in the suite unable to execute.
+
+---
+
+## REPORT 444 — KNOWN CORRECTLY IS RUNNING, AND THE REVIEW CAUGHT A CHECK THAT COULD KILL HIS BENCH
+
+**IT WORKS AND IT CAUGHT A REAL ERROR ON HIS OWN MODEL.** Given eight bindings it judged
+**HOT = CHILLY wrong** and the other seven right, including JOY/SORROW as genuinely associated.
+`correctness.js` is its own node; when learning binds a word to a meaning it records the pair, and
+behind the tick a model is asked whether the two are associated in English.
+
+### THE COST, MEASURED ON HIS BENCH — 444 asked for this rather than a guess
+
+| | |
+|---|---|
+| per model call | **1315 ms** (qwen2.5:14b) |
+| bindings the mind actually makes | **55.7 per 100 ticks** |
+| at real time (4 s/tick) | **~8.4 bindings per minute** |
+| what the check can score | **~45 per minute** |
+
+**SO IT DOES NOT NEED SAMPLING AND IT DOES NOT NEED BATCHING**, and nothing has been sampled: every
+binding is scored, and `waiting` says how far behind it is.
+
+**BUT THERE IS ONE COST I WILL NOT DECIDE, AND 444 SAYS TO STOP AND ASK.** `model.js` runs **ONE
+QUEUE ACROSS BOTH ROLES** — its own words, "two configured names are still one GPU". So a scoring
+call sits in front of the next tick's own model work, and the mind's clock is real-time derived.
+**That means the mind's pacing is not bit-identical with the check running and without it.** I put
+four calls per beat behind the tick and **four was my number, not yours.** The choice is yours:
+leave it, lower it, or give the check its own model connection so it never queues behind the being.
+
+### WHAT THE REVIEW FOUND, AND THE FIRST ONE WAS SERIOUS
+
+**1 · A SILENT MODEL WOULD HAVE ENDED THE WHOLE BENCH PROCESS.** The scoring is fire-and-forget from
+the beat, so a rejected call became an unhandled rejection — **and Node kills everything: the beat,
+the school, the halt banner and the page, with a message naming a model URL rather than the check.**
+`model.js` says in its own comments that Ollama is started by hand here and not running is a
+**routine** state. **A binding nothing could score is UNSCORED now**, which is the honest answer,
+and there is a second catch on the call itself.
+
+**2 · THE "NO MODEL" BRANCH COULD NEVER FIRE.** 376 made the brain open WITHOUT a model, so
+`brain.model` is always an object whether or not anything is serving — **so the panel would have read
+"nothing scored yet" while every single call was failing.** It asks whether anything ANSWERED now,
+and it names the silence.
+
+**3 · A LOADED BEING WAS WEARING THE PREVIOUS ONE'S SCORE** — and worse, the old life's list of
+already-judged pairs silently swallowed the new life's identical bindings, so they were **never
+counted at all, not even as unscored.**
+
+**4 · THE QUEUE GREW FOREVER** wherever nothing drained it. Both lists are capped now, and
+**nothing dropped is ever called scored** — past the cap it counts as unscored. Verified: 6000
+bindings, all 6000 accounted for.
+
+### AND IT IS DORMANT, WHICH IS AN ANSWER RATHER THAN A DODGE
+
+**A wrong binding does not go red, because red halts the bench and a two-year-old learning a word
+wrong is a two-year-old, not a fault** — that is 444.5. A dormant system is defined here as one
+whose **bar nobody has ruled**, and **whether an error rate should ever go red, and at what level, is
+exactly the threshold 444 left open and 250 forbids me to pick.** Its count comes from the violation
+ledger so 254.D's forced-fail proves the check can move — **verified grey/0 → grey/1 → grey/0** —
+and nothing bumps it in ordinary life. The numbers live on the gauge beside KNOWN WORDS, which is
+where 444.3 asked for them.
+
+### THE HONEST LIMIT, SHOWN WHERE THE NUMBER IS
+
+Beside every reading, in the panel and in the health row: **"a model judged these; a model is not
+ground truth."** It is far better coverage than a 12,000-word file and it is still a judgement.
+
+### AND ONE THING THAT IS NOT MINE BUT IS WORTH HIS EYE
+
+**Checks 66 and 67 fail in the full suite and PASS when phase 3 is run on its own**, at the same
+commit — so they are order- or state-dependent, not 444. When 66 fails it cascades into a
+`TypeError` that **kills the run**, which is how OPEN item 1 keeps hiding everything behind it.
+
+I also fixed a check of my own making: `acceptance-life.js` asserted **exactly 25 systems** and 444
+adds a 26th, so it would have fired on the build working — 306.D. It reads the list now.
+
+**The bench on 8793 is restarted and serving all of it — 26 systems, KNOWN CORRECTLY on the gauge.
+Reload.**
