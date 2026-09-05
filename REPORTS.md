@@ -45541,3 +45541,80 @@ sweep. **They stand as written.**
   will not pick.
 - **449's proof needs a model attached.** `perception.json` is still `{}`, so there are no real
   renderings to put in front of him.
+
+---
+
+## REPORT 451 — EVERY RENDERING IS REFUSED BECAUSE THE MODEL RETURNS NOTHING AT ALL
+
+**CHANGED NOTHING (451.4).** This is the reasons, read from the ledger 449 built.
+
+### 1 · THE REASON, VERBATIM — AND IT IS THE SAME EVERY TIME
+
+```
+calls 27 · rendered 0 · refused 27 · refusal rate 1.0 · taught back 0
+reasons: { "nothing rendered": 27 }
+```
+
+**Twenty-seven of twenty-seven, one reason: `nothing rendered`.** That is **one fault**, as 451.1
+asks me to say plainly.
+
+**AND THERE ARE NO RENDERINGS TO POST BESIDE HIS LINES, because none was ever produced.**
+`recent` is empty — it only records what passes. What the ledger says is that the model was asked
+27 times and **answered with an empty string 27 times.**
+
+### 2 · THE REFUSALS ARE NOT THE CENSOR'S DOING. IT NEVER SAW A LINE.
+
+`nothing rendered` is `censorOutbound`'s **first line** — the empty-input guard, before any tracing:
+
+```js
+const text = String(line ?? '').trim()
+if (!text) return { pass: false, reason: 'nothing rendered' }
+```
+
+**So the censor is neither working nor wrong here — it was handed nothing and said so.** The fault
+is entirely upstream, and it is not my parsing either. I asked his attached model **the exact
+question the renderer asks** and read the raw reply:
+
+```
+RAW REPLY: ""
+```
+
+**Empty at the source.**
+
+### 3 · THE FRAGMENT THEORY IS RULED OUT AS THE CAUSE — but he is right about what happens next
+
+**These were not attempts to complete a fragment. There were no attempts.** Nothing was produced to
+judge.
+
+**THE ACTUAL CAUSE IS THE MODEL HE HAS ATTACHED.** `moondream:latest` is in the slot, and it is a
+**vision** model. On text alone it does not work:
+
+| asked | moondream answered |
+|---|---|
+| *"Say hello."* | `!"": "Hello", """: "")` |
+| *"Rewrite into one sentence: SINGS IN THE"* | `urns of water are in the cupboard` |
+| **the renderer's own prompt** | `""` — nothing |
+
+**And the model 327 named for this job does it correctly:**
+
+```
+gemma3:1b, same rewrite  ->  "Sings in the silence."
+```
+
+**AND HIS FRAGMENT INSTINCT IS RIGHT ABOUT THE NEXT STEP, which is worth having now:** gemma3:1b
+rendered the fragment by **adding SILENCE** — a word the mind never said. **The censor would refuse
+that, correctly.** So once a text model is attached, the fragment problem he noticed becomes the
+real one, and the refusals will change from `nothing rendered` to `not in what the mind said`.
+
+### THE COLLISION UNDERNEATH IT, named rather than assumed
+
+**327 gave this two models** — moondream for sight and sound, **gemma3:1b for the voice.**
+**394 collapsed the panel to ONE slot**, on the reasoning that *"the voice is the body's — the
+phone's own TTS speaks."*
+
+**BUT TTS IS THE SOUND OF SPEECH AND THE RENDERER IS THE WORDS.** Those are different things, and
+with one slot there is now **no way to attach a text model for the voice while a vision model does
+the seeing.** 393.4 asked for exactly this to be reported before the voice slot was removed; 449
+has now made it live.
+
+**His ruling follows, as 451.4 says. Nothing changed.**
