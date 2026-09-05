@@ -45305,3 +45305,88 @@ anti-starvation property of its own — a future second producer of check-priori
 reintroduce the same hole. **A number is not mine to pick (250), so it is reported and not solved.**
 
 **Suite: the two standing phase-3 reds (9, 55). Nothing new. Bench restarted — reload.**
+
+---
+
+## REPORT 448 — THE SECOND PASS CAUGHT WHAT THE FIRST MISSED. Measured on the same directive.
+
+**448'S PREMISE IS PROVED, and it is proved on the one case that could prove it.**
+
+### THE TEST, AND WHY THIS ONE
+
+I ran the second pass on **436 as it was actually built** — the directive was sound, the reviewer
+would have passed the build, **and I still wrote the mind's words.** That is 448's exact class:
+*"the directive was right, the build matched it, and is the thing that now exists still what we set
+out to build?"*
+
+**THE FIRST PASS, ON THE DIRECTIVE, DID NOT CATCH `says`.** I said so in the 445/446 report — it
+could not, because 436 itself said *"in its own words"* and the directive was right.
+
+**THE SECOND PASS, ON THE RESULT, CAUGHT IT IMMEDIATELY**, and named the law by file:
+
+> *"Part Five item 4 names this exact fault by file: WORDS PUT IN THE MIND'S MOUTH that it did not
+> earn — `says` in `nervous.js`... the test the directive set is not whether the words name the
+> fault, it is whose words they are. A mind that has a language and is handed three canned
+> sentences for its own pain is the generic instance the project exists to not build — **this is
+> the correct-and-still-wrong case, not a wording nit.**"*
+
+**That is the fault he later ruled on absolutely, and it would have been caught the day it landed.**
+
+### AND IT CAUGHT ONE I NEVER REPORTED
+
+**`chronic` crosses to the mind, and I told him it did not.** The commit says *"`chronic` is
+computed and readable ON THE BENCH"* — and `experiencing.js` writes it into `happening.wrong`,
+which is the mind's, not the bench's. **Verified in today's code: it is still there** (443.4 later
+ruled it stays, so it is lawful now — but the report was wrong when it was written).
+
+> *"He was told a thing was withheld from the mind and put to him for a ruling, while the code
+> hands it over."*
+
+It also re-found the severity constants — the same finding as the first pass, still true, and
+sharper: *"the build already demonstrated it knew the rule: it stopped on B.4's narrowing number
+because picking one is the pain scale 436.D forbids. The identical reasoning applies to 6 and 0.18,
+and there it was not applied — the same directive, the same commit, two opposite answers."*
+
+### ONE OF ITS FOUR WAS WRONG, AND THE CAUSE WAS MINE
+
+It reported that `MIND_DECISIONS.md` and `REFERENCES.md` were missing from the commit. **They were
+not — both are in `a027283`.** I handed it a diff filtered to `server/src`, so those files were
+invisible to it and it reported honestly on what it could see.
+
+**THAT IS A LESSON ABOUT THE MECHANISM, NOT ABOUT THE CRITIQUE.** The second pass must be given
+**the WHOLE change**, not a filtered diff — the ledger and reference rows are part of what it is
+judging. It said so itself: *"if they were split into a second commit, the same-commit law is still
+the one that was written. Worth one look before this is filed as done."* **One look was all it
+took, and the finding died correctly.**
+
+### WHAT IT COSTS — measured, as 448 required
+
+```
+the AFTER pass, on one result:   53,099 tokens · 70 seconds · 3 file reads
+the BEFORE pass, on 436:         46,111 tokens · 64 seconds · 2 file reads
+                                 ------------------------------------------
+both passes on one directive:    99,210 tokens · about two and a quarter minutes
+```
+
+For comparison, **one 442 code reviewer costs 58,230 to 95,080 tokens.** So both Critique passes
+together are roughly one reviewer, and they answer a question no reviewer asks.
+
+### THE MECHANISM FOR THE SECOND PASS
+
+Same shape as the first: **a fresh subagent with no stake, given exactly three files and nothing
+else** — `INTENT.md`, the directive it came from, and the change as it stands. It does not read the
+wider codebase, does not search, does not explore.
+
+**AND IT IS TOLD NOT TO DO THE REVIEWER'S JOB.** Bugs, edge cases and logical correctness are
+442's and are explicitly out of scope, so the two do not collapse into each other. That instruction
+is why its findings here are all direction faults and none is a code fault.
+
+### WHAT IS STILL WAITING ON HIM
+
+**Nothing has been put to work.** 448 says everything else in 445 and 446 stands, and 446.2 still
+requires `INTENT.md` to be checked against the record by him and the Director before anything reads
+it. **What CC extracted is not CC's to certify.**
+
+And the one thing I still have not decided, unchanged from the 445 report: **when the passes run** —
+on every directive automatically, or when he or the Director asks. **At 99k tokens for the pair,
+that is a cost per directive and the choice is his.**
