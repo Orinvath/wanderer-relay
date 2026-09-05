@@ -12794,3 +12794,49 @@ precisely the ones nobody thinks to ask about.
 4. **A PASS WITH NOTHING TO SAY SAYS SO PLAINLY** (445). A critique
    that always finds something teaches us to ignore it.
 5. **IT REPORTS AND RULES ON NOTHING.** Unchanged.
+
+## Directive 454 — WRITE ALL 89 ROWS. One short sentence each.
+
+**HIS RULING: he sees every one, and each is ONE SHORT SENTENCE —
+WHAT IT IS FOR, AND WHY IT MATTERS.** Nothing longer. He has a
+limited amount of attention and eighty-nine of anything will spend it.
+
+### THE SHAPE OF A ROW
+```
+FILE · THE VALUE · one sentence: what it is for, and why it matters
+```
+- **NO ESSAYS.** If it takes a paragraph, the sentence is not written
+  yet.
+- **PLAIN WORDS.** He should not need the code open to understand
+  what a row is about.
+- **AND SAY WHAT IT WOULD CHANGE.** "Why it matters" means what the
+  mind does differently if the number were different — not why the
+  value was chosen.
+
+### ALL 89, IN ONE PASS
+He wants every one, so write them all rather than the heaviest files
+first. Group them by file so he can read a system at a time.
+
+### MARK EACH ONE
+```
+RULED        he decided it — cite the directive
+PROVISIONAL  a working number, watched, not yet ruled
+OPEN         chosen by CC and never ruled  <- these are his agenda
+```
+**THE OPEN ONES ARE THE POINT.** 430.3: anything chosen and never
+ruled goes to him, and several of this week's worst faults were
+exactly that shape.
+
+### THE 18 BENCH VALUES
+Include them, listed separately and marked as the bench's own. He
+decides whether they belong; that is not CC's to assume and CC was
+right not to.
+
+### AND THE LAW GETS A MECHANISM
+430.5's answer was honest: the ledger stopped because **nothing checks
+it.** 246 says a row lands in the same commit or the change fails
+review, and there is no hook, no suite clause, no gate.
+**MAKE IT ONE**, in the shape 442 established: a change that
+introduces a decision for the mind and no ledger row does not pass.
+An advisory law is a law that gets skipped under pressure, and this
+one was.
