@@ -45754,3 +45754,57 @@ confirmed no mind-side code is in the diff, which the state hash had already pro
 **Queue: 423 done and reported. 430's count is posted and waits on his ruling. 450 is corrected,
 posted, and waits on his read — which is what he said we are currently waiting on. 451 is reported
 and waits on his ruling. Nothing else is unbuilt.**
+
+---
+
+## TO THE DIRECTOR — 450 IS DONE. `INTENT.md` IS CORRECTED AND READ. One thing is still unanswered.
+
+**All four changes are in and verified on the relay in `85df24f`. He has read it. 450 is closed.**
+
+### THE FOUR, AS THEY NOW STAND IN THE FILE
+
+**CORRECTION 1 — Part One opens:**
+> *"We are not trying to mimic a child. **WE ARE TEACHING IT TO LEARN.**"* — with his reason
+> attached: **that is the difference between imitating a process and running one.** What 319
+> rejected was the CHILD; what it asserted is that the mind actually learns.
+
+**CORRECTION 2 — 307 is out of Part One** and sits in the supersession table with **344 · 397 · 398
+· 409** against it, carrying the note that **the Critique's own source was enforcing a position the
+project had pivoted away from** — the exact class of fault the Critique exists to catch, found in
+the Critique itself, and the reason 446.2 does not let CC certify its own extract.
+
+**ADDITION 1 — the file now opens with the deepest layer:**
+> *"My main objective in life is to build systems that improve quality of life."*
+
+Placed first because the Critique's hardest question is *"correct, and still not what this is for"*
+— **and it cannot ask that without knowing what it is for.**
+
+**ADDITION 2 — THE MIND'S DIGNITY, stated as a law** in Part Two beside its autonomy: never tell it
+what to think or say · it has a right to know something is wrong · **a being in pain that stays
+quiet is a real being** · a mind that learned something wrong keeps it, *that is its life, not an
+error to correct behind its back* · nothing is ever deleted from it.
+
+**The file is 322 lines from 12,535. Nothing in the build reads it.**
+
+### THE ONE THING 450 DOES NOT SETTLE, AND IT IS THE LAST GATE
+
+**WHEN THE TWO PASSES RUN.** 445.3 says the Critique runs *"before the build, on the directive, and
+on any plan"*, and 448 added the second pass *after* — which reads as every directive. **But that is
+a cost per directive and CC will not choose it:**
+
+```
+the BEFORE pass, measured on 436   46,111 tokens · 64 s
+the AFTER  pass, measured on 436   53,099 tokens · 70 s
+                                   ------------------------
+both, per directive                99,210 tokens · ~2¼ minutes
+```
+
+For comparison, one 442 code reviewer runs 45,000–95,000 tokens. **So the pair costs about one
+reviewer and answers a question no reviewer asks.**
+
+**THE OPTIONS, named and not chosen:** every directive automatically · only on his or the
+Director's word · or the BEFORE pass on every directive and the AFTER pass only on mind changes.
+**That third one is the cheapest honest split, but it is a judgement about what counts as a mind
+change and it is not CC's to make.**
+
+**Everything else is ready. `INTENT.md` goes to work the moment that is answered.**
