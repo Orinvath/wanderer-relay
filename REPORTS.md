@@ -45390,3 +45390,72 @@ it. **What CC extracted is not CC's to certify.**
 And the one thing I still have not decided, unchanged from the 445 report: **when the passes run** —
 on every directive automatically, or when he or the Director asks. **At 99k tokens for the pair,
 that is a cost per directive and the choice is his.**
+
+---
+
+## REPORT 449 — THE RENDERER HAS A CALLER. And the review caught me teaching it the MODEL'S words.
+
+### WHAT IS BUILT
+
+`rendering.js` is its own node. The mind forms its line; **if something is actually attached**, the
+line goes to the model for FORM ONLY, the censor guards it, and **the shape it was corrected into
+goes into what the mind has heard.**
+
+**449.2 IS THE POINT AND IT IS PROVED.** Three corrections of `SINGING → TOGETHER` and the mind now
+expects TOGETHER after SINGING where it expected **nothing** before — through the same `watched`
+counting that learns word order from the teacher.
+
+**THE CENSOR IS UNCHANGED (449.3)** — moved out of a file 352 marked not-live and into the node that
+now executes it. The reviewer confirmed it byte for byte. Proved working: an invented word is
+refused **by name** (`not in what the mind said: MEADOW`), a number is refused, a clean line passes.
+
+### AND THEN THE REVIEW FOUND FIVE THINGS. THE FIRST ONE BROKE THE DIRECTIVE'S OWN LAW.
+
+**1 · I TAUGHT THE MIND THE MODEL'S WORDS, NOT ITS OWN.** I fed `verdict.traced` — **what the censor
+LICENSED**, which is not what the mind SAID. The censor lawfully passes BIRDS for BIRD and SINGING
+for SING. **The reviewer proved it by running the censor directly:**
+
+```
+mind said:  BIRD SING
+model said: "birds sings"
+censor:     { pass: true, traced: ["BIRDS","SINGS"] }
+```
+
+So `BIRDS → SINGS` would have gone permanently into its word-order statistics — **two words the mind
+does not own** — while `BIRD → SING`, the pair it was meant to learn, **was never reinforced.** And
+the junk rows would have pushed it past `enough()` and switched on grown speech earlier than what it
+actually heard justifies. **That is 449.5 broken outright, in the directive that says it.**
+
+**Fixed:** the model's ORDER is kept and its WORDS are thrown away — every token mapped back to the
+mind's own word that licensed it. **Verified: "birds sings" now teaches `BIRD → SING`.**
+
+**2 · A TEMPLATED ROW'S WORDS ARE OURS, NOT THE MIND'S.** For a templated line, `marks` is the
+template's own English — *"I don't understand X. Do you?"* — and `watching.js` says it in as many
+words: **"my words end to end, and it did not say them."** Rendering one would have taught the mind
+**our prose** as something it had heard. **Only a GROWN line is rendered now** — the only line the
+mind built.
+
+**3 · THE STRUCK INTERPRETER WAS STARVING THE RENDERER.** Both consume the same single
+`pendingRender` slot and the interpreter ran first — so **with its toggle on, the superseded organ
+claimed every line and the live renderer silently returned to zero calls.** That is the exact death
+449 exists to end, reintroduced inside the fix for it. The renderer goes first.
+
+**4 · A DOWN ENDPOINT WAS NOT COUNTED AS A CALL** — so a broken renderer read exactly like one
+nobody called. Counted now.
+
+**5 · ITS NUMBERS WERE INVISIBLE.** Nothing read `cost()`. **A renderer nobody can see is how this
+one died for weeks with nothing on any screen saying so** — `/ledger` now carries calls, renderings,
+refusals **with their reasons**, corrections taught back, and its lines beside the mind's.
+
+### THE PROOF HE ASKED FOR IS NOT YET AVAILABLE, AND I WILL NOT FAKE IT
+
+449 asks for **his mind's own line beside the rendered line, several of each**, and then whether its
+own grammar improves — *"that second number is the whole claim."*
+
+**NOTHING IS ATTACHED ON HIS BENCH** (`perception.json` is still `{}`), so **there are no real
+renderings to post.** The path is proved with stand-ins — clean line, inflection, invented word,
+number, dead endpoint — and the learning is proved on the real corpus. **The lines for his eye and
+the grammar-improvement number need a model plugged into the panel, and that is his to do.**
+
+**Suite: the two standing phase-3 reds (9, 55). Nothing new. Bench restarted — reload, and
+`/ledger` will show the renderer the moment anything is attached.**
