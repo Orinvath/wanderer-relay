@@ -45036,3 +45036,113 @@ adds a 26th, so it would have fired on the build working — 306.D. It reads the
 
 **The bench on 8793 is restarted and serving all of it — 26 systems, KNOWN CORRECTLY on the gauge.
 Reload.**
+
+---
+
+## REPORT 445/446 — THE DISTILLATION IS POSTED, THE CRITIQUE IS PROPOSED, AND IT WAS TESTED ON A REAL DIRECTIVE
+
+**BOTH DIRECTIVES SAY PROPOSE AND WAIT. NOTHING IS WIRED TO ANYTHING.** `INTENT.md` is on the
+relay and no code reads it; the Critique is described below and is not installed.
+
+### 446 — THE DISTILLATION: `INTENT.md`, 297 lines from 12,535
+
+**I read the whole relay once, as ordered — all 446 directives, `HANDOFF.md` and `CLAUDE.md`.** Not
+a sample and not a search: end to end.
+
+**IT CARRIES THE FOUR THINGS 446 REQUIRED:**
+1. **THE STANDING LAWS, WHOLE** — thirty-odd of them, grouped by what they govern (who decides ·
+   how a thing is designed · the mind's autonomy · evidence and honesty · process · his things).
+   **Quoted, not paraphrased**, because 446 warned that anything left out stops being enforced.
+2. **THE RULINGS THAT STILL GOVERN, AND WHICH WON** — a table of **22 supersessions**, each naming
+   the earlier ruling and the later one that replaced it. 048 over 042/046-047 · 052 over 051 ·
+   196 over 187 · 339 over 244 · 366 over 306.B · 397 over 387 · 365 over 364 · 413 over 411 · 432
+   over 415 · 363 over 342 · 373 over 289 · 322.A over 293.3 · 340 over 283, and the rest.
+3. **WHAT WAS STRUCK AND WHY** — `instinct.js`, `promises`, the fourth need, per-moment bundling,
+   the marks as a measure (**struck three times, and 398 exists solely to stop a fourth**), the
+   gauge's fakes and sample, the chat interpreter, the Pulse, the force layout, the projection
+   floor, the teacher's invented rules, the glyph filters, the fifteen hard caps, world generation.
+4. **THE PURPOSE IN HIS OWN WORDS** — *"we are not trying to mimic a child, we are mimicking
+   LEARNING"* · *"I gave it a language to speak with"* · *"the mind knows what it knows"* · and the
+   three-way separation: **Wanderer is the app, the Avatar is the body, THE MIND ONLY DEALS WITH
+   THE MIND.**
+
+**AND IT SAYS WHAT IT MAY HAVE MISSED**, in the file itself rather than left for him to find: the
+SUPERSEDED and STRUCK tables are the parts most likely to be incomplete, **because a ruling that
+quietly stopped governing leaves no marker.**
+
+### 445 — THE MECHANISM, AND WHY THIS ONE
+
+**A FRESH SUBAGENT, GIVEN EXACTLY TWO FILES: `INTENT.md` AND THE DIRECTIVE.** Nothing else. It
+does not read the codebase, does not search, does not explore.
+
+**WHY NOT THE OTHER THREE:**
+- **A HOOK** cannot judge. 442's Stop hook is mechanical — it asks whether a review RAN. "Is this
+  what he set out to build" is a reasoning question and a hook cannot ask it.
+- **A SKILL or A STANDING PROMPT** would run inside the same session that is about to do the work —
+  **which is the one thing 445.1 forbids.** *"It did not write the directive and did not build the
+  code, so it is not grading itself."* An instruction to myself is graded by me.
+- **A SUBAGENT** is the only one of the four that is genuinely a different reader.
+
+### AND IT WAS TESTED, ON A DIRECTIVE THAT ALREADY WENT WRONG
+
+**I ran it against 436 — the nervous system — because I have since built that directive and know
+exactly what went wrong in it.** It had never seen my build, my report, or my reasoning.
+
+**IT FOUND THREE THINGS. ALL THREE ARE WHAT ACTUALLY HAPPENED.**
+
+1. **"SEVERITY HAS NO SOURCE AND NO SCALE."** It named 071 and said the builder must invent both a
+   magnitude and a mapping. **I invented `ALL_WRONG_AT = 6` and `ONE_FAULT = 0.18`** and posted
+   them as PROVISIONAL. It also caught what I did not: *"severity is a property of the damage, not
+   of the being. Two avatars with identical broken checks would feel it identically, which is the
+   exact inversion 202 and 102 forbid."* **That is a better reading of the fault than mine was.**
+2. **"BESIDE THE NEEDS PUTS A FOURTH NEED ON THE TABLE."** It caught that 436's own preamble is
+   ambiguous between a ledger row and a pull from existing layers, and named **197 — the ledger
+   does not grow** — and that safety was already tested and failed the criteria. *"One of the two
+   readings is a struck idea re-proposed as new, which is precisely what Part Four exists to
+   prevent."*
+3. **"PERSISTENT WRONGNESS NARROWS IT IS A CAP UNLESS IT IS A PULL."** It named 339 and pointed out
+   that **B4 read as a narrowing is the override B2 forbade one line earlier.** That is the exact
+   thing I stopped on and put to him, and it is still unbuilt.
+
+**IT ENDED: "NOT READY TO BUILD. The architecture, A, C and E are sound and clean; three questions
+go back to him first."**
+
+**Every one of those three cost him a round trip after the fact.** They would have cost one message
+before it.
+
+### WHAT IT COSTS — measured, not estimated
+
+```
+one Critique on one directive
+  46,111 tokens · 64 seconds · 2 file reads · no searching, no code
+```
+
+For comparison, 442's code reviewers cost **94,829** and **95,080** tokens each, because they read
+diffs and source. **The Critique is roughly half a reviewer, and it runs once per directive rather
+than once per change.**
+
+### WHAT IT CAN AND CANNOT SEE — stated plainly, because this is where it would be over-trusted
+
+**IT CAN SEE:** the standing laws, every supersession, everything struck, the purpose in his words,
+and the directive in front of it.
+
+**IT CANNOT SEE, AND MUST NEVER BE ASKED TO:**
+- **THE CODE.** It judges the DIRECTION, before anything is written. 442's reviewer judges the
+  build, after. **They are two different jobs and neither substitutes for the other** — the
+  Critique on 436 did NOT catch that I would write the mind's words, because 436 said *"in its own
+  words"* and the directive was right. **That was a build fault and it was the reviewer's half.**
+- **ANYTHING NOT IN `INTENT.md`.** This is 446's own named risk and it is real: **a law missing
+  from the file is a law the Critique cannot enforce, and it will not know it is missing.** That is
+  why 446.2 puts the file in front of him and the Director before it is used.
+- **HIS INTENT AS OF TODAY.** The file is a snapshot. 446's own rule — a new ruling goes in with
+  the directive that made it — is the only thing that keeps it true.
+
+### WHAT IS WAITING ON HIM
+
+1. **`INTENT.md` CHECKED AGAINST THE RECORD** (446.2), by him and the Director, before anything
+   reads it. **What CC extracted is not CC's to certify.**
+2. **THE MECHANISM APPROVED OR CHANGED** (445, "propose the mechanism with your reason and wait").
+3. **AND ONE THING 445 LEAVES OPEN THAT I HAVE NOT DECIDED:** *when* the Critique runs — on every
+   directive automatically, or only when he or the Director asks for it. 445.3 says "it runs before
+   the build, on the directive, and on any plan", which reads as every one; but that is a cost he
+   pays per directive and the choice is his. **Not chosen.**
