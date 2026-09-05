@@ -45865,3 +45865,62 @@ as 430's 89 rows.
 
 **452 done. Next by number: 453** — the Critique runs automatically, both passes, and `INTENT.md`
 goes to work. Then **455**, then **457**. 454 and 456 are withdrawn.
+
+---
+
+## REPORT 453 — BOTH PASSES ARE AUTOMATIC NOW. And the first pass, run on 453 itself, found a gap in it.
+
+**THE CRITIQUE RAN ON 453 BEFORE 453 WAS BUILT.** That is the directive proving itself on its own
+text, and it did not come back empty.
+
+### THE MECHANISM — `require-critique.sh`, a Stop hook beside the other two
+
+*"Automatic or not really doing its job."* So it is enforced the way 442 enforced the review:
+**mechanically, on a yes/no question a hook can actually answer — did both passes run for this
+directive.** A directive that has gained a report but has no `before` and `after` mark blocks the
+turn and names which pass is missing.
+
+**IT JUDGES NOTHING.** It does not read a finding and does not care what either pass said. **Whether
+a pass had anything to say is 445's business and his; whether it RAN is the hook's.** Same
+no-deadlock guard as the others.
+
+**IT APPLIES FROM 452 ONWARD** — the baseline written on first run. Demanding it retroactively would
+block on 450 directives it never saw, which is not a check, it is a wall. Same shape as the review
+hook's own first run.
+
+### AND THE PASS ON 453 FOUND THIS — it goes back to him under 250
+
+**453 NEVER SAYS WHAT A FINDING DOES.** Halt the run, proceed and log it, or wait for him?
+
+> *"Classes 1 and 2 — an unruled limit, something decided for the mind — are open decisions, so 250
+> answers: stop, post, wait. But classes 3, 4, 6 and 7 are not decisions. A check that is too
+> strict, words in the mind's mouth, something already solved, and above all 'correct and still not
+> what this project is for' are JUDGEMENTS, and 148's three stoppers do not name them."*
+
+**So on a class-7 finding the builder would have to decide, directive by directive, whether it
+counts as "a decision that genuinely requires him" or a note to report and build past. THAT IS CC
+CHOOSING, WHICH 188 FORBIDS** — and it defeats 453's own premise:
+
+> *"453 opens by saying a Critique that runs on request is an option rather than a check. A Critique
+> whose findings carry no defined consequence is likewise still an option — just a louder one."*
+
+**ONE LINE CLOSES IT: what a pre-build finding does to the run, and what a post-build finding does to
+the commit.** Posted here rather than chosen, per 250, and per 452.4 a block on the relay with its
+reason counts as answered.
+
+### AND ONE IT RAISED THAT IS HIS ALONE
+
+**453.3 declares 446.2 satisfied on his read.** 446.2 names **two** checkers — *"he and the Director
+check it against the record"* — and `INTENT.md` still carries **PROPOSED, NOT IN USE** at its head.
+
+> *"From 453 onward that file is the standard applied to every directive automatically, and the 307
+> incident is the proof that a single reading missed something material. He can of course rule his
+> own condition met — but if the Director's pass against the record has not happened, this is the
+> moment it stops being cheap."*
+
+**He can rule his own condition met. I have not removed the PROPOSED banner on my own say-so.**
+
+### THE QUEUE
+
+**452 and 453's mechanism done. 453's finding-consequence question is blocked on him.** Next by
+number: **455**, then **457**. 454 and 456 withdrawn.
