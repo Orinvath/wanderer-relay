@@ -12271,3 +12271,55 @@ impossible to tell which node a meter belongs to, and on a board of
    hovering.
 4. NOTHING ELSE CHANGES — the meter's meaning, its green-to-red
    range, its falling, and 440's red-pin ruling all stand.
+
+## Directive 442 — ENFORCE BY MECHANISM, NOT BY INSTRUCTION. Hooks, and a review that cannot be skipped.
+
+**HIS RULING, after the Director researched how this is actually done
+and found we had never checked.** Anthropic's own guidance names our
+exact failures:
+
+> *"Unlike CLAUDE.md instructions which are advisory, HOOKS ARE
+> DETERMINISTIC and guarantee the action happens."*
+> *"If your CLAUDE.md is too long, Claude ignores half of it because
+> important rules get lost in the noise. Ruthlessly prune. If Claude
+> already does something correctly without the instruction, delete it
+> or CONVERT IT TO A HOOK."*
+
+**That is us.** Every standing law written this month has been broken
+at least once, and the pile keeps growing.
+
+### A · A HOOK MAKES `/code-review` UNSKIPPABLE
+1. RUN `/code-review` AFTER EVERY CHANGE. It reviews the current diff
+   in a FRESH SUBAGENT that sees only the diff and the criteria — not
+   the reasoning that produced it — so THE AGENT DOING THE WORK IS NOT
+   THE ONE GRADING IT. That is the failure behind almost every fault
+   this month.
+2. A STOP HOOK ENFORCES IT. The hook does not judge the findings; it
+   refuses to let the turn end unless the review RAN. Mechanical, yes
+   or no, and skipping it stops being possible.
+3. THE FINDINGS COME TO HIM IN THE REPORT, in full, with file and
+   line. A report that says "review passed" and shows nothing is the
+   hallucinated green build, and he has caught that already.
+4. AND THE WARNING FROM THE SAME PAGE IS PART OF THE INSTRUCTION: *"a
+   reviewer prompted to find gaps will usually report some, even when
+   the work is sound."* Chasing every one leads to over-engineering.
+   FLAG ONLY GAPS THAT AFFECT CORRECTNESS OR THE STATED REQUIREMENTS;
+   everything else is optional and is named as optional.
+
+### B · HOOKS FROM HERE ON, AS WE MEET THEM
+His ruling: we add hooks as we come across the need, rather than
+converting everything at once. The first ones, because they are laws
+already broken:
+- BLOCK WRITES TO `geometry.js` AND `language.js` from any map or
+  display work (420's guard, broken this week).
+- BLOCK `git add -A` / `git commit -a`. Named files only — an unnamed
+  commit swept unapproved work onto his bench this week.
+
+CC may write these; the docs say so plainly. Report each hook added,
+what it blocks, and prove it blocks by trying the thing.
+
+### C · AND PRUNE
+Where a hook now enforces a law, the law is a comment in the code
+rather than a line in CLAUDE.md. Say which laws you removed and which
+hook replaced each. A shorter CLAUDE.md is the point — an ignored
+rule protects nothing.
