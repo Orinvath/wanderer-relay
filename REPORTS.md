@@ -45654,3 +45654,92 @@ decides how it is worked through** if it is large.
 not exist in that form, and flagged nearly every directive as missing. I did not post either. **A
 list that cries wolf is worse than no list**, and the only reason this one is trustworthy is that
 the three it names were each opened and read in the code afterwards.
+
+---
+
+## REPORT 423 — THE PROJECTION FLOOR IS RETIRED AND ITS SWITCH IS GONE
+
+**It was ordered and never done, and 423.4 named the exact thing that was left behind:** *"REMOVE
+THE UNUSED SWITCH rather than leaving a disabled gate in the code for someone to turn on later."*
+
+**The gate was still there.** `bench-routes.js` sent `tooFlat: false` hardcoded, and
+`meaningmap.js` still held the branch that would have blanked the map. Both gone — `tooFlat` now
+appears nowhere in the build.
+
+**WHY A FLOOR WOULD BE WRONG, kept in the file so it is not reinvented:** a newborn reads about
+**2.5% captured** with its words stacked on one spot — which is exactly what 415 asked for, a
+featureless cloud, because it understands nothing. **Any floor above ~3% blanks a newborn's map
+until it learns something, hiding the truest picture the map will ever draw.**
+
+The map refuses to draw only when the **clustering** is untrustworthy, never on a number (420
+addendum), and `captured` stays as information rather than a gate (423.3).
+
+**PROVED READ-ONLY, as 420.3 requires rather than promises:**
+```
+state hash BEFORE 423   19519b3b48cdf151a2d1322c
+state hash AFTER  423   19519b3b48cdf151a2d1322c
+```
+**Nothing about the mind moved to make a picture easier to draw.** Both browser scripts still parse.
+
+**Suite: phase 3's own reds (9, 10, 14, 55), and 66/67 which PASS when phase 3 runs alone** — the
+order-dependent pair again. A display change cannot reach the app's consent checks, and the hash
+proves the mind did not move.
+
+---
+
+## REPORT 430 — THE COUNT, BEFORE ANY ROWS ARE WRITTEN
+
+**430.4: report the count first, and if it is large he decides how it is worked through.** Here it
+is, and it is large.
+
+**I did not replay 136 diffs.** 246.2 says the ledger lists every decision **that exists today**, and
+385 says audit against the code. So I audited the code and compared it to the ledger — which is both
+verifiable and answers the question the ledger actually exists to answer.
+
+### THE GAP, MEASURED
+
+```
+commits between the last ledger write and 430 landing   136
+of those, touching the mind                             107
+```
+
+### WHAT IS UNRECORDED
+
+```
+files declaring PROVISIONAL decisions                    36
+of those, named ANYWHERE in the ledger                   10
+NAMED NOWHERE                                            26
+```
+
+```
+UNRECORDED, IN THE MIND'S OWN NODES    89 values across 20 files
+UNRECORDED, BENCH / STRUCK / TABLES    18 values across  6 files
+the ledger holds today                 53 rows
+```
+
+**So the ledger records 53 decisions and the code carries at least 89 more that it has never heard
+of, in the mind's own nodes.** The heaviest are `soul.js` and `lessons.js` at ten each, `learning.js`
+at nine, `voice.js` at six.
+
+**THE 18 ARE SEPARATED DELIBERATELY AND NOT COUNTED WITH THEM.** 246 covers points where code
+decides something **the mind could lawfully decide** — `statehash.js`, `testruns.js`, `vitals.js`
+and `games.js` are the bench's own machinery, `interpreter.js` is struck (352), and `effects.js`
+declares none. **Those are his to include or exclude; I have not assumed either way.**
+
+### AND WHY IT STOPPED — 430.5 asks, and the honest answer is unflattering
+
+**The law was followed while the ledger was being written and abandoned the moment it was not the
+subject of a directive.** It has no mechanism: 246 says *"new code adds its row in the same commit
+or fails review"*, and **nothing checks. There is no hook, no suite clause, no gate** — it depends
+entirely on the builder remembering, and 442's whole finding is that an advisory law is a law that
+gets skipped under pressure.
+
+**Every one of this week's worst faults was this shape** — the gauge's 50, the litmus sample, the
+teacher's invented rules, my own `ALL_WRONG_AT` and the four-per-beat budget. **All of them are
+decisions nobody ruled, and none of them was in the ledger.**
+
+### WHAT I AM WAITING FOR
+
+**89 rows is his call on how it is worked through** (430.4). The obvious options are all of it in
+one pass, or the heaviest files first, or only what is genuinely OPEN rather than PROVISIONAL —
+**and which of those it is, is not mine to choose.**
