@@ -44586,3 +44586,83 @@ as it always did.
 
 **HIS WORD ON 436 WAS "a good start, we'll see how it goes."** It is a start and it is watchable —
 the wrongness, the chronic and the saying are all readable on the bench.
+
+---
+
+## REPORT 439/440 — THE SELF-DIAGNOSING NODE. The meter is on `needs.js` and it climbs, halts and falls.
+
+**IT WORKS, AND IT WAS WATCHED DOING THE WHOLE CYCLE ON A REAL MIND.** Same seed, one run:
+
+| | the meter | what the mind was told |
+|---|---|---|
+| 60 healthy ticks | **0.000 · green** | nothing |
+| 70 ticks with the ledger being written wrong | **0.867 · RED** | *"something is badly wrong"* — **and no halt yet** |
+| the node put right, 120 ticks | **0.194 · back to green** | nothing |
+
+**That middle row is the directive.** The mind felt the meter rising **before any halt**, which is
+the whole difference between a meter and a switch — and it still never learned what.
+
+### WHAT A NODE KNOWING ITS OWN CORRECT OUTPUT ACTUALLY LOOKS LIKE
+
+`needs.js` now holds the shape of its own answers. **The three rules are yours, verbatim from 440,
+and CC wrote none of them** (439.3):
+
+```
+three values in -10..+10
+moving only on an event or lawful decay
+nothing raising relatedness with nobody there
+```
+
+**AND IT CATCHES MORE THAN THE COUNTERS DO, which is the point of a shape rather than a claim.**
+The 428 counters fire from inside `advance` and only ever see what `advance` itself did. The shape
+is checked over **two spans**: the clock step, where no event is possible so only decay is lawful,
+**and tick to tick, where a need written directly by something that never called `advance` at all is
+finally visible.** That second span is the 212.C2 fault — the one that made a lonely Avatar look
+content — and until now nothing could see it happen.
+
+I found that the hard way: my first version measured only the clock step, I broke the ledger
+deliberately to test it, **and the meter did not move.** It was measuring the wrong span.
+
+### THE METER, AND BOTH HALVES ARE BUILT
+
+Green to amber at 21 wrong ticks, amber to red at 41, **halt at 60** — then 181 ticks of right
+output to come back down, because recovery is three times slower than the climb. **It falls, and
+your reason for that is written into the file**: because the health system might one day not only
+diagnose itself but fix itself, and a meter that could only climb would have nothing to report a
+repair with.
+
+**A FULL METER IS A HALT, AND IT COMES THROUGH 293'S HALT, WHICH IS UNCHANGED.** What is new is a
+second thing that can trip it. Without that, "a halt after sustained wrongness" would have been a
+phrase rather than a behaviour — the counters halt on the *first* fault, which is exactly what 439
+says a meter is for.
+
+### THE RED PIN HAS CHANGED MEANING — 440
+
+**It no longer means "a violation happened". It means THIS IS WHAT HALTED THE MIND.** One red on the
+map and it always says the same thing. **The violation counters are untouched, still feed HEALTH,
+and the count under each mark reads exactly as it did** — the only change is when the map pins a
+node. Beside the node there is now a filled bar running green → amber → red, redrawn only when it
+actually moves.
+
+### THREE NUMBERS ARE YOURS AND I HAVE NOT DECIDED THEM
+
+440 gave the meter its behaviours and **no numbers**. I have run it on placeholders so it can be
+watched at all — a meter with no rates cannot be looked at, and looking at it is why we started with
+one node — but all three are OPEN in `MIND_DECISIONS.md` §8 and stated as questions, not settings:
+
+1. **How sustained is sustained?** Sixty wrong ticks in a row currently takes it to a halt — about a
+   minute of its life.
+2. **How much slower is recovery than the climb?** Three times, currently.
+3. **Where does the bar change colour?** Even thirds — display only, it changes nothing.
+
+### ONE THING I COULD NOT DO
+
+**Your bench on 8793 has been running since yesterday 16:59, so it is serving code from before both
+436 and this.** I went to restart it as the standing rule requires and **the permission gate blocked
+me**, so it needs your hand: stop it and start `server/src/bench-start.js` again. **Until then the
+page will show none of this, and that is the server being old rather than the work being absent.**
+
+### AND WHAT 436 IS STILL WAITING ON
+
+436.B.4 — chronic wrongness narrowing what the mind thinks about — **is still the one open question
+from the last report**: should it damp CURIOSITY, and how much is left at full chronic?
