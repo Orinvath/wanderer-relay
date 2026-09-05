@@ -12566,3 +12566,42 @@ FIND OUT, and change nothing:
 4. AND SAY WHETHER IT IS EVEN ATTACHED on his bench today — 394 made
    the panel start empty with nothing preloaded, so it may simply
    never have been switched on.
+
+## Directive 448 — THE CRITIQUE RUNS TWICE. Before the build, and after.
+
+**445 WAS WRITTEN WRONG AND THE FAULT IS THE DIRECTOR'S.** He quoted
+the documentation — *"Critique catches direction-level errors BEFORE
+any code is written, while Verify catches implementation drift AFTER
+agents finish"* — and then wrote only the first half into the
+directive. **His order was that it runs at both moments, and the
+research said so plainly.**
+
+### IT RUNS TWICE
+```
+BEFORE   on the DIRECTIVE.  Is this what he set out to build?
+AFTER    on the RESULT.     Did the intent survive being built?
+```
+
+**AND THE SECOND IS NOT THE REVIEWER'S JOB.** 442's reviewer checks
+THE CODE AGAINST THE DIRECTIVE — did the build do what was asked. The
+Critique asks something else entirely: **the directive was right, the
+build matched it, AND IS THE THING THAT NOW EXISTS STILL WHAT WE SET
+OUT TO BUILD?**
+
+Both can pass and the answer can still be no. That is precisely the
+class of fault that has cost the most here — the glyph filter, the
+caps, the marks as a measure. Every one of those was a directive
+followed correctly.
+
+### WHAT THE SECOND PASS SEES
+The change as it stands, `INTENT.md`, and the directive it came from.
+Its question is 445's, asked of a result rather than a plan.
+
+### EVERYTHING ELSE IN 445 AND 446 STANDS
+The fresh subagent with no stake, the two files and nothing else, the
+checklist drawn from what actually went wrong, and the limits: it
+writes no code, rules on nothing, reports only, and says plainly when
+it has nothing to say.
+
+**AND SAY WHAT THE SECOND PASS COSTS** — the first was measured on
+436; measure this one too before it is put to work.
