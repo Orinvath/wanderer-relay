@@ -12744,3 +12744,34 @@ THEIR REASONS. Read it and post them, do not reason about it.
    **Say whether the refused renderings were attempts to complete a
    fragment.**
 4. **CHANGE NOTHING.** This is the reasons, and his ruling follows.
+
+## Directive 452 — A HOOK ENFORCES THE IN-ORDER LAW
+
+**HIS RULING** — the in-order law becomes a hook. It has been broken
+repeatedly, and always the same way: CC had not pulled, so a directive
+it never saw sat unbuilt while later work went ahead. **A hook cannot
+forget to look.**
+
+**AND IT IS A YES/NO QUESTION**, which is what a hook can answer (442):
+*are there directives on the relay with no report?*
+
+### WHAT IT DOES
+1. **BEFORE A TURN MAY END, PULL THE RELAY** and compare the
+   directives against the reports.
+2. **IF ANY EARLIER DIRECTIVE HAS NO REPORT, THE TURN IS BLOCKED**
+   and it names them by number.
+3. THE LOWEST-NUMBERED UNFINISHED ONE IS WHAT CC WORKS ON NEXT — the
+   law unchanged, now enforced rather than remembered.
+4. **A BLOCKED DIRECTIVE COUNTS AS ANSWERED** for this purpose, as
+   long as the block is ON THE RELAY with its reason. The law has
+   always allowed stopping; what it forbids is stepping over.
+5. IT HONOURS `stop_hook_active` like the review hook, so it cannot
+   deadlock a session.
+
+### WHY THIS ONE MATTERS MORE THAN IT LOOKS
+293 was skipped three times and hid faults for a week. 292.2 was
+reported built and was three lines of legend. **And today he asked CC
+whether it had anything to do and it said no — while 450 was already
+on the relay, unpulled.** The Critique cannot go to work until 450 is
+built, so a missed pull is now blocking the thing that catches missed
+intent.
