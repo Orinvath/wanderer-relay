@@ -12384,3 +12384,49 @@ false fault on a fresh ledger, and it costs one line.
 
 **AND RE-REVIEW AFTER**, as 442 requires: the fresh subagent sees only
 the diff. Report its findings in full.
+
+## Directive 444 — KNOWN, AND KNOWN CORRECTLY. The check asks the model.
+
+**HIS POINT, and the Director was wrong to argue against it:** we DO
+know what words associate with one another — humans have a trillion
+examples of it. If a mind learns hot = chilly that is true for it and
+WRONG IN THE WORLD, and **we need to monitor the error rate: how many
+things it knows against how many it knows CORRECTLY.**
+
+**WHY IT MATTERS** — six hundred words half wrong is not a two-year-
+old, it is a broken mind. The gauge counts what it knows. Nothing
+counts what it knows correctly.
+
+**WHY A MODEL AND NOT A FILE** — the Director proposed SWOW's
+association norms. HIS OBJECTION KILLED IT: 12,000 cue words against
+42,000, so most of the vocabulary could not be scored, and the gap is
+biased toward RARE WORDS, which is exactly where errors are likeliest.
+A number silent on the majority of a vocabulary is worse than none.
+**A model holds the whole language and is already attached.**
+
+**AND IT DOES NOT BREAK 375** — nothing in the MIND may depend on a
+model. A HEALTH CHECK IS NOT THE MIND: it is the nervous system, which
+436 already places outside the mind's thinking. The mind never learns
+the result and never acts on it.
+
+### WHAT IS BUILT
+1. WHEN LEARNING BINDS A WORD TO A MEANING, the check asks the
+   attached model whether the two are genuinely associated.
+2. THREE COUNTERS: scored · wrong · unscored (no model attached).
+   The unscored count is always visible — a score silent about its
+   own coverage lies by omission.
+3. THE PANEL SHOWS **KNOWN** BESIDE **KNOWN CORRECTLY.**
+4. WITH NO MODEL ATTACHED the check reads GREY and says it cannot
+   run. It never guesses and never assumes correct.
+5. IT NEVER TOUCHES THE MIND. Not a gate, not a filter, not a reason
+   to refuse a binding. **A mind that learned something wrong KEEPS
+   IT** — that is its life, and this only tells HIM.
+
+### WHAT TO WATCH FOR AND REPORT RATHER THAN SOLVE
+- COST: this is a model call per binding. Say what it costs on his
+  bench — calls per minute, and whether it needs batching or sampling
+  rather than every binding. If it does, STOP AND ASK (250); do not
+  pick a sample rate.
+- AND THE HONEST LIMIT, in the report: a model's judgement is not
+  ground truth either. It is far better coverage than a 12,000-word
+  file, and it is still a judgement. Say so where the number is shown.
