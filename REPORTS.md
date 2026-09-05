@@ -45511,3 +45511,33 @@ underneath them. It now sits in Part Two beside the mind's autonomy:
 - **Nothing is ever deleted from it.**
 
 **Posted. Nothing is wired to it. His read closes it.**
+
+---
+
+## REPORT — QUEUE CHECK. Nothing new on the relay; four of the twelve OPEN items checked against the code.
+
+**450 is the newest directive and it is reported. Nothing is waiting to be built.**
+
+While the queue was empty I checked the OPEN list **against the code, not against reports** (385's
+law), because a stale list is a list that hides what is actually left.
+
+| # | the item | the code says |
+|---|---|---|
+| **6** | *his bench is running old code* | **CLOSED.** It serves `21286b6`, which is HEAD. Restarted with every change since 441 |
+| **9** | *the mouth is still capped — "the biggest of these"* | **CLOSED.** 408 removed the four-word cap at `thinking.js:145`; the line now reads *"it says as much of the memory as it has words for"* |
+| **12** | *the teacher's line kind is not marked* | **CLOSED.** 429 is built — `bench-page.js:730` marks NAMING and STORY, and the teacher records its own mode rather than the page guessing |
+| **10** | *one glyph fallback survives at `thinking.js:701`* | **STILL OPEN, AND REAL.** `const from = known.length ? known : WORDS.filter(...)` — when the mind knows nothing, the association still draws from the Avatar's 402. That is 372's filter in its last hiding place |
+
+**I have not checked the other eight** — 1, 2, 3, 4, 5, 7, 8, 11 — and say so rather than implying a
+sweep. **They stand as written.**
+
+### AND THE ONES THAT ARE HIS, unchanged
+
+- **`INTENT.md` is corrected and posted** (450). His read closes it, and nothing is wired to it.
+- **When the Critique's two passes run** — every directive, or on request. **99k tokens for the
+  pair.** Not chosen.
+- **436.B.4** — whether chronic wrongness damps curiosity, and how much is left at full chronic.
+- **The three meter numbers** (440) and **the school's starvation bound** (447) — both are figures I
+  will not pick.
+- **449's proof needs a model attached.** `perception.json` is still `{}`, so there are no real
+  renderings to put in front of him.
