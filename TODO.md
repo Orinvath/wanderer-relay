@@ -418,3 +418,53 @@ and a permission gate blocked CC from restarting it.
 - how many wrong ticks in a row is a halt (60 today)
 - how much slower recovery is than the climb (3x today)
 - where the bar changes colour
+
+## FROM THE PROJECT-WIDE AUDIT — checked against the code, oldest first
+
+**These are places the CODE does not match what was ruled. Method was
+AUDITS.md's own: read the code, never the reports.**
+
+**8 · 236 — A REPLAY MAY NOT RUN WHOLE.** Ruled: an interrupted story
+starts over from the beginning, whole, always. In the code
+(`stories.js` ~92): when a life holds more touching episodes than
+`STORY.RECALL` allows, it takes THE MOST RECENT RUN of them. CC wrote
+the tension down deliberately rather than hiding it and said the
+distinction is his. **So a replay is whole only while the episodes fit
+the capacity.**
+
+**9 · 319/339 — THE MOUTH IS STILL CAPPED. The biggest of these.**
+Ruled: no capacity may cap what the mind chooses to do; the line is as
+long as it can honestly build and stops when IT stops. In the code
+(`growth.js:90`): `runWords: born 9, adult 9` and `gramDepth: 4`. Age
+no longer lifts them — but NINE IS STILL A CEILING, and `voice.js:610`
+and `:612` pass both into every line it builds. **A mind that has
+heard fourteen-word sentences may still say nine.** The file's own
+comment: "the ceiling is one line away in this table."
+
+**10 · 372 — ONE GLYPH FALLBACK SURVIVES.** `thinking.js:701`:
+`known.length ? known : WORDS.filter(...)`. When the mind knows
+nothing yet, its comparison words still come from the 402. It only
+bites on a young mind — which is every mind he has tested.
+(`thinking.js:233`, the domain draw, is expressly allowed by 372.5 and
+is NOT a fault.)
+
+**11 · 426 — THE FELT TRAIL WAS NEVER DIAGNOSED.** Ordered: find why
+every story beat reads `[0,0,0]`, and say whether the first story gate
+has been refusing every self-told story or passing them all. NO REPORT
+EVER CAME. The machinery is present, so this needs his bench.
+
+**12 · 429 — THE TEACHER'S LINE KIND IS NOT MARKED.** Ruled: every
+teacher line marked NAMING or STORY. CC built it, then reverted it
+because it had built on a question rather than an instruction.
+Correct behaviour; the work is not done.
+
+**AND WHAT THE AUDIT CLEARED:** only four of 436 directives have no
+report at all — 190 was cancelled by him, and 423/424/430 were sent
+today. THERE IS NO BACKLOG OF FORGOTTEN DIRECTIVES. Confirmed honoured
+in the code: 013 · 051 · 062 · 305 · 321 · 354 · 360 · 365 · 373 ·
+376 · 381 · 397 · 406 · 409 · 415 · 419 · 436 · 440.
+
+**COVERAGE, HONESTLY:** every directive was checked for a report, then
+the BEHAVIOURAL ones were checked against the code by hand. Process
+directives have no code to check. A second pass over the older
+behavioural directives (001-200) is worth doing and HAS NOT BEEN DONE.
