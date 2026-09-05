@@ -12533,3 +12533,36 @@ today's confidence.
 
 **PROPOSE IT AND WAIT (253).** Post what you extracted; do not put it
 to work until he has read it.
+
+## Directive 447 — THE CHECK GETS PRIORITY. And find out whether the renderer runs at all.
+
+### A · HIS RULING ON THE QUEUE
+**PRIORITISE THE CHECKING.** Nothing else on that queue is intensive
+or time-sensitive: it is the SCHOOL and the VOICE RENDERER waiting,
+**not the mind** — the mind's thinking uses no model at all (376,
+379), and CC's wording made it sound otherwise.
+
+So: the correctness check goes first, the teacher and the renderer
+wait, and the four-per-beat number CC chose is replaced by that rule
+rather than by another figure. **Say what the teacher's delay
+actually becomes**, and if it turns out to matter, report it rather
+than solving it.
+
+### B · AND THE RENDERER MAY NOT BE RUNNING
+**His words: he cannot tell the difference when it is on, and has
+never really used it.** A renderer nobody can see the effect of is
+either doing nothing or doing something invisible, and both are worth
+knowing.
+
+FIND OUT, and change nothing:
+1. IS IT CALLED AT ALL when it is attached? Count the calls on his
+   bench over a stretch, not from reading the code.
+2. IF IT IS CALLED, WHAT DOES IT CHANGE? Post the mind's own line and
+   the rendered line side by side, several of each, for his eye.
+3. IF IT IS REFUSING MOST LINES, say the rate. 329 measured 4 of 5
+   refused at one point and 15% at another, and if it is still
+   refusing nearly everything then "no visible difference" is exactly
+   what he should expect.
+4. AND SAY WHETHER IT IS EVEN ATTACHED on his bench today — 394 made
+   the panel start empty with nothing preloaded, so it may simply
+   never have been switched on.
