@@ -45146,3 +45146,82 @@ and the directive in front of it.
    directive automatically, or only when he or the Director asks for it. 445.3 says "it runs before
    the build, on the directive, and on any plan", which reads as every one; but that is a cost he
    pays per directive and the choice is his. **Not chosen.**
+
+---
+
+## REPORT 447 — THE CHECK GOES FIRST. AND THE RENDERER HAS NEVER RUN, NOT ONCE.
+
+### A · THE CHECK GETS PRIORITY, AND MY NUMBER IS GONE
+
+**His ruling replaced a figure with a rule, which is the right shape** — the four-per-beat budget
+was mine and unruled, and there is now nothing to tune.
+
+`model.js`'s promise chain becomes a **priority queue**. Still one call at a time — two configured
+names are still one GPU — but the correctness check is picked up ahead of ordinary work, and it is
+**stable within a priority** so two teacher lines keep the order they were asked in.
+
+**PROVED, not asserted.** One call already running, then a burst queued:
+
+```
+queued:  teacher-1 · teacher-2 · CHECK · teacher-3
+ran:     running -> CHECK -> teacher-1 -> teacher-2 -> teacher-3
+```
+
+The check jumped ahead; the teachers kept their own order; and a rejection still does not poison
+the chain.
+
+### WHAT THE TEACHER'S DELAY ACTUALLY BECOMES — measured, as asked
+
+I measured the real arrival pattern rather than averaging it, because a burst is what would matter:
+
+| | |
+|---|---|
+| 300 ticks | 177 bindings |
+| busiest MINUTE (15 ticks) | **17 bindings — 22.4 s of the 60** |
+| busiest single TICK | **4 bindings — 5.3 s** |
+
+**SO THE TEACHER'S WORST CASE IS ABOUT SIX AND A HALF SECONDS** — the call in flight plus at most
+four checks ahead of it. **Ordinarily it is under one and a half seconds**, because at 8.4 bindings
+a minute the queue is usually empty when a teacher line arrives.
+
+**AND IT DOES NOT MATTER, on the reasoning his own ruling gives:** nothing the being does is behind
+this queue. **The mind's thinking uses no model at all.** What waits is the school and the
+renderer, and the renderer turns out not to exist — see below.
+
+### B · THE RENDERER IS NOT RUNNING. IT HAS NOT RUN SINCE 352.
+
+**HE ASKED WHY HE CANNOT TELL THE DIFFERENCE WHEN IT IS ON. THE ANSWER IS THAT IT HAS NEVER BEEN
+ON, AND CANNOT BE.**
+
+**Measured on his live bench, not read from the code**, which is what 447.B.1 asked for:
+
+```
+every model call on his bench, by caller:   { "correctness": 158 }
+by role:                                    { "technical":   158 }
+```
+
+**158 of 158 are the correctness check. ZERO voice. ZERO rendering. ZERO senses. ZERO teacher.**
+
+**1 · IS IT CALLED AT ALL — NO.** Not once.
+**2 · WHAT DOES IT CHANGE — NOTHING**, because it never runs. There are no lines to post side by
+side.
+**3 · THE REFUSAL RATE — THERE ISN'T ONE.** 329's 4-in-5 and 15% were measured when the interpreter
+still ran; there have been no calls to refuse since.
+**4 · IS IT ATTACHED — NO.** `perception.json` is `{}`, three bytes, **unchanged since 2 September**,
+and `/perception` reports `attached: false, model: null`. 394 made the panel start empty and
+nothing has ever been plugged into it.
+
+**AND THE CAUSE WAS ALREADY WRITTEN DOWN, IN THE CODE, UNDER 394:** `rendering` is reachable from
+**exactly one place — `interpreter.js:339`** — and `interpreter.js` has been **SUPERSEDED BY 324.C
+and struck by 352.** 327 named gemma3:1b as a voice while 301 had already ruled the phone speaks;
+the two collided, and the slot has been dead ever since.
+
+**SO IT IS NOT A RENDERER THAT IS REFUSING EVERYTHING OR DOING SOMETHING INVISIBLE. IT IS A
+CAPABILITY WITH NO CALLER**, which 304.E says plainly is not built — and he has been trying to
+judge something that was never there.
+
+**CHANGED NOTHING**, as 447.B ordered. What to do about it is his: 324.C ruled the mind's own words
+are rendered through a small model for FORM ONLY, and that ruling has had no live path since 352.
+
+**Suite: the two standing phase-3 reds (9, 55). Nothing new. The bench on 8793 is restarted —
+reload.**
