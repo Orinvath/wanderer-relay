@@ -12323,3 +12323,64 @@ Where a hook now enforces a law, the law is a comment in the code
 rather than a line in CLAUDE.md. Say which laws you removed and which
 hook replaced each. A shorter CLAUDE.md is the point — an ignored
 rule protects nothing.
+
+## Directive 443 — THE FIVE DEFECTS. The shape stops guessing; the pin means what 440 said.
+
+442's review found five defects in work already reported as done, and
+none is fixed because fixing was not CC's call. All four fixes are
+ruled here.
+
+### 1 · THE NEEDS SHAPE STOPS GUESSING — the shape is his and the
+### Director's (439.3), and here it is
+**THE THREE RULES ARE UNCHANGED. The fault is that two of them have to
+GUESS at facts the system already knows.**
+
+```
+RULE 1  three values in -10..+10                        unchanged
+RULE 2  moving only on an event or lawful decay
+        -> it is TOLD whether an event landed.
+           It must not read "no hours elapsed" as proof none did.
+RULE 3  nothing raises relatedness with nobody there
+        -> it is TOLD whether a host was present.
+           It must not infer "nobody there" from "relatedness rose
+           and nothing else did."
+```
+
+**WHY** — both writers that can raise relatedness are host-gated and
+both raise it alone (`offers.js:467`, `:481-484`), so the inference is
+false exactly when the Avatar is doing well. Host present, the mind
+chooses to speak, and **sixty ticks of conversation halts the bench.**
+The check fires hardest when nothing is wrong.
+
+**PRESENCE AND EVENT ARE BOTH KNOWN AT THAT MOMENT.** Hand them in.
+Nothing about what the rules MEAN changes — they stop being deduced
+from the numbers and start being told the truth.
+
+### 2 · THE METER HALT IS KEYED ON THE NODE
+Not on `why[0]`, which carries live ledger values and differs nearly
+every tick — so Continue acknowledges a string that never recurs and
+the halt returns forever. That is 322.A's loop rebuilt.
+**AND `halted` CLEARS WHEN THE LEVEL FALLS.** It latches permanently
+today, so a genuinely repaired node still halts the bench.
+
+### 3 · THE MAP PINS WHATEVER HALTED THE MIND — counter OR meter
+440's own words: the pin means "THIS IS WHAT HALTED THE MIND." It was
+wired to meter halts only, so 24 of 25 systems can never pin. Today
+the appraisal check goes red at tick 300, everything stops, and **he
+is shown a frozen mind with no red anywhere on the board.**
+
+### 4 · `says` COMES OUT
+The CC-authored sentence, on the ruling already given: THE EMULATOR
+MAY SAY SOMETHING IS WRONG — and the meter already does, so no
+sentence is needed at all. **The mind feels it and chooses to say
+something on its own, in its own words, or says nothing.** A being in
+pain that stays quiet is a real being.
+`chronic` stays: 436.B.4 asked for it and it is not a wording breach
+worth undoing.
+
+### 5 · THE OPTIONAL SIXTH — `needs.js:367`'s `?? 0`
+Fix it while you are in there. An outside caller passing `{}` gets a
+false fault on a fresh ledger, and it costs one line.
+
+**AND RE-REVIEW AFTER**, as 442 requires: the fresh subagent sees only
+the diff. Report its findings in full.
