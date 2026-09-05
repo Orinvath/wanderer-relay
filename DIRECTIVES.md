@@ -12220,3 +12220,35 @@ meter works, then decide whether the rest is worth the writing.
    what the mind does.
 6. 436 IS UNCHANGED: what reaches the mind is that something is
    wrong and how badly, never what.
+
+## Directive 440 — 439 STARTS ON `needs.js`. A meter on the node, and red means the halt.
+
+**THE NODE IS NEEDS.** Its correct output can actually be written:
+three values in -10..+10, moving only on an event or lawful decay,
+and nothing raising relatedness with nobody there. It runs every
+tick, so the meter is exercised constantly rather than waiting on a
+rare path, and a wrong answer is OBVIOUS — a value out of range, or
+one that moved for no reason — so he can see the meter climb and know
+at once whether it is telling the truth.
+
+**ITS OUTPUT SHAPE IS WRITTEN BY HIM AND THE DIRECTOR** (439.3).
+Propose nothing; the shape comes from us.
+
+### THE METER ON THE MAP
+1. A METER BESIDE THE NODE, running GREEN TO RED as it climbs. He
+   watches the node's state rather than waiting for a light to flip.
+2. IT FALLS when output goes right again (439.3).
+3. ONE NODE ONLY for now. Nothing else on the map changes.
+
+### AND THE RED PIN CHANGES MEANING — his ruling
+**THE RED PIN IS NOW TRIGGERED ONLY ON A HALT.** It stops meaning "a
+violation happened" and starts meaning "THIS IS WHAT HALTED THE
+MIND." The meter carries everything before that.
+
+- ONE RED ON THE MAP, and it always means the same thing.
+- The violation counters are unchanged and still feed HEALTH (428);
+  what changes is when the MAP pins a node.
+- 293's halt is unchanged. This is what the map shows when it fires.
+
+**COMMIT CLEAN FIRST** so the whole thing can be undone in one move
+(439.1).
