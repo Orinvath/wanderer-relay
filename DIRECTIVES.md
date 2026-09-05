@@ -12918,3 +12918,12 @@ psychology. **If you are reaching, it belongs in his pile.**
 - **AND THE REST COME ONE AT A TIME**, as he ruled — 454 is withdrawn
   and there is no file of rows for him to read. The Director brings
   them singly, in the shape 304 requires.
+
+## Directive 456 — WITHDRAWN. The research is the Director's, not CC's.
+
+He asked the DIRECTOR to go through the 89 and answer from the
+science. The Director handed it to CC instead, which is not what he
+asked for and is not CC's work to do.
+
+**CC does nothing with this.** 455 stands — row 1 is ruled and built.
+The remaining 88 are the Director's to research and bring to him.
