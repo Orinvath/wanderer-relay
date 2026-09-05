@@ -44453,3 +44453,48 @@ same principle 437 is enforcing. The MODEL-NOT-ANSWERING group is the one that m
 and `mind.js:521` in particular is the same catch as one already removed.**
 
 **NEXT: 436, the nervous system.**
+
+---
+
+# BUILT — Directive 438. **THE FIVE ARE OUT. The nine stay.**
+
+```
+perceiving.js     a model that did not answer -> the moment did not happen
+mind.js 521       embed fails -> null            (identical to memory.js 250, already out)
+watching.js 3     a store that cannot be read · a gauge that throws · a reach that fails
+experiencing 1350 a Brain it failed to reach
+```
+
+## THE COLLISION HE ASKED ABOUT — AND BOTH HOLD
+
+**324: a body with no sensor is SILENT, NEVER IN ERROR. 438: the mind does not carry on past a
+model that failed.** Perceiving's own comment warned these would collide.
+
+**THEY ARE DIFFERENT CASES AND THE CODE NOW SAYS WHICH IS WHICH:**
+
+```
+NO MODEL AT ALL       a CHECK -- `if (!model) return null`. An Avatar without eyes is ordinary,
+                      it says nothing either way, and 324 is untouched.
+A MODEL THAT THROWS   no catch. It fails, and the nervous system reports.
+```
+
+**The catch could not tell those apart — it answered both with `null`, so a broken eye and an
+absent one were indistinguishable and the mind carried on past both.**
+
+**AND THIS IS THE SAME SHAPE THAT LET 376 SURVIVE LOSING ITS CATCH in memory.js: the fallback was
+never the catch, it was the CHECK IN FRONT OF IT.** That is the general answer to 437.D — where a
+removal seems to break a law, the law is usually held by a check that was hiding behind a catch.
+
+## MEASURED, NOT PREDICTED
+
+```
+40 ticks, model present      ran clean
+40 ticks, NO MODEL AT ALL    ran clean          <- 376 and 324 both hold
+the suite                    the four standing phase-3 reds. NOTHING NEW.
+```
+
+**THE NINE STAY, as ruled** — the six deliberate refusals whose own comments say they exist to stop
+something faking an answer, and the three bench ones. **Privacy's is the clearest and is worth
+repeating: "the model being unreachable is not a permission. It is a refusal."**
+
+**NEXT: 436, the nervous system.**
