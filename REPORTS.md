@@ -44895,3 +44895,67 @@ fixes are each one thing:
    the level falls.
 3. **(3)** the map pins whatever halted the mind, counter or meter — which is what 440 said.
 4. **(5)** `says` comes out, on the go he has already been asked for.
+
+---
+
+## REPORT 443 — THE FIVE ARE FIXED, AND THE RE-REVIEW FOUND FOUR MORE. ONE OF THEM WAS A DEAD MAP.
+
+**442 IS EARNING ITS KEEP TWICE OVER.** The first review found five defects in work reported as
+done. **The re-review of the FIXES found four more, and the worst of them was a mind map that would
+not have drawn at all.**
+
+### THE FOUR IT FOUND IN MY FIXES
+
+**1 · THE MIND MAP WAS DEAD, AND NOTHING I RAN WOULD HAVE TOLD HIM.**
+Removing the old pin code took the `};` that closes `window.mindMap` with it. **The browser script
+was a hard syntax error: no nodes, no pulse, no meters, no map.**
+
+- **`node --check mindmap.js` PASSES**, because that code lives inside a template literal. CLAUDE.md
+  already says `node --check` is not a run; this is what that costs.
+- **THE SUITE ALREADY HAS THE RIGHT CHECK AND IT NEVER RAN.** `acceptance-life.js:2842` parses the
+  page's module blocks exactly for this. **PHASE 3 fails first and stops the run**, so LIFE never
+  executed. **That is OPEN item 1 on the TODO list, and it has now cost a broken centrepiece.**
+- I built a standalone parse of `mindMapScript()` and **proved it catches this exact break** — it
+  reports `Unexpected token 'const'` on the broken file and passes on the fixed one.
+
+**2 · CONTINUE COULD NEVER STICK — 322.A REBUILT BY THE FIX MEANT TO CLOSE IT.**
+The acknowledgement is keyed partly on WHEN it halted, and I cleared `halted` on the first dip — so
+every re-halt got a new tick and a new key. **The climb is three times the fall, so a node wrong more
+than one tick in four crosses the line forever and Continue can never be made to stick.**
+It clears at ZERO now. **Recovered means recovered**, and a break after that is a NEW halt and rightly
+stops him again. That is the only reading that satisfies both sentences of 443.2.
+
+**3 · PRESENCE WAS READ AT THE WRONG MOMENT.** The span covers the PREVIOUS tick's writes, so asking
+whether a host is here NOW answers the wrong question: **a host who spoke and then left made the next
+tick call it a rise with nobody there.** One false fault per departure, falling three times slower
+than it rose. Presence is latched at the moment the ledger moved, like the event.
+**Measured: 12 arrivals and departures, zero faults.**
+
+**4 · LOADING A BEING WAS READ AS THE LEDGER BEING WRITTEN.** `restore` replaced all three needs and
+never moved the meter's baseline, so **opening a saved being fired false faults on a mind that had
+only just been opened.** A load is not a movement.
+
+### AND THE FIVE FROM 443 ITSELF
+
+| | |
+|---|---|
+| **the shape stops guessing** — it is TOLD whether an event landed and whether a host was there | **120 ticks with a host present, zero faults.** Before, sixty would have halted the bench |
+| **the halt is keyed on the node**, not on a string of live ledger values | Continue sticks |
+| **the map pins whatever halted the mind**, counter or meter — 440's own words | the halt arrives on the feed the page already polls; the pin clears on Continue |
+| **`says` is gone** | the mind is handed **two numbers and no sentence.** It feels it and speaks in its own words or stays quiet |
+| **a missing `before` means nothing to compare** | rule 1 still applies; the range check is untouched |
+
+**Suite: the two standing phase-3 reds (9, 55). Nothing new.** The bench on 8793 is restarted and
+serving all of it — **reload.**
+
+### ONE THING I DID WRONG IN THE COURSE OF THIS
+
+To test whether the suite's own map check would have caught the break, **I stashed my uncommitted
+fixes and the command timed out before the restore ran — so every fix sat stashed and the tree looked
+clean.** Caught on the next check, restored in full, and verified before committing. **It should not
+have been done with live uncommitted work in the tree.**
+
+### STILL OPEN AND UNANSWERED
+
+**Item 1 on the OPEN list is no longer theoretical.** PHASE 3 stopping the run is what let a dead map
+through, and the check that would have caught it has been sitting in the suite unable to execute.
