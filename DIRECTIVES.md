@@ -12927,3 +12927,75 @@ asked for and is not CC's work to do.
 
 **CC does nothing with this.** 455 stands — row 1 is ruled and built.
 The remaining 88 are the Director's to research and bring to him.
+
+## Directive 457 — THE 89, FIRST PASS: what the science settled, what was already ruled, what is arithmetic
+
+**The Director's research, as he ordered — the science answers where
+it answers, and only judgment reaches him.** Forty of the 89 sorted;
+the rest follow.
+
+### ALREADY RULED BY HIM — no action, recorded as RULED with the cite
+```
+lessons  COLLAPSE_RUN 3          233: three contradictions collapse a belief
+trust    BORN 0.3 · FLOOR 0.05   234.7: born 0.3, floor above zero
+mood     UNEASE_PER_HOUR 0.22    294.1: the rate is honest time, unchanged
+mood     UNEASE_CEILING 0.55     294.1
+offers   FLOOR_CHANCE 0.10       027: low but never zero
+offers   ANSWERING 1.4           215's own weight
+voice    OWED 1.4                215's own weight
+curiosity ROUSED_AT 0.371        MEASURED, not chosen (201.3)
+```
+
+### ARITHMETIC, NOT DECISIONS — recorded as such
+```
+soul     MID_ASPECT 50           the midpoint of a 0-100 scale
+lessons  NEUTRAL 0
+voice    NEED_LOW 0              "below the middle" on -10..+10
+```
+
+### THE SCIENCE SETTLES THESE
+**lessons BORN_AT 0.5** — the uninformative prior. A new claim with
+no evidence sits at even odds; that is the maximum-entropy answer
+and the Bayesian textbook one. SETTLED.
+
+**lessons CEILING 0.99 · trust CEILING 0.95 · interests MASTERED_AT
+0.95** — Cromwell's rule: never assign probability one to anything
+short of a logical certainty. The science settles the DIRECTION
+(never 1.0) and is indifferent to which sub-one figure — any works.
+SETTLED as "below one"; the exact figure is immaterial.
+
+**mood FADE_PER_HOUR 0.55 — AND THIS ONE IS WRONG IN SHAPE, NOT IN
+SIZE.** One fade rate for every feeling contradicts the whole
+literature on emotion duration. Verduyn & Lavrijsen 2014 and Scherer
+& Wallbott 1994: **emotions have their OWN built-in time courses** —
+the rank order is fear = disgust = shame ≤ anger < guilt < joy <
+sadness, and the spread is enormous: fear and shame around half an
+hour, guilt three and a half hours, anxiety about a day, sadness by
+far the longest. **And duration varies by PERSON** — rumination,
+neuroticism, and the intensity at onset all lengthen it.
+So the fix is not a better 0.55. **Each of the 22 feelings fades at
+its own rate, drawn from the published durations, and each is scaled
+by the being's aspects per 071.** That is two rulings this project
+already holds — no set numbers, and the science gives the shape —
+applied to a place they were never applied.
+Rows to REFERENCES.md per 227: Verduyn & Lavrijsen 2014; Scherer &
+Wallbott 1994; Verduyn et al. 2015 review.
+
+### WHAT NEEDS HIM — the Director brings these one at a time
+soul: WEIGHT range · STRUCK_DEPTH range · CONTRADICTION_AT ·
+OPENNESS_SPAN and MAX_BEND (the science gives the direction, not the
+size). lessons: STRONG_AT · FLOOR. belief: the WINDOW three ·
+PARTIAL_AT. mood: FLOOR. learning: CONSTANT_AT · CONSTANT_AFTER ·
+MAX_LINKS · ECHO_UNTIL · ECHO_BASE · SURPRISE_FLOOR. voice:
+FEELING_RUNS_HIGH · ECHOING · HOLDS_NOTHING · ARRIVING. offers:
+NEAR_CERTAIN · ANSWERING_MOST · NO_COVER · WEAKLY · BORED_AROUSAL ·
+BORED_UNCERTAIN · STEP · EASE. curiosity: GAIN_SPAN · FLOOR.
+interests: PAYS · FADES · STRUCK_AT · DISPOSITIONS.
+
+**Still to sort: thinking (20), sleep (9), teacher (9), and the 18
+bench values.**
+
+### FOR CC
+Build the FADE change — it is a science finding, not a judgment.
+Record the RULED and ARITHMETIC rows as such. Touch none of the
+"needs him" values.
