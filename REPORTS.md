@@ -44498,3 +44498,91 @@ something faking an answer, and the three bench ones. **Privacy's is the cleares
 repeating: "the model being unreachable is not a permission. It is a refusal."**
 
 **NEXT: 436, the nervous system.**
+
+---
+
+## REPORT 436 — THE NERVOUS SYSTEM. Three of the four behaviours are in. The fourth is a question.
+
+**IT RUNS, AND A BROKEN MIND FEELS IT.** A healthy mind at 60 ticks feels nothing. Five real
+violations later, health goes red and the mind is told this and only this:
+
+```
+{"wrongness":0.18,"chronic":0.033,"says":"something is not right"}
+```
+
+**No file. No counter. No system named.** Those three keys are the whole of what crosses (436.A.2).
+It lives in `nervous.js` — its own node, its own file — and the mind asks it one question a tick.
+
+### WHAT IS BUILT, and each landed on machinery that already existed
+
+**B.1 IT INTERRUPTS — and this is the one worth reading, because it is measured.** Wrongness joins
+the facts that open the attention door. It does not replace them and it does not force the door.
+Same mind, same seed, 80 ticks, broken halfway:
+
+|  | never broken | broken at tick 40 |
+|---|---|---|
+| moments judged pertinent | **7** | **38** |
+| moments that got through the door | **12** | **43** |
+
+**A being that is hurting attends to what is in front of it, and that is Eccleston & Crombez
+exactly.** It is not a number I chose — it fell out of one added condition.
+
+**B.2 IT COMPETES, IT DOES NOT COMMAND.** Wrongness raises what SAFETY is worth. `safety` already
+existed and its worth already read a threat; wrongness is a threat from the inside, so **nothing new
+was invented** (436.D). And it loses, which is the point:
+
+```
+wrongness 0     -> the winning offer is PLAY
+wrongness 0.5   -> the winning offer is PLAY      <- it competed and lost
+wrongness 1.0   -> the winning offer is SAFETY
+```
+
+**A half-wrong being still went and played.** That is Fields' model — pain inhibited by a more
+strongly motivated action — and there is no override path anywhere in it.
+
+**B.3 IT IS GRADED.** One red system is 0.18, six or more is 1.0, and the severity rides through
+both behaviours above rather than being a separate scale.
+
+**C.1 IT MAY SAY SO** — "something is not right", "something is wrong", "something is badly wrong".
+Three sayings, and **not one of them has a word for WHAT.**
+
+### WHAT IS NOT BUILT, AND WHY I STOPPED — 436.B.4
+
+**Persistent wrongness narrowing what it thinks about is NOT IN.** The finding is not in doubt. The
+problem is that **436 says each behaviour lands on existing machinery, and for this one there is no
+existing machinery.** There is no number in this mind for how much it thinks about. I went and
+looked at all three candidates:
+
+1. **The attention door's threshold** — dead. The live path supplies `topClears`, a verdict from the
+   lane bars, so the threshold is never consulted. Narrowing it would change nothing and I would
+   have reported a behaviour that does not run.
+2. **The attention gain** (`intellect`/`openness` widen novelty) — it shapes novelty, and 381 ruled
+   novelty does not open the door. Narrowing it narrows nothing that matters.
+3. **Curiosity's `level`** — this one WOULD work: what rouses becomes what it thinks about, so
+   damping it genuinely makes a being think about less. **But nothing tells me by how much**, and
+   picking a figure is inventing the pain scale 436.D forbids in the one place it would actually
+   bite.
+
+**So it stops here per 250, and 436.D says so itself: "If the build cannot proceed without one, STOP
+AND ASK."** `chronic` is computed and climbing on the bench right now — it reached 0.033 after 30
+broken ticks and it is on his screen — it simply does not narrow anything yet. **The question for
+him is one line: should chronic wrongness damp CURIOSITY, and at full chronic how much of it is
+left?**
+
+### THE DECISIONS I MADE FOR THE MIND, all three declared per 246
+
+`ALL_WRONG_AT = 6` · `ONE_FAULT = 0.18` · **and that SAFETY is the offer wrongness enters through.**
+All three are in `MIND_DECISIONS.md` §7 as PROVISIONAL and all three are his to move. Rows for the
+interoceptive framework, Damasio & Man, Eccleston & Crombez and Fields are in `REFERENCES.md` per
+227, with the two provisional numbers marked `[OURS]` rather than left looking like findings.
+
+### ONE THING I BROKE AND CAUGHT
+
+My first version of the safety worth was `max(threat, arousal, wrongness)`. **The old rule was
+`threat ?? arousal` — which ignores arousal whenever threat is present at zero**, and my `max` would
+have silently changed how a frightened Avatar values hiding, with nothing to do with 436. Caught on
+the consequence check, restored exactly, and verified: threat 0 with arousal 0.4 still scores 0.000
+as it always did.
+
+**HIS WORD ON 436 WAS "a good start, we'll see how it goes."** It is a start and it is watchable —
+the wrongness, the chronic and the saying are all readable on the bench.
