@@ -45225,3 +45225,83 @@ are rendered through a small model for FORM ONLY, and that ruling has had no liv
 
 **Suite: the two standing phase-3 reds (9, 55). Nothing new. The bench on 8793 is restarted —
 reload.**
+
+---
+
+## REPORT 447 addendum — THE REVIEW CAUGHT ME PUTTING THE CHECK IN FRONT OF THE BEING
+
+**THE HOOK BLOCKED MY TURN.** I committed 447.A without running 442's review. The Stop hook refused
+to let the turn end, I ran it, **and it found a defect serious enough that the hook paid for itself
+in one directive.**
+
+### THE FINDING, IN FULL — `model.js:339-352` with `bench-routes.js:204`
+
+**STRICT PRIORITY WITH NO AGING, PLUS THE REMOVAL OF THE PER-BEAT BUDGET, STARVES PRIORITY-0
+TOTALLY — NOT OCCASIONALLY.** The reviewer proved it rather than reasoning about it:
+
+> *"`next.resolve` runs one link before the `.finally` that clears `busy`, so a caller awaiting
+> `queue()` resumes while `busy` is still true. `Correctness.drain` is a serial `while` loop that
+> calls `model.generate` synchronously in that continuation, so the next priority-1 item is always
+> pushed BEFORE `pump()` next looks at `waiting`. Every dispatch after the first therefore picks a
+> check."*
+
+Its repro, on a faithful copy of my queue:
+
+```
+voice-A -> check0 -> check1 -> check2 -> check3 -> check4 -> check5 -> teacher-B
+```
+
+**`teacher-B` was queued BEFORE any check and ran after all six.**
+
+### AND THE PART THAT MATTERS: TWO OF THE STARVED CALLERS ARE THE BEING
+
+```
+mind.js:333        as: 'voice'       her own speech
+perceiving.js:106  as: 'perceiving'  her eyes and ears
+```
+
+Both were priority 0. **SHE WENT MUTE AND BLIND FOR THE LENGTH OF A CHECK BACKLOG** — a few hundred
+bindings at about a second each is minutes.
+
+**AND MY OWN COMMENT SAID THE OPPOSITE.** I wrote into `model.js` that *"nothing the being does is
+behind this queue and nothing about it slows down"*, and the reviewer named it: the code contradicts
+it. **I restated the directive's premise as though it were a property of my implementation, and it
+was not.**
+
+### THE FIX IS HIS OWN SENTENCE
+
+447.A says it exactly: *"it is the SCHOOL and the VOICE RENDERER waiting, **NOT THE MIND**."* That
+names what waits and what does not. **Three tiers now, not two:**
+
+```
+2   HER VOICE · HER SENSES     the being. Nothing waits in front of these.
+1   THE CORRECTNESS CHECK      ahead of the bench's own work, per 447.A
+0   the school · the renderer  they wait, as ruled
+```
+
+**PROVED ON THE DRAIN LOOP'S REAL SHAPE**, not a simplified one:
+
+```
+busy -> HER VOICE -> HER EYES -> check0..check5 -> TEACHER
+```
+
+She goes first; **the teacher still waits behind the checks**, which is the ruling working.
+
+### WHAT THE REVIEW VERIFIED AS SOUND, reported because a review that only finds fault is not a measurement
+
+Exactly one call at a time (`busy` is set synchronously before the work is invoked, so the
+re-entrant `pump()` cannot double-start) · no poisoning and no wedge (a synchronous throw still
+reaches the `.finally`, and `post()` aborts on its own timeout so work always settles) · the
+returned promise's outcome and error identity pass through unchanged · stable within a priority ·
+and **nothing outside `Model` referenced the removed `this.turn`**.
+
+It also found `queued()` had no caller. **Removed** — I added it speculatively and nothing used it.
+
+### AND ONE THING THAT IS STILL HIS
+
+**Whether the school waiting minutes behind a large backlog needs a bound.** His ruling says the
+school and the renderer wait; **it does not say for how long**, and the queue as built has no
+anti-starvation property of its own — a future second producer of check-priority work would
+reintroduce the same hole. **A number is not mine to pick (250), so it is reported and not solved.**
+
+**Suite: the two standing phase-3 reds (9, 55). Nothing new. Bench restarted — reload.**
