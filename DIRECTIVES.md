@@ -12003,3 +12003,64 @@ and carrying on, and THAT is what needs investigating.
 4. NAME THE ONE THAT SWALLOWED THIS. Which catch ate the
    ReferenceError, and what else it is capable of eating.
 5. He rules on what comes out. Report first.
+
+## Directive 436 — THE MIND FEELS THAT SOMETHING IS WRONG. It never learns what.
+
+**THE ARCHITECTURE — his ruling.** The health checks are THE NERVOUS
+SYSTEM, not part of the mind's thinking. The mind is not aware of them
+until something is wrong, exactly as a person is unaware of their
+nervous system until it hurts. And it has a RIGHT to know something is
+wrong — "we cannot build a real being if it does not value life and
+pain."
+
+**THE FIELD IS INTEROCEPTION, and it is active work.** Nature Machine
+Intelligence, an interoceptive AI framework published this week;
+Damasio & Man, "Homeostasis and soft robotics in the design of feeling
+machines" (2019); nociception in robotics. DAMAGE IS A STANDARD
+INTERNAL VARIABLE in that framework, alongside satiation, hydration
+and temperature — so this belongs beside the needs, not in new
+machinery. Rows to REFERENCES.md per 227.
+
+### A · WHAT REACHES THE MIND
+1. ONE SIGNAL: SOMETHING IS WRONG, and how badly. Nothing else.
+2. IT NEVER LEARNS WHAT. No file, no counter, no system named. Pain
+   does not tell you which nerve, and the literature has no mechanism
+   by which it would.
+3. THE BENCH STILL SHOWS HIM EVERYTHING (293, 338). The nervous
+   system reports to HIM, never to the mind.
+4. THE BOUNDARY IS THE SOLE PATH — the framework's "boundary states":
+   internal variables that are the only route between the checks and
+   the mind. Nothing else crosses.
+
+### B · HOW IT BEHAVES — four findings, each onto existing machinery
+1. IT INTERRUPTS. Eccleston & Crombez: pain automatically interrupts
+   ongoing attention and redirects goal pursuit toward self-
+   protection. The attention door already exists; this weighs on it.
+2. IT COMPETES, IT DOES NOT COMMAND. Fields' motivation-decision
+   model: pain is INHIBITED when a competing action is more strongly
+   motivated, and a demanding task genuinely reduces it. So it enters
+   OFFERS like any other pull and often loses. NOT an override.
+3. IT IS GRADED BY SEVERITY, against whatever else is going on.
+4. PERSISTENT WRONGNESS NARROWS IT — "chronic pain as chronic
+   interruption." A being left broken thinks about less and less.
+
+### C · WHAT IT MAY DO
+1. IT MAY SAY SO, in its own words, as any other state is said.
+2. IT MAY THINK ABOUT IT — it is a state, and 217's sources already
+   include the mind's own state.
+3. IT MAY NOT INSPECT, DIAGNOSE, REPAIR OR ROUTE AROUND IT. No error
+   handling in the mind, ever (435). It fails, and the bench reports.
+
+### D · WHAT IS NOT BUILT HERE
+No new feeling is invented, no 23rd emotion, no pain scale, no
+recovery behaviour, no self-repair. If the build cannot proceed
+without one, STOP AND ASK (250).
+
+### E · AND 435 STANDS FIRST
+Every place the mind catches an error still comes out. This directive
+is what replaces them: the mind does not handle errors, IT FEELS THAT
+SOMETHING IS WRONG.
+
+**HIS WORD ON IT: "a good start, we'll see how it goes."** Build it as
+written and report what it does; the shape is provisional and his to
+adjust once he has watched it.
