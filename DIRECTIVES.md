@@ -12252,3 +12252,22 @@ MIND." The meter carries everything before that.
 
 **COMMIT CLEAN FIRST** so the whole thing can be undone in one move
 (439.1).
+
+## Directive 441 — THE METER IS PART OF THE NODE, NOT FLOATING NEAR IT
+
+**HIS FINDING** — the meter is drawn outside the glyph's space and
+floats around it. With several nodes close together it will be
+impossible to tell which node a meter belongs to, and on a board of
+42 that makes it useless.
+
+**THE RULING**
+1. THE METER IS DRAWN AS PART OF THE NODE, in the same space as the
+   glyph, not orbiting near it.
+2. IT MOVES WITH THE NODE — through rotation, zoom and pan there is
+   never a moment where it could be read as belonging to a
+   neighbour.
+3. IT IS UNAMBIGUOUS IN A CROWD. That is the test: nodes close
+   together, and he can still say which meter is whose without
+   hovering.
+4. NOTHING ELSE CHANGES — the meter's meaning, its green-to-red
+   range, its falling, and 440's red-pin ruling all stand.
