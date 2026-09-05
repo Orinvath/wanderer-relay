@@ -12110,3 +12110,49 @@ Removing twelve catches WILL make the mind fail where it used to
 carry on. That is the point. If it now stops on something real, that
 is a fault that was always there and was being hidden — REPORT IT,
 do not put the catch back.
+
+## Directive 438 — THE MODEL-NOT-ANSWERING FIVE COME OUT. The nine stay.
+
+**HIS RULING on 437.B.**
+
+### THE FIVE COME OUT — same shape as the twelve
+```
+perceiving.js 1     "a model that did not answer is a moment that did not happen"
+mind.js 521         embed fails -> embedding null (IDENTICAL to memory.js 250, already out)
+watching.js 3       a store that cannot be read · a litmus that throws · a reach that fails
+experiencing 1350
+```
+The mind stops carrying on past a model that failed. Same rule as
+437: it fails, and the nervous system reports.
+
+**AND 437.D APPLIES AGAIN** — this will make the mind stop where it
+used to continue. That is the point. If it stops on something real,
+REPORT IT, do not put the catch back.
+
+**ONE THING TO SAY PLAINLY IN THE REPORT** — perceiving's comment
+warns that removing it means AN ABSENT EYE STOPS THE MIND rather than
+just the moment. That collides with 324's law: a body with no sensor
+is SILENT, NEVER IN ERROR. Say how you kept both — the mind not
+carrying on past a broken model, AND a missing sense staying silent —
+because those are different cases and only one of them is a fault. If
+they cannot both hold, STOP AND ASK (250).
+
+### THE NINE STAY
+```
+BENCH PLUMBING, not the mind
+  clock.js 6   file writes -- a failed save must not take the process down
+  health.js 1  a check that throws reports RED "could not answer" -- that IS the
+               nervous system doing its job, and 436 makes it more important
+  trace.js 1   drops a watcher that throws, so THE MAP CANNOT BREAK THE MIND.
+               Removing it inverts 420's guard.
+
+DELIBERATE REFUSALS, and their own comments say so
+  censor.js · english.js · privacy.js · model.js (3) · cord.js
+```
+These exist precisely to STOP SOMETHING FAKING AN ANSWER, which is
+the principle 437 enforces rather than an exception to it. Privacy's
+is the clearest: "the model being unreachable is not a permission. It
+is a refusal." Removing it would turn a privacy check that cannot run
+into one that passes.
+
+### THEN 436, as 437.C already ordered.
