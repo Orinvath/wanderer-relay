@@ -12430,3 +12430,64 @@ the result and never acts on it.
 - AND THE HONEST LIMIT, in the report: a model's judgement is not
   ground truth either. It is far better coverage than a 12,000-word
   file, and it is still a judgement. Say so where the number is shown.
+
+## Directive 445 — THE CRITIQUE. A fresh agent that asks whether this is what we set out to build.
+
+**HIS ORDER** — a reasoning agent that understands what we are
+building and catches when something goes off course or does not align
+with what we set out to build.
+
+**THE FIELD CALLS IT INTENT DRIFT, and the tooling splits the job in
+two:**
+```
+CRITIQUE  catches DIRECTION-level errors BEFORE any code is written
+VERIFY    catches IMPLEMENTATION drift AFTER the agent finishes
+```
+**442 BUILT VERIFY.** It found five defects on its first day. **THERE
+IS NO CRITIQUE**, and that is the gap: the glyph filter, the speaking
+caps, the CC-authored `says`, the meter halting on a conversation
+going well — NONE was an implementation error. Each was code that did
+exactly what it was told and was not what he was building.
+
+**AND HE IS ALREADY AHEAD ON THE HARD PART.** The literature's own
+line is "intent must live somewhere outside the prompt." THE RELAY IS
+THAT. Most projects have nowhere for direction to live, which is why
+an agent cannot be told it.
+(Sources: intent-drift and spec-review literature 2026; the Spec
+Growth Engine, arXiv 2606.27045, whose drift gate is a blocking check
+— a hook. Rows to REFERENCES.md per 227.)
+
+### WHAT THE CRITIQUE IS
+1. A FRESH AGENT WITH NO STAKE IN THE WORK. It did not write the
+   directive and did not build the code, so it is not grading itself
+   — the same principle as 442's reviewer, one level up.
+2. IT READS THE RELAY — the directives, the standing laws, the
+   rulings — and it reads what is proposed. Its question is not "is
+   this correct" but **"IS THIS WHAT HE SET OUT TO BUILD?"**
+3. IT RUNS BEFORE THE BUILD, on the directive, and on any plan. That
+   is where a direction error is cheap.
+
+### WHAT IT LOOKS FOR — drawn from what actually went wrong here
+- A LIMIT NOBODY RULED. Caps, thresholds, sample sizes, ceilings —
+  the whole class of 339 faults.
+- SOMETHING DECIDED FOR THE MIND that the mind could lawfully decide
+  (245, 246).
+- A CHECK ASSERTING A STRICTER LAW THAN THE THING IT GUARDS. Six
+  times so far (306.D).
+- WORDS PUT IN THE MIND'S MOUTH that it did not earn.
+- A COLLISION WITH AN EARLIER RULING, named with both directives.
+- SOMETHING BEING SOLVED THAT THE BUILD ALREADY ANSWERS (step 6b).
+- AND THE ONE THAT IS HARDEST AND MATTERS MOST: A CHANGE THAT IS
+  CORRECT AND STILL NOT WHAT THIS PROJECT IS FOR.
+
+### WHAT IT MAY NOT DO
+It writes no code, edits nothing, and rules on nothing. It REPORTS,
+and **only he decides.** Same law as 442's reviewer: flag what affects
+the direction or a stated requirement, and say plainly when it has
+nothing — a critique that always finds something teaches us to ignore
+it.
+
+### HOW IT IS SET UP
+Propose the mechanism with your reason and wait (253) — a subagent
+definition, a skill, a hook, or a standing prompt. Say what it costs
+per directive and what it can and cannot see.
