@@ -12884,3 +12884,37 @@ its own order.
    and after, and post their sketch lines. A soul that holds
    everything must still read as SOMEONE rather than as an average.
    If it reads generic, that is a finding and it comes back to him.
+
+## Directive 456 — ANSWER THE 89 FROM THE SCIENCE WHERE IT ANSWERS. Bring him the rest.
+
+**HIS RULING** — go through the remaining 88 and where the SCIENCE
+settles a value, that is the answer. Only what science cannot settle
+comes to him.
+
+**ROW 1 IS THE MODEL FOR IT** (455): `RICHNESS 2-5` was CC's number,
+and Schwartz's theory across 82 countries says everyone holds ALL
+their values and differs only in how they RANK them. The science
+answered it and it needed none of his attention.
+
+### HOW EACH ONE IS HANDLED
+1. **IF THE SCIENCE SETTLES IT — APPLY IT**, cite the source, add its
+   row to REFERENCES.md (227), and record it in the ledger as ruled
+   BY THE SCIENCE with the citation. He does not need to see it.
+2. **IF THE SCIENCE GIVES A DIRECTION BUT NO MAGNITUDE**, that is not
+   settled. Say what the direction is and BRING IT TO HIM. 202 has
+   always said this — the science gives the shape, he gives the size.
+3. **IF NOTHING IN THE LITERATURE TOUCHES IT, BRING IT TO HIM.**
+
+### AND THE THING NOT TO DO
+**DO NOT STAPLE A CITATION TO A GUESS.** A paper that is merely
+adjacent is not an answer, and 046.1 is the standing law: nothing is
+invented, and a gap is stated plainly rather than dressed as
+psychology. **If you are reaching, it belongs in his pile.**
+
+### HOW IT COMES BACK
+- ONE LINE PER SETTLED ROW: the value, what the science says, the
+  citation. Grouped by file so he can skim what was decided without
+  him.
+- **AND THE REST COME ONE AT A TIME**, as he ruled — 454 is withdrawn
+  and there is no file of rows for him to read. The Director brings
+  them singly, in the shape 304 requires.
