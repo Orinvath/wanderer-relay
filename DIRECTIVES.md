@@ -12156,3 +12156,67 @@ is a refusal." Removing it would turn a privacy check that cannot run
 into one that passes.
 
 ### THEN 436, as 437.C already ordered.
+
+## Directive 439 — THE SELF-DIAGNOSING NODE. One node first.
+
+**HIS DESIGN, recorded whole so it is not lost, and started on ONE
+NODE so it can be undone if it goes badly.**
+
+### THE IDEA
+The mind should be able to SELF-DIAGNOSE WITHOUT KNOWING IT IS DOING
+SO — through its own nervous system, feeling that something is wrong
+BEFORE ANY HALT. And this is more than a behaviour for the mind: it
+gives THE BENCH a diagnostic sense of its own, watching where reality
+diverges from what was intended.
+
+### THE FOUR PARTS
+1. **A NODE KNOWS ITS OWN JOB AND WHAT CORRECT OUTPUT LOOKS LIKE.**
+   Not only a claim it can violate (428) — a SHAPE its answers should
+   have.
+2. **THE HEALTH SYSTEM COMPARES ACTUAL OUTPUT TO THAT SHAPE** and
+   flags a mismatch.
+3. **A METER, NOT A SWITCH.** Wrong output raises it and it climbs;
+   a halt comes after sustained wrongness rather than on the first
+   fault. **AND IT FALLS when output goes right again.**
+4. **THE MIND FEELS THE METER RISING** before any halt — it may say
+   so, and it may ASK FOR HELP. 436's law holds: it never learns
+   WHAT.
+
+### WHY THE METER FALLS — his reason, and it is the ambition here
+Because the health system might eventually not only diagnose itself
+but FIX itself. A self-diagnosing and self-repairing system, and a
+node that knows its correct output is already most of what a repair
+needs.
+
+### THE PRECAUTION, and it is his
+A MODEL READS THE CODE, FINDS THE PROBLEM, FLAGS IT AND REPORTS IT TO
+CC. **IT WRITES NOTHING.** Read-only by construction, not by
+convention — nobody gives it write access later as a convenience.
+CC fixes, with his approval, exactly as now. THE REPAIR HALF IS A
+SEPARATE DECISION, taken only after the diagnosis half is proven.
+
+### THE BLOCKER, AND WHY WE START WITH ONE
+Telling a node what correct output looks like is the hard part. Three
+ways it could come and only one is honest:
+- WRITTEN BY HAND — accurate, and a lot of work;
+- DERIVED FROM THE CODE — only checks the code against itself; a
+  wrong-but-consistent output passes;
+- LEARNED FROM WATCHING — learns current behaviour as correct, bugs
+  included.
+The second and third cannot catch a fault nobody has already noticed.
+**SO IT IS WRITTEN BY HAND, AND WE START WITH ONE NODE.** Prove the
+meter works, then decide whether the rest is worth the writing.
+
+### HOW IT IS BUILT
+1. **COMMIT FIRST**, clean, so this can be undone whole (238
+   addendum).
+2. ONE NODE ONLY. Which one is his to choose; propose one with your
+   reason and wait.
+3. ITS OUTPUT SHAPE IS WRITTEN BY HIM AND THE DIRECTOR, never by CC
+   (347's rule for the claims applies here).
+4. THE METER IS ITS OWN THING, separate from the violation counters,
+   which stay as they are.
+5. NOTHING ABOUT THE MIND CHANGES. This watches; it does not alter
+   what the mind does.
+6. 436 IS UNCHANGED: what reaches the mind is that something is
+   wrong and how badly, never what.
