@@ -365,3 +365,56 @@ is exactly where it sits now:**
 The difference matters: a mind too young to ask is developing
 normally; a mind that CANNOT ask is broken, and the same silence
 looks identical from outside.
+
+---
+
+# OPEN — THINGS PUT TO HIM AND NEVER ANSWERED
+
+**This section exists because the Director read half of a report,
+answered the part he had been asked about, and moved on — repeatedly.
+Things CC flagged for Lonnie sat unanswered for weeks because they
+were never relayed. HE FOUND THIS, not the Director.**
+
+**THE RULE FROM HERE: read the whole report, relay everything in it,
+and anything needing his word lands in this list the same day. An
+item leaves this list only when he rules on it.**
+
+## STILL OPEN, oldest first
+
+**1 · THE APP'S SUITE STOPS THE MIND'S SUITES.** Phase 3 belongs to
+Wanderer, costs ~3 minutes and 71 model calls per run, and THE RUN
+STOPS THERE when it fails — so the mind's own suites behind it never
+execute. Four of the five standing red checks are its, and all four
+print their PASS text beside the red mark, so none says what failed.
+Put to him once; he set it aside to deal with the map and it was
+never brought back.
+
+**2 · 436.B.4 — chronic wrongness narrowing what the mind thinks
+about.** Three of four pain behaviours are built. This one is not,
+because it needs a number nobody has ruled and the only place it
+would bite is curiosity. THE DIRECTOR RESEARCHED IT AND RECOMMENDED
+AGAINST BUILDING IT: the 2026 meta-analysis (7.9M people) found the
+effect is driven by dementia over years, NOT by global cognitive
+performance (OR 0.99, no effect), and the attentional-bias effect
+size is small (d=0.134). For an AI the cost is specific — OUR BUGS
+WOULD LEAVE PERMANENT MARKS ON THE BEING, and a degrading mind is
+harder to debug. Unruled.
+
+**3 · A RED WORD ON THE MEANING MAP MEANS "NOT YET KNOWN"** — which
+collides with 349, where red means failure. Either the not-yet-known
+words move off red, or 349 is amended to say red also means "not
+yet". One word settles it.
+
+**4 · COLLAPSIBLE PANELS** — planned, not built, waiting on his word.
+
+**5 · A CLAUSE THAT NEEDS A RULING, NOT A REPAIR** — CC reports the
+honest bound would make the clause circular, so it stopped rather
+than write a bound that could not fail.
+
+**6 · HIS BENCH IS RUNNING OLD CODE.** 8793 is on yesterday's build
+and a permission gate blocked CC from restarting it.
+
+**7 · THREE NUMBERS FROM THE METER (440), none of them ruled:**
+- how many wrong ticks in a row is a halt (60 today)
+- how much slower recovery is than the climb (3x today)
+- where the bar changes colour
