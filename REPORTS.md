@@ -44322,3 +44322,63 @@ rather than painting an unreadable wall or silently dropping words.
 **One file: `meaningmap.js`. `language.js` and `geometry.js` are clean.** It is a second canvas over
 the map that takes no pointer — the dots are drawn exactly as before, hover still works underneath
 it, and 433's fixed frame is untouched. **This reads the map. It does not draw it.**
+
+---
+
+# 435 — EVERY PLACE THE MIND CATCHES AN ERROR. **Investigated, nothing changed.**
+
+## 435.4 — THE ONE THAT ATE IT, NAMED
+
+```
+experiencing.js:197   try { mind.brain.learning.grounded('W-WATCH', p.from, [p.mark], {...}) }
+experiencing.js:198   catch (e) { mind.lastBrainError = String(e?.message ?? e) }
+```
+
+**A one-line try around `learning.grounded` — the exact function my 409 rename broke.** It caught
+the ReferenceError, wrote it to a string nobody reads, and the tick carried on. **It is inside a
+`for` loop, so it swallowed the same error once per crossing word, every tick, silently.**
+
+**WHAT ELSE IT CAN EAT:** anything `grounded()` throws — a bad word, a missing store, a broken
+geometry, a typo like mine. **It cannot tell them apart and it treats them all the same way.**
+
+## 435.1 AND 435.2 — ALL 33, AND WHAT EACH DOES WITH WHAT IT CAUGHT
+
+```
+ 7  RECORD IT AND CARRY ON   experiencing.js 198 · 579 · 622 · 1054 · closing.js 135 ·
+                             rest.js 122 · watching.js 496
+                             -> writes `lastBrainError` and continues. NOTHING READS IT except a
+                                line on his page, so a fault becomes a string and the mind runs on.
+ 5  RETURN A FALLBACK        glyphs.js 160 -> {} · interpreter.js 240 -> null · memory.js 250 ->
+                             null · mind.js 451 -> 5 · sign.js 42
+                             -> the caller cannot tell a real answer from a swallowed failure.
+                                mind.js:451 returning 5 is a NUMBER INVENTED FROM A FAILURE.
+21  EVERYTHING ELSE          clock.js (6, all file writes) · model.js (3) · watching.js (3) ·
+                             censor · english · perceiving · privacy · health · cord · trace ·
+                             experiencing 1350 · mind.js 521
+```
+
+## 435.3 — WHY THEY ARE THERE
+
+```
+THE APP'S, NOT THE MIND'S    clock.js's six are FILE WRITES -- a save that fails must not take the
+                             process down, which is a SERVICE's concern. sign.js and privacy.js
+                             are the same shape. The app surviving is not the mind's business,
+                             and he said so.
+THE MODEL'S                  memory.js 250, mind.js 521, model.js 338/374, interpreter.js 240 --
+                             all "the model did not answer". These are the mind being built to
+                             survive something outside it, which 376 already ruled it must:
+                             the mind works with nothing on 11434.
+DELIBERATE AND NARROW        trace.js 63 drops a watcher that throws -- the map must not be able
+                             to break the mind. cord.js 163 is 051's silence rule, and its own
+                             comment says it is NOT a swallow.
+NOBODY KNOWS                 the seven `lastBrainError` catches. They are the tick wrapped in a
+                             net, and the net is why a rename could go unnoticed for a day.
+```
+
+## AND THE FINDING UNDERNEATH ALL OF IT
+
+**The mind does not fail. It degrades.** Seven catches turn any fault into a string, five turn one
+into a plausible-looking value, and the tick continues either way. **That is why 409 produced a
+NONDETERMINISTIC MIND rather than a crash** — nothing was ever going to stop.
+
+**NOTHING CHANGED. He rules on what comes out, and 436 is what replaces them.**
