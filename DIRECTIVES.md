@@ -12714,3 +12714,33 @@ Critique would judge the rules without the reason underneath them:
 
 **THEN IT IS READY.** Post the corrected file; he reads it once more
 and it goes to work.
+
+## Directive 451 — WHY IS EVERY RENDERING REFUSED? Post the reasons.
+
+**HIS BENCH, with a model attached at last:**
+```
+Mind  sings in the                    REFUSED
+Mind  sings sign                      REFUSED
+Mind  sings in machine makes noise    REFUSED
+```
+**Three of three refused.** The mind falls back to its own line every
+time, so the renderer is attached, running, and doing nothing.
+
+**449.5 ALREADY BUILT THE ANSWER** — `/ledger` carries refusals WITH
+THEIR REASONS. Read it and post them, do not reason about it.
+
+1. **THE REFUSAL REASON FOR EACH LINE**, verbatim, beside the mind's
+   line and the model's attempted rendering. If it is the same reason
+   every time, that is one fault, and say so.
+2. **AND SAY WHETHER THE REFUSALS ARE CORRECT.** The censor's job is
+   to refuse a rendering that adds meaning (242.2). If the model IS
+   adding words the mind never said, the censor is working and the
+   fault is upstream. If it is refusing lines that add nothing, the
+   censor is wrong.
+3. **ONE THING THE DIRECTOR NOTICED, to rule in or out rather than
+   assume:** the mind's own lines are FRAGMENTS — *"sings in the"*,
+   *"sings in machine makes noise"*. A model asked to render a
+   fragment honestly may have nowhere to go without inventing.
+   **Say whether the refused renderings were attempts to complete a
+   fragment.**
+4. **CHANGE NOTHING.** This is the reasons, and his ruling follows.
