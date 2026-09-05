@@ -12855,3 +12855,32 @@ one.
 law gets a MECHANISM, in 442's shape. It stopped because nothing
 checks it — no hook, no suite clause, no gate — and an advisory law is
 a law that gets skipped under pressure. Build that.
+
+## Directive 455 — A SOUL HOLDS ALL OF THEM, RANKED. Not two to five.
+
+**LEDGER ROW 1 OF 89, ruled.** `soul.js` — `RICHNESS_LOW: 2`,
+`RICHNESS_HIGH: 5`: how many things a soul cares about at birth.
+Chosen by CC, never ruled.
+
+**THE SCIENCE SAYS NOBODY HOLDS TWO TO FIVE.** Schwartz's theory of
+basic values — the most cited in the field, validated across 82
+countries — finds that **everyone holds ALL of them**, and people
+differ in how they RANK them, not in which ones they have. And the
+same structure is found in children as young as five and stays
+consistent over time, so it is not an adult-only shape.
+
+**HIS RULING: DO NOT LIMIT IT.** A soul cares about everything, in
+its own order.
+
+1. `RICHNESS_LOW` AND `RICHNESS_HIGH` GO. A soul holds every
+   foundation.
+2. **WHAT MAKES A BEING THIS ONE IS THE ORDER AND THE WEIGHT**, not
+   which ones it was handed. That is already how the weights work —
+   this removes the step that first throws most of them away.
+3. THE WEIGHTS' OWN RANGE (`WEIGHT_LOW 0.2`, `WEIGHT_HIGH 0.8`) IS
+   NOT RULED HERE. It is its own ledger row and comes to him
+   separately.
+4. **SAY WHAT CHANGES ON HIS BENCH** — generate several souls before
+   and after, and post their sketch lines. A soul that holds
+   everything must still read as SOMEONE rather than as an average.
+   If it reads generic, that is a finding and it comes back to him.
