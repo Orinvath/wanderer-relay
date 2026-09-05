@@ -11976,3 +11976,30 @@ and show one word at a time."
 5. NOTHING ABOUT THE POSITIONS CHANGES. This is reading the map, not
    drawing it. 433's frame and 411's faithfulness rules are
    untouched.
+
+## Directive 435 — WHY IS THE MIND CATCHING ERRORS AT ALL? Investigate.
+
+**WHAT HAPPENED** — under 409 a rename left an argument undefined
+inside learning. It threw a real ReferenceError. THE MIND DID NOT
+CRASH. It went NONDETERMINISTIC instead — same seed, different mind —
+and only the state hash exposed it. CC's slip is fixed; THE
+SWALLOWING IS NOT.
+
+**HIS RULING ON WHAT TO LOOK AT** — the mind should not be checking
+for errors at all. That is the bench's job, not the mind's. THE MIND
+SHOULD JUST FAIL: if something goes wrong it stops, and the bench
+reports it. Something inside the mind is quietly catching problems
+and carrying on, and THAT is what needs investigating.
+
+**INVESTIGATE. CHANGE NOTHING.**
+1. FIND EVERY PLACE THE MIND CATCHES AN ERROR. Every catch, every
+   swallow, every silent fallback in a mind file. List them with the
+   file and line.
+2. FOR EACH, SAY WHAT IT DOES WITH WHAT IT CAUGHT — reports it,
+   halts, or discards it and carries on.
+3. AND SAY WHY IT IS THERE. Deliberate, inherited from the app, or
+   nobody knows. If any exists because the APP needs to survive an
+   error, say so — the app surviving is not the mind's concern.
+4. NAME THE ONE THAT SWALLOWED THIS. Which catch ate the
+   ReferenceError, and what else it is capable of eating.
+5. He rules on what comes out. Report first.
