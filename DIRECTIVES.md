@@ -12491,3 +12491,45 @@ it.
 Propose the mechanism with your reason and wait (253) — a subagent
 definition, a skill, a hook, or a standing prompt. Say what it costs
 per directive and what it can and cannot see.
+
+## Directive 446 — THE CRITIQUE READS A DISTILLATION, NOT 445 DIRECTIVES
+
+**HIS RULING** — reading the whole relay every time is slow and
+costly. The Critique READS IT ONCE, takes what it needs, puts that
+into a much smaller file, and references that.
+
+**THE RISK, NAMED SO IT IS GUARDED RATHER THAN DISCOVERED** — the
+distillation IS THE INTENT as far as the Critique is concerned.
+Anything left out stops being enforced, silently, and nobody would
+know until something drifted straight through the gap. **So CC does
+not decide what matters.**
+
+### HOW IT IS MADE
+1. CC READS THE RELAY ONCE and proposes what it extracted — the
+   standing laws, the rulings that still govern, the settled
+   questions, the things struck and why.
+2. **HE AND THE DIRECTOR CHECK IT AGAINST THE RECORD** before it is
+   used. Same rule as the 42 claims (347) and the needs shape
+   (439.3): what the mind is FOR is not CC's to summarise
+   unreviewed.
+3. ONLY THEN DOES IT BECOME THE CRITIQUE'S SOURCE.
+
+### WHAT IT MUST CARRY
+- THE STANDING LAWS, whole.
+- THE RULINGS THAT STILL GOVERN — and where one superseded another,
+  which won.
+- WHAT WAS STRUCK AND WHY, so a struck idea is not re-proposed as new
+  (the marks-as-a-measure fault, four times over).
+- THE PROJECT'S PURPOSE in his own words, because the hardest thing
+  the Critique looks for is a change that is CORRECT and still not
+  what this is for.
+
+### AND IT IS KEPT CURRENT
+A new ruling that changes the direction goes into it, in the same
+commit as the directive that made it — the same law 246 already
+places on the decisions ledger. A distillation that goes stale is
+worse than none, because it would enforce yesterday's intent with
+today's confidence.
+
+**PROPOSE IT AND WAIT (253).** Post what you extracted; do not put it
+to work until he has read it.
