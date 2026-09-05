@@ -12064,3 +12064,49 @@ SOMETHING IS WRONG.
 **HIS WORD ON IT: "a good start, we'll see how it goes."** Build it as
 written and report what it does; the shape is provisional and his to
 adjust once he has watched it.
+
+## Directive 437 — REMOVE THE TWELVE. Then build 436.
+
+**HIS RULING: do both.** 435 and 436 are one design in two parts —
+435 takes the mind's error handling OUT, 436 puts the nervous system
+IN to do that job properly. Build them together, in that order.
+
+### A · THE TWELVE COME OUT
+```
+7  RECORD IT AND CARRY ON
+   experiencing.js 198 · 579 · 622 · 1054 · closing.js 135 ·
+   rest.js 122 · watching.js 496
+   They write `lastBrainError` and continue. NOTHING READS IT. A
+   fault becomes a string and the mind runs on. 198 is the one that
+   ate the ReferenceError — inside a `for` loop, so it swallowed the
+   same error once per crossing word, every tick, silently.
+
+5  RETURN A FALLBACK
+   glyphs.js 160 -> {} · interpreter.js 240 -> null ·
+   memory.js 250 -> null · mind.js 451 -> 5 · sign.js 42
+   The caller cannot tell a real answer from a swallowed failure.
+   mind.js:451 RETURNING 5 IS A NUMBER INVENTED FROM A FAILURE, and
+   the mind then acts on it as if it were real.
+```
+**THE MIND STOPS HANDLING ERRORS AND STOPS INVENTING VALUES FROM
+FAILURES.** It fails, and the nervous system reports.
+
+### B · THE TWENTY-ONE ARE REPORTED, NOT TOUCHED
+clock.js (6 file writes) · model.js (3) · watching.js (3) · censor ·
+english · perceiving · privacy · health · cord · trace ·
+experiencing 1350 · mind.js 521.
+Several are plainly the bench's own plumbing rather than the mind's
+thinking, and the mind only deals with the mind. FOR EACH: what it
+catches, whether it belongs to the mind or the bench, and what
+happens if it is removed. HE RULES ON THEM SEPARATELY.
+
+### C · THEN BUILD 436 AS WRITTEN
+The nervous system is what replaces them: the mind feels that
+something is wrong, never learns what, and the bench reports
+everything to him.
+
+### D · WHAT TO EXPECT AND NOT REPAIR
+Removing twelve catches WILL make the mind fail where it used to
+carry on. That is the point. If it now stops on something real, that
+is a fault that was always there and was being hidden — REPORT IT,
+do not put the catch back.
