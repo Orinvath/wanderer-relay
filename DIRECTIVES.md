@@ -12840,3 +12840,18 @@ review, and there is no hook, no suite clause, no gate.
 introduces a decision for the mind and no ledger row does not pass.
 An advisory law is a law that gets skipped under pressure, and this
 one was.
+
+## Directive 454 — WITHDRAWN. Do not act on it.
+
+He does not want 89 rows written into a file for him to read. **They
+come to him ONE AT A TIME, on screen, and he rules on each before the
+next.**
+
+The count from 430 stands and nothing about it is cancelled. How they
+reach him is what changes, and the Director will bring them one by
+one.
+
+**454's last section still stands and is not withdrawn:** the ledger
+law gets a MECHANISM, in 442's shape. It stopped because nothing
+checks it — no hook, no suite clause, no gate — and an advisory law is
+a law that gets skipped under pressure. Build that.
