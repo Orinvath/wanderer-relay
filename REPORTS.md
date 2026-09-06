@@ -46883,3 +46883,61 @@ script the recorded version. **His call whether I tighten it.**
 **Not checked:** whether repointing the five paths breaks anything beyond the paths themselves.
 **462 part one built and corrected. The rest blocked. 460 blocked on one decision. 459 answered,
 fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed, must not ship.**
+
+---
+
+## THE SECOND REVIEW — "AT NO COST" WAS FALSE, AND ONE COST REVERSES WHAT I RECOMMENDED.
+
+**I told him yesterday's fix was free. It is not.** The reviewer attacked the claim and it does
+not survive. **`2631ba3` is the third version of that file and it now recommends nothing.**
+
+### THE ONE THAT MATTERS
+
+**If the live scripts move into this repo, THE GUARDS SIT IN THE WORKING TREE I AM ALLOWED TO
+EDIT — and nothing protects them.** `block-real-geometry.sh` guards two files of the mind and
+**nothing else**; I checked, there is no guard on the hooks themselves.
+
+> **They are out of my reach today only because they live outside every project folder. That is
+> the whole protection, and moving them removes it.**
+
+**That is an argument against the thing I recommended to him one entry ago, and it is stronger
+than the argument I made for it.**
+
+### AND FIVE MORE, EACH CHECKED
+
+- **This repo has 946 commits. These files exist in 2 of them.** Step back to almost any older
+  commit and **all five vanish — and a missing hook does not block, it exits quietly.** Every
+  guard off, no message. **That is the silent green build the review law exists to stop.**
+- **A merge conflict inside a hook blocks EVERYTHING.** A conflicted script is a syntax error, and
+  a syntax error exits with the same code that means *block* — **in every project on the
+  machine**, with the scope guard sitting below the error where it never runs.
+- **A lost executable bit** makes a hook silently non-blocking.
+- **`git revert` of a hook commit changes what runs the moment it lands**, with nothing announcing
+  it.
+- **And the review hook hashes this repo's own state**, so a hook living inside that tree changes
+  the hash as it is edited — **a broken guard could not be fixed and the turn ended.**
+
+### TWO MORE OF MY SENTENCES WERE TOO WIDE
+
+- **"A directory with no settings file is inert" is false as a rule.** No *hook* runs without one
+  — **but a project `.claude/` still loads `agents/`, `commands/` and `skills/` with no settings
+  file at all.** Anything dropped in here later would go live. **Corrected.**
+- **"Restored anywhere else, all five pass silently" is only true on another MACHINE.** At a
+  different path on this one, the guard reads the session's folder, so a session run from his home
+  folder still trips them. **Corrected.**
+- **And my credential line was overstated again:** of the three files that line names, **one
+  exists, one is a template, and one is absent.** It is a partial map. **Corrected.**
+
+### WHAT SURVIVED
+
+**The state-file correction and the no-agent-definitions claim are both true.** **The scripts are
+still byte-identical to the live ones** — no drift yet. **And "repointing keeps them firing
+everywhere" is true**: the guard reads the session's folder, not the script's location. **The
+buying side of the trade was right. The "free" was not.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether any other tool reads a project `.claude/` in a way that matters here.
+**462 part one built, its README corrected twice, the rest blocked and now with the trade stated
+rather than recommended. 460 blocked on one decision. 459 answered, fix and proof blocked. 458.3,
+455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not ship.**
