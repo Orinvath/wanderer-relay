@@ -13026,3 +13026,33 @@ lowest unanswered directive and the in-order law (452) puts it first.
 **CHANGE NOTHING.** Nonsense output after 1,700 ticks with a renderer
 attached means either the renderer is not delivering or what it
 delivers is not being learned. The ledger says which.
+
+## Directive 459 — WHY DOES THE MODEL RETURN NOTHING? One fault, find it.
+
+**458 ANSWERED IT: 63 of 63 refused, one reason — `nothing rendered`.**
+The censor never judged a line. **THE MODEL IS RETURNING AN EMPTY
+STRING, EVERY TIME**, in 168ms, and the mind's own unrendered line is
+what he has been reading all along. He has never seen the renderer's
+output once.
+
+**FIND WHY. It is one of three things and the ledger can say which:**
+1. **THE PROMPT** — the model is being asked something it answers
+   with nothing. Post the exact prompt sent, verbatim, and the exact
+   response, verbatim. If the response is genuinely empty, say so; if
+   it is whitespace, a refusal message, or JSON the parser drops, say
+   that.
+2. **THE MODEL** — the one attached cannot do this. Say which model
+   is attached and whether it answers the same prompt when called by
+   hand.
+3. **THE PARSING** — the model answers and the code discards it
+   before the censor sees it. Trace from the response to
+   `censorOutbound` and name the line where content is lost, if it
+   is.
+
+**AND FIX THE THING THAT LET THIS HIDE.** The ledger starts at zero
+on every restart, so his 1,700-tick run is gone. **The ledger
+survives a restart.** That is not a judgment call; a measurement that
+forgets itself is not a measurement.
+
+**THEN PROVE IT ON HIS BENCH:** one rendered line, delivered, beside
+the mind's own. He has waited two days to see one.
