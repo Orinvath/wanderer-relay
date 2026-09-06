@@ -46046,3 +46046,85 @@ run, so the change is already live wherever he is.
 **ONE THING HE SHOULD KNOW.** The scope is the three folders above. A Wanderer session started
 somewhere else would carry no enforcement at all — his sessions run from home and from the relay,
 which are both covered, but that is the edge if it ever moves.
+
+---
+
+## REPORT 458 — THE THREE NUMBERS. And the line he quoted is the MIND'S, not the renderer's.
+
+**CHANGED NOTHING.** Read from the ledger on the bench he has open.
+
+### FIRST, THE THING THAT EXPLAINS HIS SCREEN
+
+```
+Mind  sings softly by the pond shore feels ease changes singing tone
+```
+
+**That is the mind's own line, unrendered.** Every rendering was refused, and a refused rendering
+leaves the mind's own words standing (`bench-routes.js:199`). **He has never once seen the
+renderer's output.** What he is judging as nonsense is the mind speaking as it always did.
+
+### 1 · THE THREE NUMBERS
+
+```
+calls 63 · rendered 0 · refused 63 · refusal rate 1.0 · taught back 0 · 168ms per call
+```
+
+**AND HIS 1,700 TICKS ARE NOT IN THIS LEDGER, which is itself a finding.** The counters live in
+the bench process and **start again at zero every time the bench restarts.** The bench now running
+started at 12:50 today and has **110 ticks**. The 1,700-tick numbers he is asking about **no longer
+exist anywhere** — nothing writes them down. I cannot give him the numbers for the run he watched,
+only for the one in front of him, and the two agree.
+
+### 2 · THE REASONS, GROUPED — IT IS ONE FAULT
+
+```
+reasons: { "nothing rendered": 63 }
+```
+
+**63 of 63, one reason.** `nothing rendered` is `censorOutbound`'s first line
+(`rendering.js:145`) — the empty-input guard, before any tracing. **THE CENSOR NEVER JUDGED A
+LINE. It was handed an empty string 63 times and said so.**
+
+### 3 · THE TEN SIDE BY SIDE CANNOT BE GIVEN, and I will not invent them
+
+Two reasons, both plain:
+
+- **Refused lines are never kept.** `recent` is written only after `rendered++`
+  (`rendering.js:255`) — **it records what passes and nothing else.** There is no sample of a
+  refusal anywhere in the build.
+- **And there would be nothing in the middle column.** The model's attempted rendering was the
+  empty string in all 63. The side-by-side he asked for would read: his line, blank, `nothing
+  rendered` — sixty-three times.
+
+**If he wants refusals sampled the way passes are, that is a change and he rules on it.**
+
+### 4 · 449's SECOND NUMBER: NOTHING WAS DELIVERED, SO NOTHING WAS LEARNED
+
+```
+taught back: 0
+```
+
+**Plainly, as 458.4 asks: no corrected pattern has ever entered the mind's word order, because no
+correction ever reached it.** There is nothing to look for in lines the model never touched. The
+question of whether its own grammar improved **cannot be asked yet** — not answered no, not
+answered yes; the mechanism has never once run.
+
+### 5 · THE CAUSE IS UNCHANGED FROM 451, AND IT IS STILL IN THE SLOT
+
+```
+vision slot: moondream:latest — attached, answering, 162ms
+```
+
+**`moondream` is a vision model and returns an empty string for a text prompt.** 451 measured this
+directly and named the collision underneath it: **327 gave this two models** — moondream for
+sight, **gemma3:1b for the voice** — and **394 collapsed the panel to one slot.** So there is
+**still no way to attach a text model for the words while a vision model does the seeing.** That is
+his ruling to make and it is the whole blockage.
+
+### ON 458's OPENING LINE
+
+**451 was reported.** It is on this relay above, headed *"REPORT 451 — EVERY RENDERING IS REFUSED
+BECAUSE THE MODEL RETURNS NOTHING AT ALL"*, and it carries the same one reason, the raw empty
+reply, the moondream measurement and the 327/394 collision. **I am not arguing the point** — if it
+did not reach him then it did not do its job. What 458 asks for beyond it is answered above: the
+three numbers, and the two questions 451 did not put plainly.
