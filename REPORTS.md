@@ -47464,3 +47464,74 @@ column. **The pass deliberately did not test-run the two unsafe hooks.**
 **464 built as far as it goes. 463.4's real gap remains. 462.2 blocked on one thing. 460 blocked
 on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled.
 `b3449c2` unpushed and must not ship.**
+
+---
+
+## THE REVIEW OF 464 — IT RAN THE HOOK CHECK FOR THE FIRST TIME. All four alive.
+
+**442.A.3, in full. And this is 464 working rather than merely built.**
+
+### THE FIRST HOOK CHECK. ITS RESULT, WHICH IS THE POINT OF THE DIRECTIVE
+
+```
+block-real-geometry.sh     present   0755   parses
+block-unnamed-commits.sh   present   0755   parses
+require-in-order.sh        present   0755   parses
+require-critique.sh        present   0755   parses
+python3                    /usr/bin/python3   3.14.7
+```
+
+**NO DEAD HOOKS. NOTHING TO REPORT.** It went further than ordered on the two that are safe to
+run: **both actually bite** — the unnamed-commit guard refused `git add -A`, the geometry guard
+refused a write to `language.js`. **The other two were not executed, correctly.**
+
+### THE DIFF IS CLEAN
+
+**Parses; scope guard and exit codes unchanged; the roster matches the settings file exactly, all
+four, paths verbatim; the fifth correctly excluded.** The added lines sit **after** the script has
+already decided to block, so they cannot make it fail or block wrongly.
+
+### AND IT REPRODUCED THE PYTHON3 FAULT INDEPENDENTLY
+
+With `python3` stubbed to fail, on payloads that normally block:
+
+```
+require-review.sh          exit 2, full message   ->   exit 0, SILENT
+block-unnamed-commits.sh   exit 2, blocked        ->   exit 0, SILENT
+block-real-geometry.sh     exit 2, blocked        ->   exit 0, SILENT
+```
+
+**And it proved the other two without running them: the scope-guard block is BYTE-IDENTICAL in
+all five** — same checksum — **so it extracted that block and ran it standalone. It exits 0. The
+claim holds for all five.**
+
+### ONE FINDING, AND IT IS THE HONEST LIMIT OF WHAT I BUILT
+
+**THE PYTHON3 WARNING IS PRINTED BY THE ONE HOOK A PYTHON3 FAILURE SILENCES.** The roster only
+prints on the block path. **If `python3` breaks, the review hook exits 0 and prints nothing** — so
+the instruction to look for that fault **is never issued in the one situation where it matters.**
+
+**The reviewer is fair about it: 464.2 leaves that hook to him, so this may be the residual risk
+he accepted rather than a defect. It is documented, not closed.**
+
+### AND ONE THING NOBODY HAD LOOKED AT
+
+**The stale home copy of `require-review.sh` is the OLD one — it has none of the 464 text.** The
+other four home copies are byte-identical to the live ones; **that one is not.** It is registered
+by nothing, so it is inert. **But if anything is ever repointed at the home folder, 464 silently
+vanishes.**
+
+### A SECOND PROPERTY OF THE DESIGN, NAMED PLAINLY
+
+**The four are only checked on a turn that BLOCKS.** No code change, no review, no roster. **A hook
+made non-executable during a quiet turn is not noticed until the next blocking turn.** That
+follows from 464 as written — the reviewer only exists when a review is triggered — **so it is a
+property he ordered, not a fault.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether the harness shows him a 126 or 127 line. **The reviewer did not run the
+two unsafe hooks, by instruction.**
+**464 built. 463.4's real gap remains. 462.2 blocked on one thing. 460 blocked on one decision.
+459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and
+must not ship.**
