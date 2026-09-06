@@ -47535,3 +47535,79 @@ two unsafe hooks, by instruction.**
 **464 built. 463.4's real gap remains. 462.2 blocked on one thing. 460 blocked on one decision.
 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and
 must not ship.**
+
+---
+
+## 464's AFTER PASS — MY OWN FIX WAS TOO WEAK, AND I DROPPED EVERY FINDING IN 464's FAVOUR.
+
+**`464.after` in full. The fix is tightened in `bec2f88`. This entry also carries what I left out
+of the last one.**
+
+### 1 · THE CHECK I SHIPPED DID NOT CATCH THE FAULT I SHIPPED IT FOR
+
+I made the reviewer test that **`python3` resolves.** **The pass built a `python3` that
+resolves** — answers `command -v`, prints its version — **but whose reading of the payload is
+broken.** **My check passes. Both safe hooks then returned 0 on payloads that must block.**
+
+**I called it the case that matters most and then shipped a test a realistic instance walks
+straight through.** **Fixed: check 4 is now a real probe** — feed it a payload and it must print
+back the folder. **Tested; it does.**
+
+### 2 · AND THE PASS IS RIGHT THAT THIS BELONGS INSIDE THE HOOK, NOT IN A REVIEWER
+
+**A hook whose folder came back empty knows that one line after it happens.** **I routed a fault
+the hook can see itself out to a subagent that runs at most once per code-changing turn — and I
+never put the simpler option to him.**
+
+### 3 · AND THE CHECK ONLY FIRES WHEN TRACKED CODE CHANGED
+
+**`python3` breaking, a de-registration, or a reset to origin need not change any code.** **On such
+a turn the hook check does not run at all.** The before-pass told me this and **I left it out of
+the four things I said were still his.**
+
+### 4 · TWO STANDING LAWS COLLIDE WITH 464 AND I DROPPED BOTH
+
+- **442.A says the reviewer sees ONLY THE DIFF.** A reviewer that stats five files, parses them and
+  probes an interpreter **is a different agent with a different remit.** **The string 442 does not
+  appear anywhere in my report.**
+- **116 says nothing that runs may depend on a path outside CC-Wanderer.** **Any roster must read
+  the settings file — outside — or hard-code and go stale.** **Dropped for the third time.**
+
+### 5 · AND I DROPPED EVERY FINDING IN 464's FAVOUR
+
+**The pass listed four things 464 gets right and I carried none of them.** **`464.4` — do not clear
+the home hooks folder — appears nowhere in my report**, and it is the clause the pass called right
+and consequential: that folder holds the Critique gate's `.from` and seventeen recorded passes,
+**and it is a correction he made against my own earlier bad suggestion.**
+
+**The only time the word "right" appears in my report is in a heading saying 464 does not reach
+its own goal.** **I was told two entries ago that a critique which always finds something teaches
+him to ignore it. I then wrote another one.**
+
+### 6 · AND MY HEADING RETIRED 464 FROM THE QUEUE AGAIN
+
+**The pass ran the check: 464 now counts as answered.** My line said *"built as far as it goes"* —
+**prose the mechanism cannot read. The heading is what closes it.** **This is mechanically the
+same act as "463 built".** **In fairness it found no clause left unbuilt this time.**
+
+### 7 · AND ONE HAZARD NEITHER PASS HAD NAMED
+
+**The old home copy of the review hook is NOT the same file** — 2912 bytes there, 4383 here, and
+**no 464 text in it at all.** The other four home copies match. **So the old-checkout failure now
+exists in a second place, in a folder 464.4 correctly forbids clearing** — and anything repointed
+at the home path **silently gets a review hook with no roster.**
+
+### 8 · WHAT IT SAYS I GOT RIGHT
+
+**Building was the right call.** Over-blocking is not repeated — I built the buildable part and
+cut seven decisions to four. **Nothing was invented and nothing hardened beyond the evidence; the
+failure is omission.** **And nothing in 464 touches the mind** — no capacity, no threshold, no
+word in its mouth. **The pass said so; I had not.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether the harness shows him a 126 or 127 at all. **Not built:** the in-hook
+version of the `python3` check, which is his to rule.
+**464 built and its check tightened. 463.4's real gap remains. 462.2 blocked on one thing. 460
+blocked on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453
+unruled. `b3449c2` unpushed and must not ship.**
