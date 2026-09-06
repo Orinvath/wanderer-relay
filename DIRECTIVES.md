@@ -13056,3 +13056,42 @@ forgets itself is not a measurement.
 
 **THEN PROVE IT ON HIS BENCH:** one rendered line, delivered, beside
 the mind's own. He has waited two days to see one.
+
+## Directive 460 — THE RENDERER GETS ITS OWN SLOT BACK. 394 was the Director's error.
+
+**WHY HE SEES NO DIFFERENCE AFTER SWAPPING THE MODEL** — 394
+collapsed the Perception Panel to ONE SLOT, so **the renderer and the
+eyes compete for it.** The mind can see or it can speak. Not both.
+
+**THAT WAS THE DIRECTOR'S ERROR.** He said the voice does not belong
+on this side, and he was right: THE VOICE IS THE BODY'S — the phone's
+own TTS speaks (301). **But the RENDERER is not the voice.** It is
+the mind's own grammar being corrected so the mind LEARNS FORM (449,
+TODO 12), which is thinking, and thinking is the mind's. The Director
+heard "the voice is not here" and cut the slot the renderer was using.
+
+### THE RULING
+1. **TWO SLOTS.** One for SIGHT — vision, the mind's eyes. One for
+   RENDERING — the model that corrects its grammar so it learns the
+   shape.
+2. **EACH IS LOCAL OR PROVIDER, AS 394 BUILT IT.** Nothing about the
+   panel's mechanism changes: the load button, the provider
+   pull-down, the key stored and surviving, attach and detach with no
+   restart. Only the count of slots.
+3. **NOTHING IS PRELOADED**, as 394 ruled. Both start empty.
+4. **AND SAY WHICH MODEL IS RIGHT FOR EACH**, from what is on his
+   machine — measured, not assumed. 459 already measured that
+   `moondream` returns an empty string for text and `gemma3:1b`
+   answers with *"I feel good and sing songs happily too."*
+5. **THE VOICE IS STILL NOT HERE.** 301 stands: the body speaks.
+   This slot renders; it does not talk.
+
+### THEN THE PROOF HE HAS WAITED THREE DAYS FOR
+With sight and rendering both attached: **one rendered line,
+delivered, beside the mind's own.** And if the censor refuses it,
+**post the refusal and the reason** — a correct refusal is an answer
+too, and 459 was right not to reach for a delivered line by loosening
+the censor or editing the prompt.
+
+**THE FIVE LEDGER DECISIONS ARE NOT RULED HERE.** They wait; nothing
+today depends on them.
