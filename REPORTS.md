@@ -46820,3 +46820,66 @@ not open the credential file.**
 **462 part one BUILT, the rest blocked. 460 blocked on one decision. 459 answered, fix and proof
 blocked. 458.3 blocked. 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not ship —
 and the repo is now six ahead.**
+
+---
+
+## THE REVIEW OF 462 PART ONE — the bytes are right, my README was not. Corrected in `f8bc718`.
+
+**442.A.3, findings in full.**
+
+### WHAT PASSED, CHECKED NOT ASSUMED
+
+**The five committed scripts are byte-identical to the live ones** — md5 matched on all five,
+`diff` clean. **Committed executable** (`100755`), which is what makes the backup restorable by
+copy. **Six named paths in the commit, nothing stray. Nothing in `.gitignore` silently dropped
+anything. No secret committed.**
+
+**AND THE CONSEQUENCE I HAD NOT CHECKED BEFORE COMMITTING, now checked: adding this directory
+changes nothing.** There is no settings file in it, and hooks only run from a settings file's
+list. **A bare hooks directory is inert.**
+
+### TWO OF MY THREE STATED REASONS WERE FALSE
+
+**1 · I said committing the state files would dirty the repo every turn and trip the review
+hook. THAT IS FALSE.** Those scripts write their marks to `~/.claude/hooks/` **by absolute
+path** — a copy sitting in this repo would be written by nothing and stay clean forever. **I
+argued from a mechanism that cannot happen.** *(The honest reason to leave them out is that they
+are marks of a moment, not configuration.)*
+
+**2 · AND THE ONE THAT MATTERS — I ARGUED AGAINST THE CHEAP FIX BY CONFLATING TWO THINGS.** I
+told him moving the scripts here would stop them firing in his home folder and in the relay.
+**That is only true of moving the REGISTRATION.**
+
+> **Repoint the five paths in the settings file at `CC-Wanderer/.claude/hooks/*.sh` and they keep
+> firing everywhere they fire today, and the running scripts become the version-controlled ones.**
+
+**That is what 462 actually asked for, at no cost, and I put a false obstacle in front of it.**
+**The README now says so and the choice is his.**
+
+### AND ONE WHERE THE REVIEWER IS WRONG, WHICH I CHECKED RATHER THAN ACCEPTED
+
+It says the settings file does not name credential locations. **It does** — one line names three
+by path. **I kept that exclusion and said why.**
+
+### THREE FINDINGS THAT ARE ABOUT WHAT COMES NEXT
+
+- **462.2 CANNOT WORK AGAINST THE LAYOUT PART ONE CHOSE.** A hook watching this repo's `.claude/`
+  watches a folder **nothing ever writes to**, and is blind to the live scripts. **Built as
+  worded, it passes green while a live hook is edited.** That is the hallucinated green build the
+  review law exists to stop.
+- **NOTHING DETECTS DRIFT** between the copy and the live file. The "way back" only works if
+  somebody remembers to re-copy.
+- **AND THE SCRIPTS CARRY HIS HOME PATH INSIDE THEM.** Restored on another machine, **every scope
+  guard falls through to "do nothing" and all five pass silently.** Now written into the README.
+
+### ONE PRE-EXISTING FAULT IT FOUND IN MY OWN GUARD
+
+**`block-unnamed-commits.sh` does not catch `git add .claude/`** — only `git add .` and
+`git add -A`. **A directory add still sweeps.** Not introduced here, but this commit makes that
+script the recorded version. **His call whether I tighten it.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether repointing the five paths breaks anything beyond the paths themselves.
+**462 part one built and corrected. The rest blocked. 460 blocked on one decision. 459 answered,
+fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed, must not ship.**
