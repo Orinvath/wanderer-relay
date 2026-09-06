@@ -13159,3 +13159,22 @@ every project — is already handled.
 4. **A HOOK THAT SILENTLY DOES NOT RUN IS THE WORST OUTCOME** and
    worse than one that blocks wrongly. Whatever else, that case must
    be visible.
+
+## Directive 464 — 463.4: THE REVIEWER CHECKS THE HOOKS
+
+**His ruling.** The reviewer runs on every change. It checks the other
+hooks while it is there.
+
+**WHY THIS SHAPE** — a hook that dies cannot report that it died. The
+answer has to come from outside the hook, and the reviewer is already
+outside and already running.
+
+1. **THE REVIEWER CHECKS THE OTHER HOOKS** — present, executable, and
+   able to run. It reports any that are not.
+2. **IT DOES NOT CHECK ITSELF.** The review hook is what makes the
+   reviewer run; if that one dies there is no reviewer. **HE WATCHES
+   THAT ONE** — his words, and he can see whether the reviewer ran.
+3. **A DEAD HOOK IS A FINDING, IN FULL**, with which hook and why —
+   not a note.
+4. **DO NOT CLEAR THE HOME HOOKS FOLDER.** CC invited that and
+   withdrew it: that folder holds the Critique gate's memory.
