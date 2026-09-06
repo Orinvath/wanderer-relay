@@ -46583,3 +46583,84 @@ happening. The censor against that line, live.
 **458.3 blocked. 455, 457 blocked. 453 unruled.** **And the code repo is four commits ahead of its
 remote — three empty markers and `b3449c2`, which must not ship; I have not pushed, waiting on
 him.**
+
+---
+
+## 462 IS BLOCKED, AND DONE LITERALLY IT WOULD PUBLISH A CREDENTIAL. Nothing committed.
+
+**The before-pass ran before any work — `462.before` has it in full. I HAVE COMMITTED NOTHING
+AND CREATED NOTHING.**
+
+### THE PREMISE IS WRONG ON DISK
+
+**There is no `.claude/` in this repo.** Not uncommitted, not ignored — **not there.** It is not
+in `.gitignore` and `git check-ignore` says nothing is suppressing it. **The only `.claude/` on
+the machine is the one in his home folder, which belongs to every project he opens, not to this
+one.**
+
+**So 462.1 is not "commit a directory".** It is *copy things out of his machine-wide folder into
+a project folder that does not exist yet, then commit them* — **a different act with different
+consequences, and he has not ruled on it.**
+
+### AND TAKEN AT ITS WORD IT IS DANGEROUS. I MEASURED WHAT IS IN THERE.
+
+```
+projects/            1.1 GB   session transcripts — INCLUDING chamber AND my-agent
+history.jsonl        1.7 MB   his prompt history across every project
+.credentials.json    mode 600 — a LIVE ACCOUNT TOKEN
+```
+
+**Committing that folder publishes a working credential to a repo with a push remote, along with
+1.1 GB of verbatim transcripts from his other projects.** I did not open the credential file; its
+name and permissions are enough.
+
+### TWO MORE THINGS IT WOULD CARRY OUT OF HERE
+
+- **`settings.json` holds a line listing WHERE HIS CREDENTIAL FILES LIVE** — a map to his secrets,
+  not a secret itself. And its model, theme and permissions govern **every project he opens**, not
+  this one.
+- **`settings.local.json` is almost entirely other projects** — `chamber/join.html`,
+  `InfSkyRay.html`, `FogVolumetricTest.html`, `podman`, `adb`, and a **World of Warcraft launch
+  line.** **That is where the WoW entry he asked about lives — not on this relay, which is why I
+  could not find it there.**
+
+### 462.2 AND 462.3 CANNOT BOTH BE TRUE
+
+462.3 says work he has not approved **stays held**. 462.2 blocks every turn while anything under
+`.claude/` is uncommitted. **The moment a held change is a `.claude/` change, 462.2 forces the
+commit 462.3 forbids.** To honour both, the hook would have to know **why** something is
+uncommitted — held on purpose, or neglected. **That is intent, and one of my own hooks already
+says in its comments that a hook cannot read intent.**
+
+### AND MOVING THE HOOKS BREAKS THEM EITHER WAY
+
+**Registered where they are now, the committed copies are dead files** — a snapshot that drifts
+while the live ones change, **reporting green.** **Registered in the project instead, they stop
+firing in his home folder and in the relay — the two places he actually works.** That is the
+fault 461 named: a check that runs but sees less.
+
+**And the state files those hooks write every turn live in the same folder.** Commit them and each
+turn writes one, which trips the new hook, which forces a commit, which changes the repo, which
+trips the review hook. **A loop, softened only by a guard that eats one false block per turn.**
+
+### THE PART THAT IS RIGHT, AND IT IS THE WHOLE POINT
+
+**Five shell scripts that can block his work sit outside every repo with no history at all.** If
+one is edited or lost there is no way back. **That concern is correct and worth fixing** — and
+462.3 anticipating the `git add -A` accident before it recurred is the best instinct in the
+directive.
+
+### WHAT I NEED FROM HIM
+
+**Which files exactly** — I would say the five hook scripts and nothing else. **Where they then
+live and where they are registered from.** **Whether the settings files come at all**, given what
+is in them. **What the new hook does when it cannot run.** **And whether "uncommitted" means
+unpushed too** — the code repo is four commits ahead of its remote right now, so committed and
+backed up are not the same state.
+
+### 334 · THE QUEUE
+
+**Not checked:** whether anything else in his home folder is referenced by those scripts. **I did
+not open the credential file.**
+**462 blocked. 461 withdrawn. 460 blocked on five decisions. 459 answered, fix and proof blocked.
+458.3 blocked. 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not ship.**
