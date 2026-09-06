@@ -47037,3 +47037,103 @@ section now says so in as many words and recommends nothing.**
 an edit. **Unchanged: 460 blocked on one decision. 459 answered, fix and proof blocked. 458.3,
 455, 457 blocked. 453 unruled. `b3449c2` unpushed, must not ship. The repo is now ten ahead of its
 remote.**
+
+---
+
+## REPORT 463 — THE HOOKS ARE LIVE FROM THE PROJECT. And the hazard you called handled is not.
+
+**Built. `c168694`. The before-pass ran first and is in `463.before` in full.**
+
+### WHAT IS NOW TRUE
+
+**The five registrations point at `CC-Wanderer/.claude/hooks/*.sh`.** Those are the running
+scripts. **Registration stays user-level on purpose** — that keeps them firing in his home folder,
+the relay and this project **exactly as before**. A project settings file would have silenced them
+in the two places he actually works.
+
+**PROVED AT THE NEW PATHS, BOTH DIRECTIONS:** the unnamed-commit guard and the geometry guard
+still refuse in scope and stay silent in chamber; all three end-of-turn checks behave unchanged.
+**The 15 marks they read are untouched in the home folder** — they are marks of a moment, not
+configuration, and `.from` still reads 452, so the Critique gate's coverage of 453 onward is
+intact.
+
+**settings.json is backed up at `settings.json.before-463` before the change.**
+
+**WHAT I COULD NOT DO: the five old copies in the home folder could not be deleted — the deletion
+was refused.** They remain, **registered by nothing and run by nothing.** He can remove them or
+tell me to.
+
+### 463.3 ANSWERED BY MEASUREMENT — WHAT HAPPENS WHEN A HOOK CANNOT RUN
+
+```
+missing script      exit 127   prints "No such file or directory"   DOES NOT BLOCK
+no executable bit   exit 126   prints "Permission denied"           DOES NOT BLOCK
+syntax error        exit 2     prints the parse error               BLOCKS
+```
+
+**So the two 463.3 names are not silent — they print — but neither stops anything.**
+
+### AND THE ONE 463 CALLS ALREADY HANDLED IS NOT HANDLED
+
+**463 says confining them to this project means a broken script cannot block his other work.
+TESTED, AND IT IS FALSE.** The scope guard is a `case` **partway down the file**, and bash only
+reaches it if the script parses that far. **Conflict markers above the guard: exit 2 from a
+chamber session. Below it: exit 0, correctly silent.**
+
+**And the share of each file sitting AT OR ABOVE the guard:**
+
+```
+block-real-geometry.sh     74%   ← gates every Edit and Write, in every project
+block-unnamed-commits.sh   61%   ← gates every command, in every project
+require-review.sh          51%
+require-critique.sh        30%
+require-in-order.sh        26%
+```
+
+**A syntax error exits 2, which is the same code these scripts use to mean BLOCK.** So a conflicted
+`block-real-geometry.sh` **blocks every Edit and Write on this machine, including the edit that
+would repair it.**
+
+**THIS COULD NOT HAPPEN BEFORE TODAY — his home folder is not a git repository, so it could never
+take a merge conflict. THE MOVE HE ORDERED IS WHAT MAKES IT REACHABLE.** It is done, because he
+ordered it and struck my last objection; **this one is measured, it is new since 463 was written,
+and he should have it.**
+
+**IF IT EVER FIRES:** the guards block Claude's edits, not his. **He fixes the file in his own
+editor and it is over.** The recovery does not depend on me.
+
+### 463.4 — I HAVE NOT BUILT THE SIGNAL, AND WHY
+
+**Three different failures wear that name and only one is silent.** Missing and non-executable
+already print. A syntax error is the opposite of silent — it blocks. **The genuinely silent case
+is a hook that is not registered at all, or whose path stopped resolving** — no output, no exit
+code, nothing to see, indistinguishable from a hook that ran and had nothing to say.
+
+**Catching that needs a positive heartbeat: each hook writes a run-mark and something compares
+the roster to the marks. And the comparer has the same problem** — put it beside the five and one
+old checkout removes the guards and their watchdog together.
+
+**Every property of that signal is his: what it says, where it appears, whether it warns or
+blocks, and where the detector lives so it does not die with what it watches.**
+
+### THREE OF 463's PREMISES WERE ALREADY CORRECTED ON THIS RELAY BEFORE IT WAS WRITTEN
+
+**"That was the only argument against moving them"** — six remained, and the entry saying so is
+463's own parent commit, eight minutes earlier. **"The 1.1GB of other projects' transcripts"** —
+corrected to about 1%; the bulk is this project's own sessions. **"A missing hook exits quietly"**
+— it prints. **And "he confined them himself": the scoping fix was mine.** I let that stand once
+before and was caught; I am not letting it stand again.
+
+### AND A COLLISION THAT HAS NOW BEEN DROPPED TWICE
+
+**116 says nothing that runs may depend on a path outside CC-Wanderer.** The copies did not run,
+so it was untouched. **Now they run, and they reach the relay folder and the home marks — four
+outside reaches, created by this move.** He may rule the hooks an exception. **It has to be ruled,
+not overlooked.**
+
+### 334 · THE QUEUE
+
+**Not checked:** how a 126 or 127 line renders on his screen — established at the shell, not at
+his eye. **Not tested:** a conflict produced by a real merge rather than by hand.
+**463 built. 462's rest blocked. 460 blocked on one decision. 459 answered, fix and proof blocked.
+458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not ship.**
