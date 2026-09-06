@@ -46294,3 +46294,112 @@ evidence the in-order check was not firing at the time.**
 reach, and reaching them is a change. **The model-list fix (`b3449c2`) is committed, unshipped and
 must not ship** — five findings above it on this relay. **455 and 457 remain blocked on him.**
 **453's finding-consequence question remains unruled.**
+
+---
+
+## REPORT 459 — THE CAUSE IS THE MODEL, MEASURED BY HAND. And the rest of 459 is blocked on him.
+
+**The Critique's before-pass ran BEFORE the work this time, and its findings are in
+`459.before` in full.** The parts that change the directive are below, with the parts I can
+answer answered.
+
+### 1 · 459.1, 459.2 AND 459.3 ARE ANSWERED, AND IT IS ONE FAULT: THE MODEL
+
+**THE EXACT PROMPT, VERBATIM** — sent by hand, byte for byte what the renderer sends:
+
+```
+Rewrite this into one natural English sentence, in the FIRST PERSON, as the speaker's own words.
+Use ONLY the words given — you may reorder them, inflect them, and add ordinary function words
+(a, the, is, and, to, my, I). Add NO new nouns, verbs, adjectives, names or numbers.
+Keep it short — one sentence.
+
+words: FEELS GOOD SINGS SONGS HAPPILY TOO
+
+sentence:
+```
+
+**THE EXACT RESPONSE, VERBATIM: `""`.** HTTP 200, 208ms, `done_reason: stop`,
+`prompt_eval_count: 113`, **`eval_count: 1`.** It read the whole prompt and produced **one
+token — the stop token — and nothing else.** Not whitespace, not a refusal message, not JSON
+the parser dropped. **Genuinely empty at the source.**
+
+**459.3 — PARSING IS RULED OUT.** The local provider reads `String(out?.response ?? '').trim()`
+and `response` is the empty string in the raw reply. Nothing was discarded.
+
+**459.1 — THE PROMPT IS RULED OUT.** Three other models on his machine answer **that exact
+prompt**:
+
+| model | tokens | answer |
+|---|---|---|
+| `gemma3:1b` | 10 | **"I feel good and sing songs happily too."** |
+| `qwen2.5:3b` | 9 | "Feels good to sing songs happily too." |
+| `qwen2.5vl:3b` | 12 | "Feeling good, singing songs makes me happy too." |
+
+**459.2 — THE MODEL IS THE FAULT, AND IT IS NOT THE PROMPT'S LENGTH OR SHAPE.** `moondream`
+returns empty for a stripped two-line version as well, while answering *"Say hello."* with
+`!"Hello!",`. **It is a vision model and it will not produce a sentence from text.**
+
+**AND THIS OVERRIDES THE CRITIQUE ON ONE POINT.** Its fourth cause — that `generate()` returned
+a shape the extractor did not recognise — **is ruled out by measurement rather than by
+argument**: the raw HTTP reply's own `response` field is `""` with `eval_count: 1`. **I called
+it directly and read the whole envelope.**
+
+### 2 · WHAT THE CRITIQUE CAUGHT IN 459 ITSELF, AND IT IS MINE TO OWN
+
+**459's two headline sentences are ones I withdrew yesterday.** *"THE MODEL IS RETURNING AN
+EMPTY STRING, EVERY TIME"* and *"He has never seen the renderer's output once"* — **I asserted
+both, could not support either, and withdrew both.** He then built 459 on them. **They happen
+to be true of the model** — I have now measured it — **but they were not true of the ledger when
+either of us said them**, and 459 was written believing the ledger already held the answer. **It
+does not: it stores reason kinds, never text.** Getting the verbatim prompt and response took a
+fresh call, not a read.
+
+### 3 · "THE LEDGER SURVIVES A RESTART" — NOT BUILT. FIVE OPEN DECISIONS, ALL HIS.
+
+He wrote *"That is not a judgment call."* **That is true of WHETHER and not of HOW**, and 250
+binds both ways:
+
+1. **WHAT is persisted** — the six counters? the reasons map? **`recent`, which holds the mind's
+   own line**? That last one writes the mind's words to disk and is a different class of thing.
+2. **MERGE OR REPLACE across runs** — a lifetime total and a per-run record answer different
+   questions, and **it is the per-run one he actually asked for** (the 1,700-tick run).
+3. **WHEN it is written** — per call, per N ticks, or at shutdown. **Shutdown-only fails his own
+   reason for asking, because a crash forgets.**
+4. **WHICH FILE** — the master rule says code lives in the node that runs it, and a ledger
+   written by the renderer and read by a bench route is where that gets broken.
+5. **SCHEMA CHANGE AND RETENTION** — what happens when the counters change shape, and whether it
+   is ever cleared.
+
+**I have not chosen any of these and I am not going to.**
+
+### 4 · "ONE RENDERED LINE, DELIVERED" — I CANNOT REACH IT WITHOUT HIS RULING
+
+**The model that can do it cannot be attached without taking his sight away.** 327 gave this two
+models; **394 collapsed the panel to one slot**; the renderer and the eyes now compete for it.
+Putting `gemma3:1b` in that slot is **his bench and his call**, and it blinds the mind while it
+is there.
+
+**AND THE CENSOR IS STILL IN FRONT OF IT.** With a text model attached the refusals do not
+necessarily stop — they change kind. Of the three answers above, **`qwen2.5vl:3b`'s adds
+"makes", a verb the mind never said, and the censor would refuse it, correctly.** `gemma3:1b`'s
+line uses only his words and function words and **looks like it would pass** — I have not run
+the censor on it, because doing that needs the live record behind that moment.
+
+**The routes to "one delivered line" that do not need him all run through loosening the censor or
+editing the prompt that guarantees it. I am not taking any of them.**
+
+### 334 — WHAT I CHECKED AND WHAT I DID NOT
+
+**Checked, by hand, live:** the exact prompt, the raw HTTP envelope from the attached model,
+three other models on the same prompt, and moondream on a stripped prompt and a trivial one.
+**Checked in the code:** the local provider's read, the empty guard, where the ledger's text is
+and is not kept. **NOT CHECKED:** whether `gemma3:1b`'s line would actually pass the censor.
+**NOT CHECKED:** why the renderer stopped running nine minutes before that report.
+**NOT BUILT:** the ledger's survival, for the five decisions above.
+
+### THE QUEUE
+
+**459.1, 459.2, 459.3 answered. 459's fix and 459's proof both blocked on him** — five
+decisions on the ledger, and the slot ruling for the proof. **458.3 still blocked** (the rows
+exist, past the screen's window). **The model-list fix `b3449c2` committed, unshipped, must not
+ship.** **455, 457 blocked. 453 unruled.**
