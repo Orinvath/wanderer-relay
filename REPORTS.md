@@ -45950,3 +45950,64 @@ wants it closed, the honest way is the findings landing on the relay in the repo
 442.A.3 already requires and what these reports do.
 
 **Both passes' findings are written into their marks in full, not summarised.**
+
+---
+
+## REPORT 455 AND 457 — BOTH BLOCKED. The Critique read them before the build and both go back to him.
+
+**This is the first time the gate has been used as a gate.** Both passes ran on the directives
+themselves, before a line was written, and both came back NOT READY. **Neither is built. Per 452.4 a
+block on the relay with its reason counts as answered; per 250 the decisions come back rather than
+being made here.**
+
+### 455 — A SOUL HOLDS ALL OF THEM, RANKED
+
+**THE REMOVAL ITSELF IS SOUND AND THE CRITIQUE SAID SO PLAINLY:** striking `RICHNESS_LOW`/
+`RICHNESS_HIGH` is *"squarely what the record asks for — the same class as the struck hard caps
+(405, 408), it obeys 339, and the Schwartz citation satisfies 046(1)."*
+
+**BUT ITS ACCEPTANCE TEST CAN CONDEMN THE RULING FOR WORKING** — 306.D's own class, and this is the
+sixth time:
+
+> *"455.4 says a soul that holds everything must still read as SOMEONE rather than as an average.
+> **But 205 says the aspects alone ARE supposed to read generic** — that is the stated reason the
+> Persona exists as its own system. So the test can fail this change for behaving exactly as ruled,
+> and the natural remedy would be restoring the spread he just struck."*
+
+**And a second, smaller one:** *"generate several souls"* leaves the sample size to CC. **Three and
+thirty are different answers to "does it read as someone",** and his eye closes the loop (118).
+
+### 457 — THE 89, FIRST PASS
+
+**THREE CEILINGS ARE FILED UNDER "THE SCIENCE SETTLES THESE" WHILE THE NUMBER IS STILL UNCHOSEN:**
+`lessons CEILING 0.99`, `trust CEILING 0.95`, `interests MASTERED_AT 0.95`.
+
+> *"The directive itself says the science is indifferent to which sub-one figure. **What was settled
+> is 'below one', not 0.99 or 0.95** — and those are not the same ceiling: one lets a belief harden
+> about five times further than the other. Filing them as SETTLED is worse than filing them open,
+> because the record would show a science cite where three unruled caps went in — 405/408's exact
+> shape."*
+
+**Two of the three are ceilings on the mind's own behaviour, so 246 makes them declarable.** The
+lawful outcome of 457's own reasoning is that **the DIRECTION goes in the settled column and the
+three figures move to WHAT NEEDS HIM.**
+
+**AND THE 22 FEELINGS' FADE RATES HAVE NO TABLE.** The cited literature ranks about **seven** named
+emotions; the Core's scale has **22**.
+
+> *"The builder would assign roughly fifteen, wearing citations that cover a third… a fade rate is
+> how long a feeling lasts, so an invented assignment for two thirds of the scale silently authors
+> the emotional tempo of every avatar."*
+
+**046: a gap is stated plainly, never dressed as psychology.** What is missing is a 22-row table
+with his name on it, and a plain statement of which of the 22 the literature does not reach.
+
+**What IS sound in 457 and was said so:** the ALREADY RULED and ARITHMETIC blocks check out — a
+midpoint of 0–100 and *"below the middle"* on −10..+10 are arithmetic rather than choices, and
+`ROUSED_AT 0.371` is correctly carried as measured under 201.3. The diagnosis of `FADE_PER_HOUR
+0.55` and its 071 framing are right.
+
+### THE QUEUE
+
+**452 and 453 built. 455 and 457 blocked on him.** 454 and 456 withdrawn. **Both passes' findings
+are written into their marks in full and are on this relay above.**
