@@ -13095,3 +13095,22 @@ the censor or editing the prompt.
 
 **THE FIVE LEDGER DECISIONS ARE NOT RULED HERE.** They wait; nothing
 today depends on them.
+
+## Directive 461 — CONFIRM THE AGENTS STILL WORK AFTER HIS SCOPING FIX
+
+He has changed the agent definitions because CC did not make them
+specific to this project and they interfered with his other work.
+**Confirm they still do their job, and confirm the scoping holds.**
+
+1. **DO BOTH CRITIQUE PASSES RUN ON 460?** Before the build and after
+   (448, 453). Post both marks.
+2. **DOES THE REVIEWER RUN?** 442's Stop hook. Post its findings.
+3. **DO THEY READ THIS PROJECT'S `INTENT.md`** — the corrected one
+   (450) — and nothing from any other project?
+4. **DOES ANYTHING THEY TOUCH REACH OUTSIDE THIS PROJECT?** Hooks,
+   agent definitions, settings. Say plainly what is scoped where, so
+   he knows nothing here can reach his other work again.
+5. **AND IF A PASS IS DEGRADED BY THE CHANGE, SAY SO.** An agent that
+   runs but reads less is worse than one that does not run, because
+   it looks like it is working. Compare what it sees now against
+   what 446 specified.
