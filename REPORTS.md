@@ -46403,3 +46403,94 @@ and is not kept. **NOT CHECKED:** whether `gemma3:1b`'s line would actually pass
 decisions on the ledger, and the slot ruling for the proof. **458.3 still blocked** (the rows
 exist, past the screen's window). **The model-list fix `b3449c2` committed, unshipped, must not
 ship.** **455, 457 blocked. 453 unruled.**
+
+---
+
+## 459's AFTER PASS — IT FOUND A REAL FAULT IN MY REPORT, AND ITS HEADLINE IS WRONG. Both proved.
+
+**Its findings are in `459.after` in full.** It confirmed my measurement independently — it
+rebuilt the prompt from `ASK` itself rather than from my text, and got `eval_count: 1` and `""` on
+**five** different mind-lines. **Then it found three things, and I have measured all three rather
+than taking its word.**
+
+### 1 · ITS HEADLINE IS WRONG, AND THIS IS THE ONE THAT MATTERS
+
+**It says: empty the vision slot and he gets `moondream` for sight and `gemma3:1b` for the mouth,
+both local, so his line was never blocked on him.**
+
+**THE ROUTING PART IS TRUE. THE CONCLUSION IS FALSE.** With the slot empty, `placeFor` does return
+null for both roles and the two defaults are exactly those two models (`model.js:377-381`,
+`config.js:94-95`). **But the renderer never gets that far.** Its own caller opens with
+`bench-routes.js:333`:
+
+```js
+if (!model || !model.attachments?.()?.vision?.attached) return
+```
+
+**449.4, in the comment right above it: *"NOTHING CHANGES WITH NO MODEL ATTACHED — and 'attached'
+means the panel, not the object."*** **Empty the slot and the renderer does not run at all.** Zero
+calls, not a gemma3 line.
+
+**So there are two states and neither one gives him both:** something attached, and it serves the
+eyes **and** the mouth — attach `gemma3:1b` and the mind is blind; or nothing attached, and the
+renderer is switched off by its own guard. **My §4 stands: he cannot have a rendered line and
+sight at the same time without a ruling.**
+
+### 2 · IT IS RIGHT ABOUT THE PROMPT, AND THIS CHANGES MY DIAGNOSIS
+
+I wrote **"THE PROMPT IS RULED OUT."** **That was too strong and I withdraw it.** Same model, same
+settings, reshaped ask:
+
+```
+"Make a sentence from these words: FEELS GOOD SINGS SONGS HAPPILY TOO"
+   ->  10 tokens  ->  "!!!feels good sings happily to too!!!"
+```
+
+**`moondream` DOES produce words from text, and it reaches the mind's own words.** What it will
+not answer is **this prompt's shape.** So the honest finding is a **PAIRING fault — this model
+against this ask — not a model fault.** That is a real correction and it is the Critique's, not
+mine.
+
+**IT DOES NOT CHANGE THE REMEDY** — a model that answers the real ask is still what is needed, and
+`ASK`'s text is the guarantee that no new word is added, so reshaping it to suit a vision model is
+not mine to do.
+
+### 3 · IT IS WRONG ABOUT MY CONTROL PROBE, MEASURED
+
+It says *"Say hello."* returns empty under the renderer's own settings. **It does not.** At
+temperature 0.2 and 60 tokens it answers in 4 tokens:
+
+```
+renderer settings   ->  !"Hello,"
+ollama defaults     ->  !"Hello!",
+```
+
+**The wording differs between draws because the temperature is not zero** — which is the fair half
+of its point: **I quoted one draw of a varying output inside backticks as though it were fixed.**
+
+### 4 · THE FOUR IT CAUGHT THAT I DO NOT DISPUTE
+
+- **I never showed that `moondream` is attached** — the one fact the whole conclusion rests on. It
+  is (`GET /perception`), and the proof was one read away.
+- **I never said what settings my hand-calls used**, in a report about an empty string.
+- **My prompt block is not byte-for-byte** — I broke a line for the page, in a file where
+  `.split('\n')[0]` is exactly what can empty a reply.
+- **"I have now measured it" covered two sentences and I measured one.** *"He has never seen the
+  renderer's output once"* is still not measured and I withdraw it again.
+- **My test line is my own construction**, not the mind's — no refused line's text exists to use.
+  I labelled the block "byte for byte what the renderer sends" without saying the words were mine.
+- **And its evidence point is fair:** a hand-call cannot prove what `generate()` returns, because
+  it never calls it. **The real disproof is `model.js:514`** — every provider's `read` returns a
+  string, so the shape-mismatch path is dead code. **Right answer, wrong evidence.**
+
+### 5 · AND ONE IT CAUGHT THAT IS 459's OWN ANSWER, ALREADY BUILT
+
+**Half of 459's third ask exists.** `rendering.js:237` already stores `{ mine, rendered }` twenty
+deep, and `bench-page.js:2093` already draws the refusal beside the mind's line. **"Beside the
+mind's own" is built. Only a passing line is missing.**
+
+### THE QUEUE
+
+**459.1/459.2/459.3 answered, with the prompt no longer ruled out — a pairing fault.** **459's fix
+blocked on five decisions. 459's proof blocked on the slot ruling, and the after-pass's route out
+of it does not work.** **458.3 blocked. `b3449c2` must not ship. 455, 457 blocked. 453 unruled.**
