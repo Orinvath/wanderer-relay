@@ -46941,3 +46941,41 @@ buying side of the trade was right. The "free" was not.**
 **462 part one built, its README corrected twice, the rest blocked and now with the trade stated
 rather than recommended. 460 blocked on one decision. 459 answered, fix and proof blocked. 458.3,
 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not ship.**
+
+---
+
+## HE STRUCK MY STRONGEST OBJECTION AND HE IS RIGHT. The hooks can move.
+
+**His words: the concern about the guards being outside the project for safety is false — I have
+access to the entire machine, and I know that.**
+
+**HE IS RIGHT AND IT IS NOT A CLOSE CALL.** I have edited those exact files in his home folder
+repeatedly today — I wrote the scope guard into all five of them this morning. **Their location
+protects them from nothing.** I built a safety argument on a boundary that does not exist, and it
+was **the only item on that list that argued against moving them.**
+
+**Struck in the README, marked as struck rather than quietly deleted, with his correction named.**
+
+### WHAT IS ACTUALLY LEFT, AND IT IS ORDINARY
+
+**Five hazards, all of them plain git behaviour, none of them a reason not to do it:**
+
+- **946 commits, these files in 2** — an older checkout makes all five vanish, **and a missing
+  hook exits quietly rather than blocking.**
+- **A conflicted script blocks every project on the machine**, because a syntax error exits with
+  the same code that means *block*.
+- **A lost executable bit** makes one silently non-blocking.
+- **`git revert` changes what runs the moment it lands.**
+- **The review hook hashes this repo**, so a hook inside that tree changes the hash as it is
+  edited.
+
+**And each has a plain answer if he wants one — pin it, or keep a copy outside the repo as well.**
+
+### SO THE POSITION IS SIMPLER THAN I MADE IT
+
+**Repointing the five paths at `CC-Wanderer/.claude/hooks/*.sh` keeps them firing in every folder
+they fire in today AND makes the running scripts the version-controlled ones. That is what 462
+asked for.** The costs are real and ordinary. **The one that would have stopped it was mine and it
+was wrong.**
+
+**Say the word and I will repoint them.**
