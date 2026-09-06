@@ -46011,3 +46011,38 @@ midpoint of 0–100 and *"below the middle"* on −10..+10 are arithmetic rather
 
 **452 and 453 built. 455 and 457 blocked on him.** 454 and 456 withdrawn. **Both passes' findings
 are written into their marks in full and are on this relay above.**
+
+---
+
+## THE ENFORCEMENT WAS FIRING IN HIS OTHER PROJECTS — FIXED
+
+**His words: _"those agent you made were not contained to just this project and are blocking all my
+other projects."_ He was right, and it was my fault.**
+
+**WHAT I DID WRONG.** 442, 452 and 453 asked for enforcement that cannot be forgotten, and I built
+five checks that do that. I then registered them in the **user-wide** settings instead of scoping
+them to the Wanderer. So they ran in **every** project he opened — going off to inspect the mind's
+repo and the relay, and refusing to let turns end over work those sessions had never touched. The
+two file-guards did the same: `git add -A` was refused in projects that have no such law.
+
+**A check that blocks work it knows nothing about is not enforcement. It is damage** — and it is
+the exact failure 442 was written against, inverted: instead of a law that gets skipped, a law that
+got applied where it has no standing.
+
+**THE FIX.** All five now read which folder the session was started in and **leave immediately and
+untouched** unless it is the Wanderer's — his home folder, `CC-Wanderer`, or `wanderer-relay`.
+Nothing else changed: not one rule was weakened, and the scope guard judges nothing beyond the
+folder.
+
+**PROVEN BOTH WAYS, not assumed.** Fed a session in `chamber`, all five exit silently — including
+the two that had been refusing `git add -A` and blocking writes. Fed a session in the Wanderer, the
+unnamed-commit guard still refuses `git add -A`, the geometry guard still refuses `language.js`,
+and a **named** commit still passes. The three Stop checks pass right now because the queue is
+genuinely clear, not because the guard silenced them.
+
+**HIS OTHER SESSIONS ARE UNBLOCKED WITHOUT RESTARTING.** The scripts are read fresh each time they
+run, so the change is already live wherever he is.
+
+**ONE THING HE SHOULD KNOW.** The scope is the three folders above. A Wanderer session started
+somewhere else would carry no enforcement at all — his sessions run from home and from the relay,
+which are both covered, but that is the edge if it ever moves.
