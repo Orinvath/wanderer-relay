@@ -47395,3 +47395,72 @@ so it does not die with what it watches.
 **Nothing that runs may depend on a path outside CC-Wanderer.** The hooks now run **and** reach
 the relay folder and the home marks — **four outside reaches, created by 463.** **He may rule them
 an exception. It has to be ruled.**
+
+---
+
+## REPORT 464 — BUILT, IN THE ONE PLACE THAT PERSISTS IT. And the pass found a silent failure nobody had named.
+
+**Before-pass ran first, in `464.before` in full. Built in the review hook's own blocking message,
+because that is the only durable home there is — CLAUDE.md has no word about the reviewer, and
+there are no agent files anywhere.**
+
+### WHAT IS BUILT
+
+**The review hook now names the other four and tells the reviewer to check them, and to report any
+failure AS A FINDING IN FULL.** Proved: it still blocks in scope, still stays silent in chamber,
+and the roster now prints. **`require-review.sh` is not on the list, by 464.2.**
+
+### AND THE PASS FOUND A THIRD SILENT FAILURE NOBODY HAD NAMED
+
+**ALL FIVE HOOKS READ THEIR INPUT THROUGH `python3`.** The pass stubbed it to fail and measured
+the result:
+
+> **The folder comes back EMPTY, every scope guard falls to "not the Wanderer, do nothing", and
+> ALL FIVE PASS SILENTLY** — while remaining present, executable and syntactically clean.
+
+**An in-scope write to `language.js` returned 0 instead of the block. So did `git add -A`.** **One
+broken interpreter turns off the whole enforcement and nothing says a word.** **It is now the
+fourth thing the reviewer is told to check, and it is the one that matters most.**
+
+### AND THE PASS IS RIGHT THAT 464 DOES NOT REACH ITS OWN GOAL
+
+**He asked for a detector that does not die with what it watches. This one dies with them.**
+`require-review.sh` is **in the same directory, the same repo and the same settings block as the
+four**, and `origin/master` has no `.claude/` at all — **so a reset to origin takes the watchdog
+and the watched together.** **It catches the case where one hook dies alone. It cannot catch the
+case 463.3 actually named.**
+
+**AND 464.2's HINGE IS NOT TRUE.** *"He can see whether the reviewer ran."* **On a turn where the
+review hook is dead, the turn ends normally and nothing appears — which is identical to the far
+more common case where nothing changed and no review was due.** **There is no observable
+difference between "no code changed" and "the review hook is dead."** He is being asked to notice
+an absence against a background where that absence is normal.
+
+### AND TWO CASES 464 CHECKS ARE ALREADY COVERED
+
+**Missing and non-executable already print** (127 and 126). **And since 463 put the hooks in the
+tracked tree, a reviewer that sees only the diff ALREADY sees a removed hook and a lost executable
+bit.** Measured. **464.1 adds nothing there; the value is entirely in the `python3` case.**
+
+### WHAT IS STILL HIS
+
+1. **WHAT "ABLE TO RUN" MEANS.** I built the **safe** reading — present, executable, parses,
+   interpreter resolves. **The unsafe reading is not a taste: `require-in-order.sh` does a
+   `git pull` and `require-critique.sh` writes the gate's own `.from`. Test-running those two
+   changes the thing they judge.** Only the two PreToolUse guards can be safely invoked. **That is
+   in the message.**
+2. **DOES A DEAD HOOK BLOCK THE TURN OR IS IT ONLY REPORTED?** 464.3 says a finding. 463.4 says a
+   silent hook is worse than one that blocks wrongly. **And the reviewer is a subagent — it has no
+   power to block anything.**
+3. **WHERE A DETECTOR COULD LIVE THAT DOES NOT DIE WITH THEM.** Still open, and 464 did not solve
+   it.
+4. **THE ROSTER.** It is hard-coded in the message. **Read it from the settings file instead and
+   de-registration becomes invisible; hard-code it and it goes stale.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether the harness shows him a 126 or 127 line at all — still the unmeasured
+column. **The pass deliberately did not test-run the two unsafe hooks.**
+**464 built as far as it goes. 463.4's real gap remains. 462.2 blocked on one thing. 460 blocked
+on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled.
+`b3449c2` unpushed and must not ship.**
