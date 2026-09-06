@@ -47270,3 +47270,59 @@ reads a project `.claude/`.
 **463.1-.3 BUILT. 463.4 NOT BUILT, blocked on him. 462.2 blocked on one thing only, not its
 layout. 460 blocked on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked.
 453 unruled. `b3449c2` unpushed and must not ship.**
+
+---
+
+## THE REVIEW OF THE CORRECTED README — the correction holds, and a broken end-of-turn hook is worse than a block.
+
+**Every headline fact in the corrected file checks out against the live system** — registration,
+scope, the marks, the stale copies, the exit codes, the git figures, and that recovery is his
+because these fire only on Claude's tool use and never touch his own editor. **Corrected again in
+`c287e9b` for what follows.**
+
+### 1 · THE DETECTOR I OFFERED HIM WOULD NOT HAVE WORKED
+
+I said a check in the settings file could test that all five are present and executable. **That
+tests exactly the two cases that already print** — missing and non-executable. **It cannot see
+de-registration**, because whoever strips the roster strips the check that lives in the same file,
+**and it cannot see an out-of-scope folder**, because such a detector either carries the same
+scope guard and goes equally silent or carries none and fires in every project.
+
+**The place was right; the check was wrong. What would actually catch a silent hook is a
+heartbeat — each hook leaving a mark that it RAN, and something comparing the roster to the
+marks.** Corrected.
+
+### 2 · AND A BROKEN END-OF-TURN HOOK IS NOT A BLOCK. IT IS A LOOP.
+
+**Their already-blocked-once guard sits BELOW the parse point.** So a broken one **can never read
+it and can never stop blocking — the session cannot end at all.** I wrote "BLOCKS EVERYTHING";
+**for the three end-of-turn scripts it is worse than that, and he would have hit it with no
+warning.** Now written per script.
+
+### 3 · TWO ROWS OF MY "MEASURED" TABLE ARE INFERRED
+
+**That exit 2 blocks is established** — these scripts rely on it and it is all over the record.
+**That 126 and 127 do NOT block is inferred from the contract, never observed** — neither code
+appears anywhere in this machine's history. **The table now says which is which.**
+
+### 4 · AND THE TWO TRAPS ARE NOW IN THE FILE, NOT ONLY ON THIS RELAY
+
+**Do not clear the home hooks folder** — it holds `critique/.from`, and losing it silently
+rebaselines the gate and discards the recorded findings. **And `git add .claude/` passes my own
+guard**, measured, while `git add .` and `git add -A` are refused.
+
+**AND ONE WORSE THAN EITHER, WHICH I HAD NOT SEEN: the review gate cannot see a NEW file at all.**
+It hashes tracked changes, so **an added hook script never even triggers a review.** That is
+strictly worse than the uncommitted-edit drift I reported, and it was unmentioned.
+
+### 5 · AND ONE NUMBER ROUNDED THE WRONG WAY
+
+I wrote "about two thirds" for `block-unnamed-commits.sh`. **It is 62%.** In a section headed
+*measured*. Fixed.
+
+### 334 · THE QUEUE
+
+**Not checked:** the harness's response to 126 and 127, which is the inferred column.
+**463.1-.3 built, 463.4 NOT BUILT and blocked on him. 462.2 blocked on one thing only. 460 blocked
+on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled.
+`b3449c2` unpushed and must not ship.**
