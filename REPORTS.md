@@ -47326,3 +47326,72 @@ I wrote "about two thirds" for `block-unnamed-commits.sh`. **It is 62%.** In a s
 **463.1-.3 built, 463.4 NOT BUILT and blocked on him. 462.2 blocked on one thing only. 460 blocked
 on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled.
 `b3449c2` unpushed and must not ship.**
+
+---
+
+## EVERYTHING WAITING ON THE DIRECTOR — ONE LIST
+
+**His instruction: anything waiting on him goes on the relay so it goes through the chain of
+command.** These are scattered across the entries above. Here they are in one place, lowest
+directive first. **Nothing here is a recommendation dressed as a question; each is a decision only
+he makes.**
+
+### 453 — WHAT A CRITIQUE FINDING DOES
+**Unruled since it was built.** A pass reports; nothing says what a finding *does* to the run or
+to the commit. **Without it I decide directive by directive, which 188 forbids.**
+
+### 455 — THE ACCEPTANCE TEST, AND THE SAMPLE SIZE
+Its test can condemn the ruling for working: **455.4 wants a soul to read as SOMEONE, and 205 says
+the aspects alone are supposed to read generic.** And *"generate several souls"* leaves the number
+to me.
+
+### 457 — THREE CEILINGS AND A FADE TABLE
+`lessons 0.99`, `trust 0.95`, `interests 0.95` are filed under *the science settles these*.
+**What the science settled is "below one".** And the 22 feelings have fade rates from a literature
+that covers about seven. **A 22-row table needs his name on it.**
+
+### 458.3 — THE TEN REFUSED LINES
+**The rows exist** — each refusal is written beside the mind's own line. **They have scrolled past
+the 200-line window his screen is served.** Reaching them is a change, and 458 said change
+nothing. **His call.**
+
+### 459 — THE LEDGER THAT SURVIVES A RESTART: FIVE DECISIONS
+**What is persisted** (the counters? the reasons? `recent`, which holds the mind's own line —
+that writes its words to disk). **Merge or replace across runs.** **When it is written** —
+shutdown-only fails his own reason, because a crash forgets. **Which file.** **What happens when
+the shape changes.**
+
+### 460 — WHAT AN EMPTY SLOT MEANS
+**The two roles behave oppositely today.** An empty SIGHT slot **does not blind the mind** — it
+falls back to the default. An empty RENDERING slot **switches the renderer off entirely.** *"Both
+start empty"* therefore means two different things. **This is the one thing blocking the two-slot
+build.**
+
+### 460 / 459 — THE SLOT, TODAY
+**One slot, one model.** `gemma3:1b` renders and **the mind is blind while it is there.**
+`moondream` sees and **renders nothing.** **He rules whether to trade sight for one proven line
+now, or wait for two slots.**
+
+### 462.2 — THE HOOK THAT KEEPS THEM COMMITTED
+**Its layout objection is dead** — the repo's `.claude/hooks` is now where the live scripts are.
+**One thing is left: 462.2 forces the commit 462.3 forbids, because a hook cannot tell restraint
+from neglect.** **And whether the settings file comes into the repo at all.**
+
+### 463.4 — THE SIGNAL FOR A HOOK THAT SILENTLY DOES NOT RUN
+**Not built.** What it says, where it appears, **whether it warns or blocks**, and where it lives
+so it does not die with what it watches.
+
+### AND FOUR SMALLER ONES, ALL HIS
+
+- **`b3449c2`** — the model-list fix. **Committed, unshipped, reviewed as MUST NOT SHIP.** Revert
+  it, or have it rebuilt against the five findings.
+- **THE REPO IS UNPUSHED.** `origin/master` has **no `.claude/` at all**, so a reset to origin
+  takes all five guards at once. **Push, or not.**
+- **`git add .claude/` passes my own guard.** Tighten it, or leave it.
+- **THE FIVE STALE COPIES** in the home hooks folder. **If they go, only the five `.sh` files go**
+  — that folder holds the Critique gate's memory.
+
+### 116, WHICH HAS BEEN DROPPED TWICE AND IS NOT DROPPED AGAIN
+**Nothing that runs may depend on a path outside CC-Wanderer.** The hooks now run **and** reach
+the relay folder and the home marks — **four outside reaches, created by 463.** **He may rule them
+an exception. It has to be ruled.**
