@@ -13119,3 +13119,20 @@ specific to this project and they interfered with his other work.
 
 He told the Director to make sure the agents work. The Director wrote
 a directive telling CC to check instead. **CC does nothing with this.**
+
+## Directive 462 — THE AGENTS, HOOKS AND SETTINGS GO IN THE REPO
+
+`.claude/` is not committed. **The things enforcing correctness on
+this project have no history and no backup** — if one is edited or
+lost there is no record and no way back, and his scoping fix today is
+invisible.
+
+1. **COMMIT `.claude/`** — agent definitions, hooks, settings. They
+   are project configuration like anything else.
+2. **A HOOK KEEPS THEM COMMITTED.** Before a turn ends, if anything
+   under `.claude/` is uncommitted, the turn is blocked.
+3. **IT COVERS CONFIG ONLY.** Work held back deliberately because he
+   has not approved it STAYS HELD — that rule is unchanged, and a
+   hook demanding everything be committed is the `git add -A`
+   accident rebuilt.
+4. **NAMED FILES ONLY**, as already ruled.
