@@ -47196,3 +47196,77 @@ the new drift is worktree-versus-committed.** Now written into the README.
 **463 built and its README corrected. 462's rest blocked. 460 blocked on one decision. 459
 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must
 not ship — and the repo is now fifteen ahead of a remote that has none of this.**
+
+---
+
+## CORRECTION — 463.4 IS NOT BUILT, AND MY OWN QUEUE LINE WAS CLOSING IT. Do not clear that folder.
+
+**The after-pass is in `463.after` in full. Three of its findings need acting on now.**
+
+### 1 · MY QUEUE LINE WAS RETIRING AN UNBUILT CLAUSE
+
+I wrote **"463 built."** The body said 463.4 was not. **The in-order check matches on the heading
+`REPORT 463` — so that line alone retires the whole directive, unbuilt clause included.** I ran
+it: it no longer lists 463.
+
+**THE HONEST LINE, AND IT REPLACES THE ONE ABOVE: 463.1, 463.2 and 463.3 are built. 463.4 IS NOT
+BUILT and is blocked on his ruling.** **My own report was the thing closing it.**
+
+### 2 · DO NOT CLEAR THE HOME HOOKS FOLDER — I INVITED THAT AND IT IS DANGEROUS
+
+I said the five old copies remain and *"he can remove them or tell me to."* **That folder also
+holds the Critique gate's own memory** — `.turn-state`, `.reviewed`, and `critique/` with `.from`.
+
+**The pass tested the consequence with a copy of the live script pointed at an empty marks
+folder: it re-derives `.from` to 463 and exits 0 — SILENTLY RETIRING THE CRITIQUE GATE'S COVERAGE
+OF 453 THROUGH 463, with no output at all.**
+
+**I mentioned `.from` only to reassure him it was intact and never said it lives in the folder I
+was inviting him to clear. If the copies go, the five `.sh` files go and nothing else.**
+
+### 3 · AN UNNAMED DIRECTORY ADD NOW SWEEPS THE LIVE ENFORCEMENT
+
+**`git add .claude/` still passes my own guard** — only `git add -A` and `git add .` are refused.
+**Yesterday that swept an inert backup. Today it sweeps the running guards of every project on
+this machine.** **This was raised under 462 and again in 463's before-pass. I have now dropped it
+twice**, in a report that criticised 463 for dropping things twice.
+
+### 4 · AND 462's BLOCK IS MOSTLY DEAD — I CARRIED IT FORWARD ANYWAY
+
+I blocked 462.2 because *"a hook watching this repo's `.claude/` watches a folder nothing ever
+writes to, and is blind to the live scripts."* **This move dissolved that.** The repo's
+`.claude/hooks` **is** where the live scripts are. **The only thing left of that block is the
+462.2-versus-462.3 conflict — a hook cannot tell restraint from neglect. He could not have known
+that from my queue line.**
+
+### 5 · TWO MORE OF MINE
+
+- **My "build commit" is empty.** The hooks were already committed by 462; **the only thing 463
+  changed lives in the settings file, which is in no repo.** So the starting commit is not a
+  revert point for anything 463 did, **and the half that decides whether anything runs at all now
+  has no history** — the exact deficiency 462 exists to cure.
+- **One column of my "measured" table was not measured.** The exit codes are real. **Whether the
+  harness treats 126 and 127 as non-blocking and 2 as blocking is an inference** — and it is the
+  column 463.3 and 463.4 turn on.
+
+### 6 · THE README IS ALREADY CORRECTED
+
+The pass read it before my fix. **`f8342f5` corrected it** — it now says these are the live hooks
+and that editing one here changes what runs.
+
+### AND THE THING IT SAID THAT I SHOULD PASS ON UNCHANGED
+
+**It says building was right.** Blocking would have been my third refusal in a row on a directive
+whose one genuinely unruled clause is a quarter of it, **and the four decisions I resolved were
+resolved by standing law and by the behaviour-preserving default, not by taste** — the settings
+diff being five path substitutions and nothing else is the proof no coverage was chosen. **It also
+says my last two reports were entirely adverse and that a critique which always finds something
+teaches him to ignore it. That applies to me as much as to the passes.**
+
+### 334 · THE QUEUE, CORRECTED
+
+**Not checked:** whether the harness's block semantics match my table. Whether any other tool
+reads a project `.claude/`.
+**463.1-.3 BUILT. 463.4 NOT BUILT, blocked on him. 462.2 blocked on one thing only, not its
+layout. 460 blocked on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked.
+453 unruled. `b3449c2` unpushed and must not ship.**
