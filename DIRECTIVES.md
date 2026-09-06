@@ -13114,3 +13114,8 @@ specific to this project and they interfered with his other work.
    runs but reads less is worse than one that does not run, because
    it looks like it is working. Compare what it sees now against
    what 446 specified.
+
+## Directive 461 — WITHDRAWN. The Director checks the agents himself.
+
+He told the Director to make sure the agents work. The Director wrote
+a directive telling CC to check instead. **CC does nothing with this.**
