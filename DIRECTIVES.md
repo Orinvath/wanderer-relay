@@ -13136,3 +13136,26 @@ invisible.
    hook demanding everything be committed is the `git add -A`
    accident rebuilt.
 4. **NAMED FILES ONLY**, as already ruled.
+
+## Directive 463 — MOVE THE HOOKS INTO THE PROJECT
+
+**His objection is struck and CC agreed: their location protects them
+from nothing** — CC has access to the whole machine and edited all
+five of those files this morning. That was the only argument against
+moving them.
+
+**AND HE HAS ALREADY CONFINED THEM TO THIS PROJECT HIMSELF**, so the
+one hazard that could reach his other work — a broken script blocking
+every project — is already handled.
+
+1. **THE HOOKS MOVE INTO THE PROJECT** and are committed there.
+2. **THE CREDENTIAL AND THE 1.1GB OF OTHER PROJECTS' TRANSCRIPTS DO
+   NOT COME WITH THEM.** 462 was blocked on that and rightly; commit
+   the hooks, not the folder.
+3. **THE REMAINING HAZARDS ARE ORDINARY GIT AND ARE HANDLED, NOT
+   ARGUED:** an old checkout makes a hook vanish and a missing hook
+   exits quietly — say what happens then; a lost executable bit makes
+   one silently non-blocking — say how that is caught.
+4. **A HOOK THAT SILENTLY DOES NOT RUN IS THE WORST OUTCOME** and
+   worse than one that blocks wrongly. Whatever else, that case must
+   be visible.
