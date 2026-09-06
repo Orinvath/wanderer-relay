@@ -47137,3 +47137,62 @@ not overlooked.**
 his eye. **Not tested:** a conflict produced by a real merge rather than by hand.
 **463 built. 462's rest blocked. 460 blocked on one decision. 459 answered, fix and proof blocked.
 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not ship.**
+
+---
+
+## THE REVIEW OF 463 — the move is clean; I left the README saying the exact opposite of reality.
+
+**442.A.3, findings in full. Corrected in `f8342f5`.**
+
+### THE MOVE ITSELF CHECKS OUT, LINE BY LINE
+
+**Exactly five lines differ from the backed-up settings** — the five paths, nothing else; matchers,
+order, permissions, model, everything byte-identical. **The five scripts are byte-identical to the
+originals.** Executable bits committed. **Nothing ignored, nothing stale pointing at the old
+paths, and the scripts never reference their own location** — so the move could not break them.
+**The marks are intact**, `.from` still 452, 16 of them including 463's own. **And the guards were
+run at the new paths: refusing in scope, silent in chamber.** **No credential and no transcript
+came with them** — six tracked files, 36 KB.
+
+### AND THE DEFECT, WHICH IS MINE AND WOULD HAVE BEEN NASTY
+
+**I moved the hooks and left the README next to them saying:**
+
+> *"THESE ARE COPIES. THE LIVE ONES ARE ELSEWHERE… editing a file in here changes nothing today."*
+
+**That is now false in every particular.** The next person to read the only documentation beside
+the live hooks would have been told to go and edit five files in the home folder **that run
+nothing** — no error, no sign, forever. **That is precisely the silent non-running hook 463.4
+calls the worst outcome, and I created the sentence that causes it.** Corrected.
+
+### AND IT CAUGHT ME ARGUING SOMETHING MY OWN TABLE DISPROVED
+
+I said the silent case includes *"a hook whose path stopped resolving."* **My own measurement
+twelve lines above says that exits 127 and prints.** **The genuinely silent cases are
+de-registration and a session whose folder falls outside the scope guard.** Corrected.
+
+**AND MY "NOWHERE SAFE TO PUT THE DETECTOR" WAS WRONG.** `~/.claude/settings.json` is **outside
+the repo, cannot be removed by any checkout, and already holds the roster.** A check registered
+there could test that all five are present and executable. **The peer-check-inside-the-five
+objection was fair; the "nowhere to put it" was not.** **What it says and whether it warns or
+blocks remains his.**
+
+### ONE NEW HAZARD, SHARPER THAN I PUT IT
+
+**`origin/master` has no `.claude/` at all** — these files are in a handful of local commits and
+**none that have been pushed.** So a `reset --hard origin/master`, a fresh clone, or any older
+checkout **takes all five guards at once.** I said "an old checkout"; **the truth is that the
+remote does not have them at all.**
+
+### AND ONE MORE DRIFT I TRADED FOR THE OLD ONE
+
+**An edited-but-uncommitted hook is not caught.** The review gate forces a review and recording
+that review clears it **with the edit still uncommitted.** **The old drift was home-versus-repo;
+the new drift is worktree-versus-committed.** Now written into the README.
+
+### 334 · THE QUEUE
+
+**Not checked:** whether anything reads the printed error from a 126 or 127 at his eye.
+**463 built and its README corrected. 462's rest blocked. 460 blocked on one decision. 459
+answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must
+not ship — and the repo is now fifteen ahead of a remote that has none of this.**
