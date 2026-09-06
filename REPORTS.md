@@ -46128,3 +46128,72 @@ BECAUSE THE MODEL RETURNS NOTHING AT ALL"*, and it carries the same one reason, 
 reply, the moondream measurement and the 327/394 collision. **I am not arguing the point** — if it
 did not reach him then it did not do its job. What 458 asks for beyond it is answered above: the
 three numbers, and the two questions 451 did not put plainly.
+
+---
+
+## THE MODEL-LIST FIX WAS REVIEWED AND IT MUST NOT SHIP. It reintroduces a bug this file already fixed.
+
+**His ruling was right and the build of it is wrong.** He asked: *"wouldn't it just make sense to
+call the list when someone uses the pulldown?"* I built it, a fresh reviewer was given only the
+diff and the requirements, and its verdict is **do not ship as-is.** Findings in full, 442.A.3.
+
+**THE COMMIT IS `b3449c2` AND IT IS NOT LIVE** — the bench he has open started before it and still
+runs the old code. Nothing on his screen has changed.
+
+### 1 · BLOCKING — REBUILDING THE OPTIONS ON OPEN DESTROYS THE PULLDOWN HE IS OPENING
+
+`bench-page.js:1725` rebuilds the chooser's contents milliseconds after his click has already
+opened the native list. **THIS FILE ALREADY RECORDS THIS EXACT BUG AS FIXED**, at
+`bench-page.js:1612`, in his own words:
+
+> *"HE WAS TRYING TO USE THE PULL-DOWN AND IT CLOSED ON EVERY FLASH … the select he had open was
+> destroyed and rebuilt several times a second, which closes it."*
+
+**I reintroduced it and tied it to the act of opening.** He clicks the chooser and it blinks shut.
+
+### 2 · BLOCKING — A CHOICE HE HAS MADE BUT NOT LOADED IS SILENTLY RESET
+
+`bench-page.js:1727` re-selects the **attached** model, not the one he just picked. Replacing the
+options resets the box. He picks a model, opens the list again to check, and his pick is gone —
+Load then tells him to choose a model first.
+
+### 3 · THE REQUIREMENT IS ONLY HALF MET — THE FRESH LIST CANNOT REACH HIM ON THE OPEN THAT ASKED FOR IT
+
+The request goes out on open, but the list paints from what is already there; the answer arrives
+after he is looking at the old one and shows on the NEXT open. **I named this in the code comment
+as the reason the draw-time ask stays — but the commit message still claims he sees what the
+machine is serving NOW, and he does not.** That claim is mine and it is wrong.
+**And a keyboard open never fires it at all** (Alt+Down, F4, arrows) — so "when the pulldown is
+opened" is not actually covered.
+
+### 4 · THE SILENT FAILURE IS NOT FULLY GONE — I MOVED IT RATHER THAN KILLING IT
+
+`bench-page.js:1716` and `1733` both exit with **no request and no message** if the chooser is not
+found. **That is the same silence, relocated from an empty catch into a guard clause.**
+
+### 5 · TWO ASKS IN FLIGHT CAN OVERWRITE EACH OTHER'S MESSAGE
+
+`bench-page.js:1730` — the slow draw-time ask can fail after the fast open ask succeeded, and
+blame a request that has already been superseded.
+
+### WHAT THE REVIEW CLEARED
+
+**The template-literal risk is genuinely clean** — no backtick, no `${`, and the whole page proved
+end to end: `spherePage()` returns 292,823 chars and all four script blocks parse. **Listener
+hygiene is clean.** `s` is in scope. The 409 and 502 answers do reach him — **but by the shape of
+the body rather than by any status check**, and a 403 degrades to raw JSON-parser noise.
+
+### AND ONE IT FOUND THAT IS NOT MINE
+
+`bench-page.js:1761` — **the online "List models" button still ends in an empty catch**, the same
+silent failure he reported, in the same panel. Untouched by this commit and named here rather than
+fixed.
+
+### ALSO NAMED, PRE-EXISTING
+
+The panel redraws whenever the vision model answers (its timing is part of the redraw signature),
+so the draw-time ask fires far more often than "when the panel is drawn" suggests. **My change
+adds a second source of requests on top of it.**
+
+**NOTHING FURTHER DONE. The commit stands unshipped and he rules: revert it, or have it rebuilt
+against these five.**
