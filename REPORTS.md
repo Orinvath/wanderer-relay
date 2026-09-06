@@ -46197,3 +46197,100 @@ adds a second source of requests on top of it.**
 
 **NOTHING FURTHER DONE. The commit stands unshipped and he rules: revert it, or have it rebuilt
 against these five.**
+
+---
+
+## THE CRITIQUE RAN ON 458 — AFTER I HAD ALREADY POSTED. It caught six things and one of them is a withheld answer.
+
+**I reported 458 before either pass ran.** That is the wrong order, it is what 453 exists to
+prevent, and the hook is what caught it rather than me. **Both passes are recorded in full in
+their marks. The findings that change the record follow, and the corrections are mine.**
+
+### THE ONE THAT MATTERS — 458.3 WAS DECLINED ON A FALSE STATEMENT ABOUT THE BUILD
+
+I wrote: *"Refused lines are never kept… There is no sample of a refusal anywhere in the build."*
+
+**THAT IS UNTRUE AND THE CRITIQUE PROVED IT.** `bench-routes.js:349` is
+`if (out.rejected) { row.refused = out.reason; return }` — **the refusal is written onto the
+exchange row, beside `row.text`, which is the mind's own line**, and `bench-page.js:2093` draws it
+as a badge with the reason in the tooltip. The code's own comment says why it is there:
+
+> *"the refusal is recorded beside it so a censor that is quietly eating every line is visible on
+> his screen."*
+
+**So two of the three columns 458.3 asked for are built, and I told him they were not.**
+
+### AND THEN I WENT AND LOOKED, WHICH IS WHAT I SHOULD HAVE DONE FIRST
+
+**Zero of the rows he can see carry a refusal.** Not because they are not recorded — because they
+have scrolled out. The screen is served the **last 200 rows** (`watching.js:1468`), and:
+
+```
+oldest row the screen can see   20:02:56
+newest row                      20:06:34
+the renderer last ran           19:57:52   (the attached model's last answer)
+```
+
+**Every one of the 63 refusals happened more than five minutes before the oldest row still on
+screen.** They are in the process and out of reach of any route that exists. **Getting them to him
+needs a change, and 458 says change nothing** — so this goes back to him as a ruling, not as a
+finding I acted on.
+
+**AND A FACT HE SHOULD HAVE PLAINLY: the renderer has not run for nine minutes.** The attached
+model last answered at 19:57:52 and the bench is at 20:06. I have not investigated why.
+
+### THE OTHER FIVE, AND WHAT I WITHDRAW
+
+1. **Two of my three file:line cites were misfiled.** `recent` is written at
+   `rendering.js:202` and `:237`, not `:255` (255 is inside `#refuse`). The refusal path is
+   `bench-routes.js:349`, not `:199` (199 is the *throw* path, which carries a similar comment).
+   **385: a line offered as proof has to be the line.**
+2. **I WITHDRAW *"the model's attempted rendering was the empty string in all 63."*** The ledger
+   stores reason **kinds, never text** — its own comment says so at `rendering.js:252`. And
+   `nothing rendered` does not mean the reply was empty: `rendering.js:228` takes
+   `.split('\n')[0].trim()`, so a reply beginning with a newline fires the same refusal with a
+   **non-empty** attempt. **I asserted the content of 63 strings from a counter that never held
+   them.**
+3. **I WITHDRAW *"he has never once seen the renderer's output."*** I had just finished
+   establishing that prior runs no longer exist anywhere. **"Never once" was not mine to state.**
+4. **I WITHDRAW the moondream generalisation.** I wrote *"a vision model and returns an empty
+   string for a text prompt."* **451's own table refutes it** — moondream answered two other
+   prompts with non-empty nonsense. Only the renderer's own prompt returned `""`. **One
+   measurement, one run.**
+5. **"and the two agree" was a comparison I had just called impossible.** What I meant is 451's
+   27 of 27 against today's 63 of 63. **Two runs of the same fault, not the run he watched.**
+6. **The `162ms` had no stated source.** It is the attachment panel's own `lastMs`, read from
+   `/perception`. **It was not a fresh model call** — no model was called for this report.
+
+### 334 — WHAT I CHECKED AND WHAT I DID NOT
+
+**Checked, live:** the renderer's counters, the reasons, the perception slot, the 200 rows the
+screen can see, and their timestamps. **Checked in the code:** the refusal path, the empty guard,
+where `recent` is written. **NOT CHECKED:** whether the 63 refused rows still exist deeper in the
+process behind the 200-row window — I have no route to ask, and finding out means a change.
+**NOT CHECKED:** why the renderer stopped nine minutes ago. **NOT CHECKED:** whether 451 answered
+its own directive in full.
+
+### THE BEFORE-PASS, WHICH NEVER GOT TO SPEAK BEFORE THE WORK
+
+**It has two things for him and I did not stop for either:**
+
+- **458.3 ships with an open decision — WHICH TEN.** No selection rule is given, so I would have
+  picked the sample he rules on. **250: no directive ships with open decisions; 188: a default is
+  a decision wearing a shrug.**
+- **458.4 may be unanswerable from the ledger while 458 forbids building the instrument.** It
+  asks whether corrected patterns reappear in lines the model never touched; that needs per-line
+  provenance that is not stored. **It happened not to bite, because nothing was delivered — but
+  it would have.**
+
+**It also names two things worth his eye:** that 458 drops the fragment question he asked inside
+451 (*"were the refused renderings attempts to complete a fragment"*), which dies unmarked once
+458 is closed; and that 451 sitting unanswered while 453, 455 and 457 went through **is itself
+evidence the in-order check was not firing at the time.**
+
+### THE QUEUE
+
+**458 answered, with 458.3 blocked on his ruling** — the rows exist, they are out of the screen's
+reach, and reaching them is a change. **The model-list fix (`b3449c2`) is committed, unshipped and
+must not ship** — five findings above it on this relay. **455 and 457 remain blocked on him.**
+**453's finding-consequence question remains unruled.**
