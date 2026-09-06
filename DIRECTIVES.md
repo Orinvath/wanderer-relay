@@ -12999,3 +12999,30 @@ bench values.**
 Build the FADE change — it is a science finding, not a judgment.
 Record the RULED and ARITHMETIC rows as such. Touch none of the
 "needs him" values.
+
+## Directive 458 — 451 WAS NEVER ANSWERED. The refusal reasons, now, before anything else.
+
+**HIS BENCH, 1,700 ticks with perception attached the whole time:**
+```
+Mind  sings softly by the pond shore feels ease changes singing tone
+```
+Nonsense, and he says the renderer is REFUSING A LOT. **451 asked for
+the refusal reasons two days ago and no report came.** It is the
+lowest unanswered directive and the in-order law (452) puts it first.
+
+**READ THE LEDGER AND POST:**
+1. Over his 1,700 ticks: renderings attempted, renderings delivered,
+   renderings refused. Three numbers.
+2. **THE REFUSAL REASONS, GROUPED.** If most refusals are one reason,
+   that is one fault — say which.
+3. **FOR TEN OF THE REFUSED:** the mind's own line, the model's
+   attempted rendering, and the censor's reason, side by side. For
+   his eye — he rules whether the censor was right to refuse.
+4. **AND THE SECOND NUMBER 449 ASKED FOR:** has its own grammar
+   improved? Are corrected patterns appearing in lines the model
+   never touched? If nothing was delivered, nothing was learned, and
+   say so plainly.
+
+**CHANGE NOTHING.** Nonsense output after 1,700 ticks with a renderer
+attached means either the renderer is not delivering or what it
+delivers is not being learned. The ledger says which.
