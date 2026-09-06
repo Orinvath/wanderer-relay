@@ -47611,3 +47611,77 @@ version of the `python3` check, which is his to rule.
 **464 built and its check tightened. 463.4's real gap remains. 462.2 blocked on one thing. 460
 blocked on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453
 unruled. `b3449c2` unpushed and must not ship.**
+
+---
+
+## THE REVIEW OF THE TIGHTENED CHECK — it catches the fault, and it was still too narrow. Widened in `c233413`.
+
+**442.A.3, in full. And the hook roster ran again.**
+
+### THE FIX WORKS, PROVED THE HARD WAY
+
+The reviewer built the broken interpreter itself — one that answers `--version` but cannot read
+JSON:
+
+```
+old check "python3 resolves"   ->  PASSES it (green)
+new payload probe              ->  FAILS it (catches it)
+```
+
+**And it confirmed the fault is real: with that interpreter on the path, the review hook returned
+0 on a payload that must block.** **The hook silently stops enforcing.**
+
+**The diff is otherwise clean** — every scope case byte-for-byte identical to before, no marks
+touched, the probe line prints unmangled and runs when copied.
+
+### BUT IT WAS STILL TOO NARROW, AND THIS ONE IS SERIOUS
+
+**My probe tested the FLAT read (`cwd`). The two guards that protect `language.js` and refuse
+`git add -A` use a NESTED read (`tool_input` → `file_path`).**
+
+**The reviewer demonstrated it rather than argued it:** an interpreter that **passes my probe**
+still returns nothing for the nested form — **and the geometry guard then returned 0 on a real
+write to `language.js`, where a healthy one returns the block.**
+
+> **Probe green, `language.js` wide open.**
+
+**Widened: the message now carries both probes.** Tested; both print what they must.
+
+### TWO IT NAMES THAT I HAVE NOT CLOSED
+
+- **The probe runs in the reviewer's shell, not through a hook.** A different path in the
+  environment that actually spawns the hooks means a green probe **does not prove the hook's own
+  interpreter works.**
+- **The probe payload is twelve bytes; a real one is thousands.** A fault that truncates input
+  passes the small one and fails the real one.
+
+### AND THE STRUCTURAL POINT, WHICH IS FAIR
+
+**This hardens the guidance, not the code.** All five hooks still swallow the interpreter's failure
+and fall through to *do nothing*. **Between reviews they remain undefended.** **Closing that means
+changing the five hooks themselves — his ruling, and the option I never put to him.**
+
+### THE HOOK ROSTER, SECOND RUN
+
+```
+all four   present   0755   parse clean
+python3    passes BOTH probes today
+```
+
+**And the two safe guards were run: `language.js` and `geometry.js` refused, an ordinary file
+allowed, out of scope silent; `git add -A`, `git add .`, `--all` and `commit -a` refused, a named
+add allowed.** **One of them even fired on the reviewer's own command mid-review** — independent
+proof it is live.
+
+### ONE PRE-EXISTING THING IT FOUND IN MY GUARD
+
+**`block-unnamed-commits.sh` matches the phrase anywhere in a command** — so a command that merely
+*contains* `git add -A` inside quotes is refused though it commits nothing. **That is what it hit.
+His call whether I narrow it.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether the hooks' own environment has the same interpreter as the reviewer's.
+**464 built, its check twice widened. 463.4's real gap remains. 462.2 blocked on one thing. 460
+blocked on one decision. 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453
+unruled. `b3449c2` unpushed and must not ship.**
