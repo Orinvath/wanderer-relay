@@ -46979,3 +46979,61 @@ asked for.** The costs are real and ordinary. **The one that would have stopped 
 was wrong.**
 
 **Say the word and I will repoint them.**
+
+---
+
+## THE REVIEW OF THE STRIKE — striking it was right; calling it the only objection was not.
+
+**442.A.3, in full. `6430d41` is the fourth version of that section.**
+
+### THE STRIKE IS CONFIRMED
+
+**Nothing on this machine restricts writes to a hook script at any location.** The reviewer went
+and checked: the only thing any guard protects is `language.js` and `geometry.js`, against edits,
+in scope. **Everything else, including all five hooks, in his home folder or anywhere, is
+unprotected.** **His correction stands and it is now confirmed by a third party.**
+
+### BUT I OVER-CORRECTED IN HIS FAVOUR, AND THAT IS ITS OWN FAULT
+
+I wrote that the struck cost was **"the only cost here that argued against moving them."** **False
+— six remain, and a cost list is by definition a list of arguments against.**
+
+**AND THE WORST ONE IS CREATED BY THE MOVE:**
+
+> **A merge conflict inside a hook script is a bash syntax error, and a syntax error exits with
+> the same code that means BLOCK — in every project on this machine, with the scope guard sitting
+> below the error where it never runs.**
+
+**This cannot happen today: his home folder is not a git repository, so it can never take a
+conflict.** **It is worse than the objection he struck, and I had buried it in a list I then said
+contained nothing.**
+
+### FOUR MORE OF MY NUMBERS AND CLAIMS WERE WRONG
+
+- **949 commits, not 946 — and the scripts are in ONE of them, not two.** My own edits kept
+  re-falsifying the figure I was quoting.
+- **A missing hook is NOT silent.** It exits non-blocking, **but it does print an error.** I told
+  him "no message".
+- **An ordinary checkout does NOT lose the executable bit** — the mode is recorded. Archives and
+  no-file-mode clones do.
+- **The hash cost is not a lockout.** It blocks once per cycle. **The real lockout is the
+  conflicted-script one**, where a broken edit-guard blocks the very edit that would repair it.
+
+### AND MY TWO "PLAIN ANSWERS" DO NOT ANSWER ANYTHING
+
+**"Keep a copy outside the repo" is either a no-op or reinstates the drift this file already warns
+about. "Pin the checkout" touches two of the six** — and if the pin is a separate checkout it
+destroys the whole benefit, because the edited scripts would no longer be the running ones.
+
+### AND ONE THING I HAD MISATTRIBUTED TO HIM
+
+The section still carried the words **"HIS RULING"** above a conclusion he never made. **He ruled
+one thing: that the location protects nothing. He has not ruled on the move.** **Corrected — the
+section now says so in as many words and recommends nothing.**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether a conflicted hook can be recovered by any route that does not go through
+an edit. **Unchanged: 460 blocked on one decision. 459 answered, fix and proof blocked. 458.3,
+455, 457 blocked. 453 unruled. `b3449c2` unpushed, must not ship. The repo is now ten ahead of its
+remote.**
