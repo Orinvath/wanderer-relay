@@ -46494,3 +46494,92 @@ mind's own" is built. Only a passing line is missing.**
 **459.1/459.2/459.3 answered, with the prompt no longer ruled out — a pairing fault.** **459's fix
 blocked on five decisions. 459's proof blocked on the slot ruling, and the after-pass's route out
 of it does not work.** **458.3 blocked. `b3449c2` must not ship. 455, 457 blocked. 453 unruled.**
+
+---
+
+## 460 IS BLOCKED — NOT BUILT. Five decisions are his, and the pass found two live faults underneath it.
+
+**The before-pass ran before the work, as 453 requires, and it is in `460.before` in full.** **461
+is withdrawn and I have done nothing with it.** **I have changed no code.**
+
+### 460 IS RIGHT ABOUT THE THING THAT MATTERS
+
+**The renderer is not the voice, and 394 cut off the wrong thing.** `model.js:380` is that
+collapse in one line — `senses` and `voice` both resolve to the single attachment — and it is
+exactly where he says it is. **The instinct is sound and it is what 449 needs to work at all.**
+
+### THE FIVE DECISIONS — 250 SAYS I STOP AND POST THEM
+
+1. **WHERE THE SECOND SLOT GOES AND WHAT IT IS CALLED ON SCREEN.** Today the panel is one heading
+   — **PERCEPTION**, *"What does its seeing and its speaking"*, subheading **VISION AND CHAT**.
+   One panel with two sections or two panels; their order; whether that heading survives; the two
+   captions; the tooltip, now that the panel no longer does "its speaking"; whether the one status
+   line becomes two. **188 names placements and wordings specifically.**
+2. **WHAT BECOMES OF A STORED KEY.** The store is keyed by the slot's name and the restore is
+   `if (slot === 'vision')`. **Rename the slots and an old file's key is silently dropped** —
+   against 392, which is that he types a key once, ever. **Today the stakes are zero: the file on
+   disk is `{}`.**
+3. **WHAT AN EMPTY SLOT MEANS — AND IT IS NOT THE SAME FOR BOTH.** An empty SIGHT slot **does not
+   blind the mind**; sight falls through to the config default. An empty RENDERING slot **switches
+   the renderer off entirely** (`bench-routes.js:333`). **"Both start empty" therefore means two
+   different things**, and which behaviour each slot gets is his.
+4. **THE SAVED FILE'S SHAPE.** It has no version and no migration, and reads an unknown shape
+   silently.
+5. **THE GPU, WITH TWO LOCAL MODELS ON ONE CARD.** The swap logic frees "the one it replaces" and
+   detach unloads the leaving model. **With two slots, swapping SIGHT must not pull a model
+   RENDERING is holding**, and he may legitimately point both at the same name. **That is new
+   behaviour on his 20GB card, not a count.**
+
+### AND "NOTHING ABOUT THE PANEL'S MECHANISM CHANGES" IS NOT TRUE — FOURTEEN PLACES ASSUME ONE
+
+Including `attach()` **throwing** on any slot but `vision`, `toStore()` iterating the literal
+`['vision']`, and **a fixed DOM id `pm-vision`** — two slots would put two elements on the page
+under one id.
+
+### TWO LIVE FAULTS UNDERNEATH IT, BOTH OF WHICH I VERIFIED MYSELF
+
+**A · A LOCAL ATTACHMENT IS NEVER SAVED.** `bench-routes.js:589-603` — the local branch returns
+**without ever writing the store.** Only the provider path and the local-*detach* path write.
+**So a local model he Loads is gone on the next restart, and Restart is a button on his own
+page.** That is why the file reads `{}` while moondream was confirmed attached. **460's proof
+needs two local models attached at once; a restart empties both and the renderer switches itself
+off.**
+
+**B · HIS RENDERED LINE WOULD BE CREDITED TO A DEAD ORGAN.** The renderer marks its row
+`via: 'rendering'` and **the page never reads it.** `bench-page.js:2079` labels any rendered line
+**`interpreted`**, tooltip *"worded by the interpreter"*, and a refusal *"the interpreter tried
+and the censor refused it"*. **352 struck the interpreter.** The proof he has waited three days
+for arrives wearing the name of the thing that was removed. **The corrected wording is a wording,
+so it is his.**
+
+### ITEM 4 CITES THE HALF OF 459 THAT WAS WITHDRAWN
+
+460.4 says *"459 already measured that `moondream` returns an empty string for text."* **That
+sentence was withdrawn on this relay yesterday** — reshape the ask and moondream answers. **It is
+a pairing fault.** And for SIGHT there is **no measurement at all**: every number in 459 came from
+text prompts and **not one image was shown to any model.** **Item 4 is an order to measure, not to
+report.**
+
+### WHAT IS ALSO STANDING BETWEEN HIM AND THE LINE, NAMED NOW RATHER THAN AFTER
+
+**The renderer only renders a GROWN line**, and how often the mind produces one is unmeasured.
+**The renderer is last on the GPU queue** — `PRIORITY` has no `rendering` key, so it sits at 0,
+behind the correctness check. **And 459's unclosed question is still unclosed:** why the renderer
+stopped running nine minutes before that report.
+
+**THE GOOD NEWS, AND IT IS REAL: the delivered line looks genuinely reachable.** The record's
+marks are built from the mind's own line, so the censor licenses reordering and inflecting exactly
+those words — `gemma3:1b`'s *"I feel good and sing songs happily too"* uses nothing else.
+**Nobody has run it. That is the one thing worth running once he has ruled.**
+
+### 334 — NOT CHECKED
+
+Whether a sight signal is fed on his bench at all. Whether the renderer's stoppage is still
+happening. The censor against that line, live.
+
+### THE QUEUE
+
+**460 blocked on five decisions. 461 withdrawn.** **459 answered, its fix and proof blocked.**
+**458.3 blocked. 455, 457 blocked. 453 unruled.** **And the code repo is four commits ahead of its
+remote — three empty markers and `b3449c2`, which must not ship; I have not pushed, waiting on
+him.**
