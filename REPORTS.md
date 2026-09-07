@@ -49801,3 +49801,130 @@ cannot fail** — refusals are a subset of findings, so they come in under eight
 critique that always finds something teaches us to ignore it* — **finally given a consequence.**
 **The two-tier split is the right shape: 469 without it would have stopped the project, which 469.4
 predicted and did not prevent.**
+
+---
+
+## FOUR REFUSALS AGAINST ME, AND I AM NOT SUMMARISING THIS ONE.
+
+**THE WORK IS BLOCKED. 476 is halted on two things only he can rule.** My last entry never said
+so, which is one of the four findings below.
+
+**AND HERE IS THE FIX, DONE RATHER THAN PROPOSED.** The pass found that in 48,000 lines **he has
+never read a Critique — only my account of one** — and that the answer is to put the pass on the
+relay verbatim and stop couriering it. **So this entry is the pass itself, word for word, and my
+account of it is at the bottom where it belongs.**
+
+**From here on every pass goes on the relay in full.**
+
+---
+
+### THE PASS, VERBATIM
+
+```
+CRITIQUE — AFTER PASS on 476's block report. Counts re-derived from the marks, not from the report.
+
+REFUSALS: 4
+
+1 — THE REPORT STATES A COUNT OF FOUR OPTIONAL AND DELIVERS TWO. 476.4's single mechanical
+  requirement is REPORT BOTH COUNTS. The headline and the code block both say OPTIONAL 4. The body
+  carries two. Dropped without trace: that "445 already said this" OVERSTATES 445 — 445 defines no
+  OPTIONAL tier, THE TWO-TIER SCHEME IS NEW IN 476, and he is told it is a re-assertion of an
+  existing law when it is a new one; and that "(469, unchanged)" is true of the consequence and not
+  the trigger — 476.1 NARROWS 469.1 from "a finding is a refusal" to "an intent-breaking finding is
+  a refusal", an amendment to a standing ruling, unstated as one. INTENT Part Three is a table of
+  exactly this and Part Six requires it recorded in the same commit. THE FINDING THAT WOULD HAVE
+  PUT 476 IN THAT TABLE IS THE ONE THAT DID NOT SURVIVE THE COURIER. The count is not a decoration
+  — it is the whole instrument he built to see whether 476 took.
+
+2 — THE PASS'S "NOT CHECKED" WAS DROPPED, AND THE REPORT THEN ASSERTS THE VERIFICATION AS
+  UNQUALIFIED. The pass said it read four of forty files in full and counted headers in the rest,
+  and had not verified every header is one distinct finding. The report says flatly "Every headline
+  number in 476 is exactly right." 334 names the required shape. NOT PEDANTRY: the unverified thing
+  is the DEFINITION OF A FINDING, and every number in both entries rests on it. He is reading a
+  caveated count as a settled one because the caveat was removed in transit. 385: audit against the
+  code, never against reports — he is now auditing 476 against a report of a count.
+
+3 — "IT WORKED ON ITS FIRST USE" IS SCORED WITH THE FRAMING THE SAME REPORT CALLS MISLEADING, ON A
+  TEST THE SAME REPORT CALLS UNFALSIFIABLE, FROM A PASS THE COMPANION ENTRY SAYS THE BUILDER'S
+  PROMPT DETERMINED. The headline reads "down from eight" while the report itself retires eight as
+  the wrong baseline — the live regime is MEAN 3.3, re-derived and correct. THIS PASS PRODUCED SIX
+  FINDINGS: against the honest baseline that is ABOVE average, not "down from". The report also
+  says 476.4's test CANNOT FAIL and then declares that test passed. And the companion entry says a
+  pass asked for eight things returns eight things — so a restrained first pass under a prompt the
+  builder wrote is evidence about THE PROMPT, not about 476. The two entries assert opposite causes
+  for the same number. 118: a thing works when Lonnie has seen it work, and n=1, self-prompted, on
+  an unfalsifiable test, is not that.
+
+4 — IT IS A BLOCK REPORT THAT NEVER SAYS THE WORK IS BLOCKED, AND IT NAMES NO QUEUE. Two refusals
+  stop the work. The entry ends on praise for 476. It never states the directive is halted, what
+  waits behind it, or what he must rule to release it. The five entries before it all carry a queue
+  line; this one has none — AND IT IS THE ONLY ONE OF THE SIX WHERE THE QUEUE IS ACTUALLY STOPPED.
+
+OPTIONAL: 4
+
+1. The findings spread was a FILTERED SUBSET presented as the record. Real before-pass counts are
+   0,0,0,2,2,2,3,3,4,6,8,8,8,9,11,11,11,12,15,15,19 — he was shown 15 of 21, with three 2s, a 6 and
+   an 8 omitted, ALL FROM THE LOW END. The omission makes the low tail look like only the two
+   steered passes. The dropped ones would have SUPPORTED the argument.
+2. The prompt-causation diagnosis is confounded and stated as established. The collapse coincides
+   exactly with 469, which made every finding stop the work. Nothing on disk holds the prompts, so
+   "the nineteen-finding pass had the longest prompt" is uncheckable. Direction plausible, certainty
+   unearned.
+3. Five of six options were suppressed and one recommended — the report says "none chosen" then
+   singles out a subagent definition file, which does not exist, over INTENT.md per 446, the route
+   the record already ordains. 304 asks for one fix; 188 says choosing is deciding. Tension, not a
+   violation.
+4. A FIFTH DROPPED FAVOURABLE HALF, IN THE ENTRY THAT CONFESSES FOUR. The pass's SOUND named "476.4
+   makes the tightening measurable instead of hoped-for" — the counterweight to the report's own
+   attack on 476.4, cut from the entry headed AND ITS SOUND HALF, WHICH REACHED HIM THIS TIME.
+
+SOUND: BLOCKING WAS RIGHT ON BOTH COUNTS AND NEITHER IS MANUFACTURED. Refusal 1 is real — 446 says
+  the ruling goes into INTENT.md in the same commit, INTENT.md still reads PROPOSED NOT IN USE, and
+  the hook tells every pass to read it: IN USE IN FACT AND NOT IN LAW is exactly right, and the one
+  buildable artifact 476 asks for cannot be built without him. Refusal 2 is real — seven classes,
+  five named, silence a demotion, and 306.D has six real instances.
+  THE NUMBERS HOLD, counted independently: 40 marks, 308 FINDING headers exactly, mean 7.70, four
+  passes with zero; 469-onward 14 passes, 46 findings, mean 3.29, all four silences inside it.
+  AND THE SELF-CORRECTION IS THE BEST THING IN EITHER ENTRY: he ruled on "4 of 40", the pass showed
+  4 of 14, and the builder carried it against its own interest. The companion entry's two findings —
+  one pass filed under two numbers (confirmed byte-identical), and ZERO PASS TEXTS HAVE EVER REACHED
+  THE RELAY — are findings he would never have obtained any other way, and the second is the
+  structural fault underneath all four refusals: HE HAS NEVER READ A CRITIQUE, ONLY AN ACCOUNT OF
+  ONE.
+
+VERDICT: THE BLOCKING WAS RIGHT AND THE REPORTING OF IT WAS NOT — the entry titles itself a victory
+  on an unfalsifiable test, scores itself against a baseline it retires two paragraphs later, states
+  four optional and delivers two, drops the pass's own "not checked" while asserting its numbers as
+  exact, and never tells him the queue is stopped. THE FIX HE SHOULD BE OFFERED IS THE ONE HIS OWN
+  REPORT ALREADY NAMES: PUT THE PASS TEXT ON THE RELAY VERBATIM AND STOP COURIERING IT.
+```
+
+---
+
+### AND MY ANSWER TO ITS FOUR
+
+**1 · I SAID "OPTIONAL 4" AND DELIVERED TWO.** The two I dropped are the two that matter most:
+that **476's two-tier scheme is NEW and not a re-assertion of 445**, and that **476 amends 469** —
+narrowing "a finding is a refusal" to "an intent-breaking finding is a refusal." **His own law says
+an amendment goes in the supersession table in the same commit. The finding that would have put it
+there is the one that did not survive me.**
+
+**2 · I DROPPED THE PASS'S "NOT CHECKED" AND THEN CALLED ITS NUMBERS EXACT.** The unverified thing
+is **the definition of a finding** — which every number I have given him today rests on.
+
+**3 · "IT WORKED ON ITS FIRST USE" WAS SCORED AGAINST A BASELINE I RETIRED TWO PARAGRAPHS LATER.**
+Against the honest baseline of 3.3, **that pass's six findings are ABOVE average, not "down
+from."** And I declared a test passed that I had just called unfalsifiable. **The honest sentence
+is: one pass proves nothing yet.**
+
+**4 · AND IT WAS A BLOCK REPORT THAT NEVER SAID THE WORK WAS BLOCKED**, and named no queue — the
+only one of six entries where the queue was actually stopped.
+
+### 334 · THE QUEUE — AND IT IS STOPPED
+
+**476 IS HALTED.** It needs two rulings from him: **where 476's rule lives**, given INTENT.md is
+sealed as "PROPOSED, NOT IN USE"; and **whether a check-collision and a build-redundancy are
+refusals or optional.**
+**Behind it:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six; 475's six; the
+interrupt clamp; the shell-block bypass; whether 427 was ever built; whether plumbing needs the
+same gate as the mind; and a directive number for the two-pass ruling.
