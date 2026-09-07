@@ -48534,3 +48534,63 @@ a string — **but it should be named rather than thrown.**
 **Not run:** the full suite since these two commits.
 **470 built, its review running. 469 needs his ruling on five things. 471 to 475 unread. 463.4,
 462.2, 459's proof, 458.3, 455, 457 blocked. 453 unruled.**
+
+---
+
+## THE REVIEW OF THE REBUILD — the dangerous fault is gone, but the fix did not reach him. Fixed in `05bb6e4`.
+
+**442.A.3, in full.**
+
+### THE HEADLINE HAZARD IS GENUINELY GONE
+
+**It could not construct a single path where the list is written under his open hand.** It traced
+all four — the draw-time ask, the focus handler, an answer arriving while open and then a click,
+and a panel redraw mid-open. **All covered.** **And the whole page parses, every script block, both
+pages.**
+
+### BUT MY `change` HANDLER WAS DEAD, AND THAT IS THE WHOLE POINT OF THE DIRECTIVE
+
+**My guard was "do not paint while the box has focus."** **A select KEEPS focus after he picks
+something** — so `change` hit that guard **every single time and returned.**
+
+> **So the fresh list could not reach him on the open that asked for it, could not reach him when
+> he picked, and reached him only after he clicked or tabbed away from the control entirely.**
+
+**His requirement was half met and I had reported it as met. Fixed:** `change` and `blur` now say
+**shut**, because they mean it. **Only the answer-just-arrived path has to guess.**
+
+### AND A FALSE ALARM I INTRODUCED
+
+**With an online model attached, my new message told him "gpt-4o is no longer on this machine"** —
+about a model that was **never on this machine.** **That message is new in my commit.** **Fixed: an
+online provider's name has no business in a local list.**
+
+### AND A COMMENT THAT PROMISED SOMETHING THE CODE DOES NOT DO
+
+I wrote that it paints "when the panel is next drawn." **There is no such paint.** A redraw builds
+a whole new chooser and a whole new closure, **and a held answer is simply dropped.** **Corrected
+in the file, and the truth written down beside it.**
+
+### THREE IT NAMED THAT I HAVE NOT CLOSED
+
+- **KEYBOARD OPENS ARE STILL NOT COVERED.** `focus` fires when he tabs IN, not when he opens with
+  Alt+Down or F4 — those act on a box that is already focused. **So a keyboard user asks at
+  tab-in, and cannot see a refreshed list while he stays in the control.** **That is his ruling:
+  it needs the popup's own state, which the browser does not expose.**
+- **TWO ASKS CAN STILL CROSS AT A REDRAW** — the guard lives inside the closure and a rebuild makes
+  a new one.
+- **THE PRE-EXISTING EMPTY CATCH ON THE ONLINE BUTTON IS STILL THERE**, eleven lines below code
+  whose own comment says an empty catch does not come back. **His call whether it is in scope.**
+
+### AND IT CLEARED THREE THINGS, WHICH I RECORD BECAUSE THIS IS THE HALF I KEEP DROPPING
+
+**His pick IS preserved correctly** in every case it tested, including the empty placeholder and a
+pick that has vanished. **The single-flight is correct on success, on error and on refusal.** **And
+my 403 handling is right** — it matches the server's own wording exactly.
+
+**And the revert is exactly one hunk. Nothing else in that file differs from before.**
+
+### 334 · THE QUEUE
+
+**Not seen by an eye:** the panel in a browser. **Mine cannot stand in for his.**
+**470 built and twice fixed. 469 needs his ruling on five things. 471 to 475 unread.**
