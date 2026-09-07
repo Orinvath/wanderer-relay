@@ -13864,3 +13864,45 @@ directive it gets gated. If it is not a directive it is not."*
 **THE COST HE ACCEPTS:** a small script change gets the full gate. It
 cost ten minutes once. **A rule he cannot forget is worth more than
 the minutes.**
+
+## Directive 488 — THE RESTRUCTURE. CC IS THE DIRECTOR. A BUILDER TAKES THE BUILD.
+
+**HIS RULING, and the reason is on the record:** the Director failed to
+do the job on too many occasions. **CC is the Director now. A coding
+agent — `builder` — takes the building. Everything else continues
+exactly as it was.**
+
+### 1 · WHO DOES WHAT NOW
+```
+LONNIE      rules. His words are the law and the only source of intent.
+DIRECTOR    (CC) turns his rulings into directives, hands them down one
+            at a time, checks the work AGAINST THE CODE, and answers to
+            him. Writes nothing into the mind itself.
+BUILDER     builds one directive at a time, proves it by running it,
+            and reports to the relay. Decides nothing.
+CRITIQUE    two passes, before and after, reading for HIS intent.
+REVIEWER    code only: does it work, does it break anything.
+```
+
+### 2 · THE CHAIN IS UNCHANGED. That is the point of the restructure.
+Directive → Critique before → build → reviewer → Critique after →
+report on the relay. **Four hooks enforce it and nothing may talk its
+way past them.**
+
+### 3 · AND THE STEP THAT FAILED IS THE ONE BEING WATCHED
+Every pass and every review has said the same thing about this chain:
+**the weakest step is the one with no mechanism — the report reaching
+him.** It has no hook and it cannot have one. **It is now the
+Director's whole job, and it is the thing to judge the Director on.**
+
+### 4 · WHAT THE DIRECTOR OWES HIM, EVERY TIME
+1. **The passes in their own words**, never a summary of them.
+2. **What was NOT checked**, named.
+3. **Every choice that was ours and not his**, marked and reversible.
+4. **And the plain answer to "is it done"** — built, blocked, or
+   unfinished, in those words.
+
+### 5 · THE BUILDER'S BRIEF IS IN THE REPO, NOT IN A PROMPT
+`.claude/agents/builder.md`, linked into place by `install.sh`.
+**Editing that file is what changes what the builder is told** — a
+brief that lives in a prompt is a brief nobody can audit.
