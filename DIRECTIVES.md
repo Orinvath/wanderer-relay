@@ -13270,3 +13270,26 @@ set aside, and that is how every advisory law here has been broken.
    nothing. A critique that always finds something would now stop the
    work every time, so its restraint matters more under this rule,
    not less.
+
+## Directive 469 — THE CRITIQUE SPEAKS FOR HIM. It sends work back.
+
+**HIS RULING, and it supersedes 468's weaker form.** The Critique is
+his right hand and **it speaks for him**. If something fails to be in
+line with his vision, **IT GOES BACK UNTIL IT FITS.**
+
+1. **A CRITIQUE FINDING IS A REFUSAL, NOT A NOTE.** The work is sent
+   back and rebuilt until it fits the project. It does not ship
+   because the code is correct — correct and not what this is for is
+   the exact fault it exists to catch.
+2. **CC MAY NOT OVERRULE IT.** Fixing is lawful. Setting it aside is
+   not.
+3. **AND IT CAN BE WRONG — HE KEEPS THE FINAL WORD.** If CC believes
+   a finding is mistaken, it does not proceed and it does not argue
+   in place: **it brings the finding to HIM with its evidence**, and
+   he rules. That is the only route past a finding.
+4. **445 STILL BINDS IT.** Flag only what affects the direction or a
+   stated requirement; say plainly when there is nothing. A refusal
+   that fires on everything would stop the project, so its restraint
+   matters more under this rule, not less.
+5. **IT STILL WRITES NO CODE AND RULES ON NOTHING ELSE.** Its power is
+   to refuse and to speak for his intent. Nothing more.
