@@ -13690,3 +13690,79 @@ out of his day for no protection at all.
    intent to break.
 4. **IF A CHANGE TOUCHES BOTH**, it is mind code and gets the full
    gate. When in doubt, it is mind code.
+
+## Directive 484 — THE TWENTY-FOUR. Answered by logic, his rulings, or the science.
+
+**He ordered these worked without him. Done. Every one carries its
+answer; nothing here waits on him.**
+
+### PLAIN BUGS — fix them
+```
+14  a command inside `if` or `for` walks past the commit guard
+15  that guard fails open if its interpreter breaks -- every
+    dangerous form allowed, silently. FAIL CLOSED.
+16  `sudo`, a full path, and a leading variable also walk past it
+22  the verbatim gate catches a paraphrase but not a deletion
+23  a one-byte mark satisfies the Critique gate
+24  there are two hook directories; one is dead
+26  a comment says five lines, the code takes another number
+32  the floor test is stricter than the gates' own; the comment
+    claims "the same floor" -- true of today's value, not the rule
+33  duplicate headings counted two ways
+```
+**15 IS THE SERIOUS ONE.** A guard that fails open is the fault he has
+ruled against twice (463.4, and the fix that carried its own fault).
+Fix it first.
+
+### ANSWERED BY HIS OWN RULINGS
+```
+11  the ledger rows go in. 246 says the row lands in the same
+    commit -- and 454's mechanism clause stands.
+12  the 88 rows: 457 and 474 sorted them. Science settled some,
+    his rulings covered others, ten are bench display, and 475
+    took the last ten. THERE IS NO PILE LEFT FOR HIM.
+17  the two-pass ruling is 448. It has a number.
+18  the cost was measured: 40 passes, mean 7.5 and 8.0 findings.
+    448's requirement is met.
+19  optional notes from before today: 481.3 applies FROM NOW.
+    Retroactivity is refused -- 482 already ruled that of 469.
+21  477 needs a real code directive to demonstrate on. The next
+    BUILD directive is its subject; no special one is made.
+25  CC's scope to the reviewer was harmful and CC has already
+    corrected it. Closed.
+27  A CLEAN PASS IS ROUND 1. "Passed first time" means one round
+    and no send-backs. That is what 478 asks for.
+28  Rounds are counted PER DIRECTIVE, and a refusal and a
+    send-back are counted separately. Both were CC's choices and
+    both are right; they are recorded as ruled rather than left
+    as CC's.
+29  CC's own wording standing as law in INTENT.md comes OUT.
+    446.2: what CC extracted is not CC's to certify. Replace it
+    with the directive's own words.
+30  NOBODY HAS READ INTENT.md WHOLE. The Director reads it whole
+    against 476 and 481 and reports. That is the Director's, not
+    CC's.
+31  while a directive is unreported the gates are on for
+    everything -- ANSWERED BY 483: plumbing gets the reviewer
+    only, and the stand-down covers the rest.
+```
+
+### THE SCIENCE, AND ONE COLLISION
+```
+7   475's six remaining biases -- 475 already rules them: derived
+    from the being's aspects. Four collide with 427 and 427 wins:
+    memory is the substrate, state and concern bias it.
+8   5.2% of aspect sets land at the interrupt ceiling. A ceiling
+    a twentieth of beings hit is not a range, it is a wall. Widen
+    it so the spread is real, and say what the new share is.
+9   WAS 427 EVER BUILT? A pass says memory is still drawn as a
+    rival source. IF IT WAS NOT BUILT, BUILD IT. If it was, say
+    what the pass misread.
+10  two weights in the same draw were never sorted -- they fall
+    under 475 and are derived like the rest.
+20  the hooks are registered outside the repo. 462 and 463 ordered
+    them in; finish it.
+```
+
+**NOTHING IN THIS DIRECTIVE NEEDS HIM.** Anything that turns out to
+need a ruling stops and comes back (250).
