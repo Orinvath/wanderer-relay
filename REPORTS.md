@@ -50312,6 +50312,55 @@ his to rule, and I have named them rather than quietly closed them.**
 **ONE SIDE EFFECT HE SHOULD KNOW: my own tests moved the baseline** from `1788760406` to
 `1788760950` — nine minutes, containing nothing but the test marks I made and deleted.
 
+---
+
+# THE REVIEW OF THE FIX — ALL FOUR HOLD, AND THE FIX WAS CARRYING THE FAULT IT FIXED.
+
+## WHAT THE REVIEWER SAID, IN FULL
+
+> ## Verdict on 8c006ea: all four fixes work. One residual defect, two OPTIONAL.
+>
+> I reproduced each defect and each fix in a sandbox harness replicating lines 91–119 verbatim.
+>
+> **Fix 1 (dash probe) — WORKS.** `require-relay-current.sh:104,116`. A probe `- FINDING 2: the loader drops…` is now classified and matched correctly; `UNSAID` came back empty where the old code exited 2 and blocked forever.
+>
+> **Fix 2 (empty baseline) — WORKS, with a residual hole.** `require-relay-current.sh:70`. The `case` correctly rewrites for `''`, whitespace, `abc`, `12 34`, embedded newline, and `-5`; only a pure digit string survives.
+>
+> FINDING — `/home/nobara-user/.claude/hooks/require-relay-current.sh:70` — the repaired value is re-read but never re-validated, so if the rewrite itself produces an empty file, `since` is empty again and the exact fail-open the commit claims to close returns. Failure case: `~/.claude` is full or read-only (ENOSPC is the most likely way the file got truncated in the first place, and it is still full one line later) → `date +%s > "$SINCE"` writes nothing → `since=""` → `[ "$mt" -gt "" ]` errors with `integer expected`, `|| continue` skips every mark, and Part One passes unconditionally and silently. Confirmed by running it (`compare FAILED (exit 2)`). One-line fix: append `case "$since" in ''|*[!0-9]*) since=0 ;; esac` after line 70, which fails closed instead.
+>
+> **Fix 3 (unsatisfiable terse mark) — WORKS.** `require-relay-current.sh:101-112`. `PASS. No findings.` yields no probe at either threshold and is skipped, not demanded. A 33-char mark is now demanded via the `min=20` pass and is satisfiable by pasting it. The fallback does what it claims.
+>
+> **Fix 4 (shared banner) — WORKS.** `require-relay-current.sh:104,117`. With a shared banner plus one distinct line each, pasting only the `.before` left `UNSAID: d442.after` — the after mark, which holds the verdict, is still correctly demanded.
+>
+> **`own`/`shared` staleness:** no cross-mark leakage — both are reset at line 100 for every mark. Within the `for min` loop the reset is deliberately absent, and that is the only side effect (below).
+>
+> **Forever-block:** none found. Every demanded mark now carries at least one probe drawn from its own text, so pasting it verbatim clears it; a mark with nothing quotable is skipped rather than demanded.
+>
+> **Glob/cost concerns you flagged — both clear.** An unexpanded or unreadable glob at line 104 only makes grep write to the suppressed stderr and continue with the remaining args, so the count stays right and errs toward `own` (the safe direction); the outer loop's `[ -s "$m" ]` handles a non-matching glob. Cost is negligible: 42 marks on disk, 24 uniqueness greps take 0.128s total, and only marks newer than the baseline are processed (currently 0).
+>
+> OPTIONAL — `require-relay-current.sh:101-110` — when the `min=45` pass finds only shared probes, the `min=20` pass re-scans every line and re-appends the same ≥45 probes, so `shared` holds each banner twice and the final loop greps REPORTS.md for duplicates. Verified in the sandbox. No wrong verdict, just wasted work; resetting `shared=""` at the top of each `min` iteration removes it.
+>
+> OPTIONAL — `require-relay-current.sh:93` — `head -12` is applied before the threshold matters, so for a mark with 12+ long lines the `min=20` pass can never surface a shorter unique line. Harmless today (such a mark is not terse, which is the case the fallback exists for), but it means the fallback is a no-op there rather than a second look.
+>
+> ## 464: all pass, no findings.
+>
+> All five hooks are present, mode `-rwxr-xr-x`, and parse clean under `bash -n`: `block-real-geometry.sh`, `block-unnamed-commits.sh`, `require-in-order.sh`, `require-critique.sh`, `require-relay-current.sh` (all under `/home/nobara-user/CC-Wanderer/.claude/hooks/`). Both python3 payload probes produced exactly the expected output — `x` and `/a/b.js`. I did not execute `require-in-order.sh` or `require-critique.sh`, and modified no file; the sandbox lives entirely in the scratchpad.
+
+## AND WHAT I DID ABOUT IT
+
+**THE FINDING IS THE SAME FAULT TWICE IN A ROW, WHICH IS THE PART WORTH HIS ATTENTION.** I fixed a
+guard that failed open — **and the fix trusted its own repair**, so on a full or read-only disk the
+check went right back to passing everything silently. **The reviewer noticed that the likeliest
+reason the file was empty is the same reason the rewrite would land nothing.** Taken and fixed:
+the repaired value is validated again, and **an unreadable baseline now means every mark is newer,
+so the hook blocks and names them rather than waving them through.**
+
+**PROVED BY MAKING IT HAPPEN:** the baseline was emptied and made read-only, and the hook **blocked,
+naming forty-odd marks.** Before the fix that same state passed silently.
+
+**THE TWO OPTIONAL NOTES ARE NOT FIXED AND NOT RULED** — duplicate probes in the fallback (wasted
+work, no wrong verdict) and `head -12` limiting the second look. **His.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
