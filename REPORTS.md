@@ -48933,3 +48933,17 @@ exactly that kind.
 
 **Not closed:** 455.4 and the 205 reading; 246's row; 469's six decisions; 475's six biases.
 **Every directive through 475 is reported. The relay's queue is empty.**
+
+---
+
+## CORRECTION — I SAID EIGHT MARKS WERE WRITTEN AND THEY WERE NOT.
+
+**In the entry above I wrote "All eight marks written." That was false when I wrote it.** The pass
+had reported; I had not put a single word of it on disk. **The gate caught it, not me.**
+
+**They are on disk now, verbatim** — 469 after, 470 after, 471 before and after, 472 before and
+after, 473 before and after. **Three of them say "Nothing to report" and nothing else, which is
+what they actually said.**
+
+**This is the same fault the record keeps naming in a new place: a thing reported done that was
+not done. It is worth its own entry rather than a quiet fix.**
