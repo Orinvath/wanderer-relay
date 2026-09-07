@@ -48036,3 +48036,68 @@ than the other four and not on the list, which is correct: 464.2 exempts it.**
 
 **Not measured:** two benches racing, in the real overlap window.
 **465 and 466 built and fixed. 467 next, its pass in, three things for him. 468 to 475 unread.**
+
+---
+
+## 467 — THREE THINGS BACK, AND A LIVE FAULT IN THE SIGHT PATH THAT NOBODY HAS SEEN.
+
+**Before-pass in `467.before` in full. Nothing built — one of the three must be answered before a
+line is written.**
+
+### THE LIVE FAULT, FIRST, BECAUSE IT IS THE WORST THING IN THE FILE
+
+**The sight code hands its result back under one name. The mind reads a different name.**
+
+**So every sight signal today contributes NOTHING — and the literal word `undefined` goes into the
+mind's own moment.** It is spread unfiltered into what is true now and into the moment's words,
+and the moment is those words joined.
+
+**A thing entering the mind that is neither a mark it has nor a word it owns. That is the fault
+this project exists to not commit. And no counter can catch it, because the counter counts over a
+list that never leaves.**
+
+**IT IS INVISIBLE ONLY BECAUSE THE SLOT HAS NEVER BEEN FILLED.** **The moment he attaches a sight
+model and feeds a frame — which is exactly 467's own proof — it lands.**
+
+### THE ONE THAT MUST BE ANSWERED BEFORE ANY BUILD
+
+**467 says no default, no fallback. 394 says config defaults may still exist for a headless run.**
+**Both stand and they contradict.** If the fallback goes entirely, **394's sentence becomes false
+and a headless run has no sight at all.** If it survives for headless only, **I must decide what
+headless means and how it is detected — which is his, not mine.**
+
+### AND THE FOUR FROM 460 THAT 467 DOES NOT CLOSE
+
+**It closes one of five.** Still open: **the second slot's name and place on screen**; **what
+happens to a stored key under a rename** — the store is keyed by the slot's name and the code
+hard-codes the old one; **the saved file's shape**; and **the GPU behaviour with two local
+models**, where swapping sight would pull a model rendering is holding.
+
+### AND A TRAP THAT IS NOT A DECISION BUT WILL BITE
+
+**Sight, sound and SPEECH all run through the one role.** **Speech needs no model at all** — the
+phone recognises, the mind understands, his own 327.4. **A guard written carelessly for "no eyes"
+would also deafen the mind to spoken words.** Standing law answers it, so I will build it right —
+**but it is not in 467 and it would have been easy to get wrong.**
+
+### THREE MORE THE PASS FOUND
+
+- **467's stated reason is not what the record says.** It says the renderer sat dead because a slot
+  lied about being empty. **The repo's own account is that its only caller was struck, so it had no
+  caller at all.** **The rendering slot has had the guard 467 orders all along** — the rule would
+  not have prevented the thing it cites.
+- **"Both slots behave the same" reads as two changes. Only sight changes.**
+- **A local attachment is still never saved.** With no fallback, **one restart now leaves the mind
+  blind AND unrendered.** **467 makes that worse, not better.**
+
+### AND ONE THAT IS HIS BY 246
+
+**"An empty slot means the mind cannot see" is a change to what the mind can do.** There is no row
+for the slot in the decisions file today. **Either it is owed a row marked ruled by him, or 246
+does not reach apparatus at all. Either is defensible. A silent one is not.**
+
+### 334 · THE QUEUE
+
+**Not measured:** whether his bench feeds a sight signal at all in normal use. **The censor's
+verdict on a gemma-style line is read from code, not run.**
+**467 blocked on the 394 collision. 465 and 466 built. 468 to 475 unread.**
