@@ -49571,3 +49571,63 @@ number I could get wrong. **Named rather than guessed.**
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; and whether
 plumbing needs the same gate as the mind.
+
+---
+
+## THE RULING HAS A HOME NOW. It was living inside an error message, and that is why it broke four times.
+
+**He asked me to kill the fourth review of that message. It finished thirty seconds before I
+could. Its last answer is the one that ends this, so it is here in full force.**
+
+> **Four revisions, four faults, and THE CODE WAS BYTE-IDENTICAL THROUGH ALL FOUR.** That is the
+> diagnosis, not a coincidence. **The prose is where the faults are because the prose is carrying
+> an argument, and arguments need maintenance that this location cannot give them.**
+
+**Its four reasons, and every one of them is true of this file:**
+
+- **IT IS UNREVIEWABLE.** No number, not in `DIRECTIVES.md`, no report, **and no Critique pass ever
+  runs on it** — yet it was **the only written record** of the ruling that the after pass is handed
+  the mark. **A ruling was living inside an error string.**
+- **IT GOES STALE SILENTLY.** Amend 448 tomorrow and the hook still parses, still blocks, and still
+  prints yesterday's reading of it. **Nothing fails. Nothing notices.**
+- **IT CONTRADICTS THE HOOK'S OWN LIMIT.** The file says in code *"IT JUDGES NOTHING"* — and the
+  message was adjudicating between 445, 448 and the mark, and quietly adding a fourth item to a
+  list 448 closed at three.
+- **AND IT IS AN ERROR MESSAGE.** Thirteen lines of argument to deliver one instruction. **The
+  instruction was the last two lines.**
+
+### SO THE ARGUMENT IS OUT OF THE HOOK
+
+**The message is an instruction again:** both passes run, a fresh agent each, the after pass is
+handed the mark, a pass with nothing to say says so — and where to write it. **Five lines.**
+**It cites 445 and 448 rather than arguing about them.**
+
+**Fixing the four text faults in place would have been revision five of the wrong artifact.**
+
+### AND THE RULING GOES HERE, WHERE IT CAN BE READ AND CHANGED
+
+**HIS RULING, in his own words: two passes by the same Critique, not two separate agents.** **What
+that means in practice, and it is now recorded somewhere that can be critiqued:**
+
+**The FINDINGS carry across both passes. The AGENT does not.** A fresh agent runs each pass, per
+445 and 448 — **and the after pass is handed the `.before` mark, so it can see what the before pass
+said without arriving as the same mind that said it.**
+
+**IT NEEDS A DIRECTIVE NUMBER FROM HIM.** Until it has one it is a report entry, which is better
+than an error string and still not a law.
+
+### AND THE FOUR TEXT FAULTS, RECORDED THOUGH THE TEXT IS GONE
+
+I wrote **"which is its whole job"** of the after pass — **448 says its job is whether the thing
+that now exists is still what we set out to build**, not whether my findings were addressed. **I
+said "that is not two strangers" when it IS two strangers** — what it is not is two strangers who
+never hear each other. **I extended 448's closed list by an item and deleted the words "closed
+list" rather than saying so.** **And I dropped apostrophes to avoid an escaping problem that does
+not exist** — the reviewer proved it three ways.
+
+### 334 · THE QUEUE
+
+**Owed:** a directive number for the ruling above.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; whether
+plumbing needs the same gate as the mind.
