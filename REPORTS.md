@@ -52860,7 +52860,18 @@ but a pass once caught *"what was ruled as a gate has been built as a receipt"* 
 PLUMBING and it turns out to touch mind code, the Critique is already off. **483.4 asks for that
 catch; a heading marker cannot give it.**
 
+## THE TWO THAT WERE NOT ON THIS LIST AND SHOULD HAVE BEEN — a pass checked and I had not
+
+**38 · 490 IS REFUSED, AND ITS MECHANISM IS NOW BUILT BUT UNRULED.** Its own before pass refused it
+as *"a rule against a failure that only a mechanism prevents, and it has none."* **A commit guard
+now refuses any commit that names no directive** — that is the mechanism. **Whether 490 stands, and
+whether that guard is the right shape, is his.**
+
+**39 · 493 IS STOPPED ON ONE SENTENCE FROM HIM: does the rename reach the stored names, or does
+410.3 still hold?** 410.3 says the stored keys and the `word_links.mark` column are fenced because
+**renaming them rewrites every mind he has saved.** **Until he answers, nothing moves — and a pass
+found this question was living only in the prose of a pass, above a list that did not carry it.**
+
 ---
 
-**THIRTY-SEVEN THINGS OPEN — but 484 answered twenty-four of the earlier ones, so most of what is
-left is work, not questions.**
+**THIRTY-NINE THINGS OPEN.**
