@@ -13915,3 +13915,40 @@ Director's whole job, and it is the thing to judge the Director on.**
 `.claude/agents/builder.md`, linked into place by `.claude/hooks/install.sh`.
 **Editing that file is what changes what the builder is told** — a
 brief that lives in a prompt is a brief nobody can audit.
+
+## Directive 489 — 485's THREE FOLLOW-UP FAULTS. Numbered late, which is the fault.
+
+**THIS WORK WAS BUILT AND REPORTED TO HIM WITH NO NUMBER**, so no gate
+demanded a pass on it and neither pass ran. **His ruling: ALL WORK
+GETS A DIRECTIVE NUMBER, AND THAT IS THE DIRECTOR'S JOB.** The number
+is issued now, after the fact, so the work is gated like everything
+else rather than quietly standing.
+
+**THE THREE FAULTS, all found by 485's after pass:**
+1. **A moment won on asking had no reason word.** Asked why it spoke,
+   the mind said *"I don't know why. I just am."*
+2. **A comment claimed of the voice what was only true of the gate.**
+3. **Speaking alone discharged a debt owed to a host who had left.**
+
+**BUILT IN `4114baa`, `efa5929`, `b78677d`.** A Critique run late
+refused it twice — **our words in the mind's mouth, and no rows in
+`MIND_DECISIONS.md`** — and both refusals stand on the relay.
+
+## Directive 490 — ALL WORK GETS A DIRECTIVE NUMBER. THE DIRECTOR ISSUES IT.
+
+**HIS RULING, and it closes the hole 489 fell through.**
+
+1. **EVERY PIECE OF WORK IS A NUMBERED DIRECTIVE BEFORE IT IS
+   HANDED OFF.** A fix, a follow-up, a one-line correction, a thing a
+   pass asked for. **If it changes the build, it has a number.**
+2. **THE GATE ONLY KNOWS WHAT IS NUMBERED.** Both Critique passes and
+   the reviewer are demanded per directive. **Work without a number
+   is work with no gate on it**, which is exactly how three fixes
+   reached him unchecked.
+3. **THE DIRECTOR ISSUES THE NUMBER. That is the job**, not a
+   courtesy — and handing work to the builder without one is the
+   Director failing at it.
+4. **AND THE FOLLOW-UP TO A FINISHED DIRECTIVE IS ITS OWN
+   DIRECTIVE**, never a continuation of the finished one. The
+   finished one already has its report and its marks; nothing further
+   attaches to it.
