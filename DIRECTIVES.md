@@ -14038,3 +14038,25 @@ the term marks anymore when refering to words."*
    collision is itself the problem, that is his to say.
 4. **REPORTS ALREADY WRITTEN ARE NOT REWRITTEN.** The relay is a
    history and a history is not edited (013). **From now forward.**
+
+## Directive 493 addendum — ONLY WHERE IT MEANS WORDS. EVERY OTHER "MARK" STAYS.
+
+**HIS CORRECTION:** *"It is only relevent when refering to words.
+There are some places where mark is correct."*
+
+**493 AS WRITTEN INVITED A SWEEP AND THAT IS REFUSED.** 328 uses
+across 49 files is not a find-and-replace; **it is 328 separate
+readings, and most of them are not about words at all.**
+
+1. **CHANGE ONLY WHERE IT MEANS THE MIND'S WORDS.** If the thing
+   being named is a word the mind holds or says, it is a word.
+2. **EVERY OTHER "MARK" STAYS, AND THEY ARE REAL:** the Critique's
+   `.before` / `.after` marks; a mark meaning a record or a sign that
+   something happened; a mark on a scale; a marker in a file;
+   anything the word already meant before it was misused for words.
+3. **ONE READING AT A TIME.** Each site is judged on what it names.
+   **A site you are unsure about is left alone and reported**, not
+   guessed at.
+4. **AND IT PROVES NOTHING CHANGED.** The bench reads the same before
+   and after (306.D), because a rename that alters behaviour is a
+   fault, not a rename.
