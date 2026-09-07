@@ -47976,3 +47976,63 @@ long life.
 **465 and 466 BUILT. 467 is next and its pass is in — it has three things for him.** **468 to 475
 unread. 463.4's gap remains. 462.2 blocked on one thing. 459's proof blocked. 458.3, 455, 457
 blocked. 453 unruled. `b3449c2` unpushed and must not ship.**
+
+---
+
+## THE REVIEW OF THE LEDGER — three bugs, all mine, all fixed in `6bde299`.
+
+**442.A.3, in full. The reviewer booted the bench on a spare port and exercised the real thing.**
+
+### THE THREE IT BLOCKED ON, AND THEY WERE RIGHT TO BLOCK
+
+**1 · A CORRUPT FILE WOULD HAVE CLEARED ITSELF.** My reader returned an empty list when the file
+would not parse — **so the next save wrote a list holding only the current run, and every past run
+was gone.** **The one thing 466 says must never happen, done by the file built to stop it.**
+**Fixed and proved: an unreadable file now returns nothing, the writer refuses to touch it, and the
+corrupt bytes are still on the platter for him.**
+
+**2 · A FAILED BEING-LOAD STOPPED THE LEDGER FOREVER.** I closed the run, then returned early on
+the error **without opening a new one** — so **every beat for the rest of the process wrote
+nothing.** **That is the vanished run, caused by the thing built to prevent it.** **Fixed: the life
+that is still running gets its record back, on the failed-load path and on the draft path.**
+
+**3 · NOTHING COULD READ IT AND HE COULD NOT CLEAR IT.** The past runs were written to disk and
+**unreachable from the bench** — 466.4's *"the bench route reads"* and 466's *"he can clear it"*
+were both unbuilt. **Fixed: two routes, and they read and clear without owning the file.** Proved
+live on a running bench.
+
+### AND ONE IT MEASURED THAT I HAD NOT
+
+**Every closed run was keeping its own 300 lines forever.** It measured it: **39 KB a run, 19 MB at
+500 runs, and one save taking 187 milliseconds — blocking the beat, against 200's real-time rule.**
+
+**465 says older lines fall away and across runs they never did.** **Fixed: only the run being
+written keeps its lines. The runs behind it keep their counts, which 465 says are forever.**
+
+### WHAT IT PASSED
+
+**Both files parse and the bench boots.** **Every counter 465 names is in the record.** **The tick
+fix is real** — it recorded 1700 the right way round and **-900 the wrong way**, which is a
+sharper demonstration than mine. **The shape stamp works** — it planted an old-shape record and it
+survived. **The atomic write is correctly shaped.** **And nothing in the suite breaks** — no test
+touches the changed constructor, and the old call still works.
+
+### THREE SMALLER ONES, NAMED NOT FIXED
+
+- **Two benches at once would lose each other's runs** — last writer wins. The restart deliberately
+  overlaps them.
+- **No write on shutdown**, so a killed run keeps an empty end time forever and cannot be told from
+  a live one.
+- **The file is not ignored by git**, deliberately, so it will churn his status. **A choice, and
+  his.**
+
+### THE HOOK CHECK, FOURTH RUN
+
+**All four present, executable, parsing. Both probes pass.** The two safe guards run and bite —
+**and one blocked the reviewer's own command again.** **It also noticed the fifth hook is newer
+than the other four and not on the list, which is correct: 464.2 exempts it.**
+
+### 334 · THE QUEUE
+
+**Not measured:** two benches racing, in the real overlap window.
+**465 and 466 built and fixed. 467 next, its pass in, three things for him. 468 to 475 unread.**
