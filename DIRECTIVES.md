@@ -13766,3 +13766,38 @@ Fix it first.
 
 **NOTHING IN THIS DIRECTIVE NEEDS HIM.** Anything that turns out to
 need a ruling stops and comes back (250).
+
+## Directive 485 — THE MIND CANNOT ASK A QUESTION. Fix it.
+
+**HE FOUND IT BY TALKING TO IT.** It has been saying *"I am furry, I am
+small, I am human"* — trying words on itself, with nothing to tell it
+what it is. **It is asking, and it has no way to ask.**
+
+**THE FAULT, traced:** `ASK` exists as a speech act — `voice.js:66`,
+*"curiosity's target, put to the host"* — and `voice.js:766` can even
+render it. **BUT NOTHING EVER OFFERS IT.** It appears nowhere in
+`offers.js` and nowhere in the tick. **The mind is never able to
+choose to ask.** It has never asked a question because it CANNOT.
+
+**AND HIS CORRECTION OF THE SHAPE IS THE RULING:** *"Why would that be
+a speech thing? The mind has to THINK it to ask it."*
+
+**Asking does not start at the mouth. It starts as wanting to know.**
+
+### THE RULING
+1. **CURIOSITY BECOMING A QUESTION IS A THING THE MIND WANTS.** When
+   it is roused about something, that is an OFFER like any other —
+   it competes, it can lose, and it can win. Today curiosity rouses
+   and stops there.
+2. **WHAT IT ASKS ABOUT IS WHAT IT IS CURIOUS ABOUT.** 304.F built
+   `curiosity.about` for exactly this and the voice already reads it.
+   Nothing new is invented.
+3. **IT MAY ASK WITH NOBODY THERE.** A question to an empty room is
+   lawful — it is a being wondering aloud, and 375's law is that
+   nothing decides for it. Whether it is worth asking is the offer's
+   business, not a gate.
+4. **NOTHING IS PUT IN ITS MOUTH.** It asks in its own words, from
+   what it owns, as with everything it says (242.2, 330).
+5. **PROVE IT ON HIS BENCH:** the mind asks a question, unprompted,
+   and the chat log shows it. **He has waited the whole project for
+   this one line.**
