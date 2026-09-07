@@ -13424,3 +13424,39 @@ as constants. That is his existing law reaching the last place it was
 never applied, exactly as 457 found for the feeling fade rates.
 
 **CC: build nothing from this yet. It is the sorting he ordered.**
+
+## Directive 475 — APPLY 427 TO THINKING'S BIASES. Ten constants become the being's own.
+
+**HIS RULING.** 427 already says the strength of a bias comes from
+the being's aspects. **Apply it where it was never applied.**
+
+**THE TEN**, all in `thinking.js`:
+```
+FEELING_BIAS 1.6      how far a strong feeling tilts the draw
+RECENCY_BIAS 0.8      how far a just-surfaced memory tilts it
+DISPOSITION_SHARE .35 how often it thinks about what it was made for
+FELT_AT 0.2           when a feeling counts as pressing
+NEAR_ANCHOR 0.35      how far its associations may wander
+INTERRUPT_AT 0.55     how much stronger a feeling must be to take it
+FROM_CURIOSITY 2.0    \
+FROM_INTEREST 1.8      |  what each source is worth
+FROM_FEELING 1.2       |
+FROM_MEMORY 0.9       /
+ASSOCIATE_AMONG 8     how many neighbours one step may reach
+```
+
+1. **EACH IS DERIVED FROM THE BEING'S ASPECTS** (071, 339, 427), the
+   same way every other rate in this build already is. A mind that
+   ruminates and a mind that drifts are both lawful and both are who
+   they are.
+2. **THE CURRENT VALUES BECOME THE MIDPOINT** — a middling being
+   reads roughly what is there now, so nothing lurches, and beings
+   spread either side of it.
+3. **WHICH ASPECT DRIVES WHICH IS NOT INVENTED.** Where the record or
+   the science says which trait governs a thing, cite it. **Where it
+   does not, STOP AND ASK (250)** — do not map a trait to a bias
+   because it sounds right.
+4. **PROVE IT:** three beings with different aspects, and their
+   thinking visibly differs — one that dwells, one that wanders, one
+   that is easily taken by a feeling. If they all think alike, the
+   derivation is not biting and that is a finding.
