@@ -50933,6 +50933,71 @@ included.**
 MORE.** Yesterday's nineteen had grown to thirty-three. **Most of what is left is now work, not
 questions.**
 
+---
+
+# 483 — THE CRITIQUE COMES OFF PLUMBING, BUT ONLY WHERE HE MARKS IT. **ROUNDS: 2 — one Critique refusal, no reviewer send-backs.**
+
+## HOW TO USE IT, IN ONE LINE, BECAUSE IT IS INERT UNTIL HE DOES
+
+**Put `PLUMBING` in capitals at the FRONT of a directive's title:**
+`## Directive 490 — PLUMBING — fix the ledger writer`
+**Then that directive skips both Critique passes and gets the reviewer only.** **Anything unmarked
+gets the full gate**, which is 483.4's *when in doubt it is mind code* written as the default.
+**A marked directive still owes its report.**
+
+## ROUND 1 · THE BEFORE PASS REFUSED THE OBVIOUS BUILD, and it was right. Its words, in full:
+
+> **1. What the hook could read.** Nothing honest, at the moment it matters. The before-pass fires *before the build*, so `git diff` since the last commit is empty exactly when the classification is needed — the changed-files test can only ever work for the after-pass. That leaves the directive's own text, and grepping it for "hook", "script", "bench", "report tool" fails on its face: 483 itself is a mind-governance ruling and contains all four phrases, as does 484. So the plain answer is **there is no mechanical test that reads plumbing-vs-mind from what exists at before-pass time.** The only deterministic source is an explicit mark Lonnie puts in the directive — that is his classification, read literally, not the hook guessing.
+>
+> **2. The safe default.** Unclassifiable → mind code → full gate. It does not make the rule useless *if* the plumbing signal is a positive explicit token: silence means full gate, and the token is a one-word cost he pays only when he already knows. It *does* make the rule useless if the build tries to infer, because an inferring classifier must be trusted in the plumbing direction to save any time, and every wrong call there drops the Critique silently — no block, no message, nothing to notice.
+>
+> **3. What 483 costs.** 483.3 says "a hook script has no intent to break." The hook's own comments contradict that: an after-pass Critique on this very file caught *"what was ruled as a gate has been built as a receipt"* — a directive built on a wrong reading of 453.1's intent, in plumbing. That is an intent fault in a hook, found by the pass 483 would switch off. Of 484's nine plain bugs, several (23, a one-byte mark satisfies the gate; 15, a guard that fails open) are premise/intent faults rather than does-it-run faults, which is what the reviewer covers. Whether that cost is worth ten minutes of his day is his call and I rule on nothing — but building 483 as described does remove the check that produced those findings, and he should know that is what he is trading.
+>
+> **REFUSAL** — build the classification as an *inference*. It cannot run at before-pass time, it misclassifies 483 and 484 on their own wording, and a wrong call in the plumbing direction silently drops the Critique from mind work, which is the exact outcome 483.4 forbids. The buildable form is an explicit token in the directive heading, read the way `Question:` already is.
+>
+> **OPTIONAL** — 483.3's premise is contradicted by this hook's own recorded history; the gate-vs-receipt finding was an intent finding on plumbing.
+> **OPTIONAL** — if he wants the saving anyway, the after-pass alone could be dropped for token-marked directives while the before-pass stays: the before-pass is the cheap one (250, 253) and is where the gate-vs-receipt fault would have been caught earliest.
+> **OPTIONAL** — whichever token is chosen, the same skip must be added to the reviewer-order hook or the two gates will disagree about which directives are outstanding.
+>
+> 1 refusal, 3 optional.
+
+## ROUND 2 · BUILT HIS WAY, AND THE AFTER PASS FOUND 0 REFUSALS AND FIVE NOTES. In full:
+
+> **1. The refusal was honoured.** Nothing in the built code infers… There is no changed-files test, no keyword scan of the directive body, no diff dependency — so it works identically at before-pass and after-pass time, which was the refusal's core objection. I ran the built regex against the two headings the before-pass named as the trap: 483 (whose own title ends "Not for plumbing.") and 484… Both classify as mind. The skip is placed before both the `.before` and `.after` demands, so a marked directive skips both passes — 483.3 as written. `require-review.sh` was not touched, so 483.2's "plumbing gets the reviewer" is preserved.
+>
+> **2. The token itself was CC's choice, and I name it rather than resolve it.** Directive 483 contains no marker, no token, no instruction that he mark anything at all… CC then chose the word, the capitalisation, and the position. **That is his notation to set, not CC's** — the directive file is his document and this adds a reserved word to it. The safety direction is genuinely one-way: silence means the full gate… What it costs instead is **discoverability**. Right now zero headings in DIRECTIVES.md carry the token, so the rule is inert until he uses it, and the only place the exact required form is written down is a comment inside the hook. **If he writes "Plumbing:", or puts PLUMBING later in the title… the match fails, the full gate runs, and nothing tells him his mark was not read — he would conclude the rule does not work.**
+>
+> **3. The in-order hook is not inconsistent.** The two hooks measure different things. `require-critique.sh` gates on Critique *passes*; `require-in-order.sh` gates on *reports*. A PLUMBING directive still owes its report — 483 removes the Critique, not the work or the record — **so the plumbing skip must NOT be added to the in-order hook, and it was not.** …But the resolution is silent — nothing says *why* the in-order hook was deliberately left unchanged.
+>
+> **4. …two things it did not authorise are worth naming.** 483.4's "if a change touches both, it is mind code" **cannot be enforced by a heading marker** — if he marks a directive PLUMBING and the build turns out to touch mind code, the Critique is already off and nothing catches it… Separately, the regex accepts the literal word "addendum" between the number and the token, which the other two skips do not; a third heading grammar in the same file.
+>
+> **5. Two of the before-pass's three optionals went nowhere on the record.** 483.3's premise is contradicted by this hook's own history… but it is not raised anywhere as a thing he might want to reconsider about 483.3 itself. And the alternative shape — **keep the cheap before-pass, drop only the after-pass** — was not built and is not mentioned in the commit message, so at the moment he reads the commit he has no record that a middle option was on the table.
+>
+> 0 refusals, 5 optional.
+
+## AND THE REVIEWER: NOTHING BROKEN. In full:
+
+> **The change does what it claims, and I found nothing broken.** …The regex behaves exactly as claimed on all four required shapes — "485 — PLUMBING — fix the guard" skips, "483 — THE GATE IS FOR THE MIND. Not for plumbing." does **not** skip, "489 — REBUILD THE PLUMBING OF THE MIND" does **not** skip, "488 PLUMBING fix it" skips. Lowercase `plumbing` at the front also correctly does not skip… I also ran the pattern against every directive number actually in DIRECTIVES.md: **zero** matches, so no existing directive is silently dropped from the gate today, 483 included.
+>
+> `$1` interpolation is safe… The `addendum` alternation cannot cause a cross-number false match — for `n=48` against a 485 heading, the group matches zero times and the separator class does not contain `5`… I also re-ran under `LC_ALL=C` in case the hook runs outside a UTF-8 locale, since the class holds multibyte em/en dashes: same results both ways.
+>
+> Placement is right… above the first `have "$n.before"` demand, so neither the before nor the after mark is asked for. Nothing inside the loop writes state above it.
+>
+> OPTIONAL, not correctness: the marker is keyed to the directive **number**, not to a single heading line… So if 478's original title were unmarked but its `addendum` heading carried front-of-title PLUMBING, the whole of 478 would skip — and the reverse holds too. That is inherent to number-keyed matching and is exactly how the other two skips already behave.
+>
+> **464 — all five hooks pass, no findings.**
+
+## MY ACCOUNT
+
+**MY FIRST BUILD CLASSIFIED 483 ITSELF AS PLUMBING** — its title ends *"Not for plumbing."* and I
+matched the word anywhere in the heading. **Caught by my own test before it shipped**, tightened to
+a front-of-title marker, and re-tested on six shapes.
+
+**AND THE THING HE SHOULD RULE: I CHOSE THE WORD.** 483 names no token. **The notation in his own
+document is his**, and if he writes it in any other shape the mark is silently not read. **Two
+alternatives are on the list, including the middle one nobody built: keep the cheap before-pass and
+drop only the after.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
@@ -51054,6 +51119,24 @@ that is true of the value, not of the rule.**
 **33 · DUPLICATE-NUMBERED HEADINGS ARE COUNTED TWO WAYS** — per heading in one copy, per unique
 number in the other. **None exist on the relay today.**
 
+## NEW — from 483
+
+**34 · THE PLUMBING TOKEN IS MY WORD, NOT HIS.** `PLUMBING`, capitals, front of the title. **Rename
+it and I will change the hook in one line.** **And a mark written in any other shape is silently not
+read** — the full gate just runs and nothing says why.
+
+**35 · THE MIDDLE OPTION NOBODY BUILT** — keep the cheap before-pass, drop only the after-pass, for
+marked directives. **The before-pass is where the gate-vs-receipt fault was caught earliest.**
+
+**36 · 483.3'S PREMISE IS CONTRADICTED BY THE RECORD.** *"A hook script has no intent to break"* —
+but a pass once caught *"what was ruled as a gate has been built as a receipt"* **in plumbing**.
+**His to reconsider or let stand.**
+
+**37 · A MARK WRITTEN BEFORE THE BUILD CANNOT SEE WHAT THE BUILD TOUCHES.** If he marks something
+PLUMBING and it turns out to touch mind code, the Critique is already off. **483.4 asks for that
+catch; a heading marker cannot give it.**
+
 ---
 
-**THIRTY-THREE THINGS OPEN.**
+**THIRTY-SEVEN THINGS OPEN — but 484 answered twenty-four of the earlier ones, so most of what is
+left is work, not questions.**
