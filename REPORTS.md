@@ -47745,3 +47745,67 @@ reviews.
 **464 done. 463.4's real gap remains. 462.2 blocked on one thing. 460 blocked on one decision.
 459 answered, fix and proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and
 must not ship.**
+
+---
+
+## 465 — ONE QUESTION BACK, AND IT IS THE ONE THAT DECIDES WHETHER THE FIX IS WORTH ANYTHING.
+
+**Before-pass in `465.before` in full. Nothing built yet — 465 alone cannot be built, see below.**
+
+### THE QUESTION: DO THE REFUSED LINES GET SAVED TOO?
+
+He ruled **"keep the recent lines"**. The pass went and looked at what that list actually holds:
+
+```js
+this.rendered++
+this.recent.unshift({ mine: line, rendered: text })
+```
+
+**The line is added AFTER the censor passes it. A REFUSED LINE NEVER ENTERS IT.**
+
+**So on the run he asked about — 63 of 63 refused — THAT LIST WAS EMPTY FROM FIRST TICK TO LAST.**
+**Persisting it as ruled would have saved him nothing from the 1,700 ticks he lost.**
+
+**And this is not his mistake. It is mine.** 459's report described that list as *"the mind's own
+line beside the rendered one"* and **never said only the passing ones.** **He ruled on my
+description.**
+
+**The refusals he actually reads on screen are a different object entirely** — written onto the
+chat row, drawn as a badge. **They are not in the ledger and 465 does not save them.**
+
+### AND ONE SMALL ONE
+
+**"Keep the last few hundred" is a range, and I would have to narrow it to a number.** The 20 it
+replaces was never ruled either — 449 said *"several"*. **200, 300 or 500 is mine to pick unless
+he says.**
+
+### WHY 465 IS NOT BUILT YET, AND IT IS NOT A REFUSAL
+
+**465 alone is unbuildable and 466 fixes that.** Three of the four questions 465 withholds are
+absolute blocks: **there is no persister without a file, no code with an unspecified write
+trigger, and no on-disk shape without knowing whether runs merge.** **466, directly beneath it,
+rules all four.** **The two are one piece of work and I am doing them together.** 466's pass is
+running.
+
+### FOUR THINGS THE PASS FOUND THAT HE SHOULD HAVE ANYWAY
+
+1. **NOTHING ON ANY SCREEN READS THIS LEDGER.** No page fetches it. He reads it by hand. **And the
+   one reader that exists caps at eight lines** — so "keep a few hundred for his eye" feeds a
+   window that does not exist.
+2. **`taught` IS INCREMENTED IN THE WRONG FILE TODAY** — the bench route does it, not the renderer.
+   **466.4 says the renderer owns the ledger, citing the master rule. Honouring it means moving
+   that.**
+3. **A LEDGER PLACED WHERE THE OTHER STORES LIVE HAS NO HISTORY AND NO BACKUP** — that folder is
+   ignored by git. **One directive after two spent on exactly that complaint.**
+4. **THREE MECHANISMS ALREADY EXIST** and I should reuse one rather than invent a fourth: the
+   perception store, the test-run log, and the being writer — **which already does temp-file,
+   fsync, atomic rename, so a crash mid-write leaves the old file whole.** That is this project's
+   own answer to 466.3's reason for writing as it goes.
+
+### AND WHAT IS CLEAN
+
+**No key and no host text can reach this file** — the refusal reasons are stripped to their kind
+before storage. **One thing to name rather than assume: the mind's own line can contain a word a
+HOST taught it, so a host's word can reach disk by way of the mind's vocabulary.** **His call.**
+
+**Nothing here is a decision about the mind. No `MIND_DECISIONS` row is owed.**
