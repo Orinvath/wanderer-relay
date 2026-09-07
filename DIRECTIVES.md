@@ -13836,3 +13836,31 @@ is fixable at the censor, or whether it needs its own check.
 
 **PROVE IT** with several lines, the mind's own beside the rendered
 one, for his eye.
+
+## Directive 487 — THE RULE IS THE SIMPLE ONE. Directive gets the gate. Nothing else does.
+
+**483 IS STRUCK, AND SO IS ITS `PLUMBING` TOKEN.**
+
+**HIS RULING, in his own words:** *"That lane gets way too complicated
+because then you have to start identifying what something is or isn't,
+which is why I said only directives get processed. If it is a
+directive it gets gated. If it is not a directive it is not."*
+
+1. **A DIRECTIVE GETS THE FULL GATE.** Both Critique passes and the
+   reviewer. Always.
+2. **ANYTHING ELSE ON THE RELAY IS NOT PROCESSED.** A question, a
+   note, a report. Unchanged, and already built.
+3. **THERE IS NO PLUMBING CLASSIFICATION.** No token to write, no
+   test to run, nothing to identify. **The moment we sort things into
+   kinds we have to be right about the kind, and that is a new way to
+   be wrong.**
+4. **REMOVE THE TOKEN AND ITS MACHINERY.** Say what comes out.
+5. **AND THE CRITIQUE'S OWN OBJECTION IS HONOURED BY THIS**, not
+   overruled: it refused an inferred classification because a wrong
+   call silently drops the gate from mind work. **His rule removes
+   the classification entirely, which is the same fault avoided
+   without the token.**
+
+**THE COST HE ACCEPTS:** a small script change gets the full gate. It
+cost ten minutes once. **A rule he cannot forget is worth more than
+the minutes.**
