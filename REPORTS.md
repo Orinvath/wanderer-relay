@@ -52117,8 +52117,10 @@ written to close that hole, enforced by the faculty that opened it, is not enfor
 keys on the state of the code, not on a directive number, **so unnumbered code changes were already
 being caught for review** — it was the Critique alone that was blind.
 
-**HIS RULING SINCE HAS ANSWERED IT ANYWAY**, and with a mechanism rather than a rule: **492, the
-hook that refuses any word from me to an agent.**
+**~~HIS RULING SINCE HAS ANSWERED IT ANYWAY, with a mechanism rather than a rule: 492.~~ THAT WAS
+FALSE AND IT IS STRUCK — see 490's after pass below.** 492's guard does not carry 490: a prose
+briefing to an ordinary agent passes, `BUILD 9999` passes, and **no hook on the agent channel can
+see the Director's own hands.**
 
 ---
 
@@ -52636,6 +52638,90 @@ green. *"The one place this project has already severed the senses is the marks/
 proof method 493.2 names is the one that certified that severance as clean."*
 
 **NOTHING IS BUILT. NOTHING IS TOUCHED.**
+---
+
+# 490's AFTER PASS — **IT RAN MY CLAIM AND MY CLAIM WAS FALSE**
+
+**1 refusal, 2 notes. It did not read my report; it ran the hook with six payloads.**
+
+> CRITIQUE - AFTER PASS, Directive 490. 1 refusal, 2 optional.
+>
+> FIRST, THE PLAIN ANSWER: THERE IS NO BUILD. 490 has no commit, no code, and no mark but 490.before.
+> Its before pass refused it and the Director accepted the refusal on the relay. Nothing in
+> DIRECTIVES.md records a ruling from him on 490 since. So 490 stands stopped and unruled, and the
+> after question has no build to ask it of. What can be audited is the state the record leaves him in.
+>
+> REFUSAL - THE RELAY TELLS HIM 490's GAP IS ANSWERED BY A MECHANISM. I RAN THAT MECHANISM. IT DOES
+> NOT ANSWER IT. The Director's account says: "HIS RULING SINCE HAS ANSWERED IT ANYWAY, and with a
+> mechanism rather than a rule: 492, the hook that refuses any word from me to an agent." Audited by
+> running block-briefing-agents.sh with six payloads:
+>   general-purpose + long prose, NO number  => ALLOWED
+>   Explore agent + prose                    => ALLOWED
+>   BUILD 9999 (no such directive)           => ALLOWED
+>   BUILD 485 (a finished directive)         => ALLOWED
+>   BUILD 0                                  => ALLOWED
+>   builder + "BUILD 491 and also check X"   => REFUSED   (control: it works on the three roles)
+> Three reasons it cannot carry 490. ONE: as it stands on disk now (ede1fc4, landed while this pass was
+> reading), the role check ends *) exit 0 - so an unlimited prose briefing to a general-purpose agent,
+> carrying no number at all, walks through. That is precisely the handoff 490.1 forbids, through the
+> hook named as its answer. TWO: even on the three chain roles it enforces the SHAPE of a number, never
+> that the number names anything - BUILD 9999 passes, and BUILD 485 passes for work that has nothing to
+> do with 485, which is 490.4's forbidden shape passing the gate. THREE, AND IT IS THE LARGEST: the
+> dominant path is not an agent call at all. 043513b and ede1fc4 are the Director's own edits, by the
+> Director's own hand. A HOOK ON THE AGENT CHANNEL CANNOT SEE A HAND ON A KEYBOARD, AND IT NEVER WILL.
+> Fair on timing: when that sentence was written the guard did refuse general-purpose, so the claim was
+> narrower than stated but not empty. ede1fc4 widened the guard thirty-odd minutes later AND THE RELAY
+> WAS NOT CORRECTED. He is now being asked to rule on whether 490 needs a gate of its own while the
+> record tells him one already exists. Kind 5, colliding with 320/322 - report what it was, not what
+> fits first - and it lands on the one step 488.3 names as the Director's whole job.
+> THE QUESTION IS HIS: does 490 get a gate of its own, knowing that no gate on the agent channel can
+> ever reach the Director's own hands?
+>
+> NOTE - 490's OWN RULE HAS BEEN BROKEN THREE TIMES SINCE IT WAS WRITTEN, ALL THREE IN THE GATE
+> MACHINERY, NONE OF THEM ON THE RELAY. 490 was committed at 14:41. 043513b at 14:54 changed four gate
+> hooks with no number and no relay entry. ede1fc4 at 15:17 changed the 492 guard, install.sh and added
+> record-review.sh, with no number and no relay entry - zero mentions in REPORTS.md, no 494 in
+> DIRECTIVES.md. 268cd55 attached new work to 492's number. AND ONE COMPLICATES IT: ede1fc4's message
+> opens "His order." Nothing I found says what happens when Lonnie orders a fix directly, nor whether a
+> directive halted by its own before pass binds anything at all. Reported as a note for exactly that
+> reason: the record does not answer whether 490 is yet binding. It is here because it recurred three
+> times inside forty minutes without reaching him.
+>
+> NOTE - THE GATE HAS NO TERM FOR A REFUSAL, SO 490 GOES GREEN THE MOMENT THIS MARK IS FILED.
+> require-critique.sh's have() asks that a mark is non-empty and carries two counts. It never reads
+> what the pass SAID. That is 453's ruling, not an overreach. The consequence still deserves naming:
+> 490.before is a refusal that says "this stops 490 until he rules", the gate already reads it as
+> satisfied, and once 490.after exists a directive that was refused, never built, and never ruled on
+> will read as fully processed and will never be raised again by any mechanism. The one thing holding
+> 490 open is the Director remembering it is open - the same fault the before pass refused 490 for, now
+> one layer up in the gate itself.
+>
+> WHAT I DID NOT CHECK: I ran only block-briefing-agents.sh, against payloads I wrote. I did not run
+> any require-*.sh, record-review.sh or install.sh. I did not verify that record-review.sh is
+> registered or writes .reviewed correctly. I did not read builder.md, reviewer.md, or four of the
+> hooks. I did not open MIND_DECISIONS.md, AUDITS.md, HANDOFF.md, REFERENCES.md, and read no mind code.
+> I read INTENT.md whole and 485-493 whole; the rest as quoted. I read the 489-493 entries of
+> REPORTS.md, not the file. I did not determine who authored 043513b or ede1fc4 beyond the messages.
+
+## THE CORRECTION, PLAINLY, BECAUSE IT IS MINE
+
+**I WROTE ON THIS RELAY: *"HIS RULING SINCE HAS ANSWERED IT ANYWAY, and with a mechanism rather than
+a rule: 492."*** **That sentence is false now and I am the reason.** I widened the guard thirty
+minutes later — on his order, to stop it blocking ordinary agents — **and left the claim standing.**
+He would have ruled on 490 believing a gate already covered it.
+
+**THE THREE REASONS IT NEVER COULD, MEASURED RATHER THAN ARGUED:** a prose briefing to an ordinary
+agent **passes**; `BUILD 9999` and `BUILD 485` **pass**, because the guard checks the shape of a
+number and never that the number names anything; **and the dominant path is not an agent call at
+all** — *"a hook on the agent channel cannot see a hand on a keyboard, and it never will."*
+
+**AND ITS SECOND NOTE IS THE ONE I WOULD HAVE MISSED FOREVER: FILING THIS MARK TURNS 490 GREEN.**
+The gate reads that a pass ran, never what it said. **A directive that was refused, never built and
+never ruled on will now read as fully processed and no mechanism will ever raise it again.** The
+only thing holding it open is me remembering — **which is exactly what 490 was refused for.**
+
+**SO IT IS WRITTEN HERE IN HIS LIST INSTEAD OF LEFT TO MY MEMORY: 490 IS REFUSED, UNBUILT, AND
+WAITING ON HIS RULING.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
