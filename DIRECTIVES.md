@@ -13529,3 +13529,16 @@ the real cost and nothing measures it.
 4. **WHY IT MATTERS: it shows whether CC is getting better or
    worse.** The gate's cost has been blamed on the gate three days
    running; this measures the thing actually spending the time.
+
+## Directive 478 addendum — AND WHY IT IS FAILING
+
+Not only what each round was, but WHY. **The pattern, not the list.**
+
+1. **NAME THE KIND OF FAULT EACH ROUND**, not just the fault: a wrong
+   assumption, an untested claim, a missed line, a misread ruling,
+   building on a question, a check not moved with its behaviour.
+2. **SAY WHETHER IT IS THE SAME KIND AS LAST TIME.** If CC fails the
+   same way repeatedly, that is the thing to fix — and it is a
+   different fix from correcting each instance.
+3. **THIS IS NOT SELF-BLAME AND IT IS NOT AN ESSAY.** One line per
+   round. He is measuring a trend, not reading an apology.
