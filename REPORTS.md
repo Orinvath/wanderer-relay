@@ -49348,3 +49348,59 @@ of the two; the words overclaim by one.
 or a full path still bypassing.
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; whether 427 was ever built.
+
+---
+
+## THE LAST REVIEW — CLEAN. "No changes to request." And a note about the three agents.
+
+**442.A.3. The reviewer's own verdict, in its words: the commit is correct and it has no changes to
+request.**
+
+### IT PROVED THE THING I DOUBTED MOST
+
+**I feared my named option list could SWALLOW THE SUBCOMMAND** — write the git-dir flag, and the
+next word `add` gets eaten as its value, leaving the guard blind. **That would have been the same
+hole I was closing, made by the fix for it.**
+
+**It does not, and the reviewer proved it at the extraction level rather than trusting my
+comment.** Eight probes, all refused, because the pattern falls back and finds the subcommand
+anyway.
+
+### AND IT MEASURED THE WHOLE CHANGE RATHER THAN SPOT-CHECKING
+
+**A hundred and twenty-one commands, before and after. Sixteen behaviours changed, EVERY ONE of
+them allowed-becoming-refused.** **Nothing moved in the unsafe direction, and not one previously
+working command became refused.** It went well past my list — about forty-five ordinary commands
+using the newly named flags — **zero refused.**
+
+**And no performance cost: forty-eight milliseconds before, forty-nine after.**
+
+### AND ONE REAL HOLE, OLDER THAN TODAY
+
+**A command wrapped in a shell block bypasses the guard entirely** — inside an `if`, inside a
+`for`, inside braces, inside a shelled-out quote. **Indentation was fixed; the enclosing keyword
+never was.** **The reviewer says plainly: a separate directive, not a revert.**
+
+### AND A THING HE ASKED THAT IS WORTH RECORDING
+
+**He asked why three agents run on every change when he only asked for two.** **He is right, and
+the answer is that nobody decided three.**
+
+**453 gave two Critique passes. 442, separately and earlier, gave the reviewer.** **Two rulings,
+made at different times for different reasons, and NOTHING EVER SAID THEY STACK.** **Three per
+change is their sum, not a thing he asked for.**
+
+**And it is the whole reason today took as long as it did:** three agents per change, each running
+his suites, and **every finding is a new change that starts the three again.** **The commit guard
+alone went five rounds that way.**
+
+**HIS TO RULE, and it is one question: does a shell script in `.claude/hooks` need the same three
+as the mind's own files?**
+
+### 334 · THE QUEUE
+
+**Not fixed:** the shell-block bypass; the fail-open on a broken interpreter; the per-line cost.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; whether 427 was ever built; and the three-agents question above.
+
+**Every directive through 475 is built or blocked with its reason. Both repos are pushed.**
