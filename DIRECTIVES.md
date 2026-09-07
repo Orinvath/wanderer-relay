@@ -13226,3 +13226,26 @@ migrated and not deleted — 013's law: nothing here deletes what
 happened.
 
 **AND CLEARING:** he can clear it; nothing clears it on its own.
+
+## Directive 467 — AN EMPTY SLOT MEANS OFF. Both of them.
+
+**HIS RULING, unblocking 460.** When a slot is empty the mind cannot
+do that thing. No default, no fallback, for sight or for rendering.
+
+**WHY** — it matches what he already ruled: nothing is preloaded
+(394), and he sees what is actually attached. A slot that quietly
+falls back to a default is a slot that lies about being empty, and
+that is how the renderer sat dead for weeks with nothing on any
+screen saying so.
+
+1. **BOTH SLOTS BEHAVE THE SAME.** Empty means off.
+2. **AN EMPTY SIGHT SLOT IS A MIND WITH NO EYES**, which is lawful —
+   324's law: a body with no sensor is SILENT, NEVER IN ERROR.
+3. **AN EMPTY RENDERING SLOT IS A MIND SPEAKING ITS OWN LINE**, which
+   is what it does today and is also lawful (375).
+4. **THE PANEL SAYS WHICH IS EMPTY**, plainly.
+
+**460 IS UNBLOCKED. BUILD IT** — two slots, then the proof he has
+waited three days for: one rendered line, delivered, beside the
+mind's own. If the censor refuses it, post the refusal and the
+reason.
