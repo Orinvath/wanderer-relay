@@ -52553,6 +52553,89 @@ RULING, AND I HAVE CHANGED NOTHING.**
 **AND IT CLOSED A NOTE IN MY FAVOUR AND SAID SO:** the unchecked `description` field on an agent call
 **does not reach the agent** — it proved it on itself. *"Reporting the closure because dropping the
 findings that go the build's way is the fault this relay was rebuilt around."*
+---
+
+# 493's BEFORE PASS — **STOPPED. THE RENAME AS I WROTE IT REACHES INSIDE HIS SAVED MINDS.**
+
+**1 refusal, 2 notes. This is the pass working as it is meant to: it ran before a line was written,
+and stopping still cost nothing.**
+
+> CRITIQUE - BEFORE PASS, Directive 493 and addendum. 1 refusal, 2 optional.
+>
+> REFUSAL 1 - 493.2 ORDERS THE RENAME THAT 410.3 EXPLICITLY FORBIDS, AND 493 NEVER MENTIONS 410.
+> 493.2: "AND IN THE CODE. The field the mind's speech travels in is named for what it is. 409.1
+> already ruled that every marks variable is named for what it holds; this finishes it."
+> 410.3, standing and never struck: "THE BOUNDARY CC DREW IS CORRECT AND STANDS: word_links.mark is a
+> DATABASE COLUMN, and the record and being-file keys are WIRE KEYS. Neither is a variable, a function,
+> a comment or a report, so 409.1 never reached them, and 409.4's byte-identical requirement forbids
+> touching them. RENAMING A STORED COLUMN REWRITES HIS SAVED MINDS. Leave them."
+> 493.2 says it FINISHES 409.1. What 409.1 left unfinished is, by 410.3's own reasoning, the fenced
+> class - and 493.2 names a FIELD, which is the word 410.3 used for that class.
+> The fenced class is real and live: perceiving.js:81 carries "/* 409: the KEY stays `marks` -- this
+> object is the sense record and is stored. */" - that comment is 409 being obeyed by NOT renaming.
+> Line 140 the same. rendering.js:89 reads record.marks. schema.js:613 is `mark TEXT NOT NULL` in
+> word_links with UNIQUE (wanderer_id, word, mark). Three exported counter keys are named for it, and
+> mindmap.js:442 ships MARKS: as a wire key into the browser panel.
+> AND THE FIELD 493.2 DESCRIBES DOES NOT EXIST UNDER THAT NAME. The mind's speech travels in `say`.
+> What is called marks is the SENSE RECORD's words, a STORY BEAT's words, a BANK LINE's words, and in
+> happening.marks actual glyph boxes, which are pictures and genuinely marks. So a builder must pick
+> which one 493.2 means before it can touch a line, and one of the candidates rewrites his saved minds.
+> HIS TO RULE: does 493.2 reach the stored keys and columns, or does 410.3 still hold? The answer
+> changes 493 from a comment tidy-up into a migration of every saved being. The record does not answer
+> it - 493 cites 409 and does not cite 410, and 410 appears nowhere in INTENT.md.
+>
+> OPTIONAL 1 - UNDER THE ADDENDUM, ALMOST NOTHING QUALIFIES. The addendum's test is "if the thing being
+> named is a word the mind holds or says, it is a word." The overwhelming majority of surviving uses
+> name THE 402. The record answers "are the 402 the mind's words?" twice, opposite ways: 397 says a
+> mark IS a word with a picture attached, one vocabulary; 344 says the mind's language is English at
+> full scale and the 402 are the AVATAR'S symbolic set. The addendum handles this correctly - "a site
+> you are unsure about is left alone and reported" - so this is a note. But he should know what that
+> yields: nearly every remaining site is either the 402 (unsure, therefore left) or a mark in one of
+> the senses clause 2 protects. 493 as governed by its addendum is likely to come back as A SURVEY
+> WITH A HANDFUL OF CHANGES, not a rename. That is the correct outcome and should not be read as the
+> builder shirking. The same applies to INTENT.md, which 493.1 names by file: under the addendum NONE
+> of its marks change - and Part Three contains the row "344/387 marks are not words | 397 - a mark IS
+> a word with a picture attached", which a substitution would turn into "words are not words."
+>
+> OPTIONAL 2 - THE PROOF 493.2 NAMES IS THE ONE ALREADY RECORDED AS BLIND TO THIS EXACT KEY. 493.2
+> requires "the bench reads the same before and after." 410.4 is the recorded lesson from this exact
+> rename, in CC's own words: "a green hash proves the paths the FIXTURE RUNS. perceiving.js broke and
+> hashed clean because the fixture never exercises the senses." And the cost is on the relay: 467's
+> live fault was perceiving.js returning words: while experiencing.js read s.marks, so EVERY SEEN AND
+> EVERY HEARD SIGNAL CONTRIBUTED NOTHING TO THE MIND, undetected, until 6180f51. So the one place this
+> project has already severed the senses is the marks/words key, and the proof method 493.2 names is
+> the one that certified that severance as clean.
+>
+> 334 - WHAT I DID NOT CHECK: I read INTENT.md whole; 493 and addendum whole; 397, 398, 399, 409, 410,
+> 488-492 whole; the tail of REPORTS.md; MIND_DECISIONS.md for "mark". I did not read all 493
+> directives; for 344, 387, 404 and 407 I relied on INTENT.md's quotations. I DID NOT ENUMERATE THE
+> SITES - 951 case-insensitive hits, 328 real ones across 49 files; I opened roughly 60.
+> acceptance-life.js has 203 hits and I did not open it at all, nor bench-page.js (70) or
+> interpreter.js (50). I ran nothing. I did not read HANDOFF.md, CLAUDE.md, REFERENCES.md, AUDITS.md or
+> the agent briefs, which 493.1 names as a target.
+
+## MY ACCOUNT
+
+**I WROTE 493.2 AS "THIS FINISHES 409.1" AND NEVER LOOKED AT 410.** 410.3 is standing, never struck,
+and says the opposite in his own words: **the stored keys and the database column are fenced, and
+"RENAMING A STORED COLUMN REWRITES HIS SAVED MINDS. Leave them."**
+
+**AND THE FIELD I DESCRIBED DOES NOT EXIST UNDER THAT NAME.** The mind's speech travels in `say`.
+What is called marks is four different things — the sense record's words, a story beat's words, a
+bank line's words, and **glyph boxes, which are pictures and genuinely marks.** A builder would have
+had to pick one before touching a line, and **one of the choices migrates every being he has saved.**
+
+**THE QUESTION IS ONE SENTENCE AND IT IS HIS: does 493 stop at comments and variables, or does it
+reach the stored names too?**
+
+**AND ITS SECOND NOTE IS THE ONE THAT WOULD HAVE COST HIM A DAY.** The proof I named — the bench
+reading the same before and after — **is the exact method that once certified this exact rename as
+clean while the senses were severed.** 467: `perceiving.js` returned `words:` while the tick read
+`s.marks`, so **every sight and every sound reached the mind as nothing**, and the bench stayed
+green. *"The one place this project has already severed the senses is the marks/words key, and the
+proof method 493.2 names is the one that certified that severance as clean."*
+
+**NOTHING IS BUILT. NOTHING IS TOUCHED.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
