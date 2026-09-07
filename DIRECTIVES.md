@@ -13460,3 +13460,28 @@ ASSOCIATE_AMONG 8     how many neighbours one step may reach
    thinking visibly differs — one that dwells, one that wanders, one
    that is easily taken by a feeling. If they all think alike, the
    derivation is not biting and that is a finding.
+
+## Directive 476 — THE CRITIQUE REFUSES ONLY WHAT BREAKS HIS INTENT
+
+**MEASURED, NOT ARGUED:** 40 passes, 308 findings, mean 8 per pass —
+and it said "nothing to report" only 4 times in 40. **Under 469 every
+one of those findings is a refusal, so the work would stop eight times
+per directive, forever.**
+
+**HIS RULING: TIGHTEN IT.**
+
+1. **A REFUSAL IS FOR A FINDING THAT BREAKS HIS INTENT.** Something
+   correct that is not what this project is for; a limit nobody
+   ruled; a decision made for the mind; words put in its mouth; a
+   collision with a standing ruling. **Those stop the work (469,
+   unchanged).**
+2. **EVERYTHING ELSE IS NAMED AS OPTIONAL** and does not stop
+   anything. 445 already said this and it is not being honoured —
+   eight findings a pass is not restraint.
+3. **AND SAYING NOTHING IS A GOOD ANSWER.** 4 in 40 is too few. A
+   pass that reports eight things every time is not reading for
+   intent, it is generating concerns, and it teaches us to ignore it
+   — which is exactly how a guard dies.
+4. **REPORT BOTH COUNTS FROM NOW ON:** refusals, and optional notes.
+   If refusals do not fall sharply from eight, the tightening did not
+   take and that is a finding in itself.
