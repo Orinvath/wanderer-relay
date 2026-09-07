@@ -13340,3 +13340,29 @@ swept in map changes CC was deliberately holding back.
    show it refused.
 3. **AND SAY WHAT ELSE GETS PAST IT.** If one form was missed, look
    for the others rather than fixing only the one he was shown.
+
+## Directive 473 — THE SOUL CHECK MATCHES 455. Not his problem.
+
+**His words: souls is a system he did not ask for, and it is the
+Director's and CC's to solve.** He is right. He is not spending
+another minute on it.
+
+1. **THE CHECK EXPECTS 2 TO 5 VALUES AND THE RULING IS ALL OF THEM
+   (455).** The code is right and the check is stale. **Update the
+   check.** 306.D: when behaviour changes, its check changes in the
+   same commit — this one was missed.
+2. **HOW MANY SOULS TO GENERATE — the Director rules it, not him:
+   ONE.** A being has one soul, drawn at Genesis from its own seed.
+   If something in the build wants several to choose between, that
+   is a bench affordance and not the mind's, and it is named as such.
+3. **NOTHING ABOUT WHAT A SOUL IS CHANGES HERE.** 455 stands: it
+   holds every foundation, and the order and the weight are what make
+   it this one.
+4. **AND THE DIRECTOR OWES HIM SOMETHING ON THIS SYSTEM.** He has
+   said twice that the soul is not what he asked for — he wanted
+   character types with likes and dislikes, plus a place for what
+   science cannot account for (205). What exists is abstract moral
+   foundations and half its settings exist to reconcile it with the
+   ten and with interests. **That is a real gap and it is the
+   Director's to bring back to him properly — LATER, not now, and
+   not as another pile of numbers.**
