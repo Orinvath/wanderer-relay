@@ -50237,3 +50237,153 @@ today made it one worse.**
 
 **TWENTY THINGS OPEN. NOTHING CLOSED TODAY.** The day bought one thing: **it is no longer possible
 for me to end a turn without this list being here.**
+---
+
+# THE REVIEW OF THE SIXTH HOOK — FOUR REAL FAULTS, AND ITS WORDS ARE BELOW, NOT MY SUMMARY OF THEM.
+
+**This is the first entry written under the rule it is reporting on.** The pass is pasted whole and
+my account sits underneath it. **I am not the one telling him what it said.**
+
+## WHAT THE REVIEWER SAID, IN FULL
+
+> Review complete. I read the commit, verified each suspected defect by running it, and ran the 464 checks.
+>
+> ## Findings (correctness) — `/home/nobara-user/CC-Wanderer/.claude/hooks/require-relay-current.sh`
+>
+> **1. Line 77 — `grep -qF "$probe"` has no `--`, so a probe starting with a dash aborts grep and blocks the turn unsatisfiably.**
+> Probes are whole lines with leading whitespace stripped, so a markdown bullet or an em-dash-style line becomes the pattern. Verified on this machine (GNU grep 3.12): `grep -qF "- Finding 3: the loop"` prints `invalid option -- ' '` and exits 2; with `--` inserted it exits 1 cleanly. Failure case: a Critique pass whose longest line is `- FINDING 2: the loop runs in a subshell so the break never fires` — `found` stays `no`, the mark is reported "not on the relay in its own words", and pasting it verbatim into REPORTS.md cannot clear it because the pattern never gets to be a pattern.
+>
+> **2. Lines 63–64 — an empty or non-numeric baseline file silently turns PART ONE off completely.**
+> Line 63 creates `.verbatim-from` with no error check; if that write is interrupted, or the file is ever truncated, `since` is the empty string. Then line 73's `[ "$mt" -gt "$since" ]` is a bash error, not a comparison — verified: `[: : integer expected`, status 2 — so `|| continue` skips *every* mark and PART ONE passes unconditionally, forever, with no output. The check that exists to stop softening fails open on a zero-byte file.
+>
+> **3. Lines 75–79 — a mark with no line ≥45 characters can never be satisfied.**
+> The here-string of an empty probe set still yields one empty line, `[ -n "$probe" ] || continue` skips it, the loop ends with `found=no`, and that mark is named on every future turn no matter what is written into REPORTS.md. Failure case: a terse `<n>.after` reading `PASS. No findings.` blocks the first stop of every turn from then on; the only escapes are the `stop_hook_active` bypass, editing the mark, or bumping the baseline. I checked all 42 live marks — none currently trips this, so it is latent rather than firing today.
+>
+> **4. Lines 70–80 — `.before` and `.after` of the same pass often share their longest lines, so pasting one silently satisfies both.**
+> Each file is tested independently but against the same REPORTS.md, and `found=yes` on any one of five probes. Verified in the live critique directory: 5 distinct 45-char probes each occur in exactly 2 different mark files (e.g. `VERDICT: something must go back to him — the `). Failure case: paste only `<n>.before`; `<n>.after`, which carries the verdict, is never required on the relay yet the hook reports the pass carried. Any ≥45-char banner or template line common to marks has the same effect.
+>
+> ## OPTIONAL (not correctness against the stated requirements)
+>
+> - **Line 47** — `grep -n '^# '` reads raw lines with no awareness of fenced code blocks, while PART ONE's own remedy text instructs pasting passes "whole and unwrapped". A pasted pass or diff containing a line beginning `# ` (this script's own header comments do) landing below the open list becomes the last heading and fails PART TWO. Literally correct per the stated rule; worth knowing it is self-collidable.
+> - **Lines 26–33** — if `python3` is absent or the payload is not JSON, `cwd` is empty, the `case` falls through to `*)` and both checks are skipped silently. Fail-open, undocumented.
+> - **Line 63** — the baseline is never advanced, so the verified set grows without bound; if REPORTS.md is ever trimmed or rotated, every previously-carried pass becomes a permanent block again.
+>
+> ## Things I checked that are correct
+>
+> Glob-no-match is safely absorbed by `[ -s "$m" ]` even though `nullglob` is unset; the `while … done <<<` form (not a pipe) means `found` and `break` work in the current shell; `exit 2` with stderr is the right blocking contract for a Stop hook; the empty-`last_head` path never evaluates `$((last_line + 1))`; `cut -c1-45` did not break multibyte matching in either test I constructed.
+>
+> ## 464 results — all five pass, no failures
+>
+> | hook | present | executable | `bash -n` |
+> | --- | --- | --- | --- |
+> | block-real-geometry.sh | yes | yes | parses |
+> | block-unnamed-commits.sh | yes | yes | parses |
+> | require-in-order.sh | yes | yes | parses |
+> | require-critique.sh | yes | yes | parses |
+> | require-relay-current.sh | yes | yes | parses |
+>
+> Both python3 probes produced exactly the required output: `x` and `/a/b.js`. The two safe hooks were invoked on a benign payload and both exited 0. `require-in-order.sh` and `require-critique.sh` were not executed, as instructed — they were checked by file test and `bash -n` only.
+
+## AND WHAT I DID ABOUT IT — all four fixed in `8c006ea`, each proved by running it
+
+**THE WORST OF THE FOUR IS NUMBER TWO, AND IT IS THE SAME FAULT THIS HOOK EXISTS TO PREVENT.** A
+zero-byte baseline file turned the whole verbatim check off **silently, permanently, and while
+still appearing to run.** **A guard that fails open is not a guard, and I built one on my first
+try — the third time this month.** A baseline that is not a plain number is now rewritten.
+
+**ONE AND THREE WERE BOTH UNSATISFIABLE BLOCKS**, which is the worse shape of failure, because the
+only escapes are forging a mark or bypassing the hook — **and 453 already learned that a check
+nobody can pass teaches forgery.** A dash-leading probe now passes `--`; a mark with nothing
+quotable is **skipped rather than demanded**.
+
+**FOUR IS THE SUBTLE ONE.** The before and after marks share banners, so **pasting the BEFORE
+satisfied the AFTER — and the after is the one carrying the verdict.** A probe that appears in
+another mark is now used only when nothing else is left.
+
+**PROVED, NOT ARGUED — five tests, each red before the fix and green after:** a dash probe refused
+cleanly and then accepted once pasted; a terse mark skipped; an emptied baseline repaired on the
+next run; and the before/after test — **pasting only the before, the after was still refused by
+name.**
+
+**AND WHAT I DID NOT DO: the three OPTIONAL notes are not fixed and are not ruled.** The fenced-code
+collision, the python3 fail-open the other five share, and the baseline never advancing. **They are
+his to rule, and I have named them rather than quietly closed them.**
+
+**ONE SIDE EFFECT HE SHOULD KNOW: my own tests moved the baseline** from `1788760406` to
+`1788760950` — nine minutes, containing nothing but the test marks I made and deleted.
+
+
+# EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
+
+**Nineteen were open this morning. NONE of them closed today** — the day went on the courier, not
+the mind. **One new one is added by the work above.**
+
+## BLOCKING NOW — 476 IS HALTED AND NOTHING BEHIND IT MOVES
+
+**1 · WHERE 476'S RULE LIVES.** `INTENT.md` line 3 still reads "PROPOSED, NOT IN USE" and 446.2's
+check by him was never recorded, **so I may not put it into service — while the hook already tells
+every pass to read it.** In use in fact, not in law. **476 is the third ruling missing from the
+Critique's only source; 469 is the second.**
+
+**2 · WHETHER TWO FAULT-CLASSES ARE REFUSALS OR OPTIONAL.** `INTENT` names seven intent-breaking
+faults, **476.1 names five.** Missing: a check asserting a stricter law than the thing it guards
+(six real instances on this record), and something already answered by the build.
+
+## THE MIND — the ones that decide whether it is what he thinks it is
+
+**3 · A SOUL'S ORDER IS DECORATIVE.** Stripped before hashing; rank against depth is **-0.002 over
+200,000 draws.** **455 is not finished until he rules whether order should carry weight.**
+
+**4 · DO THE FIVE SOULS READ AS SOMEONE?** Posted for his eye. **The judgement is his.**
+
+**5 · THE 205 READING UNDERNEATH IT.** The citation that blocked 455 may be **inverted**. Never ruled.
+
+**6 · 469'S SIX OPEN DECISIONS.** What counts as a finding; the identifier; what an after-pass
+refusal refuses once the commit exists; the scope of a stop; retroactivity; whether findings batch.
+
+**7 · 475'S SIX REMAINING BIASES**, four of which collide with 427 — one question, not four.
+
+**8 · THE INTERRUPT CLAMP.** **5.2% of beings land at the ceiling** and can essentially never be
+taken off a train by a feeling. **A limit nobody ruled, introduced by a clamp.**
+
+**9 · WAS 427 EVER BUILT?** Memory is still drawn as a rival source — **427.1's exact fault** — and
+`surfacing.js` mentions no feeling, curiosity, concern or state. **474 closes three values on the
+grounds 427 settled them.**
+
+**10 · TWO WEIGHTS IN THE SAME DRAW WERE NEVER SORTED** — association 1.5, language 0.25.
+
+## THE MIND'S RECORD
+
+**11 · 246'S LEDGER ROWS NEVER WENT IN**, and no ledger file exists for them to land in.
+
+**12 · THE 89 ROWS.** Row 1 is built. **The other 88 have no home.**
+
+## THE PLUMBING
+
+**13 · DOES A SHELL SCRIPT NEED THE SAME GATE AS THE MIND?** Two passes and a review on every
+change is why today ran long. **One line from him settles it.**
+
+**14 · A COMMAND INSIDE AN `if` OR A `for` STILL BYPASSES THE COMMIT GUARD** — the shape a scripted
+commit actually has.
+
+**15 · THE GUARD FAILS OPEN IF ITS INTERPRETER BREAKS.** Every dangerous form allowed, silently.
+
+**16 · `sudo`, A FULL PATH, OR A LEADING VARIABLE still walk past it.**
+
+**20 · AND THE SIX HOOKS ARE REGISTERED OUTSIDE THE REPO.** The scripts are in the tree and on the
+remote; **`~/.claude/settings.json`, which is what actually runs them, is not.** **A fresh clone
+gets six inert files.** 116 says nothing depends on a path outside CC-Wanderer. **This does, and
+today made it one worse.**
+
+## AND WHAT I OWE
+
+**17 · A DIRECTIVE NUMBER** for the two-pass ruling, and now for this one.
+
+**18 · THE SECOND PASS'S COST IN TIME AND TOKENS.** Findings measured; time and tokens still owed.
+
+**19 · THE OPTIONAL NOTES FROM EVERY PASS BEFORE TODAY** — in the marks, never read by him.
+
+---
+
+**TWENTY THINGS OPEN. NOTHING CLOSED TODAY.** The day bought one thing: **it is no longer possible
+for me to end a turn without this list being here.**
