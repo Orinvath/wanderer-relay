@@ -14179,3 +14179,39 @@ A refusal the builder **cannot** answer — one that needs his ruling —
 **He will hear nothing while a directive is being worked.** That is
 the point of it, and it is his to reverse if the silence is worse than
 the noise.
+
+## Directive 494 addendum — HIS THREE ANSWERS TO THE PASS THAT REFUSED IT
+
+**The before pass refused 494 three times and put three questions to
+him. He answered all three.**
+
+### 1 · INTENT.md IS THE CRITIQUE'S. IT ALWAYS WAS.
+**His words:** *"That should have been Critiques job all along, its
+what I ruled its purpose was to defien intent and manage it."*
+
+**So the Critique keeps `INTENT.md` current** — it is the file it
+reads his intent from, and the party that reads it is the party that
+maintains it. **Not the Director, and not the builder.** 446's
+same-commit law is satisfied by the Critique, whose after pass is the
+last step before the report.
+
+### 2 · THE SHELL COUNTS
+**His words:** *"the shell counts too."*
+
+The guard covers **Edit, Write, NotebookEdit AND a file written
+through Bash** — `sed -i`, a heredoc, `cat >`, `tee`, a script that
+writes. **A guard with the usual door left open is not a guard**, and
+in this environment the shell is the door the Director is actually
+instructed to use.
+
+### 3 · AND THE ONE HE HAS NOT ANSWERED, WHICH STILL STOPS IT
+**What marks a call as the DIRECTOR'S rather than an agent's.** No
+hook here reads caller identity, and a pass proved that a guard
+written without it binds the builder, the Critique and the reviewer as
+well. **Until that is answered the guard cannot be built** — and the
+builder must not choose it (250).
+
+**IF THE ANSWER IS THAT THERE IS NO SUCH DISCRIMINATOR**, the honest
+shapes are: allow the two relay files plus the paths each agent needs,
+or bind nothing and let the rule stand on the record with the rounds
+as its only evidence. **Both are his.**
