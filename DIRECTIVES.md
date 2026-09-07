@@ -13572,3 +13572,21 @@ be labelled BUILD or TEST fails when the label is forgotten — and both
 of us forget things constantly. **He does not need another obstacle.**
 
 CC does nothing with this. The gate stays as it is.
+
+## Directive 480 — THE REVIEWER REVIEWS CODE. NOTHING ELSE.
+
+**HIS RULING.** The reviewer reads the code and says whether it works.
+**IT DOES NOT WEIGH IN ON THE RULES OF THE SYSTEM. HE DEFINES THOSE.**
+
+1. **CODE ONLY.** Does the change do what it claims. Does it break
+   something. That is the whole of its job.
+2. **IT DOES NOT RULE ON DESIGN, ON THE RULES, OR ON WHETHER
+   SOMETHING SHOULD EXIST.** Those are his, and the Critique speaks
+   for him on intent (469). The reviewer speaks for neither.
+3. **AND IT DOES NOT INVENT SITUATIONS TO FIX FOR.** It spent a round
+   on a full-disk case that is not happening on his machine. **Fix
+   what is broken, not what could break in a circumstance that is not
+   real.**
+4. **445 AND 476 ALREADY BIND THE CRITIQUE THIS WAY.** This says the
+   same of the reviewer: flag what affects correctness, name anything
+   else as optional, and say plainly when there is nothing.
