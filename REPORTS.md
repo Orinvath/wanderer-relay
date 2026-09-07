@@ -50803,6 +50803,91 @@ changed and are on the list: my own wording standing as law, and a header citing
 added.** I read the three places I edited and the pass read the diff. **Neither of us read the
 whole file against it.**
 
+---
+
+# THE STAND-DOWN HE ORDERED — AND I BUILT IT DEAD. **ROUNDS: 2 — one reviewer send-back, then clean.**
+
+**HIS RULE, in his own words: *"A cleaner rule is that nothing I send go through a gate or guard or
+hook. Only directives, and even directives with Question: are not processed."***
+
+**Built, committed, proved — and a reviewer then showed the feature COULD NEVER ONCE FIRE.**
+
+**Kind of fault: I checked my new code against my own fixtures and never against the code it sits
+beside.** **Same kind as last time? NO — the last two were ruling on his questions. This is a proof
+that proved nothing, which is the same family as yesterday's fix that trusted its own repair.**
+
+## ROUND 1 · THE REVIEWER SENT IT BACK. Its words, in full.
+
+> ## FINDING 1 — The stand-down can never fire on this relay. The feature is inert.
+>
+> The probe scans **every** directive heading in DIRECTIVES.md with no starting floor (`.claude/hooks/block-real-geometry.sh:42-49`, and the identical block in the other five). The gates it is bolted onto deliberately do not do that: `require-in-order.sh:119-127` computes `highest_reported` and skips everything at or below it, with a comment stating why — *"measured, 66 older directives have no report carrying their number... A hook that blocks on 66 blocks every turn forever"*. `require-critique.sh:109` applies the same floor via `$from`.
+>
+> The new probe has no floor, so the historical gap holds `open_work` True permanently.
+>
+> Proved on a scratch copy of the live relay (live relay never written): with REPORT lines for 480 and 481 appended so that nothing recent is outstanding, the probe still exits **1**. The first directive that holds it open is **Directive 44**, from 2000+ lines back. Meanwhile `require-in-order.sh`'s own floor on that same fixture computes `highest_reported = 481` — the gate sees nothing missing while the probe sees open work.
+>
+> Counted against the live relay: the probe's regex finds **115** directives it considers unreported; the gates' own `answered_in_reports` regex finds **57**, and the gates then ignore all of them because they sit below the floor.
+>
+> Consequence: `then exit 0; fi` is unreachable in practice. Every hook proceeds to its normal logic exactly as before the commit. The commit's live proof — "with 480 and 481 unreported, a language.js edit is still refused" — passes trivially, because the edit is refused in *every* state, including the one the feature is supposed to permit. I reproduced that refusal (exit 2) but it demonstrates nothing about the new code.
+>
+> Direction is fail-safe: gates stay ON, nothing is unprotected. But the change does not do what it claims.
+>
+> ## FINDING 2 — `\s*` spans newlines: a title can be read off the following line. Latent.
+>
+> `^## Directive 0*(\d+)\s*(.*)$` — `\s` includes `\n`. For a heading with nothing after the number, `\s*` consumes the newline and `(.*)` captures the **next** line. Reproduced in a fixture: heading `## Directive 484` followed by a line `Question: is this a title?` is parsed as number 484, title `Question: is this a title?`, the directive is skipped as a question, and the probe exits **0** — all six gates stand down while real unreported build work is outstanding. That is the dangerous direction.
+>
+> Status on this machine: not occurring. Zero of the 548 headings are bare… It fires only if a future directive is written with the title on its own line. Fix is `[ \t]*` in place of `\s*`.
+>
+> ## FINDING 3 — The two copies of the "Question:" rule disagree on dashes. Not currently occurring.
+>
+> The python skip does `lstrip('-—– ')`, accepting any run of dashes. The bash `question_directive()` added at `require-in-order.sh:98-100` and `require-critique.sh:73-75` allows exactly one optional dash: `[-—–]?`. Tested under this locale (en_US.utf8): `— Question:` matches, bare `Question:` matches, `-- Question:` does **not**. So a directive titled `-- Question:` would be skipped by the probe but still demanded a report and critique marks by the two gates.
+>
+> ## Verified clean — nothing to report
+>
+> - **All six parse.** - **The heredoc is byte-identical across all six files.** md5 `3a3ed8ba68d45095b40026f86451da46` in every one. - **Fail direction is correct, by inspection and by test.** Relay directory missing → gate ON. DIRECTIVES.md `chmod 000` → gate ON. python3 removed from PATH → gate ON. python3 stub exiting 1 → gate ON. - **The first mechanism is fully removed.** No dead or duplicated code left behind. - **Placement is correct in every file**… before every state-writing line: `mkdir -p "$MARKS"`…; `git pull` at require-in-order.sh:69; `printf ... > "$MARK"` at require-review.sh:68. Nothing writes or pulls above it.
+>
+> ## 464 — all five present, executable, `bash -n` clean. Both python3 probes exact. No failure to report.
+>
+> ## OPTIONAL, stated in full
+>
+> One item. The probe's heading regex requires digits immediately after "Directive", so it misses the two plural headings `## Directives 247 and addendum — ALL WITHDRAWN` and `## Directives 267, 268, 269 — ALL WITHDRAWN` — 546 matched of 548. `require-in-order.sh`'s own grep misses the same two identically, so this is pre-existing behaviour the new code merely copies, both entries are marked WITHDRAWN, and nothing changes as a result. No action needed.
+
+## ROUND 2 · ALL THREE FIXED, AND THE SECOND REVIEW FOUND NOTHING. Its words, in full.
+
+> **The change does what it claims, and I found no correctness defect.**
+>
+> **D1 — floor.** Fixed, and the fix is exact. On a copy of the live relay in scratch: `require-in-order.sh`'s own `highest_reported` loop gives **481**; the new probe's `floor` gives **481**. Same value. Running the pre-commit probe body against that copy exits **1**; the post-commit body exits **0**. The floor loop is order-independent (`sorted()` ascending, last match wins = max answered).
+>
+> **D2 — newline span.** Fixed. Built the trap: floor-481 relay plus a bare `## Directive 484` with `Question:` on the next line. New probe exits 1 (gates stay on); the identical body with `\s*` restored exits 0 — confirming the old bug was real and is gone. **No other regex in the probe can span lines.**
+>
+> **D3 — dash run.** Fixed and they now agree. Nine heading forms… new bash and python agree on all nine; the old bash disagreed on five.
+>
+> **Byte-identical across all six hooks.** All six md5 `289f12e525a4e40903c3c79dbe79f969`, 35 lines.
+>
+> **Fail direction unchanged.** Relay dir missing → exit 1; `REPORTS.md` chmod 000 → exit 1; `python3` absent → gates stay on; `python3` exiting 3 → gates stay on.
+>
+> **`heads` parsing.** Python's heading set and bash's grep produce the **identical** 475 numbers from 546 headings. `## Directive 478 addendum — AND WHY IT IS FAILING` parses as `n=478`. Zero headings parse to an empty title. `answered()` takes only ints, so the `%` interpolation is injection-free.
+>
+> ## Directive 464 — all six present, executable, `bash -n` clean. Both probes exact. **No failure to report.**
+>
+> ## OPTIONAL (not correctness)
+>
+> 1. The probe's `answered()` is a *proper subset* of the gates' `answered_in_reports()` — it omits `\bN's`, `\b[0-9]{3}/0*N\b`, `\bN/[0-9]{3}\b`, `\bN[[:space:]]*[—–-][[:space:]]*[A-Z]`, and narrows `[[:space:]]` to `[ \t]`. So the comment's "THE SAME FLOOR THE GATES THEMSELVES USE" is not literally true of the *predicate*, only of the value it currently produces (both 481 on the live relay). The divergence direction is the safe one: a stricter predicate can only lower the floor and only add open work, i.e. gates stay ON.
+> 2. Duplicate-number headings are iterated per-heading in python but per-unique-number in bash. A number carrying both a `Question:` heading and a non-question heading would be skipped by bash and flagged by python. Pre-existing, untouched by this commit, and no such number exists on the live relay (checked: zero mixed).
+
+## WHAT IS TRUE NOW, PROVED ON A COPY OF THE REAL RELAY
+
+**Nothing outstanding → all six stand down. A new build directive → gates back on. A Question:
+directive behind it → not processed. The newline trap → no longer read as a question.**
+
+**AND THE FIRST PROOF I GAVE HIM WAS WORTHLESS, WHICH IS THE PART THAT MATTERS.** I wrote *"proved
+both ways"* about a feature that could not fire. **The test I chose could only pass.** **Two of the
+three faults were mine to catch and I had the code that answers them open in front of me.**
+
+**THE TWO OPTIONAL NOTES ARE NOT FIXED AND ARE ON THE LIST**: my `answered()` is a stricter
+predicate than the gates' own, so my comment claiming "the same floor" is true of today's number
+and not of the rule; and duplicate-numbered headings are counted differently by the two copies.
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
@@ -50917,6 +51002,13 @@ pass read the diff. **322 lines have not been checked for a contradiction.**
 for in the terminal in that window. **That is the price of the rule being mechanical instead of me
 judging each turn.** His to accept or change.
 
+**32 · MY FLOOR TEST IS NOT THE GATES' TEST.** It gives the same number today (481) and it is a
+stricter rule, so it can only ever add work, never hide it. **The comment says "the same floor" and
+that is true of the value, not of the rule.**
+
+**33 · DUPLICATE-NUMBERED HEADINGS ARE COUNTED TWO WAYS** — per heading in one copy, per unique
+number in the other. **None exist on the relay today.**
+
 ---
 
-**THIRTY-ONE THINGS OPEN.**
+**THIRTY-THREE THINGS OPEN.**
