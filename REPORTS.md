@@ -52404,6 +52404,72 @@ cross**, because I launched both at once. *"Nothing crossed here."*
 
 **I HAVE CHANGED NOTHING. THE BRIEFS ARE HIS TO READ AND RULE ON** — that is 446.2, and it is the
 one condition nobody has met.
+---
+
+# 491's SECOND AFTER PASS — **THREE AGENTS NOW, NONE SEEING THE OTHERS, ALL THE SAME REFUSAL**
+
+**The first after pass ran in the wrong order — I launched both at once, so it had no before mark to
+cross. This is the re-run, in the lawful order.** 1 refusal, 2 notes.
+
+> SECOND AFTER PASS, run in the lawful order after the before mark existed. A THIRD AGENT, none of
+> them seeing the others. 1 refusal, 2 optional.
+>
+> WHAT WAS BUILT, READ IN THE CODE (385). 3bc2a56 adds critique.md (78 lines) and reviewer.md (64
+> lines), and widens one tuple in install.sh. 491's only buildable clause is item 2. IT IS GENUINELY
+> BUILT AND GENUINELY WALKED: I am running under critique.md right now, the roster carries both
+> descriptions verbatim, and block-briefing-agents.sh proves the address form works. Not a capability
+> with no caller. The content is faithful where I checked it: the seven kinds, kind 6 as a note, both
+> counts, and the "40 passes, 308 findings" line is his own measurement at DIRECTIVES.md:13466. The
+> before pass could not find "silence demotes" in his words - IT IS A FAIR RESTATEMENT OF 482.2, so
+> that half of its objection is answered by the record.
+>
+> REFUSAL - THE BEFORE PASS'S REFUSAL IS UNANSWERED, AND I AM THE EVIDENCE FOR IT. The build answered
+> the question by making it - the Director wrote both files - and shipped, eight minutes before the
+> pass that asked. What is new at the after pass is that the answer is no longer a proposal:
+> critique.md is symlinked live, it is the whole of my scope, it decides what I read and in what order,
+> and every pass and every review from here runs under it. The collision is with 484.29 and with 446.2,
+> whose condition was not met before this file's first use; ITS FIRST USE IS ME. 488.5 does not cover
+> it: that ruling put the BUILDER's brief in the repo, and the builder is not a party that judges the
+> Director. 491's own WHY names that asymmetry in his words, and then the build resolved it in the
+> Director's favour by default (188: a default is a decision wearing a shrug). Kind 5. Fix forward.
+>
+> NOTE - THE REVIEWER'S HOOK SAFE-LIST IS WRONG IN BOTH DIRECTIONS AND CONTRADICTS ITSELF, inside the
+> file 491 built to cure exactly this. (a) There are now THREE block-*.sh - block-briefing-agents.sh
+> landed 59 seconds later and is read-only and safe, so the count under-permits. (b) The explicit
+> prohibition list OMITS require-relay-current.sh, WHICH ON FIRST RUN WRITES .counts-from AND THE SINCE
+> BASELINE - the very baselines its own Part One reads back and trusts. The two sentences disagree
+> about that hook. 491's WHY cites one incident of a bad safe-list, and the remedy is a hand-maintained
+> exhaustive list with no rule keeping it current, which went stale within a minute. Fix-carries-the-
+> fault shape. A careful reader is protected by the second sentence, so: a note.
+>
+> NOTE - TWO AGENTS WHOSE FIRST LINE IS "YOU EDIT NOTHING" ARE GRANTED WRITE, EDIT AND BASH. Neither
+> frontmatter carries a tools: field. I hold Write, Edit and git-capable Bash while my brief tells me I
+> write no code and edit nothing. 442: a brief is advisory in precisely the way CLAUDE.md is. Not a
+> departure from 491 - builder.md carries no tools: field either - but a hardening the frontmatter
+> supports and the build did not take, in the two files where the restriction is absolute.
+>
+> WHAT I DID NOT CHECK: I ran no hook and executed nothing; my reading of require-relay-current.sh and
+> block-briefing-agents.sh is from source. I did not run install.sh, and did not verify what happens
+> when a project-level .claude/agents/ and the user-level symlink define the same agent name. I read
+> builder.md's frontmatter only. I read 442, 464, 480, 488-493 directly; the rest as quoted in
+> INTENT.md. I did not read REPORTS.md, MIND_DECISIONS.md, AUDITS.md, HANDOFF.md or CLAUDE.md.
+
+## MY ACCOUNT
+
+**THREE SEPARATE AGENTS HAVE NOW REFUSED 491 ON THE SAME GROUND**, and this one says why it matters
+more at the after pass than the before: *"the answer is no longer a proposal... its first use is
+me."*
+
+**IT ALSO ANSWERED HALF OF THE FIRST PASS'S OBJECTION IN MY FAVOUR** — the "silence demotes" line it
+could not find in his words **is a fair restatement of 482.2.** I am reporting that because it is
+the favourable half, and dropping those is the fault this relay was rebuilt around.
+
+**AND IT FOUND TWO THINGS NOBODY HAD:** the reviewer's safe-list is **wrong in both directions** —
+it under-permits a third guard and **omits `require-relay-current.sh`, which writes the baselines its
+own check later trusts** — and **both agents hold Write, Edit and Bash while their briefs say they
+edit nothing.** The frontmatter supports restricting that and I did not take it.
+
+**NOTHING CHANGED. All of it is his.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
