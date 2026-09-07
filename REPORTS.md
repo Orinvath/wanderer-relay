@@ -49272,3 +49272,79 @@ tree and PASS in an identical copy, with identical figures. **It runs against th
 **Not closed:** whether three of these four governing one tick in three hundred is what he wanted.
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; and whether 427 was ever built.
+
+---
+
+## THE GUARD, ROUND FIVE — I closed four and opened a twelfth. Fixed, and the pattern is the finding.
+
+**442.A.3, in full.**
+
+### THREE OF THE FOUR ARE PROPERLY FIXED
+
+**The missing boundary, the newline crossing, and the false refusals** — all confirmed by
+execution and it could not break them. **Fifty-six dangerous forms refused, twelve ordinary
+commands allowed** — including the one I was unsure of: **tagging with an annotation is correctly
+allowed**, because the check now needs the literal word.
+
+### BUT I INTRODUCED A REGRESSION, AND IT IS THE SAME SHAPE AS EVERY OTHER ROUND
+
+**My new guard reused an option pattern that understands only two of git's own flags.** So **a
+dozen shapes refused yesterday walked through today** — the paginate flags, and every long option
+that takes a space-separated value: the git-dir, the work-tree, the namespace, the exec-path.
+
+**The paginate one sweeps every tracked change onto his bench — the exact event 442.B was written
+after — and my guard had gone silent on it.**
+
+**Fixed by NAMING git's own options rather than guessing at them.** A loose "any option and a
+value" would have swallowed the subcommand itself and opened something worse. **And the same blind
+spot has been open in the staging half all along; it is closed too.** **All twelve refused, and
+ordinary work still passes.**
+
+### AND TWO CORRECTIONS TO MY OWN REPORT
+
+- **I said most commands "pay nothing" now. False.** They still pay about 48ms — **two other
+  interpreter calls, unconditional, that I never touched.**
+- **And the 37 seconds was never the thing I fixed.** It scales with the NUMBER OF LINES, not the
+  size — about eight small programs launched per line — and **it is byte-for-byte the same as
+  before my change.** My fix removed 22ms of fixed cost and none of that.
+
+### AND THE ONE THAT MATTERS MOST, WHICH IS NOT MINE
+
+**If the interpreter is missing or broken, the whole guard FAILS OPEN.** Measured with it stubbed:
+**every dangerous form allowed, silently.** **The guard's entire authority rests on that program
+being healthy** — the same fault 464 was written about, sitting UNDER the guard rather than beside
+it.
+
+### AND THE PATTERN, SAID PLAINLY, BECAUSE IT IS THE REAL FINDING
+
+**Five rounds. Every round I close holes and open one, or refuse his ordinary work.** The guard
+reads a command as a **string** and guesses whether it is a command or prose. **That guess has been
+wrong in both directions in every single round — and it has blocked four reviewers and three of my
+own reports while doing it.**
+
+**That is not a bug list any more. It is the approach.** **His ruling whether this keeps going, or
+whether the guard accepts a named gap and stops growing.**
+
+---
+
+## AND THE LAST REVIEW — THE CHECK IS SOUND. "No changes required."
+
+**The corrected clause was broken four ways and it caught the three it owns**, including **the one
+the old version went green through — the caller not handing the aspects over.** The fourth belongs
+to a different clause, which caught it.
+
+**And it answered the two questions I was least sure of.** **It is not passing by accident:** run
+against a rich mind — with memories, curiosity, a space, threads — **it still discriminates.** And
+**it is not extremes-only:** it keeps working down to about ten points either side of the middle,
+where the committed values sit at forty-five.
+
+**It is deterministic, uses no model, and is seed-proof by construction.** **One honest nit: my
+failure message says "drawn on" where the assertion means "offered".** The assertion is the better
+of the two; the words overclaim by one.
+
+### 334 · THE QUEUE
+
+**Not fixed:** the fail-open on a broken interpreter; the per-line cost; a leading variable, `sudo`
+or a full path still bypassing.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; whether 427 was ever built.
