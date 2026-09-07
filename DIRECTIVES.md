@@ -14141,3 +14141,41 @@ a fault.**
 **PROVE EACH FIX BY RUNNING THE SHAPE THAT FAILED**, and keep the
 guard's own idiom: split the command into lines, anchor the match, and
 read the number from the MESSAGE rather than the command.
+
+## Directive 496 — A FINDING GOES BACK TO THE BUILDER. IT LOOPS THERE UNTIL IT IS RIGHT.
+
+**HIS RULING:** *"it never comes back to you until it is done. If the
+reviewer finds bugs, or if the critique fails they flag it and send it
+back to the builder to fix until it is right."*
+
+**WHAT WAS WRONG BEFORE THIS:** the Director took every finding,
+wrote it up, and handed it back down — **so every fault in the work
+passed through the one party with no gate on it**, and the loop ran at
+the Director's pace and through the Director's words.
+
+### 1 · A REFUSAL OR A FINDING GOES STRAIGHT TO THE BUILDER
+Not to the Director. **The pass names it, the builder fixes it, and
+the pass runs again.** 482.2 is unchanged: **fix it forward, never
+revert.**
+
+### 2 · IT LOOPS UNTIL IT IS RIGHT
+Critique before → build → reviewer → Critique after, **and any refusal
+or bug sends it back to the build step.** The loop ends when **both
+passes and the review are clean**, not when the Director judges it
+close enough.
+
+### 3 · THE DIRECTOR SEES IT WHEN IT IS DONE
+**One report, at the end, carrying every round and what each was for**
+(478). **Not a running commentary.** The Director does not steer the
+loop, does not carry findings into it, and does not decide when it has
+had enough.
+
+### 4 · AND IF THE LOOP CANNOT FINISH, IT STOPS AND SAYS WHY
+A refusal the builder **cannot** answer — one that needs his ruling —
+**ends the loop and goes to the relay as a block with its reason**
+(452.4). **That is the only other way out.**
+
+### 5 · WHAT THIS COSTS, NAMED
+**He will hear nothing while a directive is being worked.** That is
+the point of it, and it is his to reverse if the silence is worse than
+the noise.
