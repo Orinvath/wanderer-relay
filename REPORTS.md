@@ -52326,6 +52326,84 @@ nothing.** *"Being unable to run the checkers is a reason to stop, not a reason 
 later."*
 
 **I HAVE CHANGED NOTHING. Both are his to rule.**
+---
+
+# 491's AFTER PASS — **THE SAME REFUSAL FROM A SECOND AGENT THAT NEVER SAW THE FIRST**
+
+**Two passes, two different agents, no crossing mark between them — and they refused on the same
+ground.** 1 refusal, 2 notes.
+
+> CRITIQUE - AFTER PASS, Directive 491. 1 refusal, 2 optional.
+>
+> WHAT 491 ASKED FOR AND WHAT CAME OUT. 491.2 is the one 491 itself built: critique.md and reviewer.md
+> exist (3bc2a56), and install.sh links all three agents and prints MISSING if a source is absent. I can
+> confirm it took: MY OWN SYSTEM PROMPT THIS PASS IS critique.md VERBATIM, and I was given a role and a
+> number and nothing else. 491.1 and 491.3 were built under 492; 491.4 was already carried by
+> require-relay-current.sh. On the mechanics, 491 is built.
+>
+> REFUSAL - 491 MOVED THE DIRECTOR'S PROSE OUT OF THE PROMPT AND INTO A FILE. IT IS STILL THE
+> DIRECTOR'S PROSE, AND NOW IT IS LAW. 491's own reason for existing: "every pass and every review this
+> project has run was scoped by the Director's own prose - and the Director is the party those passes
+> judge." What was built is a scope, written in the Director's own prose, that every pass and every
+> review will now run on permanently. IT WAS NEVER POSTED TO THE RELAY AS A DIRECTIVE, so Lonnie has
+> not read it and cannot rule on it. Before 491, the scope at least appeared in the transcript the pass
+> reported into. Now it lives in a repo file, and 492 forbids anyone correcting it at run time.
+> This is 484.29 happening again, six hours later, one file over. 484.29: "CC's own wording standing as
+> law in INTENT.md comes OUT. 446.2: what CC extracted is not CC's to certify. Replace it with the
+> directive's own words." Relay commit a72e41e removed the Director's compression of 476 from INTENT.md
+> and put his four clauses in whole. At 14:47 the same day, critique.md lines 36-53 recreated that
+> compression - of 476 plus 481.3, 482.1 and 482.2 - where 484.29 does not reach it. The compression is
+> substantively faithful; 484.29'S REASON WAS NEVER THAT THE SUMMARY WAS WRONG, IT WAS THAT WHAT CC
+> EXTRACTED IS NOT CC'S TO CERTIFY.
+> And the second half is what makes it structural: INTENT.md is bound by 446/Part Six to move in the
+> same commit as any ruling that changes direction. critique.md and reviewer.md carry no such
+> obligation. There are now two distillations of the same rulings, and THE UNBOUND ONE IS THE
+> CRITIQUE'S SYSTEM PROMPT - read before INTENT.md, every pass. Part Six states the cost in his own
+> framing: "A distillation that goes stale is worse than none, because it would enforce yesterday's
+> intent with today's confidence."
+> This is kind 5, a collision with a standing ruling (484.29, and 446/Part Six), in the file 491 built
+> to protect the pass - the same shape 450 caught in INTENT.md itself.
+> THE QUESTION IS HIS, AND I DO NOT ANSWER IT: do critique.md and reviewer.md go to him for the reading
+> 446.2 required of INTENT.md, and does the same-commit rule extend to them. 482.2 governs the remedy
+> if he rules against them: fix it forward, do not revert.
+>
+> OPTIONAL 1 - THE REVIEWER'S BRIEF WAS STALE ABOUT THE BUILD ONE MINUTE AFTER IT WAS WRITTEN.
+> reviewer.md line 60: "The two block-*.sh guards are the only ones safe to invoke." There are three as
+> of 14:48 - block-briefing-agents.sh was added by 492 one minute after reviewer.md was committed.
+> Line 58 names three require-*.sh as never-execute; a fourth, require-relay-current.sh, exists and is
+> unnamed, though the closed permit list covers it and I confirmed it does not write marks or pull.
+> Line 43 orders the reviewer to check EVERY .sh in the folder, so it must handle a guard its own
+> permit list does not account for. The unnamed third guard is the hook enforcing 492, the mechanism
+> 491 depends on. Fails in the conservative direction. Reported because it is the concrete
+> demonstration of the refusal: an operational roster frozen into an unbound brief went out of date
+> within sixty seconds.
+>
+> OPTIONAL 2 - 491 WAS BUILT AND COMMITTED WITH NO BEFORE PASS, AND THIS PASS RAN WITHOUT ITS CROSSING
+> INPUT. 491.before did not exist when I ran, nor 492.before, 493.before or 490.after. critique.md
+> makes the before mark a designed input to this pass - "you are handed its findings so they cross even
+> though you two never meet." NOTHING CROSSED HERE. 453.1 puts the first pass before the build; the
+> build landed at 14:47 and the block was filed at 14:52. The structural reason is visible in
+> require-critique.sh: it is a STOP hook, so it can only speak at the end of a turn - and 491 was
+> written, built and committed inside one turn. Filed as a note because the mechanism already holds it.
+> It bounds what this pass is worth, and he should read it knowing that.
+>
+> WHAT I DID NOT CHECK: I ran no hook. I did not read builder.md, so I have not verified 491.2's
+> "exactly as the builder's does" against the builder's actual brief. I did not read
+> block-briefing-agents.sh. I did not establish how the turn that committed 491 got past the Stop gate.
+> I did not resolve 490. I read INTENT.md whole and directives 452, 453, 480, 484, 490-493 whole; not
+> the other 446 directives.
+
+## MY ACCOUNT
+
+**TWO INDEPENDENT AGENTS REACHED THE SAME REFUSAL WITHOUT SEEING EACH OTHER'S WORK.** That is the
+strongest signal this chain has produced all day. **The briefs are my prose standing as law, in
+files he has never read**, and 484.29 struck exactly that six hours earlier one file over.
+
+**AND ITS SECOND NOTE IS MY ORDERING FAULT, VISIBLE:** this after pass ran with **no before mark to
+cross**, because I launched both at once. *"Nothing crossed here."*
+
+**I HAVE CHANGED NOTHING. THE BRIEFS ARE HIS TO READ AND RULE ON** — that is 446.2, and it is the
+one condition nobody has met.
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
