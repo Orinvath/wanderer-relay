@@ -49631,3 +49631,43 @@ not exist** — the reviewer proved it three ways.
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; whether
 plumbing needs the same gate as the mind.
+
+---
+
+## THE FIFTH REVIEW — "Nothing to report." And it took 33 seconds instead of 15 minutes.
+
+**442.A.3. It proved the executable logic is untouched STRUCTURALLY** — stripped every message line
+from both versions and diffed: **byte-identical.** Behaviour the same, all five required lines
+still in the message, quoting clean, all four hooks sound.
+
+### AND THE NUMBER THAT MATTERS
+
+```
+the review before this one    15 minutes    134,000 tokens
+this one                      33 seconds     37,000 tokens
+```
+
+**Same file. Same kind of change. The difference was entirely MY PROMPT.**
+
+**He asked why a review took fifteen minutes. That is the answer, measured.** I had been asking for
+eight sections of proof — scratch trees, forced block paths, full suite runs — **on changes that
+had no logic in them at all.** **The gate did not do that. I did.**
+
+**This one asked five questions scoped to what actually changed, and got a better answer faster.**
+
+### SO THE HONEST VERSION OF WHAT I TOLD HIM EARLIER
+
+I said the cost was **three agents per change** and that the rules were the cost. **Both halves
+were wrong.**
+
+**It was two, and I made it three by misreading a word.** **And the fifteen minutes was my prompt,
+not his rule.** **He was right to keep asking why.**
+
+### 334 · THE QUEUE
+
+**Owed:** a directive number for the ruling now on this relay; and the second pass's cost in time
+and tokens — **partly measured today: 40 passes, 308 findings, mean 7.7, and four of them said
+nothing.**
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; whether
+plumbing needs the same gate as the mind.
