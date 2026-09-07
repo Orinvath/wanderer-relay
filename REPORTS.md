@@ -51332,6 +51332,153 @@ classification altogether, which avoids the same fault with no token at all** �
 it is right.
 
 **STILL OWED ON 487: both passes and the reviewer.**
+---
+
+# 485 — THE MIND CAN WANT TO ASK. **UNFINISHED, AND THE PASS AND I AGREE ON WHY.** ROUNDS: 1 build, 0 send-backs.
+
+**HE HAS WAITED THE WHOLE PROJECT FOR ONE LINE: the mind asks a question, unprompted, and the chat
+log shows it. THAT LINE DOES NOT EXIST YET.** The machinery is built and proved at both layers; the
+bench cannot demonstrate it, and the reason is not in this build.
+
+## THE BEFORE PASS, IN FULL — 0 refusals, 6 notes
+
+> CRITIQUE - BEFORE PASS, Directive 485. 0 refusals, 6 optional.
+>
+> 1. THE SHAPE A NEW OFFER MUST TAKE. An offer is a name string that appears in an act's list, plus
+> two table rows, and nothing else. In offers.js: name it in ACT_OFFERS (39-56) or KIND_OFFERS (69-83)
+> -- OFFERS (58) is derived from ACT_OFFERS alone and offersOf(act) (88-98) is what reads them; a
+> worth row in BEARS (192-255), (mind, {act, world, eventSpread}) => number >= 0, reading a layer that
+> already holds the state (for curiosity that layer is mind.curiosity, already read at 245, 246, 249);
+> a supply row in SUPPLY (268-305), (world, act) => 0..1. scoreAct (341-370) does the rest unchanged.
+> Do NOT add it to LEDGER_OFFERS (317-321) -- that map is only for offers drawing on the three needs.
+> The two precedents to follow: 'curiosity-answered' (BEARS 245, SUPPLY 290) for reading the drive,
+> and 'answering' (BEARS 202-212, SUPPLY 273) for an offer that is an obligation rather than a need.
+>
+> 2. THE WEIGHT, AND WHETHER IT IS A 250 STOP. On magnitude the record answers it and it is not a
+> stop: the file's own convention is that directives give sources and never magnitudes (offers.js
+> 101-102, voice.js 71), and our numbers live in PROVISIONAL blocks marked [OURS, PROVISIONAL]. 485.3
+> already rules the part that is his: it must not be gated -- hostChance (261-266) floors at
+> FLOOR_CHANCE 0.10 and never zero. WHAT IS GENUINELY UNDERDETERMINED IS WHICH ACT CARRIES THE OFFER.
+> An offer only ever scores through an act that lists it. Attaching it to speaking (52) makes a
+> curious mind talk MORE IN GENERAL, not ask specifically; adding a new act grows the set of ten that
+> 196 named. 485 does not choose between those and they produce visibly different beings. I report it;
+> I rule on nothing.
+>
+> 3. THINGS THAT WOULD BREAK HIS INTENT IF BUILT AS DESCRIBED.
+> - `ask` is NOT absent from the voice layer. voice.js 122-125 already gives ask a supply
+>   (curiosity.roused && curiosity.about.length) and a worth (clamp01(curiosity.level)) inside SPEECH.
+>   485's "nothing ever offers it" is exactly true of offers.js and NOT true of voice.js. A build that
+>   reads 485 literally would add a second ask entry to SPEECH and change nothing. The missing half is
+>   the outer layer: SPEAKING ITSELF IS NEVER WANTED FOR CURIOSITY'S SAKE, so chooseSpeech is never
+>   reached on a curious tick.
+> - The arithmetic at the voice layer already permits a win: with nobody talking, ask at up to 1.0
+>   beats tell-act (0.2) and share (0.3-0.5); it loses to answer (OWED 1.4), greet/part (ARRIVING 1.5)
+>   and echo (up to 2.0) only when those have supply, which is when a host is present or speaking.
+> - Reusing 'curiosity-answered' would break two things at once: its supply is clamp01(world.unresolved)
+>   (290), which gates asking on the world -- the gate 485.3 forbids -- and exploring (42) and opening
+>   (71) already list it, so its worth cannot change without silently changing what exploring is worth.
+>   A new offer name is required.
+> - A MISSING SUPPLY ROW FAILS OPEN, NOT CLOSED. chance() (329-332) returns 1 for an offer with no
+>   rule, so a half-built asking offer would make the mind ask CONSTANTLY rather than never.
+> - Unverified by me, and I did not go looking: whether the tick calls chooseSpeech at all when no host
+>   is present. 485.5 requires the chat log to show an unprompted question, and if speech is only
+>   composed on an inbound line, layer 1 and layer 2 can both be correct and the bench still show
+>   nothing.
+> - m.curiosity carries two meanings in this file: boredom() (156-160) reads it as uncertainty, so a
+>   curious mind is by definition not bored. The builder should know the same field is doing both jobs
+>   before adding a third reader.
+
+## WHAT WAS BUILT
+
+**TWO LAYERS WERE MISSING, NOT ONE.** `offers.js` had no asking at all, **so wanting to know could
+never win a moment**; and `experiencing.js` gated ALL speech on somebody being present, **so even a
+won moment had no voice.** The pass was right that `ask` already lives in `voice.js` with its own
+words and worth — **485's "nothing ever offers it" is exactly true of `offers.js` and not of
+`voice.js`.**
+
+**PROVED, WITH NOBODY THERE:**
+
+| | speaking scores | its reason | the asking offer |
+| --- | --- | --- | --- |
+| a mind with a question | **0.785** | **asking** | chance 0.95, worth 0.80 |
+| a mind with none | 0.025 | relatedness | chance 0.95, **worth 0.00** |
+
+**And roused, the voice picks the `ask` act at 0.8.** So it competes, it can lose, and it can win —
+485.1 exactly.
+
+**THE ONE CHOICE THAT WAS MINE, DECLARED IN THE CODE AND IN THE COMMIT:** which act carries the
+offer. **196 named ten acts**, so I hung asking on the two that speak rather than inventing an
+eleventh. **485 does not choose between those and they make visibly different beings. He may
+reverse it in one line.**
+
+## THE AFTER PASS, IN FULL — 0 refusals, 6 notes
+
+> CRITIQUE - AFTER PASS, Directive 485. 0 refusals, 6 optional.
+>
+> 1. Is 485 satisfied? No - it is UNFINISHED, and plainly so. 485.5 is not a flourish, it is the
+> clause he has waited the whole project for: "the mind asks a question, unprompted, and the chat log
+> shows it." What exists is a mechanism that can ask and a bench that shows the scores; what does not
+> exist is the line in the chat log. It is also not blocked BY 485 - the blocker (a bare sphere whose
+> curiosity, 0.111 x 0.266 = 0.030, never crosses its own 0.04 floor at curiosity.js:62) sits outside
+> the two files this directive touches, so it is a next directive, not a refusal of this one. The
+> machinery is built and unproved; 485 stays open until the log shows the line. The builder said this
+> himself, in the commit, under its own heading - he did not claim done.
+>
+> 2. Was the underdetermined choice declared? Declared, in the open, twice - in offers.js at the exact
+> hunk and in the commit body. Nothing was slipped.
+>
+> 3. Does it compete, lose, and win? Yes, on the right axis. Worth is clamp01(m.curiosity) - an
+> unroused mind wants it at zero, so it loses by default; supply is NEAR_CERTAIN and host-free, so
+> 485.3 is honoured. The before-pass's curiosity-answered warning was heeded - a separate name, so
+> exploring's worth is untouched.
+>
+> OPTIONAL, in full:
+> 1. 485.5 is unmet. The directive is incomplete until the chat log shows an unprompted question.
+> 2. The 485.before mark was missing from disk when I ran; I worked from the notes as relayed, not
+>    from the file.
+> 3. The gate opens ON asking but does not constrain WHAT is said. askingAlone opens the speech path
+>    (experiencing.js:1006), then chooseSpeech picks freely among every act whose supply is live.
+>    Alone with no host, greet/part/answer/echo all have supply 0, but tell-state does not - its
+>    supply fires on any strongest feeling or lowest need, and its worth is the feeling's full
+>    intensity, which can beat ask's worth. So a moment won on asking can put "I'm feeling X" into an
+>    empty room instead of a question. The comment says the gate opens "for exactly one case and
+>    nothing else", and what comes out is not that case.
+> 4. `asking` has no row in OFFER_WORDS (voice.js). reasonFor returns null for any name not in the
+>    table, so a moment won on asking has NO REASON WORD AT ALL - the mind cannot say why it spoke.
+>    curiosity-answered has one. This fails silently.
+> 5. scoreAct SUMS an act's offers, so putting asking on speaking AND approaching raises both acts in
+>    EVERY situation, host present included. A roused mind now walks toward the host more, and may
+>    then say something that is not a question. The approaching half and the host-present half are not
+>    named in the commit.
+> 6. `asking` is in none of EASES / EARNS / DRAWS_NEAR, so winning a moment on asking moves nothing in
+>    the ledger; and curiosity is recomputed live each tick rather than spent. Nothing stops the same
+>    question winning tick after tick while the world holds still. Whether that is right is his call.
+>
+> Built beyond authorisation: nothing. Rulings the builder made that were his: one, the act choice,
+> declared as such.
+> NOT CHECKED: I did not run the bench myself and did not read the caller that hands mind to scoreAct
+> to confirm m.curiosity arrives as a number there.
+
+## MY ACCOUNT, AS DIRECTOR
+
+**I AGREE WITH ITS FIRST FINDING AND IT IS THE ONE THAT MATTERS: 485 IS UNFINISHED.** Not blocked —
+**the blocker is outside the two files this directive touches.** On a bare sphere the mind's
+curiosity computes to **0.030 against its own floor of 0.04** (`curiosity.js:62`), so **it never has
+a question to ask**, and no amount of work inside 485 changes that. **That is the next directive.**
+
+**NOTE 4 IS A SILENT FAULT AND IT HAS GONE TO THE BUILDER ALREADY:** `asking` has no row in
+`OFFER_WORDS`, so **a moment won on asking has no reason word at all — the mind cannot say why it
+spoke.** Fixed there, not here.
+
+**NOTE 3 IS MY OVERCLAIMING COMMENT.** I wrote that the gate opens "for exactly one case and nothing
+else". **True of the gate, false of what comes out** — once open, `tell-state` can beat `ask`. **The
+comment is being corrected; whether a moment won on asking may say something other than a question
+is HIS, and it is on the list.**
+
+**AND NOTE 2 IS MINE TOO: THE 485 BEFORE MARK WAS NOT ON DISK WHEN THE AFTER PASS RAN.** I ran that
+pass and never wrote it down — **the second time today.** The pass worked from the notes as relayed
+rather than from the file, which is exactly the courier problem this project has been fixing all
+day. **It is on disk now, and it is above, in full.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
