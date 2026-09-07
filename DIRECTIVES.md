@@ -13178,3 +13178,25 @@ outside and already running.
    not a note.
 4. **DO NOT CLEAR THE HOME HOOKS FOLDER.** CC invited that and
    withdrew it: that folder holds the Critique gate's memory.
+
+## Directive 465 — THE LEDGER SURVIVES A RESTART. Question 1 of 5: what is saved.
+
+**HIS RULING** — save all of it, bounded by logic rather than by a
+number he had to pick.
+
+**COUNTS ARE TINY. SAVE THEM ALL, FOREVER.** Calls, rendered,
+refused, refusal reasons, taught back, timings. They are the thing he
+asked for when his 1,700-tick run vanished.
+
+**LINES ARE FOR HIS EYE. KEEP THE RECENT ONES.** He only ever reads
+the latest; a life's worth would grow without bound. Keep the last
+few hundred and let older ones fall away.
+
+**AND SAY WHAT THIS MEANS PLAINLY IN THE REPORT: the mind's own words
+go to a file on disk.** That is lawful — it is his machine and the
+mind's own life — but it is a different class of thing from a counter
+and it is named rather than slipped in.
+
+**THE OTHER FOUR QUESTIONS ARE NOT RULED HERE.** Merge or replace,
+when it writes, which file owns it, and what happens when the shape
+changes. They come to him one at a time.
