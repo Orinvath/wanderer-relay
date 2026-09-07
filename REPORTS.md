@@ -50361,6 +50361,36 @@ naming forty-odd marks.** Before the fix that same state passed silently.
 **THE TWO OPTIONAL NOTES ARE NOT FIXED AND NOT RULED** — duplicate probes in the fallback (wasted
 work, no wrong verdict) and `head -12` limiting the second look. **His.**
 
+---
+
+# THE THIRD REVIEW — NOTHING TO REPORT. And it took 41 seconds.
+
+**Three reviews on one small hook today, and this is the one that ends the chain.** Its words:
+
+> No correctness defects found. The added line does what it claims.
+>
+> **Verdict on `.claude/hooks/require-relay-current.sh:76`**
+>
+> Fail-closed: achieved. `case "$since" in ''|*[!0-9]*) since=0 ;; esac` runs after the repair read-back at line 70, so if the rewrite landed nothing (full/read-only disk) `since` becomes `0` rather than empty. At line 105 `[ "$mt" -gt "$since" ]` then becomes `[ <mtime> -gt 0 ]` — a valid comparison that is true for every real mark, so no mark is skipped by the `|| continue` and Part One evaluates every mark and names the ones missing from REPORTS.md. The previous silent pass-everything path is closed.
+>
+> No new defects:
+> - **Normal operation is untouched.** A valid numeric baseline fails both `''` and `*[!0-9]*`, so line 76 is a pure no-op — no extra writes, no extra noise, no behavior change on the healthy path. Verified against `""`, `abc`, `12x`, `1757000000`.
+> - **No permanent block.** The `stop_hook_active` guard at `.claude/hooks/require-relay-current.sh:36` exits 0 before any of this on a re-entry, so even in the read-only-disk case where the agent cannot write REPORTS.md either, the hook blocks at most once per cycle. `exit 2` at line 147 only on the failure path, unchanged.
+> - **No new error output.** The added line is pure parameter matching — no subshell, no redirect, nothing that can itself fail on the broken-disk path it exists to handle.
+> - `bash -n` passes.
+>
+> OPTIONAL (style/redundancy only, no correctness impact):
+> - `.claude/hooks/require-relay-current.sh:70` — the `|| echo 0` fallback on the read-back is now dead weight; line 76 covers empty and non-numeric alike. Harmless, but the two lines could collapse to one repair-then-validate.
+> - `.claude/hooks/require-relay-current.sh:104` — pre-existing, not introduced here: when `stat` fails, `mt` falls back to `0`, and with `since=0` that mark is skipped by `[ 0 -gt 0 ]`. That is the same one-mark hole as before this change, not a regression from it.
+
+**THE SIXTH HOOK IS DONE AND LIVE.** Built, refused five real faults of its own across three
+reviews, and every one of them proved by running it rather than reading it. **Two OPTIONAL notes
+above are unfixed and unruled, including a pre-existing one-mark hole when `stat` fails.**
+
+**WHAT THIS COST: three reviews and roughly ten minutes of agent time for one small shell script.**
+**That is open item 13 on the list below — whether a shell script needs the same gate as the mind —
+and today is the third day it has answered itself in wall-clock rather than by his ruling.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
