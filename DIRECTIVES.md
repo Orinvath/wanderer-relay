@@ -13200,3 +13200,29 @@ and it is named rather than slipped in.
 **THE OTHER FOUR QUESTIONS ARE NOT RULED HERE.** Merge or replace,
 when it writes, which file owns it, and what happens when the shape
 changes. They come to him one at a time.
+
+## Directive 466 — THE LEDGER: questions 2 to 5, settled by logic
+
+**He does not care and he is right not to** — none of these four is a
+decision about the mind. They are how a diagnostic file behaves, and
+logic settles all four.
+
+**2 · RUNS STAY SEPARATE.** He asked about a 1,700-tick run. A run
+answers that; a lifetime total does not. Each run is its own record,
+with when it started and how many ticks it lived.
+
+**3 · IT WRITES AS IT GOES**, not at shutdown. His own reason for
+asking was a run that vanished, and shutdown-only loses everything to
+a crash. Write on a cadence cheap enough not to matter and say what
+it is.
+
+**4 · THE RENDERER OWNS IT.** Master rule: code lives in the node
+that runs it. The renderer writes, the bench route reads, and the
+route does not own the file.
+
+**5 · A SHAPE CHANGE STARTS A NEW RECORD** rather than breaking the
+old one. An old record that no longer matches is kept and marked, not
+migrated and not deleted — 013's law: nothing here deletes what
+happened.
+
+**AND CLEARING:** he can clear it; nothing clears it on its own.
