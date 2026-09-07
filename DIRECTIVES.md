@@ -13293,3 +13293,17 @@ line with his vision, **IT GOES BACK UNTIL IT FITS.**
    matters more under this rule, not less.
 5. **IT STILL WRITES NO CODE AND RULES ON NOTHING ELSE.** Its power is
    to refuse and to speak for his intent. Nothing more.
+
+## Directive 470 — REVERT `b3449c2` AND BUILD IT PROPERLY
+
+**HIS RULING** — we do not skip a thing because of a past bug. We
+build it better so there is no bug.
+
+1. **REVERT `b3449c2`.** The reviewer says it must not ship.
+2. **THEN BUILD THE MODEL LIST PROPERLY**, without reintroducing the
+   pulldown-closing fault. That fault was already fixed once; the
+   fix for it stands and the new work goes around it.
+3. **AND THE DIRECTOR'S FRAMING WAS WRONG AND IS CORRECTED HERE:** he
+   told Lonnie a revert would "bring the bug back." It does not. It
+   removes the new fix. The old fault was fixed separately and stays
+   fixed.
