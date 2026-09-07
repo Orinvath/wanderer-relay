@@ -14017,3 +14017,24 @@ directive.**
 ### 4 · IT FAILS CLOSED
 A malformed address is refused. **A hook that cannot read the call
 refuses it** — the same rule 484.15 put on the other six.
+
+## Directive 493 — THE WORD IS "WORDS". "MARKS" IS RETIRED.
+
+**HIS RULING:** *"'marks' need to be changed to 'words'. We dont use
+the term marks anymore when refering to words."*
+
+1. **EVERYWHERE THE RECORD SAYS "MARKS" MEANING THE MIND'S WORDS, IT
+   SAYS "WORDS".** `INTENT.md`, `MIND_DECISIONS.md`, the agent briefs,
+   the hook messages, and the code's own comments.
+2. **AND IN THE CODE.** The field the mind's speech travels in is
+   named for what it is. 409.1 already ruled that every `marks`
+   variable is named for what it holds; **this finishes it.** A rename
+   that changes behaviour is a fault — **the checks move with it in
+   the same commit (306.D)**, and the bench reads the same before and
+   after.
+3. **WHAT IS NOT RENAMED: the Critique's evidence files.** The
+   `.before` and `.after` files a gate reads are *marks* in the other
+   sense — a mark that a pass ran. **They keep the word.** If that
+   collision is itself the problem, that is his to say.
+4. **REPORTS ALREADY WRITTEN ARE NOT REWRITTEN.** The relay is a
+   history and a history is not edited (013). **From now forward.**
