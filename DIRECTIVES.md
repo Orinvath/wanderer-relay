@@ -13307,3 +13307,17 @@ build it better so there is no bug.
    told Lonnie a revert would "bring the bug back." It does not. It
    removes the new fix. The old fault was fixed separately and stays
    fixed.
+
+## Directive 471 — PUSH THE HOOKS TO THE REMOTE
+
+**HIS RULING.** The five hooks exist only on his machine. **A reset to
+origin deletes all five**, and a missing hook exits quietly — so he
+would lose the review, the in-order check, the geometry guard and the
+commit guard **with nothing on any screen saying so.**
+
+1. **PUSH THEM.** They are committed locally under 463; get them to
+   the remote.
+2. **THE CREDENTIAL AND THE TRANSCRIPTS DO NOT GO** (462.2,
+   unchanged).
+3. **THEN PROVE IT:** a fresh clone of the remote has all five, and
+   they are executable.
