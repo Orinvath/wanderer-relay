@@ -52751,6 +52751,76 @@ clean; the Director sees one report at the end carrying every round.** The cost 
 **WHAT IS TRUE OF ALL THREE: they were written, not built.** The passes are what comes next, and
 under 496 the loop after that does not run through me.
 
+---
+
+# 494's BEFORE PASS — **REFUSED THREE TIMES, AND THE FIRST ONE WOULD HAVE STOPPED THE PROJECT**
+
+> CRITIQUE - BEFORE PASS, Directive 494. 3 refusals, 0 optional.
+>
+> REFUSAL 1 - AS SPECIFIED, THIS GUARD BINDS THE BUILDER AND NOT THE DIRECTOR, AND IT STOPS THE
+> PROJECT. 494.2 says: on Edit, Write and NotebookEdit, a path that is not DIRECTIVES.md or REPORTS.md
+> is refused. The hooks are registered user-wide, and THIS EXACT FAULT WAS PROVED THREE DIRECTIVES AGO,
+> NOT SUSPECTED - REPORTS.md:52545: "The pass tested the hook from inside a subagent and it fired on
+> it. So my guard binds every caller in his folders - the builder, the reviewer, the Critique - not
+> just me." Built as written, this refuses EVERY Edit and Write the builder makes in CC-Wanderer -
+> every line of the mind's code - refuses the Critique writing its own .before/.after marks, and
+> refuses the MIND_DECISIONS.md row that 246 demands in the same commit. AND IT EATS ITS OWN BUILD:
+> 494.4 says the builder builds this one, and the builder's Write of the hook script is itself a path
+> that is not one of those two files. A check demanding more than the rule it guards - the class that
+> has cost him a day six times - and 492's fault repeated one directive later. THE DIRECTIVE DOES NOT
+> SAY HOW A HOOK IS TO TELL THE DIRECTOR'S CALL FROM AN AGENT'S, and the record does not answer it: no
+> existing hook reads any caller identity, and the builder is forbidden to choose one (250). HIS TO
+> RULE: what marks a call as the Director's.
+>
+> REFUSAL 2 - 446'S SAME-COMMIT LAW BECOMES UNSATISFIABLE, AND INTENT.md IS LEFT WITH NO KEEPER. 494.1
+> forbids the Director INTENT.md and the briefs. INTENT.md PART SIX (446) requires a ruling that
+> changes direction to go in "in the same commit as the directive that made it", and builder.md carries
+> the identical rule for itself. The Director writes the directive and is now forbidden the other half
+> of that commit; the builder can only write it later, under a later number. 494 DOES NOT SAY WHO KEEPS
+> INTENT.md CURRENT, OR WHEN. Its own warning is the stake: "A distillation that goes stale is worse
+> than none, because it would enforce yesterday's intent with today's confidence" - and it is the file
+> this pass reads his intent from. Secondly, handing the briefs to the builder puts builder.md in the
+> hands of the party it instructs, the mirror image of 494.4's own reason for existing. HIS TO RULE:
+> who writes INTENT.md and the three briefs, and how 446's same-commit law is satisfied when the two
+> halves are written by different hands.
+>
+> REFUSAL 3 - THE THREE TOOLS NAMED LEAVE OPEN THE ROUTE THIS ENVIRONMENT ACTUALLY INSTRUCTS. 494.2
+> names Edit, Write and NotebookEdit. BASH WRITES FILES - sed -i, a heredoc, cat >, tee - and in this
+> environment that is not a loophole, IT IS THE STANDING INSTRUCTION: the auto-mode block carried in
+> this very session reads "make file changes with sed, heredocs, or short scripts, rather than using
+> the dedicated Read, Edit, or Write tools." So the guard would be walked past in the ordinary course
+> of work, by nobody intending to, while looking present, executable and healthy. That is the
+> guard-that-fails-open shape, and 442 is not met by a mechanism with the usual door left open. THE
+> RECORD DOES NOT ANSWER WHETHER BASH WRITES COUNT. The geometry guard has the same blind spot and it
+> has never been ruled either, so I am not treating precedent as a ruling. HIS TO RULE: does the ban
+> cover file writes made through Bash.
+>
+> 334 - WHAT I DID NOT CHECK. I read INTENT.md whole; 488-495 whole; block-real-geometry.sh and
+> block-briefing-agents.sh whole; the hook registration whole; require-in-order.sh to line 80;
+> builder.md to line 60; the closing entries of REPORTS.md. I did NOT read critique.md, reviewer.md,
+> block-unnamed-commits.sh, require-critique.sh, require-review.sh, require-relay-current.sh,
+> install.sh, record-review.sh, CLAUDE.md, HANDOFF.md, MIND_DECISIONS.md, AUDITS.md or TODO.md. For
+> 442, 446, 246, 250, 253 and 452.4 I relied on INTENT.md's quotations. AND ONE THING I COULD NOT
+> VERIFY: whether the PreToolUse payload carries any field naming the calling agent - my attempt to
+> inspect the CLI bundle was refused by the sandbox classifier. My statement that no discriminator
+> exists is drawn from the record and the six existing hooks, not from the runtime, so if one does
+> exist, Refusal 1 is still an unmade decision but not a wall. I ran no hook and no bench, and I wrote
+> nothing.
+
+## MY ACCOUNT
+
+**IT IS THE SAME FAULT I MADE THREE DIRECTIVES AGO, AND THE PASS FOUND MY OWN RECORD OF IT.** A hook
+cannot tell my hand from an agent's — **so a guard meant to stop me would have stopped the builder
+writing the mind's code, the Critique writing its own marks, and the guard's own build.**
+
+**THREE THINGS ARE HIS AND NOTHING MOVES WITHOUT THEM:** what marks a call as the Director's; **who
+keeps `INTENT.md` and the three briefs current once they are taken off me** — 446 says the ruling
+lands in the same commit as the directive, and 494 splits that commit between two hands; and
+**whether a write made through the shell counts**, which is the route this environment actually
+tells me to use.
+
+**NOTHING IS BUILT.**
+
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
 **Nineteen were open this morning. NONE of them closed today** — the day went on the courier, not
