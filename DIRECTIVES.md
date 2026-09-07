@@ -13641,3 +13641,33 @@ is**, so he cannot rule on them.
 3. **SAME FOR THE BUILD-REDUNDANCY** — what was built twice.
 
 **Answer only. Change nothing.**
+
+## Directive 482 — THE MISSING FAULT KIND, AND 469'S SIX DECISIONS
+
+### 1 · A CHECK THAT DEMANDS MORE THAN THE RULE IT GUARDS IS A REFUSAL
+**HIS RULING.** It is added to the intent-breaking list.
+
+**WHY: it has bitten this project six times** — 266 in thinking, 290
+in the interpreter, 289 in trust, and three since. Each time a check
+fired on the mind behaving correctly, and each time it cost him a day
+to find.
+
+**AND THE OTHER MISSING KIND — something already answered by the
+build — IS A NOTE, NOT A REFUSAL.** It is waste, not harm. He sees
+it; it does not stop the work.
+
+### 2 · 469'S SIX, FIVE BY LOGIC AND ONE BY HIS RULING
+```
+WHAT COUNTS AS A FINDING   what the pass itself names as a refusal.
+                           Its word, not a re-reading of its prose.
+THE IDENTIFIER             the directive number.
+THE SCOPE OF A STOP        that directive only. Nothing else halts.
+RETROACTIVITY              none. It applies from now forward.
+DO FINDINGS BATCH          no. One at a time, as he has ruled of
+                           everything else that reaches him.
+```
+
+**AND HIS RULING ON THE SIXTH — AN AFTER-PASS REFUSAL OF WORK ALREADY
+BUILT AND COMMITTED: FIX IT FORWARD.** Do not revert. Reverting
+throws away the good work with the bad; the fault is repaired where
+it stands.
