@@ -13671,3 +13671,22 @@ DO FINDINGS BATCH          no. One at a time, as he has ruled of
 BUILT AND COMMITTED: FIX IT FORWARD.** Do not revert. Reverting
 throws away the good work with the bad; the fault is repaired where
 it stands.
+
+## Directive 483 — THE GATE IS FOR THE MIND. Not for plumbing.
+
+**HIS RULING.** A shell script, a hook, a bench display, a report
+tool — **these do not go through the same gate as the mind.**
+
+**WHY** — the gate exists to protect the mind (476). It cost ten
+minutes and three rounds on a 150-line hook today, and that time came
+out of his day for no protection at all.
+
+1. **MIND CODE GETS THE FULL GATE.** Reviewer, both Critique passes,
+   all of it. Unchanged.
+2. **PLUMBING GETS THE REVIEWER ONLY.** Does the code work; does it
+   break something. That is a real check and it is cheap.
+3. **THE CRITIQUE DOES NOT RUN ON PLUMBING.** It reads for HIS
+   INTENT, and his intent is about the mind. A hook script has no
+   intent to break.
+4. **IF A CHANGE TOUCHES BOTH**, it is mind code and gets the full
+   gate. When in doubt, it is mind code.
