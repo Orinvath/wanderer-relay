@@ -48479,3 +48479,58 @@ is empty.**
 **Not run:** the rebuilt panel in a browser — that is his eye and mine cannot stand in for it.
 **470 built. 469 needs his ruling on five things. 468 superseded. 471 to 475 unread. 463.4's gap
 remains. 462.2 blocked on one. 459's proof blocked. 458.3, 455, 457 blocked. 453 unruled.**
+
+---
+
+## MY REGRESSION CHECK WAS THEATRE. A reviewer proved it by breaking the code and watching it pass.
+
+**`62b99ba` and `68487a3`.**
+
+### THE CHECK GUARDED NOTHING, AND IT PROVED IT RATHER THAN ARGUING IT
+
+I wrote a clause to stop the sight key being broken again. **It built two objects and compared
+their keys to each other. It never called the seeing at all.**
+
+**The reviewer renamed the key back in a copy of the module and ran both:**
+
+```
+key renamed back to the broken one:
+   a real check   ->  FAIL
+   MY clause      ->  PASS      green while the bug is live
+```
+
+**It was theatre. Replaced with one that CALLS the seeing and reads it the way the mind does** —
+and I proved it the same way: **red when the key is moved, green when it is right.** **It needed
+one extra word on an import that was already there.**
+
+### AND MY CARRIED RUN LOST ITS CLOCK — THE SAME FAULT I HAD ALREADY FIXED ONCE
+
+A run whose closing write fails is kept and written later. **I built that record in the wrong
+place** — after a new draft had put the tick count back to zero. **So a life of 1,700 ticks was
+carried as 0. The vanished run, in the file built to stop it, for the second time.**
+
+**Fixed: the record is built where the dying run's own clock still stands.**
+
+### AND MY OWN TEST THEN CAUGHT A SECOND ONE
+
+**It read −1700.** A failed close left the run open, **so the next one closed it AGAIN at the new
+clock — and that second record overwrote the good one.** **Fixed: the run ends either way; its
+record is safe in the carry.** **Proved: 1700 ticks, its counts intact, one record, marked ended.**
+
+### AND ONE THING THE REVIEWER SAID PLAINLY THAT I HAD GLOSSED
+
+**The suite is not all green and never was.** **523 pass, 17 fail, of 540.** **All seventeen are
+mind-behaviour clauses and none is reachable from my changes** — but I had leaned on "all clauses
+green" as if it were true, and it is not.
+
+### AND ONE IT CLEARED, WHICH I RECORD BECAUSE THIS IS THE HALF THAT GOES MISSING
+
+**The empty-path fix is correct and worth keeping**, with one small hardening left: a path that is
+not a string now throws rather than falling back. **That is the right direction** — a file path is
+a string — **but it should be named rather than thrown.**
+
+### 334 · THE QUEUE
+
+**Not run:** the full suite since these two commits.
+**470 built, its review running. 469 needs his ruling on five things. 471 to 475 unread. 463.4,
+462.2, 459's proof, 458.3, 455, 457 blocked. 453 unruled.**
