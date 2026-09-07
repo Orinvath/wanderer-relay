@@ -13984,3 +13984,36 @@ directive is not finished.**
 
 ### 4 · AND THE DIRECTOR'S ACCOUNT GOES UNDER THEIR WORDS, NEVER OVER THEM
 Unchanged from 481.3 and 488.4. **The pass speaks first, whole.**
+
+## Directive 492 — A HOOK REFUSES ANY WORD FROM THE DIRECTOR TO AN AGENT
+
+**HIS RULING:** *"there needs to be a hook that you cant talk to them
+directly so you cant influence them or interupt the process in any
+way."* **491 said it. This makes it impossible to not do.**
+
+**442 IS THE LAW BEING APPLIED: ENFORCE BY MECHANISM, NOT BY
+INSTRUCTION.** 491 as written is a rule the Director keeps by
+choosing to — **and the Director is the party the checkers judge.**
+
+### 1 · WHAT AN AGENT MAY BE GIVEN: A ROLE AND A NUMBER
+`CRITIQUE BEFORE 491`. `CRITIQUE AFTER 491`. `REVIEW 491`.
+`BUILD 491`. **That is an address, not a briefing.** Anything longer
+is refused by the hook — no scope, no summary, no "look at this
+file", no reasoning, no context.
+
+### 2 · AND NOTHING MAY BE SENT TO A RUNNING AGENT AT ALL
+No follow-up, no correction, no extra fault added halfway. **If the
+directive was wrong, the directive is fixed and the work runs
+again** — the Director does not steer an agent mid-flight. **This has
+already happened once: a third fault was sent to a running builder
+after it had started.**
+
+### 3 · THE AGENT FINDS EVERYTHING ELSE ITSELF
+The directive on the relay, the record, and its own brief file.
+**If it cannot tell what to do from those, the directive is not
+finished, and that is the Director's fault to fix in the
+directive.**
+
+### 4 · IT FAILS CLOSED
+A malformed address is refused. **A hook that cannot read the call
+refuses it** — the same rule 484.15 put on the other six.
