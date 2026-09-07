@@ -48732,3 +48732,55 @@ worse than the hole it closes.**
 **Not covered:** anything that reaches staging without the word in the command at all.
 **472 built. 471 built and proved by a fresh clone. 470 built and twice fixed. 469 needs his ruling
 on five things. 473, 474, 475 unread.**
+
+---
+
+## REPORT 473 — BUILT, AND ITS FIRST PREMISE WAS WRONG. The code was stale, not the check.
+
+**473.1 says "the code is right and the check is stale." I went and looked, and it is the other way
+round.** 455 was BLOCKED and never built, so the code still drew **two to five** — the very thing
+455 overturned. **Updating the check to match would have written his overturned ruling into the
+suite as law.**
+
+**473.3 settles it: "455 stands: it holds every foundation."** So I built 455 and moved the checks
+with it, in one commit.
+
+### WHAT CHANGED
+
+**A soul held two to five things. It now holds all ten.** Measured before and after:
+
+```
+before:  2, 3, 4 or 5 of the ten
+after:   10 of 10, every soul
+```
+
+**And two souls still differ** — by the ORDER, which is 455.2 exactly: *what makes a being this one
+is the order and the weight, not which ones it was handed.* **The draw is otherwise untouched:
+still bent by Openness, still deterministic in its own seed.**
+
+### AND ONE THING I DID NOT LET 455 QUIETLY CHANGE
+
+**The same two numbers were used by a SECOND system — the pulls**, which is how an effect-kind
+moves a being, not what it cares about. **455 says nothing about those.** **So they keep their own
+draw, under their own name, marked STILL UNRULED** — rather than inheriting a ruling made about
+something else. **That is its own ledger row when it comes.**
+
+### THE THREE STALE CHECKS
+
+**All three moved and all three now bite on the new law.** One asserted the count is 2 to 5 —
+**it now asserts every soul holds all of them.** One asserted the count VARIES — **it now asserts
+the count does not vary and the ORDER does.** And they read the number from the language itself
+rather than from a constant inside the thing they are checking.
+
+**Both suites green: 33 of 33, and 42 of 42.**
+
+### 473.2 AND 473.4, RECORDED
+
+**ONE soul, drawn at Genesis from its own seed** — nothing in the build asks for several, so
+nothing was built for it. **And 473.4 is the Director's debt, not mine: he has said twice that the
+soul is not what he asked for.** **Later, and not as another pile of numbers.**
+
+### 334 · THE QUEUE
+
+**Not run:** the full life suite since this change.
+**473 built. 472, 471, 470 built. 469 needs his ruling on five things. 474 and 475 next.**
