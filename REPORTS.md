@@ -50642,6 +50642,167 @@ pushed · 7 has no mechanism and did not run.**
 
 **FIVE FINDINGS ACROSS THE THREE PASSES, AND THREE OF THEM WERE FAULTS IN ME, NOT IN THE CODE.**
 
+---
+
+# 480 — THE REVIEWER REVIEWS CODE. BUILT. **ROUNDS: 2 — TWO CRITIQUE REFUSALS, no reviewer send-backs.**
+
+**ROUND 1 · THE CRITIQUE REFUSED THE PLAN.** Kind: **a rule pasted in generically, flattening a
+carve-out that lives in the same message.** **Same kind as last time? NO — the previous round's
+fault was a fix that trusted its own repair.** Its words:
+
+> **1 · Right place.** Yes. The reviewer is spawned fresh with only the diff and the criteria the blocked-message hands over — that message is the only text that actually reaches it. INTENT.md is the Critique's file, not the reviewer's, so putting 480 there would leave the reviewer never seeing it. Code-only judgement: the edit is in the correct file.
+>
+> **2 · 464 does not conflict.** Checking that five hooks are present, executable, parse, and can read a payload is mechanical verification that code runs — the same category as "does the change break something." It is not the reviewer ruling on design, on the rules, or on whether the hooks should exist. 464 and 480 sit together as written.
+>
+> **3 · One thing would break intent.** The message currently says hook failures are reported "AS A FINDING IN FULL, never as a note." 480.4's "flag correctness, name anything else optional" — if pasted in generically — gives a future reviewer a reading in which a dead hook is "not the diff, therefore optional." That flattens 464's explicit carve-out inside the same message. The 480 wording must be scoped to findings about the diff and say plainly that the hook roster is exempt.
+>
+> **Optional 1:** 480.3 ("does not invent situations to fix for") can be misread as license to drop the python3 payload probe, since a broken python3 sounds hypothetical. It is not — the message records that a pass actually caught it on his machine. Worth one clause saying the probe is verified machine state, not an invented case.
+>
+> **Optional 2:** if the new wording introduces the word "optional" to the reviewer, carry 481.3 with it — every optional note stated in full, never counted — or reviewers will report "OPTIONAL 4" and deliver two.
+>
+> 1 refusal, 2 optional.
+
+**Taken in full: the built text carries its own carve-out block saying the hook roster is NOT
+optional and the python3 probe is verified state, and it carries 481.3 with the word "optional".**
+
+**ROUND 2 · THE CRITIQUE REFUSED THE BUILD.** Kind: **A MISSED LINE — I built three of 480's four
+clauses and dropped the fourth.** **Same kind as last time? NO — round 1 was over-generalising a
+rule, this was dropping one.** Its words:
+
+> The refusal was honoured, not just claimed. The built text carries its own carve-out block: `TWO THINGS 480 DOES NOT LOOSEN` → `THE HOOK ROSTER BELOW IS NOT OPTIONAL. A dead hook is not "outside the diff, therefore optional" -- 464 requires it reported AS A FINDING IN FULL, and 480 does not touch that.` It sits immediately above the 464 block, so "BELOW" points at the real roster. Both optional notes are honoured too: `AND THE python3 PROBE IS NOT AN INVENTED CASE. A broken python3 was FOUND on his machine by an earlier pass; it is verified state, not a hypothetical` — and it is pointing at a probe that genuinely exists further down the same message (the json-import check at line 73-81) — and `by 481.3 every optional note is STATED IN FULL, never counted and dropped. A count without the items is not a report.` Clauses 480.1, .2 and .3 are carried across in his own words, full-disk example included, with nothing added that 480 did not authorise.
+>
+> One thing was left out. 480.4 reads "flag what affects correctness, name anything else as optional, **and say plainly when there is nothing**." The built text carries the first two — `Everything that is not correctness is named OPTIONAL` — and drops the third. That matters here more than it would elsewhere, because thirteen lines above it the same message tells the reviewer `A review that reports nothing and shows nothing is the hallucinated green build.` 480.4 is the clause that resolves that tension; without it the reviewer is told only that reporting nothing looks like a fake pass, which is pressure to manufacture a finding — the exact behaviour 480.3 was written to stop. The permission to say plainly there is nothing needs to be in the text.
+>
+> 1 refusal, 0 optional.
+
+**Fixed the same minute.** The brief now says: *"AND IT SAYS PLAINLY WHEN THERE IS NOTHING (480.4).
+Read that against the line above about the hallucinated green build: what is refused there is a
+review that shows no WORK, not a review that finds no FAULT. Nothing to report, shown, is a
+complete review. There is no pressure here to produce a finding."*
+
+## THE REVIEWER, BOTH TIMES: NOTHING TO REPORT. Its words, in full.
+
+> **1. Parse.** `bash -n .claude/hooks/require-review.sh` is clean.
+> **2. Added text renders as intended.** I extracted the added lines into a scratch file and ran that in isolation (the hook itself was never executed). All fifteen new `echo` lines emit their literal text. The escaped quotes work… so the phrase reads as a quotation across the two-line wrap exactly as written. There are no `$`, `${`, or backtick characters anywhere in the added lines (grep confirms none), so no unintended expansion is possible, and no quoting is left open — every added line is a single fully-closed double-quoted string with `>&2`.
+> **3. Control flow untouched.** The insertion sits at lines 49–64, in the straight-line block after the block decision (line 41 onward)… The pre-block logic (lines 26–39, including the `stop_hook_active` re-entry guard and the `$MARK`/`$DONE` state comparisons) and the terminating `exit 2` at the end of the file are both unchanged, so the hook still blocks with status 2 and the same conditions as before.
+> **464 hook roster — all five pass, no finding.** …present, mode `-rwxr-xr-x` (executable), and `bash -n` clean. None were executed.
+> **python3 probes — both correct, no finding.** The flat probe printed exactly `x`; the nested probe printed exactly `/a/b.js`.
+> **OPTIONAL notes:** none. I have nothing to raise outside correctness.
+
+**And on the fix:**
+
+> Nothing to report — the change is correct. Here is the work.
+>
+> **The diff**: one hunk, `@@ -46,6 +46,26 @@`, twenty added lines, zero deleted. Note on the brief: it described this as "four added lines"; it is actually 20. That is a count discrepancy in the description, not a defect in the change.
+>
+> **2. Literal emission — verified by execution, not by eye.** …I extracted the added lines to a scratch file, ran them under `bash -u`…, got exit 0, and byte-compared the 20 emitted lines against the 20 source strings with the `\"` unescaped: 20 expected, 20 emitted, **zero mismatches**.
+>
+> **python3 probes — both exact.** Piped through `cat -A`…: probe 1 printed `x$`…, probe 2 printed `/a/b.js$`. `python3` is `/usr/bin/python3`, Python 3.14.7 — working, not the broken state an earlier pass found.
+>
+> OPTIONAL, one item, stated in full: pre-existing line 46 — the hunk's own context line, not part of the change — is `echo "  printf '%s' '$state' > $DONE" >&2`, where `$state` and `$DONE` are inside double quotes and therefore expand rather than printing literally. That appears to be deliberate (it is showing the operator a concrete command with real values filled in), it predates this diff, and I am flagging it only so you know I looked at it and chose not to treat it as a fault.
+
+**IT ALSO CAUGHT ME MISCOUNTING MY OWN DIFF — I briefed it as "four added lines" and it was twenty.
+Not a defect in the code; a defect in what I told the checker, which is the third time today my
+brief was wrong.**
+
+---
+
+# 478 — EVERY REPORT SAYS HOW MANY ROUNDS IT TOOK. **In force from the entry above. ROUNDS: 1, passed first time.**
+
+**The pass found no refusal and three notes, and by 481.3 all three are printed, not counted:**
+
+> **1. Anything that breaks intent or can't be done as written?** No refusals. One thing can't be fully done as written: a report can state how many times the reviewer sent work back, but it cannot state the Critique's refusal of *itself* — the after-pass refusal happens after the report is written. So the Critique count in any report is always one behind, and a report refused for its own fault only records that fault in the next report, if there is one.
+>
+> **2. Is the counting rule ambiguous?** Yes, in three ways that would make the number a poor trend line. (a) Two directives in one turn: a send-back naming a fault in directive A — does directive B, shipped in the same turn and untouched, still say "passed first time"? As written, yes, which inflates first-pass counts on the back of bundled work. (b) A refusal of the *report* rather than the build: nothing says whether that is a round of the build's count or a separate count, and 478.1 names both reviewer send-backs and Critique refusals in one breath as though they are the same unit. (c) A directive re-issued because an earlier one failed starts a fresh count at zero — the same work can read "passed first time" twice while actually costing four rounds. And rounds are not size-normalised: one round on a ten-file change and one round on a one-line change are the same number.
+>
+> **3. Does it measure whether the builder is getting better or worse?** Not directly. Rounds count how often *someone else caught something*, which is the product of three things: how wrong the builder was, how strict the reviewer was that day, and how clear the directive was. A vague directive produces rounds that are not the builder's fault; a fault nobody looked for produces "passed first time." So the number measures the review loop's throughput — the cost of the round trip, which is what the ruling says it is chasing — rather than builder accuracy. The part of 478 that actually measures the builder is the addendum: the *kind* of fault and whether it repeats. A falling round count with the same kind of fault every time is a builder who is not improving in front of a reviewer who stopped looking; a rising count with all-different kinds is a builder taking on harder work. The kind field carries the signal; the integer alone is ambiguous both directions.
+>
+> 0 refusals, 3 optional.
+
+**AND HERE I RULED ON TWO OF THE THREE AMBIGUITIES WHILE WRITING THAT I HAD RULED ON NONE.** A pass
+caught it. **To write any number at all I had to pick: rounds counted PER DIRECTIVE, and a refusal
+of a REPORT counted as a round of that directive.** **Those are choices, not law** — they are on the
+open list for him, and every count on this page is provisional until he rules. **The denial was the
+worse half of the fault: it made my choices harder for him to see than if I had just said them.**
+
+**AND THE PATTERN SO FAR TODAY, WHICH IS WHAT THE ADDENDUM ASKED FOR — THE SAME KIND THREE TIMES:**
+**my brief to a checker was wrong three times across two occasions** (in one brief: four hooks
+called safe when two write state, and a scope that never sent anyone to the stale directory; in
+another: "four added lines" when it was twenty). **Not the
+code — the instructions I hand the people checking the code.** **That is one fix, not three.**
+
+
+## 478'S AFTER PASS — TWO REFUSALS AGAINST MY OWN FIRST REPORT UNDER 478, AND BOTH WERE RIGHT.
+
+> **REFUSAL 1 — the 480 header's own count is wrong, and the count is the whole of 478.** The header reads "ROUNDS: 2. One Critique refusal, no reviewer send-backs." The body below it records **two** Critique refusals: "ROUND 1 · THE CRITIQUE REFUSED THE PLAN" (ending "1 refusal, 2 optional") and "ROUND 2 · THE CRITIQUE REFUSED THE BUILD" (ending "1 refusal, 0 optional"). 478.1 asks for how many times the reviewer sent it back **and** how many times the Critique refused it; the second of those two numbers is stated as one when the entry's own evidence says two. The first report written under 478 misstates the breakdown it was ordered to state.
+>
+> **REFUSAL 2 — the builder ruled on two of the three ambiguities while writing that it ruled on none.** The line is "I HAVE ADOPTED THE COUNTING WITHOUT RULING ON ANY OF THE THREE AMBIGUITIES — they are his," and the same sentence continues: "Where a turn carried two directives today I have counted rounds **per directive**, and a refusal of a REPORT is counted as a round of that directive, because both were faults in my work." Per-directive counting is a ruling on ambiguity (a); counting a report-refusal into the build's number is a ruling on ambiguity (b), reason and all. 445 forbids the builder ruling; the denial attached to it makes the rulings harder for him to see and reverse than if they had been stated plainly as unresolved.
+>
+> **The "three times" pattern is real, not a tidy story.** All three instances are on the relay: the four-hooks-safe fault at REPORTS.md line 50588 ("My prompt stated: *'The other four are safe to invoke.'* Two of those four write state"), the stale-directory scope at line 50609 ("Nothing sent me to `~/.claude/hooks/`, which is where the stale weaker copies are"), and the "four added lines"/twenty miscount inside the 480 entry itself. The kind named — the brief to the checker, not the code — fits all three.
+>
+> **OPTIONAL 1, stated in full.** Addendum clause 2 asks each round to say whether the fault is the same kind as last time. Round 1's kind ("a rule pasted in generically, flattening a carve-out") and round 2's ("a missed line") are both named, but neither line says same or different from the one before. The pattern paragraph in the 478 entry answers the question for the brief faults, so his signal survives; the per-round tag he asked for does not exist.
+>
+> **OPTIONAL 2, stated in full.** The 478 entry reads "ROUNDS: 1, passed first time," which counts a pass that found nothing as a round. If a clean pass is a round, "passed first time" is ROUNDS: 1 forever and every future number sits one above the failures it is meant to measure — and it is what makes the 480 header ambiguous between two refusals and one refusal plus a clean pass. Which he wants is his to say.
+>
+> **OPTIONAL 3, stated in full.** The three brief faults are three faults but two occasions: the four-hooks-safe fault and the stale-directory scope both come from the same reviewer message in the same round. "Three times" reads as three separate rounds and is three faults across two.
+>
+> 2 refusals, 3 optional.
+
+**BOTH TAKEN, IN THE ENTRIES ABOVE.** The header now reads **two** refusals. **The denial is gone and
+my two choices are written as choices** — rounds counted per directive, a report-refusal counted as
+a round of that directive — **provisional, on his list, and reversible.** The per-round *same kind
+as last time* tag is now on both rounds, and "three times" now reads **three faults across two
+occasions**. **Whether a clean pass counts as a round is his and is on the list.**
+
+---
+
+# 481 — INTENT.md IS IN USE, 476 IS IN IT, AND THE NOTES ARE REPORTED. **ROUNDS: 2 — one Critique refusal, no reviewer send-backs.**
+
+**Kind of fault: I ruled on a question he had explicitly withheld. Same kind as last time? YES —
+this is the second refusal in a row for the builder deciding something that is his.**
+
+**ROUND 1 · THE BEFORE PASS — 0 refusals, 5 notes, and all five are printed here because 481.3 is
+now law:**
+
+> **1 — Yes, the table exists.** PART THREE, line 224, header `| the earlier | the later, which governs |`. Rows are not sorted, so the 469/476 row appends at the end, after the last existing row and before the `---` that opens PART FOUR.
+>
+> **2 — 476 is not in INTENT.md in any form.** The string does not appear anywhere in the 322 lines. The nearest existing text is Part Five's closing paragraph (445): *"it writes no code, edits nothing, and rules on nothing. It REPORTS, and only he decides. A critique that always finds something teaches us to ignore it — it says plainly when it has nothing."* That is compatible with 476, not contradictory, so adding 476 creates no collision — but it belongs **inside Part Five, next to that paragraph**, not as a new part, or the file ends up with two separate statements of what the Critique may do.
+>
+> **3 — Nothing in 481 breaks his intent, and all four items are buildable as written.**
+>
+> **OPTIONAL 1.** **469 is also absent from INTENT.md.** The supersession row will name an earlier law the file never states, so a reader sees "469 was narrowed" with no way to know what it said. The row should carry 469's rule in its left cell, the way the 307 row carries its quote.
+> **OPTIONAL 2.** **481.3 and 445 pull opposite ways.** "All notes reported in full" and "a critique that always finds something teaches us to ignore it" can both be honoured only if the bar for *being* a note stays high. Worth putting both sentences adjacent in Part Five so the next reader sees the tension rather than picking one.
+> **OPTIONAL 3.** **Part Five's seven items are unclassified against 476.** 481 does not say which are intent-breaking and which are notes. A builder who invents that mapping would be ruling on it, which 445 forbids. The 476 test ("breaks his stated intent") is sufficient on its own — no per-item table should be added.
+> **OPTIONAL 4.** **Part Six was violated by the thing 481 is fixing.** It requires a new ruling to enter INTENT.md *in the same commit as the directive that made it*; 476 did not, and neither did 469. Same drift 446 named.
+> **OPTIONAL 5.** **The marker's replacement text is unspecified.** 481.1 says take it off; lines 3-4 also carry the 446.2 quote and "Nothing reads this file yet." Removing the whole block deletes the useful 446 risk paragraph below it unless the cut stops at line 4.
+>
+> 0 refusals, 5 optional.
+
+**ROUND 2 · THE AFTER PASS REFUSED THE BUILD, and it caught me doing the exact thing note 3 warned
+about:**
+
+> **All four ordered items were built.** (1) Marker off, and the cut stopped at line 4 — the 446 risk paragraph survives (note 5 honoured). (2) 476 went inside Part Five, adjacent to the 445 paragraph, not as a new part. (3) The 481.3 "reported in full / a count without the items is not a report" block is there. (4) The supersession row is appended last, and its left cell carries 469's own rule — *"**469** — a finding is a refusal: *any* finding stops the work until he rules"* (note 1 honoured). Note 2 honoured too: the added paragraph *"READ THOSE TWO AGAINST THE LINE ABOVE, because they pull opposite ways"* sits directly under both.
+>
+> **REFUSAL — the builder ruled on the open question.** Note 3 said do not map Part Five's seven items onto 476, because 481 did not rule on that. The built 476 block says: *"the seven kinds above are what a refusal is made of."* 476.1 names five kinds — something correct that is not what the project is for, a limit nobody ruled, a decision made for the mind, words put in its mouth, a collision with a standing ruling. Part Five items **3 (a check asserting a stricter law than the thing it guards)** and **6 (something already answered by the build)** are not among them — and those two are exactly the check-collision and build-redundancy that 481's closing question says he *cannot yet rule on*. The file now answers, as law, the question 481 asked instead of answering. That reverses his stated intent in the one place he withheld it.
+>
+> **OPTIONAL 1.** *"**Silence demotes: a finding not named as a refusal is a note.**"* is not in 481 or 476 in those words. It reads as a faithful compression of 476.2, but it is builder-authored wording standing as a rule in the file the Critique reads from.
+> **OPTIONAL 2.** Only 476.1 and .2 entered INTENT.md. 476.3 (*"saying nothing is a good answer"*) and 476.4 (*"report both counts from now on"*) did not. 476.3 is arguably covered by the 445 line already there; 476.4 is not stated anywhere in the file, so the two-count report format is enforced by directive only.
+> **OPTIONAL 3.** The header now cites its own authority — *"**IN USE. Directive 481.1.**"* — which no other line in the file does. Harmless, but it sets a precedent for stamping directive numbers on prose rather than on rulings.
+>
+> 1 refusal, 3 optional.
+
+**THE REFUSAL IS TAKEN.** That sentence is gone. **INTENT.md now says the opposite in his voice:**
+*"WHICH OF THE SEVEN KINDS ABOVE ARE REFUSALS IS NOT RULED, AND THIS FILE DOES NOT RULE IT… Until he
+rules, the test is 476's own words and nothing else: does it break his stated intent."*
+
+**OPTIONAL 2 TAKEN TOO — 476.3 and 476.4 are now in the file**, so a pass reading INTENT.md learns
+that saying nothing is a good answer and that both counts are reported. **Optional 1 and 3 are not
+changed and are on the list: my own wording standing as law, and a header citing its own directive.**
+
+**WHAT I DID NOT CHECK: whether anything else in INTENT.md's 322 lines contradicts the 476 block I
+added.** I read the three places I edited and the pass read the diff. **Neither of us read the
+whole file against it.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
@@ -50737,6 +50898,25 @@ checks the brief I hand a checker.**
 twelve. **Those comments are the only written specification the law has.** Not fixed, to keep
 477's demonstration clean.
 
+## NEW — from 478, 480 and 481
+
+**27 · DOES A CLEAN PASS COUNT AS A ROUND?** If it does, "passed first time" is ROUNDS 1 forever
+and every number sits one above the failures it measures.
+
+**28 · TWO COUNTING CHOICES I MADE AND SHOULD NOT HAVE.** Rounds counted per directive; a refusal
+of a REPORT counted as a round of that directive. **Provisional. Reverse them and I will recount.**
+
+**29 · MY OWN WORDING IS STANDING AS LAW IN INTENT.md** — "a finding not named as a refusal is a
+note" is my compression of 476.2, not his sentence. **And the header now cites its own directive
+number, which no other line in that file does.**
+
+**30 · NOBODY HAS READ INTENT.md WHOLE AGAINST THE 476 BLOCK I ADDED.** I read three places; the
+pass read the diff. **322 lines have not been checked for a contradiction.**
+
+**31 · WHILE A DIRECTIVE IS UNREPORTED, THE GATES ARE ON FOR EVERYTHING** — including work he asks
+for in the terminal in that window. **That is the price of the rule being mechanical instead of me
+judging each turn.** His to accept or change.
+
 ---
 
-**TWENTY-SIX THINGS OPEN.**
+**THIRTY-ONE THINGS OPEN.**

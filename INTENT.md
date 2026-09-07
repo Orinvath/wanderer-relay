@@ -1,7 +1,9 @@
 # INTENT — the Critique's source
 
-**PROPOSED, NOT IN USE.** Directive 446.2: *"HE AND THE DIRECTOR CHECK IT AGAINST THE RECORD
-before it is used."* Nothing reads this file yet.
+**IN USE. Directive 481.1.** 446.2 required that *"HE AND THE DIRECTOR CHECK IT AGAINST THE RECORD
+before it is used."* **He checked it. 450 corrected it. Nobody took the marker off**, so the
+Critique spent five directives reading a file that said it was not real. **It is real. This is what
+the Critique reads its rules from.**
 
 **THE RISK 446 NAMED, and it is why nothing here was summarised loosely:** this file IS the intent
 as far as the Critique is concerned. **Anything left out stops being enforced, silently.** So the
@@ -249,6 +251,7 @@ for anything NEW. Exceptions that carry meaning: RED for a failing check and the
 | 293.3 Continue | **322.A** — Continue means past THIS violation |
 | 283.A.2 the Pulse queue | **340** — the Pulse goes entirely; the connectors light |
 | 399 the /50 | **400** — 42,000 for words, 100 for grammar/topics/beliefs, and the 100 is HIS working scale, stated as such |
+| **469** — a finding is a refusal: *any* finding stops the work until he rules | **476** — only an INTENT-BREAKING finding is a refusal; everything else is a note that stops nothing (481.4) |
 
 ---
 
@@ -299,6 +302,29 @@ for anything NEW. Exceptions that carry meaning: RED for a failing check and the
 **AND WHAT IT MAY NOT DO:** it writes no code, edits nothing, and rules on nothing. It REPORTS, and
 only he decides. **A critique that always finds something teaches us to ignore it** — it says
 plainly when it has nothing.
+
+**476 — AND ONLY WHAT BREAKS HIS INTENT IS A REFUSAL.** A refusal stops the work. **Everything else
+is a NOTE, and a note stops nothing.** **476.2: a finding not named as a refusal is a note** — so
+name a refusal as one, plainly, or it is read as a note.
+
+**WHICH OF THE SEVEN KINDS ABOVE ARE REFUSALS IS NOT RULED, AND THIS FILE DOES NOT RULE IT.** 476.1
+names five; items **3** (a check asserting a stricter law than the thing it guards) and **6**
+(something already answered by the build) are not among them, **and that is one of the questions
+still open to him.** Until he rules, the test is 476's own words and nothing else: **does it break
+his stated intent.**
+
+**476.3 — SAYING NOTHING IS A GOOD ANSWER.** A pass with nothing to say says so plainly.
+**476.4 — AND EVERY PASS REPORTS BOTH COUNTS: how many refusals, how many notes.**
+
+**481.3 — AND EVERY NOTE IS REPORTED IN FULL, on the relay, in the pass's own words.** His words:
+*what good is a note no one sees.* **A COUNT WITHOUT THE ITEMS IS NOT A REPORT** — the pass that
+caused this ruling said "OPTIONAL 4" and delivered two, and the two it dropped were the two that
+mattered.
+
+**READ THOSE TWO AGAINST THE LINE ABOVE, because they pull opposite ways** (a pass named this):
+every note is reported, AND a critique that always finds something teaches us to ignore it. **Both
+hold only while the bar for BEING a note stays high.** Report every note you have; do not go
+looking for notes to have.
 
 ---
 
