@@ -48260,3 +48260,68 @@ so the Critique is reading a source that does not describe its own rules.**
 468 superseded by 469, unmarked. 469 to 475 unread. 463.4's gap remains. 462.2 blocked on one
 thing. 459's proof blocked. 458.3, 455, 457 blocked. 453 unruled. `b3449c2` unpushed and must not
 ship — 470 orders it reverted.**
+
+---
+
+## 467's LIVE FAULT IS FIXED. Sight and sound have never once reached the mind, and now they do.
+
+**`6180f51`. It needed no ruling — 409.1 had already ordered it, and the comment in that very file
+cites 409 while asserting the opposite.**
+
+### WHAT WAS WRONG
+
+**The sense record handed its words back under one key. The mind reads another.**
+
+```
+perceiving.js returned   words: [...]
+experiencing.js reads    senses.flatMap((s) => s.marks)
+```
+
+**So every SEEN and every HEARD signal contributed `undefined`.** The spoken branch already used
+the right key; **sight and sound never did.**
+
+**And the line immediately above that read says what it costs, in the code's own words:**
+
+> *"a seen river is a thing that is TRUE... which is what finally makes RIVER learnable."*
+
+**IT HAS NEVER ONCE DONE ITS JOB.** Not since it was written.
+
+### AND THE SAME MISMATCH WAS KILLING HIS SUITE
+
+**A check read `.marks` off a function that returns `words`** — it threw, and **the suite died about
+thirty clauses from the end.** Everything below never ran.
+
+**Fixed. The suite now runs all 539 clauses to completion.**
+
+```
+before:  crashed part way, 16 failing
+after:   539 clauses complete, 523 passed, 16 failed
+```
+
+**The same 16, in the same organs — memory, stories, the page draw, the English gauge — and now
+about thirty more clauses actually run.** **A reviewer is confirming that against the parent commit
+in its own worktree rather than taking my word.**
+
+### AND I CORRECT MYSELF ON WHAT IT COSTS
+
+**I said the literal word `undefined` entered the mind's moment. It does not** — joining drops it.
+**The true cost is not a bad word getting in. It is that nothing got in at all**, and on a
+sight-only tick the moment came out **empty**, which the code's own comment says broke the
+embedding outright.
+
+### AND THE ELEVEN LEDGER FIXES
+
+**`6b890e0`, all proved:** records that are not runs no longer get past the shape check; **the live
+run can no longer lose its own lines** to records with a missing or tied date; a failed **write** no
+longer burns the minute; **the routes read the renderer's own file**; and **a surface that is not
+told which ledger to write gets a scratch one** — so **the suite can no longer put phantom runs in
+the table he reads.** That last one was the reviewer's point that isolation which nothing opts into
+isolates nothing.
+
+### 334 · THE QUEUE
+
+**Not yet confirmed:** that none of the 16 failures is mine — the reviewer is checking at the
+parent commit.
+**467's live fault fixed; its two-slot build still to come. 468 superseded by 469, unmarked. 469 to
+475 unread. 463.4's gap remains. 462.2 blocked on one thing. 459's proof blocked. 458.3, 455, 457
+blocked. 453 unruled. `b3449c2` unpushed — 470 orders it reverted.**
