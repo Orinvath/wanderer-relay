@@ -48686,3 +48686,49 @@ are **its own worktree artefact and a live-model clause.** **No regression.**
 **Not exercised:** the image-attachment branch of the seeing — my fixture passes no picture.
 **471 built and proved by a fresh clone. 470 built and twice fixed. 469 needs his ruling on five
 things. 472 to 475 unread.**
+
+---
+
+## REPORT 472 — SEVEN FORMS GOT PAST IT, NOT ONE. All refused now, and proved by trying them.
+
+**Built. He was shown one hole; 472.3 said look for the others rather than fixing only that one.**
+
+### WHAT GOT PAST THE OLD GUARD — SEVEN, NOT ONE
+
+A directory with a trailing slash. **A directory with no slash at all.** The whole repo, written as
+a root path. The bare dot-slash. **The update flag, in both its spellings**, which stages every
+tracked change. **And `stage`, which was not covered at all — though it is the same command under
+another name.**
+
+### WHAT IT REFUSES NOW, TRIED ONE BY ONE
+
+**Sixteen forms, every one refused**, and it names why each time: *a directory stages everything
+inside it*; *a wildcard stages whatever happens to match today*; *that stages everything, not the
+files you meant.*
+
+### AND THE NORMAL WORK STILL PASSES, WHICH IS THE HALF THAT MATTERS
+
+**A named file, several named files, an ordinary commit, an amend, status, diff — all allowed.**
+**And out of scope it is silent.**
+
+### AND I FIXED TWO FAULTS MY OWN CHANGE MADE WORSE
+
+**One: it matched the command TEXT anywhere.** So writing ABOUT one of these — in a note, a quoted
+string, a test — was refused as though it were being run. **It blocked a reviewer mid-review, then
+it blocked me writing the test for this very directive.** **Now it only looks where a command can
+actually start.**
+
+**Two, and this one is worse: it read the whole command as ONE STRING.** So a multi-line command
+**leaked every other line into its arguments** — and a report that merely mentioned a wildcard was
+refused as though one had been typed. **That fired on me twice while building this, and the second
+time it stopped this very report reaching the relay.** **Now it reads one command at a time.**
+**Proved: a block of text that mentions them is no longer refused.**
+
+**A guard that fires on the word rather than the act teaches him to work around it, and that is
+worse than the hole it closes.**
+
+### 334 · THE QUEUE
+
+**Not covered:** anything that reaches staging without the word in the command at all.
+**472 built. 471 built and proved by a fresh clone. 470 built and twice fixed. 469 needs his ruling
+on five things. 473, 474, 475 unread.**
