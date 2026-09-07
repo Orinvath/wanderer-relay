@@ -49928,3 +49928,110 @@ refusals or optional.**
 **Behind it:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six; 475's six; the
 interrupt clamp; the shell-block bypass; whether 427 was ever built; whether plumbing needs the
 same gate as the mind; and a directive number for the two-pass ruling.
+
+---
+
+# EVERYTHING OPEN. One list, plainly, because burying it in queue lines was not reporting it.
+
+**His words: "why did you not tell me about these other things that still needed to be done?"**
+
+**Because I put them at the bottom of long reports and treated that as telling him. It is not.**
+Every item below has appeared somewhere on this relay. **None of it was ever put in front of him
+as a list.** That is the failure this entry exists to end.
+
+---
+
+## BLOCKING NOW — 476 IS HALTED AND NOTHING BEHIND IT MOVES
+
+**1 · WHERE 476'S RULE LIVES.** By his own 446, a direction-changing ruling goes into `INTENT.md`
+in the same commit. **`INTENT.md` line 3 still reads "PROPOSED, NOT IN USE" and 446.2's check by
+him was never recorded, so I may not put it into service.** Meanwhile the hook already tells every
+pass to read that file. **It is in use in fact and not in law.** **476 is the third ruling missing
+from the Critique's only source; 469 is the second.**
+*Options named, none chosen: unseal INTENT.md; a subagent definition file, which does not exist
+anywhere on this machine; or leave it in a per-turn prompt, which 453 already rejected.*
+
+**2 · WHETHER TWO FAULT-CLASSES ARE REFUSALS OR OPTIONAL.** `INTENT` names **seven** kinds of
+intent-breaking fault. **476.1 names five.** Missing: **a check asserting a stricter law than the
+thing it guards** — six real instances on this record — and **something already answered by the
+build.** 476.2 makes silence a demotion, so both quietly dropped.
+
+---
+
+## THE MIND — and these are the ones that decide whether it is what he thinks it is
+
+**3 · A SOUL'S ORDER IS DECORATIVE.** 455.2 says what makes a being this one is **the order and the
+weight**. Measured: **the order is stripped before the soul is hashed** — a soul and the same soul
+reversed hash identically — **and rank correlates with depth at -0.002 over 200,000 draws.**
+**Nothing reads it.** **455 is not finished until he rules whether the order should carry weight.**
+
+**4 · DO THE FIVE SOULS READ AS SOMEONE?** 455.4 asked for sketch lines so **his eye** could judge
+whether a soul holding everything still reads as a person rather than an average. **They are
+posted. The judgement is his and I will not make it.**
+
+**5 · AND THE 205 READING UNDERNEATH IT.** A pass found the citation that blocked 455 may be
+**inverted** — 205's "generic" describes an avatar *lacking* a Persona, and `soul.js` **is** the
+Persona. **Never ruled.**
+
+**6 · 469'S SIX OPEN DECISIONS.** What counts as a finding; the identifier; what an after-pass
+refusal refuses when the commit already exists; the scope of a stop; whether it is retroactive to
+the findings already on disk; whether findings may travel in a batch. **A pass named all six and I
+did not carry them until today.**
+
+**7 · 475'S SIX REMAINING BIASES.** How often it thinks about what it was made for; how far a
+just-surfaced memory tilts it; and the four source weights. **The four collide with 427, which 474
+records as already settled flat — one question, not four.**
+
+**8 · THE INTERRUPT CLAMP.** Over 200,000 aspect sets, **5.2% land at the ceiling** — a class of
+being a feeling can essentially never take off a train. **Before 475 every being could be taken. A
+limit nobody ruled, introduced by a clamp.**
+
+**9 · WAS 427 EVER BUILT?** A pass audited the code: **memory is still drawn as a rival source,
+which is the exact thing 427.1 calls the fault**, and `surfacing.js` contains no mention of
+feeling, curiosity, concern or state. **Yet 474 closes three values on the grounds that 427 already
+ruled them.** **If 427 was never built, that pile is closed on nothing.**
+
+**10 · AND TWO WEIGHTS IN THE SAME DRAW WERE NEVER SORTED AT ALL** — association at 1.5 and
+language at 0.25 outweigh and undercut the three 474 settled, and appear in none of its four piles.
+
+---
+
+## THE MIND'S RECORD
+
+**11 · 246'S LEDGER ROWS NEVER WENT IN.** The pulls' constants, and 475's maps. **246 says the row
+goes in the same commit. There is no such ledger file in the tree for them to land in.**
+
+**12 · THE 89 ROWS.** 455 calls itself row 1 of 89. **Row 1 is built. The other 88 have no home.**
+
+---
+
+## THE PLUMBING
+
+**13 · DOES A SHELL SCRIPT NEED THE SAME GATE AS THE MIND?** Two Critique passes and a review, on
+every change. **That is why today ran long, and one line from him settles it.**
+
+**14 · A COMMAND INSIDE AN `if` OR A `for` STILL BYPASSES THE COMMIT GUARD.** Indentation was
+fixed; the enclosing keyword was not. **A scripted commit is exactly that shape.**
+
+**15 · THE GUARD FAILS OPEN IF ITS INTERPRETER BREAKS.** Every dangerous form allowed, silently.
+**The same fault 464 was written about, sitting under the guard rather than beside it.**
+
+**16 · AND `sudo`, a full path, or a leading variable still walk past it.**
+
+---
+
+## AND WHAT I OWE
+
+**17 · A DIRECTIVE NUMBER** for the two-pass ruling now sitting on this relay as a report entry.
+
+**18 · THE SECOND PASS'S COST IN TIME AND TOKENS.** 448 ordered it measured before the pass went to
+work. **Findings measured today; time and tokens still owed.**
+
+**19 · AND THE OPTIONAL NOTES FROM EVERY PASS BEFORE TODAY.** Under 476 they should have been named
+and were not, because the tier did not exist yet. **They are in the marks and have never been read
+by him.**
+
+---
+
+**NINETEEN THINGS. Every one of them was on this relay somewhere. NONE of it was ever put in front
+of him as a list, and that is the report I owed and did not make.**
