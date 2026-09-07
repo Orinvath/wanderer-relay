@@ -49745,3 +49745,59 @@ numbered checklist is what produced the number he is objecting to.**
 
 **Unchanged and all his**, plus: whether the pass text itself should go on the relay, since he has
 never once read one.
+
+---
+
+## 476 — IT WORKED ON ITS FIRST USE. Two refusals, four optional, down from eight.
+
+**The first pass run under 476 was the pass on 476.** **Its own count:**
+
+```
+REFUSALS  2      the things that break his intent, which stop the work
+OPTIONAL  4      named, and stopping nothing
+```
+
+**Against a mean of eight. The shape he asked for, immediately.**
+
+### THE TWO THAT STOP THE WORK, AND BOTH ARE HIS
+
+**1 · 476 HAS NOWHERE LAWFUL TO LIVE.** 446 already answers where a direction-changing ruling
+goes: into `INTENT.md`, in the same commit. **But `INTENT.md` still says "PROPOSED, NOT IN USE",
+446.2's check by him has never been recorded, and I may not put it into service on my own.**
+**Meanwhile the hook already tells every pass to read that file — so it is IN USE IN FACT AND NOT
+IN LAW.**
+
+> **This pass knows 476 exists only because I typed it into its prompt** — which is the exact
+> mechanism 453 rejected as an option rather than a check.
+
+**476 is the THIRD ruling missing from the Critique's only source.** 469 is missing for the same
+reason. **The options are named and none chosen** — the one worth his eye: **a subagent definition
+file, which does not exist anywhere on this machine.** A real file the loader reads, that a pass
+can review.
+
+**2 · TWO OF THE SEVEN CLASSES FELL OFF THE LIST.** `INTENT` names **seven** kinds of
+intent-breaking fault. **476.1 names five.** Missing: **a check asserting a stricter law than the
+thing it guards** — which the record says has happened **six times** — and **something already
+answered by the build.** **476.2 makes everything unnamed optional, so silence demotes both, and
+476 does not say it is demoting them.**
+
+### AND A NUMBER OF MINE IT CORRECTED
+
+**I gave him "4 of 40 said nothing" and he built 476 on it. It is misleading.** **26 of those
+passes predate 469. In the 14 since, the mean is 3.3 and ALL FOUR silent passes are in that
+window — 4 of 14, not 4 of 40.** **The restraint had already begun before he tightened it.**
+
+**It says plainly this does not change the ruling. Fewer is right either way. But he ruled on my
+framing and my framing was worse than the facts.**
+
+### AND ONE HONEST NOTE ON 476'S OWN TEST
+
+**476.4 says refusals must fall sharply from eight or the tightening did not take.** **That test
+cannot fail** — refusals are a subset of findings, so they come in under eight no matter what.
+
+### AND ITS SOUND HALF, WHICH REACHED HIM THIS TIME
+
+**Every headline number in 476 is exactly right.** And its diagnosis is `INTENT`'s own law — *a
+critique that always finds something teaches us to ignore it* — **finally given a consequence.**
+**The two-tier split is the right shape: 469 without it would have stopped the project, which 469.4
+predicted and did not prevent.**
