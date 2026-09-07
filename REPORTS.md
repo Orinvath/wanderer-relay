@@ -47809,3 +47809,83 @@ before storage. **One thing to name rather than assume: the mind's own line can 
 HOST taught it, so a host's word can reach disk by way of the mind's vocabulary.** **His call.**
 
 **Nothing here is a decision about the mind. No `MIND_DECISIONS` row is owed.**
+
+---
+
+## 466 — THREE QUESTIONS AND THE REST IS SETTLED. One is new and it is the one that matters.
+
+**Before-pass in `466.before` in full. 466 closes three of the four blocks 465 left. It opens one
+nobody had seen.**
+
+### THE NEW ONE: WHAT ENDS A RUN?
+
+466.2 says *"each run is its own record, with when it started and how many ticks it lived."**The
+code has no such thing as a run.**
+
+**The renderer is built once when the bench starts, and it outlives the mind inside it.** A new
+draft **ends a life** — it tombstones the archive and puts the tick count back to zero — **and the
+renderer is not told and keeps counting.**
+
+**So one record would straddle two lives, and its "ticks it lived" would read 1,700, then 0, then
+40.** **A record saying a life lived 40 ticks when it lived 1,700 is the run that vanished, wearing
+a file.**
+
+**Two readings, and it is his:**
+
+1. **A run is the renderer's life** — the bench being up. Simple, and wrong across a new draft.
+2. **A run is the being's life** — one record per mind. **234.5 already rules that a new draft ends
+   a life**, which points this way. It needs the renderer to be told, which nothing does yet.
+
+### AND TWO STILL OPEN FROM 465
+
+**Do refused lines get saved?** **And how many lines to keep** — "a few hundred" is a range.
+
+### WHAT IS NOW SETTLED, AND NOT BY ME
+
+**THE CADENCE IS DERIVED, NOT CHOSEN.** His own 234.2 already ruled this exact problem — state
+written mid-life so a crash does not take it — at **a bench minute, at the next tick boundary.**
+Same file class, same reason. **So: a bench minute, and once when a run ends, cited to 234.2.**
+
+**And a flaw stated before it bites (095): the safe write is synchronous, on the same loop as the
+beat.** At a minute it costs nothing. **Per beat it would add its own delay to the mind's real
+time, and 200 says the bench runs at real time.** **That rules per-beat out on its own.**
+
+### AND 466.4 IS HEAVIER THAN IT READS
+
+**Honouring "the renderer owns it" means moving code, because there is a live violation sitting on
+the very counter he wants saved.** `taught` is declared in the renderer and **incremented by the
+bench route.** **A caller gets one call; it never holds the node's insides.** That becomes a
+method.
+
+**And the tick count must be handed in as a reader, not read at rendering time** — otherwise a
+1,700-tick run whose last accepted line was at tick 40 **records 40.**
+
+### WHAT TO REUSE — AND IT ANSWERS THE BACKUP QUESTION FOR FREE
+
+**The test-run log, not the perception store.** 466.4 rules the perception store out: it is a
+separate module owning the file, which is the exact shape 466.4 forbids. **The test-run log already
+does all of it** — read, append, forget in the same file as the thing that makes the rows; append
+never overwrite; the row already carries when and how many ticks; **the route reads and does not
+own** — and **its file sits where git can see it, so it has history.** **That answers 465's backup
+worry without a decision.**
+
+**Take one thing from elsewhere: the safe write** — temp file, flush, rename — **so a crash
+mid-write leaves the old file whole.**
+
+### AND ONE CITATION THAT DOES NOT HOLD
+
+**466.5 grounds "never delete a record" in 013.** **013 does not say that about files** — it is
+about the mind never forgetting on its own, and about a host erasing what a host said. **If it did
+govern this file, then 465's lines falling away would be the same law deleting what happened, one
+paragraph apart, opposite results.** **The rule stands on his authority. The citation should not
+be quoted back as precedent later.**
+
+### AND ONE THING NEITHER OF US HAD FACED
+
+**The route he says will read this has no reader.** **Nothing on any screen fetches it**, and the
+one reader that exists **caps at eight lines** while 465 orders a few hundred kept.
+
+### 334
+
+**Not checked:** whether anything outside the main page fetches that route. **Nothing built yet —
+the run boundary decides the file's shape, so I am not guessing it.**
