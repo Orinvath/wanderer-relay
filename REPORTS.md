@@ -49404,3 +49404,59 @@ as the mind's own files?**
 475's six; the interrupt clamp; whether 427 was ever built; and the three-agents question above.
 
 **Every directive through 475 is built or blocked with its reason. Both repos are pushed.**
+
+---
+
+## HIS CORRECTION — ONE CRITIQUE, TWICE. And the reviewer found the right way to do it.
+
+**His words: two passes by the same Critique agent, not two separate agents.** **He is right and I
+had it wrong all day.**
+
+### WHAT I WAS DOING
+
+**Spawning two strangers.** That cost twice over — **and the after pass could not see what the
+before pass had said**, so it could not tell whether its own findings had been carried. **That is
+the after pass's whole job, and I had made it blind to itself.**
+
+### BUT MY FIRST FIX WAS WRONG TOO, AND A REVIEWER CAUGHT IT
+
+I changed the rule to **resume the same agent.** **448's own body argues against that**, twice:
+
+> *"EVERYTHING ELSE IN 445 AND 446 STANDS — the fresh subagent with no stake"*
+> *"WHAT THE SECOND PASS SEES: the change as it stands, INTENT.md, and the directive it came from."*
+
+**A resumed agent is not fresh, and the before-pass transcript is not on that closed list.**
+
+**And it named a cost I had not:** a resumed agent **arrives holding its own hypothesis**, and is
+partly checking whether it was right — **which is the worst state for catching the fault nobody
+predicted, and 448 says those are the ones that matter.**
+
+### AND THE ANSWER WAS ALREADY ON DISK
+
+**The `.before` mark already holds every word the before pass said** — the hook has enforced that
+since 453.
+
+**So: a FRESH agent each pass, and the after pass is HANDED that mark.** **His ruling is satisfied
+— one Critique's findings carried across both passes.** **448 is satisfied — the agent is still
+fresh and still naive about everything else.** **And it costs less than either of the wrong ways.**
+
+**Built. The hook's own message now says it, so it cannot drift back.**
+
+### AND TWO THINGS THE REVIEWER CORRECTED IN MY WORDING
+
+- **I credited 448 with a rule 448's body argues against.** **The rule is HIS, not 448's, and the
+  message says so now.** That is the very fault 445 lists — a check asserting a stricter law than
+  the thing it guards.
+- **And I stated "doubled the cost" as fact when 448 explicitly ordered that cost MEASURED.** **I
+  have not measured it. Said plainly rather than left standing.**
+
+### AND THE COUNT, CORRECTED
+
+**It was never three agents by anyone's decision.** **It is the Critique twice, plus the
+reviewer.** **I made it three by misreading one word, and that is most of why today ran long.**
+
+### 334 · THE QUEUE
+
+**Not measured:** what the second pass actually costs — 448 ordered it and it is still owed.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built.
