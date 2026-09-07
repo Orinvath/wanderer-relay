@@ -303,9 +303,22 @@ for anything NEW. Exceptions that carry meaning: RED for a failing check and the
 only he decides. **A critique that always finds something teaches us to ignore it** — it says
 plainly when it has nothing.
 
-**476 — AND ONLY WHAT BREAKS HIS INTENT IS A REFUSAL.** A refusal stops the work. **Everything else
-is a NOTE, and a note stops nothing.** **476.2: a finding not named as a refusal is a note** — so
-name a refusal as one, plainly, or it is read as a note.
+**476 — AND ONLY WHAT BREAKS HIS INTENT IS A REFUSAL.** 484.29: **these are his words, not a
+builder's summary of them.**
+
+> **1. A REFUSAL IS FOR A FINDING THAT BREAKS HIS INTENT.** Something correct that is not what this
+> project is for; a limit nobody ruled; a decision made for the mind; words put in its mouth; a
+> collision with a standing ruling. **Those stop the work (469, unchanged).**
+>
+> **2. EVERYTHING ELSE IS NAMED AS OPTIONAL** and does not stop anything. 445 already said this and
+> it is not being honoured — eight findings a pass is not restraint.
+>
+> **3. AND SAYING NOTHING IS A GOOD ANSWER.** 4 in 40 is too few. A pass that reports eight things
+> every time is not reading for intent, it is generating concerns, and it teaches us to ignore it —
+> which is exactly how a guard dies.
+>
+> **4. REPORT BOTH COUNTS FROM NOW ON:** refusals, and optional notes. If refusals do not fall
+> sharply from eight, the tightening did not take and that is a finding in itself.
 
 **AND NOW ALL SEVEN ARE RULED — 482.1 settled the last two.** **KINDS 1, 2, 3, 4, 5 AND 7 ARE
 REFUSALS. KIND 6 IS A NOTE.**
@@ -322,8 +335,6 @@ waste, not harm. He sees it; it does not stop the work."**
 it can be filed under a heading. **476's question is still the only question: does it break what he
 set out to build.**
 
-**476.3 — SAYING NOTHING IS A GOOD ANSWER.** A pass with nothing to say says so plainly.
-**476.4 — AND EVERY PASS REPORTS BOTH COUNTS: how many refusals, how many notes.**
 
 **481.3 — AND EVERY NOTE IS REPORTED IN FULL, on the relay, in the pass's own words.** His words:
 *what good is a note no one sees.* **A COUNT WITHOUT THE ITEMS IS NOT A REPORT** — the pass that
