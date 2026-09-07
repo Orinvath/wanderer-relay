@@ -13542,3 +13542,25 @@ Not only what each round was, but WHY. **The pattern, not the list.**
    different fix from correcting each instance.
 3. **THIS IS NOT SELF-BLAME AND IT IS NOT AN ESSAY.** One line per
    round. He is measuring a trend, not reading an apology.
+
+## Directive 479 — A TEST HE ORDERS IS NOT CODE. It does not go through the gate.
+
+**HIS RULING, and the Director's error caused it.** 477 asked CC to
+run the process and show him each step. **That is a test he ordered,
+not a change to the build.** It was written as an ordinary directive,
+so the gate treated it as code, and he had to order the agents to let
+it through so it could finish. **Ten minutes for something that
+should have taken under one.**
+
+1. **A TEST, A MEASUREMENT, OR A DEMONSTRATION HE ASKS FOR IS NOT
+   CODE.** It changes nothing in the build, so there is nothing for a
+   reviewer to review or a Critique to refuse. **It runs and it
+   reports.**
+2. **THE DIRECTIVE SAYS WHICH IT IS**, at the top, in one line:
+   **BUILD** or **TEST**. That is the Director's job and its absence
+   is what cost the time.
+3. **IF A TEST TURNS OUT TO NEED A CODE CHANGE TO RUN**, that change
+   is a BUILD and goes through the gate. The test around it does not.
+4. **THE GATE EXISTS TO PROTECT THE MIND** (476). A measurement that
+   touches nothing cannot harm it, and putting it through the gate
+   spends his time to protect against nothing.
