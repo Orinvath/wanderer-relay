@@ -48947,3 +48947,73 @@ what they actually said.**
 
 **This is the same fault the record keeps naming in a new place: a thing reported done that was
 not done. It is worth its own entry rather than a quiet fix.**
+
+---
+
+## THE REVIEW OF THE SOUL — 455.1 IS DONE. 455.2 IS NOT, AND THAT IS THE FINDING.
+
+**442.A.3, in full. It measured everything rather than reading it.**
+
+### 455.1 IS DONE AND CORRECT
+
+**Two thousand seeds: every soul holds exactly ten, no duplicates, none missing.** Same seed, same
+soul. **Two hundred seeds, two hundred distinct orders.** **And the pulls split is algebraically
+identical** — same distribution over twenty thousand seeds.
+
+### BUT 455.2 IS NOT, AND HE SHOULD SEE THIS PLAINLY
+
+**455.2 says what makes a being this one is THE ORDER AND THE WEIGHT.** The reviewer went looking
+for where the order is used.
+
+> **The order is stripped before the soul is hashed.** The canonical form sorts by domain name, so
+> **a soul and the same soul with its order reversed hash identically.** **The locked identity does
+> not contain the thing 455.2 says makes it this one.**
+
+**And the order carries no weight either.** The depth is rolled per position AFTER the sort — the
+correlation between rank and depth is **-0.002 over two hundred thousand draws.** **The ranking is
+decorative.** No consumer reads it.
+
+**AND THE CHECK I WROTE FOR 455.2 DOES NOT TEST THE WEIGHT.** The reviewer gave every domain of
+every soul the same depth — **so every being reads identically to everything downstream — and my
+check stayed green.** It only measures that the orders differ. **That is the decorative half.**
+
+### AND THREE PLACES THE CHANGE DILUTED SOMETHING
+
+- **The "made for" opening in the language now admits EVERY WORD, for EVERY BEING.** Its own comment
+  calls it the largest opening in the language; **it is now the whole language and distinguishes
+  nobody.**
+- **A teacher lever's contrast falls from about eighteen times to at most one point eight.**
+- **And the same for what a soul's leaning does to its thinking.**
+
+**None of that is a reason to undo 455 — he ruled it and the ruling is sound. It is what the ruling
+costs, and he has not been told.**
+
+### AND A LATENT BUG IT FOUND WHILE IT WAS THERE
+
+**At the lowest Openness the weights underflow to zero and the sort falls back to the sheet's own
+numbering.** **The literal order one-through-ten appeared 106 times in 5000 seeds.** **A closed
+mind's soul reads as his spreadsheet rather than as its own draw.** **Pre-existing, not caused by
+455 — and now measured.**
+
+### AND A SENTENCE OF MINE THAT WAS FALSE
+
+I wrote that keeping the pulls separate meant the change **"does not silently change a second
+system."** **It measured 500 of 500 seeds: the pulls DID change.** The count is drawn the same, but
+the shared random stream shifts. **A being locked under the old code, re-rolled from its seed,
+comes back with different pulls and a different hash.** **Corrected in the file, in full.**
+
+### AND THE GUARD AGAIN — TWO HOLES AND A FALSE REFUSAL
+
+- **AN INDENTED COMMAND BYPASSED IT ENTIRELY.** Two spaces in front and the guard was gone —
+  **which is the ordinary shape of a scripted commit, the exact thing it exists to stop.**
+- **Git's own options before `commit` walked through**, though 472 had closed that for staging.
+- **AND IT REFUSED LEGITIMATE COMMITS FOR THEIR MESSAGE.** A commit whose message mentions the flag
+  was blocked — **including the report of that very finding. It blocked the reviewer mid-review.**
+
+**All three fixed and proved. Named work, and a message that mentions the flag, both pass.**
+
+### 334 · THE QUEUE
+
+**Not decided, and his:** whether the order should actually carry weight — today it is decorative,
+and 455.2 says it is the identity. **That is one question and it decides whether 455 is finished.**
+**Also open: 455.4's sketch lines, the 205 reading, 246's row, 469's six, 475's six.**
