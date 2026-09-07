@@ -13321,3 +13321,22 @@ commit guard **with nothing on any screen saying so.**
    unchanged).
 3. **THEN PROVE IT:** a fresh clone of the remote has all five, and
    they are executable.
+
+## Directive 472 — CLOSE THE `git add .claude/` GAP
+
+**HIS RULING: fix it.**
+
+The commit guard blocks unnamed commits. **`git add .claude/` gets
+past it** — a directory argument, not `-A`, so the guard does not
+match it.
+
+**WHY IT MATTERS** — that class of command is how unapproved work
+reached his bench once already: a `git add -A` meant for one file
+swept in map changes CC was deliberately holding back.
+
+1. **THE GUARD BLOCKS A DIRECTORY ARGUMENT** as well as `-A` and
+   `-a`. Named files only, as already ruled.
+2. **PROVE IT BY TRYING THE THING** — attempt the blocked form and
+   show it refused.
+3. **AND SAY WHAT ELSE GETS PAST IT.** If one form was missed, look
+   for the others rather than fixing only the one he was shown.
