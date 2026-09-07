@@ -13564,3 +13564,11 @@ should have taken under one.**
 4. **THE GATE EXISTS TO PROTECT THE MIND** (476). A measurement that
    touches nothing cannot harm it, and putting it through the gate
    spends his time to protect against nothing.
+
+## Directive 479 — WITHDRAWN. Do not act on it.
+
+**His reasoning: it creates a new way to fail.** A directive that must
+be labelled BUILD or TEST fails when the label is forgotten — and both
+of us forget things constantly. **He does not need another obstacle.**
+
+CC does nothing with this. The gate stays as it is.
