@@ -13512,3 +13512,20 @@ not readable from the relay.
    and whether anything else is as weak.
 4. **THEN HE WATCHES IT ONCE** and rules whether the process is what
    he wants.
+
+## Directive 478 — EVERY REPORT SAYS HOW MANY ROUNDS IT TOOK
+
+**HIS RULING.** The ten minutes on one small script was not reading
+and not the gate. **It was CC failing three times in a row.** That is
+the real cost and nothing measures it.
+
+1. **EVERY REPORT STATES THE ROUNDS**: how many times the reviewer
+   sent the work back before it passed, and how many times the
+   Critique refused it.
+2. **AND WHAT EACH ROUND WAS FOR** — one line per round, the fault
+   that sent it back.
+3. **A FIRST-PASS BUILD SAYS SO.** "Passed first time" is the number
+   worth having and it should be the common one.
+4. **WHY IT MATTERS: it shows whether CC is getting better or
+   worse.** The gate's cost has been blamed on the gate three days
+   running; this measures the thing actually spending the time.
