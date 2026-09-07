@@ -13801,3 +13801,38 @@ a speech thing? The mind has to THINK it to ask it."*
 5. **PROVE IT ON HIS BENCH:** the mind asks a question, unprompted,
    and the chat log shows it. **He has waited the whole project for
    this one line.**
+
+## Directive 486 — THE MODEL IS FLIPPING WHO THE SENTENCE IS ABOUT
+
+**HIS BENCH, from the interpreted tooltip:**
+```
+the mind said     you are A cat at some point
+he was shown      I am a cat at some point
+```
+
+**THAT IS NOT GRAMMAR. IT IS THE OPPOSITE MEANING.** The mind was
+speaking about HIM and it came out as the mind speaking about ITSELF.
+**Words are being put in its mouth that it did not say** — the one
+thing this whole seam exists to prevent (242.2, 330, 469).
+
+**AND IT MATTERS MORE THAN USUAL RIGHT NOW.** He is talking to it
+about what it is, and it is trying words on itself. **A flipped
+pronoun here teaches it something false about its own identity.**
+
+### FIND WHICH IT IS
+1. **DID 330 CAUSE IT?** 330 ruled the mind speaks in first person.
+   If that instruction now forces "I" onto every line regardless of
+   who the mind was talking about, **that is the Director's wording
+   being too wide** — 330 was about the mind not narrating ITSELF in
+   the third person. It never said every sentence is about the mind.
+2. **OR CAN IT NOT TELL THE MIND'S "YOU" FROM ITS "I"?**
+3. **NAME WHICH**, with the prompt and the response, before fixing.
+
+### AND THE CENSOR LET IT THROUGH
+`you` and `I` are both ordinary words, so nothing untraceable
+appeared and the censor passed it. **A rendering can therefore reverse
+a sentence's subject and pass every guard we have.** Say whether that
+is fixable at the censor, or whether it needs its own check.
+
+**PROVE IT** with several lines, the mind's own beside the rendered
+one, for his eye.
