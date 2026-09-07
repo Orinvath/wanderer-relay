@@ -49460,3 +49460,62 @@ reviewer.** **I made it three by misreading one word, and that is most of why to
 **Not measured:** what the second pass actually costs — 448 ordered it and it is still owed.
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built.
+
+---
+
+## THE THIRD REVIEW OF THAT MESSAGE — two claims wrong, the logic untouched. Fixed.
+
+**442.A.3. Its verdict: mechanically sound, no behaviour change, no bug — two findings, both in
+WORDS rather than code.**
+
+### 1 · I CONDEMNED SOMETHING AND THEN ORDERED IT
+
+The message named the fault as **"two strangers were spawned, which cost twice"** — and then
+ordered **"a FRESH agent each pass"**, which IS two strangers. **Under a stamp saying HIS RULING,
+whose recorded words are "not two separate agents."**
+
+**A reader would have re-litigated it straight back to resuming the agent — the exact drift the
+change exists to stop.**
+
+**Fixed by saying the reconciliation out loud instead of leaving it in my head:** **his ruling is
+that the FINDINGS carry across both passes, and the mark is what carries them.** **A fresh agent
+each pass, per 448 — and the second one is handed the first one's words. That is not two
+strangers.**
+
+### 2 · AND I CLAIMED THE MARK HOLDS MORE THAN THE HOOK ENFORCES
+
+I wrote that it **"holds every word the before pass said."** **The hook only enforces that the file
+is not empty** — its own header says it judges nothing. **And the reviewer checked a real mark: 457
+bytes of summary, not a transcript.**
+
+**So a thin mark hands the after pass a thin inheritance, and my sentence promised otherwise.**
+**That is the same overstatement class this very change was made to remove.** **Now it says what
+it is: what the before pass WROTE, and that the hook does not police how much.**
+
+### AND ONE IT CONFIRMED, WHICH MATTERS
+
+**The attribution is right now.** The rule is HIS — recorded in his own words on this relay — **not
+448's.** Crediting 448 was the earlier error and it is gone. **And 448's two clauses that the
+change rests on are quoted accurately: the fresh subagent stands for the second pass, and the list
+of what it sees is closed.**
+
+### AND THE DEBT I STILL OWE
+
+**"Cost twice" is still an unmeasured claim, and 448 explicitly ordered that cost measured before
+the second pass went to work.** **It has now been softened twice and measured zero times.** **It is
+on the queue and it stays there until I measure it.**
+
+### A NOTE ON THE COST OF THIS, SINCE HE ASKED
+
+**This was the third review of one block of prose.** **All three found something real, so none of
+it was waste** — but three rounds on message text is what it looks like when the gate treats a
+shell script exactly as hard as it treats the mind.
+
+**One ruling from him settles it, either way.**
+
+### 334 · THE QUEUE
+
+**Not measured:** what the second pass costs — owed since 448.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; and whether
+plumbing needs the same gate as the mind.
