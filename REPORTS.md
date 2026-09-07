@@ -50888,6 +50888,51 @@ three faults were mine to catch and I had the code that answers them open in fro
 predicate than the gates' own, so my comment claiming "the same floor" is true of today's number
 and not of the rule; and duplicate-numbered headings are counted differently by the two copies.
 
+---
+
+# 482 — ALL SEVEN KINDS ARE RULED, AND 469'S SIX ARE ANSWERED IN THE FILE. **ROUNDS: 1 — passed first time.**
+
+**No refusals, no send-backs.** The before pass found 0 refusals and 3 notes; the after pass found
+**0 and 0**, which is the first clean pair today.
+
+## THE BEFORE PASS, IN FULL
+
+> **1 — Does 482 settle exactly that question?** Yes, and it settles the whole of it. The INTENT.md block at lines 310-315 says the open question is precisely items **3** and **6**… 482.1 rules both — 3 is a refusal, 6 is a note. Those were the only two unruled, so with them ruled all seven kinds are now settled and the file may state the full list plainly: kinds 1, 2, 3, 4, 5, 7 are refusals; kind 6 is a note. The "NOT RULED, AND THIS FILE DOES NOT RULE IT" paragraph is now false in its entirety and should be replaced by the ruling, not left standing beside it. Nothing on this question must remain unruled. What must stay is the sentence after it — the 476 test itself (*does it break his stated intent*) — which is not superseded; it is the test each kind is measured by, and 482 gives no licence to call something a refusal merely because it wears the label of kind 3.
+>
+> **2 — Where the six live.** Part Five, at the **end**, after the last paragraph and before the `---` that closes the part. Not the supersession table: that table pairs a superseded idea with the ruling that replaced it, and its 469 row is already written (line 254); 482 completes 469's leftovers, it does not supersede anything new.
+>
+> **3 — Nothing in 482 breaks his intent.** No refusals.
+>
+> **OPTIONAL 1.** Do not insert the six between 481.3 and the "READ THOSE TWO" paragraph. That paragraph's referents are positional — *"those two"* and *"the line above"* point at 481.3 and the "always finds something" line directly above it. A block wedged in between silently re-points them at the wrong text.
+> **OPTIONAL 2.** 482.2's block in DIRECTIVES.md lists only five in the code fence; the sixth, fix-forward, is prose beneath it. **A builder copying the fence verbatim will ship five.** The block in INTENT.md must carry all six.
+> **OPTIONAL 3.** The 476 block's own numbering will go stale. It says *"476.1 names five"* — once 3 joins them the count is six refusal kinds plus one note kind. If any of that sentence survives the edit it should be rewritten, not trimmed.
+>
+> 0 refusals, 3 optional.
+
+## THE AFTER PASS, IN FULL — 0 AND 0
+
+> Both rulings are built and both are correct to the directive. Kind 3 is stated as a refusal with his six-times reason quoted verbatim ("266 in thinking, 290 in the interpreter, 289 in trust, and three since"), and kind 6 as a note with his words ("It is waste, not harm. He sees it; it does not stop the work"). The summary line above them — "KINDS 1, 2, 3, 4, 5 AND 7 ARE REFUSALS. KIND 6 IS A NOTE." — matches the seven-kind list as written.
+>
+> All six of 469's decisions are carried. The sixth, which lives as prose beneath 482's fence and not inside it, is present as the table's last row: "AN AFTER-PASS REFUSAL OF WORK ALREADY BUILT AND COMMITTED | FIX IT FORWARD. Do not revert." **The before-pass's warning about a builder shipping five did not come true.**
+>
+> Placement is right. 482.2 sits at INTENT.md line 338, after the "READ THOSE TWO AGAINST THE LINE ABOVE … do not go looking for notes to have" paragraph and before the `---` closing Part Five. Nothing was wedged between that paragraph and 481.3, so "those two" and "the line above" still point where they did.
+>
+> The three notes were honoured. The "NOT RULED…" paragraph was replaced outright, not left standing beside the ruling. The 476 test survives as its own paragraph — "THE LABEL IS NOT THE TEST … 476's question is still the only question: does it break what he set out to build" — which is the retention the before-pass asked for and not a new rule. The stale "476.1 names five" sentence was rewritten into the accurate full count rather than trimmed.
+>
+> Nothing unauthorised was added and nothing was ruled on… INTENT.md alone modified, +25/−5.
+>
+> 0 refusals, 0 optional.
+
+**WHAT CHANGED IN THE FILE THE CRITIQUE READS FROM:** the paragraph saying the question was unruled
+is gone. **Kinds 1, 2, 3, 4, 5 and 7 are refusals; kind 6 is a note** — with his reason for each in
+his own words — **and the label is explicitly not the test: it is a refusal because it breaks his
+intent, never because it fits a heading.** **469's six are a table of their own, fix-forward
+included.**
+
+**AND THE THING WORTH SAYING PLAINLY: 484 CLOSED TWENTY-FOUR ITEMS FROM MY LIST, AND 482 CLOSED SIX
+MORE.** Yesterday's nineteen had grown to thirty-three. **Most of what is left is now work, not
+questions.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 

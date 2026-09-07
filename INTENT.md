@@ -307,11 +307,20 @@ plainly when it has nothing.
 is a NOTE, and a note stops nothing.** **476.2: a finding not named as a refusal is a note** — so
 name a refusal as one, plainly, or it is read as a note.
 
-**WHICH OF THE SEVEN KINDS ABOVE ARE REFUSALS IS NOT RULED, AND THIS FILE DOES NOT RULE IT.** 476.1
-names five; items **3** (a check asserting a stricter law than the thing it guards) and **6**
-(something already answered by the build) are not among them, **and that is one of the questions
-still open to him.** Until he rules, the test is 476's own words and nothing else: **does it break
-his stated intent.**
+**AND NOW ALL SEVEN ARE RULED — 482.1 settled the last two.** **KINDS 1, 2, 3, 4, 5 AND 7 ARE
+REFUSALS. KIND 6 IS A NOTE.**
+
+**KIND 3 — A CHECK THAT DEMANDS MORE THAN THE RULE IT GUARDS — IS A REFUSAL.** His reason: **it has
+bitten this project six times** — *"266 in thinking, 290 in the interpreter, 289 in trust, and three
+since. Each time a check fired on the mind behaving correctly, and each time it cost him a day to
+find."*
+
+**KIND 6 — SOMETHING ALREADY ANSWERED BY THE BUILD — IS A NOTE, NOT A REFUSAL.** His words: **"It is
+waste, not harm. He sees it; it does not stop the work."**
+
+**THE LABEL IS NOT THE TEST.** A thing is a refusal because it breaks his stated intent, not because
+it can be filed under a heading. **476's question is still the only question: does it break what he
+set out to build.**
 
 **476.3 — SAYING NOTHING IS A GOOD ANSWER.** A pass with nothing to say says so plainly.
 **476.4 — AND EVERY PASS REPORTS BOTH COUNTS: how many refusals, how many notes.**
@@ -325,6 +334,17 @@ mattered.
 every note is reported, AND a critique that always finds something teaches us to ignore it. **Both
 hold only while the bar for BEING a note stays high.** Report every note you have; do not go
 looking for notes to have.
+
+## 482.2 — 469'S SIX, SETTLED. Five by logic, one by his ruling.
+
+| the question | the answer |
+|---|---|
+| **WHAT COUNTS AS A FINDING** | what the pass itself names as a refusal. **Its word, not a re-reading of its prose.** |
+| **THE IDENTIFIER** | the directive number. |
+| **THE SCOPE OF A STOP** | that directive only. **Nothing else halts.** |
+| **RETROACTIVITY** | none. **It applies from now forward.** |
+| **DO FINDINGS BATCH** | no. **One at a time**, as he has ruled of everything else that reaches him. |
+| **AN AFTER-PASS REFUSAL OF WORK ALREADY BUILT AND COMMITTED** | **FIX IT FORWARD. Do not revert.** *"Reverting throws away the good work with the bad; the fault is repaired where it stands."* |
 
 ---
 
