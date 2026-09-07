@@ -48594,3 +48594,43 @@ my 403 handling is right** — it matches the server's own wording exactly.
 
 **Not seen by an eye:** the panel in a browser. **Mine cannot stand in for his.**
 **470 built and twice fixed. 469 needs his ruling on five things. 471 to 475 unread.**
+
+---
+
+## REPORT 471 — THE HOOKS ARE ON THE REMOTE, AND A FRESH CLONE PROVES IT.
+
+**Built. Nothing to rule.**
+
+### WHAT WENT
+
+**32 commits, 12 files, 808 lines** — the five hook scripts and their README, and the ledger, sight
+and model-list work behind them. **I checked before pushing: nothing credential-shaped in the
+diff, at all.**
+
+### AND THE PROOF HE ASKED FOR, DONE THE WAY HE ASKED
+
+**I cloned the remote fresh, into an empty directory, and looked:**
+
+```
+block-real-geometry.sh     present   -rwxr-xr-x
+block-unnamed-commits.sh   present   -rwxr-xr-x
+require-critique.sh        present   -rwxr-xr-x
+require-in-order.sh        present   -rwxr-xr-x
+require-review.sh          present   -rwxr-xr-x
+
+present: 5 of 5     executable: 5 of 5     all five parse from the clone
+```
+
+**And 462.2 holds: the clone's `.claude/` contains ONE thing — `hooks`.** No credential, no
+transcripts, nothing else.
+
+### WHAT THIS CLOSES
+
+**The hazard his own README has carried since 463 is gone.** A reset to origin, or a fresh clone,
+**no longer strips every guard at once** — because the remote has them now. **That was the last
+thing standing behind "a missing hook exits quietly and nothing on any screen says so."**
+
+### 334 · THE QUEUE
+
+**Not checked:** whether the remote is private — I did not look, and it is his to know.
+**471 built. 470 built and twice fixed. 469 needs his ruling on five things. 472 to 475 unread.**
