@@ -13691,6 +13691,15 @@ out of his day for no protection at all.
 4. **IF A CHANGE TOUCHES BOTH**, it is mind code and gets the full
    gate. When in doubt, it is mind code.
 
+## Directive 483 — STRUCK by 487. Do not act on it.
+
+**His ruling, in 487:** *"If it is a directive it gets gated. If it
+is not a directive it is not."* **The PLUMBING token and its test are
+removed from the gate.** A pass found the strike recorded only in a
+hook comment and a commit message, while this file's own convention —
+479, 247, 267/268/269 and a dozen others — is an appended heading
+carrying the number and the marker. **That is what this is.**
+
 ## Directive 484 — THE TWENTY-FOUR. Answered by logic, his rulings, or the science.
 
 **He ordered these worked without him. Done. Every one carries its
