@@ -51166,6 +51166,98 @@ code comment as mine to strike, and it is on the list below.**
 **ITEMS 7 AND 8 — a lawful 250 stop**, and the before pass predicted it: the record does not say
 which trait governs the remaining biases, and "widen it" names no width. **Items 11 and 12 remain
 to do.** **And 427.5's own question — is 281 live, and what changes under it — is not answered yet.**
+---
+
+# 486 — IT IS CAUSE 1: THE PROMPT PUT "I" IN FRONT OF EVERY SENTENCE. **ROUNDS: 1 so far — the cause was named before anything was touched, as he ordered.**
+
+## THE BEFORE PASS. 0 refusals, 2 notes:
+
+> CRITIQUE - BEFORE PASS, Directive 486. 0 refusals, 2 optional.
+>
+> 1. Nothing in 486 breaks his intent. It names the two candidate causes, requires the evidence before
+> the fix, and pre-authorizes narrowing 330 if 330 is the cause, so the fix path does not collide with
+> the standing first-person ruling.
+>
+> 2. Yes, hard. "NAME WHICH, with the prompt and the response, before fixing" is his own stated
+> ordering, and 486's whole purpose is to stop a guessed fix from papering over a false identity
+> signal. A fix shipped without the named cause, with the prompt and response shown, is a violation of
+> his stated intent, not a shortcut.
+>
+> 3. Answerable as asked, no ruling needed. Under 242.2 the censor traces CONTENT words to the record
+> and leaves function words free; "you" and "I" are function words, so the censor as specified is
+> structurally incapable of catching a reversed subject, and the answer is that it needs its own
+> check. Only where that check is housed is a design placement, and 486 already frames it as its own
+> check.
+>
+> OPTIONAL, in full:
+> - The bench's "the mind said" column must be the mind's own record -- its marks or its own grown
+>   grammar output -- not a second English rendering. If both columns come from the renderer, the
+>   several proved lines cannot distinguish a renderer flip from a flip already present upstream, and
+>   the proof he asked for would not prove which of the two causes it is.
+> - The two named causes may not be exhaustive. A third is that the rendering prompt correctly states
+>   who the sentence is about and the model reverses the subject anyway. If neither of the two named
+>   causes is provable from the prompt and response, that should be reported as such rather than
+>   forced into one of the two to satisfy step 3.
+
+## WHICH IT IS — 486.1, AND HERE IS THE PROMPT AND THE RESPONSES
+
+**`interpreter.js` handed the model this line, with nothing qualifying it:**
+
+```
+Use I, me, my. Never "it", never "the mind", never your own name.
+```
+
+**Run against the mind's own model, qwen2.5:14b, at the temperature the bench uses — FIVE LINES,
+FIVE FLIPS:**
+
+| what the mind said | what he was shown |
+| --- | --- |
+| you cat point | **I want to make a point about cats.** |
+| you kind | **I am kind.** |
+| you you warm here | **I feel warm here.** |
+| you ask name | **I ask for your name.** |
+| cold alone | I feel cold and alone. |
+
+**IT IS NOT 486.2. The model can tell "you" from "I" perfectly well** — the instruction was
+overriding it. **The last line proves the other half: a sentence the mind really was making about
+itself came out first person, correctly, under the same prompt.**
+
+## AND 330 IS NOT NARROWED BY THIS
+
+**330 stopped the mind being NARRATED in the third person, and it still may not say "it", "the
+mind", or its own name.** What was too wide was this wording, **which turned "speak as yourself"
+into "every sentence is about you".** His own reading in 486.1, confirmed.
+
+## THE FIX, AND THE SAME FIVE LINES THROUGH IT
+
+```
+DO NOT CHANGE WHO THE SENTENCE IS ABOUT. Your words say who you were talking about and that
+must survive: if they say "you", the sentence is about the one you are speaking to and it
+keeps "you". Use I, me, my only for what your words say about yourself.
+```
+
+| what the mind said | what he is shown now |
+| --- | --- |
+| you cat point | **You are a cat and you have a point.** |
+| you kind | **You are kind.** |
+| you warm here | **You are warm here.** |
+| you ask name | **You ask for my name.** |
+| cold alone | I feel cold and alone. |
+| lonely want someone | I am lonely and I want someone. |
+
+**The same wording fault sat in `rendering.js`'s ASK — "in the FIRST PERSON" — and is fixed with it.**
+
+## AND THE CENSOR: NO, IT CANNOT CATCH THIS. IT NOW HAS ITS OWN CHECK.
+
+**486 asked whether this is fixable at the censor. It is not, and the reason is that the censor is
+working correctly:** it traces CONTENT words to the record and leaves ordinary function words free,
+which is 242.2. **"you" and "I" are both ordinary function words, so a rendering can reverse who a
+sentence is about and pass every guard we have.** It did.
+
+**A pronoun cannot be traced. It can be counted.** If the mind's own words say *you* and the
+sentence it is handed does not, **the rendering is refused and the mind's own blunter line stands.**
+
+**WHAT I HAVE NOT DONE: the after pass has not run yet, and the reviewer is still reading it.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
