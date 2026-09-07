@@ -48537,7 +48537,7 @@ a string — **but it should be named rather than thrown.**
 
 ---
 
-## THE REVIEW OF THE REBUILD — the dangerous fault is gone, but the fix did not reach him. Fixed in `05bb6e4`.
+## THE REVIEW OF THE REBUILD — the dangerous fault is gone, but the fix did not reach him. Fixed in `0dcb378`. *(This entry first carried `05bb6e4`, which is not a commit that exists — a pass caught it. He steps through commits one at a time and a hash he cannot resolve costs him the look.)*
 
 **442.A.3, in full.**
 
@@ -48856,3 +48856,80 @@ what was there before — 1.6, 0.2, 0.55, 8. Nothing lurches.**
 **Not built:** the six above. **Not run:** the full life suite a second time since the last commit.
 **475 part-built. 474 recorded. 473, 472, 471, 470 built. 469 needs his ruling on five things.**
 **THE QUEUE IS OTHERWISE EMPTY — 475 is the last directive on the relay.**
+
+---
+
+## THE SIX MISSING PASSES — AND ONE SAID "NOTHING TO REPORT" THREE TIMES. First time in the record.
+
+**All eight marks written. That sentence matters on its own: 471 before, 471 after and 472 before
+came back CLEAN, and the pass said so plainly rather than finding something.** **Twenty-three
+passes had never once done that** — and under 469 a pass that always finds something stops the
+project.
+
+### AND IT VERIFIED 471 RATHER THAN TAKING MY WORD
+
+**It cloned the remote itself: five of five, executable, and that folder holds only hooks.** **And
+it answered the one thing my own 334 line said I had NOT checked — the repo is private.** A
+stranger's clone is refused.
+
+### THREE MORE FORMS GOT PAST THE COMMIT GUARD, AND ONE WAS THE EXACT ONE HE WAS SHOWN
+
+- **the dot, in double quotes** — passed
+- **the directory he reported, in single quotes** — passed. **The very form 472 exists to stop.**
+- **git's own options before the subcommand** — the repo-path flag walked straight through
+- **a command substitution deciding what gets staged** — passed
+
+**All refused now.** **Quotes come off before anything is judged**, git's own options are stepped
+over, and **a substitution is refused by name: if a command decides what gets staged, nobody named
+it.** **Named files, several named files, amend, status and diff all still pass.**
+
+### AND TWO FILES STILL SAID THE OPPOSITE OF WHAT IS TRUE
+
+- **The hooks README still said that gap was open, and that the remote has none of the hooks.**
+  **471 and 472 made both false and neither commit corrected the file.** **Both struck and marked.**
+- **And a comment in the panel claims keyboard opens ARE covered** — while the report shipped
+  beside it says they are not. **The report was right. The comment is now too.**
+
+### AND A COMMIT HASH ON THIS RELAY DID NOT EXIST
+
+I wrote `05bb6e4`. **There is no such commit.** The real one is `0dcb378`. **He steps through
+commits one at a time, so a hash he cannot resolve costs him the look.** **Corrected in place, with
+the mistake left visible.**
+
+### AND THE ONE I OWE HIM: 455.4 WAS NEVER DISCHARGED
+
+**455.4 asked for sketch lines so HIS EYE could judge whether a soul that holds everything still
+reads as SOMEONE.** **I posted a count instead — and then answered the question myself, which is
+188's line exactly.** Here are the lines.
+
+```
+ALDER   struck by : action and motion > nature and place > time and quantity ...
+        holds     : fairness .79  care .67  authority .62  sanctity .61  loyalty .41
+
+BROOK   struck by : culture and society > body and health > action and motion ...
+        holds     : loyalty .76  authority .62  sanctity .49  fairness .47  care .25
+
+CINDER  struck by : time and quantity > abstract concepts > logic and questions ...
+        holds     : care .76  fairness .59  loyalty .51  authority .51  sanctity .45
+
+DELL    struck by : culture and society > emotion and inner state > nature and place ...
+        holds     : loyalty .50  authority .50  fairness .45  care .31  sanctity .30
+
+EMBER   struck by : identity and people > body and health > abstract concepts ...
+        holds     : fairness .77  sanctity .47  care .31  loyalty .28  authority .20
+```
+
+**WHETHER THAT READS AS SOMEONE IS HIS, AND I AM NOT ANSWERING IT.** **455 is not closed until he
+does.** **And the 205 question underneath the original block is still unruled.**
+
+### AND TWO MORE FOR HIM
+
+**246's ledger row for the pulls never went in** — I said "its own row when it comes", and 246 says
+**the same commit.** **And there is no such ledger file in the tree for it to land in.**
+**And 469's six open decisions never reached him**, in the same entry that counted four failures of
+exactly that kind.
+
+### 334 · THE QUEUE
+
+**Not closed:** 455.4 and the 205 reading; 246's row; 469's six decisions; 475's six biases.
+**Every directive through 475 is reported. The relay's queue is empty.**
