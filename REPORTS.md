@@ -49148,3 +49148,66 @@ weights in his pile.** **475.2 holds exactly — all four strict-equal at the mi
 **Every directive through 475 built or blocked with its reason. Waiting on him: the soul's order;
 455.4 and the 205 reading; 246's rows; 469's six; 475's six; the clamp; and whether 427 was ever
 built.**
+
+---
+
+## THE GUARD REVIEW — my fix traded three holes for three, and one of them was refusing his ordinary work.
+
+**442.A.3, in full. Fixed in `fc43ee2`. Its verdict was "I would not ship it as-is."**
+
+### THE THREE NAMED FAULTS ARE GENUINELY FIXED
+
+**Thirty-seven of thirty-seven required refusals pass**, and every required allowance — including a
+multi-line message quoting an indented staging command, and a message that IS the flag.
+
+### BUT MY FIX INTRODUCED THREE OF ITS OWN, IN THE SAME FAMILY
+
+**1 · MY MESSAGE-STRIPPER HAD NO LEFT BOUNDARY.** Any token merely ENDING in the message flag was
+read as the flag and **swallowed the next word.** A folder path ending that way **ate the word
+`add` itself**, and the whole command went invisible. **Both older versions refused it. Mine
+allowed it.**
+
+**2 · AND IT CROSSED NEWLINES.** A bare flag at the end of one line **deleted the newline and the
+first word of the next command** — hiding it from both loops entirely. **Also a regression.**
+
+**3 · AND IT COST EVERY COMMAND.** Three extra program launches on **every Bash call in these
+folders**, measured at 71ms fixed and 37 seconds on a very large command. **Now it only runs when
+there is a message at all** — five ordinary commands cost 256ms total.
+
+### AND ONE THAT WAS NOT MINE BUT WAS REFUSING HIS ORDINARY WORK
+
+**The commit loop never checked the line was actually a commit.** So it searched the whole line for
+the flag and refused:
+
+```
+git branch -a        git log --all         git fetch --all       git push --all
+git diff --stat -a   git show -a           git clean -a          git grep -a
+```
+
+**All of those were being refused as "commits every tracked change."** **It blocked the reviewer
+mid-review — the same failure this guard keeps repeating.** **Fixed and proved: all ten pass now.**
+
+### AND WHAT IT CLEARED, PLAINLY
+
+**The message-stripping cannot be abused to hide a second command** — it tried every form and all
+were still refused. **No new false refusals from message content** — apostrophes, backslashes,
+substitutions, wildcards, three-line messages, a file named with the flag. **And the fallback fails
+CLOSED**: with a broken interpreter that still reads JSON, every dangerous form is refused.
+
+### AND THREE HOLES IT NAMES THAT REMAIN, ALL PRE-EXISTING
+
+**A leading environment variable, `sudo`, or a full path to git** still get past the line matcher.
+**And a message given by heredoc rather than the flag is not removed.** **Same class as before: the
+guard knows a command by how a line begins.**
+
+### AND THE ONE I SHOULD HAVE ASKED BEFORE BUILDING
+
+**I put an interpreter call in the path of every command he types, and I did not weigh that out
+loud.** **It is cheaper now and it fails closed — but whether a guard should sit in that path at
+all is his, and I made it a fact before it was a question.**
+
+### 334 · THE QUEUE
+
+**Not measured:** the cost on a very large command since the change.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; and whether 427 was ever built.
