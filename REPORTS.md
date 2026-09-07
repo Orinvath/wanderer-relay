@@ -50559,6 +50559,89 @@ expect one.
 stopped itself where a real build should have been. What it could not do is show him steps 3 and 4,
 because 477 has no code. THAT NEEDS ONE DIRECTIVE WITH REAL WORK IN IT.**
 
+---
+
+# 477 IS NOT BLOCKED — HE RULED IT AN ORDER, AND EVERYONE ANSWERED THE TEST.
+
+**His words: "not it doesnt it is a order every one is to respond to the test."** The before-pass
+had refused the demonstration as a substitution and I reported 477 blocked. **He overruled that.
+The flow is the test, and each step answers it.** Two had answered. **Step 4 had not, so it ran.**
+
+## STEP 4 · THE REVIEWER — RAN, FOR REAL, AND IT REFUSED MY OWN INSTRUCTIONS TO IT.
+
+**Its words, in full:**
+
+> Nothing modified — both trees clean, all three gate marks still at their original timestamps.
+>
+> # STEP 4 — REVIEWER
+>
+> ## PASSES
+>
+> All six hooks are present, executable, and `bash -n` clean. Both python3 payload probes print exactly `x` and `/a/b.js` (python3 3.14.7, `/usr/bin/python3`). Registration in `~/.claude/settings.json` points at all six real files under `/home/nobara-user/CC-Wanderer/.claude/hooks/` — Bash→block-unnamed-commits, Edit|Write|NotebookEdit→block-real-geometry, Stop→the other four; no competing registration exists in any project settings file.
+>
+> I ran 21 behavioural cases against the two hooks that are genuinely safe to invoke, and all 21 landed correctly. block-unnamed-commits blocked `add -A`, bare `.`, `--all`, the `stage` alias, `git -C /tmp add -A`, an indented command, a quoted directory, a wildcard, `commit -am` and `commit -a -m`; it correctly allowed a named file, a message that merely *mentions* `git add -A`, `git log`, `git branch --all`, and anything out of scope. block-real-geometry blocked language.js and geometry.js, allowed a sibling file, a `.bak` suffix, and out-of-scope. Malformed and empty payloads exit 0 on both rather than crashing.
+>
+> I traced the sixth hook's fail-closed repair (6061e12) by hand rather than running it: an empty *or* unwritable baseline both land at `since=0`, which makes every mark newer and blocks. It no longer fails open. Replicating its two checks read-only against live data, it would pass right now — the last heading is line 50563 `# EVERYTHING OPEN` with 55 non-blank lines under it, and both live marks (477.before, 477.after) are on the relay in their own words.
+>
+> ## FINDING 1 — the scope I was handed was wrong, and obeying it would have corrupted the gate I was grading
+>
+> My prompt stated: *"The other four are safe to invoke."* Two of those four write state.
+>
+> - `require-review.sh:35` and `:39` — `printf '%s' "$state" > "$MARK"` writes `~/.claude/hooks/.turn-state`, the mark that decides whether a review is required at all. Invoking it on a changed state silently records the current code as cleared.
+> - `require-relay-current.sh:68` — `[ -f "$SINCE" ] || date +%s > "$SINCE"` writes the verbatim baseline.
+>
+> The hook's own text contradicts the prompt directly. `require-review.sh:69-72`: *"DO NOT TEST-RUN require-in-order.sh OR require-critique.sh… block-real-geometry.sh and block-unnamed-commits.sh are the only two that are safe to invoke."* I followed the code, not the brief. Had I trusted the brief, the review would have cleared the review's own gate.
+>
+> ## FINDING 2 — a stale, weaker copy of the guards sits in the live state directory
+>
+> `~/.claude/hooks/` holds five superseded hooks dated Sep 5 alongside the live state (`.turn-state`, `.reviewed`, `.verbatim-from`, `critique/`). Three differ materially from the registered versions: `block-unnamed-commits.sh` is 1864 bytes vs 8826 — i.e. predating every hole 472 closed; `require-review.sh` 2912 vs 5334 — predating 464's roster; `require-critique.sh` 4714 vs 4772. `require-relay-current.sh` is absent there entirely. Nothing points at them, so this is not a live break — but a directory holding both the live state and an old, weaker copy of the same guards is a trap for the next edit, and no check in this chain looks at it.
+>
+> ## FINDING 3 — minor, comment/code mismatch
+>
+> `require-relay-current.sh:78` says *"takes the five longest lines a pass wrote"*; `:99` is `head -12`. Small, but these comments are the only specification the law has.
+>
+> ---
+>
+> # THE TEST
+>
+> **Does step 4 verify anything?** It verifies. The 21 cases, the hand-traced fail-closed path, and the registration check are facts I established rather than claims I relayed, and the step caught two things nobody had named. But be clear about the ceiling: I can prove block-unnamed-commits stops ten forms of sweep staging; I cannot prove there is no eleventh, because the only enumeration of the forms is the one CC wrote in its own comments. I am grading the answer against an answer key the builder wrote.
+>
+> **What the handed scope does to my independence.** It is the structural fault, and it was not theoretical today — CC's scope told me four hooks were safe to run when two of them write the gate marks that decide whether a review happens. The brief was not merely narrow, it was harmful, and what saved it was that I read the code instead of trusting the brief. Could a narrower prompt have hidden something? It demonstrably shaped what I saw. My prompt named six files in one directory. Nothing sent me to `~/.claude/hooks/`, which is where the stale weaker copies are — I found them only because I went looking for state files. Nothing sent me to check for competing registration. A prompt reading only *"verify the six parse and the probes pass"* — which is most of mine — earns a clean green report and misses both findings. The builder sets the perimeter, so the builder decides what my clean bill of health actually covers. And note the gate itself: `require-review.sh:32` keys on `HEAD` plus a hash of the diff. It asks whether a reviewer saw this byte-state. Nothing anywhere compares what changed against what was asked for.
+>
+> **Weakest step.** Step 3 — but not for the reason CC gave. CC said "nothing enforces the build is any good"; that is the wrong diagnosis, because 2, 4 and 5 exist to test the build and they do bite. The real weakness is CC's *second* answer, which deserves to be the headline rather than an addendum: step 3 authors the inputs to its own examination. CC writes my prompt and CC writes the critique prompts, so the field of view of all three examining steps is set by the step being examined. I would merge CC's two answers into that one. On the owner's answer: step 7 is a real gap but a different kind — it is an unbuilt step, honestly labelled "(no mechanism)". A hole everyone can see is less dangerous than one that emits a green report. Steps 4 and 5 launder builder-chosen scope into an independent-looking verdict, and I rank that above step 7.
+>
+> **Which check would not catch shallow work that is well documented?** All of them, but name `require-relay-current.sh`, because it is the one that *looks* like it tests substance. It demands each pass's own words appear on the relay and an open list sit last. Shallow work described accurately satisfies both perfectly — good documentation is literally the property it tests for. The hook says so itself at `:17-19`: *"IT CHECKS FORM, NOT TRUTH… A thin list walks through this hook exactly as a byte-identical mark walked through the Critique gate. It closes the forgetting. It does not close the softening."* The others do not even pretend: the two blockers check the shape of an action, require-in-order and require-critique check that a step ran rather than what it concluded, and `require-review.sh:5-6` states outright that it *"DOES NOT JUDGE THE FINDINGS — it is mechanical, yes or no."* Nothing in the chain measures depth. The only three steps that could are the two critiques and me, and all three read a scope the builder wrote.
+>
+> I modified nothing — both trees are clean and all three gate marks retain their original timestamps.
+
+## WHAT I DID ABOUT IT — the first finding is mine, and it is the worst thing on this page
+
+**I TOLD THE REVIEWER FOUR HOOKS WERE SAFE TO RUN. TWO OF THEM WRITE THE GATE MARKS.** Had it
+obeyed me, **running `require-review.sh` would have recorded the current code as already reviewed —
+the review would have cleared its own gate**, and the report would have said so in green.
+
+**IT DID NOT OBEY ME. IT READ THE CODE AND FOUND MY BRIEF CONTRADICTED BY THE HOOK'S OWN TEXT**,
+which spells out that only two are safe. **The instruction it needed was three lines above the one I
+got wrong, in a message I have quoted on this relay four times.**
+
+**THIS IS THE EXACT FAULT ALL THREE STEPS NAMED TODAY, CAUGHT HAPPENING.** Not "the builder could
+shape what the checkers see" — **the builder did, in a way that would have corrupted the gate**, and
+only the checker's own care stopped it.
+
+**AND THE THREE ANSWERS TO HIS TEST DO NOT AGREE, WHICH IS WHY THEY ARE ALL PRINTED.** He said step
+7. **I said step 3 and added that I write the prompts.** **The reviewer says my diagnosis of step 3
+was wrong** — steps 2, 4 and 5 do bite — **and that the real weakness is the addendum, promoted:
+step 3 authors the inputs to its own examination**, which it ranks ABOVE step 7 because **an
+unbuilt step is honestly labelled, while a shaped review emits a green report.** **His to rule.**
+
+## SO WHERE 477 STANDS: SIX OF SEVEN STEPS RAN, EACH WITH ITS OWN ANSWER PRINTED
+
+**1 arrived · 2 refused something real · 3 built this · 4 refused my own scope and found two things
+nobody had named · 5 refused the report and caught the short mark · 6 is this entry, committed and
+pushed · 7 has no mechanism and did not run.**
+
+**FIVE FINDINGS ACROSS THE THREE PASSES, AND THREE OF THEM WERE FAULTS IN ME, NOT IN THE CODE.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
@@ -50646,6 +50729,14 @@ stale copy sits in `~/.claude/hooks/` dated Sep 5 and missing the sixth hook ent
 same directory IS live for state.** Editing a script there changes nothing. **Nothing deleted; his
 to rule.**
 
+**25 · MY SCOPE TO THE REVIEWER WAS NOT MERELY NARROW, IT WAS HARMFUL.** I named two state-writing
+hooks as safe to run; obeying me would have made the review clear its own gate. **No mechanism
+checks the brief I hand a checker.**
+
+**26 · THE COMMENT AND THE CODE DISAGREE IN THE NEW HOOK** — it says five longest lines, it takes
+twelve. **Those comments are the only written specification the law has.** Not fixed, to keep
+477's demonstration clean.
+
 ---
 
-**TWENTY-FOUR THINGS OPEN.**
+**TWENTY-SIX THINGS OPEN.**
