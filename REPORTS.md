@@ -49017,3 +49017,61 @@ comes back with different pulls and a different hash.** **Corrected in the file,
 **Not decided, and his:** whether the order should actually carry weight — today it is decorative,
 and 455.2 says it is the identity. **That is one question and it decides whether 455 is finished.**
 **Also open: 455.4's sketch lines, the 205 reading, 246's row, 469's six, 475's six.**
+
+---
+
+## THE REVIEW OF THE GUARD FIXES — three of the four things I touched were still wrong.
+
+**442.A.3, in full. Its verdict was "not ready", and it was right.**
+
+### WHAT IT FOUND
+
+**1 · I PUT THE INDENTATION FIX IN ONE LOOP AND NOT THE OTHER.** The staging half was genuinely
+fixed. **The commit half never got it** — so an indented commit-everything, inside an `if`, inside
+a loop, inside a function, **walked straight through, silent.** **That is the ordinary shape of a
+scripted commit and the exact thing the guard exists to stop.**
+
+**2 · AND MY FIX FOR THE MESSAGE OPENED A BYPASS.** I cut everything from the message flag to the
+end of the line — **so the everything-flag placed AFTER the message became invisible.** That form
+was refused by the OLD guard and allowed by mine. **I traded one hole for another.**
+
+**3 · AND IT CREATED A NEW FALSE REFUSAL, ON EXACTLY THE COMMIT A REVIEWER WRITES.** A commit
+message **spanning two lines**, quoting an indented staging command, was refused — **because my
+indentation fix fed that line to the staging detector.** **The report of the finding was blocked by
+the finding.**
+
+### WHAT I DID ABOUT IT
+
+**The message is now removed ONCE, as a whole quoted region, wherever it runs to** — before
+anything is judged at all. **Not cut to the end of a line.** Everything outside the message is read
+exactly as before. **And both loops strip indentation now, not one.**
+
+**Refused:** an indented commit-everything, in an `if`, in a loop, in a function; the flag placed
+after the message; the amend form with it appended; the attached-message form; git's own options
+before the subcommand; and every staging form as before.
+**Allowed:** a commit whose message mentions the flag, mentions the everything-option, mentions a
+staging command, or IS the flag; **a multi-line message quoting one**; named files, several named
+files, amend, status, diff.
+
+### AND WHAT IT CLEARED
+
+**Git's own options before the commit half are properly closed** — nine variants tried, all
+refused. **Malformed input and out-of-scope folders: silent and clean, every case.** **And the soul
+comment change is comment-only** — proved by stripping comments from both versions and finding the
+files byte-identical.
+
+### AND FIVE HOLES IT NAMES THAT I HAVE NOT CLOSED
+
+**A leading environment variable, `env`, `sudo`, `bash -c`, or two spaces after an `&&`** all still
+get past the line matcher. **All pre-existing, none introduced here.** They are one class: **the
+guard recognises a command by how the line begins, and there are more ways to begin a line than it
+knows.**
+
+**And this report was itself blocked twice while being written**, for containing the shapes it
+describes. **That is the honest limit of reading a command as a string, and it is his call whether
+chasing it further is worth what it costs him.**
+
+### 334 · THE QUEUE
+
+**Unchanged, and all his:** whether a soul's order should carry weight; 455.4's sketch lines and
+the 205 reading; 246's row; 469's six decisions; 475's six biases.
