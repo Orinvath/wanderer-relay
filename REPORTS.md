@@ -51228,22 +51228,29 @@ itself came out first person, correctly, under the same prompt.**
 mind", or its own name.** What was too wide was this wording, **which turned "speak as yourself"
 into "every sentence is about you".** His own reading in 486.1, confirmed.
 
-## THE FIX, AND THE SAME FIVE LINES THROUGH IT
+## THE FIX, AND THE SAME SIX LINES THROUGH BOTH PROMPTS
+
+**A pass caught that my first two tables did not hold the same inputs — one row differed — so here
+they are run together, the identical words through the old prompt and the new one, and the first
+row is HIS OWN BENCH LINE:**
+
+| what the mind said | the old prompt showed him | the new prompt shows him |
+| --- | --- | --- |
+| you are cat some point | **I am a cat at some point.** | **You are a cat at some point.** |
+| you kind | I am kind. | You are kind. |
+| you warm here | I feel warm here. | You feel warm here. |
+| you ask name | I ask for your name. | You ask for my name. |
+| cold alone | I feel cold and alone. | I feel cold and alone. |
+| lonely want someone | I am lonely and I want someone. | I am lonely and I want someone. |
+
+**THE FIRST ROW IS THE ONE HE SAW ON HIS BENCH, REPRODUCED AND THEN FIXED.** The last two rows are
+the control: a sentence the mind really is making about itself is untouched by the change.
 
 ```
 DO NOT CHANGE WHO THE SENTENCE IS ABOUT. Your words say who you were talking about and that
 must survive: if they say "you", the sentence is about the one you are speaking to and it
 keeps "you". Use I, me, my only for what your words say about yourself.
 ```
-
-| what the mind said | what he is shown now |
-| --- | --- |
-| you cat point | **You are a cat and you have a point.** |
-| you kind | **You are kind.** |
-| you warm here | **You are warm here.** |
-| you ask name | **You ask for my name.** |
-| cold alone | I feel cold and alone. |
-| lonely want someone | I am lonely and I want someone. |
 
 **The same wording fault sat in `rendering.js`'s ASK — "in the FIRST PERSON" — and is fixed with it.**
 
@@ -51258,6 +51265,73 @@ sentence is about and pass every guard we have.** It did.
 sentence it is handed does not, **the rendering is refused and the mind's own blunter line stands.**
 
 **WHAT I HAVE NOT DONE: the after pass has not run yet, and the reviewer is still reading it.**
+
+## 486'S AFTER PASS — 0 refusals, 5 notes, and three of them are about how I proved it:
+
+> CRITIQUE - AFTER PASS, Directive 486. 0 refusals, 5 optional.
+>
+> Nothing here breaks his stated intent. 486 asked for the cause named with prompt and response before
+> the fix, an answer on the censor, and several proved lines; all four appear in the report and the
+> commit.
+>
+> OPTIONAL, in full:
+> - The ordering is asserted, not evidenced, and the pre-fix half of the evidence does not actually
+>   separate the two causes. One commit contains both the naming and the fix, no saved bench
+>   transcript exists on disk, so "named before anything was touched" rests on the builder's word.
+>   More substantively: five flips out of five is exactly what BOTH 486.1 and 486.2 predict. The one
+>   pre-fix line offered as a discriminator, cold alone -> I feel cold and alone, contains no "you" at
+>   all. The thing that actually rules out 486.2 is the AFTER-fix table.
+> - The left column passes the before-pass test, but only narrowly. It is word-bags, not a second
+>   English rendering. But these are not drawn from the mind's own record either; his own bench line
+>   was "you are A cat at some point", and no record or run these five came from is cited. The proof
+>   is a synthetic bench in the mind's shape.
+> - The two tables do not hold the same lines. Before: "you you warm here". After: "you warm here".
+>   The input changed between the two runs on that row, so that row proves nothing about the fix. The
+>   section is headed "THE SAME FIVE LINES THROUGH IT" and then lists six.
+> - Cause 1 is established by intervention, which is real but is not the same as exclusion. It does
+>   not by itself exclude the before-pass's third possibility, and the report does not mention it.
+> - 486 asked him to SAY whether the censor could catch it; the builder said, and then built. The new
+>   check is beyond what step 3 requested, and its shape is the builder's own ruling in three places:
+>   it fires in ONE DIRECTION ONLY and does not catch a line that GAINS a "you" the mind never said;
+>   it lives only in interpreter.js while rendering.js carried the identical fault and got no counting
+>   check; and the consequence on trip was chosen, not asked. On the mechanics it is sound.
+
+**THE TABLE IS CORRECTED ABOVE** — the same six inputs through both prompts, and the first row is
+now **his own bench line**, reproduced and fixed.
+
+**AND THE THREE THINGS IT SAYS ARE MINE AND NOT HIS ARE TRUE, AND THEY GO TO HIM:**
+**the check fires in one direction only** — it catches a sentence that DROPS a "you" the mind said,
+and not one that GAINS a "you" the mind never said; **it lives only in `interpreter.js`**, while
+`rendering.js` carried the identical wording fault and got the prompt change with no counting check;
+**and what happens on a trip — refuse, and the mind's blunter line stands — was my choice.**
+
+**ON THE ORDERING IT IS RIGHT THAT MY WORD IS THE ONLY EVIDENCE.** The naming and the fix are in one
+commit and no bench transcript was saved. **The five flips do not on their own separate the two
+causes** — that took the after table. **What I can say is that the cause is established by
+intervention: changing that wording stops it, and nothing else changed.**
+
+---
+
+# 487 — 483 IS STRUCK. THE TOKEN AND ITS MACHINERY ARE OUT. **ROUNDS: 1 so far.**
+
+**HIS WORDS:** *"That lane gets way too complicated because then you have to start identifying what
+something is or isn't, which is why I said only directives get processed. If it is a directive it
+gets gated. If it is not a directive it is not."*
+
+**WHAT CAME OUT, exactly:** `plumbing_directive()` and its skip in the directive loop of
+`require-critique.sh`. **Nothing else moved.** The question skip and the struck skip stand, and
+anything on the relay that is not a directive is still not processed — that was already built.
+
+**WHAT IT MEANS IN PRACTICE: there is no longer anything to classify.** A small script change gets
+both passes and the reviewer, and **the ten minutes that costs is the price he has accepted** for a
+rule he cannot forget.
+
+**AND IT DOES NOT OVERRULE THE PASS THAT REFUSED THE FIRST BUILD.** That pass refused an INFERRED
+classification because a wrong call silently drops the gate from mind work. **His rule removes the
+classification altogether, which avoids the same fault with no token at all** — 487.5 says so, and
+it is right.
+
+**STILL OWED ON 487: both passes and the reviewer.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
