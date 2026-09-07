@@ -14060,3 +14060,37 @@ readings, and most of them are not about words at all.**
 4. **AND IT PROVES NOTHING CHANGED.** The bench reads the same before
    and after (306.D), because a rename that alters behaviour is a
    fault, not a rename.
+
+## Directive 494 — THE DIRECTOR WRITES DIRECTIVES AND REPORTS. A HOOK REFUSES THE REST.
+
+**HIS RULING:** *"You are no longer allowed to touch anything as the
+director, you delegate."* — *"You can write directives and reports
+only."* — *"If the builder is wrong it goes back to the builder as it
+is always supposed to."*
+
+**WHY, IN ONE LINE FROM THE RECORD:** the Director wrote the guards,
+the briefs, the fix-forwards and the reports today, **and every pass
+that ran refused something the Director had built.** 442 is the law
+being applied: **a rule the Director keeps by choosing to is not
+enforcement.**
+
+### 1 · WHAT THE DIRECTOR MAY WRITE
+**`DIRECTIVES.md` and `REPORTS.md` on the relay. Nothing else, ever.**
+Not code, not a hook, not a brief, not `INTENT.md`, not
+`MIND_DECISIONS.md`, not a test, not a scratch script that becomes
+one.
+
+### 2 · A HOOK REFUSES THE REST
+Same shape as the geometry guard: on Edit, Write and NotebookEdit,
+**a path that is not one of those two files is refused**, with the
+reason and the remedy in the message. **It fails closed** (484.15) and
+**it does not reach his other projects** (the scope guard).
+
+### 3 · A WRONG BUILD GOES BACK TO THE BUILDER
+**As a new numbered directive** (490.4), never as a correction by the
+Director's hand. *"If the builder is wrong it goes back to the builder
+as it is always supposed to."*
+
+### 4 · AND THE BUILDER BUILDS THIS ONE
+**The Director does not build the guard that binds the Director.**
+That is the whole point of it.
