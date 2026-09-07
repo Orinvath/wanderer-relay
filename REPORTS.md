@@ -51921,6 +51921,38 @@ is a small build waiting on one word from him.
 three of those are known because the Director wrote them down himself, unasked... So the same record
 is evidence that the chain leaks and that the one unmechanised step is being done. Both readings are
 true at once and only he can weigh them."*
+---
+
+# THE REVIEW OF PUTTING THE GUARDS BACK — nothing broken, and one thing he should rule on
+
+> **The change does what it claims, and nothing is broken. Nothing to report on correctness.**
+>
+> **2. Removal clean in every file** — and provably uniform. The removed block is byte-identical across all six (md5 `d3fa316b…`), and the added block is byte-identical too — 8 comment lines in, 68 out per file, matching the `48 insertions / 408 deletions` stat exactly. **Nothing but comments was added.** Zero orphans: no `STANDDOWN` heredoc remains anywhere, no stray `then exit 0; fi`, and no reference to `open_work`, `is_question(`, `mentioned`, `answered(` or the relay-probe `floor` survives in any hook. Also checked `README.md`, `install.sh` and both settings files — no stale mention anywhere in the repo.
+>
+> **3. The four things that must remain — all present.** Scope guard in all six. `stop_hook_active` in all four Stop hooks. The 484.15 fail-closed branch in all six. `question_directive()` defined and called in both hooks that use it.
+>
+> | cwd | geometry, real py3 | commits, real py3 | either, stub py3 (exit 1) |
+> |---|---|---|---|
+> | `/home/nobara-user/CC-Wanderer` | rc=2 blocked | rc=2 blocked | rc=2 blocked (484.15) |
+> | `/home/nobara-user/wanderer-relay` | rc=2 blocked | rc=2 blocked | rc=2 blocked (484.15) |
+> | `/home/nobara-user` | rc=2 blocked | rc=2 blocked | rc=2 blocked (484.15) |
+> | `/home/nobara-user/Somewhere` | **rc=0 silent** | **rc=0 silent** | **rc=0 silent** |
+>
+> Both hooks also still exit 0 on innocent input inside the repo, **so they fire on every turn without blocking every turn.** His other project is untouched in all three conditions, including with python3 broken.
+>
+> **4. Nothing blocks a turn unrecoverably.** The stand-down sat BELOW the re-entry guard, so pulling it left the short-circuit exactly where it was. Every blocking path that remains prints its own clearing instruction, so each is exitable by doing the work.
+>
+> **5. New defects — none found. 464 — all clean**, both probes exact under `cat -A`.
+>
+> **OPTIONAL — one pre-existing structural note, not caused by this commit.** In the four Stop hooks the 484.15 fail-closed `exit 2` sits ABOVE the `stop_hook_active` check rather than below it. Identical before and after, so not a regression, and inert on this machine. The consequence, stated in full for the owner's judgment: **if python3 ever did break inside his three folders, a Stop hook would refuse at 484.15 before reaching its own re-entry guard, refuse again identically, and the turn would have no exit until python3 was repaired.** The message does name that repair as the fix, so it is self-describing. Moving the `stop_hook_active` line above the 484.15 block would close it, **but that is a change to the fail-closed guarantee itself and is the owner's call.**
+
+**MY ACCOUNT: the guards are back in the line and proved in twelve states.** They fire on every turn
+in his three folders, they stay silent in his other projects even with python3 broken, and they do
+not block an innocent turn.
+
+**AND THE ONE THING FOR HIM: THE DEADLOCK HE COULD MEET IF python3 EVER BREAKS.** It is not
+happening today and it was not introduced today. **Closing it means loosening the fail-closed rule
+he ordered in 484.15, so I have not touched it.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
