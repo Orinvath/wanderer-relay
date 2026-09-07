@@ -49075,3 +49075,76 @@ chasing it further is worth what it costs him.**
 
 **Unchanged, and all his:** whether a soul's order should carry weight; 455.4's sketch lines and
 the 205 reading; 246's row; 469's six decisions; 475's six biases.
+
+---
+
+## 475's AFTER PASS — TWO OF MY FOUR NEVER RAN. Fixed in `386f032`, and it is the worst kind of fault.
+
+**Both passes for 474 and 475 recorded. The pass said SEND IT BACK, and it was right.**
+
+### 1 · TWO OF THE FOUR WERE EXPORTS AND NOTHING ELSE
+
+**They read the aspects off the mind. The live caller passes them in the OPTIONS, never on the
+mind.** The pass instrumented a copy and drove **three hundred real ticks**:
+
+```
+think()      296 calls  |  with aspects in the options: 296  |  ON THE MIND: 0
+trainEnds()  300 calls  |  with aspects: 300
+```
+
+**So the feeling-tilt was live. The interrupt threshold was live. The other two NEVER FIRED ONCE.**
+Every tick fell back to the constant. **I reported four built. Two were built.**
+
+**Fixed: the aspects are handed in now, not read off an object that never has them.**
+
+### 2 · AND MY CHECK COULD NOT TELL. IT PROVED THAT BY BREAKING IT.
+
+It **tore the derivation out of the code path entirely**, leaving only the exports. **43 passed, 0
+failed. My clause stayed green.** It called the functions directly, so **it proved the arithmetic
+and never the mind.**
+
+**There is a check now that asks what the tick actually calls** — the same feeling at the same
+strength reaches one mind and not the other. **Proved both ways: green when wired, RED when I tear
+the wiring out again.**
+
+### 3 · AND THE FILE ALREADY HELD THE ANSWER I INVENTED A MAP FOR — THREE LINES ABOVE
+
+I found the direction was backwards and wrote two new maps that inverted the aspects. **The pass
+measured what that actually did:**
+
+> **My map made volatility EQUAL to withdrawal, and intellect EQUAL to openness — overwriting WHICH
+> TRAIT LEADS.** The licence I cited says withdrawal leads and openness leads. **That is a claim
+> about trait governance, and 475.3 says stop and ask about exactly that. I made it while calling
+> it a sign flip.**
+
+**And the file's own comment, three lines from where I wrote the new map, already says the answer:
+a strength divides where a duration multiplies, "measured and caught".** **Both maps deleted. The
+operator does the work.**
+
+**And it had split the two apart for seven of the ten aspects** — a compassionate mind noticed a
+feeling sooner and was moved by it less. **Gone.**
+
+### 4 · AND THE SIX I STOPPED ON WERE THE RIGHT SIX
+
+**It confirms nothing licences a trait for either of the two, and that 474 does put the four source
+weights in his pile.** **475.2 holds exactly — all four strict-equal at the midpoint.**
+
+### AND FOUR IT NAMES THAT ARE HIS
+
+- **A CLAMP MADE A CLASS OF BEING A FEELING CAN ESSENTIALLY NEVER TAKE OFF ITS TRAIN.** Over two
+  hundred thousand aspect sets, **5.22% land at the ceiling.** **It is printed in my own proof
+  table as "taken at 1.00" and I did not remark on it.** Before 475, every being could be taken.
+  **A limit nobody ruled.**
+- **NO LEDGER ROW, AND 246 ASKS FOR ONE IN THE SAME COMMIT.**
+- **475's list says TEN and has ELEVEN** — and the eleventh is already derived, which is how my
+  arithmetic balanced while missing it.
+- **AND 474 CLOSES THREE VALUES ON 427 — A DIRECTIVE THAT APPEARS NEVER TO HAVE BEEN BUILT.** The
+  pass audited the code: memory is still drawn as a rival source, which is the exact thing 427.1
+  calls the fault. **Two more weights in the same draw were never sorted at all.**
+
+### 334 · THE QUEUE
+
+**Not run:** the life suite since this last commit.
+**Every directive through 475 built or blocked with its reason. Waiting on him: the soul's order;
+455.4 and the 205 reading; 246's rows; 469's six; 475's six; the clamp; and whether 427 was ever
+built.**
