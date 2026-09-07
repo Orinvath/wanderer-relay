@@ -52897,6 +52897,146 @@ tells me to use.
 
 **NOTHING IS BUILT.**
 
+---
+
+# 494's AFTER PASS AND 496's BEFORE PASS — **BOTH REFUSED, AND BOTH FOR THE SAME MISSING THING**
+
+## 494 AFTER — 2 refusals
+
+> CRITIQUE - AFTER PASS, Directive 494. 2 refusals, 1 optional.
+>
+> FIRST, THE FACT THAT FRAMES THE PASS: NOTHING WAS BUILT, AND THAT IS CORRECT. No hook script exists
+> for 494, no matcher is registered, and the only commits since the before mark are the REPORTS entry
+> and the addendum. The addendum's section 3 blocks the build on the one unanswered question, and the
+> build is genuinely stopped rather than quietly started. The before pass's Refusal 1 was answered by
+> stopping, and Refusal 3 was answered by his ruling - "the shell counts too" - which the addendum
+> expands faithfully. So this pass judges the addendum, which is the only work 494 produced.
+>
+> REFUSAL 1 - INTENT.md NOW HAS NO LAWFUL WRITER AT ALL, AND IT IS THE FILE THE CRITIQUE READS HIS
+> INTENT FROM. The addendum rules that the Critique keeps INTENT.md current - "Not the Director, and
+> not the builder." That is his ruling and I do not touch it. BUT THE CRITIQUE IS FORBIDDEN TO WRITE
+> ANYTHING, IN TWO PLACES, AND NEITHER WAS STRUCK. INTENT.md line 303 (445): "it writes no code, edits
+> nothing, and rules on nothing." critique.md line 57: "YOU WRITE NO CODE. YOU EDIT NOTHING. YOU RULE
+> ON NOTHING." So all three parties are barred: the Director by 494.1, the builder by the addendum, and
+> the Critique by its own standing law. AND THE TWO LINES THAT WOULD HAVE TO BE RECONCILED SIT IN
+> INTENT.md AND IN A BRIEF - the two file kinds 494.1 and the addendum just took away from the only
+> parties who could edit them. This is already broken as it stands: the addendum is a ruling that
+> changes direction, Part Six (446) requires it to land in INTENT.md in the same commit, d9b0a81
+> touched only DIRECTIVES.md, and INTENT.md today still tells every pass the Critique edits nothing.
+> HIS TO RULE: does "edits nothing" now carve out INTENT.md, and whose hand strikes those two lines
+> given all three are barred. The related half I am not deciding either: 446.2 had him AND the Director
+> check INTENT.md against the record; the Director is now out, and nothing says what replaces that
+> second reader for the party that both writes and reads it.
+>
+> REFUSAL 2 - THE THREE BRIEFS WERE TAKEN OFF THE DIRECTOR AND GIVEN TO NOBODY, AND builder.md's OWN
+> SAME-COMMIT LAW IS NOW UNSATISFIABLE. 494.1 lists what the Director may not write, including "not a
+> brief". The before pass asked who writes INTENT.md AND the three briefs; the addendum answers only
+> the first. builder.md lines 47-48 carry the rule on itself - a standing ruling "enters this brief in
+> the same commit as the directive that made it". The Director writes the directive and is barred from
+> the brief, so that same-commit law cannot be met by any hand. This is live right now: 494 and its
+> addendum change what every agent may write, and no brief has moved. The before pass also named the
+> shape to avoid and it still stands unanswered - handing builder.md to the builder puts the brief in
+> the hands of the party it instructs, which is 494.4's own reason for existing, mirrored. HIS TO RULE:
+> who writes the three briefs, and how 446's same-commit law is met when the directive and the brief
+> are written by different hands. MIND_DECISIONS.md is not in this finding - builder.md already assigns
+> its rows to the builder.
+>
+> OPTIONAL 1 - "THE SHELL COUNTS" IS RIGHT, AND THE ONLY SHELL-READING IDIOM IN THE TREE IS UNDER AN
+> OPEN DIRECTIVE FOR EXACTLY THIS. His answer is unambiguous and I am not questioning it. But when the
+> guard is unblocked, it must read Bash the way block-unnamed-commits.sh does, and that file is the
+> subject of directive 495 for three reproduced parsing faults, with four more bypasses on the open
+> list. Its own comments record the class being fixed repeatedly. So a shell-write guard built on that
+> idiom would look present and healthy while the ordinary shapes walk past it - the fails-open shape,
+> on the door he has just ruled must be shut. A note only, because the guard cannot be built until his
+> third question is answered.
+>
+> 334 - WHAT I DID NOT CHECK: I read INTENT.md whole; 493, 493 addendum, 494, 494 addendum, 495 and 496
+> whole; the 494 before mark whole; critique.md whole; CLAUDE.md whole; the hook registration whole;
+> git log -25 and the two commits since the before mark; the 494 region of REPORTS.md and the open
+> list. I read builder.md, reviewer.md and block-unnamed-commits.sh ONLY BY TARGETED GREP, not whole. I
+> did not read HANDOFF.md, AUDITS.md, TODO.md, PLAYBOOK.md, or six of the hooks. MIND_DECISIONS.md does
+> not exist, so nothing was checked in it. AND I DID NOT ATTEMPT WHAT THE BEFORE PASS COULD NOT DO - I
+> made no attempt to determine from the runtime whether the PreToolUse payload carries a field naming
+> the calling agent, so his third question is untouched by me. I ran no hook and no bench, and I wrote
+> nothing.
+
+## 496 BEFORE — 2 refusals
+
+> CRITIQUE - BEFORE PASS, Directive 496. 2 refusals, 1 optional.
+>
+> REFUSAL 1 - 496 SAYS THE FINDING GOES STRAIGHT TO THE BUILDER, AND THERE IS NO ROUTE BY WHICH IT CAN.
+> THE ONLY EXISTING ROUTE IS THE DIRECTOR'S HANDS, WHICH 492 AND 496 ITSELF BOTH CLOSE.
+> - A pass's words exist in exactly one place when it ends: its final message to the party that
+>   launched it - the Director. NO HOOK WRITES A CRITIQUE MARK. require-critique.sh only tests that the
+>   file is non-empty and greps it for two counts; nothing in .claude/hooks/ ever writes into
+>   ~/.claude/hooks/critique/. And critique.md forbids the Critique writing anything. SO THE MARKS ARE
+>   WRITTEN BY THE DIRECTOR'S HAND - which is why 484 needed a verbatim gate at all.
+> - The reviewer's findings have no file whatsoever. record-review.sh writes one line, a state hash.
+>   THAT CARRIES NO BUG, NO LINE, NO FAULT. A reviewer's bug list ends in the Director's message window
+>   and nowhere else.
+> - 492.1 refuses the obvious workaround: the builder may be given BUILD 496 and nothing longer.
+> - And the builder cannot fetch it. builder.md names the record as DIRECTIVES.md, INTENT.md,
+>   REPORTS.md and CLAUDE.md. IT NEVER NAMES ~/.claude/hooks/critique/. Its only line on the subject
+>   assumes the refusal was handed to it. 496.3 forbids exactly that, and forbids the relay carrying it
+>   mid-loop as well.
+> SO UNDER 496 AS WRITTEN THE BUILDER IS SENT BACK TO FIX A FAULT IT HAS NO LAWFUL WAY TO LEARN.
+> Building it means the builder inventing the channel, which is 250. HIS TO RULE: where a pass's and a
+> reviewer's findings are written so the builder can read them itself, and who writes them - given that
+> neither checker may write files today and 494.1 takes every file but two off the Director.
+>
+> REFUSAL 2 - IT IS A RULE OVER THE DIRECTOR, ENFORCED BY THE DIRECTOR, WITH NO MECHANISM AND NO HOME.
+> THAT EXACT SHAPE WAS REFUSED AT 490 AND THE REFUSAL STILL STANDS. 442: "ENFORCE BY MECHANISM, NOT BY
+> INSTRUCTION." 492 and 494 were both written because "a rule the Director keeps by choosing to is not
+> enforcement" - his reason, twice, in the two directives immediately before this one. 496 puts three
+> new duties on the Director and names no mechanism at all. 490's pass refused that shape and the
+> Director's own account was "IT IS RIGHT AND THE REFUSAL STANDS." The claim that 492 answered it was
+> later STRUCK AS FALSE. Nothing has answered it since.
+> And 496 has nowhere to land even as instruction. Today critique.md and reviewer.md contain no word of
+> this loop, and builder.md's chain diagram still ends "the report goes to the relay, and the Director
+> reads it", which is the arrangement 496 replaces. Whoever builds 496 must choose between writing a
+> hook, rewriting three briefs, editing CLAUDE.md, or doing nothing and calling the rule built - four
+> readings, and the builder may pick none (250, 253). AND THE KEEPER OF THE BRIEFS IS ALREADY OPEN AND
+> UNANSWERED: 494's before pass asked who writes INTENT.md and the three briefs; the addendum answered
+> only INTENT.md. The briefs were left unruled, and 496 is a directive whose entire content has to live
+> in them. HIS TO RULE: is 496 a mechanism or a rule kept by choosing to; and if it lands in the
+> briefs, whose hand writes them.
+>
+> OPTIONAL 1 - "CLEAN" IN 496.2 CAN BE READ AS ZERO NOTES, WHICH WOULD REINSTATE 469 AFTER 476 STRUCK
+> IT. His quoted ruling underneath is narrower - "If the reviewer finds bugs, or if the critique fails"
+> - and 476/481.4 settled that only a refusal stops anything. So the record does answer this and I am
+> not refusing it. But built literally, "clean" becomes a gate that will not release work until a pass
+> reports nothing - a check demanding more than the rule it guards, looping forever on notes that were
+> ruled to stop nothing. One word from him closes it: clean means no refusals and no bugs.
+>
+> 334 - WHAT I DID NOT CHECK: I read INTENT.md whole; 496 and 489-495 whole; 452, 453, 478, 479, 490
+> whole; builder.md, critique.md, reviewer.md whole; record-review.sh whole; require-critique.sh only
+> where it touches the marks and require-relay-current.sh only its MARKS lines; the closing ~120 lines
+> of REPORTS.md plus two earlier regions. I did not read require-in-order.sh, require-review.sh,
+> block-briefing-agents.sh, block-unnamed-commits.sh, install.sh, HANDOFF.md, MIND_DECISIONS.md,
+> AUDITS.md, TODO.md, or CLAUDE.md beyond a grep. I DID NOT VERIFY FROM THE RUNTIME that a subagent
+> cannot write to ~/.claude/hooks/critique/ - my statement that the marks are written by the Director's
+> hand comes from the absence of any writer in the hooks and from critique.md's own prohibition, not
+> from an experiment. I ran no hook, no bench, and I wrote nothing.
+
+## MY ACCOUNT
+
+**THE TWO PASSES LAND ON ONE HOLE FROM DIFFERENT SIDES: NOTHING IN THIS SYSTEM CAN WRITE EXCEPT ME
+AND THE BUILDER.** The Critique's own law says it edits nothing. The reviewer writes nothing but a
+state hash. **So when 494 took every file but two off me and 496 said findings go straight to the
+builder, both rules ran out of hands.**
+
+**RIGHT NOW: `INTENT.md` HAS NO LAWFUL WRITER** — not me, not the builder, and the Critique is
+forbidden by its own standing law. **The three briefs have no keeper at all.** And **a finding has
+no road to the builder** — the passes cannot write it, the reviewer cannot write it, and the guard
+stops me carrying it.
+
+**THREE SENTENCES FROM HIM UNBLOCK ALL OF IT:**
+**does "edits nothing" carve out `INTENT.md` for the Critique;**
+**who writes the three briefs;**
+**and where a finding is written so the builder can read it itself.**
+
+**NOTHING IS BUILT AND NOTHING WILL BE UNTIL HE ANSWERS.**
+
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
 **Nineteen were open this morning. NONE of them closed today** — the day went on the courier, not
