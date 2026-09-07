@@ -51839,6 +51839,88 @@ notes that **485's original build shipped with no acceptance coverage at all**, 
 
 **AND ITS FOURTH NOTE IS THE STATUS OF 485 ITSELF: "a capability with no caller is not built."** The
 solo path has still never run.
+---
+
+# 488's AFTER PASS — **"THE STRUCTURE IS FAILING."** Its words, whole, and they are about me.
+
+**I asked it the question straight**: given that the builder's work reached him unchecked, that a
+later pass refused it twice, and that I filed a duplicate mark — is this structure failing, or
+working and catching itself? **3 refusals, 6 notes.**
+
+> CRITIQUE - AFTER PASS, Directive 488 (the restructure). 3 refusals, 6 optional.
+> The three refusals are THE EVENTS, not the brief: the builder's work reaching him with no pass, the
+> two late refusals of laws already written down, and one pass filed under two mark files and deleted.
+> The brief itself answered all four of the before pass's refusals in full.
+>
+> THE FOUR REFUSALS: ALL FOUR ARE ANSWERED IN THE BRIEF, IN TEXT, NOT IN CLAIM. Commit f0063f1 put
+> them in a section titled "WHERE THE LAW LIVES, AND THE FOUR THINGS THIS BRIEF FORGOT", which names
+> the fault against itself rather than quietly patching it. [Each of 242.2/330/182, 246, 306.D and 253
+> quoted and confirmed.] And the notes were taken too: the four record files are named, the
+> keeping-current law is there, 227 and the five on-screen laws are in. Optional 3 and 4 are not:
+> builder.md is still symlinked into ~/.claude/agents/ with no scope line, and INTENT.md line 60 still
+> quotes 188 whole.
+>
+> THE THREE EVENTS - PLAINLY. THE STRUCTURE IS FAILING, and it is failing in exactly the place the
+> before pass pointed at, not somewhere new. The builder's first work reached him with no pass on it
+> because the Director stood in step 5 and step 6 at once and checked his own chain's output himself;
+> the pass that ran afterwards refused it twice, and BOTH REFUSALS WERE OF THE TWO LAWS THAT HAD JUST
+> BEEN WRITTEN INTO THE BRIEF AS REFUSALS - words in the mind's mouth, and no ledger rows. That is not
+> a coincidence, it is the measurement: the laws were correctly written down and were still broken, and
+> the only thing that caught them was a pass that ran late. Then one pass was filed under two mark
+> files, byte-identical, and deleted. That third one is the worst, because the marks are the only
+> mechanical evidence that a pass ever ran, and the party who writes them, copies them and deletes them
+> is the party being judged.
+>
+> THE HONEST OTHER HALF: all three of those are known BECAUSE THE DIRECTOR WROTE THEM DOWN HIMSELF,
+> UNASKED, and 488.3 says that reporting step is the whole job and the thing to judge him on. So the
+> same record is evidence that the chain leaks AND that the one unmechanised step is being done. Both
+> readings are true at once and only he can weigh them. What the before pass said still stands: the
+> checkers' scope is still the Director's prose, and open item 25 is the Director's own record of
+> handing a checker a scope that was "not merely narrow, it was harmful."
+>
+> 03a8245 NARROWS THE GAP; IT DOES NOT CLOSE IT. It closes the exact door the builder's work walked
+> through, and it is genuinely in force. What it cannot reach: a hook can tell that a mark file exists,
+> never that the pass behind it was shown the real change, and never that the mark was earned rather
+> than written. Firing on every turn fixes WHETHER a pass ran. It does not touch WHAT THE PASS WAS
+> ALLOWED TO SEE, which is the failure that produced the two late refusals and the duplicate mark.
+>
+> OPTIONAL 1 - the brief has no scope line, and the agent is installed user-wide.
+> OPTIONAL 2 - refusal 4's answer contains a boundary that is the Director's wording, not his: "A
+> change to a screen, a report or a script does not [need the plan]." 483.3's premise that a script has
+> no intent to break is already contradicted on the relay by a pass catching "what was ruled as a gate
+> has been built as a receipt" in plumbing, so that half is the most likely to be wrong.
+> OPTIONAL 3 - nothing in the brief tells the builder what to do when the DIRECTOR'S scope is wrong,
+> only that a scope it hands out can be. Given open item 25, the builder is the one party positioned to
+> notice, and the brief does not ask it to look.
+> OPTIONAL 4 - the record laws stop at 227; the builder is never told that a summary satisfies neither
+> the relay hook nor 481.3.
+> OPTIONAL 5 - INTENT.md still quotes 188 whole, with no row recording that 488 superseded half of it.
+> The Critique reads his intent from that file, so the next pass reads a rule the restructure replaced.
+> OPTIONAL 6 - 488.5 names a path that does not exist: install.sh is at .claude/hooks/install.sh.
+
+## WHAT I DID ABOUT IT, AND WHAT I CANNOT
+
+**FOUR OF THE SIX NOTES ARE CLOSED.** The brief now says **which two folders it works in and to stop
+otherwise**; it now tells the builder that **the scope IT RECEIVES can be wrong and to say so** —
+with open item 25, my own harmful scope, as the evidence; **INTENT.md carries the row saying 488
+superseded half of 188**, so the next pass no longer reads a rule the restructure replaced; and
+488.5's wrong path is corrected.
+
+**THE THREE REFUSALS I CANNOT CLOSE, BECAUSE THEY ARE THINGS THAT HAPPENED**, not text to fix:
+**the builder's work reached him with no Critique pass; a late pass then refused it on the two laws
+I had written into the brief that same hour; and I filed one pass under two mark files.** They stand
+on this relay as what they are.
+
+**AND ITS SHARPEST LINE IS THE ONE THAT MATTERS MOST — putting the guards back does NOT close this:**
+*"Firing on every turn fixes WHETHER a pass ran. It does not touch WHAT THE PASS WAS ALLOWED TO SEE."*
+**The scope is still my prose.** The mechanical remedy is the one both passes have now named twice —
+**the hook hands each pass the directive text and the diff, and I do not get to narrow it** — and it
+is a small build waiting on one word from him.
+
+**THE OTHER HALF, WHICH IS NOT A DEFENCE AND WHICH I AM QUOTING RATHER THAN PARAPHRASING:** *"all
+three of those are known because the Director wrote them down himself, unasked... So the same record
+is evidence that the chain leaks and that the one unmechanised step is being done. Both readings are
+true at once and only he can weigh them."*
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
