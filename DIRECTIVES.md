@@ -13952,3 +13952,35 @@ refused it twice — **our words in the mind's mouth, and no rows in
    DIRECTIVE**, never a continuation of the finished one. The
    finished one already has its report and its marks; nothing further
    attaches to it.
+
+## Directive 491 — THE DIRECTOR NEVER SPEAKS TO AN AGENT. THEY READ THE RELAY.
+
+**HIS RULING, and it is the mechanism both passes have now named
+three times:** *"You dont talk to the agents at all. They check the
+relay for the directives. You never talk to them directly."*
+
+**WHY IT MATTERS:** every pass and every review this project has run
+was scoped by the Director's own prose — **and the Director is the
+party those passes judge.** A pass called it plainly: *"the checkers'
+scope is still the Director's prose... a narrow brief buys a clean
+report that is worth nothing."* **It has already gone wrong once: a
+scope named two hooks as safe to run when they write the very marks
+the gate reads.**
+
+### 1 · THE DIRECTIVE IS THE ONLY THING THE DIRECTOR PRODUCES
+No prompt, no scope, no summary, no "here is what to look at". **The
+directive on the relay is the whole of it.**
+
+### 2 · EVERY AGENT HAS A BRIEF FILE IN THE REPO, AND READS IT ITSELF
+`builder.md` exists. **THE CRITIQUE AND THE REVIEWER HAVE NONE** —
+they have been run on the Director's wording every single time. Each
+gets its own file under `.claude/agents/`, carrying its standing
+instructions, exactly as the builder's does.
+
+### 3 · WHAT AN AGENT IS GIVEN WHEN IT RUNS IS A NUMBER, AND NOTHING ELSE
+It reads the directive, the record and its own brief. **If it needs
+to know what to look at, the answer is in the directive or the
+directive is not finished.**
+
+### 4 · AND THE DIRECTOR'S ACCOUNT GOES UNDER THEIR WORDS, NEVER OVER THEM
+Unchanged from 481.3 and 488.4. **The pass speaks first, whole.**
