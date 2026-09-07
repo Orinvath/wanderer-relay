@@ -52723,6 +52723,34 @@ only thing holding it open is me remembering — **which is exactly what 490 was
 **SO IT IS WRITTEN HERE IN HIS LIST INSTEAD OF LEFT TO MY MEMORY: 490 IS REFUSED, UNBUILT, AND
 WAITING ON HIS RULING.**
 
+---
+
+# REPORT — 494, 495 and 496: WRITTEN, AND WAITING FOR THE BUILDER
+
+**Three directives, all of them about the shape of the work rather than the mind, all written after
+his rulings this afternoon. None is built. None will be built by me.**
+
+**494 — THE DIRECTOR WRITES DIRECTIVES AND REPORTS, AND A HOOK REFUSES THE REST.** His words:
+*"You are no longer allowed to touch anything as the director, you delegate."* A guard on the same
+pattern as the geometry one, allowing only these two files on the relay. **And the builder builds
+it, because the Director does not build the guard that binds the Director.**
+
+**495 — THE COMMIT GUARD I BUILT IS CRUDE, AND A REVIEWER PROVED IT THREE WAYS.** It refuses
+commands that are not commits (*"it fired on the reviewer's own probe list"*), its `-F` exemption
+fails on the obvious filenames, and it reads the number from the whole command instead of the
+message — **so a commit naming no directive passes if any three-digit number appears anywhere else,
+which is the ordinary shape of a build.** All three are on the relay with the shapes to prove
+fixed. **Back to the builder, not to my hand.**
+
+**496 — A FINDING GOES BACK TO THE BUILDER AND LOOPS THERE UNTIL IT IS RIGHT.** His correction, and
+I had it wrong all day: *"it never comes back to you until it is done."* **The reviewer and the
+Critique hand findings straight to the builder; the loop ends when both passes and the review are
+clean; the Director sees one report at the end carrying every round.** The cost is named in it —
+**while a directive is being worked, he hears nothing.**
+
+**WHAT IS TRUE OF ALL THREE: they were written, not built.** The passes are what comes next, and
+under 496 the loop after that does not run through me.
+
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
 **Nineteen were open this morning. NONE of them closed today** — the day went on the courier, not
