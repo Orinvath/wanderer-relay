@@ -13590,3 +13590,35 @@ CC does nothing with this. The gate stays as it is.
 4. **445 AND 476 ALREADY BIND THE CRITIQUE THIS WAY.** This says the
    same of the reviewer: flag what affects correctness, name anything
    else as optional, and say plainly when there is nothing.
+
+## Directive 481 — INTENT.md IS IN USE. 476 GOES IN IT. AND THE NOTES ARE REPORTED.
+
+**HIS RULING, and it unblocks 476.**
+
+### 1 · THE "PROPOSED, NOT IN USE" MARKER COMES OFF
+CC wrote it because 446 said he and the Director must check the file
+before it went to work. **He checked it. 450 corrected it. Nobody
+removed the marker.** So the Critique has been reading a file that
+says it is not real.
+
+**IT IS IN USE. Take the marker off.**
+
+### 2 · 476 GOES INTO IT
+The rule he made an hour ago — the Critique refuses only what breaks
+his intent, and everything else is a note — **lives in INTENT.md**,
+which is where the Critique reads its rules from.
+
+### 3 · AND THE NOTES ARE REPORTED. All of them.
+**His words: what good is a note no one sees.**
+
+- **REFUSALS STOP THE WORK** (469, 476).
+- **NOTES DO NOT STOP ANYTHING AND ARE STILL REPORTED**, in full, on
+  the relay. Not counted and dropped — reported.
+- **A COUNT WITHOUT THE ITEMS IS NOT A REPORT.** The pass that
+  triggered this said "OPTIONAL 4" and delivered two, and the two it
+  dropped were the two that mattered.
+
+### 4 · AND CC'S OWN FINDING STANDS: 476 AMENDS 469
+It narrows "a finding is a refusal" to "an intent-breaking finding is
+a refusal." **That is an amendment and his own law puts an amendment
+in the supersession table.** Put it there.
