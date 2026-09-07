@@ -48784,3 +48784,75 @@ soul is not what he asked for.** **Later, and not as another pile of numbers.**
 
 **Not run:** the full life suite since this change.
 **473 built. 472, 471, 470 built. 469 needs his ruling on five things. 474 and 475 next.**
+
+---
+
+## REPORT 474 — RECORDED, NOTHING BUILT. Its own last line says so.
+
+**474 ends "CC: build nothing from this yet. It is the sorting he ordered."** **I have built nothing
+from it.** The sorting is his and it stands on the relay: what the science settles, what is
+arithmetic, what is the bench's own, and what is still his.
+
+**One thing worth carrying forward: its own recommendation became 475** — apply 427 rather than
+rule ten numbers one at a time. **That is the next report.**
+
+---
+
+## REPORT 475 — FOUR OF THE TEN ARE THE BEING'S OWN NOW. Six need him, and two were backwards.
+
+**Built. `0203638`.**
+
+### 475.3 IS THE RULE I FOLLOWED: CITE, OR STOP AND ASK
+
+**Four had a licence already in this build. Six do not, and I have not invented one.**
+
+### THE FOUR, AND WHERE THE LICENCE COMES FROM
+
+**How far a feeling tilts the draw. When a feeling counts as pressing. How much stronger a feeling
+must be to take the mind off its train.** All three are the same quantity — **how far a feeling
+moves this mind** — and `needs.js` already maps that to withdrawal and volatility, **citing Bolger
+and Zuckerman: personality affects reactivity separately from exposure.** **Not a new argument. The
+one already in the file.**
+
+**And how many neighbours one step may reach** — the same thing the existing range map already
+governs: **openness widens the neighbourhood, orderliness narrows it.**
+
+### AND TWO OF THEM WERE POINTING BACKWARDS. MY OWN TEST CAUGHT IT.
+
+The convention here is that a high aspect makes a rate **smaller**. **For a threshold that is
+right** — an anxious mind should notice a feeling **sooner**. **For a strength it is backwards.**
+
+**My first version had an anxious mind's feelings tilting it LESS than a steady one's, and an open
+mind reaching FEWER neighbours** — the opposite of the licence I was citing. **Fixed, and both now
+point the way the science says.**
+
+### 475.4, PROVED — AND THE PROOF STANDS IN THE SUITE, NOT IN A TERMINAL
+
+```
+DWELLS   | a feeling tilts x0.84 | notices at 0.40 | taken at 1.00 | reaches  5
+WANDERS  | a feeling tilts x2.09 | notices at 0.12 | taken at 0.32 | reaches 20
+TAKEN    | a feeling tilts x4.05 | notices at 0.08 | taken at 0.22 | reaches 10
+```
+
+**Three aspect sets, three different minds.** **And 475.2 holds exactly: a middling being reads
+what was there before — 1.6, 0.2, 0.55, 8. Nothing lurches.**
+
+**Suites: 43 of 43, 33 of 33, and the life suite unchanged at 17 failures — none of them mine.**
+
+### THE SIX THAT NEED HIM, AND WHY I STOPPED
+
+- **DISPOSITION_SHARE** — how often it thinks about what it was made for. **No trait in the record
+  governs that.**
+- **RECENCY_BIAS** — how far a just-surfaced memory tilts the draw. **Nothing licences a trait
+  here.**
+- **THE FOUR SOURCE WEIGHTS** — what curiosity, interest, feeling and memory are each worth.
+  **And these carry a collision he should see: 474 records that the three weights sitting at 1.0
+  ARE 427's ruling expressed as arithmetic — "equal before bias". These four are NOT equal. Making
+  them aspect-derived would bend a thing 427 may already have settled as flat.** **That is his, and
+  it is one question, not four.**
+
+### 334 · THE QUEUE
+
+**Not built:** the six above. **Not run:** the full life suite a second time since the last commit.
+**475 part-built. 474 recorded. 473, 472, 471, 470 built. 469 needs his ruling on five things.**
+**THE QUEUE IS OTHERWISE EMPTY — 475 is the last directive on the relay.**
