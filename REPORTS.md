@@ -50110,3 +50110,130 @@ happened once, against summarising, which has happened five times.**
 **Fix the five first. See if the one still needs guarding.**
 
 **HIS RULING. I have built nothing from this.**
+
+---
+
+# HE PRE-APPROVED IT, SO IT IS BUILT. Both parts, and the sixth hook is live.
+
+**His words: "I pre approved it so just do it."** I had recommended one part of two. **He approved
+the plan, which is both, and that is his call to make — so both are built.** `require-relay-current.sh`,
+registered on Stop, scope-guarded to his two Wanderer folders like the other five.
+
+## WHAT IT ACTUALLY DOES — two yes/no questions, and nothing else
+
+**PART ONE · THE PASS'S OWN WORDS.** It takes the five longest lines a Critique pass wrote and asks
+whether **any of them appears in `REPORTS.md`**. A 45-character run of the agent's prose survives
+being quoted or indented, **and does not survive being reworded — which is the entire point.**
+
+**PART TWO · THE LIST IS LAST.** Present is not enough; present is what he already had when he had
+to ask. **Being last is the only reading of "current" a hook can make**: every new report entry
+pushes the list up, so every new entry has to bring the list back down, rewritten.
+
+## IT WAS PROVED RED BEFORE IT WAS TRUSTED GREEN — four states, run, not argued
+
+**Out of scope: silent, exit 0. Already blocked this cycle: exit 0, because a hook that can deadlock
+his session is worse than the law it enforces.** **In scope, right now: IT BLOCKED** — and it
+blocked on a real fault, not a rigged one: **my own plan entry, posted an hour ago, had pushed the
+open list up off the bottom.** **Part One: a mark whose words were not on the relay was refused by
+name; the same mark with its words present passed.**
+
+## NOT RETROACTIVE, AND THE FORTY-TWO MARKS ALREADY ON DISK ARE EXEMPT
+
+**A line is written on first run and only passes newer than it are demanded** — the same shape
+`require-critique.sh` and `require-review.sh` both use. **Demanding forty-two old marks would be a
+wall, not a check.** Baseline written: `1788760406`.
+
+## AND WHAT IT DOES NOT DO, WHICH HE WAS TOLD BEFORE HE APPROVED IT
+
+**IT CHECKS FORM, NOT TRUTH. A thin list passes it.** It closes the forgetting. **It does not close
+the softening** — only the verbatim pass text does that, and that is why Part One exists at all.
+**This is written into the top of the script**, not just here, so the next reader cannot mistake it
+for a guarantee it does not give.
+
+## WHAT ELSE MOVED, BECAUSE A NEW HOOK IS NOT A FREE ADDITION
+
+**464'S ROSTER WAS FOUR AND IS NOW FIVE.** `require-review.sh` tells each reviewer which hooks to
+check while it is there; **the new hook would have been the one hook nobody checks.** Fixed in the
+same commit. **And the hooks `README.md` said "five scripts" in seven places** — the historical
+counts are left standing, because rewriting a record to match today is the fault that file exists
+to prevent, and a table of the live six is appended instead.
+
+**WHAT I DID NOT CHECK: whether a Stop hook firing five times per turn costs him noticeable time.**
+It reads two files and stats forty-odd marks, so I expect it does not. **I did not measure it.**
+
+---
+
+# EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
+
+**Nineteen were open this morning. NONE of them closed today** — the day went on the courier, not
+the mind. **One new one is added by the work above.**
+
+## BLOCKING NOW — 476 IS HALTED AND NOTHING BEHIND IT MOVES
+
+**1 · WHERE 476'S RULE LIVES.** `INTENT.md` line 3 still reads "PROPOSED, NOT IN USE" and 446.2's
+check by him was never recorded, **so I may not put it into service — while the hook already tells
+every pass to read it.** In use in fact, not in law. **476 is the third ruling missing from the
+Critique's only source; 469 is the second.**
+
+**2 · WHETHER TWO FAULT-CLASSES ARE REFUSALS OR OPTIONAL.** `INTENT` names seven intent-breaking
+faults, **476.1 names five.** Missing: a check asserting a stricter law than the thing it guards
+(six real instances on this record), and something already answered by the build.
+
+## THE MIND — the ones that decide whether it is what he thinks it is
+
+**3 · A SOUL'S ORDER IS DECORATIVE.** Stripped before hashing; rank against depth is **-0.002 over
+200,000 draws.** **455 is not finished until he rules whether order should carry weight.**
+
+**4 · DO THE FIVE SOULS READ AS SOMEONE?** Posted for his eye. **The judgement is his.**
+
+**5 · THE 205 READING UNDERNEATH IT.** The citation that blocked 455 may be **inverted**. Never ruled.
+
+**6 · 469'S SIX OPEN DECISIONS.** What counts as a finding; the identifier; what an after-pass
+refusal refuses once the commit exists; the scope of a stop; retroactivity; whether findings batch.
+
+**7 · 475'S SIX REMAINING BIASES**, four of which collide with 427 — one question, not four.
+
+**8 · THE INTERRUPT CLAMP.** **5.2% of beings land at the ceiling** and can essentially never be
+taken off a train by a feeling. **A limit nobody ruled, introduced by a clamp.**
+
+**9 · WAS 427 EVER BUILT?** Memory is still drawn as a rival source — **427.1's exact fault** — and
+`surfacing.js` mentions no feeling, curiosity, concern or state. **474 closes three values on the
+grounds 427 settled them.**
+
+**10 · TWO WEIGHTS IN THE SAME DRAW WERE NEVER SORTED** — association 1.5, language 0.25.
+
+## THE MIND'S RECORD
+
+**11 · 246'S LEDGER ROWS NEVER WENT IN**, and no ledger file exists for them to land in.
+
+**12 · THE 89 ROWS.** Row 1 is built. **The other 88 have no home.**
+
+## THE PLUMBING
+
+**13 · DOES A SHELL SCRIPT NEED THE SAME GATE AS THE MIND?** Two passes and a review on every
+change is why today ran long. **One line from him settles it.**
+
+**14 · A COMMAND INSIDE AN `if` OR A `for` STILL BYPASSES THE COMMIT GUARD** — the shape a scripted
+commit actually has.
+
+**15 · THE GUARD FAILS OPEN IF ITS INTERPRETER BREAKS.** Every dangerous form allowed, silently.
+
+**16 · `sudo`, A FULL PATH, OR A LEADING VARIABLE still walk past it.**
+
+**20 · AND THE SIX HOOKS ARE REGISTERED OUTSIDE THE REPO.** The scripts are in the tree and on the
+remote; **`~/.claude/settings.json`, which is what actually runs them, is not.** **A fresh clone
+gets six inert files.** 116 says nothing depends on a path outside CC-Wanderer. **This does, and
+today made it one worse.**
+
+## AND WHAT I OWE
+
+**17 · A DIRECTIVE NUMBER** for the two-pass ruling, and now for this one.
+
+**18 · THE SECOND PASS'S COST IN TIME AND TOKENS.** Findings measured; time and tokens still owed.
+
+**19 · THE OPTIONAL NOTES FROM EVERY PASS BEFORE TODAY** — in the marks, never read by him.
+
+---
+
+**TWENTY THINGS OPEN. NOTHING CLOSED TODAY.** The day bought one thing: **it is no longer possible
+for me to end a turn without this list being here.**
