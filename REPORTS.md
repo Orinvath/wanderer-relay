@@ -48101,3 +48101,72 @@ does not reach apparatus at all. Either is defensible. A silent one is not.**
 **Not measured:** whether his bench feeds a sight signal at all in normal use. **The censor's
 verdict on a gemma-style line is read from code, not run.**
 **467 blocked on the 394 collision. 465 and 466 built. 468 to 475 unread.**
+
+---
+
+## THE SECOND REVIEW OF THE LEDGER — my fix carried its own bug. Four more, fixed in `d51bfef`.
+
+**442.A.3, in full. It booted the bench, ran the suite, and measured.**
+
+### THE THREE IT CONFIRMED FIXED — WITH NUMBERS
+
+**The corrupt file survives:** it put corrupt bytes under a running bench and they were **still
+byte-identical minutes later**, with the complaint on stderr each beat. **The failed load keeps a
+run open on both paths.** **The two routes work and guard.**
+
+**And the growth fix holds, measured not asserted: 500 runs is now 195 KB, not 19 MB, and a save
+takes 1.4 milliseconds, not 187.**
+
+### AND MY FIX CARRIED ITS OWN BUG
+
+**MY LINE-TRIMMING WIPED EVERY RECORD THAT WAS NOT THE ONE BEING WRITTEN — INCLUDING ANOTHER LIVE
+BENCH.** It proved it: two renderers erasing each other's lines on every save, back and forth.
+**Fixed: the newest few runs keep their lines, whoever is writing.** Proved — both keep theirs now.
+
+### AND THE CORRUPT-FILE FIX STOPPED ONE STEP SHORT
+
+**Valid JSON of the wrong shape still returned an empty list — and the next beat deleted
+everything.** **The exact way he would hit it: half-repairing the file by hand into
+`{"runs":[...]}`, which is the shape my own new route serves.** **Fixed: anything that is not a
+list of runs is unreadable, and unreadable is never overwritten.**
+
+### AND THE ONE IT SAID TO RAISE FIRST, WHICH IS NOT ABOUT THIS DIFF AT ALL
+
+**RUNNING THE ACCEPTANCE SUITE INJECTED FIVE NEVER-CLOSED PHANTOM RUNS INTO HIS REAL LEDGER.**
+Every suite run would have added five more, all with no end and no ticks, **into the measurement
+record 465 exists to protect.**
+
+**Fixed by his own precedent, not a new idea:** the test-run log already carries a private path for
+exactly this reason — *"verification runs stay out of the table he reads."* **The ledger has one
+now. Nothing but the suite passes it.**
+
+### AND TWO SMALLER ONES, BOTH MINE
+
+- **CLEARING THE RUN HE IS WATCHING DID NOT STICK.** It answered *removed*, and the next save
+  pushed it straight back. **Fixed: clearing the live one ends it and opens a fresh record.**
+- **A FAILED READ BOUGHT A MINUTE OF SILENCE.** After repairing the file by hand he would have
+  waited a full minute. **Fixed, and a run whose closing write failed is no longer thrown away.**
+
+### AND TWO IT NAMES THAT ARE HIS
+
+- **NOTHING ON HIS SCREEN READS THESE ROUTES.** They exist at the wire and **nowhere on the bench
+  page.** Past runs are reachable by hand, not by eye.
+- **THE FILE IS NOT IGNORED BY GIT, DELIBERATELY.** It warns what that costs: **once committed,
+  every beat changes a tracked file, and the review gate hashes tracked changes — so every turn
+  would block.** **His call.**
+
+### AND ONE THING IT CHECKED THAT MATTERS
+
+**THE SUITE'S 16 FAILURES AND ITS CRASH ARE NOT MINE.** It ran the same check at my commit and at
+its parent and got **identical output**. The crash is in the sight path — **the same wrong-key
+fault 467's pass found** — and it kills the suite about halfway, so everything below never runs.
+**And nothing in any suite covers the ledger at all.**
+
+### THE HOOK CHECK, FIFTH RUN
+
+**All four present, executable, parsing. Both probes pass.** No failures.
+
+### 334 · THE QUEUE
+
+**Not covered:** the ledger has no acceptance check standing behind it.
+**465 and 466 built and twice fixed. 467 blocked on the 394 collision. 468 to 475 unread.**
