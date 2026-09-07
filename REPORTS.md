@@ -48325,3 +48325,71 @@ parent commit.
 **467's live fault fixed; its two-slot build still to come. 468 superseded by 469, unmarked. 469 to
 475 unread. 463.4's gap remains. 462.2 blocked on one thing. 459's proof blocked. 458.3, 455, 457
 blocked. 453 unruled. `b3449c2` unpushed — 470 orders it reverted.**
+
+---
+
+## THE REVIEW OF THE SIGHT FIX — BOTH SHIP. And it found the same fault's other half, still dead.
+
+**442.A.3, in full. It ran the suite at my commit AND at the parent, in its own worktree.**
+
+### THE FIX IS PROVED, NOT ASSERTED
+
+**It stubbed a model and ran a real sight signal through:**
+
+```
+before:  sensed = [undefined]
+after:   sensed = ["RIVER", "TREE", "DARK"]
+```
+
+**And it confirmed the attribution properly. At the parent commit the suite DIED at clause 506 —
+33 short of the end. At mine it runs all 539.** **Sixteen of the seventeen failures fail
+identically at the parent.** The seventeenth is a **live-model check whose own note is byte
+identical in both runs** — nondeterminism, not my change. **None of the failures is mine.**
+
+**AND ONE CORRECTION TO MY OWN COMMIT MESSAGE:** I said sight **and** sound handed back nothing.
+**Only sight did.** Spoken already used the right key and sound returns nothing at all.
+
+### AND IT FOUND THE SAME FAULT'S OTHER HALF, TWO LINES BELOW, STILL DEAD
+
+**What the mind SEES but has no word for is collected every tick and read by nothing.** Its own
+comment says those are *"offered to word learning as a candidate and earns its place or does
+not."* **They are offered to nothing. Dead since it was written.**
+
+> **So sight can now ground the words the mind already has — and still cannot teach it a new one.**
+
+**I have not touched it.** Wiring it in changes what the mind learns from what it sees, **and that
+is his.**
+
+### AND NOTHING IN THE SUITE EVER REACHES THE SEEING AT ALL
+
+**No mind in any acceptance run is ever given a sense signal.** So the key could be renamed back
+tomorrow and **all 539 clauses would stay green.** **Fixed: there is a check behind it now** — it
+asserts the sense record's key is the key the mind reads, which is the whole of what went wrong.
+
+### TWO DEFECTS IN MY LEDGER WORK, BOTH FIXED IN `c667f1c`
+
+- **A RUN WHOSE WRITE FAILED WAS RECORDED AS LIVE FOREVER.** I rebuilt the carried copy without
+  its ending — **recreating the phantom-record symptom the same commit was fighting.** Fixed and
+  proved.
+- **AN EMPTY FILE PATH STILL MEANT HIS REAL LEDGER**, one layer below the guard I added. Fixed.
+
+### AND THE ELEVEN FIXES ALL HOLD, MEASURED ONE BY ONE
+
+**Every one passed** — the shape check, the live run keeping its lines against missing, null and
+tied dates, the write cooldown, the routes reading the right file, and the clear reporting what it
+did. **And after a full suite run his real ledger DOES NOT EXIST — the suite can no longer reach
+it.**
+
+### THE HOOK CHECK, AND IT COUNTED FIVE
+
+**All five present, executable, parsing. Both probes pass.** **It noted there is no settings file
+in this project at all** — the roster lives entirely outside the repo, **so an old checkout still
+turns every guard off at once with nothing but an unread error to show for it.** That is the
+README's own hazard and it stands.
+
+### 334 · THE QUEUE
+
+**Not built:** the dead candidates path — **his ruling, it changes what the mind learns.**
+**467's live fault fixed and checked. 468 superseded by 469, unmarked. 469 and 470's passes
+running. 471 to 475 unread. 463.4's gap remains. 462.2 blocked on one thing. 459's proof blocked.
+458.3, 455, 457 blocked. 453 unruled. `b3449c2` — 470 orders it reverted, and that is next.**
