@@ -52134,6 +52134,31 @@ general agent my own prose.**
 
 **THAT IS NOT A FAULT. IT IS THE FIRST TIME THE MECHANISM HAS REFUSED ME RATHER THAN THE OTHER
 WAY.** **491, 492 and 493 are blocked on a restart, and this is their reason on the relay.**
+---
+
+# REPORT — Directive 491, Directive 492 and Directive 493: BUILT, AND BLOCKED ON A RESTART
+
+**452.4: a blocked directive counts as answered while the block is on the relay with its reason.
+This is that reason, one entry, deliberately short.**
+
+**DIRECTIVE 491 — BUILT.** The Critique and the reviewer have brief files of their own for the first
+time (`.claude/agents/critique.md`, `.claude/agents/reviewer.md`). Every pass and review before today
+ran on the Director's wording. `install.sh` links all three.
+
+**DIRECTIVE 492 — BUILT.** `block-briefing-agents.sh`, registered. An agent may be given a role and a
+number and nothing else; a briefing, an address with a hint appended, and any word to a running agent
+are all refused. Proved in six states.
+
+**DIRECTIVE 493 — NOT BUILT.** The rename, and his correction that it applies **only where the word
+means the mind's words** — every other mark stays.
+
+**WHY ALL THREE STOP HERE:** the three agents are loaded by Claude Code at start-up, **so this
+session cannot address them**, and 492 now correctly refuses the workaround used all day — handing a
+general agent the Director's own prose. **Neither the passes on 491-493 nor 490's after pass can run
+until the session is restarted.**
+
+**THE COST OF THE CHOICE, STATED PLAINLY: 492 is why the chain cannot limp on.** That is what he
+asked for, and it is working.
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
