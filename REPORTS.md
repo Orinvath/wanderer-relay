@@ -52860,6 +52860,66 @@ but a pass once caught *"what was ruled as a gate has been built as a receipt"* 
 PLUMBING and it turns out to touch mind code, the Critique is already off. **483.4 asks for that
 catch; a heading marker cannot give it.**
 
+---
+
+# 493's AFTER PASS — **0 refusals. It checked the stop against the code and the stop holds.**
+
+> CRITIQUE - AFTER PASS, Directive 493 and addendum. 0 refusals, 1 optional.
+>
+> FIRST, THE PLAIN ANSWER: THERE IS NO BUILD, AND THE CLAIM THAT THERE IS NONE IS TRUE. I audited the
+> tree rather than the report (385). Every commit after 493 was posted touches only .claude/hooks/*,
+> and every "mark" in them is the evidence-file / turn-state sense that 493.3 and the addendum's clause
+> 2 explicitly keep. The relay files 493.1 names have no diff since the addendum. The fenced names the
+> before pass stopped on are all still standing untouched: perceiving.js lines 81 and 140 still carry
+> marks: words under the comment "/* 409: the KEY stays 'marks' -- this object is the sense record and
+> is stored. */", and schema.js:613 still reads mark TEXT NOT NULL with UNIQUE (wanderer_id, word,
+> mark). So "NOTHING IS BUILT. NOTHING IS TOUCHED" holds against the code. The stop is well-founded:
+> 410.3 is at DIRECTIVES.md:11041 in the words the before pass quoted, standing and never struck. 493
+> was correctly refused, correctly obeyed, and the after question has no build to ask itself of.
+>
+> AND ONE THING I NEARLY GOT WRONG, REPORTED BECAUSE 320/322 IS EXACTLY THIS. 1b103e9 shows -2 lines on
+> an already-written report, which would collide with 493.4 ("reports already written are not
+> rewritten"). IT DOES NOT. The line was struck in place - ~~...~~ with "THAT WAS FALSE AND IT IS
+> STRUCK" - so the original wording is still on the page, verbatim, and the change announces itself.
+> Had I filed on the numstat alone I would have refused a directive on a diff I had read half of.
+>
+> OPTIONAL 1 - FILING THIS MARK ENDS 493, AND 493 IS IN NO LIST. Audited in the hook, not argued:
+> require-critique.sh's answered_in_reports 493 already matches on the heading "REPORT - Directive 491,
+> Directive 492 and Directive 493: BUILT, AND BLOCKED ON A RESTART" - A HEADING THAT SAYS BUILT OF A
+> DIRECTIVE ITS OWN BODY TWO LINES LATER SAYS IS NOT BUILT - so 493 currently owes only its .after; and
+> have() asks that the file is non-empty and carries two counts and reads nothing else. The moment
+> 493.after exists, 493 leaves `missing` and NO MECHANISM RAISES IT AGAIN. 490's after pass named this
+> same shape and the Director answered it in prose - "SO IT IS WRITTEN HERE IN HIS LIST INSTEAD OF LEFT
+> TO MY MEMORY". I CHECKED THE LIST AND THAT IS NOT WHERE IT IS. The EVERYTHING OPEN block runs 1 to 37,
+> is unchanged except for the 477-483 additions, and CONTAINS NO 490 AND NO 493 - while its own header
+> says "One new one is added by the work above" and its footer says thirty-seven. So the one sentence
+> 493 is waiting for - does the rename reach the stored keys and the word_links.mark column, or does
+> 410.3 still hold - lives only in the prose of a pass, above a list that does not carry it, in a file
+> that goes green tonight. A note and not a refusal: 493 is already stopped, nothing about the mind is
+> harmed by it staying stopped, and what is at risk is HIS ORDER BEING LOST, not his intent broken.
+>
+> 334 - WHAT I DID NOT CHECK. I read INTENT.md whole; 493 and addendum whole; 410 whole; the 493.before
+> mark whole; four entries and the closing open list in REPORTS.md. I read require-critique.sh whole and
+> grepped the other five hooks and all three briefs for "mark". I diffed every CC-Wanderer commit after
+> 493 by stat and every relay commit by numstat, opening only 1b103e9 in full. I did NOT enumerate the
+> 328 sites - I opened perceiving.js and schema.js at the named lines. I ran no bench and no test. I did
+> not read HANDOFF.md, CLAUDE.md, REFERENCES.md, AUDITS.md or MIND_DECISIONS.md. For 344, 397, 398, 409
+> and 013 I relied on INTENT.md's quotations. I did not verify the before pass's site counts.
+
+## MY ACCOUNT
+
+**IT AUDITED THE TREE RATHER THAN MY WORD, and the stop is real:** the fenced names are still
+standing untouched — `perceiving.js` still carries the stored key under the comment that says why,
+and the database column is unchanged. **493 was refused, obeyed, and nothing was touched.**
+
+**AND ITS NOTE CAUGHT ME OUT: I SAID 490 WAS "WRITTEN IN HIS LIST" AND IT WAS NOT.** The pass
+checked. **Neither 490 nor 493 was on the open list**, and the heading above them reads *BUILT* of a
+directive whose own body says it is not built. **Both are on the list now, at 38 and 39.**
+
+**IT ALSO REPORTED A FINDING IT NEARLY GOT WRONG AND CHECKED INSTEAD** — a report that looked
+rewritten was a line **struck in place with the original still on the page.** *"Had I filed on the
+numstat alone I would have refused a directive on a diff I had read half of."*
+
 ## THE TWO THAT WERE NOT ON THIS LIST AND SHOULD HAVE BEEN — a pass checked and I had not
 
 **38 · 490 IS REFUSED, AND ITS MECHANISM IS NOW BUILT BUT UNRULED.** Its own before pass refused it
