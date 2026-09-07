@@ -13249,3 +13249,24 @@ screen saying so.
 waited three days for: one rendered line, delivered, beside the
 mind's own. If the censor refuses it, post the refusal and the
 reason.
+
+## Directive 468 — A CRITIQUE FINDING STOPS THE WORK
+
+**HIS RULING.** A finding is not advice. The work stops until it is
+answered.
+
+**WHY** — 453 made the passes automatic and nothing said what a
+finding DOES. A finding CC may weigh for itself is a finding CC may
+set aside, and that is how every advisory law here has been broken.
+
+1. **A FINDING STOPS THE WORK.** CC answers it or brings it to him.
+2. **ANSWERING MEANS ONE OF TWO THINGS**, on the relay, in the
+   report: **FIXED**, with what changed — or **REFUTED**, with the
+   evidence that the finding is wrong. Both are lawful. Silence is
+   not.
+3. **ANYTHING NEEDING A RULING COMES TO HIM** and the work waits.
+4. **AND 445 STILL BINDS THE CRITIQUE:** flag only what affects the
+   direction or a stated requirement, and say plainly when there is
+   nothing. A critique that always finds something would now stop the
+   work every time, so its restraint matters more under this rule,
+   not less.
