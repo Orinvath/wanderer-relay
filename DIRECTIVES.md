@@ -13485,3 +13485,30 @@ per directive, forever.**
 4. **REPORT BOTH COUNTS FROM NOW ON:** refusals, and optional notes.
    If refusals do not fall sharply from eight, the tightening did not
    take and that is a finding in itself.
+
+## Directive 477 — SHOW HIM THE PROCESS, END TO END, ON A REAL DIRECTIVE
+
+**He needs to see the flow work, not be told it works.** The Director
+cannot confirm it — the hooks and agents live on his machine and are
+not readable from the relay.
+
+**TAKE THE NEXT DIRECTIVE AND PRINT EVERY STEP AS IT HAPPENS:**
+```
+1  the directive arrives on the relay
+2  CRITIQUE, BEFORE   is this what he set out to build?
+3  CC builds it
+4  REVIEWER            does the code work? and are the four hooks alive?
+5  CRITIQUE, AFTER     did his intent survive being built?
+6  the report goes to the relay
+```
+1. **FOR EACH STEP: did it run, and what did it say.** Not a summary —
+   the pass's own words, as Part One already started doing.
+2. **NAME WHICH STEPS ARE ENFORCED BY A HOOK** and which depend on
+   somebody remembering. He needs to know which parts cannot be
+   skipped and which can.
+3. **AND SAY WHICH STEP IS THE WEAKEST.** The Director's answer is
+   step 7 — the Director reading the report and telling him — because
+   that is the one with no mechanism at all. Say whether you agree
+   and whether anything else is as weak.
+4. **THEN HE WATCHES IT ONCE** and rules whether the process is what
+   he wants.
