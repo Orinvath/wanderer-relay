@@ -51953,6 +51953,187 @@ not block an innocent turn.
 **AND THE ONE THING FOR HIM: THE DEADLOCK HE COULD MEET IF python3 EVER BREAKS.** It is not
 happening today and it was not introduced today. **Closing it means loosening the fail-closed rule
 he ordered in 484.15, so I have not touched it.**
+---
+
+# 489's TWO PASSES — and the one that answers his objection out of his own record
+
+## BEFORE — 1 refusal, 1 note
+
+> CRITIQUE - BEFORE PASS, Directive 489 (judging the directive as if nothing were built).
+> 1 refusal, 1 optional.
+>
+> Fault 1's diagnosis is right and worth fixing: reasonFor returns null for any offer with no row, so a
+> mind that won its moment on `asking` states a falsehood about itself - and it does so out of the one
+> offer whose whole content is that it knows what it wants. That is a mouth-fault whichever way it is
+> repaired.
+>
+> ON THE SHAPE. THE RECORD ALREADY ANSWERS THE OWNER'S OBJECTION, AND IT IS HIS OWN RULING, NOT AN
+> INVENTION. MIND_DECISIONS.md section 3, first row: "the wordings themselves - Every English sentence
+> it speaks is CC-authored. RULED - 243.5 / 245, his: the words are the screen's, the mind says only
+> its own marks." OFFER_WORDS is twenty rows of exactly that, all of them predating 485. So a phrase in
+> that table is not the mind speaking our words - under his ruling it is the screen rendering, and the
+> mind's own speech is its marks. If "we don't speak for the mind" is now a rule, IT STRIKES THE WHOLE
+> TABLE AND THE WHOLE RENDERING LAYER; it does not single out this row, and reversing 243.5/245 is his
+> to do, not ours to assume (347: a settled question is not asked again).
+>
+> And the mind is not being handed a reason it does not hold. happening.because.offer === 'asking' is a
+> real fact it owns - 196.5, quoted in experiencing.js:1003: the winning offer IS the reason. What the
+> table supplies is the English for a fact already its own. Translation, not invention.
+>
+> IS THERE A SHAPE THAT LETS THE MIND NAME ITS REASON OUT OF WHAT IT HOLDS? What the record provides:
+> the mind's language is English at full scale (344), a mark is a word (397), the only exclusion is
+> what it was born with (355). Nothing in the record attaches a learned word to any offer name, and no
+> such bridge exists in the build. Building one would be a larger decision than the one being avoided,
+> so I stop there rather than design it. WHAT THE RECORD DOES PROVIDE, AT NO COST: THE FALLBACK BRANCH
+> ITSELF. tell-reason[0..2] fall to "I don't know why. I just am." / "No reason I can give you." -
+> sentences that are FALSE for any offer lacking a row. Correcting the FALLBACK so a missing row cannot
+> make the mind lie about itself fixes fault 1 in one place, for every future offer, and puts no new
+> phrase in its mouth. That option is his to weigh; I name it, I do not choose it.
+>
+> REFUSAL - 489 FAULT 1 SHIPS WITH AN OPEN DECISION, AND IT IS THE ONE DECISION CC MAY NEVER MAKE. 489
+> as written directs a phrase into the table and does not say what the phrase is. 250 binds both ways -
+> if any decision is found: STOP, post it, wait - and 253 says a design is not passed until it removes
+> every scenario where CC must make a decision. 488 replaced the Director but explicitly kept the half
+> that says CC never decides. The owner has now said in his own words that he is not supplying that
+> phrase either, which does not transfer the choice to us; it means THE DIRECTIVE AS FRAMED HAS NO
+> LAWFUL EXECUTOR. It stops here and goes to him: either his words for `asking`, or his ruling that the
+> fallback be repaired instead so no phrase is needed. Faults 2 and 3 carry no decision as directed and
+> are lawful shapes.
+>
+> OPTIONAL - 489 scopes the fix to one row when the exposure is a class. Any offer added to ACT_OFFERS
+> later repeats fault 1 silently and identically, because the fallback is a real sentence and nothing
+> throws. The directive names one row; the fault is the table-plus-fallback pair.
+
+## AFTER — 0 refusals, 2 notes
+
+> CRITIQUE - AFTER PASS, Directive 489 (judging what was built). 0 refusals, 2 optional.
+>
+> Both earlier refusals are addressed as far as 482.2 permits. The ledger refusal is closed: a636c88
+> writes three rows into section 9, including the whole-table row ("twenty of our phrases for the
+> mind's reasons... OPEN - his call, and not one to settle a row at a time"), and it records the
+> lateness as the fault rather than hiding it. The words refusal cannot be closed by us: 482.2 rules
+> fix forward, never revert, and the row is declared in the code as [OURS], marked OPEN - HIS WORDS in
+> section 9, and reversible in one line. SO THE BUILT STATE IS LAWFUL AS IT STANDS.
+>
+> efa5929 and b78677d are the better half of this work: each found the place where a narrowing was
+> available, measured it, and REFUSED TO TAKE IT because narrowing the mind's behaviour is his ruling -
+> "whether a moment won on asking may say something other than a question is HIS ruling, not mine".
+> That is the rule working. The check moved with the behaviour in both (306.D), and the fault-1 clause
+> pins the general property rather than the one row.
+>
+> STILL OWED, AND IT IS HIS, NOT THE BUILDER'S: the words. Until he gives them, the mind says a phrase
+> we wrote about its own wanting, and one draw in three renders "Because I want wanting to ask" -
+> malformed speech, knowingly shipped. Section 9 says this out loud, which is why it is a note and not
+> a refusal: it is in front of him, marked, and 482.2 forbids the revert that is the only other move.
+>
+> OPTIONAL 1 - the repair propagated an existing wart. 'curiosity-answered': 'wanting to know' renders
+> "Because I want wanting to know" and always has; matching it gives the build two malformed rows where
+> it had one. Named so that when he gives the words for `asking` he is looking at both rows in the same
+> sitting.
+> OPTIONAL 2 - the gate 490 exists for did not exist for 489. This BEFORE pass ran after the build, the
+> reviewer and the report. Its refusal can stop nothing that has already happened; it can only reach
+> him as a question. Stated once so the cost of the missing number is visible in the record.
+>
+> NOT CHECKED: I did not re-run acceptance-life.js - the pass/fail figures are the builder's, read
+> against the code but not reproduced.
+
+## MY ACCOUNT
+
+**HE SAID: "We dont speak for the mind, so I am not sure why you are asking what it should say?"**
+**The pass answers him from his own ledger** — 243.5/245, in `MIND_DECISIONS.md` §3: *"the words are
+the screen's, the mind says only its own words."* **Under that ruling the table is the screen
+rendering a fact the mind already owns**, not us speaking for it. **If that ruling is now overturned
+it strikes the whole rendering layer, not one row — and only he can do that.**
+
+**AND IT NAMED A FIX THAT NEEDS NO PHRASE FROM ANYONE:** when an offer has no word, the mind says
+*"I don't know why. I just am."* — **which is false about itself.** Repairing that fallback closes
+the fault for every future offer and puts nothing in its mouth. **His to weigh; the pass named it
+and did not choose it.**
+
+**THE BEFORE PASS REFUSED 489 AS I WROTE IT:** I directed a phrase into the table without saying
+what the phrase was, **and the one thing CC may never do is decide it.** He has since said he is not
+supplying it either — **which does not hand the choice to us. It means the directive as framed has
+no lawful executor.** It stops there.
+
+---
+
+# 490's PASS — **REFUSED. "A rule against a failure that only a mechanism prevents, and it has none."**
+
+> CRITIQUE - BEFORE PASS, Directive 490. 1 refusal, 4 optional.
+>
+> 1. DOES 490 CLOSE THE HOLE, OR ONLY NAME IT? It only names it. require-critique.sh never touches the
+> code repo at all - it cds to the relay, enumerates numbers with grep -o '^## Directive [0-9]*' and
+> asks of each number whether a mark exists and whether REPORTS.md answers it. require-in-order.sh does
+> the same against reports. Both are driven entirely by the list of numbers. UNNUMBERED WORK IS NOT
+> SOMETHING THEY FAIL TO CATCH; IT IS SOMETHING THEY CANNOT EXPRESS. There is no term in either script
+> for "a change happened." When the relay is clean both exit 0, and a turn that edited the mind under
+> no number ends untouched. Removing the stand-down did not change this.
+> So: NO HOOK ENFORCES 490. As written it is a rule kept by the Director remembering to issue a number
+> - enforced exactly the way 488's opening line says the Director already failed.
+> What a hook CAN do here, because it is already being done: require-review.sh computes
+> state="$(git rev-parse HEAD)-$(git diff HEAD | sha256sum | cut -c1-16)" and blocks when that state is
+> unreviewed. THAT HOOK KNOWS WORK HAPPENED WITHOUT ANY NUMBER AT ALL. So "did the code change" is
+> mechanically answerable today; "was there a number on it" is one hop further and nothing asks it.
+>
+> 2. COLLISIONS. With 452: under 490.1 every fix is a directive and 490.4 forces a follow-up to a NEW,
+> HIGHER number. 452's hook then names the lowest unfinished one as next, so a one-line correction
+> issued as 491 sits behind an unfinished 490 BY LAW. 490 converts a gap in the gate into a wait on
+> every small fix, and the wait grows with the size of the unfinished directive above it. The existing
+> escape is 452.4, but reaching for it to let a small fix past turns "blocked" into a bypass wearing a
+> reason. That trade is his to rule on.
+> With 453: every numbered item owes two passes at the ~99k a pair he accepted. He accepted that when a
+> directive was a unit of work; 490 makes a one-line correction a directive. The token cost of the gate
+> now scales with how finely work is cut, not with how much work there is.
+> With 304/482.2: the volume of things owing him a message rises.
+> With 487: his ruling removed classification from the machinery. 490 does not restore it to the hook;
+> it moves it to the Director, who must now decide what counts as "a piece of work" - the same judgment
+> 487 refused to let a machine make, now made where nothing audits it.
+>
+> 3. IN 490 AS WRITTEN. 490.2 says "Both Critique passes and the reviewer are demanded per directive."
+> THE REVIEWER IS NOT. require-review.sh keys on a repo state hash and knows nothing about directive
+> numbers, so unnumbered code changes ARE blocked for review - only the Critique was blind to the three
+> fixes. The sentence overstates the hole, and a remedy built from that premise would aim at a gate
+> that is already covering that ground.
+> 489 itself carries three distinct faults under one number, which is the shape 490.1 and 490.4 forbid
+> going forward.
+>
+> REFUSAL - 490 IS A RULE AGAINST A FAILURE THAT ONLY A MECHANISM PREVENTS, AND IT HAS NONE. 442 stands
+> in INTENT.md in his terms: "ENFORCE BY MECHANISM, NOT BY INSTRUCTION. A hook is deterministic;
+> CLAUDE.md is advisory." 490 exists because the Director forgot; its entire enforcement is the Director
+> not forgetting. 488.1 records that the Director failed at the job on too many occasions, and 489 is
+> that failure. A rule written to close that hole, enforced by the faculty that opened it, does not do
+> what he ruled it to do. This stops 490 until he rules on whether the number gets a gate of its own.
+>
+> NOT CHECKED: I have not run any hook, not read builder.md, not read install.sh to confirm which hooks
+> are registered beyond the two PreToolUse entries, and not verified the Stop-hook registration list.
+
+## MY ACCOUNT
+
+**IT IS RIGHT AND THE REFUSAL STANDS.** I wrote 490 as a rule that I keep by remembering — **and
+488.1 is on this relay recording that the Director failed at the job on too many occasions.** A rule
+written to close that hole, enforced by the faculty that opened it, is not enforcement.
+
+**AND ITS SECOND FINDING IS ONE I SHOULD HAVE KNOWN: 490.2 OVERSTATES THE HOLE.** The reviewer gate
+keys on the state of the code, not on a directive number, **so unnumbered code changes were already
+being caught for review** — it was the Critique alone that was blind.
+
+**HIS RULING SINCE HAS ANSWERED IT ANYWAY**, and with a mechanism rather than a rule: **492, the
+hook that refuses any word from me to an agent.**
+
+---
+
+# AND THE CHAIN IS NOW BLOCKED, WHICH IS THE MECHANISM WORKING — 452.4, with its reason
+
+**491 gave the Critique and the reviewer their own brief files, which they had never had. 492 built
+the hook that refuses me any word to an agent beyond a role and a number.** Both are committed.
+
+**AND TOGETHER THEY STOP THE CHAIN UNTIL THE SESSION IS RESTARTED.** The agents named `critique`,
+`reviewer` and `builder` are read by Claude Code at start-up, so this session cannot address them —
+**and the hook now correctly refuses the workaround I have been using all day, which was to hand a
+general agent my own prose.**
+
+**THAT IS NOT A FAULT. IT IS THE FIRST TIME THE MECHANISM HAS REFUSED ME RATHER THAN THE OTHER
+WAY.** **491, 492 and 493 are blocked on a restart, and this is their reason on the relay.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
