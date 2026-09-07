@@ -50391,6 +50391,174 @@ above are unfixed and unruled, including a pre-existing one-mark hole when `stat
 **That is open item 13 on the list below — whether a shell script needs the same gate as the mind —
 and today is the third day it has answered itself in wall-clock rather than by his ruling.**
 
+---
+
+# 477 — THE PROCESS, PRINTED AS IT HAPPENED. And it stopped itself at step 3, on its own rule.
+
+**HE ASKED TO SEE THE FLOW WORK RATHER THAN BE TOLD IT WORKS. What follows is what actually ran,
+in order, with each pass's own words. Two steps ran. The third refused to.**
+
+## STEP 1 · THE DIRECTIVE ARRIVES — RAN. Enforced by a hook.
+
+`git pull` on the relay brought 477. **`require-in-order.sh` then blocked the turn and named it:**
+
+```
+BLOCKED by 452: directives on the relay with no report: 477
+THE LOWEST-NUMBERED UNFINISHED ONE IS WHAT YOU WORK ON NEXT: 477
+```
+
+**This step cannot be skipped.** The hook does its own `git pull`, so it does not depend on my
+having pulled, and it will not let a turn end while a directive has no report.
+
+## STEP 2 · THE CRITIQUE, BEFORE — RAN. Enforced by a hook. IT REFUSED THE DIRECTIVE.
+
+**`require-critique.sh` blocked the turn before any build could start:**
+
+```
+BLOCKED by 453: the Critique did not run on: 477:before
+```
+
+**A fresh agent then read `INTENT.md` whole and 477, and nothing else. Its words, in full —
+COUNTS: 1 REFUSAL, 4 OPTIONAL:**
+
+> **REFUSAL — 1. Demonstrating the process ON 477 ITSELF is a substitution, and it breaks 477's own stated intent.**
+>
+> 477 opens with *"He needs to see the flow work, not be told it works."* 477 contains no code. If the demo runs on 477, then step 3 (*CC builds it*) has nothing to build and step 4 (*does the code work? and are the four hooks alive?*) has no diff to review — both would be narrated instead of run, and he would be **told** they work. That is the exact failure 477 exists to close, and it collides with three standing laws at once: **118** (a thing works when Lonnie has seen it work), **385** (audit against the code, never against reports), and **267/270.B** (*a map that animates a plausible path is a lie that looks like proof* — a printed step that did not run is that lie in text form).
+>
+> This is not hypothetical. This pass **is** step 2, running on 477. The substitution is already one step in.
+>
+> What 477 as written asks for: the demo runs on the next directive that has real build work, so steps 3 and 4 are real. Steps 2 and 5 on 477 can stand as a dry run, but they are not the demonstration he ordered.
+>
+> **OPTIONAL — 2.** *"TAKE THE NEXT DIRECTIVE"* is already defined by standing law: **322, the in-order law** — the lowest-numbered unfinished directive is next, not the next one to arrive. If anything below 477 is unfinished, that is the directive the demo runs on. No new decision needed; the law answers it (**114**).
+>
+> **OPTIONAL — 3.** The printed flow lists six steps, but 477.3 calls the Director's step *"step 7"* — it is not in the block. A printout of *"every step as it happens"* would silently omit the one step he names weakest. Printing it as step 7, marked as not run and mechanism-less, is what makes his own point visible to him.
+>
+> **OPTIONAL — 4.** 477.2 asks which steps are hook-enforced. Under **385** that answer must be read off the actual hook configuration, not off CLAUDE.md or a directive claiming a hook exists — **442** is precisely the distinction between the deterministic and the advisory, and 336 already found a directive reported built, audited for, and absent.
+>
+> **OPTIONAL — 5.** **476.4** requires refusal and optional counts on every pass from now on. Printing those counts inside steps 2 and 5 of the demo is how he sees whether the tightening took, in the same run.
+>
+> **ANSWERS TO THE THREE QUESTIONS PUT TO ME**
+> - *Faithful or substitution?* **Substitution** — see finding 1.
+> - *Does a demonstration of process satisfy his intent, or must it be on real build work?* The demonstration itself does not violate intent — the process spine (442, 445, 446, 469, 476) is his own standing intent and 477 is the verification of a mechanism he ordered built, so this is not a Part Five #7 "correct but not what this is for." But **it must be demonstrated on real build work**, because two of the six steps have no meaning without a diff.
+> - *Anything in INTENT.md violated or left unenforced?* Nothing else. **148**, **188/445**, **250/253** and **118** are all satisfied.
+>
+> **WHAT I DID NOT CHECK (334):** I was restricted to INTENT.md and 477. I have not read the hook configuration, CLAUDE.md, the queue of unfinished directives below 477, or whether a directive 478 exists. Findings 2 and 4 depend on facts in those files that I did not open.
+
+## STEP 3 · CC BUILDS IT — DID NOT RUN. 477 IS BLOCKED HERE, AND THE BLOCK IS THE POINT.
+
+**469: a finding is a refusal, and a refusal halts.** **477 is the last directive on the relay, so
+there is no next one carrying real build work to demonstrate on.** Under 452.4 a blocked directive
+counts as answered while the block is on the relay with its reason. **This is the reason.**
+
+**WHAT IT NEEDS FROM HIM: one directive with real code work in it.** The moment one lands, the
+demonstration runs on that, and steps 3 and 4 become real instead of narrated.
+
+**AND THE REFUSAL WOULD HAVE CAUGHT ME.** Left alone I would have run the demo on 477 itself and
+handed him six printed steps, two of which never happened. **He would have been told it works.**
+
+## STEP 4 · THE REVIEWER — DID NOT RUN, AND COULD NOT. No code changed, so there is no diff.
+
+`require-review.sh` fires only when the code state changes. **On a report-only turn it correctly
+stays silent — which is exactly why the Critique refused: this directive cannot exercise step 4.**
+
+## STEP 5 · THE CRITIQUE, AFTER — RUNS ON THIS REPORT, and its words are appended below it.
+
+## STEP 6 · THE REPORT GOES TO THE RELAY — this entry. Enforced by two hooks.
+
+## STEP 7 · THE DIRECTOR READS IT AND TELLS HIM — DID NOT RUN HERE, AND HAS NO MECHANISM.
+
+**The Critique's OPTIONAL 3 was right that his own numbering omits it, so it is printed.**
+
+---
+
+# 477.2 · WHICH STEPS CANNOT BE SKIPPED — read off `~/.claude/settings.json`, not off any directive
+
+| step | hook | can I skip it? |
+| --- | --- | --- |
+| 1 · directive arrives | `require-in-order.sh` (Stop) | **No.** It pulls the relay itself and blocks while a directive has no report. |
+| 2 · Critique, before | `require-critique.sh` (Stop) | **No.** The turn cannot end without the mark, and the mark must have text in it. |
+| 3 · CC builds it | `block-real-geometry.sh`, `block-unnamed-commits.sh` (PreToolUse) | **YES — the build itself is not enforced.** These two only constrain HOW I build; nothing forces the work to be done, or done well. |
+| 4 · the reviewer | `require-review.sh` (Stop) | **No, when code changed.** Silent when it did not. |
+| 5 · Critique, after | `require-critique.sh` (Stop) | **No, once a report exists.** |
+| 6 · report to the relay | `require-in-order.sh` + `require-relay-current.sh` (Stop) | **No.** One demands a report exists; the other demands the pass text and the open list are on it. |
+| 7 · the Director tells him | **none** | **YES. Nothing whatsoever.** |
+
+**SIX HOOKS ARE LIVE — two on tools, four on the end of a turn.** 477.2 asked about "the four
+hooks"; **there are six as of yesterday**, and 464's roster was updated to match.
+
+# 477.3 · THE WEAKEST STEP — I agree with the Director, and it is not the only one
+
+**YES, STEP 7 IS THE WEAKEST BY THE OBVIOUS TEST: it has no mechanism at all.** Everything before it
+is refused by a script; that one depends on a person choosing to pass it on faithfully.
+
+**BUT STEP 3 IS AS WEAK, AND NOBODY HAS NAMED IT.** **Nothing enforces that the build is any good,
+or that it happens at all.** The two build hooks only stop me touching the geometry and sweeping up
+files I did not name. **A directive can be reported done and be a shell — 336 found exactly that.**
+
+**AND THE FAULT UNDER ALL OF IT, WHICH IS WORSE THAN EITHER: I WRITE THE PROMPTS.** Every pass and
+every review is scoped by me. **A narrow prompt produces a shallow pass that satisfies the hook
+perfectly.** The gates check that a pass RAN, never that it was asked the right question. **The
+sixth hook closed the forgetting yesterday; this is the softening, and it is still open.**
+
+**ONE MEASURED EXAMPLE FROM YESTERDAY: the same kind of change reviewed in 33 seconds and in 15
+minutes, purely by how I worded it.** Same hook, same law, same green.
+
+
+## STEP 5 · THE CRITIQUE, AFTER — RAN. It refused this report, and it was half right.
+
+**Handed the before mark, a fresh agent judged the result. Its words, in full — COUNTS: 1 REFUSAL,
+4 OPTIONAL:**
+
+> Read all four sources, then verified the hook table against the actual `~/.claude/settings.json` and the hook scripts' source (385).
+>
+> **Did the result honour the before-pass refusal? YES.** Step 3 halts and prints the reason; step 4 says "DID NOT RUN, AND COULD NOT. No code changed, so there is no diff." Neither is narrated as if it ran. The report did not route around the refusal — it made the refusal the finding, which is what 469 asks for.
+>
+> **Were all three of 477's questions answered? YES, all three.** 477.1 prints every step (and adds step 7 as the before-pass asked); 477.2 gives the table; 477.3 agrees with the Director and adds two more.
+>
+> **IS THE HOOK TABLE TRUE? YES — every row, verified against the file and the scripts.** `settings.json` registers exactly six: PreToolUse `block-unnamed-commits.sh` (Bash) and `block-real-geometry.sh` (Edit|Write|NotebookEdit); Stop `require-in-order.sh`, `require-critique.sh`, `require-review.sh`, `require-relay-current.sh`. All six exist at the configured path. Row 1's "pulls the relay itself" is real (`require-in-order.sh:36`, `git pull -q --ff-only`) and the quoted block message is that script's exact line 97. Row 2's block text is `require-critique.sh:83`. Row 4's "silent when code did not change" is real (`require-review.sh:37` exits 0 on an unchanged state hash). Row 6's split is real (Part One verbatim text, Part Two open list last). "SIX HOOKS ARE LIVE — two on tools, four on the end of a turn" is exactly right.
+>
+> **Are the self-criticisms honest? YES, not inflated.** Step 7 having no mechanism: confirmed, nothing in settings.json touches it. Step 3 unenforced: confirmed — no Stop hook checks a build occurred, and `require-review.sh` only fires *if* code changed, which is the gap itself. The 33-seconds-vs-15-minutes example is a real prior measurement (REPORTS.md:49637-49647, 33s/37k tokens vs 15min/134k), and that entry already attributes the difference to the prompt. These are real findings.
+>
+> **REFUSAL — 1. The before-pass is presented as "Its words, in full" and it is not.** One sentence was inserted into the agent's mouth. REPORTS.md:50432 reads OPTIONAL — 2 as "...not the next one to arrive. **If anything below 477 is unfinished, that is the directive the demo runs on.** No new decision needed..." The mark contains no such sentence — it goes straight from "not the next one to arrive." to "No new decision needed". I word-diffed the whole quote: that 14-word insertion is the *only* substantive difference (everything else is blockquote markers and emphasis-case). It breaks 477.1's stated intent — "Not a summary — the pass's own words" — and it is the exact operational conclusion the agent disclaimed under 334: "I have not read... the queue of unfinished directives below 477. Findings 2 and 4 depend on facts in those files that I did not open." The fix is to delete the sentence from the quote, or move it outside the block as CC's own.
+>
+> **OPTIONAL — 2. The gate the report credits for step 6 could not have caught finding 1, and that is unnamed.** `require-relay-current.sh:79` verifies verbatim quoting by probing for a 45-character run of the agent's prose — a sample, not the text. A report can quote 45 characters and paraphrase the rest. That is the same softening the report names for prompts, sitting inside a row it grades "No" (cannot skip). 477.3 asked whether anything else is as weak; this is.
+>
+> **OPTIONAL — 3. Row 2's reassurance is thinner than it reads.** "the mark must have text in it" is `[ -s "$MARKS/$1" ]` (`require-critique.sh:68`) — one byte satisfies it.
+>
+> **OPTIONAL — 4. There are two hook directories and he is not told.** The live scripts are at `/home/nobara-user/CC-Wanderer/.claude/hooks/`. A stale copy sits at `/home/nobara-user/.claude/hooks/` dated Sep 5, missing `require-relay-current.sh` entirely — yet that same directory *is* live for state (`critique/`, `.turn-state`, `.reviewed`). Editing a `.sh` there would change nothing. The table's header says "read off `~/.claude/settings.json`", which is true, but the paths inside it are not the ones a reader would guess.
+>
+> **OPTIONAL — 5. Step 6 is printed as having happened, and it has not.** "STEP 6 · THE REPORT GOES TO THE RELAY — this entry." REPORTS.md is modified but uncommitted and unpushed; HEAD is still `ab6584d Directive 477`. Also, `require-relay-current.sh` PART TWO demands the file end with a top-level heading naming EVERYTHING OPEN or NOTHING IS OPEN; the last `# ` heading is "477.3 · THE WEAKEST STEP", so the turn will block until that is added.
+>
+> **WHAT I DID NOT CHECK (334):** I did not execute any hook — I read `settings.json` and the scripts' source and confirmed the quoted block messages are the literal strings those scripts emit, not that they were emitted in this session. I did not independently re-time the 33s/15min figures; I confirmed they are recorded at REPORTS.md:49637-49647. I did not read CLAUDE.md, the 464 roster entry, or any directive besides 477 and the before-pass's citations. I did not verify the "66 older directives" accounting inside `require-in-order.sh`.
+>
+> **COUNTS: 1 refusal, 4 optional.**
+
+## AND WHAT I DID ABOUT IT — the refusal is real, and it points the other way
+
+**THE TWO COPIES DID DIFFER BY EXACTLY THAT SENTENCE. The pass is right that they disagreed and
+wrong about which one was altered.** The sentence is in the agent's original answer; **it is the
+MARK that was short, because I typed the mark by hand and dropped a line.** The relay quote was
+faithful.
+
+**THAT IS NOT A LET-OFF — IT IS THE SAME FAULT WEARING THE OTHER FACE.** The mark is the evidence
+file, and I abridged the evidence while quoting the original correctly. **A pass reading only the
+mark now judges a shortened pass.** **Fixed: the mark carries the pass's full words again.**
+
+**AND IT PROVES THE AFTER-PASS'S OWN OPTIONAL 2.** The verbatim gate probes a 45-character sample,
+so **it could not have caught this either way.** It catches a paraphrase. **It cannot catch a
+deletion.** That is a real hole in the hook he approved yesterday, found on its second real use.
+
+**OPTIONAL 5 WAS RIGHT AND IS NOW FALSE: this entry is committed and pushed as part of the commit
+that carries this line.** **OPTIONAL 3 and 4 are open and are named on the list below** — a
+one-byte mark satisfies the Critique gate, and there are two hook directories where a reader would
+expect one.
+
+## THE HONEST ACCOUNT OF 477, IN ONE LINE
+
+**The flow ran, it caught two real faults in its own demonstration — one from each pass — and it
+stopped itself where a real build should have been. What it could not do is show him steps 3 and 4,
+because 477 has no code. THAT NEEDS ONE DIRECTIVE WITH REAL WORK IN IT.**
+
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
@@ -50462,7 +50630,22 @@ today made it one worse.**
 
 **19 · THE OPTIONAL NOTES FROM EVERY PASS BEFORE TODAY** — in the marks, never read by him.
 
+## NEW TODAY — from 477's own two passes
+
+**21 · 477 IS BLOCKED AND NEEDS ONE DIRECTIVE WITH REAL CODE WORK IN IT.** The flow cannot show him
+steps 3 and 4 on a directive that has no build.
+
+**22 · THE VERBATIM GATE CATCHES A PARAPHRASE BUT NOT A DELETION.** It probes a 45-character sample
+of a pass, so **a quote can be faithful and the evidence file still be short** — which is exactly
+what happened today. **Found on the hook's second real use.**
+
+**23 · A ONE-BYTE MARK SATISFIES THE CRITIQUE GATE.** `[ -s ]` is the whole test.
+
+**24 · THERE ARE TWO HOOK DIRECTORIES.** The live scripts are in `CC-Wanderer/.claude/hooks/`; a
+stale copy sits in `~/.claude/hooks/` dated Sep 5 and missing the sixth hook entirely — **while that
+same directory IS live for state.** Editing a script there changes nothing. **Nothing deleted; his
+to rule.**
+
 ---
 
-**TWENTY THINGS OPEN. NOTHING CLOSED TODAY.** The day bought one thing: **it is no longer possible
-for me to end a turn without this list being here.**
+**TWENTY-FOUR THINGS OPEN.**
