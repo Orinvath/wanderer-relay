@@ -48634,3 +48634,55 @@ thing standing behind "a missing hook exits quietly and nothing on any screen sa
 
 **Not checked:** whether the remote is private — I did not look, and it is his to know.
 **471 built. 470 built and twice fixed. 469 needs his ruling on five things. 472 to 475 unread.**
+
+---
+
+## THE REVIEW OF THE THEATRE FIX — the check is real now, and it named the fault under all of this.
+
+**442.A.3, in full. Fixed in `3425847`.**
+
+### ITS SHARPEST LINE, AND IT IS ABOUT ME
+
+> **"A fix about a check that guarded nothing shipped with no check of its own."**
+
+**Right. The carry fix had no clause behind it — I proved it at a terminal and moved on.** **There
+is one now**, and it fails on both of the ways I got it wrong: **0 ticks, and −1700.**
+
+### AND IT PROVED MY NEW CLAUSE IS REAL — THEN FOUND ITS BLIND SPOT
+
+**Red on break, three ways:** rename the key in the seeing → **fails.** Rename it in both branches
+→ **fails.** Correct → passes. **Not theatre any more.**
+
+**BUT it could not see sight going SILENT.** The reviewer made the seeing return **nothing at
+all** — the very fault this is about — **and my clause stayed green**, because the spoken half
+supplied the word on its own. **Fixed: the seen record is now asserted directly. Proved — old
+clause true, new clause false, on a silent sight.**
+
+### AND TWO REAL FAULTS IN THE LEDGER
+
+- **A SAME-MILLISECOND ID COLLISION ATE A CARRIED LIFE.** If a close and its reopen land in the
+  same millisecond, both records share an id and **the empty new one overwrote the 1,700-tick
+  one.** **Fixed: a carried record is a finished life and it outranks one that has barely begun.**
+  Proved — one record, 1700 kept.
+- **A FAILED CLOSE WITH NOTHING REOPENED STRANDED THE LIFE FOREVER.** The record was safe in
+  memory and **could never reach the disk.** **Fixed.** Neither is reachable in today's routes.
+  **A life is not something to leave resting on that.**
+
+### AND IT ANSWERED THE QUESTION I ASKED IT BEST
+
+I asked what happens on the load path, which swaps in a different being's clock. **The old code
+stamped the INCOMING being's tick count onto the DEAD being's life — it wrote 5000.** **That is
+worse than the 0 case and I had not seen it.** **The fix covers both**, and it showed why the
+second commit was needed: **the middle version held the right number in memory and still wrote the
+wrong one to disk.**
+
+### AND IT MEASURED THE SUITE HONESTLY AT BOTH COMMITS
+
+**523 passed, 17 failed, of 540 — identical at mine and at the parent.** The two differing entries
+are **its own worktree artefact and a live-model clause.** **No regression.**
+
+### 334 · THE QUEUE
+
+**Not exercised:** the image-attachment branch of the seeing — my fixture passes no picture.
+**471 built and proved by a fresh clone. 470 built and twice fixed. 469 needs his ruling on five
+things. 472 to 475 unread.**
