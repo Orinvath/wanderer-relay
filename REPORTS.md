@@ -49519,3 +49519,55 @@ shell script exactly as hard as it treats the mind.
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; and whether
 plumbing needs the same gate as the mind.
+
+---
+
+## THE MEASUREMENT 448 ORDERED, AND I HAVE OWED SINCE. Counted, not estimated.
+
+**448's closing line: "AND SAY WHAT THE SECOND PASS COSTS — the first was measured on 436; measure
+this one too before it is put to work."** **It was put to work and never measured. I asserted
+"doubled the cost" twice without a number. Here are the numbers.**
+
+### WHAT THE PASSES ACTUALLY COST, COUNTED FROM THE MARKS ON DISK
+
+```
+40 passes recorded    20 before, 20 after
+215 KB written        the passes' own words, on disk
+
+before passes    149 findings    mean 7.5    low 0    high 19
+after passes     159 findings    mean 8.0    low 0    high 17
+
+said "Nothing to report"     2 of 20 before      2 of 20 after
+```
+
+**THE SECOND PASS COSTS MORE THAN THE FIRST, NOT LESS** — 159 findings against 149, mean 8.0
+against 7.5. **A pass judging a REBUILD finds more than the pass that judged the directive.** **So
+the loop 469 creates does not converge on this record; it widens.**
+
+### AND THE PART THAT CORRECTS MY OWN EARLIER NUMBER
+
+**I told him 258 findings and mean 11.2. A pass corrected me to 233 and 10.1.** **Counted properly
+from the marks now: 308 across 40 passes, mean 7.7** — the total is higher because there are more
+passes now, and **the mean is LOWER than either figure I gave him.**
+
+### AND THE ONE GENUINELY GOOD NUMBER
+
+**Four passes have now said "Nothing to report."** **Two days ago that number was zero out of
+twenty-three, and I reported it to him as the reason 469 would stop the project.** **It is 4 of 40
+now, and every one of them came after the restraint was written into the prompt.**
+
+**445 and 469.4 both say a critique that always finds something teaches him to ignore it. It no
+longer always finds something.**
+
+### WHAT I HAVE NOT MEASURED
+
+**Wall-clock and tokens per pass.** I have the figures for today's runs in front of me but not in a
+form I can put on this relay without transcribing them by hand, and a transcribed number is a
+number I could get wrong. **Named rather than guessed.**
+
+### 334 · THE QUEUE
+
+**448's cost order is now PART discharged — findings measured, time and tokens still owed.**
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; the shell-block bypass; whether 427 was ever built; and whether
+plumbing needs the same gate as the mind.
