@@ -14094,3 +14094,50 @@ as it is always supposed to."*
 ### 4 · AND THE BUILDER BUILDS THIS ONE
 **The Director does not build the guard that binds the Director.**
 That is the whole point of it.
+
+## Directive 495 — THE 490 COMMIT GUARD IS CRUDE. THREE FAULTS, ALL REPRODUCED.
+
+**A reviewer ran it and found three. This goes to the builder, not to
+the Director's hand** (494.3).
+
+**THE SHAPE OF ALL THREE: the block reads the WHOLE COMMAND as one
+string**, where every other guard in that file splits into lines,
+strips whitespace, and matches an anchored `git ... commit`. The file's
+own comments record this exact class being fixed three times before.
+
+### 1 · IT REFUSES COMMANDS THAT ARE NOT COMMITS
+Any command carrying the substrings `commit` and `-m` is refused:
+```
+git log --oneline | grep -m 1 commit        -> BLOCKED
+curl -m 5 http://localhost/api/commit       -> BLOCKED
+```
+**It fired on the reviewer's own probe list.**
+
+### 2 · THE `-F` EXEMPTION DOES NOT HOLD
+`-m` matches inside a path, so the natural filenames are refused:
+```
+git commit -F /tmp/commit-message.txt   -> BLOCKED
+git commit -F /tmp/commit-msg.txt       -> BLOCKED
+```
+**And it then says "put the number in the message" about a file it
+refused to read.** `-F` is the route this project uses for long
+messages.
+
+### 3 · THE NUMBER IS READ FROM THE WHOLE COMMAND, NOT THE MESSAGE
+So a commit naming no directive passes whenever any three-digit
+number appears anywhere else:
+```
+git add server/mocks/238-bench.html && git commit -m "tidy the bench"  -> ALLOWED
+```
+**That file is really in the repo. This is the ordinary shape of a
+build, not a constructed case.**
+
+### AND THE BOUNDARY, RECORDED RATHER THAN CHANGED
+The test demands exactly three digits, so a four-digit number is
+refused. **Directive numbers are three digits today. If they ever
+reach 1000 this breaks, and that is a fact for the record rather than
+a fault.**
+
+**PROVE EACH FIX BY RUNNING THE SHAPE THAT FAILED**, and keep the
+guard's own idiom: split the command into lines, anchor the match, and
+read the number from the MESSAGE rather than the command.
