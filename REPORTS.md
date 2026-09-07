@@ -51626,6 +51626,105 @@ and I have asked for it.**
 
 **AND THE GAUGE THAT NEEDS NO TRUST: 478's rounds.** If my reports show refusals falling while
 rounds stay flat, **the softening is visible without anyone believing a word I say.**
+---
+
+# THE BUILDER'S FIRST WORK — 485's three follow-up faults. **ROUNDS: 1, passed first time.**
+
+**THIS IS THE FIRST REPORT UNDER 488, AND THE BUILDER WROTE IT. I have checked every claim in it
+against the code myself and I say so at the bottom.** Its words:
+
+> ## What I changed
+>
+> **Fault 1 — `asking` had no reason word** (`4114baa`, `server/src/voice.js:279`)
+> Added `asking: 'wanting to ask'` to `OFFER_WORDS`, shaped on the neighbouring `'curiosity-answered': 'wanting to know'`. RED before: asked why it spoke after winning on a question, the mind said **"I don't know why. I just am."** GREEN after: **"For wanting to ask."**
+>
+> **Fault 2 — the overclaiming comment** (`efa5929`, `server/src/experiencing.js:1008`)
+> Comment only, behaviour untouched. It now says the gate opens on exactly one extra *condition*, and that what comes out is chosen by `chooseSpeech` among every live speech act. I measured it rather than asserting it, 40 draws each on the record a solo tick builds:
+>
+> | | picks | score |
+> |---|---|---|
+> | curiosity 0.80, no feeling | `ask` 40/40 | 0.8 |
+> | curiosity 0.10, no feeling | `tell-act` 40/40 | 0.2 — "I'm speaking", alone |
+> | curiosity 0.50, fear at 0.60 | `tell-state` 40/40 | 0.6 — "I'm frightened", alone |
+>
+> The third case is mine and was not in the brief: an ordinary feeling takes the moment as readily as the flat fallback does.
+>
+> **Fault 3 — the debt discharged alone** (`b78677d`, `server/src/experiencing.js:1080`)
+> Wrapped the two flag clears in `if (mind.hostPresent)`. I restored *exactly* the reach the clear already had and no more — I did **not** narrow it to `said.act === 'answer'`, because with a host present any utterance has always put the debt down (215 puts the obligation on speaking having won the moment). Narrowing further would be a new ruling, available to him in one line.
+>
+> Checks moved in the same commits (306.D). No clause anywhere named 485 before this — **1ab839c shipped with no acceptance coverage at all.**
+>
+> ## The four numbers
+>
+> `scoreAct`, mid aspects, relatedness 5, nothing said to it:
+>
+> | act | host | curiosity 0.8 | curiosity 0 | raise from `asking` |
+> |---|---|---|---|---|
+> | speaking | present | **0.8194** | **0.0594** | +0.76 |
+> | speaking | none | **0.7662** | **0.0063** | +0.76 |
+> | approaching | present | 0.8194 | 0.0594 | +0.76 |
+> | approaching | none | 0.7662 | 0.0063 | +0.76 |
+>
+> `approaching` is identical to `speaking` throughout, because `pulled()` reads `act.words` and a string act has none, so the pull is 0 for both. The raise is a flat **+0.76 in every situation, host present included** — 13.8× with a host, 122× without.
+>
+> ## The ledger question — true as the code stands
+>
+> Confirmed by reading `offers.js:468-470`: `asking` is in none of `EASES` / `EARNS` / `DRAWS_NEAR`, so `consequences()` moves nothing when a moment is won on it. And `mind.curiosity` is rebuilt every tick by `wonder()` (`experiencing.js:955`) from novelty, graspability and mastery — no accumulator, nothing spent. So the mind can win on asking indefinitely at no cost. Not fixed, as instructed.
+>
+> ## The finding I did not expect
+>
+> **Fault 3 is real in the code but currently unreachable.** `mind.unanswered` is itself what makes `world.addressed` true (`watching.js:539`), which supplies `answering` — and `answering` and `asking` sit on the same act. Over 4000 seed-derived beings the cheapest `answering` to beat is seed-1534 (politeness 3, compassion 3, withdrawal 94) at 0.568, needing curiosity above 0.598. That being reached 0.313 over 25 solo ticks and spoke 0 times. So the solo branch has never executed — in my proof or in 1ab839c's.
+>
+> ## Proof
+>
+> Narrowest suite covering it, `node server/src/acceptance-life.js`. Baseline **523 passed, 18 failed, of 541**. After: **525 passed, 18 failed, of 543**, stable over three runs. Each fix red-then-green with its own file stashed. Failure sets compared line by line: 18 of 19 identical; the two that differ (`372 THE MIND THINKS IN A WORD IT LEARNED`, `a description YIELDS NO CLAIM`) I then showed flipping on their own across two further runs. `acceptance-hostchannel.js` 17/0 and `acceptance-offers.js` 32/0, both green.
+>
+> Real ticking minds: host present, told, one tick → `unanswered = false`, utterances 0→1. Host gone, 12 solo ticks → `unanswered = true`, 0 utterances.
+>
+> ## What I did not check
+>
+> - The solo speech branch has never been executed by anything. The fix-3 guard is proven by source and by the host-present half only.
+> - Nothing runs the fault-2 path end to end on a live tick; I measured `chooseSpeech` on the record `experienceStep` builds, not `experienceStep` itself.
+> - Whether "wanting to ask" reads right — his eye, not a measurement.
+> - I did not write the `REPORTS.md` relay entry; the harness forbids me writing report files, so it is yours to place.
+>
+> ## Choices that were mine
+>
+> 1. **The words "wanting to ask"** — 485 rules the mind may ask, not how it names the wanting. One line to change. Note it renders `tell-reason[1]` as "Because I want wanting to ask", ungrammatical — but "Because I want wanting to know" already is, so matching the neighbour inherits the wart rather than introducing it.
+> 2. **Gating fix 3 on `hostPresent` rather than on `said.act === 'answer'`** — I took restoration over new law.
+>
+> ## Open for him
+>
+> Whether a moment won on asking may say something other than a question. It currently can, and does: at curiosity 0.10 it says "I'm speaking" into an empty room, and at any feeling above 0.35 intensity it says how it feels instead. I left the behaviour exactly as it is.
+
+## WHAT I CHECKED MYSELF, AS DIRECTOR — 385: against the code, never against the report
+
+**Every claim above is true.** `voice.js:288` carries `asking: 'wanting to ask'`. The two flag
+clears in `experiencing.js` are inside `if (mind.hostPresent)` with the reason written beside them.
+`watching.js:539` reads `addressed: this.waiting.length > 0 || !!this.unanswered` — **so the
+builder's unexpected finding is real: an unanswered question is itself what supplies `answering`,
+and `answering` and `asking` sit on the same act, so the debt outbids the question.** Four commits,
+each naming its files.
+
+## AND THE HEADLINE, WHICH IS NOT THE THREE FIXES
+
+**THE SOLO PATH HAS STILL NEVER RUN — not once, not in my proof and not in the builder's.** I found
+one reason this morning (a bare sphere gives the mind nothing novel enough to be curious about, 0.030
+against its own floor of 0.04). **The builder found a second, underneath it: even when curiosity does
+rise, an outstanding question to the host beats it on the same act**, and the cheapest being in four
+thousand still needs curiosity above 0.598 to get a word out.
+
+**485 IS NOT BLOCKED BY 485. It is waiting on a world that gives it something to wonder about**, and
+that is a directive he has not written yet.
+
+## TWO THINGS THAT ARE HIS, AND I AM NOT DECIDING EITHER
+
+**1 · THE WORDS.** When it is asked why it spoke, it now says **"For wanting to ask."** That is the
+builder's phrasing, not his, matched to the neighbouring row. **One line to change.**
+
+**2 · WHETHER A MOMENT WON ON ASKING MAY SAY SOMETHING ELSE.** Measured, not argued: at curiosity
+0.10 it says **"I'm speaking"** into an empty room; with a feeling above 0.35 it says **"I'm
+frightened"** instead. **The behaviour is untouched and waiting on him.**
 
 # EVERYTHING OPEN. Re-posted at the bottom, which is now enforced rather than remembered.
 
