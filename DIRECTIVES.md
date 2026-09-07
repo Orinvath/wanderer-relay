@@ -13622,3 +13622,22 @@ which is where the Critique reads its rules from.
 It narrows "a finding is a refusal" to "an intent-breaking finding is
 a refusal." **That is an amendment and his own law puts an amendment
 in the supersession table.** Put it there.
+
+## Question: the check collision — where is it, and why did the reviewer not catch it?
+
+**Not a build. An answer is wanted, not a change.**
+
+The 476 pass named a CHECK-COLLISION and a BUILD-REDUNDANCY and asked
+whether they are refusals or notes. **It never said where either one
+is**, so he cannot rule on them.
+
+1. **WHERE ARE TWO CHECKS LOOKING AT THE SAME THING?** Name them —
+   which two, which file, and what they both watch.
+2. **AND WHY DID THE REVIEWER NOT CATCH IT?** His point: auditing the
+   code is the reviewer's job, and a duplicated check is code. If the
+   Critique is finding things the reviewer should have found, say
+   whether that is a gap in the reviewer or an overlap between the
+   two agents.
+3. **SAME FOR THE BUILD-REDUNDANCY** — what was built twice.
+
+**Answer only. Change nothing.**
