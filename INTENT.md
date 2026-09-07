@@ -251,6 +251,7 @@ for anything NEW. Exceptions that carry meaning: RED for a failing check and the
 | 293.3 Continue | **322.A** — Continue means past THIS violation |
 | 283.A.2 the Pulse queue | **340** — the Pulse goes entirely; the connectors light |
 | 399 the /50 | **400** — 42,000 for words, 100 for grammar/topics/beliefs, and the 100 is HIS working scale, stated as such |
+| **188** — CC only codes; decisions are Lonnie's and the Director's and arrive at CC decided | **488** — CC IS THE DIRECTOR. The half that says CC never decides STANDS; the half that put the decisions in a second party's hands is replaced, because that party is now CC. **The protection was structural and it is gone: what remains is that he rules and CC reports.** |
 | **469** — a finding is a refusal: *any* finding stops the work until he rules | **476** — only an INTENT-BREAKING finding is a refusal; everything else is a note that stops nothing (481.4) |
 
 ---

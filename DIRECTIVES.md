@@ -13912,6 +13912,6 @@ Director's whole job, and it is the thing to judge the Director on.**
    unfinished, in those words.
 
 ### 5 · THE BUILDER'S BRIEF IS IN THE REPO, NOT IN A PROMPT
-`.claude/agents/builder.md`, linked into place by `install.sh`.
+`.claude/agents/builder.md`, linked into place by `.claude/hooks/install.sh`.
 **Editing that file is what changes what the builder is told** — a
 brief that lives in a prompt is a brief nobody can audit.
