@@ -49211,3 +49211,64 @@ all is his, and I made it a fact before it was a question.**
 **Not measured:** the cost on a very large command since the change.
 **Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
 475's six; the interrupt clamp; and whether 427 was ever built.
+
+---
+
+## THE REVIEW OF THE WIRING FIX — the arithmetic is right, and my check STILL could not see the fault.
+
+**442.A.3, in full. Fixed in the commit above.**
+
+### THE WIRING IS GENUINELY FIXED, MEASURED
+
+**Before: zero of 296 ticks carried the aspects. Now: 1448 of 1448.** **And the two invented maps
+are gone and the cited ranking is back** — withdrawal leads volatility again, openness leads
+intellect again, where my maps had made each pair equal.
+
+**And the split is gone and cannot come back.** At the parent, **twelve of twenty one-aspect probes
+split** — a mind noticing a feeling sooner while being moved by it less. **At mine: zero, and it is
+now structurally impossible**, because the two share one map with inverse operators.
+
+**All four still hold the midpoint exactly. No suite regressed.**
+
+### BUT MY CHECK CAUGHT ONE BREAK OF THREE
+
+The reviewer broke it three ways. **Mine caught one.**
+
+> **It went GREEN when `think()` stopped handing the aspects over — WHICH IS THE EXACT LIVE
+> MECHANISM THAT HAD TWO OF THE FOUR DEAD FOR THEIR WHOLE LIFE.**
+
+**Because it called the function directly instead of going through the real call.** **That is the
+same shape of mistake, twice, on the same clause.**
+
+**Fixed: it goes through `think()` now.** **Proved on both breaks — red when the function ignores
+its aspects, red when the caller stops passing them, green when neither.**
+
+### AND A FACT ABOUT REACH HE SHOULD HAVE, WHICH IS NOT A BUG
+
+**The reviewer drove five lives, fifteen hundred ticks, and measured where these actually land:**
+
+```
+think() got the aspects        1448 / 1448
+a train was running, so it returned first   1443 / 1448
+the draw below it ran           5 / 1448   =  0.35%
+```
+
+**So three of the four govern about one tick in three hundred.** **The interrupt threshold is
+different — it sits inside the train ending and fires every tick.**
+
+**That is not something 475 broke and not something I introduced** — a train runs first and that is
+his own 225. **But my clause's headline says "the tick actually uses them", and the honest figure
+is one tick in three hundred for three of them.** **Said plainly rather than left in the wording.**
+
+### AND ONE MEASUREMENT THAT SETTLES A DOUBT
+
+**The suite clause I have twice reported as "failing" flaps between runs** — same code, FAIL in one
+tree and PASS in an identical copy, with identical figures. **It runs against the live model.**
+**Excluding it, the failing set is SIXTEEN and byte-identical across every version tested.** **So
+"17 failures, none of them mine" was right about the mine and loose about the 17.**
+
+### 334 · THE QUEUE
+
+**Not closed:** whether three of these four governing one tick in three hundred is what he wanted.
+**Unchanged and all his:** the soul's order; 455.4 and the 205 reading; 246's rows; 469's six;
+475's six; the interrupt clamp; and whether 427 was ever built.
