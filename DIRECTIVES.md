@@ -13366,3 +13366,61 @@ another minute on it.
    ten and with interests. **That is a real gap and it is the
    Director's to bring back to him properly — LATER, not now, and
    not as another pile of numbers.**
+
+## Directive 474 — THE 89, SECOND PASS: thinking, sleep, teacher — settled by logic and science
+
+**His order: do as much as possible, use logic.** Done. The remaining
+values sorted; only what genuinely needs him is left.
+
+### THE SCIENCE SETTLES THESE
+**sleep SPACING_FIRST_MS 30s and SPACING_GROWTH 2.0** — spaced
+repetition. Expanding intervals with a doubling ratio is the
+standard finding (Ebbinghaus; Cepeda et al. 2006 meta-analysis).
+SETTLED.
+
+**sleep DRIFT_GLYPHS 5** — its own comment is honest: Fosse says
+dream reports are FRAGMENTS and does not say how many. **The science
+gives the direction, not the size.** Not settled; and it is a display
+number, which puts it in the bench pile below.
+
+**thinking RETURN_SHARE 0.28 and LENGTH_ANCHOR 7** — Klinger's
+current-concerns work gives the SHAPE (a train returns to its
+subject; trains end by exhaustion or interruption) and no magnitude.
+Direction only.
+
+### ARITHMETIC AND ALREADY-RULED — recorded, no action
+```
+thinking MEMORY_WEIGHT 1.0 · STATE_WEIGHT 1.0 · CURIOSITY_WEIGHT 1.0
+   all three are 1.0 = EQUAL BEFORE BIAS. That is 427's ruling
+   expressed as arithmetic, not a chosen weighting.
+sleep SLEEP_DURATION_HOURS, SLEEPY_AT
+   already struck in the file's own comments -- sleeping is an ACT
+   and competes; no required night. RULED.
+teacher NAMING_TEMPERATURE 0.3 / STORY_TEMPERATURE 0.85
+   naming must be literal and a story may vary. That is 234.5a and
+   403 expressed as a model setting.
+```
+
+### THE BENCH'S OWN — not the mind's, and his to ignore
+`DRIFT_SECONDS` · `DRIFT_FADE` · `DRIFT_ALOFT` · `DRIFT_HEIGHT` ·
+`LINE_EVERY_MS` · `NAMING_MAX_CHARS` · `STORY_MAX_CHARS` ·
+`STORY_MIN_LINES` · `STORY_MAX_LINES` · `DREAM_GLYPHS`. **These are
+how the bench looks and how fast the school talks. They change
+nothing about the mind.** Record them as bench values; he rules them
+only if something looks wrong to him.
+
+### STILL HIS — and the Director will not pretend otherwise
+The BIASES and SHARES in `thinking.js` — `FEELING_BIAS 1.6`,
+`RECENCY_BIAS 0.8`, `DISPOSITION_SHARE 0.35`, `FELT_AT 0.2`,
+`NEAR_ANCHOR 0.35`, `INTERRUPT_AT 0.55`, the four `FROM_*` weights,
+and `ASSOCIATE_AMONG 8`. **Every one is how strongly one thing tilts
+the mind against another, and 427 ruled that the strength of that
+bias comes from ITS ASPECTS.** So these are not his to pick one by
+one: **they are a ruling already made and not yet applied.**
+
+**THE DIRECTOR'S RECOMMENDATION, ONE DECISION INSTEAD OF TEN:** apply
+427 — derive these from the being's aspects rather than holding them
+as constants. That is his existing law reaching the last place it was
+never applied, exactly as 457 found for the feeling fade rates.
+
+**CC: build nothing from this yet. It is the sorting he ordered.**
