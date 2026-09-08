@@ -188,6 +188,52 @@ ours.
 **442 — ENFORCE BY MECHANISM, NOT BY INSTRUCTION.** A hook is deterministic; CLAUDE.md is advisory.
 `/code-review` after every change, in a fresh agent that sees only the diff.
 
+## On who does what — 490 to 496, and none of it was in this file until now
+
+**Added by the Critique's 497 before pass. These five are his, they change direction, and this file
+carried none of them — which is the exact silence Part Six exists to stop.**
+
+**490 — ALL WORK GETS A DIRECTIVE NUMBER, AND THE DIRECTOR ISSUES IT.** *"Every piece of work is a
+numbered directive before it is handed off"* — a fix, a follow-up, a one-line correction.
+**The gate only knows what is numbered; work without a number is work with no gate on it** (490.2),
+and **a follow-up to a finished directive is its own directive** (490.4).
+
+**491 — THE DIRECTOR NEVER SPEAKS TO AN AGENT.** His words: *"You dont talk to the agents at all.
+They check the relay for the directives. You never talk to them directly."* **Every agent has a
+brief file in the repo and reads it itself** (491.2); what it is given when it runs is a role and a
+number (492.1). **The pass speaks first, whole, and the Director's account goes under its words,
+never over them** (491.4).
+
+**492 — AND A HOOK REFUSES ANY WORD FROM THE DIRECTOR TO AN AGENT.** His words: *"there needs to be
+a hook that you cant talk to them directly so you cant influence them or interupt the process in any
+way."* **Nothing may be sent to a running agent at all** (492.2). *If the directive was wrong, the
+directive is fixed and the work runs again.*
+
+**494 — THE DIRECTOR WRITES DIRECTIVES AND REPORTS. NOTHING ELSE, EVER.** His words: *"You are no
+longer allowed to touch anything as the director, you delegate."* — *"You can write directives and
+reports only."* — *"If the builder is wrong it goes back to the builder as it is always supposed
+to."* **`DIRECTIVES.md` and `REPORTS.md` on the relay: not code, not a hook, not a brief, not
+`INTENT.md`, not `MIND_DECISIONS.md`** (494.1). **And the shell counts too** — a file written by
+`sed -i`, a heredoc, `cat >`, `tee` or a script is the same as an edit (494 addendum 2).
+**A wrong build goes back to the builder as a new numbered directive, never as a correction by the
+Director's hand** (494.3).
+
+**494 ADDENDUM 1 — `INTENT.md` IS THE CRITIQUE'S, AND ALWAYS WAS.** His words: *"That should have
+been Critiques job all along, its what I ruled its purpose was to defien intent and manage it."*
+
+**496 — A FINDING GOES BACK TO THE BUILDER AND LOOPS THERE UNTIL IT IS RIGHT.** His words: *"it
+never comes back to you until it is done. If the reviewer finds bugs, or if the critique fails they
+flag it and send it back to the builder to fix until it is right."* **Critique before → build →
+reviewer → Critique after, and any refusal or bug sends it back to the build step** (496.2). **The
+Director sees it once, when it is done, with every round in it** (496.3, 478) — **and a refusal the
+builder cannot answer ends the loop and goes to the relay as a block with its reason** (496.4,
+452.4). **What it costs, in his own accounting: he will hear nothing while a directive is being
+worked** (496.5).
+
+**AND ONE THING THIS FILE DOES NOT YET CARRY: 497** — where a pass's findings are written. It was
+under its before pass when these rows went in, and a ruling still in the loop is not recorded here
+as law.
+
 ## On his things
 
 **CHAMBER IS NEVER TOUCHED** (035). Read and copy only. **108: the COPIES are the Wanderer's own.**
