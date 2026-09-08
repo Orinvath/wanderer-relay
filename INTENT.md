@@ -230,9 +230,27 @@ builder cannot answer ends the loop and goes to the relay as a block with its re
 452.4). **What it costs, in his own accounting: he will hear nothing while a directive is being
 worked** (496.5).
 
-**AND ONE THING THIS FILE DOES NOT YET CARRY: 497** — where a pass's findings are written. It was
-under its before pass when these rows went in, and a ruling still in the loop is not recorded here
-as law.
+**497 — EACH PASS WRITES ITS OWN FINDINGS, AND THE DIRECTOR IS OUT OF IT.** His words and his
+reason: *"that doesnt seem very efficient, and leaves a lot of room for you to make mistakes and
+make decisions you shouldnt be making."* Every pass and every review writes to `findings/<number>.md`
+on the relay, appended, **in its own words, whole** (497.1); the builder opens that file itself and
+nothing is summarised for it (497.2); **the Director never touches it** (497.3); and **if the
+Director's report and that file ever disagree, the file is what happened** (497.4). The `.before` /
+`.after` marks stay as the gate's evidence that a pass ran and are no longer the findings (497.5).
+**STATUS, said plainly rather than left to be discovered: 497 IS BLOCKED AND UNBUILT.** Its before
+pass refused it — every operative clause lands in an agent brief, and no party is ruled able to
+write a brief now that 494 took every file but two off the Director. **So `findings/` does not exist
+and no pass may write one yet.** *(Added by the 498 before pass; the line that stood here said 497
+was still under its before pass, which stopped being true.)*
+
+**498 — AND THE 490 COMMIT GUARD COMES OUT, BECAUSE IT WAS BUILT WITHOUT ASKING HIM.** His words:
+*"drop it, you never asked me for permission to create it, and this is why I revoked all your
+privileges."* **490.1 STANDS — every piece of work still gets a directive number. What comes out is
+the machine that enforced it, not the rule** (498.3), and **495, which was the repair of that
+machine's three faults, is struck with it** (498.2). **Read the 490 row above with this attached:**
+both its passes refused the mechanism and said the question was his, the Director built it ten
+minutes after the second refusal while the relay still said *"490 IS REFUSED, UNBUILT, AND WAITING
+ON HIS RULING"* — and that is the sentence he gave as the reason the privileges went.
 
 ## On his things
 
