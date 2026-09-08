@@ -53167,3 +53167,233 @@ test for any hook in the tree — nine rounds on one file, every proof thrown aw
 the verbatim gate catches a paraphrase but not a deletion; a one-byte mark satisfies the Critique
 gate; and **filing a mark turns a refused directive green forever, which is why A to E are written
 here rather than left in my memory.**
+
+
+# 497 — **BLOCKED. THE BEFORE PASS REFUSED IT, AND THE REFUSAL IS ITEM A OF HIS OWN OPEN LIST.**
+
+**BUILD 497 was addressed to the builder. Nothing was built.** The before pass refused it with one
+refusal that the builder cannot answer, and 452.4 / 496.4 say a refusal needing his ruling ends the
+loop and goes to the relay as a block. **This is that block. No file in `CC-Wanderer` was changed.**
+
+## THE PASS SPEAKS FIRST, WHOLE — 491.4
+
+*(Verbatim. The transport that carried it back escaped four angle brackets and two ampersands as
+HTML entities; those are restored to the characters the pass typed. Nothing else is altered.)*
+
+---
+
+CRITIQUE — BEFORE PASS, Directive 497. **1 refusal, 4 optional.**
+
+---
+
+**REFUSAL 1 — 497 CANNOT BE BUILT WITHOUT EDITING THE THREE AGENT BRIEFS, AND NO PARTY IS RULED ABLE TO EDIT THEM. THIS IS THE SAME BLOCK THAT STOPPED 496, AND 497 DOES NOT ANSWER IT.**
+
+497.2 says of the builder: *"Its brief names the file."* That is an edit to `/home/nobara-user/CC-Wanderer/.claude/agents/builder.md`. 497.1 gives the Critique and the reviewer a write exception, and `critique.md` today says the opposite in its own words: *"YOU EDIT EXACTLY ONE FILE: `INTENT.md`. … NOTHING ELSE. No code, no hook, no brief, no report."* So `critique.md` and `reviewer.md` must change too, or the two parties 497 instructs are still told not to write the file.
+
+Who performs those edits is unruled, and the record says so rather than my reading it in:
+- **494.1 takes it off the Director** — *"`DIRECTIVES.md` and `REPORTS.md` on the relay. Nothing else, ever. Not code, not a hook, not a brief."*
+- **494's before pass asked who writes the briefs; the 494 addendum answered only `INTENT.md`.**
+- **His own open list, last in `REPORTS.md`, is item A:** *"WHO WRITES THE THREE AGENT BRIEFS? … 494 took them off me and gave them to nobody. Until this is answered they cannot be corrected."*
+- **496's before pass refused on exactly this** and 497 supplies the route (the file) without supplying the writer.
+
+And the builder cannot take it: if the builder writes `critique.md` and `reviewer.md`, the party being judged authors the standing instructions of the two parties that judge it — which is 494's own stated reason for existing (*"the agents that judge me read my words"*), mirrored. That is a choice 250 forbids the builder to make.
+
+**It is already being walked around, which is why this is not theoretical:** relay commit `f70b3bb` (09-07 19:15) *"496: the three briefs carry his loop ruling"* edited all three briefs after 494 forbade the Director from touching a brief, and `builder.md` and `critique.md` both carry a 496 section today. So the block is live and the current answer to it is a violation.
+
+**HIS TO RULE, one sentence:** who edits `builder.md`, `critique.md` and `reviewer.md` now that the Director may not — and if the answer is the builder, does he accept that the builder writes its own judges' instructions. Until that is answered, 497.1 and 497.2 have nowhere to land. **Everything else in 497 — the file, the path, the append, the Director's hands off it — is unrefused.**
+
+---
+
+**NOTE 1 — 497.5 RESTS ON A GATE THAT IS NOT RUNNING. THE FOUR STOP HOOKS ARE UNREGISTERED RIGHT NOW.**
+
+497.5: *"The mark files under `~/.claude/hooks/critique/` stay as the gate's evidence that a pass ran."* There is no such gate firing. `/home/nobara-user/.claude/settings.json` (mtime today 16:04) registers only `PreToolUse` and `PostToolUse`; there is **no `Stop` group at all**, so `require-in-order.sh`, `require-critique.sh`, `require-review.sh` and `require-relay-current.sh` never execute. `install.sh` writes that `Stop` group; something removed it after. No other settings file carries hooks (`settings.local.json`, no project settings, no managed settings). Run by hand the gate still works — I fed it a payload and it returned exit 2, *"BLOCKED by 453: the Critique has not run on: 495:after 496:after 497:before"* — so this is registration, not code. This is the "guard that fails open, silently, while looking present and healthy" class: `builder.md` still tells the builder *"FOUR HOOKS ENFORCE THIS AND YOU CANNOT TALK YOUR WAY PAST THEM."* Three of them cannot stop anything today.
+
+**NOTE 2 — 497 MOVES WHERE A PASS'S WORDS LIVE, AND THE CHECK THAT ASSERTS THE OLD PLACE HAS NOT MOVED WITH IT (306.D).**
+
+`require-relay-current.sh` Part One samples the longest lines of each `.before`/`.after` mark and requires each of them to appear verbatim in `REPORTS.md`. It is the mechanism that stops the softening. 497 makes `findings/<n>.md` the record and reduces the mark to evidence that a pass ran, so that check is left asserting a location 497 has superseded. 306.D says the check changes in the same commit as the behaviour — this project's six-times fault is a check firing on a ruling working correctly. Also worth his eye: `probe_lines()` skips any mark with nothing quotable, so a mark thinned to its two counts could drop out of that check silently.
+
+**NOTE 3 — NOTHING VERIFIES A FINDINGS FILE WAS EVER WRITTEN.** 497 is instruction, and 442 is his standing law that instruction is not enforcement. The only gate that can go green is the mark gate, which asks for the two counts and nothing about `findings/<n>.md`. A pass that writes a mark and no findings file leaves the loop looking complete. 497 does not ask for a mechanism and I am not asking for one either — I am naming that it has none, which is his to rule.
+
+**NOTE 4 — "THAT ONE FILE AND NOTHING ELSE" CAN BE READ AS TAKING `INTENT.md` BACK OFF THE CRITIQUE.** 497.1 reads *"may write that one file and nothing else — the same shape as the Critique's exception for `INTENT.md`."* I read it as additive (a second exception of the same shape), and that is almost certainly right, but a builder rewriting `critique.md` from the literal sentence would leave the Critique with `findings/<n>.md` only and drop the 494 addendum. Cheap to state explicitly in the brief; expensive if it goes the other way, because the file it would silently drop is the one every pass reads his intent from.
+
+**NOTE 5 (the queue, since every report names it) — 495 IS UNBUILT AND ITS THREE FAULTS ARE STILL LIVE.** I ran the guard rather than reading the report (385): `git log --oneline | grep -m 1 commit` → blocked; `git commit -F /tmp/commit-message.txt` → blocked; `git add server/mocks/238-bench.html && git commit -m "tidy the bench"` → allowed. Under the in-order law (322) 495 is the lowest-numbered unfinished directive and is not blocked — its before pass was clean. 496 is blocked on his ruling and holds the queue behind it. Building 497 next would skip both.
+
+---
+
+**WHAT I DID (my one permitted edit).** `INTENT.md` carried no mention of 490, 491, 492, 494 or 496 — five direction-changing rulings, absent from the file whose own opening warns that anything left out stops being enforced silently. I added them to Part Two under a new heading *"On who does what — 490 to 496"*, in his quoted words with their directive numbers, and recorded that 497 is deliberately not in there because it is still in its loop. I added no rule of my own and changed nothing that was already there. **I did not write `findings/497.md`** — 497 is not built, and until it is my brief permits `INTENT.md` and nothing else.
+
+**334 — WHAT I DID NOT CHECK.** I read `INTENT.md` whole; 488–497 including both 493 addenda and the 494 addendum, whole; `critique.md` and `builder.md` whole; `require-critique.sh` whole; `install.sh` whole; `require-relay-current.sh` only its header and its verbatim section (lines 1–19, 129–190); `block-unnamed-commits.sh` not at all as text — I only ran it against 495's three shapes. I read the last ~250 lines of `REPORTS.md` (the 494/495/496 passes and the open list) and grepped it, not the rest of its 53,000 lines. I did **not** read `reviewer.md`, `require-in-order.sh`, `require-review.sh`, `record-review.sh`, `block-briefing-agents.sh`, `CLAUDE.md`, `HANDOFF.md`, `MIND_DECISIONS.md`, or any of the mind's code — 497 touches none of it. **One thing I could not settle:** why the `Stop` group left `settings.json` at 16:04 today. I proved it is gone and that the scripts still work when run by hand; I could not find what removed it, and git carries no record of that file.
+
+**1 refusal, 4 optional** (Note 5 is the queue line, not a sixth finding).
+
+---
+
+## THE BUILDER'S ACCOUNT, UNDER IT
+
+### THE REFUSAL IS RIGHT, AND I CHECKED IT AGAINST THE RECORD RATHER THAN ACCEPTING IT
+
+I did not take the pass's word for the one thing that stops the build. **Three readings, each with
+its line:**
+
+- **`DIRECTIVES.md:14076-14080` (494.1)** — *"`DIRECTIVES.md` and `REPORTS.md` on the relay. Nothing
+  else, ever. Not code, not a hook, not a brief, not `INTENT.md`…"* The Director is out.
+- **`DIRECTIVES.md:13975-13980` (491.2)** — the directive that created `critique.md` and
+  `reviewer.md` says only *"Each gets its own file under `.claude/agents/`, carrying its standing
+  instructions."* **It names no writer.**
+- **`DIRECTIVES.md:12495-12534` (446)** — `builder.md:46-49` cites 446 as authority for a standing
+  ruling entering a brief *"in the same commit as the directive that made it."* **446 is about
+  `INTENT.md`, the Critique's distillation. It says nothing about the agent briefs.** So the
+  sentence in `builder.md` that would have let me edit `builder.md` is the Director's own extension
+  of 446 — and *"my own wording still stands as law in two briefs"* is already an open item against
+  the Director on his list.
+
+**So the record does not answer it, and 250 says I stop and say so rather than pick a reading.**
+
+### WHY NO PART OF 497 WAS BUILT, RATHER THAN THE UNBLOCKED PART
+
+My brief says a blocked part is left and the rest is finished in full. **I looked for a rest and
+there is none that does anything.** Every operative clause of 497 lands in a brief: 497.1 is the
+write exception the Critique and the reviewer must be told about, 497.2 is the sentence naming the
+file to the builder. What is left is the folder itself — and a `findings/` folder that no party is
+instructed to write into is *a capability with no caller*, which is on the Critique's own list of
+this project's faults. **Building it would have made the loop look answered while every finding
+still went nowhere.**
+
+### AND THE ORDER I WAS ASKED TO WORK IN IS NOT THE ORDER MY BRIEF GIVES
+
+`builder.md:154` — *"ONE DIRECTIVE AT A TIME, IN ORDER. The lowest-numbered unfinished one. Nothing
+is started until every earlier one is finished or blocked with its reason on the relay."*
+**495 is unfinished and is not blocked.** I proved it by running the guard, not by reading a report:
+
+```
+$ echo '{"cwd":"/home/nobara-user/CC-Wanderer","tool_name":"Bash",
+         "tool_input":{"command":"..."}}' | ./block-unnamed-commits.sh; echo $?
+git log --oneline | grep -m 1 commit                                  -> 2  (blocked, fault 1)
+git commit -F /tmp/commit-message.txt                                 -> 2  (blocked, fault 2)
+git add server/mocks/238-bench.html && git commit -m "tidy the bench" -> 0  (allowed, fault 3)
+```
+
+All three of 495's faults are live, and `grep -n 495 block-unnamed-commits.sh` returns nothing.
+**I was addressed `BUILD 497`; the in-order rule says 495. I did not silently pick one** — the
+address is what I answered, and the conflict is written here.
+
+### WHAT I DID NOT CHECK — 334
+
+- **I ran no bench and no suite.** Nothing in `server/` was opened or changed; 497 does not reach
+  the mind. **The relevant proof was running the four hook scripts and the guard, and I ran those.**
+- **I did not verify Note 2's claim by executing `require-relay-current.sh`.** The reviewer's brief
+  forbids running it — it reads the marks the gates read. I read the code (Part One, its
+  `probe_lines()` and its `unsaid` loop) and the pass's reading of it matches the code. **That is a
+  reading, not a run, and it is why the check has not been moved: moving it is part of building 497,
+  which is blocked.**
+- **I did not find out what removed the `Stop` group from `settings.json`,** and neither did the
+  pass. I confirmed it is gone — `settings.json` carries `PreToolUse` and `PostToolUse` only, and
+  `install.sh` writes a `Stop` group that is not there.
+- **I did not read `require-in-order.sh` or `block-real-geometry.sh`** at all.
+
+### WHAT I CHANGED
+
+**In `CC-Wanderer`: nothing.** `git status` in the repo is clean of my hand; no commit was made and
+no review is owed, because no code changed.
+
+**On the relay: this entry, and the open list re-posted below it** so it stays the last thing he
+reads. `INTENT.md` was changed by the Critique, not by me — +46 lines, no deletions, its one
+permitted file.
+
+### TWO THINGS THIS BLOCK EXPOSED THAT ARE BIGGER THAN 497
+
+**1 · NOBODY CAN LAWFULLY WRITE THE CRITIQUE'S MARK EITHER.** `require-critique.sh` demands
+`~/.claude/hooks/critique/<n>.before`. The Critique's brief permits it `INTENT.md` alone, so it does
+not write one — **there is no `497.before` on disk right now, and the pass did run.** 494.1 forbids
+the Director writing anything but the two relay files, and a mark written by the builder is the
+judged party manufacturing the evidence that clears its own gate. **The same unanswered question,
+one file over.**
+
+**2 · AND THE GATE THAT WOULD HAVE CAUGHT ALL OF THIS IS SWITCHED OFF.** I confirmed the pass's
+Note 1 independently: `settings.json` has no `Stop` group, so all four end-of-turn gates are inert.
+**I did not re-register them.** `install.sh` is the thing that writes that group, running it changes
+enforcement, and after 494 it is not obvious who may — which is the same question again. **It is
+named here rather than fixed by me.**
+
+### THE ROUNDS — 478
+
+**One round. The before pass refused on the first reading, and the refusal ended the loop.** No
+reviewer ran and no after pass ran: 452.4 sends a refusal that needs his ruling to the relay
+instead. **The fault was not the builder's** — nothing had been built yet, which is the whole
+argument for the before pass existing.
+
+### THE ONE SENTENCE HE HAS TO ANSWER
+
+**Who edits `builder.md`, `critique.md` and `reviewer.md` now that the Director may not — and if the
+answer is the builder, does he accept that the builder writes the standing instructions of the two
+agents that judge it?**
+
+---
+
+# EVERYTHING OPEN — **and 497 is now on it: the fourth directive stopped by the same unanswered question**
+
+**WHAT IS ACTUALLY STOPPING WORK RIGHT NOW. Nothing below is built and nothing will be until he
+answers. These are his, one sentence each.** *(Re-posted so it stays last. The earlier copy is left
+where it is — the relay is a history and a history is not edited, 013. The original was written in
+the Director's first person; re-posted by the builder it says "the Director" instead, and B and the
+plumbing line carry today's findings. Nothing was removed.)*
+
+## THE FIVE THAT BLOCK EVERYTHING
+
+**A · WHO WRITES THE THREE AGENT BRIEFS?** `builder.md`, `critique.md`, `reviewer.md` — the standing
+instructions each agent reads before it starts. **The Director wrote all three, which is the fault:
+the agents that judge the Director read the Director's words.** 494 took them off the Director and
+gave them to nobody. **Until this is answered they cannot be corrected, and two of them are already
+known wrong** (a stale safe-list, and a chain diagram describing the arrangement 496 replaces).
+**AND IT NOW BLOCKS 497 AS WELL — see G.**
+
+**B · MAY THE CRITIQUE WRITE `INTENT.md`?** **ANSWERED — the 494 addendum gives it to the Critique,
+and the Critique has now used it** (+46 lines today, the first write under that permission). **Kept
+here because the brief still carries the older "you edit nothing" sentence beside the exception,
+and correcting that is item A.**
+
+**C · WHERE IS A FINDING WRITTEN, so the builder can read it itself?** **497 answers this — it is
+`findings/<n>.md` on the relay — and 497 cannot be built, because writing it down means editing the
+briefs.** The road is drawn and cannot be laid.
+
+**D · DOES 490's COMMIT GUARD STAND?** It refuses any commit naming no directive. **Two passes
+refused 490 as a rule with no mechanism; the mechanism was then built without his ruling.** It is
+live now. **Five of the Director's last fifteen commits would be refused by it.**
+
+**E · DOES 493's RENAME REACH THE STORED NAMES?** 410.3 says the stored keys and the database column
+are fenced **because renaming them rewrites every mind he has saved.** Until he answers, nothing
+moves.
+
+## AND TWO MORE
+
+**F · THE GUARANTEE HE ASKED FOR: a gate that refuses every build while a question of his is
+unanswered** — and that only *his own typed words* can clear. **Not built. Not a directive yet.
+Waiting on his go.**
+
+**G · 497 IS BLOCKED, AND SO IS THE MARK THAT PROVES A PASS RAN.** The before pass refused 497
+because every clause of it lands in a brief and no party may edit a brief (item A). **Two live
+consequences, both new today:** there is no lawful writer for
+`~/.claude/hooks/critique/<n>.before`, so the Critique gate can never legitimately go green; and
+**all four end-of-turn hooks are currently unregistered** — `settings.json` has no `Stop` group, so
+nothing has been enforced by mechanism today. **Neither was fixed, because fixing either is the same
+unanswered question.**
+
+## THE OLDER LIST — still open, still his, and none of it blocks today
+
+**The mind:** a soul's order is decorative; do the five souls read as someone; 475's remaining
+biases; the interrupt clamp at 5.2%; two weights never sorted; 427.5's question about 281.
+
+**The record:** 246's ledger rows for the pulls; the 88 rows with no home; **item 1 of the old list
+was stale and is struck — `INTENT.md` reads IN USE since 481.**
+
+**The plumbing:** whether a shell script needs the same gate as the mind; **495's three faults, all
+still live and all reproduced again today**; the commit guard's remaining bypasses (`if`/`for`, a
+broken interpreter, `sudo`/full path/leading variable); the two question classifiers that disagree;
+the hooks registered outside the repo; **and there is no kept test for any hook in the tree — nine
+rounds on one file, every proof thrown away.**
+
+**Me:** my scope to a checker was harmful once; my own wording still stands as law in two briefs —
+**and 497's refusal showed one of those sentences doing real work, `builder.md:46-49` citing 446 for
+a power 446 does not grant**; the verbatim gate catches a paraphrase but not a deletion; a one-byte
+mark satisfies the Critique gate; and **filing a mark turns a refused directive green forever, which
+is why A to G are written here rather than left in my memory.**
