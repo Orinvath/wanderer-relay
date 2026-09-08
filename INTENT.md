@@ -243,6 +243,15 @@ write a brief now that 494 took every file but two off the Director. **So `findi
 and no pass may write one yet.** *(Added by the 498 before pass; the line that stood here said 497
 was still under its before pass, which stopped being true.)*
 
+**AND THE REASON FOR THAT BLOCK NO LONGER STANDS — HE HAS RULED.** 499 landed on the relay carrying
+his words on who writes the briefs: *"then you edit them."* That names the party 497's refusal said
+did not exist, and 499 says in terms **"THIS UNBLOCKS 497."** **What is recorded here is his ruling,
+not a built directive** — 499 has not had its own before pass, and until it does, `findings/` still
+does not exist and no pass writes one. **What is struck is only the stated reason above: do not
+refuse work on the briefs on the ground that nobody may write them.** *(Added by the 498 after pass,
+which found the row above already contradicted by his own later words — Part Six, a distillation
+that goes stale enforces yesterday's intent with today's confidence.)*
+
 **498 — AND THE 490 COMMIT GUARD COMES OUT, BECAUSE IT WAS BUILT WITHOUT ASKING HIM.** His words:
 *"drop it, you never asked me for permission to create it, and this is why I revoked all your
 privileges."* **490.1 STANDS — every piece of work still gets a directive number. What comes out is

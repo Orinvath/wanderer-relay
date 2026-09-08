@@ -53397,3 +53397,257 @@ rounds on one file, every proof thrown away.**
 a power 446 does not grant**; the verbatim gate catches a paraphrase but not a deletion; a one-byte
 mark satisfies the Critique gate; and **filing a mark turns a refused directive green forever, which
 is why A to G are written here rather than left in my memory.**
+
+---
+
+# 498 — THE 490 COMMIT GUARD CAME OUT. PASSED FIRST TIME, NO ROUNDS.
+
+**HIS RULING:** *"drop it, you never asked me for permission to create it, and this is why I revoked
+all your privileges."*
+
+**This closes item D on the open list** — *"DOES 490's COMMIT GUARD STAND?"* He has answered it. It
+does not.
+
+## WHAT HE ASKED, AND WHAT WAS BUILT
+
+Remove the 490 block from `.claude/hooks/block-unnamed-commits.sh` — the `*commit*`/`*-m*` case and
+the `raw=$cmd` capture that feeds it. Everything else in that file stays: it is 442.B/472's guard
+and he has not touched it. 495 dies with it. 490.1 — every piece of work gets a directive number —
+stands as a rule. Prove the rest of the guard survives by running it, not reading it.
+
+**Commit `7452faa` on `/home/nobara-user/CC-Wanderer`: one file, 27 deletions, 0 additions.** Pushed
+to `origin/master`. Starting marker `2658505` per CLAUDE.md:425.
+
+`raw` and `490` now appear nowhere in that file. `bash -n` clean. The removal is the exact inverse of
+the two hunks `f1e0698` added, so the file is back to its pre-490 shape — **the reviewer proved that
+character by character** rather than taking it on trust: it extracted the 27 lines 490 added and the
+27 lines 498 removed and diffed them, identical but for three lines whose `>&2` had since become
+`>> ~/.claude/hooks/blocked.log` in `f70b3bb`, a later unrelated commit.
+
+**498.2 — 495 dies with it, and cost no code change. 495 WAS NEVER BUILT.** All three faults it names
+reproduced live in the baseline below. There was nothing left to repair. Both passes confirmed this
+independently: no 495 build commit exists in the repo.
+
+**498.3 — 490.1 stands.** What came out is the machine, not the rule.
+
+## THE ROUNDS — 478
+
+**Zero. Passed first time.** The before pass returned 0 refusals, the reviewer found no bugs, and the
+after pass returned 0 refusals. No check sent it back, so there is no fault and no fault-kind to
+record. The three optional notes are carried below in full; none of them stops anything and none is
+the builder's to repair.
+
+**One thing did get refused, and it was the builder.** The first `CRITIQUE BEFORE 498` call was
+written as a scoped brief — file paths, a numbered list of what to look at, two things to weigh —
+and `block-briefing-agents.sh` refused it under 492. **That is exactly the fault the hook exists to
+stop and it caught it before it reached a checker.** The pass was re-issued as `CRITIQUE BEFORE 498`
+and nothing else. Recorded because the brief says a narrow scope buys a clean report worth nothing,
+and this was one being written.
+
+## THE PROOF — RUN, NOT READ (498.4)
+
+18 payloads piped through the live hook, `cwd=/home/nobara-user/CC-Wanderer`, exit 2 = refused:
+
+**BEFORE the cut — 14 green, 4 RED.** The four red are exactly the 490 block:
+
+```
+FAIL  commit, no number      want=ALLOWED got=REFUSED  git commit -m "tidy the bench"
+FAIL  not a commit at all    want=ALLOWED got=REFUSED  git log --oneline | grep -m 1 commit
+FAIL  curl -m with commit    want=ALLOWED got=REFUSED  curl -m 5 http://localhost/api/commit
+FAIL  commit -F file         want=ALLOWED got=REFUSED  git commit -F /tmp/commit-message.txt
+```
+
+Three of those four are 495's documented faults, reproduced live — which is how the record knows 495
+was never built.
+
+**AFTER the cut — 18 green, 0 red.** Every 442.B/472 refusal still fires: `add -A`, `add .`, a
+directory, `--update`, `stage -A`, a wildcard, a command substitution, an indented `add -A`,
+`git -C <path> add -A`, and `commit -a` / `--all` / `-am`. Named files are still allowed. The scope
+guard still leaves his other projects untouched (rc=0).
+
+**The reviewer and the after pass each ran their own probes rather than trusting this one** — 26
+payloads and 21 payloads respectively, both against the live installed hook. Both reproduced the
+result. The reviewer additionally proved 484.15 still fails closed with a stubbed `python3` that
+answers `--version` and cannot import json: exit 2 in both his folders, exit 0 elsewhere.
+
+**A FIFTH FLIP THE RECORD DID NOT HAVE, found by the reviewer:**
+`git commit -m "the guard refuses git add -A now"` was refused before and passes now. 490's number
+test read the WHOLE command, so an ordinary commit message carrying no three-digit number was
+blocked. **That is 495's fault class, one instance wider than 495 recorded.** Moot now, and in the
+record because it was measured.
+
+**LIVE EVIDENCE, UNPLANNED:** the reviewer's first probe attempt was refused by the installed hook at
+HEAD because its heredoc contained `; then git add .`. The surviving detector fires on a genuine
+PreToolUse call, not only when the script is invoked by hand.
+
+## WHAT WAS NOT CHECKED — 334
+
+- **No Stop-group gate behaviour, because there is no Stop group.** `~/.claude/settings.json`
+  registers only a PreToolUse and a PostToolUse group. `require-critique.sh`, `require-review.sh`,
+  `require-in-order.sh` and `require-relay-current.sh` are present, executable, and never called.
+  **Pre-existing, not caused by 498, already item G.** All three checkers confirmed it independently.
+- **No kept test for this hook was added.** The probe lives in the session scratchpad and dies with
+  it. The record already carries *"no kept test for any hook in the tree"* as open. Adding one would
+  be building something he did not ask for, in the very machinery 498 exists to correct.
+- **Four-digit directive numbers were not tested** — the code that read numbers is gone.
+- The reviewer did not execute the five `require-*`/`record-review` hooks (instructed not to: running
+  them writes the marks the gates read) or `install.sh` (it writes settings); those got
+  present/executable/parses only.
+- No non-hook code was reviewed. 498 touched exactly one file.
+
+## EVERY CHOICE I HAD TO MAKE — MINE, AND REVERSIBLE
+
+1. **I deleted the blank line that separated the 490 block from the final `exit 0`**, along with the
+   block itself. 498 names the case and the capture; the orphaned blank line is neither. I removed it
+   because leaving it produces a double blank line that the pre-490 file did not have — the diff is
+   then not the clean inverse of `f1e0698`. Reversible: one blank line.
+2. **I did not fix the 495 heading on the relay**, though the before pass showed the gates cannot see
+   the strike (Note 1 below). `DIRECTIVES.md` is one of the two files 494.1 leaves in the Director's
+   hands, so it is not the builder's to edit. Named, not done.
+3. **In reproducing the three checkers verbatim below, the only alteration is un-escaping the
+   harness's HTML entities** — `&gt;`, `&lt;`, `&amp;` restored to `>`, `<`, `&`. Those are transport
+   artifacts of how a subagent's output reaches the builder, not the checkers' words. No other
+   character was changed, nothing was cut, and nothing was summarised.
+
+## WHAT LANDED WHILE THIS RAN, NOT ACTED ON
+
+**499 is on the relay** — *"THE DIRECTOR EDITS THE THREE BRIEFS. AND THE RENAME GOES EVERYWHERE."*
+His ruling *"then you edit them"* amends 494.1 and, in 499's own words, **unblocks 497**. That is the
+answer to item A, which was blocking four directives. **It is the next directive, not this one, and
+nothing of it was built here.** The after pass has already corrected the now-stale 497 row in
+INTENT.md on that ground.
+
+---
+
+# THE THREE CHECKERS, IN THEIR OWN WORDS, WHOLE
+
+## 1 · CRITIQUE, BEFORE PASS — 0 refusals, 1 optional
+
+CRITIQUE — BEFORE PASS, Directive 498. **0 refusals, 1 optional.**
+
+**NOTHING IN 498 IS REFUSED, AND I WANT TO BE PLAIN ABOUT WHY RATHER THAN JUST SAYING "CLEAN."** 498 is his own ruling, quoted, removing a mechanism he never authorised. Both of 490's passes refused that mechanism and both said the question was his; he has now answered it. Every one of the seven kinds comes back empty: it is not a limit nobody ruled — it removes one; it decides nothing for the mind and touches none of its code; it puts no words in its mouth; it collides with no standing ruling, because 498.3 preserves 490.1 explicitly and takes out only the enforcement; it is not already answered by the build; and it is not correct-but-wrong-for-this-project — it is the project's own correction arriving. **The builder is left no decision (250):** the code named is exactly the code that exists.
+
+**I AUDITED IT AGAINST THE FILE, NOT AGAINST 498'S ACCOUNT OF IT (385).** In `/home/nobara-user/CC-Wanderer/.claude/hooks/block-unnamed-commits.sh` the 490 work is exactly three sites and no more — line 72 `raw=$cmd`, the comment block at 169–181, and the nested `*commit*` / `*-m*` case at 182–193. `grep -n raw` returns those two lines and nothing else, so the capture has no second consumer and comes out cleanly. The block sits after the last `exit 9` test and before the final `exit 0`; nothing reads past it. **The one shape I would have flagged if 498 had been vaguer, it is not:** there is a *second* `-m` case at lines 73–85, and that one is 472's message-stripping and must stay. 498 disambiguates it three ways — "at the end", "the `*commit*` / `*-m*` case", and by naming `raw=$cmd` as the thing that feeds it. That is enough.
+
+**AND I RAN IT RATHER THAN READ IT**, payloads fed to the live hook with `cwd=/home/nobara-user/CC-Wanderer`:
+
+```
+git commit -m "tidy the bench"                                   -> exit 2, "BLOCKED by 490"
+git log --oneline | grep -m 1 commit                             -> exit 2, "BLOCKED by 490"
+git add -A                                                       -> exit 2, "BLOCKED by 442.B/472"
+git commit -a -m "498 something"                                 -> exit 2, "BLOCKED by 442.B/472"
+git add server/src/accept.js && git commit -m "498 remove ..."    -> exit 0
+```
+
+So the guard is genuinely live — it is registered as a `PreToolUse` Bash hook in `/home/nobara-user/.claude/settings.json`, unlike the four Stop hooks — and the two refusals 498.4 demands survive come from their own separate blocks at lines 129–142 and 161–165, which the removal does not reach. **That is the baseline the builder must reproduce after the cut, not evidence that it did.**
+
+**OPTIONAL 1 — 498.2 STRIKES 495, AND THE TWO GATES THAT ORDER THE QUEUE CANNOT SEE THE STRIKE. THEY READ THE RELAY HEADING, AND THE HEADING DOES NOT SAY IT.**
+Both `require-in-order.sh` and `require-critique.sh` carry the same test:
+
+```
+struck_on_relay () { grep -qEi "^## Directive 0*$n\b.*(WITHDRAWN|CANCELLED|CANCELED|STRUCK)" DIRECTIVES.md ; }
+```
+
+`DIRECTIVES.md:14098` reads `## Directive 495 — THE 490 COMMIT GUARD IS CRUDE. THREE FAULTS, ALL REPRODUCED.` I ran that exact grep against it: **495 does not read as struck.** So a directive he has struck stays in both gates' arithmetic — the in-order hook keeps naming it as unfinished and holding the queue on it, and the Critique gate keeps demanding a `495.after` for a pass that will now never run. There is already a `495.before` on disk with no partner, which is the shape that leaves a gate quietly stuck. **Why this is a note and not a refusal:** it stops nothing today (the Stop group is absent from `settings.json`, so neither hook executes at all — the 497 pass proved that and it is still true), it breaks none of his intent, and the remedy is one word in a heading. **Why it is worth a note anyway:** it is not the builder's to fix — `DIRECTIVES.md` is one of the two files 494.1 leaves in the Director's hands — so if nobody names it here it belongs to no one, and it will surface later as a gate refusing to go green for a reason nobody remembers. **498 itself will need its own report on the relay for the same machinery.**
+
+**WHAT I DID — my one permitted edit, `/home/nobara-user/wanderer-relay/INTENT.md`.** The file carried a paragraph saying 497 was *"under its before pass"* and therefore not recorded; that stopped being true — 497's before pass ended in a refusal and 497 is now blocked and unbuilt. I replaced that stale line with a proper row for 497 in his quoted words, with its status stated plainly so no future pass reads it as a live permission to write `findings/<n>.md` when `findings/` does not exist. I added a row for 498 directly under the existing 490 row, in his words — *"drop it, you never asked me for permission to create it, and this is why I revoked all your privileges"* — because Part Two was carrying 490 as law with no trace that its mechanism was built unauthorised and struck by him, and that sentence is the stated reason the privileges went. **I added no rule of my own, changed nothing that was already there, and quoted rather than compressed (484.29).** I wrote nothing else.
+
+**334 — WHAT I DID NOT CHECK.** I read `INTENT.md` whole; 495, 496, 497 and 498 whole on the relay; `block-unnamed-commits.sh` whole and ran it against five payloads; `require-in-order.sh` whole; `require-critique.sh` only its `struck_on_relay` / `question_directive` region; `/home/nobara-user/.claude/settings.json` whole; the `495.before` and `496.before` marks whole; `builder.md` by grep only, for what it is permitted to write. I did **not** read `reviewer.md`, `critique.md`, `require-review.sh`, `require-relay-current.sh`, `record-review.sh`, `block-briefing-agents.sh`, `install.sh`, `CLAUDE.md`, `HANDOFF.md`, `MIND_DECISIONS.md`, `AUDITS.md`, `TODO.md`, or any of the mind's code — 498 reaches none of it. I read only the last region of `REPORTS.md` plus a grep across it, not its 53,000 lines. **Two things I could not settle:** why the `Stop` hook group is missing from `settings.json` (I confirmed it is absent and that the scripts still refuse correctly when run by hand, but not what removed it); and there is a second, longer `495.before` sitting untracked in the relay root, different in content from the one in `~/.claude/hooks/critique/` — I did not establish which hand wrote it or whether anything reads it.
+
+**0 refusals, 1 optional.**
+
+## 2 · REVIEWER — no bugs found
+
+## REVIEW 498 — no bugs found. Here is the work.
+
+**Directive I found myself** (`/home/nobara-user/wanderer-relay/DIRECTIVES.md:14256`): remove the 490 block from `block-unnamed-commits.sh`; 495 dies with it; 490.1 (the rule) stands; and *prove the rest of the guard survives by running it, not reading it*.
+
+**Commits** (`/home/nobara-user/CC-Wanderer`): `2658505` starting marker, `7452faa` the build — one file, 27 deletions, 0 additions, in `/home/nobara-user/CC-Wanderer/.claude/hooks/block-unnamed-commits.sh`.
+
+### Q1 · Does it do what it claims?
+Yes, and the removal is exact rather than approximately right. I extracted the lines 490 *added* (`f1e0698`) and the lines 498 *removed* and diffed them: 27 against 27, character-identical except three lines whose `>&2` had since become `>> ~/.claude/hooks/blocked.log` in `f70b3bb`. Nothing of 490 was left behind and nothing else was taken — `grep 'raw\|490'` over the file returns nothing, and the only residue against the true pre-490 file (`f1e0698^`) is 496's own `blocked.log` redirection, which I confirmed by ancestry is a later unrelated commit, not a 498 side effect. Worktree clean, `bash -n` clean.
+
+### Q2 · Does it break anything?
+I built a 26-payload probe (`…/scratchpad/probe.sh`) and piped it through the pre-498 script and the real installed hook, with `HOME` redirected into my scratchpad so the guard's log writes stayed mine.
+
+- **Before: 21 ok / 5 red. After: 26 ok / 0 red.** Every flip is a shape the 490 block was refusing.
+- **498.4 satisfied, run not read** — all 11 staging refusals still fire (`-A`, `.`, a directory, `--update`, `stage`, a wildcard, a command substitution, indented, `git -C path add -A`, inside an `if`, inside a subshell) and all 4 `commit -a` refusals still fire (`-a -m`, `--all`, `-am`, `-m "x" -a`).
+- **498.1 confirmed** — the four shapes 495 named now pass: a commit naming no directive, `git log --oneline | grep -m 1 commit`, `curl -m 5 .../commit`, `git commit -F /tmp/commit-message.txt`.
+- **A fifth flip the record did not have:** `git commit -m "the guard refuses git add -A now"` was refused before and passes now. 490's number test read the *whole* command, so an ordinary message with no three-digit number in it was blocked. That is 495's fault class, one instance wider than 495 recorded. Moot now, but it belongs in the record.
+- **484.15 fail-closed survives** — with a stubbed `python3` that answers `--version` and cannot import json: exit 2 in `CC-Wanderer`, exit 2 in `wanderer-relay`, exit 0 elsewhere. The scope guard still leaves his other projects untouched.
+- **Still wired**: `/home/nobara-user/.claude/settings.json` PreToolUse Bash → this script, unchanged.
+- **Live evidence, unplanned**: my first probe attempt was refused by the installed hook at HEAD because my heredoc contained `; then git add .`. The surviving detector fires on a genuine PreToolUse call, not only when I invoke the script by hand.
+- **No stale references**: `grep -rn 490` over `/home/nobara-user/CC-Wanderer/.claude/` returns nothing; INTENT.md already carries 498's outcome.
+
+### 464 · The hooks
+All nine `.sh` in `/home/nobara-user/CC-Wanderer/.claude/hooks/` are **present, executable, and parse** (`bash -n`). Both python3 payload probes print exactly `x` and `/a/b.js` (`/usr/bin/python3`, 3.14.7). No failure to report.
+
+I invoked only the three `block-*.sh` guards — I checked the folder rather than trusting the list. All three answer correctly: the commit guard as above; `block-real-geometry.sh` exits 2 on `server/src/language.js` and `server/src/geometry.js` and 0 on a sibling; `block-briefing-agents.sh` allows `REVIEW 498` to a chain role, refuses the same with a scope appended, refuses `fork`, and ignores non-chain agents.
+
+### Stated in full, not counted and dropped
+1. **The four `require-*.sh` gates are registered nowhere.** Settings holds only PreToolUse (`Bash`, `Edit|Write|NotebookEdit`, `Agent|Task|SendMessage`, `Agent|Task`) and PostToolUse (`Agent|Task`). None is a `require-*` hook, so the Critique gate, the review gate, the in-order gate and the relay-current gate are inert. **Pre-existing and not caused by 498** — the builder disclosed it in the commit message as open item G. Recording it because I was told to check this folder.
+2. **`say ()` at line 86 is defined and never called.** Dead since before 498 (present at `2658505` and earlier). Not introduced here.
+3. **`findings/498.md` does not exist and neither does `/home/nobara-user/wanderer-relay/findings/`.** 497.1 says every review writes its findings there; my brief does not name that file and 334 forbids me writing outside my scratch. I did not create it. Reporting the conflict rather than resolving it — the resolution is 499.1's, not mine.
+
+### What I did not check (334)
+I did not execute `require-in-order.sh`, `require-critique.sh`, `require-review.sh`, `require-relay-current.sh` or `record-review.sh` (instructed), nor `install.sh` (it writes settings); those five and `install.sh` got present/executable/parses only. I did not review non-hook code — 498 touched exactly one file. I did not test four-digit directive numbers, because the code that read numbers is gone. I did not read REPORTS.md.
+
+**Footprint:** everything I wrote is under `…/e49ca728-976c-462d-8835-a8d6a592cd1f/scratchpad` (`probe.sh`, `before.sh`, `after.sh`, `fakehome/`, `brokenpy/`). The one thing touched outside it was the real `~/.claude/hooks/blocked.log`, where the live PreToolUse guard appended its own refusal of my first probe — the hook doing its job, not an edit by me.
+
+## 3 · CRITIQUE, AFTER PASS — 0 refusals, 1 optional
+
+**CRITIQUE — AFTER PASS, DIRECTIVE 498. 0 refusals, 1 optional.**
+
+**NOTHING IN 498 IS REFUSED.** His intent survived being built. The directive was one sentence of his — *"drop it, you never asked me for permission to create it"* — and what came out is exactly the machine and nothing else. I audited the file, not the report (385).
+
+**WHAT I VERIFIED IN THE CODE.** Build commit `7452faa` on `/home/nobara-user/CC-Wanderer/.claude/hooks/block-unnamed-commits.sh`: **27 deletions, 0 additions, one file.** The `raw=$cmd` capture and the trailing `*commit*`/`*-m*` case are gone; `raw` and `490` now appear nowhere in the file, and nowhere in the repo outside unrelated coordinates in `glyphs.json` and a spec SVG. `bash -n` clean. Starting commit `2658505` exists (238). Working tree clean apart from `rendering-ledger.json`, an untracked runtime artifact written at 20:23, after the build — not 498's.
+
+**498.4 SAYS RUN THEM, DO NOT READ THEM, SO I RAN THEM MYSELF** rather than trusting the builder's account. 21 payloads piped through the live hook with `cwd` in his folders:
+
+- *Now allowed, correctly:* a commit naming no directive number; `git log --oneline | grep -m 1 commit`; `curl -m 5 .../commit`; `git commit -F /tmp/commit-message.txt`; a named-file add followed by a commit. All rc=0. Those four were the false refusals the guard was producing on his own reading of his own log.
+- *Still refused, all rc=2:* `add -A`, `add .`, `add --update`, `stage -A`, a directory, a wildcard, a command substitution, an indented `add -A`, `git -C <path> add -A`, a quoted dot, `commit -a`, `commit --all -m`, `commit -am`, and `commit -m "…" -a` with the flag after the message.
+- *Scope guard:* `add -A` in another project left untouched, rc=0.
+
+So the 442.B/472 guard survives whole and only 490's block is gone — which is what §1 and §4 asked for.
+
+**498.2 AND 498.3 HOLD.** No 495 build commit exists in the code repo, so striking it costs no code. 490.1 stands as a rule with no mechanism, and he ruled that in terms — I am not re-raising 442's "enforce by mechanism" against it, because he settled it (347).
+
+**THE LOOP RAN.** `~/.claude/hooks/.reviewed` holds `7452faa`, so a reviewer opened the built state and returned on it, in the right order.
+
+---
+
+**NOTE 1 (optional, stops nothing) — THE 498 BEFORE PASS LEFT NO MARK, AND ITS FINDINGS EXIST NOWHERE ANYONE CAN READ THEM. I RAN THIS AFTER PASS WITHOUT THEM.**
+
+There is no `~/.claude/hooks/critique/498.before`. The marks stop dead at `496.before`, 15:51 — no 496 after, no 497 either pass, no 498 either pass. That a 498 before pass ran at all I know only from two side-effects: the starting commit says *"the before pass is still running,"* and INTENT.md carries a paragraph signed *"(Added by the 498 before pass)."* **What it found, whether it refused anything, and whether the builder answered it — that is recoverable from nothing.** The two passes are supposed to cross without meeting; on this directive they did not cross.
+
+The builder named the general condition honestly in its own commit — all four end-of-turn gates are unregistered and inert, and that is item G on his open list. I confirmed it: `~/.claude/settings.json` registers only a PreToolUse and a PostToolUse group, so `require-critique.sh`, `require-review.sh`, `require-in-order.sh` and `require-relay-current.sh` are present, executable, and never called. **I am reporting it anyway because the consequence has a name of its own that item G does not carry:** this is the second directive in a row where a pass spoke into the void, and it is precisely what 497 was written to fix — which makes it a measured instance in favour of 497 rather than a repeat of a known complaint. It is a note and not a refusal because it breaks nothing about 498's build, and it is not the builder's to repair.
+
+---
+
+**THE ONE FILE I EDITED — `/home/nobara-user/wanderer-relay/INTENT.md`, and why.**
+
+The 497 row in that file states *"497 IS BLOCKED AND UNBUILT … no party is ruled able to write a brief now that 494 took every file but two off the Director."* 499 has since landed on the relay carrying his ruling — *"then you edit them"* — which names that party, and 499 says in terms **"THIS UNBLOCKS 497."** The row as it stood would have made a future pass refuse work on the briefs on a ground he has already removed: a distillation enforcing yesterday's intent with today's confidence, which is the fault Part Six exists to stop. **I struck only the stated reason, quoted his words rather than compressing them, and recorded explicitly that 499 has not had its own before pass** — so `findings/` still does not exist and no pass writes one yet. I added no rule of my own and ruled on nothing.
+
+**WHAT I DID NOT CHECK (334).** I did not read the reviewer's findings — there is no written review, only the `.reviewed` state mark, and `findings/` does not exist. I did not read the 498 before pass's findings; there are none to read. I read only the heads of `require-critique.sh` and `record-review.sh` and did not audit the other four hooks' behaviour — `block-unnamed-commits.sh` is the only one 498 touches. REPORTS.md carries no 498 entry, which I did not treat as a fault, since under 496.3 the Director writes it once when the loop closes. I noticed `MIND_DECISIONS.md` is absent from the relay root and did not pursue it: 498 touches no mind code and owes it no row. And I did not re-audit 490's original build beyond the two hunks 498 reverses.
+
+**0 refusals, 1 optional.**
+
+---
+
+# WHAT 498 LEAVES OPEN — HIS, ONE SENTENCE EACH
+
+**1 · THE 495 HEADING DOES NOT SAY STRUCK, SO THE GATES CANNOT SEE IT.** `require-in-order.sh` and
+`require-critique.sh` both test the heading for WITHDRAWN/CANCELLED/STRUCK; 495's heading says none of
+those, so it stays in the queue's arithmetic and the Critique gate keeps demanding a `495.after` that
+will never exist. **One word in one heading, and `DIRECTIVES.md` is his.**
+
+**2 · TWO PASSES IN A ROW HAVE SPOKEN INTO THE VOID.** There is no `498.before` mark and no
+`498.after`; the marks stop at `496.before`. The after pass ran without the before pass's findings.
+**This is the measured case for 497, and 499 has just unblocked 497.**
+
+**3 · THERE IS STILL NO KEPT TEST FOR ANY HOOK IN THE TREE.** Three separate probes were written for
+this one directive — the builder's 18, the reviewer's 26, the after pass's 21 — and all three die with
+their scratchpads. **That is now four directives' worth of proof thrown away.**
+
+**4 · `say ()` AT LINE 86 IS DEAD CODE.** Defined, never called, and older than 498. Named, not
+touched.
