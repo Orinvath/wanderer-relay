@@ -300,7 +300,10 @@ for anything NEW. Exceptions that carry meaning: RED for a failing check and the
 6. **SOMETHING ALREADY ANSWERED BY THE BUILD** (379, step 6b).
 7. **AND THE HARDEST: A CHANGE THAT IS CORRECT AND STILL NOT WHAT THIS PROJECT IS FOR.**
 
-**AND WHAT IT MAY NOT DO:** it writes no code, edits nothing, and rules on nothing. It REPORTS, and
+**AND WHAT IT MAY NOT DO:** it writes no code and rules on nothing. **IT EDITS EXACTLY ONE FILE —
+THIS ONE.** His ruling: *"That should have been Critique's job all along, it's what I ruled its
+purpose was — to define intent and manage it."* **So this file is the Critique's to keep current, in
+his words quoted rather than compressed** — and nothing else it touches, ever. It REPORTS, and
 only he decides. **A critique that always finds something teaches us to ignore it** — it says
 plainly when it has nothing.
 
