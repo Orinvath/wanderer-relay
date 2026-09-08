@@ -14215,3 +14215,40 @@ builder must not choose it (250).
 shapes are: allow the two relay files plus the paths each agent needs,
 or bind nothing and let the rule stand on the record with the rounds
 as its only evidence. **Both are his.**
+
+## Directive 497 — EACH PASS WRITES ITS OWN FINDINGS. THE BUILDER READS THEM. THE DIRECTOR IS OUT OF IT.
+
+**HIS RULING, and his reason in his own words:** *"that doesnt seem
+very efficient, and leaves a lot of room for you to make mistakes and
+make decisions you shouldnt be making."*
+
+**HOW IT WAS DONE BEFORE: through the Director's hands, every time.**
+A pass ended, its words landed in the Director's window, and the
+Director decided what mattered and passed it down. **Every dropped
+finding, the pass filed under two numbers, and our words in the mind's
+mouth all happened in that hand-off.**
+
+### 1 · EVERY PASS AND EVERY REVIEW WRITES ITS OWN FINDINGS
+To `findings/<number>.md` on the relay, appended, **in its own words,
+whole.** The Critique and the reviewer may write **that one file and
+nothing else** — the same shape as the Critique's exception for
+`INTENT.md`.
+
+### 2 · THE BUILDER READS IT ITSELF
+`BUILD 497` and it opens `findings/497.md`. **Nothing is handed to it
+and nothing is summarised for it.** Its brief names the file.
+
+### 3 · THE DIRECTOR NEVER TOUCHES IT
+Not to write, not to tidy, not to "clarify". **The Director's report
+still goes to `REPORTS.md`, and may quote the findings file, but the
+findings file is the record and the report is the account of it.**
+
+### 4 · AND HE CAN READ IT WITHOUT ME
+**One file per directive, everything every checker said, in order,
+unedited.** If the Director's report and that file ever disagree, **the
+file is what happened.**
+
+### 5 · WHAT THIS REPLACES
+The mark files under `~/.claude/hooks/critique/` stay as the gate's
+evidence that a pass ran. **They are not the findings any more, and
+they are not what the builder reads.**
