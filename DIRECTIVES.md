@@ -14284,3 +14284,38 @@ enforced it, not the rule.**
 ### 4 · PROVE THE REST OF THE GUARD SURVIVES
 The staging refusals and the `commit -a` refusals are older than 490
 and must still fire. **Run them, do not read them.**
+
+## Directive 499 — THE DIRECTOR EDITS THE THREE BRIEFS. AND THE RENAME GOES EVERYWHERE.
+
+**Two rulings of his, written down because the builder cannot act on
+what was only said in the terminal.**
+
+### 1 · THE DIRECTOR KEEPS THE THREE BRIEFS
+`builder.md`, `critique.md`, `reviewer.md`. **His ruling: "then you
+edit them."** 494.1 is amended by this: the Director may write those
+three files **and nothing else** beyond the two relay files.
+
+**AND THE RISK IS ON THE RECORD RATHER THAN HIDDEN:** the two agents
+that judge the Director will be reading the Director's words. **The
+check is the relay** — every refusal they make is written there, and
+if refusals dry up while the rounds stay high, the briefs are being
+narrowed. **He watches that; nothing else can.**
+
+**THIS UNBLOCKS 497**, whose every clause lands in a brief.
+
+### 2 · 493 GOES AHEAD EVERYWHERE THE WORD MEANS WORDS
+**His ruling, and his reason:** *"we've never even tested a mind yet
+let alone created one."* **410.3's fence exists to protect saved
+minds. There are none.** So the stored keys and the `word_links.mark`
+column are renamed with everything else.
+
+**WHAT STILL DOES NOT CHANGE — the addendum stands:** a mark that
+means *a sign that something happened* keeps its name. **The
+Critique's `.before`/`.after` evidence marks, a marker in a file, a
+mark on a scale.** One reading at a time, and anything unsure is left
+alone and reported.
+
+**AND IT PROVES ITSELF THE WAY 467 SHOWED IT MUST:** the bench reading
+the same is **not** enough — that method once certified this exact
+rename as clean while the mind's senses were severed. **Prove the
+senses still carry: a signal in, and the words reaching the mind.**
